@@ -524,7 +524,8 @@
       },
       "effects": {
         "WTgRpzj4EQGJokA6": {
-          "name": "Trattenuto dai Tentacoli Neri"
+          "name": "Trattenuto dai Tentacoli Neri",
+          "description": "<p>Sei &amp;reference[restrained apply=false] dai tentacoli finché l'incantesimo non termina o finché non usi la tua azione per effettuare una prova di [[/check Strength]] o [[/check Dexterity]] (a tua scelta) contro la CD del tiro salvezza dell'incantesimo dell'incantatore per fuggire. Se la superi, ti liberi.</p>"
         }
       }
     },
@@ -796,7 +797,10 @@
           "name": "Lancia"
         },
         "dnd5eactivity000": {
-          "name": "Tiro Salvezza all'Ingresso / a Inizio Turno"
+          "name": "Tiro Salvezza all'Ingresso / a Inizio Turno",
+          "description": {
+            "value": "<p>Quando una creatura entra nell'area dell'incantesimo per la prima volta in un turno o vi inizia il proprio turno, deve effettuare un tiro salvezza su Costituzione. Se lo fallisce, la creatura subisce 5d8 danni da veleno, o la metà di quei danni se lo supera. Le creature subiscono l'effetto anche se trattengono il respiro o non hanno bisogno di respirare.</p>"
+          }
         }
       }
     },
@@ -982,7 +986,8 @@
       "description": "<p>L'incantatore evoca elementali che appaiono in uno spazio non occupato che egli possa vedere entro gittata. Sceglie una delle seguenti opzioni per decidere cosa appare:</p>\n<ul>\n<li>Un elementale con grado sfida 2 o inferiore</li>\n<li>Due elementali con grado sfida 1 o inferiore</li>\n<li>Quattro elementali con grado sfida 1/2 o inferiore</li>\n<li>Otto elementali con grado sfida 1/4 o inferiore</li>\n</ul>\n<p>Un elementale evocato da questo incantesimo scompare se ridotto a 0 punti ferita o alla fine dell'incantesimo.</p>\n<p>Le creature evocate sono amichevoli nei confronti dell'incantatore e dei suoi alleati. L'incantatore tira per l'iniziativa delle creature evocate come gruppo, che ha i propri turni.&nbsp;Le creature evocate obbediscono ai comandi verbali impartiti dall'incantatore (nessuna azione richiesta). Se l'incantatore non impartisce un comando, le creature evocate si difendono da eventuali altre creature ostili, ma altrimenti non intraprendono alcuna azione.</p>\n<p>Il DM possiede le statistiche delle creature.</p>\n<p><strong>Ai Livelli Superiori.</strong>&nbsp;Quando l'incantatore lancia questo incantesimo utilizzando determinati slot incantesimo di livello superiore, sceglie una delle opzioni di evocazione precedenti ed appare un numero maggiore di creature: il doppio utilizzando uno slot incantesimo di 6° livello e il triplo utilizzando uno slot incantesimo di 8° livello.</p>",
       "effects": {
         "UEWE8BJT1TE6KDt0": {
-          "name": "Elementale Evocato"
+          "name": "Elementale Evocato",
+          "description": "<p>Sei stato evocato dall'incantesimo @UUID[Compendium.dnd5e.spells.Item.KgEw3sDr39C6g8nY]{Evoca Elementali Minori}.</p>"
         }
       }
     },
@@ -992,7 +997,8 @@
       "materials": "One holly berry per creature summoned.",
       "effects": {
         "4IJ3RAavRBuB52H9": {
-          "name": "Essere dei Boschi Evocato"
+          "name": "Essere dei Boschi Evocato",
+          "description": "<p>Sei stato evocato dall'incantesimo @UUID[Compendium.dnd5e.spells.Item.dEfSELiY1eO3cpX9]{Evoca Creature Boschive}.</p>"
         }
       }
     },
@@ -1341,7 +1347,8 @@
       "description": "<p>L'incantatore tocca una creatura e le conferisce una certa misura di protezione dalla morte.</p>\n<p>La prima volta in cui il bersaglio dovrebbe scendere a 0 punti ferita a seguito dei danni subiti, il bersaglio scende invece a 1 punto ferita e l'incantesimo termina.</p>\n<p>Se l'incantesimo ha ancora effetto quando il bersaglio è soggetto a un effetto che lo ucciderebbe istantaneamente senza infliggere danni, quell'effetto è invece negato contro il bersaglio e l'incantesimo termina.</p>",
       "effects": {
         "pTOjdHl8TyRdhRjl": {
-          "name": "Interdizione alla Morte"
+          "name": "Interdizione alla Morte",
+          "description": "<p>Hai ricevuto una certa protezione dalla morte. La prima volta che dovresti scendere a 0 punti ferita dopo aver subito danni, scendi invece a 1 punto ferita e l'incantesimo termina.</p><p>Se l'incantesimo è ancora attivo quando sei soggetto a un effetto che ti ucciderebbe istantaneamente senza infliggere danni, quell'effetto viene invece negato contro di te e l'incantesimo termina.</p>"
         }
       },
       "activities": {
@@ -1565,7 +1572,10 @@
           "name": "Comanda Creatura"
         },
         "MrdlZ8bb33mejJ1P": {
-          "name": "Assumi il Controllo Diretto"
+          "name": "Assumi il Controllo Diretto",
+          "description": {
+            "value": "<p>Assumi il controllo totale e preciso del bersaglio. Fino alla fine del tuo turno successivo, la creatura effettua soltanto le azioni che scegli e non fa nulla che tu non le consenta di fare. Durante questo periodo puoi inoltre fare in modo che la creatura usi una reazione, ma ciò richiede che anche tu usi la tua reazione.</p>"
+          }
         }
       },
       "effects": {
@@ -1614,7 +1624,10 @@
       "description": "<p>L'incantatore tenta di soggiogare un umanoide entro gittata e che egli sia in grado di vedere. Quell'umanoide deve superare un tiro salvezza su Saggezza, altrimenti sarà affascinato dall'incantatore per la durata dell'incantesimo. Se l'incantatore o le creature a lui amichevoli stanno combattendo contro l'umanoide, quest'ultimo dispone di vantaggio al tiro salvezza.</p><p>Mentre il bersaglio è affascinato, l'incantatore dispone di un legame telepatico con lui finché entrambi si trovano sullo stesso piano di esistenza. L'incantatore può usare questo legame telepatico per impartire comandi alla creatura finché è cosciente (nessuna azione richiesta), ed essa farà del suo meglio per obbedire. L'incantatore può specificare un corso d'azione semplice e generico come \"attacca quella creatura\", \"corri fin laggiù\" o \"portami quell'oggetto\". Se la creatura porta a termine l'ordine e non riceve ulteriori indicazioni da parte dell'incantatore, essa si difende e si protegge al meglio delle sue capacità.</p><p>L'incantatore può usare la sua azione per assumere il controllo totale e preciso del bersaglio. Fino alla fine del turno successivo dell'incantatore, la creatura effettua soltanto le azioni scelte dall'incantatore e non fa niente che l'incantatore non le consenta di fare. Durante questo periodo, l'incantatore può anche fare in modo che la creatura usi una reazione, ma per farlo dovrà usare la sua stessa reazione.</p><p>Ogni volta che il bersaglio subisce danni, effettua un nuovo tiro salvezza su Saggezza contro l'incantesimo. Se lo suepra, l'incantesimo termina.</p><p><strong>Ai Livelli Superiori.&nbsp;</strong>Quando l'incantatore lancia questo incantesimo con uno slot incantesimo di 6° livello, la durata diventa concentrazione, fino a 10 minuti. Quando usa uno slot incantesimo di 7° livello, la durata diventa concentrazione, fino a 1 ora. &nbsp; Quando usa uno slot incantesimo di 8° livello o superiore, la durata diventa concentrazione, fino a 8 ore.</p>",
       "activities": {
         "NB35NZ5xw2Gol0nu": {
-          "name": "Assumi il Controllo Diretto"
+          "name": "Assumi il Controllo Diretto",
+          "description": {
+            "value": "<p>Assumi il controllo totale e preciso del bersaglio. Fino alla fine del tuo turno successivo, la creatura effettua soltanto le azioni che scegli e non fa nulla che tu non le consenta di fare. Durante questo periodo puoi inoltre fare in modo che la creatura usi una reazione, ma ciò richiede che anche tu usi la tua reazione.</p>"
+          }
         },
         "200TV6FrMbK0EJzM": {
           "name": "Comanda Creatura"
@@ -1648,7 +1661,10 @@
           "name": "Lancia"
         },
         "dnd5eactivity000": {
-          "name": "Tiro Salvezza contro Incubo"
+          "name": "Tiro Salvezza contro Incubo",
+          "description": {
+            "value": "<p>Puoi fare in modo che il messaggero appaia mostruoso e terrificante al bersaglio. Se lo fai, il messaggero può trasmettere un messaggio di non più di dieci parole, dopodiché il bersaglio deve effettuare un tiro salvezza su Saggezza. Se lo fallisce, gli echi della mostruosità illusoria generano un incubo che dura per tutta la durata del sonno del bersaglio e impedisce al bersaglio di ottenere qualsiasi beneficio da quel riposo. Inoltre, quando il bersaglio si sveglia, subisce 3d6 danni psichici.</p><p>Se possiedi una parte del corpo, una ciocca di capelli, un frammento d'unghia o una parte simile del corpo del bersaglio, il bersaglio effettua il tiro salvezza con svantaggio.</p>"
+          }
         }
       }
     },
@@ -2261,7 +2277,8 @@
       "materials": "una cinghia di cuoio legata attorno al braccio o a un'appendice simile",
       "effects": {
         "OnWa3f4IQ3pneB5T": {
-          "name": "Libertà di Movimento"
+          "name": "Libertà di Movimento",
+          "description": "<p>Il tuo movimento non è influenzato dal &amp;reference[difficult terrain] e gli incantesimi e gli altri effetti magici non possono ridurre la tua velocità né renderti &amp;reference[Paralyzed apply=false] o &amp;reference[Restrained apply=false].</p><p>Puoi inoltre spendere 1,5 metri di Movimento per sfuggire automaticamente alle costrizioni non magiche, come Manette o una creatura che ti tiene &amp;reference[Grappled apply=false]. Infine, trovarti Sott'Acqua non impone penalità al tuo movimento o ai tuoi attacchi.</p>"
         }
       }
     },
@@ -2314,7 +2331,8 @@
       "description": "<p data-parsoid=\"{&quot;dsr&quot;:[141,381,0,0]}\">L'incantatore impartisce un comando magico a una creatura entro gittata e che egli sia in grado di vedere, obbligandola a compiere per lui un servizio di qualche tipo o ad astenersi da un corso d'azione o un'attività, come da lui stabilito.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[383,556,0,0]}\">Se la creatura è in grado di comprendere l'incantatore, deve superare un tiro salvezza su Saggezza, altrimenti è affascinata dall'incantatore per la durata dell'incantesimo.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[558,751,0,0]}\">Finché la creatura è affascinata dall'incantatore, subisce 5d10 danni psichici ogni volta che agisce in maniera dichiaratamente contraria alle sue istruzioni, ma non più di una volta al giorno.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[753,857,0,0]}\">Se la creatura non è in grado di comprendere l'incantatore, non subisce l'effetto di questo incantesimo.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[859,986,0,0]}\">L'incantatore può impartire un qualsiasi comando a sua scelta, ad eccezione di quelle attività che condurrebbero a morte certa.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[988,1058,0,0]}\">Se l'incantatore impartisce un comando suicida, l'incantesimo termina.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1060,1134,0,0]}\">L'incantatore può terminare l'incantesimo prematuramente usando un'azione.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1136,1436,0,0]}\">Anche un incantesimo&nbsp;<a href=\"https://incantesimibellibelli.fandom.com/it/wiki/Desiderio\" rel=\"mw:WikiLink\" data-ve-attributes=\"{&quot;rel&quot;:&quot;mw:WikiLink&quot;}\">Desiderio</a>,&nbsp;<a href=\"https://incantesimibellibelli.fandom.com/it/wiki/Rimuovi%20Maledizione\" rel=\"mw:WikiLink\" data-ve-attributes=\"{&quot;rel&quot;:&quot;mw:WikiLink&quot;}\">Rimuovi Maledizione</a>&nbsp;o&nbsp;<a href=\"https://incantesimibellibelli.fandom.com/it/wiki/Ristorare%20Superiore\" rel=\"mw:WikiLink\" data-ve-attributes=\"{&quot;rel&quot;:&quot;mw:WikiLink&quot;}\">Ristorare Superiore</a>&nbsp;è in grado di porre termine all'incantesimo.</p>\n<p>&nbsp;</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1438,1767,0,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[1438,1466,3,3]}\">Ai Livelli Superiori.&nbsp;</strong>Quando l'incantesimo lancia questo incantesimo usando uno slot incantesimo di 7° o 8° livello, la durata è pari a 1 anno. Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 9° livello, l'incantesimo dura finché uno degli incantesimi menzionati più sopra non vi pone termine.</p>",
       "effects": {
         "zSoZHHi7BA6IAeoj": {
-          "name": "Costrizione"
+          "name": "Costrizione",
+          "description": "<p>Sei &amp;reference[Charmed apply=false] per la durata. Finché sei affascinato dall'incantatore, subisci danni psichici ogni volta che agisci in modo direttamente contrario alle sue istruzioni, ma non più di una volta al giorno. Se l'incantatore impartisce un comando suicida, l'incantesimo termina.</p><p>L'incantatore può terminare anticipatamente l'incantesimo usando un'azione per congedarlo. Anche un incantesimo @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{Rimuovi Maledizione}, @UUID[Compendium.dnd5e.spells.Item.WzvJ7G3cqvIubsLk]{Ristorare Superiore} o @UUID[Compendium.dnd5e.spells.Item.3okM6Gn63zzEULkz]{Desiderio} lo termina.</p>"
         }
       },
       "activities": {
@@ -2344,7 +2362,8 @@
       "description": "<p>L'incantatore trasforma un massimo di dieci millepiedi, tre ragni, cinque vespe o uno scorpione situati entro gittata in versioni giganti delle loro forme naturali per la durata dell'incantesimo. Un millepiedi diventa un @UUID[Compendium.dnd5e.monsters.Actor.Hn8FFLEzscgT7azz]{millepiedi gigante}, un ragno diventa un @UUID[Compendium.dnd5e.monsters.Actor.v99wOosUJjUgcUNF]{ragno gigante}, una vespa diventa una @UUID[Compendium.dnd5e.monsters.Actor.4tl0s2SnaLjkoDiI]{vespa gigante} e uno scorpione diventa uno @UUID[Compendium.dnd5e.monsters.Actor.GxgIVRX5GbVTifiF]{scorpione gigante}. Ogni creatura obbedisce ai comandi verbali dell'incantatore e in combattimento agisce al turno dell'incantatore durante ogni round.</p><p>Il DM possiede le statistiche di queste creature e risolve le loro azioni e i loro movimenti.</p><p>Una creatura rimane in questa forma gigante per la durata dell'incantesimo, finché non scende a 0 punti ferita o finché l'incantatore non usa un'azione per terminare l'effetto su di essa.</p><p>Il DM potrebbe consentire all'incantatore di scegliere dei bersagli diversi. Per esempio, un'ape trasformata da questo incantesimo sarà una versione gigante che userà le stesse caratteristiche di una vespa gigante.</p>",
       "effects": {
         "0pp4rJR7nQHmlENe": {
-          "name": "Insetto Gigante"
+          "name": "Insetto Gigante",
+          "description": "<p>Sei stato creato dall'incantesimo @UUID[Compendium.dnd5e.spells.Item.czXrVRx6XYRWsHAi]{Insetto Gigante}.</p>"
         }
       }
     },
@@ -2418,7 +2437,8 @@
       "description": "<p>L'incantatore o la creatura da lui toccata diventa invisibile finché l'incantesimo non termina. Anche tutto ciò che il bersaglio indossa o trasporta diventa invisibile finché rimane sulla sua persona.</p>",
       "effects": {
         "lhYVl4DD9jyS5gcn": {
-          "name": "Invisibilità Superiore"
+          "name": "Invisibilità Superiore",
+          "description": "<p>Diventi &amp;reference[Invisible apply=false] finché l'incantesimo non termina. Tutto ciò che indossi o trasporti è invisibile finché rimane sulla tua persona.</p>"
         }
       }
     },
@@ -3373,7 +3393,8 @@
       },
       "effects": {
         "vnVe2IbyTKkhsByd": {
-          "name": "Fuorviante"
+          "name": "Fuorviante",
+          "description": "<p>Diventi &amp;reference[Invisible apply=false] nello stesso momento in cui un tuo duplicato illusorio compare nel punto in cui ti trovi. Il duplicato permane per la durata, ma l'invisibilità termina se &amp;reference[attack] o &amp;reference[cast a spell].</p><p>Puoi usare la tua azione per muovere il duplicato illusorio fino al doppio della tua velocità e fargli gesticolare, parlare e comportarsi nel modo che preferisci.</p><p>Puoi vedere attraverso i suoi occhi e udire attraverso le sue orecchie come se ti trovassi nel punto in cui si trova. In ogni tuo turno, con un'azione bonus, puoi passare dall'uso dei suoi sensi all'uso dei tuoi o viceversa. Finché usi i suoi sensi, sei &amp;reference[Blinded apply=false] e &amp;reference[Deafened apply=false] rispetto a ciò che ti circonda.</p>"
         }
       }
     },
@@ -4017,7 +4038,8 @@
       },
       "effects": {
         "tMUWOKD27zNJgv99": {
-          "name": "Rinchiuso nella Sfera Elastica"
+          "name": "Rinchiuso nella Sfera Elastica",
+          "description": "<p>Sei stato racchiuso in una sfera di forza scintillante.</p><p>Nulla, né oggetti fisici, né energia, né altri effetti di incantesimo, può attraversare la barriera entrando o uscendo, sebbene tu possa respirare all'interno della sfera. La sfera è immune a tutti i danni e tu o gli oggetti al suo interno non potete essere danneggiati da attacchi o effetti che hanno origine all'esterno, né puoi danneggiare nulla all'esterno della sfera finché ti trovi al suo interno.</p><p>La sfera è priva di peso e appena abbastanza grande da contenerti. Puoi usare la tua azione per spingere contro le pareti della sfera e farla rotolare fino a una velocità pari alla metà della tua. Analogamente, il globo può essere sollevato e spostato da altre creature.</p><p>Un incantesimo @UUID[Compendium.dnd5e.spells.Item.HBHbOGKNVVprSlwn]{Disintegrazione} che bersagli il globo lo distrugge senza danneggiare nulla al suo interno.</p>"
         }
       }
     },
@@ -4181,7 +4203,8 @@
       "materials": "uno scrigno di fattura pregiata che misura 90 x 60 x 60 cm, fatto di materiali rari del valore di almeno 5.000 mo, e una riproduzione Minuscola fatta degli stessi materiali e del valore di almeno 50 mo",
       "effects": {
         "LRgM5MR01y8ZEi0g": {
-          "name": "Scrigno Segreto di Leomund"
+          "name": "Scrigno Segreto di Leomund",
+          "description": "<p>Questo scrigno e il suo contenuto sono nascosti sul Piano Etereo. Puoi usare un'azione per toccare la replica usata per lanciare l'incantesimo e richiamare questo scrigno, che compare in uno spazio libero a terra entro 1,5 metri da te. Puoi rimandare lo scrigno sul Piano Etereo usando un'azione e toccando sia lo scrigno sia la replica.</p><p>Dopo 60 giorni, ogni giorno esiste una probabilità cumulativa del 5 per cento che l'effetto dell'incantesimo termini. Questo effetto termina se lanci di nuovo questo incantesimo, se lo scrigno replica più piccolo viene distrutto o se scegli di terminare l'incantesimo con un'azione. Se l'incantesimo termina mentre lo scrigno più grande si trova sul Piano Etereo, esso è perduto irrimediabilmente.</p>"
         }
       },
       "activities": {
@@ -4424,7 +4447,8 @@
       "materials": "una goccia di melassa",
       "effects": {
         "YtN8kTDQyxFaxpEx": {
-          "name": "Rallentato"
+          "name": "Rallentato",
+          "description": "<p>La tua velocità è dimezzata, subisci una penalità di -2 alla CA e ai tiri salvezza su Destrezza e non puoi usare reazioni. Nel tuo turno puoi usare un'azione oppure un'azione bonus, non entrambe. A prescindere dalle tue capacità o dai tuoi oggetti magici, non puoi effettuare più di un attacco in mischia o a distanza durante il tuo turno.</p>"
         }
       }
     },
@@ -4539,7 +4563,8 @@
       },
       "effects": {
         "x92beMGWsdc3KGNb": {
-          "name": "Conati e Barcollamento"
+          "name": "Conati e Barcollamento",
+          "description": "<p>Trascorri il tuo turno a vomitare e barcollare per gli effetti della Nube Maleodorante.</p>"
         }
       }
     },
@@ -4854,7 +4879,8 @@
       },
       "effects": {
         "9h8p0npULTRN0IDw": {
-          "name": "Parlare in Lingue"
+          "name": "Parlare in Lingue",
+          "description": "<p>Hai ottenuto la capacità di comprendere qualsiasi linguaggio parlato che senti. Inoltre, quando parli, qualsiasi creatura che conosca almeno un linguaggio e possa udirti comprende ciò che dici.</p>"
         }
       }
     },
@@ -4982,7 +5008,10 @@
       "materials": "un frammento di fosforo",
       "activities": {
         "mVqRN9uGISDMRO1z": {
-          "name": "Danni da Contatto con la Parete"
+          "name": "Danni da Contatto con la Parete",
+          "description": {
+            "value": "<p>Un lato del muro, scelto da te quando lanci questo incantesimo, infligge 5d8 danni da fuoco a ogni creatura che termina il proprio turno entro 3 metri da quel lato o all'interno del muro. Una creatura subisce gli stessi danni quando entra nel muro per la prima volta in un turno o vi termina il proprio turno. L'altro lato del muro non infligge danni.</p>"
+          }
         },
         "c7IcbrVmmq74Rzqn": {
           "name": "Evoca Muro di Fuoco"
@@ -5077,7 +5106,8 @@
       },
       "effects": {
         "9oWdcb2bnPF5z36Z": {
-          "name": "Respirare Sott'Acqua"
+          "name": "Respirare Sott'Acqua",
+          "description": "<p>Puoi respirare sott'acqua finché l'incantesimo non termina. Conservi anche il tuo normale metodo di respirazione.</p>"
         }
       }
     },
