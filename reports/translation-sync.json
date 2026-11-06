@@ -175,6 +175,14 @@
         },
         {
           "pack": "spells",
+          "id": "JGT5bNqu9REL7Fuz",
+          "name": "Find Familiar",
+          "sourcePath": "spells/1st-level/find-familiar.yml",
+          "lookupKey": "Find Familiar",
+          "matchedLookupKey": "Find Familiar"
+        },
+        {
+          "pack": "spells",
           "id": "bnjXlk13ZRJuf5d0",
           "name": "Floating Disk",
           "sourcePath": "spells/1st-level/floating-disk.yml",
@@ -1215,6 +1223,14 @@
         },
         {
           "pack": "spells",
+          "id": "7fFHlBk3UNX8gPKL",
+          "name": "Control Water",
+          "sourcePath": "spells/4th-level/control-water.yml",
+          "lookupKey": "Control Water",
+          "matchedLookupKey": "Control Water"
+        },
+        {
+          "pack": "spells",
           "id": "VtCXMdyM6mAdIJZb",
           "name": "Death Ward",
           "sourcePath": "spells/4th-level/death-ward.yml",
@@ -1772,6 +1788,14 @@
           "sourcePath": "spells/6th-level/globe-of-invulnerability.yml",
           "lookupKey": "Globe of Invulnerability",
           "matchedLookupKey": "Globe of Invulnerability"
+        },
+        {
+          "pack": "spells",
+          "id": "yw0tYQkOMCgKZ8Ur",
+          "name": "Guards and Wards",
+          "sourcePath": "spells/6th-level/guards-and-wards.yml",
+          "lookupKey": "Guards and Wards",
+          "matchedLookupKey": "Guards and Wards"
         },
         {
           "pack": "spells",
@@ -2482,41 +2506,6 @@
       "manualReview": [
         {
           "pack": "spells",
-          "id": "JGT5bNqu9REL7Fuz",
-          "name": "Find Familiar",
-          "sourcePath": "spells/1st-level/find-familiar.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Find Familiar",
-          "matchedLookupKey": "Find Familiar",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "JGT5bNqu9REL7Fuz",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "JGT5bNqu9REL7Fuz",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "spells",
-              "id": "JGT5bNqu9REL7Fuz",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
           "id": "pB7XVYwdGNcUG935",
           "name": "Glyph of Warding",
           "sourcePath": "spells/3rd-level/glyph-of-warding.yml",
@@ -2538,33 +2527,6 @@
               "message": "HTML attributes differ from source",
               "pack": "spells",
               "id": "pB7XVYwdGNcUG935",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "7fFHlBk3UNX8gPKL",
-          "name": "Control Water",
-          "sourcePath": "spells/4th-level/control-water.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Control Water",
-          "matchedLookupKey": "Control Water",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "7fFHlBk3UNX8gPKL",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "7fFHlBk3UNX8gPKL",
               "fieldPath": "system.description.value"
             }
           ]
@@ -2627,41 +2589,6 @@
               "message": "Foundry formulas differ from source",
               "pack": "spells",
               "id": "a2KJHCIbY5Mi4Dmn",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "yw0tYQkOMCgKZ8Ur",
-          "name": "Guards and Wards",
-          "sourcePath": "spells/6th-level/guards-and-wards.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Guards and Wards",
-          "matchedLookupKey": "Guards and Wards",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "yw0tYQkOMCgKZ8Ur",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "yw0tYQkOMCgKZ8Ur",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "spells",
-              "id": "yw0tYQkOMCgKZ8Ur",
               "fieldPath": "system.description.value"
             }
           ]
