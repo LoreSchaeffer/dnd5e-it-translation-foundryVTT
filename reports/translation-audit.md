@@ -12,12 +12,12 @@
 | monsters | 337 | 2 | 5 | 330 | 15 | 4810 | 5045 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
 | rules | 20 | 1 | 3 | 16 | 0 | 738 | 695 |
-| spells | 320 | 245 | 0 | 75 | 0 | 0 | 194 |
+| spells | 320 | 246 | 0 | 74 | 0 | 0 | 192 |
 | subclasses | 12 | 12 | 0 | 0 | 0 | 0 | 0 |
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 8472
+Total blocking issues: 8470
 
 ## Issues
 
@@ -8299,8 +8299,6 @@ Total blocking issues: 8472
 - **missing-document** `rules:4ANrmP15aBGam0QS`
 - **missing-document** `rules:xxt7YT2t76JxNTel`
 - **missing-document** `rules:sfJtvPjEs50Ruzi4`
-- **html-tag-sequence** `spells:95K2aUhAGV9qXjnf:system.description.value`
-- **html-attributes** `spells:95K2aUhAGV9qXjnf:system.description.value`
 - **foundry-formulas** `spells:8dzaICjGy6mTUaUr:system.description.value`
 - **html-tag-sequence** `spells:eS7XnnApoxRxYXPs:system.description.value`
 - **html-attributes** `spells:eS7XnnApoxRxYXPs:system.description.value`

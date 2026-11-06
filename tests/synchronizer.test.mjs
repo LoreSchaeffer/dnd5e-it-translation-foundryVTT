@@ -198,6 +198,16 @@ test("rebaseInvariantTokens drops a legacy spell header split across four lists"
   assert.equal(rebaseInvariantTokens(source, legacy), "<p>Prima regola.</p>");
 });
 
+test("rebaseInvariantTokens removes duplicated punctuation formatting after a heading", () => {
+  const source = "<p><strong>At Higher Levels.</strong> Rule.</p>";
+  const legacy = "<p><strong>Ai Livelli Superiori.</strong><strong>.</strong> Regola.</p>";
+
+  assert.equal(
+    rebaseInvariantTokens(source, legacy),
+    "<p><strong>Ai Livelli Superiori.</strong> Regola.</p>"
+  );
+});
+
 test("rebaseInvariantTokens projects translated text onto an equivalent source HTML skeleton", () => {
   const source = "<table><tr><td><strong>Level</strong></td><td>Feature</td></tr></table>";
   const legacy = "<table><thead><tr><th><p><strong>Livello</strong></p></th><th><p>Privilegio</p></th></tr></thead></table>";

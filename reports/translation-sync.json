@@ -23,6 +23,23 @@
         },
         {
           "pack": "spells",
+          "id": "95K2aUhAGV9qXjnf",
+          "name": "Bane",
+          "sourcePath": "spells/1st-level/bane.yml",
+          "lookupKey": "Bane",
+          "matchedLookupKey": "Bane",
+          "repairs": [
+            {
+              "fieldPath": "system.description.value",
+              "translationPath": [
+                "description"
+              ],
+              "value": "<p>L'incantatore sceglie fino a tre creature entro gittata e che egli sia in grado di vedere, che dovranno effettuare un tiro salvezza su Carisma. Se una creatura fallisce il suo tiro salvezza, ogni volta che effettua un tiro per colpire o un tiro salvezza prima che l'incantesimo termini deve tirare un d4 e sottrarre il numero ottenuto dal tiro per colpire o dal tiro salvezza.</p><p><strong>Ai livelli Superiori.</strong> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, può bersagliare una creatura aggiuntiva per ogni slot di livello superiore al I°.</p>"
+            }
+          ]
+        },
+        {
+          "pack": "spells",
           "id": "5SuJewoa1CRWaj1F",
           "name": "Burning Hands",
           "sourcePath": "spells/1st-level/burning-hands.yml",
@@ -507,16 +524,7 @@
           "name": "Levitate",
           "sourcePath": "spells/2nd-level/levitate.yml",
           "lookupKey": "Levitate",
-          "matchedLookupKey": "Levitate",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Una creatura o un oggetto a scelta dell'incantatore, situato entro gittata e che egli sia in grado di vedere, si solleva verticalmente fino a 6 metri e rimane sospeso lassù per la durata dell'incantesimo. L'incantesimo può far levitare un bersaglio che pesa fino a 250 kg. Una creatura non consenziente che supera un tiro salvezza su Costituzione non subisce l'effetto dell'incantesimo</p><p>Il bersaglio può muoversi soltanto spingendosi o aggrappandosi a un oggetto fisso o a una superficie entro portata (come per esempio una parete o un soffitto), che gli permette di muoversi come se stesse scalando quella superficie. L'incantatore può variare l'altitudine del bersaglio di un massimo di 6 metri in ogni direzione nel proprio turno. Se il bersaglio è l'incantatore stesso, egli può muoversi su o giù come parte del suo movimento. Altrimenti può usare la sua azione per muovere il bersaglio, che deve rimanere entro gittata.</p><p>Quando l'incantesimo termina, il bersaglio scende dolcemente fluttuando fino a terra, se era ancora sospeso.</p>"
-            }
-          ]
+          "matchedLookupKey": "Levitate"
         },
         {
           "pack": "spells",
@@ -524,16 +532,7 @@
           "name": "Locate Animals or Plants",
           "sourcePath": "spells/2nd-level/locate-animals-or-plants.yml",
           "lookupKey": "Locate Animals or Plants",
-          "matchedLookupKey": "Locate Animals or Plants",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore descrive o nomina un tipo specifico di bestia o vegetale. Concentrandosi sulla voce della natura che echeggia attorno a lui, apprende la direzione e la distanza fino alla creatura o al vegetale di quel tipo più vicino entro 7,5 km, se ne è presente almeno uno.</p>"
-            }
-          ]
+          "matchedLookupKey": "Locate Animals or Plants"
         },
         {
           "pack": "spells",
@@ -541,16 +540,7 @@
           "name": "Locate Object",
           "sourcePath": "spells/2nd-level/locate-object.yml",
           "lookupKey": "Locate Object",
-          "matchedLookupKey": "Locate Object",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore descrive o nomina un oggetto a lui familiare. Percepisce la direzione dell'ubicazione di quell'oggetto purché esso si trovi entro 300 metri da lui. Se l'oggetto è in movimento, l'incantatore sa in che direzione di muove.</p><p>L'incantesimo può localizzare un oggetto specifico noto all'incantatore, purché l'incantatore abbia visto tale oggetto da vicino (entro 9 metri) almeno una volta. In alternativa, l'incantesimo può localizzare l'oggetto più vicino di un tipo particolare, come un certo tipo di veste, gioiello, mobile, strumento o arma.</p><p>Questo incantesimo non può localizzare un oggetto se una cortina di piombo di qualsiasi spessore, anche una sottile lamina, blocca il percorso diretto tra l'incantatore e l'oggetto.</p>"
-            }
-          ]
+          "matchedLookupKey": "Locate Object"
         },
         {
           "pack": "spells",
@@ -606,16 +596,7 @@
           "name": "Protection from Poison",
           "sourcePath": "spells/2nd-level/protection-from-poison.yml",
           "lookupKey": "Protection from Poison",
-          "matchedLookupKey": "Protection from Poison",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore tocca una creatura, se quella creatura è avvelenata il veleno è neutralizzato. Se il bersaglio è afflitto da più veleni, l'incantatore neutralizza un veleno di cui conosce la presenza, oppure ne neutralizza uno a caso.</p>\n\n<p>Per la durata dell'incantesimo, il bersaglio dispone di vantaggio ai tiri salvezza per non essere avvelenato e di resistenza ai danni da veleno.</p>"
-            }
-          ]
+          "matchedLookupKey": "Protection from Poison"
         },
         {
           "pack": "spells",
@@ -623,16 +604,7 @@
           "name": "Rope Trick",
           "sourcePath": "spells/2nd-level/rope-trick.yml",
           "lookupKey": "Rope Trick",
-          "matchedLookupKey": "Rope Trick",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore tocca un pezzo di corda di una lunghezza massima di 18 metri. Un'estremità della corda sale in aria finché essa non pende perpendicolarmente al terreno. All'estremità superiore della corda si apre un'entrata invisibile verso uno spazio extradimensionale che permane finché l'incantesimo non termina.</p>\n<p>È possibile raggiungere lo spazio extradimensionale arrampicandosi in cima alla corda. Lo spazio può contenere un massimo di otto creature di taglia Media o inferiore.. La corda può essere ritratta all'interno dello spazio, nel qual caso sparirà dalla vista di chi osserva all'esterno dello spazio.</p>\n<p>Gli attacchi e gli incantesimi non possono attraversare in entrata o in uscita lo spazio extradimensionale, ma coloro che si trovano all'interno possono vedere all'esterno come se osservassero da una finestra di 90 cm per 1,5 m centrata sulla corda.</p>\n<p>Tutto ciò che si trova all'interno dello spazio extradimensionale cade all'esterno quando l'incantesimo termina.</p>"
-            }
-          ]
+          "matchedLookupKey": "Rope Trick"
         },
         {
           "pack": "spells",
@@ -672,16 +644,7 @@
           "name": "Spider Climb",
           "sourcePath": "spells/2nd-level/spider-climb.yml",
           "lookupKey": "Spider Climb",
-          "matchedLookupKey": "Spider Climb",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Finché l'incantesimo non termina, una creatura consenziente toccata dall'incantatore ottiene la capacità di muoversi verticalmente e orizzontalmente sulle pareti e a testa in giù sui soffitti, mantenendo le mani libere. Il bersaglio ottiene inoltre una velocità di scalare pari alla sua velocità base sul terreno.</p>"
-            }
-          ]
+          "matchedLookupKey": "Spider Climb"
         },
         {
           "pack": "spells",
@@ -721,16 +684,7 @@
           "name": "Zone of Truth",
           "sourcePath": "spells/2nd-level/zone-of-truth.yml",
           "lookupKey": "Zone of Truth",
-          "matchedLookupKey": "Zone of Truth",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore crea una zona magica protetta dagli inganni entro una sfera di raggio di 4,5 metri centrata su un punto a sua scelta situato entro gittata. Finch&eacute; l'incantesimo non termina, una creatura che entra nell'area dell'incantesimo per la prima volta in un turno o vi inizia il proprio turno deve effettuare un tiro di salvezza su Carisma. Se lo fallisce la creatura non pu&ograve; mentire deliberatamente finch&eacute; si trova entro l'area. L'incantatore sa se ogni creatura ha superato o fallito il suo tiro salvezza.</p>\n\n<p>Una creatura influenzata &egrave; consapevole dell'incantesimo e pu&ograve; quindi evitare di rispondere alle domande a cui normalmente risponderebbe mentendo. Una tale creatura pu&ograve; fornire risposte sfuggenti, purch&eacute; rimanga entro i confini della verit&agrave;.</p>"
-            }
-          ]
+          "matchedLookupKey": "Zone of Truth"
         },
         {
           "pack": "spells",
@@ -914,16 +868,7 @@
           "name": "Slow",
           "sourcePath": "spells/3rd-level/slow.yml",
           "lookupKey": "Slow",
-          "matchedLookupKey": "Slow",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore altera il tempo attorno a un massimo di sei creature a sua scelta all'interno di un cubo con spigolo di 12 metri situato entro gittata. Ogni bersaglio deve superare un tiro salvezza su Saggezza, altrimenti è influenzato da questo incantesimo per la sua durata.</p><p>Un bersaglio influenzato subisce una penalità di -2 alla CA e ai tiri salvezza su Destrezza, non può usare reazioni e la sua velocità è dimezzata. Nel proprio turno, il bersaglio deve scegliere se usare un'azione o un'azione bonus, ma non entrambe. A prescindere dalle sue capacità e oggetti magici, non può effettuare più di un attacco in mischia o a distanza durante il suo turno.</p><p>Se la creatura tenta di lanciare un incantesimo con un tempo di lancio di 1 azione, deve tirare un d20. Con un risultato pari o superiore a 11, l'incantesimo non ha effetto prima del turno successivo della creatura e quest'ultima deve usare la propria azione di quel turno per completare l'incantesimo.</p><p>Se non può farlo, l'incantesimo va sprecato. Una creatura influenzata da questo incantesimo effettua un altro tiro salvezza alla fine del suo turno. Se lo supera, l'effetto per lei termina.</p>"
-            }
-          ]
+          "matchedLookupKey": "Slow"
         },
         {
           "pack": "spells",
@@ -947,16 +892,7 @@
           "name": "Stinking Cloud",
           "sourcePath": "spells/3rd-level/stinking-cloud.yml",
           "lookupKey": "Stinking Cloud",
-          "matchedLookupKey": "Stinking Cloud",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore crea una sfera del raggio di 6 metri composta di gas nauseante giallastro, centrata su un punto situato entro gittata. La nube si diffonde oltre gli angoli e la sua area è pesantemente oscurata. La nube permane nell'area per la durata dell'incantesimo.</p><p>Ogni creatura situata completamente all'interno della nube all'inizio del suo turno deve effettuare un tiro salvezza su Costituzione contro veleno. Se lo fallisce, spende la sua azione di quel turno a vomitare in preda al dolore. Le creature che non hanno bisogno di respirare o sono immuni al veleno superano automaticamente questo tiro salvezza.</p><p>Un vento moderato (almeno 15 km all'ora) disperde la nube dopo 4 round. Un vento forte (almeno 30 km all'ora) la disperde dopo un round.</p>"
-            }
-          ]
+          "matchedLookupKey": "Stinking Cloud"
         },
         {
           "pack": "spells",
@@ -972,16 +908,7 @@
           "name": "Tongues",
           "sourcePath": "spells/3rd-level/tongues.yml",
           "lookupKey": "Tongues",
-          "matchedLookupKey": "Tongues",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Questo incantesimo garantisce ad una creatura toccata dall'incantatore l'abilità di comprendere e parlare un linguaggio che sente. Inoltre, quando il bersaglio parla, ogni creatura che conosca almeno un linguaggio e che possa sentire il bersaglio è in grado di comprendere ciò che esso pronuncia.</p>"
-            }
-          ]
+          "matchedLookupKey": "Tongues"
         },
         {
           "pack": "spells",
@@ -1005,16 +932,7 @@
           "name": "Wind Wall",
           "sourcePath": "spells/3rd-level/wind-wall.yml",
           "lookupKey": "Wind Wall",
-          "matchedLookupKey": "Wind Wall",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Un muro di vento forte si solleva dal terreno in un punto a scelta dell'incantatore situato entro gittata. Il muro può essere lungo fino a 15 metri, alto 4,5 metri e spesso 30 cm. L'incantatore può modellare il muro nel modo che preferisce, purché formi un percorso continuo lungo il terreno. Il muro permane per la durata dell'incantesimo.</p><p>Quando il muro appare, ogni creatura entro la sua area deve effettuare un tiro salvezza su Forza. Se lo fallisce, subisce 3d8 danni contundenti, mentre se lo supera, subisce soltanto la metà di quei danni. Il vento forte tiene lontana la nebbia, il fumo e gli altri gas.</p><p>Le creature o gli oggetti volanti di taglia Piccola o inferiore non possono passare attraverso il muro. I materiali leggeri e non fissati in qualche modo volano verso l'alto una volta portati all'interno del muro. Le frecce, i quadrelli e gli altri proiettili ordinari lanciati ai bersagli dietro il muro vengono deviati verso l'alto e mancano automaticamente (i macigni scagliati dai giganti o dalle macchine d'assedio e altri proiettili simili non sono influenzati dal muro). Le creature in forma gassosa non possono attraversare il muro.</p>"
-            }
-          ]
+          "matchedLookupKey": "Wind Wall"
         },
         {
           "pack": "spells",
@@ -1158,16 +1076,7 @@
           "name": "Locate Creature",
           "sourcePath": "spells/4th-level/locate-creature.yml",
           "lookupKey": "Locate Creature",
-          "matchedLookupKey": "Locate Creature",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore descrive o nomina una creatura a lui familiare. Percepisce la direzione dell'ubicazione di quella creatura, purché essa si trovi entro 300 metri da lui. Se la creatura è in movimento, l'incantatore sa in che direzione si muove.</p><p>L'incantesimo può localizzare una creatura specifica nota all'incantatore, o la creatura più vicina di un tipo specifico (come per esempio un umano o un unicorno), purché l'incantatore abbia visto tale creatura da vicino (entro 9 metri) almeno una volta. Se la creatura descritta o nominata dall'incantatore ha una forma diversa, per esempio se si trova sotto l'effetto di un incantesimo&nbsp;@UUID[Compendium.dnd5e.spells.Item.04nMsTWkIFvkbXlY]{Metamorfosi}, questo incantesimo non localizza la creatura.</p><p>Questo incantesimo non può localizzare una creatura se un corso d'acqua largo almeno 3 metri blocca il percorso diretto tra l'incantatore e la creatura.</p>"
-            }
-          ]
+          "matchedLookupKey": "Locate Creature"
         },
         {
           "pack": "spells",
@@ -1183,16 +1092,7 @@
           "name": "Polymorph",
           "sourcePath": "spells/4th-level/polymorph.yml",
           "lookupKey": "Polymorph",
-          "matchedLookupKey": "Polymorph",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Questo incantesimo impartisce una nuova forma a una creatura entro gittata e che l'incantatore sia in grado di vedere. Una creatura non consenziente deve effettuare un tiro salvezza su Saggezza per evitare l'effetto. L'incantesimo non ha effetto su un mutaforma o su una creatura con 0 punti ferita.</p><p>La trasformazione permane per la durata dell'incantesimo o finché il bersaglio non scenda a 0 punti ferita o non muoia. La nuova forma può essere quella di qualsiasi bestia il cui grado di sfida sia pari o inferiore a quello del bersaglio (o al livello del bersaglio, se esso non possiede un grado di sfida). Le statistiche di gioco del bersaglio, inclusi i punteggi di caratteristica mentali, vengono sostituite dalle statistiche della bestia scelta. Il bersaglio mantiene il suo allineamento e la sua personalità.</p><p>Il bersaglio assume i punti ferita della sua nuova forma. Quando torna alla sua forma normale, torna al numero di punti ferita che possedeva prima della trasformazione. Se riassume la sua forma normale per essere sceso a 0 punti ferita, ogni eventuale danno in ecceso si trasferisce alla sua forma normale. Fintanto che i danni in eccesso non portano la forma normale della creatura a 0 punti ferita, essa non cade priva di sensi.</p><p>Le azioni della creatura sono limitate a quelle che la natura della sua nuova forma le consente di effettuare: non può parlare, lanciare incantesimi o effettuare qualsiasi altra azione che richieda l'uso delle mani o della parola.</p><p>L'equipaggiamento del bersaglio si fonde nella nuova forma. La creatura non può attivare, usare o impugnare gli oggetti del suo equipaggiamento, né trarne benefici in altri modi.</p>"
-            }
-          ]
+          "matchedLookupKey": "Polymorph"
         },
         {
           "pack": "spells",
@@ -1224,16 +1124,7 @@
           "name": "Wall of Fire",
           "sourcePath": "spells/4th-level/wall-of-fire.yml",
           "lookupKey": "Wall of Fire",
-          "matchedLookupKey": "Wall of Fire",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore crea un muro di fuoco su una superficie solida situata entro gittata. Il muro può essere lungo fino a 18 metri, alto 6 metri e spesso 30 cm, oppure può essere un muro circolare del diametro massimo di 6 metri, alto 6 metri e spesso 30 cm. Il muro è opaco e permane per la durata dell'incantesimo.</p><p>Quando il muro appare, ogni creatura entro la sua area deve effettuare un tiro salvezza su Destrezza. Se lo fallisce, subisce 5d8 danni da fuoco, mentre se lo supera, subisce soltanto la metà di quei danni.</p><p>Un lato del muro, scelto dall'incantatore al momento del lancio di questo incantesimo, infligge 5d8 danni da fuoco a ogni creatura che termina il suo turno entro 3 metri da quel lato o all'interno del muro. Una creatura subisce gli stessi danni quando entra nel muro per la prima volta in un turno o vi termina il proprio turno. L'altro lato del muro non infligge danni.</p><p><strong>Ai Livelli Superiori.</strong> Quando L'incantatore lancia questo incantesimo usando uno slot incantesimo di 5° livello o superiore, i danni aumentano di 1d8 per ogni slot di livello superiore al 4°.</p>"
-            }
-          ]
+          "matchedLookupKey": "Wall of Fire"
         },
         {
           "pack": "spells",
@@ -1417,16 +1308,7 @@
           "name": "Telepathic Bond",
           "sourcePath": "spells/5th-level/telepathic-bond.yml",
           "lookupKey": "Telepathic Bond",
-          "matchedLookupKey": "Telepathic Bond",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore stringe un legame telepatico con un massimo di otto creature consenzienti a sua scelta situate entro gittata, collegando fisicamente ogni creatura e tutte le altre per la durata dell'incantesimo. Le creature con un punteggo di Intelligenza pari o inferiore a 2 non sono influenzate da questo incantesimo.</p><p>Finch&eacute; l'incantesimo non termina, i bersagli possono comunicare telepaticamente attraverso il legame, a prescindere che abbiano un linguaggio in comune o meno. La comunicazione &egrave; possibile attraverso qualsiasi distanza, ma non pu&ograve; estendersi ad altri piani di esistenza.</p>"
-            }
-          ]
+          "matchedLookupKey": "Telepathic Bond"
         },
         {
           "pack": "spells",
@@ -1450,16 +1332,7 @@
           "name": "Wall of Force",
           "sourcePath": "spells/5th-level/wall-of-force.yml",
           "lookupKey": "Wall of Force",
-          "matchedLookupKey": "Wall of Force",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Un muro invisibile di forza si materializza in un punto a scelta dell'incantatore situato entro gittata. Il muro appare nell'orientamento che l'incantatore desidera, come barriera orizzontale, verticale o inclinata. Pu&ograve; fluttuare nell'aria o poggiare su una superficie solida. L'incantatore pu&ograve; modellarlo in una semisfera o in una sfera del raggio massimo di 3 metri, o come una superficie piatta composta di dieci pannelli quadrati con lato di 3 metri l'uno. Ogni pannello deve essere contiguo a un altro pannello. In qualsiasi forma, il muro ha uno spessore di 0,5 cm e permane per la durata dell'incantesimo.</p><p>Se il muro passa attraverso lo spazio di una creatura quando appare, la creatura viene spinta da un lato del muro a scelta dell'incantatore. Nulla pu&ograve; attraversare fisicamente il muro, che &egrave; immune a tutti i danni e non pu&ograve; essere dissolto tramite&nbsp;@UUID[Compendium.dnd5e.spells.Item.15Fa6q1nH27XfbR8]{Dissolvi Magie}. Un incantesimo&nbsp;@UUID[Compendium.dnd5e.spells.Item.HBHbOGKNVVprSlwn]{Disintegrazione}, tuttavia, distrugge il muro istantaneamente. Il muro si estende anche sul Piano Etereo, bloccando i viaggi eterei che lo attraversano.</p>"
-            }
-          ]
+          "matchedLookupKey": "Wall of Force"
         },
         {
           "pack": "spells",
@@ -1467,16 +1340,7 @@
           "name": "Wall of Stone",
           "sourcePath": "spells/5th-level/wall-of-stone.yml",
           "lookupKey": "Wall of Stone",
-          "matchedLookupKey": "Wall of Stone",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Un muro non magico di solida pietra si materializza partendo da un punto a scelta dell'incantatore situato entro gittata. Il muro è spesso 15 cm e composto da dieci pannelli quadrati con lato di 3 metri l'uno. Ogni pannello deve essere contiguo ad almeno un altro pannello. In alternativa, l'incantatore può creare dei pannelli di 3 metri per 6 metri dello spessore di soli 7,5 cm.</p><p>Se il muro attraversa lo spazio di una creatura nel momento in cui compare, quella creatura viene spinta da un lato del muro (a scelta dell'incantatore). Se una creatura sarebbe circondata su tutti i lati dal muro (o dal muro e da un'altra superficie solida), può effettuare un tiro salvezza su Destrezza. Se lo supera, può usare la sua reazione per muoversi fino alla sua velocità nel tentativo di non rimanere intrappolata dal muro.</p><p>Il muro può avere la forma desiderata dall'incantatore, ma non può occupare lo stesso spazio di una creatura o di un oggetto. Non è necessario che il muro sia verticale o poggi su fondamenta solide. Deve però fondersi ed essere solidamente sorretto da una massa di pietra già esistente. Quindi è possibile usare questo incantesimo per creare una rampa o un ponte che attraversi un baratro</p><p>Se l'incantatore crea un'arcata di lunghezza superiore a 6 metri, deve dimezzare le dimensioni di ogni pannello per creare dei sostegni. Può rozzamente modellare il muro per creare feritoie, spalti e così via.</p><p>Il muro è un oggetto fatto di pietra che può essere danneggiato e quindi sfondato. Ogni pannello ha CA 15 e 30 punti ferita per ogni 2,5 cm di spessore. Quando un pannello scende a 0 punti ferita è distrutto e potrebbe provocare anche il crollo di altri pannelli, a discrezione del DM.</p><p>Se l'incantatore mantiene la concentrazione su questo incantesimo per l'intera durata, il muro diventa permanente e non può essere dissolto. Altrimenti, il muro scompare quando l'incantesimo termina.</p>"
-            }
-          ]
+          "matchedLookupKey": "Wall of Stone"
         },
         {
           "pack": "spells",
@@ -1596,16 +1460,7 @@
           "name": "Move Earth",
           "sourcePath": "spells/6th-level/move-earth.yml",
           "lookupKey": "Move Earth",
-          "matchedLookupKey": "Move Earth",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore sceglie un'area di terreno grande al massimo 12 metri per lato e situata entro gittata. Può modellare l'argilla, il terriccio o la sabbia entro l'area nella maniera che preferisce per la durata dell'incantesimo. L'incantatore può aumentare o ridurre l'elevazione del terreno, creare o riempire una fossa, erigere o spianare una parete, innalzare una colonna. L'estensione di tali cambiamenti non può superare la metà della dimensione più grande dell'area. Quindi, se influenza un quadrato con lato di 12 metri, può creare una colonna alta fino a 6 metri, aumentare o ridurre l'elevazione del terreno di un massimo di 6 metri, scavare una fossa della profondità massima di 6 metri e così via. Servono 10 minuti prima che queste alterazioni siano completate.</p><p>Alla fine di ogni 10 minuti trascorsi a concentrarsi sull'incantesimo, l'incantatore può scegliere una nuova area di terreno da influenzare.</p><p>Dal momento che la trasformazione del terreno si completa gradualmente, le creature nell'area solitamente non restano intrappolate o ferite dal movimento del terreno.</p><p>Questo incantesimo non può manipolare la pietra naturale o le costruzioni in pietra. Le rocce e le strutture si sposteranno per adattarsi al nuovo terreno. Se l'incantatore modella il terreno in un modo che renderebbe la struttura instabile, quella struttura potrebbe crollare.</p><p>Analogamente questo incantesimo non influenza la crescita vegetale. La terra spostata sposta con sé ogni vegetale presente.</p>"
-            }
-          ]
+          "matchedLookupKey": "Move Earth"
         },
         {
           "pack": "spells",
@@ -1653,16 +1508,7 @@
           "name": "Wall of Thorns",
           "sourcePath": "spells/6th-level/wall-of-thorns.yml",
           "lookupKey": "Wall of Thorns",
-          "matchedLookupKey": "Wall of Thorns",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore crea un fitto muro di rovi, resistente, flessibile ed erto di spine affilate. Il muro appare su una superficie solida entro gittata e permane per la durata dell'incantesimo. Il muro può essere lungo fino a 18 metri, alto 3 metri e spesso 1,5 metri, oppure può essere un muro circolare del diametro di 6 metri, alto fino a 6 metri e spesso 1,5 metri. Il muro blocca la linea di vista.</p><p>Quando il muro appare, ogni creatura entro la sua area deve effettuare un tiro salvezza su Destrezza. Se lo fallisce, subisce 7d8 danni perforanti, mentre se lo supera, subisce soltanto la metà di quei danni.</p><p>Una creatura può muoversi attraverso il muro, anche se lentamente e dolorosamente. Per ogni 30 cm di muro che attraversa, la creatura deve spendere 120 cm di movimento. Inoltre, la prima volta che una creatura entra nel muro in un turno o vi termina il proprio turno, deve effettuare un tiro salvezza su Destrezza. Se lo fallisce, subisce 7d8 danni taglienti, mentre se lo supera, subisce solo al metà di quei danni.</p><p><strong>Ai Livelli Superiori.&nbsp;</strong>Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 7° livello o superiore, entrambi i tipi di danno aumentano di 1d8 per ogni slot di livello superiore al 6°</p>"
-            }
-          ]
+          "matchedLookupKey": "Wall of Thorns"
         },
         {
           "pack": "spells",
@@ -1742,16 +1588,7 @@
           "name": "Mirage Arcane",
           "sourcePath": "spells/7th-level/mirage-arcane.yml",
           "lookupKey": "Mirage Arcane",
-          "matchedLookupKey": "Mirage Arcane",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Fai s&igrave; che un pezzo di terreno a gittata, in un&rsquo;area quadrata fino a 1,5 chilometri, appaia, risuoni e odori come qualche altro tipo di terreno. La conformazione generale del terreno rimane tuttavia la stessa. Campi aperti o una strada possono essere trasformati in un acquitrino, colline, un crepaccio o qualche altro tipo di terreno difficile o invalicabile.</p>\n<p>Un laghetto pu&ograve; essere trasformato in una radura erbosa, un precipizio in una lieve pendenza, un burrone cosparso di rocce in una strada ampia e liscia.Allo stesso modo, puoi modificare l&rsquo;aspetto delle strutture, o aggiungerne dove non ve ne sono. L&rsquo;incantesimo non camuffa, occulta n&eacute; aggiunge creature.</p>\n<p>L&rsquo;illusione comprende elementi uditivi, visivi, tattili e olfattivi, cos&igrave; da poter trasformare un terreno sgombro in terreno difficile (o viceversa) o impedire altrimenti il movimento nell'area. Qualsiasi pezzo di terreno illusorio (come una pietra o un bastone), che venga rimosso dall'area dell&rsquo;incantesimo, svanisce immediatamente.</p>\n\n<p>Le creature con visione del vero possono vedere oltre l&rsquo;illusione e distinguere la vera forma del terreno; tuttavia, gli altri elementi dell&rsquo;illusione rimangono, cos&igrave;, sebbene la creatura sia consapevole della presenza dell&rsquo;illusione, vi pu&ograve; comunque interagire fisicamente.</p>"
-            }
-          ]
+          "matchedLookupKey": "Mirage Arcane"
         },
         {
           "pack": "spells",
@@ -1855,16 +1692,7 @@
           "name": "Maze",
           "sourcePath": "spells/8th-level/maze.yml",
           "lookupKey": "Maze",
-          "matchedLookupKey": "Maze",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore esilia una creatura entro gittata e che egli sia in grado di vedere su un semipiano labirintico. Il bersaglio rimane laggiù per la durata dell'incantesimo o finché non fugge dal labirinto.</p><p>Il bersaglio può usare la sua azione per tentare di fuggire. Quando lo fa, effettua una prova di Intelligenza con CD 20. Se ha successo, riesce a fuggire e l'incantesimo termina (un @UUID[Compendium.dnd5e.monsters.Actor.pOPQU4UnR27zA0jf]{Minotauro} o un demone goristro hanno successo automaticamente).</p><p>Quando l'incantesimo termina, il bersaglio ricompare nello spazio che ha lasciato o, se quello spazio è occupato, nello spazio libero più vicino.</p>"
-            }
-          ]
+          "matchedLookupKey": "Maze"
         },
         {
           "pack": "spells",
@@ -1944,16 +1772,7 @@
           "name": "True Polymorph",
           "sourcePath": "spells/9th-level/true-polymorph.yml",
           "lookupKey": "True Polymorph",
-          "matchedLookupKey": "True Polymorph",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore sceglie una creatura o un oggetto non magico situato entro gittata e che egli sia in grado di vedere e trasforma la creatura in una creatura diversa o in un oggetto, oppure trasforma l'oggetto in una creatura (l'oggetto non deve essere indossato o trasportato da un'altra creatura). La trasformazione permane per la durata dell'incantesimo, o finché il bersaglio non scende a O punti ferita o non muore. Se l'incantatore si concentra su questo incantesimo per l'intera durata, la trasformazione permane finché non viene dissolta.</p>\n<p>Questo incantesimo non ha effetto su un mutaforma o su una creatura con O punti ferita. Una creatura non consenziente può effettuare un tiro salvezza su Saggezza. Se lo supera, non è influenzata da questo incantesimo.</p>\n<p><strong>Creatura in Creatura.&nbsp;</strong>Se l'incantatore trasforma una creatura in un altro tipo di creatura, la nuova forma può essere di qualsiasi tipo a scelta dell'incantatore, purché il suo grado di sfida sia pari o inferiore a quello del bersaglio (o del suo livello, se il bersaglio non possiede un grado di sfida). Le statistiche di gioco del bersaglio, inclusi i punteggi di caratteristica mentali, vengono sostituite dalle statistiche della nuova forma. Il bersaglio mantiene il suo allineamento e la sua personalità.</p>\n<p>Il bersaglio assume i punti ferita della sua nuova forma. Quando torna alla sua forma normale, torna al numero di punti ferita che possedeva prima della trasformazione. Se riassume la sua forma normale per essere sceso a O punti ferita, ogni eventuale danno in eccesso si trasferisce alla sua forma normale. Fintanto che i danni in eccesso non portano la forma normale della creatura a O punti ferita, essa non cade priva di sensi.</p>\n<p>Le azioni della creatura sono limitate a quelle che la natura della sua nuova forma le consente di effettuare: non può parlare, lanciare incantesimi o effettuare qualsiasi altra azione che richieda l'uso delle mani o della parola, a meno che la sua nuova forma non sia in grado di compiere tali azioni.</p>\n<p>L'equipaggiamento del bersaglio si fonde nella nuova forma. La creatura non può attivare, usare o impugnare gli oggetti del suo equipaggiamento, né trarne benefici in altri modi.</p>\n<p><strong>Oggetto In Creatura.&nbsp;</strong>L'incantatore può trasformare un oggetto in una qualsiasi creatura, fintanto che la taglia della creatura non è superiore alla taglia dell'oggetto e il grado di sfida della creatura è pari o inferiore a 9. La creatura è amichevole nei confronti dell'incantatore e dei suoi compagni e agisce a ogni turno dell'incantatore, che decide quale azione effettua e come si muove. È il DM a possedere le sue statistiche e a risolvere le sue azioni e il suo movimento.</p>\n<p>Se l'incantesimo diventa permanente, l'incantatore non controlla più la creatura, che potrebbe rimanere amichevole o meno nei suoi confronti, in base a come è stata trattata.</p>\n\n<p><strong>Creatura In Oggetto.</strong> Se l'incantatore trasforma una creatura in oggetto, tutto ciò che la creatura trasporta e indossa si fonde in quella forma. Le statistiche della creatura diventano quelle dell'oggetto e la creatura non ricorderà nulla del tempo trascorso in questa forma quando l'incantesimo sarà terminato ed essa tornerà alla sua forma normale</p>"
-            }
-          ]
+          "matchedLookupKey": "True Polymorph"
         },
         {
           "pack": "spells",
@@ -2033,16 +1852,7 @@
           "name": "Light",
           "sourcePath": "spells/cantrip/light.yml",
           "lookupKey": "Light",
-          "matchedLookupKey": "Light",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore tocca un oggetto non più grande di 3 metri in ogni dimensione. Finché l'incantesimo non termina, l'oggetto proietta luce intensa entro un raggio di 6 metri e luce fioca per altri 6 metri. La luce può essere del colore desiderato dall'incantatore. Coprire completamente l'oggetto con qualcosa di opaco blocca la luce. L'incantesimo termina se l'incantatore lo lancia di nuovo o lo interrompe con un'azione.</p><p>Se l'incantatore bersaglia un oggetto impugnato o posseduto da una creatura ostile, quella creatura deve superare un tiro salvezza su Destrezza per evitare l'incantesimo.</p>"
-            }
-          ]
+          "matchedLookupKey": "Light"
         },
         {
           "pack": "spells",
@@ -2050,16 +1860,7 @@
           "name": "Mage Hand",
           "sourcePath": "spells/cantrip/mage-hand.yml",
           "lookupKey": "Mage Hand",
-          "matchedLookupKey": "Mage Hand",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Una mano spettrale e fluttuante appare nel punto scelto all'interno del raggio. La mano dura per la durata o fino a quando non la scartate come azione. La mano svanisce se è mai più di 9 metri di distanza da te o se lanci di nuovo questo incantesimo.</p>\n<p>Puoi usare la tua azione per controllare la mano. Puoi usare la mano per manipolare un oggetto, aprire una porta o un contenitore sbloccato, riporre o recuperare un oggetto da un contenitore aperto o versare il contenuto da una fiala. Puoi muovere la mano fino a 9 metri ogni volta che la usi.</p>\n\n<p>La mano non può attaccare, attivare oggetti magici o trasportare più di 10 chili.</p>"
-            }
-          ]
+          "matchedLookupKey": "Mage Hand"
         },
         {
           "pack": "spells",
@@ -2075,16 +1876,7 @@
           "name": "Message",
           "sourcePath": "spells/cantrip/message.yml",
           "lookupKey": "Message",
-          "matchedLookupKey": "Message",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore punta l'indice verso una creatura entro gittata e sussurra un messaggio, il bersaglio (e soltanto il bersaglio) sente il messaggio e può rispondere con un sussurro che soltanto l'incantatore può udire.</p><p>L'incantatore può lanciare questo incantesimo attraverso gli oggetti solidi, se ha familiarità con il bersaglio e sa che si trova oltre la barriera. Il silenzio magico, 30 cm di pietra, 2,5 cm di metallo comune, una sottile lamina di piombo o 90 cm di legno bloccano l'incantesimo. l'incantesimo non deve necessariamente seguire una linea retta e può svilupparsi liberamente oltre gli angoli e attraverso le aperture.</p>"
-            }
-          ]
+          "matchedLookupKey": "Message"
         },
         {
           "pack": "spells",
@@ -2193,33 +1985,6 @@
       ],
       "needsTranslation": [],
       "manualReview": [
-        {
-          "pack": "spells",
-          "id": "95K2aUhAGV9qXjnf",
-          "name": "Bane",
-          "sourcePath": "spells/1st-level/bane.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Bane",
-          "matchedLookupKey": "Bane",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "95K2aUhAGV9qXjnf",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "95K2aUhAGV9qXjnf",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
         {
           "pack": "spells",
           "id": "8dzaICjGy6mTUaUr",

@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1182,
+      "translated": 1183,
       "missing": 69,
-      "partial": 1140,
+      "partial": 1139,
       "review": 203
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 2182,
+      "invariantFailures": 2180,
       "englishResiduals": 118,
       "imperialResiduals": 2
     },
-    "blockingIssues": 8472
+    "blockingIssues": 8470
   },
   "packs": [
     {
@@ -76741,9 +76741,9 @@
       "summary": {
         "documents": {
           "total": 320,
-          "translated": 245,
+          "translated": 246,
           "missing": 0,
-          "partial": 75,
+          "partial": 74,
           "review": 0
         },
         "folders": {
@@ -76757,32 +76757,12 @@
           "total": 2007,
           "translated": 2007,
           "missing": 0,
-          "invariantFailures": 194,
+          "invariantFailures": 192,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "95K2aUhAGV9qXjnf",
-          "fieldPath": "system.description.value",
-          "name": "Bane",
-          "sourcePath": "spells/1st-level/bane.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "95K2aUhAGV9qXjnf",
-          "fieldPath": "system.description.value",
-          "name": "Bane",
-          "sourcePath": "spells/1st-level/bane.yml"
-        },
         {
           "code": "foundry-formulas",
           "severity": "blocking",
