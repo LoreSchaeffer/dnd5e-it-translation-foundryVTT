@@ -7,7 +7,7 @@
 | classfeatures | 235 | 235 | 0 | 0 | 0 | 0 | 0 |
 | effects | 214 | 214 | 0 | 0 | 0 | 0 | 0 |
 | heroes | 12 | 0 | 0 | 12 | 0 | 466 | 561 |
-| items | 885 | 744 | 0 | 141 | 0 | 0 | 456 |
+| items | 885 | 754 | 0 | 131 | 0 | 0 | 406 |
 | monsterfeatures | 252 | 0 | 61 | 191 | 0 | 132 | 753 |
 | monsters | 337 | 2 | 5 | 330 | 15 | 4810 | 5045 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
@@ -17,7 +17,7 @@
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 7510
+Total blocking issues: 7460
 
 ## Issues
 
@@ -655,11 +655,6 @@ Total blocking issues: 7510
 - **foundry-data-references** `items:FIDyR0kZnxGy7bj8:system.description.value`
 - **foundry-inline-rolls** `items:63nb14yQRJMc4bIn:system.description.value`
 - **foundry-data-references** `items:63nb14yQRJMc4bIn:system.description.value`
-- **html-tag-sequence** `items:zgZkJAyFAfYmyn11:system.description.value`
-- **html-attributes** `items:zgZkJAyFAfYmyn11:system.description.value`
-- **foundry-reference-count** `items:zgZkJAyFAfYmyn11:system.description.value`
-- **foundry-inline-rolls** `items:zgZkJAyFAfYmyn11:system.description.value`
-- **foundry-data-references** `items:zgZkJAyFAfYmyn11:system.description.value`
 - **html-tag-sequence** `items:nXWevqtV6p484N59:system.description.value`
 - **html-attributes** `items:nXWevqtV6p484N59:system.description.value`
 - **foundry-reference-count** `items:nXWevqtV6p484N59:system.description.value`
@@ -673,29 +668,14 @@ Total blocking issues: 7510
 - **html-attributes** `items:lAcTZgNtpmks2Mo5:system.description.value`
 - **foundry-inline-rolls** `items:lAcTZgNtpmks2Mo5:system.description.value`
 - **foundry-data-references** `items:lAcTZgNtpmks2Mo5:system.description.value`
-- **html-tag-sequence** `items:34YKlIJVVWLeBv7R:system.description.value`
-- **html-attributes** `items:34YKlIJVVWLeBv7R:system.description.value`
-- **foundry-reference-count** `items:34YKlIJVVWLeBv7R:system.description.value`
-- **foundry-inline-rolls** `items:34YKlIJVVWLeBv7R:system.description.value`
-- **foundry-data-references** `items:34YKlIJVVWLeBv7R:system.description.value`
 - **html-tag-sequence** `items:bEZOY6uvHRweMM56:system.description.value`
 - **html-attributes** `items:bEZOY6uvHRweMM56:system.description.value`
 - **foundry-inline-rolls** `items:bEZOY6uvHRweMM56:system.description.value`
 - **foundry-data-references** `items:bEZOY6uvHRweMM56:system.description.value`
-- **html-tag-sequence** `items:Jj4iFQQGvckx8Wsj:system.description.value`
-- **html-attributes** `items:Jj4iFQQGvckx8Wsj:system.description.value`
-- **foundry-reference-count** `items:Jj4iFQQGvckx8Wsj:system.description.value`
-- **foundry-inline-rolls** `items:Jj4iFQQGvckx8Wsj:system.description.value`
-- **foundry-data-references** `items:Jj4iFQQGvckx8Wsj:system.description.value`
 - **html-tag-sequence** `items:eTNc8XPtvZNe3yQs:system.description.value`
 - **html-attributes** `items:eTNc8XPtvZNe3yQs:system.description.value`
 - **foundry-inline-rolls** `items:eTNc8XPtvZNe3yQs:system.description.value`
 - **foundry-data-references** `items:eTNc8XPtvZNe3yQs:system.description.value`
-- **html-tag-sequence** `items:kKGJjVVlJVoakWgQ:system.description.value`
-- **html-attributes** `items:kKGJjVVlJVoakWgQ:system.description.value`
-- **foundry-reference-count** `items:kKGJjVVlJVoakWgQ:system.description.value`
-- **foundry-inline-rolls** `items:kKGJjVVlJVoakWgQ:system.description.value`
-- **foundry-data-references** `items:kKGJjVVlJVoakWgQ:system.description.value`
 - **html-tag-sequence** `items:TevMHicE3A70AlmP:system.description.value`
 - **html-attributes** `items:TevMHicE3A70AlmP:system.description.value`
 - **foundry-inline-rolls** `items:TevMHicE3A70AlmP:system.description.value`
@@ -726,31 +706,6 @@ Total blocking issues: 7510
 - **html-attributes** `items:rTn4p9nJr4Aq2GPB:system.description.value`
 - **foundry-inline-rolls** `items:rTn4p9nJr4Aq2GPB:system.description.value`
 - **foundry-data-references** `items:rTn4p9nJr4Aq2GPB:system.description.value`
-- **html-tag-sequence** `items:8MPnSrvEeZhPhtTi:system.description.value`
-- **html-attributes** `items:8MPnSrvEeZhPhtTi:system.description.value`
-- **foundry-reference-count** `items:8MPnSrvEeZhPhtTi:system.description.value`
-- **foundry-inline-rolls** `items:8MPnSrvEeZhPhtTi:system.description.value`
-- **foundry-data-references** `items:8MPnSrvEeZhPhtTi:system.description.value`
-- **html-tag-sequence** `items:xw99pcqPBVwtMOLw:system.description.value`
-- **html-attributes** `items:xw99pcqPBVwtMOLw:system.description.value`
-- **foundry-reference-count** `items:xw99pcqPBVwtMOLw:system.description.value`
-- **foundry-inline-rolls** `items:xw99pcqPBVwtMOLw:system.description.value`
-- **foundry-data-references** `items:xw99pcqPBVwtMOLw:system.description.value`
-- **html-tag-sequence** `items:f5chGcpQCi1HYPQw:system.description.value`
-- **html-attributes** `items:f5chGcpQCi1HYPQw:system.description.value`
-- **foundry-reference-count** `items:f5chGcpQCi1HYPQw:system.description.value`
-- **foundry-inline-rolls** `items:f5chGcpQCi1HYPQw:system.description.value`
-- **foundry-data-references** `items:f5chGcpQCi1HYPQw:system.description.value`
-- **html-tag-sequence** `items:c0luemOP0iW8L23R:system.description.value`
-- **html-attributes** `items:c0luemOP0iW8L23R:system.description.value`
-- **foundry-reference-count** `items:c0luemOP0iW8L23R:system.description.value`
-- **foundry-inline-rolls** `items:c0luemOP0iW8L23R:system.description.value`
-- **foundry-data-references** `items:c0luemOP0iW8L23R:system.description.value`
-- **html-tag-sequence** `items:LBQWNqX6hZOKhQ8a:system.description.value`
-- **html-attributes** `items:LBQWNqX6hZOKhQ8a:system.description.value`
-- **foundry-reference-count** `items:LBQWNqX6hZOKhQ8a:system.description.value`
-- **foundry-inline-rolls** `items:LBQWNqX6hZOKhQ8a:system.description.value`
-- **foundry-data-references** `items:LBQWNqX6hZOKhQ8a:system.description.value`
 - **html-tag-sequence** `items:ctKfjHjk9gs9UtZI:system.description.value`
 - **html-attributes** `items:ctKfjHjk9gs9UtZI:system.description.value`
 - **foundry-reference-count** `items:ctKfjHjk9gs9UtZI:system.description.value`
@@ -768,11 +723,6 @@ Total blocking issues: 7510
 - **foundry-formulas** `items:5m9ErO9In8Uc5yyf:system.description.value`
 - **foundry-inline-rolls** `items:JFiSlgcm3uSSBM5t:system.description.value`
 - **foundry-formulas** `items:JFiSlgcm3uSSBM5t:system.description.value`
-- **html-tag-sequence** `items:zBX8LLC2CjC89Dzl:system.description.value`
-- **html-attributes** `items:zBX8LLC2CjC89Dzl:system.description.value`
-- **foundry-reference-count** `items:zBX8LLC2CjC89Dzl:system.description.value`
-- **foundry-inline-rolls** `items:zBX8LLC2CjC89Dzl:system.description.value`
-- **foundry-data-references** `items:zBX8LLC2CjC89Dzl:system.description.value`
 - **html-tag-sequence** `items:CAZMwFBWp9VC0ZCg:system.description.value`
 - **html-attributes** `items:CAZMwFBWp9VC0ZCg:system.description.value`
 - **foundry-inline-rolls** `items:CAZMwFBWp9VC0ZCg:system.description.value`

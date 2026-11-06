@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1632,
+      "translated": 1642,
       "missing": 69,
-      "partial": 690,
+      "partial": 680,
       "review": 111
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 1312,
+      "invariantFailures": 1262,
       "englishResiduals": 113,
       "imperialResiduals": 2
     },
-    "blockingIssues": 7510
+    "blockingIssues": 7460
   },
   "packs": [
     {
@@ -5317,9 +5317,9 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 744,
+          "translated": 754,
           "missing": 0,
-          "partial": 141,
+          "partial": 131,
           "review": 41
         },
         "folders": {
@@ -5333,7 +5333,7 @@
           "total": 2227,
           "translated": 2227,
           "missing": 0,
-          "invariantFailures": 365,
+          "invariantFailures": 315,
           "englishResiduals": 41,
           "imperialResiduals": 2
         }
@@ -6074,56 +6074,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "items",
-          "id": "zgZkJAyFAfYmyn11",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Acid Resistance",
-          "sourcePath": "items/potion/potion-of-acid-resistance.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "zgZkJAyFAfYmyn11",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Acid Resistance",
-          "sourcePath": "items/potion/potion-of-acid-resistance.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "items",
-          "id": "zgZkJAyFAfYmyn11",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Acid Resistance",
-          "sourcePath": "items/potion/potion-of-acid-resistance.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "items",
-          "id": "zgZkJAyFAfYmyn11",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Acid Resistance",
-          "sourcePath": "items/potion/potion-of-acid-resistance.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "items",
-          "id": "zgZkJAyFAfYmyn11",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Acid Resistance",
-          "sourcePath": "items/potion/potion-of-acid-resistance.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
           "id": "nXWevqtV6p484N59",
           "fieldPath": "system.description.value",
           "name": "Potion of Animal Friendship",
@@ -6254,56 +6204,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "items",
-          "id": "34YKlIJVVWLeBv7R",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Cold Resistance",
-          "sourcePath": "items/potion/potion-of-cold-resistance.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "34YKlIJVVWLeBv7R",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Cold Resistance",
-          "sourcePath": "items/potion/potion-of-cold-resistance.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "items",
-          "id": "34YKlIJVVWLeBv7R",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Cold Resistance",
-          "sourcePath": "items/potion/potion-of-cold-resistance.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "items",
-          "id": "34YKlIJVVWLeBv7R",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Cold Resistance",
-          "sourcePath": "items/potion/potion-of-cold-resistance.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "items",
-          "id": "34YKlIJVVWLeBv7R",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Cold Resistance",
-          "sourcePath": "items/potion/potion-of-cold-resistance.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
           "id": "bEZOY6uvHRweMM56",
           "fieldPath": "system.description.value",
           "name": "Potion of Fire Giant Strength",
@@ -6344,56 +6244,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "items",
-          "id": "Jj4iFQQGvckx8Wsj",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Fire Resistance",
-          "sourcePath": "items/potion/potion-of-fire-resistance.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "Jj4iFQQGvckx8Wsj",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Fire Resistance",
-          "sourcePath": "items/potion/potion-of-fire-resistance.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "items",
-          "id": "Jj4iFQQGvckx8Wsj",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Fire Resistance",
-          "sourcePath": "items/potion/potion-of-fire-resistance.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "items",
-          "id": "Jj4iFQQGvckx8Wsj",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Fire Resistance",
-          "sourcePath": "items/potion/potion-of-fire-resistance.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "items",
-          "id": "Jj4iFQQGvckx8Wsj",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Fire Resistance",
-          "sourcePath": "items/potion/potion-of-fire-resistance.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
           "id": "eTNc8XPtvZNe3yQs",
           "fieldPath": "system.description.value",
           "name": "Potion of Flying",
@@ -6428,56 +6278,6 @@
           "fieldPath": "system.description.value",
           "name": "Potion of Flying",
           "sourcePath": "items/potion/potion-of-flying.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "kKGJjVVlJVoakWgQ",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Force Resistance",
-          "sourcePath": "items/potion/potion-of-force-resistance.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "kKGJjVVlJVoakWgQ",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Force Resistance",
-          "sourcePath": "items/potion/potion-of-force-resistance.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "items",
-          "id": "kKGJjVVlJVoakWgQ",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Force Resistance",
-          "sourcePath": "items/potion/potion-of-force-resistance.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "items",
-          "id": "kKGJjVVlJVoakWgQ",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Force Resistance",
-          "sourcePath": "items/potion/potion-of-force-resistance.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "items",
-          "id": "kKGJjVVlJVoakWgQ",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Force Resistance",
-          "sourcePath": "items/potion/potion-of-force-resistance.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -6778,256 +6578,6 @@
           "fieldPath": "system.description.value",
           "name": "Potion of Invisibility",
           "sourcePath": "items/potion/potion-of-invisibility.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "8MPnSrvEeZhPhtTi",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Lightning Resistance",
-          "sourcePath": "items/potion/potion-of-lightning-resistance.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "8MPnSrvEeZhPhtTi",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Lightning Resistance",
-          "sourcePath": "items/potion/potion-of-lightning-resistance.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "items",
-          "id": "8MPnSrvEeZhPhtTi",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Lightning Resistance",
-          "sourcePath": "items/potion/potion-of-lightning-resistance.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "items",
-          "id": "8MPnSrvEeZhPhtTi",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Lightning Resistance",
-          "sourcePath": "items/potion/potion-of-lightning-resistance.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "items",
-          "id": "8MPnSrvEeZhPhtTi",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Lightning Resistance",
-          "sourcePath": "items/potion/potion-of-lightning-resistance.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "xw99pcqPBVwtMOLw",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Necrotic Resistance",
-          "sourcePath": "items/potion/potion-of-necrotic-resistance.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "xw99pcqPBVwtMOLw",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Necrotic Resistance",
-          "sourcePath": "items/potion/potion-of-necrotic-resistance.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "items",
-          "id": "xw99pcqPBVwtMOLw",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Necrotic Resistance",
-          "sourcePath": "items/potion/potion-of-necrotic-resistance.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "items",
-          "id": "xw99pcqPBVwtMOLw",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Necrotic Resistance",
-          "sourcePath": "items/potion/potion-of-necrotic-resistance.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "items",
-          "id": "xw99pcqPBVwtMOLw",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Necrotic Resistance",
-          "sourcePath": "items/potion/potion-of-necrotic-resistance.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "f5chGcpQCi1HYPQw",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Poison Resistance",
-          "sourcePath": "items/potion/potion-of-poison-resistance.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "f5chGcpQCi1HYPQw",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Poison Resistance",
-          "sourcePath": "items/potion/potion-of-poison-resistance.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "items",
-          "id": "f5chGcpQCi1HYPQw",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Poison Resistance",
-          "sourcePath": "items/potion/potion-of-poison-resistance.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "items",
-          "id": "f5chGcpQCi1HYPQw",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Poison Resistance",
-          "sourcePath": "items/potion/potion-of-poison-resistance.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "items",
-          "id": "f5chGcpQCi1HYPQw",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Poison Resistance",
-          "sourcePath": "items/potion/potion-of-poison-resistance.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "c0luemOP0iW8L23R",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Psychic Resistance",
-          "sourcePath": "items/potion/potion-of-psychic-resistance.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "c0luemOP0iW8L23R",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Psychic Resistance",
-          "sourcePath": "items/potion/potion-of-psychic-resistance.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "items",
-          "id": "c0luemOP0iW8L23R",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Psychic Resistance",
-          "sourcePath": "items/potion/potion-of-psychic-resistance.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "items",
-          "id": "c0luemOP0iW8L23R",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Psychic Resistance",
-          "sourcePath": "items/potion/potion-of-psychic-resistance.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "items",
-          "id": "c0luemOP0iW8L23R",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Psychic Resistance",
-          "sourcePath": "items/potion/potion-of-psychic-resistance.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "LBQWNqX6hZOKhQ8a",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Radiant Resistance",
-          "sourcePath": "items/potion/potion-of-radiant-resistance.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "LBQWNqX6hZOKhQ8a",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Radiant Resistance",
-          "sourcePath": "items/potion/potion-of-radiant-resistance.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "items",
-          "id": "LBQWNqX6hZOKhQ8a",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Radiant Resistance",
-          "sourcePath": "items/potion/potion-of-radiant-resistance.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "items",
-          "id": "LBQWNqX6hZOKhQ8a",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Radiant Resistance",
-          "sourcePath": "items/potion/potion-of-radiant-resistance.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "items",
-          "id": "LBQWNqX6hZOKhQ8a",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Radiant Resistance",
-          "sourcePath": "items/potion/potion-of-radiant-resistance.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -7198,56 +6748,6 @@
           "fieldPath": "system.description.value",
           "name": "Potion of Supreme Healing",
           "sourcePath": "items/potion/potion-of-supreme-healing.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "zBX8LLC2CjC89Dzl",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Thunder Resistance",
-          "sourcePath": "items/potion/potion-of-thunder-resistance.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "zBX8LLC2CjC89Dzl",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Thunder Resistance",
-          "sourcePath": "items/potion/potion-of-thunder-resistance.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "items",
-          "id": "zBX8LLC2CjC89Dzl",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Thunder Resistance",
-          "sourcePath": "items/potion/potion-of-thunder-resistance.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "items",
-          "id": "zBX8LLC2CjC89Dzl",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Thunder Resistance",
-          "sourcePath": "items/potion/potion-of-thunder-resistance.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "items",
-          "id": "zBX8LLC2CjC89Dzl",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Thunder Resistance",
-          "sourcePath": "items/potion/potion-of-thunder-resistance.yml"
         },
         {
           "code": "html-tag-sequence",
