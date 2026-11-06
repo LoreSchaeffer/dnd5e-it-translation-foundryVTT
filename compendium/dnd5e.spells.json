@@ -1629,21 +1629,34 @@
           "name": "Lancia"
         },
         "M7H3M7MXUHpkDYsi": {
-          "name": "Tiro Salvezza contro Prono / Concentrazione"
+          "name": "Tiro Salvezza contro Prono / Concentrazione",
+          "description": {
+            "value": "<p>Quando lanci questo incantesimo e alla fine di ogni turno che trascorri concentrandoti su di esso, ogni creatura a terra nell'area deve effettuare un tiro salvezza su Destrezza. Se lo fallisce, la creatura cade &amp;reference[prone].</p>"
+          }
         },
         "BKMYGE8ul9RaBNQd": {
-          "name": "Apri Fenditure"
+          "name": "Apri Fenditure",
+          "description": {
+            "value": "<p>All'inizio del tuo turno successivo al lancio dell'incantesimo, si aprono delle fenditure in tutta l'area dell'incantesimo. Si aprono in totale [[/r 1d6 #Number of Fissures]] fenditure di questo tipo in punti scelti dal DM. Ciascuna è profonda 1d10 × 3 metri, larga 3 metri e si estende da un margine dell'area dell'incantesimo a quello opposto. Una creatura che si trova nel punto in cui si apre una fenditura deve superare un tiro salvezza su Destrezza, altrimenti vi cade dentro. Una creatura che supera il tiro salvezza si sposta assieme al bordo della fenditura mentre questa si apre.</p><p>Una fenditura che si apre sotto una struttura ne provoca automaticamente il crollo.</p>"
+          }
         },
         "Yc7FnztObhVeuslM": {
-          "name": "Detriti Cadenti"
+          "name": "Detriti Cadenti",
+          "description": {
+            "value": "<p>Una creatura che si trova entro una distanza pari a metà dell'altezza di una struttura che crolla deve effettuare un tiro salvezza su Destrezza. Se lo fallisce, subisce 5d6 danni contundenti, cade &amp;reference[prone] e viene sepolta dalle macerie; per liberarsi deve usare un'azione e superare una prova di Forza (Atletica) con CD 20. Il DM può aumentare o ridurre la CD in base alla natura delle macerie. Se supera il tiro salvezza, la creatura subisce la metà dei danni, non cade prona e non viene sepolta.</p>"
+          }
         },
         "xIIRL1ckzWTxHikd": {
-          "name": "Danni alla Struttura"
+          "name": "Danni alla Struttura",
+          "description": {
+            "value": "<p>Il tremore infligge 50 danni contundenti a qualsiasi struttura a contatto con il terreno nell'area quando lanci l'incantesimo e all'inizio di ogni tuo turno finché l'incantesimo non termina. Se una struttura scende a 0 Punti Ferita, crolla e può danneggiare le creature vicine.</p>"
+          }
         }
       },
       "effects": {
         "8CWoAkynZV7USN3N": {
-          "name": "Sepolto sotto le Macerie"
+          "name": "Sepolto sotto le Macerie",
+          "description": "<p>Sei sepolto sotto le macerie e per liberarti devi usare un'azione e superare una prova [[/check 20 str ath]]. Il DM può aumentare o ridurre la CD in base alla natura delle macerie.</p>"
         }
       }
     },
@@ -2698,19 +2711,24 @@
       },
       "effects": {
         "X0R4qjZuKiddR6sh": {
-          "name": "Imprigionamento: Sepolto"
+          "name": "Imprigionamento: Sepolto",
+          "description": "<p>Sei imprigionato molto al di sotto della terra in una sfera di forza magica appena abbastanza grande da contenerti. Nulla può attraversare la sfera e nessuna creatura può teletrasportarsi o usare il viaggio planare per entrarvi o uscirne.</p><p>Questo incantesimo può terminare quando si verificano le condizioni stabilite dall'incantatore al momento del lancio (se ne ha stabilita una). Un incantesimo @UUID[Compendium.dnd5e.spells.Item.15Fa6q1nH27XfbR8]{Dissolvi Magie} può terminare l'incantesimo soltanto se viene lanciato come incantesimo di 9° livello, bersagliando la prigione o la componente speciale usata per crearla.</p>"
         },
         "RCunbEAwoAFbVyfE": {
-          "name": "Imprigionamento: Incatenato"
+          "name": "Imprigionamento: Incatenato",
+          "description": "<p>Pesanti catene, saldamente ancorate al terreno, ti tengono fermo. Sei &amp;reference[restrained apply=false] finché l'incantesimo non termina e fino ad allora non puoi muoverti né essere mosso in alcun modo.</p><p>Questo incantesimo può terminare quando si verificano le condizioni stabilite dall'incantatore al momento del lancio (se ne ha stabilita una). Un incantesimo @UUID[Compendium.dnd5e.spells.Item.15Fa6q1nH27XfbR8]{Dissolvi Magie} può terminare l'incantesimo soltanto se viene lanciato come incantesimo di 9° livello, bersagliando la prigione o la componente speciale usata per crearla.</p>"
         },
         "z6w7mKaQI4S8tyZu": {
-          "name": "Imprigionamento: Prigione Circoscritta"
+          "name": "Imprigionamento: Prigione Circoscritta",
+          "description": "<p>Sei stato trasportato in un minuscolo semipiano protetto dal teletrasporto e dal viaggio planare. Il semipiano è un labirinto, una gabbia, una torre o un'altra struttura o area confinata simile scelta dall'incantatore.</p><p>Questo incantesimo può terminare quando si verificano le condizioni stabilite dall'incantatore al momento del lancio (se ne ha stabilita una). Un incantesimo @UUID[Compendium.dnd5e.spells.Item.15Fa6q1nH27XfbR8]{Dissolvi Magie} può terminare l'incantesimo soltanto se viene lanciato come incantesimo di 9° livello, bersagliando la prigione o la componente speciale usata per crearla.</p>"
         },
         "Yde2VRHr9AOSVb5u": {
-          "name": "Imprigionamento: Reclusione Minima"
+          "name": "Imprigionamento: Reclusione Minima",
+          "description": "<p>Sei stato rimpicciolito fino a un'altezza di 2,5 centimetri e sei imprigionato all'interno di una gemma o di un oggetto simile. La luce può attraversare normalmente la gemma (consentendoti di vedere all'esterno e alle altre creature di vedere all'interno), ma nient'altro può attraversarla, nemmeno tramite teletrasporto o viaggio planare. La gemma non può essere tagliata né spezzata finché l'incantesimo rimane attivo.</p><p>Questo incantesimo può terminare quando si verificano le condizioni stabilite dall'incantatore al momento del lancio (se ne ha stabilita una). Un incantesimo @UUID[Compendium.dnd5e.spells.Item.15Fa6q1nH27XfbR8]{Dissolvi Magie} può terminare l'incantesimo soltanto se viene lanciato come incantesimo di 9° livello, bersagliando la prigione o la componente speciale usata per crearla.</p>"
         },
         "wb9fJ8H6ZRSEzrvS": {
-          "name": "Imprigionamento: Sonno"
+          "name": "Imprigionamento: Sonno",
+          "description": "<p>Sei caduto addormentato e non puoi essere svegliato.</p><p>Questo incantesimo può terminare quando si verificano le condizioni stabilite dall'incantatore al momento del lancio (se ne ha stabilita una). Un incantesimo @UUID[Compendium.dnd5e.spells.Item.15Fa6q1nH27XfbR8]{Dissolvi Magie} può terminare l'incantesimo soltanto se viene lanciato come incantesimo di 9° livello, bersagliando la prigione o la componente speciale usata per crearla.</p>"
         }
       }
     },
@@ -4451,16 +4469,28 @@
       "description": "<p data-parsoid=\"{&quot;dsr&quot;:[0,29,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,29,2,2]}\">Invocazione di 9&deg; livello</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[30,156,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[30,62,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[31,53,3,3]}\">Tempo di lancio:</strong>&nbsp;1 azione</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[63,84,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[64,78,3,3]}\">Gittata:</strong>&nbsp;Vista</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[85,109,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[86,103,3,3]}\">Componenti:</strong>&nbsp;V, S,</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[110,156,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[111,124,3,3]}\">Durata:</strong>&nbsp;Concentrazione, fino a 1 minuto</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[157,588,0,0]}\">L'incantatore genera una minacciosa nube tempestosa, che si espande fino a un raggio di 110 metri centrato su un punto che egli sia in grado di vedere. L'area &egrave; scossa da tuoni, fulmini e venti forti. Ogni creatura situata sotto la nube (a non pi&ugrave; di 1.500 metri sotto di essa) nel momento in cui compare deve effettuare un tiro salvezza su Costituzione. Se lo fallisce, subisce 2d6 danni da tuono e diventa assordata per 5 minuti.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[590,728,0,0]}\">Per ogni round in cui l'incantatore mantiene la concentrazione su questo incantesimo, la tempesta produce ulteriori effetti nel suo turno.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[730,845,0,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[730,744,3,3]}\">Round 2.</strong>&nbsp;Dalla nube cade una pioggia acida. Ogni creatura e oggetto sotto di essa subisce 1d6 danni da acido.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[847,1220,0,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[847,861,3,3]}\">Round 3.</strong>&nbsp;L'incantatore invoca sei fulmini che scendono dalla nube e colpiscono sei creature o oggetti a sua scelta situati sotto la nube.&nbsp;Una determinata creatura o oggetto pu&ograve; essere colpita da pi&ugrave; di un fulmine. Una creatura colpita deve effettuare un tiro salvezza su Destrezza. Se lo fallisce subisce 10d6 danni da fulmine, mentre se lo supera ne subisce la met&agrave;.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1222,1336,0,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[1222,1236,3,3]}\">Round 4.</strong>&nbsp;Dalla nube cade una violenta grandinata. Ogni creatura sotto la nube subisce 2d6 danni contundenti.</p>\n<p>&nbsp;</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1338,1842,0,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[1338,1355,3,3]}\">Round 5-10.</strong> L'area sotto la nube &egrave; attraversata da raffiche di vento e pioggia gelida. L'area diventa terreno difficile e pesantemente oscurato e ogni creatura al suo interno subisce 1d6 danni da freddo. Gli attacchi con le armi a distanza sono impossibili. Il vento e la pioggia contano come gravi distrazioni al fine di mantenere la concentrazione sugli incantesimi. Infine raffiche di vento forte disperdono automaticamente nebbia, foschia e fenomeni simili nell'area, comuni o magici che siano.</p>",
       "activities": {
         "Kb0mJl7JsrGs9OAN": {
-          "name": "Lancia"
+          "name": "Lancia",
+          "description": {
+            "value": "<p>Ogni creatura sotto la nube (a non più di 1,5 km sotto di essa) quando questa compare deve effettuare un tiro salvezza su Costituzione. Se lo fallisce, una creatura subisce 2d6 danni da tuono e diventa &amp;reference[Deafened apply=false] per 5 minuti.</p>"
+          }
         },
         "lWQnKu5gulmNcD6h": {
-          "name": "Round 2: Pioggia Acida"
+          "name": "Round 2: Pioggia Acida",
+          "description": {
+            "value": "<p>Dalla nube cade una pioggia acida. Ogni creatura e oggetto sotto la nube subisce 1d6 danni da acido.</p>"
+          }
         },
         "LHS02thv32GFDNB4": {
-          "name": "Round 3: Fulmini"
+          "name": "Round 3: Fulmini",
+          "description": {
+            "value": "<p>Richiami sei fulmini dalla nube affinché colpiscano sei creature o oggetti a tua scelta sotto di essa. Una determinata creatura o un determinato oggetto non può essere colpito da più di un fulmine. Una creatura colpita deve effettuare un tiro salvezza su Destrezza. Se lo fallisce, subisce 10d6 danni da fulmine, o la metà di quei danni se lo supera.</p>"
+          }
         },
         "AR8QvQ6OU9PIF5Qj": {
-          "name": "Round 4: Chicchi di Grandine"
+          "name": "Round 4: Chicchi di Grandine",
+          "description": {
+            "value": "<p>Dalla nube piovono chicchi di grandine. Ogni creatura sotto la nube subisce 2d6 danni contundenti.</p>"
+          }
         },
         "dFKNiCeDuVPLUcLf": {
           "name": "Round 5–10: Folate e Pioggia Gelida"
@@ -4468,7 +4498,8 @@
       },
       "effects": {
         "FdyZYwspVCq84LMK": {
-          "name": "Boato Assordante"
+          "name": "Boato Assordante",
+          "description": "<p>Sei &amp;reference[deafened apply=false] per 5 minuti.</p>"
         }
       }
     },

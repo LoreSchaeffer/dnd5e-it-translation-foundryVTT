@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 9356,
-      "missing": 6304,
+      "translated": 9371,
+      "missing": 6289,
       "invariantFailures": 2394,
       "englishResiduals": 135,
       "imperialResiduals": 4
     },
-    "blockingIssues": 8861
+    "blockingIssues": 8846
   },
   "packs": [
     {
@@ -76755,8 +76755,8 @@
         },
         "fields": {
           "total": 2007,
-          "translated": 1849,
-          "missing": 158,
+          "translated": 1864,
+          "missing": 143,
           "invariantFailures": 406,
           "englishResiduals": 17,
           "imperialResiduals": 2
@@ -81385,51 +81385,6 @@
           "sourcePath": "spells/8th-level/earthquake.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "x5JNBSyIBBZsjcGT",
-          "name": "Earthquake",
-          "fieldPath": "system.activities.M7H3M7MXUHpkDYsi.description.value",
-          "sourcePath": "spells/8th-level/earthquake.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "x5JNBSyIBBZsjcGT",
-          "name": "Earthquake",
-          "fieldPath": "system.activities.BKMYGE8ul9RaBNQd.description.value",
-          "sourcePath": "spells/8th-level/earthquake.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "x5JNBSyIBBZsjcGT",
-          "name": "Earthquake",
-          "fieldPath": "system.activities.Yc7FnztObhVeuslM.description.value",
-          "sourcePath": "spells/8th-level/earthquake.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "x5JNBSyIBBZsjcGT",
-          "name": "Earthquake",
-          "fieldPath": "system.activities.xIIRL1ckzWTxHikd.description.value",
-          "sourcePath": "spells/8th-level/earthquake.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "x5JNBSyIBBZsjcGT",
-          "name": "Earthquake",
-          "fieldPath": "effects[8CWoAkynZV7USN3N].description",
-          "sourcePath": "spells/8th-level/earthquake.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -81721,51 +81676,6 @@
           "sourcePath": "spells/9th-level/imprisonment.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "ZVnL9L8v1KC9TBF4",
-          "name": "Imprisonment",
-          "fieldPath": "effects[X0R4qjZuKiddR6sh].description",
-          "sourcePath": "spells/9th-level/imprisonment.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "ZVnL9L8v1KC9TBF4",
-          "name": "Imprisonment",
-          "fieldPath": "effects[RCunbEAwoAFbVyfE].description",
-          "sourcePath": "spells/9th-level/imprisonment.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "ZVnL9L8v1KC9TBF4",
-          "name": "Imprisonment",
-          "fieldPath": "effects[z6w7mKaQI4S8tyZu].description",
-          "sourcePath": "spells/9th-level/imprisonment.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "ZVnL9L8v1KC9TBF4",
-          "name": "Imprisonment",
-          "fieldPath": "effects[Yde2VRHr9AOSVb5u].description",
-          "sourcePath": "spells/9th-level/imprisonment.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "ZVnL9L8v1KC9TBF4",
-          "name": "Imprisonment",
-          "fieldPath": "effects[wb9fJ8H6ZRSEzrvS].description",
-          "sourcePath": "spells/9th-level/imprisonment.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -81893,51 +81803,6 @@
           "id": "7KjExw0kmuqERa7C",
           "fieldPath": "system.description.value",
           "name": "Storm of Vengeance",
-          "sourcePath": "spells/9th-level/storm-of-vengeance.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "7KjExw0kmuqERa7C",
-          "name": "Storm of Vengeance",
-          "fieldPath": "system.activities.Kb0mJl7JsrGs9OAN.description.value",
-          "sourcePath": "spells/9th-level/storm-of-vengeance.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "7KjExw0kmuqERa7C",
-          "name": "Storm of Vengeance",
-          "fieldPath": "system.activities.lWQnKu5gulmNcD6h.description.value",
-          "sourcePath": "spells/9th-level/storm-of-vengeance.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "7KjExw0kmuqERa7C",
-          "name": "Storm of Vengeance",
-          "fieldPath": "system.activities.LHS02thv32GFDNB4.description.value",
-          "sourcePath": "spells/9th-level/storm-of-vengeance.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "7KjExw0kmuqERa7C",
-          "name": "Storm of Vengeance",
-          "fieldPath": "system.activities.AR8QvQ6OU9PIF5Qj.description.value",
-          "sourcePath": "spells/9th-level/storm-of-vengeance.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "7KjExw0kmuqERa7C",
-          "name": "Storm of Vengeance",
-          "fieldPath": "effects[FdyZYwspVCq84LMK].description",
           "sourcePath": "spells/9th-level/storm-of-vengeance.yml"
         },
         {
