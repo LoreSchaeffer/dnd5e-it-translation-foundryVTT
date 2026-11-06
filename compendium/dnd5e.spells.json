@@ -147,6 +147,17 @@
         "dnd5eactivity000": {
           "name": "Lancia"
         }
+      },
+      "effects": {
+        "14Qp5HLSat31r3uM": {
+          "name": "Adattamento Acquatico"
+        },
+        "V6Y9a1LElOYZc4J7": {
+          "name": "Aspetto Cambiato"
+        },
+        "nQT9INSQxHJZQfFS": {
+          "name": "Armi Naturali"
+        }
       }
     },
     "Animal Friendship": {
@@ -254,6 +265,17 @@
         "ITL3quDlYj3grSZz": {
           "name": "Tiro Salvezza per Terminare l'Effetto"
         }
+      },
+      "effects": {
+        "Cz824xQ2Z4BYuSa9": {
+          "name": "Antipatia"
+        },
+        "Q8oqI0ISzsugmoDk": {
+          "name": "Aura di Antipatia"
+        },
+        "lFjm3pDxzxo4U5Jm": {
+          "name": "Aura di Simpatia"
+        }
       }
     },
     "Arcane Eye": {
@@ -299,6 +321,14 @@
         "2fd6KuTcr1Qio0ro": {
           "name": "Lancia"
         }
+      },
+      "effects": {
+        "z4EYamUR9vhGZ9GB": {
+          "name": "Aura Falsa"
+        },
+        "I6rEsnKIWc7qZG4P": {
+          "name": "Maschera"
+        }
       }
     },
     "Astral Projection": {
@@ -335,6 +365,14 @@
         "0JxiXLKM5oNcaHhD": {
           "name": "Risveglia Bestia"
         }
+      },
+      "effects": {
+        "lGVtMvn8U3KJMTik": {
+          "name": "Amichevolezza del Risvegliato"
+        },
+        "BjPkBFpp7mZIhyaT": {
+          "name": "Risvegliato"
+        }
       }
     },
     "Bane": {
@@ -360,6 +398,11 @@
         "dnd5eactivity000": {
           "name": "Lancia"
         }
+      },
+      "effects": {
+        "bckYDthT7sAOQBNO": {
+          "name": "Esiliato"
+        }
       }
     },
     "Barkskin": {
@@ -384,11 +427,45 @@
         "neGH93QTgzddzbRa": {
           "name": "Lancia"
         }
+      },
+      "effects": {
+        "rTmKyD87PuzUBGpJ": {
+          "name": "Speranzoso"
+        }
       }
     },
     "Bestow Curse": {
       "name": "Scagliare Maledizione",
-      "description": "<p>L'incantatore tocca una creatura che deve superare un tiro salvezza su Saggezza per non essere maledetta per la durata dell'incantesimo.</p>\n<p>Quando l'incantatore lancia questo incantesimo, sceglie la natura della maledizione tra le opzioni seguenti:</p>\n<ul>\n<li>L'incantatore sceglie un punteggio di caratteristica. Finch&eacute; &egrave; maledetto, il bersaglio subisce svantaggio alle prove di caratteristica e ai tiri salvezza effettuati con quel punteggio di caratteristica.</li>\n<li>Finch&eacute; &egrave; maledetto, il bersaglio subisce svantaggio ai tiri per colpire contro l'incantatore.</li>\n<li>Finch&eacute; &egrave; maledetto, il bersaglio deve effettuare un tiro salvezza su Saggezza all'inizio di ogni suo turno. Se lo fallisce, spreca la sua azione di quel turno e non fa niente.</li>\n<li>Finch&eacute; il bersaglio &egrave; maledetto, gli attacchi e gli incantesimi dell'incantatore infliggono 1d8 danni necrotici extra al bersaglio.</li>\n</ul>\n<p>Un incantesimo&nbsp;<a title=\"Rimuovi Maledizione\" href=\"https://incantesimibellibelli.fandom.com/it/wiki/Rimuovi_Maledizione\">Rimuovi Maledizione</a>&nbsp;pone fine a questo effetto.</p>\n<p>A discrezione del DM, l'incantatore pu&ograve; scegliere un effetto alternativo per la maledizione, che per&ograve; non dovrebbe risultare pi&ugrave; potente di quelli descritti sopra.</p>\n<p>Il DM ha l'ultima parola su tali effetti della maledizione.</p>\n<p><strong>Ai Livelli Superiori</strong>.&nbsp;Se l'incantatore lancia questo incantesimo usando uno slot incantesimo di 4&deg; livello o superiore, la durata diventa concentrazione, fino a 10 minuti.</p>\n<p>Se usa uno slot incantesimo di 5&deg; livello o superiore, la durata diventa 8 ore.</p>\n<p>Se usa uno slot incantesimo di 7&deg; livello o superiore, la durata &egrave; 24 ore.</p>\n<p>Se usa uno slot incantesimo di 9&deg; livello o superiore, l'incantesimo dura finch&eacute; non viene dissolto.</p>\n<p>L'uso di uno slot incantesimo di 5&deg; livello o superiore conferisce una durata che non richiede concentrazione.</p>"
+      "description": "<p>L'incantatore tocca una creatura che deve superare un tiro salvezza su Saggezza per non essere maledetta per la durata dell'incantesimo.</p>\n<p>Quando l'incantatore lancia questo incantesimo, sceglie la natura della maledizione tra le opzioni seguenti:</p>\n<ul>\n<li>L'incantatore sceglie un punteggio di caratteristica. Finch&eacute; &egrave; maledetto, il bersaglio subisce svantaggio alle prove di caratteristica e ai tiri salvezza effettuati con quel punteggio di caratteristica.</li>\n<li>Finch&eacute; &egrave; maledetto, il bersaglio subisce svantaggio ai tiri per colpire contro l'incantatore.</li>\n<li>Finch&eacute; &egrave; maledetto, il bersaglio deve effettuare un tiro salvezza su Saggezza all'inizio di ogni suo turno. Se lo fallisce, spreca la sua azione di quel turno e non fa niente.</li>\n<li>Finch&eacute; il bersaglio &egrave; maledetto, gli attacchi e gli incantesimi dell'incantatore infliggono 1d8 danni necrotici extra al bersaglio.</li>\n</ul>\n<p>Un incantesimo&nbsp;<a title=\"Rimuovi Maledizione\" href=\"https://incantesimibellibelli.fandom.com/it/wiki/Rimuovi_Maledizione\">Rimuovi Maledizione</a>&nbsp;pone fine a questo effetto.</p>\n<p>A discrezione del DM, l'incantatore pu&ograve; scegliere un effetto alternativo per la maledizione, che per&ograve; non dovrebbe risultare pi&ugrave; potente di quelli descritti sopra.</p>\n<p>Il DM ha l'ultima parola su tali effetti della maledizione.</p>\n<p><strong>Ai Livelli Superiori</strong>.&nbsp;Se l'incantatore lancia questo incantesimo usando uno slot incantesimo di 4&deg; livello o superiore, la durata diventa concentrazione, fino a 10 minuti.</p>\n<p>Se usa uno slot incantesimo di 5&deg; livello o superiore, la durata diventa 8 ore.</p>\n<p>Se usa uno slot incantesimo di 7&deg; livello o superiore, la durata &egrave; 24 ore.</p>\n<p>Se usa uno slot incantesimo di 9&deg; livello o superiore, l'incantesimo dura finch&eacute; non viene dissolto.</p>\n<p>L'uso di uno slot incantesimo di 5&deg; livello o superiore conferisce una durata che non richiede concentrazione.</p>",
+      "effects": {
+        "OSGSF1Zm61GXLvrC": {
+          "name": "Carisma Maledetto"
+        },
+        "pgBN0brGeJBSc413": {
+          "name": "Costituzione Maledetta"
+        },
+        "RoAMbIx9IUqpNREv": {
+          "name": "Destrezza Maledetta"
+        },
+        "KCdm5KtgQkFm9L9b": {
+          "name": "Intelligenza Maledetta"
+        },
+        "yO17H6NUUH6yTtJj": {
+          "name": "Forza Maledetta"
+        },
+        "yFn5nMRayDT5pVeT": {
+          "name": "Saggezza Maledetta"
+        },
+        "aahOmoNF6ZsMVxUs": {
+          "name": "Attacchi Maledetti"
+        },
+        "Ebzd58ARPldBzKci": {
+          "name": "Azioni Maledette"
+        },
+        "2EP5ujWSLnkP1zV0": {
+          "name": "Resilienza Maledetta"
+        }
+      }
     },
     "Black Tentacles": {
       "name": "Tentacoli Neri di Evard",
@@ -400,6 +477,11 @@
         },
         "dnd5eactivity000": {
           "name": "Tentacoli Intrappolanti"
+        }
+      },
+      "effects": {
+        "WTgRpzj4EQGJokA6": {
+          "name": "Trattenuto dai Tentacoli Neri"
         }
       }
     },
@@ -449,6 +531,14 @@
         "zwGBVh0vhNLbZI0K": {
           "name": "Lancia"
         }
+      },
+      "effects": {
+        "59WpbiZFULwixyvC": {
+          "name": "Cecità"
+        },
+        "H0SG0oq3VfiCxBOQ": {
+          "name": "Sordità"
+        }
       }
     },
     "Blink": {
@@ -463,6 +553,11 @@
         },
         "16QEMgsGT7SpSMTD": {
           "name": "Lancia"
+        }
+      },
+      "effects": {
+        "KfxYKxbFoCe5HJYS": {
+          "name": "Traslato nel Piano Etereo"
         }
       }
     },
@@ -515,6 +610,9 @@
         },
         "MQz6BZkH6TOMsHAn": {
           "name": "Punizione Marchiante: 9° Livello"
+        },
+        "mEIfHN39NpypxvkS": {
+          "name": "Marchio della Punizione"
         }
       }
     },
@@ -548,6 +646,14 @@
       "activities": {
         "dnd5eactivity000": {
           "name": "Lancia"
+        }
+      },
+      "effects": {
+        "QgkZ0wXeQ7CsDhJJ": {
+          "name": "Emozioni Soppresse"
+        },
+        "GgT59J1pn49xUaJW": {
+          "name": "Indifferente"
         }
       }
     },
@@ -736,11 +842,21 @@
         "dnd5eactivity300": {
           "name": "Tira sulla Tabella Confusione"
         }
+      },
+      "effects": {
+        "XzyaEWZwDrsUuAxr": {
+          "name": "Confuso"
+        }
       }
     },
     "Conjure Animals": {
       "name": "Evoca Animali",
-      "description": "<p>L'incantatore evoca spiriti fatati che prendono la forma di animali ed appaiono in uno spazio non occupato che egli possa vedere entro gittata. Sceglie una delle seguenti opzioni per decidere cosa appare:</p><ul><li>Una creatura con grado sfida 2 o inferiore</li><li>Due creature con grado sfida 1 o inferiore</li><li>Quattro creature con grado sfida 1/2 o inferiore</li><li>Otto creature con grado sfida 1/4 o inferiore</li><li>Ogni bestia è considerata anche come Essere Fatato e scompare quando finisce a 0 punti ferita o quando finisce l'incantesimo. Le creature evocate sono amichevoli nei confronti dell'incantatore e dei suoi alleati. L'incantatore tira per l'iniziativa delle creature evocate come gruppo, che ha i propri turni. Le creature evocate obbediscono ai comandi verbali impartiti dall'incantatore (nessuna azione richiesta). Se l'incantatore non impartisce un comando, le creature evocate si difendono da eventuali altre creature ostili, ma altrimenti non intraprendono alcuna azione.</li></ul><p>Il DM possiede le statistiche delle creature.</p><p><strong>Ai Livelli Superiori.</strong>&nbsp;Quando l'incantatore lancia questo incantesimo utilizzando determinati slot incantesimo di livello superiore, sceglie una delle opzioni di evocazione precedenti ed appare un numero maggiore di creature: il doppio utilizzando uno slot di 5° livello, il triplo utilizzando uno slot di 7° livello e il quadruplo utilizzando uno slot di 9° livello.</p>"
+      "description": "<p>L'incantatore evoca spiriti fatati che prendono la forma di animali ed appaiono in uno spazio non occupato che egli possa vedere entro gittata. Sceglie una delle seguenti opzioni per decidere cosa appare:</p><ul><li>Una creatura con grado sfida 2 o inferiore</li><li>Due creature con grado sfida 1 o inferiore</li><li>Quattro creature con grado sfida 1/2 o inferiore</li><li>Otto creature con grado sfida 1/4 o inferiore</li><li>Ogni bestia è considerata anche come Essere Fatato e scompare quando finisce a 0 punti ferita o quando finisce l'incantesimo. Le creature evocate sono amichevoli nei confronti dell'incantatore e dei suoi alleati. L'incantatore tira per l'iniziativa delle creature evocate come gruppo, che ha i propri turni. Le creature evocate obbediscono ai comandi verbali impartiti dall'incantatore (nessuna azione richiesta). Se l'incantatore non impartisce un comando, le creature evocate si difendono da eventuali altre creature ostili, ma altrimenti non intraprendono alcuna azione.</li></ul><p>Il DM possiede le statistiche delle creature.</p><p><strong>Ai Livelli Superiori.</strong>&nbsp;Quando l'incantatore lancia questo incantesimo utilizzando determinati slot incantesimo di livello superiore, sceglie una delle opzioni di evocazione precedenti ed appare un numero maggiore di creature: il doppio utilizzando uno slot di 5° livello, il triplo utilizzando uno slot di 7° livello e il quadruplo utilizzando uno slot di 9° livello.</p>",
+      "effects": {
+        "sfKQeT5HoeUFiaBj": {
+          "name": "Animale Evocato"
+        }
+      }
     },
     "Conjure Celestial": {
       "name": "Evoca Celestiale",
@@ -748,6 +864,11 @@
       "activities": {
         "dnd5eactivity000": {
           "name": "Evoca Celestiale"
+        }
+      },
+      "effects": {
+        "tnL6RVwXew6ete0r": {
+          "name": "Celestiale Evocato"
         }
       }
     },
@@ -765,7 +886,8 @@
       },
       "effects": {
         "ERO8p9cfsc3Ifbii": {
-          "description": "<p>Sei sotto il controllo dell'incantatore finché mantiene la concentrazione su questo incantesimo. Se la sua concentrazione si interrompe, non scompari. L'incantatore perde invece il controllo su di te, diventi ostile verso di lui e i suoi compagni e scompari 1 ora dopo essere stato evocato.</p>"
+          "description": "<p>Sei sotto il controllo dell'incantatore finché mantiene la concentrazione su questo incantesimo. Se la sua concentrazione si interrompe, non scompari. L'incantatore perde invece il controllo su di te, diventi ostile verso di lui e i suoi compagni e scompari 1 ora dopo essere stato evocato.</p>",
+          "name": "Elementale Controllato"
         }
       }
     },
@@ -779,18 +901,29 @@
       },
       "effects": {
         "2k0c8R6S9F6lQIpH": {
-          "description": "<p>Sei sotto il controllo dell'incantatore finché mantiene la concentrazione su questo incantesimo. Se la sua concentrazione si interrompe, non scompari. L'incantatore perde invece il controllo su di te, diventi ostile verso di lui e i suoi compagni e scompari 1 ora dopo essere stato evocato.</p>"
+          "description": "<p>Sei sotto il controllo dell'incantatore finché mantiene la concentrazione su questo incantesimo. Se la sua concentrazione si interrompe, non scompari. L'incantatore perde invece il controllo su di te, diventi ostile verso di lui e i suoi compagni e scompari 1 ora dopo essere stato evocato.</p>",
+          "name": "Folletto Controllato"
         }
       }
     },
     "Conjure Minor Elementals": {
       "name": "Evoca Elementali Minori",
-      "description": "<p>L'incantatore evoca elementali che appaiono in uno spazio non occupato che egli possa vedere entro gittata. Sceglie una delle seguenti opzioni per decidere cosa appare:</p>\n<ul>\n<li>Un elementale con grado sfida 2 o inferiore</li>\n<li>Due elementali con grado sfida 1 o inferiore</li>\n<li>Quattro elementali con grado sfida 1/2 o inferiore</li>\n<li>Otto elementali con grado sfida 1/4 o inferiore</li>\n</ul>\n<p>Un elementale evocato da questo incantesimo scompare se ridotto a 0 punti ferita o alla fine dell'incantesimo.</p>\n<p>Le creature evocate sono amichevoli nei confronti dell'incantatore e dei suoi alleati. L'incantatore tira per l'iniziativa delle creature evocate come gruppo, che ha i propri turni.&nbsp;Le creature evocate obbediscono ai comandi verbali impartiti dall'incantatore (nessuna azione richiesta). Se l'incantatore non impartisce un comando, le creature evocate si difendono da eventuali altre creature ostili, ma altrimenti non intraprendono alcuna azione.</p>\n<p>Il DM possiede le statistiche delle creature.</p>\n<p><strong>Ai Livelli Superiori.</strong>&nbsp;Quando l'incantatore lancia questo incantesimo utilizzando determinati slot incantesimo di livello superiore, sceglie una delle opzioni di evocazione precedenti ed appare un numero maggiore di creature: il doppio utilizzando uno slot incantesimo di 6° livello e il triplo utilizzando uno slot incantesimo di 8° livello.</p>"
+      "description": "<p>L'incantatore evoca elementali che appaiono in uno spazio non occupato che egli possa vedere entro gittata. Sceglie una delle seguenti opzioni per decidere cosa appare:</p>\n<ul>\n<li>Un elementale con grado sfida 2 o inferiore</li>\n<li>Due elementali con grado sfida 1 o inferiore</li>\n<li>Quattro elementali con grado sfida 1/2 o inferiore</li>\n<li>Otto elementali con grado sfida 1/4 o inferiore</li>\n</ul>\n<p>Un elementale evocato da questo incantesimo scompare se ridotto a 0 punti ferita o alla fine dell'incantesimo.</p>\n<p>Le creature evocate sono amichevoli nei confronti dell'incantatore e dei suoi alleati. L'incantatore tira per l'iniziativa delle creature evocate come gruppo, che ha i propri turni.&nbsp;Le creature evocate obbediscono ai comandi verbali impartiti dall'incantatore (nessuna azione richiesta). Se l'incantatore non impartisce un comando, le creature evocate si difendono da eventuali altre creature ostili, ma altrimenti non intraprendono alcuna azione.</p>\n<p>Il DM possiede le statistiche delle creature.</p>\n<p><strong>Ai Livelli Superiori.</strong>&nbsp;Quando l'incantatore lancia questo incantesimo utilizzando determinati slot incantesimo di livello superiore, sceglie una delle opzioni di evocazione precedenti ed appare un numero maggiore di creature: il doppio utilizzando uno slot incantesimo di 6° livello e il triplo utilizzando uno slot incantesimo di 8° livello.</p>",
+      "effects": {
+        "UEWE8BJT1TE6KDt0": {
+          "name": "Elementale Evocato"
+        }
+      }
     },
     "Conjure Woodland Beings": {
       "name": "Evoca Creature Boschive",
       "description": "<p>L'incantatore evoca creature fatate che appaiono in uno spazio non occupato che egli possa&nbsp;vedere entro gittata. Sceglie una delle seguenti opzioni per decidere cosa appare:</p>\n<ul>\n<li>Una creatura folletto con grado sfida 2 o inferiore</li>\n<li>Due creature folletto con grado sfida 1 o inferiore</li>\n<li>Quattro creature folletto con grado sfida 1/2 o inferiore</li>\n<li>Otto creature folletto con grado sfida 1/4 o inferiore</li>\n</ul>\n<p>Una creatura evocata scompare se ridotta a 0 punti ferita o alla fine dell'incantesimo.</p>\n<p>Le creature evocate sono amichevoli nei confronti dell'incantatore e dei suoi alleati. L'incantatore tira per l'iniziativa delle creature evocate come gruppo, che ha i propri turni.&nbsp;Le creature evocate obbediscono ai comandi verbali impartiti dall'incantatore (nessuna azione richiesta). Se l'incantatore non impartisce un comando, le creature evocate si difendono da eventuali altre creature ostili, ma altrimenti non intraprendono alcuna azione.</p>\n<p>Il DM possiede le statistiche delle creature.</p>\n<p><strong>Ai Livelli Superiori.&nbsp;</strong>Quando l'incantatore lancia questo incantesimo utilizzando determinati slot incantesimo di livello superiore, sceglie una delle opzioni di evocazione precedenti ed appare un numero maggiore di creature: il doppio utilizzando uno slot incantesimo di 6° livello e il triplo utilizzando uno slot incantesimo di 8° livello.</p>",
-      "materials": "One holly berry per creature summoned."
+      "materials": "One holly berry per creature summoned.",
+      "effects": {
+        "4IJ3RAavRBuB52H9": {
+          "name": "Essere dei Boschi Evocato"
+        }
+      }
     },
     "Contact Other Plane": {
       "name": "Contattare Altri Piani",
@@ -819,6 +952,50 @@
         "JHDzsuyXxSyhdNM6": {
           "name": "Applica Malattia"
         }
+      },
+      "effects": {
+        "sZYUpIcA0Ixip7bo": {
+          "name": "Malattia Accecante in Incubazione"
+        },
+        "rdL5guwwTuCvTU1v": {
+          "name": "Febbre Lurida in Incubazione"
+        },
+        "9qsScAIMMLwDDkJl": {
+          "name": "Marciume della Carne in Incubazione"
+        },
+        "egrhxJgirkl5YnuZ": {
+          "name": "Fuoco Mentale in Incubazione"
+        },
+        "1VXYcPSs43a4CHkf": {
+          "name": "Convulsioni in Incubazione"
+        },
+        "6Ha38CDFwGGbDbQz": {
+          "name": "Morbo Viscido in Incubazione"
+        },
+        "LhWesCC0aYGqzgk3": {
+          "name": "Tiro Salvezza contro Contagio Fallito"
+        },
+        "NVfW1Rp0QTgISmDW": {
+          "name": "Tiro Salvezza contro Contagio Superato"
+        },
+        "i7n9jGZ51Scdwwia": {
+          "name": "Malattia Accecante"
+        },
+        "hZkALiwlSPABBDSk": {
+          "name": "Febbre Lurida"
+        },
+        "1VOSXuEvObGjy3nZ": {
+          "name": "Marciume della Carne"
+        },
+        "S3eSD4rmdbYajX2l": {
+          "name": "Fuoco Mentale"
+        },
+        "GCyWrky8VpY2W8PA": {
+          "name": "Convulsioni"
+        },
+        "nnfr2kBR5ByV6rdT": {
+          "name": "Morbo Viscido"
+        }
       }
     },
     "Contingency": {
@@ -829,6 +1006,11 @@
         "dnd5eactivity000": {
           "name": "Lancia"
         }
+      },
+      "effects": {
+        "zkzP5EH8i1kRZWMq": {
+          "name": "Contingenza Attiva"
+        }
       }
     },
     "Continual Flame": {
@@ -838,6 +1020,9 @@
       "effects": {
         "H4kfOYuc1G4lckzb": {
           "name": "Fiamma Perenne"
+        },
+        "mGjF4d035590u5V0": {
+          "name": "Impugna un Oggetto con Fiamma Perenne"
         }
       },
       "activities": {
@@ -871,6 +1056,11 @@
         },
         "BTnvB5e4TEPEgZaS": {
           "name": "Vortice (Tiro Salvezza a Inizio Turno)"
+        }
+      },
+      "effects": {
+        "G5aZCiqtwSzf1PhW": {
+          "name": "Intrappolato nel Vortice"
         }
       }
     },
@@ -985,6 +1175,9 @@
       "effects": {
         "Tm6GfEu4JKv0pU8U": {
           "name": "Oscurità"
+        },
+        "xxbzHLlG7wj1GCvI": {
+          "name": "Impugna un Oggetto Avvolto dall'Oscurità"
         }
       },
       "activities": {
@@ -1017,6 +1210,9 @@
       "effects": {
         "pXozRRGkzMMm00kl": {
           "name": "Luce Diurna"
+        },
+        "9QQoXFhnT4bcSEVM": {
+          "name": "Impugna un Oggetto con Luce Diurna"
         }
       },
       "activities": {
@@ -1113,7 +1309,8 @@
       "materials": "una moneta di rame",
       "effects": {
         "4qY5z0im7iKXGiyt": {
-          "description": "<p>Per la durata dell'incantesimo, l'incantatore può leggere i pensieri di certe creature. Quando lancia l'incantesimo e come sua azione in ogni turno finché l'incantesimo non termina, l'incantatore può concentrarsi su una qualsiasi creatura situata entro 9 metri da lui e che egli sia in grado di vedere. Se la creatura scelta ha un'Intelligenza pari o inferiore a 3 o non parla alcun linguaggio, non può essere influenzata dall'incantesimo.</p><p>All'inizio l'incantatore apprende i pensieri superficiali della creatura (ciò a cui la creatura sta pensando in quel momento). Con un'azione, l'incantatore può trasferire la sua attenzione sui pensieri di un'altra creatura oppure tentare di sondare più a fondo la mente della stessa creatura. Se sonda più a fondo, il bersaglio deve effettuare un tiro salvezza su Saggezza. Se lo fallisce, all'incantatore vengono rivelati i suoi ragionamenti (se ne fa), il suo stato emotivo e una presenza dominante nei suoi pensieri (qualcosa di cui si preoccupa, che ama o che odia). Se ha successo, l'incantesimo termina. In ogni caso, il bersaglio è consapevole che l'incantatore sta sondando la sua mente: se l'incantatore non trasferisce la sua attenzione sui pensieri di un'altra creatura, la creatura può usare la sua azione nel proprio turno per effettuare una prova di Intelligenza contrapposta alla prova di Intelligenza dell'incantatore. Se ha successo, l'incantesimo termina.</p><p>Le domande rivolte verbalmente alla creatura bersaglio plasmano naturalmente il corso dei suoi pensieri, quindi questo incantesimo è particolarmente efficace nel corso di un interrogatorio.</p><p>L'incantatore può anche usare questo incantesimo per individuare la presenza di creature pensanti che non è in grado di vedere.</p><p>Quando lancia l'incantesimo, o come sua azione nell'arco della durata, l'incantatore può cercare pensieri entro un raggio di 9 metri da sé. L'incantesimo può penetrare la maggior parte delle barriere, ma è bloccato da 60 cm di pietra, 5 cm di metallo diverso dal piombo o una sottile lamina di piombo. L'incantatore non può individuare una creatura con un'Intelligenza pari o inferiore a 3, o che non parli alcun linguaggio. Una volta individuata la presenza di una creatura in questo modo, l'incantatore può leggere i suoi pensieri per il resto della durata nel modo sopra descritto, anche se non è in grado di vederla; la creatura, tuttavia, deve comunque trovarsi entro gittata.</p>"
+          "description": "<p>Per la durata dell'incantesimo, l'incantatore può leggere i pensieri di certe creature. Quando lancia l'incantesimo e come sua azione in ogni turno finché l'incantesimo non termina, l'incantatore può concentrarsi su una qualsiasi creatura situata entro 9 metri da lui e che egli sia in grado di vedere. Se la creatura scelta ha un'Intelligenza pari o inferiore a 3 o non parla alcun linguaggio, non può essere influenzata dall'incantesimo.</p><p>All'inizio l'incantatore apprende i pensieri superficiali della creatura (ciò a cui la creatura sta pensando in quel momento). Con un'azione, l'incantatore può trasferire la sua attenzione sui pensieri di un'altra creatura oppure tentare di sondare più a fondo la mente della stessa creatura. Se sonda più a fondo, il bersaglio deve effettuare un tiro salvezza su Saggezza. Se lo fallisce, all'incantatore vengono rivelati i suoi ragionamenti (se ne fa), il suo stato emotivo e una presenza dominante nei suoi pensieri (qualcosa di cui si preoccupa, che ama o che odia). Se ha successo, l'incantesimo termina. In ogni caso, il bersaglio è consapevole che l'incantatore sta sondando la sua mente: se l'incantatore non trasferisce la sua attenzione sui pensieri di un'altra creatura, la creatura può usare la sua azione nel proprio turno per effettuare una prova di Intelligenza contrapposta alla prova di Intelligenza dell'incantatore. Se ha successo, l'incantesimo termina.</p><p>Le domande rivolte verbalmente alla creatura bersaglio plasmano naturalmente il corso dei suoi pensieri, quindi questo incantesimo è particolarmente efficace nel corso di un interrogatorio.</p><p>L'incantatore può anche usare questo incantesimo per individuare la presenza di creature pensanti che non è in grado di vedere.</p><p>Quando lancia l'incantesimo, o come sua azione nell'arco della durata, l'incantatore può cercare pensieri entro un raggio di 9 metri da sé. L'incantesimo può penetrare la maggior parte delle barriere, ma è bloccato da 60 cm di pietra, 5 cm di metallo diverso dal piombo o una sottile lamina di piombo. L'incantatore non può individuare una creatura con un'Intelligenza pari o inferiore a 3, o che non parli alcun linguaggio. Una volta individuata la presenza di una creatura in questo modo, l'incantatore può leggere i suoi pensieri per il resto della durata nel modo sopra descritto, anche se non è in grado di vederla; la creatura, tuttavia, deve comunque trovarsi entro gittata.</p>",
+          "name": "Lancio"
         }
       },
       "activities": {
@@ -1219,6 +1416,17 @@
       "activities": {
         "dnd5eactivity000": {
           "name": "Lancia"
+        }
+      },
+      "effects": {
+        "ng33sfAG959luxm1": {
+          "name": "Parola Divina (50 PF o Meno)"
+        },
+        "WFygB4koHfaqBOiK": {
+          "name": "Parola Divina (40 PF o Meno)"
+        },
+        "QNru4BLkBqnn3uBB": {
+          "name": "Parola Divina (30 PF o Meno)"
         }
       }
     },
@@ -1349,6 +1557,11 @@
         "xIIRL1ckzWTxHikd": {
           "name": "Danni alla Struttura"
         }
+      },
+      "effects": {
+        "8CWoAkynZV7USN3N": {
+          "name": "Sepolto sotto le Macerie"
+        }
       }
     },
     "Eldritch Blast": {
@@ -1368,6 +1581,26 @@
         "38V0wnjhbPgl3No8": {
           "name": "Lancia"
         }
+      },
+      "effects": {
+        "4wHuqQygcUoETdfL": {
+          "name": "Resistenza dell'Orso"
+        },
+        "dXPiowCzQbenlxaJ": {
+          "name": "Forza del Toro"
+        },
+        "fQYlplRem5XWAYlX": {
+          "name": "Grazia del Gatto"
+        },
+        "fL5yxySa2tgQR96A": {
+          "name": "Splendore dell'Aquila"
+        },
+        "pHwVg5BiH0Z7ysfD": {
+          "name": "Astuzia della Volpe"
+        },
+        "FCTEJkHaaxkAeNhQ": {
+          "name": "Saggezza del Gufo"
+        }
       }
     },
     "Enlarge/Reduce": {
@@ -1377,6 +1610,14 @@
       "activities": {
         "dnd5eactivity000": {
           "name": "Lancia"
+        }
+      },
+      "effects": {
+        "iVWIbqSzCYFAQzV6": {
+          "name": "Ingrandito"
+        },
+        "rFRjXg3BjmTb5GOh": {
+          "name": "Rimpicciolito"
         }
       }
     },
@@ -1403,6 +1644,11 @@
       "activities": {
         "dnd5eactivity000": {
           "name": "Lancia"
+        }
+      },
+      "effects": {
+        "sGKbaTfegKKF0zmV": {
+          "name": "Affascinato"
         }
       }
     },
@@ -1443,6 +1689,17 @@
         },
         "eLnw2b2iYJhBaQIY": {
           "name": "Focalizza Sguardo"
+        }
+      },
+      "effects": {
+        "4aX9fGlauAQsLCAH": {
+          "name": "Sguardo Penetrante: Sonno"
+        },
+        "2X7i49sZdg2mqPZB": {
+          "name": "Sguardo Penetrante: Panico"
+        },
+        "yBr3oIopzL8uDrPi": {
+          "name": "Sguardo Penetrante: Infermità"
         }
       }
     },
@@ -1551,6 +1808,11 @@
             }
           }
         }
+      },
+      "effects": {
+        "ElS7F2Oh06jeZtpi": {
+          "name": "Famiglio"
+        }
       }
     },
     "Find Steed": {
@@ -1559,6 +1821,11 @@
       "activities": {
         "dnd5eactivity000": {
           "name": "Evoca Cavalcatura"
+        }
+      },
+      "effects": {
+        "QAbEeDGXCby1oGvV": {
+          "name": "Cavalcatura Evocata"
         }
       }
     },
@@ -1591,6 +1858,11 @@
         "MCAsmHQ4ZyHKOcIG": {
           "name": "Rianima Zombie"
         }
+      },
+      "effects": {
+        "uOH60hTrlfil9cij": {
+          "name": "Controllato Permanentemente"
+        }
       }
     },
     "Fire Bolt": {
@@ -1612,6 +1884,14 @@
         },
         "dnd5eactivity000": {
           "name": "Danni di Ritorsione dello Scudo"
+        }
+      },
+      "effects": {
+        "lVKx8swB08jm6IFE": {
+          "name": "Scudo Caldo"
+        },
+        "UUXwEKSPX4nYfDzo": {
+          "name": "Scudo Gelido"
         }
       }
     },
@@ -1705,6 +1985,12 @@
         },
         "lIhef4AI9rE2By2t": {
           "name": "Pietrificato"
+        },
+        "GlcVeHlxmWkdMTiP": {
+          "name": "Tiro Salvezza contro Carne in Pietra Fallito"
+        },
+        "W767OHpOwFKPPaCL": {
+          "name": "Tiro Salvezza contro Carne in Pietra Superato"
         }
       },
       "activities": {
@@ -1766,6 +2052,11 @@
         "dnd5eactivity000": {
           "name": "Lancia"
         }
+      },
+      "effects": {
+        "drgadffAtuXTSxYb": {
+          "name": "Intrappolato nella Gabbia di Forza"
+        }
       }
     },
     "Foresight": {
@@ -1800,6 +2091,11 @@
       "activities": {
         "dnd5eactivity000": {
           "name": "Lancia"
+        }
+      },
+      "effects": {
+        "N2YjmVRCv4gVvuk8": {
+          "name": "Congelato nel Ghiaccio"
         }
       }
     },
@@ -1874,7 +2170,8 @@
       "description": "<p>Finché l'incantesimo non termina, quando l'incantatore effettua una prova di Carisma, può sostituire il risultato del tiro con un 15. Inoltre, a prescindere da ciò che dice, le magie in grado di determinare se un bersaglio dice o meno la verità indicheranno che ciò che l'incantatore sta dicendo è la verità.</p>",
       "effects": {
         "fDvXuZj3U8Lgi7t2": {
-          "description": "<p>Finché l'incantesimo non termina, quando l'incantatore effettua una prova di Carisma, può sostituire il risultato del tiro con un 15. Inoltre, a prescindere da ciò che dice, le magie in grado di determinare se un bersaglio dice o meno la verità indicheranno che ciò che l'incantatore sta dicendo è la verità.</p>"
+          "description": "<p>Finché l'incantesimo non termina, quando l'incantatore effettua una prova di Carisma, può sostituire il risultato del tiro con un 15. Inoltre, a prescindere da ciò che dice, le magie in grado di determinare se un bersaglio dice o meno la verità indicheranno che ciò che l'incantatore sta dicendo è la verità.</p>",
+          "name": "Loquacità"
         }
       }
     },
@@ -2023,6 +2320,11 @@
         "dnd5eactivity100": {
           "name": "Tiro Salvezza contro l'Effetto di Santificare"
         }
+      },
+      "effects": {
+        "XrncWjwUV3gyGj0v": {
+          "name": "Immunità di Santificare"
+        }
       }
     },
     "Hallucinatory Terrain": {
@@ -2093,6 +2395,14 @@
         },
         "G2KFLGhU06lqMm12": {
           "name": "Brucia Oggetto"
+        }
+      },
+      "effects": {
+        "UFaQd43rbMjowXA2": {
+          "name": "Oggetto di Metallo Riscaldato"
+        },
+        "hPjQYP6nZM06WETE": {
+          "name": "Aggrappato all'Oggetto Riscaldato"
         }
       }
     },
@@ -2195,6 +2505,14 @@
         "dnd5eactivity100": {
           "name": "Luce Accecante"
         }
+      },
+      "effects": {
+        "vtInaQPPgrwFw8iq": {
+          "name": "Immerso nell'Aura Sacra"
+        },
+        "VMRCzFjA3Omw9nB2": {
+          "name": "Accecato dall'Aura Sacra"
+        }
       }
     },
     "Hunter's Mark": {
@@ -2267,6 +2585,23 @@
         "dnd5eactivity000": {
           "name": "Lancia"
         }
+      },
+      "effects": {
+        "X0R4qjZuKiddR6sh": {
+          "name": "Imprigionamento: Sepolto"
+        },
+        "RCunbEAwoAFbVyfE": {
+          "name": "Imprigionamento: Incatenato"
+        },
+        "z6w7mKaQI4S8tyZu": {
+          "name": "Imprigionamento: Prigione Circoscritta"
+        },
+        "Yde2VRHr9AOSVb5u": {
+          "name": "Imprigionamento: Reclusione Minima"
+        },
+        "wb9fJ8H6ZRSEzrvS": {
+          "name": "Imprigionamento: Sonno"
+        }
       }
     },
     "Incendiary Cloud": {
@@ -2313,6 +2648,11 @@
         },
         "iOJD3BHVzYiiNChW": {
           "name": "Evoca Oggetti Marchiati"
+        }
+      },
+      "effects": {
+        "l9wtHPpBbSo8cI95": {
+          "name": "Marchio di Evocazioni Istantanee"
         }
       }
     },
@@ -2393,6 +2733,11 @@
       "activities": {
         "dnd5eactivity000": {
           "name": "Lancia"
+        }
+      },
+      "effects": {
+        "pEY6ZwxlbDrRPp6h": {
+          "name": "Levitante"
         }
       }
     },
@@ -2505,6 +2850,11 @@
         "3tvXJpYrfPS30uAL": {
           "name": "Tiro Salvezza per Contrastare il Teletrasporto"
         }
+      },
+      "effects": {
+        "3UZLcyUKG7zz2VdP": {
+          "name": "Protezione del Cerchio Magico"
+        }
       }
     },
     "Magic Jar": {
@@ -2517,6 +2867,14 @@
         },
         "KP2dpK9GVYQN8V7W": {
           "name": "Possiedi Creatura"
+        }
+      },
+      "effects": {
+        "qouBiD1Bd8bM3lzS": {
+          "name": "Insediato nel Ricettacolo dell'Anima"
+        },
+        "WOqZ4GoBhC7fBd91": {
+          "name": "Possessione della Giara Magica"
         }
       }
     },
@@ -2545,6 +2903,17 @@
       "activities": {
         "dnd5eactivity000": {
           "name": "Ammalia Arma"
+        }
+      },
+      "effects": {
+        "SLSudYaACjmmmZsU": {
+          "name": "Arma Magica, +1"
+        },
+        "8OhsRxK3dF1JeQXO": {
+          "name": "Arma Magica, +2"
+        },
+        "7L1wKfaEdN85IA0Z": {
+          "name": "Arma Magica, +3"
         }
       }
     },
@@ -2633,6 +3002,11 @@
         "gPtL2C25UZ6sJtDM": {
           "name": "Fuggi dal Labirinto"
         }
+      },
+      "effects": {
+        "od0XuYES3kvwhFct": {
+          "name": "Esiliato nel Labirinto"
+        }
       }
     },
     "Meld into Stone": {
@@ -2647,6 +3021,11 @@
         },
         "2NOxC43FZiwhej6W": {
           "name": "Danni da Distruzione Completa della Pietra"
+        }
+      },
+      "effects": {
+        "Zhqc0y1xVkLsYkgs": {
+          "name": "Fuso nella Pietra"
         }
       }
     },
@@ -2731,13 +3110,16 @@
       },
       "effects": {
         "I5Cgu5m0knHmdXge": {
-          "description": "<p>Nel tuo spazio compare un duplicato illusorio. I duplicati si muovono assieme a te e imitano le tue azioni, cambiando posizione in modo che sia impossibile individuare quale immagine sia reale. Puoi usare la tua azione per congedare i duplicati illusori.</p><p>Ogni volta che una creatura ti bersaglia con un attacco durante la durata dell'incantesimo, tira 1d20 per determinare se l'attacco bersaglia invece uno dei tuoi duplicati.</p><p>La CA di un duplicato è pari a 10 + il tuo modificatore di Destrezza. Se un attacco colpisce un duplicato, esso è distrutto. Un duplicato può essere distrutto soltanto da un attacco che lo colpisce e ignora tutti gli altri danni ed effetti. L'incantesimo termina quando tutti e tre i duplicati sono distrutti.</p><p>Una creatura non è influenzata da questo incantesimo se non può vedere, se si affida a sensi diversi dalla vista, come &amp;reference[blindsight], o se può percepire le illusioni come false, come tramite &amp;reference[truesight].</p>"
+          "description": "<p>Nel tuo spazio compare un duplicato illusorio. I duplicati si muovono assieme a te e imitano le tue azioni, cambiando posizione in modo che sia impossibile individuare quale immagine sia reale. Puoi usare la tua azione per congedare i duplicati illusori.</p><p>Ogni volta che una creatura ti bersaglia con un attacco durante la durata dell'incantesimo, tira 1d20 per determinare se l'attacco bersaglia invece uno dei tuoi duplicati.</p><p>La CA di un duplicato è pari a 10 + il tuo modificatore di Destrezza. Se un attacco colpisce un duplicato, esso è distrutto. Un duplicato può essere distrutto soltanto da un attacco che lo colpisce e ignora tutti gli altri danni ed effetti. L'incantesimo termina quando tutti e tre i duplicati sono distrutti.</p><p>Una creatura non è influenzata da questo incantesimo se non può vedere, se si affida a sensi diversi dalla vista, come &amp;reference[blindsight], o se può percepire le illusioni come false, come tramite &amp;reference[truesight].</p>",
+          "name": "Immagine Speculare 1"
         },
         "uFd6X0bNcmjRKqu1": {
-          "description": "<p>Nel tuo spazio compare un duplicato illusorio. I duplicati si muovono assieme a te e imitano le tue azioni, cambiando posizione in modo che sia impossibile individuare quale immagine sia reale. Puoi usare la tua azione per congedare i duplicati illusori.</p><p>Ogni volta che una creatura ti bersaglia con un attacco durante la durata dell'incantesimo, tira 1d20 per determinare se l'attacco bersaglia invece uno dei tuoi duplicati.</p><p>La CA di un duplicato è pari a 10 + il tuo modificatore di Destrezza. Se un attacco colpisce un duplicato, esso è distrutto. Un duplicato può essere distrutto soltanto da un attacco che lo colpisce e ignora tutti gli altri danni ed effetti. L'incantesimo termina quando tutti e tre i duplicati sono distrutti.</p><p>Una creatura non è influenzata da questo incantesimo se non può vedere, se si affida a sensi diversi dalla vista, come &amp;reference[blindsight], o se può percepire le illusioni come false, come tramite &amp;reference[truesight].</p>"
+          "description": "<p>Nel tuo spazio compare un duplicato illusorio. I duplicati si muovono assieme a te e imitano le tue azioni, cambiando posizione in modo che sia impossibile individuare quale immagine sia reale. Puoi usare la tua azione per congedare i duplicati illusori.</p><p>Ogni volta che una creatura ti bersaglia con un attacco durante la durata dell'incantesimo, tira 1d20 per determinare se l'attacco bersaglia invece uno dei tuoi duplicati.</p><p>La CA di un duplicato è pari a 10 + il tuo modificatore di Destrezza. Se un attacco colpisce un duplicato, esso è distrutto. Un duplicato può essere distrutto soltanto da un attacco che lo colpisce e ignora tutti gli altri danni ed effetti. L'incantesimo termina quando tutti e tre i duplicati sono distrutti.</p><p>Una creatura non è influenzata da questo incantesimo se non può vedere, se si affida a sensi diversi dalla vista, come &amp;reference[blindsight], o se può percepire le illusioni come false, come tramite &amp;reference[truesight].</p>",
+          "name": "Immagine Speculare 2"
         },
         "n89eid0r3Ui0XvJb": {
-          "description": "<p>Nel tuo spazio compare un duplicato illusorio. I duplicati si muovono assieme a te e imitano le tue azioni, cambiando posizione in modo che sia impossibile individuare quale immagine sia reale. Puoi usare la tua azione per congedare i duplicati illusori.</p><p>Ogni volta che una creatura ti bersaglia con un attacco durante la durata dell'incantesimo, tira 1d20 per determinare se l'attacco bersaglia invece uno dei tuoi duplicati.</p><p>La CA di un duplicato è pari a 10 + il tuo modificatore di Destrezza. Se un attacco colpisce un duplicato, esso è distrutto. Un duplicato può essere distrutto soltanto da un attacco che lo colpisce e ignora tutti gli altri danni ed effetti. L'incantesimo termina quando tutti e tre i duplicati sono distrutti.</p><p>Una creatura non è influenzata da questo incantesimo se non può vedere, se si affida a sensi diversi dalla vista, come &amp;reference[blindsight], o se può percepire le illusioni come false, come tramite &amp;reference[truesight].</p>"
+          "description": "<p>Nel tuo spazio compare un duplicato illusorio. I duplicati si muovono assieme a te e imitano le tue azioni, cambiando posizione in modo che sia impossibile individuare quale immagine sia reale. Puoi usare la tua azione per congedare i duplicati illusori.</p><p>Ogni volta che una creatura ti bersaglia con un attacco durante la durata dell'incantesimo, tira 1d20 per determinare se l'attacco bersaglia invece uno dei tuoi duplicati.</p><p>La CA di un duplicato è pari a 10 + il tuo modificatore di Destrezza. Se un attacco colpisce un duplicato, esso è distrutto. Un duplicato può essere distrutto soltanto da un attacco che lo colpisce e ignora tutti gli altri danni ed effetti. L'incantesimo termina quando tutti e tre i duplicati sono distrutti.</p><p>Una creatura non è influenzata da questo incantesimo se non può vedere, se si affida a sensi diversi dalla vista, come &amp;reference[blindsight], o se può percepire le illusioni come false, come tramite &amp;reference[truesight].</p>",
+          "name": "Immagine Speculare 3"
         }
       }
     },
@@ -2750,6 +3132,11 @@
         },
         "LK6FrR896AucW2lk": {
           "name": "Controlla Illusione"
+        }
+      },
+      "effects": {
+        "vnVe2IbyTKkhsByd": {
+          "name": "Fuorviante"
         }
       }
     },
@@ -2768,6 +3155,11 @@
       "activities": {
         "dnd5eactivity000": {
           "name": "Lancia"
+        }
+      },
+      "effects": {
+        "rHGMR5r82WMvwTnq": {
+          "name": "Modifica della Memoria in Corso"
         }
       }
     },
@@ -3064,6 +3456,12 @@
         "BXVaxwA9fG3a4YXW": {
           "name": "Cecità Violetta",
           "description": "<p>Sei &amp;reference[blinded apply=false]. All'inizio del tuo turno successivo devi effettuare un tiro salvezza su Saggezza. Se lo superi, la cecità termina. Se lo fallisci, vieni trasportato su un altro piano scelto dal DM e non sei più accecato.</p>"
+        },
+        "6bNxvdxYMSZK9N0A": {
+          "name": "Spruzzo Prismatico (indaco)"
+        },
+        "Y5OA9lzI3tMHA3KF": {
+          "name": "Spruzzo Prismatico (violetto)"
         }
       }
     },
@@ -3164,6 +3562,23 @@
         "RavTrvsFDKAO6eCY": {
           "name": "Lancia"
         }
+      },
+      "effects": {
+        "e0Ibmfgv8aTzvxiE": {
+          "name": "Protezione dall'Acido"
+        },
+        "u8CWVEZ9xQXeg7EU": {
+          "name": "Protezione dal Freddo"
+        },
+        "Md45M3QzPeWi5GsR": {
+          "name": "Protezione dal Fuoco"
+        },
+        "mpQ2ucBu1e2zw56V": {
+          "name": "Protezione dal Fulmine"
+        },
+        "Bi9lRQMuk1qVlWes": {
+          "name": "Protezione dal Tuono"
+        }
       }
     },
     "Protection from Evil and Good": {
@@ -3230,6 +3645,11 @@
         "dnd5eactivity100": {
           "name": "Tiro Salvezza contro Indebolimento"
         }
+      },
+      "effects": {
+        "HaoKvppKfss4ajTS": {
+          "name": "Indebolito"
+        }
       }
     },
     "Ray of Frost": {
@@ -3238,6 +3658,11 @@
       "activities": {
         "dnd5eactivity000": {
           "name": "Lancia"
+        }
+      },
+      "effects": {
+        "ZlBjKmRbz1cyezIt": {
+          "name": "Raffreddato"
         }
       }
     },
@@ -3283,6 +3708,11 @@
         "dnd5eactivity000": {
           "name": "Lancia"
         }
+      },
+      "effects": {
+        "tMUWOKD27zNJgv99": {
+          "name": "Rinchiuso nella Sfera Elastica"
+        }
       }
     },
     "Resistance": {
@@ -3313,6 +3743,9 @@
         "ydRvh0MNOPLGsycK": {
           "name": "Debolezza da Resurrezione",
           "description": "<p>Tornare dalla morte è una prova estenuante. Subisci una penalità di −4 a tutti i tiri per colpire, i tiri salvezza e le prove di caratteristica. Ogni volta che completi un riposo lungo, la penalità si riduce di 1 finché non scompare.</p>"
+        },
+        "tqHU3nZQatPgxW7r": {
+          "name": "Affaticamento Magico"
         }
       }
     },
@@ -3405,6 +3838,26 @@
         "pemgwXnFsWoWUR2e": {
           "name": "Configura Legame del Bersaglio"
         }
+      },
+      "effects": {
+        "swoj95aPKbfvOvzB": {
+          "name": "Conoscenza: Indiretta"
+        },
+        "eIRIAOP6mo2CCkgl": {
+          "name": "Conoscenza: Diretta"
+        },
+        "aPR8EiMR9S3wbb1I": {
+          "name": "Conoscenza: Familiare"
+        },
+        "sKoP7ypmOp1Wv5m2": {
+          "name": "Legame: Somiglianza o Ritratto"
+        },
+        "g6lZ5DEP8bOLRsWZ": {
+          "name": "Legame: Oggetto Posseduto o Indumento"
+        },
+        "16QLcS43oSaMOpnz": {
+          "name": "Legame: Parte del Corpo"
+        }
       }
     },
     "Secret Chest": {
@@ -3451,6 +3904,11 @@
         "mJZXpJL7dh4EVbur": {
           "name": "Cambia Aspetto"
         }
+      },
+      "effects": {
+        "UT3MlW6CWVpV2BHK": {
+          "name": "Travestimento di Sembrare"
+        }
       }
     },
     "Sending": {
@@ -3473,6 +3931,14 @@
         },
         "WhZDaJYHP0gN7QoD": {
           "name": "Segrega Creatura"
+        }
+      },
+      "effects": {
+        "7DN3i7SSb2unFuKJ": {
+          "name": "Oggetto Segregato"
+        },
+        "zqdAKeHbYiGinR9k": {
+          "name": "Segregato"
         }
       }
     },
@@ -3634,7 +4100,12 @@
     "Slow": {
       "name": "Lentezza",
       "description": "<p data-parsoid=\"{&quot;dsr&quot;:[0,31,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,31,2,2]}\">Trasmutazione di 3° livello</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[32,65,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[32,65,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[34,57,3,3]}\">Tempo di lancio:&nbsp;</strong>1 azione</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[67,92,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[67,92,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[69,84,3,3]}\">Gittata:&nbsp;</strong>36 metri</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[94,145,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[94,145,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[96,114,3,3]}\">Componenti:&nbsp;</strong>V, S, M (una goccia di melassa)</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[147,194,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[147,194,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[149,163,3,3]}\">Durata:&nbsp;</strong>Concentrazione, fino a 1 minuto</li>\n</ul>\n<p>&nbsp;</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[195,1345,0,0]}\">L'incantatore altera il tempo attorno a un massimo di sei creature a sua scelta all'interno di un cubo con spigolo di 12 metri situato entro gittata. Ogni bersaglio deve superare un tiro salvezza su Saggezza, altrimenti è influenzato da questo incantesimo per la sua durata. Un bersaglio influenzato subisce una penalità di -2 alla CA e ai tiri salvezza su Destrezza, non può usare reazioni e la sua velocità è dimezzata. Nel proprio turno, il bersaglio deve scegliere se usare un'azione o un'azione bonus, ma non entrambe. A prescindere dalle sue capacità e oggetti magici, non può effettuare più di un attacco in mischia o a distanza durante il suo turno. Se la creatura tenta di lanciare un incantesimo con un tempo di lancio di 1 azione, deve tirare un d20. Con un risultato pari o superiore a 11, l'incantesimo non ha effetto prima del turno successivo della creatura e quest'ultima deve usare la propria azione di quel turno per completare l'incantesimo. Se non può farlo, l'incantesimo va sprecato. Una creatura influenzata da questo incantesimo effettua un altro tiro salvezza alla fine del suo turno. Se lo supera, l'effetto per lei termina.</p>",
-      "materials": "una goccia di melassa"
+      "materials": "una goccia di melassa",
+      "effects": {
+        "YtN8kTDQyxFaxpEx": {
+          "name": "Rallentato"
+        }
+      }
     },
     "Spare the Dying": {
       "name": "Salvare i Morenti",
@@ -3743,6 +4214,11 @@
         "dnd5eactivity000": {
           "name": "Tiro Salvezza contro Nube Maleodorante"
         }
+      },
+      "effects": {
+        "x92beMGWsdc3KGNb": {
+          "name": "Conati e Barcollamento"
+        }
       }
     },
     "Stone Shape": {
@@ -3789,6 +4265,11 @@
         "dFKNiCeDuVPLUcLf": {
           "name": "Round 5–10: Folate e Pioggia Gelida"
         }
+      },
+      "effects": {
+        "FdyZYwspVCq84LMK": {
+          "name": "Boato Assordante"
+        }
       }
     },
     "Suggestion": {
@@ -3802,7 +4283,8 @@
       },
       "effects": {
         "ODGIMpaADKrhr2Ib": {
-          "description": "<p>Segui la condotta descritta dall'incantatore al meglio delle tue capacità. La condotta suggerita può proseguire per l'intera durata. Se l'attività suggerita può essere completata in meno tempo, l'incantesimo termina quando hai portato a termine ciò che ti è stato chiesto.</p>"
+          "description": "<p>Segui la condotta descritta dall'incantatore al meglio delle tue capacità. La condotta suggerita può proseguire per l'intera durata. Se l'attività suggerita può essere completata in meno tempo, l'incantesimo termina quando hai portato a termine ciò che ti è stato chiesto.</p>",
+          "name": "Soggetto a Suggestione"
         }
       }
     },
@@ -3813,6 +4295,9 @@
       "effects": {
         "kWBi1D1UMm4XsLgt": {
           "name": "Bagliore Solare"
+        },
+        "Ei5UOSrKn72d5lye": {
+          "name": "Cecità da Raggio di Sole"
         }
       },
       "activities": {
@@ -3827,7 +4312,12 @@
     "Sunburst": {
       "name": "Esplosione Solare",
       "description": "<p data-parsoid=\"{&quot;dsr&quot;:[0,29,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,29,2,2]}\">Invocazione di 8° livello</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[30,176,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[30,62,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[31,54,3,3]}\">Tempo di lancio:&nbsp;</strong>1 azione</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[63,87,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[64,79,3,3]}\">Gittata:&nbsp;</strong>45 metri</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[88,150,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[89,107,3,3]}\">Componenti:&nbsp;</strong>V, S, M (fuoco e un pezzo di pietra solare)</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[151,176,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[152,166,3,3]}\">Durata:&nbsp;</strong>Istantanea</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[177,601,0,0]}\">Un luminoso bagliore solare si espande in un raggio di 18 metri centrato su di un punto entro portata a scelta dell'incantatore. Ogni creatura situata in quella luce deve effettuare un tiro salvezza Costituzione. Se lo fallisce, una creatura subisce 12d6 danni radianti e viene accecata per 1 minuto. Se lo supera, subisce la metà del danno e non viene accecata. Non-morti e gelatine hanno svantaggio a questo tiro salvezza.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[603,763,0,0]}\">Una creatura accecata da questo incantesimo effettua un altro tiro salvezza Costituzione alla fine di ognuno dei propri turni. Se lo supera, non è più accecata.</p>\n<p>&nbsp;</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[765,866,0,0]}\">Questo incantesimo disperde qualsiasi oscurità creata da un incantesimo nella propria area d'effetto.</p>",
-      "materials": "Fuoco e un pezzo di pietra solare"
+      "materials": "Fuoco e un pezzo di pietra solare",
+      "effects": {
+        "iQg9je7HHoF6q8fr": {
+          "name": "Cecità da Esplosione Solare"
+        }
+      }
     },
     "Symbol": {
       "name": "Simbolo",
@@ -3845,6 +4335,15 @@
         },
         "Cvg6HrXoZJe9uWQQ": {
           "name": "Follia"
+        },
+        "wBljD0GOI2rgOZgm": {
+          "name": "Discordia"
+        },
+        "1jUvUPVKQ2x66y0d": {
+          "name": "Disperazione"
+        },
+        "fH66SK1HAboC2B5Q": {
+          "name": "Dolore"
         }
       },
       "activities": {
@@ -3899,6 +4398,11 @@
       "activities": {
         "dnd5eactivity000": {
           "name": "Lancia"
+        }
+      },
+      "effects": {
+        "wv2ZdOUnHIEoBTOD": {
+          "name": "Legame Telepatico"
         }
       }
     },
@@ -3971,6 +4475,11 @@
       "activities": {
         "005QMRt20A7doIaC": {
           "name": "Lancia"
+        }
+      },
+      "effects": {
+        "9h8p0npULTRN0IDw": {
+          "name": "Parlare in Lingue"
         }
       }
     },
@@ -4183,6 +4692,11 @@
         "aBbGitiN7HQtF57g": {
           "name": "Lancia"
         }
+      },
+      "effects": {
+        "9oWdcb2bnPF5z36Z": {
+          "name": "Respirare Sott'Acqua"
+        }
       }
     },
     "Water Walk": {
@@ -4192,6 +4706,11 @@
       "activities": {
         "ZsjhMgT1mBbAi5yN": {
           "name": "Lancia"
+        }
+      },
+      "effects": {
+        "2WdkWIsjxEWwsGKf": {
+          "name": "Camminare sull'Acqua"
         }
       }
     },
@@ -4208,6 +4727,11 @@
         },
         "EQ3kh837OtgGcg8n": {
           "name": "Danni della Ragnatela in Fiamme"
+        }
+      },
+      "effects": {
+        "CLGFGD5YmLil8lUi": {
+          "name": "Trattenuto nelle Ragnatele"
         }
       }
     },
@@ -4235,6 +4759,11 @@
       "activities": {
         "dnd5eactivity000": {
           "name": "Lancia"
+        }
+      },
+      "effects": {
+        "Ci7AbltSNoXhSBWy": {
+          "name": "Camminare nel Vento"
         }
       }
     },
@@ -4290,6 +4819,12 @@
         },
         "a58k6ZCEYLCko09e": {
           "name": "Resistenza ai Danni da Tuono"
+        },
+        "RMvtXgt8vxr5xaIO": {
+          "name": "Immunità alla Caratteristica"
+        },
+        "aLW7iyRM1lOAv7kn": {
+          "name": "Logoramento da Desiderio"
         }
       },
       "activities": {
