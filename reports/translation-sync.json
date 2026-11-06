@@ -6399,6 +6399,30 @@
         },
         {
           "pack": "items",
+          "id": "lsiR1hVfISlC5YoB",
+          "name": "Staff of Fire",
+          "sourcePath": "items/weapon/staff-of-fire.yml",
+          "lookupKey": "Staff of Fire",
+          "matchedLookupKey": "Staff of Fire"
+        },
+        {
+          "pack": "items",
+          "id": "xEtBeZjJnkDXojQM",
+          "name": "Staff of Frost",
+          "sourcePath": "items/weapon/staff-of-frost.yml",
+          "lookupKey": "Staff of Frost",
+          "matchedLookupKey": "Staff of Frost"
+        },
+        {
+          "pack": "items",
+          "id": "WLVQJVpCWiPkCAtZ",
+          "name": "Staff of Healing",
+          "sourcePath": "items/weapon/staff-of-healing.yml",
+          "lookupKey": "Staff of Healing",
+          "matchedLookupKey": "Staff of Healing"
+        },
+        {
+          "pack": "items",
           "id": "MOeFq5MLAQzVQC7z",
           "name": "Staff of the Python",
           "sourcePath": "items/weapon/staff-of-the-python.yml",
@@ -7583,111 +7607,6 @@
               "message": "Foundry data references differ from source",
               "pack": "items",
               "id": "46ikeR4RrSim6DsN",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "lsiR1hVfISlC5YoB",
-          "name": "Staff of Fire",
-          "sourcePath": "items/weapon/staff-of-fire.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Staff of Fire",
-          "matchedLookupKey": "Staff of Fire",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "lsiR1hVfISlC5YoB",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "lsiR1hVfISlC5YoB",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-references",
-              "severity": "blocking",
-              "message": "Foundry reference targets or order differ from source",
-              "pack": "items",
-              "id": "lsiR1hVfISlC5YoB",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "xEtBeZjJnkDXojQM",
-          "name": "Staff of Frost",
-          "sourcePath": "items/weapon/staff-of-frost.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Staff of Frost",
-          "matchedLookupKey": "Staff of Frost",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "xEtBeZjJnkDXojQM",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "xEtBeZjJnkDXojQM",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-references",
-              "severity": "blocking",
-              "message": "Foundry reference targets or order differ from source",
-              "pack": "items",
-              "id": "xEtBeZjJnkDXojQM",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "WLVQJVpCWiPkCAtZ",
-          "name": "Staff of Healing",
-          "sourcePath": "items/weapon/staff-of-healing.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Staff of Healing",
-          "matchedLookupKey": "Staff of Healing",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "WLVQJVpCWiPkCAtZ",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "WLVQJVpCWiPkCAtZ",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-references",
-              "severity": "blocking",
-              "message": "Foundry reference targets or order differ from source",
-              "pack": "items",
-              "id": "WLVQJVpCWiPkCAtZ",
               "fieldPath": "system.description.value"
             }
           ]

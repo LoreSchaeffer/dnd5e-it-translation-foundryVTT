@@ -7,7 +7,7 @@
 | classfeatures | 235 | 235 | 0 | 0 | 0 | 0 | 0 |
 | effects | 214 | 214 | 0 | 0 | 0 | 0 | 0 |
 | heroes | 12 | 0 | 0 | 12 | 0 | 466 | 561 |
-| items | 885 | 860 | 0 | 25 | 0 | 0 | 138 |
+| items | 885 | 863 | 0 | 22 | 0 | 0 | 129 |
 | monsterfeatures | 252 | 0 | 61 | 191 | 0 | 132 | 753 |
 | monsters | 337 | 2 | 5 | 330 | 15 | 4810 | 5045 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
@@ -17,7 +17,7 @@
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 7192
+Total blocking issues: 7183
 
 ## Issues
 
@@ -646,15 +646,6 @@ Total blocking issues: 7192
 - **html-attributes** `items:46ikeR4RrSim6DsN:system.description.value`
 - **foundry-inline-rolls** `items:46ikeR4RrSim6DsN:system.description.value`
 - **foundry-data-references** `items:46ikeR4RrSim6DsN:system.description.value`
-- **html-tag-sequence** `items:lsiR1hVfISlC5YoB:system.description.value`
-- **html-attributes** `items:lsiR1hVfISlC5YoB:system.description.value`
-- **foundry-references** `items:lsiR1hVfISlC5YoB:system.description.value`
-- **html-tag-sequence** `items:xEtBeZjJnkDXojQM:system.description.value`
-- **html-attributes** `items:xEtBeZjJnkDXojQM:system.description.value`
-- **foundry-references** `items:xEtBeZjJnkDXojQM:system.description.value`
-- **html-tag-sequence** `items:WLVQJVpCWiPkCAtZ:system.description.value`
-- **html-attributes** `items:WLVQJVpCWiPkCAtZ:system.description.value`
-- **foundry-references** `items:WLVQJVpCWiPkCAtZ:system.description.value`
 - **html-tag-sequence** `items:eM5gEe4SEOvA2Y9t:system.description.value`
 - **html-attributes** `items:eM5gEe4SEOvA2Y9t:system.description.value`
 - **foundry-references** `items:eM5gEe4SEOvA2Y9t:system.description.value`

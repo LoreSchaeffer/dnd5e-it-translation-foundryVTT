@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1748,
+      "translated": 1751,
       "missing": 69,
-      "partial": 574,
+      "partial": 571,
       "review": 70
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 1037,
+      "invariantFailures": 1028,
       "englishResiduals": 72,
       "imperialResiduals": 0
     },
-    "blockingIssues": 7192
+    "blockingIssues": 7183
   },
   "packs": [
     {
@@ -5317,9 +5317,9 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 860,
+          "translated": 863,
           "missing": 0,
-          "partial": 25,
+          "partial": 22,
           "review": 0
         },
         "folders": {
@@ -5333,7 +5333,7 @@
           "total": 2227,
           "translated": 2227,
           "missing": 0,
-          "invariantFailures": 90,
+          "invariantFailures": 81,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
@@ -5978,96 +5978,6 @@
           "fieldPath": "system.description.value",
           "name": "Talisman of the Sphere",
           "sourcePath": "items/trinket/talisman-of-the-sphere.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "lsiR1hVfISlC5YoB",
-          "fieldPath": "system.description.value",
-          "name": "Staff of Fire",
-          "sourcePath": "items/weapon/staff-of-fire.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "lsiR1hVfISlC5YoB",
-          "fieldPath": "system.description.value",
-          "name": "Staff of Fire",
-          "sourcePath": "items/weapon/staff-of-fire.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "lsiR1hVfISlC5YoB",
-          "fieldPath": "system.description.value",
-          "name": "Staff of Fire",
-          "sourcePath": "items/weapon/staff-of-fire.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "xEtBeZjJnkDXojQM",
-          "fieldPath": "system.description.value",
-          "name": "Staff of Frost",
-          "sourcePath": "items/weapon/staff-of-frost.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "xEtBeZjJnkDXojQM",
-          "fieldPath": "system.description.value",
-          "name": "Staff of Frost",
-          "sourcePath": "items/weapon/staff-of-frost.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "xEtBeZjJnkDXojQM",
-          "fieldPath": "system.description.value",
-          "name": "Staff of Frost",
-          "sourcePath": "items/weapon/staff-of-frost.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "WLVQJVpCWiPkCAtZ",
-          "fieldPath": "system.description.value",
-          "name": "Staff of Healing",
-          "sourcePath": "items/weapon/staff-of-healing.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "WLVQJVpCWiPkCAtZ",
-          "fieldPath": "system.description.value",
-          "name": "Staff of Healing",
-          "sourcePath": "items/weapon/staff-of-healing.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "WLVQJVpCWiPkCAtZ",
-          "fieldPath": "system.description.value",
-          "name": "Staff of Healing",
-          "sourcePath": "items/weapon/staff-of-healing.yml"
         },
         {
           "code": "html-tag-sequence",
