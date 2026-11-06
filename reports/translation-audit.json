@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 926,
-      "missing": 109,
-      "partial": 1356,
+      "translated": 930,
+      "missing": 77,
+      "partial": 1384,
       "review": 213
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 8853,
-      "missing": 6807,
+      "translated": 8898,
+      "missing": 6762,
       "invariantFailures": 2394,
       "englishResiduals": 135,
       "imperialResiduals": 4
     },
-    "blockingIssues": 9284
+    "blockingIssues": 9275
   },
   "packs": [
     {
@@ -5317,9 +5317,9 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 322,
-          "missing": 32,
-          "partial": 531,
+          "translated": 326,
+          "missing": 0,
+          "partial": 559,
           "review": 133
         },
         "folders": {
@@ -5331,8 +5331,8 @@
         },
         "fields": {
           "total": 2227,
-          "translated": 2126,
-          "missing": 101,
+          "translated": 2171,
+          "missing": 56,
           "invariantFailures": 1041,
           "englishResiduals": 46,
           "imperialResiduals": 2
@@ -5360,11 +5360,12 @@
           "sourcePath": "items/ammunition/arrow-of-slaying.yml"
         },
         {
-          "code": "missing-document",
+          "code": "missing-field",
           "severity": "blocking",
           "pack": "items",
           "id": "3c7JXOzsv55gqJS5",
           "name": "Arrow",
+          "fieldPath": "system.description.value",
           "sourcePath": "items/ammunition/arrow.yml"
         },
         {
@@ -6366,11 +6367,12 @@
           "sourcePath": "items/container/alms-box/_container.yml"
         },
         {
-          "code": "missing-document",
+          "code": "missing-field",
           "severity": "blocking",
           "pack": "items",
           "id": "TmfaFUSZJAotndn9",
           "name": "Saddlebags",
+          "fieldPath": "system.description.value",
           "sourcePath": "items/container/saddlebags/_container.yml"
         },
         {
@@ -6444,11 +6446,12 @@
           "sourcePath": "items/equipment/belt-of-dwarvenkind.yml"
         },
         {
-          "code": "missing-document",
+          "code": "missing-field",
           "severity": "blocking",
           "pack": "items",
           "id": "8l7M3zeqrU2vkA5h",
           "name": "Bit and Bridle",
+          "fieldPath": "system.description.value",
           "sourcePath": "items/equipment/bit-and-bridle.yml"
         },
         {
@@ -6540,11 +6543,12 @@
           "sourcePath": "items/equipment/costume-clothes.yml"
         },
         {
-          "code": "missing-document",
+          "code": "missing-field",
           "severity": "blocking",
           "pack": "items",
           "id": "4932CLHvjZYxOm4g",
           "name": "Exotic Saddle",
+          "fieldPath": "system.description.value",
           "sourcePath": "items/equipment/exotic-saddle.yml"
         },
         {
@@ -6756,19 +6760,21 @@
           "sourcePath": "items/equipment/orb-of-dragonkind.yml"
         },
         {
-          "code": "missing-document",
+          "code": "missing-field",
           "severity": "blocking",
           "pack": "items",
           "id": "ecz2fVDyAg8YgJGe",
           "name": "Pack Saddle",
+          "fieldPath": "system.description.value",
           "sourcePath": "items/equipment/pack-saddle.yml"
         },
         {
-          "code": "missing-document",
+          "code": "missing-field",
           "severity": "blocking",
           "pack": "items",
           "id": "N0in6FE8DQdZrHei",
           "name": "Riding Saddle",
+          "fieldPath": "system.description.value",
           "sourcePath": "items/equipment/riding-saddle.yml"
         },
         {
@@ -7050,14 +7056,6 @@
           "sourcePath": "items/equipment-packs/burglars-pack/rations.yml"
         },
         {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "Ij6x7481ch3Z0rff",
-          "name": "String, 10 ft.",
-          "sourcePath": "items/equipment-packs/burglars-pack/string-10-ft.yml"
-        },
-        {
           "code": "ambiguous-name",
           "severity": "blocking",
           "pack": "items",
@@ -7146,15 +7144,6 @@
           "sourcePath": "items/equipment-packs/diplomats-pack/lamp.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "u5GmRCvAsCYoacLj",
-          "name": "Map Case",
-          "fieldPath": "name",
-          "sourcePath": "items/equipment-packs/diplomats-pack/map-case/_container.yml"
-        },
-        {
           "code": "ambiguous-name",
           "severity": "blocking",
           "pack": "items",
@@ -7197,15 +7186,6 @@
           "id": "LECtCKWa0mt0Vy1U",
           "name": "Perfume",
           "sourcePath": "items/equipment-packs/diplomats-pack/perfume.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "6eMHIQ2CGKpjTtWC",
-          "name": "Scroll Case",
-          "fieldPath": "name",
-          "sourcePath": "items/equipment-packs/diplomats-pack/scroll-case/_container.yml"
         },
         {
           "code": "ambiguous-name",
@@ -7366,15 +7346,6 @@
           "id": "2cKJTN5Ki77oCrQn",
           "name": "Waterskin",
           "sourcePath": "items/equipment-packs/dungeoneers-pack/waterskin.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "6OYR11aJX2dEVtOj",
-          "name": "Entertainer's Pack",
-          "fieldPath": "name",
-          "sourcePath": "items/equipment-packs/entertainers-pack/_container.yml"
         },
         {
           "code": "ambiguous-name",
@@ -7766,26 +7737,8 @@
           "pack": "items",
           "id": "f4w4GxBi0nYXmhX4",
           "name": "Rations",
-          "fieldPath": "name",
-          "sourcePath": "items/food/rations.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "f4w4GxBi0nYXmhX4",
-          "name": "Rations",
           "fieldPath": "system.description.value",
           "sourcePath": "items/food/rations.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "Uv0ilmzbWvqmlCVH",
-          "name": "Waterskin",
-          "fieldPath": "name",
-          "sourcePath": "items/food/waterskin.yml"
         },
         {
           "code": "missing-field",
@@ -8014,15 +7967,6 @@
           "pack": "items",
           "id": "Ak7k7JVu0iiI6N8r",
           "name": "Assassin's Blood",
-          "fieldPath": "name",
-          "sourcePath": "items/poison/assassins-blood.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "Ak7k7JVu0iiI6N8r",
-          "name": "Assassin's Blood",
           "fieldPath": "system.description.value",
           "sourcePath": "items/poison/assassins-blood.yml"
         },
@@ -8047,19 +7991,48 @@
           "sourcePath": "items/poison/basic-poison.yml"
         },
         {
-          "code": "missing-document",
+          "code": "missing-field",
           "severity": "blocking",
           "pack": "items",
           "id": "Neh9udRZHj0Bg9EH",
           "name": "Burnt Othur Fumes",
+          "fieldPath": "system.description.value",
           "sourcePath": "items/poison/burnt-othur-fumes.yml"
         },
         {
-          "code": "missing-document",
+          "code": "missing-field",
+          "severity": "blocking",
+          "pack": "items",
+          "id": "Neh9udRZHj0Bg9EH",
+          "name": "Burnt Othur Fumes",
+          "fieldPath": "system.activities.dnd5eactivity000.name",
+          "sourcePath": "items/poison/burnt-othur-fumes.yml"
+        },
+        {
+          "code": "missing-field",
+          "severity": "blocking",
+          "pack": "items",
+          "id": "Neh9udRZHj0Bg9EH",
+          "name": "Burnt Othur Fumes",
+          "fieldPath": "system.activities.699G3YGOfe67nPbM.name",
+          "sourcePath": "items/poison/burnt-othur-fumes.yml"
+        },
+        {
+          "code": "missing-field",
           "severity": "blocking",
           "pack": "items",
           "id": "B018Yhz1M7Np8JCW",
           "name": "Crawler Mucus",
+          "fieldPath": "system.description.value",
+          "sourcePath": "items/poison/crawler-mucus.yml"
+        },
+        {
+          "code": "missing-field",
+          "severity": "blocking",
+          "pack": "items",
+          "id": "B018Yhz1M7Np8JCW",
+          "name": "Crawler Mucus",
+          "fieldPath": "effects[nczzAQLDBNlAgWjq].name",
           "sourcePath": "items/poison/crawler-mucus.yml"
         },
         {
@@ -8068,26 +8041,8 @@
           "pack": "items",
           "id": "rT5Hhe7uISNTZK18",
           "name": "Drow Poison",
-          "fieldPath": "name",
-          "sourcePath": "items/poison/drow-poison.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "rT5Hhe7uISNTZK18",
-          "name": "Drow Poison",
           "fieldPath": "system.description.value",
           "sourcePath": "items/poison/drow-poison.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "9HhPykgxpzgHjfak",
-          "name": "Essence of Ether",
-          "fieldPath": "name",
-          "sourcePath": "items/poison/essence-of-ether.yml"
         },
         {
           "code": "missing-field",
@@ -8099,19 +8054,30 @@
           "sourcePath": "items/poison/essence-of-ether.yml"
         },
         {
-          "code": "missing-document",
+          "code": "missing-field",
           "severity": "blocking",
           "pack": "items",
           "id": "nxGKQlAdf0TMUKNa",
           "name": "Malice",
+          "fieldPath": "system.description.value",
           "sourcePath": "items/poison/malice.yml"
         },
         {
-          "code": "missing-document",
+          "code": "missing-field",
+          "severity": "blocking",
+          "pack": "items",
+          "id": "nxGKQlAdf0TMUKNa",
+          "name": "Malice",
+          "fieldPath": "effects[F00Q1raXGiNoOKoB].name",
+          "sourcePath": "items/poison/malice.yml"
+        },
+        {
+          "code": "missing-field",
           "severity": "blocking",
           "pack": "items",
           "id": "9YyfarjYlV1QXvGi",
           "name": "Midnight Tears",
+          "fieldPath": "system.description.value",
           "sourcePath": "items/poison/midnight-tears.yml"
         },
         {
@@ -8120,26 +8086,8 @@
           "pack": "items",
           "id": "0R4VzaAY99facLlm",
           "name": "Oil of Taggit",
-          "fieldPath": "name",
-          "sourcePath": "items/poison/oil-of-taggit.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "0R4VzaAY99facLlm",
-          "name": "Oil of Taggit",
           "fieldPath": "system.description.value",
           "sourcePath": "items/poison/oil-of-taggit.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "hmzXexBpLXFhmzEu",
-          "name": "Pale Tincture",
-          "fieldPath": "name",
-          "sourcePath": "items/poison/pale-tincture.yml"
         },
         {
           "code": "missing-field",
@@ -8191,27 +8139,39 @@
           "sourcePath": "items/poison/potion-of-poison.yml"
         },
         {
-          "code": "missing-document",
+          "code": "missing-field",
           "severity": "blocking",
           "pack": "items",
           "id": "PWUGVaKaYHkvNMDr",
           "name": "Purple Worm Poison",
+          "fieldPath": "system.description.value",
           "sourcePath": "items/poison/purple-worm-poison.yml"
         },
         {
-          "code": "missing-document",
+          "code": "missing-field",
           "severity": "blocking",
           "pack": "items",
           "id": "TQRezUN0WtdZX5ae",
           "name": "Serpent Venom",
+          "fieldPath": "system.description.value",
           "sourcePath": "items/poison/serpent-venom.yml"
         },
         {
-          "code": "missing-document",
+          "code": "missing-field",
           "severity": "blocking",
           "pack": "items",
           "id": "BTBhiXNbSnkW8HP3",
           "name": "Torpor",
+          "fieldPath": "system.description.value",
+          "sourcePath": "items/poison/torpor.yml"
+        },
+        {
+          "code": "missing-field",
+          "severity": "blocking",
+          "pack": "items",
+          "id": "BTBhiXNbSnkW8HP3",
+          "name": "Torpor",
+          "fieldPath": "effects[QnTGMuIGAsENzvHa].name",
           "sourcePath": "items/poison/torpor.yml"
         },
         {
@@ -8255,11 +8215,12 @@
           "sourcePath": "items/poison/truth-serum.yml"
         },
         {
-          "code": "missing-document",
+          "code": "missing-field",
           "severity": "blocking",
           "pack": "items",
           "id": "tJC6SG4kAO2Vt4Qd",
           "name": "Wyvern Poison",
+          "fieldPath": "system.description.value",
           "sourcePath": "items/poison/wyvern-poison.yml"
         },
         {
@@ -10535,15 +10496,6 @@
           "pack": "items",
           "id": "rQ6sO7HDWzqMhSI3",
           "name": "Spell Scroll Cantrip",
-          "fieldPath": "name",
-          "sourcePath": "items/scroll/spell-scroll-cantrip.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "rQ6sO7HDWzqMhSI3",
-          "name": "Spell Scroll Cantrip",
           "fieldPath": "system.description.value",
           "sourcePath": "items/scroll/spell-scroll-cantrip.yml"
         },
@@ -10788,15 +10740,6 @@
           "fieldPath": "system.description.value",
           "name": "Cook's Utensils",
           "sourcePath": "items/tool/cooks-utensils.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "IBhDAr7WkhWPYLVn",
-          "name": "Disguise Kit",
-          "fieldPath": "name",
-          "sourcePath": "items/tool/disguise-kit.yml"
         },
         {
           "code": "missing-field",
@@ -11465,35 +11408,39 @@
           "sourcePath": "items/trinket/candle.yml"
         },
         {
-          "code": "missing-document",
+          "code": "missing-field",
           "severity": "blocking",
           "pack": "items",
           "id": "XwqNHyox5OQQio8q",
           "name": "Carpet of Flying (3x5)",
+          "fieldPath": "system.description.value",
           "sourcePath": "items/trinket/carpet-of-flying-3x5.yml"
         },
         {
-          "code": "missing-document",
+          "code": "missing-field",
           "severity": "blocking",
           "pack": "items",
           "id": "DeK9uQvNJj3JzFwe",
           "name": "Carpet of Flying (4x6)",
+          "fieldPath": "system.description.value",
           "sourcePath": "items/trinket/carpet-of-flying-4x6.yml"
         },
         {
-          "code": "missing-document",
+          "code": "missing-field",
           "severity": "blocking",
           "pack": "items",
           "id": "XAr1SR4POx5BAArk",
           "name": "Carpet of Flying (5x7)",
+          "fieldPath": "system.description.value",
           "sourcePath": "items/trinket/carpet-of-flying-5x7.yml"
         },
         {
-          "code": "missing-document",
+          "code": "missing-field",
           "severity": "blocking",
           "pack": "items",
           "id": "TjWk2mpNXjDdfIDM",
           "name": "Carpet of Flying (6x9)",
+          "fieldPath": "system.description.value",
           "sourcePath": "items/trinket/carpet-of-flying-6x9.yml"
         },
         {
@@ -11687,11 +11634,12 @@
           "sourcePath": "items/trinket/dust-of-sneezing-and-choking.yml"
         },
         {
-          "code": "missing-document",
+          "code": "missing-field",
           "severity": "blocking",
           "pack": "items",
           "id": "fbcQsOgWCjhEAGY7",
           "name": "Efreeti Bottle",
+          "fieldPath": "system.description.value",
           "sourcePath": "items/trinket/efreeti-bottle.yml"
         },
         {
@@ -11995,101 +11943,103 @@
           "sourcePath": "items/trinket/feather-token-whip.yml"
         },
         {
-          "code": "missing-document",
+          "code": "missing-field",
           "severity": "blocking",
           "pack": "items",
           "id": "CI58LNiwrTpmWYMp",
           "name": "Figurine of Wondrous Power (Bronze Griffon)",
+          "fieldPath": "system.description.value",
           "sourcePath": "items/trinket/figurine-of-wondrous-power-bronze-griffon.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "s2kQs21J3cFg7ZSs",
-          "name": "Figurine of Wondrous Power (Ebony Fly)",
-          "sourcePath": "items/trinket/figurine-of-wondrous-power-ebony-fly.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "Minr6xegwoHFvAjG",
-          "name": "Figurine of Wondrous Power (Golden Lions)",
-          "sourcePath": "items/trinket/figurine-of-wondrous-power-golden-lions.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "8CaODbNQtxHGuVjn",
-          "name": "Figurine of Wondrous Power (Ivory Goat of Terror)",
-          "sourcePath": "items/trinket/figurine-of-wondrous-power-ivory-goat-of-terror.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "41kYCmKq0PbGVKaM",
-          "name": "Figurine of Wondrous Power (Ivory Goat of Travail)",
-          "sourcePath": "items/trinket/figurine-of-wondrous-power-ivory-goat-of-travail.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "iLt7wTWr4cJnQulJ",
-          "name": "Figurine of Wondrous Power (Ivory Goat of Traveling)",
-          "sourcePath": "items/trinket/figurine-of-wondrous-power-ivory-goat-of-traveling.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "GP2bvHlxVi30OEmo",
-          "name": "Figurine of Wondrous Power (Marble Elephant)",
-          "sourcePath": "items/trinket/figurine-of-wondrous-power-marble-elephant.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "M5qkJ7erLqWYUHa0",
-          "name": "Figurine of Wondrous Power (Obsidian Steed)",
-          "sourcePath": "items/trinket/figurine-of-wondrous-power-obsidian-steed.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "9nxSHbqlDdngtuuz",
-          "name": "Figurine of Wondrous Power (Onyx Dog)",
-          "sourcePath": "items/trinket/figurine-of-wondrous-power-onyx-dog.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "XEH5YErAN1WSytln",
-          "name": "Figurine of Wondrous Power (Serpentine Owl)",
-          "sourcePath": "items/trinket/figurine-of-wondrous-power-serpentine-owl.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "nMtmxeYrbyFdv0bg",
-          "name": "Figurine of Wondrous Power (Silver Raven)",
-          "sourcePath": "items/trinket/figurine-of-wondrous-power-silver-raven.yml"
         },
         {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "items",
-          "id": "QXmaarJ4X8P0C1HV",
-          "name": "Hempen Rope (50 ft.)",
-          "fieldPath": "name",
-          "sourcePath": "items/trinket/hempen-rope-50-ft.yml"
+          "id": "s2kQs21J3cFg7ZSs",
+          "name": "Figurine of Wondrous Power (Ebony Fly)",
+          "fieldPath": "system.description.value",
+          "sourcePath": "items/trinket/figurine-of-wondrous-power-ebony-fly.yml"
+        },
+        {
+          "code": "missing-field",
+          "severity": "blocking",
+          "pack": "items",
+          "id": "Minr6xegwoHFvAjG",
+          "name": "Figurine of Wondrous Power (Golden Lions)",
+          "fieldPath": "system.description.value",
+          "sourcePath": "items/trinket/figurine-of-wondrous-power-golden-lions.yml"
+        },
+        {
+          "code": "missing-field",
+          "severity": "blocking",
+          "pack": "items",
+          "id": "8CaODbNQtxHGuVjn",
+          "name": "Figurine of Wondrous Power (Ivory Goat of Terror)",
+          "fieldPath": "system.description.value",
+          "sourcePath": "items/trinket/figurine-of-wondrous-power-ivory-goat-of-terror.yml"
+        },
+        {
+          "code": "missing-field",
+          "severity": "blocking",
+          "pack": "items",
+          "id": "41kYCmKq0PbGVKaM",
+          "name": "Figurine of Wondrous Power (Ivory Goat of Travail)",
+          "fieldPath": "system.description.value",
+          "sourcePath": "items/trinket/figurine-of-wondrous-power-ivory-goat-of-travail.yml"
+        },
+        {
+          "code": "missing-field",
+          "severity": "blocking",
+          "pack": "items",
+          "id": "iLt7wTWr4cJnQulJ",
+          "name": "Figurine of Wondrous Power (Ivory Goat of Traveling)",
+          "fieldPath": "system.description.value",
+          "sourcePath": "items/trinket/figurine-of-wondrous-power-ivory-goat-of-traveling.yml"
+        },
+        {
+          "code": "missing-field",
+          "severity": "blocking",
+          "pack": "items",
+          "id": "GP2bvHlxVi30OEmo",
+          "name": "Figurine of Wondrous Power (Marble Elephant)",
+          "fieldPath": "system.description.value",
+          "sourcePath": "items/trinket/figurine-of-wondrous-power-marble-elephant.yml"
+        },
+        {
+          "code": "missing-field",
+          "severity": "blocking",
+          "pack": "items",
+          "id": "M5qkJ7erLqWYUHa0",
+          "name": "Figurine of Wondrous Power (Obsidian Steed)",
+          "fieldPath": "system.description.value",
+          "sourcePath": "items/trinket/figurine-of-wondrous-power-obsidian-steed.yml"
+        },
+        {
+          "code": "missing-field",
+          "severity": "blocking",
+          "pack": "items",
+          "id": "9nxSHbqlDdngtuuz",
+          "name": "Figurine of Wondrous Power (Onyx Dog)",
+          "fieldPath": "system.description.value",
+          "sourcePath": "items/trinket/figurine-of-wondrous-power-onyx-dog.yml"
+        },
+        {
+          "code": "missing-field",
+          "severity": "blocking",
+          "pack": "items",
+          "id": "XEH5YErAN1WSytln",
+          "name": "Figurine of Wondrous Power (Serpentine Owl)",
+          "fieldPath": "system.description.value",
+          "sourcePath": "items/trinket/figurine-of-wondrous-power-serpentine-owl.yml"
+        },
+        {
+          "code": "missing-field",
+          "severity": "blocking",
+          "pack": "items",
+          "id": "nMtmxeYrbyFdv0bg",
+          "name": "Figurine of Wondrous Power (Silver Raven)",
+          "fieldPath": "system.description.value",
+          "sourcePath": "items/trinket/figurine-of-wondrous-power-silver-raven.yml"
         },
         {
           "code": "missing-field",
@@ -12109,11 +12059,12 @@
           "sourcePath": "items/trinket/hooded-lantern.yml"
         },
         {
-          "code": "missing-document",
+          "code": "missing-field",
           "severity": "blocking",
           "pack": "items",
           "id": "2mvXGvDmHHhzbT04",
           "name": "Horseshoes of a Zephyr",
+          "fieldPath": "system.description.value",
           "sourcePath": "items/trinket/horseshoes-of-a-zephyr.yml"
         },
         {
