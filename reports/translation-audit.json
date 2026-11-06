@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1255,
+      "translated": 1257,
       "missing": 69,
-      "partial": 1067,
+      "partial": 1065,
       "review": 203
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 1995,
+      "invariantFailures": 1988,
       "englishResiduals": 118,
       "imperialResiduals": 2
     },
-    "blockingIssues": 8285
+    "blockingIssues": 8278
   },
   "packs": [
     {
@@ -76741,9 +76741,9 @@
       "summary": {
         "documents": {
           "total": 320,
-          "translated": 318,
+          "translated": 320,
           "missing": 0,
-          "partial": 2,
+          "partial": 0,
           "review": 0
         },
         "folders": {
@@ -76757,83 +76757,12 @@
           "total": 2007,
           "translated": 2007,
           "missing": 0,
-          "invariantFailures": 7,
+          "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
-      "issues": [
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "B2kbmgbA2WQR00kx",
-          "fieldPath": "system.description.value",
-          "name": "Symbol",
-          "sourcePath": "spells/7th-level/symbol.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "B2kbmgbA2WQR00kx",
-          "fieldPath": "system.description.value",
-          "name": "Symbol",
-          "sourcePath": "spells/7th-level/symbol.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "spells",
-          "id": "B2kbmgbA2WQR00kx",
-          "fieldPath": "system.description.value",
-          "name": "Symbol",
-          "sourcePath": "spells/7th-level/symbol.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "spells",
-          "id": "B2kbmgbA2WQR00kx",
-          "fieldPath": "system.description.value",
-          "name": "Symbol",
-          "sourcePath": "spells/7th-level/symbol.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "jmfu8zj4zjjzUbeh",
-          "fieldPath": "system.description.value",
-          "name": "Prismatic Wall",
-          "sourcePath": "spells/9th-level/prismatic-wall.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "jmfu8zj4zjjzUbeh",
-          "fieldPath": "system.description.value",
-          "name": "Prismatic Wall",
-          "sourcePath": "spells/9th-level/prismatic-wall.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "spells",
-          "id": "jmfu8zj4zjjzUbeh",
-          "fieldPath": "system.description.value",
-          "name": "Prismatic Wall",
-          "sourcePath": "spells/9th-level/prismatic-wall.yml"
-        }
-      ]
+      "issues": []
     },
     {
       "pack": "subclasses",

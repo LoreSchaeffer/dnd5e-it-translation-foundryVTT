@@ -2103,6 +2103,14 @@
         },
         {
           "pack": "spells",
+          "id": "B2kbmgbA2WQR00kx",
+          "name": "Symbol",
+          "sourcePath": "spells/7th-level/symbol.yml",
+          "lookupKey": "Symbol",
+          "matchedLookupKey": "Symbol"
+        },
+        {
+          "pack": "spells",
           "id": "L4J89JXqbKs6puEV",
           "name": "Teleport",
           "sourcePath": "spells/7th-level/teleport.yml",
@@ -2292,6 +2300,14 @@
           "sourcePath": "spells/9th-level/power-word-kill.yml",
           "lookupKey": "Power Word Kill",
           "matchedLookupKey": "Power Word Kill"
+        },
+        {
+          "pack": "spells",
+          "id": "jmfu8zj4zjjzUbeh",
+          "name": "Prismatic Wall",
+          "sourcePath": "spells/9th-level/prismatic-wall.yml",
+          "lookupKey": "Prismatic Wall",
+          "matchedLookupKey": "Prismatic Wall"
         },
         {
           "pack": "spells",
@@ -2551,86 +2567,7 @@
         }
       ],
       "needsTranslation": [],
-      "manualReview": [
-        {
-          "pack": "spells",
-          "id": "B2kbmgbA2WQR00kx",
-          "name": "Symbol",
-          "sourcePath": "spells/7th-level/symbol.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Symbol",
-          "matchedLookupKey": "Symbol",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "B2kbmgbA2WQR00kx",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "B2kbmgbA2WQR00kx",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "spells",
-              "id": "B2kbmgbA2WQR00kx",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-data-references",
-              "severity": "blocking",
-              "message": "Foundry data references differ from source",
-              "pack": "spells",
-              "id": "B2kbmgbA2WQR00kx",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "jmfu8zj4zjjzUbeh",
-          "name": "Prismatic Wall",
-          "sourcePath": "spells/9th-level/prismatic-wall.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Prismatic Wall",
-          "matchedLookupKey": "Prismatic Wall",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "jmfu8zj4zjjzUbeh",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "jmfu8zj4zjjzUbeh",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "spells",
-              "id": "jmfu8zj4zjjzUbeh",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        }
-      ]
+      "manualReview": []
     }
   ]
 }

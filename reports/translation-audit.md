@@ -12,12 +12,12 @@
 | monsters | 337 | 2 | 5 | 330 | 15 | 4810 | 5045 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
 | rules | 20 | 1 | 3 | 16 | 0 | 738 | 695 |
-| spells | 320 | 318 | 0 | 2 | 0 | 0 | 7 |
+| spells | 320 | 320 | 0 | 0 | 0 | 0 | 0 |
 | subclasses | 12 | 12 | 0 | 0 | 0 | 0 | 0 |
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 8285
+Total blocking issues: 8278
 
 ## Issues
 
@@ -8299,10 +8299,3 @@ Total blocking issues: 8285
 - **missing-document** `rules:4ANrmP15aBGam0QS`
 - **missing-document** `rules:xxt7YT2t76JxNTel`
 - **missing-document** `rules:sfJtvPjEs50Ruzi4`
-- **html-tag-sequence** `spells:B2kbmgbA2WQR00kx:system.description.value`
-- **html-attributes** `spells:B2kbmgbA2WQR00kx:system.description.value`
-- **foundry-inline-rolls** `spells:B2kbmgbA2WQR00kx:system.description.value`
-- **foundry-data-references** `spells:B2kbmgbA2WQR00kx:system.description.value`
-- **html-tag-sequence** `spells:jmfu8zj4zjjzUbeh:system.description.value`
-- **html-attributes** `spells:jmfu8zj4zjjzUbeh:system.description.value`
-- **foundry-reference-count** `spells:jmfu8zj4zjjzUbeh:system.description.value`
