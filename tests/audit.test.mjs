@@ -84,6 +84,18 @@ test("translationForField resolves stable IDs in structured advancement arrays",
   assert.equal(translationForField(record, field, translation), "Privilegio");
 });
 
+test("translationForField accepts legacy range strings for TableResult descriptions", () => {
+  const sourceRecord = {
+    data: {
+      results: [{ _id: "result1", range: [1, 2], description: "Original result" }]
+    }
+  };
+  const field = { fieldPath: "results[result1].description" };
+  const translation = { results: { "1-2": "Risultato tradotto" } };
+
+  assert.equal(translationForField(sourceRecord, field, translation), "Risultato tradotto");
+});
+
 test("translationForField resolves Active Effect prose by stable ID", () => {
   const record = { data: { effects: [{ _id: "effect1", name: "Lucky", description: "Rule" }] } };
   const translation = { effects: { effect1: { name: "Fortunato", description: "Regola" } } };

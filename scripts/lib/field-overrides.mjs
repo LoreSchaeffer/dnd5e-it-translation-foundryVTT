@@ -6,6 +6,7 @@ function setPath(object, path, value) {
 
 export function babelePathForField(fieldPath) {
   if (fieldPath === "name") return ["name"];
+  if (fieldPath === "description") return ["description"];
   if (fieldPath === "system.description.value") return ["description"];
   if (fieldPath === "system.description.chat") return ["chat"];
   if (fieldPath === "system.requirements") return ["requirements"];

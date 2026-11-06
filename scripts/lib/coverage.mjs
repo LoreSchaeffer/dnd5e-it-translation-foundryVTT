@@ -54,7 +54,7 @@ export function translationForField(sourceRecord, field, translation) {
     const result = byId(sourceRecord.data.results, match[1]);
     const rangeKey = Array.isArray(result?.range) ? result.range.join("-") : null;
     const translatedResult = translation?.results?.[match[1]] ?? translation?.results?.[rangeKey] ?? translation?.results?.[result?.text];
-    if (match[2] === "text" && typeof translatedResult === "string") return translatedResult;
+    if (["text", "description"].includes(match[2]) && typeof translatedResult === "string") return translatedResult;
     return translateNestedField(translatedResult, match[2]);
   }
 

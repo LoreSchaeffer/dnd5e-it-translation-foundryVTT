@@ -44,11 +44,13 @@ test("uses stable IDs when a visible source name is duplicated", () => {
 
 test("maps embedded items, journal pages, table results, and actor details", () => {
   const output = applyFieldOverrides({}, {
+    "description": "Descrizione della tabella",
     "items[item1].system.description.value": "Descrizione",
     "pages[page1].text.content": "Contenuto",
     "results[result1].text": "Esito",
     "system.details.biography.value": "Biografia"
   });
+  assert.equal(output.description, "Descrizione della tabella");
   assert.equal(output.items.item1.description, "Descrizione");
   assert.equal(output.pages.page1.text.content, "Contenuto");
   assert.equal(output.results.result1.text, "Esito");

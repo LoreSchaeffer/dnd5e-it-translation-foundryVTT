@@ -63,7 +63,13 @@
         "71-80": "\"Sono convinto che potenti nemici mi diano la caccia e che i loro agenti siano presenti ovunque io vada. Sono sicuro che mi osservano tutto il tempo.\"",
         "81-85": "\"C’è solo una persona di cui posso fidarmi. E solo io sono in grado di vedere questo amico speciale.\"",
         "86-95": "\"Non riesco a prendere nulla sul serio. Più seria è la situazione, più la trovo divertente.\"",
-        "96-100": "\"Ho scoperto che mi piace davvero tanto uccidere la gente.\""
+        "96-100": "\"Ho scoperto che mi piace davvero tanto uccidere la gente.\"",
+        "tttREMw0gGZvoejS": {
+          "description": "\"Non riesco a prendere nulla sul serio. Più seria è la situazione, più la trovo divertente.\""
+        },
+        "a7weVuxwPrapMTRu": {
+          "description": "\"Ubriacarmi mi mantiene sano di mente.\""
+        }
       }
     },
     "Long-Term Madness": {
@@ -81,7 +87,10 @@
         "78-85": "II personaggio soffre di una parziale amnesia. Sa chi è e conserva i suoi tratti razziali e privilegi di classe, ma non riconosce gli altri e non ricorda nulla di ciò che gli è successo prima che la follia avesse effetto.",
         "86-90": "Ogni volta che il personaggio subisce danni, deve superare un tiro salvezza su Saggezza con CD 15, altrimenti sarà influenzato come se avesse fallito un tiro salvezza contro l'incantesimo confusione. L’effetto di confusione dura 1 minuto.",
         "91-95": "II personaggio non è più in grado di parlare.",
-        "96-100": "II personaggio cade privo di sensi. Né scuoterlo né infliggergli danni basterà a risvegliarlo."
+        "96-100": "II personaggio cade privo di sensi. Né scuoterlo né infliggergli danni basterà a risvegliarlo.",
+        "OSK3EW1QKJQ7P8PM": {
+          "description": "Il personaggio soffre di amnesia parziale. Sa chi è e conserva i suoi tratti razziali e privilegi di classe, ma non riconosce le altre persone e non ricorda nulla di ciò che è accaduto prima che la follia avesse effetto."
+        }
       }
     },
     "Personality Traits (Acolyte)": {
@@ -115,15 +124,96 @@
     },
     "4ryVFV5LPHPzRKxl": {
       "_id": "4ryVFV5LPHPzRKxl",
-      "name": "Borsa dei Fagioli Magici"
+      "name": "Borsa dei Fagioli Magici",
+      "results": {
+        "WxO0rXJgtL1EUztI": {
+          "description": "Spuntano [[/r 5d4]] funghi velenosi. Se una creatura mangia un fungo, tira un dado qualsiasi. Se il risultato è dispari, la creatura deve superare un tiro salvezza [[/save constitution dc=15]], altrimenti subisce [[/damage 5d6 poison]] danni e diventa &amp;Reference[poisoned] per 1 ora. Se il risultato è pari, la creatura ottiene [[/healing 5d6 temp]]{5d6 punti ferita temporanei} per 1 ora."
+        },
+        "AUkjfy7wjNDebT9g": {
+          "description": "Scaturisce un geyser che spruzza acqua, birra, succo di frutti di bosco, tè, aceto, vino oppure olio (a scelta del GM) fino a 9 metri d'altezza per [[/r 1d12]] round."
+        },
+        "ulVFkJMQbMqcaslJ": {
+          "description": "Spunta un treant. C'è una probabilità del 50 percento che il treant sia caotico malvagio e attacchi."
+        },
+        "Gd5V8Ap4jog7RVXX": {
+          "description": "Dal terreno emerge una statua di pietra animata ma immobile con le tue sembianze. Pronuncia minacce verbali contro di te. Se te ne vai e altre creature si avvicinano, ti descrive come il più scellerato dei malvagi e indica ai nuovi arrivati come trovarti e attaccarti. Se ti trovi sullo stesso piano di esistenza della statua, essa sa dove sei. La statua diventa inanimata dopo 24 ore."
+        },
+        "Kb6ZIQr9vuIMfRQa": {
+          "description": "Dal terreno scaturisce un fuoco da campo dalle fiamme azzurre, che arde per 24 ore (o finché non viene spento)."
+        },
+        "JliA0WDkwhkTvnxi": {
+          "description": "Spuntano [[/r 1d6 + 6]] @UUID[Compendium.dnd5e.monsters.Actor.TaK6nQMGqZ0y8gt7]{boleti stridenti}."
+        },
+        "S8mzowDnWRsdmUm0": {
+          "description": "Avanzano saltellando [[/r 1d4 + 8]] rospi rosa acceso. Ogni volta che un rospo viene toccato, si trasforma in un mostro di taglia Grande o inferiore a scelta del GM. Il mostro rimane per 1 minuto, poi scompare in uno sbuffo di fumo rosa acceso."
+        },
+        "mWba8ippwHIfxjao": {
+          "description": "Un @UUID[Compendium.dnd5e.monsters.Actor.1ES45ODWg3pCrkzv]{bulette} affamato emerge scavando dal terreno e attacca."
+        },
+        "LL0cIeIbBuECib4C": {
+          "description": "Cresce un albero da frutto. Possiede [[/r 1d10 + 20]] frutti, [[/r 1d8]] dei quali agiscono come pozioni magiche determinate casualmente, mentre uno agisce come un veleno da ingestione a scelta del GM. L'albero svanisce dopo 1 ora. I frutti raccolti rimangono e conservano ogni eventuale proprietà magica per 30 giorni."
+        },
+        "CLTt0XGLK44edKCO": {
+          "description": "Spunta un nido contenente [[/r 1d4 + 3]] uova. Ogni creatura che mangia un uovo deve effettuare un tiro salvezza [[/save constitution dc=20]]. Se lo supera, aumenta permanentemente di 1 il suo punteggio di caratteristica più basso, scegliendo casualmente in caso di parità. Se lo fallisce, subisce [[/damage 10d6 force]] danni a causa di un'esplosione magica interna."
+        },
+        "4S8s41o3hy28ICiZ": {
+          "description": "Dal terreno emerge una piramide a base quadrata con lato di 18 metri. Al suo interno si trova un sarcofago contenente un @UUID[Compendium.dnd5e.monsters.Actor.UFW8M3JHzHkxUEGM]{signore delle mummie}. La piramide è considerata la tana del signore delle mummie e il suo sarcofago contiene un tesoro a scelta del GM."
+        },
+        "Y4bb5HGNxrMHyZVv": {
+          "description": "Spunta una gigantesca pianta di fagioli, che cresce fino a un'altezza scelta dal GM. La sommità conduce dove decide il GM, per esempio a uno straordinario punto panoramico, al castello di un gigante delle nuvole o a un diverso piano di esistenza."
+        }
+      }
     },
     "C1N8LjO7gOjEWgh4": {
       "_id": "C1N8LjO7gOjEWgh4",
-      "name": "Candela dell'Invocazione"
+      "name": "Candela dell'Invocazione",
+      "results": {
+        "WAELwGJKWqkzqCYg": {
+          "description": "Caotico malvagio"
+        },
+        "tJm6LkviqjvFNh6h": {
+          "description": "Caotico neutrale"
+        },
+        "vznD6IcsFljzxMGq": {
+          "description": "Caotico buono"
+        },
+        "FQuYAPt9ZUxDF39V": {
+          "description": "Neutrale malvagio"
+        },
+        "Sz6f4bmoUtaojrwT": {
+          "description": "Neutrale"
+        },
+        "MpLgJJf4OQJMq31f": {
+          "description": "Neutrale buono"
+        },
+        "0lspSFzj3LosOiZZ": {
+          "description": "Legale malvagio"
+        },
+        "hwghAWe9Inunzs0F": {
+          "description": "Legale neutrale"
+        },
+        "yzdAtUqgT8PGEb7V": {
+          "description": "Legale buono"
+        }
+      }
     },
     "LHEts1oDaDwcehuj": {
       "_id": "LHEts1oDaDwcehuj",
-      "name": "Confusione"
+      "name": "Confusione",
+      "results": {
+        "JJjhhU1Br9ThNEWA": {
+          "description": "La creatura usa tutto il suo movimento per muoversi in una direzione casuale. Per determinare la direzione, tira un [[/r d8]] e assegna una direzione a ogni faccia del dado. La creatura non effettua alcuna azione in questo turno."
+        },
+        "p1PpjMO47bT41JH7": {
+          "description": "La creatura non si muove né effettua azioni in questo turno."
+        },
+        "d8WgsQzLYbVXdtPj": {
+          "description": "La creatura usa la sua azione per effettuare un attacco in mischia contro una creatura determinata casualmente entro la sua portata. Se non ci sono creature entro la sua portata, non fa nulla in questo turno."
+        },
+        "f4VYbhVsLT7q72ih": {
+          "description": "La creatura può agire e muoversi normalmente."
+        }
+      }
     },
     "OEdr086W61t1DRJo": {
       "_id": "OEdr086W61t1DRJo",
@@ -146,7 +236,9 @@
         "s04A4UK1mru0AasT": {
           "name": "Piuma Arcana dell'Albero"
         }
-      }
+      },
+      "name": "Piuma Arcana",
+      "description": "Questo minuscolo oggetto ha l'aspetto di una piuma. Esistono vari tipi di piuma arcana, ciascuno con un diverso effetto utilizzabile una sola volta."
     },
     "VPGP621PW7k03YfB": {
       "_id": "VPGP621PW7k03YfB",
@@ -175,7 +267,8 @@
         "RZAsZIES2TNYBrX4": {
           "name": "Alce Gigante"
         }
-      }
+      },
+      "name": "Borsa dei Trucchi Grigia"
     },
     "RwerG95cIk2uRpsQ": {
       "_id": "RwerG95cIk2uRpsQ",
@@ -192,7 +285,8 @@
         "if6vpb2dv1ccbukq": {
           "name": "Corno di Ferro del Valhalla"
         }
-      }
+      },
+      "name": "Corno del Valhalla"
     },
     "JDtZNDaAirupdm2O": {
       "_id": "JDtZNDaAirupdm2O",
@@ -209,6 +303,54 @@
         },
         "cMsHbb6RlFodREik": {
           "name": "Succube/Incubo"
+        },
+        "k3JVn2GzWq3WaWTB": {
+          "description": "Vuota"
+        },
+        "u5RbIKqNfXN28okV": {
+          "description": "Demone (tipo 1)"
+        },
+        "3LCJABQgziObGeGf": {
+          "description": "Demone (tipo 2)"
+        },
+        "Mf3qMBSNIzsRkN3v": {
+          "description": "Demone (tipo 3)"
+        },
+        "ft9r419lK1d20iuz": {
+          "description": "Demone (tipo 4)"
+        },
+        "Z2mOoUYp7SjLslF6": {
+          "description": "Demone (tipo 5)"
+        },
+        "cyttP5x1BWwfJ8UL": {
+          "description": "Demone (tipo 6)"
+        },
+        "nKaq1Rbe9BK9p8DR": {
+          "name": "Deva"
+        },
+        "26H3dT6zZJqebxPm": {
+          "description": "Diavolo (maggiore)"
+        },
+        "eFk7YbFzQtlnUdBb": {
+          "description": "Diavolo (minore)"
+        },
+        "9zfb5F7XqVkVyYVr": {
+          "name": "Djinni"
+        },
+        "zrIsN6ladRatvlAZ": {
+          "name": "Efreeti"
+        },
+        "QroT33926DdQBeyF": {
+          "description": "Elementale (qualsiasi)"
+        },
+        "Wg74NTthpFjHxdNj": {
+          "name": "Planetar"
+        },
+        "4nUbeSIBG6MIVDYs": {
+          "name": "Solar"
+        },
+        "o5O9FiiZr5vZkjdm": {
+          "name": "Xorn"
         }
       }
     },
@@ -232,7 +374,27 @@
     },
     "XHTUTUXdyzcPbodw": {
       "_id": "XHTUTUXdyzcPbodw",
-      "name": "Collana del Rosario"
+      "name": "Collana del Rosario",
+      "results": {
+        "SdjZb9c0OqKKGAK5": {
+          "description": "Grano della Benedizione"
+        },
+        "W7SvVNcfCqLHrvfI": {
+          "description": "Grano della Guarigione"
+        },
+        "fTpvVX4tMhYUcPto": {
+          "description": "Grano del Favore"
+        },
+        "TUi01QTJM62t7HBX": {
+          "description": "Grano del Castigo"
+        },
+        "7O9jSLol4pqANO0w": {
+          "description": "Grano dell'Evocazione"
+        },
+        "U303QJLjIM9Cc4UT": {
+          "description": "Grano del Camminare nel Vento"
+        }
+      }
     },
     "JzLOE4IxcmxjLLuz": {
       "_id": "JzLOE4IxcmxjLLuz",
@@ -267,7 +429,8 @@
         "I9FQwfaZ4enUvFkH": {
           "name": "Pozione di Resistenza al Tuono"
         }
-      }
+      },
+      "name": "Pozione di Resistenza"
     },
     "eXu1QFMsFtTtoJBZ": {
       "_id": "eXu1QFMsFtTtoJBZ",
@@ -278,6 +441,42 @@
         },
         "uDnhR73w2UVWYsRW": {
           "description": "Umano"
+        },
+        "PpXTfkQwmQRkPQ8d": {
+          "description": "Nano delle colline"
+        },
+        "UuL705fCv7nOxOtL": {
+          "description": "Nano delle montagne"
+        },
+        "U4HhLYU73mo3Bbfa": {
+          "description": "Elfo oscuro"
+        },
+        "u2O2wIWUxrPtGEiI": {
+          "description": "Elfo alto"
+        },
+        "U6xuiyOi3gm4tLdf": {
+          "description": "Elfo dei boschi"
+        },
+        "wK6rhiPJMjD4h3my": {
+          "description": "Gnomo delle foreste"
+        },
+        "idg4VgxIGsdOFjzY": {
+          "description": "Gnomo delle rocce"
+        },
+        "XQRdGlTr3dG24ZMP": {
+          "description": "Mezzelfo"
+        },
+        "XeiU0TAHRvd30aXE": {
+          "description": "Mezzorco"
+        },
+        "EvQkNNXDmDgcjUWi": {
+          "description": "Halfling piedelesto"
+        },
+        "AP3lIMJ3JdZOhOKX": {
+          "description": "Halfling tozzo"
+        },
+        "862Tzx7tZdKMsfYM": {
+          "description": "Tiefling"
         }
       }
     },
@@ -314,11 +513,53 @@
         "mh9AJPzFwGgEY7tg": {
           "name": "Anello di Resistenza al Tuono"
         }
-      }
+      },
+      "name": "Anello di Resistenza"
     },
     "CTGxcd51szehUGBn": {
       "_id": "CTGxcd51szehUGBn",
-      "name": "Tunica degli Oggetti Utili"
+      "name": "Tunica degli Oggetti Utili",
+      "results": {
+        "OSKn1nYTdGogvqPV": {
+          "description": "Borsa con 100 mo"
+        },
+        "hk5yFM7fP2LQmQjb": {
+          "description": "Forziere d'argento (lungo 30 cm, largo e profondo 15 cm) del valore di 500 mo"
+        },
+        "YnqZneyfDEJQhdQZ": {
+          "description": "Porta di ferro (larga e alta fino a 3 metri, sbarrata su un lato a tua scelta), che puoi collocare in un'apertura entro la tua portata; si adatta all'apertura, fissandosi e incernierandosi da sola"
+        },
+        "Im1fQwlV87faWYDZ": {
+          "description": "10 gemme del valore di 100 mo ciascuna"
+        },
+        "je5Ic9cYvaDqwtoZ": {
+          "description": "Scala a pioli di legno (lunga 7,2 metri)"
+        },
+        "n9sTNVJMhuAXJTkS": {
+          "description": "Cavallo da galoppo con bisacce"
+        },
+        "rQOCI18WAo22AMkJ": {
+          "description": "Fossa (un cubo con spigolo di 3 metri), che puoi collocare sul terreno entro 3 metri da te"
+        },
+        "c6yqUyZ9HErSMqvL": {
+          "description": "4 pozioni di guarigione"
+        },
+        "7FsfvPYncVNd81sy": {
+          "description": "Barca a remi (lunga 3,6 metri)"
+        },
+        "Al2W8Tl2ipg4fON2": {
+          "description": "Pergamena magica contenente un incantesimo dal 1° al 3° livello"
+        },
+        "ukl5u9Yv8rVMviO3": {
+          "description": "2 mastini"
+        },
+        "Ugc05f6EIta394uB": {
+          "description": "Finestra (60 cm per 1,2 metri, profonda fino a 60 cm), che puoi collocare su una superficie verticale entro la tua portata"
+        },
+        "4fugpygUhBV3mB8Q": {
+          "description": "Ariete portatile"
+        }
+      }
     },
     "PLHwT9dC6fCZqkeo": {
       "_id": "PLHwT9dC6fCZqkeo",
@@ -347,7 +588,8 @@
         "ZW7OYeehs2Bf1UJO": {
           "name": "Orso Bruno"
         }
-      }
+      },
+      "name": "Borsa dei Trucchi Color Ruggine"
     },
     "5PTePCTxrk2fIrll": {
       "_id": "5PTePCTxrk2fIrll",
@@ -376,12 +618,265 @@
         "IlmvAl876Yed56f2": {
           "name": "Tigre"
         }
-      }
+      },
+      "name": "Borsa dei Trucchi Color Cuoio"
     },
     "X03rbSjVcNNJNqa8": {
       "_id": "X03rbSjVcNNJNqa8",
-      "name": "Bacchetta della Meraviglie"
+      "name": "Bacchetta della Meraviglie",
+      "results": {
+        "0nqE0R8b9X1Maa2b": {
+          "description": "Lanci @UUID[Compendium.dnd5e.spells.Item.yqUDoxk4x0NWG5Bz]{Lentezza}."
+        },
+        "mIXkyGjz4jm0SRwr": {
+          "description": "Lanci @UUID[Compendium.dnd5e.spells.Item.nqBDWkVOfcGZt4YU]{Luminescenza}."
+        },
+        "GGNQJzAVEiDumXq2": {
+          "description": "Sei &amp;Reference[Stunned] fino all'inizio del tuo turno successivo, convinto che sia appena accaduto qualcosa di meraviglioso."
+        },
+        "KsxTXW59KC0MYSlM": {
+          "description": "Lanci @UUID[Compendium.dnd5e.spells.Item.FSMy6VAjDnXY9vWz]{Folata di Vento}."
+        },
+        "Um7l3f3kA0fuZeZS": {
+          "description": "Lanci @UUID[Compendium.dnd5e.spells.Item.ppWAAEul0QHtm4er]{Individuazione dei Pensieri} sul bersaglio scelto. Se non hai scelto una creatura come bersaglio, subisci invece [[/damage 1d6 psychic]] danni."
+        },
+        "dufnbFapCkEGa00e": {
+          "description": "Lanci @UUID[Compendium.dnd5e.spells.Item.TwlD4PLcltv7Xh7j]{Nube Maleodorante}."
+        },
+        "M7FLDrBHxiWi1d0j": {
+          "description": "Una pioggia intensa cade entro un raggio di 18 metri centrato sul bersaglio. L'area diventa leggermente oscurata. La pioggia cade fino all'inizio del tuo turno successivo."
+        },
+        "h3BKTcgGFbxFds8G": {
+          "description": "Un animale compare nello spazio libero più vicino al bersaglio. L'animale non è sotto il tuo controllo e agisce come farebbe normalmente. Tira un [[/r 1d100]] per determinare quale animale compare. Con 01–25 compare un @UUID[Compendium.dnd5e.monsters.Actor.SBCe2BSa6opTS5M4]{Rinoceronte}; con 26–50 compare un @UUID[Compendium.dnd5e.monsters.Actor.jLPhaBnMtAbB5dp1]{Elefante}; con 51–100 compare un @UUID[Compendium.dnd5e.monsters.Actor.pozQUPTnLZW8epox]{Topo}."
+        },
+        "REUwaFklxmCztnXA": {
+          "description": "Lanci @UUID[Compendium.dnd5e.spells.Item.IyikgTEOTv701jgQ]{Fulmine}."
+        },
+        "orp8gTMwM4U3XiwB": {
+          "description": "Una nube di 600 farfalle di dimensioni eccessive riempie un raggio di 9 metri centrato sul bersaglio. L'area diventa pesantemente oscurata. Le farfalle rimangono per 10 minuti."
+        },
+        "3GlSY5tjZSDWWkzY": {
+          "description": "Ingrandisci il bersaglio come se avessi lanciato @UUID[Compendium.dnd5e.spells.Item.WahI41a3goVUg0x1]{Ingrandire/Ridurre}. Se il bersaglio non può essere influenzato da quell'incantesimo o se non hai scelto una creatura come bersaglio, diventi tu il bersaglio."
+        },
+        "Vr2Lg0mN2FTHdzd4": {
+          "description": "Lanci @UUID[Compendium.dnd5e.spells.Item.S7VbUetIfVT7B6Eq]{Oscurità}."
+        },
+        "DyJ1HqEiVQ5BKN3V": {
+          "description": "Dal terreno cresce dell'erba entro un raggio di 18 metri centrato sul bersaglio. Se l'erba è già presente, cresce fino a dieci volte le sue dimensioni normali e rimane incolta per 1 minuto."
+        },
+        "4XvYA042W3ty8L2C": {
+          "description": "Un oggetto a scelta del GM scompare nel Piano Etereo. L'oggetto non deve essere indossato né trasportato, deve trovarsi entro 36 metri dal bersaglio e non può superare i 3 metri in nessuna dimensione."
+        },
+        "tkTADPmN4rhgB7pH": {
+          "description": "Ti rimpicciolisci come se avessi lanciato @UUID[Compendium.dnd5e.spells.Item.WahI41a3goVUg0x1]{Ingrandire/Ridurre} su te stesso."
+        },
+        "YiBndxEOSit5OROQ": {
+          "description": "Lanci @UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{Palla di Fuoco}."
+        },
+        "dmhB1orGtjw0wmac": {
+          "description": "Lanci @UUID[Compendium.dnd5e.spells.Item.1N8dDMMgZ1h1YJ3B]{Invisibilità} su te stesso."
+        },
+        "aAhn7711Uu2EodVB": {
+          "description": "Sul bersaglio crescono delle foglie. Se hai scelto un punto nello spazio come bersaglio, le foglie spuntano dalla creatura più vicina a quel punto. Se non vengono staccate, le foglie diventano marroni e cadono dopo 24 ore."
+        },
+        "94OaXgLFHowfdHFo": {
+          "description": "Dalla punta della bacchetta scaturisce un getto di [[/r 1d4 * 10]]{1d4 × 10} gemme, ciascuna del valore di 1 mo, lungo una linea di 9 metri e larga 1,5 metri. Ogni gemma infligge 1 danno contundente e i danni totali delle gemme vengono divisi equamente tra tutte le creature sulla linea."
+        },
+        "BrH4mXjhQZtLJ9qV": {
+          "description": "Un'esplosione di luce scintillante e colorata si estende da te entro un raggio di 9 metri. Tu e ogni creatura nell'area in grado di vedere dovete superare un tiro salvezza su Costituzione con CD 15, altrimenti diventate &amp;Reference[Blinded] per 1 minuto. Una creatura può ripetere il tiro salvezza alla fine di ogni suo turno; se lo supera, l'effetto termina su di essa."
+        },
+        "sj0TCiSQJnEopySY": {
+          "description": "La pelle del bersaglio diventa azzurro acceso per [[/r 1d10]] giorni. Se hai scelto un punto nello spazio, viene influenzata la creatura più vicina a quel punto."
+        },
+        "8SJZdOKTWn0uuS2J": {
+          "description": "Se hai scelto una creatura come bersaglio, essa deve effettuare un tiro salvezza [[/save con 15]]. Se non hai scelto una creatura come bersaglio, diventi tu il bersaglio e devi effettuare il tiro salvezza. Se il tiro salvezza fallisce di 5 o più, il bersaglio è istantaneamente &amp;Reference[Petrified]. Con qualsiasi altro fallimento, il bersaglio è &amp;Reference[Restrained] e inizia a trasformarsi in pietra. Finché è trattenuto in questo modo, il bersaglio deve ripetere il tiro salvezza alla fine del suo turno successivo, diventando Petrified se lo fallisce o terminando l'effetto se lo supera. La pietrificazione dura finché il bersaglio non viene liberato dall'incantesimo @UUID[Compendium.dnd5e.spells.Item.WzvJ7G3cqvIubsLk]{Ristorare Superiore} o da una magia analoga."
+        }
+      }
+    },
+    "VRqG3F72ebgNHyVR": {
+      "_id": "VRqG3F72ebgNHyVR",
+      "name": "Armatura della Resistenza",
+      "results": {
+        "PWu1w0Xz2l3ysJEL": {
+          "description": "Acido"
+        },
+        "UqDDkk2pPl8ie6uh": {
+          "description": "Freddo"
+        },
+        "AmEk8tmLabEJFVyu": {
+          "description": "Fuoco"
+        },
+        "QUKt9KwrAYP8Jmt6": {
+          "description": "Forza"
+        },
+        "d4BJohZD8FK6BvLz": {
+          "description": "Fulmine"
+        },
+        "appv8wBdOFMmXmPd": {
+          "description": "Necrotico"
+        },
+        "qO40Z0TIAcTWzw23": {
+          "description": "Veleno"
+        },
+        "2zccWak99YSlPwhr": {
+          "description": "Psichico"
+        },
+        "SCBwLL12ytiik31F": {
+          "description": "Radioso"
+        },
+        "pWvgoZGlmDODN24r": {
+          "description": "Tuono"
+        }
+      }
+    },
+    "Z2OG7jt9R8zofxnJ": {
+      "_id": "Z2OG7jt9R8zofxnJ",
+      "name": "Tappeto Volante",
+      "results": {
+        "osZQr5LcSXncPcUY": {
+          "name": "Tappeto Volante (90 × 150 cm)"
+        },
+        "3TOWgE7uAD22vNqt": {
+          "name": "Tappeto Volante (1,2 × 1,8 m)"
+        },
+        "k9CfpC5ed04OPa8u": {
+          "name": "Tappeto Volante (1,5 × 2,1 m)"
+        },
+        "YHa2MFeIX8PGMKmX": {
+          "name": "Tappeto Volante (1,8 × 2,7 m)"
+        }
+      }
+    },
+    "yZMFNfocj5qyVuOC": {
+      "_id": "yZMFNfocj5qyVuOC",
+      "name": "Bottiglia dell'Efreeti",
+      "results": {
+        "IbW9tnuEZDC3Bjpq": {
+          "description": "L'efreeti ti attacca. Dopo aver combattuto per 5 round, l'efreeti scompare e la bottiglia perde la sua magia."
+        },
+        "L0smkZOWXxK2uo2j": {
+          "description": "L'efreeti ti serve per 1 ora, eseguendo i tuoi comandi. Poi ritorna nella bottiglia e un nuovo tappo lo trattiene. Il tappo non può essere rimosso per 24 ore. Le due volte successive in cui la bottiglia viene aperta si verifica lo stesso effetto. Se la bottiglia viene aperta una quarta volta, l'efreeti fugge e scompare e la bottiglia perde la sua magia."
+        },
+        "ivzals5foQfjXWSo": {
+          "description": "L'efreeti può lanciare tre volte per te l'incantesimo desiderio. Scompare dopo aver esaudito l'ultimo desiderio o dopo 1 ora e la bottiglia perde la sua magia."
+        }
+      }
+    },
+    "NdjHJMSSVWw5fHsL": {
+      "_id": "NdjHJMSSVWw5fHsL",
+      "name": "Allineamento degli Oggetti Magici Senzienti",
+      "results": {
+        "bUNUmfmbEVBGZhdW": {
+          "description": "Legale buono"
+        },
+        "kjVZfuylT17ctDgs": {
+          "description": "Neutrale buono"
+        },
+        "wDjHL9zlzYjiT9CS": {
+          "description": "Caotico buono"
+        },
+        "DNhEaIbA7LutSCm5": {
+          "description": "Legale neutrale"
+        },
+        "5cC3zLo90XNyH3Td": {
+          "description": "Neutrale"
+        },
+        "MptR9qFAq2Je31Ax": {
+          "description": "Caotico neutrale"
+        },
+        "3X5lfA6w6U9RBLvy": {
+          "description": "Legale malvagio"
+        },
+        "pycjgCIx93MAjrJn": {
+          "description": "Neutrale malvagio"
+        },
+        "F8tMOTkFRP5NEOO4": {
+          "description": "Caotico malvagio"
+        }
+      }
+    },
+    "BHckoLKDwoL9d5p3": {
+      "_id": "BHckoLKDwoL9d5p3",
+      "name": "Comunicazione degli Oggetti Magici Senzienti",
+      "results": {
+        "fHUcqEyH5hT8iqVk": {
+          "description": "L'oggetto comunica trasmettendo emozioni alla creatura che lo trasporta o lo impugna."
+        },
+        "gukhzxpdk9xa4Ewy": {
+          "description": "L'oggetto può parlare, leggere e comprendere uno o più linguaggi."
+        },
+        "PneqV9OL9QdLzSZR": {
+          "description": "L'oggetto può parlare, leggere e comprendere uno o più linguaggi. Inoltre, può comunicare telepaticamente con qualsiasi personaggio che lo trasporti o lo impugni."
+        }
+      }
+    },
+    "b250eqNa0k8lrE9b": {
+      "_id": "b250eqNa0k8lrE9b",
+      "name": "Scopo degli Oggetti Magici Senzienti",
+      "results": {
+        "3rpnE2eYC6U3rlHy": {
+          "description": "Allineato: L'oggetto cerca di sconfiggere o distruggere chi possiede un allineamento diametralmente opposto. (Un oggetto simile non è mai neutrale.)"
+        },
+        "TjT8WM2xOK77N5dC": {
+          "description": "Anatema: L'oggetto cerca di sconfiggere o distruggere creature di un tipo particolare, come immondi, mutaforma, troll o maghi."
+        },
+        "0dCoFLfukaRxqWID": {
+          "description": "Protettore: L'oggetto cerca di difendere una particolare razza o un particolare tipo di creatura, come elfi o druidi."
+        },
+        "rV1TpI5eHXqufMT4": {
+          "description": "Crociato: L'oggetto cerca di sconfiggere, indebolire o distruggere i servitori di una particolare divinità."
+        },
+        "Tp3PSQsIfNoXdLab": {
+          "description": "Templare: L'oggetto cerca di difendere i servitori e gli interessi di una particolare divinità."
+        },
+        "gLYNS4kAi6HohqiF": {
+          "description": "Distruttore: L'oggetto brama la distruzione e incita il suo utilizzatore a combattere senza criterio."
+        },
+        "oAiC4NTXfnNJMUs5": {
+          "description": "Cercatore di Gloria: L'oggetto aspira a essere riconosciuto come il più grande oggetto magico del mondo, rendendo il suo utilizzatore una figura famosa o famigerata."
+        },
+        "LyqIqUOa5UI0OxWI": {
+          "description": "Cercatore di Conoscenza: L'oggetto brama la conoscenza o è determinato a risolvere un mistero, apprendere un segreto o svelare una profezia criptica."
+        },
+        "O2iFP824YTeJl7dc": {
+          "description": "Cercatore del Destino: L'oggetto è convinto che esso e il suo possessore abbiano ruoli fondamentali negli eventi futuri."
+        },
+        "3wZDF2fD9vfqHpNj": {
+          "description": "Cercatore del Creatore: L'oggetto cerca il proprio creatore e vuole comprendere perché è stato creato."
+        }
+      }
+    },
+    "gfR9uCe42xBCCktd": {
+      "_id": "gfR9uCe42xBCCktd",
+      "name": "Sensi degli Oggetti Magici Senzienti",
+      "results": {
+        "z5Yf0RYt4Kfhvhfa": {
+          "description": "Udito e vista normale entro 9 metri."
+        },
+        "Fs0E2WLA6mfi1sUr": {
+          "description": "Udito e vista normale entro 18 metri."
+        },
+        "rFdT3QtO3NDOz92d": {
+          "description": "Udito e vista normale entro 36 metri."
+        },
+        "5vXfLp6f7vaFBd2o": {
+          "description": "Udito e scurovisione entro 36 metri."
+        }
+      }
     }
   },
-  "folders": {}
+  "folders": {},
+  "mapping": {
+    "activities": {
+      "path": "system.activities",
+      "converter": "structured",
+      "cardinality": "many",
+      "container": "keyed",
+      "key": "_id",
+      "mapping": {
+        "name": "name",
+        "chatFlavor": "description.chatFlavor"
+      }
+    }
+  }
 }
