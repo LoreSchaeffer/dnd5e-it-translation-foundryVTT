@@ -60,6 +60,17 @@ test("detectResiduals does not treat the Italian preposition in as inches", () =
   assert.equal(issues.some(item => item.code === "imperial-unit"), false);
 });
 
+test("detectResiduals does not treat an Italian sentence beginning with In as inches", () => {
+  const issues = detectResiduals({
+    source: "The modifier is -10. On a successful save, the target is unaffected.",
+    translation: "Modificatore del tiro salvezza -10 In caso di tiro salvezza superato, il bersaglio non è influenzato.",
+    context: { pack: "spells", id: "italian-in-sentence", fieldPath: "system.description.value" },
+    allowlist: []
+  });
+
+  assert.equal(issues.some(item => item.code === "imperial-unit"), false);
+});
+
 test("detectResiduals does not treat the Italian noun creature as English", () => {
   const issues = detectResiduals({
     source: "Creatures in the area are affected.",

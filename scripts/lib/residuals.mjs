@@ -1,7 +1,8 @@
 import { isAllowed } from "./allowlist.mjs";
 
 const ENGLISH_SIGNAL = /\b(?:the|and|you|your|this|that|these|those|with|within|must|target|spell|attack|damage|saving throw|feet|foot|miles?|pounds?|inches?)\b/i;
-const IMPERIAL_UNIT = /(?:\b(?:\d+(?:[.,]\d+)?\s*)?(?:feet|foot|miles?|pounds?|inches?)\b|\b\d+(?:[.,]\d+)?\s*(?:ft\.?|mi\.?|lbs?\.?|in\.?)\b)/i;
+const IMPERIAL_UNIT_WORD = /\b(?:\d+(?:[.,]\d+)?\s*)?(?:feet|foot|miles?|pounds?|inches?)\b/i;
+const IMPERIAL_UNIT_ABBREVIATION = /\b\d+(?:[.,]\d+)?\s*(?:ft\.?|mi\.?|lbs?\.?|in\.?)\b/;
 
 function visibleText(value) {
   return value
@@ -26,7 +27,7 @@ export function detectResiduals({ source, translation, context, allowlist }) {
   if (ENGLISH_SIGNAL.test(translationVisible)) {
     candidates.push({ code: "english-residual", value: translationVisible, message: "High-confidence English wording remains visible" });
   }
-  if (IMPERIAL_UNIT.test(translationVisible)) {
+  if (IMPERIAL_UNIT_WORD.test(translationVisible) || IMPERIAL_UNIT_ABBREVIATION.test(translationVisible)) {
     candidates.push({ code: "imperial-unit", value: translationVisible, message: "An imperial unit remains visible" });
   }
 

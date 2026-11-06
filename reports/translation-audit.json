@@ -3,10 +3,10 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1077,
+      "translated": 1081,
       "missing": 69,
-      "partial": 1245,
-      "review": 213
+      "partial": 1241,
+      "review": 203
     },
     "folders": {
       "total": 120,
@@ -20,10 +20,10 @@
       "translated": 9514,
       "missing": 6146,
       "invariantFailures": 2394,
-      "englishResiduals": 135,
-      "imperialResiduals": 4
+      "englishResiduals": 118,
+      "imperialResiduals": 2
     },
-    "blockingIssues": 8703
+    "blockingIssues": 8684
   },
   "packs": [
     {
@@ -76741,10 +76741,10 @@
       "summary": {
         "documents": {
           "total": 320,
-          "translated": 140,
+          "translated": 144,
           "missing": 0,
-          "partial": 180,
-          "review": 10
+          "partial": 176,
+          "review": 0
         },
         "folders": {
           "total": 11,
@@ -76758,8 +76758,8 @@
           "translated": 2007,
           "missing": 0,
           "invariantFailures": 406,
-          "englishResiduals": 17,
-          "imperialResiduals": 2
+          "englishResiduals": 0,
+          "imperialResiduals": 0
         }
       },
       "issues": [
@@ -76902,17 +76902,6 @@
           "fieldPath": "system.description.value",
           "name": "Find Familiar",
           "sourcePath": "spells/1st-level/find-familiar.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "A spring of mistletoe",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "Qf6CAZkc7ms4ZY3e",
-          "name": "Goodberry",
-          "fieldPath": "system.materials.value",
-          "sourcePath": "spells/1st-level/goodberry.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -77293,61 +77282,6 @@
           "fieldPath": "system.description.value",
           "name": "Alter Self",
           "sourcePath": "spells/2nd-level/alter-self.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "You touch a closed door, window, gate, chest, or other entryway, and it becomes locked for the duration. You and the creatures you designate when you cast this spell can open the object normally. You can also set a password that, when spoken within 5 feet of the object, suppresses this spell for 1 minute. Otherwise, it is impassable until it is broken or the spell is dispelled or suppressed. Casting knock on the object suppresses arcane lock for 10 minutes. While affected by this spell, the object is more difficult to break or force open; the DC to break it or pick any locks on it increases by 10.",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "8cse7rit0oswRPUP",
-          "name": "Arcane Lock",
-          "fieldPath": "system.description.value",
-          "sourcePath": "spells/2nd-level/arcane-lock.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "You touch a closed door, window, gate, chest, or other entryway, and it becomes locked for the duration. You and the creatures you designate when you cast this spell can open the object normally. You can also set a password that, when spoken within 5 feet of the object, suppresses this spell for 1 minute. Otherwise, it is impassable until it is broken or the spell is dispelled or suppressed. Casting knock on the object suppresses arcane lock for 10 minutes. While affected by this spell, the object is more difficult to break or force open; the DC to break it or pick any locks on it increases by 10.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "8cse7rit0oswRPUP",
-          "name": "Arcane Lock",
-          "fieldPath": "system.description.value",
-          "sourcePath": "spells/2nd-level/arcane-lock.yml"
-        },
-        {
-          "code": "imperial-unit",
-          "value": "You touch a closed door, window, gate, chest, or other entryway, and it becomes locked for the duration. You and the creatures you designate when you cast this spell can open the object normally. You can also set a password that, when spoken within 5 feet of the object, suppresses this spell for 1 minute. Otherwise, it is impassable until it is broken or the spell is dispelled or suppressed. Casting knock on the object suppresses arcane lock for 10 minutes. While affected by this spell, the object is more difficult to break or force open; the DC to break it or pick any locks on it increases by 10.",
-          "message": "An imperial unit remains visible",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "8cse7rit0oswRPUP",
-          "name": "Arcane Lock",
-          "fieldPath": "system.description.value",
-          "sourcePath": "spells/2nd-level/arcane-lock.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Gold dust worth at least 25 gp, which the spell consumes.",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "8cse7rit0oswRPUP",
-          "name": "Arcane Lock",
-          "fieldPath": "system.materials.value",
-          "sourcePath": "spells/2nd-level/arcane-lock.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "Gold dust worth at least 25 gp, which the spell consumes.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "8cse7rit0oswRPUP",
-          "name": "Arcane Lock",
-          "fieldPath": "system.materials.value",
-          "sourcePath": "spells/2nd-level/arcane-lock.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -77830,17 +77764,6 @@
           "sourcePath": "spells/2nd-level/shatter.yml"
         },
         {
-          "code": "unchanged-english",
-          "value": "A chip of mica",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "wJKpSvSTbSkTjqyb",
-          "name": "Shatter",
-          "fieldPath": "system.materials.value",
-          "sourcePath": "spells/2nd-level/shatter.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -78059,28 +77982,6 @@
           "fieldPath": "system.description.value",
           "name": "Dispel Magic",
           "sourcePath": "spells/3rd-level/dispel-magic.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "A bit of gauze and a wisp of smoke",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "2IWiZAJtOGDoKjiz",
-          "name": "Gaseous Form",
-          "fieldPath": "system.materials.value",
-          "sourcePath": "spells/3rd-level/gaseous-form.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "A bit of gauze and a wisp of smoke",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "2IWiZAJtOGDoKjiz",
-          "name": "Gaseous Form",
-          "fieldPath": "system.materials.value",
-          "sourcePath": "spells/3rd-level/gaseous-form.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -78623,17 +78524,6 @@
           "sourcePath": "spells/4th-level/confusion.yml"
         },
         {
-          "code": "unchanged-english",
-          "value": "Three walnut shells.",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "9hQXdMSmerkTsHDe",
-          "name": "Confusion",
-          "fieldPath": "system.materials.value",
-          "sourcePath": "spells/4th-level/confusion.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -78671,17 +78561,6 @@
           "id": "dEfSELiY1eO3cpX9",
           "fieldPath": "system.description.value",
           "name": "Conjure Woodland Beings",
-          "sourcePath": "spells/4th-level/conjure-woodland-beings.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "One holly berry per creature summoned.",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "dEfSELiY1eO3cpX9",
-          "name": "Conjure Woodland Beings",
-          "fieldPath": "system.materials.value",
           "sourcePath": "spells/4th-level/conjure-woodland-beings.yml"
         },
         {
@@ -79282,17 +79161,6 @@
           "id": "fVbCxFRaORalHB20",
           "fieldPath": "system.description.value",
           "name": "Scrying",
-          "sourcePath": "spells/5th-level/scrying.yml"
-        },
-        {
-          "code": "imperial-unit",
-          "value": "Divinazione di 5° livello Tempo di lancio:&nbsp; 10 minuti Gittata:&nbsp; Incantatore Componenti:&nbsp; V, S, M (un focus del valore di almeno 1.000 mo, come una sfera di cristallo, uno specchio d'argento o un bacile pieno di acqua santa) Durata:&nbsp; Concentrazione, fino a 10 minuti L'incantatore può vedere e udire una particolare creatura a sua scelta situata sul suo stesso piano di esistenza. Il bersaglio deve effettuare un tiro salvezza su Saggezza, modificato dalla conoscenza e dal tipo di legame che l'incantatore ha nei confronti del bersaglio. Se il bersaglio sa che l'incantatore sta lanciando questo incantesimo, può fallire il tiro salvezza volontariamente se desidera essere osservato. Conoscenza Modificatore del tiro salvezza Informazioni indirette (solo sentito parlare del bersaglio) +5 Informazioni dirette (si è incontrato il bersaglio) 0 Familiarità (si conosce bene il bersaglio) -5 Legame Modificatore del tiro salvezza Descrizione o immagine -2 Oggetto personale o abito -4 Parte del corpo, ciocca di capelli, unghia tagliata ecc. &nbsp;&nbsp; -10 In caso di tiro salvezza superato, il bersaglio non è influenzato e l'incantatore non può più usare questo incantesimo contro di lui per 24 ore. In caso di tiro salvezza fallito, l'incantesimo crea un sensore invisibile entro 3 metri dal bersaglio. L'incantatore può vedere e sentire attraverso il sensore come se si trovasse sul posto. Il sensore si muove assieme al bersaglio, rimanendo entro 3 metri da esso per la durata dell'incantesimo. Una creatura in grado di vedere gli oggetti invisibili vede il sensore come un globo luminoso delle dimensioni approssimative di un pugno umano. &nbsp; Anziché bersagliare una creatura, l'incantatore può scegliere un luogo che abbia già visto in precedenza come bersaglio di questo incantesimo. Quando lo fa, il sensore appare in quel luogo e non si muove.",
-          "message": "An imperial unit remains visible",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "fVbCxFRaORalHB20",
-          "name": "Scrying",
-          "fieldPath": "system.description.value",
           "sourcePath": "spells/5th-level/scrying.yml"
         },
         {
@@ -80026,28 +79894,6 @@
           "sourcePath": "spells/7th-level/resurrection.yml"
         },
         {
-          "code": "unchanged-english",
-          "value": "A diamond worth at least 1,000 gp, which the spell consumes",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "jhhT9PsHy5A7EojO",
-          "name": "Resurrection",
-          "fieldPath": "system.materials.value",
-          "sourcePath": "spells/7th-level/resurrection.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "A diamond worth at least 1,000 gp, which the spell consumes",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "jhhT9PsHy5A7EojO",
-          "name": "Resurrection",
-          "fieldPath": "system.materials.value",
-          "sourcePath": "spells/7th-level/resurrection.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -80128,28 +79974,6 @@
           "sourcePath": "spells/7th-level/symbol.yml"
         },
         {
-          "code": "unchanged-english",
-          "value": "Mercury, phosphorus, and powdered diamond and opal with a total value of at least 1,000 gp, which the spell consumes",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "B2kbmgbA2WQR00kx",
-          "name": "Symbol",
-          "fieldPath": "system.materials.value",
-          "sourcePath": "spells/7th-level/symbol.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "Mercury, phosphorus, and powdered diamond and opal with a total value of at least 1,000 gp, which the spell consumes",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "B2kbmgbA2WQR00kx",
-          "name": "Symbol",
-          "fieldPath": "system.materials.value",
-          "sourcePath": "spells/7th-level/symbol.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -80198,17 +80022,6 @@
           "fieldPath": "system.description.value",
           "name": "Antimagic Field",
           "sourcePath": "spells/8th-level/antimagic-field.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Clone",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "h830iyqParFleNqR",
-          "name": "Clone",
-          "fieldPath": "name",
-          "sourcePath": "spells/8th-level/clone.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -80658,28 +80471,6 @@
           "id": "qLeEXZDbW5y4bmLY",
           "fieldPath": "system.description.value",
           "name": "True Resurrection",
-          "sourcePath": "spells/9th-level/true-resurrection.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "A sprinkle of holy water and diamonds worth at least 25,000 gp, which the spell consumes",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "qLeEXZDbW5y4bmLY",
-          "name": "True Resurrection",
-          "fieldPath": "system.materials.value",
-          "sourcePath": "spells/9th-level/true-resurrection.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "A sprinkle of holy water and diamonds worth at least 25,000 gp, which the spell consumes",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "qLeEXZDbW5y4bmLY",
-          "name": "True Resurrection",
-          "fieldPath": "system.materials.value",
           "sourcePath": "spells/9th-level/true-resurrection.yml"
         },
         {

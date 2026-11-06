@@ -88,6 +88,7 @@
       "effects[3N4KDb8gLlbu1KUC].description": "<p>Finché l'incantesimo non termina, sei immune ai danni psichici, a ogni effetto che percepisca le tue emozioni o legga i tuoi pensieri, agli incantesimi di Divinazione e alla condizione &amp;reference[Charmed apply=false]. L'incantesimo sventa perfino gli incantesimi @UUID[Compendium.dnd5e.spells.Item.3okM6Gn63zzEULkz]{Desiderio} e gli incantesimi o effetti di potere analogo usati per influenzare la tua mente o ottenere informazioni su di te.</p>"
     },
     "jhhT9PsHy5A7EojO": {
+      "system.materials.value": "un diamante del valore di almeno 1.000 mo, che l'incantesimo consuma",
       "effects[tqHU3nZQatPgxW7r].description": "<p>Finché non completi un riposo lungo, non puoi lanciare altri incantesimi e disponi di svantaggio ai tiri per colpire, alle prove di caratteristica e ai tiri salvezza.</p>"
     },
     "P6f1PPKPd9BCb742": {
@@ -206,6 +207,7 @@
       "effects[nnfr2kBR5ByV6rdT].description": "<p>Inizi a sanguinare in modo incontrollabile. Disponi di svantaggio alle prove di Costituzione e ai tiri salvezza su Costituzione. Inoltre, ogni volta che subisci danni, sei &amp;reference[stunned] fino alla fine del tuo turno successivo.</p>"
     },
     "B2kbmgbA2WQR00kx": {
+      "system.materials.value": "mercurio, fosforo e diamante e opale in polvere del valore totale di almeno 1.000 mo, che l'incantesimo consuma",
       "system.activities.5RxmzaH8a0F2pe0W.description.value": "<p>Una volta attivato, il glifo risplende, riempiendo una sfera con raggio di 18 metri di &amp;reference[dim light] per 10 minuti, dopodiché l'incantesimo termina. Ogni creatura nella sfera quando il glifo si attiva è bersagliata dal suo effetto, così come una creatura che entra nella sfera per la prima volta in un turno o che termina lì il proprio turno.</p><h4>Morte</h4><p>Ogni bersaglio deve effettuare un tiro salvezza su Costituzione: se lo fallisce subisce 10d10 danni necrotici, mentre se lo supera subisce la metà di quei danni.</p>",
       "system.activities.aQ5gGxhnROMnbUYo.description.value": "<p>Una volta attivato, il glifo risplende, riempiendo una sfera con raggio di 18 metri di &amp;reference[dim light] per 10 minuti, dopodiché l'incantesimo termina. Ogni creatura nella sfera quando il glifo si attiva è bersagliata dal suo effetto, così come una creatura che entra nella sfera per la prima volta in un turno o che termina lì il proprio turno.</p><h4>Discordia</h4><p>Ogni bersaglio deve effettuare un tiro salvezza su Costituzione. Se lo fallisce, litiga e discute con le altre creature per [[lookup @labels.duration activity=aQ5gGxhnROMnbUYo]]. Durante questo periodo è incapace di comunicare in modo comprensibile e dispone di svantaggio ai tiri per colpire e alle prove di caratteristica.</p>",
       "system.activities.JpTNQO6B5su2lz7Q.description.value": "<p>Una volta attivato, il glifo risplende, riempiendo una sfera con raggio di 18 metri di &amp;reference[dim light] per 10 minuti, dopodiché l'incantesimo termina. Ogni creatura nella sfera quando il glifo si attiva è bersagliata dal suo effetto, così come una creatura che entra nella sfera per la prima volta in un turno o che termina lì il proprio turno.</p><h4>Paura</h4><p>Ogni bersaglio deve effettuare un tiro salvezza su Saggezza e, se lo fallisce, diventa &amp;Reference[Frightened] per [[lookup @labels.duration activity=JpTNQO6B5su2lz7Q]]. Finché è Spaventato, il bersaglio lascia cadere qualsiasi cosa impugni e deve allontanarsi di almeno 9 metri dal glifo in ogni suo turno, se può farlo.</p>",
@@ -375,6 +377,7 @@
       "effects[3UZLcyUKG7zz2VdP].description": "<p>Finché rimani all'interno del @UUID[Compendium.dnd5e.spells.Item.y8A4HfTwd93ypdEz]{Cerchio Magico}, non puoi essere &amp;refrerence[charmed apply=false], &amp;reference[frightened apply=false] o posseduto dalle creature contro cui l'incantesimo protegge, e tali creature dispongono di svantaggio ai tiri per colpire contro di te.</p>"
     },
     "9hQXdMSmerkTsHDe": {
+      "system.materials.value": "tre gusci di noce.",
       "system.activities.dnd5eactivity300.description.value": "<p>@embed[Compendium.dnd5e.tables.RollTable.LHEts1oDaDwcehuj inline rollable]{Confusione}</p>",
       "effects[XzyaEWZwDrsUuAxr].description": "<p>Questo incantesimo assale e distorce la tua mente, generando illusioni e provocando azioni incontrollate.</p><p>Non puoi effettuare reazioni e devi tirare sulla tabella @UUID[Compendium.dnd5e.tables.RollTable.LHEts1oDaDwcehuj]{Confusione} all'inizio di ogni tuo turno per determinare il tuo comportamento durante quel turno.</p><p>@embed[Compendium.dnd5e.tables.RollTable.LHEts1oDaDwcehuj inline rollable]{Confusione}</p>"
     },
@@ -515,6 +518,7 @@
       "effects[QscuTnvFFOf6QfJp].description": "<p>Ottieni una velocità di volare di 18 metri per la Durata di questo incantesimo. Quando l'incantesimo termina, cadi se sei ancora in volo, a meno che tu non possa arrestare la caduta.</p>"
     },
     "2IWiZAJtOGDoKjiz": {
+      "system.materials.value": "un pezzetto di garza e un filo di fumo",
       "effects[gICakgyAi1hrs8ug].description": "<p>Sei stato trasformato, assieme a tutto ciò che indossi e trasporti, in una nube vaporosa per la durata. L'incantesimo termina se scendi a 0 punti ferita.</p><p>Finché rimani in questa forma, il tuo unico metodo di movimento è una velocità di volare di 3 metri. Puoi entrare e occupare lo spazio di un'altra creatura. Possiedi resistenza ai danni non magici e disponi di vantaggio ai tiri salvezza su Forza, Destrezza e Costituzione. Puoi attraversare piccoli fori, aperture strette e perfino semplici fessure, ma consideri i liquidi come superfici solide. Non puoi cadere e rimani sospeso in aria anche quando sei &amp;reference[stunned apply=false] o altrimenti &amp;reference[incapacitated apply=false].</p><p>Finché sei in forma di nube vaporosa, non puoi parlare né manipolare oggetti e gli oggetti che trasportavi o impugnavi non possono essere lasciati cadere, usati o altrimenti manipolati. Non puoi attaccare né lanciare incantesimi.</p>"
     },
     "6g3WLOZ2u0EbaLAd": {
@@ -545,6 +549,7 @@
       "effects[UEWE8BJT1TE6KDt0].description": "<p>Sei stato evocato dall'incantesimo @UUID[Compendium.dnd5e.spells.Item.KgEw3sDr39C6g8nY]{Evoca Elementali Minori}.</p>"
     },
     "dEfSELiY1eO3cpX9": {
+      "system.materials.value": "una bacca di agrifoglio per ogni creatura evocata.",
       "effects[4IJ3RAavRBuB52H9].description": "<p>Sei stato evocato dall'incantesimo @UUID[Compendium.dnd5e.spells.Item.dEfSELiY1eO3cpX9]{Evoca Creature Boschive}.</p>"
     },
     "VtCXMdyM6mAdIJZb": {
@@ -687,6 +692,19 @@
     },
     "cdrYKaFi98YWaBMw": {
       "effects[imsGW3YRra9KF6iK].description": "<p>Disponi di svantaggio al prossimo tiro per colpire che effettui prima della fine del tuo turno successivo.</p>"
+    },
+    "Qf6CAZkc7ms4ZY3e": {
+      "system.materials.value": "un rametto di vischio"
+    },
+    "8cse7rit0oswRPUP": {
+      "system.description.value": "<p>L'incantatore tocca una porta, una finestra, un cancello, un forziere o un altro accesso chiuso, che rimane serrato per la durata. L'incantatore e le creature da lui designate quando lancia l'incantesimo possono aprire normalmente l'oggetto. L'incantatore può anche stabilire una parola d'ordine che, se pronunciata entro 1,5 metri dall'oggetto, sopprime l'incantesimo per 1 minuto. Altrimenti, l'accesso è invalicabile finché non viene sfondato o finché l'incantesimo non viene dissolto o soppresso. Lanciare scassinare sull'oggetto sopprime serratura arcana per 10 minuti.</p><p>Finché è influenzato da questo incantesimo, l'oggetto è più difficile da rompere o forzare; la CD per romperlo o scassinarne le serrature aumenta di 10.</p>",
+      "system.materials.value": "polvere d'oro del valore di almeno 25 mo, che l'incantesimo consuma."
+    },
+    "wJKpSvSTbSkTjqyb": {
+      "system.materials.value": "un frammento di mica"
+    },
+    "qLeEXZDbW5y4bmLY": {
+      "system.materials.value": "una spruzzata di acqua santa e diamanti del valore di almeno 25.000 mo, che l'incantesimo consuma"
     }
   }
 }
