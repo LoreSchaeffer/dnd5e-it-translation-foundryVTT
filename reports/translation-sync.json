@@ -4591,11 +4591,27 @@
         },
         {
           "pack": "items",
+          "id": "5Rxo4K9cgpwgW9vZ",
+          "name": "Wand of Enemy Detection",
+          "sourcePath": "items/wand/wand-of-enemy-detection.yml",
+          "lookupKey": "Wand of Enemy Detection",
+          "matchedLookupKey": "Wand of Enemy Detection"
+        },
+        {
+          "pack": "items",
           "id": "18fbyArtidKzON01",
           "name": "Wand of Magic Detection",
           "sourcePath": "items/wand/wand-of-magic-detection.yml",
           "lookupKey": "Wand of Magic Detection",
           "matchedLookupKey": "Wand of Magic Detection"
+        },
+        {
+          "pack": "items",
+          "id": "GcpXNc4dKUNw0Tk6",
+          "name": "Wand of Paralysis",
+          "sourcePath": "items/wand/wand-of-paralysis.yml",
+          "lookupKey": "Wand of Paralysis",
+          "matchedLookupKey": "Wand of Paralysis"
         },
         {
           "pack": "items",
@@ -7607,41 +7623,6 @@
         },
         {
           "pack": "items",
-          "id": "5Rxo4K9cgpwgW9vZ",
-          "name": "Wand of Enemy Detection",
-          "sourcePath": "items/wand/wand-of-enemy-detection.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Wand of Enemy Detection",
-          "matchedLookupKey": "Wand of Enemy Detection",
-          "diagnostics": [
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "5Rxo4K9cgpwgW9vZ",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "5Rxo4K9cgpwgW9vZ",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-data-references",
-              "severity": "blocking",
-              "message": "Foundry data references differ from source",
-              "pack": "items",
-              "id": "5Rxo4K9cgpwgW9vZ",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
           "id": "EJFql4aNWHHJSxT9",
           "name": "Wand of Fear",
           "sourcePath": "items/wand/wand-of-fear.yml",
@@ -7816,41 +7797,6 @@
               "message": "Foundry data references differ from source",
               "pack": "items",
               "id": "1taRIMF9w7jpnonN",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "GcpXNc4dKUNw0Tk6",
-          "name": "Wand of Paralysis",
-          "sourcePath": "items/wand/wand-of-paralysis.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Wand of Paralysis",
-          "matchedLookupKey": "Wand of Paralysis",
-          "diagnostics": [
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "GcpXNc4dKUNw0Tk6",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "GcpXNc4dKUNw0Tk6",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-data-references",
-              "severity": "blocking",
-              "message": "Foundry data references differ from source",
-              "pack": "items",
-              "id": "GcpXNc4dKUNw0Tk6",
               "fieldPath": "system.description.value"
             }
           ]

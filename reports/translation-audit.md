@@ -7,7 +7,7 @@
 | classfeatures | 235 | 235 | 0 | 0 | 0 | 0 | 0 |
 | effects | 214 | 214 | 0 | 0 | 0 | 0 | 0 |
 | heroes | 12 | 0 | 0 | 12 | 0 | 466 | 561 |
-| items | 885 | 802 | 0 | 83 | 0 | 0 | 242 |
+| items | 885 | 804 | 0 | 81 | 0 | 0 | 236 |
 | monsterfeatures | 252 | 0 | 61 | 191 | 0 | 132 | 753 |
 | monsters | 337 | 2 | 5 | 330 | 15 | 4810 | 5045 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
@@ -17,7 +17,7 @@
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 7296
+Total blocking issues: 7290
 
 ## Issues
 
@@ -664,9 +664,6 @@ Total blocking issues: 7296
 - **foundry-references** `items:7jEKkA9qbwJ3IuCb:system.description.value`
 - **foundry-inline-rolls** `items:7jEKkA9qbwJ3IuCb:system.description.value`
 - **foundry-data-references** `items:7jEKkA9qbwJ3IuCb:system.description.value`
-- **html-attributes** `items:5Rxo4K9cgpwgW9vZ:system.description.value`
-- **foundry-inline-rolls** `items:5Rxo4K9cgpwgW9vZ:system.description.value`
-- **foundry-data-references** `items:5Rxo4K9cgpwgW9vZ:system.description.value`
 - **html-attributes** `items:EJFql4aNWHHJSxT9:system.description.value`
 - **foundry-references** `items:EJFql4aNWHHJSxT9:system.description.value`
 - **foundry-inline-rolls** `items:EJFql4aNWHHJSxT9:system.description.value`
@@ -684,9 +681,6 @@ Total blocking issues: 7296
 - **foundry-references** `items:1taRIMF9w7jpnonN:system.description.value`
 - **foundry-inline-rolls** `items:1taRIMF9w7jpnonN:system.description.value`
 - **foundry-data-references** `items:1taRIMF9w7jpnonN:system.description.value`
-- **html-attributes** `items:GcpXNc4dKUNw0Tk6:system.description.value`
-- **foundry-inline-rolls** `items:GcpXNc4dKUNw0Tk6:system.description.value`
-- **foundry-data-references** `items:GcpXNc4dKUNw0Tk6:system.description.value`
 - **html-attributes** `items:khyjT3dKyoEOf4eA:system.description.value`
 - **foundry-references** `items:khyjT3dKyoEOf4eA:system.description.value`
 - **foundry-inline-rolls** `items:khyjT3dKyoEOf4eA:system.description.value`

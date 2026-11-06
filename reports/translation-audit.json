@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1690,
+      "translated": 1692,
       "missing": 69,
-      "partial": 632,
+      "partial": 630,
       "review": 109
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 1100,
+      "invariantFailures": 1094,
       "englishResiduals": 111,
       "imperialResiduals": 2
     },
-    "blockingIssues": 7296
+    "blockingIssues": 7290
   },
   "packs": [
     {
@@ -5317,9 +5317,9 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 802,
+          "translated": 804,
           "missing": 0,
-          "partial": 83,
+          "partial": 81,
           "review": 39
         },
         "folders": {
@@ -5333,7 +5333,7 @@
           "total": 2227,
           "translated": 2227,
           "missing": 0,
-          "invariantFailures": 153,
+          "invariantFailures": 147,
           "englishResiduals": 39,
           "imperialResiduals": 2
         }
@@ -6168,36 +6168,6 @@
           "severity": "blocking",
           "message": "HTML attributes differ from source",
           "pack": "items",
-          "id": "5Rxo4K9cgpwgW9vZ",
-          "fieldPath": "system.description.value",
-          "name": "Wand of Enemy Detection",
-          "sourcePath": "items/wand/wand-of-enemy-detection.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "items",
-          "id": "5Rxo4K9cgpwgW9vZ",
-          "fieldPath": "system.description.value",
-          "name": "Wand of Enemy Detection",
-          "sourcePath": "items/wand/wand-of-enemy-detection.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "items",
-          "id": "5Rxo4K9cgpwgW9vZ",
-          "fieldPath": "system.description.value",
-          "name": "Wand of Enemy Detection",
-          "sourcePath": "items/wand/wand-of-enemy-detection.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
           "id": "EJFql4aNWHHJSxT9",
           "fieldPath": "system.description.value",
           "name": "Wand of Fear",
@@ -6362,36 +6332,6 @@
           "fieldPath": "system.description.value",
           "name": "Wand of Magic Missiles",
           "sourcePath": "items/wand/wand-of-magic-missiles.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "GcpXNc4dKUNw0Tk6",
-          "fieldPath": "system.description.value",
-          "name": "Wand of Paralysis",
-          "sourcePath": "items/wand/wand-of-paralysis.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "items",
-          "id": "GcpXNc4dKUNw0Tk6",
-          "fieldPath": "system.description.value",
-          "name": "Wand of Paralysis",
-          "sourcePath": "items/wand/wand-of-paralysis.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "items",
-          "id": "GcpXNc4dKUNw0Tk6",
-          "fieldPath": "system.description.value",
-          "name": "Wand of Paralysis",
-          "sourcePath": "items/wand/wand-of-paralysis.yml"
         },
         {
           "code": "html-attributes",
