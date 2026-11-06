@@ -3,10 +3,10 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 166,
+      "translated": 172,
       "missing": 453,
-      "partial": 1772,
-      "review": 580
+      "partial": 1766,
+      "review": 579
     },
     "folders": {
       "total": 120,
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 4058,
       "missing": 11602,
-      "invariantFailures": 2844,
-      "englishResiduals": 491,
+      "invariantFailures": 2820,
+      "englishResiduals": 489,
       "imperialResiduals": 4
     },
-    "blockingIssues": 13993
+    "blockingIssues": 13967
   },
   "packs": [
     {
@@ -59,10 +59,10 @@
       "summary": {
         "documents": {
           "total": 12,
-          "translated": 0,
+          "translated": 6,
           "missing": 0,
-          "partial": 12,
-          "review": 2
+          "partial": 6,
+          "review": 1
         },
         "folders": {
           "total": 0,
@@ -75,8 +75,8 @@
           "total": 231,
           "translated": 231,
           "missing": 0,
-          "invariantFailures": 48,
-          "englishResiduals": 3,
+          "invariantFailures": 24,
+          "englishResiduals": 1,
           "imperialResiduals": 0
         }
       },
@@ -86,126 +86,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "classes",
-          "id": "pvEzGSv71zBhaolc",
-          "fieldPath": "system.description.value",
-          "name": "Barbarian",
-          "sourcePath": "classes/barbarian.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "classes",
-          "id": "pvEzGSv71zBhaolc",
-          "fieldPath": "system.description.value",
-          "name": "Barbarian",
-          "sourcePath": "classes/barbarian.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "classes",
-          "id": "pvEzGSv71zBhaolc",
-          "fieldPath": "system.description.value",
-          "name": "Barbarian",
-          "sourcePath": "classes/barbarian.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "classes",
-          "id": "pvEzGSv71zBhaolc",
-          "fieldPath": "system.description.value",
-          "name": "Barbarian",
-          "sourcePath": "classes/barbarian.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "classes",
-          "id": "ILvRZGEx3aXqSVUt",
-          "fieldPath": "system.description.value",
-          "name": "Bard",
-          "sourcePath": "classes/bard.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "classes",
-          "id": "ILvRZGEx3aXqSVUt",
-          "fieldPath": "system.description.value",
-          "name": "Bard",
-          "sourcePath": "classes/bard.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "classes",
-          "id": "ILvRZGEx3aXqSVUt",
-          "fieldPath": "system.description.value",
-          "name": "Bard",
-          "sourcePath": "classes/bard.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "classes",
-          "id": "ILvRZGEx3aXqSVUt",
-          "fieldPath": "system.description.value",
-          "name": "Bard",
-          "sourcePath": "classes/bard.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "classes",
-          "id": "tlwBnN8GmqJcTgub",
-          "fieldPath": "system.description.value",
-          "name": "Cleric",
-          "sourcePath": "classes/cleric.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "classes",
-          "id": "tlwBnN8GmqJcTgub",
-          "fieldPath": "system.description.value",
-          "name": "Cleric",
-          "sourcePath": "classes/cleric.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "classes",
-          "id": "tlwBnN8GmqJcTgub",
-          "fieldPath": "system.description.value",
-          "name": "Cleric",
-          "sourcePath": "classes/cleric.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "classes",
-          "id": "tlwBnN8GmqJcTgub",
-          "fieldPath": "system.description.value",
-          "name": "Cleric",
-          "sourcePath": "classes/cleric.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "classes",
           "id": "ygVYgPbJkaH0tH1N",
           "fieldPath": "system.description.value",
           "name": "Druid",
@@ -240,46 +120,6 @@
           "fieldPath": "system.description.value",
           "name": "Druid",
           "sourcePath": "classes/druid.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "classes",
-          "id": "ABEBgWyRhVlDUIfq",
-          "fieldPath": "system.description.value",
-          "name": "Fighter",
-          "sourcePath": "classes/fighter.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "classes",
-          "id": "ABEBgWyRhVlDUIfq",
-          "fieldPath": "system.description.value",
-          "name": "Fighter",
-          "sourcePath": "classes/fighter.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "classes",
-          "id": "ABEBgWyRhVlDUIfq",
-          "fieldPath": "system.description.value",
-          "name": "Fighter",
-          "sourcePath": "classes/fighter.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "classes",
-          "id": "ABEBgWyRhVlDUIfq",
-          "fieldPath": "system.description.value",
-          "name": "Fighter",
-          "sourcePath": "classes/fighter.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -362,57 +202,6 @@
           "sourcePath": "classes/paladin.yml"
         },
         {
-          "code": "unchanged-english",
-          "value": "Ranger",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "classes",
-          "id": "VkRQ7glQvTWWiOCS",
-          "name": "Ranger",
-          "fieldPath": "name",
-          "sourcePath": "classes/ranger.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "classes",
-          "id": "VkRQ7glQvTWWiOCS",
-          "fieldPath": "system.description.value",
-          "name": "Ranger",
-          "sourcePath": "classes/ranger.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "classes",
-          "id": "VkRQ7glQvTWWiOCS",
-          "fieldPath": "system.description.value",
-          "name": "Ranger",
-          "sourcePath": "classes/ranger.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "classes",
-          "id": "VkRQ7glQvTWWiOCS",
-          "fieldPath": "system.description.value",
-          "name": "Ranger",
-          "sourcePath": "classes/ranger.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "classes",
-          "id": "VkRQ7glQvTWWiOCS",
-          "fieldPath": "system.description.value",
-          "name": "Ranger",
-          "sourcePath": "classes/ranger.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -451,57 +240,6 @@
           "fieldPath": "system.description.value",
           "name": "Rogue",
           "sourcePath": "classes/rogue.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "classes",
-          "id": "6T08zzKtmmpVwlXU",
-          "fieldPath": "system.description.value",
-          "name": "Sorcerer",
-          "sourcePath": "classes/sorcerer.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "classes",
-          "id": "6T08zzKtmmpVwlXU",
-          "fieldPath": "system.description.value",
-          "name": "Sorcerer",
-          "sourcePath": "classes/sorcerer.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "classes",
-          "id": "6T08zzKtmmpVwlXU",
-          "fieldPath": "system.description.value",
-          "name": "Sorcerer",
-          "sourcePath": "classes/sorcerer.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "classes",
-          "id": "6T08zzKtmmpVwlXU",
-          "fieldPath": "system.description.value",
-          "name": "Sorcerer",
-          "sourcePath": "classes/sorcerer.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Warlock",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "classes",
-          "id": "7WJp9vhi6F6SlAFa",
-          "name": "Warlock",
-          "fieldPath": "name",
-          "sourcePath": "classes/warlock.yml"
         },
         {
           "code": "html-tag-sequence",
