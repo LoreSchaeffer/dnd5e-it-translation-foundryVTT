@@ -459,32 +459,40 @@
       "description": "<p>L'incantatore tocca una creatura che deve superare un tiro salvezza su Saggezza per non essere maledetta per la durata dell'incantesimo.</p>\n<p>Quando l'incantatore lancia questo incantesimo, sceglie la natura della maledizione tra le opzioni seguenti:</p>\n<ul>\n<li>L'incantatore sceglie un punteggio di caratteristica. Finch&eacute; &egrave; maledetto, il bersaglio subisce svantaggio alle prove di caratteristica e ai tiri salvezza effettuati con quel punteggio di caratteristica.</li>\n<li>Finch&eacute; &egrave; maledetto, il bersaglio subisce svantaggio ai tiri per colpire contro l'incantatore.</li>\n<li>Finch&eacute; &egrave; maledetto, il bersaglio deve effettuare un tiro salvezza su Saggezza all'inizio di ogni suo turno. Se lo fallisce, spreca la sua azione di quel turno e non fa niente.</li>\n<li>Finch&eacute; il bersaglio &egrave; maledetto, gli attacchi e gli incantesimi dell'incantatore infliggono 1d8 danni necrotici extra al bersaglio.</li>\n</ul>\n<p>Un incantesimo&nbsp;<a title=\"Rimuovi Maledizione\" href=\"https://incantesimibellibelli.fandom.com/it/wiki/Rimuovi_Maledizione\">Rimuovi Maledizione</a>&nbsp;pone fine a questo effetto.</p>\n<p>A discrezione del DM, l'incantatore pu&ograve; scegliere un effetto alternativo per la maledizione, che per&ograve; non dovrebbe risultare pi&ugrave; potente di quelli descritti sopra.</p>\n<p>Il DM ha l'ultima parola su tali effetti della maledizione.</p>\n<p><strong>Ai Livelli Superiori</strong>.&nbsp;Se l'incantatore lancia questo incantesimo usando uno slot incantesimo di 4&deg; livello o superiore, la durata diventa concentrazione, fino a 10 minuti.</p>\n<p>Se usa uno slot incantesimo di 5&deg; livello o superiore, la durata diventa 8 ore.</p>\n<p>Se usa uno slot incantesimo di 7&deg; livello o superiore, la durata &egrave; 24 ore.</p>\n<p>Se usa uno slot incantesimo di 9&deg; livello o superiore, l'incantesimo dura finch&eacute; non viene dissolto.</p>\n<p>L'uso di uno slot incantesimo di 5&deg; livello o superiore conferisce una durata che non richiede concentrazione.</p>",
       "effects": {
         "OSGSF1Zm61GXLvrC": {
-          "name": "Carisma Maledetto"
+          "name": "Carisma Maledetto",
+          "description": "<p>Disponi di Svantaggio alle prove di Carisma e ai tiri salvezza su Carisma.</p><p>Un incantesimo @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{Rimuovi Maledizione} termina questo effetto.</p>"
         },
         "pgBN0brGeJBSc413": {
-          "name": "Costituzione Maledetta"
+          "name": "Costituzione Maledetta",
+          "description": "<p>Disponi di Svantaggio alle prove di Costituzione e ai tiri salvezza su Costituzione.</p><p>Un incantesimo @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{Rimuovi Maledizione} termina questo effetto.</p>"
         },
         "RoAMbIx9IUqpNREv": {
-          "name": "Destrezza Maledetta"
+          "name": "Destrezza Maledetta",
+          "description": "<p>Disponi di Svantaggio alle prove di Destrezza e ai tiri salvezza su Destrezza.</p><p>Un incantesimo @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{Rimuovi Maledizione} termina questo effetto.</p>"
         },
         "KCdm5KtgQkFm9L9b": {
-          "name": "Intelligenza Maledetta"
+          "name": "Intelligenza Maledetta",
+          "description": "<p>Disponi di Svantaggio alle prove di Intelligenza e ai tiri salvezza su Intelligenza.</p><p>Un incantesimo @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{Rimuovi Maledizione} termina questo effetto.</p>"
         },
         "yO17H6NUUH6yTtJj": {
-          "name": "Forza Maledetta"
+          "name": "Forza Maledetta",
+          "description": "<p>Disponi di Svantaggio alle prove di Forza e ai tiri salvezza su Forza.</p><p>Un incantesimo @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{Rimuovi Maledizione} termina questo effetto.</p>"
         },
         "yFn5nMRayDT5pVeT": {
-          "name": "Saggezza Maledetta"
+          "name": "Saggezza Maledetta",
+          "description": "<p>Disponi di Svantaggio alle prove di Saggezza e ai tiri salvezza su Saggezza.</p><p>Un incantesimo @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{Rimuovi Maledizione} termina questo effetto.</p>"
         },
         "aahOmoNF6ZsMVxUs": {
-          "name": "Attacchi Maledetti"
+          "name": "Attacchi Maledetti",
+          "description": "<p>Disponi di Svantaggio ai tiri per colpire contro l'incantatore.</p><p>Un incantesimo @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{Rimuovi Maledizione} termina questo effetto.</p>"
         },
         "Ebzd58ARPldBzKci": {
           "name": "Azioni Maledette",
           "description": "<p>In combattimento devi superare un tiro salvezza [[/save wis]] all'inizio di ogni tuo turno. Se lo fallisci, sprechi la tua azione nel turno senza fare nulla.</p><p>Un incantesimo @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{Rimuovi Maledizione} termina questo effetto.</p>"
         },
         "2EP5ujWSLnkP1zV0": {
-          "name": "Resilienza Maledetta"
+          "name": "Resilienza Maledetta",
+          "description": "<p>Quando l'incantatore ti infligge danni con un attacco o un incantesimo, infligge [[/damage 1d8 necrotic]] danni aggiuntivi.</p><p>Un incantesimo @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{Rimuovi Maledizione} termina questo effetto.</p>"
         }
       }
     },
@@ -1098,24 +1106,40 @@
           "name": "Lancia"
         },
         "3uKDmmkF8irChzl6": {
-          "name": "Inondazione"
+          "name": "Inondazione",
+          "description": {
+            "value": "<p>Fai salire fino a 6 metri il livello di tutta l'acqua stagnante nell'area. Se l'area include una riva, l'acqua dell'inondazione si riversa sulla terraferma; crea invece un'onda alta 6 metri che si sposta da un lato all'altro dell'area e poi si abbatte. Qualsiasi veicolo di taglia Enorme o inferiore sul percorso dell'onda viene trasportato con essa fino all'altro lato. Qualsiasi veicolo di taglia Enorme o inferiore colpito dall'onda ha una probabilità del 25 per cento di capovolgersi.</p><p>Il livello dell'acqua rimane elevato finché l'incantesimo non termina o finché non scegli un effetto diverso. Se questo effetto ha prodotto un'onda, l'onda si ripete all'inizio del tuo turno successivo finché dura l'effetto dell'inondazione.</p>"
+          }
         },
         "bgxFEFucjRRDxtIr": {
-          "name": "Separa Acqua"
+          "name": "Separa Acqua",
+          "description": {
+            "value": "<p>Fai separare l'acqua nell'area e crei una trincea. La trincea si estende attraverso l'area dell'incantesimo e l'acqua separata forma un muro su ciascun lato. La trincea permane finché l'incantesimo non termina o finché non scegli un effetto diverso. Nel round successivo l'acqua riempie lentamente la trincea fino a ripristinare il normale livello dell'acqua.</p>"
+          }
         },
         "tcZLcPr3nsDOEaiC": {
-          "name": "Devia Flusso"
+          "name": "Devia Flusso",
+          "description": {
+            "value": "<p>Fai scorrere l'acqua corrente nell'area in una direzione a tua scelta, anche se deve superare ostacoli, risalire pareti o muoversi in altre direzioni improbabili. L'acqua nell'area si muove come ordini, ma una volta uscita dall'area dell'incantesimo riprende a scorrere in base alle condizioni del terreno. L'acqua continua a muoversi nella direzione scelta finché l'incantesimo non termina o finché non scegli un effetto diverso.</p>"
+          }
         },
         "HneTMN8U6QKaRU7B": {
-          "name": "Vortice"
+          "name": "Vortice",
+          "description": {
+            "value": "<p>Questo effetto richiede uno specchio d'acqua di almeno 15 metri di lato e profondo 7,5 metri. Fai formare un mulinello al centro dell'area. Il mulinello crea un vortice largo 1,5 metri alla base, fino a 15 metri alla sommità e alto 7,5 metri. Qualsiasi creatura o oggetto nell'acqua ed entro 7,5 metri dal vortice viene trascinato di 3 metri verso di esso. Una creatura può nuotare via dal vortice superando una prova di Forza (Atletica) contro la CD del tiro salvezza del tuo incantesimo.</p><p>Quando una creatura entra nel vortice per la prima volta in un turno o vi inizia il proprio turno, deve effettuare un tiro salvezza su Forza. Se lo fallisce, subisce 2d8 danni contundenti e rimane intrappolata nel vortice finché l'incantesimo non termina. Se lo supera, subisce la metà dei danni e non rimane intrappolata nel vortice. Una creatura intrappolata nel vortice può usare la propria azione per tentare di nuotarne fuori come descritto sopra, ma dispone di svantaggio alla prova di Forza (Atletica) effettuata a tale scopo.</p><p>La prima volta in ogni turno che un oggetto entra nel vortice, esso subisce 2d8 danni contundenti; subisce questi danni in ogni round in cui rimane nel vortice.</p>"
+          }
         },
         "BTnvB5e4TEPEgZaS": {
-          "name": "Vortice (Tiro Salvezza a Inizio Turno)"
+          "name": "Vortice (Tiro Salvezza a Inizio Turno)",
+          "description": {
+            "value": "<p>Quando una creatura entra nel vortice per la prima volta in un turno o vi inizia il proprio turno, deve effettuare un tiro salvezza su Forza. Se lo fallisce, subisce 2d8 danni contundenti e rimane intrappolata nel vortice finché l'incantesimo non termina. Se lo supera, subisce la metà dei danni e non rimane intrappolata nel vortice. Una creatura intrappolata nel vortice può usare la propria azione per tentare di nuotarne fuori come descritto sopra, ma dispone di svantaggio alla prova di Forza (Atletica) effettuata a tale scopo.</p><p>La prima volta in ogni turno che un oggetto entra nel vortice, esso subisce 2d8 danni contundenti; subisce questi danni in ogni round in cui rimane nel vortice.</p>"
+          }
         }
       },
       "effects": {
         "G5aZCiqtwSzf1PhW": {
-          "name": "Intrappolato nel Vortice"
+          "name": "Intrappolato nel Vortice",
+          "description": "<p>Sei intrappolato in un mulinello. Puoi usare la tua azione per tentare di nuotare via dal vortice effettuando una [[/check str ath]] contro la CD del tiro salvezza dell'incantesimo dell'incantatore.</p>"
         }
       }
     },
@@ -3324,22 +3348,28 @@
       },
       "effects": {
         "J6OIwL9rmPzNN307": {
-          "name": "Allucinazione Mortale: 4° Livello"
+          "name": "Allucinazione Mortale: 4° Livello",
+          "description": "<p>Sei &amp;reference[frightened apply=false] per la durata. Alla fine di ogni tuo turno prima che l'incantesimo termini, devi superare un tiro salvezza su Saggezza, altrimenti subisci 4d10 danni psichici. Se superi il tiro salvezza, l'incantesimo termina.</p>"
         },
         "R5MdvUZbqqCgBL6t": {
-          "name": "Allucinazione Mortale: 5° Livello"
+          "name": "Allucinazione Mortale: 5° Livello",
+          "description": "<p>Sei &amp;reference[frightened apply=false] per la durata. Alla fine di ogni tuo turno prima che l'incantesimo termini, devi superare un tiro salvezza su Saggezza, altrimenti subisci 5d10 danni psichici. Se superi il tiro salvezza, l'incantesimo termina.</p>"
         },
         "fm26pCWmSEBcWEBe": {
-          "name": "Allucinazione Mortale: 6° Livello"
+          "name": "Allucinazione Mortale: 6° Livello",
+          "description": "<p>Sei &amp;reference[frightened apply=false] per la durata. Alla fine di ogni tuo turno prima che l'incantesimo termini, devi superare un tiro salvezza su Saggezza, altrimenti subisci 6d10 danni psichici. Se superi il tiro salvezza, l'incantesimo termina.</p>"
         },
         "3oeCmX26bWOj5E8C": {
-          "name": "Allucinazione Mortale: 7° Livello"
+          "name": "Allucinazione Mortale: 7° Livello",
+          "description": "<p>Sei &amp;reference[frightened apply=false] per la durata. Alla fine di ogni tuo turno prima che l'incantesimo termini, devi superare un tiro salvezza su Saggezza, altrimenti subisci 7d10 danni psichici. Se superi il tiro salvezza, l'incantesimo termina.</p>"
         },
         "LNGvFzuugMXHIx7o": {
-          "name": "Allucinazione Mortale: 8° Livello"
+          "name": "Allucinazione Mortale: 8° Livello",
+          "description": "<p>Sei &amp;reference[frightened apply=false] per la durata. Alla fine di ogni tuo turno prima che l'incantesimo termini, devi superare un tiro salvezza su Saggezza, altrimenti subisci 8d10 danni psichici. Se superi il tiro salvezza, l'incantesimo termina.</p>"
         },
         "kMYQQYGLWCoTKpPJ": {
-          "name": "Allucinazione Mortale: 9° Livello"
+          "name": "Allucinazione Mortale: 9° Livello",
+          "description": "<p>Sei &amp;reference[frightened apply=false] per la durata. Alla fine di ogni tuo turno prima che l'incantesimo termini, devi superare un tiro salvezza su Saggezza, altrimenti subisci 9d10 danni psichici. Se superi il tiro salvezza, l'incantesimo termina.</p>"
         }
       }
     },

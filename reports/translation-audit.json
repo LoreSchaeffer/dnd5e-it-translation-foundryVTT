@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1022,
+      "translated": 1023,
       "missing": 69,
-      "partial": 1300,
+      "partial": 1299,
       "review": 213
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 9320,
-      "missing": 6340,
+      "translated": 9340,
+      "missing": 6320,
       "invariantFailures": 2394,
       "englishResiduals": 135,
       "imperialResiduals": 4
     },
-    "blockingIssues": 8897
+    "blockingIssues": 8877
   },
   "packs": [
     {
@@ -76741,9 +76741,9 @@
       "summary": {
         "documents": {
           "total": 320,
-          "translated": 85,
+          "translated": 86,
           "missing": 0,
-          "partial": 235,
+          "partial": 234,
           "review": 10
         },
         "folders": {
@@ -76755,8 +76755,8 @@
         },
         "fields": {
           "total": 2007,
-          "translated": 1813,
-          "missing": 194,
+          "translated": 1833,
+          "missing": 174,
           "invariantFailures": 406,
           "englishResiduals": 17,
           "imperialResiduals": 2
@@ -78476,78 +78476,6 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "spells",
-          "id": "pO4zGe5LmFIYqJiL",
-          "name": "Bestow Curse",
-          "fieldPath": "effects[OSGSF1Zm61GXLvrC].description",
-          "sourcePath": "spells/3rd-level/bestow-curse.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "pO4zGe5LmFIYqJiL",
-          "name": "Bestow Curse",
-          "fieldPath": "effects[pgBN0brGeJBSc413].description",
-          "sourcePath": "spells/3rd-level/bestow-curse.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "pO4zGe5LmFIYqJiL",
-          "name": "Bestow Curse",
-          "fieldPath": "effects[RoAMbIx9IUqpNREv].description",
-          "sourcePath": "spells/3rd-level/bestow-curse.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "pO4zGe5LmFIYqJiL",
-          "name": "Bestow Curse",
-          "fieldPath": "effects[KCdm5KtgQkFm9L9b].description",
-          "sourcePath": "spells/3rd-level/bestow-curse.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "pO4zGe5LmFIYqJiL",
-          "name": "Bestow Curse",
-          "fieldPath": "effects[yO17H6NUUH6yTtJj].description",
-          "sourcePath": "spells/3rd-level/bestow-curse.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "pO4zGe5LmFIYqJiL",
-          "name": "Bestow Curse",
-          "fieldPath": "effects[yFn5nMRayDT5pVeT].description",
-          "sourcePath": "spells/3rd-level/bestow-curse.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "pO4zGe5LmFIYqJiL",
-          "name": "Bestow Curse",
-          "fieldPath": "effects[aahOmoNF6ZsMVxUs].description",
-          "sourcePath": "spells/3rd-level/bestow-curse.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "pO4zGe5LmFIYqJiL",
-          "name": "Bestow Curse",
-          "fieldPath": "effects[2EP5ujWSLnkP1zV0].description",
-          "sourcePath": "spells/3rd-level/bestow-curse.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
           "id": "GSvLWcdCZLQkilXT",
           "name": "Blink",
           "fieldPath": "effects[KfxYKxbFoCe5HJYS].description",
@@ -79401,60 +79329,6 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "spells",
-          "id": "7fFHlBk3UNX8gPKL",
-          "name": "Control Water",
-          "fieldPath": "system.activities.3uKDmmkF8irChzl6.description.value",
-          "sourcePath": "spells/4th-level/control-water.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "7fFHlBk3UNX8gPKL",
-          "name": "Control Water",
-          "fieldPath": "system.activities.bgxFEFucjRRDxtIr.description.value",
-          "sourcePath": "spells/4th-level/control-water.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "7fFHlBk3UNX8gPKL",
-          "name": "Control Water",
-          "fieldPath": "system.activities.tcZLcPr3nsDOEaiC.description.value",
-          "sourcePath": "spells/4th-level/control-water.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "7fFHlBk3UNX8gPKL",
-          "name": "Control Water",
-          "fieldPath": "system.activities.HneTMN8U6QKaRU7B.description.value",
-          "sourcePath": "spells/4th-level/control-water.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "7fFHlBk3UNX8gPKL",
-          "name": "Control Water",
-          "fieldPath": "system.activities.BTnvB5e4TEPEgZaS.description.value",
-          "sourcePath": "spells/4th-level/control-water.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "7fFHlBk3UNX8gPKL",
-          "name": "Control Water",
-          "fieldPath": "effects[G5aZCiqtwSzf1PhW].description",
-          "sourcePath": "spells/4th-level/control-water.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
           "id": "VtCXMdyM6mAdIJZb",
           "name": "Death Ward",
           "fieldPath": "effects[pTOjdHl8TyRdhRjl].description",
@@ -79543,60 +79417,6 @@
           "fieldPath": "system.description.value",
           "name": "Locate Creature",
           "sourcePath": "spells/4th-level/locate-creature.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "BYNvBJzHcF5VJhXw",
-          "name": "Phantasmal Killer",
-          "fieldPath": "effects[J6OIwL9rmPzNN307].description",
-          "sourcePath": "spells/4th-level/phantasmal-killer.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "BYNvBJzHcF5VJhXw",
-          "name": "Phantasmal Killer",
-          "fieldPath": "effects[R5MdvUZbqqCgBL6t].description",
-          "sourcePath": "spells/4th-level/phantasmal-killer.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "BYNvBJzHcF5VJhXw",
-          "name": "Phantasmal Killer",
-          "fieldPath": "effects[fm26pCWmSEBcWEBe].description",
-          "sourcePath": "spells/4th-level/phantasmal-killer.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "BYNvBJzHcF5VJhXw",
-          "name": "Phantasmal Killer",
-          "fieldPath": "effects[3oeCmX26bWOj5E8C].description",
-          "sourcePath": "spells/4th-level/phantasmal-killer.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "BYNvBJzHcF5VJhXw",
-          "name": "Phantasmal Killer",
-          "fieldPath": "effects[LNGvFzuugMXHIx7o].description",
-          "sourcePath": "spells/4th-level/phantasmal-killer.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "BYNvBJzHcF5VJhXw",
-          "name": "Phantasmal Killer",
-          "fieldPath": "effects[kMYQQYGLWCoTKpPJ].description",
-          "sourcePath": "spells/4th-level/phantasmal-killer.yml"
         },
         {
           "code": "html-tag-sequence",
