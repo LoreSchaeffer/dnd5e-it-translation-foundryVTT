@@ -2,7 +2,7 @@ import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 import { resolvePaths } from "./lib/config.mjs";
-import { applyFieldOverrides } from "./lib/field-overrides.mjs";
+import { applyFieldOverrides, entryKeyForRecord } from "./lib/field-overrides.mjs";
 import { loadSourcePack } from "./lib/source-inventory.mjs";
 
 function argumentsOf(argv) {
@@ -26,6 +26,9 @@ async function main() {
   for (const pack of args.packs) {
     const records = (await loadSourcePack(path.join(paths.sourcePacksRoot, pack))).filter(record => record.kind === "document");
     const byId = new Map(records.map(record => [record.id, record]));
+    const nameCounts = new Map();
+    for (const record of records) nameCounts.set(record.name, (nameCounts.get(record.name) ?? 0) + 1);
+    const duplicateNames = new Set([...nameCounts].filter(([, count]) => count > 1).map(([name]) => name));
     const targetPath = path.join(paths.compendiumRoot, `dnd5e.${pack}.json`);
     const document = JSON.parse(await readFile(targetPath, "utf8"));
     document.mapping = {
@@ -36,7 +39,7 @@ async function main() {
     for (const [id, fields] of Object.entries(overrides[pack] ?? {})) {
       const record = byId.get(id);
       if (!record) throw new Error(`${pack}: unknown source id ${id}`);
-      const key = document.entries[record.name] ? record.name : id;
+      const key = entryKeyForRecord(document.entries, record, duplicateNames);
       document.entries[key] ??= key === id ? { _id: id } : {};
       document.entries[key] = applyFieldOverrides(document.entries[key], fields);
     }

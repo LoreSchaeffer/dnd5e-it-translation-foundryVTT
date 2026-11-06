@@ -104,15 +104,106 @@ function reshapeLegacyParagraphs(source, translation) {
   const translatedParagraphs = [...unwrapped.matchAll(paragraph)];
   if (!translatedParagraphs.length || removeMatches(unwrapped, translatedParagraphs).trim()) return null;
   let inners = translatedParagraphs.map(match => match[0].replace(/^<p\b[^>]*>/i, "").replace(/<\/p>$/i, ""));
+  if (sourceParagraphs.length === 1 && inners.length > 1) inners = [inners.join(" ")];
   if (inners.length === 1 && sourceParagraphs.length > 1) {
     const split = inners[0].split(/<br\s*\/?\s*>/gi);
     if (split.length === sourceParagraphs.length) inners = split;
+    else {
+      const sentences = inners[0].split(/(?<=[.!?])\s+/u);
+      if (sentences.length === sourceParagraphs.length) inners = sentences;
+    }
+  }
+  if (inners.length < sourceParagraphs.length) {
+    inners = inners.flatMap(inner => inner.split(/(?<=[.!?])\s+/u));
+  }
+  if (inners.length > sourceParagraphs.length && sourceParagraphs.length > 1) {
+    const sourceLengths = sourceParagraphs.map(match => match[0].replace(/<[^>]+>/g, "").length || 1);
+    const totalSource = sourceLengths.reduce((sum, length) => sum + length, 0);
+    const translatedLengths = inners.map(inner => inner.replace(/<[^>]+>/g, "").length || 1);
+    const totalTranslated = translatedLengths.reduce((sum, length) => sum + length, 0);
+    const groups = [];
+    let start = 0;
+    let sourceConsumed = 0;
+    let translatedConsumed = 0;
+    for (let groupIndex = 0; groupIndex < sourceParagraphs.length - 1; groupIndex += 1) {
+      sourceConsumed += sourceLengths[groupIndex];
+      const target = totalTranslated * sourceConsumed / totalSource;
+      let end = start + 1;
+      let cumulative = translatedConsumed + translatedLengths[start];
+      const maximumEnd = inners.length - (sourceParagraphs.length - groupIndex - 1);
+      while (end < maximumEnd) {
+        const next = cumulative + translatedLengths[end];
+        if (Math.abs(next - target) > Math.abs(cumulative - target)) break;
+        cumulative = next;
+        end += 1;
+      }
+      groups.push(inners.slice(start, end).join(" "));
+      translatedConsumed = cumulative;
+      start = end;
+    }
+    groups.push(inners.slice(start).join(" "));
+    inners = groups;
   }
   if (inners.length !== sourceParagraphs.length) return null;
   return inners.map(inner => `<p>${inner}</p>`).join("");
 }
 
-export function rebaseInvariantTokens(source, translation) {
+function reshapeEquivalentTextNodes(source, translation) {
+  const textNodes = value => {
+    const nodes = [];
+    let cursor = 0;
+    for (const match of value.matchAll(/<[^>]+>/g)) {
+      if (match.index > cursor && value.slice(cursor, match.index).trim()) {
+        nodes.push({ start: cursor, end: match.index, value: value.slice(cursor, match.index) });
+      }
+      cursor = match.index + match[0].length;
+    }
+    if (cursor < value.length && value.slice(cursor).trim()) nodes.push({ start: cursor, end: value.length, value: value.slice(cursor) });
+    return nodes;
+  };
+  const sourceNodes = textNodes(source);
+  const translatedNodes = textNodes(translation);
+  if (!sourceNodes.length || sourceNodes.length !== translatedNodes.length) return null;
+  return replaceSequential(source, sourceNodes.map(node => node.value), translatedNodes.map(node => node.value.trim()));
+}
+
+function escapeRegExp(value) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function accentTolerantPattern(value) {
+  return escapeRegExp(value)
+    .replace(/a/gi, "[aàá]")
+    .replace(/e/gi, "[eèé]")
+    .replace(/i/gi, "[iìí]")
+    .replace(/o/gi, "[oòó]")
+    .replace(/u/gi, "[uùú]");
+}
+
+function injectMissingReferences(source, translation, referenceLabels) {
+  if (!referenceLabels?.size) return translation;
+  const expression = /@(UUID|Compendium|Embed|Check|Save|Damage|Template|Condition)\[([^\]]*)\](?:\{([^{}]*)\})?/gi;
+  const sourceReferences = [...source.matchAll(expression)];
+  const translatedTargets = new Set([...translation.matchAll(expression)].map(match => match[2]));
+  let output = translation;
+  for (const reference of sourceReferences) {
+    if (translatedTargets.has(reference[2])) continue;
+    const label = referenceLabels.get(reference[2]) ?? referenceLabels.get(reference[2].split(".").at(-1));
+    if (!label) return translation;
+    const occurrences = [...output.matchAll(new RegExp(accentTolerantPattern(label), "giu"))];
+    if (!occurrences.length) return translation;
+    output = output.slice(0, occurrences[0].index)
+      + `@${reference[1]}[${reference[2]}]{${occurrences[0][0]}}`
+      + output.slice(occurrences[0].index + occurrences[0][0].length);
+    translatedTargets.add(reference[2]);
+  }
+  return output;
+}
+
+export function rebaseInvariantTokens(source, translation, { referenceLabels } = {}) {
+  if (!/<table\b/i.test(source) && /<table\b/i.test(translation)) {
+    translation = translation.replace(/<table\b[^>]*>[\s\S]*?<\/table>/gi, "");
+  }
   const sourceHtml = scanHtml(source);
   let translatedHtml = scanHtml(translation);
   const sourceShape = sourceHtml.tokens.map(({ kind, name, selfClosing }) => ({ kind, name, selfClosing }));
@@ -124,6 +215,14 @@ export function rebaseInvariantTokens(source, translation) {
       translatedHtml = scanHtml(translation);
       translatedShape = translatedHtml.tokens.map(({ kind, name, selfClosing }) => ({ kind, name, selfClosing }));
     }
+    if (JSON.stringify(sourceShape) !== JSON.stringify(translatedShape)) {
+      const projected = reshapeEquivalentTextNodes(source, translation);
+      if (projected !== null) {
+        translation = projected;
+        translatedHtml = scanHtml(translation);
+        translatedShape = translatedHtml.tokens.map(({ kind, name, selfClosing }) => ({ kind, name, selfClosing }));
+      }
+    }
   }
   if (sourceHtml.errors.length || translatedHtml.errors.length || JSON.stringify(sourceShape) !== JSON.stringify(translatedShape)) {
     return null;
@@ -131,6 +230,8 @@ export function rebaseInvariantTokens(source, translation) {
 
   let rebased = replaceSequential(translation, translatedHtml.rawTokens, sourceHtml.rawTokens);
   if (rebased === null) return null;
+
+  rebased = injectMissingReferences(source, rebased, referenceLabels);
 
   const reference = /@(UUID|Compendium|Embed|Check|Save|Damage|Template|Condition)\[([^\]]*)\](?:\{([^{}]*)\})?/gi;
   rebased = replacePattern(source, rebased, reference, (sourceMatch, translatedMatch) => {
@@ -152,7 +253,7 @@ export function rebaseInvariantTokens(source, translation) {
   return compareInvariants(source, rebased).length ? null : rebased;
 }
 
-export function planSynchronization({ sourceRecords, translationRecords }) {
+export function planSynchronization({ sourceRecords, translationRecords, referenceLabels }) {
   const documents = sorted(sourceRecords.filter(record => record.kind === "document"));
   const entries = translationRecords.filter(record => record.kind === "entry");
   const byKey = new Map(entries.map(record => [record.lookupKey, record]));
@@ -185,6 +286,7 @@ export function planSynchronization({ sourceRecords, translationRecords }) {
       }));
       continue;
     }
+    const storageKey = candidate.name;
 
     const missing = [];
     const diagnostics = [];
@@ -198,7 +300,7 @@ export function planSynchronization({ sourceRecords, translationRecords }) {
       const fieldDiagnostics = compareInvariants(field, String(translatedValue));
       if (fieldDiagnostics.length) {
         const translationPath = translationPathForField(record, field.fieldPath);
-        const rebased = translationPath ? rebaseInvariantTokens(field.value, String(translatedValue)) : null;
+        const rebased = translationPath ? rebaseInvariantTokens(field.value, String(translatedValue), { referenceLabels }) : null;
         if (rebased !== null) repairs.push({ fieldPath: field.fieldPath, translationPath, value: rebased });
         else diagnostics.push(...fieldDiagnostics.map(item => ({ ...item, fieldPath: field.fieldPath })));
       }
@@ -207,7 +309,7 @@ export function planSynchronization({ sourceRecords, translationRecords }) {
     if (diagnostics.length) {
       plan.manualReview.push(queueItem(record, {
         reason: "invariant-failure",
-        lookupKey: record.name,
+        lookupKey: storageKey,
         matchedLookupKey: candidate.lookupKey,
         diagnostics,
         ...(repairs.length ? { repairs } : {})
@@ -218,7 +320,7 @@ export function planSynchronization({ sourceRecords, translationRecords }) {
     if (missing.length) {
       plan.needsTranslation.push(queueItem(record, {
         reason: "missing-visible-fields",
-        lookupKey: record.name,
+        lookupKey: storageKey,
         matchedLookupKey: candidate.lookupKey,
         fieldPaths: missing,
         ...(repairs.length ? { repairs } : {})
@@ -227,9 +329,8 @@ export function planSynchronization({ sourceRecords, translationRecords }) {
     }
 
     plan.safe.push(queueItem(record, {
-      lookupKey: record.name,
+      lookupKey: storageKey,
       matchedLookupKey: candidate.lookupKey,
-      ...(candidate.lookupKey !== record.name ? { renameFrom: candidate.lookupKey } : {}),
       ...(repairs.length ? { repairs } : {})
     }));
   }

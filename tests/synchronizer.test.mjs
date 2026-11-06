@@ -66,7 +66,7 @@ test("routes duplicate source names to manual review instead of collapsing ident
   assert.ok(plan.manualReview.every(item => item.reason === "ambiguous-source-name"));
 });
 
-test("recognizes a renamed entry only when stable source identity is explicit", () => {
+test("recognizes a renamed entry by stable source identity without changing its storage key", () => {
   const record = source("item1", "New Source Name");
   const translated = translation("Old Source Name", {
     _id: "item1",
@@ -76,11 +76,11 @@ test("recognizes a renamed entry only when stable source identity is explicit", 
 
   const plan = planSynchronization({ sourceRecords: [record], translationRecords: [translated] });
   assert.equal(plan.safe.length, 1);
-  assert.equal(plan.safe[0].renameFrom, "Old Source Name");
-  assert.equal(plan.safe[0].lookupKey, "New Source Name");
+  assert.equal(plan.safe[0].renameFrom, undefined);
+  assert.equal(plan.safe[0].lookupKey, "Old Source Name");
 });
 
-test("routes unalignable markup or changed Foundry targets to manual review", () => {
+test("repairs changed Foundry targets when translated text aligns with the source skeleton", () => {
   const record = source(
     "item1",
     "Flame",
@@ -92,10 +92,12 @@ test("routes unalignable markup or changed Foundry targets to manual review", ()
   });
 
   const plan = planSynchronization({ sourceRecords: [record], translationRecords: [translated] });
-  assert.equal(plan.manualReview.length, 1);
-  assert.equal(plan.manualReview[0].reason, "invariant-failure");
-  assert.ok(plan.manualReview[0].diagnostics.some(item => item.code === "html-tag-sequence"));
-  assert.ok(plan.manualReview[0].diagnostics.some(item => item.code === "foundry-references"));
+  assert.equal(plan.manualReview.length, 0);
+  assert.equal(plan.safe.length, 1);
+  assert.equal(
+    plan.safe[0].repairs[0].value,
+    '<section><p>@UUID[Compendium.dnd5e.items.Item.abc]{Fiamma}</p></section>'
+  );
 });
 
 test("plans and applies a conservative invariant repair for compatible legacy prose", () => {
@@ -120,7 +122,7 @@ test("plans and applies a conservative invariant repair for compatible legacy pr
   assert.equal(applied.entries.Flame.description, plan.safe[0].repairs[0].value);
 });
 
-test("applySynchronization performs safe renames without mutating the input document", () => {
+test("applySynchronization preserves explicit-ID storage keys without mutating the input document", () => {
   const document = {
     label: "Pilot",
     folders: { Gear: "Equipaggiamento" },
@@ -136,8 +138,8 @@ test("applySynchronization performs safe renames without mutating the input docu
 
   const applied = applySynchronization(document, plan);
   assert.deepEqual(document, snapshot);
-  assert.equal(applied.entries["Old Source Name"], undefined);
-  assert.deepEqual(applied.entries["New Source Name"], snapshot.entries["Old Source Name"]);
+  assert.deepEqual(applied.entries["Old Source Name"], snapshot.entries["Old Source Name"]);
+  assert.equal(applied.entries["New Source Name"], undefined);
   assert.deepEqual(applied.folders, snapshot.folders);
 });
 
@@ -152,7 +154,7 @@ test("rebaseInvariantTokens restores source HTML and mechanics while retaining I
 });
 
 test("rebaseInvariantTokens refuses incompatible HTML shape", () => {
-  assert.equal(rebaseInvariantTokens("<p><strong>Rule</strong></p>", "<p>Regola</p>"), null);
+  assert.equal(rebaseInvariantTokens("<p><strong>Rule</strong> Tail</p>", "<p>Regola</p>"), null);
 });
 
 test("rebaseInvariantTokens unwraps legacy divs and restores split source paragraphs", () => {
@@ -162,5 +164,66 @@ test("rebaseInvariantTokens unwraps legacy divs and restores split source paragr
   assert.equal(
     rebaseInvariantTokens(source, legacy),
     '<p class="first">Prima regola.</p><p>Seconda @UUID[Compendium.dnd5e.items.Item.abc]{regola}.</p>'
+  );
+});
+
+test("rebaseInvariantTokens merges legacy paragraphs when the source now uses one paragraph", () => {
+  assert.equal(
+    rebaseInvariantTokens("<p>First rule. Second rule.</p>", "<p>Prima regola.</p><p>Seconda regola.</p>"),
+    "<p>Prima regola. Seconda regola.</p>"
+  );
+});
+
+test("rebaseInvariantTokens splits a legacy paragraph at sentence boundaries", () => {
+  assert.equal(
+    rebaseInvariantTokens("<p>First rule.</p><p>Second rule.</p>", "<p>Prima regola. Seconda regola.</p>"),
+    "<p>Prima regola.</p><p>Seconda regola.</p>"
+  );
+});
+
+test("rebaseInvariantTokens projects translated text onto an equivalent source HTML skeleton", () => {
+  const source = "<table><tr><td><strong>Level</strong></td><td>Feature</td></tr></table>";
+  const legacy = "<table><thead><tr><th><p><strong>Livello</strong></p></th><th><p>Privilegio</p></th></tr></thead></table>";
+  assert.equal(
+    rebaseInvariantTokens(source, legacy),
+    "<table><tr><td><strong>Livello</strong></td><td>Privilegio</td></tr></table>"
+  );
+});
+
+test("rebaseInvariantTokens restores a missing source reference around its translated label", () => {
+  const source = "<p>You can cast @UUID[Compendium.dnd5e.spells.Item.abc]{Mage Armor}.</p>";
+  const legacy = "<p>Puoi lanciare armatura magica.</p>";
+  const referenceLabels = new Map([["Compendium.dnd5e.spells.Item.abc", "armatura magica"]]);
+  assert.equal(
+    rebaseInvariantTokens(source, legacy, { referenceLabels }),
+    "<p>Puoi lanciare @UUID[Compendium.dnd5e.spells.Item.abc]{armatura magica}.</p>"
+  );
+});
+
+test("rebaseInvariantTokens links the first matching translated label when prose repeats it", () => {
+  const source = "<p>Spend @UUID[Compendium.test.Item.abc]{Inspiration}, then roll the Inspiration die.</p>";
+  const legacy = "<p>Spendi Ispirazione, poi tira il dado di Ispirazione.</p>";
+  const referenceLabels = new Map([["Compendium.test.Item.abc", "Ispirazione"]]);
+  assert.equal(
+    rebaseInvariantTokens(source, legacy, { referenceLabels }),
+    "<p>Spendi @UUID[Compendium.test.Item.abc]{Ispirazione}, poi tira il dado di Ispirazione.</p>"
+  );
+});
+
+test("rebaseInvariantTokens redistributes legacy paragraphs without dropping translated prose", () => {
+  const source = "<p>Short.</p><p>A much longer middle rule.</p><p>End.</p>";
+  const legacy = "<p>Breve.</p><p>Una regola</p><p>centrale molto più lunga.</p><p>Fine.</p>";
+  assert.equal(
+    rebaseInvariantTokens(source, legacy),
+    "<p>Breve.</p><p>Una regola centrale molto più lunga.</p><p>Fine.</p>"
+  );
+});
+
+test("rebaseInvariantTokens discards an obsolete legacy table absent from the source", () => {
+  const source = "<p>Rule.</p><h5>Details</h5><p>More.</p>";
+  const legacy = "<p>Regola.</p><h3>Dettagli</h3><table><tr><td>Dati obsoleti</td></tr></table><p>Altro.</p>";
+  assert.equal(
+    rebaseInvariantTokens(source, legacy),
+    "<p>Regola.</p><h5>Dettagli</h5><p>Altro.</p>"
   );
 });

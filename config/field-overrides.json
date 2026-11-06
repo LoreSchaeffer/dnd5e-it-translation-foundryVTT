@@ -4,6 +4,102 @@
       "system.requirements": "Stregone 2",
       "system.activities.EHLXN6WrPpxg0pRN.name": "Recupera Slot Incantesimo",
       "system.activities.72ZtIT83h5t5iHHC.name": "Recupera Punti Stregoneria"
+    },
+    "wKdRtFsvGfMKQHLY": {
+      "system.activities.dnd5eactivity000.description.chatFlavor": "Il druido può recuperare slot incantesimo per un valore complessivo pari a questo numero (di 5° livello o inferiore):"
+    },
+    "swK0r5TOIxredxWS": {
+      "system.activities.dnd5eactivity000.profiles[ZpU9q522gmEoHq0Z].name": "GS ¼",
+      "system.activities.dnd5eactivity000.profiles[mnIE9O2DcYdFKlM7].name": "GS ½",
+      "system.activities.dnd5eactivity000.profiles[nGveIM1zZpa21W33].name": "GS 1"
+    },
+    "q9g1MLXuLZyxjQMg": {
+      "name": "Attacco Extra (Guerriero)",
+      "system.description.value": "<p>Puoi attaccare due volte, anziché una, ogni volta che effettui l'azione Attaccare durante il tuo turno.</p><p>Il numero di attacchi aumenta a tre quando raggiungi l'11° livello in questa classe e a quattro quando raggiungi il 20° livello in questa classe.</p>",
+      "system.requirements": "Guerriero 5"
+    },
+    "3FB25qKxmkmxcxuC": {
+      "name": "Andatura sul Territorio (Circolo della Terra)",
+      "system.description.value": "<p>A partire dal 6° livello, muoversi attraverso il terreno difficile non magico non ti costa movimento aggiuntivo. Puoi inoltre passare attraverso i vegetali non magici senza esserne rallentato e senza subire danni se presentano spine, aculei o pericoli simili.</p><p>Inoltre, disponi di vantaggio ai tiri salvezza contro i vegetali creati o manipolati magicamente per ostacolare il movimento, come quelli creati dall'incantesimo @UUID[Compendium.dnd5e.spells.Item.gMrWeG8fMDPRFiVe]{Intralciare}.</p>",
+      "system.requirements": "Circolo della Terra 6"
+    },
+    "cVDEQo0ow1WJT7Wl": {
+      "name": "Corpo Senza Tempo (Druido)",
+      "system.description.value": "<p>A partire dal 18° livello, la magia primordiale che padroneggi ti fa invecchiare più lentamente. Per ogni 10 anni trascorsi, il tuo corpo invecchia soltanto di 1 anno.</p>",
+      "system.requirements": "Druido 18"
+    },
+    "sPy2OLoN7JaAcMl4": {
+      "name": "Aumento dei Punteggi di Caratteristica (Guerriero)",
+      "system.description.value": "<p>Quando raggiungi il 4° livello, e poi di nuovo il 6°, l'8°, il 12°, il 14°, il 16° e il 19° livello, puoi aumentare di 2 un punteggio di caratteristica a tua scelta, oppure puoi aumentare di 1 due punteggi di caratteristica a tua scelta. Come di consueto, non puoi aumentare un punteggio di caratteristica oltre 20 usando questo privilegio.</p>",
+      "system.requirements": "Guerriero 4"
+    },
+    "7pyZjz5vlUWV01qQ": {
+      "name": "Difesa del Cacciatore Superiore: Schivata Prodigiosa",
+      "system.description.value": "<p>Quando un attaccante che puoi vedere ti colpisce con un attacco, puoi usare la tua reazione per dimezzare i danni che l'attacco ti infligge.</p>",
+      "system.requirements": "Cacciatore 15"
+    },
+    "YpiLQEKGalROn7iJ": {
+      "name": "Incanalare Divinità (Chierico)",
+      "system.description.value": "<p>Al 2° livello, ottieni la capacità di incanalare energia divina direttamente dalla tua divinità, usando quell'energia per alimentare effetti magici. Inizi con due effetti di questo tipo: Scacciare Non Morti e un effetto determinato dal tuo dominio. Alcuni domini ti conferiscono effetti aggiuntivi man mano che avanzi di livello, come indicato nella descrizione del dominio.</p><p>Quando usi Incanalare Divinità, scegli quale effetto creare. Devi quindi terminare un riposo breve o lungo per usare di nuovo Incanalare Divinità. Alcuni effetti di Incanalare Divinità richiedono tiri salvezza. Quando usi uno di questi effetti di questa classe, la CD è pari alla CD del tiro salvezza dei tuoi incantesimi da chierico.</p><p>A partire dal 6° livello, puoi usare Incanalare Divinità due volte tra un riposo e l'altro, e a partire dal 18° livello puoi usarlo tre volte tra un riposo e l'altro. Quando termini un riposo breve o lungo, recuperi gli utilizzi spesi.</p><section class=\"secret foundry-note\" id=\"secret-AZYZtT1NonF68bPW\"><p><strong>Nota Foundry</strong></p><p>Usa questo privilegio per tenere traccia di tutti i vari utilizzi di Incanalare Divinità del chierico.</p></section>",
+      "system.requirements": "Chierico 2"
+    },
+    "gDH8PMrKvLHaNmEI": {
+      "name": "Corpo Senza Tempo (Monaco)",
+      "system.description.value": "<p>Al 15° livello, il tuo ki ti sostiene al punto che non subisci nessuna delle fragilità della vecchiaia e non puoi invecchiare magicamente. Puoi comunque morire di vecchiaia. Inoltre, non hai più bisogno di cibo o acqua.</p>",
+      "system.requirements": "Monaco 15"
+    },
+    "laVHAIOKIsUeezWd": {
+      "name": "Difesa del Cacciatore Superiore: Elusione",
+      "system.description.value": "<p>Quando sei soggetto a un effetto, come il soffio infuocato di un drago rosso o un incantesimo fulmine, che ti consente di effettuare un tiro salvezza su Destrezza per subire soltanto metà dei danni, non subisci invece alcun danno se superi il tiro salvezza e soltanto metà dei danni se lo fallisci.</p>",
+      "system.requirements": "Cacciatore 15"
+    },
+    "C5fzaOBc6HxyOWRn": {
+      "name": "Andatura sul Territorio (Ranger)",
+      "system.description.value": "<p>A partire dall'8° livello, muoversi attraverso il terreno difficile non magico non ti costa movimento aggiuntivo. Puoi inoltre passare attraverso i vegetali non magici senza esserne rallentato e senza subire danni se presentano spine, aculei o pericoli simili.</p><p>Inoltre, disponi di vantaggio ai tiri salvezza contro i vegetali creati o manipolati magicamente per ostacolare il movimento, come quelli creati dall'incantesimo @UUID[Compendium.dnd5e.spells.Item.gMrWeG8fMDPRFiVe]{Intralciare}.</p>",
+      "system.requirements": "Ranger 8°"
+    },
+    "v7MxFuTAgOsmxZCD": {
+      "name": "Aumento dei Punteggi di Caratteristica (Ladro)",
+      "system.description.value": "<p>Quando raggiungi il 4° livello, e poi di nuovo l'8°, il 10°, il 12°, il 16° e il 19° livello, puoi aumentare di 2 un punteggio di caratteristica a tua scelta, oppure puoi aumentare di 1 due punteggi di caratteristica a tua scelta. Come di consueto, non puoi aumentare un punteggio di caratteristica oltre 20 usando questo privilegio.</p>",
+      "system.requirements": "Ladro 4"
+    },
+    "Mm64SKAHJWYecgXS": {
+      "name": "Schivata Prodigiosa",
+      "system.description.value": "<p>A partire dal 5° livello, quando un attaccante che puoi vedere ti colpisce con un attacco, puoi usare la tua reazione per dimezzare i danni che l'attacco ti infligge.</p>",
+      "system.requirements": "Ladro 5"
+    },
+    "XogoBnFWmCAHXppo": {
+      "name": "Attacco Extra",
+      "system.description.value": "<p>Puoi attaccare due volte, anziché una, ogni volta che effettui l'azione Attaccare durante il tuo turno.</p>"
+    },
+    "eGxoNmSMWKNzChCO": {
+      "name": "Colpo Senz'Armi",
+      "system.description.value": "<p>Un pugno, un calcio, una testata o un altro colpo energico simile (nessuno dei quali conta come arma). Puoi usare Destrezza anziché Forza per i tiri per colpire e per i danni dei tuoi colpi senz'armi. Puoi tirare il tuo dado di Arti Marziali al posto del normale dado di danno.</p>\n<p><em>Vedi: @UUID[Compendium.dnd5e.classfeatures.Item.l50hjTxO2r0iecKw]{Arti Marziali (Monaco)}</em></p>"
+    },
+    "OdrvL3afwLOPeuYZ": {
+      "system.activities.dnd5eactivity001.name": "Cura Malattia e Veleno"
+    },
+    "7O85kj6uDEG5NzUE": {
+      "system.activities.dnd5eactivity000.description.chatFlavor": "Il bonus a un tiro per i danni:"
+    },
+    "e0uTcFPpgxjIyUW9": {
+      "system.activities.dnd5eactivity000.description.chatFlavor": "Il mago può recuperare [[ceil(@classes.wizard.levels/2)]] livelli complessivi di slot incantesimo (di 5° livello o inferiore)."
+    },
+    "k5M8gsl7MMcdjOjs": {
+      "name": "Voce del Signore delle Catene",
+      "system.description.value": "<p>Puoi comunicare telepaticamente con il tuo famiglio e percepire attraverso i suoi sensi finché vi trovate sullo stesso piano di esistenza. Inoltre, mentre percepisci attraverso i sensi del famiglio, puoi anche parlare attraverso di lui con la tua voce, anche se normalmente il famiglio non è in grado di parlare.</p>"
+    },
+    "3jwFt3hSqDswBlOH": {
+      "effects[4dvYtqvbQGDsVi51].name": "Ki: Corpo Vuoto"
+    },
+    "8YwPFv3UAPjWVDNf": {
+      "effects[F0Bh4n8Tu1ZZnwSr].name": "Stile di Combattimento: Tiro"
+    },
+    "zSlV0O2rQMdoq6pB": {
+      "effects[U3so0zDcVt4sIBRz].name": "Stile di Combattimento: Difesa"
+    },
+    "hCop9uJrWhF1QPb4": {
+      "effects[B5KM6oYsKC7vRMgG].name": "Stile di Combattimento: Duellare"
     }
   },
   "races": {

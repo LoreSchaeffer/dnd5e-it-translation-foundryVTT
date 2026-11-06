@@ -12,6 +12,8 @@ export function babelePathForField(fieldPath) {
   if (fieldPath === "system.materials.value") return ["materials"];
   const advancement = fieldPath.match(/^system\.advancement(?:\[([^\]]+)\]|\.([^.]+))\.(.+)$/);
   if (advancement) return ["advancement", advancement[1] ?? advancement[2], ...advancement[3].split(".")];
+  const activityProfile = fieldPath.match(/^system\.activities\.([^.]+)\.profiles\[([^\]]+)\]\.(.+)$/);
+  if (activityProfile) return ["activities", activityProfile[1], "profiles", activityProfile[2], ...activityProfile[3].split(".")];
   const activity = fieldPath.match(/^system\.activities\.([^.]+)\.(.+)$/);
   if (activity) return ["activities", activity[1], ...activity[2].split(".")];
   const effect = fieldPath.match(/^effects\[([^\]]+)\]\.(.+)$/);
@@ -27,4 +29,11 @@ export function applyFieldOverrides(entry, overrides) {
     setPath(output, path, value);
   }
   return output;
+}
+
+export function entryKeyForRecord(entries, record, duplicateNames = new Set()) {
+  const named = entries[record.name];
+  if (duplicateNames.has(record.name) && named?._id !== record.id) return record.id;
+  if (named && (!named._id || named._id === record.id)) return record.name;
+  return record.id;
 }

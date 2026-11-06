@@ -5,6 +5,10 @@ function packName(filePath) {
   return path.basename(filePath).replace(/^dnd5e\./, "").replace(/\.json$/i, "");
 }
 
+export function lookupKeyForEntry(lookupKey, translation) {
+  return translation?._id ?? lookupKey;
+}
+
 export async function loadBabelePack(filePath) {
   const resolvedPath = path.resolve(filePath);
   const pack = packName(resolvedPath);
@@ -25,11 +29,12 @@ export async function loadBabelePack(filePath) {
   }
 
   for (const [lookupKey, translation] of Object.entries(data.entries ?? {})) {
+    const stableLookupKey = lookupKeyForEntry(lookupKey, translation);
     records.push({
       kind: "entry",
       pack,
-      id: null,
-      lookupKey,
+      id: translation?._id ?? null,
+      lookupKey: stableLookupKey,
       name: lookupKey,
       sourcePath: path.basename(resolvedPath),
       documentType: "BabeleEntry",

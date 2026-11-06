@@ -3,747 +3,136 @@
   "mode": "apply",
   "packs": [
     {
-      "pack": "races",
-      "safe": [],
-      "needsTranslation": [
-        {
-          "pack": "races",
-          "id": "NnSZlrsHCFeH3cCq",
-          "name": "Black Breath Weapon",
-          "sourcePath": "races/dragonborn/dragonborn-features/black-breath-weapon.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements",
-            "system.activities.3wS5okipznjpPaz7.name"
-          ]
-        },
-        {
-          "pack": "races",
-          "id": "KVgvW5yhKcmQUanz",
-          "name": "Blue Breath Weapon",
-          "sourcePath": "races/dragonborn/dragonborn-features/blue-breath-weapon.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements",
-            "system.activities.KZuPd4j1zCchLdpG.name"
-          ]
-        },
-        {
-          "pack": "races",
-          "id": "JrUcwLR2aQC09iUM",
-          "name": "Brass Breath Weapon",
-          "sourcePath": "races/dragonborn/dragonborn-features/brass-breath-weapon.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements",
-            "system.activities.diXwO2o5iKi43BuQ.name"
-          ]
-        },
-        {
-          "pack": "races",
-          "id": "pJzMSk9qYywYy65w",
-          "name": "Bronze Breath Weapon",
-          "sourcePath": "races/dragonborn/dragonborn-features/bronze-breath-weapon.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements",
-            "system.activities.8pjVqSAPbp1tIUOC.name"
-          ]
-        },
-        {
-          "pack": "races",
-          "id": "bFpLM0N3uTeHLdzu",
-          "name": "Copper Breath Weapon",
-          "sourcePath": "races/dragonborn/dragonborn-features/copper-breath-weapon.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements",
-            "system.activities.0jWiwjnybl6uMXhX.name"
-          ]
-        },
-        {
-          "pack": "races",
-          "id": "YPQQBZAuRiSwuBfh",
-          "name": "Gold Breath Weapon",
-          "sourcePath": "races/dragonborn/dragonborn-features/gold-breath-weapon.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements",
-            "system.activities.auRpWnbzenXjFwAV.name"
-          ]
-        },
-        {
-          "pack": "races",
-          "id": "lXIxndsBaQglHBtO",
-          "name": "Green Breath Weapon",
-          "sourcePath": "races/dragonborn/dragonborn-features/green-breath-weapon.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements",
-            "system.activities.EIereai1ZidTPdTz.name"
-          ]
-        },
-        {
-          "pack": "races",
-          "id": "kB61JPKQrDBbSNU7",
-          "name": "Red Breath Weapon",
-          "sourcePath": "races/dragonborn/dragonborn-features/red-breath-weapon.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements",
-            "system.activities.tLsJBLGn86jkFLTI.name"
-          ]
-        },
-        {
-          "pack": "races",
-          "id": "pAYTdRGftNr8AitK",
-          "name": "Silver Breath Weapon",
-          "sourcePath": "races/dragonborn/dragonborn-features/silver-breath-weapon.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements",
-            "system.activities.5er9HWdiUUdQFych.name"
-          ]
-        },
-        {
-          "pack": "races",
-          "id": "KL7wx9Q8XNJQir0k",
-          "name": "White Breath Weapon",
-          "sourcePath": "races/dragonborn/dragonborn-features/white-breath-weapon.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements",
-            "system.activities.UfqpCyzg92yGFfcu.name"
-          ]
-        },
-        {
-          "pack": "races",
-          "id": "ufysTkqet2Ctmtyi",
-          "name": "Dwarven Resilience",
-          "sourcePath": "races/dwarf/dwarf-features/dwarven-resilience.yml",
-          "reason": "missing-visible-fields",
-          "lookupKey": "Dwarven Resilience",
-          "matchedLookupKey": "Dwarven Resilience",
-          "fieldPaths": [
-            "system.requirements"
-          ]
-        },
-        {
-          "pack": "races",
-          "id": "G7hkETvAYFLSLIVW",
-          "name": "Dwarven Toughness",
-          "sourcePath": "races/dwarf/dwarf-features/dwarven-toughness.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements",
-            "effects[uNu8nD32necK43bp].name",
-            "effects[uNu8nD32necK43bp].description"
-          ]
-        },
-        {
-          "pack": "races",
-          "id": "mQPZDRbUhgYTbXKa",
-          "name": "Stonecunning",
-          "sourcePath": "races/dwarf/dwarf-features/stonecunning.yml",
-          "reason": "missing-visible-fields",
-          "lookupKey": "Stonecunning",
-          "matchedLookupKey": "Stonecunning",
-          "fieldPaths": [
-            "system.requirements",
-            "system.activities.nwTutalWcjDp3gUk.name"
-          ]
-        },
-        {
-          "pack": "races",
-          "id": "cnTbpPPeGW7vGjOV",
-          "name": "Fey Ancestry",
-          "sourcePath": "races/elf/elf-features/fey-ancestry.yml",
-          "reason": "missing-visible-fields",
-          "lookupKey": "Fey Ancestry",
-          "matchedLookupKey": "Fey Ancestry",
-          "fieldPaths": [
-            "system.requirements"
-          ]
-        },
-        {
-          "pack": "races",
-          "id": "4v2PiBrAbqDizdSJ",
-          "name": "Trance",
-          "sourcePath": "races/elf/elf-features/trance.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
-        },
-        {
-          "pack": "races",
-          "id": "OQA1sHxKnSJq01dL",
-          "name": "Artificer's Lore",
-          "sourcePath": "races/gnome/gnome-features/artificers-lore.yml",
-          "reason": "missing-visible-fields",
-          "lookupKey": "Artificer's Lore",
-          "matchedLookupKey": "Artificer's Lore",
-          "fieldPaths": [
-            "system.requirements",
-            "system.activities.o81tGftFd5PQZM7I.name"
-          ]
-        },
-        {
-          "pack": "races",
-          "id": "EHhr9umJ5kxJFCQH",
-          "name": "Gnome Cunning",
-          "sourcePath": "races/gnome/gnome-features/gnome-cunning.yml",
-          "reason": "missing-visible-fields",
-          "lookupKey": "Gnome Cunning",
-          "matchedLookupKey": "Gnome Cunning",
-          "fieldPaths": [
-            "system.requirements"
-          ]
-        },
-        {
-          "pack": "races",
-          "id": "7Yoo9hG0hfPSmBoC",
-          "name": "Brave",
-          "sourcePath": "races/halfling/halfling-features/brave.yml",
-          "reason": "missing-visible-fields",
-          "lookupKey": "Brave",
-          "matchedLookupKey": "Brave",
-          "fieldPaths": [
-            "system.requirements"
-          ]
-        },
-        {
-          "pack": "races",
-          "id": "PqxZgcJzp1VVgP8t",
-          "name": "Halfling Nimbleness",
-          "sourcePath": "races/halfling/halfling-features/halfling-nimbleness.yml",
-          "reason": "missing-visible-fields",
-          "lookupKey": "Halfling Nimbleness",
-          "matchedLookupKey": "Halfling Nimbleness",
-          "fieldPaths": [
-            "system.requirements",
-            "effects[8oJGOvksocvoVzVE].name",
-            "effects[8oJGOvksocvoVzVE].description"
-          ]
-        },
-        {
-          "pack": "races",
-          "id": "GWPjKFeIthBBeCFJ",
-          "name": "Naturally Stealthy",
-          "sourcePath": "races/halfling/halfling-features/naturally-stealthy.yml",
-          "reason": "missing-visible-fields",
-          "lookupKey": "Naturally Stealthy",
-          "matchedLookupKey": "Naturally Stealthy",
-          "fieldPaths": [
-            "system.requirements",
-            "system.activities.moMqvNCYkZDv6RMP.name"
-          ]
-        },
-        {
-          "pack": "races",
-          "id": "ZgYBjYYfiUstQD6f",
-          "name": "Lightfoot Halfling",
-          "sourcePath": "races/halfling/lightfoot-halfling.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.advancement[hv2bcANK5jEJZaAb].hint"
-          ]
-        },
-        {
-          "pack": "races",
-          "id": "97c8i9Z28thvZuA8",
-          "name": "Relentless Endurance",
-          "sourcePath": "races/orc/orc-features/relentless-endurance.yml",
-          "reason": "missing-visible-fields",
-          "lookupKey": "Relentless Endurance",
-          "matchedLookupKey": "Relentless Endurance",
-          "fieldPaths": [
-            "system.requirements"
-          ]
-        },
-        {
-          "pack": "races",
-          "id": "q71Pe1F8RRtEJt8Q",
-          "name": "Hellish Resistance",
-          "sourcePath": "races/tiefling/tiefling-features/hellish-resistance.yml",
-          "reason": "missing-visible-fields",
-          "lookupKey": "Hellish Resistance",
-          "matchedLookupKey": "Hellish Resistance",
-          "fieldPaths": [
-            "system.requirements"
-          ]
-        }
-      ],
-      "manualReview": [
-        {
-          "pack": "races",
-          "id": "K4DNDcR6vngbp0pf",
-          "name": "Dragonborn",
-          "sourcePath": "races/dragonborn/dragonborn.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Dragonborn",
-          "matchedLookupKey": "Dragonborn",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "races",
-              "id": "K4DNDcR6vngbp0pf",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "races",
-              "id": "K4DNDcR6vngbp0pf",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "races",
-          "id": "UQiRQUTBcsz8gZU1",
-          "name": "Hill Dwarf",
-          "sourcePath": "races/dwarf/hill-dwarf.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Hill Dwarf",
-          "matchedLookupKey": "Hill Dwarf",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "races",
-              "id": "UQiRQUTBcsz8gZU1",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "races",
-              "id": "UQiRQUTBcsz8gZU1",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "races",
-          "id": "Hye5IZwPOSwV0qRR",
-          "name": "Half-Elf",
-          "sourcePath": "races/elf/half-elf.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Half-Elf",
-          "matchedLookupKey": "Half-Elf",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "races",
-              "id": "Hye5IZwPOSwV0qRR",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "races",
-              "id": "Hye5IZwPOSwV0qRR",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "races",
-          "id": "A69KxdH1renVPrQV",
-          "name": "High Elf",
-          "sourcePath": "races/elf/high-elf.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "High Elf",
-          "matchedLookupKey": "High Elf",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "races",
-              "id": "A69KxdH1renVPrQV",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "races",
-              "id": "A69KxdH1renVPrQV",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "races",
-          "id": "koRPOLtj8XAFMwnW",
-          "name": "Tinker",
-          "sourcePath": "races/gnome/gnome-features/tinker.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Tinker",
-          "matchedLookupKey": "Tinker",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "races",
-              "id": "koRPOLtj8XAFMwnW",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "races",
-              "id": "koRPOLtj8XAFMwnW",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "races",
-          "id": "TZtarkKs6cgGD7z2",
-          "name": "Rock Gnome",
-          "sourcePath": "races/gnome/rock-gnome.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Rock Gnome",
-          "matchedLookupKey": "Rock Gnome",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "races",
-              "id": "TZtarkKs6cgGD7z2",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "races",
-              "id": "TZtarkKs6cgGD7z2",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "races",
-          "id": "LOMdcNAGWh5xpfm4",
-          "name": "Lucky",
-          "sourcePath": "races/halfling/halfling-features/lucky.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Lucky",
-          "matchedLookupKey": "Lucky",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "races",
-              "id": "LOMdcNAGWh5xpfm4",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "races",
-              "id": "LOMdcNAGWh5xpfm4",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "races",
-          "id": "ydP3QzCmur55mtY2",
-          "name": "Human",
-          "sourcePath": "races/human/human.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Human",
-          "matchedLookupKey": "Human",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "races",
-              "id": "ydP3QzCmur55mtY2",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "races",
-              "id": "ydP3QzCmur55mtY2",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "races",
-          "id": "n5L000DkNBU6h2oJ",
-          "name": "Half-Orc",
-          "sourcePath": "races/orc/half-orc.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Half-Orc",
-          "matchedLookupKey": "Half-Orc",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "races",
-              "id": "n5L000DkNBU6h2oJ",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "races",
-              "id": "n5L000DkNBU6h2oJ",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "races",
-          "id": "0kUsT4sMUOr5FcoX",
-          "name": "Savage Attacks",
-          "sourcePath": "races/orc/orc-features/savage-attacks.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Savage Attacks",
-          "matchedLookupKey": "Savage Attacks",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "races",
-              "id": "0kUsT4sMUOr5FcoX",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "races",
-              "id": "0kUsT4sMUOr5FcoX",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "races",
-          "id": "wJc88B8OP1y1xzMw",
-          "name": "Infernal Legacy",
-          "sourcePath": "races/tiefling/tiefling-features/infernal-legacy.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Infernal Legacy",
-          "matchedLookupKey": "Infernal Legacy",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "races",
-              "id": "wJc88B8OP1y1xzMw",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "races",
-              "id": "wJc88B8OP1y1xzMw",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "races",
-              "id": "wJc88B8OP1y1xzMw",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "races",
-          "id": "aHTokZ151W0ASSmo",
-          "name": "Tiefling",
-          "sourcePath": "races/tiefling/tiefling.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Tiefling",
-          "matchedLookupKey": "Tiefling",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "races",
-              "id": "aHTokZ151W0ASSmo",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "races",
-              "id": "aHTokZ151W0ASSmo",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "races",
-              "id": "aHTokZ151W0ASSmo",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "pack": "classfeatures",
-      "safe": [],
-      "needsTranslation": [
+      "safe": [
+        {
+          "pack": "classfeatures",
+          "id": "L94gyvNpUhUe0rwh",
+          "name": "Brutal Critical",
+          "sourcePath": "classfeatures/barbarian/barbarian-features/brutal-critical.yml",
+          "lookupKey": "Brutal Critical",
+          "matchedLookupKey": "Brutal Critical"
+        },
         {
           "pack": "classfeatures",
           "id": "vt31lWAULygEl7yk",
           "name": "Danger Sense",
           "sourcePath": "classfeatures/barbarian/barbarian-features/danger-sense.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Danger Sense",
-          "matchedLookupKey": "Danger Sense",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Danger Sense"
         },
         {
           "pack": "classfeatures",
           "id": "Kl6zifJ5OmdHlOi2",
           "name": "Fast Movement",
           "sourcePath": "classfeatures/barbarian/barbarian-features/fast-movement.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Fast Movement",
-          "matchedLookupKey": "Fast Movement",
-          "fieldPaths": [
-            "system.requirements",
-            "effects[TIBmPKKnAAiWYuN4].name"
-          ]
+          "matchedLookupKey": "Fast Movement"
         },
         {
           "pack": "classfeatures",
           "id": "NlXslw4yAqmKZWtN",
           "name": "Feral Instinct",
           "sourcePath": "classfeatures/barbarian/barbarian-features/feral-instinct.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Feral Instinct",
-          "matchedLookupKey": "Feral Instinct",
-          "fieldPaths": [
-            "system.requirements",
-            "effects[q7TkJQX7PeVOzTQH].name"
-          ]
+          "matchedLookupKey": "Feral Instinct"
         },
         {
           "pack": "classfeatures",
           "id": "Q1exex5ALteprrPo",
           "name": "Indomitable Might",
           "sourcePath": "classfeatures/barbarian/barbarian-features/indomitable-might.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Indomitable Might",
-          "matchedLookupKey": "Indomitable Might",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Indomitable Might"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "l8tUhZ5Pecm9wz7I",
+          "name": "Persistent Rage",
+          "sourcePath": "classfeatures/barbarian/barbarian-features/persistent-rage.yml",
+          "lookupKey": "Persistent Rage",
+          "matchedLookupKey": "Persistent Rage"
         },
         {
           "pack": "classfeatures",
           "id": "jVU4AgqfrFaqgXns",
           "name": "Primal Champion",
           "sourcePath": "classfeatures/barbarian/barbarian-features/primal-champion.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Primal Champion",
-          "matchedLookupKey": "Primal Champion",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Primal Champion"
         },
         {
           "pack": "classfeatures",
           "id": "TH1QAf6YNGSeBVjT",
           "name": "Primal Path",
           "sourcePath": "classfeatures/barbarian/barbarian-features/primal-path.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Primal Path",
-          "matchedLookupKey": "Primal Path",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Primal Path"
         },
         {
           "pack": "classfeatures",
           "id": "SCVjqRdlZ9cvHVSR",
           "name": "Reckless Attack",
           "sourcePath": "classfeatures/barbarian/barbarian-features/reckless-attack.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Reckless Attack",
-          "matchedLookupKey": "Reckless Attack",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Reckless Attack"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "FqfmbPgxiyrWzhYk",
+          "name": "Relentless Rage",
+          "sourcePath": "classfeatures/barbarian/barbarian-features/relentless-rage.yml",
+          "lookupKey": "Relentless Rage",
+          "matchedLookupKey": "Relentless Rage"
         },
         {
           "pack": "classfeatures",
           "id": "SZbsNbaxFFGwBpNK",
           "name": "Unarmored Defense (Barbarian)",
           "sourcePath": "classfeatures/barbarian/barbarian-features/unarmored-defense-barbarian.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Unarmored Defense (Barbarian)",
-          "matchedLookupKey": "Unarmored Defense (Barbarian)",
-          "fieldPaths": [
-            "system.requirements",
-            "effects[hEgUnQNVxtBo2zkK].name"
+          "matchedLookupKey": "Unarmored Defense (Barbarian)"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "CkbbAckeCtyHXEnL",
+          "name": "Frenzy",
+          "sourcePath": "classfeatures/barbarian/path-of-the-berserker-features/frenzy.yml",
+          "lookupKey": "Frenzy",
+          "matchedLookupKey": "Frenzy",
+          "repairs": [
+            {
+              "fieldPath": "system.description.value",
+              "translationPath": [
+                "description"
+              ],
+              "value": "<p>A partire da quando scegli questo percorso al 3° livello, quando vai in @UUID[Compendium.dnd5e.classfeatures.Item.VoR0SUrNX5EJVPIO]{ira} puoi entrare in frenesia. Se lo fai, per la durata della tua ira puoi effettuare un singolo attacco con arma da mischia come azione bonus durante ciascun tuo turno oltre quello iniziale. Quando l’ira termina, subisci un livello di sfinimento.</p>"
+            }
+          ]
+        },
+        {
+          "pack": "classfeatures",
+          "id": "M6VSMzVtKPhh8B0i",
+          "name": "Intimidating Presence",
+          "sourcePath": "classfeatures/barbarian/path-of-the-berserker-features/intimidating-presence.yml",
+          "lookupKey": "Intimidating Presence",
+          "matchedLookupKey": "Intimidating Presence"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "0Jgf8fYY2ExwgQpN",
+          "name": "Mindless Rage",
+          "sourcePath": "classfeatures/barbarian/path-of-the-berserker-features/mindless-rage.yml",
+          "lookupKey": "Mindless Rage",
+          "matchedLookupKey": "Mindless Rage",
+          "repairs": [
+            {
+              "fieldPath": "system.description.value",
+              "translationPath": [
+                "description"
+              ],
+              "value": "<p>A partire dal 6° livello, non puoi essere affascinato o spaventato mentre sei in @UUID[Compendium.dnd5e.classfeatures.Item.VoR0SUrNX5EJVPIO]{ira}. Se sei già affascinato o spaventato mentre entri in ira, l’effetto è sospeso per la durata dell’ira.</p>"
+            }
           ]
         },
         {
@@ -751,1422 +140,1276 @@
           "id": "xzD9zlRP6dUxCtCl",
           "name": "Retaliation",
           "sourcePath": "classfeatures/barbarian/path-of-the-berserker-features/retaliation.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Retaliation",
-          "matchedLookupKey": "Retaliation",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Retaliation"
         },
         {
           "pack": "classfeatures",
           "id": "ILhzFHiRrqgQ9dFJ",
           "name": "Bard College",
           "sourcePath": "classfeatures/bard/bard-features/bard-college.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Bard College",
-          "matchedLookupKey": "Bard College",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Bard College"
         },
         {
           "pack": "classfeatures",
           "id": "SEJmsjkEhdAZ90ki",
           "name": "Countercharm",
           "sourcePath": "classfeatures/bard/bard-features/countercharm.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Countercharm",
-          "matchedLookupKey": "Countercharm",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Countercharm"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "aQLg7BWdRnm4Hr9S",
+          "name": "Expertise",
+          "sourcePath": "classfeatures/bard/bard-features/expertise.yml",
+          "lookupKey": "Expertise",
+          "matchedLookupKey": "aQLg7BWdRnm4Hr9S"
         },
         {
           "pack": "classfeatures",
           "id": "ezWijmCnlnQ9ZRX2",
           "name": "Jack of All Trades",
           "sourcePath": "classfeatures/bard/bard-features/jack-of-all-trades.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Jack of All Trades",
-          "matchedLookupKey": "Jack of All Trades",
-          "fieldPaths": [
-            "system.requirements",
-            "effects[K4xQzXl1Z4zMnyOa].name"
-          ]
+          "matchedLookupKey": "Jack of All Trades"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "aonJ2YjkqkYB9WYB",
+          "name": "Magical Secrets",
+          "sourcePath": "classfeatures/bard/bard-features/magical-secrets.yml",
+          "lookupKey": "Magical Secrets",
+          "matchedLookupKey": "Magical Secrets"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "he8RpPXwSl2lVSIk",
+          "name": "Song of Rest",
+          "sourcePath": "classfeatures/bard/bard-features/song-of-rest.yml",
+          "lookupKey": "Song of Rest",
+          "matchedLookupKey": "Song of Rest"
         },
         {
           "pack": "classfeatures",
           "id": "u4NLajXETJhJU31v",
           "name": "Spellcasting",
           "sourcePath": "classfeatures/bard/bard-features/spellcasting.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "u4NLajXETJhJU31v",
+          "matchedLookupKey": "u4NLajXETJhJU31v"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "GBYN5rH4nh1ocRlY",
+          "name": "Superior Inspiration",
+          "sourcePath": "classfeatures/bard/bard-features/superior-inspiration.yml",
+          "lookupKey": "Superior Inspiration",
+          "matchedLookupKey": "Superior Inspiration"
         },
         {
           "pack": "classfeatures",
           "id": "myBu3zi5eYvQIcuy",
           "name": "Additional Magical Secrets",
           "sourcePath": "classfeatures/bard/college-of-lore-features/additional-magical-secrets.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Additional Magical Secrets",
-          "matchedLookupKey": "Additional Magical Secrets",
-          "fieldPaths": [
-            "system.requirements"
-          ],
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Al 6° livello, apprendi due incantesimi di tua scelta appartenenti a qualsiasi classe. Gli incantesimi devono essere di un livello di cui possiedi slot incantesimo, come mostrato sulla tabella Il Bardo, o trucchetti. Gli incantesimi scelti sono considerati incantesimi da bardo ma non sono conteggiati nel numero di incantesimi da bardo che conosci.</p>"
-            }
-          ]
+          "matchedLookupKey": "Additional Magical Secrets"
         },
         {
           "pack": "classfeatures",
           "id": "e9ytGikyLFgwZ5wi",
           "name": "Bonus Proficiencies",
           "sourcePath": "classfeatures/bard/college-of-lore-features/bonus-proficiencies.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Bonus Proficiencies",
+          "matchedLookupKey": "Bonus Proficiencies"
         },
         {
           "pack": "classfeatures",
-          "id": "YpiLQEKGalROn7iJ",
-          "name": "Channel Divinity",
-          "sourcePath": "classfeatures/cleric/cleric-features/channel-divinity.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "v4gKwLhAq9vuqza7",
-          "name": "Spellcasting",
-          "sourcePath": "classfeatures/cleric/cleric-features/spellcasting.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "68bYIOvx6rIqnlOW",
-          "name": "Bonus Proficiency",
-          "sourcePath": "classfeatures/cleric/life-domain-features/bonus-proficiency.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "hEymt45rICi4f9eL",
-          "name": "Channel Divinity: Preserve Life",
-          "sourcePath": "classfeatures/cleric/life-domain-features/channel-divinity-preserve-life.yml",
-          "reason": "missing-visible-fields",
-          "lookupKey": "Channel Divinity: Preserve Life",
-          "matchedLookupKey": "Channel Divinity: Preserve Life",
-          "fieldPaths": [
-            "system.requirements"
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "T6u5z8ZTX6UftXqE",
-          "name": "Divine Strike",
-          "sourcePath": "classfeatures/cleric/life-domain-features/divine-strike.yml",
-          "reason": "missing-visible-fields",
-          "lookupKey": "Divine Strike",
-          "matchedLookupKey": "Divine Strike",
-          "fieldPaths": [
-            "system.requirements"
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "4UOgxzr83vFuUash",
-          "name": "Supreme Healing",
-          "sourcePath": "classfeatures/cleric/life-domain-features/supreme-healing.yml",
-          "reason": "missing-visible-fields",
-          "lookupKey": "Supreme Healing",
-          "matchedLookupKey": "Supreme Healing",
-          "fieldPaths": [
-            "system.requirements"
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "lT8GsPOPgRzDC3QJ",
-          "name": "Bonus Cantrip",
-          "sourcePath": "classfeatures/druid/circle-of-the-land-features/bonus-cantrip.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "wKdRtFsvGfMKQHLY",
-          "name": "Natural Recovery",
-          "sourcePath": "classfeatures/druid/circle-of-the-land-features/natural-recovery.yml",
-          "reason": "missing-visible-fields",
-          "lookupKey": "Natural Recovery",
-          "matchedLookupKey": "Natural Recovery",
-          "fieldPaths": [
-            "system.requirements",
-            "system.activities.dnd5eactivity000.description.chatFlavor"
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "OTvrJSJSUgAwXrWX",
-          "name": "Nature's Ward",
-          "sourcePath": "classfeatures/druid/circle-of-the-land-features/natures-ward.yml",
-          "reason": "missing-visible-fields",
-          "lookupKey": "Nature's Ward",
-          "matchedLookupKey": "Nature's Ward",
-          "fieldPaths": [
-            "system.requirements",
-            "effects[Jxpz4MZmgTy7z7cm].name"
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "u6Du2P9s81SWuGbi",
-          "name": "Druid Circle",
-          "sourcePath": "classfeatures/druid/druid-features/druid-circle.yml",
-          "reason": "missing-visible-fields",
-          "lookupKey": "Druid Circle",
-          "matchedLookupKey": "Druid Circle",
-          "fieldPaths": [
-            "system.requirements"
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "LzJ5ayHt0OlSVGxi",
-          "name": "Druidic",
-          "sourcePath": "classfeatures/druid/druid-features/druidic.yml",
-          "reason": "missing-visible-fields",
-          "lookupKey": "Druidic",
-          "matchedLookupKey": "Druidic",
-          "fieldPaths": [
-            "system.requirements"
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "i6tPm3FNK13Ftc9v",
-          "name": "Spellcasting",
-          "sourcePath": "classfeatures/druid/druid-features/spellcasting.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "cVDEQo0ow1WJT7Wl",
-          "name": "Timeless Body",
-          "sourcePath": "classfeatures/druid/druid-features/timeless-body.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "YgLQV1O849wE5TgM",
-          "name": "Improved Critical",
-          "sourcePath": "classfeatures/fighter/champion-features/improved-critical.yml",
-          "reason": "missing-visible-fields",
-          "lookupKey": "Improved Critical",
-          "matchedLookupKey": "Improved Critical",
-          "fieldPaths": [
-            "system.requirements"
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "dHu1yzIjD38BvGGd",
-          "name": "Remarkable Athlete",
-          "sourcePath": "classfeatures/fighter/champion-features/remarkable-athlete.yml",
-          "reason": "missing-visible-fields",
-          "lookupKey": "Remarkable Athlete",
-          "matchedLookupKey": "Remarkable Athlete",
-          "fieldPaths": [
-            "system.requirements"
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "aVKH6TLn1AG9hPSA",
-          "name": "Superior Critical",
-          "sourcePath": "classfeatures/fighter/champion-features/superior-critical.yml",
-          "reason": "missing-visible-fields",
-          "lookupKey": "Superior Critical",
-          "matchedLookupKey": "Superior Critical",
-          "fieldPaths": [
-            "system.requirements"
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "xF1VTcJ3AdkbTsdQ",
-          "name": "Action Surge",
-          "sourcePath": "classfeatures/fighter/fighter-features/action-surge.yml",
-          "reason": "missing-visible-fields",
-          "lookupKey": "Action Surge",
-          "matchedLookupKey": "Action Surge",
-          "fieldPaths": [
-            "system.requirements"
-          ],
+          "id": "5zPmHPQUne7RDfaU",
+          "name": "Cutting Words",
+          "sourcePath": "classfeatures/bard/college-of-lore-features/cutting-words.yml",
+          "lookupKey": "Cutting Words",
+          "matchedLookupKey": "Cutting Words",
           "repairs": [
             {
               "fieldPath": "system.description.value",
               "translationPath": [
                 "description"
               ],
-              "value": "<p>A partire dal 2° livello, puoi spingerti oltre i tuoi normali limiti per brevi periodi di tempo. Durante il tuo turno, puoi eseguire un’azione aggiuntiva oltre alla tua normale azione e una possibile azione bonus.</p><p>Una volta impiegato questo privilegio, devi terminare un riposo breve o lungo prima di riutilizzarlo. A partire dal 17° livello, puoi utilizzarlo due volte prima di riposare, ma solo una volta durante lo stesso turno.</p>"
+              "value": "<p>Inoltre, al 3° livello, apprendi come usare la tua astuzia per distrarre, confondere o altrimenti diminuire la sicurezza e la competenza altrui.</p><p>Quando una creatura entro 18 metri da te e che puoi vedere effettua un tiro per colpire, una prova di caratteristica o un tiro di danno, puoi usare la tua reazione per spendere uno dei tuoi usi di @UUID[Compendium.dnd5e.classfeatures.Item.hpLNiGq7y67d2EHA]{Ispirazione Bardica}, tirando un dado di Ispirazione Bardica e sottraendo il numero ottenuto dal tiro della creatura.</p><p>Puoi scegliere di usare questo privilegio dopo che la creatura ha effettuato il tiro, ma prima che il GM determini se il tiro per colpire o la prova di caratteristica sia superata o fallita, oppure prima che la creatura infligga il suo danno. La creatura è immune a questa capacità se non può udirti o se è immune all’essere affascinata.</p>"
             }
           ]
+        },
+        {
+          "pack": "classfeatures",
+          "id": "pquwueEMweRhiWaq",
+          "name": "Peerless Skill",
+          "sourcePath": "classfeatures/bard/college-of-lore-features/peerless-skill.yml",
+          "lookupKey": "Peerless Skill",
+          "matchedLookupKey": "Peerless Skill",
+          "repairs": [
+            {
+              "fieldPath": "system.description.value",
+              "translationPath": [
+                "description"
+              ],
+              "value": "<p>Al 14° livello, quando effettui una prova di caratteristica, puoi spendere un uso di @UUID[Compendium.dnd5e.classfeatures.Item.hpLNiGq7y67d2EHA]{Ispirazione Bardica}.</p><p>Tira un dado di Ispirazione Bardica e somma il numero ottenuto alla tua prova di caratteristica.</p><p>Puoi scegliere di farlo dopo aver tirato il dado per la prova di caratteristica, ma prima che il GM determini se questa sia riuscita o fallita.&nbsp;</p>"
+            }
+          ]
+        },
+        {
+          "pack": "classfeatures",
+          "id": "r91UIgwFdHwkXdia",
+          "name": "Channel Divinity: Turn Undead",
+          "sourcePath": "classfeatures/cleric/cleric-features/channel-divinity-turn-undead.yml",
+          "lookupKey": "Channel Divinity: Turn Undead",
+          "matchedLookupKey": "Channel Divinity: Turn Undead"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "YpiLQEKGalROn7iJ",
+          "name": "Channel Divinity",
+          "sourcePath": "classfeatures/cleric/cleric-features/channel-divinity.yml",
+          "lookupKey": "YpiLQEKGalROn7iJ",
+          "matchedLookupKey": "YpiLQEKGalROn7iJ"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "eVXqHn0ojWrEuYGU",
+          "name": "Divine Intervention",
+          "sourcePath": "classfeatures/cleric/cleric-features/divine-intervention.yml",
+          "lookupKey": "Divine Intervention",
+          "matchedLookupKey": "Divine Intervention"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "v4gKwLhAq9vuqza7",
+          "name": "Spellcasting",
+          "sourcePath": "classfeatures/cleric/cleric-features/spellcasting.yml",
+          "lookupKey": "v4gKwLhAq9vuqza7",
+          "matchedLookupKey": "v4gKwLhAq9vuqza7"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "68bYIOvx6rIqnlOW",
+          "name": "Bonus Proficiency",
+          "sourcePath": "classfeatures/cleric/life-domain-features/bonus-proficiency.yml",
+          "lookupKey": "Bonus Proficiency",
+          "matchedLookupKey": "68bYIOvx6rIqnlOW"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "hEymt45rICi4f9eL",
+          "name": "Channel Divinity: Preserve Life",
+          "sourcePath": "classfeatures/cleric/life-domain-features/channel-divinity-preserve-life.yml",
+          "lookupKey": "Channel Divinity: Preserve Life",
+          "matchedLookupKey": "Channel Divinity: Preserve Life"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "jF8AFfEMICIJnAkR",
+          "name": "Disciple of Life",
+          "sourcePath": "classfeatures/cleric/life-domain-features/disciple-of-life.yml",
+          "lookupKey": "Disciple of Life",
+          "matchedLookupKey": "Disciple of Life"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "T6u5z8ZTX6UftXqE",
+          "name": "Divine Strike",
+          "sourcePath": "classfeatures/cleric/life-domain-features/divine-strike.yml",
+          "lookupKey": "Divine Strike",
+          "matchedLookupKey": "Divine Strike"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "4UOgxzr83vFuUash",
+          "name": "Supreme Healing",
+          "sourcePath": "classfeatures/cleric/life-domain-features/supreme-healing.yml",
+          "lookupKey": "Supreme Healing",
+          "matchedLookupKey": "Supreme Healing"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "lT8GsPOPgRzDC3QJ",
+          "name": "Bonus Cantrip",
+          "sourcePath": "classfeatures/druid/circle-of-the-land-features/bonus-cantrip.yml",
+          "lookupKey": "Bonus Cantrip",
+          "matchedLookupKey": "lT8GsPOPgRzDC3QJ"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "3FB25qKxmkmxcxuC",
+          "name": "Land's Stride",
+          "sourcePath": "classfeatures/druid/circle-of-the-land-features/lands-stride.yml",
+          "lookupKey": "Land's Stride",
+          "matchedLookupKey": "3FB25qKxmkmxcxuC"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "wKdRtFsvGfMKQHLY",
+          "name": "Natural Recovery",
+          "sourcePath": "classfeatures/druid/circle-of-the-land-features/natural-recovery.yml",
+          "lookupKey": "Natural Recovery",
+          "matchedLookupKey": "Natural Recovery"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "EuX1kJNIw1F68yus",
+          "name": "Nature's Sanctuary",
+          "sourcePath": "classfeatures/druid/circle-of-the-land-features/natures-sanctuary.yml",
+          "lookupKey": "Nature's Sanctuary",
+          "matchedLookupKey": "Nature's Sanctuary"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "OTvrJSJSUgAwXrWX",
+          "name": "Nature's Ward",
+          "sourcePath": "classfeatures/druid/circle-of-the-land-features/natures-ward.yml",
+          "lookupKey": "Nature's Ward",
+          "matchedLookupKey": "Nature's Ward"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "ip4bvmGoz3qkoqes",
+          "name": "Archdruid",
+          "sourcePath": "classfeatures/druid/druid-features/archdruid.yml",
+          "lookupKey": "Archdruid",
+          "matchedLookupKey": "Archdruid",
+          "repairs": [
+            {
+              "fieldPath": "system.description.value",
+              "translationPath": [
+                "description"
+              ],
+              "value": "<p>Al 20° livello, puoi usare la tua @UUID[Compendium.dnd5e.classfeatures.Item.swK0r5TOIxredxWS]{Forma Selvatica} un numero illimitato di volte.&nbsp;</p><p>Inoltre puoi ignorare le componenti verbali e somatiche dei tuoi incantesimi da druido, oltre a qualsiasi componente materiale priva di un costo e che non sia consumata dall’incantesimo.</p><p>Ottieni questo beneficio sia nella tua forma naturale che nella forma bestiale della Forma Selvatica.</p>"
+            }
+          ]
+        },
+        {
+          "pack": "classfeatures",
+          "id": "xvgPu1O57DgXCM86",
+          "name": "Beast Spells",
+          "sourcePath": "classfeatures/druid/druid-features/beast-spells.yml",
+          "lookupKey": "Beast Spells",
+          "matchedLookupKey": "Beast Spells"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "u6Du2P9s81SWuGbi",
+          "name": "Druid Circle",
+          "sourcePath": "classfeatures/druid/druid-features/druid-circle.yml",
+          "lookupKey": "Druid Circle",
+          "matchedLookupKey": "Druid Circle"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "LzJ5ayHt0OlSVGxi",
+          "name": "Druidic",
+          "sourcePath": "classfeatures/druid/druid-features/druidic.yml",
+          "lookupKey": "Druidic",
+          "matchedLookupKey": "Druidic"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "i6tPm3FNK13Ftc9v",
+          "name": "Spellcasting",
+          "sourcePath": "classfeatures/druid/druid-features/spellcasting.yml",
+          "lookupKey": "i6tPm3FNK13Ftc9v",
+          "matchedLookupKey": "i6tPm3FNK13Ftc9v"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "cVDEQo0ow1WJT7Wl",
+          "name": "Timeless Body",
+          "sourcePath": "classfeatures/druid/druid-features/timeless-body.yml",
+          "lookupKey": "Timeless Body",
+          "matchedLookupKey": "cVDEQo0ow1WJT7Wl"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "swK0r5TOIxredxWS",
+          "name": "Wild Shape",
+          "sourcePath": "classfeatures/druid/druid-features/wild-shape.yml",
+          "lookupKey": "Wild Shape",
+          "matchedLookupKey": "Wild Shape"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "YgLQV1O849wE5TgM",
+          "name": "Improved Critical",
+          "sourcePath": "classfeatures/fighter/champion-features/improved-critical.yml",
+          "lookupKey": "Improved Critical",
+          "matchedLookupKey": "Improved Critical"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "dHu1yzIjD38BvGGd",
+          "name": "Remarkable Athlete",
+          "sourcePath": "classfeatures/fighter/champion-features/remarkable-athlete.yml",
+          "lookupKey": "Remarkable Athlete",
+          "matchedLookupKey": "Remarkable Athlete"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "aVKH6TLn1AG9hPSA",
+          "name": "Superior Critical",
+          "sourcePath": "classfeatures/fighter/champion-features/superior-critical.yml",
+          "lookupKey": "Superior Critical",
+          "matchedLookupKey": "Superior Critical"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "ipG5yx1tRNmeJfSH",
+          "name": "Survivor",
+          "sourcePath": "classfeatures/fighter/champion-features/survivor.yml",
+          "lookupKey": "Survivor",
+          "matchedLookupKey": "Survivor"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "sPy2OLoN7JaAcMl4",
+          "name": "Ability Score Improvement",
+          "sourcePath": "classfeatures/fighter/fighter-features/ability-score-improvement.yml",
+          "lookupKey": "Ability Score Improvement",
+          "matchedLookupKey": "sPy2OLoN7JaAcMl4"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "xF1VTcJ3AdkbTsdQ",
+          "name": "Action Surge",
+          "sourcePath": "classfeatures/fighter/fighter-features/action-surge.yml",
+          "lookupKey": "Action Surge",
+          "matchedLookupKey": "Action Surge"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "q9g1MLXuLZyxjQMg",
+          "name": "Extra Attack",
+          "sourcePath": "classfeatures/fighter/fighter-features/extra-attack.yml",
+          "lookupKey": "Extra Attack",
+          "matchedLookupKey": "q9g1MLXuLZyxjQMg"
         },
         {
           "pack": "classfeatures",
           "id": "653ZHbNcmm7ZGXbw",
           "name": "Indomitable",
           "sourcePath": "classfeatures/fighter/fighter-features/indomitable.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Indomitable",
-          "matchedLookupKey": "Indomitable",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Indomitable"
         },
         {
           "pack": "classfeatures",
           "id": "ax8M0X0q1GGWM26j",
           "name": "Martial Archetype",
           "sourcePath": "classfeatures/fighter/fighter-features/martial-archetype.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Martial Archetype",
-          "matchedLookupKey": "Martial Archetype",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Martial Archetype"
         },
         {
           "pack": "classfeatures",
           "id": "nTjmWbyHweXuIqwc",
           "name": "Second Wind",
           "sourcePath": "classfeatures/fighter/fighter-features/second-wind.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Second Wind",
-          "matchedLookupKey": "Second Wind",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Second Wind"
         },
         {
           "pack": "classfeatures",
           "id": "7D2EkLdISwShEDlN",
           "name": "Diamond Soul",
           "sourcePath": "classfeatures/monk/monk-features/diamond-soul.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements",
-            "effects[v6jhyPoAYRIIXBG1].name"
-          ]
+          "lookupKey": "Diamond Soul",
+          "matchedLookupKey": "7D2EkLdISwShEDlN"
         },
         {
           "pack": "classfeatures",
           "id": "3jwFt3hSqDswBlOH",
           "name": "Empty Body",
           "sourcePath": "classfeatures/monk/monk-features/empty-body.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements",
-            "effects[4dvYtqvbQGDsVi51].name"
-          ]
+          "lookupKey": "Empty Body",
+          "matchedLookupKey": "3jwFt3hSqDswBlOH"
         },
         {
           "pack": "classfeatures",
           "id": "5MwNlVZK7m6VolOH",
           "name": "Flurry of Blows",
           "sourcePath": "classfeatures/monk/monk-features/flurry-of-blows.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Flurry of Blows",
+          "matchedLookupKey": "5MwNlVZK7m6VolOH"
         },
         {
           "pack": "classfeatures",
           "id": "7flZKruSSu6dHg6D",
           "name": "Ki-Empowered Strikes",
           "sourcePath": "classfeatures/monk/monk-features/ki-empowered-strikes.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Ki-Empowered Strikes",
-          "matchedLookupKey": "Ki-Empowered Strikes",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Ki-Empowered Strikes"
         },
         {
           "pack": "classfeatures",
           "id": "rtpQdX77dYWbDIOH",
           "name": "Monastic Tradition",
           "sourcePath": "classfeatures/monk/monk-features/monastic-tradition.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Monastic Tradition",
-          "matchedLookupKey": "Monastic Tradition",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Monastic Tradition"
         },
         {
           "pack": "classfeatures",
           "id": "TDglPcxIVEzvVSgK",
           "name": "Patient Defense",
           "sourcePath": "classfeatures/monk/monk-features/patient-defense.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Patient Defense",
+          "matchedLookupKey": "TDglPcxIVEzvVSgK"
         },
         {
           "pack": "classfeatures",
           "id": "mQNPg89YIs7g5tG4",
           "name": "Perfect Self",
           "sourcePath": "classfeatures/monk/monk-features/perfect-self.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Perfect Self",
-          "matchedLookupKey": "Perfect Self",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Perfect Self"
         },
         {
           "pack": "classfeatures",
           "id": "bqWA7t9pDELbNRkp",
           "name": "Purity of Body",
           "sourcePath": "classfeatures/monk/monk-features/purity-of-body.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Purity of Body",
-          "matchedLookupKey": "Purity of Body",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Purity of Body"
         },
         {
           "pack": "classfeatures",
           "id": "KQz9bqxVkXjDl8gK",
           "name": "Slow Fall",
           "sourcePath": "classfeatures/monk/monk-features/slow-fall.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Slow Fall",
-          "matchedLookupKey": "Slow Fall",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Slow Fall"
         },
         {
           "pack": "classfeatures",
           "id": "yrSFIGTaQOH2PFRI",
           "name": "Step of the Wind",
           "sourcePath": "classfeatures/monk/monk-features/step-of-the-wind.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Step of the Wind",
+          "matchedLookupKey": "yrSFIGTaQOH2PFRI"
         },
         {
           "pack": "classfeatures",
           "id": "ZmC31XKS4YNENnoc",
           "name": "Stillness of Mind",
           "sourcePath": "classfeatures/monk/monk-features/stillness-of-mind.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Stillness of Mind",
-          "matchedLookupKey": "Stillness of Mind",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Stillness of Mind"
         },
         {
           "pack": "classfeatures",
           "id": "pvRc6GAu1ok6zihC",
           "name": "Stunning Strike",
           "sourcePath": "classfeatures/monk/monk-features/stunning-strike.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements",
-            "effects[ydyOZkp3pCtwM0Xb].name"
-          ]
+          "lookupKey": "Stunning Strike",
+          "matchedLookupKey": "pvRc6GAu1ok6zihC"
         },
         {
           "pack": "classfeatures",
           "id": "gDH8PMrKvLHaNmEI",
           "name": "Timeless Body",
           "sourcePath": "classfeatures/monk/monk-features/timeless-body.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "gDH8PMrKvLHaNmEI",
+          "matchedLookupKey": "gDH8PMrKvLHaNmEI"
         },
         {
           "pack": "classfeatures",
           "id": "XjuGBeB8Y0C3A5D4",
           "name": "Tongue of the Sun and Moon",
           "sourcePath": "classfeatures/monk/monk-features/tongue-of-the-sun-and-moon.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Tongue of the Sun and Moon",
-          "matchedLookupKey": "Tongue of the Sun and Moon",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Tongue of the Sun and Moon"
         },
         {
           "pack": "classfeatures",
           "id": "eGxoNmSMWKNzChCO",
           "name": "Unarmed Strike",
           "sourcePath": "classfeatures/monk/monk-features/unarmed-strike.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value"
-          ]
+          "lookupKey": "Unarmed Strike",
+          "matchedLookupKey": "eGxoNmSMWKNzChCO"
         },
         {
           "pack": "classfeatures",
           "id": "UAvV7N7T4zJhxdfI",
           "name": "Unarmored Defense",
           "sourcePath": "classfeatures/monk/monk-features/unarmored-defense.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements",
-            "effects[R5ro4AuNjcdWD56O].name"
-          ]
+          "lookupKey": "Unarmored Defense",
+          "matchedLookupKey": "UAvV7N7T4zJhxdfI"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "zCeqyQ8uIPNdYJSW",
+          "name": "Unarmored Movement",
+          "sourcePath": "classfeatures/monk/monk-features/unarmored-movement.yml",
+          "lookupKey": "Unarmored Movement",
+          "matchedLookupKey": "Unarmored Movement"
         },
         {
           "pack": "classfeatures",
           "id": "h1gM8SH3BNRtFevE",
           "name": "Quivering Palm",
           "sourcePath": "classfeatures/monk/way-of-the-open-hand-features/quivering-palm.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Quivering Palm",
+          "matchedLookupKey": "h1gM8SH3BNRtFevE"
         },
         {
           "pack": "classfeatures",
           "id": "Q7mOdk4b1lgjcptF",
           "name": "Wholeness of Body",
           "sourcePath": "classfeatures/monk/way-of-the-open-hand-features/wholeness-of-body.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Wholeness of Body",
-          "matchedLookupKey": "Wholeness of Body",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Wholeness of Body"
         },
         {
           "pack": "classfeatures",
           "id": "M2DxVsgLeZgXOznT",
           "name": "Aura of Devotion",
           "sourcePath": "classfeatures/paladin/oath-of-devotion-features/aura-of-devotion.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Aura of Devotion",
-          "matchedLookupKey": "Aura of Devotion",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Aura of Devotion"
         },
         {
           "pack": "classfeatures",
           "id": "xNN0JMKqlG4hKVYu",
           "name": "Channel Divinity: Sacred Weapon",
           "sourcePath": "classfeatures/paladin/oath-of-devotion-features/channel-divinity-sacred-weapon.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Channel Divinity: Sacred Weapon",
-          "matchedLookupKey": "Channel Divinity: Sacred Weapon",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Channel Divinity: Sacred Weapon"
         },
         {
           "pack": "classfeatures",
           "id": "ZdwGlsJNtc7pGFCd",
           "name": "Channel Divinity: Turn the Unholy",
           "sourcePath": "classfeatures/paladin/oath-of-devotion-features/channel-divinity-turn-the-unholy.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Channel Divinity: Turn the Unholy",
-          "matchedLookupKey": "Channel Divinity: Turn the Unholy",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Channel Divinity: Turn the Unholy"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "ANE5gjojvhNEagzz",
+          "name": "Holy Nimbus",
+          "sourcePath": "classfeatures/paladin/oath-of-devotion-features/holy-nimbus.yml",
+          "lookupKey": "Holy Nimbus",
+          "matchedLookupKey": "Holy Nimbus"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "ZHJyYrqMYSLub4RY",
+          "name": "Purity of Spirit",
+          "sourcePath": "classfeatures/paladin/oath-of-devotion-features/purity-of-spirit.yml",
+          "lookupKey": "Purity of Spirit",
+          "matchedLookupKey": "Purity of Spirit"
         },
         {
           "pack": "classfeatures",
           "id": "nahSkBO6LH4HkpaT",
           "name": "Aura of Courage",
           "sourcePath": "classfeatures/paladin/paladin-features/aura-of-courage.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Aura of Courage",
-          "matchedLookupKey": "Aura of Courage",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Aura of Courage"
         },
         {
           "pack": "classfeatures",
           "id": "carGDhkIdoduTC0I",
           "name": "Aura of Protection",
           "sourcePath": "classfeatures/paladin/paladin-features/aura-of-protection.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Aura of Protection",
-          "matchedLookupKey": "Aura of Protection",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Aura of Protection"
         },
         {
           "pack": "classfeatures",
           "id": "8M7uOPhbTxoxxJSo",
           "name": "Channel Divinity",
           "sourcePath": "classfeatures/paladin/paladin-features/channel-divinity.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Channel Divinity",
+          "matchedLookupKey": "8M7uOPhbTxoxxJSo"
         },
         {
           "pack": "classfeatures",
           "id": "U7BIPVPsptBmwsnV",
           "name": "Cleansing Touch",
           "sourcePath": "classfeatures/paladin/paladin-features/cleansing-touch.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Cleansing Touch",
-          "matchedLookupKey": "Cleansing Touch",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Cleansing Touch"
         },
         {
           "pack": "classfeatures",
           "id": "dY9yrqkyEDuF0CG2",
           "name": "Divine Health",
           "sourcePath": "classfeatures/paladin/paladin-features/divine-health.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Divine Health",
-          "matchedLookupKey": "Divine Health",
-          "fieldPaths": [
-            "system.requirements"
+          "matchedLookupKey": "Divine Health"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "E8ozg8avUVOX9N7u",
+          "name": "Divine Sense",
+          "sourcePath": "classfeatures/paladin/paladin-features/divine-sense.yml",
+          "lookupKey": "Divine Sense",
+          "matchedLookupKey": "Divine Sense"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "ySMPQ6zNSlvkrl2f",
+          "name": "Divine Smite",
+          "sourcePath": "classfeatures/paladin/paladin-features/divine-smite.yml",
+          "lookupKey": "Divine Smite",
+          "matchedLookupKey": "Divine Smite"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "FAk41RPCTcvCk6KI",
+          "name": "Improved Divine Smite",
+          "sourcePath": "classfeatures/paladin/paladin-features/improved-divine-smite.yml",
+          "lookupKey": "Improved Divine Smite",
+          "matchedLookupKey": "Improved Divine Smite",
+          "repairs": [
+            {
+              "fieldPath": "system.description.value",
+              "translationPath": [
+                "description"
+              ],
+              "value": "<p>Per l’11° livello, sei così infuso di giusta potenza che tutti i tuoi colpi con arma da mischia convogliano potere divino.</p><p>Ogni qualvolta colpisci una creatura con un’arma da mischia, la creatura subisce 1d8 danni radianti aggiuntivi. Se usi la tua @UUID[Compendium.dnd5e.classfeatures.Item.ySMPQ6zNSlvkrl2f]{Punizione Divina} assieme a un attacco, somma questo danno al danno aggiuntivo della Punizione Divina.</p>"
+            }
           ]
         },
         {
           "pack": "classfeatures",
-          "id": "ihoQHsmVZlyDbPhX",
-          "name": "Spellcasting",
-          "sourcePath": "classfeatures/paladin/paladin-features/spellcasting.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "id": "OdrvL3afwLOPeuYZ",
+          "name": "Lay on Hands",
+          "sourcePath": "classfeatures/paladin/paladin-features/lay-on-hands.yml",
+          "lookupKey": "Lay on Hands",
+          "matchedLookupKey": "Lay on Hands"
         },
         {
           "pack": "classfeatures",
           "id": "5gx1O0sxK08awEO9",
           "name": "Colossus Slayer",
           "sourcePath": "classfeatures/ranger/hunter-features/colossus-slayer.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Colossus Slayer",
+          "matchedLookupKey": "5gx1O0sxK08awEO9"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "WgQrqjmeyMqDzVt3",
+          "name": "Defensive Tactics",
+          "sourcePath": "classfeatures/ranger/hunter-features/defensive-tactics.yml",
+          "lookupKey": "Defensive Tactics",
+          "matchedLookupKey": "Defensive Tactics"
         },
         {
           "pack": "classfeatures",
           "id": "pAQMJU5R9SGUmzHU",
           "name": "Escape the Horde",
           "sourcePath": "classfeatures/ranger/hunter-features/escape-the-horde.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Escape the Horde",
+          "matchedLookupKey": "pAQMJU5R9SGUmzHU"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "laVHAIOKIsUeezWd",
+          "name": "Evasion",
+          "sourcePath": "classfeatures/ranger/hunter-features/evasion.yml",
+          "lookupKey": "laVHAIOKIsUeezWd",
+          "matchedLookupKey": "laVHAIOKIsUeezWd"
         },
         {
           "pack": "classfeatures",
           "id": "StfmqK1twVfukpa0",
           "name": "Giant Killer",
           "sourcePath": "classfeatures/ranger/hunter-features/giant-killer.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Giant Killer",
+          "matchedLookupKey": "StfmqK1twVfukpa0"
         },
         {
           "pack": "classfeatures",
           "id": "C6sHdDGmCMo0cYHd",
           "name": "Horde Breaker",
           "sourcePath": "classfeatures/ranger/hunter-features/horde-breaker.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Horde Breaker",
+          "matchedLookupKey": "C6sHdDGmCMo0cYHd"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "wrxIW5sDfmGr3u5s",
+          "name": "Hunter's Prey",
+          "sourcePath": "classfeatures/ranger/hunter-features/hunters-prey.yml",
+          "lookupKey": "Hunter's Prey",
+          "matchedLookupKey": "Hunter's Prey"
         },
         {
           "pack": "classfeatures",
           "id": "slelvrm83v9UAKZU",
           "name": "Multiattack Defense",
           "sourcePath": "classfeatures/ranger/hunter-features/multiattack-defense.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Multiattack Defense",
+          "matchedLookupKey": "slelvrm83v9UAKZU"
         },
         {
           "pack": "classfeatures",
           "id": "Xf763cJoDHPPWSGG",
           "name": "Stand Against the Tide",
           "sourcePath": "classfeatures/ranger/hunter-features/stand-against-the-tide.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Stand Against the Tide",
+          "matchedLookupKey": "Xf763cJoDHPPWSGG"
         },
         {
           "pack": "classfeatures",
           "id": "zbHu0NvHuII8lR7W",
           "name": "Steel Will",
           "sourcePath": "classfeatures/ranger/hunter-features/steel-will.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Steel Will",
+          "matchedLookupKey": "zbHu0NvHuII8lR7W"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "a0Sq88dgnREcIMfl",
+          "name": "Superior Hunter's Defense",
+          "sourcePath": "classfeatures/ranger/hunter-features/superior-hunters-defense.yml",
+          "lookupKey": "Superior Hunter's Defense",
+          "matchedLookupKey": "Superior Hunter's Defense"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "7pyZjz5vlUWV01qQ",
+          "name": "Uncanny Dodge",
+          "sourcePath": "classfeatures/ranger/hunter-features/uncanny-dodge.yml",
+          "lookupKey": "Uncanny Dodge",
+          "matchedLookupKey": "7pyZjz5vlUWV01qQ"
         },
         {
           "pack": "classfeatures",
           "id": "l7W6JB9yWLLLtQKP",
           "name": "Volley",
           "sourcePath": "classfeatures/ranger/hunter-features/volley.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Volley",
+          "matchedLookupKey": "l7W6JB9yWLLLtQKP"
         },
         {
           "pack": "classfeatures",
           "id": "1DY8w3CXeD7PHDXF",
           "name": "Whirlwind Attack",
           "sourcePath": "classfeatures/ranger/hunter-features/whirlwind-attack.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Whirlwind Attack",
+          "matchedLookupKey": "1DY8w3CXeD7PHDXF"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "QBVmY56RMQuh6C8h",
+          "name": "Feral Senses",
+          "sourcePath": "classfeatures/ranger/ranger-features/feral-senses.yml",
+          "lookupKey": "Feral Senses",
+          "matchedLookupKey": "Feral Senses"
         },
         {
           "pack": "classfeatures",
           "id": "3CaP1vFHVR8LgHjx",
           "name": "Foe Slayer",
           "sourcePath": "classfeatures/ranger/ranger-features/foe-slayer.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Foe Slayer",
-          "matchedLookupKey": "Foe Slayer",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Foe Slayer"
         },
         {
           "pack": "classfeatures",
           "id": "r0unvWK0lPsDthDx",
           "name": "Hide in Plain Sight",
           "sourcePath": "classfeatures/ranger/ranger-features/hide-in-plain-sight.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Hide in Plain Sight",
-          "matchedLookupKey": "Hide in Plain Sight",
-          "fieldPaths": [
-            "system.requirements",
-            "effects[7if4vIkT84Sw2zFm].name"
-          ]
+          "matchedLookupKey": "Hide in Plain Sight"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "C5fzaOBc6HxyOWRn",
+          "name": "Land's Stride",
+          "sourcePath": "classfeatures/ranger/ranger-features/lands-stride.yml",
+          "lookupKey": "C5fzaOBc6HxyOWRn",
+          "matchedLookupKey": "C5fzaOBc6HxyOWRn"
         },
         {
           "pack": "classfeatures",
           "id": "kaHcUGiwi8AtfZIm",
           "name": "Primeval Awareness",
           "sourcePath": "classfeatures/ranger/ranger-features/primeval-awareness.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Primeval Awareness",
-          "matchedLookupKey": "Primeval Awareness",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Primeval Awareness"
         },
         {
           "pack": "classfeatures",
           "id": "1dJHU48yNqn3lcfx",
           "name": "Ranger Archetype",
           "sourcePath": "classfeatures/ranger/ranger-features/ranger-archetype.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Ranger Archetype",
-          "matchedLookupKey": "Ranger Archetype",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Ranger Archetype"
         },
         {
           "pack": "classfeatures",
           "id": "u6xV3Ki3TXRrD7zg",
           "name": "Spellcasting",
           "sourcePath": "classfeatures/ranger/ranger-features/spellcasting.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "u6xV3Ki3TXRrD7zg",
+          "matchedLookupKey": "u6xV3Ki3TXRrD7zg"
         },
         {
           "pack": "classfeatures",
           "id": "DhU2dWCNnX78TstR",
           "name": "Vanish",
           "sourcePath": "classfeatures/ranger/ranger-features/vanish.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Vanish",
-          "matchedLookupKey": "Vanish",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Vanish"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "v7MxFuTAgOsmxZCD",
+          "name": "Ability Score Improvement",
+          "sourcePath": "classfeatures/rogue/rogue-features/ability-score-improvement.yml",
+          "lookupKey": "v7MxFuTAgOsmxZCD",
+          "matchedLookupKey": "v7MxFuTAgOsmxZCD"
         },
         {
           "pack": "classfeatures",
           "id": "fjsBk7zxoAbLf8ZI",
           "name": "Blindsense",
           "sourcePath": "classfeatures/rogue/rogue-features/blindsense.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Blindsense",
-          "matchedLookupKey": "Blindsense",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Blindsense"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "01pcLg6PRu5zGrsb",
+          "name": "Cunning Action",
+          "sourcePath": "classfeatures/rogue/rogue-features/cunning-action.yml",
+          "lookupKey": "Cunning Action",
+          "matchedLookupKey": "Cunning Action"
         },
         {
           "pack": "classfeatures",
           "id": "L7nJSRosos8sHJH9",
           "name": "Elusive",
           "sourcePath": "classfeatures/rogue/rogue-features/elusive.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Elusive",
-          "matchedLookupKey": "Elusive",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Elusive"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "a4P4DNMmH8CqSNkC",
+          "name": "Evasion",
+          "sourcePath": "classfeatures/rogue/rogue-features/evasion.yml",
+          "lookupKey": "Evasion",
+          "matchedLookupKey": "a4P4DNMmH8CqSNkC"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "3sYPftQKnbbVnHrh",
+          "name": "Expertise",
+          "sourcePath": "classfeatures/rogue/rogue-features/expertise.yml",
+          "lookupKey": "3sYPftQKnbbVnHrh",
+          "matchedLookupKey": "3sYPftQKnbbVnHrh"
         },
         {
           "pack": "classfeatures",
           "id": "YN9xm6MCvse4Y60u",
           "name": "Reliable Talent",
           "sourcePath": "classfeatures/rogue/rogue-features/reliable-talent.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Reliable Talent",
-          "matchedLookupKey": "Reliable Talent",
-          "fieldPaths": [
-            "system.requirements",
-            "effects[vMMZHZQ0qT7MT4I4].name"
-          ]
+          "matchedLookupKey": "Reliable Talent"
         },
         {
           "pack": "classfeatures",
           "id": "80USV8ZFPIahpLd0",
           "name": "Roguish Archetype",
           "sourcePath": "classfeatures/rogue/rogue-features/roguish-archetype.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Roguish Archetype",
-          "matchedLookupKey": "Roguish Archetype",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Roguish Archetype"
         },
         {
           "pack": "classfeatures",
           "id": "V4pwFxlwHtNeB4w9",
           "name": "Slippery Mind",
           "sourcePath": "classfeatures/rogue/rogue-features/slippery-mind.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Slippery Mind",
-          "matchedLookupKey": "Slippery Mind",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Slippery Mind"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "DPN2Gfk8yi1Z5wp7",
+          "name": "Sneak Attack",
+          "sourcePath": "classfeatures/rogue/rogue-features/sneak-attack.yml",
+          "lookupKey": "Sneak Attack",
+          "matchedLookupKey": "Sneak Attack"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "rQhWDaMHMn7iU4f2",
+          "name": "Stroke of Luck",
+          "sourcePath": "classfeatures/rogue/rogue-features/stroke-of-luck.yml",
+          "lookupKey": "Stroke of Luck",
+          "matchedLookupKey": "Stroke of Luck"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "ohwfuwnvuoBWlSQr",
+          "name": "Thieves' Cant",
+          "sourcePath": "classfeatures/rogue/rogue-features/thieves-cant.yml",
+          "lookupKey": "Thieves' Cant",
+          "matchedLookupKey": "Thieves' Cant"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "Mm64SKAHJWYecgXS",
+          "name": "Uncanny Dodge",
+          "sourcePath": "classfeatures/rogue/rogue-features/uncanny-dodge.yml",
+          "lookupKey": "Mm64SKAHJWYecgXS",
+          "matchedLookupKey": "Mm64SKAHJWYecgXS"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "ga3dt2zrCn2MHK8R",
+          "name": "Fast Hands",
+          "sourcePath": "classfeatures/rogue/thief-features/fast-hands.yml",
+          "lookupKey": "Fast Hands",
+          "matchedLookupKey": "Fast Hands"
         },
         {
           "pack": "classfeatures",
           "id": "FGrbXs6Ku5qxFK5G",
           "name": "Second-Story Work",
           "sourcePath": "classfeatures/rogue/thief-features/second-story-work.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Second-Story Work",
-          "matchedLookupKey": "Second-Story Work",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Second-Story Work"
         },
         {
           "pack": "classfeatures",
           "id": "Ei1Oh4UAA2E30jcD",
           "name": "Supreme Sneak",
           "sourcePath": "classfeatures/rogue/thief-features/supreme-sneak.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Supreme Sneak",
-          "matchedLookupKey": "Supreme Sneak",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Supreme Sneak"
         },
         {
           "pack": "classfeatures",
           "id": "LhRm1EeUMvp2EWhV",
           "name": "Thief's Reflexes",
           "sourcePath": "classfeatures/rogue/thief-features/thiefs-reflexes.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Thief's Reflexes",
-          "matchedLookupKey": "Thief's Reflexes",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Thief's Reflexes"
         },
         {
           "pack": "classfeatures",
           "id": "NqWyHE7Rpw9lyKWu",
           "name": "Use Magic Device",
           "sourcePath": "classfeatures/rogue/thief-features/use-magic-device.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Use Magic Device",
-          "matchedLookupKey": "Use Magic Device",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Use Magic Device"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "XogoBnFWmCAHXppo",
+          "name": "Extra Attack",
+          "sourcePath": "classfeatures/shared-features/extra-attack.yml",
+          "lookupKey": "XogoBnFWmCAHXppo",
+          "matchedLookupKey": "XogoBnFWmCAHXppo"
         },
         {
           "pack": "classfeatures",
           "id": "8YwPFv3UAPjWVDNf",
           "name": "Archery",
           "sourcePath": "classfeatures/shared-features/fighting-styles/archery.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements",
-            "effects[F0Bh4n8Tu1ZZnwSr].name"
-          ]
+          "lookupKey": "Archery",
+          "matchedLookupKey": "8YwPFv3UAPjWVDNf"
         },
         {
           "pack": "classfeatures",
           "id": "zSlV0O2rQMdoq6pB",
           "name": "Defense",
           "sourcePath": "classfeatures/shared-features/fighting-styles/defense.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements",
-            "effects[U3so0zDcVt4sIBRz].name"
-          ]
+          "lookupKey": "Defense",
+          "matchedLookupKey": "zSlV0O2rQMdoq6pB"
         },
         {
           "pack": "classfeatures",
           "id": "hCop9uJrWhF1QPb4",
           "name": "Dueling",
           "sourcePath": "classfeatures/shared-features/fighting-styles/dueling.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements",
-            "effects[B5KM6oYsKC7vRMgG].name"
-          ]
+          "lookupKey": "Dueling",
+          "matchedLookupKey": "hCop9uJrWhF1QPb4"
         },
         {
           "pack": "classfeatures",
           "id": "3Nc6u9pyStByuJsm",
           "name": "Great Weapon Fighting",
           "sourcePath": "classfeatures/shared-features/fighting-styles/great-weapon-fighting.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Great Weapon Fighting",
+          "matchedLookupKey": "3Nc6u9pyStByuJsm"
         },
         {
           "pack": "classfeatures",
           "id": "06NVMYf58Z76O85O",
           "name": "Protection",
           "sourcePath": "classfeatures/shared-features/fighting-styles/protection.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Protection",
+          "matchedLookupKey": "06NVMYf58Z76O85O"
         },
         {
           "pack": "classfeatures",
           "id": "mHcSjcHJ8oZu3hkb",
           "name": "Two-Weapon Fighting",
           "sourcePath": "classfeatures/shared-features/fighting-styles/two-weapon-fighting.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Two-Weapon Fighting",
+          "matchedLookupKey": "mHcSjcHJ8oZu3hkb"
         },
         {
           "pack": "classfeatures",
           "id": "Gsha4bl0apxqspFy",
           "name": "Draconic Presence",
           "sourcePath": "classfeatures/sorcerer/draconic-bloodline-features/draconic-presence.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Draconic Presence",
-          "matchedLookupKey": "Draconic Presence",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Draconic Presence"
         },
         {
           "pack": "classfeatures",
           "id": "MW1ExvBLm8Hg82aA",
           "name": "Draconic Resilience",
           "sourcePath": "classfeatures/sorcerer/draconic-bloodline-features/draconic-resilience.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Draconic Resilience",
-          "matchedLookupKey": "Draconic Resilience",
-          "fieldPaths": [
-            "system.requirements",
-            "effects[Pu89Tsgy2FJjYPQi].name"
-          ]
+          "matchedLookupKey": "Draconic Resilience"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "EZsonMThTNLZq35j",
+          "name": "Dragon Ancestor",
+          "sourcePath": "classfeatures/sorcerer/draconic-bloodline-features/dragon-ancestor.yml",
+          "lookupKey": "Dragon Ancestor",
+          "matchedLookupKey": "Dragon Ancestor"
         },
         {
           "pack": "classfeatures",
           "id": "3647zjKSE9zFwOXc",
           "name": "Dragon Wings",
           "sourcePath": "classfeatures/sorcerer/draconic-bloodline-features/dragon-wings.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Dragon Wings",
-          "matchedLookupKey": "Dragon Wings",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Dragon Wings"
         },
         {
           "pack": "classfeatures",
           "id": "x6eEZ9GUsuOcEa3G",
           "name": "Elemental Affinity",
           "sourcePath": "classfeatures/sorcerer/draconic-bloodline-features/elemental-affinity.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Elemental Affinity",
-          "matchedLookupKey": "Elemental Affinity",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Elemental Affinity"
         },
         {
           "pack": "classfeatures",
           "id": "zElYrOcCFFMhB6Xl",
           "name": "Careful Spell",
           "sourcePath": "classfeatures/sorcerer/metamagic/careful-spell.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Careful Spell",
+          "matchedLookupKey": "zElYrOcCFFMhB6Xl"
         },
         {
           "pack": "classfeatures",
           "id": "DZpAa3LzMNBexbmX",
           "name": "Distant Spell",
           "sourcePath": "classfeatures/sorcerer/metamagic/distant-spell.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Distant Spell",
+          "matchedLookupKey": "DZpAa3LzMNBexbmX"
         },
         {
           "pack": "classfeatures",
           "id": "IWpe0Y9uAStHGiH1",
           "name": "Empowered Spell",
           "sourcePath": "classfeatures/sorcerer/metamagic/empowered-spell.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Empowered Spell",
+          "matchedLookupKey": "IWpe0Y9uAStHGiH1"
         },
         {
           "pack": "classfeatures",
           "id": "tQxlKyAx9sgPrbgj",
           "name": "Extended Spell",
           "sourcePath": "classfeatures/sorcerer/metamagic/extended-spell.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Extended Spell",
+          "matchedLookupKey": "tQxlKyAx9sgPrbgj"
         },
         {
           "pack": "classfeatures",
           "id": "tNG2qi9zhmXEkecA",
           "name": "Heightened Spell",
           "sourcePath": "classfeatures/sorcerer/metamagic/heightened-spell.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Heightened Spell",
+          "matchedLookupKey": "tNG2qi9zhmXEkecA"
         },
         {
           "pack": "classfeatures",
           "id": "nViGf6bZ6DQAJhkw",
           "name": "Quickened Spell",
           "sourcePath": "classfeatures/sorcerer/metamagic/quickened-spell.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Quickened Spell",
+          "matchedLookupKey": "nViGf6bZ6DQAJhkw"
         },
         {
           "pack": "classfeatures",
           "id": "fXa0DMhoVLtbBu9l",
           "name": "Subtle Spell",
           "sourcePath": "classfeatures/sorcerer/metamagic/subtle-spell.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Subtle Spell",
+          "matchedLookupKey": "fXa0DMhoVLtbBu9l"
         },
         {
           "pack": "classfeatures",
           "id": "Qb391hakCfmH4w8p",
           "name": "Twinned Spell",
           "sourcePath": "classfeatures/sorcerer/metamagic/twinned-spell.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Twinned Spell",
+          "matchedLookupKey": "Qb391hakCfmH4w8p"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "LBKChJY5n02Afhnq",
+          "name": "Font of Magic",
+          "sourcePath": "classfeatures/sorcerer/sorcerer-features/font-of-magic.yml",
+          "lookupKey": "Font of Magic",
+          "matchedLookupKey": "Font of Magic"
         },
         {
           "pack": "classfeatures",
           "id": "cmRCL9T9UgRYOj1c",
           "name": "Sorcerous Origins",
           "sourcePath": "classfeatures/sorcerer/sorcerer-features/sorcerous-origins.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Sorcerous Origins",
-          "matchedLookupKey": "Sorcerous Origins",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Sorcerous Origins"
         },
         {
           "pack": "classfeatures",
           "id": "F2lEKSmOY0NUruzY",
           "name": "Sorcerous Restoration",
           "sourcePath": "classfeatures/sorcerer/sorcerer-features/sorcerous-restoration.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Sorcerous Restoration",
-          "matchedLookupKey": "Sorcerous Restoration",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Sorcerous Restoration"
         },
         {
           "pack": "classfeatures",
           "id": "oygRF3ZjTv2T7z0Y",
           "name": "Spellcasting",
           "sourcePath": "classfeatures/sorcerer/sorcerer-features/spellcasting.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "2fyuw7MiCnocDeAU",
-          "name": "Agonizing Blast",
-          "sourcePath": "classfeatures/warlock/eldritch-invocations/agonizing-blast.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "oygRF3ZjTv2T7z0Y",
+          "matchedLookupKey": "oygRF3ZjTv2T7z0Y"
         },
         {
           "pack": "classfeatures",
           "id": "alUqO6c6OEKFQJdb",
           "name": "Armor of Shadows",
           "sourcePath": "classfeatures/warlock/eldritch-invocations/armor-of-shadows.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "QEuH5TeBN4PPYT2g",
-          "name": "Ascendant Step",
-          "sourcePath": "classfeatures/warlock/eldritch-invocations/ascendant-step.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Armor of Shadows",
+          "matchedLookupKey": "alUqO6c6OEKFQJdb"
         },
         {
           "pack": "classfeatures",
           "id": "61kXR1sniXHjvN17",
           "name": "Beast Speech",
           "sourcePath": "classfeatures/warlock/eldritch-invocations/beast-speech.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Beast Speech",
+          "matchedLookupKey": "61kXR1sniXHjvN17"
         },
         {
           "pack": "classfeatures",
           "id": "eNvpIaSnJUdF8fHl",
           "name": "Beguiling Influence",
           "sourcePath": "classfeatures/warlock/eldritch-invocations/beguiling-influence.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Beguiling Influence",
+          "matchedLookupKey": "eNvpIaSnJUdF8fHl"
         },
         {
           "pack": "classfeatures",
           "id": "KygHql3cTj4IRrvZ",
           "name": "Bewitching Whispers",
           "sourcePath": "classfeatures/warlock/eldritch-invocations/bewitching-whispers.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Bewitching Whispers",
+          "matchedLookupKey": "KygHql3cTj4IRrvZ"
         },
         {
           "pack": "classfeatures",
           "id": "CFIYXDmbmSP8BXjN",
           "name": "Book of Ancient Secrets",
           "sourcePath": "classfeatures/warlock/eldritch-invocations/book-of-ancient-secrets.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "Phy02H5x0TKHd7T3",
-          "name": "Chains of Carceri",
-          "sourcePath": "classfeatures/warlock/eldritch-invocations/chains-of-carceri.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Book of Ancient Secrets",
+          "matchedLookupKey": "CFIYXDmbmSP8BXjN"
         },
         {
           "pack": "classfeatures",
           "id": "3sN91lT1R3oxcDKd",
           "name": "Devil's Sight",
           "sourcePath": "classfeatures/warlock/eldritch-invocations/devils-sight.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements",
-            "effects[3JYlSTG0olbm1FQC].name"
-          ]
+          "lookupKey": "Devil's Sight",
+          "matchedLookupKey": "3sN91lT1R3oxcDKd"
         },
         {
           "pack": "classfeatures",
           "id": "QBk1RsuTIEF4GEBC",
           "name": "Dreadful Word",
           "sourcePath": "classfeatures/warlock/eldritch-invocations/dreadful-word.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Dreadful Word",
+          "matchedLookupKey": "QBk1RsuTIEF4GEBC"
         },
         {
           "pack": "classfeatures",
           "id": "bbUEsCPTLzbbwK6o",
           "name": "Eldritch Sight",
           "sourcePath": "classfeatures/warlock/eldritch-invocations/eldritch-sight.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "r01WtcxTg4yTHm9m",
-          "name": "Eldritch Spear",
-          "sourcePath": "classfeatures/warlock/eldritch-invocations/eldritch-spear.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Eldritch Sight",
+          "matchedLookupKey": "bbUEsCPTLzbbwK6o"
         },
         {
           "pack": "classfeatures",
           "id": "lEZKbWaVrSljRa9n",
           "name": "Eyes of the Rune Keeper",
           "sourcePath": "classfeatures/warlock/eldritch-invocations/eyes-of-the-rune-keeper.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Eyes of the Rune Keeper",
+          "matchedLookupKey": "lEZKbWaVrSljRa9n"
         },
         {
           "pack": "classfeatures",
           "id": "id0gmGvzNZBEdzbx",
           "name": "Fiendish Vigor",
           "sourcePath": "classfeatures/warlock/eldritch-invocations/fiendish-vigor.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Fiendish Vigor",
+          "matchedLookupKey": "id0gmGvzNZBEdzbx"
         },
         {
           "pack": "classfeatures",
           "id": "65ReXU4ZWqcSs3Cm",
           "name": "Gaze of Two Minds",
           "sourcePath": "classfeatures/warlock/eldritch-invocations/gaze-of-two-minds.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Gaze of Two Minds",
+          "matchedLookupKey": "65ReXU4ZWqcSs3Cm"
         },
         {
           "pack": "classfeatures",
           "id": "zUIAzBnyt0NDvVXb",
           "name": "Lifedrinker",
           "sourcePath": "classfeatures/warlock/eldritch-invocations/lifedrinker.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Lifedrinker",
+          "matchedLookupKey": "zUIAzBnyt0NDvVXb"
         },
         {
           "pack": "classfeatures",
           "id": "MhJfdBl1B7PdU4oZ",
           "name": "Mask of Many Faces",
           "sourcePath": "classfeatures/warlock/eldritch-invocations/mask-of-many-faces.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
+          "lookupKey": "Mask of Many Faces",
+          "matchedLookupKey": "MhJfdBl1B7PdU4oZ",
+          "repairs": [
+            {
+              "fieldPath": "system.description.value",
+              "translationPath": [
+                "description"
+              ],
+              "value": "<p>Puoi lanciare a volontà @UUID[Compendium.dnd5e.spells.Item.A3q2gTNqG6fvNGrv]{camuffare sé stesso}, senza spendere uno slot incantesimo.</p>"
+            }
           ]
         },
         {
@@ -2174,11 +1417,16 @@
           "id": "lxfdjLer3uKjyZqU",
           "name": "Master of Myriad Forms",
           "sourcePath": "classfeatures/warlock/eldritch-invocations/master-of-myriad-forms.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
+          "lookupKey": "Master of Myriad Forms",
+          "matchedLookupKey": "lxfdjLer3uKjyZqU",
+          "repairs": [
+            {
+              "fieldPath": "system.description.value",
+              "translationPath": [
+                "description"
+              ],
+              "value": "<p>Prerequisito: 15° livello&nbsp; Puoi lanciare a volontà @UUID[Compendium.dnd5e.spells.Item.8RTDOt80u8aBv9qx]{alterare sé stesso}, senza spendere uno slot incantesimo.</p>"
+            }
           ]
         },
         {
@@ -2186,387 +1434,260 @@
           "id": "QnRKYXb2bXpnNd2k",
           "name": "Minions of Chaos",
           "sourcePath": "classfeatures/warlock/eldritch-invocations/minions-of-chaos.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Minions of Chaos",
+          "matchedLookupKey": "QnRKYXb2bXpnNd2k"
         },
         {
           "pack": "classfeatures",
           "id": "DjXi0IkCTbJx1gsp",
           "name": "Mire the Mind",
           "sourcePath": "classfeatures/warlock/eldritch-invocations/mire-the-mind.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Mire the Mind",
+          "matchedLookupKey": "DjXi0IkCTbJx1gsp"
         },
         {
           "pack": "classfeatures",
           "id": "k5DU0mMuYVHejiqz",
           "name": "Misty Visions",
           "sourcePath": "classfeatures/warlock/eldritch-invocations/misty-visions.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Misty Visions",
+          "matchedLookupKey": "k5DU0mMuYVHejiqz"
         },
         {
           "pack": "classfeatures",
           "id": "KfnUyjUWAk0bAAus",
           "name": "One With Shadows",
           "sourcePath": "classfeatures/warlock/eldritch-invocations/one-with-shadows.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "One With Shadows",
+          "matchedLookupKey": "KfnUyjUWAk0bAAus"
         },
         {
           "pack": "classfeatures",
           "id": "8zciiglzEOZo7DDN",
           "name": "Otherworldly Leap",
           "sourcePath": "classfeatures/warlock/eldritch-invocations/otherworldly-leap.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "rdBPd6CwqXT64iJM",
-          "name": "Repelling Blast",
-          "sourcePath": "classfeatures/warlock/eldritch-invocations/repelling-blast.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Otherworldly Leap",
+          "matchedLookupKey": "8zciiglzEOZo7DDN"
         },
         {
           "pack": "classfeatures",
           "id": "Xa2MLUJGCReJ28B7",
           "name": "Sculptor of Flesh",
           "sourcePath": "classfeatures/warlock/eldritch-invocations/sculptor-of-flesh.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Sculptor of Flesh",
+          "matchedLookupKey": "Xa2MLUJGCReJ28B7"
         },
         {
           "pack": "classfeatures",
           "id": "dTSV0xZMpY5CxkRk",
           "name": "Sign of Ill Omen",
           "sourcePath": "classfeatures/warlock/eldritch-invocations/sign-of-ill-omen.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Sign of Ill Omen",
+          "matchedLookupKey": "dTSV0xZMpY5CxkRk"
         },
         {
           "pack": "classfeatures",
           "id": "rhbwDZ9XNTmdkX2u",
           "name": "Thief of Five Fates",
           "sourcePath": "classfeatures/warlock/eldritch-invocations/thief-of-five-fates.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Thief of Five Fates",
+          "matchedLookupKey": "rhbwDZ9XNTmdkX2u"
         },
         {
           "pack": "classfeatures",
           "id": "pJADgAxxefgcATWr",
           "name": "Thirsting Blade",
           "sourcePath": "classfeatures/warlock/eldritch-invocations/thirsting-blade.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Thirsting Blade",
+          "matchedLookupKey": "pJADgAxxefgcATWr"
         },
         {
           "pack": "classfeatures",
           "id": "zYIdNAjqRyhS6qWs",
           "name": "Visions of Distant Realms",
           "sourcePath": "classfeatures/warlock/eldritch-invocations/visions-of-distant-realms.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Visions of Distant Realms",
+          "matchedLookupKey": "zYIdNAjqRyhS6qWs"
         },
         {
           "pack": "classfeatures",
           "id": "k5M8gsl7MMcdjOjs",
           "name": "Voice of the Chain Master",
           "sourcePath": "classfeatures/warlock/eldritch-invocations/voice-of-the-chain-master.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Voice of the Chain Master",
+          "matchedLookupKey": "k5M8gsl7MMcdjOjs"
         },
         {
           "pack": "classfeatures",
           "id": "gFjxo01hAN4c9hDG",
           "name": "Whispers of the Grave",
           "sourcePath": "classfeatures/warlock/eldritch-invocations/whispers-of-the-grave.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Whispers of the Grave",
+          "matchedLookupKey": "gFjxo01hAN4c9hDG"
         },
         {
           "pack": "classfeatures",
           "id": "snsjxGfmzWfZR5Nh",
           "name": "Witch Sight",
           "sourcePath": "classfeatures/warlock/eldritch-invocations/witch-sight.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "Witch Sight",
+          "matchedLookupKey": "snsjxGfmzWfZR5Nh"
         },
         {
           "pack": "classfeatures",
           "id": "Jv0zu4BtUi8bFCqJ",
           "name": "Dark One's Blessing",
           "sourcePath": "classfeatures/warlock/the-fiend-features/dark-ones-blessing.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Dark One's Blessing",
-          "matchedLookupKey": "Dark One's Blessing",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Dark One's Blessing"
         },
         {
           "pack": "classfeatures",
           "id": "OQSb0bO1yDI4aiMx",
           "name": "Dark One's Own Luck",
           "sourcePath": "classfeatures/warlock/the-fiend-features/dark-ones-own-luck.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Dark One's Own Luck",
-          "matchedLookupKey": "Dark One's Own Luck",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Dark One's Own Luck"
         },
         {
           "pack": "classfeatures",
           "id": "4IHsIcBhAVDt8QjY",
           "name": "Expanded Spell List",
           "sourcePath": "classfeatures/warlock/the-fiend-features/expanded-spell-list.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Expanded Spell List",
-          "matchedLookupKey": "Expanded Spell List",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Expanded Spell List"
         },
         {
           "pack": "classfeatures",
           "id": "9UZ2WjUF2k58CQug",
           "name": "Fiendish Resilience",
           "sourcePath": "classfeatures/warlock/the-fiend-features/fiendish-resilience.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Fiendish Resilience",
-          "matchedLookupKey": "Fiendish Resilience",
-          "fieldPaths": [
-            "system.requirements",
-            "effects[reg3sjReHspgkd0I].name"
-          ]
+          "matchedLookupKey": "Fiendish Resilience"
         },
         {
           "pack": "classfeatures",
           "id": "aCUmlnHlUPHS0rdu",
           "name": "Hurl Through Hell",
           "sourcePath": "classfeatures/warlock/the-fiend-features/hurl-through-hell.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Hurl Through Hell",
-          "matchedLookupKey": "Hurl Through Hell",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Hurl Through Hell"
         },
         {
           "pack": "classfeatures",
           "id": "0C04rwyvoknvFYiy",
           "name": "Eldritch Master",
           "sourcePath": "classfeatures/warlock/warlock-features/eldritch-master.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Eldritch Master",
-          "matchedLookupKey": "Eldritch Master",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Eldritch Master"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "zB77V8BcCJvWVxck",
+          "name": "Mystic Arcanum",
+          "sourcePath": "classfeatures/warlock/warlock-features/mystic-arcanum.yml",
+          "lookupKey": "Mystic Arcanum",
+          "matchedLookupKey": "Mystic Arcanum"
         },
         {
           "pack": "classfeatures",
           "id": "jTXHaK0vvT5DV3uO",
           "name": "Otherworldly Patron",
           "sourcePath": "classfeatures/warlock/warlock-features/otherworldly-patron.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Otherworldly Patron",
-          "matchedLookupKey": "Otherworldly Patron",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Otherworldly Patron"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "x6IJZwr6f0SGral7",
+          "name": "Pact Magic",
+          "sourcePath": "classfeatures/warlock/warlock-features/pact-magic.yml",
+          "lookupKey": "Pact Magic",
+          "matchedLookupKey": "Pact Magic"
         },
         {
           "pack": "classfeatures",
           "id": "9dSSa68mIPoX2ezA",
           "name": "Pact of the Blade",
           "sourcePath": "classfeatures/warlock/warlock-features/pact-of-the-blade.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Pact of the Blade",
-          "matchedLookupKey": "Pact of the Blade",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Pact of the Blade"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "MYM908WLZ1lVvA1u",
+          "name": "Pact of the Tome",
+          "sourcePath": "classfeatures/warlock/warlock-features/pact-of-the-tome.yml",
+          "lookupKey": "Pact of the Tome",
+          "matchedLookupKey": "Pact of the Tome"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "7O85kj6uDEG5NzUE",
+          "name": "Empowered Evocation",
+          "sourcePath": "classfeatures/wizard/school-of-evocation-features/empowered-evocation.yml",
+          "lookupKey": "Empowered Evocation",
+          "matchedLookupKey": "Empowered Evocation"
         },
         {
           "pack": "classfeatures",
           "id": "7uzJ2JkmsdRGLra3",
           "name": "Evocation Savant",
           "sourcePath": "classfeatures/wizard/school-of-evocation-features/evocation-savant.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Evocation Savant",
-          "matchedLookupKey": "Evocation Savant",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Evocation Savant"
         },
         {
           "pack": "classfeatures",
           "id": "evEWCpE5MYgr5RRW",
           "name": "Potent Cantrip",
           "sourcePath": "classfeatures/wizard/school-of-evocation-features/potent-cantrip.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Potent Cantrip",
-          "matchedLookupKey": "Potent Cantrip",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Potent Cantrip"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "6VBXkjjBgjSpNElh",
+          "name": "Sculpt Spells",
+          "sourcePath": "classfeatures/wizard/school-of-evocation-features/sculpt-spells.yml",
+          "lookupKey": "Sculpt Spells",
+          "matchedLookupKey": "Sculpt Spells"
         },
         {
           "pack": "classfeatures",
           "id": "e0uTcFPpgxjIyUW9",
           "name": "Arcane Recovery",
           "sourcePath": "classfeatures/wizard/wizard-features/arcane-recovery.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Arcane Recovery",
-          "matchedLookupKey": "Arcane Recovery",
-          "fieldPaths": [
-            "system.requirements",
-            "system.activities.dnd5eactivity000.description.chatFlavor"
-          ]
+          "matchedLookupKey": "Arcane Recovery"
         },
         {
           "pack": "classfeatures",
           "id": "AEWr9EMxy5gj4ZFT",
           "name": "Arcane Tradition",
           "sourcePath": "classfeatures/wizard/wizard-features/arcane-tradition.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Arcane Tradition",
-          "matchedLookupKey": "Arcane Tradition",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Arcane Tradition"
         },
         {
           "pack": "classfeatures",
           "id": "nUrZDi6QN1YjwAr6",
           "name": "Signature Spells",
           "sourcePath": "classfeatures/wizard/wizard-features/signature-spells.yml",
-          "reason": "missing-visible-fields",
           "lookupKey": "Signature Spells",
-          "matchedLookupKey": "Signature Spells",
-          "fieldPaths": [
-            "system.requirements"
-          ]
+          "matchedLookupKey": "Signature Spells"
         },
         {
           "pack": "classfeatures",
           "id": "gbNo5eVPaqr8IVKL",
           "name": "Spellcasting",
           "sourcePath": "classfeatures/wizard/wizard-features/spellcasting.yml",
-          "reason": "missing-entry",
-          "fieldPaths": [
-            "name",
-            "system.description.value",
-            "system.requirements"
-          ]
+          "lookupKey": "gbNo5eVPaqr8IVKL",
+          "matchedLookupKey": "gbNo5eVPaqr8IVKL"
         }
       ],
+      "needsTranslation": [],
       "manualReview": [
-        {
-          "pack": "classfeatures",
-          "id": "L94gyvNpUhUe0rwh",
-          "name": "Brutal Critical",
-          "sourcePath": "classfeatures/barbarian/barbarian-features/brutal-critical.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Brutal Critical",
-          "matchedLookupKey": "Brutal Critical",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "classfeatures",
-              "id": "L94gyvNpUhUe0rwh",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "classfeatures",
-              "id": "L94gyvNpUhUe0rwh",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "l8tUhZ5Pecm9wz7I",
-          "name": "Persistent Rage",
-          "sourcePath": "classfeatures/barbarian/barbarian-features/persistent-rage.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Persistent Rage",
-          "matchedLookupKey": "Persistent Rage",
-          "diagnostics": [
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "classfeatures",
-              "id": "l8tUhZ5Pecm9wz7I",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
         {
           "pack": "classfeatures",
           "id": "VoR0SUrNX5EJVPIO",
@@ -2590,98 +1711,6 @@
               "message": "HTML attributes differ from source",
               "pack": "classfeatures",
               "id": "VoR0SUrNX5EJVPIO",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "FqfmbPgxiyrWzhYk",
-          "name": "Relentless Rage",
-          "sourcePath": "classfeatures/barbarian/barbarian-features/relentless-rage.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Relentless Rage",
-          "matchedLookupKey": "Relentless Rage",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "classfeatures",
-              "id": "FqfmbPgxiyrWzhYk",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "classfeatures",
-              "id": "FqfmbPgxiyrWzhYk",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "CkbbAckeCtyHXEnL",
-          "name": "Frenzy",
-          "sourcePath": "classfeatures/barbarian/path-of-the-berserker-features/frenzy.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Frenzy",
-          "matchedLookupKey": "Frenzy",
-          "diagnostics": [
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "classfeatures",
-              "id": "CkbbAckeCtyHXEnL",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "M6VSMzVtKPhh8B0i",
-          "name": "Intimidating Presence",
-          "sourcePath": "classfeatures/barbarian/path-of-the-berserker-features/intimidating-presence.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Intimidating Presence",
-          "matchedLookupKey": "Intimidating Presence",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "classfeatures",
-              "id": "M6VSMzVtKPhh8B0i",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "classfeatures",
-              "id": "M6VSMzVtKPhh8B0i",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "0Jgf8fYY2ExwgQpN",
-          "name": "Mindless Rage",
-          "sourcePath": "classfeatures/barbarian/path-of-the-berserker-features/mindless-rage.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Mindless Rage",
-          "matchedLookupKey": "Mindless Rage",
-          "diagnostics": [
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "classfeatures",
-              "id": "0Jgf8fYY2ExwgQpN",
               "fieldPath": "system.description.value"
             }
           ]
@@ -2731,14 +1760,6 @@
         },
         {
           "pack": "classfeatures",
-          "id": "aQLg7BWdRnm4Hr9S",
-          "name": "Expertise",
-          "sourcePath": "classfeatures/bard/bard-features/expertise.yml",
-          "reason": "ambiguous-source-name",
-          "lookupKey": "Expertise"
-        },
-        {
-          "pack": "classfeatures",
           "id": "3VDZGs5Ug3hIE322",
           "name": "Font of Inspiration",
           "sourcePath": "classfeatures/bard/bard-features/font-of-inspiration.yml",
@@ -2768,144 +1789,6 @@
               "message": "Foundry reference count differs from source",
               "pack": "classfeatures",
               "id": "3VDZGs5Ug3hIE322",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "aonJ2YjkqkYB9WYB",
-          "name": "Magical Secrets",
-          "sourcePath": "classfeatures/bard/bard-features/magical-secrets.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Magical Secrets",
-          "matchedLookupKey": "Magical Secrets",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "classfeatures",
-              "id": "aonJ2YjkqkYB9WYB",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "classfeatures",
-              "id": "aonJ2YjkqkYB9WYB",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "he8RpPXwSl2lVSIk",
-          "name": "Song of Rest",
-          "sourcePath": "classfeatures/bard/bard-features/song-of-rest.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Song of Rest",
-          "matchedLookupKey": "Song of Rest",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "classfeatures",
-              "id": "he8RpPXwSl2lVSIk",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "classfeatures",
-              "id": "he8RpPXwSl2lVSIk",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "GBYN5rH4nh1ocRlY",
-          "name": "Superior Inspiration",
-          "sourcePath": "classfeatures/bard/bard-features/superior-inspiration.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Superior Inspiration",
-          "matchedLookupKey": "Superior Inspiration",
-          "diagnostics": [
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "classfeatures",
-              "id": "GBYN5rH4nh1ocRlY",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "5zPmHPQUne7RDfaU",
-          "name": "Cutting Words",
-          "sourcePath": "classfeatures/bard/college-of-lore-features/cutting-words.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Cutting Words",
-          "matchedLookupKey": "Cutting Words",
-          "diagnostics": [
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "classfeatures",
-              "id": "5zPmHPQUne7RDfaU",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "pquwueEMweRhiWaq",
-          "name": "Peerless Skill",
-          "sourcePath": "classfeatures/bard/college-of-lore-features/peerless-skill.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Peerless Skill",
-          "matchedLookupKey": "Peerless Skill",
-          "diagnostics": [
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "classfeatures",
-              "id": "pquwueEMweRhiWaq",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "r91UIgwFdHwkXdia",
-          "name": "Channel Divinity: Turn Undead",
-          "sourcePath": "classfeatures/cleric/cleric-features/channel-divinity-turn-undead.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Channel Divinity: Turn Undead",
-          "matchedLookupKey": "Channel Divinity: Turn Undead",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "classfeatures",
-              "id": "r91UIgwFdHwkXdia",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "classfeatures",
-              "id": "r91UIgwFdHwkXdia",
               "fieldPath": "system.description.value"
             }
           ]
@@ -2974,33 +1857,6 @@
         },
         {
           "pack": "classfeatures",
-          "id": "eVXqHn0ojWrEuYGU",
-          "name": "Divine Intervention",
-          "sourcePath": "classfeatures/cleric/cleric-features/divine-intervention.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Divine Intervention",
-          "matchedLookupKey": "Divine Intervention",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "classfeatures",
-              "id": "eVXqHn0ojWrEuYGU",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "classfeatures",
-              "id": "eVXqHn0ojWrEuYGU",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classfeatures",
           "id": "yv49QN6Bzqs0ecCs",
           "name": "Blessed Healer",
           "sourcePath": "classfeatures/cleric/life-domain-features/blessed-healer.yml",
@@ -3022,33 +1878,6 @@
               "message": "HTML attributes differ from source",
               "pack": "classfeatures",
               "id": "yv49QN6Bzqs0ecCs",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "jF8AFfEMICIJnAkR",
-          "name": "Disciple of Life",
-          "sourcePath": "classfeatures/cleric/life-domain-features/disciple-of-life.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Disciple of Life",
-          "matchedLookupKey": "Disciple of Life",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "classfeatures",
-              "id": "jF8AFfEMICIJnAkR",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "classfeatures",
-              "id": "jF8AFfEMICIJnAkR",
               "fieldPath": "system.description.value"
             }
           ]
@@ -3090,114 +1919,6 @@
         },
         {
           "pack": "classfeatures",
-          "id": "3FB25qKxmkmxcxuC",
-          "name": "Land's Stride",
-          "sourcePath": "classfeatures/druid/circle-of-the-land-features/lands-stride.yml",
-          "reason": "ambiguous-source-name",
-          "lookupKey": "Land's Stride"
-        },
-        {
-          "pack": "classfeatures",
-          "id": "EuX1kJNIw1F68yus",
-          "name": "Nature's Sanctuary",
-          "sourcePath": "classfeatures/druid/circle-of-the-land-features/natures-sanctuary.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Nature's Sanctuary",
-          "matchedLookupKey": "Nature's Sanctuary",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "classfeatures",
-              "id": "EuX1kJNIw1F68yus",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "classfeatures",
-              "id": "EuX1kJNIw1F68yus",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "ip4bvmGoz3qkoqes",
-          "name": "Archdruid",
-          "sourcePath": "classfeatures/druid/druid-features/archdruid.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Archdruid",
-          "matchedLookupKey": "Archdruid",
-          "diagnostics": [
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "classfeatures",
-              "id": "ip4bvmGoz3qkoqes",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "xvgPu1O57DgXCM86",
-          "name": "Beast Spells",
-          "sourcePath": "classfeatures/druid/druid-features/beast-spells.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Beast Spells",
-          "matchedLookupKey": "Beast Spells",
-          "diagnostics": [
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "classfeatures",
-              "id": "xvgPu1O57DgXCM86",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "swK0r5TOIxredxWS",
-          "name": "Wild Shape",
-          "sourcePath": "classfeatures/druid/druid-features/wild-shape.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Wild Shape",
-          "matchedLookupKey": "Wild Shape",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "classfeatures",
-              "id": "swK0r5TOIxredxWS",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "classfeatures",
-              "id": "swK0r5TOIxredxWS",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "classfeatures",
-              "id": "swK0r5TOIxredxWS",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classfeatures",
           "id": "kYJsED0rqqqUcgKz",
           "name": "Additional Fighting Style",
           "sourcePath": "classfeatures/fighter/champion-features/additional-fighting-style.yml",
@@ -3233,19 +1954,19 @@
         },
         {
           "pack": "classfeatures",
-          "id": "ipG5yx1tRNmeJfSH",
-          "name": "Survivor",
-          "sourcePath": "classfeatures/fighter/champion-features/survivor.yml",
+          "id": "fbExzwNwEAl2kW9c",
+          "name": "Fighting Style",
+          "sourcePath": "classfeatures/fighter/fighter-features/fighting-style.yml",
           "reason": "invariant-failure",
-          "lookupKey": "Survivor",
-          "matchedLookupKey": "Survivor",
+          "lookupKey": "fbExzwNwEAl2kW9c",
+          "matchedLookupKey": "fbExzwNwEAl2kW9c",
           "diagnostics": [
             {
               "code": "html-tag-sequence",
               "severity": "blocking",
               "message": "HTML tag sequence differs from source",
               "pack": "classfeatures",
-              "id": "ipG5yx1tRNmeJfSH",
+              "id": "fbExzwNwEAl2kW9c",
               "fieldPath": "system.description.value"
             },
             {
@@ -3253,34 +1974,18 @@
               "severity": "blocking",
               "message": "HTML attributes differ from source",
               "pack": "classfeatures",
-              "id": "ipG5yx1tRNmeJfSH",
+              "id": "fbExzwNwEAl2kW9c",
+              "fieldPath": "system.description.value"
+            },
+            {
+              "code": "foundry-reference-count",
+              "severity": "blocking",
+              "message": "Foundry reference count differs from source",
+              "pack": "classfeatures",
+              "id": "fbExzwNwEAl2kW9c",
               "fieldPath": "system.description.value"
             }
           ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "sPy2OLoN7JaAcMl4",
-          "name": "Ability Score Improvement",
-          "sourcePath": "classfeatures/fighter/fighter-features/ability-score-improvement.yml",
-          "reason": "ambiguous-source-name",
-          "lookupKey": "Ability Score Improvement"
-        },
-        {
-          "pack": "classfeatures",
-          "id": "q9g1MLXuLZyxjQMg",
-          "name": "Extra Attack",
-          "sourcePath": "classfeatures/fighter/fighter-features/extra-attack.yml",
-          "reason": "ambiguous-source-name",
-          "lookupKey": "Extra Attack"
-        },
-        {
-          "pack": "classfeatures",
-          "id": "fbExzwNwEAl2kW9c",
-          "name": "Fighting Style",
-          "sourcePath": "classfeatures/fighter/fighter-features/fighting-style.yml",
-          "reason": "ambiguous-source-name",
-          "lookupKey": "Fighting Style"
         },
         {
           "pack": "classfeatures",
@@ -3424,33 +2129,6 @@
         },
         {
           "pack": "classfeatures",
-          "id": "zCeqyQ8uIPNdYJSW",
-          "name": "Unarmored Movement",
-          "sourcePath": "classfeatures/monk/monk-features/unarmored-movement.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Unarmored Movement",
-          "matchedLookupKey": "Unarmored Movement",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "classfeatures",
-              "id": "zCeqyQ8uIPNdYJSW",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "classfeatures",
-              "id": "zCeqyQ8uIPNdYJSW",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classfeatures",
           "id": "iQxLNydNLlCHNKbp",
           "name": "Open Hand Technique",
           "sourcePath": "classfeatures/monk/way-of-the-open-hand-features/open-hand-technique.yml",
@@ -3521,119 +2199,19 @@
         },
         {
           "pack": "classfeatures",
-          "id": "ANE5gjojvhNEagzz",
-          "name": "Holy Nimbus",
-          "sourcePath": "classfeatures/paladin/oath-of-devotion-features/holy-nimbus.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Holy Nimbus",
-          "matchedLookupKey": "Holy Nimbus",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "classfeatures",
-              "id": "ANE5gjojvhNEagzz",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "classfeatures",
-              "id": "ANE5gjojvhNEagzz",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "ZHJyYrqMYSLub4RY",
-          "name": "Purity of Spirit",
-          "sourcePath": "classfeatures/paladin/oath-of-devotion-features/purity-of-spirit.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Purity of Spirit",
-          "matchedLookupKey": "Purity of Spirit",
-          "diagnostics": [
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "classfeatures",
-              "id": "ZHJyYrqMYSLub4RY",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "E8ozg8avUVOX9N7u",
-          "name": "Divine Sense",
-          "sourcePath": "classfeatures/paladin/paladin-features/divine-sense.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Divine Sense",
-          "matchedLookupKey": "Divine Sense",
-          "diagnostics": [
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "classfeatures",
-              "id": "E8ozg8avUVOX9N7u",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "ySMPQ6zNSlvkrl2f",
-          "name": "Divine Smite",
-          "sourcePath": "classfeatures/paladin/paladin-features/divine-smite.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Divine Smite",
-          "matchedLookupKey": "Divine Smite",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "classfeatures",
-              "id": "ySMPQ6zNSlvkrl2f",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "classfeatures",
-              "id": "ySMPQ6zNSlvkrl2f",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classfeatures",
           "id": "Ho7dVxBlOYFlfBHk",
           "name": "Fighting Style",
           "sourcePath": "classfeatures/paladin/paladin-features/fighting-style.yml",
-          "reason": "ambiguous-source-name",
-          "lookupKey": "Fighting Style"
-        },
-        {
-          "pack": "classfeatures",
-          "id": "FAk41RPCTcvCk6KI",
-          "name": "Improved Divine Smite",
-          "sourcePath": "classfeatures/paladin/paladin-features/improved-divine-smite.yml",
           "reason": "invariant-failure",
-          "lookupKey": "Improved Divine Smite",
-          "matchedLookupKey": "Improved Divine Smite",
+          "lookupKey": "Ho7dVxBlOYFlfBHk",
+          "matchedLookupKey": "Ho7dVxBlOYFlfBHk",
           "diagnostics": [
             {
               "code": "html-tag-sequence",
               "severity": "blocking",
               "message": "HTML tag sequence differs from source",
               "pack": "classfeatures",
-              "id": "FAk41RPCTcvCk6KI",
+              "id": "Ho7dVxBlOYFlfBHk",
               "fieldPath": "system.description.value"
             },
             {
@@ -3641,7 +2219,7 @@
               "severity": "blocking",
               "message": "HTML attributes differ from source",
               "pack": "classfeatures",
-              "id": "FAk41RPCTcvCk6KI",
+              "id": "Ho7dVxBlOYFlfBHk",
               "fieldPath": "system.description.value"
             },
             {
@@ -3649,34 +2227,7 @@
               "severity": "blocking",
               "message": "Foundry reference count differs from source",
               "pack": "classfeatures",
-              "id": "FAk41RPCTcvCk6KI",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "OdrvL3afwLOPeuYZ",
-          "name": "Lay on Hands",
-          "sourcePath": "classfeatures/paladin/paladin-features/lay-on-hands.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Lay on Hands",
-          "matchedLookupKey": "Lay on Hands",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "classfeatures",
-              "id": "OdrvL3afwLOPeuYZ",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "classfeatures",
-              "id": "OdrvL3afwLOPeuYZ",
+              "id": "Ho7dVxBlOYFlfBHk",
               "fieldPath": "system.description.value"
             }
           ]
@@ -3718,19 +2269,19 @@
         },
         {
           "pack": "classfeatures",
-          "id": "WgQrqjmeyMqDzVt3",
-          "name": "Defensive Tactics",
-          "sourcePath": "classfeatures/ranger/hunter-features/defensive-tactics.yml",
+          "id": "ihoQHsmVZlyDbPhX",
+          "name": "Spellcasting",
+          "sourcePath": "classfeatures/paladin/paladin-features/spellcasting.yml",
           "reason": "invariant-failure",
-          "lookupKey": "Defensive Tactics",
-          "matchedLookupKey": "Defensive Tactics",
+          "lookupKey": "ihoQHsmVZlyDbPhX",
+          "matchedLookupKey": "ihoQHsmVZlyDbPhX",
           "diagnostics": [
             {
               "code": "html-tag-sequence",
               "severity": "blocking",
               "message": "HTML tag sequence differs from source",
               "pack": "classfeatures",
-              "id": "WgQrqjmeyMqDzVt3",
+              "id": "ihoQHsmVZlyDbPhX",
               "fieldPath": "system.description.value"
             },
             {
@@ -3738,58 +2289,15 @@
               "severity": "blocking",
               "message": "HTML attributes differ from source",
               "pack": "classfeatures",
-              "id": "WgQrqjmeyMqDzVt3",
+              "id": "ihoQHsmVZlyDbPhX",
               "fieldPath": "system.description.value"
             },
             {
-              "code": "foundry-references",
+              "code": "foundry-reference-count",
               "severity": "blocking",
-              "message": "Foundry reference targets or order differ from source",
+              "message": "Foundry reference count differs from source",
               "pack": "classfeatures",
-              "id": "WgQrqjmeyMqDzVt3",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "laVHAIOKIsUeezWd",
-          "name": "Evasion",
-          "sourcePath": "classfeatures/ranger/hunter-features/evasion.yml",
-          "reason": "ambiguous-source-name",
-          "lookupKey": "Evasion"
-        },
-        {
-          "pack": "classfeatures",
-          "id": "wrxIW5sDfmGr3u5s",
-          "name": "Hunter's Prey",
-          "sourcePath": "classfeatures/ranger/hunter-features/hunters-prey.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Hunter's Prey",
-          "matchedLookupKey": "Hunter's Prey",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "classfeatures",
-              "id": "wrxIW5sDfmGr3u5s",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "classfeatures",
-              "id": "wrxIW5sDfmGr3u5s",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-references",
-              "severity": "blocking",
-              "message": "Foundry reference targets or order differ from source",
-              "pack": "classfeatures",
-              "id": "wrxIW5sDfmGr3u5s",
+              "id": "ihoQHsmVZlyDbPhX",
               "fieldPath": "system.description.value"
             }
           ]
@@ -3831,49 +2339,6 @@
         },
         {
           "pack": "classfeatures",
-          "id": "a0Sq88dgnREcIMfl",
-          "name": "Superior Hunter's Defense",
-          "sourcePath": "classfeatures/ranger/hunter-features/superior-hunters-defense.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Superior Hunter's Defense",
-          "matchedLookupKey": "Superior Hunter's Defense",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "classfeatures",
-              "id": "a0Sq88dgnREcIMfl",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "classfeatures",
-              "id": "a0Sq88dgnREcIMfl",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-references",
-              "severity": "blocking",
-              "message": "Foundry reference targets or order differ from source",
-              "pack": "classfeatures",
-              "id": "a0Sq88dgnREcIMfl",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "7pyZjz5vlUWV01qQ",
-          "name": "Uncanny Dodge",
-          "sourcePath": "classfeatures/ranger/hunter-features/uncanny-dodge.yml",
-          "reason": "ambiguous-source-name",
-          "lookupKey": "Uncanny Dodge"
-        },
-        {
-          "pack": "classfeatures",
           "id": "4Vpj9vCOB37GtXk6",
           "name": "Favored Enemy",
           "sourcePath": "classfeatures/ranger/ranger-features/favored-enemy.yml",
@@ -3901,19 +2366,19 @@
         },
         {
           "pack": "classfeatures",
-          "id": "QBVmY56RMQuh6C8h",
-          "name": "Feral Senses",
-          "sourcePath": "classfeatures/ranger/ranger-features/feral-senses.yml",
+          "id": "nJA3ISVmyj3uPRVM",
+          "name": "Fighting Style",
+          "sourcePath": "classfeatures/ranger/ranger-features/fighting-style.yml",
           "reason": "invariant-failure",
-          "lookupKey": "Feral Senses",
-          "matchedLookupKey": "Feral Senses",
+          "lookupKey": "nJA3ISVmyj3uPRVM",
+          "matchedLookupKey": "nJA3ISVmyj3uPRVM",
           "diagnostics": [
             {
               "code": "html-tag-sequence",
               "severity": "blocking",
               "message": "HTML tag sequence differs from source",
               "pack": "classfeatures",
-              "id": "QBVmY56RMQuh6C8h",
+              "id": "nJA3ISVmyj3uPRVM",
               "fieldPath": "system.description.value"
             },
             {
@@ -3921,26 +2386,18 @@
               "severity": "blocking",
               "message": "HTML attributes differ from source",
               "pack": "classfeatures",
-              "id": "QBVmY56RMQuh6C8h",
+              "id": "nJA3ISVmyj3uPRVM",
+              "fieldPath": "system.description.value"
+            },
+            {
+              "code": "foundry-reference-count",
+              "severity": "blocking",
+              "message": "Foundry reference count differs from source",
+              "pack": "classfeatures",
+              "id": "nJA3ISVmyj3uPRVM",
               "fieldPath": "system.description.value"
             }
           ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "nJA3ISVmyj3uPRVM",
-          "name": "Fighting Style",
-          "sourcePath": "classfeatures/ranger/ranger-features/fighting-style.yml",
-          "reason": "ambiguous-source-name",
-          "lookupKey": "Fighting Style"
-        },
-        {
-          "pack": "classfeatures",
-          "id": "C5fzaOBc6HxyOWRn",
-          "name": "Land's Stride",
-          "sourcePath": "classfeatures/ranger/ranger-features/lands-stride.yml",
-          "reason": "ambiguous-source-name",
-          "lookupKey": "Land's Stride"
         },
         {
           "pack": "classfeatures",
@@ -3971,194 +2428,19 @@
         },
         {
           "pack": "classfeatures",
-          "id": "v7MxFuTAgOsmxZCD",
-          "name": "Ability Score Improvement",
-          "sourcePath": "classfeatures/rogue/rogue-features/ability-score-improvement.yml",
-          "reason": "ambiguous-source-name",
-          "lookupKey": "Ability Score Improvement"
-        },
-        {
-          "pack": "classfeatures",
-          "id": "01pcLg6PRu5zGrsb",
-          "name": "Cunning Action",
-          "sourcePath": "classfeatures/rogue/rogue-features/cunning-action.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Cunning Action",
-          "matchedLookupKey": "Cunning Action",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "classfeatures",
-              "id": "01pcLg6PRu5zGrsb",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "classfeatures",
-              "id": "01pcLg6PRu5zGrsb",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "a4P4DNMmH8CqSNkC",
-          "name": "Evasion",
-          "sourcePath": "classfeatures/rogue/rogue-features/evasion.yml",
-          "reason": "ambiguous-source-name",
-          "lookupKey": "Evasion"
-        },
-        {
-          "pack": "classfeatures",
-          "id": "3sYPftQKnbbVnHrh",
-          "name": "Expertise",
-          "sourcePath": "classfeatures/rogue/rogue-features/expertise.yml",
-          "reason": "ambiguous-source-name",
-          "lookupKey": "Expertise"
-        },
-        {
-          "pack": "classfeatures",
-          "id": "DPN2Gfk8yi1Z5wp7",
-          "name": "Sneak Attack",
-          "sourcePath": "classfeatures/rogue/rogue-features/sneak-attack.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Sneak Attack",
-          "matchedLookupKey": "Sneak Attack",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "classfeatures",
-              "id": "DPN2Gfk8yi1Z5wp7",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "classfeatures",
-              "id": "DPN2Gfk8yi1Z5wp7",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "rQhWDaMHMn7iU4f2",
-          "name": "Stroke of Luck",
-          "sourcePath": "classfeatures/rogue/rogue-features/stroke-of-luck.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Stroke of Luck",
-          "matchedLookupKey": "Stroke of Luck",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "classfeatures",
-              "id": "rQhWDaMHMn7iU4f2",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "classfeatures",
-              "id": "rQhWDaMHMn7iU4f2",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "ohwfuwnvuoBWlSQr",
-          "name": "Thieves' Cant",
-          "sourcePath": "classfeatures/rogue/rogue-features/thieves-cant.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Thieves' Cant",
-          "matchedLookupKey": "Thieves' Cant",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "classfeatures",
-              "id": "ohwfuwnvuoBWlSQr",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "classfeatures",
-              "id": "ohwfuwnvuoBWlSQr",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "Mm64SKAHJWYecgXS",
-          "name": "Uncanny Dodge",
-          "sourcePath": "classfeatures/rogue/rogue-features/uncanny-dodge.yml",
-          "reason": "ambiguous-source-name",
-          "lookupKey": "Uncanny Dodge"
-        },
-        {
-          "pack": "classfeatures",
-          "id": "ga3dt2zrCn2MHK8R",
-          "name": "Fast Hands",
-          "sourcePath": "classfeatures/rogue/thief-features/fast-hands.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Fast Hands",
-          "matchedLookupKey": "Fast Hands",
-          "diagnostics": [
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "classfeatures",
-              "id": "ga3dt2zrCn2MHK8R",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classfeatures",
           "id": "s0Cc2zcX0JzIgam5",
           "name": "Ability Score Improvement",
           "sourcePath": "classfeatures/shared-features/ability-score-improvement.yml",
-          "reason": "ambiguous-source-name",
-          "lookupKey": "Ability Score Improvement"
-        },
-        {
-          "pack": "classfeatures",
-          "id": "XogoBnFWmCAHXppo",
-          "name": "Extra Attack",
-          "sourcePath": "classfeatures/shared-features/extra-attack.yml",
-          "reason": "ambiguous-source-name",
-          "lookupKey": "Extra Attack"
-        },
-        {
-          "pack": "classfeatures",
-          "id": "EZsonMThTNLZq35j",
-          "name": "Dragon Ancestor",
-          "sourcePath": "classfeatures/sorcerer/draconic-bloodline-features/dragon-ancestor.yml",
           "reason": "invariant-failure",
-          "lookupKey": "Dragon Ancestor",
-          "matchedLookupKey": "Dragon Ancestor",
+          "lookupKey": "s0Cc2zcX0JzIgam5",
+          "matchedLookupKey": "s0Cc2zcX0JzIgam5",
           "diagnostics": [
             {
               "code": "html-tag-sequence",
               "severity": "blocking",
               "message": "HTML tag sequence differs from source",
               "pack": "classfeatures",
-              "id": "EZsonMThTNLZq35j",
+              "id": "s0Cc2zcX0JzIgam5",
               "fieldPath": "system.description.value"
             },
             {
@@ -4166,34 +2448,7 @@
               "severity": "blocking",
               "message": "HTML attributes differ from source",
               "pack": "classfeatures",
-              "id": "EZsonMThTNLZq35j",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "LBKChJY5n02Afhnq",
-          "name": "Font of Magic",
-          "sourcePath": "classfeatures/sorcerer/sorcerer-features/font-of-magic.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Font of Magic",
-          "matchedLookupKey": "Font of Magic",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "classfeatures",
-              "id": "LBKChJY5n02Afhnq",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "classfeatures",
-              "id": "LBKChJY5n02Afhnq",
+              "id": "s0Cc2zcX0JzIgam5",
               "fieldPath": "system.description.value"
             }
           ]
@@ -4235,6 +2490,181 @@
         },
         {
           "pack": "classfeatures",
+          "id": "2fyuw7MiCnocDeAU",
+          "name": "Agonizing Blast",
+          "sourcePath": "classfeatures/warlock/eldritch-invocations/agonizing-blast.yml",
+          "reason": "invariant-failure",
+          "lookupKey": "Agonizing Blast",
+          "matchedLookupKey": "2fyuw7MiCnocDeAU",
+          "diagnostics": [
+            {
+              "code": "html-tag-sequence",
+              "severity": "blocking",
+              "message": "HTML tag sequence differs from source",
+              "pack": "classfeatures",
+              "id": "2fyuw7MiCnocDeAU",
+              "fieldPath": "system.description.value"
+            },
+            {
+              "code": "html-attributes",
+              "severity": "blocking",
+              "message": "HTML attributes differ from source",
+              "pack": "classfeatures",
+              "id": "2fyuw7MiCnocDeAU",
+              "fieldPath": "system.description.value"
+            },
+            {
+              "code": "foundry-reference-count",
+              "severity": "blocking",
+              "message": "Foundry reference count differs from source",
+              "pack": "classfeatures",
+              "id": "2fyuw7MiCnocDeAU",
+              "fieldPath": "system.description.value"
+            }
+          ]
+        },
+        {
+          "pack": "classfeatures",
+          "id": "QEuH5TeBN4PPYT2g",
+          "name": "Ascendant Step",
+          "sourcePath": "classfeatures/warlock/eldritch-invocations/ascendant-step.yml",
+          "reason": "invariant-failure",
+          "lookupKey": "Ascendant Step",
+          "matchedLookupKey": "QEuH5TeBN4PPYT2g",
+          "diagnostics": [
+            {
+              "code": "html-tag-sequence",
+              "severity": "blocking",
+              "message": "HTML tag sequence differs from source",
+              "pack": "classfeatures",
+              "id": "QEuH5TeBN4PPYT2g",
+              "fieldPath": "system.description.value"
+            },
+            {
+              "code": "html-attributes",
+              "severity": "blocking",
+              "message": "HTML attributes differ from source",
+              "pack": "classfeatures",
+              "id": "QEuH5TeBN4PPYT2g",
+              "fieldPath": "system.description.value"
+            },
+            {
+              "code": "foundry-reference-count",
+              "severity": "blocking",
+              "message": "Foundry reference count differs from source",
+              "pack": "classfeatures",
+              "id": "QEuH5TeBN4PPYT2g",
+              "fieldPath": "system.description.value"
+            }
+          ]
+        },
+        {
+          "pack": "classfeatures",
+          "id": "Phy02H5x0TKHd7T3",
+          "name": "Chains of Carceri",
+          "sourcePath": "classfeatures/warlock/eldritch-invocations/chains-of-carceri.yml",
+          "reason": "invariant-failure",
+          "lookupKey": "Chains of Carceri",
+          "matchedLookupKey": "Phy02H5x0TKHd7T3",
+          "diagnostics": [
+            {
+              "code": "html-tag-sequence",
+              "severity": "blocking",
+              "message": "HTML tag sequence differs from source",
+              "pack": "classfeatures",
+              "id": "Phy02H5x0TKHd7T3",
+              "fieldPath": "system.description.value"
+            },
+            {
+              "code": "html-attributes",
+              "severity": "blocking",
+              "message": "HTML attributes differ from source",
+              "pack": "classfeatures",
+              "id": "Phy02H5x0TKHd7T3",
+              "fieldPath": "system.description.value"
+            },
+            {
+              "code": "foundry-reference-count",
+              "severity": "blocking",
+              "message": "Foundry reference count differs from source",
+              "pack": "classfeatures",
+              "id": "Phy02H5x0TKHd7T3",
+              "fieldPath": "system.description.value"
+            }
+          ]
+        },
+        {
+          "pack": "classfeatures",
+          "id": "r01WtcxTg4yTHm9m",
+          "name": "Eldritch Spear",
+          "sourcePath": "classfeatures/warlock/eldritch-invocations/eldritch-spear.yml",
+          "reason": "invariant-failure",
+          "lookupKey": "Eldritch Spear",
+          "matchedLookupKey": "r01WtcxTg4yTHm9m",
+          "diagnostics": [
+            {
+              "code": "html-tag-sequence",
+              "severity": "blocking",
+              "message": "HTML tag sequence differs from source",
+              "pack": "classfeatures",
+              "id": "r01WtcxTg4yTHm9m",
+              "fieldPath": "system.description.value"
+            },
+            {
+              "code": "html-attributes",
+              "severity": "blocking",
+              "message": "HTML attributes differ from source",
+              "pack": "classfeatures",
+              "id": "r01WtcxTg4yTHm9m",
+              "fieldPath": "system.description.value"
+            },
+            {
+              "code": "foundry-reference-count",
+              "severity": "blocking",
+              "message": "Foundry reference count differs from source",
+              "pack": "classfeatures",
+              "id": "r01WtcxTg4yTHm9m",
+              "fieldPath": "system.description.value"
+            }
+          ]
+        },
+        {
+          "pack": "classfeatures",
+          "id": "rdBPd6CwqXT64iJM",
+          "name": "Repelling Blast",
+          "sourcePath": "classfeatures/warlock/eldritch-invocations/repelling-blast.yml",
+          "reason": "invariant-failure",
+          "lookupKey": "Repelling Blast",
+          "matchedLookupKey": "rdBPd6CwqXT64iJM",
+          "diagnostics": [
+            {
+              "code": "html-tag-sequence",
+              "severity": "blocking",
+              "message": "HTML tag sequence differs from source",
+              "pack": "classfeatures",
+              "id": "rdBPd6CwqXT64iJM",
+              "fieldPath": "system.description.value"
+            },
+            {
+              "code": "html-attributes",
+              "severity": "blocking",
+              "message": "HTML attributes differ from source",
+              "pack": "classfeatures",
+              "id": "rdBPd6CwqXT64iJM",
+              "fieldPath": "system.description.value"
+            },
+            {
+              "code": "foundry-reference-count",
+              "severity": "blocking",
+              "message": "Foundry reference count differs from source",
+              "pack": "classfeatures",
+              "id": "rdBPd6CwqXT64iJM",
+              "fieldPath": "system.description.value"
+            }
+          ]
+        },
+        {
+          "pack": "classfeatures",
           "id": "8MlxM2nEfE3Q0EVk",
           "name": "Eldritch Invocations",
           "sourcePath": "classfeatures/warlock/warlock-features/eldritch-invocations.yml",
@@ -4264,33 +2694,6 @@
               "message": "Foundry reference targets or order differ from source",
               "pack": "classfeatures",
               "id": "8MlxM2nEfE3Q0EVk",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "zB77V8BcCJvWVxck",
-          "name": "Mystic Arcanum",
-          "sourcePath": "classfeatures/warlock/warlock-features/mystic-arcanum.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Mystic Arcanum",
-          "matchedLookupKey": "Mystic Arcanum",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "classfeatures",
-              "id": "zB77V8BcCJvWVxck",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "classfeatures",
-              "id": "zB77V8BcCJvWVxck",
               "fieldPath": "system.description.value"
             }
           ]
@@ -4332,33 +2735,6 @@
         },
         {
           "pack": "classfeatures",
-          "id": "x6IJZwr6f0SGral7",
-          "name": "Pact Magic",
-          "sourcePath": "classfeatures/warlock/warlock-features/pact-magic.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Pact Magic",
-          "matchedLookupKey": "Pact Magic",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "classfeatures",
-              "id": "x6IJZwr6f0SGral7",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "classfeatures",
-              "id": "x6IJZwr6f0SGral7",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classfeatures",
           "id": "Ic1CSjvbWKudVUv9",
           "name": "Pact of the Chain",
           "sourcePath": "classfeatures/warlock/warlock-features/pact-of-the-chain.yml",
@@ -4394,60 +2770,6 @@
         },
         {
           "pack": "classfeatures",
-          "id": "MYM908WLZ1lVvA1u",
-          "name": "Pact of the Tome",
-          "sourcePath": "classfeatures/warlock/warlock-features/pact-of-the-tome.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Pact of the Tome",
-          "matchedLookupKey": "Pact of the Tome",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "classfeatures",
-              "id": "MYM908WLZ1lVvA1u",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "classfeatures",
-              "id": "MYM908WLZ1lVvA1u",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "7O85kj6uDEG5NzUE",
-          "name": "Empowered Evocation",
-          "sourcePath": "classfeatures/wizard/school-of-evocation-features/empowered-evocation.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Empowered Evocation",
-          "matchedLookupKey": "Empowered Evocation",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "classfeatures",
-              "id": "7O85kj6uDEG5NzUE",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "classfeatures",
-              "id": "7O85kj6uDEG5NzUE",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classfeatures",
           "id": "VUtSLeCzFubGXmGx",
           "name": "Overchannel",
           "sourcePath": "classfeatures/wizard/school-of-evocation-features/overchannel.yml",
@@ -4477,33 +2799,6 @@
               "message": "Foundry formulas differ from source",
               "pack": "classfeatures",
               "id": "VUtSLeCzFubGXmGx",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "6VBXkjjBgjSpNElh",
-          "name": "Sculpt Spells",
-          "sourcePath": "classfeatures/wizard/school-of-evocation-features/sculpt-spells.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Sculpt Spells",
-          "matchedLookupKey": "Sculpt Spells",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "classfeatures",
-              "id": "6VBXkjjBgjSpNElh",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "classfeatures",
-              "id": "6VBXkjjBgjSpNElh",
               "fieldPath": "system.description.value"
             }
           ]

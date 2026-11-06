@@ -28,6 +28,22 @@ async function exists(filePath) {
   }
 }
 
+async function buildReferenceLabels(paths) {
+  const labels = new Map();
+  for (const pack of IN_SCOPE_PACKS) {
+    const translationPath = path.join(paths.compendiumRoot, `dnd5e.${pack}.json`);
+    if (!await exists(translationPath)) continue;
+    const sourceRecords = (await loadSourcePack(path.join(paths.sourcePacksRoot, pack))).filter(record => record.kind === "document");
+    const translations = (await loadBabelePack(translationPath)).filter(record => record.kind === "entry");
+    const byKey = new Map(translations.map(record => [record.lookupKey, record]));
+    for (const record of sourceRecords) {
+      const translated = byKey.get(record.id) ?? byKey.get(record.name);
+      if (typeof translated?.data?.name === "string" && translated.data.name) labels.set(record.id, translated.data.name);
+    }
+  }
+  return labels;
+}
+
 export async function runSynchronization(options) {
   const paths = await resolvePaths(options);
   const packs = options.packs ?? IN_SCOPE_PACKS;
@@ -36,6 +52,7 @@ export async function runSynchronization(options) {
   }
 
   const report = { schemaVersion: 1, mode: options.apply ? "apply" : "dry-run", packs: [] };
+  const referenceLabels = await buildReferenceLabels(paths);
   for (const pack of packs) {
     const translationPath = path.join(paths.compendiumRoot, `dnd5e.${pack}.json`);
     const sourceRecords = await loadSourcePack(path.join(paths.sourcePacksRoot, pack));
@@ -44,7 +61,7 @@ export async function runSynchronization(options) {
       ? JSON.parse(await readFile(translationPath, "utf8"))
       : { label: pack, folders: {}, entries: {} };
     const translationRecords = hasTranslation ? await loadBabelePack(translationPath) : [];
-    const plan = planSynchronization({ sourceRecords, translationRecords });
+    const plan = planSynchronization({ sourceRecords, translationRecords, referenceLabels });
 
     const hasSafeChanges = [...plan.safe, ...plan.needsTranslation, ...plan.manualReview].some(item =>
       (item.renameFrom && item.renameFrom !== item.lookupKey) || item.repairs?.length

@@ -90,6 +90,13 @@ test("translationForField resolves Active Effect prose by stable ID", () => {
   assert.equal(translationForField(record, { fieldPath: "effects[effect1].description" }, translation), "Regola");
 });
 
+test("translationForField resolves activity profiles by stable IDs", () => {
+  const record = { data: { system: { activities: { activity1: { name: "Transform", profiles: {} } } } } };
+  const translation = { activities: { activity1: { profiles: { profile1: { name: "GS 1" } } } } };
+  const field = { fieldPath: "system.activities.activity1.profiles[profile1].name" };
+  assert.equal(translationForField(record, field, translation), "GS 1");
+});
+
 test("scoped allowlist permits an approved proper name but not the same value elsewhere", () => {
   const allowlist = [{
     kind: "unchanged-english",

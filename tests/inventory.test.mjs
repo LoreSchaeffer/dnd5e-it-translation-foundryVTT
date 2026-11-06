@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import path from "node:path";
 import test from "node:test";
 
-import { loadBabelePack } from "../scripts/lib/babele-inventory.mjs";
+import { loadBabelePack, lookupKeyForEntry } from "../scripts/lib/babele-inventory.mjs";
 import { loadSourcePack } from "../scripts/lib/source-inventory.mjs";
 import { walkVisibleFields } from "../scripts/lib/visible-fields.mjs";
 
@@ -46,6 +46,11 @@ test("loadBabelePack normalizes entry and folder records", async () => {
     ]
   );
   assert.equal(records[1].data.name, "Prova di Fiamma");
+});
+
+test("Babele entries prefer an explicit stable source ID over a duplicate name", () => {
+  assert.equal(lookupKeyForEntry("Extra Attack", { _id: "fighter-extra-attack" }), "fighter-extra-attack");
+  assert.equal(lookupKeyForEntry("Unique Feature", {}), "Unique Feature");
 });
 
 test("walkVisibleFields includes Item activities and excludes formulas, flags, IDs, and images", async () => {

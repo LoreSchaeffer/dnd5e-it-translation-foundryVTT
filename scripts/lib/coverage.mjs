@@ -69,6 +69,8 @@ export function translationForField(sourceRecord, field, translation) {
   if (match) {
     const activity = sourceRecord.data.system?.activities?.[match[1]];
     const translatedActivity = translation?.activities?.[activity?.name] ?? translation?.activities?.[match[1]];
+    const profile = match[2].match(/^profiles\[([^\]]+)\]\.(.+)$/);
+    if (profile) return translateNestedField(translatedActivity?.profiles?.[profile[1]], profile[2]);
     return translateNestedField(translatedActivity, match[2]);
   }
 
