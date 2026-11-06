@@ -2550,7 +2550,7 @@
     },
     "Potion of Animal Friendship": {
       "name": "Pozione di Amicizia con gli Animali",
-      "description": "<p><em>Agitare questo liquido melmoso mette in evidenza piccoli frammenti: una squama, una lingua di colibrì, un artiglio di gatto o un pelo di scoiattolo.</em></p><div title=\"Page 30\"><div><div><p>Quando bevi questa pozione, per 1 ora puoi lanciare a volontà l’incantesimo <strong>Amicizia con gli Animali</strong> (CD del tiro salvezza 13).</p></div></div></div>",
+      "description": "<p><em>Agitando questo liquido fangoso diventano visibili piccoli frammenti: una squama di pesce, una lingua di colibrì, un artiglio di gatto o un pelo di scoiattolo.</em></p><p>Quando bevi questa pozione, per [[lookup @labels.duration activity=f3MtbdmZa35oIm67]] puoi lanciare a volontà l'incantesimo @UUID[Compendium.dnd5e.spells.Item.hDOENzjuj5WpLq7B]{amicizia con gli animali} (CD del tiro salvezza 13).</p>",
       "activities": {
         "f3MtbdmZa35oIm67": {
           "name": "Bevi"
@@ -2588,7 +2588,7 @@
     },
     "Potion of Climbing": {
       "name": "Pozione di Arrampicata",
-      "description": "<p><em>La pozione è divisa in strati marroni, argentati e grigi che ricordano bande di pietra. Agitando la bottiglia non si riesce a mescolare i colori.</em></p><div title=\"Page 30\"><div><div><p>Quando bevi questa pozione, per 1 ora ottieni velocità di scalata pari alla tua velocità di passeggio. Durante questo periodo hai vantaggio alle prove di Forza (Atletica) che compi per effettuare una scalata.</p></div></div></div>",
+      "description": "<p><em>La pozione è separata in strati marroni, argentati e grigi che ricordano fasce di pietra. Scuotere la bottiglia non fa mescolare i colori.</em></p><p>Quando bevi questa pozione, ottieni una velocità di scalare pari alla tua velocità base sul terreno per [[lookup @labels.duration activity=tbj9v3KiTzZwBX2E]]. Durante questo periodo disponi di vantaggio alle prove di Forza (Atletica) effettuate per scalare.</p>",
       "activities": {
         "tbj9v3KiTzZwBX2E": {
           "name": "Bevi"
@@ -2702,7 +2702,7 @@
     },
     "Potion of Flying": {
       "name": "Pozione di Volo",
-      "description": "<p><em>Il liquido trasparente di questa pozione galleggia nella parte superiore del suo contenitore contenenti impurità bianche e torbide.</em></p><div title=\"Page 31\"><div><div><p>Quando bevi questa pozione, per 1 ora ottieni velocità di volo pari alla tua normale velocità di passeggio e puoi fluttuare. Se la pozione ha termine mentre stai volando, cadi a meno che non possiedi qualche altro metodo per restare in aria.&nbsp;</p></div></div></div><p>&nbsp;</p><p>&nbsp;</p>",
+      "description": "<p><em>Il liquido trasparente di questa pozione galleggia nella parte superiore del contenitore e al suo interno fluttuano impurità bianche simili a nuvole.</em></p><p>Quando bevi questa pozione, ottieni una velocità di volare pari alla tua velocità base sul terreno per [[lookup @labels.duration activity=dQ5KoAo9EfRNjkIg]] e puoi stazionare in volo. Se ti trovi in aria quando l'effetto della pozione termina, cadi, a meno che tu non disponga di un altro mezzo per rimanere sospeso.</p>",
       "activities": {
         "dQ5KoAo9EfRNjkIg": {
           "name": "Bevi"
@@ -2759,7 +2759,7 @@
     },
     "Potion of Gaseous Form": {
       "name": "Pozione di Forma Gassosa",
-      "description": "<p><em>Il contenitore di questa pozione sembra contenere una nebbia che si muove e si riversa come fosse acqua.</em></p><div title=\"Page 30\"><div><div><p>Quando bevi questa pozione, per 1 ora o finché non terminerai l’effetto con un’azione bonus, ottieni l’effetto dell’incantesimo <strong>Forma Gassosa</strong> (non richiede concentrazione).</p></div></div></div>",
+      "description": "<p><em>Il contenitore di questa pozione sembra racchiudere una nebbia che si muove e scorre come acqua.</em></p><p>Quando bevi questa pozione, ottieni l'effetto dell'incantesimo @UUID[Compendium.dnd5e.spells.Item.2IWiZAJtOGDoKjiz]{forma gassosa} per [[lookup @labels.duration activity=CvPLbEm6AY14aSst]] (senza richiedere concentrazione) o finché non termini l'effetto con un'azione bonus.</p>",
       "effects": {
         "SffmmlIyQEG7jM0r": {
           "name": "Forma Gassosa",
@@ -2823,7 +2823,7 @@
     },
     "Potion of Heroism": {
       "name": "Pozione di Eroismo",
-      "description": "<p><em>Questa pozione blu ribolle di vapori come se stesse bollendo.</em></p><div title=\"Page 30\"><div><div><p>Quando bevi questa pozione, ottieni 10 punti ferita temporanei che durano 1 ora. Per la stessa durata sei sotto l’effetto dell’incantesimo <strong>Benedizione</strong> (non richiede concentrazione).&nbsp;</p></div></div></div>",
+      "description": "<p><em>Questa pozione blu ribolle ed emette vapore come se stesse bollendo.</em></p><p>Per [[lookup @labels.duration activity=HXZpxqQDRfm5EL0r]] dopo averla bevuta, ottieni 10 punti ferita temporanei che durano per [[lookup @labels.duration activity=HXZpxqQDRfm5EL0r]]. Per la stessa durata sei sotto l'effetto dell'incantesimo @UUID[Compendium.dnd5e.spells.Item.8dzaICjGy6mTUaUr]{benedizione} (senza richiedere concentrazione).</p>",
       "activities": {
         "HXZpxqQDRfm5EL0r": {
           "name": "Bevi"
@@ -2861,7 +2861,7 @@
     },
     "Potion of Invisibility": {
       "name": "Pozione di Invisibilità",
-      "description": "<p><em>Il contenitore di questa pozione sembra vuoto ma si percepisce che contiene del liquido.</em></p><div title=\"Page 30\"><div><div><p>Quando bevi questa pozione, per 1 ora diventi invisibile. Mentre sei invisibile, tutto ciò che trasporti o indossi resta anch’esso invisibile assieme a te. L’effetto ha termine qualora tu attacchi o lanci un incantesimo.&nbsp;</p></div></div></div><p>&nbsp;</p>",
+      "description": "<p><em>Il contenitore di questa pozione sembra vuoto, ma al tatto pare contenere del liquido.</em></p><p>Quando la bevi, diventi &amp;reference[invisible] per [[lookup @labels.duration activity=V2JumDYJgM7ktIzw]]. Tutto ciò che indossi o trasporti diventa invisibile insieme a te. L'effetto termina anticipatamente se attacchi o lanci un incantesimo.</p>",
       "effects": {
         "oGWqgNUAzC2P3E2m": {
           "name": "Invisibilità",
@@ -3003,7 +3003,7 @@
     },
     "Potion of Speed": {
       "name": "Pozione di Velocità",
-      "description": "<p><em>Il fluido giallo della pozione è striato di nero e vortica da solo.</em></p><div title=\"Page 31\"><div><div><p>Quando bevi questa pozione, ottieni l’effetto dell’incantesimo velocità per 1 minuto (non richiede concentrazione).&nbsp;</p></div></div></div><p>&nbsp;</p>",
+      "description": "<p><em>Il fluido giallo della pozione è striato di nero e vortica da solo.</em></p><p>Quando bevi questa pozione, ottieni l'effetto dell'incantesimo @UUID[Compendium.dnd5e.spells.Item.Szvk5FEVQW3uhJi5]{velocità} per [[lookup @labels.duration activity=Hy33WqORkn5GhlSZ]] (senza richiedere concentrazione).</p>",
       "activities": {
         "Hy33WqORkn5GhlSZ": {
           "name": "Bevi"
@@ -3105,7 +3105,7 @@
     },
     "Potion of Water Breathing": {
       "name": "Pozione di Respirare Sott’Acqua",
-      "description": "<p><em>Il suo fluido verde fumoso odora di mare e al suo interno ha una bolla simile a una medusa.</em></p><div title=\"Page 31\"><div><div><p>Dopo aver bevuto questa pozione, puoi respirare sott’acqua per 1 ora.</p></div></div></div>",
+      "description": "<p><em>Il suo fluido verde torbido odora di mare e al suo interno galleggia una bolla simile a una medusa.</em></p><p>Dopo aver bevuto questa pozione, puoi respirare sott'acqua per [[lookup @labels.duration activity=nAaV0R1Qxq5syAlT]].</p>",
       "activities": {
         "nAaV0R1Qxq5syAlT": {
           "name": "Bevi"

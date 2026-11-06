@@ -2671,11 +2671,27 @@
         },
         {
           "pack": "items",
+          "id": "nXWevqtV6p484N59",
+          "name": "Potion of Animal Friendship",
+          "sourcePath": "items/potion/potion-of-animal-friendship.yml",
+          "lookupKey": "Potion of Animal Friendship",
+          "matchedLookupKey": "Potion of Animal Friendship"
+        },
+        {
+          "pack": "items",
           "id": "bAyr7j5Peq9wIJTa",
           "name": "Potion of Clairvoyance",
           "sourcePath": "items/potion/potion-of-clairvoyance.yml",
           "lookupKey": "Potion of Clairvoyance",
           "matchedLookupKey": "Potion of Clairvoyance"
+        },
+        {
+          "pack": "items",
+          "id": "aMnWi1WXWpxRHq4r",
+          "name": "Potion of Climbing",
+          "sourcePath": "items/potion/potion-of-climbing.yml",
+          "lookupKey": "Potion of Climbing",
+          "matchedLookupKey": "Potion of Climbing"
         },
         {
           "pack": "items",
@@ -2719,6 +2735,14 @@
         },
         {
           "pack": "items",
+          "id": "eTNc8XPtvZNe3yQs",
+          "name": "Potion of Flying",
+          "sourcePath": "items/potion/potion-of-flying.yml",
+          "lookupKey": "Potion of Flying",
+          "matchedLookupKey": "Potion of Flying"
+        },
+        {
+          "pack": "items",
           "id": "kKGJjVVlJVoakWgQ",
           "name": "Potion of Force Resistance",
           "sourcePath": "items/potion/potion-of-force-resistance.yml",
@@ -2732,6 +2756,14 @@
           "sourcePath": "items/potion/potion-of-frost-giant-strength.yml",
           "lookupKey": "Potion of Frost Giant Strength",
           "matchedLookupKey": "Potion of Frost Giant Strength"
+        },
+        {
+          "pack": "items",
+          "id": "bqZ6NTLDCUB98YjV",
+          "name": "Potion of Gaseous Form",
+          "sourcePath": "items/potion/potion-of-gaseous-form.yml",
+          "lookupKey": "Potion of Gaseous Form",
+          "matchedLookupKey": "Potion of Gaseous Form"
         },
         {
           "pack": "items",
@@ -2759,11 +2791,27 @@
         },
         {
           "pack": "items",
+          "id": "wNKYbKYwOHbA7SH8",
+          "name": "Potion of Heroism",
+          "sourcePath": "items/potion/potion-of-heroism.yml",
+          "lookupKey": "Potion of Heroism",
+          "matchedLookupKey": "Potion of Heroism"
+        },
+        {
+          "pack": "items",
           "id": "mhFBTY0egW8AeCHe",
           "name": "Potion of Hill Giant Strength",
           "sourcePath": "items/potion/potion-of-hill-giant-strength.yml",
           "lookupKey": "Potion of Hill Giant Strength",
           "matchedLookupKey": "Potion of Hill Giant Strength"
+        },
+        {
+          "pack": "items",
+          "id": "rTn4p9nJr4Aq2GPB",
+          "name": "Potion of Invisibility",
+          "sourcePath": "items/potion/potion-of-invisibility.yml",
+          "lookupKey": "Potion of Invisibility",
+          "matchedLookupKey": "Potion of Invisibility"
         },
         {
           "pack": "items",
@@ -2815,6 +2863,14 @@
         },
         {
           "pack": "items",
+          "id": "ctKfjHjk9gs9UtZI",
+          "name": "Potion of Speed",
+          "sourcePath": "items/potion/potion-of-speed.yml",
+          "lookupKey": "Potion of Speed",
+          "matchedLookupKey": "Potion of Speed"
+        },
+        {
+          "pack": "items",
           "id": "4ZiJsDTRA1GgcWKP",
           "name": "Potion of Stone Giant Strength",
           "sourcePath": "items/potion/potion-of-stone-giant-strength.yml",
@@ -2852,6 +2908,14 @@
           "sourcePath": "items/potion/potion-of-thunder-resistance.yml",
           "lookupKey": "Potion of Thunder Resistance",
           "matchedLookupKey": "Potion of Thunder Resistance"
+        },
+        {
+          "pack": "items",
+          "id": "CAZMwFBWp9VC0ZCg",
+          "name": "Potion of Water Breathing",
+          "sourcePath": "items/potion/potion-of-water-breathing.yml",
+          "lookupKey": "Potion of Water Breathing",
+          "matchedLookupKey": "Potion of Water Breathing"
         },
         {
           "pack": "items",
@@ -7101,382 +7165,6 @@
               "message": "Foundry data references differ from source",
               "pack": "items",
               "id": "63nb14yQRJMc4bIn",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "nXWevqtV6p484N59",
-          "name": "Potion of Animal Friendship",
-          "sourcePath": "items/potion/potion-of-animal-friendship.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Potion of Animal Friendship",
-          "matchedLookupKey": "Potion of Animal Friendship",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "nXWevqtV6p484N59",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "nXWevqtV6p484N59",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "items",
-              "id": "nXWevqtV6p484N59",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "nXWevqtV6p484N59",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-data-references",
-              "severity": "blocking",
-              "message": "Foundry data references differ from source",
-              "pack": "items",
-              "id": "nXWevqtV6p484N59",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "aMnWi1WXWpxRHq4r",
-          "name": "Potion of Climbing",
-          "sourcePath": "items/potion/potion-of-climbing.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Potion of Climbing",
-          "matchedLookupKey": "Potion of Climbing",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "aMnWi1WXWpxRHq4r",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "aMnWi1WXWpxRHq4r",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "aMnWi1WXWpxRHq4r",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-data-references",
-              "severity": "blocking",
-              "message": "Foundry data references differ from source",
-              "pack": "items",
-              "id": "aMnWi1WXWpxRHq4r",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "eTNc8XPtvZNe3yQs",
-          "name": "Potion of Flying",
-          "sourcePath": "items/potion/potion-of-flying.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Potion of Flying",
-          "matchedLookupKey": "Potion of Flying",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "eTNc8XPtvZNe3yQs",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "eTNc8XPtvZNe3yQs",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "eTNc8XPtvZNe3yQs",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-data-references",
-              "severity": "blocking",
-              "message": "Foundry data references differ from source",
-              "pack": "items",
-              "id": "eTNc8XPtvZNe3yQs",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "bqZ6NTLDCUB98YjV",
-          "name": "Potion of Gaseous Form",
-          "sourcePath": "items/potion/potion-of-gaseous-form.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Potion of Gaseous Form",
-          "matchedLookupKey": "Potion of Gaseous Form",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "bqZ6NTLDCUB98YjV",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "bqZ6NTLDCUB98YjV",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "items",
-              "id": "bqZ6NTLDCUB98YjV",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "bqZ6NTLDCUB98YjV",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-data-references",
-              "severity": "blocking",
-              "message": "Foundry data references differ from source",
-              "pack": "items",
-              "id": "bqZ6NTLDCUB98YjV",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "wNKYbKYwOHbA7SH8",
-          "name": "Potion of Heroism",
-          "sourcePath": "items/potion/potion-of-heroism.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Potion of Heroism",
-          "matchedLookupKey": "Potion of Heroism",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "wNKYbKYwOHbA7SH8",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "wNKYbKYwOHbA7SH8",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "items",
-              "id": "wNKYbKYwOHbA7SH8",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "wNKYbKYwOHbA7SH8",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-data-references",
-              "severity": "blocking",
-              "message": "Foundry data references differ from source",
-              "pack": "items",
-              "id": "wNKYbKYwOHbA7SH8",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "rTn4p9nJr4Aq2GPB",
-          "name": "Potion of Invisibility",
-          "sourcePath": "items/potion/potion-of-invisibility.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Potion of Invisibility",
-          "matchedLookupKey": "Potion of Invisibility",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "rTn4p9nJr4Aq2GPB",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "rTn4p9nJr4Aq2GPB",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "rTn4p9nJr4Aq2GPB",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-data-references",
-              "severity": "blocking",
-              "message": "Foundry data references differ from source",
-              "pack": "items",
-              "id": "rTn4p9nJr4Aq2GPB",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "ctKfjHjk9gs9UtZI",
-          "name": "Potion of Speed",
-          "sourcePath": "items/potion/potion-of-speed.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Potion of Speed",
-          "matchedLookupKey": "Potion of Speed",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "ctKfjHjk9gs9UtZI",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "ctKfjHjk9gs9UtZI",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "items",
-              "id": "ctKfjHjk9gs9UtZI",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "ctKfjHjk9gs9UtZI",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-data-references",
-              "severity": "blocking",
-              "message": "Foundry data references differ from source",
-              "pack": "items",
-              "id": "ctKfjHjk9gs9UtZI",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "CAZMwFBWp9VC0ZCg",
-          "name": "Potion of Water Breathing",
-          "sourcePath": "items/potion/potion-of-water-breathing.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Potion of Water Breathing",
-          "matchedLookupKey": "Potion of Water Breathing",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "CAZMwFBWp9VC0ZCg",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "CAZMwFBWp9VC0ZCg",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "CAZMwFBWp9VC0ZCg",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-data-references",
-              "severity": "blocking",
-              "message": "Foundry data references differ from source",
-              "pack": "items",
-              "id": "CAZMwFBWp9VC0ZCg",
               "fieldPath": "system.description.value"
             }
           ]
