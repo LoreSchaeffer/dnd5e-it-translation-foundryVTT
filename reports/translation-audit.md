@@ -7,7 +7,7 @@
 | classfeatures | 235 | 235 | 0 | 0 | 0 | 0 | 0 |
 | effects | 214 | 214 | 0 | 0 | 0 | 0 | 0 |
 | heroes | 12 | 0 | 0 | 12 | 0 | 466 | 561 |
-| items | 885 | 687 | 0 | 198 | 0 | 0 | 587 |
+| items | 885 | 690 | 0 | 195 | 0 | 0 | 578 |
 | monsterfeatures | 252 | 0 | 61 | 191 | 0 | 132 | 753 |
 | monsters | 337 | 2 | 5 | 330 | 15 | 4810 | 5045 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
@@ -17,7 +17,7 @@
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 7641
+Total blocking issues: 7632
 
 ## Issues
 
@@ -690,9 +690,6 @@ Total blocking issues: 7641
 - **foundry-reference-count** `items:34YKlIJVVWLeBv7R:system.description.value`
 - **foundry-inline-rolls** `items:34YKlIJVVWLeBv7R:system.description.value`
 - **foundry-data-references** `items:34YKlIJVVWLeBv7R:system.description.value`
-- **html-tag-sequence** `items:HY8duCwmvlXOruTG:system.description.value`
-- **html-attributes** `items:HY8duCwmvlXOruTG:system.description.value`
-- **foundry-reference-count** `items:HY8duCwmvlXOruTG:system.description.value`
 - **html-tag-sequence** `items:bEZOY6uvHRweMM56:system.description.value`
 - **html-attributes** `items:bEZOY6uvHRweMM56:system.description.value`
 - **foundry-inline-rolls** `items:bEZOY6uvHRweMM56:system.description.value`
@@ -724,9 +721,6 @@ Total blocking issues: 7641
 - **html-attributes** `items:L887NdWEP5NqHCrQ:system.description.value`
 - **foundry-inline-rolls** `items:L887NdWEP5NqHCrQ:system.description.value`
 - **foundry-formulas** `items:L887NdWEP5NqHCrQ:system.description.value`
-- **html-tag-sequence** `items:gTRFQLdVD1gsKtPi:system.description.value`
-- **html-attributes** `items:gTRFQLdVD1gsKtPi:system.description.value`
-- **foundry-reference-count** `items:gTRFQLdVD1gsKtPi:system.description.value`
 - **html-tag-sequence** `items:ytlsBjYsZ7OBSEBs:system.description.value`
 - **html-attributes** `items:ytlsBjYsZ7OBSEBs:system.description.value`
 - **foundry-inline-rolls** `items:ytlsBjYsZ7OBSEBs:system.description.value`
@@ -749,9 +743,6 @@ Total blocking issues: 7641
 - **foundry-reference-count** `items:8MPnSrvEeZhPhtTi:system.description.value`
 - **foundry-inline-rolls** `items:8MPnSrvEeZhPhtTi:system.description.value`
 - **foundry-data-references** `items:8MPnSrvEeZhPhtTi:system.description.value`
-- **html-tag-sequence** `items:Ct9LR9Ft1FG4a6Y1:system.description.value`
-- **html-attributes** `items:Ct9LR9Ft1FG4a6Y1:system.description.value`
-- **foundry-reference-count** `items:Ct9LR9Ft1FG4a6Y1:system.description.value`
 - **html-tag-sequence** `items:xw99pcqPBVwtMOLw:system.description.value`
 - **html-attributes** `items:xw99pcqPBVwtMOLw:system.description.value`
 - **foundry-reference-count** `items:xw99pcqPBVwtMOLw:system.description.value`

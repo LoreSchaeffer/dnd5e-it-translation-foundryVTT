@@ -2575,6 +2575,30 @@
         },
         {
           "pack": "items",
+          "id": "HY8duCwmvlXOruTG",
+          "name": "Potion of Diminution",
+          "sourcePath": "items/potion/potion-of-diminution.yml",
+          "lookupKey": "Potion of Diminution",
+          "matchedLookupKey": "Potion of Diminution"
+        },
+        {
+          "pack": "items",
+          "id": "gTRFQLdVD1gsKtPi",
+          "name": "Potion of Growth",
+          "sourcePath": "items/potion/potion-of-growth.yml",
+          "lookupKey": "Potion of Growth",
+          "matchedLookupKey": "Potion of Growth"
+        },
+        {
+          "pack": "items",
+          "id": "Ct9LR9Ft1FG4a6Y1",
+          "name": "Potion of Mind Reading",
+          "sourcePath": "items/potion/potion-of-mind-reading.yml",
+          "lookupKey": "Potion of Mind Reading",
+          "matchedLookupKey": "Potion of Mind Reading"
+        },
+        {
+          "pack": "items",
           "id": "WO8DLfz3G2QZ5njs",
           "name": "Ring of Acid Resistance",
           "sourcePath": "items/ring/ring-of-acid-resistance.yml",
@@ -7070,41 +7094,6 @@
         },
         {
           "pack": "items",
-          "id": "HY8duCwmvlXOruTG",
-          "name": "Potion of Diminution",
-          "sourcePath": "items/potion/potion-of-diminution.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Potion of Diminution",
-          "matchedLookupKey": "Potion of Diminution",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "HY8duCwmvlXOruTG",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "HY8duCwmvlXOruTG",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "items",
-              "id": "HY8duCwmvlXOruTG",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
           "id": "bEZOY6uvHRweMM56",
           "name": "Potion of Fire Giant Strength",
           "sourcePath": "items/potion/potion-of-fire-giant-strength.yml",
@@ -7430,41 +7419,6 @@
         },
         {
           "pack": "items",
-          "id": "gTRFQLdVD1gsKtPi",
-          "name": "Potion of Growth",
-          "sourcePath": "items/potion/potion-of-growth.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Potion of Growth",
-          "matchedLookupKey": "Potion of Growth",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "gTRFQLdVD1gsKtPi",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "gTRFQLdVD1gsKtPi",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "items",
-              "id": "gTRFQLdVD1gsKtPi",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
           "id": "ytlsBjYsZ7OBSEBs",
           "name": "Potion of Healing",
           "sourcePath": "items/potion/potion-of-healing.yml",
@@ -7690,41 +7644,6 @@
               "message": "Foundry data references differ from source",
               "pack": "items",
               "id": "8MPnSrvEeZhPhtTi",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "Ct9LR9Ft1FG4a6Y1",
-          "name": "Potion of Mind Reading",
-          "sourcePath": "items/potion/potion-of-mind-reading.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Potion of Mind Reading",
-          "matchedLookupKey": "Potion of Mind Reading",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "Ct9LR9Ft1FG4a6Y1",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "Ct9LR9Ft1FG4a6Y1",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "items",
-              "id": "Ct9LR9Ft1FG4a6Y1",
               "fieldPath": "system.description.value"
             }
           ]
