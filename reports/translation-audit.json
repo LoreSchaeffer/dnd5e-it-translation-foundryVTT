@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 7719,
-      "missing": 7941,
+      "translated": 7752,
+      "missing": 7908,
       "invariantFailures": 2398,
       "englishResiduals": 135,
       "imperialResiduals": 4
     },
-    "blockingIssues": 10419
+    "blockingIssues": 10386
   },
   "packs": [
     {
@@ -5331,8 +5331,8 @@
         },
         "fields": {
           "total": 2227,
-          "translated": 1733,
-          "missing": 494,
+          "translated": 1753,
+          "missing": 474,
           "invariantFailures": 1045,
           "englishResiduals": 46,
           "imperialResiduals": 2
@@ -9132,15 +9132,6 @@
           "pack": "items",
           "id": "zgZkJAyFAfYmyn11",
           "name": "Potion of Acid Resistance",
-          "fieldPath": "effects[7bDbdK6YYorswEGe].name",
-          "sourcePath": "items/potion/potion-of-acid-resistance.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "zgZkJAyFAfYmyn11",
-          "name": "Potion of Acid Resistance",
           "fieldPath": "effects[7bDbdK6YYorswEGe].description",
           "sourcePath": "items/potion/potion-of-acid-resistance.yml"
         },
@@ -9547,15 +9538,6 @@
           "pack": "items",
           "id": "34YKlIJVVWLeBv7R",
           "name": "Potion of Cold Resistance",
-          "fieldPath": "effects[iYO0o4oLErq9j3ph].name",
-          "sourcePath": "items/potion/potion-of-cold-resistance.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "34YKlIJVVWLeBv7R",
-          "name": "Potion of Cold Resistance",
           "fieldPath": "effects[iYO0o4oLErq9j3ph].description",
           "sourcePath": "items/potion/potion-of-cold-resistance.yml"
         },
@@ -9797,15 +9779,6 @@
           "sourcePath": "items/potion/potion-of-fire-resistance.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "Jj4iFQQGvckx8Wsj",
-          "name": "Potion of Fire Resistance",
-          "fieldPath": "effects[camHDa74ZwAPUqmG].name",
-          "sourcePath": "items/potion/potion-of-fire-resistance.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -9965,15 +9938,6 @@
           "id": "kKGJjVVlJVoakWgQ",
           "name": "Potion of Force Resistance",
           "fieldPath": "system.activities.WBQEjgocMEcDWwnO.name",
-          "sourcePath": "items/potion/potion-of-force-resistance.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "kKGJjVVlJVoakWgQ",
-          "name": "Potion of Force Resistance",
-          "fieldPath": "effects[d8PTXF30xWHZcQGt].name",
           "sourcePath": "items/potion/potion-of-force-resistance.yml"
         },
         {
@@ -10704,15 +10668,6 @@
           "pack": "items",
           "id": "8MPnSrvEeZhPhtTi",
           "name": "Potion of Lightning Resistance",
-          "fieldPath": "effects[o5uwUilyOmZKavPX].name",
-          "sourcePath": "items/potion/potion-of-lightning-resistance.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "8MPnSrvEeZhPhtTi",
-          "name": "Potion of Lightning Resistance",
           "fieldPath": "effects[o5uwUilyOmZKavPX].description",
           "sourcePath": "items/potion/potion-of-lightning-resistance.yml"
         },
@@ -10874,15 +10829,6 @@
           "pack": "items",
           "id": "xw99pcqPBVwtMOLw",
           "name": "Potion of Necrotic Resistance",
-          "fieldPath": "effects[MKFIbvGusGUaKtav].name",
-          "sourcePath": "items/potion/potion-of-necrotic-resistance.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "xw99pcqPBVwtMOLw",
-          "name": "Potion of Necrotic Resistance",
           "fieldPath": "effects[MKFIbvGusGUaKtav].description",
           "sourcePath": "items/potion/potion-of-necrotic-resistance.yml"
         },
@@ -10961,15 +10907,6 @@
           "id": "f5chGcpQCi1HYPQw",
           "name": "Potion of Poison Resistance",
           "fieldPath": "system.activities.AqP9tNv6zZ2N6PLi.name",
-          "sourcePath": "items/potion/potion-of-poison-resistance.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "f5chGcpQCi1HYPQw",
-          "name": "Potion of Poison Resistance",
-          "fieldPath": "effects[vkhMbnwDVjFzcSsl].name",
           "sourcePath": "items/potion/potion-of-poison-resistance.yml"
         },
         {
@@ -11064,15 +11001,6 @@
           "pack": "items",
           "id": "c0luemOP0iW8L23R",
           "name": "Potion of Psychic Resistance",
-          "fieldPath": "effects[uvppImdMsIuq4DrH].name",
-          "sourcePath": "items/potion/potion-of-psychic-resistance.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "c0luemOP0iW8L23R",
-          "name": "Potion of Psychic Resistance",
           "fieldPath": "effects[uvppImdMsIuq4DrH].description",
           "sourcePath": "items/potion/potion-of-psychic-resistance.yml"
         },
@@ -11151,15 +11079,6 @@
           "id": "LBQWNqX6hZOKhQ8a",
           "name": "Potion of Radiant Resistance",
           "fieldPath": "system.activities.y2q1JJGZ4PCRK6VZ.name",
-          "sourcePath": "items/potion/potion-of-radiant-resistance.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "LBQWNqX6hZOKhQ8a",
-          "name": "Potion of Radiant Resistance",
-          "fieldPath": "effects[eEef3fb2MpkTeguM].name",
           "sourcePath": "items/potion/potion-of-radiant-resistance.yml"
         },
         {
@@ -11613,15 +11532,6 @@
           "pack": "items",
           "id": "zBX8LLC2CjC89Dzl",
           "name": "Potion of Thunder Resistance",
-          "fieldPath": "effects[QlQh25ywP4LsgKtg].name",
-          "sourcePath": "items/potion/potion-of-thunder-resistance.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "zBX8LLC2CjC89Dzl",
-          "name": "Potion of Thunder Resistance",
           "fieldPath": "effects[QlQh25ywP4LsgKtg].description",
           "sourcePath": "items/potion/potion-of-thunder-resistance.yml"
         },
@@ -11817,15 +11727,6 @@
           "sourcePath": "items/ring/ring-of-acid-resistance.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "WO8DLfz3G2QZ5njs",
-          "name": "Ring of Acid Resistance",
-          "fieldPath": "effects[NzVwKK7m4hyuM9mj].name",
-          "sourcePath": "items/ring/ring-of-acid-resistance.yml"
-        },
-        {
           "code": "foundry-references",
           "severity": "blocking",
           "message": "Foundry reference targets or order differ from source",
@@ -11863,15 +11764,6 @@
           "id": "fvezXwRJ5PqUf5NN",
           "fieldPath": "system.description.value",
           "name": "Ring of Cold Resistance",
-          "sourcePath": "items/ring/ring-of-cold-resistance.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "fvezXwRJ5PqUf5NN",
-          "name": "Ring of Cold Resistance",
-          "fieldPath": "effects[CAjjSlAL03FoHZTh].name",
           "sourcePath": "items/ring/ring-of-cold-resistance.yml"
         },
         {
@@ -11984,15 +11876,6 @@
           "sourcePath": "items/ring/ring-of-fire-resistance.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "3X7vdOjnCSpi40yn",
-          "name": "Ring of Fire Resistance",
-          "fieldPath": "effects[EPBtrUOhBWgX3LhQ].name",
-          "sourcePath": "items/ring/ring-of-fire-resistance.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -12020,15 +11903,6 @@
           "id": "ScxK8YNU5dWELhlQ",
           "fieldPath": "system.description.value",
           "name": "Ring of Force Resistance",
-          "sourcePath": "items/ring/ring-of-force-resistance.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "ScxK8YNU5dWELhlQ",
-          "name": "Ring of Force Resistance",
-          "fieldPath": "effects[y8drVXZVVSUBDHiS].name",
           "sourcePath": "items/ring/ring-of-force-resistance.yml"
         },
         {
@@ -12094,15 +11968,6 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "items",
-          "id": "XJ8CG4UvLELCmOi2",
-          "name": "Ring of Lightning Resistance",
-          "fieldPath": "effects[1IBWPMloNPjXPnTo].name",
-          "sourcePath": "items/ring/ring-of-lightning-resistance.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
           "id": "dGnkwePemh7ovuDv",
           "name": "Ring of Mind Shielding",
           "fieldPath": "system.activities.dnd5eactivity000.name",
@@ -12139,15 +12004,6 @@
           "sourcePath": "items/ring/ring-of-necrotic-resistance.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "qMGkmzfLHfXd7DiJ",
-          "name": "Ring of Necrotic Resistance",
-          "fieldPath": "effects[Hz85SIRCXkqWzWL3].name",
-          "sourcePath": "items/ring/ring-of-necrotic-resistance.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -12175,15 +12031,6 @@
           "id": "5SorTMl8NKDO9Yge",
           "fieldPath": "system.description.value",
           "name": "Ring of Poison Resistance",
-          "sourcePath": "items/ring/ring-of-poison-resistance.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "5SorTMl8NKDO9Yge",
-          "name": "Ring of Poison Resistance",
-          "fieldPath": "effects[3tapgRkSFBeqcTH0].name",
           "sourcePath": "items/ring/ring-of-poison-resistance.yml"
         },
         {
@@ -12217,15 +12064,6 @@
           "sourcePath": "items/ring/ring-of-psychic-resistance.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "Q7E6MgPzVkwBeZ6l",
-          "name": "Ring of Psychic Resistance",
-          "fieldPath": "effects[euYYPfyCFWqOW1Qx].name",
-          "sourcePath": "items/ring/ring-of-psychic-resistance.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -12253,15 +12091,6 @@
           "id": "IrC5LPbWNxlAQoK7",
           "fieldPath": "system.description.value",
           "name": "Ring of Radiant Resistance",
-          "sourcePath": "items/ring/ring-of-radiant-resistance.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "IrC5LPbWNxlAQoK7",
-          "name": "Ring of Radiant Resistance",
-          "fieldPath": "effects[gRodAMS7XGgoYSpq].name",
           "sourcePath": "items/ring/ring-of-radiant-resistance.yml"
         },
         {
@@ -12461,15 +12290,6 @@
           "id": "IpBBqr0r7JanyVn0",
           "fieldPath": "system.description.value",
           "name": "Ring of Thunder Resistance",
-          "sourcePath": "items/ring/ring-of-thunder-resistance.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "IpBBqr0r7JanyVn0",
-          "name": "Ring of Thunder Resistance",
-          "fieldPath": "effects[BuDRWmDb8IbiCjLs].name",
           "sourcePath": "items/ring/ring-of-thunder-resistance.yml"
         },
         {
@@ -80851,8 +80671,8 @@
         },
         "fields": {
           "total": 2007,
-          "translated": 918,
-          "missing": 1089,
+          "translated": 931,
+          "missing": 1076,
           "invariantFailures": 406,
           "englishResiduals": 17,
           "imperialResiduals": 2
@@ -94012,25 +93832,7 @@
           "pack": "spells",
           "id": "3okM6Gn63zzEULkz",
           "name": "Wish",
-          "fieldPath": "effects[ZGUs6XyEiVhupfxs].name",
-          "sourcePath": "spells/9th-level/wish.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "3okM6Gn63zzEULkz",
-          "name": "Wish",
           "fieldPath": "effects[ZGUs6XyEiVhupfxs].description",
-          "sourcePath": "spells/9th-level/wish.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "3okM6Gn63zzEULkz",
-          "name": "Wish",
-          "fieldPath": "effects[RsfQJVpVW6BCoBpf].name",
           "sourcePath": "spells/9th-level/wish.yml"
         },
         {
@@ -94048,25 +93850,7 @@
           "pack": "spells",
           "id": "3okM6Gn63zzEULkz",
           "name": "Wish",
-          "fieldPath": "effects[aPWFW5wxTiftsaNv].name",
-          "sourcePath": "spells/9th-level/wish.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "3okM6Gn63zzEULkz",
-          "name": "Wish",
           "fieldPath": "effects[aPWFW5wxTiftsaNv].description",
-          "sourcePath": "spells/9th-level/wish.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "3okM6Gn63zzEULkz",
-          "name": "Wish",
-          "fieldPath": "effects[N9eB29lBOFMj6YQS].name",
           "sourcePath": "spells/9th-level/wish.yml"
         },
         {
@@ -94084,25 +93868,7 @@
           "pack": "spells",
           "id": "3okM6Gn63zzEULkz",
           "name": "Wish",
-          "fieldPath": "effects[JdSUqFz6TFuQBqU4].name",
-          "sourcePath": "spells/9th-level/wish.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "3okM6Gn63zzEULkz",
-          "name": "Wish",
           "fieldPath": "effects[JdSUqFz6TFuQBqU4].description",
-          "sourcePath": "spells/9th-level/wish.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "3okM6Gn63zzEULkz",
-          "name": "Wish",
-          "fieldPath": "effects[9g5ioU44S0IIIE7N].name",
           "sourcePath": "spells/9th-level/wish.yml"
         },
         {
@@ -94120,25 +93886,7 @@
           "pack": "spells",
           "id": "3okM6Gn63zzEULkz",
           "name": "Wish",
-          "fieldPath": "effects[bwOhsXgOgwViMUIq].name",
-          "sourcePath": "spells/9th-level/wish.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "3okM6Gn63zzEULkz",
-          "name": "Wish",
           "fieldPath": "effects[bwOhsXgOgwViMUIq].description",
-          "sourcePath": "spells/9th-level/wish.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "3okM6Gn63zzEULkz",
-          "name": "Wish",
-          "fieldPath": "effects[muNTqdPikqsok8nd].name",
           "sourcePath": "spells/9th-level/wish.yml"
         },
         {
@@ -94156,25 +93904,7 @@
           "pack": "spells",
           "id": "3okM6Gn63zzEULkz",
           "name": "Wish",
-          "fieldPath": "effects[sB9UWRUrZxxt19wX].name",
-          "sourcePath": "spells/9th-level/wish.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "3okM6Gn63zzEULkz",
-          "name": "Wish",
           "fieldPath": "effects[sB9UWRUrZxxt19wX].description",
-          "sourcePath": "spells/9th-level/wish.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "3okM6Gn63zzEULkz",
-          "name": "Wish",
-          "fieldPath": "effects[hARpKSAZFBZILJ8L].name",
           "sourcePath": "spells/9th-level/wish.yml"
         },
         {
@@ -94192,15 +93922,6 @@
           "pack": "spells",
           "id": "3okM6Gn63zzEULkz",
           "name": "Wish",
-          "fieldPath": "effects[WjdaHgMyQCSNPhK9].name",
-          "sourcePath": "spells/9th-level/wish.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "3okM6Gn63zzEULkz",
-          "name": "Wish",
           "fieldPath": "effects[WjdaHgMyQCSNPhK9].description",
           "sourcePath": "spells/9th-level/wish.yml"
         },
@@ -94210,25 +93931,7 @@
           "pack": "spells",
           "id": "3okM6Gn63zzEULkz",
           "name": "Wish",
-          "fieldPath": "effects[G1R0YJuXHKDF3ig1].name",
-          "sourcePath": "spells/9th-level/wish.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "3okM6Gn63zzEULkz",
-          "name": "Wish",
           "fieldPath": "effects[G1R0YJuXHKDF3ig1].description",
-          "sourcePath": "spells/9th-level/wish.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "3okM6Gn63zzEULkz",
-          "name": "Wish",
-          "fieldPath": "effects[a58k6ZCEYLCko09e].name",
           "sourcePath": "spells/9th-level/wish.yml"
         },
         {
