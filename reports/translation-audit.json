@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1671,
+      "translated": 1675,
       "missing": 69,
-      "partial": 651,
+      "partial": 647,
       "review": 111
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 1150,
+      "invariantFailures": 1142,
       "englishResiduals": 113,
       "imperialResiduals": 2
     },
-    "blockingIssues": 7348
+    "blockingIssues": 7340
   },
   "packs": [
     {
@@ -5317,9 +5317,9 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 783,
+          "translated": 787,
           "missing": 0,
-          "partial": 102,
+          "partial": 98,
           "review": 41
         },
         "folders": {
@@ -5333,92 +5333,12 @@
           "total": 2227,
           "translated": 2227,
           "missing": 0,
-          "invariantFailures": 203,
+          "invariantFailures": 195,
           "englishResiduals": 41,
           "imperialResiduals": 2
         }
       },
       "issues": [
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "aXsfZvDCdpuv3Yvb",
-          "fieldPath": "system.description.value",
-          "name": "Arrow of Slaying",
-          "sourcePath": "items/ammunition/arrow-of-slaying.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "aXsfZvDCdpuv3Yvb",
-          "fieldPath": "system.description.value",
-          "name": "Arrow of Slaying",
-          "sourcePath": "items/ammunition/arrow-of-slaying.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "z9SbsMIBZzuhZOqT",
-          "fieldPath": "system.description.value",
-          "name": "Sling Bullet",
-          "sourcePath": "items/ammunition/sling-bullet.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "z9SbsMIBZzuhZOqT",
-          "fieldPath": "system.description.value",
-          "name": "Sling Bullet",
-          "sourcePath": "items/ammunition/sling-bullet.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "uWUD93jwuO2Jxkti",
-          "fieldPath": "system.description.value",
-          "name": "Arrow-Catching Shield",
-          "sourcePath": "items/armor/arrow-catching-shield.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "uWUD93jwuO2Jxkti",
-          "fieldPath": "system.description.value",
-          "name": "Arrow-Catching Shield",
-          "sourcePath": "items/armor/arrow-catching-shield.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "dJjdWdaZU30r1zx4",
-          "fieldPath": "system.description.value",
-          "name": "Plate Armor of Etherealness",
-          "sourcePath": "items/armor/plate-armor-of-etherealness.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "dJjdWdaZU30r1zx4",
-          "fieldPath": "system.description.value",
-          "name": "Plate Armor of Etherealness",
-          "sourcePath": "items/armor/plate-armor-of-etherealness.yml"
-        },
         {
           "code": "html-tag-sequence",
           "severity": "blocking",

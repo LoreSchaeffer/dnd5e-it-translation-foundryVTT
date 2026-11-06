@@ -31,6 +31,14 @@
         },
         {
           "pack": "items",
+          "id": "aXsfZvDCdpuv3Yvb",
+          "name": "Arrow of Slaying",
+          "sourcePath": "items/ammunition/arrow-of-slaying.yml",
+          "lookupKey": "Arrow of Slaying",
+          "matchedLookupKey": "Arrow of Slaying"
+        },
+        {
+          "pack": "items",
           "id": "3c7JXOzsv55gqJS5",
           "name": "Arrow",
           "sourcePath": "items/ammunition/arrow.yml",
@@ -119,6 +127,14 @@
         },
         {
           "pack": "items",
+          "id": "z9SbsMIBZzuhZOqT",
+          "name": "Sling Bullet",
+          "sourcePath": "items/ammunition/sling-bullet.yml",
+          "lookupKey": "Sling Bullet",
+          "matchedLookupKey": "Sling Bullet"
+        },
+        {
+          "pack": "items",
           "id": "DevmObXWP9MfwE2c",
           "name": "Adamantine Breastplate",
           "sourcePath": "items/armor/adamantine-breastplate.yml",
@@ -204,6 +220,14 @@
           "sourcePath": "items/armor/armor-of-vulnerability.yml",
           "lookupKey": "Armor of Vulnerability",
           "matchedLookupKey": "Armor of Vulnerability"
+        },
+        {
+          "pack": "items",
+          "id": "uWUD93jwuO2Jxkti",
+          "name": "Arrow-Catching Shield",
+          "sourcePath": "items/armor/arrow-catching-shield.yml",
+          "lookupKey": "Arrow-Catching Shield",
+          "matchedLookupKey": "Arrow-Catching Shield"
         },
         {
           "pack": "items",
@@ -612,6 +636,14 @@
           "sourcePath": "items/armor/plate-armor-3.yml",
           "lookupKey": "Plate Armor +3",
           "matchedLookupKey": "Plate Armor +3"
+        },
+        {
+          "pack": "items",
+          "id": "dJjdWdaZU30r1zx4",
+          "name": "Plate Armor of Etherealness",
+          "sourcePath": "items/armor/plate-armor-of-etherealness.yml",
+          "lookupKey": "Plate Armor of Etherealness",
+          "matchedLookupKey": "Plate Armor of Etherealness"
         },
         {
           "pack": "items",
@@ -6576,114 +6608,6 @@
       ],
       "needsTranslation": [],
       "manualReview": [
-        {
-          "pack": "items",
-          "id": "aXsfZvDCdpuv3Yvb",
-          "name": "Arrow of Slaying",
-          "sourcePath": "items/ammunition/arrow-of-slaying.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Arrow of Slaying",
-          "matchedLookupKey": "Arrow of Slaying",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "aXsfZvDCdpuv3Yvb",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "aXsfZvDCdpuv3Yvb",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "z9SbsMIBZzuhZOqT",
-          "name": "Sling Bullet",
-          "sourcePath": "items/ammunition/sling-bullet.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Sling Bullet",
-          "matchedLookupKey": "Sling Bullet",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "z9SbsMIBZzuhZOqT",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "z9SbsMIBZzuhZOqT",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "uWUD93jwuO2Jxkti",
-          "name": "Arrow-Catching Shield",
-          "sourcePath": "items/armor/arrow-catching-shield.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Arrow-Catching Shield",
-          "matchedLookupKey": "Arrow-Catching Shield",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "uWUD93jwuO2Jxkti",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "uWUD93jwuO2Jxkti",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "dJjdWdaZU30r1zx4",
-          "name": "Plate Armor of Etherealness",
-          "sourcePath": "items/armor/plate-armor-of-etherealness.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Plate Armor of Etherealness",
-          "matchedLookupKey": "Plate Armor of Etherealness",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "dJjdWdaZU30r1zx4",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-references",
-              "severity": "blocking",
-              "message": "Foundry reference targets or order differ from source",
-              "pack": "items",
-              "id": "dJjdWdaZU30r1zx4",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
         {
           "pack": "items",
           "id": "50N8zf58FR4JWR05",

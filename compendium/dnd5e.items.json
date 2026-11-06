@@ -230,11 +230,11 @@
     },
     "Arrow of Slaying": {
       "name": "Freccia Assassina",
-      "description": "<p>Una freccia assassina è un’arma magica creata per uccidere un particolare tipo di creatura. Alcune frecce sono più specializzate di altre; esistono, per esempio, sia frecce assassine dei draghi che frecce assassine dei draghi blu. Se una creatura appartenente al tipo, razza o gruppo associato alla freccia assassina subisce danni da essa, la creatura deve effettuare un tiro salvezza su Costituzione con CD 17; se lo fallisce, subisce 6d10 danni perforanti extra, mentre se io supera, subisce la metà di quei danni.</p><p>Una volta che la freccia assassina ha inflitto i suoi danni&nbsp;extra a una creatura, diventa una freccia non magica.</p>"
+      "description": "<p>Una freccia assassina è un'arma magica creata per uccidere un particolare tipo di creatura. Alcune sono più specifiche di altre; per esempio, esistono sia frecce assassine dei draghi sia frecce assassine dei draghi blu. Se una creatura appartenente al tipo, alla razza o al gruppo associato a una freccia assassina subisce danni dalla freccia, deve effettuare un tiro salvezza su Costituzione con CD 17; se lo fallisce, subisce 6d10 danni perforanti extra, mentre se lo supera subisce la metà di quei danni extra.<br />Dopo che una freccia assassina ha inflitto i suoi danni extra a una creatura, diventa una freccia non magica.</p>"
     },
     "Arrow-Catching Shield": {
       "name": "Scudo Catturafrecce",
-      "description": "<div><em>(Richiede sintonia)</em></div><p>Il personaggio che impugna questo scudo riceve un bonus di +2 alla CA contro gli attacchi a distanza. Questo bonus si somma al normale bonus alla CA conferito dallo scudo. Inoltre, ogni volta che un avversario effettua un attacco a distanza contro un bersaglio entro 1,5 metri dal possessore dello scudo, quest&rsquo;ultimo pu&ograve; usare la sua reazione per diventare il bersaglio dell&rsquo;attacco al posto di quello inteso.</p>"
+      "description": "<p>Ottieni un bonus di +2 alla CA contro gli attacchi a distanza mentre impugni questo scudo. Il bonus si aggiunge al normale bonus alla CA dello scudo. Inoltre, ogni volta che un attaccante effettua un attacco a distanza contro un bersaglio entro 1,5 metri da te, puoi usare la tua reazione per diventare invece tu il bersaglio dell'attacco.</p>"
     },
     "Arrows": {
       "name": "Frecce",
@@ -2502,7 +2502,7 @@
     },
     "Plate Armor of Etherealness": {
       "name": "Armatura Completa della Forma Eterea",
-      "description": "<p><em>(Richiede Sintonia)</em></p><p>Finché il personaggio indossa questa armatura, può usare un’azione per pronunciare la sua parola d’ordine e ottenere gli effetti dell’incantesimo&nbsp;<em>@Compendium[dnd5e.spells.PQuEgKyCdovOvhqN]{Forma Eterea} </em>per 10 minuti, finché non toglie l’armatura o finché non usa un’azione per pronunciare di nuovo la sua parola d’ordine. Questa proprietà non può essere riutilizzata fino all’alba successiva.</p>"
+      "description": "<p><em>(Richiede sintonia)</em></p><p>Un'armatura completa è costituita da piastre metalliche sagomate e interconnesse che coprono l'intero corpo. Comprende guanti d'arme, pesanti stivali di cuoio, un elmo con visiera e spessi strati di imbottitura sotto l'armatura. Fibbie e cinghie distribuiscono il peso sul corpo. Questa particolare armatura è stata incisa con rune magiche o trattata con altri mezzi per infonderle potere.</p><p>Finché indossi questa armatura, puoi pronunciarne la parola di comando come azione per ottenere l'effetto dell'incantesimo @UUID[Compendium.dnd5e.spells.Item.PQuEgKyCdovOvhqN]{forma eterea}, che dura 10 minuti o finché non rimuovi l'armatura o usi un'azione per pronunciare nuovamente la parola di comando. Questa proprietà dell'armatura non può essere usata di nuovo fino all'alba successiva.</p>"
     },
     "Plate Armor of Resistance": {
       "name": "Armatura Completa della Resistenza",
@@ -3784,8 +3784,8 @@
       "description": "<p><em>Che sia per un dono demoniaco, un lascito celeste, un folle esperimento o magistrale artigianato, questa arma è potenziata perchè il portatore&nbsp;possa causare&nbsp;un maggior spargimento di sangue.</em></p><p>Il personaggio ottiene un bonus di +3 ai tiri per colpire e ai tiri per i danni effettuati con quest’arma magica.</p>"
     },
     "Sling Bullet": {
-      "name": "Proiettili da Fionda",
-      "description": "<p>Un corpo contundente di pietra, osso o metallo che può essere lanciato ad alta velocità usando una fionda.</p>"
+      "name": "Proiettile da Fionda",
+      "description": "<p>Un ciottolo indurito di pietra, osso o metallo che può essere scagliato ad alta velocità usando una fionda.</p><section class=\"secret foundry-note\" id=\"secret-nfge79saW8cFjJrx\"><p><strong>Nota di Foundry</strong></p><p>Di solito è impossibile acquistare un solo proiettile da fionda, poiché vale meno di una moneta di rame (5 proiettili = 1 mr).</p></section>"
     },
     "Sling Bullet +1": {
       "name": "Proiettile da Fionda +1",
