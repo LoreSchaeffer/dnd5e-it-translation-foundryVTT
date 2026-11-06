@@ -60,6 +60,16 @@ test("detectResiduals does not treat the Italian preposition in as inches", () =
   assert.equal(issues.some(item => item.code === "imperial-unit"), false);
 });
 
+test("detectResiduals does not treat the Italian noun creature as English", () => {
+  const issues = detectResiduals({
+    source: "Creatures in the area are affected.",
+    translation: "Le creature nell'area sono influenzate.",
+    context: { pack: "rules", id: "creature-it", fieldPath: "description" },
+    allowlist: []
+  });
+  assert.equal(issues.some(issue => issue.code === "english-residual"), false);
+});
+
 test("translationForField resolves stable IDs in structured advancement arrays", () => {
   const record = {
     data: {
