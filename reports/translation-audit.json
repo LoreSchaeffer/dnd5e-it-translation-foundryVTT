@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 8730,
-      "missing": 6930,
+      "translated": 8733,
+      "missing": 6927,
       "invariantFailures": 2394,
       "englishResiduals": 135,
       "imperialResiduals": 4
     },
-    "blockingIssues": 9404
+    "blockingIssues": 9401
   },
   "packs": [
     {
@@ -5331,8 +5331,8 @@
         },
         "fields": {
           "total": 2227,
-          "translated": 2003,
-          "missing": 224,
+          "translated": 2006,
+          "missing": 221,
           "invariantFailures": 1041,
           "englishResiduals": 46,
           "imperialResiduals": 2
@@ -8485,15 +8485,6 @@
           "sourcePath": "items/potion/oil-of-etherealness.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "Xbq8CyXSRV358SfP",
-          "name": "Oil of Etherealness",
-          "fieldPath": "effects[LajiYiJL7B2TZLUZ].description",
-          "sourcePath": "items/potion/oil-of-etherealness.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -8840,15 +8831,6 @@
           "sourcePath": "items/potion/potion-of-clairvoyance.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "bAyr7j5Peq9wIJTa",
-          "name": "Potion of Clairvoyance",
-          "fieldPath": "effects[e5WEPmqHuxJlwMmB].description",
-          "sourcePath": "items/potion/potion-of-clairvoyance.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -9920,15 +9902,6 @@
           "id": "Ct9LR9Ft1FG4a6Y1",
           "name": "Potion of Mind Reading",
           "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/potion/potion-of-mind-reading.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "Ct9LR9Ft1FG4a6Y1",
-          "name": "Potion of Mind Reading",
-          "fieldPath": "effects[sGtB63gv4o99IFMT].description",
           "sourcePath": "items/potion/potion-of-mind-reading.yml"
         },
         {

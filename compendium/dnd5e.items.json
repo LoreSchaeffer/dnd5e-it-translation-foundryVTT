@@ -2348,7 +2348,8 @@
       "description": "<p><em>Le bolle di questo olio grigio nuvoloso si formano all'esterno del suo contenitore ed evaporano rapidamente.</em><em>&nbsp;&nbsp;</em></p><p>Una dose di olio &egrave; sufficiente a ricoprire una creatura di taglia Media o inferiore, e l&rsquo;equipaggiamento che indossa e trasporta (&egrave; necessaria un&rsquo;ulteriore fiala per ogni categoria di taglia sopra la Media). Applicare l&rsquo;olio richiede 10 minuti. Dopodich&eacute; la creatura ottiene l&rsquo;effetto dell&rsquo;incantesimo <strong>Forma Eterea</strong> per 1 ora.&nbsp;</p>",
       "effects": {
         "LajiYiJL7B2TZLUZ": {
-          "name": "Forma Eterea"
+          "name": "Forma Eterea",
+          "description": "<p>Entri nelle regioni di confine del Piano Etereo, nell'area dove si sovrappone al tuo piano attuale. Rimani nei Confini Eterei per la durata o finché non usi la tua azione per congedare questo effetto. Durante questo periodo puoi muoverti in qualsiasi direzione. Se ti muovi verso l'alto o il basso, ogni metro di movimento costa un metro extra. Puoi vedere e sentire il piano da cui provieni, ma ogni cosa appare grigia e non puoi vedere oltre 18 metri di distanza.</p><p>Mentre ti trovi nel Piano Etereo, puoi influenzare ed essere influenzato soltanto dalle altre creature presenti su quel piano. Le creature che non si trovano nel Piano Etereo non possono percepirti né interagire con te, a meno che una capacità speciale o una magia non conferisca loro la capacità di farlo.</p><p>Ignori tutti gli oggetti e gli effetti che non si trovano nel Piano Etereo, cosa che ti consente di muoverti attraverso gli oggetti che percepisci sul piano da cui provieni.</p><p>Quando questo effetto termina, torni immediatamente sul piano da cui provieni nel punto che occupi in quel momento. Se occupi lo stesso spazio di un oggetto solido o di una creatura, vieni immediatamente spinto verso lo spazio libero più vicino che puoi occupare e subisci danni da forza pari al doppio dei metri di cui vieni spostato.</p>"
         }
       },
       "activities": {
@@ -2603,7 +2604,8 @@
       },
       "effects": {
         "e5WEPmqHuxJlwMmB": {
-          "name": "Chiaroveggenza Alchemica"
+          "name": "Chiaroveggenza Alchemica",
+          "description": "<p>Crei un sensore invisibile entro gittata, in un luogo a te familiare (un luogo che hai già visitato o visto in precedenza) o in un luogo evidente che non ti è familiare (come dietro una porta, oltre un angolo o in un boschetto). Il sensore rimane sul posto per la durata e non può essere attaccato né essere oggetto di altre interazioni.</p><p>Scegli vista o udito. Puoi usare il senso scelto attraverso il sensore come se ti trovassi nel suo spazio. Come azione, puoi passare dalla vista all'udito o viceversa.</p><p>Una creatura in grado di vedere il sensore (per esempio una creatura che beneficia di @UUID[Compendium.dnd5e.spells.Item.DQzlB5Y3k791W5bH]{Vedere Invisibilità} o di &amp;reference[truesight]) vede un globo luminoso e intangibile delle dimensioni approssimative del tuo pugno.</p>"
         }
       }
     },
@@ -2860,7 +2862,8 @@
       },
       "effects": {
         "sGtB63gv4o99IFMT": {
-          "name": "Lettura del Pensiero Alchemica"
+          "name": "Lettura del Pensiero Alchemica",
+          "description": "<p>Per la durata puoi leggere i pensieri di certe creature. Quando bevi questa pozione, e come tua azione in ogni turno finché l'effetto non termina, puoi concentrarti su una qualsiasi creatura situata entro 9 metri da te e che sei in grado di vedere. Se la creatura scelta ha un punteggio di Intelligenza pari o inferiore a 3 o non parla alcun linguaggio, non è influenzata.</p><p>All'inizio apprendi i pensieri superficiali della creatura, vale a dire ciò a cui sta pensando in quel momento. Come azione, puoi trasferire la tua attenzione sui pensieri di un'altra creatura oppure tentare di sondare più a fondo la mente della stessa creatura. Se sondi più a fondo, il bersaglio deve effettuare un tiro salvezza di [[/save wis 13]]. Se lo fallisce, apprendi i suoi ragionamenti (se ne fa), il suo stato emotivo e una presenza dominante nei suoi pensieri (qualcosa di cui si preoccupa, che ama o che odia). Se lo supera, l'effetto termina. In ogni caso, il bersaglio è consapevole che stai sondando la sua mente e, a meno che tu non trasferisca la tua attenzione sui pensieri di un'altra creatura, può usare la sua azione nel proprio turno per effettuare una prova di Intelligenza contrapposta alla tua prova di Intelligenza; se la supera, l'effetto termina.</p><p>Le domande rivolte verbalmente alla creatura bersaglio plasmano naturalmente il corso dei suoi pensieri, quindi questo effetto è particolarmente efficace nel corso di un interrogatorio.</p><p>Puoi anche usare questo effetto per individuare la presenza di creature pensanti che non sei in grado di vedere. Quando bevi la pozione, o come tua azione durante la durata, puoi cercare pensieri entro 9 metri da te. Questo effetto può penetrare le barriere, ma è bloccato da 60 cm di pietra, 5 cm di qualsiasi metallo diverso dal piombo o una sottile lamina di piombo. Non puoi individuare una creatura con un punteggio di Intelligenza pari o inferiore a 3 o che non parli alcun linguaggio.</p><p>Una volta individuata la presenza di una creatura in questo modo, puoi leggerne i pensieri per il resto della durata come descritto sopra, anche se non sei in grado di vederla; la creatura deve tuttavia trovarsi ancora entro gittata.</p>"
         }
       }
     },

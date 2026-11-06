@@ -7,7 +7,7 @@
 | classfeatures | 235 | 235 | 0 | 0 | 0 | 0 | 0 |
 | effects | 214 | 214 | 0 | 0 | 0 | 0 | 0 |
 | heroes | 12 | 0 | 0 | 12 | 0 | 466 | 561 |
-| items | 885 | 304 | 33 | 548 | 0 | 224 | 1409 |
+| items | 885 | 304 | 33 | 548 | 0 | 221 | 1406 |
 | monsterfeatures | 252 | 0 | 61 | 191 | 0 | 132 | 753 |
 | monsters | 337 | 2 | 5 | 330 | 15 | 4810 | 5045 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
@@ -17,7 +17,7 @@
 | tables | 31 | 2 | 7 | 22 | 0 | 212 | 169 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 9404
+Total blocking issues: 9401
 
 ## Issues
 
@@ -918,7 +918,6 @@ Total blocking issues: 9404
 - **foundry-data-references** `items:Xbq8CyXSRV358SfP:system.description.value`
 - **missing-field** `items:Xbq8CyXSRV358SfP:system.unidentified.description`
 - **missing-field** `items:Xbq8CyXSRV358SfP:system.unidentified.name`
-- **missing-field** `items:Xbq8CyXSRV358SfP:effects[LajiYiJL7B2TZLUZ].description`
 - **html-tag-sequence** `items:C0MNXWA81ufzGlp5:system.description.value`
 - **html-attributes** `items:C0MNXWA81ufzGlp5:system.description.value`
 - **foundry-inline-rolls** `items:C0MNXWA81ufzGlp5:system.description.value`
@@ -955,7 +954,6 @@ Total blocking issues: 9404
 - **foundry-references** `items:bAyr7j5Peq9wIJTa:system.description.value`
 - **missing-field** `items:bAyr7j5Peq9wIJTa:system.unidentified.description`
 - **missing-field** `items:bAyr7j5Peq9wIJTa:system.unidentified.name`
-- **missing-field** `items:bAyr7j5Peq9wIJTa:effects[e5WEPmqHuxJlwMmB].description`
 - **html-tag-sequence** `items:aMnWi1WXWpxRHq4r:system.description.value`
 - **html-attributes** `items:aMnWi1WXWpxRHq4r:system.description.value`
 - **foundry-inline-rolls** `items:aMnWi1WXWpxRHq4r:system.description.value`
@@ -1067,7 +1065,6 @@ Total blocking issues: 9404
 - **foundry-reference-count** `items:Ct9LR9Ft1FG4a6Y1:system.description.value`
 - **missing-field** `items:Ct9LR9Ft1FG4a6Y1:system.unidentified.description`
 - **missing-field** `items:Ct9LR9Ft1FG4a6Y1:system.unidentified.name`
-- **missing-field** `items:Ct9LR9Ft1FG4a6Y1:effects[sGtB63gv4o99IFMT].description`
 - **html-tag-sequence** `items:xw99pcqPBVwtMOLw:system.description.value`
 - **html-attributes** `items:xw99pcqPBVwtMOLw:system.description.value`
 - **foundry-reference-count** `items:xw99pcqPBVwtMOLw:system.description.value`
