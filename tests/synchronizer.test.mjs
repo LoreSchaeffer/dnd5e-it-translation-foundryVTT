@@ -257,6 +257,16 @@ test("rebaseInvariantTokens removes legacy presentation spans absent from the so
   );
 });
 
+test("rebaseInvariantTokens drops an obsolete Italian magic-item header absent from the source", () => {
+  const source = "<p>First rule.</p><p>Second rule.</p>";
+  const legacy = "<p><em>Arma (qualsiasi ascia o spada), rara</em></p><p>Prima regola.</p><p>Seconda regola.</p>";
+
+  assert.equal(
+    rebaseInvariantTokens(source, legacy),
+    "<p>Prima regola.</p><p>Seconda regola.</p>"
+  );
+});
+
 test("rebaseInvariantTokens restores a missing source reference around its translated label", () => {
   const source = "<p>You can cast @UUID[Compendium.dnd5e.spells.Item.abc]{Mage Armor}.</p>";
   const legacy = "<p>Puoi lanciare armatura magica.</p>";

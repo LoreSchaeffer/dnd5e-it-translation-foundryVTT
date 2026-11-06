@@ -7,7 +7,7 @@
 | classfeatures | 235 | 235 | 0 | 0 | 0 | 0 | 0 |
 | effects | 214 | 214 | 0 | 0 | 0 | 0 | 0 |
 | heroes | 12 | 0 | 0 | 12 | 0 | 466 | 561 |
-| items | 885 | 601 | 0 | 284 | 0 | 0 | 761 |
+| items | 885 | 614 | 0 | 271 | 0 | 0 | 735 |
 | monsterfeatures | 252 | 0 | 61 | 191 | 0 | 132 | 753 |
 | monsters | 337 | 2 | 5 | 330 | 15 | 4810 | 5045 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
@@ -17,7 +17,7 @@
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 7815
+Total blocking issues: 7789
 
 ## Issues
 
@@ -1117,34 +1117,8 @@ Total blocking issues: 7815
 - **html-tag-sequence** `items:d58CvI0Fiav9Jjt1:system.description.value`
 - **html-attributes** `items:d58CvI0Fiav9Jjt1:system.description.value`
 - **english-residual** `items:d58CvI0Fiav9Jjt1:system.description.value`
-- **html-tag-sequence** `items:orHjq3XDPz4eXcov:system.description.value`
-- **html-attributes** `items:orHjq3XDPz4eXcov:system.description.value`
-- **html-tag-sequence** `items:SXjs8JghAPBv7d6j:system.description.value`
-- **html-attributes** `items:SXjs8JghAPBv7d6j:system.description.value`
-- **html-tag-sequence** `items:S7TrIOlE600KIOUx:system.description.value`
-- **html-attributes** `items:S7TrIOlE600KIOUx:system.description.value`
-- **html-tag-sequence** `items:feKHv3JUWZdSNKf0:system.description.value`
-- **html-attributes** `items:feKHv3JUWZdSNKf0:system.description.value`
-- **html-tag-sequence** `items:MFd96UkSs5g9QO78:system.description.value`
-- **html-attributes** `items:MFd96UkSs5g9QO78:system.description.value`
 - **html-tag-sequence** `items:kvD4ElYCfCKpjDeg:system.description.value`
 - **html-attributes** `items:kvD4ElYCfCKpjDeg:system.description.value`
-- **html-tag-sequence** `items:YM6bZNmpync83VFa:system.description.value`
-- **html-attributes** `items:YM6bZNmpync83VFa:system.description.value`
-- **html-tag-sequence** `items:jmSC8I5awCoxNVv7:system.description.value`
-- **html-attributes** `items:jmSC8I5awCoxNVv7:system.description.value`
-- **html-tag-sequence** `items:nBFr5xTWeChM7xrb:system.description.value`
-- **html-attributes** `items:nBFr5xTWeChM7xrb:system.description.value`
-- **html-tag-sequence** `items:F3rQcaZvElNEiudk:system.description.value`
-- **html-attributes** `items:F3rQcaZvElNEiudk:system.description.value`
-- **html-tag-sequence** `items:xw2kL7Puwg4wfjW3:system.description.value`
-- **html-attributes** `items:xw2kL7Puwg4wfjW3:system.description.value`
-- **html-tag-sequence** `items:I5PWgE4IF40Iv9h4:system.description.value`
-- **html-attributes** `items:I5PWgE4IF40Iv9h4:system.description.value`
-- **html-tag-sequence** `items:ZLpj1bpnWlAFUEHE:system.description.value`
-- **html-attributes** `items:ZLpj1bpnWlAFUEHE:system.description.value`
-- **html-tag-sequence** `items:tTqixDDmzAfs995G:system.description.value`
-- **html-attributes** `items:tTqixDDmzAfs995G:system.description.value`
 - **html-tag-sequence** `items:rOG1OM2ihgPjOvFW:system.description.value`
 - **html-attributes** `items:rOG1OM2ihgPjOvFW:system.description.value`
 - **html-tag-sequence** `items:1Lxk6kmoRhG8qQ0u:system.description.value`

@@ -3711,6 +3711,46 @@
         },
         {
           "pack": "items",
+          "id": "orHjq3XDPz4eXcov",
+          "name": "Dragon Slayer Greatsword",
+          "sourcePath": "items/weapon/dragon-slayer-greatsword.yml",
+          "lookupKey": "Dragon Slayer Greatsword",
+          "matchedLookupKey": "Dragon Slayer Greatsword"
+        },
+        {
+          "pack": "items",
+          "id": "SXjs8JghAPBv7d6j",
+          "name": "Dragon Slayer Longsword",
+          "sourcePath": "items/weapon/dragon-slayer-longsword.yml",
+          "lookupKey": "Dragon Slayer Longsword",
+          "matchedLookupKey": "Dragon Slayer Longsword"
+        },
+        {
+          "pack": "items",
+          "id": "S7TrIOlE600KIOUx",
+          "name": "Dragon Slayer Rapier",
+          "sourcePath": "items/weapon/dragon-slayer-rapier.yml",
+          "lookupKey": "Dragon Slayer Rapier",
+          "matchedLookupKey": "Dragon Slayer Rapier"
+        },
+        {
+          "pack": "items",
+          "id": "feKHv3JUWZdSNKf0",
+          "name": "Dragon Slayer Scimitar",
+          "sourcePath": "items/weapon/dragon-slayer-scimitar.yml",
+          "lookupKey": "Dragon Slayer Scimitar",
+          "matchedLookupKey": "Dragon Slayer Scimitar"
+        },
+        {
+          "pack": "items",
+          "id": "MFd96UkSs5g9QO78",
+          "name": "Dragon Slayer Shortsword",
+          "sourcePath": "items/weapon/dragon-slayer-shortsword.yml",
+          "lookupKey": "Dragon Slayer Shortsword",
+          "matchedLookupKey": "Dragon Slayer Shortsword"
+        },
+        {
+          "pack": "items",
           "id": "0LVFLPmsu1b2vf8E",
           "name": "Flail +1",
           "sourcePath": "items/weapon/flail-1.yml",
@@ -3820,6 +3860,70 @@
           "sourcePath": "items/weapon/frost-brand-shortsword.yml",
           "lookupKey": "Frost Brand Shortsword",
           "matchedLookupKey": "Frost Brand Shortsword"
+        },
+        {
+          "pack": "items",
+          "id": "YM6bZNmpync83VFa",
+          "name": "Giant Slayer Battleaxe",
+          "sourcePath": "items/weapon/giant-slayer-battleaxe.yml",
+          "lookupKey": "Giant Slayer Battleaxe",
+          "matchedLookupKey": "Giant Slayer Battleaxe"
+        },
+        {
+          "pack": "items",
+          "id": "jmSC8I5awCoxNVv7",
+          "name": "Giant Slayer Greataxe",
+          "sourcePath": "items/weapon/giant-slayer-greataxe.yml",
+          "lookupKey": "Giant Slayer Greataxe",
+          "matchedLookupKey": "Giant Slayer Greataxe"
+        },
+        {
+          "pack": "items",
+          "id": "nBFr5xTWeChM7xrb",
+          "name": "Giant Slayer Greatsword",
+          "sourcePath": "items/weapon/giant-slayer-greatsword.yml",
+          "lookupKey": "Giant Slayer Greatsword",
+          "matchedLookupKey": "Giant Slayer Greatsword"
+        },
+        {
+          "pack": "items",
+          "id": "F3rQcaZvElNEiudk",
+          "name": "Giant Slayer Handaxe",
+          "sourcePath": "items/weapon/giant-slayer-handaxe.yml",
+          "lookupKey": "Giant Slayer Handaxe",
+          "matchedLookupKey": "Giant Slayer Handaxe"
+        },
+        {
+          "pack": "items",
+          "id": "xw2kL7Puwg4wfjW3",
+          "name": "Giant Slayer Longsword",
+          "sourcePath": "items/weapon/giant-slayer-longsword.yml",
+          "lookupKey": "Giant Slayer Longsword",
+          "matchedLookupKey": "Giant Slayer Longsword"
+        },
+        {
+          "pack": "items",
+          "id": "I5PWgE4IF40Iv9h4",
+          "name": "Giant Slayer Rapier",
+          "sourcePath": "items/weapon/giant-slayer-rapier.yml",
+          "lookupKey": "Giant Slayer Rapier",
+          "matchedLookupKey": "Giant Slayer Rapier"
+        },
+        {
+          "pack": "items",
+          "id": "ZLpj1bpnWlAFUEHE",
+          "name": "Giant Slayer Scimitar",
+          "sourcePath": "items/weapon/giant-slayer-scimitar.yml",
+          "lookupKey": "Giant Slayer Scimitar",
+          "matchedLookupKey": "Giant Slayer Scimitar"
+        },
+        {
+          "pack": "items",
+          "id": "tTqixDDmzAfs995G",
+          "name": "Giant Slayer Shortsword",
+          "sourcePath": "items/weapon/giant-slayer-shortsword.yml",
+          "lookupKey": "Giant Slayer Shortsword",
+          "matchedLookupKey": "Giant Slayer Shortsword"
         },
         {
           "pack": "items",
@@ -11305,141 +11409,6 @@
         },
         {
           "pack": "items",
-          "id": "orHjq3XDPz4eXcov",
-          "name": "Dragon Slayer Greatsword",
-          "sourcePath": "items/weapon/dragon-slayer-greatsword.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Dragon Slayer Greatsword",
-          "matchedLookupKey": "Dragon Slayer Greatsword",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "orHjq3XDPz4eXcov",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "orHjq3XDPz4eXcov",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "SXjs8JghAPBv7d6j",
-          "name": "Dragon Slayer Longsword",
-          "sourcePath": "items/weapon/dragon-slayer-longsword.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Dragon Slayer Longsword",
-          "matchedLookupKey": "Dragon Slayer Longsword",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "SXjs8JghAPBv7d6j",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "SXjs8JghAPBv7d6j",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "S7TrIOlE600KIOUx",
-          "name": "Dragon Slayer Rapier",
-          "sourcePath": "items/weapon/dragon-slayer-rapier.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Dragon Slayer Rapier",
-          "matchedLookupKey": "Dragon Slayer Rapier",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "S7TrIOlE600KIOUx",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "S7TrIOlE600KIOUx",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "feKHv3JUWZdSNKf0",
-          "name": "Dragon Slayer Scimitar",
-          "sourcePath": "items/weapon/dragon-slayer-scimitar.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Dragon Slayer Scimitar",
-          "matchedLookupKey": "Dragon Slayer Scimitar",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "feKHv3JUWZdSNKf0",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "feKHv3JUWZdSNKf0",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "MFd96UkSs5g9QO78",
-          "name": "Dragon Slayer Shortsword",
-          "sourcePath": "items/weapon/dragon-slayer-shortsword.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Dragon Slayer Shortsword",
-          "matchedLookupKey": "Dragon Slayer Shortsword",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "MFd96UkSs5g9QO78",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "MFd96UkSs5g9QO78",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
           "id": "kvD4ElYCfCKpjDeg",
           "name": "Dwarven Thrower",
           "sourcePath": "items/weapon/dwarven-thrower.yml",
@@ -11461,222 +11430,6 @@
               "message": "HTML attributes differ from source",
               "pack": "items",
               "id": "kvD4ElYCfCKpjDeg",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "YM6bZNmpync83VFa",
-          "name": "Giant Slayer Battleaxe",
-          "sourcePath": "items/weapon/giant-slayer-battleaxe.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Giant Slayer Battleaxe",
-          "matchedLookupKey": "Giant Slayer Battleaxe",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "YM6bZNmpync83VFa",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "YM6bZNmpync83VFa",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "jmSC8I5awCoxNVv7",
-          "name": "Giant Slayer Greataxe",
-          "sourcePath": "items/weapon/giant-slayer-greataxe.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Giant Slayer Greataxe",
-          "matchedLookupKey": "Giant Slayer Greataxe",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "jmSC8I5awCoxNVv7",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "jmSC8I5awCoxNVv7",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "nBFr5xTWeChM7xrb",
-          "name": "Giant Slayer Greatsword",
-          "sourcePath": "items/weapon/giant-slayer-greatsword.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Giant Slayer Greatsword",
-          "matchedLookupKey": "Giant Slayer Greatsword",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "nBFr5xTWeChM7xrb",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "nBFr5xTWeChM7xrb",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "F3rQcaZvElNEiudk",
-          "name": "Giant Slayer Handaxe",
-          "sourcePath": "items/weapon/giant-slayer-handaxe.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Giant Slayer Handaxe",
-          "matchedLookupKey": "Giant Slayer Handaxe",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "F3rQcaZvElNEiudk",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "F3rQcaZvElNEiudk",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "xw2kL7Puwg4wfjW3",
-          "name": "Giant Slayer Longsword",
-          "sourcePath": "items/weapon/giant-slayer-longsword.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Giant Slayer Longsword",
-          "matchedLookupKey": "Giant Slayer Longsword",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "xw2kL7Puwg4wfjW3",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "xw2kL7Puwg4wfjW3",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "I5PWgE4IF40Iv9h4",
-          "name": "Giant Slayer Rapier",
-          "sourcePath": "items/weapon/giant-slayer-rapier.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Giant Slayer Rapier",
-          "matchedLookupKey": "Giant Slayer Rapier",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "I5PWgE4IF40Iv9h4",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "I5PWgE4IF40Iv9h4",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "ZLpj1bpnWlAFUEHE",
-          "name": "Giant Slayer Scimitar",
-          "sourcePath": "items/weapon/giant-slayer-scimitar.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Giant Slayer Scimitar",
-          "matchedLookupKey": "Giant Slayer Scimitar",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "ZLpj1bpnWlAFUEHE",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "ZLpj1bpnWlAFUEHE",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "tTqixDDmzAfs995G",
-          "name": "Giant Slayer Shortsword",
-          "sourcePath": "items/weapon/giant-slayer-shortsword.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Giant Slayer Shortsword",
-          "matchedLookupKey": "Giant Slayer Shortsword",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "tTqixDDmzAfs995G",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "tTqixDDmzAfs995G",
               "fieldPath": "system.description.value"
             }
           ]

@@ -113,6 +113,15 @@ function stripLegacySpellHeader(text) {
   return value.slice(plain[0].length).trim();
 }
 
+function stripLegacyItemHeader(source, translation) {
+  if (/^\s*<p\b[^>]*>\s*<em\b/i.test(source)) return translation;
+  const header = translation.match(/^\s*<p\b[^>]*>\s*<em\b[^>]*>\s*([^<]+?)\s*<\/em>\s*<\/p>\s*/i);
+  if (!header || !/^(?:Arma|Armatura|Oggetto meraviglioso|Anello|Bacchetta|Verga|Pozione|Pergamena|Munizione)\b/i.test(header[1])) {
+    return translation;
+  }
+  return translation.slice(header[0].length);
+}
+
 function dropEmptySpacerParagraphs(source, translation) {
   const emptyParagraph = /<p\b[^>]*>\s*(?:(?:&nbsp;|&#160;|<br\s*\/?\s*>))?\s*<\/p>/gi;
   if (emptyParagraph.test(source)) return translation;
@@ -291,6 +300,7 @@ export function rebaseInvariantTokens(source, translation, { referenceLabels } =
   translation = dropLegacyPresentationSpans(source, translation);
   translation = dropEmptySpacerParagraphs(source, translation);
   translation = stripLegacySpellHeader(translation);
+  translation = stripLegacyItemHeader(source, translation);
   const choiceList = reshapeReferenceChoiceList(source, translation, referenceLabels);
   if (choiceList !== null) translation = choiceList;
   if (!/<table\b/i.test(source) && /<table\b/i.test(translation)) {
