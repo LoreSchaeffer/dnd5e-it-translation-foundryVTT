@@ -7,7 +7,7 @@
 | classfeatures | 235 | 235 | 0 | 0 | 0 | 0 | 0 |
 | effects | 214 | 214 | 0 | 0 | 0 | 0 | 0 |
 | heroes | 12 | 0 | 0 | 12 | 0 | 466 | 561 |
-| items | 885 | 858 | 0 | 27 | 0 | 0 | 144 |
+| items | 885 | 860 | 0 | 25 | 0 | 0 | 138 |
 | monsterfeatures | 252 | 0 | 61 | 191 | 0 | 132 | 753 |
 | monsters | 337 | 2 | 5 | 330 | 15 | 4810 | 5045 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
@@ -17,7 +17,7 @@
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 7198
+Total blocking issues: 7192
 
 ## Issues
 
@@ -646,9 +646,6 @@ Total blocking issues: 7198
 - **html-attributes** `items:46ikeR4RrSim6DsN:system.description.value`
 - **foundry-inline-rolls** `items:46ikeR4RrSim6DsN:system.description.value`
 - **foundry-data-references** `items:46ikeR4RrSim6DsN:system.description.value`
-- **html-tag-sequence** `items:FeouSUPUlUhfgeRp:system.description.value`
-- **html-attributes** `items:FeouSUPUlUhfgeRp:system.description.value`
-- **foundry-reference-count** `items:FeouSUPUlUhfgeRp:system.description.value`
 - **html-tag-sequence** `items:lsiR1hVfISlC5YoB:system.description.value`
 - **html-attributes** `items:lsiR1hVfISlC5YoB:system.description.value`
 - **foundry-references** `items:lsiR1hVfISlC5YoB:system.description.value`
@@ -675,9 +672,6 @@ Total blocking issues: 7198
 - **html-tag-sequence** `items:caEn3ixCUFBnHTx6:system.description.value`
 - **html-attributes** `items:caEn3ixCUFBnHTx6:system.description.value`
 - **foundry-references** `items:caEn3ixCUFBnHTx6:system.description.value`
-- **html-tag-sequence** `items:uHL99JKLUpTKAbz8:system.description.value`
-- **html-attributes** `items:uHL99JKLUpTKAbz8:system.description.value`
-- **foundry-inline-rolls** `items:uHL99JKLUpTKAbz8:system.description.value`
 - **extra-entry** `items:Amulet of Proof Against Detection and Location`
 - **extra-entry** `items:Arrows`
 - **extra-entry** `items:Boots of Springing and Striding`
