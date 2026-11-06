@@ -1,0 +1,29 @@
+name: Flame Test
+type: spell
+img: icons/svg/fire.svg
+system:
+  description:
+    value: <p>A flame appears within 30 feet.</p>
+    chat: A brief flame.
+  materials:
+    value: a pinch of ash
+  activities:
+    cast000000000001:
+      type: save
+      name: Cast Flame
+      description:
+        value: <p>The target makes a save.</p>
+      damage:
+        parts:
+          - number: 1
+            denomination: 6
+      save:
+        dc:
+          calculation: spellcasting
+  formula: 1d6 + @mod
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_id: item000000000001
+

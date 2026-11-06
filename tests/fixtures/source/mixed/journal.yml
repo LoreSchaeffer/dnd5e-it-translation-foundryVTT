@@ -1,0 +1,15 @@
+name: Sample Rules
+pages:
+  - name: Movement
+    type: text
+    text:
+      content: <h2>Movement</h2><p>Travel pace is measured in miles.</p>
+    _id: page000000000001
+  - name: Reference
+    type: rule
+    system:
+      tooltip: Movement reference
+      identifier: movement
+    _id: page000000000002
+_id: journal000000001
+

@@ -1,0 +1,19 @@
+name: Celestial Ward
+description: <p>A visible effect description.</p>
+icon: icons/svg/aura.svg
+changes:
+  - key: system.details.type.custom
+    mode: 2
+    value: Celestial guardian
+    priority: 20
+  - key: system.attributes.ac.bonus
+    mode: 2
+    value: +2
+    priority: 20
+  - key: system.traits.di.value
+    mode: 2
+    value: fire
+    priority: 20
+transfer: false
+_id: effect0000000001
+
