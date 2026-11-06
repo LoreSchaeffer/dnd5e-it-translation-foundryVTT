@@ -7,7 +7,7 @@
 | classfeatures | 235 | 235 | 0 | 0 | 0 | 0 | 0 |
 | effects | 214 | 214 | 0 | 0 | 0 | 0 | 0 |
 | heroes | 12 | 0 | 0 | 12 | 0 | 466 | 561 |
-| items | 885 | 705 | 0 | 180 | 0 | 0 | 539 |
+| items | 885 | 710 | 0 | 175 | 0 | 0 | 524 |
 | monsterfeatures | 252 | 0 | 61 | 191 | 0 | 132 | 753 |
 | monsters | 337 | 2 | 5 | 330 | 15 | 4810 | 5045 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
@@ -17,7 +17,7 @@
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 7593
+Total blocking issues: 7578
 
 ## Issues
 
@@ -917,21 +917,6 @@ Total blocking issues: 7593
 - **foundry-data-references** `items:lPsueMv4ZoXqCYf9:system.description.value`
 - **html-tag-sequence** `items:3rCO8MTIdPGSW6IJ:system.description.value`
 - **html-attributes** `items:3rCO8MTIdPGSW6IJ:system.description.value`
-- **html-tag-sequence** `items:nSNhjX5F7f86AW1a:system.description.value`
-- **html-attributes** `items:nSNhjX5F7f86AW1a:system.description.value`
-- **english-residual** `items:nSNhjX5F7f86AW1a:system.description.value`
-- **html-tag-sequence** `items:ukcKemEoTTRB9yLC:system.description.value`
-- **html-attributes** `items:ukcKemEoTTRB9yLC:system.description.value`
-- **english-residual** `items:ukcKemEoTTRB9yLC:system.description.value`
-- **html-tag-sequence** `items:YrkkHa6KN8a9o35k:system.description.value`
-- **html-attributes** `items:YrkkHa6KN8a9o35k:system.description.value`
-- **english-residual** `items:YrkkHa6KN8a9o35k:system.description.value`
-- **html-tag-sequence** `items:Ilyv71AeobM6AvIn:system.description.value`
-- **html-attributes** `items:Ilyv71AeobM6AvIn:system.description.value`
-- **english-residual** `items:Ilyv71AeobM6AvIn:system.description.value`
-- **html-tag-sequence** `items:d58CvI0Fiav9Jjt1:system.description.value`
-- **html-attributes** `items:d58CvI0Fiav9Jjt1:system.description.value`
-- **english-residual** `items:d58CvI0Fiav9Jjt1:system.description.value`
 - **html-tag-sequence** `items:kvD4ElYCfCKpjDeg:system.description.value`
 - **html-attributes** `items:kvD4ElYCfCKpjDeg:system.description.value`
 - **html-tag-sequence** `items:rOG1OM2ihgPjOvFW:system.description.value`

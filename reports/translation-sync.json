@@ -4391,6 +4391,46 @@
         },
         {
           "pack": "items",
+          "id": "nSNhjX5F7f86AW1a",
+          "name": "Defender Greatsword",
+          "sourcePath": "items/weapon/defender-greatsword.yml",
+          "lookupKey": "Defender Greatsword",
+          "matchedLookupKey": "Defender Greatsword"
+        },
+        {
+          "pack": "items",
+          "id": "ukcKemEoTTRB9yLC",
+          "name": "Defender Longsword",
+          "sourcePath": "items/weapon/defender-longsword.yml",
+          "lookupKey": "Defender Longsword",
+          "matchedLookupKey": "Defender Longsword"
+        },
+        {
+          "pack": "items",
+          "id": "YrkkHa6KN8a9o35k",
+          "name": "Defender Rapier",
+          "sourcePath": "items/weapon/defender-rapier.yml",
+          "lookupKey": "Defender Rapier",
+          "matchedLookupKey": "Defender Rapier"
+        },
+        {
+          "pack": "items",
+          "id": "Ilyv71AeobM6AvIn",
+          "name": "Defender Scimitar",
+          "sourcePath": "items/weapon/defender-scimitar.yml",
+          "lookupKey": "Defender Scimitar",
+          "matchedLookupKey": "Defender Scimitar"
+        },
+        {
+          "pack": "items",
+          "id": "d58CvI0Fiav9Jjt1",
+          "name": "Defender Shortsword",
+          "sourcePath": "items/weapon/defender-shortsword.yml",
+          "lookupKey": "Defender Shortsword",
+          "matchedLookupKey": "Defender Shortsword"
+        },
+        {
+          "pack": "items",
           "id": "orHjq3XDPz4eXcov",
           "name": "Dragon Slayer Greatsword",
           "sourcePath": "items/weapon/dragon-slayer-greatsword.yml",
@@ -9581,141 +9621,6 @@
               "message": "HTML attributes differ from source",
               "pack": "items",
               "id": "3rCO8MTIdPGSW6IJ",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "nSNhjX5F7f86AW1a",
-          "name": "Defender Greatsword",
-          "sourcePath": "items/weapon/defender-greatsword.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Defender Greatsword",
-          "matchedLookupKey": "Defender Greatsword",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "nSNhjX5F7f86AW1a",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "nSNhjX5F7f86AW1a",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "ukcKemEoTTRB9yLC",
-          "name": "Defender Longsword",
-          "sourcePath": "items/weapon/defender-longsword.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Defender Longsword",
-          "matchedLookupKey": "Defender Longsword",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "ukcKemEoTTRB9yLC",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "ukcKemEoTTRB9yLC",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "YrkkHa6KN8a9o35k",
-          "name": "Defender Rapier",
-          "sourcePath": "items/weapon/defender-rapier.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Defender Rapier",
-          "matchedLookupKey": "Defender Rapier",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "YrkkHa6KN8a9o35k",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "YrkkHa6KN8a9o35k",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "Ilyv71AeobM6AvIn",
-          "name": "Defender Scimitar",
-          "sourcePath": "items/weapon/defender-scimitar.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Defender Scimitar",
-          "matchedLookupKey": "Defender Scimitar",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "Ilyv71AeobM6AvIn",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "Ilyv71AeobM6AvIn",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "d58CvI0Fiav9Jjt1",
-          "name": "Defender Shortsword",
-          "sourcePath": "items/weapon/defender-shortsword.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Defender Shortsword",
-          "matchedLookupKey": "Defender Shortsword",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "d58CvI0Fiav9Jjt1",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "d58CvI0Fiav9Jjt1",
               "fieldPath": "system.description.value"
             }
           ]

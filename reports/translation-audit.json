@@ -3,10 +3,10 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1593,
+      "translated": 1598,
       "missing": 69,
-      "partial": 729,
-      "review": 116
+      "partial": 724,
+      "review": 111
     },
     "folders": {
       "total": 120,
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 1390,
-      "englishResiduals": 118,
+      "invariantFailures": 1380,
+      "englishResiduals": 113,
       "imperialResiduals": 2
     },
-    "blockingIssues": 7593
+    "blockingIssues": 7578
   },
   "packs": [
     {
@@ -5317,10 +5317,10 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 705,
+          "translated": 710,
           "missing": 0,
-          "partial": 180,
-          "review": 46
+          "partial": 175,
+          "review": 41
         },
         "folders": {
           "total": 17,
@@ -5333,8 +5333,8 @@
           "total": 2227,
           "translated": 2227,
           "missing": 0,
-          "invariantFailures": 443,
-          "englishResiduals": 46,
+          "invariantFailures": 433,
+          "englishResiduals": 41,
           "imperialResiduals": 2
         }
       },
@@ -8694,161 +8694,6 @@
           "fieldPath": "system.description.value",
           "name": "Dart",
           "sourcePath": "items/weapon/dart.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "nSNhjX5F7f86AW1a",
-          "fieldPath": "system.description.value",
-          "name": "Defender Greatsword",
-          "sourcePath": "items/weapon/defender-greatsword.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "nSNhjX5F7f86AW1a",
-          "fieldPath": "system.description.value",
-          "name": "Defender Greatsword",
-          "sourcePath": "items/weapon/defender-greatsword.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "(Richiede sintonia) Il personaggio ottiene un bonus di +3 ai tiri per colpire e ai tiri per i danni effettuati con quest’arma magica. La prima volta in ogni suo turno in cui attacca con quest’arma, il personaggio può trasferire tutto il bonus dell’arma o una qualsiasi parte di esso alla propria Classe Armatura, anziché usarlo negli attacchi effettuati in quel turno. Potrebbe, per esempio, ridurre il bonus ai tiri per colpire e ai tiri per i danni a +1 e ottenere un bonus di +2 alla CA. I bonus modificati restano in vigore fino all’inizio del turno successivo del personaggio, che deve però impugnare l’arma per ottenere il bonus alla CA.&nbsp; **Foundry note: the sword's bonus to attack and damage rolls have been included; please remember to manually subtract should the user transfer any of the bonus to their AC.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "nSNhjX5F7f86AW1a",
-          "name": "Defender Greatsword",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/weapon/defender-greatsword.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "ukcKemEoTTRB9yLC",
-          "fieldPath": "system.description.value",
-          "name": "Defender Longsword",
-          "sourcePath": "items/weapon/defender-longsword.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "ukcKemEoTTRB9yLC",
-          "fieldPath": "system.description.value",
-          "name": "Defender Longsword",
-          "sourcePath": "items/weapon/defender-longsword.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "(Richiede sintonia) Il personaggio ottiene un bonus di +3 ai tiri per colpire e ai tiri per i danni effettuati con quest’arma magica. La prima volta in ogni suo turno in cui attacca con quest’arma, il personaggio può trasferire tutto il bonus dell’arma o una qualsiasi parte di esso alla propria Classe Armatura, anziché usarlo negli attacchi effettuati in quel turno. Potrebbe, per esempio, ridurre il bonus ai tiri per colpire e ai tiri per i danni a +1 e ottenere un bonus di +2 alla CA. I bonus modificati restano in vigore fino all’inizio del turno successivo del personaggio, che deve però impugnare l’arma per ottenere il bonus alla CA.&nbsp; **Foundry note: the sword's bonus to attack and damage rolls have been included; please remember to manually subtract should the user transfer any of the bonus to their AC.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "ukcKemEoTTRB9yLC",
-          "name": "Defender Longsword",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/weapon/defender-longsword.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "YrkkHa6KN8a9o35k",
-          "fieldPath": "system.description.value",
-          "name": "Defender Rapier",
-          "sourcePath": "items/weapon/defender-rapier.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "YrkkHa6KN8a9o35k",
-          "fieldPath": "system.description.value",
-          "name": "Defender Rapier",
-          "sourcePath": "items/weapon/defender-rapier.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "(Richiede sintonia) Il personaggio ottiene un bonus di +3 ai tiri per colpire e ai tiri per i danni effettuati con quest’arma magica. La prima volta in ogni suo turno in cui attacca con quest’arma, il personaggio può trasferire tutto il bonus dell’arma o una qualsiasi parte di esso alla propria Classe Armatura, anziché usarlo negli attacchi effettuati in quel turno. Potrebbe, per esempio, ridurre il bonus ai tiri per colpire e ai tiri per i danni a +1 e ottenere un bonus di +2 alla CA. I bonus modificati restano in vigore fino all’inizio del turno successivo del personaggio, che deve però impugnare l’arma per ottenere il bonus alla CA.&nbsp; **Foundry note: the sword's bonus to attack and damage rolls have been included; please remember to manually subtract should the user transfer any of the bonus to their AC.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "YrkkHa6KN8a9o35k",
-          "name": "Defender Rapier",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/weapon/defender-rapier.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "Ilyv71AeobM6AvIn",
-          "fieldPath": "system.description.value",
-          "name": "Defender Scimitar",
-          "sourcePath": "items/weapon/defender-scimitar.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "Ilyv71AeobM6AvIn",
-          "fieldPath": "system.description.value",
-          "name": "Defender Scimitar",
-          "sourcePath": "items/weapon/defender-scimitar.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "(Richiede sintonia) Il personaggio ottiene un bonus di +3 ai tiri per colpire e ai tiri per i danni effettuati con quest’arma magica. La prima volta in ogni suo turno in cui attacca con quest’arma, il personaggio può trasferire tutto il bonus dell’arma o una qualsiasi parte di esso alla propria Classe Armatura, anziché usarlo negli attacchi effettuati in quel turno. Potrebbe, per esempio, ridurre il bonus ai tiri per colpire e ai tiri per i danni a +1 e ottenere un bonus di +2 alla CA. I bonus modificati restano in vigore fino all’inizio del turno successivo del personaggio, che deve però impugnare l’arma per ottenere il bonus alla CA.&nbsp; **Foundry note: the sword's bonus to attack and damage rolls have been included; please remember to manually subtract should the user transfer any of the bonus to their AC.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "Ilyv71AeobM6AvIn",
-          "name": "Defender Scimitar",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/weapon/defender-scimitar.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "d58CvI0Fiav9Jjt1",
-          "fieldPath": "system.description.value",
-          "name": "Defender Shortsword",
-          "sourcePath": "items/weapon/defender-shortsword.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "d58CvI0Fiav9Jjt1",
-          "fieldPath": "system.description.value",
-          "name": "Defender Shortsword",
-          "sourcePath": "items/weapon/defender-shortsword.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "(Richiede sintonia) Il personaggio ottiene un bonus di +3 ai tiri per colpire e ai tiri per i danni effettuati con quest’arma magica. La prima volta in ogni suo turno in cui attacca con quest’arma, il personaggio può trasferire tutto il bonus dell’arma o una qualsiasi parte di esso alla propria Classe Armatura, anziché usarlo negli attacchi effettuati in quel turno. Potrebbe, per esempio, ridurre il bonus ai tiri per colpire e ai tiri per i danni a +1 e ottenere un bonus di +2 alla CA. I bonus modificati restano in vigore fino all’inizio del turno successivo del personaggio, che deve però impugnare l’arma per ottenere il bonus alla CA.&nbsp; **Foundry note: the sword's bonus to attack and damage rolls have been included; please remember to manually subtract should the user transfer any of the bonus to their AC.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "d58CvI0Fiav9Jjt1",
-          "name": "Defender Shortsword",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/weapon/defender-shortsword.yml"
         },
         {
           "code": "html-tag-sequence",
