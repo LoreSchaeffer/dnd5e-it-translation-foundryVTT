@@ -1,633 +1,7 @@
 {
   "schemaVersion": 1,
-  "mode": "dry-run",
+  "mode": "apply",
   "packs": [
-    {
-      "pack": "classes",
-      "safe": [],
-      "needsTranslation": [],
-      "manualReview": [
-        {
-          "pack": "classes",
-          "id": "pvEzGSv71zBhaolc",
-          "name": "Barbarian",
-          "sourcePath": "classes/barbarian.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Barbarian",
-          "matchedLookupKey": "Barbarian",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "classes",
-              "id": "pvEzGSv71zBhaolc",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "classes",
-              "id": "pvEzGSv71zBhaolc",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "classes",
-              "id": "pvEzGSv71zBhaolc",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "classes",
-              "id": "pvEzGSv71zBhaolc",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classes",
-          "id": "ILvRZGEx3aXqSVUt",
-          "name": "Bard",
-          "sourcePath": "classes/bard.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Bard",
-          "matchedLookupKey": "Bard",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "classes",
-              "id": "ILvRZGEx3aXqSVUt",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "classes",
-              "id": "ILvRZGEx3aXqSVUt",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "classes",
-              "id": "ILvRZGEx3aXqSVUt",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "classes",
-              "id": "ILvRZGEx3aXqSVUt",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classes",
-          "id": "tlwBnN8GmqJcTgub",
-          "name": "Cleric",
-          "sourcePath": "classes/cleric.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Cleric",
-          "matchedLookupKey": "Cleric",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "classes",
-              "id": "tlwBnN8GmqJcTgub",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "classes",
-              "id": "tlwBnN8GmqJcTgub",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "classes",
-              "id": "tlwBnN8GmqJcTgub",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "classes",
-              "id": "tlwBnN8GmqJcTgub",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classes",
-          "id": "ygVYgPbJkaH0tH1N",
-          "name": "Druid",
-          "sourcePath": "classes/druid.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Druid",
-          "matchedLookupKey": "Druid",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "classes",
-              "id": "ygVYgPbJkaH0tH1N",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "classes",
-              "id": "ygVYgPbJkaH0tH1N",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "classes",
-              "id": "ygVYgPbJkaH0tH1N",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "classes",
-              "id": "ygVYgPbJkaH0tH1N",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classes",
-          "id": "ABEBgWyRhVlDUIfq",
-          "name": "Fighter",
-          "sourcePath": "classes/fighter.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Fighter",
-          "matchedLookupKey": "Fighter",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "classes",
-              "id": "ABEBgWyRhVlDUIfq",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "classes",
-              "id": "ABEBgWyRhVlDUIfq",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "classes",
-              "id": "ABEBgWyRhVlDUIfq",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "classes",
-              "id": "ABEBgWyRhVlDUIfq",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classes",
-          "id": "6VoZrWxhOEKGYhnq",
-          "name": "Monk",
-          "sourcePath": "classes/monk.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Monk",
-          "matchedLookupKey": "Monk",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "classes",
-              "id": "6VoZrWxhOEKGYhnq",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "classes",
-              "id": "6VoZrWxhOEKGYhnq",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "classes",
-              "id": "6VoZrWxhOEKGYhnq",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "classes",
-              "id": "6VoZrWxhOEKGYhnq",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classes",
-          "id": "gZiUvbXWLs0pOp0c",
-          "name": "Paladin",
-          "sourcePath": "classes/paladin.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Paladin",
-          "matchedLookupKey": "Paladin",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "classes",
-              "id": "gZiUvbXWLs0pOp0c",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "classes",
-              "id": "gZiUvbXWLs0pOp0c",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "classes",
-              "id": "gZiUvbXWLs0pOp0c",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "classes",
-              "id": "gZiUvbXWLs0pOp0c",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classes",
-          "id": "VkRQ7glQvTWWiOCS",
-          "name": "Ranger",
-          "sourcePath": "classes/ranger.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Ranger",
-          "matchedLookupKey": "Ranger",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "classes",
-              "id": "VkRQ7glQvTWWiOCS",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "classes",
-              "id": "VkRQ7glQvTWWiOCS",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "classes",
-              "id": "VkRQ7glQvTWWiOCS",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "classes",
-              "id": "VkRQ7glQvTWWiOCS",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classes",
-          "id": "xEb8jmA5HlNs7xTF",
-          "name": "Rogue",
-          "sourcePath": "classes/rogue.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Rogue",
-          "matchedLookupKey": "Rogue",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "classes",
-              "id": "xEb8jmA5HlNs7xTF",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "classes",
-              "id": "xEb8jmA5HlNs7xTF",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "classes",
-              "id": "xEb8jmA5HlNs7xTF",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "classes",
-              "id": "xEb8jmA5HlNs7xTF",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classes",
-          "id": "6T08zzKtmmpVwlXU",
-          "name": "Sorcerer",
-          "sourcePath": "classes/sorcerer.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Sorcerer",
-          "matchedLookupKey": "Sorcerer",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "classes",
-              "id": "6T08zzKtmmpVwlXU",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "classes",
-              "id": "6T08zzKtmmpVwlXU",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "classes",
-              "id": "6T08zzKtmmpVwlXU",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "classes",
-              "id": "6T08zzKtmmpVwlXU",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classes",
-          "id": "7WJp9vhi6F6SlAFa",
-          "name": "Warlock",
-          "sourcePath": "classes/warlock.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Warlock",
-          "matchedLookupKey": "Warlock",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "classes",
-              "id": "7WJp9vhi6F6SlAFa",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "classes",
-              "id": "7WJp9vhi6F6SlAFa",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "classes",
-              "id": "7WJp9vhi6F6SlAFa",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "classes",
-              "id": "7WJp9vhi6F6SlAFa",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classes",
-          "id": "wZK2Q0rXB0AQo8h3",
-          "name": "Wizard",
-          "sourcePath": "classes/wizard.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Wizard",
-          "matchedLookupKey": "Wizard",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "classes",
-              "id": "wZK2Q0rXB0AQo8h3",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "classes",
-              "id": "wZK2Q0rXB0AQo8h3",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "classes",
-              "id": "wZK2Q0rXB0AQo8h3",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "classes",
-              "id": "wZK2Q0rXB0AQo8h3",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "pack": "subclasses",
-      "safe": [
-        {
-          "pack": "subclasses",
-          "id": "sprHbe7cRg9osTzf",
-          "name": "Champion",
-          "sourcePath": "subclasses/champion.yml",
-          "lookupKey": "Champion",
-          "matchedLookupKey": "Champion"
-        },
-        {
-          "pack": "subclasses",
-          "id": "4Ae2SPZRXEVbVs0M",
-          "name": "Circle of the Land",
-          "sourcePath": "subclasses/circle-of-the-land.yml",
-          "lookupKey": "Circle of the Land",
-          "matchedLookupKey": "Circle of the Land"
-        },
-        {
-          "pack": "subclasses",
-          "id": "MNvsEc4D2ccX7dQT",
-          "name": "College of Lore",
-          "sourcePath": "subclasses/college-of-lore.yml",
-          "lookupKey": "College of Lore",
-          "matchedLookupKey": "College of Lore"
-        },
-        {
-          "pack": "subclasses",
-          "id": "2nadB2MBSHTQ0kcl",
-          "name": "Draconic Bloodline",
-          "sourcePath": "subclasses/draconic-bloodline.yml",
-          "lookupKey": "Draconic Bloodline",
-          "matchedLookupKey": "Draconic Bloodline"
-        },
-        {
-          "pack": "subclasses",
-          "id": "uqd2q6WjVfcsaaGb",
-          "name": "Hunter",
-          "sourcePath": "subclasses/hunter.yml",
-          "lookupKey": "Hunter",
-          "matchedLookupKey": "Hunter"
-        },
-        {
-          "pack": "subclasses",
-          "id": "H3RYLGqCiqm8BP3q",
-          "name": "Life Domain",
-          "sourcePath": "subclasses/life-domain.yml",
-          "lookupKey": "Life Domain",
-          "matchedLookupKey": "Life Domain"
-        },
-        {
-          "pack": "subclasses",
-          "id": "sZ86mbX8D5PfYuhl",
-          "name": "Oath of Devotion",
-          "sourcePath": "subclasses/oath-of-devotion.yml",
-          "lookupKey": "Oath of Devotion",
-          "matchedLookupKey": "Oath of Devotion"
-        },
-        {
-          "pack": "subclasses",
-          "id": "uGuDQX9Mz3oHNHkU",
-          "name": "Path of the Berserker",
-          "sourcePath": "subclasses/path-of-the-berserker.yml",
-          "lookupKey": "Path of the Berserker",
-          "matchedLookupKey": "Path of the Berserker"
-        },
-        {
-          "pack": "subclasses",
-          "id": "Ye5f3FReEnuXfi0y",
-          "name": "School of Evocation",
-          "sourcePath": "subclasses/school-of-evocation.yml",
-          "lookupKey": "School of Evocation",
-          "matchedLookupKey": "School of Evocation"
-        },
-        {
-          "pack": "subclasses",
-          "id": "WPFVBg589uI8iOMH",
-          "name": "The Fiend",
-          "sourcePath": "subclasses/the-fiend.yml",
-          "lookupKey": "The Fiend",
-          "matchedLookupKey": "The Fiend"
-        },
-        {
-          "pack": "subclasses",
-          "id": "k8iuefRorWOjb9gR",
-          "name": "Thief",
-          "sourcePath": "subclasses/thief.yml",
-          "lookupKey": "Thief",
-          "matchedLookupKey": "Thief"
-        },
-        {
-          "pack": "subclasses",
-          "id": "IvlpKMXX3PmW1NY2",
-          "name": "Way of the Open Hand",
-          "sourcePath": "subclasses/way-of-the-open-hand.yml",
-          "lookupKey": "Way of the Open Hand",
-          "matchedLookupKey": "Way of the Open Hand"
-        }
-      ],
-      "needsTranslation": [],
-      "manualReview": []
-    },
     {
       "pack": "races",
       "safe": [],
@@ -1435,6 +809,27 @@
         },
         {
           "pack": "classfeatures",
+          "id": "myBu3zi5eYvQIcuy",
+          "name": "Additional Magical Secrets",
+          "sourcePath": "classfeatures/bard/college-of-lore-features/additional-magical-secrets.yml",
+          "reason": "missing-visible-fields",
+          "lookupKey": "Additional Magical Secrets",
+          "matchedLookupKey": "Additional Magical Secrets",
+          "fieldPaths": [
+            "system.requirements"
+          ],
+          "repairs": [
+            {
+              "fieldPath": "system.description.value",
+              "translationPath": [
+                "description"
+              ],
+              "value": "<p>Al 6° livello, apprendi due incantesimi di tua scelta appartenenti a qualsiasi classe. Gli incantesimi devono essere di un livello di cui possiedi slot incantesimo, come mostrato sulla tabella Il Bardo, o trucchetti. Gli incantesimi scelti sono considerati incantesimi da bardo ma non sono conteggiati nel numero di incantesimi da bardo che conosci.</p>"
+            }
+          ]
+        },
+        {
+          "pack": "classfeatures",
           "id": "e9ytGikyLFgwZ5wi",
           "name": "Bonus Proficiencies",
           "sourcePath": "classfeatures/bard/college-of-lore-features/bonus-proficiencies.yml",
@@ -1637,6 +1032,27 @@
           "matchedLookupKey": "Superior Critical",
           "fieldPaths": [
             "system.requirements"
+          ]
+        },
+        {
+          "pack": "classfeatures",
+          "id": "xF1VTcJ3AdkbTsdQ",
+          "name": "Action Surge",
+          "sourcePath": "classfeatures/fighter/fighter-features/action-surge.yml",
+          "reason": "missing-visible-fields",
+          "lookupKey": "Action Surge",
+          "matchedLookupKey": "Action Surge",
+          "fieldPaths": [
+            "system.requirements"
+          ],
+          "repairs": [
+            {
+              "fieldPath": "system.description.value",
+              "translationPath": [
+                "description"
+              ],
+              "value": "<p>A partire dal 2° livello, puoi spingerti oltre i tuoi normali limiti per brevi periodi di tempo. Durante il tuo turno, puoi eseguire un’azione aggiuntiva oltre alla tua normale azione e una possibile azione bonus.</p><p>Una volta impiegato questo privilegio, devi terminare un riposo breve o lungo prima di riutilizzarlo. A partire dal 17° livello, puoi utilizzarlo due volte prima di riposare, ma solo una volta durante lo stesso turno.</p>"
+            }
           ]
         },
         {
@@ -2967,15 +2383,6 @@
           "matchedLookupKey": "Expanded Spell List",
           "fieldPaths": [
             "system.requirements"
-          ],
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'Immondo consente al warlock di accedere a una lista ampliata di incantesimi quando deve apprendere un incantesimo da warlock. Il warlock aggiunge gli incantesimi seguenti alla sua lista degli incantesimi da warlock.</p><table><caption>Incantesimi Ampliati dell'immondo</caption><thead><tr><td><strong>Livello dell'Incantesimo</strong></td><td><strong>Incantesimo</strong></td></tr></thead><tbody><tr><td>1&deg;</td><td>@UUID[Compendium.dnd5e.spells.Item.5SuJewoa1CRWaj1F]{Mani Brucianti}, @UUID[Compendium.dnd5e.spells.Item.arzCrMRgcNiQuh43]{Comando}</td></tr><tr><td>2&deg;</td><td>@UUID[Compendium.dnd5e.spells.Item.zwGsAv6kmwzYGhh3]{Cecit&agrave;/sordit&agrave;}, @UUID[Compendium.dnd5e.spells.Item.7u2obDvuvtZBkTfq]{Raggio Rovente}</td></tr><tr><td>3&deg;</td><td>@UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{Palla di Fuoco}, @UUID[Compendium.dnd5e.spells.Item.TwlD4PLcltv7Xh7j]{Nube Maleodorante}</td></tr><tr><td>4&deg;</td><td>@UUID[Compendium.dnd5e.spells.Item.avD5XUtkBPQQR97c]{Scudo di Fuoco}, @UUID[Compendium.dnd5e.spells.Item.X3DrXgxjwI2dvkD6]{Muro di Fuoco}</td></tr><tr><td>5&deg;</td><td>@UUID[Compendium.dnd5e.spells.Item.5e1xTohkzqFqbYH4]{Colpo Infuocato}, @UUID[Compendium.dnd5e.spells.Item.SLxA9QhrggTz0taU]{Santificare}</td></tr></tbody></table>"
-            }
           ]
         },
         {
@@ -3440,33 +2847,6 @@
         },
         {
           "pack": "classfeatures",
-          "id": "myBu3zi5eYvQIcuy",
-          "name": "Additional Magical Secrets",
-          "sourcePath": "classfeatures/bard/college-of-lore-features/additional-magical-secrets.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Additional Magical Secrets",
-          "matchedLookupKey": "Additional Magical Secrets",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "classfeatures",
-              "id": "myBu3zi5eYvQIcuy",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "classfeatures",
-              "id": "myBu3zi5eYvQIcuy",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classfeatures",
           "id": "5zPmHPQUne7RDfaU",
           "name": "Cutting Words",
           "sourcePath": "classfeatures/bard/college-of-lore-features/cutting-words.yml",
@@ -3885,33 +3265,6 @@
           "sourcePath": "classfeatures/fighter/fighter-features/ability-score-improvement.yml",
           "reason": "ambiguous-source-name",
           "lookupKey": "Ability Score Improvement"
-        },
-        {
-          "pack": "classfeatures",
-          "id": "xF1VTcJ3AdkbTsdQ",
-          "name": "Action Surge",
-          "sourcePath": "classfeatures/fighter/fighter-features/action-surge.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Action Surge",
-          "matchedLookupKey": "Action Surge",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "classfeatures",
-              "id": "xF1VTcJ3AdkbTsdQ",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "classfeatures",
-              "id": "xF1VTcJ3AdkbTsdQ",
-              "fieldPath": "system.description.value"
-            }
-          ]
         },
         {
           "pack": "classfeatures",

@@ -4,7 +4,7 @@
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | backgrounds | 3 | 3 | 0 | 0 | 0 | 0 | 0 |
 | classes | 12 | 12 | 0 | 0 | 0 | 0 | 0 |
-| classfeatures | 235 | 0 | 78 | 157 | 27 | 417 | 586 |
+| classfeatures | 235 | 0 | 78 | 157 | 27 | 417 | 580 |
 | effects | 214 | 1 | 213 | 0 | 19 | 220 | 232 |
 | heroes | 12 | 0 | 0 | 12 | 0 | 1153 | 1153 |
 | items | 885 | 129 | 42 | 714 | 0 | 547 | 2025 |
@@ -17,7 +17,7 @@
 | tables | 31 | 1 | 23 | 7 | 0 | 285 | 89 |
 | tradegoods | 23 | 17 | 0 | 6 | 0 | 0 | 10 |
 
-Total blocking issues: 13942
+Total blocking issues: 13936
 
 ## Issues
 
@@ -105,8 +105,6 @@ Total blocking issues: 13942
 - **missing-document** `classfeatures:u4NLajXETJhJU31v`
 - **foundry-reference-count** `classfeatures:GBYN5rH4nh1ocRlY:system.description.value`
 - **missing-field** `classfeatures:GBYN5rH4nh1ocRlY:system.requirements`
-- **html-tag-sequence** `classfeatures:myBu3zi5eYvQIcuy:system.description.value`
-- **html-attributes** `classfeatures:myBu3zi5eYvQIcuy:system.description.value`
 - **missing-field** `classfeatures:myBu3zi5eYvQIcuy:system.requirements`
 - **missing-document** `classfeatures:e9ytGikyLFgwZ5wi`
 - **foundry-reference-count** `classfeatures:5zPmHPQUne7RDfaU:system.description.value`
@@ -185,8 +183,6 @@ Total blocking issues: 13942
 - **html-tag-sequence** `classfeatures:sPy2OLoN7JaAcMl4:system.description.value`
 - **html-attributes** `classfeatures:sPy2OLoN7JaAcMl4:system.description.value`
 - **missing-field** `classfeatures:sPy2OLoN7JaAcMl4:system.requirements`
-- **html-tag-sequence** `classfeatures:xF1VTcJ3AdkbTsdQ:system.description.value`
-- **html-attributes** `classfeatures:xF1VTcJ3AdkbTsdQ:system.description.value`
 - **missing-field** `classfeatures:xF1VTcJ3AdkbTsdQ:system.requirements`
 - **ambiguous-name** `classfeatures:q9g1MLXuLZyxjQMg`
 - **html-tag-sequence** `classfeatures:q9g1MLXuLZyxjQMg:system.description.value`
@@ -454,8 +450,6 @@ Total blocking issues: 13942
 - **missing-document** `classfeatures:snsjxGfmzWfZR5Nh`
 - **missing-field** `classfeatures:Jv0zu4BtUi8bFCqJ:system.requirements`
 - **missing-field** `classfeatures:OQSb0bO1yDI4aiMx:system.requirements`
-- **html-attributes** `classfeatures:4IHsIcBhAVDt8QjY:system.description.value`
-- **foundry-references** `classfeatures:4IHsIcBhAVDt8QjY:system.description.value`
 - **missing-field** `classfeatures:4IHsIcBhAVDt8QjY:system.requirements`
 - **missing-field** `classfeatures:9UZ2WjUF2k58CQug:system.requirements`
 - **missing-field** `classfeatures:9UZ2WjUF2k58CQug:effects[reg3sjReHspgkd0I].name`

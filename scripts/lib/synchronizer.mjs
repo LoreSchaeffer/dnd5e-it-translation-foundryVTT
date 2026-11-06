@@ -64,11 +64,67 @@ function replacePattern(source, translation, expression, replacement) {
   );
 }
 
+function removeMatches(text, matches) {
+  let cursor = 0;
+  let output = "";
+  for (const match of matches) {
+    output += text.slice(cursor, match.index);
+    cursor = match.index + match[0].length;
+  }
+  return output + text.slice(cursor);
+}
+
+function unwrapSingleLegacyDiv(text) {
+  const value = text.trim();
+  const tags = [...value.matchAll(/<\/?div\b[^>]*>/gi)];
+  if (tags.length < 2 || !/^<div\b/i.test(tags[0][0]) || !/^<\/div/i.test(tags.at(-1)[0])) return null;
+
+  let depth = 0;
+  for (let index = 0; index < tags.length; index += 1) {
+    depth += /^<\/div/i.test(tags[index][0]) ? -1 : 1;
+    if (depth === 0 && index !== tags.length - 1) return null;
+    if (depth < 0) return null;
+  }
+  if (depth !== 0) return null;
+  return value.slice(tags[0][0].length, tags.at(-1).index).trim();
+}
+
+function reshapeLegacyParagraphs(source, translation) {
+  const paragraph = /<p\b[^>]*>[\s\S]*?<\/p>/gi;
+  const sourceParagraphs = [...source.matchAll(paragraph)];
+  if (!sourceParagraphs.length || removeMatches(source, sourceParagraphs).trim()) return null;
+
+  let unwrapped = translation.trim();
+  while (true) {
+    const inner = unwrapSingleLegacyDiv(unwrapped);
+    if (inner === null) break;
+    unwrapped = inner;
+  }
+
+  const translatedParagraphs = [...unwrapped.matchAll(paragraph)];
+  if (!translatedParagraphs.length || removeMatches(unwrapped, translatedParagraphs).trim()) return null;
+  let inners = translatedParagraphs.map(match => match[0].replace(/^<p\b[^>]*>/i, "").replace(/<\/p>$/i, ""));
+  if (inners.length === 1 && sourceParagraphs.length > 1) {
+    const split = inners[0].split(/<br\s*\/?\s*>/gi);
+    if (split.length === sourceParagraphs.length) inners = split;
+  }
+  if (inners.length !== sourceParagraphs.length) return null;
+  return inners.map(inner => `<p>${inner}</p>`).join("");
+}
+
 export function rebaseInvariantTokens(source, translation) {
   const sourceHtml = scanHtml(source);
-  const translatedHtml = scanHtml(translation);
+  let translatedHtml = scanHtml(translation);
   const sourceShape = sourceHtml.tokens.map(({ kind, name, selfClosing }) => ({ kind, name, selfClosing }));
-  const translatedShape = translatedHtml.tokens.map(({ kind, name, selfClosing }) => ({ kind, name, selfClosing }));
+  let translatedShape = translatedHtml.tokens.map(({ kind, name, selfClosing }) => ({ kind, name, selfClosing }));
+  if (!sourceHtml.errors.length && !translatedHtml.errors.length && JSON.stringify(sourceShape) !== JSON.stringify(translatedShape)) {
+    const reshaped = reshapeLegacyParagraphs(source, translation);
+    if (reshaped !== null) {
+      translation = reshaped;
+      translatedHtml = scanHtml(translation);
+      translatedShape = translatedHtml.tokens.map(({ kind, name, selfClosing }) => ({ kind, name, selfClosing }));
+    }
+  }
   if (sourceHtml.errors.length || translatedHtml.errors.length || JSON.stringify(sourceShape) !== JSON.stringify(translatedShape)) {
     return null;
   }

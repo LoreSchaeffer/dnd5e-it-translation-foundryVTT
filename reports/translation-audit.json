@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 4058,
       "missing": 11602,
-      "invariantFailures": 2796,
+      "invariantFailures": 2790,
       "englishResiduals": 488,
       "imperialResiduals": 4
     },
-    "blockingIssues": 13942
+    "blockingIssues": 13936
   },
   "packs": [
     {
@@ -103,7 +103,7 @@
           "total": 731,
           "translated": 314,
           "missing": 417,
-          "invariantFailures": 176,
+          "invariantFailures": 170,
           "englishResiduals": 13,
           "imperialResiduals": 0
         }
@@ -862,26 +862,6 @@
           "sourcePath": "classfeatures/bard/bard-features/superior-inspiration.yml"
         },
         {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "classfeatures",
-          "id": "myBu3zi5eYvQIcuy",
-          "fieldPath": "system.description.value",
-          "name": "Additional Magical Secrets",
-          "sourcePath": "classfeatures/bard/college-of-lore-features/additional-magical-secrets.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "classfeatures",
-          "id": "myBu3zi5eYvQIcuy",
-          "fieldPath": "system.description.value",
-          "name": "Additional Magical Secrets",
-          "sourcePath": "classfeatures/bard/college-of-lore-features/additional-magical-secrets.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "classfeatures",
@@ -1612,26 +1592,6 @@
           "name": "Ability Score Improvement",
           "fieldPath": "system.requirements",
           "sourcePath": "classfeatures/fighter/fighter-features/ability-score-improvement.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "classfeatures",
-          "id": "xF1VTcJ3AdkbTsdQ",
-          "fieldPath": "system.description.value",
-          "name": "Action Surge",
-          "sourcePath": "classfeatures/fighter/fighter-features/action-surge.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "classfeatures",
-          "id": "xF1VTcJ3AdkbTsdQ",
-          "fieldPath": "system.description.value",
-          "name": "Action Surge",
-          "sourcePath": "classfeatures/fighter/fighter-features/action-surge.yml"
         },
         {
           "code": "missing-field",
@@ -4057,26 +4017,6 @@
           "name": "Dark One's Own Luck",
           "fieldPath": "system.requirements",
           "sourcePath": "classfeatures/warlock/the-fiend-features/dark-ones-own-luck.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "classfeatures",
-          "id": "4IHsIcBhAVDt8QjY",
-          "fieldPath": "system.description.value",
-          "name": "Expanded Spell List",
-          "sourcePath": "classfeatures/warlock/the-fiend-features/expanded-spell-list.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "classfeatures",
-          "id": "4IHsIcBhAVDt8QjY",
-          "fieldPath": "system.description.value",
-          "name": "Expanded Spell List",
-          "sourcePath": "classfeatures/warlock/the-fiend-features/expanded-spell-list.yml"
         },
         {
           "code": "missing-field",

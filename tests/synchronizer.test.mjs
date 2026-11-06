@@ -154,3 +154,13 @@ test("rebaseInvariantTokens restores source HTML and mechanics while retaining I
 test("rebaseInvariantTokens refuses incompatible HTML shape", () => {
   assert.equal(rebaseInvariantTokens("<p><strong>Rule</strong></p>", "<p>Regola</p>"), null);
 });
+
+test("rebaseInvariantTokens unwraps legacy divs and restores split source paragraphs", () => {
+  const source = '<p class="first">First rule.</p><p>Second @UUID[Compendium.dnd5e.items.Item.abc]{rule}.</p>';
+  const legacy = '<div title="Page 1"><div><div><p>Prima regola.<br>Seconda @Compendium[dnd5e.items.old]{regola}.</p></div></div></div>';
+
+  assert.equal(
+    rebaseInvariantTokens(source, legacy),
+    '<p class="first">Prima regola.</p><p>Seconda @UUID[Compendium.dnd5e.items.Item.abc]{regola}.</p>'
+  );
+});
