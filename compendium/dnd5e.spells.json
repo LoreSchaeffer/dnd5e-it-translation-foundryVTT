@@ -411,7 +411,8 @@
       "materials": "un frammento di corteccia di quercia",
       "effects": {
         "uM6rgctYpcbCVSkn": {
-          "name": "Pelle Coriacea"
+          "name": "Pelle Coriacea",
+          "description": "<p>Finché l'incantesimo non termina, la tua pelle assume un aspetto ruvido simile alla corteccia e la tua CA non può essere inferiore a 16, a prescindere dal tipo di armatura che indossi.</p>"
         }
       },
       "activities": {
@@ -1584,22 +1585,28 @@
       },
       "effects": {
         "4wHuqQygcUoETdfL": {
-          "name": "Resistenza dell'Orso"
+          "name": "Resistenza dell'Orso",
+          "description": "<p>Per la durata dell'incantesimo, disponi di vantaggio alle prove di Costituzione. Ottieni inoltre 2d6 punti ferita temporanei, che vanno perduti quando l'incantesimo termina.</p>"
         },
         "dXPiowCzQbenlxaJ": {
-          "name": "Forza del Toro"
+          "name": "Forza del Toro",
+          "description": "<p>Per la durata dell'incantesimo, disponi di vantaggio alle prove di Forza. Anche la tua capacità di trasporto raddoppia.</p>"
         },
         "fQYlplRem5XWAYlX": {
-          "name": "Grazia del Gatto"
+          "name": "Grazia del Gatto",
+          "description": "<p>Per la durata dell'incantesimo, disponi di vantaggio alle prove di Destrezza. Inoltre, se non sei &amp;reference[incapacitated apply=false], non subisci danni dalle cadute di 6 metri o meno.</p>"
         },
         "fL5yxySa2tgQR96A": {
-          "name": "Splendore dell'Aquila"
+          "name": "Splendore dell'Aquila",
+          "description": "<p>Per la durata dell'incantesimo, disponi di vantaggio alle prove di Carisma.</p>"
         },
         "pHwVg5BiH0Z7ysfD": {
-          "name": "Astuzia della Volpe"
+          "name": "Astuzia della Volpe",
+          "description": "<p>Per la durata dell'incantesimo, disponi di vantaggio alle prove di Intelligenza.</p>"
         },
         "FCTEJkHaaxkAeNhQ": {
-          "name": "Saggezza del Gufo"
+          "name": "Saggezza del Gufo",
+          "description": "<p>Per la durata dell'incantesimo, disponi di vantaggio alle prove di Saggezza.</p>"
         }
       }
     },
@@ -1671,7 +1678,8 @@
       "description": "<p>Questo incantesimo consente all'incantatore di muoversi a una velocità straordinaria. Quando lancia questo incantesimo, e poi come azione bonus a ogni suo turno finché l'incantesimo non termina, l'incantatore può effettuare l'azione Scatto.</p>",
       "effects": {
         "Tpa22WViLoIQHfDe": {
-          "name": "Ritirata Rapida"
+          "name": "Ritirata Rapida",
+          "description": "<p>Come azione bonus in ogni tuo turno finché l'incantesimo non termina, puoi effettuare l'azione &amp;reference[Dash].</p>"
         }
       },
       "activities": {
@@ -2270,7 +2278,8 @@
       "description": "<p>L'incantatore tocca una creatura consenziente. Una volta prima che l'incantesimo termini il bersaglio può tirare un d4 e aggiungere il risultato a una prova di caratteristica a sua scelta. Può tirare il dado prima o dopo avere effettuato la prova di caratteristica. Dopodiché l'incantesimo termina.</p>",
       "effects": {
         "KsQdGorCuwDjaUGF": {
-          "name": "Guida"
+          "name": "Guida",
+          "description": "<p>Una volta prima che l'incantesimo termini, puoi tirare un [[/r d4]] e aggiungere il risultato a una prova di caratteristica a tua scelta. Puoi tirare il dado prima o dopo aver effettuato la prova di caratteristica. Poi l'incantesimo termina.</p>"
         }
       },
       "activities": {
@@ -2360,7 +2369,8 @@
       },
       "effects": {
         "DEPrzDiNHOqKj4Hj": {
-          "name": "Accelerato"
+          "name": "Accelerato",
+          "description": "<p>Finché l'incantesimo non termina, la tua velocità raddoppia, ottieni un bonus di +2 alla CA, disponi di vantaggio ai tiri salvezza su Destrezza e ottieni un'azione aggiuntiva a ogni tuo turno. Questa azione può essere usata soltanto per effettuare l'azione &amp;reference[Attack] (un solo attacco con un'arma), &amp;reference[Dash], &amp;reference[Disengage], &amp;reference[Hide] o &amp;reference[Use an Object].</p>"
         }
       }
     },
@@ -2815,7 +2825,8 @@
       "materials": "un pezzo di cuoio trattato",
       "effects": {
         "cfwMU7LuOJ619Lny": {
-          "name": "Armatura Magica"
+          "name": "Armatura Magica",
+          "description": "<p>Una forza magica protettiva ti circonda finché l'incantesimo non termina.</p><p>La tua CA base diventa pari a 13 + il tuo modificatore di Destrezza. L'incantesimo termina se indossi un'armatura o se l'incantatore lo congeda con un'azione.</p>"
         }
       },
       "activities": {
@@ -2907,13 +2918,16 @@
       },
       "effects": {
         "SLSudYaACjmmmZsU": {
-          "name": "Arma Magica, +1"
+          "name": "Arma Magica, +1",
+          "description": "<p>Quest'arma diventa un'arma magica con un bonus di +1 ai tiri per colpire e ai tiri per i danni.</p>"
         },
         "8OhsRxK3dF1JeQXO": {
-          "name": "Arma Magica, +2"
+          "name": "Arma Magica, +2",
+          "description": "<p>Quest'arma diventa un'arma magica con un bonus di +2 ai tiri per colpire e ai tiri per i danni.</p>"
         },
         "7L1wKfaEdN85IA0Z": {
-          "name": "Arma Magica, +3"
+          "name": "Arma Magica, +3",
+          "description": "<p>Quest'arma diventa un'arma magica con un bonus di +3 ai tiri per colpire e ai tiri per i danni.</p>"
         }
       }
     },
@@ -3195,7 +3209,8 @@
       "materials": "un pizzico di polvere di diamante da spruzzare sul bersaglio del valore di 25 mo, che l'incantatore consuma",
       "effects": {
         "VcHisfZtWwBeEBCP": {
-          "name": "Anti-Individuazione"
+          "name": "Anti-Individuazione",
+          "description": "<p>Per la durata sei nascosto alla magia di Divinazione. Non puoi essere bersagliato da alcuna magia di divinazione né percepito attraverso i sensori magici di @UUID[Compendium.dnd5e.spells.Item.fVbCxFRaORalHB20]{Scrutare}.</p>"
         }
       },
       "activities": {
@@ -3210,7 +3225,8 @@
       "materials": "cenere di una foglia di vischio bruciata e un rametto di abete",
       "effects": {
         "yXrjsSvXaxXXzsU2": {
-          "name": "Passare Senza Tracce"
+          "name": "Passare Senza Tracce",
+          "description": "<p>Un velo di ombre e silenzio ti nasconde dall'individuazione. Ottieni un bonus di +10 alle prove di Destrezza (Furtività) e non puoi essere seguito se non tramite mezzi magici. Non lasci tracce né altri segni del tuo passaggio.</p>"
         }
       },
       "activities": {
@@ -3565,19 +3581,24 @@
       },
       "effects": {
         "e0Ibmfgv8aTzvxiE": {
-          "name": "Protezione dall'Acido"
+          "name": "Protezione dall'Acido",
+          "description": "<p>Per la durata, possiedi resistenza ai danni da acido.</p>"
         },
         "u8CWVEZ9xQXeg7EU": {
-          "name": "Protezione dal Freddo"
+          "name": "Protezione dal Freddo",
+          "description": "<p>Per la durata, possiedi resistenza ai danni da freddo.</p>"
         },
         "Md45M3QzPeWi5GsR": {
-          "name": "Protezione dal Fuoco"
+          "name": "Protezione dal Fuoco",
+          "description": "<p>Per la durata, possiedi resistenza ai danni da fuoco.</p>"
         },
         "mpQ2ucBu1e2zw56V": {
-          "name": "Protezione dal Fulmine"
+          "name": "Protezione dal Fulmine",
+          "description": "<p>Per la durata, possiedi resistenza ai danni da fulmine.</p>"
         },
         "Bi9lRQMuk1qVlWes": {
-          "name": "Protezione dal Tuono"
+          "name": "Protezione dal Tuono",
+          "description": "<p>Per la durata, possiedi resistenza ai danni da tuono.</p>"
         }
       }
     },
@@ -3721,7 +3742,8 @@
       "materials": "un mantello in miniatura",
       "effects": {
         "cK52KOkDDsZveNI2": {
-          "name": "Resistenza"
+          "name": "Resistenza",
+          "description": "<p>Una volta prima che l'incantesimo termini, puoi tirare un [[/r d4]] e aggiungere il risultato a un tiro salvezza a tua scelta. Puoi tirare il dado prima o dopo aver effettuato il tiro salvezza. Poi l'incantesimo termina.</p>"
         }
       },
       "activities": {
@@ -3970,7 +3992,8 @@
       "description": "<p data-parsoid=\"{&quot;dsr&quot;:[0,29,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,29,2,2]}\">Abiurazione di 1&deg; livello</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[30,312,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[30,237,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[31,54,3,3]}\">Tempo di lancio:&nbsp;</strong>1 reazione, che l'incantatore effettua quando &egrave; colpito da un attacco o bersagliato dall'incantesimo Dardo Incantato</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[238,265,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[239,254,3,3]}\">Gittata:&nbsp;</strong>Incantatore</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[266,289,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[267,285,3,3]}\">Componenti:&nbsp;</strong>V, S</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[290,312,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[291,305,3,3]}\">Durata:&nbsp;</strong>1 round</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[313,394,0,0]}\">Una barriera di forza magica invisibile si materializza e protegge l'incantatore.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[396,583,0,0]}\">Fino all'inizio del proprio turno successivo, l'incantatore ottiene un bonus +5 alla CA da applicare anche all'attacco innescante e non subisce danni dall'incantesimo @Compendium[world.tutti-gli-incantesimi.iABc2VrLSFyJdy16]{Dardo Incantato}.</p>",
       "effects": {
         "6pbotGIvqQkraPva": {
-          "name": "Scudo"
+          "name": "Scudo",
+          "description": "<p>Fino all'inizio del tuo turno successivo, ottieni un bonus di +5 alla CA, che si applica anche contro l'attacco innescante, e non subisci danni da @UUID[Compendium.dnd5e.spells.Item.41JIhpDyM9Anm7cs]{Dardo Incantato}.</p>"
         }
       },
       "activities": {
@@ -3985,7 +4008,8 @@
       "materials": "una piccola pergamena su cui sia stato scritto un frammento di un testo sacro",
       "effects": {
         "FKDbXBUs6VJlf8ZY": {
-          "name": "Scudo della Fede"
+          "name": "Scudo della Fede",
+          "description": "<p>Un campo scintillante compare e ti circonda, conferendoti un bonus di +2 alla CA per la durata dell'incantesimo.</p>"
         }
       },
       "activities": {
@@ -4000,7 +4024,8 @@
       "materials": "Vischio, una foglia di trifoglio, e un randello o un bastone ferrato",
       "effects": {
         "QPsqj6jfS0iXSrTs": {
-          "name": "Randello Incantato"
+          "name": "Randello Incantato",
+          "description": "<p>Per la durata puoi usare la tua caratteristica da incantatore anziché Forza per i tiri per colpire e per i danni degli attacchi in mischia effettuati con quest'arma, e il dado di danno dell'arma diventa un d8. L'arma diventa inoltre magica, se non lo è già. L'incantesimo termina se lo lanci di nuovo o se lasci andare l'arma.</p>"
         }
       },
       "activities": {
@@ -4156,7 +4181,8 @@
       "materials": "una goccia di bitume e un ragno",
       "effects": {
         "ePoOPQwLqzESWoGj": {
-          "name": "Movimenti del Ragno"
+          "name": "Movimenti del Ragno",
+          "description": "<p>Finché l'incantesimo non termina, ottieni la capacità di muoverti verso l'alto, verso il basso e sulle superfici verticali, nonché a testa in giù sui soffitti, lasciando le mani libere. Ottieni inoltre una velocità di scalare pari alla tua velocità base sul terreno.</p>"
         }
       },
       "activities": {
@@ -4237,7 +4263,8 @@
       "materials": "polvere di diamante del valore di 100 mo, che l'incantatore consuma",
       "effects": {
         "cSVCA9h5OEo5lfBE": {
-          "name": "Pelle di Pietra"
+          "name": "Pelle di Pietra",
+          "description": "<p>Finché l'incantesimo non termina, possiedi resistenza ai danni contundenti, perforanti e taglienti non magici.</p>"
         }
       },
       "activities": {

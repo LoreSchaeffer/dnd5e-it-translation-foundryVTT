@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1002,
+      "translated": 1009,
       "missing": 70,
-      "partial": 1319,
+      "partial": 1312,
       "review": 213
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 9166,
-      "missing": 6494,
+      "translated": 9193,
+      "missing": 6467,
       "invariantFailures": 2394,
       "englishResiduals": 135,
       "imperialResiduals": 4
     },
-    "blockingIssues": 9050
+    "blockingIssues": 9023
   },
   "packs": [
     {
@@ -76741,9 +76741,9 @@
       "summary": {
         "documents": {
           "total": 320,
-          "translated": 65,
+          "translated": 72,
           "missing": 1,
-          "partial": 254,
+          "partial": 247,
           "review": 10
         },
         "folders": {
@@ -76755,8 +76755,8 @@
         },
         "fields": {
           "total": 2007,
-          "translated": 1659,
-          "missing": 348,
+          "translated": 1686,
+          "missing": 321,
           "invariantFailures": 406,
           "englishResiduals": 17,
           "imperialResiduals": 2
@@ -76951,15 +76951,6 @@
           "name": "Entangle",
           "fieldPath": "effects[fO14IutGR3Hrepun].description",
           "sourcePath": "spells/1st-level/entangle.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "zPGohqJRir6MyQ3U",
-          "name": "Expeditious Retreat",
-          "fieldPath": "effects[Tpa22WViLoIQHfDe].description",
-          "sourcePath": "spells/1st-level/expeditious-retreat.yml"
         },
         {
           "code": "missing-field",
@@ -77173,15 +77164,6 @@
           "sourcePath": "spells/1st-level/longstrider.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "CKZTpZlxj7hjjo2H",
-          "name": "Mage Armor",
-          "fieldPath": "effects[cfwMU7LuOJ619Lny].description",
-          "sourcePath": "spells/1st-level/mage-armor.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -77320,15 +77302,6 @@
           "sourcePath": "spells/1st-level/shield-of-faith.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "jZ6JNykRtdQ90MOo",
-          "name": "Shield of Faith",
-          "fieldPath": "effects[FKDbXBUs6VJlf8ZY].description",
-          "sourcePath": "spells/1st-level/shield-of-faith.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -77356,15 +77329,6 @@
           "id": "z1mx84ONwkXKUZd7",
           "fieldPath": "system.description.value",
           "name": "Shield",
-          "sourcePath": "spells/1st-level/shield.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "z1mx84ONwkXKUZd7",
-          "name": "Shield",
-          "fieldPath": "effects[6pbotGIvqQkraPva].description",
           "sourcePath": "spells/1st-level/shield.yml"
         },
         {
@@ -77830,15 +77794,6 @@
           "sourcePath": "spells/2nd-level/augury.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "JPwIEfgUPVebr5AH",
-          "name": "Barkskin",
-          "fieldPath": "effects[uM6rgctYpcbCVSkn].description",
-          "sourcePath": "spells/2nd-level/barkskin.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -78028,60 +77983,6 @@
           "name": "Darkvision",
           "fieldPath": "effects[9qaZQFN5xP8Gig8f].description",
           "sourcePath": "spells/2nd-level/darkvision.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "9eOZDBImVKxbeOyZ",
-          "name": "Enhance Ability",
-          "fieldPath": "effects[4wHuqQygcUoETdfL].description",
-          "sourcePath": "spells/2nd-level/enhance-ability.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "9eOZDBImVKxbeOyZ",
-          "name": "Enhance Ability",
-          "fieldPath": "effects[dXPiowCzQbenlxaJ].description",
-          "sourcePath": "spells/2nd-level/enhance-ability.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "9eOZDBImVKxbeOyZ",
-          "name": "Enhance Ability",
-          "fieldPath": "effects[fQYlplRem5XWAYlX].description",
-          "sourcePath": "spells/2nd-level/enhance-ability.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "9eOZDBImVKxbeOyZ",
-          "name": "Enhance Ability",
-          "fieldPath": "effects[fL5yxySa2tgQR96A].description",
-          "sourcePath": "spells/2nd-level/enhance-ability.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "9eOZDBImVKxbeOyZ",
-          "name": "Enhance Ability",
-          "fieldPath": "effects[pHwVg5BiH0Z7ysfD].description",
-          "sourcePath": "spells/2nd-level/enhance-ability.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "9eOZDBImVKxbeOyZ",
-          "name": "Enhance Ability",
-          "fieldPath": "effects[FCTEJkHaaxkAeNhQ].description",
-          "sourcePath": "spells/2nd-level/enhance-ability.yml"
         },
         {
           "code": "missing-field",
@@ -78399,33 +78300,6 @@
           "sourcePath": "spells/2nd-level/locate-object.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "Sgjrf8qqv97CCWM4",
-          "name": "Magic Weapon",
-          "fieldPath": "effects[SLSudYaACjmmmZsU].description",
-          "sourcePath": "spells/2nd-level/magic-weapon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "Sgjrf8qqv97CCWM4",
-          "name": "Magic Weapon",
-          "fieldPath": "effects[8OhsRxK3dF1JeQXO].description",
-          "sourcePath": "spells/2nd-level/magic-weapon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "Sgjrf8qqv97CCWM4",
-          "name": "Magic Weapon",
-          "fieldPath": "effects[7L1wKfaEdN85IA0Z].description",
-          "sourcePath": "spells/2nd-level/magic-weapon.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -78502,15 +78376,6 @@
           "id": "pRMvmknwLf2tdMTj",
           "fieldPath": "system.description.value",
           "name": "Pass without Trace",
-          "sourcePath": "spells/2nd-level/pass-without-trace.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "pRMvmknwLf2tdMTj",
-          "name": "Pass without Trace",
-          "fieldPath": "effects[yXrjsSvXaxXXzsU2].description",
           "sourcePath": "spells/2nd-level/pass-without-trace.yml"
         },
         {
@@ -78740,15 +78605,6 @@
           "id": "KJRVzeMQXPj8Gtyx",
           "fieldPath": "system.description.value",
           "name": "Spider Climb",
-          "sourcePath": "spells/2nd-level/spider-climb.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "KJRVzeMQXPj8Gtyx",
-          "name": "Spider Climb",
-          "fieldPath": "effects[ePoOPQwLqzESWoGj].description",
           "sourcePath": "spells/2nd-level/spider-climb.yml"
         },
         {
@@ -79175,15 +79031,6 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "spells",
-          "id": "Szvk5FEVQW3uhJi5",
-          "name": "Haste",
-          "fieldPath": "effects[DEPrzDiNHOqKj4Hj].description",
-          "sourcePath": "spells/3rd-level/haste.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
           "id": "6g3WLOZ2u0EbaLAd",
           "name": "Hypnotic Pattern",
           "fieldPath": "effects[SQnfuD2rHVcyLZ4j].description",
@@ -79327,15 +79174,6 @@
           "sourcePath": "spells/3rd-level/nondetection.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "aU62xVUBYkAQWIHv",
-          "name": "Nondetection",
-          "fieldPath": "effects[VcHisfZtWwBeEBCP].description",
-          "sourcePath": "spells/3rd-level/nondetection.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -79412,51 +79250,6 @@
           "id": "j8NtLXOOJ3GAKF8I",
           "fieldPath": "system.description.value",
           "name": "Protection from Energy",
-          "sourcePath": "spells/3rd-level/protection-from-energy.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "j8NtLXOOJ3GAKF8I",
-          "name": "Protection from Energy",
-          "fieldPath": "effects[e0Ibmfgv8aTzvxiE].description",
-          "sourcePath": "spells/3rd-level/protection-from-energy.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "j8NtLXOOJ3GAKF8I",
-          "name": "Protection from Energy",
-          "fieldPath": "effects[u8CWVEZ9xQXeg7EU].description",
-          "sourcePath": "spells/3rd-level/protection-from-energy.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "j8NtLXOOJ3GAKF8I",
-          "name": "Protection from Energy",
-          "fieldPath": "effects[Md45M3QzPeWi5GsR].description",
-          "sourcePath": "spells/3rd-level/protection-from-energy.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "j8NtLXOOJ3GAKF8I",
-          "name": "Protection from Energy",
-          "fieldPath": "effects[mpQ2ucBu1e2zw56V].description",
-          "sourcePath": "spells/3rd-level/protection-from-energy.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "j8NtLXOOJ3GAKF8I",
-          "name": "Protection from Energy",
-          "fieldPath": "effects[Bi9lRQMuk1qVlWes].description",
           "sourcePath": "spells/3rd-level/protection-from-energy.yml"
         },
         {
@@ -80336,15 +80129,6 @@
           "id": "ReMbjfeOKoSj3O79",
           "fieldPath": "system.description.value",
           "name": "Stoneskin",
-          "sourcePath": "spells/4th-level/stoneskin.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "ReMbjfeOKoSj3O79",
-          "name": "Stoneskin",
-          "fieldPath": "effects[cSVCA9h5OEo5lfBE].description",
           "sourcePath": "spells/4th-level/stoneskin.yml"
         },
         {
@@ -83782,15 +83566,6 @@
           "sourcePath": "spells/cantrip/chill-touch.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "P7mF2MxSuVJwHRRY",
-          "name": "Guidance",
-          "fieldPath": "effects[KsQdGorCuwDjaUGF].description",
-          "sourcePath": "spells/cantrip/guidance.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -84000,15 +83775,6 @@
           "sourcePath": "spells/cantrip/resistance.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "dl8YwvMboBqX2OC4",
-          "name": "Resistance",
-          "fieldPath": "effects[cK52KOkDDsZveNI2].description",
-          "sourcePath": "spells/cantrip/resistance.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -84046,15 +83812,6 @@
           "id": "VzgFzcmocr1X1cp4",
           "fieldPath": "system.description.value",
           "name": "Shillelagh",
-          "sourcePath": "spells/cantrip/shillelagh.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "VzgFzcmocr1X1cp4",
-          "name": "Shillelagh",
-          "fieldPath": "effects[QPsqj6jfS0iXSrTs].description",
           "sourcePath": "spells/cantrip/shillelagh.yml"
         },
         {
