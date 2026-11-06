@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1257,
+      "translated": 1273,
       "missing": 69,
-      "partial": 1065,
+      "partial": 1049,
       "review": 203
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 1988,
+      "invariantFailures": 1952,
       "englishResiduals": 118,
       "imperialResiduals": 2
     },
-    "blockingIssues": 8278
+    "blockingIssues": 8242
   },
   "packs": [
     {
@@ -5317,9 +5317,9 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 369,
+          "translated": 385,
           "missing": 0,
-          "partial": 516,
+          "partial": 500,
           "review": 133
         },
         "folders": {
@@ -5333,7 +5333,7 @@
           "total": 2227,
           "translated": 2227,
           "missing": 0,
-          "invariantFailures": 1041,
+          "invariantFailures": 1005,
           "englishResiduals": 46,
           "imperialResiduals": 2
         }
@@ -10294,166 +10294,6 @@
           "sourcePath": "items/spellcasting-focus/totem.yml"
         },
         {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "SztwZhbhZeCqyAes",
-          "fieldPath": "system.description.value",
-          "name": "Alchemist's Supplies",
-          "sourcePath": "items/tool/alchemists-supplies.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "SztwZhbhZeCqyAes",
-          "fieldPath": "system.description.value",
-          "name": "Alchemist's Supplies",
-          "sourcePath": "items/tool/alchemists-supplies.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "SztwZhbhZeCqyAes",
-          "fieldPath": "system.unidentified.description",
-          "name": "Alchemist's Supplies",
-          "sourcePath": "items/tool/alchemists-supplies.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "SztwZhbhZeCqyAes",
-          "fieldPath": "system.unidentified.description",
-          "name": "Alchemist's Supplies",
-          "sourcePath": "items/tool/alchemists-supplies.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "Y9S75go1hLMXUD48",
-          "fieldPath": "system.description.value",
-          "name": "Brewer's Supplies",
-          "sourcePath": "items/tool/brewers-supplies.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "Y9S75go1hLMXUD48",
-          "fieldPath": "system.description.value",
-          "name": "Brewer's Supplies",
-          "sourcePath": "items/tool/brewers-supplies.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "jhjo20QoiD5exf09",
-          "fieldPath": "system.description.value",
-          "name": "Calligrapher's Supplies",
-          "sourcePath": "items/tool/calligraphers-supplies.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "jhjo20QoiD5exf09",
-          "fieldPath": "system.description.value",
-          "name": "Calligrapher's Supplies",
-          "sourcePath": "items/tool/calligraphers-supplies.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "8NS6MSOdXtUqD7Ib",
-          "fieldPath": "system.description.value",
-          "name": "Carpenter's Tools",
-          "sourcePath": "items/tool/carpenters-tools.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "8NS6MSOdXtUqD7Ib",
-          "fieldPath": "system.description.value",
-          "name": "Carpenter's Tools",
-          "sourcePath": "items/tool/carpenters-tools.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "8NS6MSOdXtUqD7Ib",
-          "fieldPath": "system.unidentified.description",
-          "name": "Carpenter's Tools",
-          "sourcePath": "items/tool/carpenters-tools.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "8NS6MSOdXtUqD7Ib",
-          "fieldPath": "system.unidentified.description",
-          "name": "Carpenter's Tools",
-          "sourcePath": "items/tool/carpenters-tools.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "fC0lFK8P4RuhpfaU",
-          "fieldPath": "system.description.value",
-          "name": "Cartographer's Tools",
-          "sourcePath": "items/tool/cartographers-tools.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "fC0lFK8P4RuhpfaU",
-          "fieldPath": "system.description.value",
-          "name": "Cartographer's Tools",
-          "sourcePath": "items/tool/cartographers-tools.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "Gflnp29aEv5Lc1ZM",
-          "fieldPath": "system.description.value",
-          "name": "Cook's Utensils",
-          "sourcePath": "items/tool/cooks-utensils.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "Gflnp29aEv5Lc1ZM",
-          "fieldPath": "system.description.value",
-          "name": "Cook's Utensils",
-          "sourcePath": "items/tool/cooks-utensils.yml"
-        },
-        {
           "code": "unchanged-english",
           "value": "Dulcimer",
           "message": "Visible translation is identical to the English source",
@@ -10469,86 +10309,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "items",
-          "id": "rTbVrNcwApnuTz5E",
-          "fieldPath": "system.description.value",
-          "name": "Glassblower's Tools",
-          "sourcePath": "items/tool/glassblowers-tools.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "rTbVrNcwApnuTz5E",
-          "fieldPath": "system.description.value",
-          "name": "Glassblower's Tools",
-          "sourcePath": "items/tool/glassblowers-tools.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "YfBwELTgPFHmQdHh",
-          "fieldPath": "system.description.value",
-          "name": "Jeweler's Tools",
-          "sourcePath": "items/tool/jewelers-tools.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "YfBwELTgPFHmQdHh",
-          "fieldPath": "system.description.value",
-          "name": "Jeweler's Tools",
-          "sourcePath": "items/tool/jewelers-tools.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "PUMfwyVUbtyxgYbD",
-          "fieldPath": "system.description.value",
-          "name": "Leatherworker's Tools",
-          "sourcePath": "items/tool/leatherworkers-tools.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "PUMfwyVUbtyxgYbD",
-          "fieldPath": "system.description.value",
-          "name": "Leatherworker's Tools",
-          "sourcePath": "items/tool/leatherworkers-tools.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "skUih6tBvcBbORzA",
-          "fieldPath": "system.description.value",
-          "name": "Mason's Tools",
-          "sourcePath": "items/tool/masons-tools.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "skUih6tBvcBbORzA",
-          "fieldPath": "system.description.value",
-          "name": "Mason's Tools",
-          "sourcePath": "items/tool/masons-tools.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
           "id": "YHCmjsiXxZ9UdUhU",
           "fieldPath": "system.description.value",
           "name": "Navigator's Tools",
@@ -10563,106 +10323,6 @@
           "fieldPath": "system.description.value",
           "name": "Navigator's Tools",
           "sourcePath": "items/tool/navigators-tools.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "hJS8yEVkqgJjwfWa",
-          "fieldPath": "system.description.value",
-          "name": "Potter's Tools",
-          "sourcePath": "items/tool/potters-tools.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "hJS8yEVkqgJjwfWa",
-          "fieldPath": "system.description.value",
-          "name": "Potter's Tools",
-          "sourcePath": "items/tool/potters-tools.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "KndVe2insuctjIaj",
-          "fieldPath": "system.description.value",
-          "name": "Smith's Tools",
-          "sourcePath": "items/tool/smiths-tools.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "KndVe2insuctjIaj",
-          "fieldPath": "system.description.value",
-          "name": "Smith's Tools",
-          "sourcePath": "items/tool/smiths-tools.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "0d08g1i5WXnNrCNA",
-          "fieldPath": "system.description.value",
-          "name": "Tinker's Tools",
-          "sourcePath": "items/tool/tinkers-tools.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "0d08g1i5WXnNrCNA",
-          "fieldPath": "system.description.value",
-          "name": "Tinker's Tools",
-          "sourcePath": "items/tool/tinkers-tools.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "ap9prThUB2y9lDyj",
-          "fieldPath": "system.description.value",
-          "name": "Weaver's Tools",
-          "sourcePath": "items/tool/weavers-tools.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "ap9prThUB2y9lDyj",
-          "fieldPath": "system.description.value",
-          "name": "Weaver's Tools",
-          "sourcePath": "items/tool/weavers-tools.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "xKErqkLo4ASYr5EP",
-          "fieldPath": "system.description.value",
-          "name": "Woodcarver's Tools",
-          "sourcePath": "items/tool/woodcarvers-tools.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "xKErqkLo4ASYr5EP",
-          "fieldPath": "system.description.value",
-          "name": "Woodcarver's Tools",
-          "sourcePath": "items/tool/woodcarvers-tools.yml"
         },
         {
           "code": "html-balance",
@@ -11031,26 +10691,6 @@
           "fieldPath": "system.description.value",
           "name": "Bronze Horn of Valhalla",
           "sourcePath": "items/trinket/bronze-horn-of-valhalla.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "8tvhh5wqG5FRh3Sf",
-          "fieldPath": "system.description.value",
-          "name": "Caltrops",
-          "sourcePath": "items/trinket/caltrops.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "8tvhh5wqG5FRh3Sf",
-          "fieldPath": "system.description.value",
-          "name": "Caltrops",
-          "sourcePath": "items/trinket/caltrops.yml"
         },
         {
           "code": "html-tag-sequence",
