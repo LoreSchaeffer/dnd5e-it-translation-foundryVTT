@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1195,
+      "translated": 1198,
       "missing": 69,
-      "partial": 1127,
+      "partial": 1124,
       "review": 203
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 2152,
+      "invariantFailures": 2146,
       "englishResiduals": 118,
       "imperialResiduals": 2
     },
-    "blockingIssues": 8442
+    "blockingIssues": 8436
   },
   "packs": [
     {
@@ -76741,9 +76741,9 @@
       "summary": {
         "documents": {
           "total": 320,
-          "translated": 258,
+          "translated": 261,
           "missing": 0,
-          "partial": 62,
+          "partial": 59,
           "review": 0
         },
         "folders": {
@@ -76757,7 +76757,7 @@
           "total": 2007,
           "translated": 2007,
           "missing": 0,
-          "invariantFailures": 164,
+          "invariantFailures": 158,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
@@ -76892,26 +76892,6 @@
           "fieldPath": "system.description.value",
           "name": "Arcanist's Magic Aura",
           "sourcePath": "spells/2nd-level/arcanists-magic-aura.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "4v2H3hHb3Ph9XLNd",
-          "fieldPath": "system.description.value",
-          "name": "Augury",
-          "sourcePath": "spells/2nd-level/augury.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "4v2H3hHb3Ph9XLNd",
-          "fieldPath": "system.description.value",
-          "name": "Augury",
-          "sourcePath": "spells/2nd-level/augury.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -77108,26 +77088,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "spells",
-          "id": "15Fa6q1nH27XfbR8",
-          "fieldPath": "system.description.value",
-          "name": "Dispel Magic",
-          "sourcePath": "spells/3rd-level/dispel-magic.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "15Fa6q1nH27XfbR8",
-          "fieldPath": "system.description.value",
-          "name": "Dispel Magic",
-          "sourcePath": "spells/3rd-level/dispel-magic.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
           "id": "pB7XVYwdGNcUG935",
           "fieldPath": "system.description.value",
           "name": "Glyph of Warding",
@@ -77202,26 +77162,6 @@
           "fieldPath": "system.description.value",
           "name": "Phantom Steed",
           "sourcePath": "spells/3rd-level/phantom-steed.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "j8NtLXOOJ3GAKF8I",
-          "fieldPath": "system.description.value",
-          "name": "Protection from Energy",
-          "sourcePath": "spells/3rd-level/protection-from-energy.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "j8NtLXOOJ3GAKF8I",
-          "fieldPath": "system.description.value",
-          "name": "Protection from Energy",
-          "sourcePath": "spells/3rd-level/protection-from-energy.yml"
         },
         {
           "code": "html-tag-sequence",

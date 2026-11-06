@@ -407,6 +407,14 @@
         },
         {
           "pack": "spells",
+          "id": "4v2H3hHb3Ph9XLNd",
+          "name": "Augury",
+          "sourcePath": "spells/2nd-level/augury.yml",
+          "lookupKey": "Augury",
+          "matchedLookupKey": "Augury"
+        },
+        {
+          "pack": "spells",
           "id": "JPwIEfgUPVebr5AH",
           "name": "Barkskin",
           "sourcePath": "spells/2nd-level/barkskin.yml",
@@ -815,6 +823,14 @@
         },
         {
           "pack": "spells",
+          "id": "15Fa6q1nH27XfbR8",
+          "name": "Dispel Magic",
+          "sourcePath": "spells/3rd-level/dispel-magic.yml",
+          "lookupKey": "Dispel Magic",
+          "matchedLookupKey": "Dispel Magic"
+        },
+        {
+          "pack": "spells",
           "id": "XXUDGFELgoskdOD0",
           "name": "Fear",
           "sourcePath": "spells/3rd-level/fear.yml",
@@ -900,6 +916,14 @@
           "sourcePath": "spells/3rd-level/plant-growth.yml",
           "lookupKey": "Plant Growth",
           "matchedLookupKey": "Plant Growth"
+        },
+        {
+          "pack": "spells",
+          "id": "j8NtLXOOJ3GAKF8I",
+          "name": "Protection from Energy",
+          "sourcePath": "spells/3rd-level/protection-from-energy.yml",
+          "lookupKey": "Protection from Energy",
+          "matchedLookupKey": "Protection from Energy"
         },
         {
           "pack": "spells",
@@ -2233,33 +2257,6 @@
         },
         {
           "pack": "spells",
-          "id": "4v2H3hHb3Ph9XLNd",
-          "name": "Augury",
-          "sourcePath": "spells/2nd-level/augury.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Augury",
-          "matchedLookupKey": "Augury",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "4v2H3hHb3Ph9XLNd",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "4v2H3hHb3Ph9XLNd",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
           "id": "KrM3oHVv13RAALrS",
           "name": "Find Traps",
           "sourcePath": "spells/2nd-level/find-traps.yml",
@@ -2478,33 +2475,6 @@
         },
         {
           "pack": "spells",
-          "id": "15Fa6q1nH27XfbR8",
-          "name": "Dispel Magic",
-          "sourcePath": "spells/3rd-level/dispel-magic.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Dispel Magic",
-          "matchedLookupKey": "Dispel Magic",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "15Fa6q1nH27XfbR8",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "15Fa6q1nH27XfbR8",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
           "id": "pB7XVYwdGNcUG935",
           "name": "Glyph of Warding",
           "sourcePath": "spells/3rd-level/glyph-of-warding.yml",
@@ -2607,33 +2577,6 @@
               "message": "Foundry reference count differs from source",
               "pack": "spells",
               "id": "wpx42mtoZ5BmXRs1",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "j8NtLXOOJ3GAKF8I",
-          "name": "Protection from Energy",
-          "sourcePath": "spells/3rd-level/protection-from-energy.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Protection from Energy",
-          "matchedLookupKey": "Protection from Energy",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "j8NtLXOOJ3GAKF8I",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "j8NtLXOOJ3GAKF8I",
               "fieldPath": "system.description.value"
             }
           ]

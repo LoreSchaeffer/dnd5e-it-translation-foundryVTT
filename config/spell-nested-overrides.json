@@ -1,6 +1,7 @@
 {
   "spells": {
     "j8NtLXOOJ3GAKF8I": {
+      "system.description.value": "<p>Per la durata, una creatura consenziente toccata dall'incantatore possiede resistenza a un tipo di danno a scelta dell'incantatore: acido, freddo, fuoco, fulmine o tuono.</p>",
       "effects[e0Ibmfgv8aTzvxiE].description": "<p>Per la durata, possiedi resistenza ai danni da acido.</p>",
       "effects[u8CWVEZ9xQXeg7EU].description": "<p>Per la durata, possiedi resistenza ai danni da freddo.</p>",
       "effects[Md45M3QzPeWi5GsR].description": "<p>Per la durata, possiedi resistenza ai danni da fuoco.</p>",
@@ -708,6 +709,12 @@
     },
     "qLeEXZDbW5y4bmLY": {
       "system.materials.value": "una spruzzata di acqua santa e diamanti del valore di almeno 25.000 mo, che l'incantesimo consuma"
+    },
+    "4v2H3hHb3Ph9XLNd": {
+      "system.description.value": "<p>Lanciando bastoncini incastonati di gemme, tirando ossa di drago, disponendo carte decorate o usando un altro strumento di divinazione, l'incantatore riceve un presagio da un'entità ultraterrena riguardo ai risultati di un corso d'azione specifico che intende intraprendere entro i prossimi 30 minuti. Il DM sceglie tra i seguenti presagi possibili:</p><ul><li><p>Ventura, per risultati positivi</p></li><li><p>Sventura, per risultati negativi</p></li><li><p>Ventura e sventura, per risultati sia positivi sia negativi</p></li><li><p>Nulla, per risultati che non siano particolarmente positivi o negativi</p></li></ul><p>L'incantesimo non tiene conto delle possibili circostanze che potrebbero cambiare l'esito, come il lancio di incantesimi aggiuntivi o la perdita o l'acquisizione di un compagno.</p><p>Se l'incantatore lancia l'incantesimo due o più volte prima di completare il proprio riposo lungo successivo, esiste una probabilità cumulativa del 25 per cento per ogni lancio dopo il primo di ricevere un responso casuale. Il DM effettua questo tiro in segreto.</p>"
+    },
+    "15Fa6q1nH27XfbR8": {
+      "system.description.value": "<p>L'incantatore sceglie una creatura, un oggetto o un effetto magico entro gittata. Ogni incantesimo di 3° livello o inferiore presente sul bersaglio termina. Per ogni incantesimo di 4° livello o superiore presente sul bersaglio, l'incantatore effettua una prova di caratteristica usando la propria caratteristica da incantatore. La CD è pari a 10 + il livello dell'incantesimo. Se supera la prova, l'incantesimo termina.</p><p><strong>Ai Livelli Superiori.</strong> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 4° livello o superiore, termina automaticamente gli effetti di un incantesimo sul bersaglio se il livello di quell'incantesimo è pari o inferiore al livello dello slot incantesimo usato.</p>"
     }
   }
 }
