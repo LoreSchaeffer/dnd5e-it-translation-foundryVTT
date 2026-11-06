@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1607,
+      "translated": 1617,
       "missing": 69,
-      "partial": 715,
+      "partial": 705,
       "review": 111
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 1362,
+      "invariantFailures": 1342,
       "englishResiduals": 113,
       "imperialResiduals": 2
     },
-    "blockingIssues": 7560
+    "blockingIssues": 7540
   },
   "packs": [
     {
@@ -5317,9 +5317,9 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 719,
+          "translated": 729,
           "missing": 0,
-          "partial": 166,
+          "partial": 156,
           "review": 41
         },
         "folders": {
@@ -5333,7 +5333,7 @@
           "total": 2227,
           "translated": 2227,
           "missing": 0,
-          "invariantFailures": 415,
+          "invariantFailures": 395,
           "englishResiduals": 41,
           "imperialResiduals": 2
         }
@@ -8680,26 +8680,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "items",
-          "id": "3rCO8MTIdPGSW6IJ",
-          "fieldPath": "system.description.value",
-          "name": "Dart",
-          "sourcePath": "items/weapon/dart.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "3rCO8MTIdPGSW6IJ",
-          "fieldPath": "system.description.value",
-          "name": "Dart",
-          "sourcePath": "items/weapon/dart.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
           "id": "kvD4ElYCfCKpjDeg",
           "fieldPath": "system.description.value",
           "name": "Dwarven Thrower",
@@ -8714,186 +8694,6 @@
           "fieldPath": "system.description.value",
           "name": "Dwarven Thrower",
           "sourcePath": "items/weapon/dwarven-thrower.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "rOG1OM2ihgPjOvFW",
-          "fieldPath": "system.description.value",
-          "name": "Glaive",
-          "sourcePath": "items/weapon/glaive.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "rOG1OM2ihgPjOvFW",
-          "fieldPath": "system.description.value",
-          "name": "Glaive",
-          "sourcePath": "items/weapon/glaive.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "1Lxk6kmoRhG8qQ0u",
-          "fieldPath": "system.description.value",
-          "name": "Greataxe",
-          "sourcePath": "items/weapon/greataxe.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "1Lxk6kmoRhG8qQ0u",
-          "fieldPath": "system.description.value",
-          "name": "Greataxe",
-          "sourcePath": "items/weapon/greataxe.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "QRCsxkCwWNwswL9o",
-          "fieldPath": "system.description.value",
-          "name": "Greatclub",
-          "sourcePath": "items/weapon/greatclub.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "QRCsxkCwWNwswL9o",
-          "fieldPath": "system.description.value",
-          "name": "Greatclub",
-          "sourcePath": "items/weapon/greatclub.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "xMkP8BmFzElcsMaR",
-          "fieldPath": "system.description.value",
-          "name": "Greatsword",
-          "sourcePath": "items/weapon/greatsword.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "xMkP8BmFzElcsMaR",
-          "fieldPath": "system.description.value",
-          "name": "Greatsword",
-          "sourcePath": "items/weapon/greatsword.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "DMejWAc8r8YvDPP1",
-          "fieldPath": "system.description.value",
-          "name": "Halberd",
-          "sourcePath": "items/weapon/halberd.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "DMejWAc8r8YvDPP1",
-          "fieldPath": "system.description.value",
-          "name": "Halberd",
-          "sourcePath": "items/weapon/halberd.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "qaSro7kFhxD6INbZ",
-          "fieldPath": "system.description.value",
-          "name": "Hand Crossbow",
-          "sourcePath": "items/weapon/hand-crossbow.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "qaSro7kFhxD6INbZ",
-          "fieldPath": "system.description.value",
-          "name": "Hand Crossbow",
-          "sourcePath": "items/weapon/hand-crossbow.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "eO7Fbv5WBk5zvGOc",
-          "fieldPath": "system.description.value",
-          "name": "Handaxe",
-          "sourcePath": "items/weapon/handaxe.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "eO7Fbv5WBk5zvGOc",
-          "fieldPath": "system.description.value",
-          "name": "Handaxe",
-          "sourcePath": "items/weapon/handaxe.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "RmP0mYRn2J7K26rX",
-          "fieldPath": "system.description.value",
-          "name": "Heavy Crossbow",
-          "sourcePath": "items/weapon/heavy-crossbow.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "RmP0mYRn2J7K26rX",
-          "fieldPath": "system.description.value",
-          "name": "Heavy Crossbow",
-          "sourcePath": "items/weapon/heavy-crossbow.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "DWLMnODrnHn8IbAG",
-          "fieldPath": "system.description.value",
-          "name": "Javelin",
-          "sourcePath": "items/weapon/javelin.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "DWLMnODrnHn8IbAG",
-          "fieldPath": "system.description.value",
-          "name": "Javelin",
-          "sourcePath": "items/weapon/javelin.yml"
         },
         {
           "code": "html-tag-sequence",

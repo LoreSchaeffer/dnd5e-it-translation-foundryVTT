@@ -4391,6 +4391,14 @@
         },
         {
           "pack": "items",
+          "id": "3rCO8MTIdPGSW6IJ",
+          "name": "Dart",
+          "sourcePath": "items/weapon/dart.yml",
+          "lookupKey": "Dart",
+          "matchedLookupKey": "Dart"
+        },
+        {
+          "pack": "items",
           "id": "nSNhjX5F7f86AW1a",
           "name": "Defender Greatsword",
           "sourcePath": "items/weapon/defender-greatsword.yml",
@@ -4671,6 +4679,14 @@
         },
         {
           "pack": "items",
+          "id": "rOG1OM2ihgPjOvFW",
+          "name": "Glaive",
+          "sourcePath": "items/weapon/glaive.yml",
+          "lookupKey": "Glaive",
+          "matchedLookupKey": "Glaive"
+        },
+        {
+          "pack": "items",
           "id": "qhdGVfT5j6u46mtk",
           "name": "Greataxe +1",
           "sourcePath": "items/weapon/greataxe-1.yml",
@@ -4695,6 +4711,14 @@
         },
         {
           "pack": "items",
+          "id": "1Lxk6kmoRhG8qQ0u",
+          "name": "Greataxe",
+          "sourcePath": "items/weapon/greataxe.yml",
+          "lookupKey": "Greataxe",
+          "matchedLookupKey": "Greataxe"
+        },
+        {
+          "pack": "items",
           "id": "dwGxrGqkn2ppNaqs",
           "name": "Greatclub +1",
           "sourcePath": "items/weapon/greatclub-1.yml",
@@ -4716,6 +4740,14 @@
           "sourcePath": "items/weapon/greatclub-3.yml",
           "lookupKey": "Greatclub +3",
           "matchedLookupKey": "Greatclub +3"
+        },
+        {
+          "pack": "items",
+          "id": "QRCsxkCwWNwswL9o",
+          "name": "Greatclub",
+          "sourcePath": "items/weapon/greatclub.yml",
+          "lookupKey": "Greatclub",
+          "matchedLookupKey": "Greatclub"
         },
         {
           "pack": "items",
@@ -4767,6 +4799,14 @@
         },
         {
           "pack": "items",
+          "id": "xMkP8BmFzElcsMaR",
+          "name": "Greatsword",
+          "sourcePath": "items/weapon/greatsword.yml",
+          "lookupKey": "Greatsword",
+          "matchedLookupKey": "Greatsword"
+        },
+        {
+          "pack": "items",
           "id": "nl7cc7Z1HpSHbUdQ",
           "name": "Halberd +1",
           "sourcePath": "items/weapon/halberd-1.yml",
@@ -4788,6 +4828,14 @@
           "sourcePath": "items/weapon/halberd-3.yml",
           "lookupKey": "Halberd +3",
           "matchedLookupKey": "Halberd +3"
+        },
+        {
+          "pack": "items",
+          "id": "DMejWAc8r8YvDPP1",
+          "name": "Halberd",
+          "sourcePath": "items/weapon/halberd.yml",
+          "lookupKey": "Halberd",
+          "matchedLookupKey": "Halberd"
         },
         {
           "pack": "items",
@@ -4823,6 +4871,14 @@
         },
         {
           "pack": "items",
+          "id": "qaSro7kFhxD6INbZ",
+          "name": "Hand Crossbow",
+          "sourcePath": "items/weapon/hand-crossbow.yml",
+          "lookupKey": "Hand Crossbow",
+          "matchedLookupKey": "Hand Crossbow"
+        },
+        {
+          "pack": "items",
           "id": "Qfi5Rsuun3reqYmf",
           "name": "Handaxe +1",
           "sourcePath": "items/weapon/handaxe-1.yml",
@@ -4847,6 +4903,14 @@
         },
         {
           "pack": "items",
+          "id": "eO7Fbv5WBk5zvGOc",
+          "name": "Handaxe",
+          "sourcePath": "items/weapon/handaxe.yml",
+          "lookupKey": "Handaxe",
+          "matchedLookupKey": "Handaxe"
+        },
+        {
+          "pack": "items",
           "id": "ijDzcDXfJAdj2uED",
           "name": "Heavy Crossbow +1",
           "sourcePath": "items/weapon/heavy-crossbow-1.yml",
@@ -4868,6 +4932,14 @@
           "sourcePath": "items/weapon/heavy-crossbow-3.yml",
           "lookupKey": "Heavy Crossbow +3",
           "matchedLookupKey": "Heavy Crossbow +3"
+        },
+        {
+          "pack": "items",
+          "id": "RmP0mYRn2J7K26rX",
+          "name": "Heavy Crossbow",
+          "sourcePath": "items/weapon/heavy-crossbow.yml",
+          "lookupKey": "Heavy Crossbow",
+          "matchedLookupKey": "Heavy Crossbow"
         },
         {
           "pack": "items",
@@ -4940,6 +5012,14 @@
           "sourcePath": "items/weapon/javelin-of-lightning.yml",
           "lookupKey": "Javelin of Lightning",
           "matchedLookupKey": "Javelin of Lightning"
+        },
+        {
+          "pack": "items",
+          "id": "DWLMnODrnHn8IbAG",
+          "name": "Javelin",
+          "sourcePath": "items/weapon/javelin.yml",
+          "lookupKey": "Javelin",
+          "matchedLookupKey": "Javelin"
         },
         {
           "pack": "items",
@@ -9672,33 +9752,6 @@
         },
         {
           "pack": "items",
-          "id": "3rCO8MTIdPGSW6IJ",
-          "name": "Dart",
-          "sourcePath": "items/weapon/dart.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Dart",
-          "matchedLookupKey": "Dart",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "3rCO8MTIdPGSW6IJ",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "3rCO8MTIdPGSW6IJ",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
           "id": "kvD4ElYCfCKpjDeg",
           "name": "Dwarven Thrower",
           "sourcePath": "items/weapon/dwarven-thrower.yml",
@@ -9720,249 +9773,6 @@
               "message": "HTML attributes differ from source",
               "pack": "items",
               "id": "kvD4ElYCfCKpjDeg",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "rOG1OM2ihgPjOvFW",
-          "name": "Glaive",
-          "sourcePath": "items/weapon/glaive.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Glaive",
-          "matchedLookupKey": "Glaive",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "rOG1OM2ihgPjOvFW",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "rOG1OM2ihgPjOvFW",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "1Lxk6kmoRhG8qQ0u",
-          "name": "Greataxe",
-          "sourcePath": "items/weapon/greataxe.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Greataxe",
-          "matchedLookupKey": "Greataxe",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "1Lxk6kmoRhG8qQ0u",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "1Lxk6kmoRhG8qQ0u",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "QRCsxkCwWNwswL9o",
-          "name": "Greatclub",
-          "sourcePath": "items/weapon/greatclub.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Greatclub",
-          "matchedLookupKey": "Greatclub",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "QRCsxkCwWNwswL9o",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "QRCsxkCwWNwswL9o",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "xMkP8BmFzElcsMaR",
-          "name": "Greatsword",
-          "sourcePath": "items/weapon/greatsword.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Greatsword",
-          "matchedLookupKey": "Greatsword",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "xMkP8BmFzElcsMaR",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "xMkP8BmFzElcsMaR",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "DMejWAc8r8YvDPP1",
-          "name": "Halberd",
-          "sourcePath": "items/weapon/halberd.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Halberd",
-          "matchedLookupKey": "Halberd",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "DMejWAc8r8YvDPP1",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "DMejWAc8r8YvDPP1",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "qaSro7kFhxD6INbZ",
-          "name": "Hand Crossbow",
-          "sourcePath": "items/weapon/hand-crossbow.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Hand Crossbow",
-          "matchedLookupKey": "Hand Crossbow",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "qaSro7kFhxD6INbZ",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "qaSro7kFhxD6INbZ",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "eO7Fbv5WBk5zvGOc",
-          "name": "Handaxe",
-          "sourcePath": "items/weapon/handaxe.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Handaxe",
-          "matchedLookupKey": "Handaxe",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "eO7Fbv5WBk5zvGOc",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "eO7Fbv5WBk5zvGOc",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "RmP0mYRn2J7K26rX",
-          "name": "Heavy Crossbow",
-          "sourcePath": "items/weapon/heavy-crossbow.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Heavy Crossbow",
-          "matchedLookupKey": "Heavy Crossbow",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "RmP0mYRn2J7K26rX",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "RmP0mYRn2J7K26rX",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "DWLMnODrnHn8IbAG",
-          "name": "Javelin",
-          "sourcePath": "items/weapon/javelin.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Javelin",
-          "matchedLookupKey": "Javelin",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "DWLMnODrnHn8IbAG",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "DWLMnODrnHn8IbAG",
               "fieldPath": "system.description.value"
             }
           ]
