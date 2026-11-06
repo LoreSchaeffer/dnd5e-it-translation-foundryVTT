@@ -43,7 +43,11 @@
       "effects[DEPrzDiNHOqKj4Hj].description": "<p>Finché l'incantesimo non termina, la tua velocità raddoppia, ottieni un bonus di +2 alla CA, disponi di vantaggio ai tiri salvezza su Destrezza e ottieni un'azione aggiuntiva a ogni tuo turno. Questa azione può essere usata soltanto per effettuare l'azione &amp;reference[Attack] (un solo attacco con un'arma), &amp;reference[Dash], &amp;reference[Disengage], &amp;reference[Hide] o &amp;reference[Use an Object].</p>"
     },
     "z1mx84ONwkXKUZd7": {
+      "system.description.value": "<p>Una barriera invisibile di forza magica appare e protegge l'incantatore. Fino all'inizio del suo turno successivo, l'incantatore ottiene un bonus di +5 alla CA, anche contro l'attacco innescante, e non subisce danni da @UUID[Compendium.dnd5e.spells.Item.41JIhpDyM9Anm7cs]{Dardo Incantato}.</p>",
       "effects[6pbotGIvqQkraPva].description": "<p>Fino all'inizio del tuo turno successivo, ottieni un bonus di +5 alla CA, che si applica anche contro l'attacco innescante, e non subisci danni da @UUID[Compendium.dnd5e.spells.Item.41JIhpDyM9Anm7cs]{Dardo Incantato}.</p>"
+    },
+    "1nhIxh0DsJsntCfj": {
+      "system.description.value": "<p>L'incantatore sceglie un oggetto che può vedere entro gittata. L'oggetto può essere una porta, una scatola, un forziere, un paio di manette, un lucchetto o un altro oggetto dotato di un mezzo comune o magico che impedisce l'accesso.</p><p>Un bersaglio tenuto chiuso da una serratura comune, incastrato o sbarrato cessa di essere chiuso, incastrato o sbarrato. Se l'oggetto possiede più serrature, soltanto una di esse viene sbloccata.</p><p>Se l'incantatore sceglie un bersaglio tenuto chiuso da @UUID[Compendium.dnd5e.spells.Item.8cse7rit0oswRPUP]{Serratura Arcana}, quell'incantesimo viene soppresso per 10 minuti, durante i quali il bersaglio può essere aperto e chiuso normalmente.</p><p>Quando l'incantatore lancia l'incantesimo, l'oggetto bersaglio emette un forte colpo, udibile fino a 90 metri di distanza.</p>"
     },
     "P7mF2MxSuVJwHRRY": {
       "effects[KsQdGorCuwDjaUGF].description": "<p>Una volta prima che l'incantesimo termini, puoi tirare un [[/r d4]] e aggiungere il risultato a una prova di caratteristica a tua scelta. Puoi tirare il dado prima o dopo aver effettuato la prova di caratteristica. Poi l'incantesimo termina.</p>"
@@ -417,6 +421,7 @@
       "effects[potjmpJPeUA1U4oe].description": "<p>Ogni volta che effettui un tiro per colpire o un tiro salvezza prima che l'incantesimo termini, devi tirare un d4 e sottrarre il numero ottenuto dal tiro per colpire o dal tiro salvezza.</p>"
     },
     "8dzaICjGy6mTUaUr": {
+      "system.description.value": "<p>L'incantatore benedice fino a tre creature a sua scelta entro gittata. Ogni volta che un bersaglio effettua un tiro per colpire o un tiro salvezza prima che l'incantesimo termini, può tirare 1d4 e aggiungere il numero ottenuto al tiro per colpire o al tiro salvezza.</p><p><strong>Ai Livelli Superiori.</strong> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, può bersagliare una creatura aggiuntiva per ogni livello dello slot superiore al 1°.</p>",
       "effects[8rP3gwmXVTgZqYZE].description": "<p>Ogni volta che effettui un tiro per colpire o un tiro salvezza prima che l'incantesimo termini, puoi tirare 1d4 e aggiungere il numero ottenuto al tiro per colpire o al tiro salvezza.</p>"
     },
     "eS7XnnApoxRxYXPs": {

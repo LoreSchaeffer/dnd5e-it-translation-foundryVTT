@@ -12,12 +12,12 @@
 | monsters | 337 | 2 | 5 | 330 | 15 | 4810 | 5045 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
 | rules | 20 | 1 | 3 | 16 | 0 | 738 | 695 |
-| spells | 320 | 264 | 0 | 56 | 0 | 0 | 152 |
+| spells | 320 | 267 | 0 | 53 | 0 | 0 | 145 |
 | subclasses | 12 | 12 | 0 | 0 | 0 | 0 | 0 |
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 8430
+Total blocking issues: 8423
 
 ## Issues
 
@@ -8299,13 +8299,9 @@ Total blocking issues: 8430
 - **missing-document** `rules:4ANrmP15aBGam0QS`
 - **missing-document** `rules:xxt7YT2t76JxNTel`
 - **missing-document** `rules:sfJtvPjEs50Ruzi4`
-- **foundry-formulas** `spells:8dzaICjGy6mTUaUr:system.description.value`
 - **html-tag-sequence** `spells:JGT5bNqu9REL7Fuz:system.description.value`
 - **html-attributes** `spells:JGT5bNqu9REL7Fuz:system.description.value`
 - **foundry-reference-count** `spells:JGT5bNqu9REL7Fuz:system.description.value`
-- **html-tag-sequence** `spells:z1mx84ONwkXKUZd7:system.description.value`
-- **html-attributes** `spells:z1mx84ONwkXKUZd7:system.description.value`
-- **foundry-references** `spells:z1mx84ONwkXKUZd7:system.description.value`
 - **html-tag-sequence** `spells:8RTDOt80u8aBv9qx:system.description.value`
 - **html-attributes** `spells:8RTDOt80u8aBv9qx:system.description.value`
 - **foundry-formulas** `spells:8RTDOt80u8aBv9qx:system.description.value`
@@ -8319,9 +8315,6 @@ Total blocking issues: 8430
 - **html-attributes** `spells:FSMy6VAjDnXY9vWz:system.description.value`
 - **foundry-inline-rolls** `spells:FSMy6VAjDnXY9vWz:system.description.value`
 - **foundry-formulas** `spells:FSMy6VAjDnXY9vWz:system.description.value`
-- **html-tag-sequence** `spells:1nhIxh0DsJsntCfj:system.description.value`
-- **html-attributes** `spells:1nhIxh0DsJsntCfj:system.description.value`
-- **foundry-reference-count** `spells:1nhIxh0DsJsntCfj:system.description.value`
 - **html-tag-sequence** `spells:X4c8xCkmF8U9HUMz:system.description.value`
 - **html-attributes** `spells:X4c8xCkmF8U9HUMz:system.description.value`
 - **foundry-formulas** `spells:X4c8xCkmF8U9HUMz:system.description.value`

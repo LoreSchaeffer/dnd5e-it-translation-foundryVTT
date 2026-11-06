@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1201,
+      "translated": 1204,
       "missing": 69,
-      "partial": 1121,
+      "partial": 1118,
       "review": 203
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 2140,
+      "invariantFailures": 2133,
       "englishResiduals": 118,
       "imperialResiduals": 2
     },
-    "blockingIssues": 8430
+    "blockingIssues": 8423
   },
   "packs": [
     {
@@ -76741,9 +76741,9 @@
       "summary": {
         "documents": {
           "total": 320,
-          "translated": 264,
+          "translated": 267,
           "missing": 0,
-          "partial": 56,
+          "partial": 53,
           "review": 0
         },
         "folders": {
@@ -76757,22 +76757,12 @@
           "total": 2007,
           "translated": 2007,
           "missing": 0,
-          "invariantFailures": 152,
+          "invariantFailures": 145,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "foundry-formulas",
-          "severity": "blocking",
-          "message": "Foundry formulas differ from source",
-          "pack": "spells",
-          "id": "8dzaICjGy6mTUaUr",
-          "fieldPath": "system.description.value",
-          "name": "Bless",
-          "sourcePath": "spells/1st-level/bless.yml"
-        },
         {
           "code": "html-tag-sequence",
           "severity": "blocking",
@@ -76802,36 +76792,6 @@
           "fieldPath": "system.description.value",
           "name": "Find Familiar",
           "sourcePath": "spells/1st-level/find-familiar.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "z1mx84ONwkXKUZd7",
-          "fieldPath": "system.description.value",
-          "name": "Shield",
-          "sourcePath": "spells/1st-level/shield.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "z1mx84ONwkXKUZd7",
-          "fieldPath": "system.description.value",
-          "name": "Shield",
-          "sourcePath": "spells/1st-level/shield.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "spells",
-          "id": "z1mx84ONwkXKUZd7",
-          "fieldPath": "system.description.value",
-          "name": "Shield",
-          "sourcePath": "spells/1st-level/shield.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -76962,36 +76922,6 @@
           "fieldPath": "system.description.value",
           "name": "Gust of Wind",
           "sourcePath": "spells/2nd-level/gust-of-wind.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "1nhIxh0DsJsntCfj",
-          "fieldPath": "system.description.value",
-          "name": "Knock",
-          "sourcePath": "spells/2nd-level/knock.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "1nhIxh0DsJsntCfj",
-          "fieldPath": "system.description.value",
-          "name": "Knock",
-          "sourcePath": "spells/2nd-level/knock.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "spells",
-          "id": "1nhIxh0DsJsntCfj",
-          "fieldPath": "system.description.value",
-          "name": "Knock",
-          "sourcePath": "spells/2nd-level/knock.yml"
         },
         {
           "code": "html-tag-sequence",

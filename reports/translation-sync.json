@@ -31,6 +31,14 @@
         },
         {
           "pack": "spells",
+          "id": "8dzaICjGy6mTUaUr",
+          "name": "Bless",
+          "sourcePath": "spells/1st-level/bless.yml",
+          "lookupKey": "Bless",
+          "matchedLookupKey": "Bless"
+        },
+        {
+          "pack": "spells",
           "id": "5SuJewoa1CRWaj1F",
           "name": "Burning Hands",
           "sourcePath": "spells/1st-level/burning-hands.yml",
@@ -335,6 +343,14 @@
         },
         {
           "pack": "spells",
+          "id": "z1mx84ONwkXKUZd7",
+          "name": "Shield",
+          "sourcePath": "spells/1st-level/shield.yml",
+          "lookupKey": "Shield",
+          "matchedLookupKey": "Shield"
+        },
+        {
+          "pack": "spells",
           "id": "BrBZdCCrJRIVg7YX",
           "name": "Silent Image",
           "sourcePath": "spells/1st-level/silent-image.yml",
@@ -564,6 +580,14 @@
           "sourcePath": "spells/2nd-level/invisibility.yml",
           "lookupKey": "Invisibility",
           "matchedLookupKey": "Invisibility"
+        },
+        {
+          "pack": "spells",
+          "id": "1nhIxh0DsJsntCfj",
+          "name": "Knock",
+          "sourcePath": "spells/2nd-level/knock.yml",
+          "lookupKey": "Knock",
+          "matchedLookupKey": "Knock"
         },
         {
           "pack": "spells",
@@ -2122,25 +2146,6 @@
       "manualReview": [
         {
           "pack": "spells",
-          "id": "8dzaICjGy6mTUaUr",
-          "name": "Bless",
-          "sourcePath": "spells/1st-level/bless.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Bless",
-          "matchedLookupKey": "Bless",
-          "diagnostics": [
-            {
-              "code": "foundry-formulas",
-              "severity": "blocking",
-              "message": "Foundry formulas differ from source",
-              "pack": "spells",
-              "id": "8dzaICjGy6mTUaUr",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
           "id": "JGT5bNqu9REL7Fuz",
           "name": "Find Familiar",
           "sourcePath": "spells/1st-level/find-familiar.yml",
@@ -2170,41 +2175,6 @@
               "message": "Foundry reference count differs from source",
               "pack": "spells",
               "id": "JGT5bNqu9REL7Fuz",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "z1mx84ONwkXKUZd7",
-          "name": "Shield",
-          "sourcePath": "spells/1st-level/shield.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Shield",
-          "matchedLookupKey": "Shield",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "z1mx84ONwkXKUZd7",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "z1mx84ONwkXKUZd7",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-references",
-              "severity": "blocking",
-              "message": "Foundry reference targets or order differ from source",
-              "pack": "spells",
-              "id": "z1mx84ONwkXKUZd7",
               "fieldPath": "system.description.value"
             }
           ]
@@ -2353,41 +2323,6 @@
               "message": "Foundry formulas differ from source",
               "pack": "spells",
               "id": "FSMy6VAjDnXY9vWz",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "1nhIxh0DsJsntCfj",
-          "name": "Knock",
-          "sourcePath": "spells/2nd-level/knock.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Knock",
-          "matchedLookupKey": "Knock",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "1nhIxh0DsJsntCfj",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "1nhIxh0DsJsntCfj",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "spells",
-              "id": "1nhIxh0DsJsntCfj",
               "fieldPath": "system.description.value"
             }
           ]
