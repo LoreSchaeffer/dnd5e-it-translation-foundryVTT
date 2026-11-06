@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1553,
+      "translated": 1575,
       "missing": 69,
-      "partial": 769,
+      "partial": 747,
       "review": 116
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 1505,
+      "invariantFailures": 1438,
       "englishResiduals": 118,
       "imperialResiduals": 2
     },
-    "blockingIssues": 7708
+    "blockingIssues": 7641
   },
   "packs": [
     {
@@ -5317,9 +5317,9 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 665,
+          "translated": 687,
           "missing": 0,
-          "partial": 220,
+          "partial": 198,
           "review": 46
         },
         "folders": {
@@ -5333,7 +5333,7 @@
           "total": 2227,
           "translated": 2227,
           "missing": 0,
-          "invariantFailures": 558,
+          "invariantFailures": 491,
           "englishResiduals": 46,
           "imperialResiduals": 2
         }
@@ -5404,166 +5404,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "items",
-          "id": "lccm5AjIk91aIHbi",
-          "fieldPath": "system.description.value",
-          "name": "Breastplate Armor of Resistance",
-          "sourcePath": "items/armor/breastplate-armor-of-resistance.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "lccm5AjIk91aIHbi",
-          "fieldPath": "system.description.value",
-          "name": "Breastplate Armor of Resistance",
-          "sourcePath": "items/armor/breastplate-armor-of-resistance.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "items",
-          "id": "lccm5AjIk91aIHbi",
-          "fieldPath": "system.description.value",
-          "name": "Breastplate Armor of Resistance",
-          "sourcePath": "items/armor/breastplate-armor-of-resistance.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "BQw5lyopqLmf8B6u",
-          "fieldPath": "system.description.value",
-          "name": "Chain Mail Armor of Resistance",
-          "sourcePath": "items/armor/chain-mail-armor-of-resistance.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "BQw5lyopqLmf8B6u",
-          "fieldPath": "system.description.value",
-          "name": "Chain Mail Armor of Resistance",
-          "sourcePath": "items/armor/chain-mail-armor-of-resistance.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "items",
-          "id": "BQw5lyopqLmf8B6u",
-          "fieldPath": "system.description.value",
-          "name": "Chain Mail Armor of Resistance",
-          "sourcePath": "items/armor/chain-mail-armor-of-resistance.yml"
-        },
-        {
-          "code": "html-balance",
-          "severity": "blocking",
-          "message": "Unclosed HTML tags: table, tbody, tr, td",
-          "pack": "items",
-          "id": "HF32aZSVw4P0MR4K",
-          "fieldPath": "system.description.value",
-          "name": "Chain Shirt Armor of Resistance",
-          "sourcePath": "items/armor/chain-shirt-armor-of-resistance.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "HF32aZSVw4P0MR4K",
-          "fieldPath": "system.description.value",
-          "name": "Chain Shirt Armor of Resistance",
-          "sourcePath": "items/armor/chain-shirt-armor-of-resistance.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "HF32aZSVw4P0MR4K",
-          "fieldPath": "system.description.value",
-          "name": "Chain Shirt Armor of Resistance",
-          "sourcePath": "items/armor/chain-shirt-armor-of-resistance.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "items",
-          "id": "HF32aZSVw4P0MR4K",
-          "fieldPath": "system.description.value",
-          "name": "Chain Shirt Armor of Resistance",
-          "sourcePath": "items/armor/chain-shirt-armor-of-resistance.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "lN1VbnGFo3HNZXNb",
-          "fieldPath": "system.description.value",
-          "name": "Half Plate Armor of Resistance",
-          "sourcePath": "items/armor/half-plate-armor-of-resistance.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "lN1VbnGFo3HNZXNb",
-          "fieldPath": "system.description.value",
-          "name": "Half Plate Armor of Resistance",
-          "sourcePath": "items/armor/half-plate-armor-of-resistance.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "items",
-          "id": "lN1VbnGFo3HNZXNb",
-          "fieldPath": "system.description.value",
-          "name": "Half Plate Armor of Resistance",
-          "sourcePath": "items/armor/half-plate-armor-of-resistance.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "VRT5GEusTFstOZdF",
-          "fieldPath": "system.description.value",
-          "name": "Hide Armor of Resistance",
-          "sourcePath": "items/armor/hide-armor-of-resistance.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "VRT5GEusTFstOZdF",
-          "fieldPath": "system.description.value",
-          "name": "Hide Armor of Resistance",
-          "sourcePath": "items/armor/hide-armor-of-resistance.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "items",
-          "id": "VRT5GEusTFstOZdF",
-          "fieldPath": "system.description.value",
-          "name": "Hide Armor of Resistance",
-          "sourcePath": "items/armor/hide-armor-of-resistance.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
           "id": "dXtZxlh2VKLCo1nA",
           "fieldPath": "system.description.value",
           "name": "Leather Armor +1",
@@ -5624,36 +5464,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "items",
-          "id": "dRtb9Tg34NKX9mGF",
-          "fieldPath": "system.description.value",
-          "name": "Leather Armor of Resistance",
-          "sourcePath": "items/armor/leather-armor-of-resistance.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "dRtb9Tg34NKX9mGF",
-          "fieldPath": "system.description.value",
-          "name": "Leather Armor of Resistance",
-          "sourcePath": "items/armor/leather-armor-of-resistance.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "items",
-          "id": "dRtb9Tg34NKX9mGF",
-          "fieldPath": "system.description.value",
-          "name": "Leather Armor of Resistance",
-          "sourcePath": "items/armor/leather-armor-of-resistance.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
           "id": "twRJhPtDQe1HceFt",
           "fieldPath": "system.description.value",
           "name": "Padded Armor +1",
@@ -5708,36 +5518,6 @@
           "fieldPath": "system.description.value",
           "name": "Padded Armor +3",
           "sourcePath": "items/armor/padded-armor-3.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "698gLyJ4JKVVMF53",
-          "fieldPath": "system.description.value",
-          "name": "Padded Armor of Resistance",
-          "sourcePath": "items/armor/padded-armor-of-resistance.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "698gLyJ4JKVVMF53",
-          "fieldPath": "system.description.value",
-          "name": "Padded Armor of Resistance",
-          "sourcePath": "items/armor/padded-armor-of-resistance.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "items",
-          "id": "698gLyJ4JKVVMF53",
-          "fieldPath": "system.description.value",
-          "name": "Padded Armor of Resistance",
-          "sourcePath": "items/armor/padded-armor-of-resistance.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -5758,156 +5538,6 @@
           "fieldPath": "system.description.value",
           "name": "Plate Armor of Etherealness",
           "sourcePath": "items/armor/plate-armor-of-etherealness.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "azxwKFHrNmG3HpVy",
-          "fieldPath": "system.description.value",
-          "name": "Plate Armor of Resistance",
-          "sourcePath": "items/armor/plate-armor-of-resistance.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "azxwKFHrNmG3HpVy",
-          "fieldPath": "system.description.value",
-          "name": "Plate Armor of Resistance",
-          "sourcePath": "items/armor/plate-armor-of-resistance.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "items",
-          "id": "azxwKFHrNmG3HpVy",
-          "fieldPath": "system.description.value",
-          "name": "Plate Armor of Resistance",
-          "sourcePath": "items/armor/plate-armor-of-resistance.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "Wo2Dkh191C4VmLmg",
-          "fieldPath": "system.description.value",
-          "name": "Ring Mail Armor of Resistance",
-          "sourcePath": "items/armor/ring-mail-armor-of-resistance.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "Wo2Dkh191C4VmLmg",
-          "fieldPath": "system.description.value",
-          "name": "Ring Mail Armor of Resistance",
-          "sourcePath": "items/armor/ring-mail-armor-of-resistance.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "items",
-          "id": "Wo2Dkh191C4VmLmg",
-          "fieldPath": "system.description.value",
-          "name": "Ring Mail Armor of Resistance",
-          "sourcePath": "items/armor/ring-mail-armor-of-resistance.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "f0I81P9k29Q1lV4S",
-          "fieldPath": "system.description.value",
-          "name": "Scale Mail Armor of Resistance",
-          "sourcePath": "items/armor/scale-mail-armor-of-resistance.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "f0I81P9k29Q1lV4S",
-          "fieldPath": "system.description.value",
-          "name": "Scale Mail Armor of Resistance",
-          "sourcePath": "items/armor/scale-mail-armor-of-resistance.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "items",
-          "id": "f0I81P9k29Q1lV4S",
-          "fieldPath": "system.description.value",
-          "name": "Scale Mail Armor of Resistance",
-          "sourcePath": "items/armor/scale-mail-armor-of-resistance.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "JNkjtTxYmEC7W34O",
-          "fieldPath": "system.description.value",
-          "name": "Splint Armor of Resistance",
-          "sourcePath": "items/armor/splint-armor-of-resistance.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "JNkjtTxYmEC7W34O",
-          "fieldPath": "system.description.value",
-          "name": "Splint Armor of Resistance",
-          "sourcePath": "items/armor/splint-armor-of-resistance.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "items",
-          "id": "JNkjtTxYmEC7W34O",
-          "fieldPath": "system.description.value",
-          "name": "Splint Armor of Resistance",
-          "sourcePath": "items/armor/splint-armor-of-resistance.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "W1kDsFekjroIywuz",
-          "fieldPath": "system.description.value",
-          "name": "Studded Leather Armor of Resistance",
-          "sourcePath": "items/armor/studded-leather-armor-of-resistance.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "W1kDsFekjroIywuz",
-          "fieldPath": "system.description.value",
-          "name": "Studded Leather Armor of Resistance",
-          "sourcePath": "items/armor/studded-leather-armor-of-resistance.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "items",
-          "id": "W1kDsFekjroIywuz",
-          "fieldPath": "system.description.value",
-          "name": "Studded Leather Armor of Resistance",
-          "sourcePath": "items/armor/studded-leather-armor-of-resistance.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -7908,276 +7538,6 @@
           "fieldPath": "system.description.value",
           "name": "Restorative Ointment",
           "sourcePath": "items/potion/restorative-ointment.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "WO8DLfz3G2QZ5njs",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Acid Resistance",
-          "sourcePath": "items/ring/ring-of-acid-resistance.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "WO8DLfz3G2QZ5njs",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Acid Resistance",
-          "sourcePath": "items/ring/ring-of-acid-resistance.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "items",
-          "id": "WO8DLfz3G2QZ5njs",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Acid Resistance",
-          "sourcePath": "items/ring/ring-of-acid-resistance.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "fvezXwRJ5PqUf5NN",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Cold Resistance",
-          "sourcePath": "items/ring/ring-of-cold-resistance.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "fvezXwRJ5PqUf5NN",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Cold Resistance",
-          "sourcePath": "items/ring/ring-of-cold-resistance.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "items",
-          "id": "fvezXwRJ5PqUf5NN",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Cold Resistance",
-          "sourcePath": "items/ring/ring-of-cold-resistance.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "3X7vdOjnCSpi40yn",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Fire Resistance",
-          "sourcePath": "items/ring/ring-of-fire-resistance.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "3X7vdOjnCSpi40yn",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Fire Resistance",
-          "sourcePath": "items/ring/ring-of-fire-resistance.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "items",
-          "id": "3X7vdOjnCSpi40yn",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Fire Resistance",
-          "sourcePath": "items/ring/ring-of-fire-resistance.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "ScxK8YNU5dWELhlQ",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Force Resistance",
-          "sourcePath": "items/ring/ring-of-force-resistance.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "ScxK8YNU5dWELhlQ",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Force Resistance",
-          "sourcePath": "items/ring/ring-of-force-resistance.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "items",
-          "id": "ScxK8YNU5dWELhlQ",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Force Resistance",
-          "sourcePath": "items/ring/ring-of-force-resistance.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "XJ8CG4UvLELCmOi2",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Lightning Resistance",
-          "sourcePath": "items/ring/ring-of-lightning-resistance.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "XJ8CG4UvLELCmOi2",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Lightning Resistance",
-          "sourcePath": "items/ring/ring-of-lightning-resistance.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "items",
-          "id": "XJ8CG4UvLELCmOi2",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Lightning Resistance",
-          "sourcePath": "items/ring/ring-of-lightning-resistance.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "qMGkmzfLHfXd7DiJ",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Necrotic Resistance",
-          "sourcePath": "items/ring/ring-of-necrotic-resistance.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "qMGkmzfLHfXd7DiJ",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Necrotic Resistance",
-          "sourcePath": "items/ring/ring-of-necrotic-resistance.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "items",
-          "id": "qMGkmzfLHfXd7DiJ",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Necrotic Resistance",
-          "sourcePath": "items/ring/ring-of-necrotic-resistance.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "5SorTMl8NKDO9Yge",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Poison Resistance",
-          "sourcePath": "items/ring/ring-of-poison-resistance.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "5SorTMl8NKDO9Yge",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Poison Resistance",
-          "sourcePath": "items/ring/ring-of-poison-resistance.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "items",
-          "id": "5SorTMl8NKDO9Yge",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Poison Resistance",
-          "sourcePath": "items/ring/ring-of-poison-resistance.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "Q7E6MgPzVkwBeZ6l",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Psychic Resistance",
-          "sourcePath": "items/ring/ring-of-psychic-resistance.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "Q7E6MgPzVkwBeZ6l",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Psychic Resistance",
-          "sourcePath": "items/ring/ring-of-psychic-resistance.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "items",
-          "id": "Q7E6MgPzVkwBeZ6l",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Psychic Resistance",
-          "sourcePath": "items/ring/ring-of-psychic-resistance.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "IrC5LPbWNxlAQoK7",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Radiant Resistance",
-          "sourcePath": "items/ring/ring-of-radiant-resistance.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "IrC5LPbWNxlAQoK7",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Radiant Resistance",
-          "sourcePath": "items/ring/ring-of-radiant-resistance.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "items",
-          "id": "IrC5LPbWNxlAQoK7",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Radiant Resistance",
-          "sourcePath": "items/ring/ring-of-radiant-resistance.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -8290,36 +7650,6 @@
           "name": "Ring of the Ram",
           "fieldPath": "system.description.value",
           "sourcePath": "items/ring/ring-of-the-ram.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "IpBBqr0r7JanyVn0",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Thunder Resistance",
-          "sourcePath": "items/ring/ring-of-thunder-resistance.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "IpBBqr0r7JanyVn0",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Thunder Resistance",
-          "sourcePath": "items/ring/ring-of-thunder-resistance.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "items",
-          "id": "IpBBqr0r7JanyVn0",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Thunder Resistance",
-          "sourcePath": "items/ring/ring-of-thunder-resistance.yml"
         },
         {
           "code": "html-tag-sequence",
