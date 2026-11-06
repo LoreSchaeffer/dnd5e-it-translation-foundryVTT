@@ -7,7 +7,7 @@
 | classfeatures | 235 | 235 | 0 | 0 | 0 | 0 | 0 |
 | effects | 214 | 214 | 0 | 0 | 0 | 0 | 0 |
 | heroes | 12 | 0 | 0 | 12 | 0 | 466 | 561 |
-| items | 885 | 795 | 0 | 90 | 0 | 0 | 268 |
+| items | 885 | 797 | 0 | 88 | 0 | 0 | 262 |
 | monsterfeatures | 252 | 0 | 61 | 191 | 0 | 132 | 753 |
 | monsters | 337 | 2 | 5 | 330 | 15 | 4810 | 5045 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
@@ -17,7 +17,7 @@
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 7322
+Total blocking issues: 7316
 
 ## Issues
 
@@ -582,9 +582,6 @@ Total blocking issues: 7322
 - **missing-field** `heroes:4Jsv5vYaJ1atUEDV:items[KswTUmrH37e6GsUI].system.description.value`
 - **missing-field** `heroes:4Jsv5vYaJ1atUEDV:items[KswTUmrH37e6GsUI].effects[6pbotGIvqQkraPva].name`
 - **missing-field** `heroes:4Jsv5vYaJ1atUEDV:items[KswTUmrH37e6GsUI].effects[6pbotGIvqQkraPva].description`
-- **html-tag-sequence** `items:wqVSRfkcTjuhvDyx:system.description.value`
-- **html-attributes** `items:wqVSRfkcTjuhvDyx:system.description.value`
-- **foundry-reference-count** `items:wqVSRfkcTjuhvDyx:system.description.value`
 - **html-tag-sequence** `items:1RwJWOAeyoideLKe:system.description.value`
 - **html-attributes** `items:1RwJWOAeyoideLKe:system.description.value`
 - **foundry-references** `items:1RwJWOAeyoideLKe:system.description.value`
@@ -662,9 +659,6 @@ Total blocking issues: 7322
 - **html-attributes** `items:e3XQygrXkzNvkDGF:system.description.value`
 - **foundry-inline-rolls** `items:e3XQygrXkzNvkDGF:system.description.value`
 - **english-residual** `items:e3XQygrXkzNvkDGF:system.description.value`
-- **html-tag-sequence** `items:3ALOhh6JNInIK4o7:system.description.value`
-- **html-attributes** `items:3ALOhh6JNInIK4o7:system.description.value`
-- **foundry-references** `items:3ALOhh6JNInIK4o7:system.description.value`
 - **html-tag-sequence** `items:lTfo6OVvAY2iJ4oq:system.description.value`
 - **html-attributes** `items:lTfo6OVvAY2iJ4oq:system.description.value`
 - **foundry-reference-count** `items:lTfo6OVvAY2iJ4oq:system.description.value`

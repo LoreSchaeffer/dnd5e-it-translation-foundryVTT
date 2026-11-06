@@ -2095,6 +2095,14 @@
         },
         {
           "pack": "items",
+          "id": "wqVSRfkcTjuhvDyx",
+          "name": "Necklace of Prayer Beads",
+          "sourcePath": "items/equipment/necklace-of-prayer-beads.yml",
+          "lookupKey": "Necklace of Prayer Beads",
+          "matchedLookupKey": "Necklace of Prayer Beads"
+        },
+        {
+          "pack": "items",
           "id": "ecz2fVDyAg8YgJGe",
           "name": "Pack Saddle",
           "sourcePath": "items/equipment/pack-saddle.yml",
@@ -4372,6 +4380,14 @@
           "sourcePath": "items/trinket/mirror-of-life-trapping.yml",
           "lookupKey": "Mirror of Life Trapping",
           "matchedLookupKey": "Mirror of Life Trapping"
+        },
+        {
+          "pack": "items",
+          "id": "3ALOhh6JNInIK4o7",
+          "name": "Necklace of Fireballs",
+          "sourcePath": "items/trinket/necklace-of-fireballs.yml",
+          "lookupKey": "Necklace of Fireballs",
+          "matchedLookupKey": "Necklace of Fireballs"
         },
         {
           "pack": "items",
@@ -6674,41 +6690,6 @@
       "manualReview": [
         {
           "pack": "items",
-          "id": "wqVSRfkcTjuhvDyx",
-          "name": "Necklace of Prayer Beads",
-          "sourcePath": "items/equipment/necklace-of-prayer-beads.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Necklace of Prayer Beads",
-          "matchedLookupKey": "Necklace of Prayer Beads",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "wqVSRfkcTjuhvDyx",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "wqVSRfkcTjuhvDyx",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "items",
-              "id": "wqVSRfkcTjuhvDyx",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
           "id": "1RwJWOAeyoideLKe",
           "name": "Orb of Dragonkind",
           "sourcePath": "items/equipment/orb-of-dragonkind.yml",
@@ -7513,41 +7494,6 @@
               "message": "Foundry inline rolls differ from source",
               "pack": "items",
               "id": "e3XQygrXkzNvkDGF",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "3ALOhh6JNInIK4o7",
-          "name": "Necklace of Fireballs",
-          "sourcePath": "items/trinket/necklace-of-fireballs.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Necklace of Fireballs",
-          "matchedLookupKey": "Necklace of Fireballs",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "3ALOhh6JNInIK4o7",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "3ALOhh6JNInIK4o7",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-references",
-              "severity": "blocking",
-              "message": "Foundry reference targets or order differ from source",
-              "pack": "items",
-              "id": "3ALOhh6JNInIK4o7",
               "fieldPath": "system.description.value"
             }
           ]

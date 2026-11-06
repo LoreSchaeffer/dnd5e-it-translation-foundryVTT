@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1683,
+      "translated": 1685,
       "missing": 69,
-      "partial": 639,
+      "partial": 637,
       "review": 111
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 1124,
+      "invariantFailures": 1118,
       "englishResiduals": 113,
       "imperialResiduals": 2
     },
-    "blockingIssues": 7322
+    "blockingIssues": 7316
   },
   "packs": [
     {
@@ -5317,9 +5317,9 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 795,
+          "translated": 797,
           "missing": 0,
-          "partial": 90,
+          "partial": 88,
           "review": 41
         },
         "folders": {
@@ -5333,42 +5333,12 @@
           "total": 2227,
           "translated": 2227,
           "missing": 0,
-          "invariantFailures": 177,
+          "invariantFailures": 171,
           "englishResiduals": 41,
           "imperialResiduals": 2
         }
       },
       "issues": [
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "wqVSRfkcTjuhvDyx",
-          "fieldPath": "system.description.value",
-          "name": "Necklace of Prayer Beads",
-          "sourcePath": "items/equipment/necklace-of-prayer-beads.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "wqVSRfkcTjuhvDyx",
-          "fieldPath": "system.description.value",
-          "name": "Necklace of Prayer Beads",
-          "sourcePath": "items/equipment/necklace-of-prayer-beads.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "items",
-          "id": "wqVSRfkcTjuhvDyx",
-          "fieldPath": "system.description.value",
-          "name": "Necklace of Prayer Beads",
-          "sourcePath": "items/equipment/necklace-of-prayer-beads.yml"
-        },
         {
           "code": "html-tag-sequence",
           "severity": "blocking",
@@ -6144,36 +6114,6 @@
           "name": "Marvelous Pigments",
           "fieldPath": "system.description.value",
           "sourcePath": "items/trinket/marvelous-pigments.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "3ALOhh6JNInIK4o7",
-          "fieldPath": "system.description.value",
-          "name": "Necklace of Fireballs",
-          "sourcePath": "items/trinket/necklace-of-fireballs.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "3ALOhh6JNInIK4o7",
-          "fieldPath": "system.description.value",
-          "name": "Necklace of Fireballs",
-          "sourcePath": "items/trinket/necklace-of-fireballs.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "3ALOhh6JNInIK4o7",
-          "fieldPath": "system.description.value",
-          "name": "Necklace of Fireballs",
-          "sourcePath": "items/trinket/necklace-of-fireballs.yml"
         },
         {
           "code": "html-tag-sequence",
