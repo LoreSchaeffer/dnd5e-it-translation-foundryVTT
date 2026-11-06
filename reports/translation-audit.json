@@ -3,10 +3,10 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 172,
+      "translated": 178,
       "missing": 453,
-      "partial": 1766,
-      "review": 579
+      "partial": 1760,
+      "review": 578
     },
     "folders": {
       "total": 120,
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 4058,
       "missing": 11602,
-      "invariantFailures": 2820,
-      "englishResiduals": 489,
+      "invariantFailures": 2796,
+      "englishResiduals": 488,
       "imperialResiduals": 4
     },
-    "blockingIssues": 13967
+    "blockingIssues": 13942
   },
   "packs": [
     {
@@ -59,10 +59,10 @@
       "summary": {
         "documents": {
           "total": 12,
-          "translated": 6,
+          "translated": 12,
           "missing": 0,
-          "partial": 6,
-          "review": 1
+          "partial": 0,
+          "review": 0
         },
         "folders": {
           "total": 0,
@@ -75,264 +75,12 @@
           "total": 231,
           "translated": 231,
           "missing": 0,
-          "invariantFailures": 24,
-          "englishResiduals": 1,
+          "invariantFailures": 0,
+          "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
-      "issues": [
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "classes",
-          "id": "ygVYgPbJkaH0tH1N",
-          "fieldPath": "system.description.value",
-          "name": "Druid",
-          "sourcePath": "classes/druid.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "classes",
-          "id": "ygVYgPbJkaH0tH1N",
-          "fieldPath": "system.description.value",
-          "name": "Druid",
-          "sourcePath": "classes/druid.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "classes",
-          "id": "ygVYgPbJkaH0tH1N",
-          "fieldPath": "system.description.value",
-          "name": "Druid",
-          "sourcePath": "classes/druid.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "classes",
-          "id": "ygVYgPbJkaH0tH1N",
-          "fieldPath": "system.description.value",
-          "name": "Druid",
-          "sourcePath": "classes/druid.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "classes",
-          "id": "6VoZrWxhOEKGYhnq",
-          "fieldPath": "system.description.value",
-          "name": "Monk",
-          "sourcePath": "classes/monk.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "classes",
-          "id": "6VoZrWxhOEKGYhnq",
-          "fieldPath": "system.description.value",
-          "name": "Monk",
-          "sourcePath": "classes/monk.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "classes",
-          "id": "6VoZrWxhOEKGYhnq",
-          "fieldPath": "system.description.value",
-          "name": "Monk",
-          "sourcePath": "classes/monk.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "classes",
-          "id": "6VoZrWxhOEKGYhnq",
-          "fieldPath": "system.description.value",
-          "name": "Monk",
-          "sourcePath": "classes/monk.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "classes",
-          "id": "gZiUvbXWLs0pOp0c",
-          "fieldPath": "system.description.value",
-          "name": "Paladin",
-          "sourcePath": "classes/paladin.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "classes",
-          "id": "gZiUvbXWLs0pOp0c",
-          "fieldPath": "system.description.value",
-          "name": "Paladin",
-          "sourcePath": "classes/paladin.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "classes",
-          "id": "gZiUvbXWLs0pOp0c",
-          "fieldPath": "system.description.value",
-          "name": "Paladin",
-          "sourcePath": "classes/paladin.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "classes",
-          "id": "gZiUvbXWLs0pOp0c",
-          "fieldPath": "system.description.value",
-          "name": "Paladin",
-          "sourcePath": "classes/paladin.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "classes",
-          "id": "xEb8jmA5HlNs7xTF",
-          "fieldPath": "system.description.value",
-          "name": "Rogue",
-          "sourcePath": "classes/rogue.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "classes",
-          "id": "xEb8jmA5HlNs7xTF",
-          "fieldPath": "system.description.value",
-          "name": "Rogue",
-          "sourcePath": "classes/rogue.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "classes",
-          "id": "xEb8jmA5HlNs7xTF",
-          "fieldPath": "system.description.value",
-          "name": "Rogue",
-          "sourcePath": "classes/rogue.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "classes",
-          "id": "xEb8jmA5HlNs7xTF",
-          "fieldPath": "system.description.value",
-          "name": "Rogue",
-          "sourcePath": "classes/rogue.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "classes",
-          "id": "7WJp9vhi6F6SlAFa",
-          "fieldPath": "system.description.value",
-          "name": "Warlock",
-          "sourcePath": "classes/warlock.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "classes",
-          "id": "7WJp9vhi6F6SlAFa",
-          "fieldPath": "system.description.value",
-          "name": "Warlock",
-          "sourcePath": "classes/warlock.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "classes",
-          "id": "7WJp9vhi6F6SlAFa",
-          "fieldPath": "system.description.value",
-          "name": "Warlock",
-          "sourcePath": "classes/warlock.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "classes",
-          "id": "7WJp9vhi6F6SlAFa",
-          "fieldPath": "system.description.value",
-          "name": "Warlock",
-          "sourcePath": "classes/warlock.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "Un warlock ottiene i seguenti privilegi di classe. Punti Ferita Dadi Vita: per livello da warlock Punti Ferita al 1&deg; Livello: 8 + il modificatore di Costituzione del warlock Punti Ferita ai Livelli Successivi: (o 5) + il modificatore di Costituzione del warlock per ogni livello da warlock dopo il 1&deg; Competenze Armature: &nbsp;Armature Leggere Armi: Armi semplici Strumenti: &nbsp;Nessuno Tiri Salvezza: &nbsp;Saggezza, Carisma Abilit&agrave;: &nbsp;Due a scelta tra Arcano, Indagare, Inganno, Intimidire, Natura, Religione e Storia Equipaggiamento Un warlock inizia con l'equipaggiamento seguente, in aggiunta all'equipaggiamento conferito dal suo background: (a) una Balestra Leggera e 20 Quadrelli da Balestra o (b) una qualsiasi arma semplice (a) una Borsa per Componenti o (b) un focus arcano (a) una dotazione da studioso o (b) una dotazione da avventuriero Un'Armatura di Cuoio, una qualsiasi arma semplice e due Pugnale Avanzamento del Warlock Livello Bonus di Competenza Privilegi Suppliche Conosciute 1&deg; +2 Patrono Ultraterreno, Magia del Patto ̶ 2&deg; +2 Suppliche Occulte 2 3&deg; +2 Magie 2&deg; Livello, Dono del Patto 2 4&deg; +2 Aumento dei Punteggi di Caratteristica 2 5&deg; +3 Magie 3&deg; Livello, +1 Supplica 3 6&deg; +3 Privilegio del Patrono Ultraterreno 3 7&deg; +3 Magie 4&deg; Livello, +1 Supplica 4 8&deg; +3 Aumento dei Punteggi di Caratteristica 4 9&deg; +4 Magie 5&deg; Livello, +1 Supplica 5 10&deg; +4 Privilegio del Patrono Ultraterreno 5 11&deg; +4 Arcanum Mistico (6&deg; Livello) 5 12&deg; +4 Aumento dei Punteggi di Caratteristica,&nbsp; +1 Supplica 6 13&deg; +5 Arcanum Mistico (7&deg; Livello) 6 14&deg; +5 Privilegio del Patrono Ultraterreno 6 15&deg; +5 Arcanum Mistico (8&deg; Livello), +1 Supplica 7 16&deg; +5 Aumento dei Punteggi di Caratteristica 7 17&deg; +6 Arcanum Mistico (9&deg; Livello) 7 18&deg; +6 +1 Supplica 8 19&deg; +6 Aumento dei Punteggi di Caratteristica 8 20&deg; +6 Maestro dell'Occulto 8 Dono del Patto Ogni opzione di Dono del Patto genera una creatura o un oggetto speciale, che riflette la natura del patrono del warlock. Patto della Catena. Il famiglio del warlock &egrave; pi&ugrave; intelligente dei famigli normali. La sua forma standard pu&ograve; riflettere l'essenza del suo patrono, gli imp e i quasit sono collegati all'Immondo. Patta della Lama. Se il warlock serve l'Immondo, la sua arma potrebbe essere un'ascia fatta di metallo nero e decorata di simboli fiammeggianti. Patta del Tomo. Il Libro delle Ombre potrebbe essere un ponderoso tomo rilegato In pelle demoniaca e borchie metalliche, pieno di Incantesimi di evocazione e informazioni proibite sulle pi&ugrave; sinistre regioni del cosmo, in quanto dono dell'Immondo. Patroni Ultraterreni Gli esseri che fungono da patroni per i warlock sono potenti entit&agrave; che risiedono su altri piani di esistenza; pur non essendo divinit&agrave; vere e proprie, il loro potere rasenta il divino. Ogni patrono pu&ograve; fornire a un warlock l'accesso a poteri e suppliche di natura diversa e si aspetta di ricevere favori significativi in cambio. Alcuni patroni accumulano numerosi warlock, elargiscono le loro conoscenze mistiche con disinvoltura o si vantano della loro abilit&agrave; nel vincolare i mortali al loro volere. Altri patroni concedono il loro potere soltanto a riluttanza e potrebbero decidere di stipulare un patto con un solo warlock. Due warlock al servizio dello stesso patrono potrebbero considerarsi alleati, fratelli o rivali. L'Immondo Il warlock ha stipulato un patto con un immondo dei piani inferiori di esistenza, un essere le cui mire rimangono malvagie, anche se il warlock si oppone a esse. Le creature come l'Immondo bramano la corruzione o la distruzione di tutte le cose, e questo prima o poi includer&agrave; anche il warlock. Gli immondi sufficientemente potenti da stipulare un patto includono i signori dei demoni come Demogorgon, Orcus, Fraz'Urb-luu e Baphomet, gli arcidiavoli come Asmodeus, Dispater, Mefistofele e Belial, i diavoli delle fosse e i balordi particolare potenza, gli ultroloth e gli altri signori degli yugoloth. I Privilegi dell'Immondo 1&deg; Livello: Lista Ampliata Degli Incantesimi Benedizione Dell'oscuro 6&deg; Livello: Fortuna Dell'oscuro 10&deg; Livello: Resilienza Immonda 14&deg; Livello: Scagliare All'inferno",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "classes",
-          "id": "7WJp9vhi6F6SlAFa",
-          "name": "Warlock",
-          "fieldPath": "system.description.value",
-          "sourcePath": "classes/warlock.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "classes",
-          "id": "wZK2Q0rXB0AQo8h3",
-          "fieldPath": "system.description.value",
-          "name": "Wizard",
-          "sourcePath": "classes/wizard.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "classes",
-          "id": "wZK2Q0rXB0AQo8h3",
-          "fieldPath": "system.description.value",
-          "name": "Wizard",
-          "sourcePath": "classes/wizard.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "classes",
-          "id": "wZK2Q0rXB0AQo8h3",
-          "fieldPath": "system.description.value",
-          "name": "Wizard",
-          "sourcePath": "classes/wizard.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "classes",
-          "id": "wZK2Q0rXB0AQo8h3",
-          "fieldPath": "system.description.value",
-          "name": "Wizard",
-          "sourcePath": "classes/wizard.yml"
-        }
-      ]
+      "issues": []
     },
     {
       "pack": "classfeatures",
