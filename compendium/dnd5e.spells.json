@@ -401,7 +401,8 @@
       },
       "effects": {
         "bckYDthT7sAOQBNO": {
-          "name": "Esiliato"
+          "name": "Esiliato",
+          "description": "<p>Il bersaglio originario di questo piano viene esiliato su un semipiano innocuo ed è Incapacitated per la durata.</p><p>Sei stato esiliato su un semipiano innocuo. Finché ti trovi lì sei &amp;reference[incapacitated apply=fasle]. Rimani lì finché l'incantesimo non termina, poi ricompari nello spazio che hai lasciato o nello spazio libero più vicino se quello spazio è occupato.</p>"
         }
       }
     },
@@ -461,7 +462,8 @@
           "name": "Attacchi Maledetti"
         },
         "Ebzd58ARPldBzKci": {
-          "name": "Azioni Maledette"
+          "name": "Azioni Maledette",
+          "description": "<p>In combattimento devi superare un tiro salvezza [[/save wis]] all'inizio di ogni tuo turno. Se lo fallisci, sprechi la tua azione nel turno senza fare nulla.</p><p>Un incantesimo @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{Rimuovi Maledizione} termina questo effetto.</p>"
         },
         "2EP5ujWSLnkP1zV0": {
           "name": "Resilienza Maledetta"
@@ -550,6 +552,9 @@
           "name": "Tiro per Intermittenza",
           "roll": {
             "name": "Tiro per Intermittenza"
+          },
+          "description": {
+            "value": "<p>Con un risultato di 11 o superiore, svanisci nel Piano Etereo.</p>"
           }
         },
         "16QEMgsGT7SpSMTD": {
@@ -651,7 +656,8 @@
       },
       "effects": {
         "QgkZ0wXeQ7CsDhJJ": {
-          "name": "Emozioni Soppresse"
+          "name": "Emozioni Soppresse",
+          "description": "<p>Ogni effetto che ti rende &amp;reference[charmed apply=false] o &amp;reference[frightened apply=false] è soppresso. Quando questo incantesimo termina, ogni effetto soppresso riprende, purché nel frattempo la sua durata non sia terminata.</p>"
         },
         "GgT59J1pn49xUaJW": {
           "name": "Indifferente"
@@ -807,7 +813,8 @@
       "description": "<p>Le creature a scelta dell'incantatore entro gittata, che siano in grado di sentirlo e che egli sia in grado di vedere, devono effettuare un tiro salvezza su Saggezza. Un bersaglio supera automaticamente questo tiro salvezza se non può essere affascinato. In caso di tiro salvezza fallito, un bersaglio è influenzato da questo incantesimo. Finché l'incantesimo non termina, l'incantatore può usare un'azione bonus a ogni suo turno per designare una direzione orizzontale rispetto a lui. Ogni bersaglio influenzato deve usare la maggior parte possibile del suo .movimento per muoversi in quella direzione nel suo turno successivo. Può effettuare la sua azione prima di muoversi. Dopo essersi mosso in questo modo, un bersaglio può effettuare un altro tiro salvezza su Saggezza per cercare di terminare l'effetto.</p><p>Un bersaglio non è obbligato a muoversi verso un terreno palesemente pericoloso, come un incendio o una rossa, ma provocherà attacchi di opportunità nel muoversi verso la direzione designata.</p>",
       "effects": {
         "gG6gFVVIuoHKH4J9": {
-          "name": "Compulsione"
+          "name": "Compulsione",
+          "description": "<p>Finché l'incantesimo non termina, l'incantatore può usare un'azione bonus in ogni suo turno per indicarti una direzione orizzontale rispetto a lui. Nel tuo turno successivo devi usare quanto più movimento possibile per muoverti in quella direzione. Puoi effettuare qualsiasi azione prima di muoverti. Dopo esserti mosso in questo modo, puoi effettuare un altro tiro salvezza su Saggezza per tentare di terminare l'effetto.</p><p>Non sei obbligato a muoverti verso un pericolo palesemente letale, come un incendio o una fossa, ma provochi &amp;reference[opportunity attacks] per muoverti nella direzione indicata.</p>"
         }
       },
       "activities": {
@@ -936,7 +943,8 @@
       },
       "effects": {
         "I4lTsFrmG6W4G5Wo": {
-          "name": "Follia"
+          "name": "Follia",
+          "description": "<p>Contattare un'intelligenza extraplanare ha spezzato la tua mente, lasciandoti folle. Finché sei folle, non puoi effettuare azioni, non puoi comprendere ciò che dicono le altre creature, non puoi leggere e pronunci soltanto parole senza senso.</p><p>Un incantesimo @UUID[Compendium.dnd5e.spells.Item.WzvJ7G3cqvIubsLk]{Ristorare Superiore} lanciato su di te termina questo effetto.</p>"
         }
       }
     },
@@ -1020,10 +1028,12 @@
       "materials": "50 mo di polvere di rubino che verrà consumata",
       "effects": {
         "H4kfOYuc1G4lckzb": {
-          "name": "Fiamma Perenne"
+          "name": "Fiamma Perenne",
+          "description": "<p>Da questo oggetto scaturisce una fiamma luminosa quanto una torcia. L'effetto ha l'aspetto di una fiamma normale, ma non genera calore e non consuma ossigeno. Una fiamma perenne può essere coperta o nascosta, ma non soffocata o spenta.</p>"
         },
         "mGjF4d035590u5V0": {
-          "name": "Impugna un Oggetto con Fiamma Perenne"
+          "name": "Impugna un Oggetto con Fiamma Perenne",
+          "description": "<p>Sull'oggetto che trasporti è stato lanciato l'incantesimo @UUID[Compendium.dnd5e.spells.Item.MK6gpQMeDFo0cP9f]{Fiamma Perenne}.</p>"
         }
       },
       "activities": {
@@ -1175,10 +1185,12 @@
       "materials": "pelo di pipistrello e una goccia di pece o un pezzo di carbone",
       "effects": {
         "Tm6GfEu4JKv0pU8U": {
-          "name": "Oscurità"
+          "name": "Oscurità",
+          "description": "<p>Questo oggetto diffonde &amp;reference[darkness] magica, che riempie una sfera con raggio di 4,5 metri per la durata dell'incantesimo. L'oscurità si propaga oltre gli angoli e si muove assieme all'oggetto. Coprire completamente l'oggetto con qualcosa di opaco, come una ciotola o un elmo, blocca l'oscurità.</p><p>Se una parte dell'area di questo incantesimo si sovrappone a un'area di luce creata da un incantesimo di 2° livello o inferiore, l'incantesimo che ha creato la luce è dissolto.</p>"
         },
         "xxbzHLlG7wj1GCvI": {
-          "name": "Impugna un Oggetto Avvolto dall'Oscurità"
+          "name": "Impugna un Oggetto Avvolto dall'Oscurità",
+          "description": "<p>Sull'oggetto che trasporti è stato lanciato l'incantesimo @UUID[Compendium.dnd5e.spells.Item.S7VbUetIfVT7B6Eq]{Oscurità}.</p>"
         }
       },
       "activities": {
@@ -1210,10 +1222,12 @@
       "description": "<p>Una sfera di luce del raggio di 18 metri si diffonde da un punto situato entro gittata scelto dall'incantatore. La sfera è pervasa da luce intensa e proietta luce fioca per altri 18 metri.</p><p>Se il punto scelto dall'incantatore si trova su un oggetto che egli sta impugnando o che non è indossato o trasportato da nessuno, la luce si diffonde dall'oggetto e si muove assieme a esso. Coprire completamente la fonte di luce con un oggetto opaco, come una scodella o un elmo, blocca la luce.</p><p>Se una parte dell'area di questo incantesimo si sovrappone a un'area di oscurità creata da un incantesimo di 3° livello o inferiore, l'incantesimo che ha creato l'oscurità è dissolto.</p>",
       "effects": {
         "pXozRRGkzMMm00kl": {
-          "name": "Luce Diurna"
+          "name": "Luce Diurna",
+          "description": "<p>Questo oggetto proietta &amp;reference[bright light] entro un raggio di 18 metri e &amp;reference[dim light] per altri 18 metri. La luce si irradia dall'oggetto e si muove assieme a esso. Coprire completamente l'oggetto influenzato con qualcosa di opaco, come una ciotola o un elmo, blocca la luce.</p>"
         },
         "9QQoXFhnT4bcSEVM": {
-          "name": "Impugna un Oggetto con Luce Diurna"
+          "name": "Impugna un Oggetto con Luce Diurna",
+          "description": "<p>Sull'oggetto che trasporti è stato lanciato l'incantesimo@UUID[Compendium.dnd5e.spells.Item.BP3GCwa66IAw1yTG]{Luce Diurna}.</p>"
         }
       },
       "activities": {
@@ -1819,7 +1833,8 @@
       },
       "effects": {
         "ElS7F2Oh06jeZtpi": {
-          "name": "Famiglio"
+          "name": "Famiglio",
+          "description": "<p>Questa creatura è un @UUID[Compendium.dnd5e.spells.Item.JGT5bNqu9REL7Fuz]{Famiglio}. Un famiglio non può attaccare, ma può effettuare normalmente le altre azioni.</p>"
         }
       }
     },
@@ -1931,7 +1946,10 @@
           "name": "Lancia"
         },
         "rUOzC7j6wRPm8fpO": {
-          "name": "Evoca Lama Infuocata in Mano"
+          "name": "Evoca Lama Infuocata in Mano",
+          "description": {
+            "value": "<p>Se lasci andare la lama, essa scompare, ma puoi evocarla di nuovo con un'Azione Bonus.</p>"
+          }
         }
       },
       "effects": {
@@ -3014,7 +3032,10 @@
       "description": "<p data-parsoid=\"{&quot;dsr&quot;:[0,28,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,28,2,2]}\">Evocazione di 8° livello</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[29,62,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[29,62,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[31,54,3,3]}\">Tempo di lancio:&nbsp;</strong>1 azione</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[64,89,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[64,89,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[66,81,3,3]}\">Gittata:&nbsp;</strong>18 metri</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[91,115,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[91,115,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[93,111,3,3]}\">Componenti:&nbsp;</strong>V, S</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[117,165,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[117,165,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[119,133,3,3]}\">Durata:&nbsp;</strong>Concentrazione, fino a 10 minuti</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[166,276,0,0]}\">L'incantatore esilia una creatura entro gittata e che egli sia in grado di vedere su un semipiano labirintico.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[278,369,0,0]}\">Il bersaglio rimane laggiù per la durata dell'incantesimo o finché non fugge dal labirinto.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[371,431,0,0]}\">Il bersaglio può usare la sua azione per tentare di fuggire.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[433,616,0,0]}\">Quando lo fa, effettua una prova di Intelligenza con CD 20. Se ha successo, riesce a fuggire e l'incantesimo termina (un Minotauro o un demone goristro hanno successo automaticamente).</p>\n<p>&nbsp;</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[618,763,0,0]}\">Quando l'incantesimo termina, il bersaglio ricompare nello spazio che ha lasciato o, se quello spazio è occupato, nello spazio libero più vicino.</p>",
       "activities": {
         "gPtL2C25UZ6sJtDM": {
-          "name": "Fuggi dal Labirinto"
+          "name": "Fuggi dal Labirinto",
+          "description": {
+            "value": "<p>Il bersaglio può usare la sua azione per tentare di fuggire. Quando lo fa, effettua una prova di Intelligenza con CD 20. Se la supera, fugge e l'incantesimo termina (un @UUID[Compendium.dnd5e.monsters.Actor.pOPQU4UnR27zA0jf]{Minotauro} o un demone goristro supera automaticamente la prova).</p>"
+          }
         }
       },
       "effects": {
@@ -3077,7 +3098,8 @@
       "description": "<p data-parsoid=\"{&quot;dsr&quot;:[0,29,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,29,2,2]}\">Abiurazione di 8&deg; livello</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[30,133,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[30,62,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[31,54,3,3]}\">Tempo di lancio:&nbsp;</strong>1 azione</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[63,87,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[64,79,3,3]}\">Gittata:&nbsp;</strong>Contatto</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[88,111,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[89,107,3,3]}\">Componenti:&nbsp;</strong>V, S</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[112,133,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[113,127,3,3]}\">Durata:&nbsp;</strong>24 ore</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[134,395,0,0]}\">Finch&eacute; l'incantesimo non termina, una creatura consenziente toccata dall'incantatore &egrave; immune ai danni psichici, a qualsiasi effetto che percepirebbe le sue emozioni o leggerebbe i suoi pensieri, agli incantesimi di divinazione e alla condizione di affascinato.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[397,595,0,0]}\">L'incantesimo neutralizza perfino gli incantesimi @Compendium[world.tutti-gli-incantesimi.CaQMve39xhmZlNUr]{Desiderio} e gli incantesimi o effetti di potenza analoga usati per influenzare la mente del bersaglio o ottenere informazioni su quel bersaglio.</p>",
       "effects": {
         "3N4KDb8gLlbu1KUC": {
-          "name": "Vuoto Mentale"
+          "name": "Vuoto Mentale",
+          "description": "<p>Finché l'incantesimo non termina, sei immune ai danni psichici, a ogni effetto che percepisca le tue emozioni o legga i tuoi pensieri, agli incantesimi di Divinazione e alla condizione &amp;reference[Charmed apply=false]. L'incantesimo sventa perfino gli incantesimi @UUID[Compendium.dnd5e.spells.Item.3okM6Gn63zzEULkz]{Desiderio} e gli incantesimi o effetti di potere analogo usati per influenzare la tua mente o ottenere informazioni su di te.</p>"
         }
       },
       "activities": {
@@ -3411,7 +3433,10 @@
           "name": "Lancia"
         },
         "dnd5eactivity000": {
-          "name": "Ripeti Tiro Salvezza"
+          "name": "Ripeti Tiro Salvezza",
+          "description": {
+            "value": "<p>Il bersaglio stordito deve effettuare un tiro salvezza su Costituzione alla fine di ogni suo turno. Se lo supera, questo effetto stordente termina.</p>"
+          }
         }
       }
     },
@@ -3608,7 +3633,8 @@
       "materials": "acqua santa o polvere d'argento e di ferro che l'incantesimo consuma",
       "effects": {
         "6AM7tNmtE61BDJpv": {
-          "name": "Protezione dal Bene e dal Male"
+          "name": "Protezione dal Bene e dal Male",
+          "description": "<p>Finché l'incantesimo non termina, sei protetto contro certi tipi di creature: aberrazioni, celestiali, elementali, folletti, immondi e non morti.</p><p>La protezione conferisce vari benefici. Le creature di quei tipi dispongono di svantaggio ai tiri per colpire contro di te. Inoltre, non puoi essere &amp;reference[charmed apply=false], &amp;reference[frightened apply=false] o posseduto da esse. Se sei già affascinato, spaventato o posseduto da una creatura simile, disponi di vantaggio a ogni nuovo tiro salvezza contro l'effetto pertinente.</p>"
         }
       },
       "activities": {
@@ -3669,7 +3695,8 @@
       },
       "effects": {
         "HaoKvppKfss4ajTS": {
-          "name": "Indebolito"
+          "name": "Indebolito",
+          "description": "<p>Finché l'incantesimo non termina, infliggi soltanto la metà dei danni con gli attacchi con arma che usano Forza. Alla fine di ogni tuo turno puoi effettuare un tiro salvezza su Costituzione contro l'incantesimo. Se lo superi, l'incantesimo termina.</p>"
         }
       }
     },
@@ -3693,7 +3720,8 @@
       "materials": "Una ruota della preghiera e acqua santa",
       "effects": {
         "7CwqRSVzG7EhgDFq": {
-          "name": "Rigenerazione"
+          "name": "Rigenerazione",
+          "description": "<p>Per la durata dell'incantesimo, il bersaglio recupera [[/healing 1]] all'inizio di ogni suo turno ([[/healing 10]] ogni minuto).</p><p>Le eventuali parti recise del corpo del bersaglio (dita, gambe, code e così via) ricrescono dopo 2 minuti. Se possiedi la parte recisa e la tieni accostata al moncone, l'incantesimo salda istantaneamente l'arto al moncone.</p>"
         }
       },
       "activities": {
@@ -3767,7 +3795,8 @@
           "description": "<p>Tornare dalla morte è una prova estenuante. Subisci una penalità di −4 a tutti i tiri per colpire, i tiri salvezza e le prove di caratteristica. Ogni volta che completi un riposo lungo, la penalità si riduce di 1 finché non scompare.</p>"
         },
         "tqHU3nZQatPgxW7r": {
-          "name": "Affaticamento Magico"
+          "name": "Affaticamento Magico",
+          "description": "<p>Finché non completi un riposo lungo, non puoi lanciare altri incantesimi e disponi di svantaggio ai tiri per colpire, alle prove di caratteristica e ai tiri salvezza.</p>"
         }
       }
     },
@@ -3957,10 +3986,12 @@
       },
       "effects": {
         "7DN3i7SSb2unFuKJ": {
-          "name": "Oggetto Segregato"
+          "name": "Oggetto Segregato",
+          "description": "<p>Questo oggetto è @UUID[Compendium.dnd5e.spells.Item.wvLbtemkH8gyBpdc]{Sotto Sequestro}, è &amp;reference[Invisible apply=false] e non può essere bersagliato da incantesimi di divinazione né percepito attraverso sensori di scrutamento creati da incantesimi di Divinazione.</p>"
         },
         "zqdAKeHbYiGinR9k": {
-          "name": "Segregato"
+          "name": "Segregato",
+          "description": "<p>Tramite questo incantesimo sei nascosto al sicuro dall'individuazione per la durata. Sei &amp;reference[Invisible apply=false] e non puoi essere bersagliato da incantesimi di divinazione né percepito attraverso sensori di scrutamento creati da incantesimi di Divinazione.</p><p>Cadi inoltre in uno stato di animazione sospesa. Il tempo smette di scorrere per te e non invecchi.</p><p>Se si verificano le condizioni stabilite dall'incantatore, l'incantesimo termina anticipatamente.</p>"
         }
       }
     },
@@ -4737,7 +4768,8 @@
       },
       "effects": {
         "2WdkWIsjxEWwsGKf": {
-          "name": "Camminare sull'Acqua"
+          "name": "Camminare sull'Acqua",
+          "description": "<p>Questo incantesimo ti conferisce la capacità di muoverti su qualsiasi superficie liquida, come acqua, acido, fango, neve, sabbie mobili o lava, come se fosse terreno solido innocuo (attraversare la lava fusa può comunque infliggerti danni a causa del calore).</p><p>Se sei immerso in un liquido, l'incantesimo ti trasporta verso la superficie al ritmo di 18 metri per round.</p>"
         }
       }
     },
@@ -4775,7 +4807,10 @@
           "name": "Lancia"
         },
         "IdPqCJyxclpJDc5O": {
-          "name": "Tiro Salvezza a Fine Turno"
+          "name": "Tiro Salvezza a Fine Turno",
+          "description": {
+            "value": "<p>Alla fine di ogni turno della creatura &amp;reference[Frightened apply=false], essa deve superare un tiro salvezza su Saggezza, altrimenti subisce 4d10 danni psichici. Se supera il tiro salvezza, l'incantesimo termina per quella creatura.</p>"
+          }
         }
       }
     },
