@@ -7,7 +7,7 @@
 | classfeatures | 235 | 235 | 0 | 0 | 0 | 0 | 0 |
 | effects | 214 | 214 | 0 | 0 | 0 | 0 | 0 |
 | heroes | 12 | 0 | 0 | 12 | 0 | 466 | 561 |
-| items | 885 | 327 | 0 | 558 | 0 | 42 | 1266 |
+| items | 885 | 329 | 0 | 556 | 0 | 40 | 1264 |
 | monsterfeatures | 252 | 0 | 61 | 191 | 0 | 132 | 753 |
 | monsters | 337 | 2 | 5 | 330 | 15 | 4810 | 5045 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
@@ -17,7 +17,7 @@
 | tables | 31 | 2 | 7 | 22 | 0 | 212 | 169 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 9261
+Total blocking issues: 9259
 
 ## Issues
 
@@ -834,8 +834,6 @@ Total blocking issues: 9261
 - **ambiguous-name** `items:ybeLtyIloDvKhDz8`
 - **ambiguous-name** `items:9c0CHs90xqPw81iP`
 - **ambiguous-name** `items:C05ytVXByOG8uBAc`
-- **missing-field** `items:f4w4GxBi0nYXmhX4:system.description.value`
-- **missing-field** `items:Uv0ilmzbWvqmlCVH:system.description.value`
 - **ambiguous-name** `items:iOMRrzfzFCfPGuD6`
 - **ambiguous-name** `items:DVXmyetZuvxbzAwW`
 - **ambiguous-name** `items:F6GwSqjErX1u35Re`

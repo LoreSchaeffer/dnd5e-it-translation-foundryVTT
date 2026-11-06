@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 931,
+      "translated": 933,
       "missing": 77,
-      "partial": 1383,
+      "partial": 1381,
       "review": 213
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 8912,
-      "missing": 6748,
+      "translated": 8914,
+      "missing": 6746,
       "invariantFailures": 2394,
       "englishResiduals": 135,
       "imperialResiduals": 4
     },
-    "blockingIssues": 9261
+    "blockingIssues": 9259
   },
   "packs": [
     {
@@ -5317,9 +5317,9 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 327,
+          "translated": 329,
           "missing": 0,
-          "partial": 558,
+          "partial": 556,
           "review": 133
         },
         "folders": {
@@ -5331,8 +5331,8 @@
         },
         "fields": {
           "total": 2227,
-          "translated": 2185,
-          "missing": 42,
+          "translated": 2187,
+          "missing": 40,
           "invariantFailures": 1041,
           "englishResiduals": 46,
           "imperialResiduals": 2
@@ -7730,24 +7730,6 @@
           "id": "C05ytVXByOG8uBAc",
           "name": "Small Knife",
           "sourcePath": "items/equipment-packs/scholars-pack/small-knife.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "f4w4GxBi0nYXmhX4",
-          "name": "Rations",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/food/rations.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "Uv0ilmzbWvqmlCVH",
-          "name": "Waterskin",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/food/waterskin.yml"
         },
         {
           "code": "ambiguous-name",
