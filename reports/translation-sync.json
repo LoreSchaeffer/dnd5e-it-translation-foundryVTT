@@ -4607,6 +4607,14 @@
         },
         {
           "pack": "items",
+          "id": "1taRIMF9w7jpnonN",
+          "name": "Wand of Magic Missiles",
+          "sourcePath": "items/wand/wand-of-magic-missiles.yml",
+          "lookupKey": "Wand of Magic Missiles",
+          "matchedLookupKey": "Wand of Magic Missiles"
+        },
+        {
+          "pack": "items",
           "id": "GcpXNc4dKUNw0Tk6",
           "name": "Wand of Paralysis",
           "sourcePath": "items/wand/wand-of-paralysis.yml",
@@ -7746,57 +7754,6 @@
               "message": "Foundry data references differ from source",
               "pack": "items",
               "id": "bPFVfq81EsMNu6OQ",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "1taRIMF9w7jpnonN",
-          "name": "Wand of Magic Missiles",
-          "sourcePath": "items/wand/wand-of-magic-missiles.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Wand of Magic Missiles",
-          "matchedLookupKey": "Wand of Magic Missiles",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "1taRIMF9w7jpnonN",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "1taRIMF9w7jpnonN",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-references",
-              "severity": "blocking",
-              "message": "Foundry reference targets or order differ from source",
-              "pack": "items",
-              "id": "1taRIMF9w7jpnonN",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "1taRIMF9w7jpnonN",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-data-references",
-              "severity": "blocking",
-              "message": "Foundry data references differ from source",
-              "pack": "items",
-              "id": "1taRIMF9w7jpnonN",
               "fieldPath": "system.description.value"
             }
           ]
