@@ -4599,6 +4599,22 @@
         },
         {
           "pack": "items",
+          "id": "DoSvjhRARhRqWZXg",
+          "name": "Wand of Fireballs",
+          "sourcePath": "items/wand/wand-of-fireballs.yml",
+          "lookupKey": "Wand of Fireballs",
+          "matchedLookupKey": "Wand of Fireballs"
+        },
+        {
+          "pack": "items",
+          "id": "bPFVfq81EsMNu6OQ",
+          "name": "Wand of Lightning Bolts",
+          "sourcePath": "items/wand/wand-of-lightning-bolts.yml",
+          "lookupKey": "Wand of Lightning Bolts",
+          "matchedLookupKey": "Wand of Lightning Bolts"
+        },
+        {
+          "pack": "items",
           "id": "18fbyArtidKzON01",
           "name": "Wand of Magic Detection",
           "sourcePath": "items/wand/wand-of-magic-detection.yml",
@@ -7668,92 +7684,6 @@
               "message": "Foundry data references differ from source",
               "pack": "items",
               "id": "EJFql4aNWHHJSxT9",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "DoSvjhRARhRqWZXg",
-          "name": "Wand of Fireballs",
-          "sourcePath": "items/wand/wand-of-fireballs.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Wand of Fireballs",
-          "matchedLookupKey": "Wand of Fireballs",
-          "diagnostics": [
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "DoSvjhRARhRqWZXg",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-references",
-              "severity": "blocking",
-              "message": "Foundry reference targets or order differ from source",
-              "pack": "items",
-              "id": "DoSvjhRARhRqWZXg",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "DoSvjhRARhRqWZXg",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-data-references",
-              "severity": "blocking",
-              "message": "Foundry data references differ from source",
-              "pack": "items",
-              "id": "DoSvjhRARhRqWZXg",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "bPFVfq81EsMNu6OQ",
-          "name": "Wand of Lightning Bolts",
-          "sourcePath": "items/wand/wand-of-lightning-bolts.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Wand of Lightning Bolts",
-          "matchedLookupKey": "Wand of Lightning Bolts",
-          "diagnostics": [
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "bPFVfq81EsMNu6OQ",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-references",
-              "severity": "blocking",
-              "message": "Foundry reference targets or order differ from source",
-              "pack": "items",
-              "id": "bPFVfq81EsMNu6OQ",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "bPFVfq81EsMNu6OQ",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-data-references",
-              "severity": "blocking",
-              "message": "Foundry data references differ from source",
-              "pack": "items",
-              "id": "bPFVfq81EsMNu6OQ",
               "fieldPath": "system.description.value"
             }
           ]

@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1693,
+      "translated": 1695,
       "missing": 69,
-      "partial": 629,
+      "partial": 627,
       "review": 109
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 1089,
+      "invariantFailures": 1081,
       "englishResiduals": 111,
       "imperialResiduals": 2
     },
-    "blockingIssues": 7285
+    "blockingIssues": 7277
   },
   "packs": [
     {
@@ -5317,9 +5317,9 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 805,
+          "translated": 807,
           "missing": 0,
-          "partial": 80,
+          "partial": 78,
           "review": 39
         },
         "folders": {
@@ -5333,7 +5333,7 @@
           "total": 2227,
           "translated": 2227,
           "missing": 0,
-          "invariantFailures": 142,
+          "invariantFailures": 134,
           "englishResiduals": 39,
           "imperialResiduals": 2
         }
@@ -6202,86 +6202,6 @@
           "fieldPath": "system.description.value",
           "name": "Wand of Fear",
           "sourcePath": "items/wand/wand-of-fear.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "DoSvjhRARhRqWZXg",
-          "fieldPath": "system.description.value",
-          "name": "Wand of Fireballs",
-          "sourcePath": "items/wand/wand-of-fireballs.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "DoSvjhRARhRqWZXg",
-          "fieldPath": "system.description.value",
-          "name": "Wand of Fireballs",
-          "sourcePath": "items/wand/wand-of-fireballs.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "items",
-          "id": "DoSvjhRARhRqWZXg",
-          "fieldPath": "system.description.value",
-          "name": "Wand of Fireballs",
-          "sourcePath": "items/wand/wand-of-fireballs.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "items",
-          "id": "DoSvjhRARhRqWZXg",
-          "fieldPath": "system.description.value",
-          "name": "Wand of Fireballs",
-          "sourcePath": "items/wand/wand-of-fireballs.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "bPFVfq81EsMNu6OQ",
-          "fieldPath": "system.description.value",
-          "name": "Wand of Lightning Bolts",
-          "sourcePath": "items/wand/wand-of-lightning-bolts.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "bPFVfq81EsMNu6OQ",
-          "fieldPath": "system.description.value",
-          "name": "Wand of Lightning Bolts",
-          "sourcePath": "items/wand/wand-of-lightning-bolts.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "items",
-          "id": "bPFVfq81EsMNu6OQ",
-          "fieldPath": "system.description.value",
-          "name": "Wand of Lightning Bolts",
-          "sourcePath": "items/wand/wand-of-lightning-bolts.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "items",
-          "id": "bPFVfq81EsMNu6OQ",
-          "fieldPath": "system.description.value",
-          "name": "Wand of Lightning Bolts",
-          "sourcePath": "items/wand/wand-of-lightning-bolts.yml"
         },
         {
           "code": "html-attributes",
