@@ -7,7 +7,7 @@
 | classfeatures | 235 | 235 | 0 | 0 | 0 | 0 | 0 |
 | effects | 214 | 214 | 0 | 0 | 0 | 0 | 0 |
 | heroes | 12 | 0 | 0 | 12 | 0 | 466 | 561 |
-| items | 885 | 729 | 0 | 156 | 0 | 0 | 486 |
+| items | 885 | 744 | 0 | 141 | 0 | 0 | 456 |
 | monsterfeatures | 252 | 0 | 61 | 191 | 0 | 132 | 753 |
 | monsters | 337 | 2 | 5 | 330 | 15 | 4810 | 5045 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
@@ -17,7 +17,7 @@
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 7540
+Total blocking issues: 7510
 
 ## Issues
 
@@ -917,36 +917,12 @@ Total blocking issues: 7540
 - **foundry-data-references** `items:lPsueMv4ZoXqCYf9:system.description.value`
 - **html-tag-sequence** `items:kvD4ElYCfCKpjDeg:system.description.value`
 - **html-attributes** `items:kvD4ElYCfCKpjDeg:system.description.value`
-- **html-tag-sequence** `items:RnuxdHUAIgxccVwj:system.description.value`
-- **html-attributes** `items:RnuxdHUAIgxccVwj:system.description.value`
-- **html-tag-sequence** `items:ddWvQRLmnnIS0eLF:system.description.value`
-- **html-attributes** `items:ddWvQRLmnnIS0eLF:system.description.value`
-- **html-tag-sequence** `items:XVK6TOL4sGItssAE:system.description.value`
-- **html-attributes** `items:XVK6TOL4sGItssAE:system.description.value`
-- **html-tag-sequence** `items:10ZP2Bu3vnCuYMIB:system.description.value`
-- **html-attributes** `items:10ZP2Bu3vnCuYMIB:system.description.value`
 - **html-tag-sequence** `items:w56FIjFafs2rN6iK:system.description.value`
 - **html-attributes** `items:w56FIjFafs2rN6iK:system.description.value`
 - **unchanged-english** `items:PKpftwMAn88gfLi7:name`
 - **unchanged-english** `items:NrHboku9vJO5FGiY:name`
 - **unchanged-english** `items:dghpiMWDSUXtQf6X:name`
 - **unchanged-english** `items:dX8AxCh9o0A9CkT3:name`
-- **html-tag-sequence** `items:tC0kcqZT9HHAO0PD:system.description.value`
-- **html-attributes** `items:tC0kcqZT9HHAO0PD:system.description.value`
-- **html-tag-sequence** `items:g2dWN7PQiMRYWzyk:system.description.value`
-- **html-attributes** `items:g2dWN7PQiMRYWzyk:system.description.value`
-- **html-tag-sequence** `items:Tobce1hexTnDk4sV:system.description.value`
-- **html-attributes** `items:Tobce1hexTnDk4sV:system.description.value`
-- **html-tag-sequence** `items:fbC0Mg1a73wdFbqO:system.description.value`
-- **html-attributes** `items:fbC0Mg1a73wdFbqO:system.description.value`
-- **html-tag-sequence** `items:GJv6WkD7D2J6rP6M:system.description.value`
-- **html-attributes** `items:GJv6WkD7D2J6rP6M:system.description.value`
-- **html-tag-sequence** `items:i4NeNZ30ycwPDHMx:system.description.value`
-- **html-attributes** `items:i4NeNZ30ycwPDHMx:system.description.value`
-- **html-tag-sequence** `items:3gynWO9sN4OLGMWD:system.description.value`
-- **html-attributes** `items:3gynWO9sN4OLGMWD:system.description.value`
-- **html-tag-sequence** `items:OG4nBBydvmfWYXIk:system.description.value`
-- **html-attributes** `items:OG4nBBydvmfWYXIk:system.description.value`
 - **html-tag-sequence** `items:FeouSUPUlUhfgeRp:system.description.value`
 - **html-attributes** `items:FeouSUPUlUhfgeRp:system.description.value`
 - **foundry-reference-count** `items:FeouSUPUlUhfgeRp:system.description.value`
@@ -981,8 +957,6 @@ Total blocking issues: 7540
 - **html-tag-sequence** `items:uHL99JKLUpTKAbz8:system.description.value`
 - **html-attributes** `items:uHL99JKLUpTKAbz8:system.description.value`
 - **foundry-inline-rolls** `items:uHL99JKLUpTKAbz8:system.description.value`
-- **html-tag-sequence** `items:F65ANO66ckP8FDMa:system.description.value`
-- **html-attributes** `items:F65ANO66ckP8FDMa:system.description.value`
 - **english-residual** `items:dG7iFak1YH1nXRpC:system.description.value`
 - **english-residual** `items:ozYrQ5N4s81h35Fa:system.description.value`
 - **english-residual** `items:5Jz5w7XJxgtlsx6K:system.description.value`
@@ -1016,10 +990,6 @@ Total blocking issues: 7540
 - **english-residual** `items:g8DG0jXlvfP3uTtZ:system.description.value`
 - **english-residual** `items:HnJqfKkYXIWo2sp9:system.description.value`
 - **english-residual** `items:luTJgPXN5n0EN7iy:system.description.value`
-- **html-tag-sequence** `items:F0Df164Xv1gWcYt0:system.description.value`
-- **html-attributes** `items:F0Df164Xv1gWcYt0:system.description.value`
-- **html-tag-sequence** `items:QKTyxoO0YDnAsbYe:system.description.value`
-- **html-attributes** `items:QKTyxoO0YDnAsbYe:system.description.value`
 - **extra-entry** `items:Amulet of Proof Against Detection and Location`
 - **extra-entry** `items:Arrows`
 - **extra-entry** `items:Boots of Springing and Striding`
