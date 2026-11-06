@@ -3,9 +3,17 @@ import { walkVisibleFields } from "./visible-fields.mjs";
 export function buildEffectTerms(records) {
   const terms = new Map();
   for (const record of records) {
-    if (!record.source || !record.translation) throw new Error("Effect terms require non-empty source and translation values");
-    if (terms.has(record.source)) throw new Error(`Duplicate effect term: ${record.source}`);
-    terms.set(record.source, record.translation);
+    const values = record.sourceFamily
+      ? (record.levels ?? []).map(level => ({
+          source: `${record.sourceFamily}: ${level}${level === 1 ? "st" : level === 2 ? "nd" : level === 3 ? "rd" : "th"} Level`,
+          translation: `${record.translationFamily}: ${level}° Livello`
+        }))
+      : [record];
+    for (const value of values) {
+      if (!value.source || !value.translation) throw new Error("Effect terms require non-empty source and translation values");
+      if (terms.has(value.source)) throw new Error(`Duplicate effect term: ${value.source}`);
+      terms.set(value.source, value.translation);
+    }
   }
   return terms;
 }

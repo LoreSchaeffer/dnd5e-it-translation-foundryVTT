@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
-import { effectTermOverrides } from "../scripts/lib/effect-terms.mjs";
+import { buildEffectTerms, effectTermOverrides } from "../scripts/lib/effect-terms.mjs";
 
 function record(effects) {
   return { data: { effects } };
@@ -22,4 +22,12 @@ test("leaves unknown and already translated effect fields unchanged", () => {
   const translation = { effects: { effect1: { name: "Controllato" } } };
 
   assert.deepEqual(effectTermOverrides(source, translation, new Map([["Controlled", "Soggetto al Controllo"]])), {});
+});
+
+test("expands configured level families to exact English ordinal names", () => {
+  const terms = buildEffectTerms([{ sourceFamily: "Aid", translationFamily: "Aiuto", levels: [2, 3, 4] }]);
+
+  assert.equal(terms.get("Aid: 2nd Level"), "Aiuto: 2° Livello");
+  assert.equal(terms.get("Aid: 3rd Level"), "Aiuto: 3° Livello");
+  assert.equal(terms.get("Aid: 4th Level"), "Aiuto: 4° Livello");
 });
