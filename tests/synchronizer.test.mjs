@@ -247,6 +247,16 @@ test("rebaseInvariantTokens projects translated text onto an equivalent source H
   );
 });
 
+test("rebaseInvariantTokens removes legacy presentation spans absent from the source skeleton", () => {
+  const source = "<p><em>Source introduction.</em></p><p>Source rule.</p>";
+  const legacy = '<p style="color:red"><em style="font-size:13px">Introduzione italiana.</em></p><p style="color:red"><span style="color:black"><span style="font-size:13px">Regola </span></span><span style="color:black"><span style="font-size:13px">italiana.</span></span></p>';
+
+  assert.equal(
+    rebaseInvariantTokens(source, legacy),
+    "<p><em>Introduzione italiana.</em></p><p>Regola italiana.</p>"
+  );
+});
+
 test("rebaseInvariantTokens restores a missing source reference around its translated label", () => {
   const source = "<p>You can cast @UUID[Compendium.dnd5e.spells.Item.abc]{Mage Armor}.</p>";
   const legacy = "<p>Puoi lanciare armatura magica.</p>";

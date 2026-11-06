@@ -136,6 +136,11 @@ function dropLegacyBreaks(source, translation) {
   return translation.replace(/\s*<br\b[^>]*>\s*/gi, " ");
 }
 
+function dropLegacyPresentationSpans(source, translation) {
+  if (/<span\b/i.test(source)) return translation;
+  return translation.replace(/<\/?span\b[^>]*>/gi, "");
+}
+
 function reshapeLegacyParagraphs(source, translation) {
   const paragraph = /<p\b[^>]*>[\s\S]*?<\/p>/gi;
   const sourceParagraphs = [...source.matchAll(paragraph)];
@@ -283,6 +288,7 @@ export function rebaseInvariantTokens(source, translation, { referenceLabels } =
   translation = translation.replace(/^\s*<p\b[^>]*>\s*Prerequisito:[\s\S]*?<\/p>\s*/i, "");
   translation = dropDuplicatedFormattingPunctuation(translation);
   translation = dropLegacyBreaks(source, translation);
+  translation = dropLegacyPresentationSpans(source, translation);
   translation = dropEmptySpacerParagraphs(source, translation);
   translation = stripLegacySpellHeader(translation);
   const choiceList = reshapeReferenceChoiceList(source, translation, referenceLabels);
