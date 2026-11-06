@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1021,
+      "translated": 1022,
       "missing": 69,
-      "partial": 1301,
+      "partial": 1300,
       "review": 213
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 9270,
-      "missing": 6390,
+      "translated": 9300,
+      "missing": 6360,
       "invariantFailures": 2394,
       "englishResiduals": 135,
       "imperialResiduals": 4
     },
-    "blockingIssues": 8947
+    "blockingIssues": 8917
   },
   "packs": [
     {
@@ -76741,9 +76741,9 @@
       "summary": {
         "documents": {
           "total": 320,
-          "translated": 84,
+          "translated": 85,
           "missing": 0,
-          "partial": 236,
+          "partial": 235,
           "review": 10
         },
         "folders": {
@@ -76755,8 +76755,8 @@
         },
         "fields": {
           "total": 2007,
-          "translated": 1763,
-          "missing": 244,
+          "translated": 1793,
+          "missing": 214,
           "invariantFailures": 406,
           "englishResiduals": 17,
           "imperialResiduals": 2
@@ -79903,141 +79903,6 @@
           "sourcePath": "spells/5th-level/commune-with-nature.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "CjIq8Ed7bu3vVwT1",
-          "name": "Contagion",
-          "fieldPath": "system.activities.WWmYQQAcFBcp9BgI.description.value",
-          "sourcePath": "spells/5th-level/contagion.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "CjIq8Ed7bu3vVwT1",
-          "name": "Contagion",
-          "fieldPath": "effects[sZYUpIcA0Ixip7bo].description",
-          "sourcePath": "spells/5th-level/contagion.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "CjIq8Ed7bu3vVwT1",
-          "name": "Contagion",
-          "fieldPath": "effects[rdL5guwwTuCvTU1v].description",
-          "sourcePath": "spells/5th-level/contagion.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "CjIq8Ed7bu3vVwT1",
-          "name": "Contagion",
-          "fieldPath": "effects[9qsScAIMMLwDDkJl].description",
-          "sourcePath": "spells/5th-level/contagion.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "CjIq8Ed7bu3vVwT1",
-          "name": "Contagion",
-          "fieldPath": "effects[egrhxJgirkl5YnuZ].description",
-          "sourcePath": "spells/5th-level/contagion.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "CjIq8Ed7bu3vVwT1",
-          "name": "Contagion",
-          "fieldPath": "effects[1VXYcPSs43a4CHkf].description",
-          "sourcePath": "spells/5th-level/contagion.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "CjIq8Ed7bu3vVwT1",
-          "name": "Contagion",
-          "fieldPath": "effects[6Ha38CDFwGGbDbQz].description",
-          "sourcePath": "spells/5th-level/contagion.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "CjIq8Ed7bu3vVwT1",
-          "name": "Contagion",
-          "fieldPath": "effects[LhWesCC0aYGqzgk3].description",
-          "sourcePath": "spells/5th-level/contagion.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "CjIq8Ed7bu3vVwT1",
-          "name": "Contagion",
-          "fieldPath": "effects[NVfW1Rp0QTgISmDW].description",
-          "sourcePath": "spells/5th-level/contagion.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "CjIq8Ed7bu3vVwT1",
-          "name": "Contagion",
-          "fieldPath": "effects[i7n9jGZ51Scdwwia].description",
-          "sourcePath": "spells/5th-level/contagion.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "CjIq8Ed7bu3vVwT1",
-          "name": "Contagion",
-          "fieldPath": "effects[hZkALiwlSPABBDSk].description",
-          "sourcePath": "spells/5th-level/contagion.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "CjIq8Ed7bu3vVwT1",
-          "name": "Contagion",
-          "fieldPath": "effects[1VOSXuEvObGjy3nZ].description",
-          "sourcePath": "spells/5th-level/contagion.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "CjIq8Ed7bu3vVwT1",
-          "name": "Contagion",
-          "fieldPath": "effects[S3eSD4rmdbYajX2l].description",
-          "sourcePath": "spells/5th-level/contagion.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "CjIq8Ed7bu3vVwT1",
-          "name": "Contagion",
-          "fieldPath": "effects[GCyWrky8VpY2W8PA].description",
-          "sourcePath": "spells/5th-level/contagion.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "CjIq8Ed7bu3vVwT1",
-          "name": "Contagion",
-          "fieldPath": "effects[nnfr2kBR5ByV6rdT].description",
-          "sourcePath": "spells/5th-level/contagion.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -81794,141 +81659,6 @@
           "id": "B2kbmgbA2WQR00kx",
           "name": "Symbol",
           "fieldPath": "system.materials.value",
-          "sourcePath": "spells/7th-level/symbol.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "B2kbmgbA2WQR00kx",
-          "name": "Symbol",
-          "fieldPath": "system.activities.5RxmzaH8a0F2pe0W.description.value",
-          "sourcePath": "spells/7th-level/symbol.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "B2kbmgbA2WQR00kx",
-          "name": "Symbol",
-          "fieldPath": "system.activities.aQ5gGxhnROMnbUYo.description.value",
-          "sourcePath": "spells/7th-level/symbol.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "B2kbmgbA2WQR00kx",
-          "name": "Symbol",
-          "fieldPath": "system.activities.JpTNQO6B5su2lz7Q.description.value",
-          "sourcePath": "spells/7th-level/symbol.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "B2kbmgbA2WQR00kx",
-          "name": "Symbol",
-          "fieldPath": "system.activities.EbNUoZmq2qyEIE75.description.value",
-          "sourcePath": "spells/7th-level/symbol.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "B2kbmgbA2WQR00kx",
-          "name": "Symbol",
-          "fieldPath": "system.activities.l4wdQCsSrKaSzEnP.description.value",
-          "sourcePath": "spells/7th-level/symbol.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "B2kbmgbA2WQR00kx",
-          "name": "Symbol",
-          "fieldPath": "system.activities.ileq899HQ5YZKEif.description.value",
-          "sourcePath": "spells/7th-level/symbol.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "B2kbmgbA2WQR00kx",
-          "name": "Symbol",
-          "fieldPath": "system.activities.S48Cy0ZHIKduGUUD.description.value",
-          "sourcePath": "spells/7th-level/symbol.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "B2kbmgbA2WQR00kx",
-          "name": "Symbol",
-          "fieldPath": "system.activities.SbxsIIBtx25GNijc.description.value",
-          "sourcePath": "spells/7th-level/symbol.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "B2kbmgbA2WQR00kx",
-          "name": "Symbol",
-          "fieldPath": "effects[wBljD0GOI2rgOZgm].description",
-          "sourcePath": "spells/7th-level/symbol.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "B2kbmgbA2WQR00kx",
-          "name": "Symbol",
-          "fieldPath": "effects[22oHewgna1ZehSSx].description",
-          "sourcePath": "spells/7th-level/symbol.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "B2kbmgbA2WQR00kx",
-          "name": "Symbol",
-          "fieldPath": "effects[1jUvUPVKQ2x66y0d].description",
-          "sourcePath": "spells/7th-level/symbol.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "B2kbmgbA2WQR00kx",
-          "name": "Symbol",
-          "fieldPath": "effects[Cvg6HrXoZJe9uWQQ].description",
-          "sourcePath": "spells/7th-level/symbol.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "B2kbmgbA2WQR00kx",
-          "name": "Symbol",
-          "fieldPath": "effects[fH66SK1HAboC2B5Q].description",
-          "sourcePath": "spells/7th-level/symbol.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "B2kbmgbA2WQR00kx",
-          "name": "Symbol",
-          "fieldPath": "effects[S9Jw89F2ZmaC2lsw].description",
-          "sourcePath": "spells/7th-level/symbol.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "B2kbmgbA2WQR00kx",
-          "name": "Symbol",
-          "fieldPath": "effects[zeCgJ2WL6LphCbJd].description",
           "sourcePath": "spells/7th-level/symbol.yml"
         },
         {

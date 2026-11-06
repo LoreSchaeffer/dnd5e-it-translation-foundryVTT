@@ -983,7 +983,10 @@
           "name": "Lancia"
         },
         "WWmYQQAcFBcp9BgI": {
-          "name": "Tiro Salvezza contro Malattia"
+          "name": "Tiro Salvezza contro Malattia",
+          "description": {
+            "value": "<p>Alla fine di ogni turno del bersaglio, esso deve effettuare un tiro salvezza su Costituzione. Dopo aver fallito tre di questi tiri salvezza, gli effetti della malattia durano per la durata e la creatura smette di effettuare questi tiri. Dopo aver superato tre di questi tiri salvezza, la creatura guarisce dalla malattia e l'incantesimo termina.</p><p>Poiché questo incantesimo induce una malattia naturale nel bersaglio, qualsiasi effetto che rimuova una malattia o ne allevi altrimenti gli effetti si applica a essa.</p>"
+          }
         },
         "JHDzsuyXxSyhdNM6": {
           "name": "Applica Malattia"
@@ -991,46 +994,60 @@
       },
       "effects": {
         "sZYUpIcA0Ixip7bo": {
-          "name": "Malattia Accecante in Incubazione"
+          "name": "Malattia Accecante in Incubazione",
+          "description": "<p>Stai sviluppando la Malattia Accecante. Alla fine di ogni tuo turno devi effettuare un tiro salvezza su Costituzione. Dopo aver fallito tre di questi tiri salvezza, gli effetti della malattia durano per l'intera durata e smetti di effettuare questi tiri. Dopo aver superato tre di questi tiri salvezza, guarisci dalla malattia e l'incantesimo termina.</p><p>Poiché questo incantesimo induce in te una malattia naturale, qualsiasi effetto che rimuova una malattia o ne allevi altrimenti gli effetti si applica a essa.</p>"
         },
         "rdL5guwwTuCvTU1v": {
-          "name": "Febbre Lurida in Incubazione"
+          "name": "Febbre Lurida in Incubazione",
+          "description": "<p>Stai sviluppando la Febbre Lurida. Alla fine di ogni tuo turno devi effettuare un tiro salvezza su Costituzione. Dopo aver fallito tre di questi tiri salvezza, gli effetti della malattia durano per l'intera durata e smetti di effettuare questi tiri. Dopo aver superato tre di questi tiri salvezza, guarisci dalla malattia e l'incantesimo termina.</p><p>Poiché questo incantesimo induce in te una malattia naturale, qualsiasi effetto che rimuova una malattia o ne allevi altrimenti gli effetti si applica a essa.</p>"
         },
         "9qsScAIMMLwDDkJl": {
-          "name": "Marciume della Carne in Incubazione"
+          "name": "Marciume della Carne in Incubazione",
+          "description": "<p>Stai sviluppando il Marciume della Carne. Alla fine di ogni tuo turno devi effettuare un tiro salvezza su Costituzione. Dopo aver fallito tre di questi tiri salvezza, gli effetti della malattia durano per l'intera durata e smetti di effettuare questi tiri. Dopo aver superato tre di questi tiri salvezza, guarisci dalla malattia e l'incantesimo termina.</p><p>Poiché questo incantesimo induce in te una malattia naturale, qualsiasi effetto che rimuova una malattia o ne allevi altrimenti gli effetti si applica a essa.</p>"
         },
         "egrhxJgirkl5YnuZ": {
-          "name": "Fuoco Mentale in Incubazione"
+          "name": "Fuoco Mentale in Incubazione",
+          "description": "<p>Stai sviluppando il Fuoco Mentale. Alla fine di ogni tuo turno devi effettuare un tiro salvezza su Costituzione. Dopo aver fallito tre di questi tiri salvezza, gli effetti della malattia durano per l'intera durata e smetti di effettuare questi tiri. Dopo aver superato tre di questi tiri salvezza, guarisci dalla malattia e l'incantesimo termina.</p><p>Poiché questo incantesimo induce in te una malattia naturale, qualsiasi effetto che rimuova una malattia o ne allevi altrimenti gli effetti si applica a essa.</p>"
         },
         "1VXYcPSs43a4CHkf": {
-          "name": "Convulsioni in Incubazione"
+          "name": "Convulsioni in Incubazione",
+          "description": "<p>Stai sviluppando le Convulsioni. Alla fine di ogni tuo turno devi effettuare un tiro salvezza su Costituzione. Dopo aver fallito tre di questi tiri salvezza, gli effetti della malattia durano per l'intera durata e smetti di effettuare questi tiri. Dopo aver superato tre di questi tiri salvezza, guarisci dalla malattia e l'incantesimo termina.</p><p>Poiché questo incantesimo induce in te una malattia naturale, qualsiasi effetto che rimuova una malattia o ne allevi altrimenti gli effetti si applica a essa.</p>"
         },
         "6Ha38CDFwGGbDbQz": {
-          "name": "Morbo Viscido in Incubazione"
+          "name": "Morbo Viscido in Incubazione",
+          "description": "<p>Stai sviluppando il Morbo Viscido. Alla fine di ogni tuo turno devi effettuare un tiro salvezza su Costituzione. Dopo aver fallito tre di questi tiri salvezza, gli effetti della malattia durano per l'intera durata e smetti di effettuare questi tiri. Dopo aver superato tre di questi tiri salvezza, guarisci dalla malattia e l'incantesimo termina.</p><p>Poiché questo incantesimo induce in te una malattia naturale, qualsiasi effetto che rimuova una malattia o ne allevi altrimenti gli effetti si applica a essa.</p>"
         },
         "LhWesCC0aYGqzgk3": {
-          "name": "Tiro Salvezza contro Contagio Fallito"
+          "name": "Tiro Salvezza contro Contagio Fallito",
+          "description": "<p>Hai fallito un tiro salvezza contro l'incantesimo @UUID[Compendium.dnd5e.spells.Item.CjIq8Ed7bu3vVwT1]{Contagio}.</p>"
         },
         "NVfW1Rp0QTgISmDW": {
-          "name": "Tiro Salvezza contro Contagio Superato"
+          "name": "Tiro Salvezza contro Contagio Superato",
+          "description": "<p>Hai superato un tiro salvezza contro l'incantesimo @UUID[Compendium.dnd5e.spells.Item.CjIq8Ed7bu3vVwT1]{Contagio}.</p>"
         },
         "i7n9jGZ51Scdwwia": {
-          "name": "Malattia Accecante"
+          "name": "Malattia Accecante",
+          "description": "<p>Il dolore attanaglia la tua mente e i tuoi occhi diventano bianco latte. Disponi di svantaggio alle prove di Saggezza e ai tiri salvezza su Saggezza e sei &amp;reference[blinded apply=false].</p>"
         },
         "hZkALiwlSPABBDSk": {
-          "name": "Febbre Lurida"
+          "name": "Febbre Lurida",
+          "description": "<p>Una febbre violenta pervade il tuo corpo. Disponi di svantaggio alle prove di Forza, ai tiri salvezza su Forza e ai tiri per colpire che usano Forza.</p>"
         },
         "1VOSXuEvObGjy3nZ": {
-          "name": "Marciume della Carne"
+          "name": "Marciume della Carne",
+          "description": "<p>La tua carne marcisce. Disponi di svantaggio alle prove di Carisma e sei vulnerabile a tutti i danni.</p>"
         },
         "S3eSD4rmdbYajX2l": {
-          "name": "Fuoco Mentale"
+          "name": "Fuoco Mentale",
+          "description": "<p>La tua mente è febbricitante. Disponi di svantaggio alle prove di Intelligenza e ai tiri salvezza su Intelligenza e, durante il combattimento, ti comporti come se fossi sotto gli effetti dell'incantesimo @UUID[Compendium.dnd5e.spells.Item.9hQXdMSmerkTsHDe]{Confusione}.</p>"
         },
         "GCyWrky8VpY2W8PA": {
-          "name": "Convulsioni"
+          "name": "Convulsioni",
+          "description": "<p>Sei sopraffatto dai tremori. Disponi di svantaggio alle prove di Destrezza, ai tiri salvezza su Destrezza e ai tiri per colpire che usano Destrezza.</p>"
         },
         "nnfr2kBR5ByV6rdT": {
-          "name": "Morbo Viscido"
+          "name": "Morbo Viscido",
+          "description": "<p>Inizi a sanguinare in modo incontrollabile. Disponi di svantaggio alle prove di Costituzione e ai tiri salvezza su Costituzione. Inoltre, ogni volta che subisci danni, sei &amp;reference[stunned] fino alla fine del tuo turno successivo.</p>"
         }
       }
     },
@@ -4410,25 +4427,32 @@
       "materials": "Mercury, phosphorus, and powdered diamond and opal with a total value of at least 1,000 gp, which the spell consumes",
       "effects": {
         "22oHewgna1ZehSSx": {
-          "name": "Paura"
+          "name": "Paura",
+          "description": "<p>Sei &amp;Reference[Frightened apply=false] per la durata. Finché sei spaventato, lasci cadere qualsiasi cosa impugni e devi allontanarti di almeno 9 metri dal glifo in ogni tuo turno, se puoi farlo.</p>"
         },
         "S9Jw89F2ZmaC2lsw": {
-          "name": "Sonno"
+          "name": "Sonno",
+          "description": "<p>Cadi &amp;reference[unconcious apply=false] per la durata. Ti svegli se subisci danni o se qualcuno usa un'azione per scuoterti o schiaffeggiarti fino a svegliarti.</p>"
         },
         "zeCgJ2WL6LphCbJd": {
-          "name": "Stordito"
+          "name": "Stordito",
+          "description": "<p>Sei &amp;reference[stunned apply=false] per la durata.</p>"
         },
         "Cvg6HrXoZJe9uWQQ": {
-          "name": "Follia"
+          "name": "Follia",
+          "description": "<p>Sei stato reso folle per la durata. Non puoi effettuare azioni, non puoi comprendere ciò che dicono le altre creature, non puoi leggere e parli soltanto in modo incomprensibile. Il DM controlla il tuo movimento, che è imprevedibile.</p>"
         },
         "wBljD0GOI2rgOZgm": {
-          "name": "Discordia"
+          "name": "Discordia",
+          "description": "<p>Litighi e discuti con le altre creature per la durata. Durante questo periodo sei incapace di comunicare in modo comprensibile e disponi di svantaggio ai tiri per colpire e alle prove di caratteristica.</p>"
         },
         "1jUvUPVKQ2x66y0d": {
-          "name": "Disperazione"
+          "name": "Disperazione",
+          "description": "<p>Sei sopraffatto dalla disperazione per la durata. Durante questo periodo non puoi attaccare né bersagliare alcuna creatura con capacità, incantesimi o altri effetti magici nocivi.</p>"
         },
         "fH66SK1HAboC2B5Q": {
-          "name": "Dolore"
+          "name": "Dolore",
+          "description": "<p>Sei &amp;reference[incapacitated apply=false] a causa di un dolore lancinante per la durata.</p>"
         }
       },
       "activities": {
@@ -4436,28 +4460,52 @@
           "name": "Iscrivi Glifo"
         },
         "5RxmzaH8a0F2pe0W": {
-          "name": "Effetto del Glifo: Morte"
+          "name": "Effetto del Glifo: Morte",
+          "description": {
+            "value": "<p>Una volta attivato, il glifo risplende, riempiendo una sfera con raggio di 18 metri di &amp;reference[dim light] per 10 minuti, dopodiché l'incantesimo termina. Ogni creatura nella sfera quando il glifo si attiva è bersagliata dal suo effetto, così come una creatura che entra nella sfera per la prima volta in un turno o che termina lì il proprio turno.</p><h4>Morte</h4><p>Ogni bersaglio deve effettuare un tiro salvezza su Costituzione: se lo fallisce subisce 10d10 danni necrotici, mentre se lo supera subisce la metà di quei danni.</p>"
+          }
         },
         "aQ5gGxhnROMnbUYo": {
-          "name": "Effetto del Glifo: Discordia"
+          "name": "Effetto del Glifo: Discordia",
+          "description": {
+            "value": "<p>Una volta attivato, il glifo risplende, riempiendo una sfera con raggio di 18 metri di &amp;reference[dim light] per 10 minuti, dopodiché l'incantesimo termina. Ogni creatura nella sfera quando il glifo si attiva è bersagliata dal suo effetto, così come una creatura che entra nella sfera per la prima volta in un turno o che termina lì il proprio turno.</p><h4>Discordia</h4><p>Ogni bersaglio deve effettuare un tiro salvezza su Costituzione. Se lo fallisce, litiga e discute con le altre creature per [[lookup @labels.duration activity=aQ5gGxhnROMnbUYo]]. Durante questo periodo è incapace di comunicare in modo comprensibile e dispone di svantaggio ai tiri per colpire e alle prove di caratteristica.</p>"
+          }
         },
         "JpTNQO6B5su2lz7Q": {
-          "name": "Effetto del Glifo: Paura"
+          "name": "Effetto del Glifo: Paura",
+          "description": {
+            "value": "<p>Una volta attivato, il glifo risplende, riempiendo una sfera con raggio di 18 metri di &amp;reference[dim light] per 10 minuti, dopodiché l'incantesimo termina. Ogni creatura nella sfera quando il glifo si attiva è bersagliata dal suo effetto, così come una creatura che entra nella sfera per la prima volta in un turno o che termina lì il proprio turno.</p><h4>Paura</h4><p>Ogni bersaglio deve effettuare un tiro salvezza su Saggezza e, se lo fallisce, diventa &amp;Reference[Frightened] per [[lookup @labels.duration activity=JpTNQO6B5su2lz7Q]]. Finché è Spaventato, il bersaglio lascia cadere qualsiasi cosa impugni e deve allontanarsi di almeno 9 metri dal glifo in ogni suo turno, se può farlo.</p>"
+          }
         },
         "EbNUoZmq2qyEIE75": {
-          "name": "Effetto del Glifo: Disperazione"
+          "name": "Effetto del Glifo: Disperazione",
+          "description": {
+            "value": "<p>Una volta attivato, il glifo risplende, riempiendo una sfera con raggio di 18 metri di &amp;reference[dim light] per 10 minuti, dopodiché l'incantesimo termina. Ogni creatura nella sfera quando il glifo si attiva è bersagliata dal suo effetto, così come una creatura che entra nella sfera per la prima volta in un turno o che termina lì il proprio turno.</p><h4>Disperazione</h4><p>Ogni bersaglio deve effettuare un tiro salvezza su Carisma. Se lo fallisce, è sopraffatto dalla disperazione per [[lookup @labels.duration activity=EbNUoZmq2qyEIE75]]. Durante questo periodo non può attaccare né bersagliare alcuna creatura con capacità, incantesimi o altri effetti magici nocivi.</p>"
+          }
         },
         "l4wdQCsSrKaSzEnP": {
-          "name": "Effetto del Glifo: Follia"
+          "name": "Effetto del Glifo: Follia",
+          "description": {
+            "value": "<p>Una volta attivato, il glifo risplende, riempiendo una sfera con raggio di 18 metri di &amp;reference[dim light] per 10 minuti, dopodiché l'incantesimo termina. Ogni creatura nella sfera quando il glifo si attiva è bersagliata dal suo effetto, così come una creatura che entra nella sfera per la prima volta in un turno o che termina lì il proprio turno.</p><h4>Follia</h4><p>Ogni bersaglio deve effettuare un tiro salvezza su Intelligenza. Se lo fallisce, impazzisce per [[lookup @labels.duration activity=l4wdQCsSrKaSzEnP]]. Una creatura folle non può effettuare azioni, non può comprendere ciò che dicono le altre creature, non può leggere e parla soltanto in modo incomprensibile. Il DM ne controlla il movimento, che è imprevedibile.</p>"
+          }
         },
         "ileq899HQ5YZKEif": {
-          "name": "Effetto del Glifo: Dolore"
+          "name": "Effetto del Glifo: Dolore",
+          "description": {
+            "value": "<p>Una volta attivato, il glifo risplende, riempiendo una sfera con raggio di 18 metri di &amp;reference[dim light] per 10 minuti, dopodiché l'incantesimo termina. Ogni creatura nella sfera quando il glifo si attiva è bersagliata dal suo effetto, così come una creatura che entra nella sfera per la prima volta in un turno o che termina lì il proprio turno.</p><h4>Dolore</h4><p>Ogni bersaglio deve effettuare un tiro salvezza su Costituzione e, se lo fallisce, diventa &amp;Reference[Incapacitated] a causa di un dolore lancinante per [[lookup @labels.duration activity=ileq899HQ5YZKEif]].</p>"
+          }
         },
         "S48Cy0ZHIKduGUUD": {
-          "name": "Effetto del Glifo: Sonno"
+          "name": "Effetto del Glifo: Sonno",
+          "description": {
+            "value": "<p>Una volta attivato, il glifo risplende, riempiendo una sfera con raggio di 18 metri di &amp;reference[dim light] per 10 minuti, dopodiché l'incantesimo termina. Ogni creatura nella sfera quando il glifo si attiva è bersagliata dal suo effetto, così come una creatura che entra nella sfera per la prima volta in un turno o che termina lì il proprio turno.</p><h4>Sonno</h4><p>Ogni bersaglio deve effettuare un tiro salvezza su Saggezza e, se lo fallisce, cade &amp;Reference[Unconscious] per [[lookup @labels.duration activity=S48Cy0ZHIKduGUUD]]. Una creatura si sveglia se subisce danni o se qualcuno usa un'azione per scuoterla o schiaffeggiarla fino a svegliarla.</p>"
+          }
         },
         "SbxsIIBtx25GNijc": {
-          "name": "Effetto del Glifo: Stordimento"
+          "name": "Effetto del Glifo: Stordimento",
+          "description": {
+            "value": "<p>Una volta attivato, il glifo risplende, riempiendo una sfera con raggio di 18 metri di &amp;reference[dim light] per 10 minuti, dopodiché l'incantesimo termina. Ogni creatura nella sfera quando il glifo si attiva è bersagliata dal suo effetto, così come una creatura che entra nella sfera per la prima volta in un turno o che termina lì il proprio turno.</p><h4>Stordimento</h4><p>Ogni bersaglio deve effettuare un tiro salvezza su Saggezza e, se lo fallisce, diventa &amp;Reference[Stunned] per [[lookup @labels.duration activity=SbxsIIBtx25GNijc]].</p>"
+          }
         }
       }
     },
