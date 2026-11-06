@@ -1695,6 +1695,14 @@
         },
         {
           "pack": "spells",
+          "id": "E4NXux0RHvME1XgP",
+          "name": "Create Undead",
+          "sourcePath": "spells/6th-level/create-undead.yml",
+          "lookupKey": "Create Undead",
+          "matchedLookupKey": "Create Undead"
+        },
+        {
+          "pack": "spells",
           "id": "HBHbOGKNVVprSlwn",
           "name": "Disintegrate",
           "sourcePath": "spells/6th-level/disintegrate.yml",
@@ -1967,6 +1975,14 @@
         },
         {
           "pack": "spells",
+          "id": "eGMhwmuleAM46C6L",
+          "name": "Prismatic Spray",
+          "sourcePath": "spells/7th-level/prismatic-spray.yml",
+          "lookupKey": "Prismatic Spray",
+          "matchedLookupKey": "Prismatic Spray"
+        },
+        {
+          "pack": "spells",
           "id": "ePhRKHXRE7l1sEoQ",
           "name": "Project Image",
           "sourcePath": "spells/7th-level/project-image.yml",
@@ -2068,6 +2084,14 @@
           "sourcePath": "spells/8th-level/dominate-monster.yml",
           "lookupKey": "Dominate Monster",
           "matchedLookupKey": "Dominate Monster"
+        },
+        {
+          "pack": "spells",
+          "id": "x5JNBSyIBBZsjcGT",
+          "name": "Earthquake",
+          "sourcePath": "spells/8th-level/earthquake.yml",
+          "lookupKey": "Earthquake",
+          "matchedLookupKey": "Earthquake"
         },
         {
           "pack": "spells",
@@ -2655,41 +2679,6 @@
         },
         {
           "pack": "spells",
-          "id": "E4NXux0RHvME1XgP",
-          "name": "Create Undead",
-          "sourcePath": "spells/6th-level/create-undead.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Create Undead",
-          "matchedLookupKey": "Create Undead",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "E4NXux0RHvME1XgP",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "E4NXux0RHvME1XgP",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "spells",
-              "id": "E4NXux0RHvME1XgP",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
           "id": "yw0tYQkOMCgKZ8Ur",
           "name": "Guards and Wards",
           "sourcePath": "spells/6th-level/guards-and-wards.yml",
@@ -2760,33 +2749,6 @@
         },
         {
           "pack": "spells",
-          "id": "eGMhwmuleAM46C6L",
-          "name": "Prismatic Spray",
-          "sourcePath": "spells/7th-level/prismatic-spray.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Prismatic Spray",
-          "matchedLookupKey": "Prismatic Spray",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "eGMhwmuleAM46C6L",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "eGMhwmuleAM46C6L",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
           "id": "B2kbmgbA2WQR00kx",
           "name": "Symbol",
           "sourcePath": "spells/7th-level/symbol.yml",
@@ -2851,33 +2813,6 @@
               "message": "HTML attributes differ from source",
               "pack": "spells",
               "id": "L4J89JXqbKs6puEV",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "x5JNBSyIBBZsjcGT",
-          "name": "Earthquake",
-          "sourcePath": "spells/8th-level/earthquake.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Earthquake",
-          "matchedLookupKey": "Earthquake",
-          "diagnostics": [
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "x5JNBSyIBBZsjcGT",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "spells",
-              "id": "x5JNBSyIBBZsjcGT",
               "fieldPath": "system.description.value"
             }
           ]

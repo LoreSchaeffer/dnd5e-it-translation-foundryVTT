@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1240,
+      "translated": 1243,
       "missing": 69,
-      "partial": 1082,
+      "partial": 1079,
       "review": 203
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 2034,
+      "invariantFailures": 2027,
       "englishResiduals": 118,
       "imperialResiduals": 2
     },
-    "blockingIssues": 8324
+    "blockingIssues": 8317
   },
   "packs": [
     {
@@ -76741,9 +76741,9 @@
       "summary": {
         "documents": {
           "total": 320,
-          "translated": 303,
+          "translated": 306,
           "missing": 0,
-          "partial": 17,
+          "partial": 14,
           "review": 0
         },
         "folders": {
@@ -76757,7 +76757,7 @@
           "total": 2007,
           "translated": 2007,
           "missing": 0,
-          "invariantFailures": 46,
+          "invariantFailures": 39,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
@@ -76948,36 +76948,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "spells",
-          "id": "E4NXux0RHvME1XgP",
-          "fieldPath": "system.description.value",
-          "name": "Create Undead",
-          "sourcePath": "spells/6th-level/create-undead.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "E4NXux0RHvME1XgP",
-          "fieldPath": "system.description.value",
-          "name": "Create Undead",
-          "sourcePath": "spells/6th-level/create-undead.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "spells",
-          "id": "E4NXux0RHvME1XgP",
-          "fieldPath": "system.description.value",
-          "name": "Create Undead",
-          "sourcePath": "spells/6th-level/create-undead.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
           "id": "yw0tYQkOMCgKZ8Ur",
           "fieldPath": "system.description.value",
           "name": "Guards and Wards",
@@ -77032,26 +77002,6 @@
           "fieldPath": "system.description.value",
           "name": "Magic Jar",
           "sourcePath": "spells/6th-level/magic-jar.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "eGMhwmuleAM46C6L",
-          "fieldPath": "system.description.value",
-          "name": "Prismatic Spray",
-          "sourcePath": "spells/7th-level/prismatic-spray.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "eGMhwmuleAM46C6L",
-          "fieldPath": "system.description.value",
-          "name": "Prismatic Spray",
-          "sourcePath": "spells/7th-level/prismatic-spray.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -77112,26 +77062,6 @@
           "fieldPath": "system.description.value",
           "name": "Teleport",
           "sourcePath": "spells/7th-level/teleport.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "x5JNBSyIBBZsjcGT",
-          "fieldPath": "system.description.value",
-          "name": "Earthquake",
-          "sourcePath": "spells/8th-level/earthquake.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "spells",
-          "id": "x5JNBSyIBBZsjcGT",
-          "fieldPath": "system.description.value",
-          "name": "Earthquake",
-          "sourcePath": "spells/8th-level/earthquake.yml"
         },
         {
           "code": "html-tag-sequence",

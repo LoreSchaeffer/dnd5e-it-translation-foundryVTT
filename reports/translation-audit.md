@@ -12,12 +12,12 @@
 | monsters | 337 | 2 | 5 | 330 | 15 | 4810 | 5045 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
 | rules | 20 | 1 | 3 | 16 | 0 | 738 | 695 |
-| spells | 320 | 303 | 0 | 17 | 0 | 0 | 46 |
+| spells | 320 | 306 | 0 | 14 | 0 | 0 | 39 |
 | subclasses | 12 | 12 | 0 | 0 | 0 | 0 | 0 |
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 8324
+Total blocking issues: 8317
 
 ## Issues
 
@@ -8317,25 +8317,18 @@ Total blocking issues: 8324
 - **html-tag-sequence** `spells:r3243JU4AyQJyfX4:system.description.value`
 - **html-attributes** `spells:r3243JU4AyQJyfX4:system.description.value`
 - **foundry-reference-count** `spells:r3243JU4AyQJyfX4:system.description.value`
-- **html-tag-sequence** `spells:E4NXux0RHvME1XgP:system.description.value`
-- **html-attributes** `spells:E4NXux0RHvME1XgP:system.description.value`
-- **foundry-reference-count** `spells:E4NXux0RHvME1XgP:system.description.value`
 - **html-tag-sequence** `spells:yw0tYQkOMCgKZ8Ur:system.description.value`
 - **html-attributes** `spells:yw0tYQkOMCgKZ8Ur:system.description.value`
 - **foundry-reference-count** `spells:yw0tYQkOMCgKZ8Ur:system.description.value`
 - **html-tag-sequence** `spells:ej6wyY4G1gOcb1U6:system.description.value`
 - **html-attributes** `spells:ej6wyY4G1gOcb1U6:system.description.value`
 - **foundry-reference-count** `spells:ej6wyY4G1gOcb1U6:system.description.value`
-- **html-tag-sequence** `spells:eGMhwmuleAM46C6L:system.description.value`
-- **html-attributes** `spells:eGMhwmuleAM46C6L:system.description.value`
 - **html-tag-sequence** `spells:B2kbmgbA2WQR00kx:system.description.value`
 - **html-attributes** `spells:B2kbmgbA2WQR00kx:system.description.value`
 - **foundry-inline-rolls** `spells:B2kbmgbA2WQR00kx:system.description.value`
 - **foundry-data-references** `spells:B2kbmgbA2WQR00kx:system.description.value`
 - **html-tag-sequence** `spells:L4J89JXqbKs6puEV:system.description.value`
 - **html-attributes** `spells:L4J89JXqbKs6puEV:system.description.value`
-- **html-attributes** `spells:x5JNBSyIBBZsjcGT:system.description.value`
-- **foundry-inline-rolls** `spells:x5JNBSyIBBZsjcGT:system.description.value`
 - **html-tag-sequence** `spells:ZVnL9L8v1KC9TBF4:system.description.value`
 - **html-attributes** `spells:ZVnL9L8v1KC9TBF4:system.description.value`
 - **foundry-reference-count** `spells:ZVnL9L8v1KC9TBF4:system.description.value`
