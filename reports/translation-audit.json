@@ -3,10 +3,10 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1731,
+      "translated": 1739,
       "missing": 69,
-      "partial": 591,
-      "review": 78
+      "partial": 583,
+      "review": 70
     },
     "folders": {
       "total": 120,
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 1059,
-      "englishResiduals": 80,
+      "invariantFailures": 1056,
+      "englishResiduals": 72,
       "imperialResiduals": 0
     },
-    "blockingIssues": 7222
+    "blockingIssues": 7211
   },
   "packs": [
     {
@@ -5317,10 +5317,10 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 843,
+          "translated": 851,
           "missing": 0,
-          "partial": 42,
-          "review": 8
+          "partial": 34,
+          "review": 0
         },
         "folders": {
           "total": 17,
@@ -5333,8 +5333,8 @@
           "total": 2227,
           "translated": 2227,
           "missing": 0,
-          "invariantFailures": 112,
-          "englishResiduals": 8,
+          "invariantFailures": 109,
+          "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
@@ -5458,39 +5458,6 @@
           "fieldPath": "system.description.value",
           "name": "Crystal",
           "sourcePath": "items/spellcasting-focus/crystal.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "Questo talismano sferico funge da focus per da Incantatore, aiutando il praticante a canalizzare energie arcane, primarie o divine. Focus da Incantatore. An arcane focus is a special item designed to channel the power of arcane spells. Un mago, uno stregone o un warlock può usare questo oggetto come focus da incantatore, usandolo al posto di qualsiasi componente materiale che non elenca un costo.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "tH5Rn0JVRG1zdmPa",
-          "name": "Orb",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/spellcasting-focus/orb.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Totem",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "PGL6aaM0wE5h0VN5",
-          "name": "Totem",
-          "fieldPath": "name",
-          "sourcePath": "items/spellcasting-focus/totem.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Dulcimer",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "NtdDkjmpdIMiX7I2",
-          "name": "Dulcimer",
-          "fieldPath": "name",
-          "sourcePath": "items/tool/dulcimer.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -5967,47 +5934,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "items",
-          "id": "e3XQygrXkzNvkDGF",
-          "fieldPath": "system.description.value",
-          "name": "Marvelous Pigments",
-          "sourcePath": "items/trinket/marvelous-pigments.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "e3XQygrXkzNvkDGF",
-          "fieldPath": "system.description.value",
-          "name": "Marvelous Pigments",
-          "sourcePath": "items/trinket/marvelous-pigments.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "items",
-          "id": "e3XQygrXkzNvkDGF",
-          "fieldPath": "system.description.value",
-          "name": "Marvelous Pigments",
-          "sourcePath": "items/trinket/marvelous-pigments.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "Oggetto meraviglioso Questi pigmenti, solitamente reperibili in 1d4 vasetti custoditi all'interno di un’elegante scatola di legno e corredati di un pennello (per un peso totale di 0,5 kg), consentono di creare oggetti tridimensionali dipingendoli in due dimensioni. La pittura fluisce dal pennello e forma l’oggetto desiderato mentre il personaggio si concentra sulla sua immagine. Ogni vasetto di pittura può coprire una superficie di 90 metri quadrati e consente al personaggio di creare oggetti inanimati o elementi del terreno (porte, fosse, fiori, alberi, celle,stanze o armi) per un volume massimo pari a 10.000 cubi con spigolo di 30 cm. Per coprire un’area di 9 metri quadrati sono necessari 10 minuti di tempo. When you complete the painting, the object or terrain feature depicted becomes a real, nonmagical object. Thus, painting a door on a wall creates an actual door that can be opened to whatever is beyond. Painting a pit on a floor creates a real pit, and its depth counts against the total area of objects you create. Quando il personaggio ha completato il dipinto, l’oggetto o l'elemento del terrenodiventa un oggetto comune reale. Di conseguenza, se i il personaggio dipinge una porta su un muro, crea una vera porta che dà accesso a ciò che si trova dall’altra parte e, se dipinge una fossa sul pavimento, crea una fossa vera e propria, la cui profondità conta al fine di determinare l’area totale di oggetti che il personaggio può creare. Nulla di ciò che viene creato tramite i pigmenti può avere un valore superiore a 25 mo. Se il personaggio dipinge un oggetto di valore superiore (come un diamante o un cumulo d’oro), quell'oggetto appare autentico, ma un esame accurato rivelerà che è composto di pasta, d’osso o di qualche altro materiale privo di valore. Se viene dipinta una forma di energia come il fuoco o il fulmine, l’energia compare, ma si dissipa non appena il personaggio ha finito di dipingerla, senza infliggere alcun danno.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "e3XQygrXkzNvkDGF",
-          "name": "Marvelous Pigments",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/trinket/marvelous-pigments.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
           "id": "lTfo6OVvAY2iJ4oq",
           "fieldPath": "system.description.value",
           "name": "Silver Horn of Valhalla",
@@ -6162,50 +6088,6 @@
           "fieldPath": "system.description.value",
           "name": "Mace of Smiting",
           "sourcePath": "items/weapon/mace-of-smiting.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Morningstar +1",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "PKpftwMAn88gfLi7",
-          "name": "Morningstar +1",
-          "fieldPath": "name",
-          "sourcePath": "items/weapon/morningstar-1.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Morningstar +2",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "NrHboku9vJO5FGiY",
-          "name": "Morningstar +2",
-          "fieldPath": "name",
-          "sourcePath": "items/weapon/morningstar-2.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Morningstar +3",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "dghpiMWDSUXtQf6X",
-          "name": "Morningstar +3",
-          "fieldPath": "name",
-          "sourcePath": "items/weapon/morningstar-3.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Morningstar",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "dX8AxCh9o0A9CkT3",
-          "name": "Morningstar",
-          "fieldPath": "name",
-          "sourcePath": "items/weapon/morningstar.yml"
         },
         {
           "code": "html-tag-sequence",

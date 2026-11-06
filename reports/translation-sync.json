@@ -4399,6 +4399,14 @@
         },
         {
           "pack": "items",
+          "id": "e3XQygrXkzNvkDGF",
+          "name": "Marvelous Pigments",
+          "sourcePath": "items/trinket/marvelous-pigments.yml",
+          "lookupKey": "Marvelous Pigments",
+          "matchedLookupKey": "Marvelous Pigments"
+        },
+        {
+          "pack": "items",
           "id": "hf5j1meGsA33HkUj",
           "name": "Mirror of Life Trapping",
           "sourcePath": "items/trinket/mirror-of-life-trapping.yml",
@@ -7474,41 +7482,6 @@
               "message": "Foundry reference count differs from source",
               "pack": "items",
               "id": "UxkP6FvDzPbsIY6o",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "e3XQygrXkzNvkDGF",
-          "name": "Marvelous Pigments",
-          "sourcePath": "items/trinket/marvelous-pigments.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Marvelous Pigments",
-          "matchedLookupKey": "Marvelous Pigments",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "e3XQygrXkzNvkDGF",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "e3XQygrXkzNvkDGF",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "e3XQygrXkzNvkDGF",
               "fieldPath": "system.description.value"
             }
           ]
