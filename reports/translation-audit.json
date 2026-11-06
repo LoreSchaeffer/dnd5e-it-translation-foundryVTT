@@ -3,10 +3,10 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1273,
+      "translated": 1355,
       "missing": 69,
-      "partial": 1049,
-      "review": 203
+      "partial": 967,
+      "review": 121
     },
     "folders": {
       "total": 120,
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 1952,
+      "invariantFailures": 1906,
       "englishResiduals": 118,
       "imperialResiduals": 2
     },
-    "blockingIssues": 8242
+    "blockingIssues": 8114
   },
   "packs": [
     {
@@ -5317,10 +5317,10 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 385,
+          "translated": 467,
           "missing": 0,
-          "partial": 500,
-          "review": 133
+          "partial": 418,
+          "review": 51
         },
         "folders": {
           "total": 17,
@@ -5333,7 +5333,7 @@
           "total": 2227,
           "translated": 2227,
           "missing": 0,
-          "invariantFailures": 1005,
+          "invariantFailures": 959,
           "englishResiduals": 46,
           "imperialResiduals": 2
         }
@@ -6350,14 +6350,6 @@
           "sourcePath": "items/armor/studded-leather-armor-of-resistance.yml"
         },
         {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "g8fQZ1WyTz2bTtvA",
-          "name": "Alms Box",
-          "sourcePath": "items/container/alms-box/_container.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -6508,14 +6500,6 @@
           "sourcePath": "items/equipment/cloak-of-the-bat.yml"
         },
         {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "E2h6sEe6FU2tnU96",
-          "name": "Costume Clothes",
-          "sourcePath": "items/equipment/costume-clothes.yml"
-        },
-        {
           "code": "foundry-references",
           "severity": "blocking",
           "message": "Foundry reference targets or order differ from source",
@@ -6524,14 +6508,6 @@
           "fieldPath": "system.description.value",
           "name": "Eyes of Charming",
           "sourcePath": "items/equipment/eyes-of-charming.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "3OXueEpvDDCVfGFA",
-          "name": "Fine Clothes",
-          "sourcePath": "items/equipment/fine-clothes.yml"
         },
         {
           "code": "foundry-references",
@@ -6817,194 +6793,6 @@
           "code": "ambiguous-name",
           "severity": "blocking",
           "pack": "items",
-          "id": "irtqrzaUCeshmTZp",
-          "name": "Vestments",
-          "sourcePath": "items/equipment/vestments.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "79zrBwqEp2MCJ1Bl",
-          "name": "Ball Bearings",
-          "sourcePath": "items/equipment-packs/burglars-pack/ball-bearings.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "79zrBwqEp2MCJ1Bl",
-          "fieldPath": "system.description.value",
-          "name": "Ball Bearings",
-          "sourcePath": "items/equipment-packs/burglars-pack/ball-bearings.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "79zrBwqEp2MCJ1Bl",
-          "fieldPath": "system.description.value",
-          "name": "Ball Bearings",
-          "sourcePath": "items/equipment-packs/burglars-pack/ball-bearings.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "KyW8s4pCgPAkgTXI",
-          "name": "Bell",
-          "sourcePath": "items/equipment-packs/burglars-pack/bell.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "CNVsvqfTbtcoHiEo",
-          "name": "Candle",
-          "sourcePath": "items/equipment-packs/burglars-pack/candle.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "CNVsvqfTbtcoHiEo",
-          "fieldPath": "system.description.value",
-          "name": "Candle",
-          "sourcePath": "items/equipment-packs/burglars-pack/candle.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "CNVsvqfTbtcoHiEo",
-          "fieldPath": "system.description.value",
-          "name": "Candle",
-          "sourcePath": "items/equipment-packs/burglars-pack/candle.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "yUGNrsXMfsUKwsUg",
-          "name": "Crowbar",
-          "sourcePath": "items/equipment-packs/burglars-pack/crowbar.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "yUGNrsXMfsUKwsUg",
-          "fieldPath": "system.description.value",
-          "name": "Crowbar",
-          "sourcePath": "items/equipment-packs/burglars-pack/crowbar.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "yUGNrsXMfsUKwsUg",
-          "fieldPath": "system.description.value",
-          "name": "Crowbar",
-          "sourcePath": "items/equipment-packs/burglars-pack/crowbar.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "nmuGH3OKdoMOwJqj",
-          "name": "Hammer",
-          "sourcePath": "items/equipment-packs/burglars-pack/hammer.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "oRrNK2H2vcN4Kp74",
-          "name": "Hempen Rope (50 ft.)",
-          "sourcePath": "items/equipment-packs/burglars-pack/hempen-rope-50-ft.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "oRrNK2H2vcN4Kp74",
-          "fieldPath": "system.description.value",
-          "name": "Hempen Rope (50 ft.)",
-          "sourcePath": "items/equipment-packs/burglars-pack/hempen-rope-50-ft.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "oRrNK2H2vcN4Kp74",
-          "fieldPath": "system.description.value",
-          "name": "Hempen Rope (50 ft.)",
-          "sourcePath": "items/equipment-packs/burglars-pack/hempen-rope-50-ft.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "wjHtGnd05SPdURqE",
-          "name": "Hooded Lantern",
-          "sourcePath": "items/equipment-packs/burglars-pack/hooded-lantern.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "jDTM1RjtZMu9YYL9",
-          "name": "Oil Flask",
-          "sourcePath": "items/equipment-packs/burglars-pack/oil-flask.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "jDTM1RjtZMu9YYL9",
-          "fieldPath": "system.description.value",
-          "name": "Oil Flask",
-          "sourcePath": "items/equipment-packs/burglars-pack/oil-flask.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "jDTM1RjtZMu9YYL9",
-          "fieldPath": "system.description.value",
-          "name": "Oil Flask",
-          "sourcePath": "items/equipment-packs/burglars-pack/oil-flask.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "P31t6tGgt9aLAdYt",
-          "name": "Piton",
-          "sourcePath": "items/equipment-packs/burglars-pack/piton.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "JwJf6M6HCSSMgKx3",
-          "name": "Rations",
-          "sourcePath": "items/equipment-packs/burglars-pack/rations.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
           "id": "CG0LhGQtc3KOAeE1",
           "name": "Tinderbox",
           "sourcePath": "items/equipment-packs/burglars-pack/tinderbox.yml"
@@ -7028,206 +6816,6 @@
           "fieldPath": "system.description.value",
           "name": "Tinderbox",
           "sourcePath": "items/equipment-packs/burglars-pack/tinderbox.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "q4RcCLeKviqgckqt",
-          "name": "Waterskin",
-          "sourcePath": "items/equipment-packs/burglars-pack/waterskin.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "FqFmdzIBUSxFKKfi",
-          "name": "Fine Clothes",
-          "sourcePath": "items/equipment-packs/diplomats-pack/fine-clothes.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "UICmOXUKBmHp9o4y",
-          "name": "Ink Bottle",
-          "sourcePath": "items/equipment-packs/diplomats-pack/ink-bottle.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "8Fe9YSSe4ymQq8UM",
-          "name": "Ink Pen",
-          "sourcePath": "items/equipment-packs/diplomats-pack/ink-pen.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "vmymwrmE730l3pKh",
-          "name": "Lamp",
-          "sourcePath": "items/equipment-packs/diplomats-pack/lamp.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "vmymwrmE730l3pKh",
-          "fieldPath": "system.description.value",
-          "name": "Lamp",
-          "sourcePath": "items/equipment-packs/diplomats-pack/lamp.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "vmymwrmE730l3pKh",
-          "fieldPath": "system.description.value",
-          "name": "Lamp",
-          "sourcePath": "items/equipment-packs/diplomats-pack/lamp.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "j01YDOu2AolsRvdN",
-          "name": "Oil Flask",
-          "sourcePath": "items/equipment-packs/diplomats-pack/oil-flask.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "j01YDOu2AolsRvdN",
-          "fieldPath": "system.description.value",
-          "name": "Oil Flask",
-          "sourcePath": "items/equipment-packs/diplomats-pack/oil-flask.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "j01YDOu2AolsRvdN",
-          "fieldPath": "system.description.value",
-          "name": "Oil Flask",
-          "sourcePath": "items/equipment-packs/diplomats-pack/oil-flask.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "0huCWvOncUsme84v",
-          "name": "Paper",
-          "sourcePath": "items/equipment-packs/diplomats-pack/paper.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "LECtCKWa0mt0Vy1U",
-          "name": "Perfume",
-          "sourcePath": "items/equipment-packs/diplomats-pack/perfume.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "HqM7xtEgwV1l3HTZ",
-          "name": "Sealing Wax",
-          "sourcePath": "items/equipment-packs/diplomats-pack/sealing-wax.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "sJ9gfQnz2jdT6GAB",
-          "name": "Soap",
-          "sourcePath": "items/equipment-packs/diplomats-pack/soap.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "AkyQyonZMVcvOrXU",
-          "name": "Crowbar",
-          "sourcePath": "items/equipment-packs/dungeoneers-pack/crowbar.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "AkyQyonZMVcvOrXU",
-          "fieldPath": "system.description.value",
-          "name": "Crowbar",
-          "sourcePath": "items/equipment-packs/dungeoneers-pack/crowbar.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "AkyQyonZMVcvOrXU",
-          "fieldPath": "system.description.value",
-          "name": "Crowbar",
-          "sourcePath": "items/equipment-packs/dungeoneers-pack/crowbar.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "xWQopgOHbS6LjsZm",
-          "name": "Hammer",
-          "sourcePath": "items/equipment-packs/dungeoneers-pack/hammer.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "U5fRz04JWgNS1WvK",
-          "name": "Hempen Rope (50 ft.)",
-          "sourcePath": "items/equipment-packs/dungeoneers-pack/hempen-rope-50-ft.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "U5fRz04JWgNS1WvK",
-          "fieldPath": "system.description.value",
-          "name": "Hempen Rope (50 ft.)",
-          "sourcePath": "items/equipment-packs/dungeoneers-pack/hempen-rope-50-ft.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "U5fRz04JWgNS1WvK",
-          "fieldPath": "system.description.value",
-          "name": "Hempen Rope (50 ft.)",
-          "sourcePath": "items/equipment-packs/dungeoneers-pack/hempen-rope-50-ft.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "wmedRPNenLVSUaT5",
-          "name": "Piton",
-          "sourcePath": "items/equipment-packs/dungeoneers-pack/piton.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "8d95YV1jHcxPygJ9",
-          "name": "Rations",
-          "sourcePath": "items/equipment-packs/dungeoneers-pack/rations.yml"
         },
         {
           "code": "ambiguous-name",
@@ -7261,202 +6849,6 @@
           "code": "ambiguous-name",
           "severity": "blocking",
           "pack": "items",
-          "id": "ltbDV5OitV0yrDFU",
-          "name": "Torch",
-          "sourcePath": "items/equipment-packs/dungeoneers-pack/torch.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "ltbDV5OitV0yrDFU",
-          "fieldPath": "system.description.value",
-          "name": "Torch",
-          "sourcePath": "items/equipment-packs/dungeoneers-pack/torch.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "ltbDV5OitV0yrDFU",
-          "fieldPath": "system.description.value",
-          "name": "Torch",
-          "sourcePath": "items/equipment-packs/dungeoneers-pack/torch.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "2cKJTN5Ki77oCrQn",
-          "name": "Waterskin",
-          "sourcePath": "items/equipment-packs/dungeoneers-pack/waterskin.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "DxfCBU7uBoRNAnDm",
-          "name": "Bedroll",
-          "sourcePath": "items/equipment-packs/entertainers-pack/bedroll.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "HgFNy16VK0iJgpFx",
-          "name": "Candle",
-          "sourcePath": "items/equipment-packs/entertainers-pack/candle.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "HgFNy16VK0iJgpFx",
-          "fieldPath": "system.description.value",
-          "name": "Candle",
-          "sourcePath": "items/equipment-packs/entertainers-pack/candle.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "HgFNy16VK0iJgpFx",
-          "fieldPath": "system.description.value",
-          "name": "Candle",
-          "sourcePath": "items/equipment-packs/entertainers-pack/candle.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "ug9bTGmTTEN7JwmP",
-          "name": "Costume Clothes",
-          "sourcePath": "items/equipment-packs/entertainers-pack/costume-clothes.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "kj5DNiBKasYWyuj6",
-          "name": "Disguise Kit",
-          "sourcePath": "items/equipment-packs/entertainers-pack/disguise-kit.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "kj5DNiBKasYWyuj6",
-          "fieldPath": "system.description.value",
-          "name": "Disguise Kit",
-          "sourcePath": "items/equipment-packs/entertainers-pack/disguise-kit.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "kj5DNiBKasYWyuj6",
-          "fieldPath": "system.description.value",
-          "name": "Disguise Kit",
-          "sourcePath": "items/equipment-packs/entertainers-pack/disguise-kit.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "YM4QueTsF3DL77mH",
-          "name": "Rations",
-          "sourcePath": "items/equipment-packs/entertainers-pack/rations.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "1L5wkmbw0fmNAr38",
-          "name": "Waterskin",
-          "sourcePath": "items/equipment-packs/entertainers-pack/waterskin.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "IGg1yAvcOyhIqzBi",
-          "name": "Bedroll",
-          "sourcePath": "items/equipment-packs/explorers-pack/bedroll.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "bDZFQqLQE73cFB8c",
-          "name": "Hempen Rope (50 ft.)",
-          "sourcePath": "items/equipment-packs/explorers-pack/hempen-rope-50-ft.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "bDZFQqLQE73cFB8c",
-          "fieldPath": "system.description.value",
-          "name": "Hempen Rope (50 ft.)",
-          "sourcePath": "items/equipment-packs/explorers-pack/hempen-rope-50-ft.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "bDZFQqLQE73cFB8c",
-          "fieldPath": "system.description.value",
-          "name": "Hempen Rope (50 ft.)",
-          "sourcePath": "items/equipment-packs/explorers-pack/hempen-rope-50-ft.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "lBg9CPRdpRhn4DO4",
-          "name": "Mess Kit",
-          "sourcePath": "items/equipment-packs/explorers-pack/mess-kit.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "lBg9CPRdpRhn4DO4",
-          "fieldPath": "system.description.value",
-          "name": "Mess Kit",
-          "sourcePath": "items/equipment-packs/explorers-pack/mess-kit.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "lBg9CPRdpRhn4DO4",
-          "fieldPath": "system.description.value",
-          "name": "Mess Kit",
-          "sourcePath": "items/equipment-packs/explorers-pack/mess-kit.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "P5UuhUBZL59wZiCY",
-          "name": "Rations",
-          "sourcePath": "items/equipment-packs/explorers-pack/rations.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
           "id": "1FSubnBpSTDmVaYV",
           "name": "Tinderbox",
           "sourcePath": "items/equipment-packs/explorers-pack/tinderbox.yml"
@@ -7485,110 +6877,6 @@
           "code": "ambiguous-name",
           "severity": "blocking",
           "pack": "items",
-          "id": "29ZLE8PERtFVD3QU",
-          "name": "Torch",
-          "sourcePath": "items/equipment-packs/explorers-pack/torch.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "29ZLE8PERtFVD3QU",
-          "fieldPath": "system.description.value",
-          "name": "Torch",
-          "sourcePath": "items/equipment-packs/explorers-pack/torch.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "29ZLE8PERtFVD3QU",
-          "fieldPath": "system.description.value",
-          "name": "Torch",
-          "sourcePath": "items/equipment-packs/explorers-pack/torch.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "kx8DGQizmR5UI21R",
-          "name": "Waterskin",
-          "sourcePath": "items/equipment-packs/explorers-pack/waterskin.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "ac8IamT5vDrH1ZT8",
-          "name": "Alms Box",
-          "sourcePath": "items/equipment-packs/priests-pack/alms-box/_container.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "uYniEJCeAuwUC4JY",
-          "name": "Blanket",
-          "sourcePath": "items/equipment-packs/priests-pack/blanket.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "xxRC1qTIGzGEvmkg",
-          "name": "Block of Incense",
-          "sourcePath": "items/equipment-packs/priests-pack/block-of-incense.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "oylFuuS3t1nqNKsM",
-          "name": "Candle",
-          "sourcePath": "items/equipment-packs/priests-pack/candle.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "oylFuuS3t1nqNKsM",
-          "fieldPath": "system.description.value",
-          "name": "Candle",
-          "sourcePath": "items/equipment-packs/priests-pack/candle.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "oylFuuS3t1nqNKsM",
-          "fieldPath": "system.description.value",
-          "name": "Candle",
-          "sourcePath": "items/equipment-packs/priests-pack/candle.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "lg6oohwQndZT4Z0m",
-          "name": "Censer",
-          "sourcePath": "items/equipment-packs/priests-pack/censer.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "EC6ugXsfJZmjMNAj",
-          "name": "Rations",
-          "sourcePath": "items/equipment-packs/priests-pack/rations.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
           "id": "DSWvkerPQsusbqzJ",
           "name": "Tinderbox",
           "sourcePath": "items/equipment-packs/priests-pack/tinderbox.yml"
@@ -7612,254 +6900,6 @@
           "fieldPath": "system.description.value",
           "name": "Tinderbox",
           "sourcePath": "items/equipment-packs/priests-pack/tinderbox.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "mE6rsbIJXAd4tr4e",
-          "name": "Vestments",
-          "sourcePath": "items/equipment-packs/priests-pack/vestments.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "a8fe9d81BRW86cvP",
-          "name": "Waterskin",
-          "sourcePath": "items/equipment-packs/priests-pack/waterskin.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "f3eF8EYq1rkqFwDP",
-          "name": "Bag of Sand",
-          "sourcePath": "items/equipment-packs/scholars-pack/bag-of-sand.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "Bt7nIb37nU7Wxevx",
-          "name": "Book of Lore",
-          "sourcePath": "items/equipment-packs/scholars-pack/book-of-lore.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "qGfu1070HAllkO4W",
-          "name": "Ink Bottle",
-          "sourcePath": "items/equipment-packs/scholars-pack/ink-bottle.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "ybeLtyIloDvKhDz8",
-          "name": "Ink Pen",
-          "sourcePath": "items/equipment-packs/scholars-pack/ink-pen.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "9c0CHs90xqPw81iP",
-          "name": "Parchment",
-          "sourcePath": "items/equipment-packs/scholars-pack/parchment.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "C05ytVXByOG8uBAc",
-          "name": "Small Knife",
-          "sourcePath": "items/equipment-packs/scholars-pack/small-knife.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "iOMRrzfzFCfPGuD6",
-          "name": "Bag of Sand",
-          "sourcePath": "items/loot/bag-of-sand.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "DVXmyetZuvxbzAwW",
-          "name": "Bedroll",
-          "sourcePath": "items/loot/bedroll.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "F6GwSqjErX1u35Re",
-          "name": "Bell",
-          "sourcePath": "items/loot/bell.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "419eNv7xp2p7Xlo5",
-          "name": "Blanket",
-          "sourcePath": "items/loot/blanket.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "eJY20LOs3pOkRDPl",
-          "name": "Block of Incense",
-          "sourcePath": "items/loot/block-of-incense.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "l794iywHk8Wc6Uvi",
-          "name": "Book of Lore",
-          "sourcePath": "items/loot/book-of-lore.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "7ztvHyYJCcOOAWmR",
-          "name": "Censer",
-          "sourcePath": "items/loot/censer.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "V5UAjT3ed6sDNtgm",
-          "name": "Crowbar",
-          "sourcePath": "items/loot/crowbar.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "V5UAjT3ed6sDNtgm",
-          "fieldPath": "system.description.value",
-          "name": "Crowbar",
-          "sourcePath": "items/loot/crowbar.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "V5UAjT3ed6sDNtgm",
-          "fieldPath": "system.description.value",
-          "name": "Crowbar",
-          "sourcePath": "items/loot/crowbar.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "14pNRT4sZy9rgvhb",
-          "name": "Hammer",
-          "sourcePath": "items/loot/hammer.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "dP7jMKyHTTgVb3ii",
-          "name": "Ink Bottle",
-          "sourcePath": "items/loot/ink-bottle.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "uVm7MiB71QblfnoY",
-          "name": "Ink Pen",
-          "sourcePath": "items/loot/ink-pen.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "V13fjV5oSmvbRdgP",
-          "name": "Mess Kit",
-          "sourcePath": "items/loot/mess-kit.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "V13fjV5oSmvbRdgP",
-          "fieldPath": "system.description.value",
-          "name": "Mess Kit",
-          "sourcePath": "items/loot/mess-kit.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "V13fjV5oSmvbRdgP",
-          "fieldPath": "system.description.value",
-          "name": "Mess Kit",
-          "sourcePath": "items/loot/mess-kit.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "fNMkFCOvMiW2Rh3t",
-          "name": "Paper",
-          "sourcePath": "items/loot/paper.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "WFQS2vT8ddrFjTJg",
-          "name": "Parchment",
-          "sourcePath": "items/loot/parchment.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "uuh4UH3Jx5CsFjdA",
-          "name": "Perfume",
-          "sourcePath": "items/loot/perfume.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "3uEyuCfnAzGkwAn5",
-          "name": "Sealing Wax",
-          "sourcePath": "items/loot/sealing-wax.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "3nVvaHVfHsgwGlkL",
-          "name": "Small Knife",
-          "sourcePath": "items/loot/small-knife.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "REBWkTKe6lJaIkpn",
-          "name": "Soap",
-          "sourcePath": "items/loot/soap.yml"
         },
         {
           "code": "ambiguous-name",
@@ -10515,34 +9555,6 @@
           "sourcePath": "items/trinket/bag-of-tricks-tan.yml"
         },
         {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "3YSUIp4eFo26YxJr",
-          "name": "Ball Bearings",
-          "sourcePath": "items/trinket/ball-bearings.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "3YSUIp4eFo26YxJr",
-          "fieldPath": "system.description.value",
-          "name": "Ball Bearings",
-          "sourcePath": "items/trinket/ball-bearings.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "3YSUIp4eFo26YxJr",
-          "fieldPath": "system.description.value",
-          "name": "Ball Bearings",
-          "sourcePath": "items/trinket/ball-bearings.yml"
-        },
-        {
           "code": "foundry-formulas",
           "severity": "blocking",
           "message": "Foundry formulas differ from source",
@@ -10721,34 +9733,6 @@
           "fieldPath": "system.description.value",
           "name": "Candle of Invocation",
           "sourcePath": "items/trinket/candle-of-invocation.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "0NoBBP3MMkvJlwZY",
-          "name": "Candle",
-          "sourcePath": "items/trinket/candle.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "0NoBBP3MMkvJlwZY",
-          "fieldPath": "system.description.value",
-          "name": "Candle",
-          "sourcePath": "items/trinket/candle.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "0NoBBP3MMkvJlwZY",
-          "fieldPath": "system.description.value",
-          "name": "Candle",
-          "sourcePath": "items/trinket/candle.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -11241,14 +10225,6 @@
           "sourcePath": "items/trinket/feather-token-whip.yml"
         },
         {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "trmWAdUoR6Y2B7rA",
-          "name": "Hooded Lantern",
-          "sourcePath": "items/trinket/hooded-lantern.yml"
-        },
-        {
           "code": "foundry-references",
           "severity": "blocking",
           "message": "Foundry reference targets or order differ from source",
@@ -11337,34 +10313,6 @@
           "fieldPath": "system.description.value",
           "name": "Iron Horn of Valhalla",
           "sourcePath": "items/trinket/iron-horn-of-valhalla.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "qMzHmlmha8qMDnEF",
-          "name": "Lamp",
-          "sourcePath": "items/trinket/lamp.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "qMzHmlmha8qMDnEF",
-          "fieldPath": "system.description.value",
-          "name": "Lamp",
-          "sourcePath": "items/trinket/lamp.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "qMzHmlmha8qMDnEF",
-          "fieldPath": "system.description.value",
-          "name": "Lamp",
-          "sourcePath": "items/trinket/lamp.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -11486,42 +10434,6 @@
           "fieldPath": "system.description.value",
           "name": "Necklace of Fireballs",
           "sourcePath": "items/trinket/necklace-of-fireballs.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "psoZaItkOScMVaHL",
-          "name": "Oil Flask",
-          "sourcePath": "items/trinket/oil-flask.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "psoZaItkOScMVaHL",
-          "fieldPath": "system.description.value",
-          "name": "Oil Flask",
-          "sourcePath": "items/trinket/oil-flask.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "psoZaItkOScMVaHL",
-          "fieldPath": "system.description.value",
-          "name": "Oil Flask",
-          "sourcePath": "items/trinket/oil-flask.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "TqyvIglHDj5kfohR",
-          "name": "Piton",
-          "sourcePath": "items/trinket/piton.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -11702,34 +10614,6 @@
           "fieldPath": "system.description.value",
           "name": "Talisman of the Sphere",
           "sourcePath": "items/trinket/talisman-of-the-sphere.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "BnOCLuNWhVvzHLjl",
-          "name": "Torch",
-          "sourcePath": "items/trinket/torch.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "BnOCLuNWhVvzHLjl",
-          "fieldPath": "system.description.value",
-          "name": "Torch",
-          "sourcePath": "items/trinket/torch.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "BnOCLuNWhVvzHLjl",
-          "fieldPath": "system.description.value",
-          "name": "Torch",
-          "sourcePath": "items/trinket/torch.yml"
         },
         {
           "code": "foundry-references",
