@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1032,
+      "translated": 1044,
       "missing": 69,
-      "partial": 1290,
+      "partial": 1278,
       "review": 213
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 9420,
-      "missing": 6240,
+      "translated": 9440,
+      "missing": 6220,
       "invariantFailures": 2394,
       "englishResiduals": 135,
       "imperialResiduals": 4
     },
-    "blockingIssues": 8797
+    "blockingIssues": 8777
   },
   "packs": [
     {
@@ -76741,9 +76741,9 @@
       "summary": {
         "documents": {
           "total": 320,
-          "translated": 95,
+          "translated": 107,
           "missing": 0,
-          "partial": 225,
+          "partial": 213,
           "review": 10
         },
         "folders": {
@@ -76755,23 +76755,14 @@
         },
         "fields": {
           "total": 2007,
-          "translated": 1913,
-          "missing": 94,
+          "translated": 1933,
+          "missing": 74,
           "invariantFailures": 406,
           "englishResiduals": 17,
           "imperialResiduals": 2
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "hDOENzjuj5WpLq7B",
-          "name": "Animal Friendship",
-          "fieldPath": "effects[nxfOXuxeCg02WVId].description",
-          "sourcePath": "spells/1st-level/animal-friendship.yml"
-        },
         {
           "code": "html-tag-sequence",
           "severity": "blocking",
@@ -76790,15 +76781,6 @@
           "id": "95K2aUhAGV9qXjnf",
           "fieldPath": "system.description.value",
           "name": "Bane",
-          "sourcePath": "spells/1st-level/bane.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "95K2aUhAGV9qXjnf",
-          "name": "Bane",
-          "fieldPath": "effects[potjmpJPeUA1U4oe].description",
           "sourcePath": "spells/1st-level/bane.yml"
         },
         {
@@ -76812,15 +76794,6 @@
           "sourcePath": "spells/1st-level/bless.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "8dzaICjGy6mTUaUr",
-          "name": "Bless",
-          "fieldPath": "effects[8rP3gwmXVTgZqYZE].description",
-          "sourcePath": "spells/1st-level/bless.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -76841,24 +76814,6 @@
           "sourcePath": "spells/1st-level/charm-person.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "eS7XnnApoxRxYXPs",
-          "name": "Charm Person",
-          "fieldPath": "effects[1QhUB3231btaCO0b].description",
-          "sourcePath": "spells/1st-level/charm-person.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "LWTUqKkUQdMAmOe0",
-          "name": "Color Spray",
-          "fieldPath": "effects[eDXjhC3F3I0x2fUd].description",
-          "sourcePath": "spells/1st-level/color-spray.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -76876,15 +76831,6 @@
           "id": "arzCrMRgcNiQuh43",
           "fieldPath": "system.description.value",
           "name": "Command",
-          "sourcePath": "spells/1st-level/command.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "arzCrMRgcNiQuh43",
-          "name": "Command",
-          "fieldPath": "effects[QLQX2Eg3yw7LZwKa].description",
           "sourcePath": "spells/1st-level/command.yml"
         },
         {
@@ -76926,42 +76872,6 @@
           "fieldPath": "effects[YNlbHxIwut5swF2d].description",
           "name": "Divine Favor",
           "sourcePath": "spells/1st-level/divine-favor.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "gMrWeG8fMDPRFiVe",
-          "name": "Entangle",
-          "fieldPath": "effects[fO14IutGR3Hrepun].description",
-          "sourcePath": "spells/1st-level/entangle.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "nqBDWkVOfcGZt4YU",
-          "name": "Faerie Fire",
-          "fieldPath": "effects[4A91A48gBwBPPRwO].description",
-          "sourcePath": "spells/1st-level/faerie-fire.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "7e3QXF10hLNDEdr6",
-          "name": "False Life",
-          "fieldPath": "effects[fYF3Na2tHtDcgC6j].description",
-          "sourcePath": "spells/1st-level/false-life.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "pub0OWVEB71XQx1n",
-          "name": "Feather Fall",
-          "fieldPath": "effects[gMdi8F2ylxkgG58U].description",
-          "sourcePath": "spells/1st-level/feather-fall.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -77005,33 +76915,6 @@
           "sourcePath": "spells/1st-level/goodberry.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "7buEm5KhI5lP8m1z",
-          "name": "Guiding Bolt",
-          "fieldPath": "effects[hf1g2XNPqQFMw35j].description",
-          "sourcePath": "spells/1st-level/guiding-bolt.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "ge3Saet9zPTDyaoL",
-          "name": "Heroism",
-          "fieldPath": "effects[c4iy2EIj29eRA2qq].description",
-          "sourcePath": "spells/1st-level/heroism.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "BQk5Row4NymMnUQl",
-          "name": "Hideous Laughter",
-          "fieldPath": "effects[58BFwcwzLrqeODxs].description",
-          "sourcePath": "spells/1st-level/hideous-laughter.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -77049,15 +76932,6 @@
           "id": "0xmXiPiuYws1OGcX",
           "fieldPath": "system.description.value",
           "name": "Hunter's Mark",
-          "sourcePath": "spells/1st-level/hunters-mark.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "0xmXiPiuYws1OGcX",
-          "name": "Hunter's Mark",
-          "fieldPath": "effects[kvWA9VXTXLNvjBIn].description",
           "sourcePath": "spells/1st-level/hunters-mark.yml"
         },
         {
@@ -77101,15 +76975,6 @@
           "sourcePath": "spells/1st-level/inflict-wounds.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "ZrTc23tToJ0JpH2h",
-          "name": "Jump",
-          "fieldPath": "effects[8ikEvNdNDRE9VJss].description",
-          "sourcePath": "spells/1st-level/jump.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -77127,15 +76992,6 @@
           "id": "B0pnIcc52O6G8hi8",
           "fieldPath": "system.description.value",
           "name": "Longstrider",
-          "sourcePath": "spells/1st-level/longstrider.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "B0pnIcc52O6G8hi8",
-          "name": "Longstrider",
-          "fieldPath": "effects[hfN31FqOkSYoQVz3].description",
           "sourcePath": "spells/1st-level/longstrider.yml"
         },
         {
@@ -77236,15 +77092,6 @@
           "id": "gvdA9nPuWLck4tBl",
           "fieldPath": "system.description.value",
           "name": "Sanctuary",
-          "sourcePath": "spells/1st-level/sanctuary.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "gvdA9nPuWLck4tBl",
-          "name": "Sanctuary",
-          "fieldPath": "effects[DxExOr8qiUQ1RQbF].description",
           "sourcePath": "spells/1st-level/sanctuary.yml"
         },
         {
@@ -77338,15 +77185,6 @@
           "sourcePath": "spells/1st-level/sleep.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "KhwiSi9fwVfUPtku",
-          "name": "Sleep",
-          "fieldPath": "effects[MowBnXpRu2aG48i9].description",
-          "sourcePath": "spells/1st-level/sleep.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -77455,15 +77293,6 @@
           "fieldPath": "system.description.value",
           "name": "Alter Self",
           "sourcePath": "spells/2nd-level/alter-self.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "X8w9EzYLGc4vQ1H2",
-          "name": "Animal Messenger",
-          "fieldPath": "effects[VhzMbGyk40slfgl8].description",
-          "sourcePath": "spells/2nd-level/animal-messenger.yml"
         },
         {
           "code": "unchanged-english",
@@ -77589,15 +77418,6 @@
           "fieldPath": "system.description.value",
           "name": "Blindness/Deafness",
           "sourcePath": "spells/2nd-level/blindness-deafness.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "UDUnlfPsOAbq2RSE",
-          "name": "Blur",
-          "fieldPath": "effects[X4jof8gIhjMeaX9E].description",
-          "sourcePath": "spells/2nd-level/blur.yml"
         },
         {
           "code": "missing-field",

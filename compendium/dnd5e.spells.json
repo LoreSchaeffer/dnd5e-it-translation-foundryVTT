@@ -187,7 +187,8 @@
       "materials": "(un boccone di cibo)",
       "effects": {
         "nxfOXuxeCg02WVId": {
-          "name": "Amicizia con gli Animali"
+          "name": "Amicizia con gli Animali",
+          "description": "<p>Sei &amp;reference[charmed apply=false] dall'incantatore per la durata dell'incantesimo. Se l'incantatore o uno dei suoi alleati ti fa del male, l'incantesimo termina.</p>"
         }
       },
       "activities": {
@@ -202,7 +203,8 @@
       "materials": "(un boccone di cibo)",
       "effects": {
         "VhzMbGyk40slfgl8": {
-          "name": "Animale Messaggero"
+          "name": "Animale Messaggero",
+          "description": "<p>Ti è stato ordinato di consegnare un messaggio a un bersaglio specifico in un luogo che ti è stato descritto. Per la durata di questo incantesimo viaggi verso il luogo specificato, percorrendo circa 37,5 km ogni 24 ore, o circa 75 km ogni 24 ore se sei un messaggero volante.</p><p>Quando arrivi, consegni il messaggio al bersaglio riproducendo il suono della voce dell'incantatore.</p>"
         }
       },
       "activities": {
@@ -409,7 +411,8 @@
       "materials": "(una goccia di sangue)",
       "effects": {
         "potjmpJPeUA1U4oe": {
-          "name": "Anatema"
+          "name": "Anatema",
+          "description": "<p>Ogni volta che effettui un tiro per colpire o un tiro salvezza prima che l'incantesimo termini, devi tirare un d4 e sottrarre il numero ottenuto dal tiro per colpire o dal tiro salvezza.</p>"
         }
       },
       "activities": {
@@ -545,7 +548,8 @@
       "materials": "Uno spruzzo di acqua santa",
       "effects": {
         "8rP3gwmXVTgZqYZE": {
-          "name": "Benedizione"
+          "name": "Benedizione",
+          "description": "<p>Ogni volta che effettui un tiro per colpire o un tiro salvezza prima che l'incantesimo termini, puoi tirare 1d4 e aggiungere il numero ottenuto al tiro per colpire o al tiro salvezza.</p>"
         }
       },
       "activities": {
@@ -610,7 +614,8 @@
       "description": "<p>Il corpo dell'incantatore diventa sfocato, instabile e ondeggiante agli occhi di tutti coloro che sono in grado di vederlo. Per la durata dell'incantesimo, tutte le creature subiscono svantaggio ai tiri per colpire contro di lui. Un attaccante &egrave; immune a questo effetto se non si affida alla vista, per esempio se &egrave; dotato di vista cieca o se &egrave; in grado di vedere attraverso le illusioni, per esempio tramite visione del vero.</p>",
       "effects": {
         "X4jof8gIhjMeaX9E": {
-          "name": "Sfocatura"
+          "name": "Sfocatura",
+          "description": "<p>Il tuo corpo è diventato sfocato, mutevole e tremolante agli occhi di chiunque possa vederti. Per la durata, qualsiasi creatura dispone di svantaggio ai tiri per colpire contro di te. Un attaccante è immune a questo effetto se non si affida alla vista, come nel caso di &amp;reference[blindsight], o se può vedere attraverso le illusioni, come nel caso di &amp;reference[truesight].</p>"
         }
       },
       "activities": {
@@ -726,7 +731,8 @@
       "description": "<p>L'incantatore tenta di affascinare un umanoide entro gittata e che egli sia in grado di vedere. L'umanoide deve effettuare un tiro salvezza su Saggezza e dispone di vantaggio se l'incantatore o i suoi compagni stanno combattendo contro di lui. Se lo fallisce, è affascinato dall'incantatore finché l'incantesimo non termina o finché l'incantatore o i suoi compagni non lo danneggiano in qualche modo. La creatura affascinata considera l'incantatore una figura conosciuta e amichevole. Quando l'incantesimo termina, la creatura capirà di essere stata affascinata dall'incantatore.</p>",
       "effects": {
         "1QhUB3231btaCO0b": {
-          "name": "Charme su Persone"
+          "name": "Charme su Persone",
+          "description": "<p>Sei &amp;reference[Charmed apply=false] dall'incantatore finché l'incantesimo non termina. Consideri l'incantatore una conoscenza amichevole. Quando l'incantesimo termina, sai di essere stato affascinato.</p>"
         }
       },
       "activities": {
@@ -797,7 +803,8 @@
       "materials": "un pizzico di sabbia o di polvere colorata di rosso, giallo e blu",
       "effects": {
         "eDXjhC3F3I0x2fUd": {
-          "name": "Spruzzo Colorato"
+          "name": "Spruzzo Colorato",
+          "description": "<p>Sei &amp;reference[blinded apply=false] finché l'incantesimo non termina.</p>"
         }
       },
       "activities": {
@@ -811,7 +818,8 @@
       "description": "<p>L'incantatore rivolge un comando di una parola a una creatura entro gittata e che egli sia in grado di vedere. li bersaglio deve superare un tiro salvezza su Saggezza, altrimenti obbedirà al comando nel proprio turno successivo. L'incantesimo non ha effetto se il bersaglio è un non morto, se non capisce il linguaggio dell'incantatore o se il comando di quest'ultimo si rivela dannoso in modo diretto. Di seguito sono descritti alcuni tipici comandi assieme ai loro effetti. L'incantatore può impartire un comando diverso da quelli descritti di seguito. In quel caso è il DM a determinare come si comporta il bersaglio. Se il bersaglio non può eseguire il comando, l'incantesimo termina.</p><p><strong>Avvicinati.</strong> Il bersaglio si muove verso l'incantatore seguendo il percorso più breve e diretto, terminando il suo turno se giunge entro 1.5 metri da lui.</p><p><strong>Fermo</strong>. Il bersaglio non si muove e non effettua azioni. Una creatura volante rimane in aria, se è in grado di farlo. Se deve muoversi per rimanere in aria, vola della distanza minima richiesta per rimanere in aria. FuUJ, Il bersaglio usa il suo turno per allontanarsi dall'incantatore nel modo più rapido possibile.</p><p><strong>Lascia</strong>. Il bersaglio lascia cadere ciò che stava impugnando, poi termina il suo turno.</p><p><strong>Supplica</strong>. Il bersaglio cade a terra prono e termina il suo turno.</p><p><strong>Ai Livelli Superiori.</strong> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, può influenzare una creatura aggiuntiva per ogni slot di livello superiore al l°. Le creature devono trovarsi a non più di 9 metri l'una dall'altra quando l'incantatore le bersaglia.</p>",
       "effects": {
         "QLQX2Eg3yw7LZwKa": {
-          "name": "Comando"
+          "name": "Comando",
+          "description": "<p>Hai ricevuto un comando e devi eseguirlo nel tuo turno successivo.</p>"
         }
       },
       "activities": {
@@ -1758,7 +1766,8 @@
       "description": "<p>Erbacce e rampicanti spuntano dal terreno in un quadrato con lato di 6 metri che parte da un punto situato entro gittata. Per la durata dell'incantesimo, questi vegetali trasformano l'area in terreno difficile.</p><p>Una creatura situata nell'area quando l'incantatore lancia questo incantesimo deve superare un tiro salvezza su Forza, altrimenti è trattenuta dai vegetali intralcianti finché l'incantesimo non termina. Una creatura trattenuta dai vegetali può usare la sua azione per effettuare una prova di Forza contro la CD del tiro salvezza dell'incantesimo. Se ha successo, si libera. &nbsp;</p><p>Quando l'incantesimo termina, i vegetali evocati avvizziscono.</p>",
       "effects": {
         "fO14IutGR3Hrepun": {
-          "name": "Intralciare"
+          "name": "Intralciare",
+          "description": "<p>Sei &amp;reference[Restrained apply=false] dai Vegetali avviluppanti finché l'incantesimo non termina. Finché sei trattenuto dai vegetali, puoi usare la tua azione per effettuare una [[/check str]] contro la CD del tiro salvezza dell'incantesimo dell'incantatore. Se la superi, ti liberi.</p>"
         }
       },
       "activities": {
@@ -1853,7 +1862,8 @@
       "description": "<p>Ogni oggetto contenuto in un cubo con spigolo di 6 metri entro gittata viene evidenziato da un alone di luce blu, verde o viola (a scelta dell'incantatore). Ogni creatura situata entro l'area quando l'incantesimo viene lanciato, viene a sua volta evidenziata dall'alone di luce se fallisce un tiro salvezza su Destrezza. Per la durata dell'incantesimo, gli oggetti e le creature influenzate proiettano luce fioca entro un raggio di 3 metri.</p><p>&nbsp; Ogni tiro per colpire contro una creatura o un oggetto influenzato dispone di vantaggio se l'attaccante è in grado di vederlo, e la creatura o l'oggetto influenzato non trae beneficio dal fatto di essere invisibile.</p>",
       "effects": {
         "4A91A48gBwBPPRwO": {
-          "name": "Luminescenza"
+          "name": "Luminescenza",
+          "description": "<p>Sei delineato da una luce che proietta &amp;reference[dim light] entro un raggio di 3 metri.</p><p>Qualsiasi tiro per colpire contro di te dispone di vantaggio se l'attaccante può vederti e non puoi beneficiare dell'essere &amp;reference[invisible apply=false].</p>"
         }
       },
       "activities": {
@@ -1878,7 +1888,8 @@
       "materials": "una piccola quantità di alcol o di liquore distillato",
       "effects": {
         "fYF3Na2tHtDcgC6j": {
-          "name": "Vita Falsata"
+          "name": "Vita Falsata",
+          "description": "<p>Ottieni Punti Ferita Temporanei per la durata di questo incantesimo.</p>"
         }
       },
       "activities": {
@@ -1908,7 +1919,8 @@
       "materials": "una piccola piuma",
       "effects": {
         "gMdi8F2ylxkgG58U": {
-          "name": "Caduta Morbida"
+          "name": "Caduta Morbida",
+          "description": "<p>La tua velocità di caduta rallenta a 18 metri per round finché l'incantesimo non termina. Se atterri prima che l'incantesimo termini, non subisci danni da caduta e puoi atterrare in piedi, e l'incantesimo termina per te.</p>"
         }
       },
       "activities": {
@@ -2451,7 +2463,8 @@
       "description": "<p>Effettua un attacco di incantesimo a distanza contro una creatura che puoi vedere. In un colpo, il bersaglio subisce 4d6 danni radiosi, e prima della fine del prossimo turno dell'incantatore, il successivo tiro di attacco effettuato su di esso viene compiuto con vantaggio.</p><p>&nbsp; <strong>Ai Livelli Superiori.</strong> Il danno aumenta di 1d6 per ogni livello di slot superiore al 1°.</p>",
       "effects": {
         "hf1g2XNPqQFMw35j": {
-          "name": "Dardo Tracciante"
+          "name": "Dardo Tracciante",
+          "description": "<p>Il prossimo tiro per colpire effettuato contro di te prima della fine del turno successivo dell'incantatore dispone di vantaggio grazie alla mistica luce fioca che scintilla su di te.</p>"
         }
       },
       "activities": {
@@ -2609,7 +2622,8 @@
       "description": "<p>Una creatura consenziente toccata dall'incantatore è animata da un grande coraggio. Finché l'incantesimo non termina, la creatura è immune alla condizione di spaventato e ottiene un ammontare di punti ferita temporanei pari al modificatore di caratteristica da incantatore all'inizio di ogni proprio turno. Quando l'incantesimo termina, il bersaglio perde tutti i punti ferita temporanei rimanenti forniti da questo incantesimo.</p><p><strong>Ai Livelli Superiori.</strong> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, l'incantatore può bersagliare una creatura aggiuntiva per ogni slot di livello superiore al 1°.</p>",
       "effects": {
         "c4iy2EIj29eRA2qq": {
-          "name": "Eroismo"
+          "name": "Eroismo",
+          "description": "<p>Sei stato pervaso di coraggio. Finché l'incantesimo non termina, sei immune all'essere &amp;reference[Frightened apply=false] e ottieni Punti Ferita Temporanei pari al modificatore della caratteristica da Incantatore dell'incantatore all'inizio di ogni tuo turno. Quando l'incantesimo termina, perdi tutti i punti ferita temporanei rimanenti conferiti da questo incantesimo.</p>"
         }
       },
       "activities": {
@@ -2627,7 +2641,8 @@
       "materials": "una manciata di briciole e una piuma da agitare in aria",
       "effects": {
         "58BFwcwzLrqeODxs": {
-          "name": "Risata Incontenibile di Tasha"
+          "name": "Risata Incontenibile di Tasha",
+          "description": "<p>Percepisci ogni cosa come irresistibilmente divertente e sei scosso da accessi di risa. Sei &amp;reference[Incapacitated apply=false] e incapace di rialzarti per la Durata.</p><p>Alla fine di ogni tuo turno e ogni volta che subisci danni puoi effettuare un altro tiro salvezza su Saggezza. Disponi di vantaggio al tiro salvezza se è innescato dai danni. Se lo superi, l'incantesimo termina.</p>"
         }
       },
       "activities": {
@@ -2699,7 +2714,8 @@
       "description": "<p data-parsoid=\"{&quot;dsr&quot;:[166,290,0,0]}\">L'incantatore sceglie una creatura entro gittata e che egli sia in grado di vedere e la marchia misticamente come sua preda.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[292,542,0,0]}\">Finché l'incantesimo non termina, l'incantatore infligge 1d6 danni extra al bersaglio ogni volta che lo colpisce con un attacco con un'arma e dispone vantaggio ad ogni prova di Saggezza (Percezione) o Saggezza (Sopravvivenza) effettuata per trovarlo.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[544,721,0,0]}\">Se il bersaglio scende a 0 punti ferita prima che questo incantesimo termini l'incantatore può usare un'azione bonus in un suo turno successivo per marchiare una nuova creatura.</p>\n<p>&nbsp;</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[723,1059,0,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[723,755,3,3]}\">Ai Livelli Superiori.<em data-parsoid=\"{&quot;dsr&quot;:[747,752,2,2]}\">&nbsp;</em></strong>Se l'incantatore lancia questo incantesimo usando uno slot incantesimo di 3° livello o 4° livello, può mantenere una concentrazione sull'incantesimo fino ad un massimo di 8 ore. Quando usa uno slot di 5° livello o superiore, può mantenere una concentrazione sull'incantesimo fino ad un massimo di 24 ore.</p>",
       "effects": {
         "kvWA9VXTXLNvjBIn": {
-          "name": "Marchio del Cacciatore"
+          "name": "Marchio del Cacciatore",
+          "description": "<p>Sei stato designato magicamente come preda dell'incantatore. Finché l'incantesimo non termina, l'incantatore ti infligge 1d6 danni extra ogni volta che ti colpisce con un attacco con un'arma e dispone di vantaggio a ogni prova di Saggezza (Percezione) o Saggezza (Sopravvivenza) effettuata per trovarti.</p>"
         }
       },
       "activities": {
@@ -2873,7 +2889,8 @@
       "materials": "la zampa posteriore di una cavalletta",
       "effects": {
         "8ikEvNdNDRE9VJss": {
-          "name": "Saltare"
+          "name": "Saltare",
+          "description": "<p>La distanza dei tuoi &amp;reference[jumping]{salti} è triplicata finché l'incantesimo non termina.</p>"
         }
       },
       "activities": {
@@ -2984,7 +3001,8 @@
       "materials": "Un pizzico di terriccio",
       "effects": {
         "hfN31FqOkSYoQVz3": {
-          "name": "Passo Veloce"
+          "name": "Passo Veloce",
+          "description": "<p>La tua velocità aumenta di 3 metri finché l'incantesimo non termina.</p>"
         }
       },
       "activities": {
@@ -4067,7 +4085,8 @@
       "materials": "uno specchietto d'argento",
       "effects": {
         "DxExOr8qiUQ1RQbF": {
-          "name": "Santuario"
+          "name": "Santuario",
+          "description": "<p>Sei stato protetto dagli attacchi. Finché l'incantesimo non termina, qualsiasi creatura che ti bersagli con un attacco o un incantesimo nocivo deve prima effettuare un tiro salvezza su Saggezza. Se lo fallisce, la creatura deve scegliere un nuovo bersaglio o perdere l'attacco o l'incantesimo. Questo incantesimo non ti protegge dagli effetti ad area, come l'esplosione di una @UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{Palla di Fuoco}.</p><p>Se effettui un attacco o lanci un incantesimo che influenza una creatura nemica, questo incantesimo termina.</p>"
         }
       },
       "activities": {
@@ -4350,7 +4369,8 @@
       "materials": "un pizzico di sabbia finissima, petali di rosa o un grillo",
       "effects": {
         "MowBnXpRu2aG48i9": {
-          "name": "Sonno"
+          "name": "Sonno",
+          "description": "<p>Sei caduto &amp;reference[Unconscious apply=faklse] finché l'incantesimo non termina, finché non subisci danni o finché qualcuno non usa un'azione per scuoterti o schiaffeggiarti fino a svegliarti.</p>"
         }
       },
       "activities": {

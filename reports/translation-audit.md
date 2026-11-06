@@ -12,12 +12,12 @@
 | monsters | 337 | 2 | 5 | 330 | 15 | 4810 | 5045 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
 | rules | 20 | 1 | 3 | 16 | 0 | 738 | 695 |
-| spells | 320 | 95 | 0 | 225 | 0 | 94 | 519 |
+| spells | 320 | 107 | 0 | 213 | 0 | 74 | 499 |
 | subclasses | 12 | 12 | 0 | 0 | 0 | 0 | 0 |
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 8797
+Total blocking issues: 8777
 
 ## Issues
 
@@ -8299,45 +8299,29 @@ Total blocking issues: 8797
 - **missing-document** `rules:4ANrmP15aBGam0QS`
 - **missing-document** `rules:xxt7YT2t76JxNTel`
 - **missing-document** `rules:sfJtvPjEs50Ruzi4`
-- **missing-field** `spells:hDOENzjuj5WpLq7B:effects[nxfOXuxeCg02WVId].description`
 - **html-tag-sequence** `spells:95K2aUhAGV9qXjnf:system.description.value`
 - **html-attributes** `spells:95K2aUhAGV9qXjnf:system.description.value`
-- **missing-field** `spells:95K2aUhAGV9qXjnf:effects[potjmpJPeUA1U4oe].description`
 - **foundry-formulas** `spells:8dzaICjGy6mTUaUr:system.description.value`
-- **missing-field** `spells:8dzaICjGy6mTUaUr:effects[8rP3gwmXVTgZqYZE].description`
 - **html-tag-sequence** `spells:eS7XnnApoxRxYXPs:system.description.value`
 - **html-attributes** `spells:eS7XnnApoxRxYXPs:system.description.value`
-- **missing-field** `spells:eS7XnnApoxRxYXPs:effects[1QhUB3231btaCO0b].description`
-- **missing-field** `spells:LWTUqKkUQdMAmOe0:effects[eDXjhC3F3I0x2fUd].description`
 - **html-tag-sequence** `spells:arzCrMRgcNiQuh43:system.description.value`
 - **html-attributes** `spells:arzCrMRgcNiQuh43:system.description.value`
-- **missing-field** `spells:arzCrMRgcNiQuh43:effects[QLQX2Eg3yw7LZwKa].description`
 - **html-tag-sequence** `spells:8MICCMeOXT3aJUy9:system.description.value`
 - **html-attributes** `spells:8MICCMeOXT3aJUy9:system.description.value`
 - **html-tag-sequence** `spells:8MICCMeOXT3aJUy9:effects[YNlbHxIwut5swF2d].description`
 - **html-attributes** `spells:8MICCMeOXT3aJUy9:effects[YNlbHxIwut5swF2d].description`
-- **missing-field** `spells:gMrWeG8fMDPRFiVe:effects[fO14IutGR3Hrepun].description`
-- **missing-field** `spells:nqBDWkVOfcGZt4YU:effects[4A91A48gBwBPPRwO].description`
-- **missing-field** `spells:7e3QXF10hLNDEdr6:effects[fYF3Na2tHtDcgC6j].description`
-- **missing-field** `spells:pub0OWVEB71XQx1n:effects[gMdi8F2ylxkgG58U].description`
 - **html-tag-sequence** `spells:JGT5bNqu9REL7Fuz:system.description.value`
 - **html-attributes** `spells:JGT5bNqu9REL7Fuz:system.description.value`
 - **foundry-reference-count** `spells:JGT5bNqu9REL7Fuz:system.description.value`
 - **unchanged-english** `spells:Qf6CAZkc7ms4ZY3e:system.materials.value`
-- **missing-field** `spells:7buEm5KhI5lP8m1z:effects[hf1g2XNPqQFMw35j].description`
-- **missing-field** `spells:ge3Saet9zPTDyaoL:effects[c4iy2EIj29eRA2qq].description`
-- **missing-field** `spells:BQk5Row4NymMnUQl:effects[58BFwcwzLrqeODxs].description`
 - **html-tag-sequence** `spells:0xmXiPiuYws1OGcX:system.description.value`
 - **html-attributes** `spells:0xmXiPiuYws1OGcX:system.description.value`
-- **missing-field** `spells:0xmXiPiuYws1OGcX:effects[kvWA9VXTXLNvjBIn].description`
 - **html-tag-sequence** `spells:3OZnNhunvRtPOQmH:system.description.value`
 - **html-attributes** `spells:3OZnNhunvRtPOQmH:system.description.value`
 - **html-tag-sequence** `spells:ksaaTxIbKx2sJfia:system.description.value`
 - **html-attributes** `spells:ksaaTxIbKx2sJfia:system.description.value`
-- **missing-field** `spells:ZrTc23tToJ0JpH2h:effects[8ikEvNdNDRE9VJss].description`
 - **html-tag-sequence** `spells:B0pnIcc52O6G8hi8:system.description.value`
 - **html-attributes** `spells:B0pnIcc52O6G8hi8:system.description.value`
-- **missing-field** `spells:B0pnIcc52O6G8hi8:effects[hfN31FqOkSYoQVz3].description`
 - **html-tag-sequence** `spells:41JIhpDyM9Anm7cs:system.description.value`
 - **html-attributes** `spells:41JIhpDyM9Anm7cs:system.description.value`
 - **foundry-formulas** `spells:41JIhpDyM9Anm7cs:system.description.value`
@@ -8348,7 +8332,6 @@ Total blocking issues: 8797
 - **html-tag-sequence** `spells:gvdA9nPuWLck4tBl:system.description.value`
 - **html-attributes** `spells:gvdA9nPuWLck4tBl:system.description.value`
 - **foundry-reference-count** `spells:gvdA9nPuWLck4tBl:system.description.value`
-- **missing-field** `spells:gvdA9nPuWLck4tBl:effects[DxExOr8qiUQ1RQbF].description`
 - **html-tag-sequence** `spells:jZ6JNykRtdQ90MOo:system.description.value`
 - **html-attributes** `spells:jZ6JNykRtdQ90MOo:system.description.value`
 - **html-tag-sequence** `spells:z1mx84ONwkXKUZd7:system.description.value`
@@ -8358,7 +8341,6 @@ Total blocking issues: 8797
 - **html-attributes** `spells:BrBZdCCrJRIVg7YX:system.description.value`
 - **html-tag-sequence** `spells:KhwiSi9fwVfUPtku:system.description.value`
 - **html-attributes** `spells:KhwiSi9fwVfUPtku:system.description.value`
-- **missing-field** `spells:KhwiSi9fwVfUPtku:effects[MowBnXpRu2aG48i9].description`
 - **html-tag-sequence** `spells:aL1F8fvYLtNzUbKu:system.description.value`
 - **html-attributes** `spells:aL1F8fvYLtNzUbKu:system.description.value`
 - **html-tag-sequence** `spells:aL1F8fvYLtNzUbKu:effects[5y2fw4tIHJG90LhP].description`
@@ -8370,7 +8352,6 @@ Total blocking issues: 8797
 - **html-tag-sequence** `spells:8RTDOt80u8aBv9qx:system.description.value`
 - **html-attributes** `spells:8RTDOt80u8aBv9qx:system.description.value`
 - **foundry-formulas** `spells:8RTDOt80u8aBv9qx:system.description.value`
-- **missing-field** `spells:X8w9EzYLGc4vQ1H2:effects[VhzMbGyk40slfgl8].description`
 - **unchanged-english** `spells:8cse7rit0oswRPUP:system.description.value`
 - **english-residual** `spells:8cse7rit0oswRPUP:system.description.value`
 - **imperial-unit** `spells:8cse7rit0oswRPUP:system.description.value`
@@ -8383,7 +8364,6 @@ Total blocking issues: 8797
 - **html-attributes** `spells:4v2H3hHb3Ph9XLNd:system.description.value`
 - **html-tag-sequence** `spells:zwGsAv6kmwzYGhh3:system.description.value`
 - **html-attributes** `spells:zwGsAv6kmwzYGhh3:system.description.value`
-- **missing-field** `spells:UDUnlfPsOAbq2RSE:effects[X4jof8gIhjMeaX9E].description`
 - **missing-field** `spells:3MYDjS6k9IYL0aTj:effects[GgT59J1pn49xUaJW].description`
 - **missing-field** `spells:hJ6ZiA3fpoY8v9cp:effects[9qaZQFN5xP8Gig8f].description`
 - **missing-field** `spells:30ZgXtijJVCxQk5N:effects[sGKbaTfegKKF0zmV].description`

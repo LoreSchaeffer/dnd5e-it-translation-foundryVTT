@@ -405,6 +405,66 @@
     "QbQZKoXOgHWN06aa": {
       "system.activities.Y7gjcDvz2X1fknbC.description.value": "<p>Trasformi una creatura in un altro tipo di creatura; la nuova forma può essere di qualsiasi tipo a tua scelta con un grado di sfida pari o inferiore a quello del bersaglio (o al suo livello, se il bersaglio non possiede un Grado di Sfida). Le statistiche di gioco del bersaglio, inclusi i Punteggi di Caratteristica mentali, sono sostituite dalle statistiche della nuova forma. Il bersaglio conserva il proprio Allineamento e la propria personalità.</p><p>Il bersaglio assume i punti ferita della nuova forma e, quando ritorna alla forma normale, torna al numero di Punti Ferita che possedeva prima della trasformazione. Se ritorna alla forma normale perché scende a 0 punti ferita, gli eventuali danni in eccesso si trasferiscono alla forma normale. Finché i danni in eccesso non riducono a 0 i punti ferita della forma normale della creatura, essa non cade &amp;reference[Unconscious apply=false].</p><p>Le Azioni che la creatura può effettuare sono limitate dalla natura della sua nuova forma e la creatura non può parlare, lanciare Incantesimi o effettuare qualsiasi altra azione che richieda mani o parola, a meno che la nuova forma non sia in grado di effettuare tali Azioni.</p><p>L'equipaggiamento del bersaglio si fonde nella nuova forma. La creatura non può attivare, usare o impugnare alcun suo Equipaggiamento, né trarne beneficio in altro modo.</p>",
       "system.activities.gEBSNPjhtGsBtHCx.description.value": "<p>Puoi trasformare un oggetto in qualsiasi tipo di creatura, purché la taglia della creatura non superi quella dell'oggetto e il suo Grado di Sfida sia pari o inferiore a 9. La creatura è amichevole nei confronti tuoi e dei tuoi compagni. Agisce in ognuno dei tuoi turni. Decidi quale azione effettua e come si muove. Il DM possiede le Statistiche della creatura e risolve tutte le sue Azioni e il suo Movimento.</p><p>Se l'incantesimo diventa permanente, non controlli più la creatura. In base a come l'hai trattata, potrebbe rimanere amichevole nei tuoi confronti.</p>"
+    },
+    "hDOENzjuj5WpLq7B": {
+      "effects[nxfOXuxeCg02WVId].description": "<p>Sei &amp;reference[charmed apply=false] dall'incantatore per la durata dell'incantesimo. Se l'incantatore o uno dei suoi alleati ti fa del male, l'incantesimo termina.</p>"
+    },
+    "95K2aUhAGV9qXjnf": {
+      "effects[potjmpJPeUA1U4oe].description": "<p>Ogni volta che effettui un tiro per colpire o un tiro salvezza prima che l'incantesimo termini, devi tirare un d4 e sottrarre il numero ottenuto dal tiro per colpire o dal tiro salvezza.</p>"
+    },
+    "8dzaICjGy6mTUaUr": {
+      "effects[8rP3gwmXVTgZqYZE].description": "<p>Ogni volta che effettui un tiro per colpire o un tiro salvezza prima che l'incantesimo termini, puoi tirare 1d4 e aggiungere il numero ottenuto al tiro per colpire o al tiro salvezza.</p>"
+    },
+    "eS7XnnApoxRxYXPs": {
+      "effects[1QhUB3231btaCO0b].description": "<p>Sei &amp;reference[Charmed apply=false] dall'incantatore finché l'incantesimo non termina. Consideri l'incantatore una conoscenza amichevole. Quando l'incantesimo termina, sai di essere stato affascinato.</p>"
+    },
+    "LWTUqKkUQdMAmOe0": {
+      "effects[eDXjhC3F3I0x2fUd].description": "<p>Sei &amp;reference[blinded apply=false] finché l'incantesimo non termina.</p>"
+    },
+    "arzCrMRgcNiQuh43": {
+      "effects[QLQX2Eg3yw7LZwKa].description": "<p>Hai ricevuto un comando e devi eseguirlo nel tuo turno successivo.</p>"
+    },
+    "gMrWeG8fMDPRFiVe": {
+      "effects[fO14IutGR3Hrepun].description": "<p>Sei &amp;reference[Restrained apply=false] dai Vegetali avviluppanti finché l'incantesimo non termina. Finché sei trattenuto dai vegetali, puoi usare la tua azione per effettuare una [[/check str]] contro la CD del tiro salvezza dell'incantesimo dell'incantatore. Se la superi, ti liberi.</p>"
+    },
+    "nqBDWkVOfcGZt4YU": {
+      "effects[4A91A48gBwBPPRwO].description": "<p>Sei delineato da una luce che proietta &amp;reference[dim light] entro un raggio di 3 metri.</p><p>Qualsiasi tiro per colpire contro di te dispone di vantaggio se l'attaccante può vederti e non puoi beneficiare dell'essere &amp;reference[invisible apply=false].</p>"
+    },
+    "7e3QXF10hLNDEdr6": {
+      "effects[fYF3Na2tHtDcgC6j].description": "<p>Ottieni Punti Ferita Temporanei per la durata di questo incantesimo.</p>"
+    },
+    "pub0OWVEB71XQx1n": {
+      "effects[gMdi8F2ylxkgG58U].description": "<p>La tua velocità di caduta rallenta a 18 metri per round finché l'incantesimo non termina. Se atterri prima che l'incantesimo termini, non subisci danni da caduta e puoi atterrare in piedi, e l'incantesimo termina per te.</p>"
+    },
+    "7buEm5KhI5lP8m1z": {
+      "effects[hf1g2XNPqQFMw35j].description": "<p>Il prossimo tiro per colpire effettuato contro di te prima della fine del turno successivo dell'incantatore dispone di vantaggio grazie alla mistica luce fioca che scintilla su di te.</p>"
+    },
+    "ge3Saet9zPTDyaoL": {
+      "effects[c4iy2EIj29eRA2qq].description": "<p>Sei stato pervaso di coraggio. Finché l'incantesimo non termina, sei immune all'essere &amp;reference[Frightened apply=false] e ottieni Punti Ferita Temporanei pari al modificatore della caratteristica da Incantatore dell'incantatore all'inizio di ogni tuo turno. Quando l'incantesimo termina, perdi tutti i punti ferita temporanei rimanenti conferiti da questo incantesimo.</p>"
+    },
+    "BQk5Row4NymMnUQl": {
+      "effects[58BFwcwzLrqeODxs].description": "<p>Percepisci ogni cosa come irresistibilmente divertente e sei scosso da accessi di risa. Sei &amp;reference[Incapacitated apply=false] e incapace di rialzarti per la Durata.</p><p>Alla fine di ogni tuo turno e ogni volta che subisci danni puoi effettuare un altro tiro salvezza su Saggezza. Disponi di vantaggio al tiro salvezza se è innescato dai danni. Se lo superi, l'incantesimo termina.</p>"
+    },
+    "0xmXiPiuYws1OGcX": {
+      "effects[kvWA9VXTXLNvjBIn].description": "<p>Sei stato designato magicamente come preda dell'incantatore. Finché l'incantesimo non termina, l'incantatore ti infligge 1d6 danni extra ogni volta che ti colpisce con un attacco con un'arma e dispone di vantaggio a ogni prova di Saggezza (Percezione) o Saggezza (Sopravvivenza) effettuata per trovarti.</p>"
+    },
+    "ZrTc23tToJ0JpH2h": {
+      "effects[8ikEvNdNDRE9VJss].description": "<p>La distanza dei tuoi &amp;reference[jumping]{salti} è triplicata finché l'incantesimo non termina.</p>"
+    },
+    "B0pnIcc52O6G8hi8": {
+      "effects[hfN31FqOkSYoQVz3].description": "<p>La tua velocità aumenta di 3 metri finché l'incantesimo non termina.</p>"
+    },
+    "gvdA9nPuWLck4tBl": {
+      "effects[DxExOr8qiUQ1RQbF].description": "<p>Sei stato protetto dagli attacchi. Finché l'incantesimo non termina, qualsiasi creatura che ti bersagli con un attacco o un incantesimo nocivo deve prima effettuare un tiro salvezza su Saggezza. Se lo fallisce, la creatura deve scegliere un nuovo bersaglio o perdere l'attacco o l'incantesimo. Questo incantesimo non ti protegge dagli effetti ad area, come l'esplosione di una @UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{Palla di Fuoco}.</p><p>Se effettui un attacco o lanci un incantesimo che influenza una creatura nemica, questo incantesimo termina.</p>"
+    },
+    "KhwiSi9fwVfUPtku": {
+      "effects[MowBnXpRu2aG48i9].description": "<p>Sei caduto &amp;reference[Unconscious apply=faklse] finché l'incantesimo non termina, finché non subisci danni o finché qualcuno non usa un'azione per scuoterti o schiaffeggiarti fino a svegliarti.</p>"
+    },
+    "X8w9EzYLGc4vQ1H2": {
+      "effects[VhzMbGyk40slfgl8].description": "<p>Ti è stato ordinato di consegnare un messaggio a un bersaglio specifico in un luogo che ti è stato descritto. Per la durata di questo incantesimo viaggi verso il luogo specificato, percorrendo circa 37,5 km ogni 24 ore, o circa 75 km ogni 24 ore se sei un messaggero volante.</p><p>Quando arrivi, consegni il messaggio al bersaglio riproducendo il suono della voce dell'incantatore.</p>"
+    },
+    "UDUnlfPsOAbq2RSE": {
+      "effects[X4jof8gIhjMeaX9E].description": "<p>Il tuo corpo è diventato sfocato, mutevole e tremolante agli occhi di chiunque possa vederti. Per la durata, qualsiasi creatura dispone di svantaggio ai tiri per colpire contro di te. Un attaccante è immune a questo effetto se non si affida alla vista, come nel caso di &amp;reference[blindsight], o se può vedere attraverso le illusioni, come nel caso di &amp;reference[truesight].</p>"
     }
   }
 }
