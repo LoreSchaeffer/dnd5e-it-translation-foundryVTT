@@ -9,12 +9,13 @@ function record(activities) {
 
 test("translates only exact activity names and addresses them by stable ID", () => {
   const source = record({
-    cast1: { _id: "cast1", name: "Cast" },
+    cast1: { _id: "cast1", name: "Cast", roll: { name: "Blink Check" } },
     drink1: { _id: "drink1", name: "Drink" }
   });
 
-  assert.deepEqual(activityNameOverrides(source, {}, { Cast: "Lancia" }), {
-    "system.activities.cast1.name": "Lancia"
+  assert.deepEqual(activityNameOverrides(source, {}, { Cast: "Lancia", "Blink Check": "Tiro per Intermittenza" }), {
+    "system.activities.cast1.name": "Lancia",
+    "system.activities.cast1.roll.name": "Tiro per Intermittenza"
   });
 });
 

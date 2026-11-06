@@ -42,6 +42,9 @@
       "activities": {
         "X0GF7y4MP282Nvlx": {
           "name": "Lancia"
+        },
+        "DD8lxW9OUprGPLts": {
+          "name": "Danni Aggiuntivi a Fine Turno"
         }
       }
     },
@@ -121,7 +124,12 @@
           "name": "Lancia"
         },
         "Sb7lnASL8TCju9pO": {
-          "name": "Trasformati in Bestia"
+          "name": "Trasformati in Bestia",
+          "profiles": {
+            "UOffAoTyyX85HMwu": {
+              "name": "Forma Animale"
+            }
+          }
         }
       }
     },
@@ -132,6 +140,9 @@
       "activities": {
         "jfnuqBcbOWUzfyTU": {
           "name": "Lancia: Riafferma il Controllo"
+        },
+        "slTKkuzJMunnfkAs": {
+          "name": "Lancia: Anima Resti"
         }
       }
     },
@@ -170,6 +181,9 @@
       "activities": {
         "sH3vDAnrbbd65Agz": {
           "name": "Lancia"
+        },
+        "ITL3quDlYj3grSZz": {
+          "name": "Tiro Salvezza per Terminare l'Effetto"
         }
       }
     },
@@ -181,7 +195,12 @@
     "Arcane Hand": {
       "name": "Mano di Bigby",
       "description": "<p>L'incantatore crea una mano di forza scintillante e trasparente di taglia Grande in uno spazio libero entro gittata e che egli sia in grado di vedere.</p>\n<p>La mano permane per la durata dell'incantesimo e si muove a comando dell'incantatore, imitando i movimenti della sua mano.</p>\n<p>La mano &egrave; un oggetto con:</p>\n<ul>\n<li>CA 20</li>\n<li>punti ferita&nbsp;pari al massimo dei punti ferita dell'incantatore (se scende a 0 punti ferita l'incantesimo termina)</li>\n<li>Forza 26 (+8)</li>\n<li>Destrezza 10 (+0)</li>\n<li>La mano&nbsp;non riempie&nbsp;il proprio spazio</li>\n</ul>\n<p>Quando l'incantatore lancia l'incantesimo e come azione bonus nei suoi turni successivi, pu&ograve; muovere la mano fino a un massimo di 18 metri e poi causare uno degli effetti seguenti a essa associati:</p>\n<ul>\n<li><strong>Mano Interposta.</strong>&nbsp;La mano si frappone tra l'incantatore e una creatura a sua scelta finch&eacute; l'incantatore non impartisce alla mano un comando diverso. La mano si muove per rimanere tra l'incantatore e il bersaglio, fornendo all'incantatore met&agrave; copertura contro di esso. Il bersaglio non pu&ograve; muoversi attraverso lo spazio della mano se il suo unteggio di Forza &egrave; pari o inferiore al punteggio di Forza della mano. Se il punteggio di Forza del bersaglio &egrave; superiore a quello della mano, il bersaglio pu&ograve; muoversi verso l'incantatore passando attraverso lo spazio della mano, ma quello spazio &egrave; considerato terreno difficile per il bersaglio.</li>\n<li><strong>Mano Possente.</strong>&nbsp;La mano tenta di spingere una creatura situata entro 1,5 metri da essa in una direzione a scelta dell'incantatore. Quest'ultimo effettua una prova con la Forzas della mano contrapposta alla prova di Forza (Atletica) del bersaglio. Se il bersaglio &egrave; di taglia Media o inferiore, l'incantatore dispone di vantaggio alla prova. Se ha successo, la mano spinge il bersaglio fino a una distanza pari a 1,5 metri pi&ugrave; altri 1,5 metri per ogni punto del suo modificatore di caratteristica da incantatore. La mano si muove assieme al bersaglio in modo da rimanere a 1,5 metri da esso.</li>\n<li><strong>Mano Stritolatrice.</strong>&nbsp;La mano tenta di afferrare una creatura di taglia Enorme o inferiore situata entro 1,5 metri da essa. L'incantatore usa il punteggio di Forza della mano per la prova di lotta. Se il bersaglio &egrave; di taglia Media o inferiore, l'incantatore dispone di vantaggio alla prova. Finch&eacute; la mano afferra il bersaglio, l'incantatore pu&ograve; usare un'azione bonus per ordinare alla mano di stritolarlo. Quando lo fa, il bersaglio subisce danni contundenti pari a 2d6 + il modificatore di caratteristica da incantatore.</li>\n<li><strong>Pugno Serrato</strong>.&nbsp;La mano colpisce una creatura o un oggetto situato entro 1,5 metri da essa. L'incantatore effettua un attacco in mischia con questo incantesimo per la mano usando le proprie statistiche di gioco. Se l'attacco colpisce, il bersaglio subisce 4d8 danni da forza.</li>\n</ul>\n<p><strong>Ai Livelli Superiori.</strong>&nbsp;Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 6&deg; livello o superiore, i danni dell'opzione della mano stritolatrice aumentano di 2d6 e quelli di pugno serrato aumentano di 2d8 per ogni slot di livello superiore al 5&deg;.</p>",
-      "materials": "un guscio d'uovo e un guanto di pelle di serpente"
+      "materials": "un guscio d'uovo e un guanto di pelle di serpente",
+      "activities": {
+        "dnd5eactivity000": {
+          "name": "Evoca Mano"
+        }
+      }
     },
     "Arcane Lock": {
       "name": "Serratura Arcana",
@@ -196,7 +215,12 @@
     "Arcane Sword": {
       "name": "Spada di Mordenkainen",
       "description": "<p>L'incantatore crea un piano di forza a forma di spada che fluttua entro gittata e permane per la durata dell'incantesimo.</p><p>Quando la spada appare, l'incantatore effettua un attacco in mischia con questo incantesimo contro un bersaglio a sua scelta situato entro 1,5 metri dalla spada. Se lo colpisce, il bersaglio subisce 3d10 danni da forza. Finch&eacute; l'incantesimo non termina, l'incantatore pu&ograve; usare un'azione bonus a ogni suo turno per muovere la spada di un massimo di 6 metri ino a un punto che egli sia in grado di vedere e ripetere questo attacco contro lo stesso bersaglio o un bersaglio diverso.</p>",
-      "materials": "una spada di platino in miniatura dall'impugnatura e dal pomolo di rame e di zinco, del valore di 250 mo"
+      "materials": "una spada di platino in miniatura dall'impugnatura e dal pomolo di rame e di zinco, del valore di 250 mo",
+      "activities": {
+        "pK9UiWSr9drFEaEE": {
+          "name": "Muovi Spada e Attacca"
+        }
+      }
     },
     "Arcanist's Magic Aura": {
       "name": "Aura Magica di Nystul",
@@ -235,6 +259,12 @@
       "activities": {
         "dnd5eactivity000": {
           "name": "Lancia"
+        },
+        "b5iPh46R9gB3qp7N": {
+          "name": "Risveglia Vegetale"
+        },
+        "0JxiXLKM5oNcaHhD": {
+          "name": "Risveglia Bestia"
         }
       }
     },
@@ -298,12 +328,26 @@
       "activities": {
         "KIaQMflFsm0wjCzT": {
           "name": "Lancia"
+        },
+        "dnd5eactivity000": {
+          "name": "Tentacoli Intrappolanti"
         }
       }
     },
     "Blade Barrier": {
       "name": "Barriera di Lame",
-      "description": "<p>L'incantatore crea un muro verticale di lame affilate turbinanti, fatte di energia magica. li muro appare entro gittata e permane per la durata dell'incantesimo. L'incantatore può creare un muro in linea retta lungo fino a 30 metri, alto 6 metri e spesso 1,5 metri, oppure un muro circolare del diametro massimo di 18 metri, alto 6 metri e spesso 1,5 metri. fl muro fornisce tre quarti di copertura alle creature dietro di esso e il suo spazio è considerato terreno difficile.</p><p>Quando una creatura entra nell'area del muro per la Prima volta in un turno o vi inizia il proprio turno, essa deve superare, un tiro salvezza su Destrezza. Se lo fallisce, subisce 6d10 danni taglienti, mentre se lo supera, subisce soltanto la metà di quei danni.</p>"
+      "description": "<p>L'incantatore crea un muro verticale di lame affilate turbinanti, fatte di energia magica. li muro appare entro gittata e permane per la durata dell'incantesimo. L'incantatore può creare un muro in linea retta lungo fino a 30 metri, alto 6 metri e spesso 1,5 metri, oppure un muro circolare del diametro massimo di 18 metri, alto 6 metri e spesso 1,5 metri. fl muro fornisce tre quarti di copertura alle creature dietro di esso e il suo spazio è considerato terreno difficile.</p><p>Quando una creatura entra nell'area del muro per la Prima volta in un turno o vi inizia il proprio turno, essa deve superare, un tiro salvezza su Destrezza. Se lo fallisce, subisce 6d10 danni taglienti, mentre se lo supera, subisce soltanto la metà di quei danni.</p>",
+      "activities": {
+        "dnd5eactivity000": {
+          "name": "Tiro Salvezza al Contatto con la Parete"
+        },
+        "mhpt8uRwMGXNYABF": {
+          "name": "Evoca Barriera di Lame (Parete)"
+        },
+        "HhAJblQ0avFAY3Eg": {
+          "name": "Evoca Barriera di Lame (Parete Circolare)"
+        }
+      }
     },
     "Bless": {
       "name": "Benedizione",
@@ -343,7 +387,10 @@
       "description": "<p>L'incantatore tira un d20 alla fine di ogni suo turno per la durata dell'incantesimo. Con un risultato pari o superiore a 11, svanisce dal suo piano di esistenza attuale e compare sul Piano Etereo (se l'incantatore già si trovava su quel piano, l'incantesimo non funziona e il lancio va sprecato). All'inizio del turno successivo, e quando l'incantesimo termina se l'incantatore si trova sul Piano Etereo, l'incantatore torna su uno spazio libero a sua scelta, situato entro 3 metri dallo spazio da cui è svanito e che egli sia in grado di vedere.</p><p>Se nessuno spazio è disponibile entro quella gittata, l'incantatore appare nello spazio libero più vicino (determinato casualmente se più spazi liberi si trovano a pari distanza). L'incantatore può terminare questo incantesimo con un'azione.</p>",
       "activities": {
         "Vw0IvqP9k2jfsu8n": {
-          "name": "Tiro per Intermittenza"
+          "name": "Tiro per Intermittenza",
+          "roll": {
+            "name": "Tiro per Intermittenza"
+          }
         },
         "16QEMgsGT7SpSMTD": {
           "name": "Lancia"
@@ -370,6 +417,9 @@
       "activities": {
         "Ke2wZRoRCFxmiHJb": {
           "name": "Lancia"
+        },
+        "dnd5eactivity000": {
+          "name": "Danni Bonus se Colpisce"
         }
       }
     },
@@ -391,6 +441,9 @@
         },
         "DbENrGJ4INjSxR6p": {
           "name": "Lancia"
+        },
+        "eMwCeO9hr0fOnDJx": {
+          "name": "Fulmine (Tempesta Preesistente)"
         }
       }
     },
@@ -477,6 +530,9 @@
       "activities": {
         "TZbalnzHWqMyAmA6": {
           "name": "Lancia"
+        },
+        "dnd5eactivity000": {
+          "name": "Tiro Salvezza all'Ingresso / a Inizio Turno"
         }
       }
     },
@@ -555,6 +611,12 @@
       "activities": {
         "dnd5eactivity000": {
           "name": "Lancia"
+        },
+        "qke4TeKUX3koQVvv": {
+          "name": "Comanda Creature"
+        },
+        "J8w3t1ZIa72KHHIu": {
+          "name": "Ripeti Tiro Salvezza (Dopo il Comando)"
         }
       }
     },
@@ -575,6 +637,9 @@
       "activities": {
         "dnd5eactivity000": {
           "name": "Lancia"
+        },
+        "dnd5eactivity300": {
+          "name": "Tira sulla Tabella Confusione"
         }
       }
     },
@@ -584,7 +649,12 @@
     },
     "Conjure Celestial": {
       "name": "Evoca Celestiale",
-      "description": "<p>L'incantatore evoca un celestiale con grado sfida 4 o inferiore, che appare in uno spazio&nbsp;non occupato che sia visibile all'incantatore&nbsp;ed entro gittata. Il celestiale scompare se ridotto a 0 punti ferita o alla fine dell'incantesimo.</p><p>Il celestiale è amichevole nei confronti dell'incantatore e dei suoi alleati. L'incantatore tira per l'iniziativa del celestiale, che ha i propri turni. Il celestiale obbedisce ai comandi verbali impartiti dall'incantatore (nessuna azione richiesta), fintanto che questi non vadano contro il suo allineamento. Se l'incantatore non impartisce un comando, il celestiale si difende da eventuali altre creature ostili, ma altrimenti non intraprende alcuna azione. Il DM possiede&nbsp;le statistiche del celestiale.</p><p><strong>Ai Livelli Superiori.</strong>&nbsp;Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 9° livello, può evocare un celestiale con grado sfida 5 o inferiore.</p>"
+      "description": "<p>L'incantatore evoca un celestiale con grado sfida 4 o inferiore, che appare in uno spazio&nbsp;non occupato che sia visibile all'incantatore&nbsp;ed entro gittata. Il celestiale scompare se ridotto a 0 punti ferita o alla fine dell'incantesimo.</p><p>Il celestiale è amichevole nei confronti dell'incantatore e dei suoi alleati. L'incantatore tira per l'iniziativa del celestiale, che ha i propri turni. Il celestiale obbedisce ai comandi verbali impartiti dall'incantatore (nessuna azione richiesta), fintanto che questi non vadano contro il suo allineamento. Se l'incantatore non impartisce un comando, il celestiale si difende da eventuali altre creature ostili, ma altrimenti non intraprende alcuna azione. Il DM possiede&nbsp;le statistiche del celestiale.</p><p><strong>Ai Livelli Superiori.</strong>&nbsp;Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 9° livello, può evocare un celestiale con grado sfida 5 o inferiore.</p>",
+      "activities": {
+        "dnd5eactivity000": {
+          "name": "Evoca Celestiale"
+        }
+      }
     },
     "Conjure Elemental": {
       "name": "Evoca Elementale",
@@ -593,12 +663,20 @@
       "activities": {
         "u2Mpx2VgG37KaZHL": {
           "name": "Lancia"
+        },
+        "dnd5eactivity000": {
+          "name": "Evoca Elementale"
         }
       }
     },
     "Conjure Fey": {
       "name": "Evoca Folletto",
-      "description": "<p>L'incantatore evoca un folletto con grado di sfida pari o inferiore a 6 o uno spirito fatato che assume la forma di una bestia con grado di sfida pari o inferiore a 6. Il folletto appare in uno spazio libero entro gittata e che l'incantatore sia in grado di vedere. Il folletto scompare quando scende a 0 punti ferita o quando l'incantesimo termina.</p><p>Il folletto &egrave; amichevole nei confronti dell'incantatore e dei suoi compagni per la durata dell'incantesimo. Si tira per l'iniziativa del folletto, che svolge i propri turni. Obbedisce ai comandi verbali impartiti dall'incantatore (nessuna azione richiesta). Se l'incantatore non gli impartisce un comando, il folletto si difende da eventuali altre creature ostili, ma altrimenti non intraprende alcuna azione.</p><p>Se la concentrazione dell'incantatore &egrave; interrotta, il folletto non scompare. L'incantatore perde invece il controllo del folletto, che diventa ostile nei suoi confronti e nei confronti dei suoi compagni e li potrebbe attaccare. Un folletto privo di controllo non pu&ograve; essere congedato dall'incantatore e sompare 1 ora dopo essere stato evocato. Il DM &egrave; in possesso delle statistiche del folletto.</p><p><strong>Ai Livelli Superiori.</strong>&nbsp;Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 7&deg; livello o superiore, il grado di sfida aumenta di 1 per ogni slot di livello superiore al 6&deg;.</p>"
+      "description": "<p>L'incantatore evoca un folletto con grado di sfida pari o inferiore a 6 o uno spirito fatato che assume la forma di una bestia con grado di sfida pari o inferiore a 6. Il folletto appare in uno spazio libero entro gittata e che l'incantatore sia in grado di vedere. Il folletto scompare quando scende a 0 punti ferita o quando l'incantesimo termina.</p><p>Il folletto &egrave; amichevole nei confronti dell'incantatore e dei suoi compagni per la durata dell'incantesimo. Si tira per l'iniziativa del folletto, che svolge i propri turni. Obbedisce ai comandi verbali impartiti dall'incantatore (nessuna azione richiesta). Se l'incantatore non gli impartisce un comando, il folletto si difende da eventuali altre creature ostili, ma altrimenti non intraprende alcuna azione.</p><p>Se la concentrazione dell'incantatore &egrave; interrotta, il folletto non scompare. L'incantatore perde invece il controllo del folletto, che diventa ostile nei suoi confronti e nei confronti dei suoi compagni e li potrebbe attaccare. Un folletto privo di controllo non pu&ograve; essere congedato dall'incantatore e sompare 1 ora dopo essere stato evocato. Il DM &egrave; in possesso delle statistiche del folletto.</p><p><strong>Ai Livelli Superiori.</strong>&nbsp;Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 7&deg; livello o superiore, il grado di sfida aumenta di 1 per ogni slot di livello superiore al 6&deg;.</p>",
+      "activities": {
+        "dnd5eactivity000": {
+          "name": "Evoca Folletto"
+        }
+      }
     },
     "Conjure Minor Elementals": {
       "name": "Evoca Elementali Minori",
@@ -624,6 +702,12 @@
       "activities": {
         "dSOAotUiZwU8xIlV": {
           "name": "Lancia"
+        },
+        "WWmYQQAcFBcp9BgI": {
+          "name": "Tiro Salvezza contro Malattia"
+        },
+        "JHDzsuyXxSyhdNM6": {
+          "name": "Applica Malattia"
         }
       }
     },
@@ -649,6 +733,9 @@
       "activities": {
         "dnd5eactivity000": {
           "name": "Lancia"
+        },
+        "AHnTfgcTLyMZLPNS": {
+          "name": "Lancia (Evoca Fiamma Perenne sull'Oggetto)"
         }
       }
     },
@@ -659,6 +746,21 @@
       "activities": {
         "fXJqNRirIlkLmU1Q": {
           "name": "Lancia"
+        },
+        "3uKDmmkF8irChzl6": {
+          "name": "Inondazione"
+        },
+        "bgxFEFucjRRDxtIr": {
+          "name": "Separa Acqua"
+        },
+        "tcZLcPr3nsDOEaiC": {
+          "name": "Devia Flusso"
+        },
+        "HneTMN8U6QKaRU7B": {
+          "name": "Vortice"
+        },
+        "BTnvB5e4TEPEgZaS": {
+          "name": "Vortice (Tiro Salvezza a Inizio Turno)"
         }
       }
     },
@@ -671,7 +773,10 @@
           "name": "Lancia"
         },
         "2vQLk7ux8nGczdj2": {
-          "name": "Avvia il Cambiamento Climatico"
+          "name": "Avvia il Cambiamento Climatico",
+          "roll": {
+            "name": "Tempo Richiesto (Minuti)"
+          }
         }
       }
     },
@@ -699,10 +804,19 @@
       "materials": "Una goccia d'acqua per creare l'acqua o alcuni granelli di sabbia per distruggerla",
       "activities": {
         "YLVe1YsiyNBUxjXx": {
-          "name": "Crea Acqua"
+          "name": "Crea Acqua",
+          "roll": {
+            "name": "Litri d'Acqua Creati"
+          }
         },
         "irIydyXyiUPVWhfg": {
-          "name": "Distruggi Acqua"
+          "name": "Distruggi Acqua",
+          "roll": {
+            "name": "Litri d'Acqua Distrutti"
+          }
+        },
+        "HOXAFi1SQnPzdJ6E": {
+          "name": "Distruggi Nebbia"
         }
       }
     },
@@ -713,6 +827,9 @@
       "activities": {
         "3zXKdZYunkVxWMeN": {
           "name": "Lancia: Riafferma il Controllo"
+        },
+        "dnd5eactivity000": {
+          "name": "Lancia Animare Resti"
         }
       }
     },
@@ -738,7 +855,12 @@
     "Dancing Lights": {
       "name": "Luci Danzanti",
       "description": "<p>L'incantatore crea fino a quattro luci delle dimensioni di una torcia, facendole apparire come lanterne, torce o globi luminosi che fluttuano nell'aria per la durata dell'incantesimo. L'incantatore può anche fondere le quattro luci in un'unica forma luminosa vagamente umanoide di taglia Media. Qualunque sia la forma scelta, ogni luce proietta luce fioca entro un raggio di 3 metri.</p><p>Come azione bonus nel suo turno, l'incantatore può muovere le luci di un massimo di 18 metri fino a un nuovo punto entro gittata. &nbsp; Ogni luce deve trovarsi entro 6 metri da un'altra luce creata da questo incantesimo; una luce si spegne se esce dalla gittata dell'incantesimo.</p>",
-      "materials": "Un frammento di fosforo, di legno di faggio o una lucciola"
+      "materials": "Un frammento di fosforo, di legno di faggio o una lucciola",
+      "activities": {
+        "dnd5eactivity000": {
+          "name": "Evoca Luci"
+        }
+      }
     },
     "Darkness": {
       "name": "Oscurità",
@@ -752,6 +874,9 @@
       "activities": {
         "dnd5eactivity000": {
           "name": "Lancia"
+        },
+        "wTFlqIa1q030bdJe": {
+          "name": "Lancia (Evoca Oscurità sull'Oggetto)"
         }
       }
     },
@@ -781,6 +906,9 @@
       "activities": {
         "dnd5eactivity000": {
           "name": "Lancia"
+        },
+        "SrAIyQ5bcIehzgmX": {
+          "name": "Lancia (Evoca Luce Diurna sull'Oggetto)"
         }
       }
     },
@@ -875,6 +1003,12 @@
       "activities": {
         "4fEAJ03h9fqnI9qO": {
           "name": "Lancia"
+        },
+        "dnd5eactivity000": {
+          "name": "Sonda più a Fondo"
+        },
+        "ceF5r9EVkL64Cq0m": {
+          "name": "Individua Presenza"
         }
       }
     },
@@ -884,6 +1018,9 @@
       "activities": {
         "sIOWWHVlx6FC1kXH": {
           "name": "Lancia"
+        },
+        "dnd5eactivity000": {
+          "name": "Danni da Teletrasporto Fallito"
         }
       }
     },
@@ -914,6 +1051,15 @@
       "activities": {
         "knKM6trrjVLF3EOQ": {
           "name": "Lancia"
+        },
+        "5nYzFGATnggEH6oq": {
+          "name": "Spezza Ammaliamento"
+        },
+        "xlms51P5nGb9Rbc0": {
+          "name": "Attacco di Congedo"
+        },
+        "vtFdULsqeSCfhN7T": {
+          "name": "Tiro Salvezza contro Congedo"
         }
       }
     },
@@ -1006,6 +1152,9 @@
       "activities": {
         "WuuR0BgbhJSE7W66": {
           "name": "Lancia"
+        },
+        "dnd5eactivity000": {
+          "name": "Tiro Salvezza contro Incubo"
         }
       }
     },
@@ -1025,6 +1174,18 @@
       "activities": {
         "J2GoEuGZ1iEynVgD": {
           "name": "Lancia"
+        },
+        "M7H3M7MXUHpkDYsi": {
+          "name": "Tiro Salvezza contro Prono / Concentrazione"
+        },
+        "BKMYGE8ul9RaBNQd": {
+          "name": "Apri Fenditure"
+        },
+        "Yc7FnztObhVeuslM": {
+          "name": "Detriti Cadenti"
+        },
+        "xIIRL1ckzWTxHikd": {
+          "name": "Danni alla Struttura"
         }
       }
     },
@@ -1068,6 +1229,9 @@
       "activities": {
         "dnd5eactivity000": {
           "name": "Lancia"
+        },
+        "rh7ciGbrgpnnZ3B2": {
+          "name": "Prova per Sfuggire ai Vegetali"
         }
       }
     },
@@ -1114,6 +1278,9 @@
       "activities": {
         "NtvCfReyXVq619Kz": {
           "name": "Lancia"
+        },
+        "eLnw2b2iYJhBaQIY": {
+          "name": "Focalizza Sguardo"
         }
       }
     },
@@ -1143,7 +1310,12 @@
     "Faithful Hound": {
       "name": "Segugio Fedele di Mordenkainen",
       "description": "<p>L'incantatore evoca un cane da guardia fantasma in uno spazio libero entro gittata e che egli sia in grado di vedere. Il segugio rimarrà in quel punto per la durata dell'incantesimo, finché l'incantatore non lo congeda con un'azione o finché non si allontana a più di 30 metri dal segugio.</p><p>Il segugio è invisibile a tutte le creature tranne l'incantatore e non può essere danneggiato. Quando una creatura di taglia Piccola o superiore giunge entro 9 metri da esso senza pronunciare la parola d'ordine specificata dall'incantatore al momento del lancio dell'incantesimo, il segugio inizia a latrare a piena voce. Il segugio vede le creature invisibili, può vedere il Piano Etereo e ignora le illusioni.</p><p>All'inizio di ogni turno dell'incantatore, il segugio tenta di mordere una creatura situata entro 1,5 metri da lui e che sia ostile all'incantatore. &nbsp; Il bonus di attacco del segugio è pari al modificatore di caratteristica da incantatore + il bonus di competenza dell'incantatore. Se colpisce, infligge 4d8 danni perforanti.</p>",
-      "materials": "un fischietto d'argento, un pezzo d'osso e un filo"
+      "materials": "un fischietto d'argento, un pezzo d'osso e un filo",
+      "activities": {
+        "txlrVwlbaR355KwZ": {
+          "name": "Evoca Segugio"
+        }
+      }
     },
     "False Life": {
       "name": "Vita Falsata",
@@ -1208,7 +1380,16 @@
     "Find Familiar": {
       "name": "Trova Famiglio",
       "description": "<p data-parsoid=\"{&quot;dsr&quot;:[229,505,0,0]}\">L'incantatore ottiene il servizio di un famiglio, uno spirito che assume una forma animale a scelta dell'incantatore: cavalluccio marino, corvo, faina, falco, gatto, granchio, gufo, lucertola, pesce (quipper), piovra, pipistrello, ragno, rana (rospo), serpente velenoso, topo.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[507,720,0,0]}\">Il famiglio compare in uno spazio libero entro gittata e possiede le statistiche della forma scelta, anche se si tratta di un celestiale, un folletto o un immondo (a scelta dell'incantatore) anziché di una bestia.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[722,816,0,0]}\">Il famiglio agisce in modo indipendente dall'incantatore, ma obbedisce sempre ai suoi comandi.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[818,893,0,0]}\">In combattimento tira per la propria iniziativa e agisce nel proprio turno.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[895,968,0,0]}\">Un famiglio non può attaccare ma può effettuare altre azioni normalmente.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[970,1069,0,0]}\">Quando il famiglio scende a 0 punti ferita, scompare e non lascia dietro di sé alcuna forma fisica.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1071,1144,0,0]}\">Ricompare dopo che l'incantatore ha lanciato di nuovo questo incantesimo.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1146,1565,0,0]}\">Finché il famiglio si trova entro 30 metri dall'incantatore, quest'ultimo può comunicare con lui telepaticamente. Inoltre, con un'azione, l'incantatore può vedere attraverso gli occhi del famiglio e sentire ciò che esso sente fino all'inizio del proprio turno successivo, beneficiando degli eventuali sensi speciali posseduti dal famiglio. Durante questo periodo, l'incantatore è sordo e cieco ai fini dei propri sensi.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1567,1773,0,0]}\">Con un'azione, l'incantatore può temporaneamente congedare il suo famiglio, che scompare in una sacca dimensionale dove attende di essere richiamato. In alternativa, l'incantatore può congedarlo per sempre.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1775,1916,0,0]}\">Con un'azione, finché il famiglio è congedato temporaneamente, l'incantatore può farlo ricomparire in uno spazio libero entro 9 metri da lui.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1918,1977,0,0]}\">Un incantatore non può avere più di un famiglio alla volta.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1979,2164,0,0]}\">Se lancia questo incantesimo quando già possiede un famiglio, impartisce a quel famiglio una nuova forma, scelta dalla lista soprastante. Il famiglio si trasforma nella creatura scelta.</p>\n<p>&nbsp;</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[2166,2579,0,0]}\">Infine, quando l'incantatore lancia un incantesimo con gittata a contatto, il famiglio può trasmettere l'incantesimo come se fosse stato lui a lanciarlo. Il famiglio deve trovarsi entro 30 metri dall'incantatore e deve usare la sua reazione per trasmettere l'incantesimo quando l'incantatore lo lancia. Se l'incantesimo richiede un tiro per colpire, l'incantatore usa il suo modificatore di attacco per quel tiro.</p>",
-      "materials": "carbone, incenso ed erbe del valore di 10 mo da bruciare in un braciere d'ottone"
+      "materials": "carbone, incenso ed erbe del valore di 10 mo da bruciare in un braciere d'ottone",
+      "activities": {
+        "dnd5eactivity000": {
+          "profiles": {
+            "kaiiJrnUWOqlQHt3": {
+              "name": "Pesci"
+            }
+          }
+        }
+      }
     },
     "Find Steed": {
       "name": "Trova Cavalcatura",
@@ -1244,6 +1425,9 @@
       "activities": {
         "dnd5eactivity000": {
           "name": "Lancia"
+        },
+        "MCAsmHQ4ZyHKOcIG": {
+          "name": "Rianima Zombie"
         }
       }
     },
@@ -1263,6 +1447,9 @@
       "activities": {
         "VLiORaUHLfkPgaNW": {
           "name": "Lancia"
+        },
+        "dnd5eactivity000": {
+          "name": "Danni di Ritorsione dello Scudo"
         }
       }
     },
@@ -1292,6 +1479,9 @@
       "activities": {
         "Wj7GiWyEQQKGdYol": {
           "name": "Lancia"
+        },
+        "rUOzC7j6wRPm8fpO": {
+          "name": "Evoca Lama Infuocata in Mano"
         }
       }
     },
@@ -1303,7 +1493,15 @@
     "Flaming Sphere": {
       "name": "Sfera Infuocata",
       "description": "<p>Una sfera di fuoco del diametro di 1,5 metri appare in uno spazio libero a scelta dell'incantatore, situato entro gittata, dove permane per la durata dell'incantesimo. Ogni creatura che termina il suo turno entro 1,5 metri dalla sfera deve effettuare un tiro salvezza su Destrezza. Se lo fallisce, subisce 2d6 danni da fuoco, mentre se lo supera, subisce soltanto la met&agrave; di quei danni.</p><p>Con un'azione bonus, l'incantatore pu&ograve; muovere la sfera di un massimo di 9 metri. Se urta una creatura con la sfera, quella creatura deve effettuare il tiro salvezza contro i danni della sfera e la sfera non pu&ograve; muoversi ulteriormente per quel turno.</p><p>Quando l'incantatore muove la sfera, pu&ograve; dirigerla oltre le barriere alte fino a 1,5 metri e farla saltare oltre le fosse larghe fino a 3 metri. La sfera incendia gli oggetti infiammabili che non sono indossati e trasportati e proietta luce intensa entro un raggio di 6 metri e luce fioca per altri 6 metri. &nbsp;</p><p><strong>Ai Livelli Superiori.&nbsp;</strong>Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 3&deg; livello o superiore, i danni aumentano di 1d6 per ogni slot di livello superiore al 2&deg;.</p>",
-      "materials": "un frammento di sego, un pizzico di zolfo e una manciata di polvere di ferro"
+      "materials": "un frammento di sego, un pizzico di zolfo e una manciata di polvere di ferro",
+      "activities": {
+        "AdvbemIjfAfOL9OU": {
+          "name": "Evoca Sfera"
+        },
+        "Abi8r6ArCkjaIPUs": {
+          "name": "Fai Rotolare la Sfera"
+        }
+      }
     },
     "Flesh to Stone": {
       "name": "Carne in Pietra",
@@ -1320,6 +1518,9 @@
       "activities": {
         "J3DB2z7n1E9Ey0Qx": {
           "name": "Lancia"
+        },
+        "ZLjky0SAN3L2Afkr": {
+          "name": "Tiro Salvezza contro Pietrificazione"
         }
       }
     },
@@ -1359,6 +1560,9 @@
       "activities": {
         "dnd5eactivity000": {
           "name": "Lancia"
+        },
+        "Up77HBN5zOPc1n4L": {
+          "name": "Danni alla Creatura Proibita"
         }
       }
     },
@@ -1429,6 +1633,9 @@
       "activities": {
         "MK80gFeRLzsr2PUJ": {
           "name": "Lancia"
+        },
+        "lFO5S0pA2P2d5GpZ": {
+          "name": "Evoca Creatura"
         }
       }
     },
@@ -1496,6 +1703,12 @@
       "activities": {
         "ZLkktrcLmi0naPRC": {
           "name": "Lancia"
+        },
+        "Kn7He91921d5pTio": {
+          "name": "Tiro Salvezza contro Runa Esplosiva"
+        },
+        "x7zjmSoY9DWaiMhP": {
+          "name": "Glifo di Incantesimo Attivato"
         }
       }
     },
@@ -1516,6 +1729,9 @@
       "activities": {
         "dnd5eactivity000": {
           "name": "Lancia"
+        },
+        "OiCc4lVFXS0vkFhf": {
+          "name": "Tiro Salvezza all'Ingresso / a Fine Turno nel Grasso"
         }
       }
     },
@@ -1540,7 +1756,15 @@
     },
     "Guardian of Faith": {
       "name": "Guardiano della Fede",
-      "description": "<p>Un guardiano spettrale Grande compare e fluttua per la durata dell'incantesimo in uno spazio libero a scelta dell'incantatore situato entro gittata e che egli sia in grado di vedere. Il guardiano occupa quello spazio ed è sfocato, ad eccezione di una spada scintillante e uno scudo decorati con il simbolo della divinità dell'incantatore.</p><p>Ogni creatura ostile all'incantatore che si muova fino a uno spazio entro 3 metri dal guardiano per la prima volta in un turno deve superare un tiro salvezza su Destrezza. Se lo fallisce, subisce 20 danni radiosi, mentre se lo supera, subisce soltanto la metà di quei danni. &nbsp; Il guardiano svanisce quando ha inferto un totale di 60 danni.</p>"
+      "description": "<p>Un guardiano spettrale Grande compare e fluttua per la durata dell'incantesimo in uno spazio libero a scelta dell'incantatore situato entro gittata e che egli sia in grado di vedere. Il guardiano occupa quello spazio ed è sfocato, ad eccezione di una spada scintillante e uno scudo decorati con il simbolo della divinità dell'incantatore.</p><p>Ogni creatura ostile all'incantatore che si muova fino a uno spazio entro 3 metri dal guardiano per la prima volta in un turno deve superare un tiro salvezza su Destrezza. Se lo fallisce, subisce 20 danni radiosi, mentre se lo supera, subisce soltanto la metà di quei danni. &nbsp; Il guardiano svanisce quando ha inferto un totale di 60 danni.</p>",
+      "activities": {
+        "uVCIRuG6Klnsa2wx": {
+          "name": "Evoca Guardiano della Fede"
+        },
+        "EWTxq50DDmAOzOFR": {
+          "name": "Tiro Salvezza contro il Colpo del Guardiano"
+        }
+      }
     },
     "Guards and Wards": {
       "name": "Vigilanza e Interdizione",
@@ -1587,6 +1811,12 @@
       "activities": {
         "eYoRKXNTA7uKykZ0": {
           "name": "Lancia"
+        },
+        "dnd5eactivity000": {
+          "name": "Tiro Salvezza contro Raffica di Vento"
+        },
+        "N2uCoJPi53lKVVPr": {
+          "name": "Cambia Direzione della Folata"
         }
       }
     },
@@ -1597,6 +1827,9 @@
       "activities": {
         "dnd5eactivity000": {
           "name": "Lancia"
+        },
+        "dnd5eactivity100": {
+          "name": "Tiro Salvezza contro l'Effetto di Santificare"
         }
       }
     },
@@ -1657,6 +1890,12 @@
       "activities": {
         "xQF2eW8hFVpfT1h0": {
           "name": "Lancia"
+        },
+        "dnd5eactivity000": {
+          "name": "Tiro Salvezza per Aggrapparsi all'Oggetto"
+        },
+        "G2KFLGhU06lqMm12": {
+          "name": "Brucia Oggetto"
         }
       }
     },
@@ -1695,6 +1934,9 @@
       "activities": {
         "s8S50epEPffDG1NB": {
           "name": "Lancia"
+        },
+        "dnd5eactivity000": {
+          "name": "Conferisci Punti Ferita Temporanei"
         }
       }
     },
@@ -1750,6 +1992,9 @@
       "activities": {
         "dnd5eactivity000": {
           "name": "Lancia"
+        },
+        "dnd5eactivity100": {
+          "name": "Luce Accecante"
         }
       }
     },
@@ -1764,6 +2009,9 @@
       "activities": {
         "B3ZCe8XzV7wJ2YiL": {
           "name": "Lancia"
+        },
+        "dnd5eactivity000": {
+          "name": "Danni Bonus del Marchio"
         }
       }
     },
@@ -1828,6 +2076,9 @@
       "activities": {
         "dnd5eactivity000": {
           "name": "Lancia"
+        },
+        "uUuWEYPhEPpuKXqq": {
+          "name": "Tiro Salvezza all'Ingresso / a Fine Turno"
         }
       }
     },
@@ -1847,6 +2098,9 @@
       "activities": {
         "dnd5eactivity000": {
           "name": "Lancia"
+        },
+        "bUIKbTl1GBitYgEi": {
+          "name": "Tiro Salvezza a Inizio Turno / all'Ingresso nella Sfera"
         }
       }
     },
@@ -1857,6 +2111,9 @@
       "activities": {
         "7oF2X1ya1cPfDOcI": {
           "name": "Lancia"
+        },
+        "iOJD3BHVzYiiNChW": {
+          "name": "Evoca Oggetti Marchiati"
         }
       }
     },
@@ -1881,6 +2138,9 @@
       "activities": {
         "af27rp79fhRL6TwF": {
           "name": "Lancia"
+        },
+        "MZXH72uYT07j4vlL": {
+          "name": "Tiro Salvezza per Terminare la Danza"
         }
       }
     },
@@ -1944,6 +2204,9 @@
       "activities": {
         "x3oDVP0hPkb9fAa1": {
           "name": "Lancia"
+        },
+        "A0r24ncbAuYRHrRX": {
+          "name": "Tiro Salvezza per Evitare la Luce"
         }
       }
     },
@@ -2019,12 +2282,31 @@
     },
     "Mage Hand": {
       "name": "Mano Magica",
-      "description": "<p data-parsoid=\"{&quot;dsr&quot;:[0,28,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,28,2,2]}\">Trucchetto di Evocazione</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[29,62,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[29,62,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[31,54,3,3]}\">Tempo di lancio:&nbsp;</strong>1 azione</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[64,88,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[64,88,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[66,80,3,3]}\">Gittata:</strong>&nbsp;9 metri</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[90,114,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[90,114,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[92,110,3,3]}\">Componenti:&nbsp;</strong>V, S</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[116,140,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[116,140,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[118,132,3,3]}\">Durata:&nbsp;</strong>1 minuto</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[141,391,0,0]}\">Una mano spettrale e fluttuante appare nel punto scelto all'interno del raggio. La mano dura per la durata o fino a quando non la scartate come azione. La mano svanisce se è mai più di 9 metri di distanza da te o se lanci di nuovo questo incantesimo.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[393,686,0,0]}\">Puoi usare la tua azione per controllare la mano. Puoi usare la mano per manipolare un oggetto, aprire una porta o un contenitore sbloccato, riporre o recuperare un oggetto da un contenitore aperto o versare il contenuto da una fiala. Puoi muovere la mano fino a 9 metri ogni volta che la usi.</p>\n<p>&nbsp;</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[688,769,0,0]}\">La mano non può attaccare, attivare oggetti magici o trasportare più di 10 chili.</p>"
+      "description": "<p data-parsoid=\"{&quot;dsr&quot;:[0,28,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,28,2,2]}\">Trucchetto di Evocazione</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[29,62,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[29,62,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[31,54,3,3]}\">Tempo di lancio:&nbsp;</strong>1 azione</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[64,88,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[64,88,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[66,80,3,3]}\">Gittata:</strong>&nbsp;9 metri</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[90,114,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[90,114,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[92,110,3,3]}\">Componenti:&nbsp;</strong>V, S</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[116,140,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[116,140,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[118,132,3,3]}\">Durata:&nbsp;</strong>1 minuto</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[141,391,0,0]}\">Una mano spettrale e fluttuante appare nel punto scelto all'interno del raggio. La mano dura per la durata o fino a quando non la scartate come azione. La mano svanisce se è mai più di 9 metri di distanza da te o se lanci di nuovo questo incantesimo.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[393,686,0,0]}\">Puoi usare la tua azione per controllare la mano. Puoi usare la mano per manipolare un oggetto, aprire una porta o un contenitore sbloccato, riporre o recuperare un oggetto da un contenitore aperto o versare il contenuto da una fiala. Puoi muovere la mano fino a 9 metri ogni volta che la usi.</p>\n<p>&nbsp;</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[688,769,0,0]}\">La mano non può attaccare, attivare oggetti magici o trasportare più di 10 chili.</p>",
+      "activities": {
+        "dnd5eactivity000": {
+          "name": "Evoca Mano Magica"
+        },
+        "EDuPcfsfb5cGEpiI": {
+          "name": "Controlla Mano Magica"
+        }
+      }
     },
     "Magic Circle": {
       "name": "Cerchio Magico",
       "description": "<p data-parsoid=\"{&quot;dsr&quot;:[0,29,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,29,2,2]}\">Abiurazione di 3&deg; livello</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[30,63,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[30,63,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[32,55,3,3]}\">Tempo di lancio:&nbsp;</strong>1 minuto</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[65,89,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[65,89,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[67,82,3,3]}\">Gittata:&nbsp;</strong>3 metri</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[91,218,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[91,218,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[93,111,3,3]}\">Componenti:&nbsp;</strong>V, S, M (acqua santa o polvere d'argento e di ferro del valore di almeno 100 mo, che l'incantesimo consuma)</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[220,241,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[220,241,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[222,236,3,3]}\">Durata:&nbsp;</strong>1 ora</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[242,417,0,0]}\">L'incantatore crea un cilindro di energia magica del raggio di 3 metri e alto 6 metri centrato su un punto del terreno situato entro gittata e che egli sia in grado di vedere.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[419,600,0,0]}\">Una sequenza di rune scintillanti appare nel punto in cui il cilindro si interseca con il pavimento o un'altra superficie. L'incantatore sceglie uno o pi&ugrave; tipi di creature seguenti:</p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[601,659,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[601,613,1,0]}\">celestiali</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[614,626,1,0]}\">elementali</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[627,637,1,0]}\">folletti</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[638,647,1,0]}\">immondi</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[648,659,1,0]}\">non morti</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[660,728,0,0]}\">Il cerchio influenza una creatura del tipo scelto nei modi seguenti:</p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[729,1163,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[729,957,1,0]}\">La creatura non pu&ograve; entrare volontariamente nel cilindro tramite mezzi non magici. Se la creatura cerca di usare una forma di teletrasporto o di viaggio inter-planare per farlo, deve prima superare un tiro salvezza su Carisma.</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[958,1054,1,0]}\">La creatura subisce svantaggio ai tiri per colpire contro i bersagli all'interno del cilindro.</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[1055,1163,1,0]}\">I bersagli all'interno del cilindro non possono essere affascinati, spaventati o posseduti dalla creatura.</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[1164,1382,0,0]}\">Quando l'incantatore lancia questo incantesimo, pu&ograve; decidere che la sua magia funzioni nella direzione inversa, impedendo a una creatura del tipo specificato di uscire dal cilindro e proteggendo i bersagli all'esterno.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1384,1582,0,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[1384,1411,3,3]}\">Ai Livelli Superiori.</strong> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 4&deg; livello o superiore, la durata aumenta di 1 ora per ogni slot di livello superiore al 3&deg;.</p>",
-      "materials": "Acqua santa o polvere d'argento e di ferro del valore di almeno 100 mo, che l'incantesimo consuma"
+      "materials": "Acqua santa o polvere d'argento e di ferro del valore di almeno 100 mo, che l'incantesimo consuma",
+      "activities": {
+        "80Tb8x1GUu4ZcO7R": {
+          "name": "Lancia Cerchio Magico"
+        },
+        "71GHgEVbu7CwzCUg": {
+          "name": "Lancia Cerchio Magico Invertito"
+        },
+        "3tvXJpYrfPS30uAL": {
+          "name": "Tiro Salvezza per Contrastare il Teletrasporto"
+        }
+      }
     },
     "Magic Jar": {
       "name": "Giara Magica",
@@ -2033,6 +2315,9 @@
       "activities": {
         "H4fo2hIFxKybx7zU": {
           "name": "Lancia"
+        },
+        "KP2dpK9GVYQN8V7W": {
+          "name": "Possiedi Creatura"
         }
       }
     },
@@ -2057,7 +2342,12 @@
     },
     "Magic Weapon": {
       "name": "Arma Magica",
-      "description": "<p>L'incantatore tocca un'arma non magica e finché l'incantesimo non termina, quell'arma diventa un'arma magica con un bonus di+ 1 ai tiri per colpire e ai tiri per i danni.</p><p><strong>Al Livelli Superiori.</strong> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 4° livello o superiore, il bonus aumenta a +2. Quando l'incantatore usa uno slot incantesimo di 6° livello o superiore, il bonus aumenta a +3 .</p>"
+      "description": "<p>L'incantatore tocca un'arma non magica e finché l'incantesimo non termina, quell'arma diventa un'arma magica con un bonus di+ 1 ai tiri per colpire e ai tiri per i danni.</p><p><strong>Al Livelli Superiori.</strong> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 4° livello o superiore, il bonus aumenta a +2. Quando l'incantatore usa uno slot incantesimo di 6° livello o superiore, il bonus aumenta a +3 .</p>",
+      "activities": {
+        "dnd5eactivity000": {
+          "name": "Ammalia Arma"
+        }
+      }
     },
     "Magnificent Mansion": {
       "name": "Reggia Meravigliosa di Mordenkainen",
@@ -2121,7 +2411,12 @@
     },
     "Maze": {
       "name": "Labirinto",
-      "description": "<p data-parsoid=\"{&quot;dsr&quot;:[0,28,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,28,2,2]}\">Evocazione di 8° livello</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[29,62,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[29,62,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[31,54,3,3]}\">Tempo di lancio:&nbsp;</strong>1 azione</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[64,89,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[64,89,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[66,81,3,3]}\">Gittata:&nbsp;</strong>18 metri</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[91,115,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[91,115,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[93,111,3,3]}\">Componenti:&nbsp;</strong>V, S</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[117,165,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[117,165,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[119,133,3,3]}\">Durata:&nbsp;</strong>Concentrazione, fino a 10 minuti</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[166,276,0,0]}\">L'incantatore esilia una creatura entro gittata e che egli sia in grado di vedere su un semipiano labirintico.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[278,369,0,0]}\">Il bersaglio rimane laggiù per la durata dell'incantesimo o finché non fugge dal labirinto.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[371,431,0,0]}\">Il bersaglio può usare la sua azione per tentare di fuggire.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[433,616,0,0]}\">Quando lo fa, effettua una prova di Intelligenza con CD 20. Se ha successo, riesce a fuggire e l'incantesimo termina (un Minotauro o un demone goristro hanno successo automaticamente).</p>\n<p>&nbsp;</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[618,763,0,0]}\">Quando l'incantesimo termina, il bersaglio ricompare nello spazio che ha lasciato o, se quello spazio è occupato, nello spazio libero più vicino.</p>"
+      "description": "<p data-parsoid=\"{&quot;dsr&quot;:[0,28,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,28,2,2]}\">Evocazione di 8° livello</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[29,62,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[29,62,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[31,54,3,3]}\">Tempo di lancio:&nbsp;</strong>1 azione</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[64,89,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[64,89,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[66,81,3,3]}\">Gittata:&nbsp;</strong>18 metri</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[91,115,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[91,115,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[93,111,3,3]}\">Componenti:&nbsp;</strong>V, S</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[117,165,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[117,165,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[119,133,3,3]}\">Durata:&nbsp;</strong>Concentrazione, fino a 10 minuti</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[166,276,0,0]}\">L'incantatore esilia una creatura entro gittata e che egli sia in grado di vedere su un semipiano labirintico.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[278,369,0,0]}\">Il bersaglio rimane laggiù per la durata dell'incantesimo o finché non fugge dal labirinto.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[371,431,0,0]}\">Il bersaglio può usare la sua azione per tentare di fuggire.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[433,616,0,0]}\">Quando lo fa, effettua una prova di Intelligenza con CD 20. Se ha successo, riesce a fuggire e l'incantesimo termina (un Minotauro o un demone goristro hanno successo automaticamente).</p>\n<p>&nbsp;</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[618,763,0,0]}\">Quando l'incantesimo termina, il bersaglio ricompare nello spazio che ha lasciato o, se quello spazio è occupato, nello spazio libero più vicino.</p>",
+      "activities": {
+        "gPtL2C25UZ6sJtDM": {
+          "name": "Fuggi dal Labirinto"
+        }
+      }
     },
     "Meld into Stone": {
       "name": "Fondersi nella Pietra",
@@ -2129,6 +2424,12 @@
       "activities": {
         "aUsAItFCOoEIQd7I": {
           "name": "Lancia"
+        },
+        "at17qOrWdjr80zy0": {
+          "name": "Danni da Distruzione Parziale della Pietra"
+        },
+        "2NOxC43FZiwhej6W": {
+          "name": "Danni da Distruzione Completa della Pietra"
         }
       }
     },
@@ -2205,7 +2506,10 @@
           "name": "Lancia"
         },
         "rQbzIAnDXYbVe48y": {
-          "name": "Intercettazione di Immagine Speculare"
+          "name": "Intercettazione di Immagine Speculare",
+          "roll": {
+            "name": "Tiro per Distruggere Immagine Speculare"
+          }
         }
       }
     },
@@ -2215,6 +2519,9 @@
       "activities": {
         "dnd5eactivity000": {
           "name": "Lancia"
+        },
+        "LK6FrR896AucW2lk": {
+          "name": "Controlla Illusione"
         }
       }
     },
@@ -2239,7 +2546,18 @@
     "Moonbeam": {
       "name": "Bagliore Lunare",
       "description": "<p>Un bagliore argentato di luce pallida forma un cilindro del raggio di 1,5 metri e alto 12 metri, centrato su un punto entro gittata. Finché l'incantesimo non termina, il cilindro è pervaso di luce fioca.</p><p>Quando una creatura entra nell'area dell'incantesimo per la prima volta in un turno o vi inizia il proprio turno, viene avvolta da una cortina di fiamme spettrali che le provocano un dolore lancinante e la obbligano a effettuare un tiro salvezza su Costituzione. Se lo fallisce, subisce 2d10 danni radiosi, mentre se lo supera, subisce soltanto la metà di quei danni.</p><p>Un mutaforma subisce svantaggio a questo tiro salvezza. Inoltre, se lo fallisce, riassume istantaneamente la sua forma originale e non può assumere una forma diversa finché non esce dalla luce dell'incantesimo.</p><p>Nei suoi turni successivi, dopo avere lanciato questo incantesimo, l'incantatore può usare un'azione per muovere il bagliore di un massimo di 18 metri in qualsiasi direzione.</p><p><strong>Ai Livelli Superiori.</strong> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 3° livello o superiore, i danni aumentano di 1d10 per ogni slot di livello superiore al 2°.</p>",
-      "materials": "Alcuni semi di qualsiasi pianta a chicchi e un frammento di feldspato opalescente"
+      "materials": "Alcuni semi di qualsiasi pianta a chicchi e un frammento di feldspato opalescente",
+      "activities": {
+        "dnd5eactivity000": {
+          "name": "Tiro Salvezza contro l'Ustione del Raggio Lunare"
+        },
+        "JKOXpZM16ErnikPJ": {
+          "name": "Evoca Raggio Lunare"
+        },
+        "jxsbHRCwTD0qWzeV": {
+          "name": "Muovi Raggio Lunare"
+        }
+      }
     },
     "Move Earth": {
       "name": "Muovere il Terreno",
@@ -2344,11 +2662,30 @@
     "Plane Shift": {
       "name": "Spostamento Planare",
       "description": "<p data-parsoid=\"{&quot;dsr&quot;:[0,29,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,29,2,2]}\">Invocazione di 7° livello</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[30,216,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[30,60,1,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[31,51,2,2]}\">Tempo di lancio:</em>&nbsp;1 azione</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[61,83,1,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[62,74,2,2]}\">Gittata:</em>&nbsp;Contatto</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[84,192,1,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[85,100,2,2]}\">Componenti:</em>&nbsp;V, S, M (una bacchetta di metallo biforcuta armonizzata al piano di destinazione da 250 mo)</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[193,216,1,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[194,205,2,2]}\">Durata:</em>&nbsp;Istantanea</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[217,527,0,0]}\">L'incantatore e un massimo di otto creature consenzienti che si tengono per mano formando un cerchio vengono trasportati su un piano di esistenza diverso. L'incantatore può specificare la destinazione o averne una vaga descrizione, per poi apparire nel luogo esatto o nelle sue vicinanze, a discrezione del DM.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[529,803,0,0]}\">In alternativa, se l'incantatore conosce la sequenza dei simboli di un cerchio di teletrasporto su un altro piano, l'incantesimo lo conduce nel punto esatto. Nel caso il cerchio sia troppo piccolo per contenere tutte le creature, esse appaiono nello spazio libero più vicino</p>\n<p>&nbsp;</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[805,1451,0,0]}\">L'incantesimo può essere utilizzato per bandire una creatura non consenziente su un altro piano di esistenza. In questo caso è necessario effettuare in tiro per colpire con un'arma corpo a corpo sulla creatura. L'incantatore sceglie una creatura entro la sua portata ed effettua un attacco in mischia con questo incantesimo contro di essa. Se colpisce, la creatura deve effettuare un tiro salvezza su Carisma. Se lo fallisce, viene trasportata in un luogo casuale sul piano di esistenza specificato dall'incantatore. Una creatura trasportata in questo modo dovrà trovare da sola il modo di tornare sul piano di esistenza attuale dell'incantatore.</p>",
-      "materials": "una bacchetta di metallo biforcuta armonizzata al piano di destinazione da 250 mo"
+      "materials": "una bacchetta di metallo biforcuta armonizzata al piano di destinazione da 250 mo",
+      "activities": {
+        "RSLnITgU10HcABsr": {
+          "name": "Lancia: Viaggio Planare"
+        },
+        "BiYdn4VHVCaWsJmQ": {
+          "name": "Lancia: Attacco di Esilio"
+        },
+        "C5T8DFHfK0iVDfXN": {
+          "name": "Tiro Salvezza contro Esilio"
+        }
+      }
     },
     "Plant Growth": {
       "name": "Crescita Vegetale",
-      "description": "<p data-parsoid=\"{&quot;dsr&quot;:[0,31,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,31,2,2]}\">Trasmutazione di 3&deg; livello</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[32,147,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[32,72,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[33,56,3,3]}\">Tempo di lancio:&nbsp;</strong>1 azione o 8 ore</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[73,97,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[74,89,3,3]}\">Gittata:&nbsp;</strong>45 metri</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[98,121,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[99,117,3,3]}\">Componenti:&nbsp;</strong>V, S</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[122,147,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[123,137,3,3]}\">Durata:&nbsp;</strong>Istantanea</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[148,219,0,0]}\">Questo incantesimo incanala vitalit&agrave; nei vegetali di un'area specifica.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[221,320,0,0]}\">Esistono due possibili usi dell'incantesimo, mirati a fornire benefici immediati o a lungo termine.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[322,665,0,0]}\">Se l'incantatore lancia questo incantesimo usando 1 azione, sceglie un punto situato entro gittata. Tutti i vegetali normali entro un raggio di 30 metri centrato su quel punto crescono rigogliosamente fino a formare un groviglio. Una creatura che si muove attraverso quell'area deve spendere 120 cm di movimento per ogni 30 cm di cui si muove.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[667,819,0,0]}\">L'incantatore pu&ograve; escludere una o pi&ugrave; aree di qualsiasi dimensione all'interno dell'area dell'incantesimo per fare in modo che non ne siano influenzate.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[821,1036,0,0]}\">Se l'incantatore lancia questo incantesimo nell'arco di 8 ore, rende la terra fertile. Tutti i vegetali entro un raggio di 750 metri centrato in un punto situato entro gittata cresceranno rigogliosamente per 1 anno.</p>\n<p>&nbsp;</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1038,1101,0,0]}\">Al momento del raccolto produrranno il doppio del cibo normale.</p>"
+      "description": "<p data-parsoid=\"{&quot;dsr&quot;:[0,31,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,31,2,2]}\">Trasmutazione di 3&deg; livello</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[32,147,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[32,72,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[33,56,3,3]}\">Tempo di lancio:&nbsp;</strong>1 azione o 8 ore</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[73,97,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[74,89,3,3]}\">Gittata:&nbsp;</strong>45 metri</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[98,121,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[99,117,3,3]}\">Componenti:&nbsp;</strong>V, S</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[122,147,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[123,137,3,3]}\">Durata:&nbsp;</strong>Istantanea</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[148,219,0,0]}\">Questo incantesimo incanala vitalit&agrave; nei vegetali di un'area specifica.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[221,320,0,0]}\">Esistono due possibili usi dell'incantesimo, mirati a fornire benefici immediati o a lungo termine.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[322,665,0,0]}\">Se l'incantatore lancia questo incantesimo usando 1 azione, sceglie un punto situato entro gittata. Tutti i vegetali normali entro un raggio di 30 metri centrato su quel punto crescono rigogliosamente fino a formare un groviglio. Una creatura che si muove attraverso quell'area deve spendere 120 cm di movimento per ogni 30 cm di cui si muove.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[667,819,0,0]}\">L'incantatore pu&ograve; escludere una o pi&ugrave; aree di qualsiasi dimensione all'interno dell'area dell'incantesimo per fare in modo che non ne siano influenzate.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[821,1036,0,0]}\">Se l'incantatore lancia questo incantesimo nell'arco di 8 ore, rende la terra fertile. Tutti i vegetali entro un raggio di 750 metri centrato in un punto situato entro gittata cresceranno rigogliosamente per 1 anno.</p>\n<p>&nbsp;</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1038,1101,0,0]}\">Al momento del raccolto produrranno il doppio del cibo normale.</p>",
+      "activities": {
+        "7LSLjVemL20laO4P": {
+          "name": "Lancia: Azione"
+        },
+        "QCOidGIiPcyNjj9Y": {
+          "name": "Lancia: 8 Ore"
+        }
+      }
     },
     "Poison Spray": {
       "name": "Spruzzo Velenoso",
@@ -2394,6 +2731,9 @@
       "activities": {
         "q30p6TFrVTCsUSij": {
           "name": "Lancia"
+        },
+        "dnd5eactivity000": {
+          "name": "Ripeti Tiro Salvezza"
         }
       }
     },
@@ -2421,12 +2761,62 @@
       "activities": {
         "dnd5eactivity000": {
           "name": "Lancia"
+        },
+        "WFNmU0MtjhWZKAYS": {
+          "name": "1. Raggio Rosso"
+        },
+        "N8AK4vdXfbyS574t": {
+          "name": "2. Raggio Arancione"
+        },
+        "tYusMXr4FdtALeTo": {
+          "name": "3. Raggio Giallo"
+        },
+        "qCIXgNLao3xnZsje": {
+          "name": "4. Raggio Verde"
+        },
+        "fDlRH0y6EqJqjhgQ": {
+          "name": "5. Raggio Blu"
+        },
+        "KAF37jhizSZzcjhj": {
+          "name": "6. Raggio Indaco"
+        },
+        "Hwrf7958jBf5s8rV": {
+          "name": "7. Raggio Violetto"
         }
       }
     },
     "Prismatic Wall": {
       "name": "Muro Prismatico",
-      "description": "<p data-parsoid=\"{&quot;dsr&quot;:[1,30,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[1,30,2,2]}\">Abiurazione di 9° livello</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[31,64,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[31,64,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[33,56,3,3]}\">Tempo di lancio:&nbsp;</strong>1 azione</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[66,91,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[66,91,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[68,83,3,3]}\">Gittata:&nbsp;</strong>18 metri</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[93,117,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[93,117,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[95,113,3,3]}\">Componenti:&nbsp;</strong>V, S</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[119,144,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[119,144,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[121,135,3,3]}\">Durata:&nbsp;</strong>10 minuti</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[145,393,0,0]}\">Un piano di luce dai numerosi colori scintillanti forma un muro opaco verticale (che può misurare fino a 27 metri di lunghezza, 9 metri di altezza e 2,5 cm di spessore), centrato su un punto entro gittata e che l'incantatore sia in grado di vedere.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[395,540,0,0]}\">In alternativa, l'incantatore può modellare il muro in una sfera del diametro massimo di 9 metri centrata su un punto a sua scelta entro gittata.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[542,601,0,0]}\">Il muro rimane al suo posto per la durata dell'incantesimo.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[603,801,0,0]}\">Se l'incantatore posiziona il muro in modo che passi attraverso uno spazio occupato da una creatura l'incantesimo fallisce e sia l'azione dell'incantatore che il suo slot incantesimo vanno sprecati.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[803,890,0,0]}\">Il muro emana luce intensa entro un raggio di 30 metri e luce fioca per altri 30 metri.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[892,1050,0,0]}\">L'incantatore e le creature da lui designate al momento del lancio dell'incantesimo possono passare attraverso il muro o rimanervi accanto senza subire danni.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1052,1244,0,0]}\">Se un'altra creatura in grado di vedere il muro giunge entro 6 metri da esso o vi comincia il proprio turno, deve superare un tiro salvezza su Costituzione, altrimenti è accecata per 1 minuto.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1246,1465,0,0]}\">Il muro è composto da sette strati, ognuno di un colore diverso. Quando una creatura tenta di protendersi oltre il muro o di attraversarlo, lo fa di uno strato alla volta, fino ad attraversare tutti gli strati del muro.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1467,1647,0,0]}\">Quando si protende o attraversa ogni strato, deve effettuare un tiro salvezza su Destrezza, altrimenti sarà influenzata dalle proprietà di quello strato, come descritto di seguito.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1649,1806,0,0]}\">Il muro può essere distrutto, anche in questo caso uno strato alla volta, procedendo in ordine dal rosso al viola, tramite un modo specifico per ogni strato.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1808,1886,0,0]}\">Quando uno strato è distrutto, resta distrutto per la durata dell'incantesimo.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1888,2004,0,0]}\">Un incantesimo&nbsp;Campo Anti-Magia&nbsp;non ha alcun effetto sul muro e&nbsp;Dissolvi Magie&nbsp;può influenzare solo lo strato viola.</p>\n<p>&nbsp;</p>\n<ol data-parsoid=\"{&quot;dsr&quot;:[2005,4739,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[2005,2315,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[2007,2018,3,3]}\">Rosso</strong>. La creatura subisce 10d6 danni da fuoco se fallisce il tiro salvezza, o soltanto la metà di quei danni se lo supera. Finché questo strato è al suo posto, gli attacchi a distanza non magici non possono attraversare il muro. Lo strato può essere distrutto infliggendogli almeno 25 danni da freddo.</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[2316,2603,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[2318,2333,3,3]}\">Arancione</strong>. La creatura subisce 10d6 danni da acido se fallisce il tiro salvezza, o soltanto la metà di quei danni se lo supera. Finché questo strato è al suo posto, gli attacchi a distanza magici non possono attraversare il muro. Lo strato può essere distrutto da un vento forte.</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[2604,2814,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[2606,2618,3,3]}\">Giallo</strong>. La creatura subisce 10d6 danni da fulmine se fallisce il tiro salvezza, o soltanto la metà di quei danni se lo supera. Questo strato può essere distrutto infliggendogli almeno 60 danni da forza.</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[2815,3105,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[2817,2828,3,3]}\">Verde</strong>. La creatura subisce 10d6 danni da veleno se fallisce il tiro salvezza, o soltanto la metà di quei danni se lo supera. Un incantesimo passapareti o un altro incantesimo di livello pari o superiore in grado di aprire un portale su una superficie solida distrugge questo strato.</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[3106,3312,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[3108,3117,3,3]}\">Blu</strong>. La creatura subisce 10d6 danni da freddo se fallisce il tiro salvezza, o soltanto la metà di quei danni se lo supera. Questo strato può essere distrutto infliggendogli almeno 25 danni da fuoco.</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[3313,4015,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[3315,3327,3,3]}\">Indaco</strong>. In caso di tiro salvezza fallito, la creatura è trattenuta. Deve effettuare un tiro salveza su Costituzione alla fine di ogni suo turno. Se supera il tiro salvezza tre volte, l'incantesimo termina. Se lo fallisce tre volte, si trasforma in pietra permanentemente ed è soggetta alla condizione di pietrificato. Non è necessario che i successi e i fallimenti siano consecutivi; si tiene conto di entrambi finché il bersaglio non ne accumula tre di un tipo. Finché questo strato è al suo posto, non è possibile lanciare incantesimi attraverso il muro. Questo strato è distrutto da una luce intensa emanata da un incantesimo&nbsp;Luce Diurna&nbsp;o un incantesimo analogo di livello pari o superiore.</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[4016,4739,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[4018,4029,3,3]}\">Viola</strong>. In caso di tiro salvezza fallito, la creatura è accecata. Deve quindi effettuare un tiro salvezza su Saggezza all'inizio del turno successivo dell'incantatore. Se lo supera, non è più accecata, mentre se lo fallisce, viene trasportata su un altro piano di esistenza a scelta del DM, e non è più accecata (solitamente una creatura che si trova su un piano diverso dal suo piano di origine viene esiliata sul suo piano di origine, mentre le altre creature solitamente vengono inviate sul Piano Astrale o sul Piano Etereo). Questo strato è distrutto da un incantesimo Dissolvi Magie o da un incantesimo simile di livello pari o superiore che sia in grado di porre termine agli incantesimi e agli effetti magici.</li>\n</ol>"
+      "description": "<p data-parsoid=\"{&quot;dsr&quot;:[1,30,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[1,30,2,2]}\">Abiurazione di 9° livello</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[31,64,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[31,64,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[33,56,3,3]}\">Tempo di lancio:&nbsp;</strong>1 azione</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[66,91,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[66,91,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[68,83,3,3]}\">Gittata:&nbsp;</strong>18 metri</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[93,117,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[93,117,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[95,113,3,3]}\">Componenti:&nbsp;</strong>V, S</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[119,144,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[119,144,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[121,135,3,3]}\">Durata:&nbsp;</strong>10 minuti</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[145,393,0,0]}\">Un piano di luce dai numerosi colori scintillanti forma un muro opaco verticale (che può misurare fino a 27 metri di lunghezza, 9 metri di altezza e 2,5 cm di spessore), centrato su un punto entro gittata e che l'incantatore sia in grado di vedere.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[395,540,0,0]}\">In alternativa, l'incantatore può modellare il muro in una sfera del diametro massimo di 9 metri centrata su un punto a sua scelta entro gittata.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[542,601,0,0]}\">Il muro rimane al suo posto per la durata dell'incantesimo.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[603,801,0,0]}\">Se l'incantatore posiziona il muro in modo che passi attraverso uno spazio occupato da una creatura l'incantesimo fallisce e sia l'azione dell'incantatore che il suo slot incantesimo vanno sprecati.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[803,890,0,0]}\">Il muro emana luce intensa entro un raggio di 30 metri e luce fioca per altri 30 metri.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[892,1050,0,0]}\">L'incantatore e le creature da lui designate al momento del lancio dell'incantesimo possono passare attraverso il muro o rimanervi accanto senza subire danni.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1052,1244,0,0]}\">Se un'altra creatura in grado di vedere il muro giunge entro 6 metri da esso o vi comincia il proprio turno, deve superare un tiro salvezza su Costituzione, altrimenti è accecata per 1 minuto.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1246,1465,0,0]}\">Il muro è composto da sette strati, ognuno di un colore diverso. Quando una creatura tenta di protendersi oltre il muro o di attraversarlo, lo fa di uno strato alla volta, fino ad attraversare tutti gli strati del muro.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1467,1647,0,0]}\">Quando si protende o attraversa ogni strato, deve effettuare un tiro salvezza su Destrezza, altrimenti sarà influenzata dalle proprietà di quello strato, come descritto di seguito.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1649,1806,0,0]}\">Il muro può essere distrutto, anche in questo caso uno strato alla volta, procedendo in ordine dal rosso al viola, tramite un modo specifico per ogni strato.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1808,1886,0,0]}\">Quando uno strato è distrutto, resta distrutto per la durata dell'incantesimo.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1888,2004,0,0]}\">Un incantesimo&nbsp;Campo Anti-Magia&nbsp;non ha alcun effetto sul muro e&nbsp;Dissolvi Magie&nbsp;può influenzare solo lo strato viola.</p>\n<p>&nbsp;</p>\n<ol data-parsoid=\"{&quot;dsr&quot;:[2005,4739,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[2005,2315,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[2007,2018,3,3]}\">Rosso</strong>. La creatura subisce 10d6 danni da fuoco se fallisce il tiro salvezza, o soltanto la metà di quei danni se lo supera. Finché questo strato è al suo posto, gli attacchi a distanza non magici non possono attraversare il muro. Lo strato può essere distrutto infliggendogli almeno 25 danni da freddo.</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[2316,2603,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[2318,2333,3,3]}\">Arancione</strong>. La creatura subisce 10d6 danni da acido se fallisce il tiro salvezza, o soltanto la metà di quei danni se lo supera. Finché questo strato è al suo posto, gli attacchi a distanza magici non possono attraversare il muro. Lo strato può essere distrutto da un vento forte.</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[2604,2814,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[2606,2618,3,3]}\">Giallo</strong>. La creatura subisce 10d6 danni da fulmine se fallisce il tiro salvezza, o soltanto la metà di quei danni se lo supera. Questo strato può essere distrutto infliggendogli almeno 60 danni da forza.</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[2815,3105,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[2817,2828,3,3]}\">Verde</strong>. La creatura subisce 10d6 danni da veleno se fallisce il tiro salvezza, o soltanto la metà di quei danni se lo supera. Un incantesimo passapareti o un altro incantesimo di livello pari o superiore in grado di aprire un portale su una superficie solida distrugge questo strato.</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[3106,3312,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[3108,3117,3,3]}\">Blu</strong>. La creatura subisce 10d6 danni da freddo se fallisce il tiro salvezza, o soltanto la metà di quei danni se lo supera. Questo strato può essere distrutto infliggendogli almeno 25 danni da fuoco.</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[3313,4015,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[3315,3327,3,3]}\">Indaco</strong>. In caso di tiro salvezza fallito, la creatura è trattenuta. Deve effettuare un tiro salveza su Costituzione alla fine di ogni suo turno. Se supera il tiro salvezza tre volte, l'incantesimo termina. Se lo fallisce tre volte, si trasforma in pietra permanentemente ed è soggetta alla condizione di pietrificato. Non è necessario che i successi e i fallimenti siano consecutivi; si tiene conto di entrambi finché il bersaglio non ne accumula tre di un tipo. Finché questo strato è al suo posto, non è possibile lanciare incantesimi attraverso il muro. Questo strato è distrutto da una luce intensa emanata da un incantesimo&nbsp;Luce Diurna&nbsp;o un incantesimo analogo di livello pari o superiore.</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[4016,4739,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[4018,4029,3,3]}\">Viola</strong>. In caso di tiro salvezza fallito, la creatura è accecata. Deve quindi effettuare un tiro salvezza su Saggezza all'inizio del turno successivo dell'incantatore. Se lo supera, non è più accecata, mentre se lo fallisce, viene trasportata su un altro piano di esistenza a scelta del DM, e non è più accecata (solitamente una creatura che si trova su un piano diverso dal suo piano di origine viene esiliata sul suo piano di origine, mentre le altre creature solitamente vengono inviate sul Piano Astrale o sul Piano Etereo). Questo strato è distrutto da un incantesimo Dissolvi Magie o da un incantesimo simile di livello pari o superiore che sia in grado di porre termine agli incantesimi e agli effetti magici.</li>\n</ol>",
+      "activities": {
+        "jsTIjPInKlUx8X4d": {
+          "name": "Evoca Muro Prismatico"
+        },
+        "y3QOrknUXjK6J56o": {
+          "name": "Evoca Sfera Prismatica"
+        },
+        "2mxODgVHMv4whsz4": {
+          "name": "Parete Rossa"
+        },
+        "J0jN52XDEqUqrLzx": {
+          "name": "Parete Arancione"
+        },
+        "y5530lakSgBAHAYL": {
+          "name": "Parete Gialla"
+        },
+        "P5fBPn8L9H0zlnYS": {
+          "name": "Parete Verde"
+        },
+        "cVY0Q4go5GZhbuJz": {
+          "name": "Parete Blu"
+        },
+        "bjsIQgJf23u7fslT": {
+          "name": "Parete Indaco"
+        },
+        "WTO4S69BzGKFrs8A": {
+          "name": "Parete Violetta"
+        }
+      }
     },
     "Private Sanctum": {
       "name": "Santuario Privato di Mordenkainen",
@@ -2536,6 +2926,9 @@
       "activities": {
         "dnd5eactivity000": {
           "name": "Lancia"
+        },
+        "dnd5eactivity100": {
+          "name": "Tiro Salvezza contro Indebolimento"
         }
       }
     },
@@ -2624,13 +3017,21 @@
       "activities": {
         "kQCUtqvQ2Rt07RYM": {
           "name": "Lancia"
+        },
+        "dnd5eactivity000": {
+          "name": "Tiro Salvezza per Afferrare un Oggetto Fisso"
         }
       }
     },
     "Revivify": {
       "name": "Rinascita",
       "description": "<p data-parsoid=\"{&quot;dsr&quot;:[0,29,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,29,2,2]}\">Necromanzia di 3° livello</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[30,199,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[30,62,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[31,54,3,3]}\">Tempo di lancio:&nbsp;</strong>1 azione</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[63,87,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[64,79,3,3]}\">Gittata:&nbsp;</strong>Contatto</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[88,173,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[89,107,3,3]}\">Componenti:&nbsp;</strong>V, S, M (diamanti del valore di 300 mo, che l'incantesimo consuma)</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[174,199,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[175,189,3,3]}\">Durata:&nbsp;</strong>Istantanea</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[200,261,0,0]}\">L'incantatore tocca una creatura morta entro l'ultimo minuto.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[263,312,0,0]}\">Quella creatura torna in vita con 1 punto ferita.</p>\n<p>&nbsp;</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[314,452,0,0]}\">Questo incantesimo non può riportare in vita una creatura morta di vecchiaia e non può ripristinare le eventuali parti del corpo mancanti.</p>",
-      "materials": "Diamanti del valore di 300 mo, che l'incantesimo consuma"
+      "materials": "Diamanti del valore di 300 mo, che l'incantesimo consuma",
+      "activities": {
+        "dnd5eactivity000": {
+          "name": "Rianima Bersaglio"
+        }
+      }
     },
     "Rope Trick": {
       "name": "Trucco della Corda",
@@ -2663,6 +3064,9 @@
       "activities": {
         "zkVd0Ys2ky4ygeSY": {
           "name": "Lancia"
+        },
+        "dnd5eactivity000": {
+          "name": "Tiro Salvezza contro la Protezione"
         }
       }
     },
@@ -2671,7 +3075,13 @@
       "description": "<p data-parsoid=\"{&quot;dsr&quot;:[0,29,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,29,2,2]}\">Invocazione di 2° livello</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[30,137,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[30,62,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[31,54,3,3]}\">Tempo di lancio:&nbsp;</strong>1 azione</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[63,87,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[64,79,3,3]}\">Gittata:&nbsp;</strong>36 metri</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[88,111,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[89,107,3,3]}\">Componenti:&nbsp;</strong>V, S</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[112,137,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[113,127,3,3]}\">Durata:&nbsp;</strong>Istantanea</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[138,229,0,0]}\">L'incantatore crea tre raggi di fuoco e li scaglia contro uno o più bersagli entro gittata.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[231,369,0,0]}\">L'incantatore effettua un attacco a distanza con questo incantesimo per ogni raggio. Se colpisce, il bersaglio subisce 2d6 danni da fuoco.</p>\n<p>&nbsp;</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[371,568,0,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[371,399,3,3]}\">Ai Livelli Superiori.&nbsp;</strong>Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 3° livello o superiore, crea un raggio aggiuntivo per ogni slot di livello superiore al 2°.</p>",
       "activities": {
         "UkDjVJESqmcgovO7": {
-          "name": "Lancia"
+          "name": "Lancia",
+          "roll": {
+            "name": "Raggi Creati"
+          }
+        },
+        "dnd5eactivity000": {
+          "name": "Attacco con Raggio Rovente"
         }
       }
     },
@@ -2682,6 +3092,12 @@
       "activities": {
         "ALmQH6xe1eXP4yfS": {
           "name": "Lancia"
+        },
+        "73BiojjOcZK3adzP": {
+          "name": "Configura Conoscenza del Bersaglio"
+        },
+        "pemgwXnFsWoWUR2e": {
+          "name": "Configura Legame del Bersaglio"
         }
       }
     },
@@ -2744,7 +3160,15 @@
     "Sequester": {
       "name": "Celare",
       "description": "<p>Questo incantesimo consente all'incantatore di nascondere una creatura consenziente o un oggetto dai tentativi di individuazione per la durata dell'incantesimo. Quando l'incantatore lancia questo incantesimo e tocca il bersaglio, quest'ultimo diventa invisibile e non può essere bersagliato dagli incantesimi di divinazione o percepito dai sensori di scrutamento creati dagli incantesimi di divinazione.</p><p>Se il bersaglio è una creatura, essa entra in uno stato di animazione sospesa e smette di invecchiare; il tempo cessa di scorrere per lei.</p><p>L'incantatore può stabilire una condizione che porrà termine all'incantesimo prematuramente. La condizione può essere qualsiasi cosa a sua scelta, ma deve verificarsi o essere visibile entro 1,5 km dal bersaglio. Alcuni esempi includono \"dopo 1.000 anni\" o \"quando il tarrasque si risveglia\". Questo incantesimo termina anche se il bersaglio subisce danni.</p>",
-      "materials": "una mistura composta di polvere di diamante, smeraldo, rubino e zaffiro del valore di almeno 5.000 mo, che l'incantesimo consuma"
+      "materials": "una mistura composta di polvere di diamante, smeraldo, rubino e zaffiro del valore di almeno 5.000 mo, che l'incantesimo consuma",
+      "activities": {
+        "1Wja9o7LOqrUNBQL": {
+          "name": "Segrega Oggetto"
+        },
+        "WhZDaJYHP0gN7QoD": {
+          "name": "Segrega Creatura"
+        }
+      }
     },
     "Shapechange": {
       "name": "Trasformazione",
@@ -2806,6 +3230,14 @@
         "QPsqj6jfS0iXSrTs": {
           "name": "Randello Incantato"
         }
+      },
+      "activities": {
+        "dnd5eactivity000": {
+          "name": "Permea Arma"
+        },
+        "ONVab5lmTqJwwMBC": {
+          "name": "Attacco con Incantesimo"
+        }
       }
     },
     "Shocking Grasp": {
@@ -2852,6 +3284,11 @@
         "9gAmWWC5uTiUuxAI": {
           "name": "Simulacro"
         }
+      },
+      "activities": {
+        "1nnzri1OiTFd4Q5N": {
+          "name": "Crea Simulacro"
+        }
       }
     },
     "Sleep": {
@@ -2865,14 +3302,28 @@
       },
       "activities": {
         "R4kjwJNQwDLhvlPw": {
-          "name": "Lancia"
+          "name": "Lancia",
+          "roll": {
+            "name": "Punti Ferita Influenzati"
+          }
         }
       }
     },
     "Sleet Storm": {
       "name": "Tempesta di Nevischio",
       "description": "<p data-parsoid=\"{&quot;dsr&quot;:[0,28,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,28,2,2]}\">Evocazione di 3° livello</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[29,207,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[29,61,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[30,53,3,3]}\">Tempo di lancio:&nbsp;</strong>1 azione</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[62,86,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[63,78,3,3]}\">Gittata:&nbsp;</strong>45 metri</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[87,160,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[88,106,3,3]}\">Componenti:&nbsp;</strong>V, S, M (un pizzico di polvere e alcune gocce d'acqua)</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[161,207,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[162,176,3,3]}\">Durata:&nbsp;</strong>Concentrazione, fino a 1 minuto</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[208,404,0,0]}\">Finché l'incantesimo non termina, una gelida pioggia di nevischio cade in un cilindro del raggio di 12 metri e alto 6 metri, centrato su un punto a scelta dell'incantatore e situato entro gittata.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[406,474,0,0]}\">L'area è pesantemente oscurata e le fiamme scoperte vengono estinte.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[476,560,0,0]}\">Il terreno entro l'area è coperto di ghiaccio scivoloso e diventa terreno difficile.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[562,758,0,0]}\">Quando una creatura entra nell'area dell'incantesimo per la prima volta in un turno o vi inizia il proprio turno, deve effettuare un tiro salvezza su Destrezza. Se lo fallisce, cade a terra prona.</p>\n<p>&nbsp;</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[760,985,0,0]}\">Se una creatura cerca di concentrarsi nell'area dell'incantesimo, deve superare un tiro salvezza su Costituzione contro la CD del tiro salvezza dell'incantesimo lanciato dall'incantatore, altrimenti perderà la concentrazione.</p>",
-      "materials": "un pizzico di polvere e alcune gocce d'acqua"
+      "materials": "un pizzico di polvere e alcune gocce d'acqua",
+      "activities": {
+        "dnd5eactivity000": {
+          "name": "Tiro Salvezza sul Ghiaccio Scivoloso"
+        },
+        "PxwopGlJxRFIgDMc": {
+          "name": "Lancia Incantesimo"
+        },
+        "qfj60uYu8bG8nsG9": {
+          "name": "Tiro Salvezza per Mantenere la Concentrazione"
+        }
+      }
     },
     "Slow": {
       "name": "Lentezza",
@@ -2944,6 +3395,9 @@
       "activities": {
         "WIxfTSSjYA5bScTl": {
           "name": "Lancia"
+        },
+        "dnd5eactivity000": {
+          "name": "Danni da Attraversamento"
         }
       }
     },
@@ -2954,12 +3408,23 @@
       "activities": {
         "0vosgb6402pwvwVt": {
           "name": "Lancia"
+        },
+        "dnd5eactivity000": {
+          "name": "Tiro Salvezza a Inizio Turno / all'Ingresso"
         }
       }
     },
     "Spiritual Weapon": {
       "name": "Arma Spirituale",
-      "description": "<p>L'incantatore crea entro gittata un'arma fluttuante spettrale che permane per la durata dell'incantesimo o finché l'incantatore non.lancia di nuovo questo incantesimo. Quando lancia questo incantesimo, l'incantatore può effettuare un attacco in mischia con questo incantesimo contro una creatura entro 1,5 metri dall'arma. Se colpisce, il bersaglio subisce 1d8 danni da forza+ il modificatore di caratteristica da incantatore.</p><p>Con un'azione bonus nel suo turno, l'incantatore può muovere l'arma di un massimo di 6 metri e ripetere l'attacco contro una creatura situata entro 1,5 metri da essa. L'arma può assumere la forma che l'incantatore preferisce. I chierici di una divinità associata a un tipo particolare di arma (come per esempio St Cuthbert, noto per la sua mazza, o Thor per il suo martello} impartiranno all'arma creata da questo incantesimo la forma di tale arma.</p><p><strong> Ai Livelll Superiori.</strong> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 4° livello o Superiore, i danni aumentano di ld8 per ogni due slot incantesimo superiori al 2•.</p>"
+      "description": "<p>L'incantatore crea entro gittata un'arma fluttuante spettrale che permane per la durata dell'incantesimo o finché l'incantatore non.lancia di nuovo questo incantesimo. Quando lancia questo incantesimo, l'incantatore può effettuare un attacco in mischia con questo incantesimo contro una creatura entro 1,5 metri dall'arma. Se colpisce, il bersaglio subisce 1d8 danni da forza+ il modificatore di caratteristica da incantatore.</p><p>Con un'azione bonus nel suo turno, l'incantatore può muovere l'arma di un massimo di 6 metri e ripetere l'attacco contro una creatura situata entro 1,5 metri da essa. L'arma può assumere la forma che l'incantatore preferisce. I chierici di una divinità associata a un tipo particolare di arma (come per esempio St Cuthbert, noto per la sua mazza, o Thor per il suo martello} impartiranno all'arma creata da questo incantesimo la forma di tale arma.</p><p><strong> Ai Livelll Superiori.</strong> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 4° livello o Superiore, i danni aumentano di ld8 per ogni due slot incantesimo superiori al 2•.</p>",
+      "activities": {
+        "vdlxZxKmIlZiZ2Ij": {
+          "name": "Evoca Arma Spirituale"
+        },
+        "edJeSEGfYmZKzrPa": {
+          "name": "Muovi e Comanda Arma Spirituale"
+        }
+      }
     },
     "Stinking Cloud": {
       "name": "Nube Maleodorante",
@@ -2968,6 +3433,9 @@
       "activities": {
         "r2hG3reQkMGV6jqb": {
           "name": "Lancia"
+        },
+        "dnd5eactivity000": {
+          "name": "Tiro Salvezza contro Nube Maleodorante"
         }
       }
     },
@@ -3002,13 +3470,30 @@
       "activities": {
         "Kb0mJl7JsrGs9OAN": {
           "name": "Lancia"
+        },
+        "lWQnKu5gulmNcD6h": {
+          "name": "Round 2: Pioggia Acida"
+        },
+        "LHS02thv32GFDNB4": {
+          "name": "Round 3: Fulmini"
+        },
+        "AR8QvQ6OU9PIF5Qj": {
+          "name": "Round 4: Chicchi di Grandine"
+        },
+        "dFKNiCeDuVPLUcLf": {
+          "name": "Round 5–10: Folate e Pioggia Gelida"
         }
       }
     },
     "Suggestion": {
       "name": "Suggestione",
       "description": "<p data-parsoid=\"{&quot;dsr&quot;:[0,30,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,30,2,2]}\">Ammaliamento di 2° livello</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[31,236,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[31,63,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[32,55,3,3]}\">Tempo di lancio:&nbsp;</strong>1 azione</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[64,87,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[65,80,3,3]}\">Gittata:&nbsp;</strong>9 metri</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[88,192,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[89,107,3,3]}\">Componenti:&nbsp;</strong>V, M (una lingua di serpente e un frammento di un alveare o una goccia di olio dolce)</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[193,236,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[194,208,3,3]}\">Durata:&nbsp;</strong>Concentrazione, fino a 8 ore</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[237,414,0,0]}\">L'incantatore suggerisce un corso d'azione da intraprendere (limitandosi a una o due frasi) e influenza magicamente una creatura entro gittata e che egli sia in grado di vedere.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[416,487,0,0]}\">La creatura deve essere in grado di sentire l'incantatore e di capirlo.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[489,565,0,0]}\">Le creature che non possono essere affascinate sono immuni a questo effetto.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[567,807,0,0]}\">La suggestione deve essere formulata in modo che il corso d'azione appaia ragionevole. Chiedere a una creatura di pugnalarsi, gettarsi su una lancia, immolarsi o compiere altri atti palesemente autolesionistici pone termine all'incantesimo.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[809,1552,0,0]}\">Il bersaglio deve effettuare un tiro salvezza su Saggezza. Se lo fallisce, deve perseguire il corso d'azione descritto dall'incantatore al meglio delle sue capacità. Tale corso d'azione può proseguire per l'intera durata dell'incantesimo. Se l'attività suggerita può essere completata in un periodo di tempo più breve, l'incantesimo termina quando il soggetto completa ciò che gli è stato chiesto di fare. L'incantatore può anche specificare quali condizioni innescheranno un'attività speciale nel corso della durata. Per esempio, potrebbe suggerire che un cavaliere ceda il suo cavallo da guerra al primo mendicante che incontra. Se questa condizione non viene soddisfatta prima che l'incantesimo termini, quell'attività non viene effettuata.</p>\n<p>&nbsp;</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1554,1648,0,0]}\">Se l'incantatore o uno dei suoi compagni infliggono danni al bersaglio, l'incantesimo termina.</p>",
-      "materials": "una lingua di serpente e un frammento di un alveare o una goccia di olio dolce"
+      "materials": "una lingua di serpente e un frammento di un alveare o una goccia di olio dolce",
+      "activities": {
+        "dnd5eactivity000": {
+          "name": "Pronuncia Suggestione"
+        }
+      }
     },
     "Sunbeam": {
       "name": "Bagliore Solare",
@@ -3022,6 +3507,9 @@
       "activities": {
         "IGmFdcD9mxoHsJf9": {
           "name": "Lancia"
+        },
+        "mHlSGE3y0KLvlfaj": {
+          "name": "Linea di Radiosità"
         }
       }
     },
@@ -3044,6 +3532,35 @@
         "zeCgJ2WL6LphCbJd": {
           "name": "Stordito"
         }
+      },
+      "activities": {
+        "BaJXzG5JyqKZvaYY": {
+          "name": "Iscrivi Glifo"
+        },
+        "5RxmzaH8a0F2pe0W": {
+          "name": "Effetto del Glifo: Morte"
+        },
+        "aQ5gGxhnROMnbUYo": {
+          "name": "Effetto del Glifo: Discordia"
+        },
+        "JpTNQO6B5su2lz7Q": {
+          "name": "Effetto del Glifo: Paura"
+        },
+        "EbNUoZmq2qyEIE75": {
+          "name": "Effetto del Glifo: Disperazione"
+        },
+        "l4wdQCsSrKaSzEnP": {
+          "name": "Effetto del Glifo: Follia"
+        },
+        "ileq899HQ5YZKEif": {
+          "name": "Effetto del Glifo: Dolore"
+        },
+        "S48Cy0ZHIKduGUUD": {
+          "name": "Effetto del Glifo: Sonno"
+        },
+        "SbxsIIBtx25GNijc": {
+          "name": "Effetto del Glifo: Stordimento"
+        }
       }
     },
     "Telekinesis": {
@@ -3052,6 +3569,12 @@
       "activities": {
         "LggxvyYGcDJNHbou": {
           "name": "Lancia"
+        },
+        "r5d5cLmb299gcJHl": {
+          "name": "Manipola Creatura"
+        },
+        "iSZxY9EGiZdtU7Re": {
+          "name": "Manipola Oggetto"
         }
       }
     },
@@ -3071,6 +3594,9 @@
       "activities": {
         "dnd5eactivity000": {
           "name": "Lancia"
+        },
+        "FRz2LntLdKnrnVvH": {
+          "name": "Danni da Incidente"
         }
       }
     },
@@ -3107,7 +3633,10 @@
       "description": "<p data-parsoid=\"{&quot;dsr&quot;:[0,31,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,31,2,2]}\">Trasmutazione di 9° livello</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[32,139,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[32,64,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[33,56,3,3]}\">Tempo di lancio:&nbsp;</strong>1 azione</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[65,92,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[66,81,3,3]}\">Gittata:&nbsp;</strong>Incantatore</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[93,113,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[94,111,3,3]}\">Componenti:</strong>&nbsp;V</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[114,139,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[115,129,3,3]}\">Durata:&nbsp;</strong>Istantanea</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[140,388,0,0]}\">L'incantatore ferma brevemente lo scorrere del tempo per chiunque eccetto se stesso. Il tempo non scorre per le altre creature, mentre l'incantatore guadagna 1d4+1 turni di seguito, durante i quali può effettuare azioni e muoversi&nbsp;come di consueto.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[390,673,0,0]}\">Questo incantesimo termina se una delle azioni che l'incantatore effettua durante questo periodo, o qualsiasi effetto che egli possa creare durante questo periodo, interessa una creatura diversa dall'incantatore od un oggetto indossato o portato da qualcuno diverso dall'incantatore.</p>\n<p style=\"border: 0px; margin-top: 0.4em; padding: 0px; vertical-align: baseline; color: #d5d4d4; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; background-color: #1a1a1a;\">&nbsp;</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[675,799,0,0]}\">Inoltre, l'incantesimo termina se l'incantatore si sposta in un luogo a più di 300 metri dalla zona in cui è stato lanciato.</p>",
       "activities": {
         "0h3MxXUm4UEs9REL": {
-          "name": "Lancia"
+          "name": "Lancia",
+          "roll": {
+            "name": "Durata di Fermare il Tempo (Round)"
+          }
         }
       }
     },
@@ -3156,6 +3685,12 @@
       "activities": {
         "dnd5eactivity000": {
           "name": "Lancia"
+        },
+        "Y7gjcDvz2X1fknbC": {
+          "name": "Creatura in Creatura"
+        },
+        "gEBSNPjhtGsBtHCx": {
+          "name": "Oggetto in Creatura"
         }
       }
     },
@@ -3201,7 +3736,15 @@
     "Unseen Servant": {
       "name": "Servitore Inosservato",
       "description": "<p data-parsoid=\"{&quot;dsr&quot;:[0,38,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,38,2,2]}\">Evocazione di 1° livello (rituale)</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[39,183,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[39,71,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[40,63,3,3]}\">Tempo di lancio:&nbsp;</strong>1 azione</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[72,96,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[73,88,3,3]}\">Gittata:&nbsp;</strong>18 metri</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[97,162,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[98,116,3,3]}\">Componenti:&nbsp;</strong>V, S, M (un filo di spago e un pezzo di legno)</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[163,183,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[164,178,3,3]}\">Durata:&nbsp;</strong>1 ora</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[184,358,0,0]}\">Questo incantesimo crea una forza invisibile, amorfa e priva di volontà propria che svolge i compiti più semplici su ordine dell'incantatore finché l'incantesimo non termina.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[360,560,0,0]}\">Il servitore si materializza sul terreno, in uno spazio libero entro gittata. Possiede CA 10, 1 punto ferita, una Forza pari a 2 e non può attaccare. Se scende a 0 punti ferita, l'incantesimo termina.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[562,1058,0,0]}\">Una volta in ogni suo turno, come azione bonus, l'incantatore può ordinare mentalmente al servitore di muoversi fino a 4,5 metri e di interagire con un oggetto. Il servitore può effettuare compiti semplici come portare oggetti, pulire, riparare, ripiegare abiti, accendere fuochi, servire pietanze, versare vino e così via. Una volta impartito l'ordine, il servitore svolge il compito al meglio delle sue capacità finché non lo porta a termine, poi attende il comando successivo dell'incantatore.</p>\n<p>&nbsp;</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1060,1186,0,0]}\">Se l'incantatore ordina al servitore di svolgere un compito che lo porterebbe a più di 18 metri da lui, l'incantesimo termina.</p>",
-      "materials": "Un filo di spago e un pezzo di legno"
+      "materials": "Un filo di spago e un pezzo di legno",
+      "activities": {
+        "dnd5eactivity000": {
+          "name": "Evoca Servitore"
+        },
+        "SlwRW3UBZCWl4WB4": {
+          "name": "Comanda Servitore"
+        }
+      }
     },
     "Vampiric Touch": {
       "name": "Tocco del Vampiro",
@@ -3209,6 +3752,9 @@
       "activities": {
         "KfKXsfMmkV5Z6EiR": {
           "name": "Lancia"
+        },
+        "2exFAw3zKK49UfZJ": {
+          "name": "Attacco con Tocco Vampirico"
         }
       }
     },
@@ -3233,23 +3779,56 @@
       "activities": {
         "mVqRN9uGISDMRO1z": {
           "name": "Danni da Contatto con la Parete"
+        },
+        "c7IcbrVmmq74Rzqn": {
+          "name": "Evoca Muro di Fuoco"
+        },
+        "M7ljtGAftvbGGZ0J": {
+          "name": "Evoca Muro di Fuoco Circolare"
         }
       }
     },
     "Wall of Force": {
       "name": "Muro di Forza",
       "description": "<p data-parsoid=\"{&quot;dsr&quot;:[0,29,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,29,2,2]}\">Invocazione di 5&deg; livello</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[30,63,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[30,63,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[32,55,3,3]}\">Tempo di lancio:&nbsp;</strong>1 azione</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[65,90,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[65,90,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[67,82,3,3]}\">Gittata:&nbsp;</strong>36 metri</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[92,195,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[92,195,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[94,112,3,3]}\">Componenti:&nbsp;</strong>V, S, M (un pizzico di polvere ricavato dalla distruzione di una gemma trasparente)</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[197,245,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[197,245,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[199,213,3,3]}\">Durata:&nbsp;</strong>Concentrazione, fino a 10 minuti</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[246,350,0,0]}\">Un muro invisibile di forza si materializza in un punto a scelta dell'incantatore situato entro gittata.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[352,462,0,0]}\">Il muro appare nell'orientamento che l'incantatore desidera, come barriera orizzontale, verticale o inclinata.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[464,524,0,0]}\">Pu&ograve; fluttuare nell'aria o poggiare su una superficie solida.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[526,709,0,0]}\">L'incantatore pu&ograve; modellarlo in una semisfera o in una sfera del raggio massimo di 3 metri, o come una superficie piatta composta di dieci pannelli quadrati con lato di 3 metri l'uno.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[711,766,0,0]}\">Ogni pannello deve essere contiguo a un altro pannello.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[768,863,0,0]}\">In qualsiasi forma, il muro ha uno spessore di 0,5 cm e permane per la durata dell'incantesimo.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[865,1005,0,0]}\">Se il muro passa attraverso lo spazio di una creatura quando appare, la creatura viene spinta da un lato del muro a scelta dell'incantatore.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1007,1129,0,0]}\">Nulla pu&ograve; attraversare fisicamente il muro, che &egrave; immune a tutti i danni e non pu&ograve; essere dissolto tramite&nbsp;Dissolvi Magie.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1131,1207,0,0]}\">Un incantesimo&nbsp;Disintegrazione, tuttavia, distrugge il muro istantaneamente.</p>\n<p>&nbsp;</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1209,1298,0,0]}\">Il muro si estende anche sul Piano Etereo, bloccando i viaggi eterei che lo attraversano.</p>",
-      "materials": "un pizzico di polvere ricavato dalla distruzione di una gemma trasparente"
+      "materials": "un pizzico di polvere ricavato dalla distruzione di una gemma trasparente",
+      "activities": {
+        "dnd5eactivity000": {
+          "name": "Evoca Muro di Forza"
+        },
+        "eNYZ6Nqn4KIaDDzD": {
+          "name": "Evoca Muro di Forza Emisferico"
+        }
+      }
     },
     "Wall of Ice": {
       "name": "Muro di Ghiaccio",
       "description": "<p data-parsoid=\"{&quot;dsr&quot;:[0,29,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,29,2,2]}\">Invocazione di 6° livello</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[30,63,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[30,63,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[32,55,3,3]}\">Tempo di lancio:&nbsp;</strong>1 azione</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[65,90,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[65,90,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[67,82,3,3]}\">Gittata:&nbsp;</strong>36 metri</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[92,144,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[92,144,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[94,112,3,3]}\">Componenti:&nbsp;</strong>V, S, M (un frammento di quarzo)</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[146,194,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[146,194,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[148,162,3,3]}\">Durata:&nbsp;</strong>Concentrazione, fino a 10 minuti</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[195,432,0,0]}\">L'incantatore crea un muro di ghiaccio su una superficie solida situata entro gittata formando una semisfera o una sfera del raggio massimo di 3 metri o una superficie piatta composta da dieci pannelli quadrati con lato di 3 metri l'uno.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[434,489,0,0]}\">Ogni pannello deve essere contiguo a un altro pannello.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[491,575,0,0]}\">In qualsiasi forma, il muro è spesso 30 cm e permane per la durata dell'incantesimo.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[577,864,0,0]}\">Se il muro passa attraverso lo spazio di una creatura quando appare, la creatura entro la sua area viene spinta da un lato del muro e deve effettuare un tiro salvezza su Destrezza. Se lo fallisce, subisce 10d6 danni da freddo, mentre se lo supera, subisce soltanto la metà di quei danni.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[866,942,0,0]}\">Il muro è un oggetto che può essere danneggiato e quindi infranto, possiede:</p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[943,1112,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[943,956,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[945,956,3,3]}\">CA 12</strong></li>\n<li data-parsoid=\"{&quot;dsr&quot;:[957,1068,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[959,978,3,3]}\">punti ferita:</strong>&nbsp;30 per ogni sezione di 3 metri (una sezione di muro ridotta a 0 punti ferita è distrutta)</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[1069,1112,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[1071,1089,3,3]}\">vulnerabile&nbsp;</strong>ai danni di&nbsp;<strong data-parsoid=\"{&quot;dsr&quot;:[1101,1112,3,3]}\">fuoco</strong></li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[1113,1197,0,0]}\">Nello spazio occupato da una sezione distrutta resta solo una cortina d'aria gelida.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1199,1438,0,0]}\">Se una creatura attraversa la cortina d'aria gelida per la prima volta in un turno, deve effettuare un tiro salvezza su Costituzione. Se lo fallisce, subisce 5d6 danni da freddo, mentre se lo supera, subisce soltanto la metà di quei danni.</p>\n<p>&nbsp;</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1440,1755,0,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[1440,1468,3,3]}\">Ai Livelli Superiori.&nbsp;</strong>Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 7° livello o superiore, i danni che il muro infligge quando compare aumentano di 2d6 e i danni subiti da chi passa attraverso la cortina d'aria gelida aumentano di 1d6 per ogni slot di livello superiore al 6°.</p>",
-      "materials": "un frammento di quarzo"
+      "materials": "un frammento di quarzo",
+      "activities": {
+        "dnd5eactivity000": {
+          "name": "Evoca Muro di Ghiaccio"
+        },
+        "dnd5eactivity200": {
+          "name": "Danni da Aria Gelida"
+        },
+        "QaMcKZp0TzrGWLZ1": {
+          "name": "Evoca Cupola di Ghiaccio"
+        }
+      }
     },
     "Wall of Stone": {
       "name": "Muro di Pietra",
       "description": "<p data-parsoid=\"{&quot;dsr&quot;:[0,29,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,29,2,2]}\">Invocazione di 5° livello</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[30,63,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[30,63,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[32,55,3,3]}\">Tempo di lancio:&nbsp;</strong>1 azione</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[65,90,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[65,90,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[67,82,3,3]}\">Gittata:&nbsp;</strong>36 metri</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[92,149,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[92,149,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[94,112,3,3]}\">Componenti:&nbsp;</strong>V, S, M (un piccolo pezzo di granito)</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[151,199,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[151,199,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[153,167,3,3]}\">Durata:&nbsp;</strong>Concentrazione, fino a 10 minuti</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[200,321,0,0]}\">Un muro non magico di solida pietra si materializza partendo da un punto a scelta dell'incantatore situato entro gittata.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[323,474,0,0]}\">Il muro è spesso 15 cm e composto da dieci pannelli quadrati con lato di 3 metri l'uno. Ogni pannello deve essere contiguo ad almeno un altro pannello.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[476,583,0,0]}\">In alternativa, l'incantatore può creare dei pannelli di 3 metri per 6 metri dello spessore di soli 7,5 cm.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[585,738,0,0]}\">Se il muro attraversa lo spazio di una creatura nel momento in cui compare, quella creatura viene spinta da un lato del muro (a scelta dell'incantatore).</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[740,1020,0,0]}\">Se una creatura sarebbe circondata su tutti i lati dal muro (o dal muro e da un'altra superficie solida), può effettuare un tiro salvezza su Destrezza. Se lo supera, può usare la sua reazione per muoversi fino alla sua velocità nel tentativo di non rimanere intrappolata dal muro.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1022,1308,0,0]}\">Il muro può avere la forma desiderata dall'incantatore, ma non può occupare lo stesso spazio di una creatura o di un oggetto. Non è necessario che il muro sia verticale o poggi su fondamenta solide. Deve però fondersi ed essere solidamente sorretto da una massa di pietra già esistente.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1310,1411,0,0]}\">Quindi è possibile usare questo incantesimo per creare una rampa o un ponte che attraversi un baratro</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1413,1622,0,0]}\">Se l'incantatore crea un'arcata di lunghezza superiore a 6 metri, deve dimezzare le dimensioni di ogni pannello per creare dei sostegni. Può rozzamente modellare il muro per creare feritoie, spalti e così via.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1624,1706,0,0]}\">Il muro è un oggetto fatto di pietra che può essere danneggiato e quindi sfondato.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1708,1911,0,0]}\">Ogni pannello ha CA 15 e 30 punti ferita per ogni 2,5 cm di spessore. Quando un pannello scende a 0 punti ferita è distrutto e potrebbe provocare anche il crollo di altri pannelli, a discrezione del DM.</p>\n<p>&nbsp;</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1913,2112,0,0]}\">Se l'incantatore mantiene la concentrazione su questo incantesimo per l'intera durata, il muro diventa permanente e non può essere dissolto. Altrimenti, il muro scompare quando l'incantesimo termina.</p>",
-      "materials": "Muro di Pietra"
+      "materials": "Muro di Pietra",
+      "activities": {
+        "dnd5eactivity000": {
+          "name": "Evoca Muro di Pietra (Pannelli di 3 m × 3 m)"
+        },
+        "d5HiSblAgFL6tu4u": {
+          "name": "Evoca Muro di Pietra (Pannelli di 3 m × 6 m)"
+        }
+      }
     },
     "Wall of Thorns": {
       "name": "Muro di Spine",
@@ -3258,6 +3837,12 @@
       "activities": {
         "8YDZAxCbAqr4etpJ": {
           "name": "Danni da Contatto con la Parete"
+        },
+        "dnd5eactivity000": {
+          "name": "Evoca Muro di Spine"
+        },
+        "bW1jTVcJY6Feg9Bg": {
+          "name": "Evoca Muro di Spine Circolare"
         }
       }
     },
@@ -3299,7 +3884,18 @@
     "Web": {
       "name": "Ragnatela",
       "description": "<p data-parsoid=\"{&quot;dsr&quot;:[0,28,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,28,2,2]}\">Evocazione di 2&deg; livello</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[29,192,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[29,61,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[30,53,3,3]}\">Tempo di lancio:&nbsp;</strong>1 azione</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[62,86,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[63,78,3,3]}\">Gittata:&nbsp;</strong>18 metri</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[87,148,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[88,106,3,3]}\">Componenti:&nbsp;</strong>V, S, M (un frammento di ragnatela comune)</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[149,192,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[150,164,3,3]}\">Durata:&nbsp;</strong>Concentrazione, fino a 1 ora</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[193,313,0,0]}\">L'incantatore evoca una massa di spessi e viscosi filamenti di ragnatela in un punto a sua scelta situato entro gittata.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[315,423,0,0]}\">Le ragnatele riempiono un cubo con spigolo di 6 metri generato da quel punto per la durata dell'incantesimo.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[425,511,0,0]}\">Le ragnatele sono terreno difficile e la loro area &egrave; considerata leggermente oscurata.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[513,743,0,0]}\">Se le ragnatele non sono ancorate tra due masse solide (per esempio pareti o alberi) o stese su un pavimento, un muro o un soffitto, collassano su s&eacute; stesse e l'incantesimo termina all'inizio del turno successivo dell'incantatore.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[745,823,0,0]}\">Le ragnatele stese su una superficie piatta hanno una profondit&agrave; di 1,5 metri.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[825,1080,0,0]}\">Ogni creatura che inizia il suo turno nelle ragnatele o che vi entra durante il proprio turno deve effettuare un tiro salvezza su Destrezza. Se lo fallisce, la creatura &egrave; trattenuta fintanto che rimante tra le ragnatele o finch&eacute; non si libera spezzandole.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1082,1266,0,0]}\">Una creatura trattenuta dalle ragnatele pu&ograve; usare la sua azione per effettuare una prova di Forza contro la CD del tiro salvezza dell'incantesimo. Se ha successo, non &egrave; pi&ugrave; trattenuta.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1268,1299,0,0]}\">Le ragnatele sono infiammabili.</p>\n<p>&nbsp;</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1301,1450,0,0]}\">Un cubo di ragnatele con spigolo di 1,5 metri brucia in 1 round, infliggendo 2d4 danni da fuoco a ogni creatura che inizi il suo turno tra le fiamme.</p>",
-      "materials": "un frammento di ragnatela comune"
+      "materials": "un frammento di ragnatela comune",
+      "activities": {
+        "ftvFmQAo49Z6MdNX": {
+          "name": "Evoca Ragnatele"
+        },
+        "PRFBGysxlHdLt0l2": {
+          "name": "Tiro Salvezza all'Ingresso nella Ragnatela"
+        },
+        "EQ3kh837OtgGcg8n": {
+          "name": "Danni della Ragnatela in Fiamme"
+        }
+      }
     },
     "Weird": {
       "name": "Fatale",
@@ -3390,7 +3986,22 @@
           "name": "Desiderio Logorante: Conferisci Resistenza"
         },
         "rdc6j17QxpWYSY0p": {
-          "name": "Effetti Logoranti di Desiderio"
+          "name": "Effetti Logoranti di Desiderio",
+          "roll": {
+            "name": "Futuro Utilizzo di Desiderio"
+          }
+        },
+        "9MWp6lmC7jks1X2b": {
+          "name": "Replica Incantesimo (di 8° Livello o Inferiore)"
+        },
+        "piGTME44iVi7Erzh": {
+          "name": "Desiderio Logorante: Crea Ricchezza"
+        },
+        "ZuyAC02rGDZArcve": {
+          "name": "Desiderio Logorante: Ripristina Salute"
+        },
+        "QCNUOWZDEYZqz5rI": {
+          "name": "Desiderio Logorante: Riscrivi Eventi"
         }
       }
     },
@@ -3409,6 +4020,9 @@
       "activities": {
         "edM4PYnJzZgalBZZ": {
           "name": "Lancia"
+        },
+        "dnd5eactivity000": {
+          "name": "Tiro Salvezza all'Ingresso nella Zona"
         }
       }
     }

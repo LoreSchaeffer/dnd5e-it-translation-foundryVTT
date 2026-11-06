@@ -97,6 +97,19 @@ test("translationForField resolves activity profiles by stable IDs", () => {
   assert.equal(translationForField(record, field, translation), "GS 1");
 });
 
+test("translationForField prefers stable activity IDs over stale name-keyed data", () => {
+  const record = { data: { system: { activities: { activity1: { name: "Cast" } } } } };
+  const translation = {
+    activities: {
+      Cast: {},
+      activity1: { name: "Lancia" }
+    }
+  };
+  const field = { fieldPath: "system.activities.activity1.name" };
+
+  assert.equal(translationForField(record, field, translation), "Lancia");
+});
+
 test("scoped allowlist permits an approved proper name but not the same value elsewhere", () => {
   const allowlist = [{
     kind: "unchanged-english",

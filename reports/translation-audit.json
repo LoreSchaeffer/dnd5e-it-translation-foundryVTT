@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 884,
+      "translated": 895,
       "missing": 112,
-      "partial": 1395,
+      "partial": 1384,
       "review": 213
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 8215,
-      "missing": 7445,
+      "translated": 8397,
+      "missing": 7263,
       "invariantFailures": 2394,
       "englishResiduals": 135,
       "imperialResiduals": 4
     },
-    "blockingIssues": 9915
+    "blockingIssues": 9733
   },
   "packs": [
     {
@@ -79082,9 +79082,9 @@
       "summary": {
         "documents": {
           "total": 320,
-          "translated": 47,
+          "translated": 58,
           "missing": 1,
-          "partial": 272,
+          "partial": 261,
           "review": 10
         },
         "folders": {
@@ -79096,8 +79096,8 @@
         },
         "fields": {
           "total": 2007,
-          "translated": 1227,
-          "missing": 780,
+          "translated": 1409,
+          "missing": 598,
           "invariantFailures": 406,
           "englishResiduals": 17,
           "imperialResiduals": 2
@@ -79245,33 +79245,6 @@
           "sourcePath": "spells/1st-level/command.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "a3XtAO5n2GrqiAh5",
-          "name": "Create or Destroy Water",
-          "fieldPath": "system.activities.YLVe1YsiyNBUxjXx.roll.name",
-          "sourcePath": "spells/1st-level/create-or-destroy-water.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "a3XtAO5n2GrqiAh5",
-          "name": "Create or Destroy Water",
-          "fieldPath": "system.activities.irIydyXyiUPVWhfg.roll.name",
-          "sourcePath": "spells/1st-level/create-or-destroy-water.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "a3XtAO5n2GrqiAh5",
-          "name": "Create or Destroy Water",
-          "fieldPath": "system.activities.HOXAFi1SQnPzdJ6E.name",
-          "sourcePath": "spells/1st-level/create-or-destroy-water.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -79310,15 +79283,6 @@
           "fieldPath": "effects[YNlbHxIwut5swF2d].description",
           "name": "Divine Favor",
           "sourcePath": "spells/1st-level/divine-favor.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "gMrWeG8fMDPRFiVe",
-          "name": "Entangle",
-          "fieldPath": "system.activities.rh7ciGbrgpnnZ3B2.name",
-          "sourcePath": "spells/1st-level/entangle.yml"
         },
         {
           "code": "missing-field",
@@ -79401,15 +79365,6 @@
           "pack": "spells",
           "id": "JGT5bNqu9REL7Fuz",
           "name": "Find Familiar",
-          "fieldPath": "system.activities.dnd5eactivity000.profiles[kaiiJrnUWOqlQHt3].name",
-          "sourcePath": "spells/1st-level/find-familiar.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "JGT5bNqu9REL7Fuz",
-          "name": "Find Familiar",
           "fieldPath": "effects[ElS7F2Oh06jeZtpi].name",
           "sourcePath": "spells/1st-level/find-familiar.yml"
         },
@@ -79437,28 +79392,10 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "spells",
-          "id": "etgcR9wqmrhyZ0tx",
-          "name": "Grease",
-          "fieldPath": "system.activities.OiCc4lVFXS0vkFhf.name",
-          "sourcePath": "spells/1st-level/grease.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
           "id": "7buEm5KhI5lP8m1z",
           "name": "Guiding Bolt",
           "fieldPath": "effects[hf1g2XNPqQFMw35j].description",
           "sourcePath": "spells/1st-level/guiding-bolt.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "ge3Saet9zPTDyaoL",
-          "name": "Heroism",
-          "fieldPath": "system.activities.dnd5eactivity000.name",
-          "sourcePath": "spells/1st-level/heroism.yml"
         },
         {
           "code": "missing-field",
@@ -79496,15 +79433,6 @@
           "id": "0xmXiPiuYws1OGcX",
           "fieldPath": "system.description.value",
           "name": "Hunter's Mark",
-          "sourcePath": "spells/1st-level/hunters-mark.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "0xmXiPiuYws1OGcX",
-          "name": "Hunter's Mark",
-          "fieldPath": "system.activities.dnd5eactivity000.name",
           "sourcePath": "spells/1st-level/hunters-mark.yml"
         },
         {
@@ -79718,15 +79646,6 @@
           "pack": "spells",
           "id": "gvdA9nPuWLck4tBl",
           "name": "Sanctuary",
-          "fieldPath": "system.activities.dnd5eactivity000.name",
-          "sourcePath": "spells/1st-level/sanctuary.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "gvdA9nPuWLck4tBl",
-          "name": "Sanctuary",
           "fieldPath": "effects[DxExOr8qiUQ1RQbF].description",
           "sourcePath": "spells/1st-level/sanctuary.yml"
         },
@@ -79844,15 +79763,6 @@
           "pack": "spells",
           "id": "KhwiSi9fwVfUPtku",
           "name": "Sleep",
-          "fieldPath": "system.activities.R4kjwJNQwDLhvlPw.roll.name",
-          "sourcePath": "spells/1st-level/sleep.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "KhwiSi9fwVfUPtku",
-          "name": "Sleep",
           "fieldPath": "effects[MowBnXpRu2aG48i9].description",
           "sourcePath": "spells/1st-level/sleep.yml"
         },
@@ -79935,33 +79845,6 @@
           "fieldPath": "system.description.value",
           "name": "Unseen Servant",
           "sourcePath": "spells/1st-level/unseen-servant.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "ccduLIvutyNqvkgv",
-          "name": "Unseen Servant",
-          "fieldPath": "system.activities.dnd5eactivity000.name",
-          "sourcePath": "spells/1st-level/unseen-servant.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "ccduLIvutyNqvkgv",
-          "name": "Unseen Servant",
-          "fieldPath": "system.activities.SlwRW3UBZCWl4WB4.name",
-          "sourcePath": "spells/1st-level/unseen-servant.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "4H6YgYdKgnX6ZQ8M",
-          "name": "Acid Arrow",
-          "fieldPath": "system.activities.DD8lxW9OUprGPLts.name",
-          "sourcePath": "spells/2nd-level/acid-arrow.yml"
         },
         {
           "code": "missing-field",
@@ -80565,15 +80448,6 @@
           "pack": "spells",
           "id": "7UwUjJ6owIQkEPrs",
           "name": "Branding Smite",
-          "fieldPath": "system.activities.dnd5eactivity000.name",
-          "sourcePath": "spells/2nd-level/branding-smite.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "7UwUjJ6owIQkEPrs",
-          "name": "Branding Smite",
           "fieldPath": "effects[xM2PEzUfQZgNIXRv].name",
           "sourcePath": "spells/2nd-level/branding-smite.yml"
         },
@@ -80772,15 +80646,6 @@
           "pack": "spells",
           "id": "MK6gpQMeDFo0cP9f",
           "name": "Continual Flame",
-          "fieldPath": "system.activities.AHnTfgcTLyMZLPNS.name",
-          "sourcePath": "spells/2nd-level/continual-flame.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "MK6gpQMeDFo0cP9f",
-          "name": "Continual Flame",
           "fieldPath": "effects[H4kfOYuc1G4lckzb].description",
           "sourcePath": "spells/2nd-level/continual-flame.yml"
         },
@@ -80801,15 +80666,6 @@
           "name": "Continual Flame",
           "fieldPath": "effects[mGjF4d035590u5V0].description",
           "sourcePath": "spells/2nd-level/continual-flame.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "S7VbUetIfVT7B6Eq",
-          "name": "Darkness",
-          "fieldPath": "system.activities.wTFlqIa1q030bdJe.name",
-          "sourcePath": "spells/2nd-level/darkness.yml"
         },
         {
           "code": "missing-field",
@@ -80846,24 +80702,6 @@
           "name": "Darkvision",
           "fieldPath": "effects[9qaZQFN5xP8Gig8f].description",
           "sourcePath": "spells/2nd-level/darkvision.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "ppWAAEul0QHtm4er",
-          "name": "Detect Thoughts",
-          "fieldPath": "system.activities.dnd5eactivity000.name",
-          "sourcePath": "spells/2nd-level/detect-thoughts.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "ppWAAEul0QHtm4er",
-          "name": "Detect Thoughts",
-          "fieldPath": "system.activities.ceF5r9EVkL64Cq0m.name",
-          "sourcePath": "spells/2nd-level/detect-thoughts.yml"
         },
         {
           "code": "missing-field",
@@ -81090,15 +80928,6 @@
           "pack": "spells",
           "id": "Advtckpz1B733bu9",
           "name": "Flame Blade",
-          "fieldPath": "system.activities.rUOzC7j6wRPm8fpO.name",
-          "sourcePath": "spells/2nd-level/flame-blade.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "Advtckpz1B733bu9",
-          "name": "Flame Blade",
           "fieldPath": "system.activities.rUOzC7j6wRPm8fpO.description.value",
           "sourcePath": "spells/2nd-level/flame-blade.yml"
         },
@@ -81259,24 +81088,6 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "spells",
-          "id": "FjYE214HTERCRZNm",
-          "name": "Flaming Sphere",
-          "fieldPath": "system.activities.AdvbemIjfAfOL9OU.name",
-          "sourcePath": "spells/2nd-level/flaming-sphere.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "FjYE214HTERCRZNm",
-          "name": "Flaming Sphere",
-          "fieldPath": "system.activities.Abi8r6ArCkjaIPUs.name",
-          "sourcePath": "spells/2nd-level/flaming-sphere.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
           "id": "n4JDcFKe5ikzYmAc",
           "name": "Gentle Repose",
           "fieldPath": "effects[1gNoHqJuC8LJbPaB].description",
@@ -81321,42 +81132,6 @@
           "fieldPath": "system.description.value",
           "name": "Gust of Wind",
           "sourcePath": "spells/2nd-level/gust-of-wind.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "FSMy6VAjDnXY9vWz",
-          "name": "Gust of Wind",
-          "fieldPath": "system.activities.dnd5eactivity000.name",
-          "sourcePath": "spells/2nd-level/gust-of-wind.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "FSMy6VAjDnXY9vWz",
-          "name": "Gust of Wind",
-          "fieldPath": "system.activities.N2uCoJPi53lKVVPr.name",
-          "sourcePath": "spells/2nd-level/gust-of-wind.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "2yHXEcrRbadZDr5M",
-          "name": "Heat Metal",
-          "fieldPath": "system.activities.dnd5eactivity000.name",
-          "sourcePath": "spells/2nd-level/heat-metal.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "2yHXEcrRbadZDr5M",
-          "name": "Heat Metal",
-          "fieldPath": "system.activities.G2KFLGhU06lqMm12.name",
-          "sourcePath": "spells/2nd-level/heat-metal.yml"
         },
         {
           "code": "missing-field",
@@ -81546,15 +81321,6 @@
           "pack": "spells",
           "id": "Sgjrf8qqv97CCWM4",
           "name": "Magic Weapon",
-          "fieldPath": "system.activities.dnd5eactivity000.name",
-          "sourcePath": "spells/2nd-level/magic-weapon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "Sgjrf8qqv97CCWM4",
-          "name": "Magic Weapon",
           "fieldPath": "effects[SLSudYaACjmmmZsU].name",
           "sourcePath": "spells/2nd-level/magic-weapon.yml"
         },
@@ -81648,15 +81414,6 @@
           "pack": "spells",
           "id": "X4c8xCkmF8U9HUMz",
           "name": "Mirror Image",
-          "fieldPath": "system.activities.rQbzIAnDXYbVe48y.roll.name",
-          "sourcePath": "spells/2nd-level/mirror-image.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "X4c8xCkmF8U9HUMz",
-          "name": "Mirror Image",
           "fieldPath": "effects[I5Cgu5m0knHmdXge].name",
           "sourcePath": "spells/2nd-level/mirror-image.yml"
         },
@@ -81724,33 +81481,6 @@
           "fieldPath": "system.description.value",
           "name": "Misty Step",
           "sourcePath": "spells/2nd-level/misty-step.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "bV3yun6MIuFj71Er",
-          "name": "Moonbeam",
-          "fieldPath": "system.activities.dnd5eactivity000.name",
-          "sourcePath": "spells/2nd-level/moonbeam.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "bV3yun6MIuFj71Er",
-          "name": "Moonbeam",
-          "fieldPath": "system.activities.JKOXpZM16ErnikPJ.name",
-          "sourcePath": "spells/2nd-level/moonbeam.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "bV3yun6MIuFj71Er",
-          "name": "Moonbeam",
-          "fieldPath": "system.activities.jxsbHRCwTD0qWzeV.name",
-          "sourcePath": "spells/2nd-level/moonbeam.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -81856,15 +81586,6 @@
           "pack": "spells",
           "id": "ODhLKBxLnvvLOnw1",
           "name": "Ray of Enfeeblement",
-          "fieldPath": "system.activities.dnd5eactivity100.name",
-          "sourcePath": "spells/2nd-level/ray-of-enfeeblement.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "ODhLKBxLnvvLOnw1",
-          "name": "Ray of Enfeeblement",
           "fieldPath": "effects[HaoKvppKfss4ajTS].name",
           "sourcePath": "spells/2nd-level/ray-of-enfeeblement.yml"
         },
@@ -81915,24 +81636,6 @@
           "id": "7u2obDvuvtZBkTfq",
           "fieldPath": "system.description.value",
           "name": "Scorching Ray",
-          "sourcePath": "spells/2nd-level/scorching-ray.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "7u2obDvuvtZBkTfq",
-          "name": "Scorching Ray",
-          "fieldPath": "system.activities.dnd5eactivity000.name",
-          "sourcePath": "spells/2nd-level/scorching-ray.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "7u2obDvuvtZBkTfq",
-          "name": "Scorching Ray",
-          "fieldPath": "system.activities.UkDjVJESqmcgovO7.roll.name",
           "sourcePath": "spells/2nd-level/scorching-ray.yml"
         },
         {
@@ -82076,15 +81779,6 @@
           "sourcePath": "spells/2nd-level/spike-growth.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "9gYGkrL6qFTsE6fw",
-          "name": "Spike Growth",
-          "fieldPath": "system.activities.dnd5eactivity000.name",
-          "sourcePath": "spells/2nd-level/spike-growth.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -82115,24 +81809,6 @@
           "sourcePath": "spells/2nd-level/spiritual-weapon.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "JbxsYXxSOTZbf9I0",
-          "name": "Spiritual Weapon",
-          "fieldPath": "system.activities.vdlxZxKmIlZiZ2Ij.name",
-          "sourcePath": "spells/2nd-level/spiritual-weapon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "JbxsYXxSOTZbf9I0",
-          "name": "Spiritual Weapon",
-          "fieldPath": "system.activities.edJeSEGfYmZKzrPa.name",
-          "sourcePath": "spells/2nd-level/spiritual-weapon.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -82150,15 +81826,6 @@
           "id": "zMAWdyc8UVb37BK4",
           "fieldPath": "system.description.value",
           "name": "Suggestion",
-          "sourcePath": "spells/2nd-level/suggestion.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "zMAWdyc8UVb37BK4",
-          "name": "Suggestion",
-          "fieldPath": "system.activities.dnd5eactivity000.name",
           "sourcePath": "spells/2nd-level/suggestion.yml"
         },
         {
@@ -82234,33 +81901,6 @@
           "pack": "spells",
           "id": "UJJu9c2UvCzVljiP",
           "name": "Web",
-          "fieldPath": "system.activities.ftvFmQAo49Z6MdNX.name",
-          "sourcePath": "spells/2nd-level/web.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "UJJu9c2UvCzVljiP",
-          "name": "Web",
-          "fieldPath": "system.activities.PRFBGysxlHdLt0l2.name",
-          "sourcePath": "spells/2nd-level/web.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "UJJu9c2UvCzVljiP",
-          "name": "Web",
-          "fieldPath": "system.activities.EQ3kh837OtgGcg8n.name",
-          "sourcePath": "spells/2nd-level/web.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "UJJu9c2UvCzVljiP",
-          "name": "Web",
           "fieldPath": "effects[CLGFGD5YmLil8lUi].name",
           "sourcePath": "spells/2nd-level/web.yml"
         },
@@ -82292,24 +81932,6 @@
           "fieldPath": "system.description.value",
           "name": "Zone of Truth",
           "sourcePath": "spells/2nd-level/zone-of-truth.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "CylBa7jR8DSbo8Z3",
-          "name": "Zone of Truth",
-          "fieldPath": "system.activities.dnd5eactivity000.name",
-          "sourcePath": "spells/2nd-level/zone-of-truth.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "oyE5nVppa5mde5gT",
-          "name": "Animate Dead",
-          "fieldPath": "system.activities.slTKkuzJMunnfkAs.name",
-          "sourcePath": "spells/3rd-level/animate-dead.yml"
         },
         {
           "code": "missing-field",
@@ -82554,15 +82176,6 @@
           "pack": "spells",
           "id": "GSvLWcdCZLQkilXT",
           "name": "Blink",
-          "fieldPath": "system.activities.Vw0IvqP9k2jfsu8n.roll.name",
-          "sourcePath": "spells/3rd-level/blink.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "GSvLWcdCZLQkilXT",
-          "name": "Blink",
           "fieldPath": "effects[KfxYKxbFoCe5HJYS].name",
           "sourcePath": "spells/3rd-level/blink.yml"
         },
@@ -82574,15 +82187,6 @@
           "name": "Blink",
           "fieldPath": "effects[KfxYKxbFoCe5HJYS].description",
           "sourcePath": "spells/3rd-level/blink.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "ehvmg9U9fcMEhE4z",
-          "name": "Call Lightning",
-          "fieldPath": "system.activities.eMwCeO9hr0fOnDJx.name",
-          "sourcePath": "spells/3rd-level/call-lightning.yml"
         },
         {
           "code": "missing-field",
@@ -82601,15 +82205,6 @@
           "name": "Conjure Animals",
           "fieldPath": "effects[sfKQeT5HoeUFiaBj].description",
           "sourcePath": "spells/3rd-level/conjure-animals.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "BP3GCwa66IAw1yTG",
-          "name": "Daylight",
-          "fieldPath": "system.activities.SrAIyQ5bcIehzgmX.name",
-          "sourcePath": "spells/3rd-level/daylight.yml"
         },
         {
           "code": "missing-field",
@@ -82733,25 +82328,7 @@
           "pack": "spells",
           "id": "pB7XVYwdGNcUG935",
           "name": "Glyph of Warding",
-          "fieldPath": "system.activities.Kn7He91921d5pTio.name",
-          "sourcePath": "spells/3rd-level/glyph-of-warding.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "pB7XVYwdGNcUG935",
-          "name": "Glyph of Warding",
           "fieldPath": "system.activities.Kn7He91921d5pTio.description.value",
-          "sourcePath": "spells/3rd-level/glyph-of-warding.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "pB7XVYwdGNcUG935",
-          "name": "Glyph of Warding",
-          "fieldPath": "system.activities.x7zjmSoY9DWaiMhP.name",
           "sourcePath": "spells/3rd-level/glyph-of-warding.yml"
         },
         {
@@ -82836,34 +82413,7 @@
           "pack": "spells",
           "id": "y8A4HfTwd93ypdEz",
           "name": "Magic Circle",
-          "fieldPath": "system.activities.80Tb8x1GUu4ZcO7R.name",
-          "sourcePath": "spells/3rd-level/magic-circle.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "y8A4HfTwd93ypdEz",
-          "name": "Magic Circle",
-          "fieldPath": "system.activities.71GHgEVbu7CwzCUg.name",
-          "sourcePath": "spells/3rd-level/magic-circle.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "y8A4HfTwd93ypdEz",
-          "name": "Magic Circle",
           "fieldPath": "system.activities.3tvXJpYrfPS30uAL.description.value",
-          "sourcePath": "spells/3rd-level/magic-circle.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "y8A4HfTwd93ypdEz",
-          "name": "Magic Circle",
-          "fieldPath": "system.activities.3tvXJpYrfPS30uAL.name",
           "sourcePath": "spells/3rd-level/magic-circle.yml"
         },
         {
@@ -82942,24 +82492,6 @@
           "id": "64uo4fHriHLjRUrX",
           "fieldPath": "system.description.value",
           "name": "Meld into Stone",
-          "sourcePath": "spells/3rd-level/meld-into-stone.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "64uo4fHriHLjRUrX",
-          "name": "Meld into Stone",
-          "fieldPath": "system.activities.at17qOrWdjr80zy0.name",
-          "sourcePath": "spells/3rd-level/meld-into-stone.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "64uo4fHriHLjRUrX",
-          "name": "Meld into Stone",
-          "fieldPath": "system.activities.2NOxC43FZiwhej6W.name",
           "sourcePath": "spells/3rd-level/meld-into-stone.yml"
         },
         {
@@ -83056,24 +82588,6 @@
           "id": "YWtwzp6ZnQJMEmVW",
           "fieldPath": "system.description.value",
           "name": "Plant Growth",
-          "sourcePath": "spells/3rd-level/plant-growth.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "YWtwzp6ZnQJMEmVW",
-          "name": "Plant Growth",
-          "fieldPath": "system.activities.7LSLjVemL20laO4P.name",
-          "sourcePath": "spells/3rd-level/plant-growth.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "YWtwzp6ZnQJMEmVW",
-          "name": "Plant Growth",
-          "fieldPath": "system.activities.QCOidGIiPcyNjj9Y.name",
           "sourcePath": "spells/3rd-level/plant-growth.yml"
         },
         {
@@ -83227,15 +82741,6 @@
           "sourcePath": "spells/3rd-level/revivify.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "LmRHHMtplpxr9fX6",
-          "name": "Revivify",
-          "fieldPath": "system.activities.dnd5eactivity000.name",
-          "sourcePath": "spells/3rd-level/revivify.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -83293,33 +82798,6 @@
           "id": "dhqBY4TvVjxVmOZd",
           "fieldPath": "system.description.value",
           "name": "Sleet Storm",
-          "sourcePath": "spells/3rd-level/sleet-storm.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "dhqBY4TvVjxVmOZd",
-          "name": "Sleet Storm",
-          "fieldPath": "system.activities.dnd5eactivity000.name",
-          "sourcePath": "spells/3rd-level/sleet-storm.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "dhqBY4TvVjxVmOZd",
-          "name": "Sleet Storm",
-          "fieldPath": "system.activities.PxwopGlJxRFIgDMc.name",
-          "sourcePath": "spells/3rd-level/sleet-storm.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "dhqBY4TvVjxVmOZd",
-          "name": "Sleet Storm",
-          "fieldPath": "system.activities.qfj60uYu8bG8nsG9.name",
           "sourcePath": "spells/3rd-level/sleet-storm.yml"
         },
         {
@@ -83431,15 +82909,6 @@
           "sourcePath": "spells/3rd-level/spirit-guardians.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "uCud2s4TjMfjiXUb",
-          "name": "Spirit Guardians",
-          "fieldPath": "system.activities.dnd5eactivity000.name",
-          "sourcePath": "spells/3rd-level/spirit-guardians.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -83457,15 +82926,6 @@
           "id": "TwlD4PLcltv7Xh7j",
           "fieldPath": "system.description.value",
           "name": "Stinking Cloud",
-          "sourcePath": "spells/3rd-level/stinking-cloud.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "TwlD4PLcltv7Xh7j",
-          "name": "Stinking Cloud",
-          "fieldPath": "system.activities.dnd5eactivity000.name",
           "sourcePath": "spells/3rd-level/stinking-cloud.yml"
         },
         {
@@ -83542,15 +83002,6 @@
           "id": "UfHQhA54M4323gVO",
           "fieldPath": "system.description.value",
           "name": "Vampiric Touch",
-          "sourcePath": "spells/3rd-level/vampiric-touch.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "UfHQhA54M4323gVO",
-          "name": "Vampiric Touch",
-          "fieldPath": "system.activities.2exFAw3zKK49UfZJ.name",
           "sourcePath": "spells/3rd-level/vampiric-touch.yml"
         },
         {
@@ -83673,15 +83124,6 @@
           "pack": "spells",
           "id": "DGONTFbk5eORs5qv",
           "name": "Black Tentacles",
-          "fieldPath": "system.activities.dnd5eactivity000.name",
-          "sourcePath": "spells/4th-level/black-tentacles.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "DGONTFbk5eORs5qv",
-          "name": "Black Tentacles",
           "fieldPath": "effects[WTgRpzj4EQGJokA6].name",
           "sourcePath": "spells/4th-level/black-tentacles.yml"
         },
@@ -83693,24 +83135,6 @@
           "name": "Black Tentacles",
           "fieldPath": "effects[WTgRpzj4EQGJokA6].description",
           "sourcePath": "spells/4th-level/black-tentacles.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "P6f1PPKPd9BCb742",
-          "name": "Compulsion",
-          "fieldPath": "system.activities.qke4TeKUX3koQVvv.name",
-          "sourcePath": "spells/4th-level/compulsion.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "P6f1PPKPd9BCb742",
-          "name": "Compulsion",
-          "fieldPath": "system.activities.J8w3t1ZIa72KHHIu.name",
-          "sourcePath": "spells/4th-level/compulsion.yml"
         },
         {
           "code": "missing-field",
@@ -83769,15 +83193,6 @@
           "id": "9hQXdMSmerkTsHDe",
           "name": "Confusion",
           "fieldPath": "system.activities.dnd5eactivity300.description.value",
-          "sourcePath": "spells/4th-level/confusion.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "9hQXdMSmerkTsHDe",
-          "name": "Confusion",
-          "fieldPath": "system.activities.dnd5eactivity300.name",
           "sourcePath": "spells/4th-level/confusion.yml"
         },
         {
@@ -83911,25 +83326,7 @@
           "pack": "spells",
           "id": "7fFHlBk3UNX8gPKL",
           "name": "Control Water",
-          "fieldPath": "system.activities.3uKDmmkF8irChzl6.name",
-          "sourcePath": "spells/4th-level/control-water.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "7fFHlBk3UNX8gPKL",
-          "name": "Control Water",
           "fieldPath": "system.activities.3uKDmmkF8irChzl6.description.value",
-          "sourcePath": "spells/4th-level/control-water.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "7fFHlBk3UNX8gPKL",
-          "name": "Control Water",
-          "fieldPath": "system.activities.bgxFEFucjRRDxtIr.name",
           "sourcePath": "spells/4th-level/control-water.yml"
         },
         {
@@ -83947,15 +83344,6 @@
           "pack": "spells",
           "id": "7fFHlBk3UNX8gPKL",
           "name": "Control Water",
-          "fieldPath": "system.activities.tcZLcPr3nsDOEaiC.name",
-          "sourcePath": "spells/4th-level/control-water.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "7fFHlBk3UNX8gPKL",
-          "name": "Control Water",
           "fieldPath": "system.activities.tcZLcPr3nsDOEaiC.description.value",
           "sourcePath": "spells/4th-level/control-water.yml"
         },
@@ -83965,25 +83353,7 @@
           "pack": "spells",
           "id": "7fFHlBk3UNX8gPKL",
           "name": "Control Water",
-          "fieldPath": "system.activities.HneTMN8U6QKaRU7B.name",
-          "sourcePath": "spells/4th-level/control-water.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "7fFHlBk3UNX8gPKL",
-          "name": "Control Water",
           "fieldPath": "system.activities.HneTMN8U6QKaRU7B.description.value",
-          "sourcePath": "spells/4th-level/control-water.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "7fFHlBk3UNX8gPKL",
-          "name": "Control Water",
-          "fieldPath": "system.activities.BTnvB5e4TEPEgZaS.name",
           "sourcePath": "spells/4th-level/control-water.yml"
         },
         {
@@ -84021,15 +83391,6 @@
           "name": "Death Ward",
           "fieldPath": "effects[pTOjdHl8TyRdhRjl].description",
           "sourcePath": "spells/4th-level/death-ward.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "A4RsPuSvB9wFtz1j",
-          "name": "Dimension Door",
-          "fieldPath": "system.activities.dnd5eactivity000.name",
-          "sourcePath": "spells/4th-level/dimension-door.yml"
         },
         {
           "code": "missing-field",
@@ -84116,24 +83477,6 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "spells",
-          "id": "SAj03P2WBDiWu7zu",
-          "name": "Faithful Hound",
-          "fieldPath": "system.activities.txlrVwlbaR355KwZ.name",
-          "sourcePath": "spells/4th-level/faithful-hound.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "avD5XUtkBPQQR97c",
-          "name": "Fire Shield",
-          "fieldPath": "system.activities.dnd5eactivity000.name",
-          "sourcePath": "spells/4th-level/fire-shield.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
           "id": "avD5XUtkBPQQR97c",
           "name": "Fire Shield",
           "fieldPath": "effects[lVKx8swB08jm6IFE].name",
@@ -84192,24 +83535,6 @@
           "name": "Greater Invisibility",
           "fieldPath": "effects[lhYVl4DD9jyS5gcn].description",
           "sourcePath": "spells/4th-level/greater-invisibility.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "TgHsuhNasPbhu8MO",
-          "name": "Guardian of Faith",
-          "fieldPath": "system.activities.uVCIRuG6Klnsa2wx.name",
-          "sourcePath": "spells/4th-level/guardian-of-faith.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "TgHsuhNasPbhu8MO",
-          "name": "Guardian of Faith",
-          "fieldPath": "system.activities.EWTxq50DDmAOzOFR.name",
-          "sourcePath": "spells/4th-level/guardian-of-faith.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -84541,24 +83866,6 @@
           "pack": "spells",
           "id": "X3DrXgxjwI2dvkD6",
           "name": "Wall of Fire",
-          "fieldPath": "system.activities.c7IcbrVmmq74Rzqn.name",
-          "sourcePath": "spells/4th-level/wall-of-fire.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "X3DrXgxjwI2dvkD6",
-          "name": "Wall of Fire",
-          "fieldPath": "system.activities.M7ljtGAftvbGGZ0J.name",
-          "sourcePath": "spells/4th-level/wall-of-fire.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "X3DrXgxjwI2dvkD6",
-          "name": "Wall of Fire",
           "fieldPath": "system.activities.mVqRN9uGISDMRO1z.description.value",
           "sourcePath": "spells/4th-level/wall-of-fire.yml"
         },
@@ -84613,15 +83920,6 @@
           "sourcePath": "spells/5th-level/arcane-hand.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "a2KJHCIbY5Mi4Dmn",
-          "name": "Arcane Hand",
-          "fieldPath": "system.activities.dnd5eactivity000.name",
-          "sourcePath": "spells/5th-level/arcane-hand.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -84649,24 +83947,6 @@
           "id": "MCEpGpvovcXagwQS",
           "fieldPath": "system.description.value",
           "name": "Awaken",
-          "sourcePath": "spells/5th-level/awaken.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "MCEpGpvovcXagwQS",
-          "name": "Awaken",
-          "fieldPath": "system.activities.b5iPh46R9gB3qp7N.name",
-          "sourcePath": "spells/5th-level/awaken.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "MCEpGpvovcXagwQS",
-          "name": "Awaken",
-          "fieldPath": "system.activities.0JxiXLKM5oNcaHhD.name",
           "sourcePath": "spells/5th-level/awaken.yml"
         },
         {
@@ -84715,15 +83995,6 @@
           "sourcePath": "spells/5th-level/cloudkill.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "LkvI11Uue774QBKZ",
-          "name": "Cloudkill",
-          "fieldPath": "system.activities.dnd5eactivity000.name",
-          "sourcePath": "spells/5th-level/cloudkill.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -84742,15 +84013,6 @@
           "fieldPath": "system.description.value",
           "name": "Commune with Nature",
           "sourcePath": "spells/5th-level/commune-with-nature.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "1LkZvINag7KqBmDR",
-          "name": "Conjure Elemental",
-          "fieldPath": "system.activities.dnd5eactivity000.name",
-          "sourcePath": "spells/5th-level/conjure-elemental.yml"
         },
         {
           "code": "missing-field",
@@ -84795,24 +84057,6 @@
           "id": "CjIq8Ed7bu3vVwT1",
           "name": "Contagion",
           "fieldPath": "system.activities.WWmYQQAcFBcp9BgI.description.value",
-          "sourcePath": "spells/5th-level/contagion.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "CjIq8Ed7bu3vVwT1",
-          "name": "Contagion",
-          "fieldPath": "system.activities.WWmYQQAcFBcp9BgI.name",
-          "sourcePath": "spells/5th-level/contagion.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "CjIq8Ed7bu3vVwT1",
-          "name": "Contagion",
-          "fieldPath": "system.activities.JHDzsuyXxSyhdNM6.name",
           "sourcePath": "spells/5th-level/contagion.yml"
         },
         {
@@ -85093,15 +84337,6 @@
           "pack": "spells",
           "id": "TkJ8Wtg1L7TZtspm",
           "name": "Dispel Evil and Good",
-          "fieldPath": "system.activities.5nYzFGATnggEH6oq.name",
-          "sourcePath": "spells/5th-level/dispel-evil-and-good.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "TkJ8Wtg1L7TZtspm",
-          "name": "Dispel Evil and Good",
           "fieldPath": "system.activities.5nYzFGATnggEH6oq.description.value",
           "sourcePath": "spells/5th-level/dispel-evil-and-good.yml"
         },
@@ -85111,25 +84346,7 @@
           "pack": "spells",
           "id": "TkJ8Wtg1L7TZtspm",
           "name": "Dispel Evil and Good",
-          "fieldPath": "system.activities.xlms51P5nGb9Rbc0.name",
-          "sourcePath": "spells/5th-level/dispel-evil-and-good.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "TkJ8Wtg1L7TZtspm",
-          "name": "Dispel Evil and Good",
           "fieldPath": "system.activities.xlms51P5nGb9Rbc0.description.value",
-          "sourcePath": "spells/5th-level/dispel-evil-and-good.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "TkJ8Wtg1L7TZtspm",
-          "name": "Dispel Evil and Good",
-          "fieldPath": "system.activities.vtFdULsqeSCfhN7T.name",
           "sourcePath": "spells/5th-level/dispel-evil-and-good.yml"
         },
         {
@@ -85232,15 +84449,6 @@
           "sourcePath": "spells/5th-level/dream.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "kSPRpeIx3w3nihrF",
-          "name": "Dream",
-          "fieldPath": "system.activities.dnd5eactivity000.name",
-          "sourcePath": "spells/5th-level/dream.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -85334,15 +84542,6 @@
           "pack": "spells",
           "id": "SLxA9QhrggTz0taU",
           "name": "Hallow",
-          "fieldPath": "system.activities.dnd5eactivity100.name",
-          "sourcePath": "spells/5th-level/hallow.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "SLxA9QhrggTz0taU",
-          "name": "Hallow",
           "fieldPath": "effects[XrncWjwUV3gyGj0v].name",
           "sourcePath": "spells/5th-level/hallow.yml"
         },
@@ -85385,15 +84584,6 @@
           "sourcePath": "spells/5th-level/insect-plague.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "OVikYmSdHliAG2YD",
-          "name": "Insect Plague",
-          "fieldPath": "system.activities.bUIKbTl1GBitYgEi.name",
-          "sourcePath": "spells/5th-level/insect-plague.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -85431,15 +84621,6 @@
           "id": "MBMaQLwoy05qzMJ3",
           "fieldPath": "system.description.value",
           "name": "Mislead",
-          "sourcePath": "spells/5th-level/mislead.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "MBMaQLwoy05qzMJ3",
-          "name": "Mislead",
-          "fieldPath": "system.activities.LK6FrR896AucW2lk.name",
           "sourcePath": "spells/5th-level/mislead.yml"
         },
         {
@@ -85753,24 +84934,6 @@
           "pack": "spells",
           "id": "fVbCxFRaORalHB20",
           "name": "Scrying",
-          "fieldPath": "system.activities.73BiojjOcZK3adzP.name",
-          "sourcePath": "spells/5th-level/scrying.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "fVbCxFRaORalHB20",
-          "name": "Scrying",
-          "fieldPath": "system.activities.pemgwXnFsWoWUR2e.name",
-          "sourcePath": "spells/5th-level/scrying.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "fVbCxFRaORalHB20",
-          "name": "Scrying",
           "fieldPath": "effects[swoj95aPKbfvOvzB].name",
           "sourcePath": "spells/5th-level/scrying.yml"
         },
@@ -85937,25 +85100,7 @@
           "pack": "spells",
           "id": "HQfd7jJyULIoGxrZ",
           "name": "Telekinesis",
-          "fieldPath": "system.activities.r5d5cLmb299gcJHl.name",
-          "sourcePath": "spells/5th-level/telekinesis.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "HQfd7jJyULIoGxrZ",
-          "name": "Telekinesis",
           "fieldPath": "system.activities.r5d5cLmb299gcJHl.description.value",
-          "sourcePath": "spells/5th-level/telekinesis.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "HQfd7jJyULIoGxrZ",
-          "name": "Telekinesis",
-          "fieldPath": "system.activities.iSZxY9EGiZdtU7Re.name",
           "sourcePath": "spells/5th-level/telekinesis.yml"
         },
         {
@@ -86056,24 +85201,6 @@
           "sourcePath": "spells/5th-level/wall-of-force.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "o9ZCvuD2B1OTcubb",
-          "name": "Wall of Force",
-          "fieldPath": "system.activities.dnd5eactivity000.name",
-          "sourcePath": "spells/5th-level/wall-of-force.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "o9ZCvuD2B1OTcubb",
-          "name": "Wall of Force",
-          "fieldPath": "system.activities.eNYZ6Nqn4KIaDDzD.name",
-          "sourcePath": "spells/5th-level/wall-of-force.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -86097,64 +85224,10 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "spells",
-          "id": "NmoRmM1mhuM3pqnY",
-          "name": "Wall of Stone",
-          "fieldPath": "system.activities.dnd5eactivity000.name",
-          "sourcePath": "spells/5th-level/wall-of-stone.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "NmoRmM1mhuM3pqnY",
-          "name": "Wall of Stone",
-          "fieldPath": "system.activities.d5HiSblAgFL6tu4u.name",
-          "sourcePath": "spells/5th-level/wall-of-stone.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
           "id": "dLJhxDfeyOsc3zsY",
           "name": "Blade Barrier",
           "fieldPath": "system.activities.dnd5eactivity000.description.value",
           "sourcePath": "spells/6th-level/blade-barrier.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "dLJhxDfeyOsc3zsY",
-          "name": "Blade Barrier",
-          "fieldPath": "system.activities.dnd5eactivity000.name",
-          "sourcePath": "spells/6th-level/blade-barrier.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "dLJhxDfeyOsc3zsY",
-          "name": "Blade Barrier",
-          "fieldPath": "system.activities.mhpt8uRwMGXNYABF.name",
-          "sourcePath": "spells/6th-level/blade-barrier.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "dLJhxDfeyOsc3zsY",
-          "name": "Blade Barrier",
-          "fieldPath": "system.activities.HhAJblQ0avFAY3Eg.name",
-          "sourcePath": "spells/6th-level/blade-barrier.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "yN3XZZujhR4aVvPa",
-          "name": "Conjure Fey",
-          "fieldPath": "system.activities.dnd5eactivity000.name",
-          "sourcePath": "spells/6th-level/conjure-fey.yml"
         },
         {
           "code": "missing-field",
@@ -86258,15 +85331,6 @@
           "pack": "spells",
           "id": "E4NXux0RHvME1XgP",
           "name": "Create Undead",
-          "fieldPath": "system.activities.dnd5eactivity000.name",
-          "sourcePath": "spells/6th-level/create-undead.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "E4NXux0RHvME1XgP",
-          "name": "Create Undead",
           "fieldPath": "effects[tcvcliUzqg19mdCv].name",
           "sourcePath": "spells/6th-level/create-undead.yml"
         },
@@ -86355,15 +85419,6 @@
           "pack": "spells",
           "id": "ZRqu3Xh9FmlBCZGy",
           "name": "Eyebite",
-          "fieldPath": "system.activities.eLnw2b2iYJhBaQIY.name",
-          "sourcePath": "spells/6th-level/eyebite.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "ZRqu3Xh9FmlBCZGy",
-          "name": "Eyebite",
           "fieldPath": "effects[4aX9fGlauAQsLCAH].name",
           "sourcePath": "spells/6th-level/eyebite.yml"
         },
@@ -86427,15 +85482,6 @@
           "pack": "spells",
           "id": "kozNy29b0X6exFhY",
           "name": "Flesh to Stone",
-          "fieldPath": "system.activities.ZLjky0SAN3L2Afkr.name",
-          "sourcePath": "spells/6th-level/flesh-to-stone.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "kozNy29b0X6exFhY",
-          "name": "Flesh to Stone",
           "fieldPath": "effects[mVqFBzC5qYpFnZFV].description",
           "sourcePath": "spells/6th-level/flesh-to-stone.yml"
         },
@@ -86483,15 +85529,6 @@
           "name": "Flesh to Stone",
           "fieldPath": "effects[lIhef4AI9rE2By2t].description",
           "sourcePath": "spells/6th-level/flesh-to-stone.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "64D1gNZ4hx7SWG2x",
-          "name": "Forbiddance",
-          "fieldPath": "system.activities.Up77HBN5zOPc1n4L.name",
-          "sourcePath": "spells/6th-level/forbiddance.yml"
         },
         {
           "code": "missing-field",
@@ -86586,15 +85623,6 @@
           "pack": "spells",
           "id": "SgrEKiC6dAtvy6Pz",
           "name": "Instant Summons",
-          "fieldPath": "system.activities.iOJD3BHVzYiiNChW.name",
-          "sourcePath": "spells/6th-level/instant-summons.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "SgrEKiC6dAtvy6Pz",
-          "name": "Instant Summons",
           "fieldPath": "effects[l9wtHPpBbSo8cI95].name",
           "sourcePath": "spells/6th-level/instant-summons.yml"
         },
@@ -86606,15 +85634,6 @@
           "name": "Instant Summons",
           "fieldPath": "effects[l9wtHPpBbSo8cI95].description",
           "sourcePath": "spells/6th-level/instant-summons.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "TfRzwEgBHHkCc6Ql",
-          "name": "Irresistible Dance",
-          "fieldPath": "system.activities.MZXH72uYT07j4vlL.name",
-          "sourcePath": "spells/6th-level/irresistible-dance.yml"
         },
         {
           "code": "missing-field",
@@ -86653,15 +85672,6 @@
           "id": "ej6wyY4G1gOcb1U6",
           "fieldPath": "system.description.value",
           "name": "Magic Jar",
-          "sourcePath": "spells/6th-level/magic-jar.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "ej6wyY4G1gOcb1U6",
-          "name": "Magic Jar",
-          "fieldPath": "system.activities.KP2dpK9GVYQN8V7W.name",
           "sourcePath": "spells/6th-level/magic-jar.yml"
         },
         {
@@ -86847,15 +85857,6 @@
           "pack": "spells",
           "id": "2RC0EyvBLPH88PZF",
           "name": "Sunbeam",
-          "fieldPath": "system.activities.mHlSGE3y0KLvlfaj.name",
-          "sourcePath": "spells/6th-level/sunbeam.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "2RC0EyvBLPH88PZF",
-          "name": "Sunbeam",
           "fieldPath": "effects[kWBi1D1UMm4XsLgt].description",
           "sourcePath": "spells/6th-level/sunbeam.yml"
         },
@@ -86952,34 +85953,7 @@
           "pack": "spells",
           "id": "fzZnVKLmBMo2f5up",
           "name": "Wall of Ice",
-          "fieldPath": "system.activities.dnd5eactivity000.name",
-          "sourcePath": "spells/6th-level/wall-of-ice.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "fzZnVKLmBMo2f5up",
-          "name": "Wall of Ice",
           "fieldPath": "system.activities.dnd5eactivity200.description.value",
-          "sourcePath": "spells/6th-level/wall-of-ice.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "fzZnVKLmBMo2f5up",
-          "name": "Wall of Ice",
-          "fieldPath": "system.activities.dnd5eactivity200.name",
-          "sourcePath": "spells/6th-level/wall-of-ice.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "fzZnVKLmBMo2f5up",
-          "name": "Wall of Ice",
-          "fieldPath": "system.activities.QaMcKZp0TzrGWLZ1.name",
           "sourcePath": "spells/6th-level/wall-of-ice.yml"
         },
         {
@@ -87000,24 +85974,6 @@
           "id": "AQsBc94ES7W7s7iG",
           "fieldPath": "system.description.value",
           "name": "Wall of Thorns",
-          "sourcePath": "spells/6th-level/wall-of-thorns.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "AQsBc94ES7W7s7iG",
-          "name": "Wall of Thorns",
-          "fieldPath": "system.activities.dnd5eactivity000.name",
-          "sourcePath": "spells/6th-level/wall-of-thorns.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "AQsBc94ES7W7s7iG",
-          "name": "Wall of Thorns",
-          "fieldPath": "system.activities.bW1jTVcJY6Feg9Bg.name",
           "sourcePath": "spells/6th-level/wall-of-thorns.yml"
         },
         {
@@ -87073,26 +86029,8 @@
           "pack": "spells",
           "id": "LTDNWoFVJNLjiiNa",
           "name": "Arcane Sword",
-          "fieldPath": "system.activities.pK9UiWSr9drFEaEE.name",
-          "sourcePath": "spells/7th-level/arcane-sword.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "LTDNWoFVJNLjiiNa",
-          "name": "Arcane Sword",
           "fieldPath": "system.activities.pK9UiWSr9drFEaEE.description.value",
           "sourcePath": "spells/7th-level/arcane-sword.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "XT7nzJmVGgv73uaf",
-          "name": "Conjure Celestial",
-          "fieldPath": "system.activities.dnd5eactivity000.name",
-          "sourcePath": "spells/7th-level/conjure-celestial.yml"
         },
         {
           "code": "missing-field",
@@ -87204,15 +86142,6 @@
           "name": "Etherealness",
           "fieldPath": "effects[rrA8RYmv4eAuVbg8].description",
           "sourcePath": "spells/7th-level/etherealness.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "HPvZm8YJO91k6Qdg",
-          "name": "Finger of Death",
-          "fieldPath": "system.activities.MCAsmHQ4ZyHKOcIG.name",
-          "sourcePath": "spells/7th-level/finger-of-death.yml"
         },
         {
           "code": "missing-field",
@@ -87365,34 +86294,7 @@
           "pack": "spells",
           "id": "J6Jpw5XzB5aTeqnz",
           "name": "Plane Shift",
-          "fieldPath": "system.activities.RSLnITgU10HcABsr.name",
-          "sourcePath": "spells/7th-level/plane-shift.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "J6Jpw5XzB5aTeqnz",
-          "name": "Plane Shift",
           "fieldPath": "system.activities.BiYdn4VHVCaWsJmQ.description.value",
-          "sourcePath": "spells/7th-level/plane-shift.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "J6Jpw5XzB5aTeqnz",
-          "name": "Plane Shift",
-          "fieldPath": "system.activities.BiYdn4VHVCaWsJmQ.name",
-          "sourcePath": "spells/7th-level/plane-shift.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "J6Jpw5XzB5aTeqnz",
-          "name": "Plane Shift",
-          "fieldPath": "system.activities.C5T8DFHfK0iVDfXN.name",
           "sourcePath": "spells/7th-level/plane-shift.yml"
         },
         {
@@ -87421,25 +86323,7 @@
           "pack": "spells",
           "id": "eGMhwmuleAM46C6L",
           "name": "Prismatic Spray",
-          "fieldPath": "system.activities.WFNmU0MtjhWZKAYS.name",
-          "sourcePath": "spells/7th-level/prismatic-spray.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "eGMhwmuleAM46C6L",
-          "name": "Prismatic Spray",
           "fieldPath": "system.activities.WFNmU0MtjhWZKAYS.description.value",
-          "sourcePath": "spells/7th-level/prismatic-spray.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "eGMhwmuleAM46C6L",
-          "name": "Prismatic Spray",
-          "fieldPath": "system.activities.N8AK4vdXfbyS574t.name",
           "sourcePath": "spells/7th-level/prismatic-spray.yml"
         },
         {
@@ -87457,25 +86341,7 @@
           "pack": "spells",
           "id": "eGMhwmuleAM46C6L",
           "name": "Prismatic Spray",
-          "fieldPath": "system.activities.tYusMXr4FdtALeTo.name",
-          "sourcePath": "spells/7th-level/prismatic-spray.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "eGMhwmuleAM46C6L",
-          "name": "Prismatic Spray",
           "fieldPath": "system.activities.tYusMXr4FdtALeTo.description.value",
-          "sourcePath": "spells/7th-level/prismatic-spray.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "eGMhwmuleAM46C6L",
-          "name": "Prismatic Spray",
-          "fieldPath": "system.activities.qCIXgNLao3xnZsje.name",
           "sourcePath": "spells/7th-level/prismatic-spray.yml"
         },
         {
@@ -87493,15 +86359,6 @@
           "pack": "spells",
           "id": "eGMhwmuleAM46C6L",
           "name": "Prismatic Spray",
-          "fieldPath": "system.activities.fDlRH0y6EqJqjhgQ.name",
-          "sourcePath": "spells/7th-level/prismatic-spray.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "eGMhwmuleAM46C6L",
-          "name": "Prismatic Spray",
           "fieldPath": "system.activities.fDlRH0y6EqJqjhgQ.description.value",
           "sourcePath": "spells/7th-level/prismatic-spray.yml"
         },
@@ -87511,25 +86368,7 @@
           "pack": "spells",
           "id": "eGMhwmuleAM46C6L",
           "name": "Prismatic Spray",
-          "fieldPath": "system.activities.KAF37jhizSZzcjhj.name",
-          "sourcePath": "spells/7th-level/prismatic-spray.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "eGMhwmuleAM46C6L",
-          "name": "Prismatic Spray",
           "fieldPath": "system.activities.KAF37jhizSZzcjhj.description.value",
-          "sourcePath": "spells/7th-level/prismatic-spray.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "eGMhwmuleAM46C6L",
-          "name": "Prismatic Spray",
-          "fieldPath": "system.activities.Hwrf7958jBf5s8rV.name",
           "sourcePath": "spells/7th-level/prismatic-spray.yml"
         },
         {
@@ -87801,33 +86640,6 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "spells",
-          "id": "ERCv7yuRkQ0YjGx6",
-          "name": "Reverse Gravity",
-          "fieldPath": "system.activities.dnd5eactivity000.name",
-          "sourcePath": "spells/7th-level/reverse-gravity.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "wvLbtemkH8gyBpdc",
-          "name": "Sequester",
-          "fieldPath": "system.activities.1Wja9o7LOqrUNBQL.name",
-          "sourcePath": "spells/7th-level/sequester.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "wvLbtemkH8gyBpdc",
-          "name": "Sequester",
-          "fieldPath": "system.activities.WhZDaJYHP0gN7QoD.name",
-          "sourcePath": "spells/7th-level/sequester.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
           "id": "wvLbtemkH8gyBpdc",
           "name": "Sequester",
           "fieldPath": "effects[7DN3i7SSb2unFuKJ].name",
@@ -87878,15 +86690,6 @@
           "id": "jccbeBIfLrqEZnDP",
           "fieldPath": "system.description.value",
           "name": "Simulacrum",
-          "sourcePath": "spells/7th-level/simulacrum.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "jccbeBIfLrqEZnDP",
-          "name": "Simulacrum",
-          "fieldPath": "system.activities.1nnzri1OiTFd4Q5N.name",
           "sourcePath": "spells/7th-level/simulacrum.yml"
         },
         {
@@ -87966,34 +86769,7 @@
           "pack": "spells",
           "id": "B2kbmgbA2WQR00kx",
           "name": "Symbol",
-          "fieldPath": "system.activities.BaJXzG5JyqKZvaYY.name",
-          "sourcePath": "spells/7th-level/symbol.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "B2kbmgbA2WQR00kx",
-          "name": "Symbol",
-          "fieldPath": "system.activities.5RxmzaH8a0F2pe0W.name",
-          "sourcePath": "spells/7th-level/symbol.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "B2kbmgbA2WQR00kx",
-          "name": "Symbol",
           "fieldPath": "system.activities.5RxmzaH8a0F2pe0W.description.value",
-          "sourcePath": "spells/7th-level/symbol.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "B2kbmgbA2WQR00kx",
-          "name": "Symbol",
-          "fieldPath": "system.activities.aQ5gGxhnROMnbUYo.name",
           "sourcePath": "spells/7th-level/symbol.yml"
         },
         {
@@ -88011,25 +86787,7 @@
           "pack": "spells",
           "id": "B2kbmgbA2WQR00kx",
           "name": "Symbol",
-          "fieldPath": "system.activities.JpTNQO6B5su2lz7Q.name",
-          "sourcePath": "spells/7th-level/symbol.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "B2kbmgbA2WQR00kx",
-          "name": "Symbol",
           "fieldPath": "system.activities.JpTNQO6B5su2lz7Q.description.value",
-          "sourcePath": "spells/7th-level/symbol.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "B2kbmgbA2WQR00kx",
-          "name": "Symbol",
-          "fieldPath": "system.activities.EbNUoZmq2qyEIE75.name",
           "sourcePath": "spells/7th-level/symbol.yml"
         },
         {
@@ -88047,25 +86805,7 @@
           "pack": "spells",
           "id": "B2kbmgbA2WQR00kx",
           "name": "Symbol",
-          "fieldPath": "system.activities.l4wdQCsSrKaSzEnP.name",
-          "sourcePath": "spells/7th-level/symbol.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "B2kbmgbA2WQR00kx",
-          "name": "Symbol",
           "fieldPath": "system.activities.l4wdQCsSrKaSzEnP.description.value",
-          "sourcePath": "spells/7th-level/symbol.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "B2kbmgbA2WQR00kx",
-          "name": "Symbol",
-          "fieldPath": "system.activities.ileq899HQ5YZKEif.name",
           "sourcePath": "spells/7th-level/symbol.yml"
         },
         {
@@ -88083,25 +86823,7 @@
           "pack": "spells",
           "id": "B2kbmgbA2WQR00kx",
           "name": "Symbol",
-          "fieldPath": "system.activities.S48Cy0ZHIKduGUUD.name",
-          "sourcePath": "spells/7th-level/symbol.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "B2kbmgbA2WQR00kx",
-          "name": "Symbol",
           "fieldPath": "system.activities.S48Cy0ZHIKduGUUD.description.value",
-          "sourcePath": "spells/7th-level/symbol.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "B2kbmgbA2WQR00kx",
-          "name": "Symbol",
-          "fieldPath": "system.activities.SbxsIIBtx25GNijc.name",
           "sourcePath": "spells/7th-level/symbol.yml"
         },
         {
@@ -88238,26 +86960,8 @@
           "pack": "spells",
           "id": "L4J89JXqbKs6puEV",
           "name": "Teleport",
-          "fieldPath": "system.activities.FRz2LntLdKnrnVvH.name",
-          "sourcePath": "spells/7th-level/teleport.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "L4J89JXqbKs6puEV",
-          "name": "Teleport",
           "fieldPath": "system.activities.FRz2LntLdKnrnVvH.description.value",
           "sourcePath": "spells/7th-level/teleport.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "ohqAIBg6de989CIo",
-          "name": "Animal Shapes",
-          "fieldPath": "system.activities.Sb7lnASL8TCju9pO.profiles[UOffAoTyyX85HMwu].name",
-          "sourcePath": "spells/8th-level/animal-shapes.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -88288,15 +86992,6 @@
           "fieldPath": "system.description.value",
           "name": "Antimagic Field",
           "sourcePath": "spells/8th-level/antimagic-field.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "GJ2WYm3SQFR0winH",
-          "name": "Antipathy/Sympathy",
-          "fieldPath": "system.activities.ITL3quDlYj3grSZz.name",
-          "sourcePath": "spells/8th-level/antipathy-sympathy.yml"
         },
         {
           "code": "missing-field",
@@ -88387,15 +87082,6 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "spells",
-          "id": "ZPd73HtKF3At11jh",
-          "name": "Control Weather",
-          "fieldPath": "system.activities.2vQLk7ux8nGczdj2.roll.name",
-          "sourcePath": "spells/8th-level/control-weather.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
           "id": "eEpy1ONlXumKS1mp",
           "name": "Dominate Monster",
           "fieldPath": "system.activities.gTWT6EVmsdlCKci4.description.value",
@@ -88463,25 +87149,7 @@
           "pack": "spells",
           "id": "x5JNBSyIBBZsjcGT",
           "name": "Earthquake",
-          "fieldPath": "system.activities.M7H3M7MXUHpkDYsi.name",
-          "sourcePath": "spells/8th-level/earthquake.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "x5JNBSyIBBZsjcGT",
-          "name": "Earthquake",
           "fieldPath": "system.activities.M7H3M7MXUHpkDYsi.description.value",
-          "sourcePath": "spells/8th-level/earthquake.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "x5JNBSyIBBZsjcGT",
-          "name": "Earthquake",
-          "fieldPath": "system.activities.BKMYGE8ul9RaBNQd.name",
           "sourcePath": "spells/8th-level/earthquake.yml"
         },
         {
@@ -88499,25 +87167,7 @@
           "pack": "spells",
           "id": "x5JNBSyIBBZsjcGT",
           "name": "Earthquake",
-          "fieldPath": "system.activities.Yc7FnztObhVeuslM.name",
-          "sourcePath": "spells/8th-level/earthquake.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "x5JNBSyIBBZsjcGT",
-          "name": "Earthquake",
           "fieldPath": "system.activities.Yc7FnztObhVeuslM.description.value",
-          "sourcePath": "spells/8th-level/earthquake.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "x5JNBSyIBBZsjcGT",
-          "name": "Earthquake",
-          "fieldPath": "system.activities.xIIRL1ckzWTxHikd.name",
           "sourcePath": "spells/8th-level/earthquake.yml"
         },
         {
@@ -88640,15 +87290,6 @@
           "pack": "spells",
           "id": "j8S49Rea8b1640Zi",
           "name": "Holy Aura",
-          "fieldPath": "system.activities.dnd5eactivity100.name",
-          "sourcePath": "spells/8th-level/holy-aura.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "j8S49Rea8b1640Zi",
-          "name": "Holy Aura",
           "fieldPath": "effects[vtInaQPPgrwFw8iq].name",
           "sourcePath": "spells/8th-level/holy-aura.yml"
         },
@@ -88700,15 +87341,6 @@
           "sourcePath": "spells/8th-level/incendiary-cloud.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "pV04y1iXoWiom6bp",
-          "name": "Incendiary Cloud",
-          "fieldPath": "system.activities.uUuWEYPhEPpuKXqq.name",
-          "sourcePath": "spells/8th-level/incendiary-cloud.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -88736,15 +87368,6 @@
           "id": "clwv2PWOcT822hlr",
           "fieldPath": "system.description.value",
           "name": "Maze",
-          "sourcePath": "spells/8th-level/maze.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "clwv2PWOcT822hlr",
-          "name": "Maze",
-          "fieldPath": "system.activities.gPtL2C25UZ6sJtDM.name",
           "sourcePath": "spells/8th-level/maze.yml"
         },
         {
@@ -88848,15 +87471,6 @@
           "pack": "spells",
           "id": "35j2QIMmIk6aEdxj",
           "name": "Power Word Stun",
-          "fieldPath": "system.activities.dnd5eactivity000.name",
-          "sourcePath": "spells/8th-level/power-word-stun.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "35j2QIMmIk6aEdxj",
-          "name": "Power Word Stun",
           "fieldPath": "effects[XUk41wJR26neJaic].description",
           "sourcePath": "spells/8th-level/power-word-stun.yml"
         },
@@ -88906,15 +87520,6 @@
           "name": "Foresight",
           "fieldPath": "effects[UTG8MneezBrTcBGo].description",
           "sourcePath": "spells/9th-level/foresight.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "XbwGq5kDJNvAxNXV",
-          "name": "Gate",
-          "fieldPath": "system.activities.lFO5S0pA2P2d5GpZ.name",
-          "sourcePath": "spells/9th-level/gate.yml"
         },
         {
           "code": "missing-field",
@@ -89141,43 +87746,7 @@
           "pack": "spells",
           "id": "jmfu8zj4zjjzUbeh",
           "name": "Prismatic Wall",
-          "fieldPath": "system.activities.jsTIjPInKlUx8X4d.name",
-          "sourcePath": "spells/9th-level/prismatic-wall.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "jmfu8zj4zjjzUbeh",
-          "name": "Prismatic Wall",
-          "fieldPath": "system.activities.y3QOrknUXjK6J56o.name",
-          "sourcePath": "spells/9th-level/prismatic-wall.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "jmfu8zj4zjjzUbeh",
-          "name": "Prismatic Wall",
-          "fieldPath": "system.activities.2mxODgVHMv4whsz4.name",
-          "sourcePath": "spells/9th-level/prismatic-wall.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "jmfu8zj4zjjzUbeh",
-          "name": "Prismatic Wall",
           "fieldPath": "system.activities.2mxODgVHMv4whsz4.description.value",
-          "sourcePath": "spells/9th-level/prismatic-wall.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "jmfu8zj4zjjzUbeh",
-          "name": "Prismatic Wall",
-          "fieldPath": "system.activities.J0jN52XDEqUqrLzx.name",
           "sourcePath": "spells/9th-level/prismatic-wall.yml"
         },
         {
@@ -89195,25 +87764,7 @@
           "pack": "spells",
           "id": "jmfu8zj4zjjzUbeh",
           "name": "Prismatic Wall",
-          "fieldPath": "system.activities.y5530lakSgBAHAYL.name",
-          "sourcePath": "spells/9th-level/prismatic-wall.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "jmfu8zj4zjjzUbeh",
-          "name": "Prismatic Wall",
           "fieldPath": "system.activities.y5530lakSgBAHAYL.description.value",
-          "sourcePath": "spells/9th-level/prismatic-wall.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "jmfu8zj4zjjzUbeh",
-          "name": "Prismatic Wall",
-          "fieldPath": "system.activities.P5fBPn8L9H0zlnYS.name",
           "sourcePath": "spells/9th-level/prismatic-wall.yml"
         },
         {
@@ -89231,15 +87782,6 @@
           "pack": "spells",
           "id": "jmfu8zj4zjjzUbeh",
           "name": "Prismatic Wall",
-          "fieldPath": "system.activities.cVY0Q4go5GZhbuJz.name",
-          "sourcePath": "spells/9th-level/prismatic-wall.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "jmfu8zj4zjjzUbeh",
-          "name": "Prismatic Wall",
           "fieldPath": "system.activities.cVY0Q4go5GZhbuJz.description.value",
           "sourcePath": "spells/9th-level/prismatic-wall.yml"
         },
@@ -89249,25 +87791,7 @@
           "pack": "spells",
           "id": "jmfu8zj4zjjzUbeh",
           "name": "Prismatic Wall",
-          "fieldPath": "system.activities.bjsIQgJf23u7fslT.name",
-          "sourcePath": "spells/9th-level/prismatic-wall.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "jmfu8zj4zjjzUbeh",
-          "name": "Prismatic Wall",
           "fieldPath": "system.activities.bjsIQgJf23u7fslT.description.value",
-          "sourcePath": "spells/9th-level/prismatic-wall.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "jmfu8zj4zjjzUbeh",
-          "name": "Prismatic Wall",
-          "fieldPath": "system.activities.WTO4S69BzGKFrs8A.name",
           "sourcePath": "spells/9th-level/prismatic-wall.yml"
         },
         {
@@ -89388,25 +87912,7 @@
           "pack": "spells",
           "id": "7KjExw0kmuqERa7C",
           "name": "Storm of Vengeance",
-          "fieldPath": "system.activities.lWQnKu5gulmNcD6h.name",
-          "sourcePath": "spells/9th-level/storm-of-vengeance.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "7KjExw0kmuqERa7C",
-          "name": "Storm of Vengeance",
           "fieldPath": "system.activities.lWQnKu5gulmNcD6h.description.value",
-          "sourcePath": "spells/9th-level/storm-of-vengeance.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "7KjExw0kmuqERa7C",
-          "name": "Storm of Vengeance",
-          "fieldPath": "system.activities.LHS02thv32GFDNB4.name",
           "sourcePath": "spells/9th-level/storm-of-vengeance.yml"
         },
         {
@@ -89424,25 +87930,7 @@
           "pack": "spells",
           "id": "7KjExw0kmuqERa7C",
           "name": "Storm of Vengeance",
-          "fieldPath": "system.activities.AR8QvQ6OU9PIF5Qj.name",
-          "sourcePath": "spells/9th-level/storm-of-vengeance.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "7KjExw0kmuqERa7C",
-          "name": "Storm of Vengeance",
           "fieldPath": "system.activities.AR8QvQ6OU9PIF5Qj.description.value",
-          "sourcePath": "spells/9th-level/storm-of-vengeance.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "7KjExw0kmuqERa7C",
-          "name": "Storm of Vengeance",
-          "fieldPath": "system.activities.dFKNiCeDuVPLUcLf.name",
           "sourcePath": "spells/9th-level/storm-of-vengeance.yml"
         },
         {
@@ -89494,15 +87982,6 @@
           "sourcePath": "spells/9th-level/time-stop.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "JYuRBwxpoFhXduvD",
-          "name": "Time Stop",
-          "fieldPath": "system.activities.0h3MxXUm4UEs9REL.roll.name",
-          "sourcePath": "spells/9th-level/time-stop.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -89528,25 +88007,7 @@
           "pack": "spells",
           "id": "QbQZKoXOgHWN06aa",
           "name": "True Polymorph",
-          "fieldPath": "system.activities.Y7gjcDvz2X1fknbC.name",
-          "sourcePath": "spells/9th-level/true-polymorph.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "QbQZKoXOgHWN06aa",
-          "name": "True Polymorph",
           "fieldPath": "system.activities.Y7gjcDvz2X1fknbC.description.value",
-          "sourcePath": "spells/9th-level/true-polymorph.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "QbQZKoXOgHWN06aa",
-          "name": "True Polymorph",
-          "fieldPath": "system.activities.gEBSNPjhtGsBtHCx.name",
           "sourcePath": "spells/9th-level/true-polymorph.yml"
         },
         {
@@ -89674,15 +88135,6 @@
           "pack": "spells",
           "id": "3okM6Gn63zzEULkz",
           "name": "Wish",
-          "fieldPath": "system.activities.9MWp6lmC7jks1X2b.name",
-          "sourcePath": "spells/9th-level/wish.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "3okM6Gn63zzEULkz",
-          "name": "Wish",
           "fieldPath": "system.activities.9MWp6lmC7jks1X2b.description.value",
           "sourcePath": "spells/9th-level/wish.yml"
         },
@@ -89692,25 +88144,7 @@
           "pack": "spells",
           "id": "3okM6Gn63zzEULkz",
           "name": "Wish",
-          "fieldPath": "system.activities.piGTME44iVi7Erzh.name",
-          "sourcePath": "spells/9th-level/wish.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "3okM6Gn63zzEULkz",
-          "name": "Wish",
           "fieldPath": "system.activities.piGTME44iVi7Erzh.description.value",
-          "sourcePath": "spells/9th-level/wish.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "3okM6Gn63zzEULkz",
-          "name": "Wish",
-          "fieldPath": "system.activities.ZuyAC02rGDZArcve.name",
           "sourcePath": "spells/9th-level/wish.yml"
         },
         {
@@ -89746,15 +88180,6 @@
           "pack": "spells",
           "id": "3okM6Gn63zzEULkz",
           "name": "Wish",
-          "fieldPath": "system.activities.QCNUOWZDEYZqz5rI.name",
-          "sourcePath": "spells/9th-level/wish.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "3okM6Gn63zzEULkz",
-          "name": "Wish",
           "fieldPath": "system.activities.QCNUOWZDEYZqz5rI.description.value",
           "sourcePath": "spells/9th-level/wish.yml"
         },
@@ -89774,15 +88199,6 @@
           "id": "3okM6Gn63zzEULkz",
           "name": "Wish",
           "fieldPath": "system.activities.rdc6j17QxpWYSY0p.description.chatFlavor",
-          "sourcePath": "spells/9th-level/wish.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "3okM6Gn63zzEULkz",
-          "name": "Wish",
-          "fieldPath": "system.activities.rdc6j17QxpWYSY0p.roll.name",
           "sourcePath": "spells/9th-level/wish.yml"
         },
         {
@@ -89951,15 +88367,6 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "spells",
-          "id": "CAxSzHWizrafT033",
-          "name": "Dancing Lights",
-          "fieldPath": "system.activities.dnd5eactivity000.name",
-          "sourcePath": "spells/cantrip/dancing-lights.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
           "id": "P7mF2MxSuVJwHRRY",
           "name": "Guidance",
           "fieldPath": "effects[KsQdGorCuwDjaUGF].description",
@@ -89986,15 +88393,6 @@
           "sourcePath": "spells/cantrip/light.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "Bnn9Nzajixvow9xi",
-          "name": "Light",
-          "fieldPath": "system.activities.A0r24ncbAuYRHrRX.name",
-          "sourcePath": "spells/cantrip/light.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -90012,24 +88410,6 @@
           "id": "Utk1OQRwYkMkFRD3",
           "fieldPath": "system.description.value",
           "name": "Mage Hand",
-          "sourcePath": "spells/cantrip/mage-hand.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "Utk1OQRwYkMkFRD3",
-          "name": "Mage Hand",
-          "fieldPath": "system.activities.dnd5eactivity000.name",
-          "sourcePath": "spells/cantrip/mage-hand.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "Utk1OQRwYkMkFRD3",
-          "name": "Mage Hand",
-          "fieldPath": "system.activities.EDuPcfsfb5cGEpiI.name",
           "sourcePath": "spells/cantrip/mage-hand.yml"
         },
         {
@@ -90257,24 +88637,6 @@
           "id": "VzgFzcmocr1X1cp4",
           "fieldPath": "system.description.value",
           "name": "Shillelagh",
-          "sourcePath": "spells/cantrip/shillelagh.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "VzgFzcmocr1X1cp4",
-          "name": "Shillelagh",
-          "fieldPath": "system.activities.dnd5eactivity000.name",
-          "sourcePath": "spells/cantrip/shillelagh.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "VzgFzcmocr1X1cp4",
-          "name": "Shillelagh",
-          "fieldPath": "system.activities.ONVab5lmTqJwwMBC.name",
           "sourcePath": "spells/cantrip/shillelagh.yml"
         },
         {

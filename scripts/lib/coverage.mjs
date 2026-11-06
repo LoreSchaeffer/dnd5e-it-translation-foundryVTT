@@ -42,7 +42,7 @@ export function translationForField(sourceRecord, field, translation) {
   match = fieldPath.match(/^pages\[([^\]]+)\]\.(.+)$/);
   if (match) {
     const page = byId(sourceRecord.data.pages, match[1]);
-    const translatedPage = translation?.pages?.[page?.name] ?? translation?.pages?.[match[1]];
+    const translatedPage = translation?.pages?.[match[1]] ?? translation?.pages?.[page?.name];
     if (match[2] === "name") return translatedPage?.name;
     if (match[2] === "text.content") return translatedPage?.text?.content ?? translatedPage?.content ?? translatedPage?.description;
     if (match[2] === "system.tooltip") return translatedPage?.system?.tooltip ?? translatedPage?.tooltip;
@@ -53,7 +53,7 @@ export function translationForField(sourceRecord, field, translation) {
   if (match) {
     const result = byId(sourceRecord.data.results, match[1]);
     const rangeKey = Array.isArray(result?.range) ? result.range.join("-") : null;
-    const translatedResult = translation?.results?.[rangeKey] ?? translation?.results?.[result?.text] ?? translation?.results?.[match[1]];
+    const translatedResult = translation?.results?.[match[1]] ?? translation?.results?.[rangeKey] ?? translation?.results?.[result?.text];
     if (match[2] === "text" && typeof translatedResult === "string") return translatedResult;
     return translateNestedField(translatedResult, match[2]);
   }
@@ -61,14 +61,14 @@ export function translationForField(sourceRecord, field, translation) {
   match = fieldPath.match(/^items\[([^\]]+)\]\.(.+)$/);
   if (match) {
     const embedded = byId(sourceRecord.data.items, match[1]);
-    const translatedItem = translation?.items?.[embedded?.name] ?? translation?.items?.[match[1]];
+    const translatedItem = translation?.items?.[match[1]] ?? translation?.items?.[embedded?.name];
     return translateNestedField(translatedItem, match[2]);
   }
 
   match = fieldPath.match(/^system\.activities\.([^.]+)\.(.+)$/);
   if (match) {
     const activity = sourceRecord.data.system?.activities?.[match[1]];
-    const translatedActivity = translation?.activities?.[activity?.name] ?? translation?.activities?.[match[1]];
+    const translatedActivity = translation?.activities?.[match[1]] ?? translation?.activities?.[activity?.name];
     const profile = match[2].match(/^profiles\[([^\]]+)\]\.(.+)$/);
     if (profile) return translateNestedField(translatedActivity?.profiles?.[profile[1]], profile[2]);
     return translateNestedField(translatedActivity, match[2]);
@@ -77,7 +77,7 @@ export function translationForField(sourceRecord, field, translation) {
   match = fieldPath.match(/^effects\[([^\]]+)\]\.(.+)$/);
   if (match) {
     const effect = byId(sourceRecord.data.effects, match[1]);
-    const translatedEffect = translation?.effects?.[effect?.name] ?? translation?.effects?.[match[1]];
+    const translatedEffect = translation?.effects?.[match[1]] ?? translation?.effects?.[effect?.name];
     return translateNestedField(translatedEffect, match[2]);
   }
 
