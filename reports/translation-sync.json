@@ -4639,6 +4639,14 @@
         },
         {
           "pack": "items",
+          "id": "khyjT3dKyoEOf4eA",
+          "name": "Wand of Polymorph",
+          "sourcePath": "items/wand/wand-of-polymorph.yml",
+          "lookupKey": "Wand of Polymorph",
+          "matchedLookupKey": "Wand of Polymorph"
+        },
+        {
+          "pack": "items",
           "id": "VQ6NWjWV37wiB29O",
           "name": "Wand of Secrets",
           "sourcePath": "items/wand/wand-of-secrets.yml",
@@ -4668,6 +4676,14 @@
           "sourcePath": "items/wand/wand-of-the-war-mage-3.yml",
           "lookupKey": "Wand of the War Mage +3",
           "matchedLookupKey": "Wand of the War Mage +3"
+        },
+        {
+          "pack": "items",
+          "id": "4sR5HOah6KwVPHOb",
+          "name": "Wand of Web",
+          "sourcePath": "items/wand/wand-of-web.yml",
+          "lookupKey": "Wand of Web",
+          "matchedLookupKey": "Wand of Web"
         },
         {
           "pack": "items",
@@ -7684,92 +7700,6 @@
               "message": "Foundry data references differ from source",
               "pack": "items",
               "id": "EJFql4aNWHHJSxT9",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "khyjT3dKyoEOf4eA",
-          "name": "Wand of Polymorph",
-          "sourcePath": "items/wand/wand-of-polymorph.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Wand of Polymorph",
-          "matchedLookupKey": "Wand of Polymorph",
-          "diagnostics": [
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "khyjT3dKyoEOf4eA",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-references",
-              "severity": "blocking",
-              "message": "Foundry reference targets or order differ from source",
-              "pack": "items",
-              "id": "khyjT3dKyoEOf4eA",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "khyjT3dKyoEOf4eA",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-data-references",
-              "severity": "blocking",
-              "message": "Foundry data references differ from source",
-              "pack": "items",
-              "id": "khyjT3dKyoEOf4eA",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "4sR5HOah6KwVPHOb",
-          "name": "Wand of Web",
-          "sourcePath": "items/wand/wand-of-web.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Wand of Web",
-          "matchedLookupKey": "Wand of Web",
-          "diagnostics": [
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "4sR5HOah6KwVPHOb",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-references",
-              "severity": "blocking",
-              "message": "Foundry reference targets or order differ from source",
-              "pack": "items",
-              "id": "4sR5HOah6KwVPHOb",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "4sR5HOah6KwVPHOb",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-data-references",
-              "severity": "blocking",
-              "message": "Foundry data references differ from source",
-              "pack": "items",
-              "id": "4sR5HOah6KwVPHOb",
               "fieldPath": "system.description.value"
             }
           ]
