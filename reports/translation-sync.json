@@ -6423,11 +6423,27 @@
         },
         {
           "pack": "items",
+          "id": "bod1dKzbAkAm21Ho",
+          "name": "Staff of Swarming Insects",
+          "sourcePath": "items/weapon/staff-of-swarming-insects.yml",
+          "lookupKey": "Staff of Swarming Insects",
+          "matchedLookupKey": "Staff of Swarming Insects"
+        },
+        {
+          "pack": "items",
           "id": "MOeFq5MLAQzVQC7z",
           "name": "Staff of the Python",
           "sourcePath": "items/weapon/staff-of-the-python.yml",
           "lookupKey": "Staff of the Python",
           "matchedLookupKey": "Staff of the Python"
+        },
+        {
+          "pack": "items",
+          "id": "caEn3ixCUFBnHTx6",
+          "name": "Staff of the Woodlands",
+          "sourcePath": "items/weapon/staff-of-the-woodlands.yml",
+          "lookupKey": "Staff of the Woodlands",
+          "matchedLookupKey": "Staff of the Woodlands"
         },
         {
           "pack": "items",
@@ -7699,41 +7715,6 @@
         },
         {
           "pack": "items",
-          "id": "bod1dKzbAkAm21Ho",
-          "name": "Staff of Swarming Insects",
-          "sourcePath": "items/weapon/staff-of-swarming-insects.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Staff of Swarming Insects",
-          "matchedLookupKey": "Staff of Swarming Insects",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "bod1dKzbAkAm21Ho",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "bod1dKzbAkAm21Ho",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-references",
-              "severity": "blocking",
-              "message": "Foundry reference targets or order differ from source",
-              "pack": "items",
-              "id": "bod1dKzbAkAm21Ho",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
           "id": "l3V7V8VCXpmAAysQ",
           "name": "Staff of the Magi",
           "sourcePath": "items/weapon/staff-of-the-magi.yml",
@@ -7763,41 +7744,6 @@
               "message": "Foundry reference targets or order differ from source",
               "pack": "items",
               "id": "l3V7V8VCXpmAAysQ",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "caEn3ixCUFBnHTx6",
-          "name": "Staff of the Woodlands",
-          "sourcePath": "items/weapon/staff-of-the-woodlands.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Staff of the Woodlands",
-          "matchedLookupKey": "Staff of the Woodlands",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "caEn3ixCUFBnHTx6",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "caEn3ixCUFBnHTx6",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-references",
-              "severity": "blocking",
-              "message": "Foundry reference targets or order differ from source",
-              "pack": "items",
-              "id": "caEn3ixCUFBnHTx6",
               "fieldPath": "system.description.value"
             }
           ]
