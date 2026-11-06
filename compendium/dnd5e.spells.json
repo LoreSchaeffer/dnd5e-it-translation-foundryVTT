@@ -394,10 +394,12 @@
       },
       "effects": {
         "lGVtMvn8U3KJMTik": {
-          "name": "Amichevolezza del Risvegliato"
+          "name": "Amichevolezza del Risvegliato",
+          "description": "<p>Sei &amp;reference[charmed apply=false] dall'incantatore per 30 giorni o finché l'incantatore o i suoi compagni non ti fanno del male. Quando la condizione affascinato termina, scegli se rimanere amichevole nei loro confronti.</p>"
         },
         "BjPkBFpp7mZIhyaT": {
-          "name": "Risvegliato"
+          "name": "Risvegliato",
+          "description": "<p>Sei stato risvegliato. Ottieni un punteggio di Intelligenza pari a 10. Ottieni inoltre la capacità di parlare un linguaggio conosciuto dall'incantatore. Se sei un vegetale, ottieni la capacità di muovere arti, radici, viticci, rampicanti e simili, e sviluppi sensi analoghi a quelli di un umano.</p>"
         }
       }
     },
@@ -1991,12 +1993,16 @@
           "name": "Lancia"
         },
         "MCAsmHQ4ZyHKOcIG": {
-          "name": "Rianima Zombie"
+          "name": "Rianima Zombie",
+          "description": {
+            "value": "<p>Un umanoide ucciso da questo incantesimo si rialza all'inizio del tuo turno successivo come @UUID[Compendium.dnd5e.monsters.Actor.NAISFPoNNgUCsEyW]{Zombie}, permanentemente sotto il tuo comando e intento a eseguire i tuoi ordini verbali al meglio delle sue capacità.</p>"
+          }
         }
       },
       "effects": {
         "uOH60hTrlfil9cij": {
-          "name": "Controllato Permanentemente"
+          "name": "Controllato Permanentemente",
+          "description": "<p>Sei stato animato dall'incantesimo @UUID[Compendium.dnd5e.spells.Item.HPvZm8YJO91k6Qdg]{Dito della Morte} e sei permanentemente sotto il controllo dell'incantatore.</p>"
         }
       }
     },
@@ -2023,10 +2029,12 @@
       },
       "effects": {
         "lVKx8swB08jm6IFE": {
-          "name": "Scudo Caldo"
+          "name": "Scudo Caldo",
+          "description": "<p>Fiamme sottili e vaporose avvolgono il tuo corpo per la durata, proiettando &amp;reference[bright light] entro un raggio di 3 metri e &amp;reference[dim light] per altri 3 metri. Puoi terminare anticipatamente l'incantesimo usando un'azione per dissolverlo.</p><p>Le fiamme ti conferiscono resistenza ai danni da freddo. Inoltre, ogni volta che una creatura entro 1,5 metri da te ti colpisce con un attacco in mischia, lo scudo erutta fiamme. L'attaccante subisce 2d8 danni da fuoco.</p>"
         },
         "UUXwEKSPX4nYfDzo": {
-          "name": "Scudo Gelido"
+          "name": "Scudo Gelido",
+          "description": "<p>Fiamme sottili e vaporose avvolgono il tuo corpo per la durata, proiettando &amp;reference[bright light] entro un raggio di 3 metri e &amp;reference[dim light] per altri 3 metri. Puoi terminare anticipatamente l'incantesimo usando un'azione per dissolverlo.</p><p>Le fiamme ti conferiscono resistenza ai danni da fuoco. Inoltre, ogni volta che una creatura entro 1,5 metri da te ti colpisce con un attacco in mischia, lo scudo erutta fiamme. L'attaccante subisce 2d8 danni da freddo.</p>"
         }
       }
     },
@@ -2477,12 +2485,16 @@
           "name": "Lancia"
         },
         "dnd5eactivity100": {
-          "name": "Tiro Salvezza contro l'Effetto di Santificare"
+          "name": "Tiro Salvezza contro l'Effetto di Santificare",
+          "description": {
+            "value": "<p>Quando una creatura che ne sarebbe influenzata entra nell'area dell'incantesimo per la prima volta in un turno o vi inizia il proprio turno, può effettuare un tiro salvezza su Carisma. Se lo supera, la creatura ignora l'effetto aggiuntivo finché non lascia l'area.</p>"
+          }
         }
       },
       "effects": {
         "XrncWjwUV3gyGj0v": {
-          "name": "Immunità di Santificare"
+          "name": "Immunità di Santificare",
+          "description": "<p>Sei immune agli effetti provocati in quest'area dall'incantesimo Santificare finché non la lasci.</p>"
         }
       }
     },
@@ -4578,10 +4590,12 @@
       "materials": "Una lente d'ingrandimento",
       "effects": {
         "kWBi1D1UMm4XsLgt": {
-          "name": "Bagliore Solare"
+          "name": "Bagliore Solare",
+          "description": "<p>Puoi creare una nuova linea di radianza usando la tua azione in qualsiasi turno finché questo incantesimo non termina.</p><p>Inoltre, per la durata, un globo di radianza brillante risplende nella tua mano. Proietta &amp;reference[bright light] entro un raggio di 9 metri e &amp;reference[dim light[ per altri 9 metri. Questa luce è luce solare.</p>"
         },
         "Ei5UOSrKn72d5lye": {
-          "name": "Cecità da Raggio di Sole"
+          "name": "Cecità da Raggio di Sole",
+          "description": "<p>Sei &amp;reference[blinded apply=false] fino all'inizio del turno successivo dell'incantatore.</p>"
         }
       },
       "activities": {
@@ -4699,10 +4713,16 @@
           "name": "Lancia"
         },
         "r5d5cLmb299gcJHl": {
-          "name": "Manipola Creatura"
+          "name": "Manipola Creatura",
+          "description": {
+            "value": "<p>Puoi tentare di muovere una creatura di taglia Enorme o inferiore. Effettua una prova di caratteristica usando la tua caratteristica da incantatore contrapposta alla prova di Forza della creatura. Se vinci la contesa, muovi la creatura fino a 9 metri in qualsiasi direzione, anche verso l'alto, ma senza oltrepassare la gittata di questo incantesimo. Fino alla fine del tuo turno successivo, la creatura è &amp;reference[Restrained] nella tua presa telecinetica. Una creatura sollevata verso l'alto rimane sospesa a mezz'aria.</p><p>Nei round successivi puoi usare la tua azione per tentare di mantenere la presa telecinetica sulla creatura ripetendo la contesa.</p>"
+          }
         },
         "iSZxY9EGiZdtU7Re": {
-          "name": "Manipola Oggetto"
+          "name": "Manipola Oggetto",
+          "description": {
+            "value": "<p>Puoi tentare di muovere un oggetto che pesi fino a 500 kg. Se l'oggetto non è indossato né trasportato, lo muovi automaticamente fino a 9 metri in qualsiasi direzione, ma senza oltrepassare la gittata di questo incantesimo.</p><p>Se l'oggetto è indossato o trasportato da una creatura, devi effettuare una prova di caratteristica usando la tua caratteristica da Incantatore contrapposta alla prova di Forza di quella creatura. Se la superi, strappi l'oggetto alla creatura e puoi muoverlo fino a 9 metri in qualsiasi direzione, ma senza oltrepassare la gittata di questo incantesimo.</p><p>Puoi esercitare un controllo preciso sugli oggetti con la tua presa telecinetica, per esempio manipolando un semplice strumento, aprendo una porta o un contenitore, riponendo o recuperando un oggetto da un contenitore aperto oppure versando il contenuto di una fiala.</p>"
+          }
         }
       }
     },
@@ -4825,10 +4845,16 @@
           "name": "Lancia"
         },
         "Y7gjcDvz2X1fknbC": {
-          "name": "Creatura in Creatura"
+          "name": "Creatura in Creatura",
+          "description": {
+            "value": "<p>Trasformi una creatura in un altro tipo di creatura; la nuova forma può essere di qualsiasi tipo a tua scelta con un grado di sfida pari o inferiore a quello del bersaglio (o al suo livello, se il bersaglio non possiede un Grado di Sfida). Le statistiche di gioco del bersaglio, inclusi i Punteggi di Caratteristica mentali, sono sostituite dalle statistiche della nuova forma. Il bersaglio conserva il proprio Allineamento e la propria personalità.</p><p>Il bersaglio assume i punti ferita della nuova forma e, quando ritorna alla forma normale, torna al numero di Punti Ferita che possedeva prima della trasformazione. Se ritorna alla forma normale perché scende a 0 punti ferita, gli eventuali danni in eccesso si trasferiscono alla forma normale. Finché i danni in eccesso non riducono a 0 i punti ferita della forma normale della creatura, essa non cade &amp;reference[Unconscious apply=false].</p><p>Le Azioni che la creatura può effettuare sono limitate dalla natura della sua nuova forma e la creatura non può parlare, lanciare Incantesimi o effettuare qualsiasi altra azione che richieda mani o parola, a meno che la nuova forma non sia in grado di effettuare tali Azioni.</p><p>L'equipaggiamento del bersaglio si fonde nella nuova forma. La creatura non può attivare, usare o impugnare alcun suo Equipaggiamento, né trarne beneficio in altro modo.</p>"
+          }
         },
         "gEBSNPjhtGsBtHCx": {
-          "name": "Oggetto in Creatura"
+          "name": "Oggetto in Creatura",
+          "description": {
+            "value": "<p>Puoi trasformare un oggetto in qualsiasi tipo di creatura, purché la taglia della creatura non superi quella dell'oggetto e il suo Grado di Sfida sia pari o inferiore a 9. La creatura è amichevole nei confronti tuoi e dei tuoi compagni. Agisce in ognuno dei tuoi turni. Decidi quale azione effettua e come si muove. Il DM possiede le Statistiche della creatura e risolve tutte le sue Azioni e il suo Movimento.</p><p>Se l'incantesimo diventa permanente, non controlli più la creatura. In base a come l'hai trattata, potrebbe rimanere amichevole nei tuoi confronti.</p>"
+          }
         }
       }
     },

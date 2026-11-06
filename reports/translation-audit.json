@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1029,
+      "translated": 1032,
       "missing": 69,
-      "partial": 1293,
+      "partial": 1290,
       "review": 213
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 9406,
-      "missing": 6254,
+      "translated": 9420,
+      "missing": 6240,
       "invariantFailures": 2394,
       "englishResiduals": 135,
       "imperialResiduals": 4
     },
-    "blockingIssues": 8811
+    "blockingIssues": 8797
   },
   "packs": [
     {
@@ -76741,9 +76741,9 @@
       "summary": {
         "documents": {
           "total": 320,
-          "translated": 92,
+          "translated": 95,
           "missing": 0,
-          "partial": 228,
+          "partial": 225,
           "review": 10
         },
         "folders": {
@@ -76755,8 +76755,8 @@
         },
         "fields": {
           "total": 2007,
-          "translated": 1899,
-          "missing": 108,
+          "translated": 1913,
+          "missing": 94,
           "invariantFailures": 406,
           "englishResiduals": 17,
           "imperialResiduals": 2
@@ -79149,24 +79149,6 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "spells",
-          "id": "avD5XUtkBPQQR97c",
-          "name": "Fire Shield",
-          "fieldPath": "effects[lVKx8swB08jm6IFE].description",
-          "sourcePath": "spells/4th-level/fire-shield.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "avD5XUtkBPQQR97c",
-          "name": "Fire Shield",
-          "fieldPath": "effects[UUXwEKSPX4nYfDzo].description",
-          "sourcePath": "spells/4th-level/fire-shield.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
           "id": "da0a1t2FqaTjRZGT",
           "name": "Freedom of Movement",
           "fieldPath": "effects[OnWa3f4IQ3pneB5T].description",
@@ -79481,24 +79463,6 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "spells",
-          "id": "MCEpGpvovcXagwQS",
-          "name": "Awaken",
-          "fieldPath": "effects[lGVtMvn8U3KJMTik].description",
-          "sourcePath": "spells/5th-level/awaken.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "MCEpGpvovcXagwQS",
-          "name": "Awaken",
-          "fieldPath": "effects[BjPkBFpp7mZIhyaT].description",
-          "sourcePath": "spells/5th-level/awaken.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
           "id": "LkvI11Uue774QBKZ",
           "name": "Cloudkill",
           "fieldPath": "system.activities.dnd5eactivity000.description.value",
@@ -79639,24 +79603,6 @@
           "id": "SLxA9QhrggTz0taU",
           "fieldPath": "system.description.value",
           "name": "Hallow",
-          "sourcePath": "spells/5th-level/hallow.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "SLxA9QhrggTz0taU",
-          "name": "Hallow",
-          "fieldPath": "system.activities.dnd5eactivity100.description.value",
-          "sourcePath": "spells/5th-level/hallow.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "SLxA9QhrggTz0taU",
-          "name": "Hallow",
-          "fieldPath": "effects[XrncWjwUV3gyGj0v].description",
           "sourcePath": "spells/5th-level/hallow.yml"
         },
         {
@@ -79945,24 +79891,6 @@
           "id": "HQfd7jJyULIoGxrZ",
           "fieldPath": "system.description.value",
           "name": "Telekinesis",
-          "sourcePath": "spells/5th-level/telekinesis.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "HQfd7jJyULIoGxrZ",
-          "name": "Telekinesis",
-          "fieldPath": "system.activities.r5d5cLmb299gcJHl.description.value",
-          "sourcePath": "spells/5th-level/telekinesis.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "HQfd7jJyULIoGxrZ",
-          "name": "Telekinesis",
-          "fieldPath": "system.activities.iSZxY9EGiZdtU7Re.description.value",
           "sourcePath": "spells/5th-level/telekinesis.yml"
         },
         {
@@ -80399,24 +80327,6 @@
           "sourcePath": "spells/6th-level/programmed-illusion.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "2RC0EyvBLPH88PZF",
-          "name": "Sunbeam",
-          "fieldPath": "effects[kWBi1D1UMm4XsLgt].description",
-          "sourcePath": "spells/6th-level/sunbeam.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "2RC0EyvBLPH88PZF",
-          "name": "Sunbeam",
-          "fieldPath": "effects[Ei5UOSrKn72d5lye].description",
-          "sourcePath": "spells/6th-level/sunbeam.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -80608,24 +80518,6 @@
           "name": "Etherealness",
           "fieldPath": "effects[rrA8RYmv4eAuVbg8].description",
           "sourcePath": "spells/7th-level/etherealness.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "HPvZm8YJO91k6Qdg",
-          "name": "Finger of Death",
-          "fieldPath": "system.activities.MCAsmHQ4ZyHKOcIG.description.value",
-          "sourcePath": "spells/7th-level/finger-of-death.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "HPvZm8YJO91k6Qdg",
-          "name": "Finger of Death",
-          "fieldPath": "effects[uOH60hTrlfil9cij].description",
-          "sourcePath": "spells/7th-level/finger-of-death.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -81538,24 +81430,6 @@
           "id": "QbQZKoXOgHWN06aa",
           "fieldPath": "system.description.value",
           "name": "True Polymorph",
-          "sourcePath": "spells/9th-level/true-polymorph.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "QbQZKoXOgHWN06aa",
-          "name": "True Polymorph",
-          "fieldPath": "system.activities.Y7gjcDvz2X1fknbC.description.value",
-          "sourcePath": "spells/9th-level/true-polymorph.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "QbQZKoXOgHWN06aa",
-          "name": "True Polymorph",
-          "fieldPath": "system.activities.gEBSNPjhtGsBtHCx.description.value",
           "sourcePath": "spells/9th-level/true-polymorph.yml"
         },
         {
