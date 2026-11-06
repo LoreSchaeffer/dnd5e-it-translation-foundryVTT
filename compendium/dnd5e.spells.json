@@ -348,10 +348,12 @@
       },
       "effects": {
         "z4EYamUR9vhGZ9GB": {
-          "name": "Aura Falsa"
+          "name": "Aura Falsa",
+          "description": "<p>Il modo in cui appari agli Incantesimi e agli Effetti magici che individuano le aure magiche, come @UUID[Compendium.dnd5e.spells.Item.ghXTfe7sgCbgf1Q8]{Individuazione del Magico}, è stato alterato. Appari magico o non magico, oppure la tua aura magica è stata modificata in modo da farti apparire appartenente a una specifica scuola di magia scelta dall'incantatore.</p>"
         },
         "I6rEsnKIWc7qZG4P": {
-          "name": "Maschera"
+          "name": "Maschera",
+          "description": "<p>Il modo in cui appari agli Incantesimi e agli Effetti magici che individuano le creature, come il Senso Divino di un paladino o l'innesco di un incantesimo @UUID[Compendium.dnd5e.spells.Item.B2kbmgbA2WQR00kx]{Simbolo}, è stato alterato. Gli Incantesimi e gli Effetti magici ti considerano una creatura di uno specifico tipo o Allineamento scelto dall'incantatore.</p>"
         }
       }
     },
@@ -569,10 +571,12 @@
       },
       "effects": {
         "59WpbiZFULwixyvC": {
-          "name": "Cecità"
+          "name": "Cecità",
+          "description": "<p>Sei &amp;reference[Blinded apply=false] per la durata. Alla fine di ogni tuo turno puoi effettuare un tiro salvezza su Costituzione. Se lo superi, l'incantesimo termina.</p>"
         },
         "H0SG0oq3VfiCxBOQ": {
-          "name": "Sordità"
+          "name": "Sordità",
+          "description": "<p>Sei &amp;reference[Deafened apply=false] per la durata. Alla fine di ogni tuo turno puoi effettuare un tiro salvezza su Costituzione. Se lo superi, l'incantesimo termina.</p>"
         }
       }
     },
@@ -889,12 +893,16 @@
           "name": "Lancia"
         },
         "dnd5eactivity300": {
-          "name": "Tira sulla Tabella Confusione"
+          "name": "Tira sulla Tabella Confusione",
+          "description": {
+            "value": "<p>@embed[Compendium.dnd5e.tables.RollTable.LHEts1oDaDwcehuj inline rollable]{Confusione}</p>"
+          }
         }
       },
       "effects": {
         "XzyaEWZwDrsUuAxr": {
-          "name": "Confuso"
+          "name": "Confuso",
+          "description": "<p>Questo incantesimo assale e distorce la tua mente, generando illusioni e provocando azioni incontrollate.</p><p>Non puoi effettuare reazioni e devi tirare sulla tabella @UUID[Compendium.dnd5e.tables.RollTable.LHEts1oDaDwcehuj]{Confusione} all'inizio di ogni tuo turno per determinare il tuo comportamento durante quel turno.</p><p>@embed[Compendium.dnd5e.tables.RollTable.LHEts1oDaDwcehuj inline rollable]{Confusione}</p>"
         }
       }
     },
@@ -1734,10 +1742,12 @@
       },
       "effects": {
         "iVWIbqSzCYFAQzV6": {
-          "name": "Ingrandito"
+          "name": "Ingrandito",
+          "description": "<p>Le tue dimensioni raddoppiano in tutte le direzioni e il tuo peso viene moltiplicato per otto. Questa crescita aumenta la tua taglia di una categoria, per esempio da Media a Grande. Se lo spazio non è sufficiente affinché tu possa raddoppiare le tue dimensioni, raggiungi la taglia massima consentita dallo spazio disponibile. Finché l'incantesimo non termina, disponi inoltre di vantaggio alle Prove di Forza e ai Tiri Salvezza su Forza.</p><p>Anche le tue Armi crescono per adattarsi alla tua nuova taglia. Finché queste Armi sono ingrandite, i tuoi attacchi effettuati con esse infliggono 1d4 danni extra.</p>"
         },
         "rFRjXg3BjmTb5GOh": {
-          "name": "Rimpicciolito"
+          "name": "Rimpicciolito",
+          "description": "<p>Le tue dimensioni vengono dimezzate in tutte le direzioni e il tuo peso si riduce a un ottavo del normale. Questa riduzione diminuisce la tua taglia di una categoria, per esempio da Media a Piccola. Finché l'incantesimo non termina, disponi inoltre di svantaggio alle Prove di Forza e ai Tiri Salvezza su Forza.</p><p>Anche le tue Armi si restringono per adattarsi alla tua nuova taglia. Finché queste Armi sono ridotte, i tuoi attacchi effettuati con esse infliggono 1d4 danni in meno (questo non può ridurre i danni a meno di 1).</p>"
         }
       }
     },
@@ -2336,10 +2346,16 @@
           "name": "Lancia"
         },
         "Kn7He91921d5pTio": {
-          "name": "Tiro Salvezza contro Runa Esplosiva"
+          "name": "Tiro Salvezza contro Runa Esplosiva",
+          "description": {
+            "value": "<p>Quando viene innescato, il glifo erutta energia magica in una sfera con raggio di 6 metri centrata su di esso. La sfera si propaga oltre gli angoli. Ogni creatura nell'area deve effettuare un tiro salvezza su Destrezza. Se fallisce il tiro salvezza, una creatura subisce 5d8 danni da acido, freddo, fuoco, fulmine o tuono (a tua scelta quando crei il glifo), o la metà di quei danni se lo supera.</p>"
+          }
         },
         "x7zjmSoY9DWaiMhP": {
-          "name": "Glifo di Incantesimo Attivato"
+          "name": "Glifo di Incantesimo Attivato",
+          "description": {
+            "value": "<p>Quando il glifo viene innescato, l'incantesimo custodito viene lanciato. Se l'incantesimo ha un bersaglio, bersaglia la creatura che ha innescato il glifo. Se l'incantesimo influenza un'area, l'area è centrata su quella creatura. Se l'incantesimo evoca creature ostili o crea oggetti nocivi o trappole, questi compaiono il più vicino possibile all'intruso e lo attaccano. Se l'incantesimo richiede concentrazione, dura fino alla fine della sua durata completa.</p>"
+          }
         }
       }
     },
@@ -2543,10 +2559,12 @@
       },
       "effects": {
         "UFaQd43rbMjowXA2": {
-          "name": "Oggetto di Metallo Riscaldato"
+          "name": "Oggetto di Metallo Riscaldato",
+          "description": "<p>Un oggetto manufatto che stai impugnando, come un'arma di metallo o un'armatura pesante o media di metallo, ha iniziato a diventare incandescente. Finché rimani a contatto fisico con l'oggetto, subisci danni da fuoco.</p><p>Quando subisci danni, devi superare un tiro salvezza su Costituzione, altrimenti lasci cadere l'oggetto se puoi farlo. Se non lasci cadere l'oggetto, disponi di svantaggio ai tiri per colpire e alle prove di caratteristica fino all'inizio del tuo turno successivo.</p>"
         },
         "hPjQYP6nZM06WETE": {
-          "name": "Aggrappato all'Oggetto Riscaldato"
+          "name": "Aggrappato all'Oggetto Riscaldato",
+          "description": "<p>Disponi di svantaggio ai tiri per colpire e alle prove di caratteristica fino all'inizio del turno successivo dell'incantatore.</p>"
         }
       }
     },
@@ -3003,12 +3021,16 @@
           "name": "Lancia Cerchio Magico Invertito"
         },
         "3tvXJpYrfPS30uAL": {
-          "name": "Tiro Salvezza per Contrastare il Teletrasporto"
+          "name": "Tiro Salvezza per Contrastare il Teletrasporto",
+          "description": {
+            "value": "<p>La creatura non può entrare volontariamente nel cilindro con mezzi non magici. Se tenta di usare il teletrasporto o il viaggio interplanare per farlo, deve prima superare un tiro salvezza su Carisma.</p>"
+          }
         }
       },
       "effects": {
         "3UZLcyUKG7zz2VdP": {
-          "name": "Protezione del Cerchio Magico"
+          "name": "Protezione del Cerchio Magico",
+          "description": "<p>Finché rimani all'interno del @UUID[Compendium.dnd5e.spells.Item.y8A4HfTwd93ypdEz]{Cerchio Magico}, non puoi essere &amp;refrerence[charmed apply=false], &amp;reference[frightened apply=false] o posseduto dalle creature contro cui l'incantesimo protegge, e tali creature dispongono di svantaggio ai tiri per colpire contro di te.</p>"
         }
       }
     },

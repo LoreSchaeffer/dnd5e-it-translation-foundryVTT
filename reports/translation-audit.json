@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1027,
+      "translated": 1029,
       "missing": 69,
-      "partial": 1295,
+      "partial": 1293,
       "review": 213
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 9392,
-      "missing": 6268,
+      "translated": 9406,
+      "missing": 6254,
       "invariantFailures": 2394,
       "englishResiduals": 135,
       "imperialResiduals": 4
     },
-    "blockingIssues": 8825
+    "blockingIssues": 8811
   },
   "packs": [
     {
@@ -76741,9 +76741,9 @@
       "summary": {
         "documents": {
           "total": 320,
-          "translated": 90,
+          "translated": 92,
           "missing": 0,
-          "partial": 230,
+          "partial": 228,
           "review": 10
         },
         "folders": {
@@ -76755,8 +76755,8 @@
         },
         "fields": {
           "total": 2007,
-          "translated": 1885,
-          "missing": 122,
+          "translated": 1899,
+          "missing": 108,
           "invariantFailures": 406,
           "englishResiduals": 17,
           "imperialResiduals": 2
@@ -77551,24 +77551,6 @@
           "sourcePath": "spells/2nd-level/arcanists-magic-aura.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "RvEqsD89Zvd5yex4",
-          "name": "Arcanist's Magic Aura",
-          "fieldPath": "effects[z4EYamUR9vhGZ9GB].description",
-          "sourcePath": "spells/2nd-level/arcanists-magic-aura.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "RvEqsD89Zvd5yex4",
-          "name": "Arcanist's Magic Aura",
-          "fieldPath": "effects[I6rEsnKIWc7qZG4P].description",
-          "sourcePath": "spells/2nd-level/arcanists-magic-aura.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -77606,24 +77588,6 @@
           "id": "zwGsAv6kmwzYGhh3",
           "fieldPath": "system.description.value",
           "name": "Blindness/Deafness",
-          "sourcePath": "spells/2nd-level/blindness-deafness.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "zwGsAv6kmwzYGhh3",
-          "name": "Blindness/Deafness",
-          "fieldPath": "effects[59WpbiZFULwixyvC].description",
-          "sourcePath": "spells/2nd-level/blindness-deafness.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "zwGsAv6kmwzYGhh3",
-          "name": "Blindness/Deafness",
-          "fieldPath": "effects[H0SG0oq3VfiCxBOQ].description",
           "sourcePath": "spells/2nd-level/blindness-deafness.yml"
         },
         {
@@ -77652,24 +77616,6 @@
           "name": "Darkvision",
           "fieldPath": "effects[9qaZQFN5xP8Gig8f].description",
           "sourcePath": "spells/2nd-level/darkvision.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "WahI41a3goVUg0x1",
-          "name": "Enlarge/Reduce",
-          "fieldPath": "effects[iVWIbqSzCYFAQzV6].description",
-          "sourcePath": "spells/2nd-level/enlarge-reduce.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "WahI41a3goVUg0x1",
-          "name": "Enlarge/Reduce",
-          "fieldPath": "effects[rFRjXg3BjmTb5GOh].description",
-          "sourcePath": "spells/2nd-level/enlarge-reduce.yml"
         },
         {
           "code": "missing-field",
@@ -77767,24 +77713,6 @@
           "fieldPath": "system.description.value",
           "name": "Gust of Wind",
           "sourcePath": "spells/2nd-level/gust-of-wind.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "2yHXEcrRbadZDr5M",
-          "name": "Heat Metal",
-          "fieldPath": "effects[UFaQd43rbMjowXA2].description",
-          "sourcePath": "spells/2nd-level/heat-metal.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "2yHXEcrRbadZDr5M",
-          "name": "Heat Metal",
-          "fieldPath": "effects[hPjQYP6nZM06WETE].description",
-          "sourcePath": "spells/2nd-level/heat-metal.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -78511,24 +78439,6 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "spells",
-          "id": "pB7XVYwdGNcUG935",
-          "name": "Glyph of Warding",
-          "fieldPath": "system.activities.Kn7He91921d5pTio.description.value",
-          "sourcePath": "spells/3rd-level/glyph-of-warding.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "pB7XVYwdGNcUG935",
-          "name": "Glyph of Warding",
-          "fieldPath": "system.activities.x7zjmSoY9DWaiMhP.description.value",
-          "sourcePath": "spells/3rd-level/glyph-of-warding.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
           "id": "6g3WLOZ2u0EbaLAd",
           "name": "Hypnotic Pattern",
           "fieldPath": "effects[SQnfuD2rHVcyLZ4j].description",
@@ -78572,24 +78482,6 @@
           "id": "y8A4HfTwd93ypdEz",
           "fieldPath": "system.description.value",
           "name": "Magic Circle",
-          "sourcePath": "spells/3rd-level/magic-circle.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "y8A4HfTwd93ypdEz",
-          "name": "Magic Circle",
-          "fieldPath": "system.activities.3tvXJpYrfPS30uAL.description.value",
-          "sourcePath": "spells/3rd-level/magic-circle.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "y8A4HfTwd93ypdEz",
-          "name": "Magic Circle",
-          "fieldPath": "effects[3UZLcyUKG7zz2VdP].description",
           "sourcePath": "spells/3rd-level/magic-circle.yml"
         },
         {
@@ -79144,24 +79036,6 @@
           "id": "9hQXdMSmerkTsHDe",
           "name": "Confusion",
           "fieldPath": "system.materials.value",
-          "sourcePath": "spells/4th-level/confusion.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "9hQXdMSmerkTsHDe",
-          "name": "Confusion",
-          "fieldPath": "system.activities.dnd5eactivity300.description.value",
-          "sourcePath": "spells/4th-level/confusion.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "9hQXdMSmerkTsHDe",
-          "name": "Confusion",
-          "fieldPath": "effects[XzyaEWZwDrsUuAxr].description",
           "sourcePath": "spells/4th-level/confusion.yml"
         },
         {
