@@ -935,6 +935,14 @@
         },
         {
           "pack": "spells",
+          "id": "y8A4HfTwd93ypdEz",
+          "name": "Magic Circle",
+          "sourcePath": "spells/3rd-level/magic-circle.yml",
+          "lookupKey": "Magic Circle",
+          "matchedLookupKey": "Magic Circle"
+        },
+        {
+          "pack": "spells",
           "id": "nslx2nT3p4lNkmdp",
           "name": "Major Image",
           "sourcePath": "spells/3rd-level/major-image.yml",
@@ -1039,6 +1047,14 @@
         },
         {
           "pack": "spells",
+          "id": "2VXGS206tuChoeXy",
+          "name": "Speak with Plants",
+          "sourcePath": "spells/3rd-level/speak-with-plants.yml",
+          "lookupKey": "Speak with Plants",
+          "matchedLookupKey": "Speak with Plants"
+        },
+        {
+          "pack": "spells",
           "id": "uCud2s4TjMfjiXUb",
           "name": "Spirit Guardians",
           "sourcePath": "spells/3rd-level/spirit-guardians.yml",
@@ -1140,6 +1156,14 @@
           "sourcePath": "spells/4th-level/compulsion.yml",
           "lookupKey": "Compulsion",
           "matchedLookupKey": "Compulsion"
+        },
+        {
+          "pack": "spells",
+          "id": "9hQXdMSmerkTsHDe",
+          "name": "Confusion",
+          "sourcePath": "spells/4th-level/confusion.yml",
+          "lookupKey": "Confusion",
+          "matchedLookupKey": "Confusion"
         },
         {
           "pack": "spells",
@@ -2414,103 +2438,6 @@
               "message": "HTML attributes differ from source",
               "pack": "spells",
               "id": "pB7XVYwdGNcUG935",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "y8A4HfTwd93ypdEz",
-          "name": "Magic Circle",
-          "sourcePath": "spells/3rd-level/magic-circle.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Magic Circle",
-          "matchedLookupKey": "Magic Circle",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "y8A4HfTwd93ypdEz",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "y8A4HfTwd93ypdEz",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "2VXGS206tuChoeXy",
-          "name": "Speak with Plants",
-          "sourcePath": "spells/3rd-level/speak-with-plants.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Speak with Plants",
-          "matchedLookupKey": "Speak with Plants",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "2VXGS206tuChoeXy",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "2VXGS206tuChoeXy",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "spells",
-              "id": "2VXGS206tuChoeXy",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "9hQXdMSmerkTsHDe",
-          "name": "Confusion",
-          "sourcePath": "spells/4th-level/confusion.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Confusion",
-          "matchedLookupKey": "Confusion",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "9hQXdMSmerkTsHDe",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "9hQXdMSmerkTsHDe",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "spells",
-              "id": "9hQXdMSmerkTsHDe",
               "fieldPath": "system.description.value"
             }
           ]

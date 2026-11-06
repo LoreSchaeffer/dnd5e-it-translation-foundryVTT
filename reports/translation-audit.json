@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1213,
+      "translated": 1216,
       "missing": 69,
-      "partial": 1109,
+      "partial": 1106,
       "review": 203
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 2109,
+      "invariantFailures": 2101,
       "englishResiduals": 118,
       "imperialResiduals": 2
     },
-    "blockingIssues": 8399
+    "blockingIssues": 8391
   },
   "packs": [
     {
@@ -76741,9 +76741,9 @@
       "summary": {
         "documents": {
           "total": 320,
-          "translated": 276,
+          "translated": 279,
           "missing": 0,
-          "partial": 44,
+          "partial": 41,
           "review": 0
         },
         "folders": {
@@ -76757,7 +76757,7 @@
           "total": 2007,
           "translated": 2007,
           "missing": 0,
-          "invariantFailures": 121,
+          "invariantFailures": 113,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
@@ -76932,86 +76932,6 @@
           "fieldPath": "system.description.value",
           "name": "Glyph of Warding",
           "sourcePath": "spells/3rd-level/glyph-of-warding.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "y8A4HfTwd93ypdEz",
-          "fieldPath": "system.description.value",
-          "name": "Magic Circle",
-          "sourcePath": "spells/3rd-level/magic-circle.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "y8A4HfTwd93ypdEz",
-          "fieldPath": "system.description.value",
-          "name": "Magic Circle",
-          "sourcePath": "spells/3rd-level/magic-circle.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "2VXGS206tuChoeXy",
-          "fieldPath": "system.description.value",
-          "name": "Speak with Plants",
-          "sourcePath": "spells/3rd-level/speak-with-plants.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "2VXGS206tuChoeXy",
-          "fieldPath": "system.description.value",
-          "name": "Speak with Plants",
-          "sourcePath": "spells/3rd-level/speak-with-plants.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "spells",
-          "id": "2VXGS206tuChoeXy",
-          "fieldPath": "system.description.value",
-          "name": "Speak with Plants",
-          "sourcePath": "spells/3rd-level/speak-with-plants.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "9hQXdMSmerkTsHDe",
-          "fieldPath": "system.description.value",
-          "name": "Confusion",
-          "sourcePath": "spells/4th-level/confusion.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "9hQXdMSmerkTsHDe",
-          "fieldPath": "system.description.value",
-          "name": "Confusion",
-          "sourcePath": "spells/4th-level/confusion.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "spells",
-          "id": "9hQXdMSmerkTsHDe",
-          "fieldPath": "system.description.value",
-          "name": "Confusion",
-          "sourcePath": "spells/4th-level/confusion.yml"
         },
         {
           "code": "html-tag-sequence",
