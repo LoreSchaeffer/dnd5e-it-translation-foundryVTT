@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1675,
+      "translated": 1677,
       "missing": 69,
-      "partial": 647,
+      "partial": 645,
       "review": 111
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 1142,
+      "invariantFailures": 1137,
       "englishResiduals": 113,
       "imperialResiduals": 2
     },
-    "blockingIssues": 7340
+    "blockingIssues": 7335
   },
   "packs": [
     {
@@ -5317,9 +5317,9 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 787,
+          "translated": 789,
           "missing": 0,
-          "partial": 98,
+          "partial": 96,
           "review": 41
         },
         "folders": {
@@ -5333,62 +5333,12 @@
           "total": 2227,
           "translated": 2227,
           "missing": 0,
-          "invariantFailures": 195,
+          "invariantFailures": 190,
           "englishResiduals": 41,
           "imperialResiduals": 2
         }
       },
       "issues": [
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "50N8zf58FR4JWR05",
-          "fieldPath": "system.description.value",
-          "name": "Amulet of Proof against Detection and Location",
-          "sourcePath": "items/equipment/amulet-of-proof-against-detection-and-location.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "50N8zf58FR4JWR05",
-          "fieldPath": "system.description.value",
-          "name": "Amulet of Proof against Detection and Location",
-          "sourcePath": "items/equipment/amulet-of-proof-against-detection-and-location.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "8ABk0XV76Hzq8Qul",
-          "fieldPath": "system.description.value",
-          "name": "Amulet of the Planes",
-          "sourcePath": "items/equipment/amulet-of-the-planes.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "8ABk0XV76Hzq8Qul",
-          "fieldPath": "system.description.value",
-          "name": "Amulet of the Planes",
-          "sourcePath": "items/equipment/amulet-of-the-planes.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "8ABk0XV76Hzq8Qul",
-          "fieldPath": "system.description.value",
-          "name": "Amulet of the Planes",
-          "sourcePath": "items/equipment/amulet-of-the-planes.yml"
-        },
         {
           "code": "html-tag-sequence",
           "severity": "blocking",
