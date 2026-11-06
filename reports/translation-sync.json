@@ -407,6 +407,14 @@
         },
         {
           "pack": "spells",
+          "id": "8RTDOt80u8aBv9qx",
+          "name": "Alter Self",
+          "sourcePath": "spells/2nd-level/alter-self.yml",
+          "lookupKey": "Alter Self",
+          "matchedLookupKey": "Alter Self"
+        },
+        {
+          "pack": "spells",
           "id": "X8w9EzYLGc4vQ1H2",
           "name": "Animal Messenger",
           "sourcePath": "spells/2nd-level/animal-messenger.yml",
@@ -1559,6 +1567,14 @@
         },
         {
           "pack": "spells",
+          "id": "r3243JU4AyQJyfX4",
+          "name": "Modify Memory",
+          "sourcePath": "spells/5th-level/modify-memory.yml",
+          "lookupKey": "Modify Memory",
+          "matchedLookupKey": "Modify Memory"
+        },
+        {
+          "pack": "spells",
           "id": "d9MwcXi7Il3HROXd",
           "name": "Passwall",
           "sourcePath": "spells/5th-level/passwall.yml",
@@ -1796,6 +1812,14 @@
           "sourcePath": "spells/6th-level/irresistible-dance.yml",
           "lookupKey": "Irresistible Dance",
           "matchedLookupKey": "Irresistible Dance"
+        },
+        {
+          "pack": "spells",
+          "id": "ej6wyY4G1gOcb1U6",
+          "name": "Magic Jar",
+          "sourcePath": "spells/6th-level/magic-jar.yml",
+          "lookupKey": "Magic Jar",
+          "matchedLookupKey": "Magic Jar"
         },
         {
           "pack": "spells",
@@ -2493,41 +2517,6 @@
         },
         {
           "pack": "spells",
-          "id": "8RTDOt80u8aBv9qx",
-          "name": "Alter Self",
-          "sourcePath": "spells/2nd-level/alter-self.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Alter Self",
-          "matchedLookupKey": "Alter Self",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "8RTDOt80u8aBv9qx",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "8RTDOt80u8aBv9qx",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-formulas",
-              "severity": "blocking",
-              "message": "Foundry formulas differ from source",
-              "pack": "spells",
-              "id": "8RTDOt80u8aBv9qx",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
           "id": "pB7XVYwdGNcUG935",
           "name": "Glyph of Warding",
           "sourcePath": "spells/3rd-level/glyph-of-warding.yml",
@@ -2644,41 +2633,6 @@
         },
         {
           "pack": "spells",
-          "id": "r3243JU4AyQJyfX4",
-          "name": "Modify Memory",
-          "sourcePath": "spells/5th-level/modify-memory.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Modify Memory",
-          "matchedLookupKey": "Modify Memory",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "r3243JU4AyQJyfX4",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "r3243JU4AyQJyfX4",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "spells",
-              "id": "r3243JU4AyQJyfX4",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
           "id": "yw0tYQkOMCgKZ8Ur",
           "name": "Guards and Wards",
           "sourcePath": "spells/6th-level/guards-and-wards.yml",
@@ -2708,41 +2662,6 @@
               "message": "Foundry reference count differs from source",
               "pack": "spells",
               "id": "yw0tYQkOMCgKZ8Ur",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "ej6wyY4G1gOcb1U6",
-          "name": "Magic Jar",
-          "sourcePath": "spells/6th-level/magic-jar.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Magic Jar",
-          "matchedLookupKey": "Magic Jar",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "ej6wyY4G1gOcb1U6",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "ej6wyY4G1gOcb1U6",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "spells",
-              "id": "ej6wyY4G1gOcb1U6",
               "fieldPath": "system.description.value"
             }
           ]
