@@ -38,12 +38,14 @@
     "1st Level": "1° Livello",
     "2nd Level": "2° Livello",
     "3nd Level": "3° Livello",
+    "3rd Level": "3° Livello",
     "4th Level": "4° Livello",
     "5th Level": "5° Livello",
     "6th Level": "6° Livello",
     "7th Level": "7° Livello",
     "8th Level": "8° Livello",
-    "9th Level": "9° Livello"
+    "9th Level": "9° Livello",
+    "Supplemental Items": "Oggetti Supplementari"
   },
   "entries": {
     "Acid Arrow": {
@@ -4934,6 +4936,17 @@
         },
         "dnd5eactivity000": {
           "name": "Tiro Salvezza all'Ingresso nella Zona"
+        }
+      }
+    },
+    "8cPlf8sC5j7O6mTv": {
+      "_id": "8cPlf8sC5j7O6mTv",
+      "name": "Lama Infuocata Evocata",
+      "description": "<p>Creata dall'incantesimo @UUID[Compendium.dnd5e.spells.Item.Advtckpz1B733bu9]{Lama Infuocata}.</p><p>La lama ha forma e dimensioni simili a quelle di una scimitarra e permane per la durata. Se lasci andare la lama, essa scompare, ma puoi evocarla di nuovo con un'Azione Bonus.</p><p>Puoi usare la tua azione per effettuare un Attacco con incantesimo in mischia con la lama infuocata. Se colpisce, il bersaglio subisce [[lookup @flags.world.flame-blade-damage]]{3d6} danni da fuoco.</p><p>La lama infuocata proietta &amp;reference[bright light] entro un raggio di 3 metri e &amp;reference[dim light] per altri 3 metri.</p>",
+      "effects": {
+        "CwXsi6Uf2CwXZsoe": {
+          "name": "Illuminazione della Lama Infuocata",
+          "description": "<p>La lama infuocata proietta &amp;reference[bright light] entro un raggio di 3 metri e &amp;reference[dim light] per altri 3 metri.</p>"
         }
       }
     }

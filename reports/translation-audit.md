@@ -12,12 +12,12 @@
 | monsters | 337 | 2 | 5 | 330 | 15 | 4810 | 5045 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
 | rules | 20 | 1 | 3 | 16 | 0 | 738 | 695 |
-| spells | 320 | 80 | 1 | 239 | 2 | 296 | 720 |
+| spells | 320 | 81 | 0 | 239 | 0 | 292 | 717 |
 | subclasses | 12 | 12 | 0 | 0 | 0 | 0 | 0 |
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 8998
+Total blocking issues: 8995
 
 ## Issues
 
@@ -8299,8 +8299,6 @@ Total blocking issues: 8998
 - **missing-document** `rules:4ANrmP15aBGam0QS`
 - **missing-document** `rules:xxt7YT2t76JxNTel`
 - **missing-document** `rules:sfJtvPjEs50Ruzi4`
-- **missing-folder** `spells:5Si35RRLLaaoWvC3`
-- **missing-folder** `spells:DQSeMEpnNmujkHlX`
 - **missing-field** `spells:hDOENzjuj5WpLq7B:effects[nxfOXuxeCg02WVId].description`
 - **html-tag-sequence** `spells:95K2aUhAGV9qXjnf:system.description.value`
 - **html-attributes** `spells:95K2aUhAGV9qXjnf:system.description.value`
@@ -9018,4 +9016,3 @@ Total blocking issues: 8998
 - **html-attributes** `spells:MUO1uYN7JR1hm4dR:system.description.value`
 - **missing-field** `spells:mGGlcLdggHwcL7MG:effects[9R2Z2PZW9U03QFhW].description`
 - **missing-field** `spells:cdrYKaFi98YWaBMw:effects[imsGW3YRra9KF6iK].description`
-- **missing-document** `spells:8cPlf8sC5j7O6mTv`

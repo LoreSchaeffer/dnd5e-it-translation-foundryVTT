@@ -3,27 +3,27 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1017,
-      "missing": 70,
+      "translated": 1018,
+      "missing": 69,
       "partial": 1304,
       "review": 213
     },
     "folders": {
       "total": 120,
-      "translated": 103,
-      "missing": 17,
+      "translated": 105,
+      "missing": 15,
       "partial": 0,
       "review": 0
     },
     "fields": {
       "total": 15660,
-      "translated": 9218,
-      "missing": 6442,
+      "translated": 9222,
+      "missing": 6438,
       "invariantFailures": 2394,
       "englishResiduals": 135,
       "imperialResiduals": 4
     },
-    "blockingIssues": 8998
+    "blockingIssues": 8995
   },
   "packs": [
     {
@@ -76741,44 +76741,28 @@
       "summary": {
         "documents": {
           "total": 320,
-          "translated": 80,
-          "missing": 1,
+          "translated": 81,
+          "missing": 0,
           "partial": 239,
           "review": 10
         },
         "folders": {
           "total": 11,
-          "translated": 9,
-          "missing": 2,
+          "translated": 11,
+          "missing": 0,
           "partial": 0,
           "review": 0
         },
         "fields": {
           "total": 2007,
-          "translated": 1711,
-          "missing": 296,
+          "translated": 1715,
+          "missing": 292,
           "invariantFailures": 406,
           "englishResiduals": 17,
           "imperialResiduals": 2
         }
       },
       "issues": [
-        {
-          "code": "missing-folder",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "5Si35RRLLaaoWvC3",
-          "name": "3rd Level",
-          "sourcePath": "spells/3rd-level/_folder.yml"
-        },
-        {
-          "code": "missing-folder",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "DQSeMEpnNmujkHlX",
-          "name": "Supplemental Items",
-          "sourcePath": "spells/supplemental-items/_folder.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
@@ -83675,14 +83659,6 @@
           "name": "Vicious Mockery",
           "fieldPath": "effects[imsGW3YRra9KF6iK].description",
           "sourcePath": "spells/cantrip/vicious-mockery.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "8cPlf8sC5j7O6mTv",
-          "name": "Conjured Flame Blade",
-          "sourcePath": "spells/supplemental-items/conjured-flame-blade.yml"
         }
       ]
     },
