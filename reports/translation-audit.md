@@ -12,12 +12,12 @@
 | monsters | 337 | 2 | 5 | 330 | 15 | 4810 | 5045 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
 | rules | 20 | 1 | 3 | 16 | 0 | 738 | 695 |
-| spells | 320 | 294 | 0 | 26 | 0 | 0 | 71 |
+| spells | 320 | 297 | 0 | 23 | 0 | 0 | 61 |
 | subclasses | 12 | 12 | 0 | 0 | 0 | 0 | 0 |
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 8349
+Total blocking issues: 8339
 
 ## Issues
 
@@ -8328,13 +8328,6 @@ Total blocking issues: 8349
 - **html-tag-sequence** `spells:E4NXux0RHvME1XgP:system.description.value`
 - **html-attributes** `spells:E4NXux0RHvME1XgP:system.description.value`
 - **foundry-reference-count** `spells:E4NXux0RHvME1XgP:system.description.value`
-- **html-tag-sequence** `spells:HBHbOGKNVVprSlwn:system.description.value`
-- **html-attributes** `spells:HBHbOGKNVVprSlwn:system.description.value`
-- **foundry-references** `spells:HBHbOGKNVVprSlwn:system.description.value`
-- **html-tag-sequence** `spells:ZRqu3Xh9FmlBCZGy:system.description.value`
-- **html-attributes** `spells:ZRqu3Xh9FmlBCZGy:system.description.value`
-- **foundry-inline-rolls** `spells:ZRqu3Xh9FmlBCZGy:system.description.value`
-- **foundry-data-references** `spells:ZRqu3Xh9FmlBCZGy:system.description.value`
 - **html-tag-sequence** `spells:yw0tYQkOMCgKZ8Ur:system.description.value`
 - **html-attributes** `spells:yw0tYQkOMCgKZ8Ur:system.description.value`
 - **foundry-reference-count** `spells:yw0tYQkOMCgKZ8Ur:system.description.value`
@@ -8346,9 +8339,6 @@ Total blocking issues: 8349
 - **html-tag-sequence** `spells:Y7uWUO4yqUN0JKl0:system.description.value`
 - **html-attributes** `spells:Y7uWUO4yqUN0JKl0:system.description.value`
 - **foundry-references** `spells:Y7uWUO4yqUN0JKl0:system.description.value`
-- **html-tag-sequence** `spells:J6Jpw5XzB5aTeqnz:system.description.value`
-- **html-attributes** `spells:J6Jpw5XzB5aTeqnz:system.description.value`
-- **foundry-reference-count** `spells:J6Jpw5XzB5aTeqnz:system.description.value`
 - **html-tag-sequence** `spells:eGMhwmuleAM46C6L:system.description.value`
 - **html-attributes** `spells:eGMhwmuleAM46C6L:system.description.value`
 - **html-tag-sequence** `spells:B2kbmgbA2WQR00kx:system.description.value`

@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1231,
+      "translated": 1234,
       "missing": 69,
-      "partial": 1091,
+      "partial": 1088,
       "review": 203
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 2059,
+      "invariantFailures": 2049,
       "englishResiduals": 118,
       "imperialResiduals": 2
     },
-    "blockingIssues": 8349
+    "blockingIssues": 8339
   },
   "packs": [
     {
@@ -76741,9 +76741,9 @@
       "summary": {
         "documents": {
           "total": 320,
-          "translated": 294,
+          "translated": 297,
           "missing": 0,
-          "partial": 26,
+          "partial": 23,
           "review": 0
         },
         "folders": {
@@ -76757,7 +76757,7 @@
           "total": 2007,
           "translated": 2007,
           "missing": 0,
-          "invariantFailures": 71,
+          "invariantFailures": 61,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
@@ -77058,76 +77058,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "spells",
-          "id": "HBHbOGKNVVprSlwn",
-          "fieldPath": "system.description.value",
-          "name": "Disintegrate",
-          "sourcePath": "spells/6th-level/disintegrate.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "HBHbOGKNVVprSlwn",
-          "fieldPath": "system.description.value",
-          "name": "Disintegrate",
-          "sourcePath": "spells/6th-level/disintegrate.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "spells",
-          "id": "HBHbOGKNVVprSlwn",
-          "fieldPath": "system.description.value",
-          "name": "Disintegrate",
-          "sourcePath": "spells/6th-level/disintegrate.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "ZRqu3Xh9FmlBCZGy",
-          "fieldPath": "system.description.value",
-          "name": "Eyebite",
-          "sourcePath": "spells/6th-level/eyebite.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "ZRqu3Xh9FmlBCZGy",
-          "fieldPath": "system.description.value",
-          "name": "Eyebite",
-          "sourcePath": "spells/6th-level/eyebite.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "spells",
-          "id": "ZRqu3Xh9FmlBCZGy",
-          "fieldPath": "system.description.value",
-          "name": "Eyebite",
-          "sourcePath": "spells/6th-level/eyebite.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "spells",
-          "id": "ZRqu3Xh9FmlBCZGy",
-          "fieldPath": "system.description.value",
-          "name": "Eyebite",
-          "sourcePath": "spells/6th-level/eyebite.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
           "id": "yw0tYQkOMCgKZ8Ur",
           "fieldPath": "system.description.value",
           "name": "Guards and Wards",
@@ -77232,36 +77162,6 @@
           "fieldPath": "system.description.value",
           "name": "Forcecage",
           "sourcePath": "spells/7th-level/forcecage.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "J6Jpw5XzB5aTeqnz",
-          "fieldPath": "system.description.value",
-          "name": "Plane Shift",
-          "sourcePath": "spells/7th-level/plane-shift.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "J6Jpw5XzB5aTeqnz",
-          "fieldPath": "system.description.value",
-          "name": "Plane Shift",
-          "sourcePath": "spells/7th-level/plane-shift.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "spells",
-          "id": "J6Jpw5XzB5aTeqnz",
-          "fieldPath": "system.description.value",
-          "name": "Plane Shift",
-          "sourcePath": "spells/7th-level/plane-shift.yml"
         },
         {
           "code": "html-tag-sequence",
