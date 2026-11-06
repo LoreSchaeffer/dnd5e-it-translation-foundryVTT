@@ -1735,6 +1735,14 @@
         },
         {
           "pack": "spells",
+          "id": "SgrEKiC6dAtvy6Pz",
+          "name": "Instant Summons",
+          "sourcePath": "spells/6th-level/instant-summons.yml",
+          "lookupKey": "Instant Summons",
+          "matchedLookupKey": "Instant Summons"
+        },
+        {
+          "pack": "spells",
           "id": "TfRzwEgBHHkCc6Ql",
           "name": "Irresistible Dance",
           "sourcePath": "spells/6th-level/irresistible-dance.yml",
@@ -1983,6 +1991,14 @@
         },
         {
           "pack": "spells",
+          "id": "hYCrN82dMJFuJODB",
+          "name": "Feeblemind",
+          "sourcePath": "spells/8th-level/feeblemind.yml",
+          "lookupKey": "Feeblemind",
+          "matchedLookupKey": "Feeblemind"
+        },
+        {
+          "pack": "spells",
           "id": "1RzxKZzkQOoioxPj",
           "name": "Glibness",
           "sourcePath": "spells/8th-level/glibness.yml",
@@ -2004,6 +2020,14 @@
           "sourcePath": "spells/8th-level/maze.yml",
           "lookupKey": "Maze",
           "matchedLookupKey": "Maze"
+        },
+        {
+          "pack": "spells",
+          "id": "bllEWfm9xfEKynhv",
+          "name": "Mind Blank",
+          "sourcePath": "spells/8th-level/mind-blank.yml",
+          "lookupKey": "Mind Blank",
+          "matchedLookupKey": "Mind Blank"
         },
         {
           "pack": "spells",
@@ -2780,41 +2804,6 @@
         },
         {
           "pack": "spells",
-          "id": "SgrEKiC6dAtvy6Pz",
-          "name": "Instant Summons",
-          "sourcePath": "spells/6th-level/instant-summons.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Instant Summons",
-          "matchedLookupKey": "Instant Summons",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "SgrEKiC6dAtvy6Pz",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "SgrEKiC6dAtvy6Pz",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-references",
-              "severity": "blocking",
-              "message": "Foundry reference targets or order differ from source",
-              "pack": "spells",
-              "id": "SgrEKiC6dAtvy6Pz",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
           "id": "ej6wyY4G1gOcb1U6",
           "name": "Magic Jar",
           "sourcePath": "spells/6th-level/magic-jar.yml",
@@ -3133,41 +3122,6 @@
         },
         {
           "pack": "spells",
-          "id": "hYCrN82dMJFuJODB",
-          "name": "Feeblemind",
-          "sourcePath": "spells/8th-level/feeblemind.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Feeblemind",
-          "matchedLookupKey": "Feeblemind",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "hYCrN82dMJFuJODB",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "hYCrN82dMJFuJODB",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-references",
-              "severity": "blocking",
-              "message": "Foundry reference targets or order differ from source",
-              "pack": "spells",
-              "id": "hYCrN82dMJFuJODB",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
           "id": "j8S49Rea8b1640Zi",
           "name": "Holy Aura",
           "sourcePath": "spells/8th-level/holy-aura.yml",
@@ -3197,41 +3151,6 @@
               "message": "Foundry reference count differs from source",
               "pack": "spells",
               "id": "j8S49Rea8b1640Zi",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "bllEWfm9xfEKynhv",
-          "name": "Mind Blank",
-          "sourcePath": "spells/8th-level/mind-blank.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Mind Blank",
-          "matchedLookupKey": "Mind Blank",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "bllEWfm9xfEKynhv",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "bllEWfm9xfEKynhv",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-references",
-              "severity": "blocking",
-              "message": "Foundry reference targets or order differ from source",
-              "pack": "spells",
-              "id": "bllEWfm9xfEKynhv",
               "fieldPath": "system.description.value"
             }
           ]
