@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 9300,
-      "missing": 6360,
+      "translated": 9320,
+      "missing": 6340,
       "invariantFailures": 2394,
       "englishResiduals": 135,
       "imperialResiduals": 4
     },
-    "blockingIssues": 8917
+    "blockingIssues": 8897
   },
   "packs": [
     {
@@ -76755,8 +76755,8 @@
         },
         "fields": {
           "total": 2007,
-          "translated": 1793,
-          "missing": 214,
+          "translated": 1813,
+          "missing": 194,
           "invariantFailures": 406,
           "englishResiduals": 17,
           "imperialResiduals": 2
@@ -81351,105 +81351,6 @@
           "sourcePath": "spells/7th-level/prismatic-spray.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "eGMhwmuleAM46C6L",
-          "name": "Prismatic Spray",
-          "fieldPath": "system.activities.WFNmU0MtjhWZKAYS.description.value",
-          "sourcePath": "spells/7th-level/prismatic-spray.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "eGMhwmuleAM46C6L",
-          "name": "Prismatic Spray",
-          "fieldPath": "system.activities.N8AK4vdXfbyS574t.description.value",
-          "sourcePath": "spells/7th-level/prismatic-spray.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "eGMhwmuleAM46C6L",
-          "name": "Prismatic Spray",
-          "fieldPath": "system.activities.tYusMXr4FdtALeTo.description.value",
-          "sourcePath": "spells/7th-level/prismatic-spray.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "eGMhwmuleAM46C6L",
-          "name": "Prismatic Spray",
-          "fieldPath": "system.activities.qCIXgNLao3xnZsje.description.value",
-          "sourcePath": "spells/7th-level/prismatic-spray.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "eGMhwmuleAM46C6L",
-          "name": "Prismatic Spray",
-          "fieldPath": "system.activities.fDlRH0y6EqJqjhgQ.description.value",
-          "sourcePath": "spells/7th-level/prismatic-spray.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "eGMhwmuleAM46C6L",
-          "name": "Prismatic Spray",
-          "fieldPath": "system.activities.KAF37jhizSZzcjhj.description.value",
-          "sourcePath": "spells/7th-level/prismatic-spray.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "eGMhwmuleAM46C6L",
-          "name": "Prismatic Spray",
-          "fieldPath": "system.activities.Hwrf7958jBf5s8rV.description.value",
-          "sourcePath": "spells/7th-level/prismatic-spray.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "eGMhwmuleAM46C6L",
-          "name": "Prismatic Spray",
-          "fieldPath": "effects[6bNxvdxYMSZK9N0A].description",
-          "sourcePath": "spells/7th-level/prismatic-spray.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "eGMhwmuleAM46C6L",
-          "name": "Prismatic Spray",
-          "fieldPath": "effects[Y5OA9lzI3tMHA3KF].description",
-          "sourcePath": "spells/7th-level/prismatic-spray.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "eGMhwmuleAM46C6L",
-          "name": "Prismatic Spray",
-          "fieldPath": "effects[KhVHkGeHijwInogC].description",
-          "sourcePath": "spells/7th-level/prismatic-spray.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "eGMhwmuleAM46C6L",
-          "name": "Prismatic Spray",
-          "fieldPath": "effects[fLn8u0YSR14RNskW].description",
-          "sourcePath": "spells/7th-level/prismatic-spray.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -82276,87 +82177,6 @@
           "id": "jmfu8zj4zjjzUbeh",
           "fieldPath": "system.description.value",
           "name": "Prismatic Wall",
-          "sourcePath": "spells/9th-level/prismatic-wall.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "jmfu8zj4zjjzUbeh",
-          "name": "Prismatic Wall",
-          "fieldPath": "system.activities.2mxODgVHMv4whsz4.description.value",
-          "sourcePath": "spells/9th-level/prismatic-wall.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "jmfu8zj4zjjzUbeh",
-          "name": "Prismatic Wall",
-          "fieldPath": "system.activities.J0jN52XDEqUqrLzx.description.value",
-          "sourcePath": "spells/9th-level/prismatic-wall.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "jmfu8zj4zjjzUbeh",
-          "name": "Prismatic Wall",
-          "fieldPath": "system.activities.y5530lakSgBAHAYL.description.value",
-          "sourcePath": "spells/9th-level/prismatic-wall.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "jmfu8zj4zjjzUbeh",
-          "name": "Prismatic Wall",
-          "fieldPath": "system.activities.P5fBPn8L9H0zlnYS.description.value",
-          "sourcePath": "spells/9th-level/prismatic-wall.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "jmfu8zj4zjjzUbeh",
-          "name": "Prismatic Wall",
-          "fieldPath": "system.activities.cVY0Q4go5GZhbuJz.description.value",
-          "sourcePath": "spells/9th-level/prismatic-wall.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "jmfu8zj4zjjzUbeh",
-          "name": "Prismatic Wall",
-          "fieldPath": "system.activities.bjsIQgJf23u7fslT.description.value",
-          "sourcePath": "spells/9th-level/prismatic-wall.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "jmfu8zj4zjjzUbeh",
-          "name": "Prismatic Wall",
-          "fieldPath": "system.activities.WTO4S69BzGKFrs8A.description.value",
-          "sourcePath": "spells/9th-level/prismatic-wall.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "jmfu8zj4zjjzUbeh",
-          "name": "Prismatic Wall",
-          "fieldPath": "effects[XnYc2CO3kl73Rxr9].description",
-          "sourcePath": "spells/9th-level/prismatic-wall.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "jmfu8zj4zjjzUbeh",
-          "name": "Prismatic Wall",
-          "fieldPath": "effects[0lcdF9sc0cBgnvBg].description",
           "sourcePath": "spells/9th-level/prismatic-wall.yml"
         },
         {

@@ -3510,43 +3510,68 @@
           "name": "Lancia"
         },
         "WFNmU0MtjhWZKAYS": {
-          "name": "1. Raggio Rosso"
+          "name": "1. Raggio Rosso",
+          "description": {
+            "value": "<p>La creatura subisce 10d6 danni da fuoco se fallisce il tiro salvezza, o la metà di quei danni se lo supera.</p>"
+          }
         },
         "N8AK4vdXfbyS574t": {
-          "name": "2. Raggio Arancione"
+          "name": "2. Raggio Arancione",
+          "description": {
+            "value": "<p>La creatura subisce 10d6 danni da acido se fallisce il tiro salvezza, o la metà di quei danni se lo supera.</p>"
+          }
         },
         "tYusMXr4FdtALeTo": {
-          "name": "3. Raggio Giallo"
+          "name": "3. Raggio Giallo",
+          "description": {
+            "value": "<p>La creatura subisce 10d6 danni da fulmine se fallisce il tiro salvezza, o la metà di quei danni se lo supera.</p>"
+          }
         },
         "qCIXgNLao3xnZsje": {
-          "name": "4. Raggio Verde"
+          "name": "4. Raggio Verde",
+          "description": {
+            "value": "<p>La creatura subisce 10d6 danni da veleno se fallisce il tiro salvezza, o la metà di quei danni se lo supera.</p>"
+          }
         },
         "fDlRH0y6EqJqjhgQ": {
-          "name": "5. Raggio Blu"
+          "name": "5. Raggio Blu",
+          "description": {
+            "value": "<p>La creatura subisce 10d6 danni da freddo se fallisce il tiro salvezza, o la metà di quei danni se lo supera.</p>"
+          }
         },
         "KAF37jhizSZzcjhj": {
-          "name": "6. Raggio Indaco"
+          "name": "6. Raggio Indaco",
+          "description": {
+            "value": "<p>Se fallisce il tiro salvezza, la creatura è &amp;reference[Restrained]. Deve poi effettuare un tiro salvezza su Costituzione alla fine di ogni suo turno. Se supera il tiro salvezza tre volte, l'incantesimo termina. Se lo fallisce tre volte, si trasforma permanentemente in pietra ed è soggetta alla condizione &amp;reference[Petrified]. I successi e i fallimenti non devono essere consecutivi; tieni traccia di entrambi finché la creatura non ne accumula tre dello stesso tipo.</p>"
+          }
         },
         "Hwrf7958jBf5s8rV": {
-          "name": "7. Raggio Violetto"
+          "name": "7. Raggio Violetto",
+          "description": {
+            "value": "<p>Se fallisce il tiro salvezza, la creatura è &amp;reference[Blinded]. Deve poi effettuare un tiro salvezza su Saggezza all'inizio del tuo turno successivo. Se lo supera, la cecità termina. Se fallisce quel tiro salvezza, la creatura viene trasportata su un altro piano scelto dal DM e non è più Accecata. (In genere, una creatura che si trova su un piano diverso dal proprio piano natale viene esiliata su quest'ultimo, mentre le altre creature sono solitamente scagliate nel Piano Astrale o nel Piano Etereo.)</p>"
+          }
         }
       },
       "effects": {
         "KhVHkGeHijwInogC": {
-          "name": "Tiro Salvezza contro Pietrificazione Fallito"
+          "name": "Tiro Salvezza contro Pietrificazione Fallito",
+          "description": "<p>Hai fallito un tiro salvezza contro il raggio Indaco. Se fallisci tre di questi tiri salvezza, sei &amp;reference[petrified].</p>"
         },
         "fLn8u0YSR14RNskW": {
-          "name": "Tiro Salvezza contro Pietrificazione Superato"
+          "name": "Tiro Salvezza contro Pietrificazione Superato",
+          "description": "<p>Hai superato un tiro salvezza contro il raggio Indaco.</p>"
         },
         "BXVaxwA9fG3a4YXW": {
           "name": "Cecità Violetta",
           "description": "<p>Sei &amp;reference[blinded apply=false]. All'inizio del tuo turno successivo devi effettuare un tiro salvezza su Saggezza. Se lo superi, la cecità termina. Se lo fallisci, vieni trasportato su un altro piano scelto dal DM e non sei più accecato.</p>"
         },
         "6bNxvdxYMSZK9N0A": {
-          "name": "Spruzzo Prismatico (indaco)"
+          "name": "Spruzzo Prismatico (indaco)",
+          "description": "<p>Il bersaglio è Trattenuto. Deve poi effettuare un tiro salvezza su Costituzione alla fine di ogni suo turno. Se supera il tiro salvezza tre volte, l'incantesimo termina. Se lo fallisce tre volte, si trasforma permanentemente in pietra ed è soggetto alla condizione Pietrificato.</p>"
         },
         "Y5OA9lzI3tMHA3KF": {
-          "name": "Spruzzo Prismatico (violetto)"
+          "name": "Spruzzo Prismatico (violetto)",
+          "description": "<p>Il bersaglio è Accecato. Deve poi effettuare un tiro salvezza su Saggezza all'inizio del turno successivo dell'incantatore. Se lo supera, la cecità termina. Se fallisce quel tiro salvezza, la creatura viene trasportata su un altro piano di esistenza e non è più Accecata.</p>"
         }
       }
     },
@@ -3561,33 +3586,56 @@
           "name": "Evoca Sfera Prismatica"
         },
         "2mxODgVHMv4whsz4": {
-          "name": "Parete Rossa"
+          "name": "Parete Rossa",
+          "description": {
+            "value": "<p>Quando una creatura tenta di protendersi oltre il muro o di attraversarlo, lo fa uno strato alla volta, passando attraverso tutti gli strati del muro. Mentre attraversa o si protende oltre ogni strato, la creatura deve effettuare un tiro salvezza su Destrezza, altrimenti subisce gli effetti delle proprietà di quello strato descritte di seguito.</p><h4>Muro Rosso</h4><p>La creatura subisce 10d6 danni da fuoco se fallisce il tiro salvezza, o la metà di quei danni se lo supera.</p>"
+          }
         },
         "J0jN52XDEqUqrLzx": {
-          "name": "Parete Arancione"
+          "name": "Parete Arancione",
+          "description": {
+            "value": "<p>Quando una creatura tenta di protendersi oltre il muro o di attraversarlo, lo fa uno strato alla volta, passando attraverso tutti gli strati del muro. Mentre attraversa o si protende oltre ogni strato, la creatura deve effettuare un tiro salvezza su Destrezza, altrimenti subisce gli effetti delle proprietà di quello strato descritte di seguito.</p><h4>Muro Arancione</h4><p>La creatura subisce 10d6 danni da acido se fallisce il tiro salvezza, o la metà di quei danni se lo supera.</p>"
+          }
         },
         "y5530lakSgBAHAYL": {
-          "name": "Parete Gialla"
+          "name": "Parete Gialla",
+          "description": {
+            "value": "<p>Quando una creatura tenta di protendersi oltre il muro o di attraversarlo, lo fa uno strato alla volta, passando attraverso tutti gli strati del muro. Mentre attraversa o si protende oltre ogni strato, la creatura deve effettuare un tiro salvezza su Destrezza, altrimenti subisce gli effetti delle proprietà di quello strato descritte di seguito.</p><h4>Muro Giallo</h4><p>La creatura subisce 10d6 danni da fulmine se fallisce il tiro salvezza, o la metà di quei danni se lo supera.</p>"
+          }
         },
         "P5fBPn8L9H0zlnYS": {
-          "name": "Parete Verde"
+          "name": "Parete Verde",
+          "description": {
+            "value": "<p>Quando una creatura tenta di protendersi oltre il muro o di attraversarlo, lo fa uno strato alla volta, passando attraverso tutti gli strati del muro. Mentre attraversa o si protende oltre ogni strato, la creatura deve effettuare un tiro salvezza su Destrezza, altrimenti subisce gli effetti delle proprietà di quello strato descritte di seguito.</p><h4>Muro Verde</h4><p>La creatura subisce 10d6 danni da veleno se fallisce il tiro salvezza, o la metà di quei danni se lo supera.</p>"
+          }
         },
         "cVY0Q4go5GZhbuJz": {
-          "name": "Parete Blu"
+          "name": "Parete Blu",
+          "description": {
+            "value": "<p>Quando una creatura tenta di protendersi oltre il muro o di attraversarlo, lo fa uno strato alla volta, passando attraverso tutti gli strati del muro. Mentre attraversa o si protende oltre ogni strato, la creatura deve effettuare un tiro salvezza su Destrezza, altrimenti subisce gli effetti delle proprietà di quello strato descritte di seguito.</p><h4>Muro Blu</h4><p>La creatura subisce 10d6 danni da freddo se fallisce il tiro salvezza, o la metà di quei danni se lo supera.</p>"
+          }
         },
         "bjsIQgJf23u7fslT": {
-          "name": "Parete Indaco"
+          "name": "Parete Indaco",
+          "description": {
+            "value": "<p>Quando una creatura tenta di protendersi oltre il muro o di attraversarlo, lo fa uno strato alla volta, passando attraverso tutti gli strati del muro. Mentre attraversa o si protende oltre ogni strato, la creatura deve effettuare un tiro salvezza su Destrezza, altrimenti subisce gli effetti delle proprietà di quello strato descritte di seguito.</p><h4>Muro Indaco</h4><p>Se fallisce il tiro salvezza, la creatura è &amp;reference[Restrained]. Deve poi effettuare un tiro salvezza su Costituzione alla fine di ogni suo turno. Se supera il tiro salvezza tre volte, l'incantesimo termina. Se lo fallisce tre volte, si trasforma permanentemente in pietra ed è soggetta alla condizione &amp;reference[Petrified]. I successi e i fallimenti non devono essere consecutivi; tieni traccia di entrambi finché la creatura non ne accumula tre dello stesso tipo.</p>"
+          }
         },
         "WTO4S69BzGKFrs8A": {
-          "name": "Parete Violetta"
+          "name": "Parete Violetta",
+          "description": {
+            "value": "<p>Quando una creatura tenta di protendersi oltre il muro o di attraversarlo, lo fa uno strato alla volta, passando attraverso tutti gli strati del muro. Mentre attraversa o si protende oltre ogni strato, la creatura deve effettuare un tiro salvezza su Destrezza, altrimenti subisce gli effetti delle proprietà di quello strato descritte di seguito.</p><h4>Muro Indaco</h4><p>Se fallisce il tiro salvezza, la creatura è &amp;reference[Blinded]. Deve poi effettuare un tiro salvezza su Saggezza all'inizio del tuo turno successivo. Se lo supera, la cecità termina. Se fallisce quel tiro salvezza, la creatura viene trasportata su un altro piano scelto dal DM e non è più Accecata. (In genere, una creatura che si trova su un piano diverso dal proprio piano natale viene esiliata su quest'ultimo, mentre le altre creature sono solitamente scagliate nel Piano Astrale o nel Piano Etereo.)</p>"
+          }
         }
       },
       "effects": {
         "XnYc2CO3kl73Rxr9": {
-          "name": "Tiro Salvezza contro Pietrificazione Fallito"
+          "name": "Tiro Salvezza contro Pietrificazione Fallito",
+          "description": "<p>Hai fallito un tiro salvezza contro il Muro Indaco. Se fallisci tre di questi tiri salvezza, sei &amp;reference[petrified].</p>"
         },
         "0lcdF9sc0cBgnvBg": {
-          "name": "Tiro Salvezza contro Pietrificazione Superato"
+          "name": "Tiro Salvezza contro Pietrificazione Superato",
+          "description": "<p>Hai superato un tiro salvezza contro il Muro Indaco.</p>"
         },
         "RyMdtaDljl9zha5P": {
           "name": "Cecità Violetta",
