@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1598,
+      "translated": 1603,
       "missing": 69,
-      "partial": 724,
+      "partial": 719,
       "review": 111
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 1380,
+      "invariantFailures": 1370,
       "englishResiduals": 113,
       "imperialResiduals": 2
     },
-    "blockingIssues": 7578
+    "blockingIssues": 7568
   },
   "packs": [
     {
@@ -5317,9 +5317,9 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 710,
+          "translated": 715,
           "missing": 0,
-          "partial": 175,
+          "partial": 170,
           "review": 41
         },
         "folders": {
@@ -5333,7 +5333,7 @@
           "total": 2227,
           "translated": 2227,
           "missing": 0,
-          "invariantFailures": 433,
+          "invariantFailures": 423,
           "englishResiduals": 41,
           "imperialResiduals": 2
         }
@@ -9118,106 +9118,6 @@
           "fieldPath": "system.description.value",
           "name": "Net",
           "sourcePath": "items/weapon/net.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "tFLmAPUDLxBY8jFO",
-          "fieldPath": "system.description.value",
-          "name": "Nine Lives Stealer Greatsword",
-          "sourcePath": "items/weapon/nine-lives-stealer-greatsword.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "tFLmAPUDLxBY8jFO",
-          "fieldPath": "system.description.value",
-          "name": "Nine Lives Stealer Greatsword",
-          "sourcePath": "items/weapon/nine-lives-stealer-greatsword.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "BefbYlWbRYyy6R8s",
-          "fieldPath": "system.description.value",
-          "name": "Nine Lives Stealer Longsword",
-          "sourcePath": "items/weapon/nine-lives-stealer-longsword.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "BefbYlWbRYyy6R8s",
-          "fieldPath": "system.description.value",
-          "name": "Nine Lives Stealer Longsword",
-          "sourcePath": "items/weapon/nine-lives-stealer-longsword.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "OUGMoQYeJzxEcRvm",
-          "fieldPath": "system.description.value",
-          "name": "Nine Lives Stealer Rapier",
-          "sourcePath": "items/weapon/nine-lives-stealer-rapier.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "OUGMoQYeJzxEcRvm",
-          "fieldPath": "system.description.value",
-          "name": "Nine Lives Stealer Rapier",
-          "sourcePath": "items/weapon/nine-lives-stealer-rapier.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "9Mdes2tKt0cqsNTw",
-          "fieldPath": "system.description.value",
-          "name": "Nine Lives Stealer Scimitar",
-          "sourcePath": "items/weapon/nine-lives-stealer-scimitar.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "9Mdes2tKt0cqsNTw",
-          "fieldPath": "system.description.value",
-          "name": "Nine Lives Stealer Scimitar",
-          "sourcePath": "items/weapon/nine-lives-stealer-scimitar.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "2Lkub0qIwucWEfp3",
-          "fieldPath": "system.description.value",
-          "name": "Nine Lives Stealer Shortsword",
-          "sourcePath": "items/weapon/nine-lives-stealer-shortsword.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "2Lkub0qIwucWEfp3",
-          "fieldPath": "system.description.value",
-          "name": "Nine Lives Stealer Shortsword",
-          "sourcePath": "items/weapon/nine-lives-stealer-shortsword.yml"
         },
         {
           "code": "html-tag-sequence",

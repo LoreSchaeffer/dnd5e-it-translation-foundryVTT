@@ -7,7 +7,7 @@
 | classfeatures | 235 | 235 | 0 | 0 | 0 | 0 | 0 |
 | effects | 214 | 214 | 0 | 0 | 0 | 0 | 0 |
 | heroes | 12 | 0 | 0 | 12 | 0 | 466 | 561 |
-| items | 885 | 710 | 0 | 175 | 0 | 0 | 524 |
+| items | 885 | 715 | 0 | 170 | 0 | 0 | 514 |
 | monsterfeatures | 252 | 0 | 61 | 191 | 0 | 132 | 753 |
 | monsters | 337 | 2 | 5 | 330 | 15 | 4810 | 5045 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
@@ -17,7 +17,7 @@
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 7578
+Total blocking issues: 7568
 
 ## Issues
 
@@ -959,16 +959,6 @@ Total blocking issues: 7578
 - **html-attributes** `items:iIuNqnpWCHrLEKWj:system.description.value`
 - **html-tag-sequence** `items:aEiM49V8vWpWw7rU:system.description.value`
 - **html-attributes** `items:aEiM49V8vWpWw7rU:system.description.value`
-- **html-tag-sequence** `items:tFLmAPUDLxBY8jFO:system.description.value`
-- **html-attributes** `items:tFLmAPUDLxBY8jFO:system.description.value`
-- **html-tag-sequence** `items:BefbYlWbRYyy6R8s:system.description.value`
-- **html-attributes** `items:BefbYlWbRYyy6R8s:system.description.value`
-- **html-tag-sequence** `items:OUGMoQYeJzxEcRvm:system.description.value`
-- **html-attributes** `items:OUGMoQYeJzxEcRvm:system.description.value`
-- **html-tag-sequence** `items:9Mdes2tKt0cqsNTw:system.description.value`
-- **html-attributes** `items:9Mdes2tKt0cqsNTw:system.description.value`
-- **html-tag-sequence** `items:2Lkub0qIwucWEfp3:system.description.value`
-- **html-attributes** `items:2Lkub0qIwucWEfp3:system.description.value`
 - **html-tag-sequence** `items:tC0kcqZT9HHAO0PD:system.description.value`
 - **html-attributes** `items:tC0kcqZT9HHAO0PD:system.description.value`
 - **html-tag-sequence** `items:g2dWN7PQiMRYWzyk:system.description.value`
