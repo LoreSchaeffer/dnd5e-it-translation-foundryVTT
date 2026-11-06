@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 955,
+      "translated": 962,
       "missing": 77,
-      "partial": 1359,
+      "partial": 1352,
       "review": 213
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 8936,
-      "missing": 6724,
+      "translated": 8943,
+      "missing": 6717,
       "invariantFailures": 2394,
       "englishResiduals": 135,
       "imperialResiduals": 4
     },
-    "blockingIssues": 9237
+    "blockingIssues": 9230
   },
   "packs": [
     {
@@ -5317,9 +5317,9 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 351,
+          "translated": 358,
           "missing": 0,
-          "partial": 534,
+          "partial": 527,
           "review": 133
         },
         "folders": {
@@ -5331,8 +5331,8 @@
         },
         "fields": {
           "total": 2227,
-          "translated": 2209,
-          "missing": 18,
+          "translated": 2216,
+          "missing": 11,
           "invariantFailures": 1041,
           "englishResiduals": 46,
           "imperialResiduals": 2
@@ -10212,15 +10212,6 @@
           "sourcePath": "items/rod/rod-of-alertness.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "rQ6sO7HDWzqMhSI3",
-          "name": "Spell Scroll Cantrip",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/scroll/spell-scroll-cantrip.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -11120,42 +11111,6 @@
           "sourcePath": "items/trinket/candle.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "XwqNHyox5OQQio8q",
-          "name": "Carpet of Flying (3x5)",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/trinket/carpet-of-flying-3x5.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "DeK9uQvNJj3JzFwe",
-          "name": "Carpet of Flying (4x6)",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/trinket/carpet-of-flying-4x6.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "XAr1SR4POx5BAArk",
-          "name": "Carpet of Flying (5x7)",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/trinket/carpet-of-flying-5x7.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "TjWk2mpNXjDdfIDM",
-          "name": "Carpet of Flying (6x9)",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/trinket/carpet-of-flying-6x9.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -11344,15 +11299,6 @@
           "fieldPath": "system.description.value",
           "name": "Dust of Sneezing and Choking",
           "sourcePath": "items/trinket/dust-of-sneezing-and-choking.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "fbcQsOgWCjhEAGY7",
-          "name": "Efreeti Bottle",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/trinket/efreeti-bottle.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -11760,15 +11706,6 @@
           "id": "trmWAdUoR6Y2B7rA",
           "name": "Hooded Lantern",
           "sourcePath": "items/trinket/hooded-lantern.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "2mvXGvDmHHhzbT04",
-          "name": "Horseshoes of a Zephyr",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/trinket/horseshoes-of-a-zephyr.yml"
         },
         {
           "code": "foundry-references",
