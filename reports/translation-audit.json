@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1648,
+      "translated": 1652,
       "missing": 69,
-      "partial": 674,
+      "partial": 670,
       "review": 111
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 1238,
+      "invariantFailures": 1226,
       "englishResiduals": 113,
       "imperialResiduals": 2
     },
-    "blockingIssues": 7436
+    "blockingIssues": 7424
   },
   "packs": [
     {
@@ -5317,9 +5317,9 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 760,
+          "translated": 764,
           "missing": 0,
-          "partial": 125,
+          "partial": 121,
           "review": 41
         },
         "folders": {
@@ -5333,7 +5333,7 @@
           "total": 2227,
           "translated": 2227,
           "missing": 0,
-          "invariantFailures": 291,
+          "invariantFailures": 279,
           "englishResiduals": 41,
           "imperialResiduals": 2
         }
@@ -6254,86 +6254,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "items",
-          "id": "L887NdWEP5NqHCrQ",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Greater Healing",
-          "sourcePath": "items/potion/potion-of-greater-healing.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "L887NdWEP5NqHCrQ",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Greater Healing",
-          "sourcePath": "items/potion/potion-of-greater-healing.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "items",
-          "id": "L887NdWEP5NqHCrQ",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Greater Healing",
-          "sourcePath": "items/potion/potion-of-greater-healing.yml"
-        },
-        {
-          "code": "foundry-formulas",
-          "severity": "blocking",
-          "message": "Foundry formulas differ from source",
-          "pack": "items",
-          "id": "L887NdWEP5NqHCrQ",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Greater Healing",
-          "sourcePath": "items/potion/potion-of-greater-healing.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "ytlsBjYsZ7OBSEBs",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Healing",
-          "sourcePath": "items/potion/potion-of-healing.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "ytlsBjYsZ7OBSEBs",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Healing",
-          "sourcePath": "items/potion/potion-of-healing.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "items",
-          "id": "ytlsBjYsZ7OBSEBs",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Healing",
-          "sourcePath": "items/potion/potion-of-healing.yml"
-        },
-        {
-          "code": "foundry-formulas",
-          "severity": "blocking",
-          "message": "Foundry formulas differ from source",
-          "pack": "items",
-          "id": "ytlsBjYsZ7OBSEBs",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Healing",
-          "sourcePath": "items/potion/potion-of-healing.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
           "id": "wNKYbKYwOHbA7SH8",
           "fieldPath": "system.description.value",
           "name": "Potion of Heroism",
@@ -6468,46 +6388,6 @@
           "fieldPath": "system.description.value",
           "name": "Potion of Speed",
           "sourcePath": "items/potion/potion-of-speed.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "items",
-          "id": "5m9ErO9In8Uc5yyf",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Superior Healing",
-          "sourcePath": "items/potion/potion-of-superior-healing.yml"
-        },
-        {
-          "code": "foundry-formulas",
-          "severity": "blocking",
-          "message": "Foundry formulas differ from source",
-          "pack": "items",
-          "id": "5m9ErO9In8Uc5yyf",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Superior Healing",
-          "sourcePath": "items/potion/potion-of-superior-healing.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "items",
-          "id": "JFiSlgcm3uSSBM5t",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Supreme Healing",
-          "sourcePath": "items/potion/potion-of-supreme-healing.yml"
-        },
-        {
-          "code": "foundry-formulas",
-          "severity": "blocking",
-          "message": "Foundry formulas differ from source",
-          "pack": "items",
-          "id": "JFiSlgcm3uSSBM5t",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Supreme Healing",
-          "sourcePath": "items/potion/potion-of-supreme-healing.yml"
         },
         {
           "code": "html-tag-sequence",

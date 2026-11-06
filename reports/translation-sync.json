@@ -2687,11 +2687,27 @@
         },
         {
           "pack": "items",
+          "id": "L887NdWEP5NqHCrQ",
+          "name": "Potion of Greater Healing",
+          "sourcePath": "items/potion/potion-of-greater-healing.yml",
+          "lookupKey": "Potion of Greater Healing",
+          "matchedLookupKey": "Potion of Greater Healing"
+        },
+        {
+          "pack": "items",
           "id": "gTRFQLdVD1gsKtPi",
           "name": "Potion of Growth",
           "sourcePath": "items/potion/potion-of-growth.yml",
           "lookupKey": "Potion of Growth",
           "matchedLookupKey": "Potion of Growth"
+        },
+        {
+          "pack": "items",
+          "id": "ytlsBjYsZ7OBSEBs",
+          "name": "Potion of Healing",
+          "sourcePath": "items/potion/potion-of-healing.yml",
+          "lookupKey": "Potion of Healing",
+          "matchedLookupKey": "Potion of Healing"
         },
         {
           "pack": "items",
@@ -2764,6 +2780,22 @@
           "sourcePath": "items/potion/potion-of-storm-giant-strength.yml",
           "lookupKey": "Potion of Storm Giant Strength",
           "matchedLookupKey": "Potion of Storm Giant Strength"
+        },
+        {
+          "pack": "items",
+          "id": "5m9ErO9In8Uc5yyf",
+          "name": "Potion of Superior Healing",
+          "sourcePath": "items/potion/potion-of-superior-healing.yml",
+          "lookupKey": "Potion of Superior Healing",
+          "matchedLookupKey": "Potion of Superior Healing"
+        },
+        {
+          "pack": "items",
+          "id": "JFiSlgcm3uSSBM5t",
+          "name": "Potion of Supreme Healing",
+          "sourcePath": "items/potion/potion-of-supreme-healing.yml",
+          "lookupKey": "Potion of Supreme Healing",
+          "matchedLookupKey": "Potion of Supreme Healing"
         },
         {
           "pack": "items",
@@ -7441,92 +7473,6 @@
         },
         {
           "pack": "items",
-          "id": "L887NdWEP5NqHCrQ",
-          "name": "Potion of Greater Healing",
-          "sourcePath": "items/potion/potion-of-greater-healing.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Potion of Greater Healing",
-          "matchedLookupKey": "Potion of Greater Healing",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "L887NdWEP5NqHCrQ",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "L887NdWEP5NqHCrQ",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "L887NdWEP5NqHCrQ",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-formulas",
-              "severity": "blocking",
-              "message": "Foundry formulas differ from source",
-              "pack": "items",
-              "id": "L887NdWEP5NqHCrQ",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "ytlsBjYsZ7OBSEBs",
-          "name": "Potion of Healing",
-          "sourcePath": "items/potion/potion-of-healing.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Potion of Healing",
-          "matchedLookupKey": "Potion of Healing",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "ytlsBjYsZ7OBSEBs",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "ytlsBjYsZ7OBSEBs",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "ytlsBjYsZ7OBSEBs",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-formulas",
-              "severity": "blocking",
-              "message": "Foundry formulas differ from source",
-              "pack": "items",
-              "id": "ytlsBjYsZ7OBSEBs",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
           "id": "wNKYbKYwOHbA7SH8",
           "name": "Potion of Heroism",
           "sourcePath": "items/potion/potion-of-heroism.yml",
@@ -7666,60 +7612,6 @@
               "message": "Foundry data references differ from source",
               "pack": "items",
               "id": "ctKfjHjk9gs9UtZI",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "5m9ErO9In8Uc5yyf",
-          "name": "Potion of Superior Healing",
-          "sourcePath": "items/potion/potion-of-superior-healing.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Potion of Superior Healing",
-          "matchedLookupKey": "Potion of Superior Healing",
-          "diagnostics": [
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "5m9ErO9In8Uc5yyf",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-formulas",
-              "severity": "blocking",
-              "message": "Foundry formulas differ from source",
-              "pack": "items",
-              "id": "5m9ErO9In8Uc5yyf",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "JFiSlgcm3uSSBM5t",
-          "name": "Potion of Supreme Healing",
-          "sourcePath": "items/potion/potion-of-supreme-healing.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Potion of Supreme Healing",
-          "matchedLookupKey": "Potion of Supreme Healing",
-          "diagnostics": [
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "JFiSlgcm3uSSBM5t",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-formulas",
-              "severity": "blocking",
-              "message": "Foundry formulas differ from source",
-              "pack": "items",
-              "id": "JFiSlgcm3uSSBM5t",
               "fieldPath": "system.description.value"
             }
           ]
