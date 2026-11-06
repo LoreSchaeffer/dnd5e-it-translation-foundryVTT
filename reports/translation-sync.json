@@ -4399,6 +4399,14 @@
         },
         {
           "pack": "items",
+          "id": "tWJLHIL6ZIZUez9k",
+          "name": "Manacles",
+          "sourcePath": "items/trinket/manacles.yml",
+          "lookupKey": "Manacles",
+          "matchedLookupKey": "Manacles"
+        },
+        {
+          "pack": "items",
           "id": "BjyTJn9oGvURWKJR",
           "name": "Manual of Bodily Health",
           "sourcePath": "items/trinket/manual-of-bodily-health.yml",
@@ -7475,41 +7483,6 @@
               "message": "Foundry formulas differ from source",
               "pack": "items",
               "id": "qVuZznv0MnIjDU70",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "tWJLHIL6ZIZUez9k",
-          "name": "Manacles",
-          "sourcePath": "items/trinket/manacles.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Manacles",
-          "matchedLookupKey": "Manacles",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "tWJLHIL6ZIZUez9k",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "tWJLHIL6ZIZUez9k",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "tWJLHIL6ZIZUez9k",
               "fieldPath": "system.description.value"
             }
           ]

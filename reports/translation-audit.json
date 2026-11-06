@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1755,
+      "translated": 1756,
       "missing": 69,
-      "partial": 567,
+      "partial": 566,
       "review": 70
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 1014,
+      "invariantFailures": 1011,
       "englishResiduals": 72,
       "imperialResiduals": 0
     },
-    "blockingIssues": 7169
+    "blockingIssues": 7166
   },
   "packs": [
     {
@@ -5317,9 +5317,9 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 867,
+          "translated": 868,
           "missing": 0,
-          "partial": 18,
+          "partial": 17,
           "review": 0
         },
         "folders": {
@@ -5333,7 +5333,7 @@
           "total": 2227,
           "translated": 2227,
           "missing": 0,
-          "invariantFailures": 67,
+          "invariantFailures": 64,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
@@ -5828,36 +5828,6 @@
           "fieldPath": "system.description.value",
           "name": "Iron Horn of Valhalla",
           "sourcePath": "items/trinket/iron-horn-of-valhalla.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "tWJLHIL6ZIZUez9k",
-          "fieldPath": "system.description.value",
-          "name": "Manacles",
-          "sourcePath": "items/trinket/manacles.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "tWJLHIL6ZIZUez9k",
-          "fieldPath": "system.description.value",
-          "name": "Manacles",
-          "sourcePath": "items/trinket/manacles.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "items",
-          "id": "tWJLHIL6ZIZUez9k",
-          "fieldPath": "system.description.value",
-          "name": "Manacles",
-          "sourcePath": "items/trinket/manacles.yml"
         },
         {
           "code": "html-tag-sequence",
