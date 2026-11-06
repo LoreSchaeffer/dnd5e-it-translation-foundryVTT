@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1699,
+      "translated": 1700,
       "missing": 69,
-      "partial": 623,
+      "partial": 622,
       "review": 109
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 1065,
+      "invariantFailures": 1059,
       "englishResiduals": 111,
       "imperialResiduals": 2
     },
-    "blockingIssues": 7261
+    "blockingIssues": 7255
   },
   "packs": [
     {
@@ -5317,9 +5317,9 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 811,
+          "translated": 812,
           "missing": 0,
-          "partial": 74,
+          "partial": 73,
           "review": 39
         },
         "folders": {
@@ -5333,7 +5333,7 @@
           "total": 2227,
           "translated": 2227,
           "missing": 0,
-          "invariantFailures": 118,
+          "invariantFailures": 112,
           "englishResiduals": 39,
           "imperialResiduals": 2
         }
@@ -6122,66 +6122,6 @@
           "fieldPath": "system.description.value",
           "name": "Talisman of the Sphere",
           "sourcePath": "items/trinket/talisman-of-the-sphere.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "lPsueMv4ZoXqCYf9",
-          "fieldPath": "system.description.value",
-          "name": "Wand of Wonder",
-          "sourcePath": "items/wand/wand-of-wonder.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "lPsueMv4ZoXqCYf9",
-          "fieldPath": "system.description.value",
-          "name": "Wand of Wonder",
-          "sourcePath": "items/wand/wand-of-wonder.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "items",
-          "id": "lPsueMv4ZoXqCYf9",
-          "fieldPath": "system.description.value",
-          "name": "Wand of Wonder",
-          "sourcePath": "items/wand/wand-of-wonder.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "items",
-          "id": "lPsueMv4ZoXqCYf9",
-          "fieldPath": "system.description.value",
-          "name": "Wand of Wonder",
-          "sourcePath": "items/wand/wand-of-wonder.yml"
-        },
-        {
-          "code": "foundry-formulas",
-          "severity": "blocking",
-          "message": "Foundry formulas differ from source",
-          "pack": "items",
-          "id": "lPsueMv4ZoXqCYf9",
-          "fieldPath": "system.description.value",
-          "name": "Wand of Wonder",
-          "sourcePath": "items/wand/wand-of-wonder.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "items",
-          "id": "lPsueMv4ZoXqCYf9",
-          "fieldPath": "system.description.value",
-          "name": "Wand of Wonder",
-          "sourcePath": "items/wand/wand-of-wonder.yml"
         },
         {
           "code": "html-tag-sequence",

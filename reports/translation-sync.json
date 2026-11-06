@@ -4703,6 +4703,14 @@
         },
         {
           "pack": "items",
+          "id": "lPsueMv4ZoXqCYf9",
+          "name": "Wand of Wonder",
+          "sourcePath": "items/wand/wand-of-wonder.yml",
+          "lookupKey": "Wand of Wonder",
+          "matchedLookupKey": "Wand of Wonder"
+        },
+        {
+          "pack": "items",
           "id": "UAXu4MNvAvaKz9JO",
           "name": "Battleaxe +1",
           "sourcePath": "items/weapon/battleaxe-1.yml",
@@ -7630,65 +7638,6 @@
               "message": "Foundry data references differ from source",
               "pack": "items",
               "id": "46ikeR4RrSim6DsN",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "lPsueMv4ZoXqCYf9",
-          "name": "Wand of Wonder",
-          "sourcePath": "items/wand/wand-of-wonder.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Wand of Wonder",
-          "matchedLookupKey": "Wand of Wonder",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "lPsueMv4ZoXqCYf9",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "lPsueMv4ZoXqCYf9",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "items",
-              "id": "lPsueMv4ZoXqCYf9",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "lPsueMv4ZoXqCYf9",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-formulas",
-              "severity": "blocking",
-              "message": "Foundry formulas differ from source",
-              "pack": "items",
-              "id": "lPsueMv4ZoXqCYf9",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-data-references",
-              "severity": "blocking",
-              "message": "Foundry data references differ from source",
-              "pack": "items",
-              "id": "lPsueMv4ZoXqCYf9",
               "fieldPath": "system.description.value"
             }
           ]
