@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1198,
+      "translated": 1201,
       "missing": 69,
-      "partial": 1124,
+      "partial": 1121,
       "review": 203
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 2146,
+      "invariantFailures": 2140,
       "englishResiduals": 118,
       "imperialResiduals": 2
     },
-    "blockingIssues": 8436
+    "blockingIssues": 8430
   },
   "packs": [
     {
@@ -76741,9 +76741,9 @@
       "summary": {
         "documents": {
           "total": 320,
-          "translated": 261,
+          "translated": 264,
           "missing": 0,
-          "partial": 59,
+          "partial": 56,
           "review": 0
         },
         "folders": {
@@ -76757,7 +76757,7 @@
           "total": 2007,
           "translated": 2007,
           "missing": 0,
-          "invariantFailures": 158,
+          "invariantFailures": 152,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
@@ -77238,26 +77238,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "spells",
-          "id": "13uVuBQP6VaiSPvC",
-          "fieldPath": "system.description.value",
-          "name": "Water Breathing",
-          "sourcePath": "spells/3rd-level/water-breathing.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "13uVuBQP6VaiSPvC",
-          "fieldPath": "system.description.value",
-          "name": "Water Breathing",
-          "sourcePath": "spells/3rd-level/water-breathing.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
           "id": "DGONTFbk5eORs5qv",
           "fieldPath": "system.description.value",
           "name": "Black Tentacles",
@@ -77498,26 +77478,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "spells",
-          "id": "dp6xny4v8PDoIGjh",
-          "fieldPath": "system.description.value",
-          "name": "Commune with Nature",
-          "sourcePath": "spells/5th-level/commune-with-nature.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "dp6xny4v8PDoIGjh",
-          "fieldPath": "system.description.value",
-          "name": "Commune with Nature",
-          "sourcePath": "spells/5th-level/commune-with-nature.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
           "id": "lnaGnxMzpYnbw1uU",
           "fieldPath": "system.description.value",
           "name": "Creation",
@@ -78322,26 +78282,6 @@
           "fieldPath": "system.description.value",
           "name": "Wish",
           "sourcePath": "spells/9th-level/wish.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "oIzA2MEHwxhtQneU",
-          "fieldPath": "system.description.value",
-          "name": "Minor Illusion",
-          "sourcePath": "spells/cantrip/minor-illusion.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "oIzA2MEHwxhtQneU",
-          "fieldPath": "system.description.value",
-          "name": "Minor Illusion",
-          "sourcePath": "spells/cantrip/minor-illusion.yml"
         }
       ]
     },

@@ -12,12 +12,12 @@
 | monsters | 337 | 2 | 5 | 330 | 15 | 4810 | 5045 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
 | rules | 20 | 1 | 3 | 16 | 0 | 738 | 695 |
-| spells | 320 | 261 | 0 | 59 | 0 | 0 | 158 |
+| spells | 320 | 264 | 0 | 56 | 0 | 0 | 152 |
 | subclasses | 12 | 12 | 0 | 0 | 0 | 0 | 0 |
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 8436
+Total blocking issues: 8430
 
 ## Issues
 
@@ -8346,8 +8346,6 @@ Total blocking issues: 8436
 - **html-tag-sequence** `spells:2VXGS206tuChoeXy:system.description.value`
 - **html-attributes** `spells:2VXGS206tuChoeXy:system.description.value`
 - **foundry-reference-count** `spells:2VXGS206tuChoeXy:system.description.value`
-- **html-tag-sequence** `spells:13uVuBQP6VaiSPvC:system.description.value`
-- **html-attributes** `spells:13uVuBQP6VaiSPvC:system.description.value`
 - **html-tag-sequence** `spells:DGONTFbk5eORs5qv:system.description.value`
 - **html-attributes** `spells:DGONTFbk5eORs5qv:system.description.value`
 - **html-tag-sequence** `spells:9hQXdMSmerkTsHDe:system.description.value`
@@ -8372,8 +8370,6 @@ Total blocking issues: 8436
 - **html-tag-sequence** `spells:MCEpGpvovcXagwQS:system.description.value`
 - **html-attributes** `spells:MCEpGpvovcXagwQS:system.description.value`
 - **foundry-reference-count** `spells:MCEpGpvovcXagwQS:system.description.value`
-- **html-tag-sequence** `spells:dp6xny4v8PDoIGjh:system.description.value`
-- **html-attributes** `spells:dp6xny4v8PDoIGjh:system.description.value`
 - **html-tag-sequence** `spells:lnaGnxMzpYnbw1uU:system.description.value`
 - **html-attributes** `spells:lnaGnxMzpYnbw1uU:system.description.value`
 - **html-tag-sequence** `spells:JQyigMNPiDnGI18b:system.description.value`
@@ -8455,5 +8451,3 @@ Total blocking issues: 8436
 - **html-tag-sequence** `spells:3okM6Gn63zzEULkz:system.description.value`
 - **html-attributes** `spells:3okM6Gn63zzEULkz:system.description.value`
 - **foundry-reference-count** `spells:3okM6Gn63zzEULkz:system.description.value`
-- **html-tag-sequence** `spells:oIzA2MEHwxhtQneU:system.description.value`
-- **html-attributes** `spells:oIzA2MEHwxhtQneU:system.description.value`

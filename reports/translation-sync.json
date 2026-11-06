@@ -1007,6 +1007,14 @@
         },
         {
           "pack": "spells",
+          "id": "13uVuBQP6VaiSPvC",
+          "name": "Water Breathing",
+          "sourcePath": "spells/3rd-level/water-breathing.yml",
+          "lookupKey": "Water Breathing",
+          "matchedLookupKey": "Water Breathing"
+        },
+        {
+          "pack": "spells",
           "id": "YBda6nLKjxdT1LbS",
           "name": "Water Walk",
           "sourcePath": "spells/3rd-level/water-walk.yml",
@@ -1228,6 +1236,14 @@
           "sourcePath": "spells/5th-level/cloudkill.yml",
           "lookupKey": "Cloudkill",
           "matchedLookupKey": "Cloudkill"
+        },
+        {
+          "pack": "spells",
+          "id": "dp6xny4v8PDoIGjh",
+          "name": "Commune with Nature",
+          "sourcePath": "spells/5th-level/commune-with-nature.yml",
+          "lookupKey": "Commune with Nature",
+          "matchedLookupKey": "Commune with Nature"
         },
         {
           "pack": "spells",
@@ -1991,6 +2007,14 @@
         },
         {
           "pack": "spells",
+          "id": "oIzA2MEHwxhtQneU",
+          "name": "Minor Illusion",
+          "sourcePath": "spells/cantrip/minor-illusion.yml",
+          "lookupKey": "Minor Illusion",
+          "matchedLookupKey": "Minor Illusion"
+        },
+        {
+          "pack": "spells",
           "id": "g2u9PYfqWQAyg9OI",
           "name": "Poison Spray",
           "sourcePath": "spells/cantrip/poison-spray.yml",
@@ -2661,33 +2685,6 @@
         },
         {
           "pack": "spells",
-          "id": "13uVuBQP6VaiSPvC",
-          "name": "Water Breathing",
-          "sourcePath": "spells/3rd-level/water-breathing.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Water Breathing",
-          "matchedLookupKey": "Water Breathing",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "13uVuBQP6VaiSPvC",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "13uVuBQP6VaiSPvC",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
           "id": "DGONTFbk5eORs5qv",
           "name": "Black Tentacles",
           "sourcePath": "spells/4th-level/black-tentacles.yml",
@@ -2984,33 +2981,6 @@
               "message": "Foundry reference count differs from source",
               "pack": "spells",
               "id": "MCEpGpvovcXagwQS",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "dp6xny4v8PDoIGjh",
-          "name": "Commune with Nature",
-          "sourcePath": "spells/5th-level/commune-with-nature.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Commune with Nature",
-          "matchedLookupKey": "Commune with Nature",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "dp6xny4v8PDoIGjh",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "dp6xny4v8PDoIGjh",
               "fieldPath": "system.description.value"
             }
           ]
@@ -3978,33 +3948,6 @@
               "message": "Foundry reference count differs from source",
               "pack": "spells",
               "id": "3okM6Gn63zzEULkz",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "oIzA2MEHwxhtQneU",
-          "name": "Minor Illusion",
-          "sourcePath": "spells/cantrip/minor-illusion.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Minor Illusion",
-          "matchedLookupKey": "Minor Illusion",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "oIzA2MEHwxhtQneU",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "oIzA2MEHwxhtQneU",
               "fieldPath": "system.description.value"
             }
           ]
