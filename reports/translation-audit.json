@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1044,
+      "translated": 1055,
       "missing": 69,
-      "partial": 1278,
+      "partial": 1267,
       "review": 213
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 9440,
-      "missing": 6220,
+      "translated": 9460,
+      "missing": 6200,
       "invariantFailures": 2394,
       "englishResiduals": 135,
       "imperialResiduals": 4
     },
-    "blockingIssues": 8777
+    "blockingIssues": 8757
   },
   "packs": [
     {
@@ -76741,9 +76741,9 @@
       "summary": {
         "documents": {
           "total": 320,
-          "translated": 107,
+          "translated": 118,
           "missing": 0,
-          "partial": 213,
+          "partial": 202,
           "review": 10
         },
         "folders": {
@@ -76755,8 +76755,8 @@
         },
         "fields": {
           "total": 2007,
-          "translated": 1933,
-          "missing": 74,
+          "translated": 1953,
+          "missing": 54,
           "invariantFailures": 406,
           "englishResiduals": 17,
           "imperialResiduals": 2
@@ -77420,42 +77420,6 @@
           "sourcePath": "spells/2nd-level/blindness-deafness.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "3MYDjS6k9IYL0aTj",
-          "name": "Calm Emotions",
-          "fieldPath": "effects[GgT59J1pn49xUaJW].description",
-          "sourcePath": "spells/2nd-level/calm-emotions.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "hJ6ZiA3fpoY8v9cp",
-          "name": "Darkvision",
-          "fieldPath": "effects[9qaZQFN5xP8Gig8f].description",
-          "sourcePath": "spells/2nd-level/darkvision.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "30ZgXtijJVCxQk5N",
-          "name": "Enthrall",
-          "fieldPath": "effects[sGKbaTfegKKF0zmV].description",
-          "sourcePath": "spells/2nd-level/enthrall.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "5eh2HFbS13078Y3H",
-          "name": "Find Steed",
-          "fieldPath": "effects[QAbEeDGXCby1oGvV].description",
-          "sourcePath": "spells/2nd-level/find-steed.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -77484,15 +77448,6 @@
           "fieldPath": "system.description.value",
           "name": "Find Traps",
           "sourcePath": "spells/2nd-level/find-traps.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "n4JDcFKe5ikzYmAc",
-          "name": "Gentle Repose",
-          "fieldPath": "effects[1gNoHqJuC8LJbPaB].description",
-          "sourcePath": "spells/2nd-level/gentle-repose.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -77555,15 +77510,6 @@
           "sourcePath": "spells/2nd-level/invisibility.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "1N8dDMMgZ1h1YJ3B",
-          "name": "Invisibility",
-          "fieldPath": "effects[TeFxBRKYKIXtg6pS].description",
-          "sourcePath": "spells/2nd-level/invisibility.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -77611,15 +77557,6 @@
           "id": "MRxldJd6C4bsBo3O",
           "fieldPath": "system.description.value",
           "name": "Levitate",
-          "sourcePath": "spells/2nd-level/levitate.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "MRxldJd6C4bsBo3O",
-          "name": "Levitate",
-          "fieldPath": "effects[pEY6ZwxlbDrRPp6h].description",
           "sourcePath": "spells/2nd-level/levitate.yml"
         },
         {
@@ -77693,15 +77630,6 @@
           "sourcePath": "spells/2nd-level/mirror-image.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "X4c8xCkmF8U9HUMz",
-          "name": "Mirror Image",
-          "fieldPath": "system.activities.rQbzIAnDXYbVe48y.description.value",
-          "sourcePath": "spells/2nd-level/mirror-image.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -77779,15 +77707,6 @@
           "id": "MAxM77CDUu8dgIRQ",
           "fieldPath": "system.description.value",
           "name": "Protection from Poison",
-          "sourcePath": "spells/2nd-level/protection-from-poison.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "MAxM77CDUu8dgIRQ",
-          "name": "Protection from Poison",
-          "fieldPath": "effects[dNSELIYDQMBopj0Z].description",
           "sourcePath": "spells/2nd-level/protection-from-poison.yml"
         },
         {
@@ -78052,15 +77971,6 @@
           "sourcePath": "spells/2nd-level/warding-bond.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "JVhKeanAXZH62DrF",
-          "name": "Warding Bond",
-          "fieldPath": "effects[32YeLueknbdTmm6Y].description",
-          "sourcePath": "spells/2nd-level/warding-bond.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -78078,15 +77988,6 @@
           "id": "UJJu9c2UvCzVljiP",
           "fieldPath": "system.description.value",
           "name": "Web",
-          "sourcePath": "spells/2nd-level/web.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "UJJu9c2UvCzVljiP",
-          "name": "Web",
-          "fieldPath": "effects[CLGFGD5YmLil8lUi].description",
           "sourcePath": "spells/2nd-level/web.yml"
         },
         {
@@ -78108,15 +78009,6 @@
           "fieldPath": "system.description.value",
           "name": "Zone of Truth",
           "sourcePath": "spells/2nd-level/zone-of-truth.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "ZU9d6woBdUP8pIPt",
-          "name": "Beacon of Hope",
-          "fieldPath": "effects[rTmKyD87PuzUBGpJ].description",
-          "sourcePath": "spells/3rd-level/beacon-of-hope.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -78149,24 +78041,6 @@
           "sourcePath": "spells/3rd-level/bestow-curse.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "GSvLWcdCZLQkilXT",
-          "name": "Blink",
-          "fieldPath": "effects[KfxYKxbFoCe5HJYS].description",
-          "sourcePath": "spells/3rd-level/blink.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "1Drt0SHxbEAHxprN",
-          "name": "Conjure Animals",
-          "fieldPath": "effects[sfKQeT5HoeUFiaBj].description",
-          "sourcePath": "spells/3rd-level/conjure-animals.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -78185,24 +78059,6 @@
           "fieldPath": "system.description.value",
           "name": "Dispel Magic",
           "sourcePath": "spells/3rd-level/dispel-magic.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "XXUDGFELgoskdOD0",
-          "name": "Fear",
-          "fieldPath": "effects[4QpReACTSQTg2KTw].description",
-          "sourcePath": "spells/3rd-level/fear.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "yfbK8gZqESlaoY5t",
-          "name": "Fly",
-          "fieldPath": "effects[QscuTnvFFOf6QfJp].description",
-          "sourcePath": "spells/3rd-level/fly.yml"
         },
         {
           "code": "unchanged-english",
@@ -78227,15 +78083,6 @@
           "sourcePath": "spells/3rd-level/gaseous-form.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "2IWiZAJtOGDoKjiz",
-          "name": "Gaseous Form",
-          "fieldPath": "effects[gICakgyAi1hrs8ug].description",
-          "sourcePath": "spells/3rd-level/gaseous-form.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -78254,15 +78101,6 @@
           "fieldPath": "system.description.value",
           "name": "Glyph of Warding",
           "sourcePath": "spells/3rd-level/glyph-of-warding.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "6g3WLOZ2u0EbaLAd",
-          "name": "Hypnotic Pattern",
-          "fieldPath": "effects[SQnfuD2rHVcyLZ4j].description",
-          "sourcePath": "spells/3rd-level/hypnotic-pattern.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -78362,15 +78200,6 @@
           "id": "64uo4fHriHLjRUrX",
           "fieldPath": "system.description.value",
           "name": "Meld into Stone",
-          "sourcePath": "spells/3rd-level/meld-into-stone.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "64uo4fHriHLjRUrX",
-          "name": "Meld into Stone",
-          "fieldPath": "effects[Zhqc0y1xVkLsYkgs].description",
           "sourcePath": "spells/3rd-level/meld-into-stone.yml"
         },
         {
@@ -78411,15 +78240,6 @@
           "id": "wpx42mtoZ5BmXRs1",
           "fieldPath": "system.description.value",
           "name": "Phantom Steed",
-          "sourcePath": "spells/3rd-level/phantom-steed.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "wpx42mtoZ5BmXRs1",
-          "name": "Phantom Steed",
-          "fieldPath": "effects[IWucom1RuaY1MUMM].description",
           "sourcePath": "spells/3rd-level/phantom-steed.yml"
         },
         {

@@ -463,7 +463,8 @@
       },
       "effects": {
         "rTmKyD87PuzUBGpJ": {
-          "name": "Speranzoso"
+          "name": "Speranzoso",
+          "description": "<p>Disponi di vantaggio ai tiri salvezza su Saggezza e ai Tiri Salvezza contro Morte e recuperi il massimo numero di Punti Ferita possibile da qualsiasi guarigione.</p>"
         }
       }
     },
@@ -605,7 +606,8 @@
       },
       "effects": {
         "KfxYKxbFoCe5HJYS": {
-          "name": "Traslato nel Piano Etereo"
+          "name": "Traslato nel Piano Etereo",
+          "description": "<p>Sei svanito nel Piano Etereo fino all'inizio del tuo turno successivo.</p><p>Finché ti trovi sul Piano Etereo, puoi vedere e udire il piano da cui provieni, che appare in tonalità di grigio, e non puoi vedere nulla che si trovi a più di 18 metri da te. Puoi influenzare ed essere influenzato soltanto dalle altre creature sul Piano Etereo. Le creature che non vi si trovano non possono percepirti né interagire con te, a meno che non possiedano la capacità di farlo.</p>"
         }
       }
     },
@@ -712,7 +714,8 @@
           "description": "<p>Ogni effetto che ti rende &amp;reference[charmed apply=false] o &amp;reference[frightened apply=false] è soppresso. Quando questo incantesimo termina, ogni effetto soppresso riprende, purché nel frattempo la sua durata non sia terminata.</p>"
         },
         "GgT59J1pn49xUaJW": {
-          "name": "Indifferente"
+          "name": "Indifferente",
+          "description": "<p>Sei stato reso indifferente nei confronti delle creature scelte dall'incantatore verso cui eri ostile. Questa indifferenza termina se vieni attaccato o danneggiato da un incantesimo oppure se assisti al ferimento di uno dei tuoi amici. Quando l'incantesimo termina, torni ostile, a meno che il DM non decida diversamente.</p>"
         }
       }
     },
@@ -921,7 +924,8 @@
       "description": "<p>L'incantatore evoca spiriti fatati che prendono la forma di animali ed appaiono in uno spazio non occupato che egli possa vedere entro gittata. Sceglie una delle seguenti opzioni per decidere cosa appare:</p><ul><li>Una creatura con grado sfida 2 o inferiore</li><li>Due creature con grado sfida 1 o inferiore</li><li>Quattro creature con grado sfida 1/2 o inferiore</li><li>Otto creature con grado sfida 1/4 o inferiore</li><li>Ogni bestia è considerata anche come Essere Fatato e scompare quando finisce a 0 punti ferita o quando finisce l'incantesimo. Le creature evocate sono amichevoli nei confronti dell'incantatore e dei suoi alleati. L'incantatore tira per l'iniziativa delle creature evocate come gruppo, che ha i propri turni. Le creature evocate obbediscono ai comandi verbali impartiti dall'incantatore (nessuna azione richiesta). Se l'incantatore non impartisce un comando, le creature evocate si difendono da eventuali altre creature ostili, ma altrimenti non intraprendono alcuna azione.</li></ul><p>Il DM possiede le statistiche delle creature.</p><p><strong>Ai Livelli Superiori.</strong>&nbsp;Quando l'incantatore lancia questo incantesimo utilizzando determinati slot incantesimo di livello superiore, sceglie una delle opzioni di evocazione precedenti ed appare un numero maggiore di creature: il doppio utilizzando uno slot di 5° livello, il triplo utilizzando uno slot di 7° livello e il quadruplo utilizzando uno slot di 9° livello.</p>",
       "effects": {
         "sfKQeT5HoeUFiaBj": {
-          "name": "Animale Evocato"
+          "name": "Animale Evocato",
+          "description": "<p>Sei stato evocato dall'incantesimo @UUID[Compendium.dnd5e.spells.Item.1Drt0SHxbEAHxprN]{Evoca Animali}.</p>"
         }
       }
     },
@@ -1300,7 +1304,8 @@
       "materials": "un pizzico di carota essiccata o un'agata",
       "effects": {
         "9qaZQFN5xP8Gig8f": {
-          "name": "Scurovisione"
+          "name": "Scurovisione",
+          "description": "<p>Possiedi &amp;reference[darkvision] entro una gittata di 18 metri per la durata di questo incantesimo.</p>"
         }
       },
       "activities": {
@@ -1789,7 +1794,8 @@
       },
       "effects": {
         "sGKbaTfegKKF0zmV": {
-          "name": "Affascinato"
+          "name": "Affascinato",
+          "description": "<p>Disponi di svantaggio alle prove di Saggezza (Percezione) effettuate per percepire qualsiasi creatura diversa dall'incantatore finché l'incantesimo non termina o finché non puoi più udire l'incantatore. L'incantesimo termina se l'incantatore è &amp;reference[Incapacitated apply=false] o non può più parlare.</p>"
         }
       }
     },
@@ -1904,7 +1910,8 @@
       "materials": "una piuma bianca o un cuore di pollo",
       "effects": {
         "4QpReACTSQTg2KTw": {
-          "name": "Paura"
+          "name": "Paura",
+          "description": "<p>Lasci cadere qualsiasi cosa tu stia impugnando e diventi &amp;reference[Frightened apply=false] per la durata. Finché sei Spaventato da questo incantesimo, in ogni tuo turno devi effettuare l'azione &amp;reference[Dash] e allontanarti dall'incantatore seguendo il percorso disponibile più sicuro, a meno che tu non abbia un luogo verso cui muoverti.</p>"
         }
       },
       "activities": {
@@ -1974,7 +1981,8 @@
       },
       "effects": {
         "QAbEeDGXCby1oGvV": {
-          "name": "Cavalcatura Evocata"
+          "name": "Cavalcatura Evocata",
+          "description": "<p>Sei stato evocato dall'incantesimo @UUID[Compendium.dnd5e.spells.Item.5eh2HFbS13078Y3H]{Trova Cavalcatura}. Il tuo punteggio di Intelligenza diventa 6 se era pari o inferiore a 5 e ottieni la capacità di comprendere un linguaggio scelto dal tuo evocatore. Puoi inoltre comunicare telepaticamente con il tuo evocatore finché vi trovate entro 1,5 km l'uno dall'altro.</p>"
         }
       }
     },
@@ -2190,7 +2198,8 @@
       "materials": "la piuma dell'ala di un qualsiasi uccello",
       "effects": {
         "QscuTnvFFOf6QfJp": {
-          "name": "Volare"
+          "name": "Volare",
+          "description": "<p>Ottieni una velocità di volare di 18 metri per la Durata di questo incantesimo. Quando l'incantesimo termina, cadi se sei ancora in volo, a meno che tu non possa arrestare la caduta.</p>"
         }
       },
       "activities": {
@@ -2277,7 +2286,8 @@
       "materials": "A bit of gauze and a wisp of smoke",
       "effects": {
         "gICakgyAi1hrs8ug": {
-          "name": "Forma Gassosa"
+          "name": "Forma Gassosa",
+          "description": "<p>Sei stato trasformato, assieme a tutto ciò che indossi e trasporti, in una nube vaporosa per la durata. L'incantesimo termina se scendi a 0 punti ferita.</p><p>Finché rimani in questa forma, il tuo unico metodo di movimento è una velocità di volare di 3 metri. Puoi entrare e occupare lo spazio di un'altra creatura. Possiedi resistenza ai danni non magici e disponi di vantaggio ai tiri salvezza su Forza, Destrezza e Costituzione. Puoi attraversare piccoli fori, aperture strette e perfino semplici fessure, ma consideri i liquidi come superfici solide. Non puoi cadere e rimani sospeso in aria anche quando sei &amp;reference[stunned apply=false] o altrimenti &amp;reference[incapacitated apply=false].</p><p>Finché sei in forma di nube vaporosa, non puoi parlare né manipolare oggetti e gli oggetti che trasportavi o impugnavi non possono essere lasciati cadere, usati o altrimenti manipolati. Non puoi attaccare né lanciare incantesimi.</p>"
         }
       },
       "activities": {
@@ -2319,7 +2329,8 @@
       "materials": "del sale e del rame sugli occhi del cadavere",
       "effects": {
         "1gNoHqJuC8LJbPaB": {
-          "name": "Riposo Inviolato"
+          "name": "Riposo Inviolato",
+          "description": "<p>Sei protetto dalla decomposizione e non puoi diventare non morto. Questo incantesimo estende inoltre di fatto il limite di tempo entro cui puoi essere riportato in vita, poiché i giorni trascorsi sotto l'influenza di questo incantesimo non contano ai fini del limite di tempo di incantesimi come @UUID[Compendium.dnd5e.spells.Item.AGFMPAmuzwWO6Dfz]{Rianimare Morti}.</p>"
         }
       },
       "activities": {
@@ -2733,7 +2744,8 @@
       "materials": "un bastoncino d'incenso acceso o una fiala di cristallo riempita di materiale fosforescente",
       "effects": {
         "SQnfuD2rHVcyLZ4j": {
-          "name": "Trama Ipnotica"
+          "name": "Trama Ipnotica",
+          "description": "<p>Sei &amp;reference[charmed apply=false] per la durata. Finché sei affascinato da questo incantesimo, sei anche &amp;reference[incapcitated apply=false] e possiedi una velocità pari a 0.</p>"
         }
       },
       "activities": {
@@ -2862,7 +2874,8 @@
       "materials": "un ciglio in uno strato di resina",
       "effects": {
         "TeFxBRKYKIXtg6pS": {
-          "name": "Invisibilità"
+          "name": "Invisibilità",
+          "description": "<p>Diventi &amp;reference[Invisible apply=false] finché l'incantesimo non termina. Tutto ciò che indossi o trasporti è invisibile finché rimane sulla tua persona. L'incantesimo termina per te quando attacchi o lanci un incantesimo.</p>"
         }
       }
     },
@@ -2938,7 +2951,8 @@
       },
       "effects": {
         "pEY6ZwxlbDrRPp6h": {
-          "name": "Levitante"
+          "name": "Levitante",
+          "description": "<p>Stai levitando. Puoi muoverti soltanto spingendo o tirando contro un oggetto o una superficie fissa entro la tua portata (come una parete o un soffitto), cosa che ti consente di muoverti come se stessi scalando. Nel proprio turno l'incantatore può cambiare la tua altitudine fino a 6 metri in entrambe le direzioni. Se sei l'incantatore, puoi salire o scendere come parte del tuo movimento.</p>"
         }
       }
     },
@@ -3243,7 +3257,8 @@
       },
       "effects": {
         "Zhqc0y1xVkLsYkgs": {
-          "name": "Fuso nella Pietra"
+          "name": "Fuso nella Pietra",
+          "description": "<p>Sei entrato in un oggetto o una superficie di pietra abbastanza grande da contenere completamente il tuo corpo, fondendo te stesso e tutto l'Equipaggiamento che trasporti con la pietra per la Durata. Nessuna traccia della tua presenza rimane visibile o altrimenti individuabile dai Sensi non magici.</p><p>Finché sei fuso con la pietra, non puoi vedere ciò che accade all'esterno e tutte le prove di Saggezza (Percezione) effettuate per udire suoni all'esterno sono effettuate con svantaggio. Rimani consapevole del trascorrere del tempo e puoi lanciare Incantesimi su te stesso mentre sei fuso nella pietra. Puoi usare il tuo Movimento per uscire dalla pietra nel punto in cui vi sei entrato, terminando l'incantesimo. Altrimenti non puoi muoverti.</p><p>I danni fisici minori alla pietra non ti danneggiano, ma la sua distruzione parziale o un cambiamento della sua forma (tale da non poterti più contenere) ti espelle e ti infligge 6d6 danni contundenti. La distruzione completa della pietra (o la sua Trasmutazione in una sostanza diversa) ti espelle e ti infligge [[/damage 50 bludgeoning]] danni. Se vieni espulso, cadi &amp;reference[prone] nello spazio libero più vicino al punto in cui sei entrato inizialmente.</p>"
         }
       }
     },
@@ -3324,6 +3339,9 @@
           "name": "Intercettazione di Immagine Speculare",
           "roll": {
             "name": "Tiro per Distruggere Immagine Speculare"
+          },
+          "description": {
+            "value": "<p>Ogni volta che una creatura ti bersaglia con un attacco durante la durata dell'incantesimo, tira 1d20 per determinare se l'attacco bersaglia invece uno dei tuoi duplicati.</p><p>Se possiedi tre duplicati, devi ottenere 6 o più per cambiare il bersaglio dell'attacco in un duplicato. Con due duplicati devi ottenere 8 o più. Con un duplicato devi ottenere 11 o più.</p><h4><strong>Numero di Immagini Speculari:</strong> [[lookup @flags.world.mirror-image]]{0}</h4>"
           }
         }
       },
@@ -3493,7 +3511,8 @@
       "description": "<p data-parsoid=\"{&quot;dsr&quot;:[0,27,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,27,2,2]}\">Illusione di 3° livello</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[28,129,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[28,60,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[29,52,3,3]}\">Tempo di lancio:&nbsp;</strong>1 minuto</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[61,84,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[62,77,3,3]}\">Gittata:&nbsp;</strong>9 metri</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[85,108,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[86,104,3,3]}\">Componenti:&nbsp;</strong>V, S</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[109,129,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[110,124,3,3]}\">Durata:&nbsp;</strong>1 ora</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[130,266,0,0]}\">Una creatura Grande, simile a un cavallo e quasi reale, appare sul terreno in uno spazio libero a scelta dell'incantatore entro gittata.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[268,376,0,0]}\">L'incantatore può scegliere l'aspetto della creatura, che deve però essere dotata di sella, morso e briglie.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[378,507,0,0]}\">Tutto l'equipaggiamento creato dall'incantesimo svanisce in uno sbuffo di fumo se trasportato a più di 3 metri dalla cavalcatura.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[509,610,0,0]}\">Per la durata dell'incantesimo, l'incantatore o una creatura a sua scelta può cavalcare il destriero.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[612,756,0,0]}\">La creatura usa le statistiche di un cavallo da galoppo, ma ha una velocità di 30 metri e può percorrere 15 km in un'ora o 20 km a passo veloce.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[758,874,0,0]}\">Quando l'incantesimo termina, la cavalcatura svanisce gradualmente, concedendo al cavalcatore 1 minuto per smontare.</p>\n<p>&nbsp;</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[876,981,0,0]}\">L'incantesimo termina se l'incantatore usa un'azione per interromperlo o se la cavalcatura subisce danni.</p>",
       "effects": {
         "IWucom1RuaY1MUMM": {
-          "name": "Destriero Fantomatico"
+          "name": "Destriero Fantomatico",
+          "description": "<p>Possiedi una velocità di 30 metri e puoi percorrere 15 km in un'ora, o 19,5 km a passo veloce. Quando l'incantesimo termina, svanisci gradualmente, lasciando al cavaliere 1 minuto per smontare.</p><p>L'incantesimo termina se il tuo evocatore usa un'azione per congedarti o se subisci danni.</p>"
         }
       },
       "activities": {
@@ -3885,7 +3904,8 @@
       "description": "<p data-parsoid=\"{&quot;dsr&quot;:[0,29,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,29,2,2]}\">Abiurazione di 2° livello</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[30,63,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[30,63,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[32,55,3,3]}\">Tempo di lancio:&nbsp;</strong>1 azione</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[65,90,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[65,90,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[67,82,3,3]}\">Gittata:&nbsp;</strong>contatto</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[92,116,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[92,116,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[94,112,3,3]}\">Componenti:&nbsp;</strong>V, S</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[118,139,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[118,139,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[120,134,3,3]}\">Durata:&nbsp;</strong>1 ora</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[140,372,0,0]}\">L'incantatore tocca una creatura, se quella creatura è avvelenata il veleno è neutralizzato. Se il bersaglio è afflitto da più veleni, l'incantatore neutralizza un veleno di cui conosce la presenza, oppure ne neutralizza uno a caso.</p>\n<p>&nbsp;</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[374,518,0,0]}\">Per la durata dell'incantesimo, il bersaglio dispone di vantaggio ai tiri salvezza per non essere avvelenato e di resistenza ai danni da veleno.</p>",
       "effects": {
         "dNSELIYDQMBopj0Z": {
-          "name": "Protezione dai Veleni"
+          "name": "Protezione dai Veleni",
+          "description": "<p>Disponi di vantaggio ai tiri salvezza contro l'essere &amp;reference[poisoned apply=false] e possiedi resistenza ai danni da veleno.</p>"
         }
       },
       "activities": {
@@ -5036,7 +5056,8 @@
       "materials": "un paio di anelli di platino del valore di 50 mo, che l’incantatore e il bersaglio devono portare per tutta la durata dell’incantesimo",
       "effects": {
         "32YeLueknbdTmm6Y": {
-          "name": "Vincolo di Interdizione"
+          "name": "Vincolo di Interdizione",
+          "description": "<p>Ottieni un bonus di +1 alla CA e ai tiri salvezza e possiedi resistenza a tutti i danni. Inoltre, ogni volta che subisci danni, l'incantatore subisce lo stesso ammontare di danni. L'incantesimo termina se l'incantatore scende a 0 punti ferita o se tu e l'incantatore vi allontanate di oltre 18 metri l'uno dall'altro. Termina anche se l'incantesimo viene lanciato di nuovo su di te o sull'incantatore.</p>"
         }
       },
       "activities": {
@@ -5093,7 +5114,8 @@
       },
       "effects": {
         "CLGFGD5YmLil8lUi": {
-          "name": "Trattenuto nelle Ragnatele"
+          "name": "Trattenuto nelle Ragnatele",
+          "description": "<p>Sei &amp;reference[restrained apply=false] nelle ragnatele finché non ti liberi. Puoi usare la tua azione per effettuare una prova di Forza contro la CD del tiro salvezza dell'incantesimo dell'incantatore. Se la superi, non sei più Trattenuto.</p>"
         }
       }
     },
