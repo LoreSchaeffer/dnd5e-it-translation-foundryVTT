@@ -33,7 +33,7 @@ async function main() {
     const document = JSON.parse(await readFile(targetPath, "utf8"));
     document.mapping = {
       ...(document.mapping ?? {}),
-      activities: { path: "system.activities", converter: "structured", cardinality: "many", container: "object", key: "_id", mapping: { name: "name", chatFlavor: "description.chatFlavor" } }
+      activities: { path: "system.activities", converter: "structured", cardinality: "many", container: "keyed", key: "_id", mapping: { name: "name", chatFlavor: "description.chatFlavor" } }
     };
 
     for (const [id, fields] of Object.entries(overrides[pack] ?? {})) {

@@ -21,7 +21,7 @@
       "path": "system.activities",
       "converter": "structured",
       "cardinality": "many",
-      "container": "object",
+      "container": "keyed",
       "key": "_id",
       "mapping": {
         "name": "name",
@@ -43,7 +43,7 @@
       "path": "system.unidentified",
       "converter": "structured",
       "cardinality": "one",
-      "container": "object",
+      "container": "keyed",
       "mapping": {
         "name": "name",
         "description": "description"

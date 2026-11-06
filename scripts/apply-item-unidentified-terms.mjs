@@ -25,7 +25,7 @@ async function main() {
       path: "system.unidentified",
       converter: "structured",
       cardinality: "one",
-      container: "object",
+      container: "keyed",
       mapping: { name: "name", description: "description" }
     }
   };

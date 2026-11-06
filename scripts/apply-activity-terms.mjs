@@ -37,7 +37,7 @@ async function main() {
         path: "system.activities",
         converter: "structured",
         cardinality: "many",
-        container: "object",
+        container: "keyed",
         key: "_id",
         mapping: { name: "name", chatFlavor: "description.chatFlavor" }
       }

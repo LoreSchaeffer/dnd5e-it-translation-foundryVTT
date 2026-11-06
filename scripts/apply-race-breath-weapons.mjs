@@ -15,7 +15,7 @@ async function main() {
   const document = JSON.parse(await readFile(targetPath, "utf8"));
   document.mapping = {
     ...(document.mapping ?? {}),
-    activities: { path: "system.activities", converter: "structured", cardinality: "many", container: "object", key: "_id", mapping: { name: "name" } }
+    activities: { path: "system.activities", converter: "structured", cardinality: "many", container: "keyed", key: "_id", mapping: { name: "name" } }
   };
   let count = 0;
   for (const record of records.filter(item => item.kind === "document")) {
