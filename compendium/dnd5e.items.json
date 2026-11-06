@@ -5003,7 +5003,8 @@
           "name": "Avvelenato"
         }
       },
-      "name": "Sangue dell'Assassino"
+      "name": "Sangue dell'Assassino",
+      "description": "<p>Una creatura soggetta a questo veleno deve effettuare un tiro salvezza [[/save]]. Se lo fallisce, subisce [[/damage average]] danni ed è &amp;Reference[poisoned apply=false]{avvelenata} per 24 ore. Se lo supera, subisce la metà dei danni e non è avvelenata.</p>"
     },
     "rT5Hhe7uISNTZK18": {
       "_id": "rT5Hhe7uISNTZK18",
@@ -5015,7 +5016,8 @@
           "name": "Avvelenato e Privo di Sensi"
         }
       },
-      "name": "Veleno Drow"
+      "name": "Veleno Drow",
+      "description": "<p>Questo veleno viene solitamente prodotto soltanto dai drow e solo in un luogo molto lontano dalla luce solare. Una creatura soggetta a questo veleno deve superare un tiro salvezza [[/save]], altrimenti è &amp;Reference[poisoned apply=false]{avvelenata} per 1 ora. Se fallisce il tiro salvezza di 5 o più, mentre è avvelenata in questo modo la creatura è anche &amp;Reference[unconscious apply=false]{priva di sensi}. La creatura si sveglia se subisce danni o se un'altra creatura usa un'azione per scuoterla e svegliarla.</p>"
     },
     "hmzXexBpLXFhmzEu": {
       "_id": "hmzXexBpLXFhmzEu",
@@ -5024,11 +5026,13 @@
           "name": "Avvelenato"
         }
       },
-      "name": "Tintura Pallida"
+      "name": "Tintura Pallida",
+      "description": "<p>Una creatura soggetta a questo veleno deve superare un tiro salvezza [[/save]], altrimenti subisce [[/damage average]] danni e diventa &amp;Reference[poisoned apply=false]{avvelenata}. La creatura avvelenata deve ripetere il tiro salvezza ogni 24 ore e subisce [[/damage average]] danni se lo fallisce. Finché questo veleno non termina, i danni che infligge non possono essere curati in alcun modo. Dopo sette tiri salvezza superati, l'effetto termina e la creatura può guarire normalmente.</p>"
     },
     "GsuvwoekKZatfKwF": {
       "_id": "GsuvwoekKZatfKwF",
-      "name": "Colpo Senz'Armi"
+      "name": "Colpo Senz'Armi",
+      "description": "<p>Un pugno, un calcio, una testata o un altro colpo violento simile (nessuno dei quali conta come arma). Se colpisce, un colpo senz'armi infligge danni contundenti pari a 1 + il tuo modificatore di Forza. Sei competente nei tuoi colpi senz'armi.</p>"
     },
     "f4w4GxBi0nYXmhX4": {
       "_id": "f4w4GxBi0nYXmhX4",
@@ -5057,7 +5061,8 @@
           "name": "Usa Strumenti"
         }
       },
-      "name": "Kit per Camuffarsi"
+      "name": "Kit per Camuffarsi",
+      "description": "<p>Questa borsa di cosmetici, tinture per capelli e piccoli accessori ti permette di creare camuffamenti che cambiano il tuo aspetto fisico. La competenza in questo kit ti permette di aggiungere il tuo bonus di competenza a qualsiasi prova di caratteristica effettuata per creare un camuffamento visivo.</p>"
     },
     "QXmaarJ4X8P0C1HV": {
       "_id": "QXmaarJ4X8P0C1HV",
@@ -5066,7 +5071,8 @@
           "name": "Esplosione"
         }
       },
-      "name": "Corda di Canapa (15 m)"
+      "name": "Corda di Canapa (15 m)",
+      "description": "<p>Una corda, che sia fatta di canapa o di seta, possiede 2 punti ferita e può essere spezzata con una prova di Forza con CD 17.</p>"
     },
     "9HhPykgxpzgHjfak": {
       "_id": "9HhPykgxpzgHjfak",
@@ -5075,7 +5081,8 @@
           "name": "Avvelenato e Privo di Sensi"
         }
       },
-      "name": "Essenza di Etere"
+      "name": "Essenza di Etere",
+      "description": "<p>Una creatura soggetta a questo veleno deve superare un tiro salvezza [[/save]], altrimenti diventa &amp;Reference[poisoned apply=false]{avvelenata} per 8 ore. La creatura avvelenata è &amp;Reference[unconscious apply=false]{priva di sensi}. La creatura si sveglia se subisce danni o se un'altra creatura usa un'azione per scuoterla e svegliarla.</p>"
     },
     "0R4VzaAY99facLlm": {
       "_id": "0R4VzaAY99facLlm",
@@ -5084,7 +5091,8 @@
           "name": "Avvelenato e Privo di Sensi"
         }
       },
-      "name": "Olio di Taggit"
+      "name": "Olio di Taggit",
+      "description": "<p>Una creatura soggetta a questo veleno deve superare un tiro salvezza [[/save]], altrimenti diventa &amp;Reference[poisoned apply=false]{avvelenata} per 24 ore. La creatura avvelenata è &amp;Reference[unconscious apply=false]{priva di sensi}. La creatura si sveglia se subisce danni.</p>"
     },
     "rQ6sO7HDWzqMhSI3": {
       "_id": "rQ6sO7HDWzqMhSI3",
@@ -5096,27 +5104,33 @@
     },
     "3c7JXOzsv55gqJS5": {
       "_id": "3c7JXOzsv55gqJS5",
-      "name": "Freccia"
+      "name": "Freccia",
+      "description": "<p>Munizione standard usata con archi di ogni tipo. Queste normali frecce sono composte da aste lisce di legno, impennaggio di piume d'oca e punte metalliche martellate.</p>"
     },
     "TmfaFUSZJAotndn9": {
       "_id": "TmfaFUSZJAotndn9",
-      "name": "Bisacce"
+      "name": "Bisacce",
+      "description": "<p>Una serie di contenitori, solitamente disposti in coppia, collegati da una cinghia di cuoio e fissati alla sella di una cavalcatura.</p>"
     },
     "8l7M3zeqrU2vkA5h": {
       "_id": "8l7M3zeqrU2vkA5h",
-      "name": "Morso e Briglie"
+      "name": "Morso e Briglie",
+      "description": "<p>Un componente dei finimenti di un cavallo, indossato sulla testa e collegato alle redini. È composto da diverse cinghie di cuoio regolabili, anelli metallici di collegamento e un'imboccatura chiamata “morso” o “filetto”, realizzata in corda, osso, corno o un'altra sostanza dura come bronzo, acciaio, nichel o legno.</p>"
     },
     "4932CLHvjZYxOm4g": {
       "_id": "4932CLHvjZYxOm4g",
-      "name": "Sella Esotica"
+      "name": "Sella Esotica",
+      "description": "<p>Un tipo di sedile fissato al dorso di una cavalcatura, progettato per sostenere il cavaliere e assicurare parte dei finimenti della cavalcatura, come le staffe.<br /><br />Una sella esotica è necessaria per cavalcare qualsiasi cavalcatura acquatica o volante.</p>"
     },
     "ecz2fVDyAg8YgJGe": {
       "_id": "ecz2fVDyAg8YgJGe",
-      "name": "Sella da Soma"
+      "name": "Sella da Soma",
+      "description": "<p>Un tipo di sedile fissato al dorso di una cavalcatura, progettato per sostenere il cavaliere e assicurare parte dei finimenti della cavalcatura, come le staffe. Questo tipo di sella è adatto alle cavalcature da soma.</p>"
     },
     "N0in6FE8DQdZrHei": {
       "_id": "N0in6FE8DQdZrHei",
-      "name": "Sella da Cavalcatura"
+      "name": "Sella da Cavalcatura",
+      "description": "<p>Un tipo di sedile fissato al dorso di una cavalcatura, progettato per sostenere il cavaliere e assicurare parte dei finimenti della cavalcatura, come le staffe. Questo tipo di sella è adatto alle cavalcature da sella.</p>"
     },
     "Ij6x7481ch3Z0rff": {
       "_id": "Ij6x7481ch3Z0rff",
@@ -5132,7 +5146,8 @@
         "699G3YGOfe67nPbM": {
           "name": "Tiro Salvezza (Successivo)"
         }
-      }
+      },
+      "description": "<p>Una creatura soggetta a questo veleno deve superare un tiro salvezza [[/save]], altrimenti subisce [[/damage average]] danni e deve ripetere il tiro salvezza all'inizio di ogni suo turno. A ogni successivo tiro salvezza fallito, il personaggio subisce [[/damage average activity=699G3YGOfe67nPbM]] danni. Dopo tre tiri salvezza superati, il veleno termina.</p>"
     },
     "B018Yhz1M7Np8JCW": {
       "_id": "B018Yhz1M7Np8JCW",
@@ -5141,7 +5156,8 @@
         "nczzAQLDBNlAgWjq": {
           "name": "Avvelenato e Paralizzato"
         }
-      }
+      },
+      "description": "<p>Questo veleno deve essere estratto da un verme strisciante morto o incapacitato. Una creatura soggetta a questo veleno deve superare un tiro salvezza [[/save]], altrimenti è &amp;Reference[poisoned apply=false]{avvelenata} per 1 minuto. La creatura avvelenata è &amp;Reference[paralyzed apply=false]{paralizzata}. La creatura può ripetere il tiro salvezza alla fine di ogni suo turno; se lo supera, l'effetto termina su di essa.</p>"
     },
     "nxGKQlAdf0TMUKNa": {
       "_id": "nxGKQlAdf0TMUKNa",
@@ -5150,19 +5166,23 @@
         "F00Q1raXGiNoOKoB": {
           "name": "Avvelenato e Accecato"
         }
-      }
+      },
+      "description": "<p>Una creatura soggetta a questo veleno deve superare un tiro salvezza [[/save]], altrimenti diventa &amp;Reference[poisoned apply=false]{avvelenata} per 1 ora. La creatura avvelenata è &amp;Reference[blinded apply=false]{accecata}.</p>"
     },
     "9YyfarjYlV1QXvGi": {
       "_id": "9YyfarjYlV1QXvGi",
-      "name": "Lacrime di Mezzanotte"
+      "name": "Lacrime di Mezzanotte",
+      "description": "<p>Una creatura che ingerisce questo veleno non subisce alcun effetto fino allo scoccare della mezzanotte. Se il veleno non è stato neutralizzato prima di allora, la creatura deve superare un tiro salvezza [[/save]]: se lo fallisce, subisce [[/damage average]] danni; se lo supera, subisce la metà di quei danni.</p>"
     },
     "PWUGVaKaYHkvNMDr": {
       "_id": "PWUGVaKaYHkvNMDr",
-      "name": "Veleno di Verme Purpureo"
+      "name": "Veleno di Verme Purpureo",
+      "description": "<p>Questo veleno deve essere estratto da un verme purpureo morto o incapacitato. Una creatura soggetta a questo veleno deve effettuare un tiro salvezza [[/save]]: se lo fallisce, subisce [[/damage average]] danni; se lo supera, subisce la metà di quei danni.</p>"
     },
     "TQRezUN0WtdZX5ae": {
       "_id": "TQRezUN0WtdZX5ae",
-      "name": "Veleno di Serpente"
+      "name": "Veleno di Serpente",
+      "description": "<p>Questo veleno deve essere estratto da un serpente velenoso gigante morto o incapacitato. Una creatura soggetta a questo veleno deve superare un tiro salvezza [[/save]]: se lo fallisce, subisce [[/damage average]] danni; se lo supera, subisce la metà di quei danni.</p>"
     },
     "BTBhiXNbSnkW8HP3": {
       "_id": "BTBhiXNbSnkW8HP3",
@@ -5171,11 +5191,13 @@
         "QnTGMuIGAsENzvHa": {
           "name": "Avvelenato e Incapacitato"
         }
-      }
+      },
+      "description": "<p>Una creatura soggetta a questo veleno deve superare un tiro salvezza [[/save]], altrimenti diventa &amp;Reference[poisoned apply=false]{avvelenata} per [[/r 4d6]] ore. La creatura avvelenata è &amp;Reference[incapacitated apply=false]{incapacitata}.</p>"
     },
     "tJC6SG4kAO2Vt4Qd": {
       "_id": "tJC6SG4kAO2Vt4Qd",
-      "name": "Veleno di Viverna"
+      "name": "Veleno di Viverna",
+      "description": "<p>Questo veleno deve essere estratto da una viverna morta o incapacitata. Una creatura soggetta a questo veleno deve effettuare un tiro salvezza [[/save]]: se lo fallisce, subisce [[/damage average]] danni; se lo supera, subisce la metà di quei danni.</p>"
     },
     "XwqNHyox5OQQio8q": {
       "_id": "XwqNHyox5OQQio8q",
