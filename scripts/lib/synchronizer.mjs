@@ -1,5 +1,6 @@
 import { translationForField } from "./coverage.mjs";
 import { compareInvariants } from "./invariants.mjs";
+import { babelePathForField } from "./field-overrides.mjs";
 import { scanHtml } from "./html-tokens.mjs";
 import { walkVisibleFields } from "./visible-fields.mjs";
 
@@ -26,7 +27,7 @@ function translationPathForField(record, fieldPath) {
 
   const advancement = fieldPath.match(/^system\.advancement\[([^\]]+)\]\.(.+)$/);
   if (advancement) return ["advancement", advancement[1], ...advancement[2].split(".")];
-  return null;
+  return babelePathForField(fieldPath);
 }
 
 function setPath(object, path, value) {

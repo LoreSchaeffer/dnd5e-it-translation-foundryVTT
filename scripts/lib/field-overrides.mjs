@@ -18,6 +18,21 @@ export function babelePathForField(fieldPath) {
   if (activity) return ["activities", activity[1], ...activity[2].split(".")];
   const effect = fieldPath.match(/^effects\[([^\]]+)\]\.(.+)$/);
   if (effect) return ["effects", effect[1], ...effect[2].split(".")];
+  const embedded = fieldPath.match(/^items\[([^\]]+)\]\.(.+)$/);
+  if (embedded) {
+    const nested = babelePathForField(embedded[2]);
+    return nested ? ["items", embedded[1], ...nested] : null;
+  }
+  const page = fieldPath.match(/^pages\[([^\]]+)\]\.(.+)$/);
+  if (page) {
+    if (page[2] === "name") return ["pages", page[1], "name"];
+    if (page[2] === "text.content") return ["pages", page[1], "text", "content"];
+    if (page[2] === "system.tooltip") return ["pages", page[1], "system", "tooltip"];
+  }
+  const result = fieldPath.match(/^results\[([^\]]+)\]\.(.+)$/);
+  if (result) return ["results", result[1], ...result[2].split(".")];
+  if (/^system\.(?:details|traits|resources|attributes|unidentified)\./.test(fieldPath)) return fieldPath.replace(/^system\./, "").split(".");
+  if (/^prototypeToken\./.test(fieldPath)) return fieldPath.split(".");
   return null;
 }
 

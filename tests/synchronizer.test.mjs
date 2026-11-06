@@ -250,3 +250,16 @@ test("rebaseInvariantTokens rebuilds a source choice list with translated stable
     "<p>Scegli un'opzione.</p><p>@UUID[Compendium.test.Item.a]{Alfa}</p><p>@UUID[Compendium.test.Item.b]{Beta}</p>"
   );
 });
+
+test("planSynchronization repairs embedded item descriptions by stable ID", () => {
+  const actor = {
+    kind: "document", pack: "pilot", id: "actor1", name: "Hero", sourcePath: "hero.yml",
+    data: { name: "Hero", items: [{ _id: "item1", name: "Claw", system: { description: { value: '<p class="rule">Sharp.</p>' } } }] }
+  };
+  const translated = translation("Hero", {
+    name: "Eroe", items: { item1: { name: "Artiglio", description: '<p style="color:red">Affilato.</p>' } }
+  });
+  const plan = planSynchronization({ sourceRecords: [actor], translationRecords: [translated] });
+  assert.equal(plan.safe[0].repairs[0].fieldPath, "items[item1].system.description.value");
+  assert.deepEqual(plan.safe[0].repairs[0].translationPath, ["items", "item1", "description"]);
+});
