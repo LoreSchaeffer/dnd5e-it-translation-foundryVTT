@@ -12,12 +12,12 @@
 | monsters | 337 | 2 | 5 | 330 | 15 | 4810 | 5045 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
 | rules | 20 | 1 | 3 | 16 | 0 | 738 | 695 |
-| spells | 320 | 282 | 0 | 38 | 0 | 0 | 105 |
+| spells | 320 | 285 | 0 | 35 | 0 | 0 | 96 |
 | subclasses | 12 | 12 | 0 | 0 | 0 | 0 | 0 |
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 8383
+Total blocking issues: 8374
 
 ## Issues
 
@@ -8325,12 +8325,6 @@ Total blocking issues: 8383
 - **html-tag-sequence** `spells:a2KJHCIbY5Mi4Dmn:system.description.value`
 - **html-attributes** `spells:a2KJHCIbY5Mi4Dmn:system.description.value`
 - **foundry-formulas** `spells:a2KJHCIbY5Mi4Dmn:system.description.value`
-- **html-tag-sequence** `spells:MCEpGpvovcXagwQS:system.description.value`
-- **html-attributes** `spells:MCEpGpvovcXagwQS:system.description.value`
-- **foundry-reference-count** `spells:MCEpGpvovcXagwQS:system.description.value`
-- **html-tag-sequence** `spells:JQyigMNPiDnGI18b:system.description.value`
-- **html-attributes** `spells:JQyigMNPiDnGI18b:system.description.value`
-- **foundry-reference-count** `spells:JQyigMNPiDnGI18b:system.description.value`
 - **html-tag-sequence** `spells:r3243JU4AyQJyfX4:system.description.value`
 - **html-attributes** `spells:r3243JU4AyQJyfX4:system.description.value`
 - **foundry-reference-count** `spells:r3243JU4AyQJyfX4:system.description.value`
@@ -8339,9 +8333,6 @@ Total blocking issues: 8383
 - **foundry-reference-count** `spells:42O2aNBW7vK90gTL:system.description.value`
 - **html-tag-sequence** `spells:mbFw57uyfLkyiw5k:system.description.value`
 - **html-attributes** `spells:mbFw57uyfLkyiw5k:system.description.value`
-- **html-tag-sequence** `spells:4smlOvpF5AQHcyg1:system.description.value`
-- **html-attributes** `spells:4smlOvpF5AQHcyg1:system.description.value`
-- **foundry-reference-count** `spells:4smlOvpF5AQHcyg1:system.description.value`
 - **html-tag-sequence** `spells:E4NXux0RHvME1XgP:system.description.value`
 - **html-attributes** `spells:E4NXux0RHvME1XgP:system.description.value`
 - **foundry-reference-count** `spells:E4NXux0RHvME1XgP:system.description.value`

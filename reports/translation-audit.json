@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1219,
+      "translated": 1222,
       "missing": 69,
-      "partial": 1103,
+      "partial": 1100,
       "review": 203
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 2093,
+      "invariantFailures": 2084,
       "englishResiduals": 118,
       "imperialResiduals": 2
     },
-    "blockingIssues": 8383
+    "blockingIssues": 8374
   },
   "packs": [
     {
@@ -76741,9 +76741,9 @@
       "summary": {
         "documents": {
           "total": 320,
-          "translated": 282,
+          "translated": 285,
           "missing": 0,
-          "partial": 38,
+          "partial": 35,
           "review": 0
         },
         "folders": {
@@ -76757,7 +76757,7 @@
           "total": 2007,
           "translated": 2007,
           "missing": 0,
-          "invariantFailures": 105,
+          "invariantFailures": 96,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
@@ -77028,66 +77028,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "spells",
-          "id": "MCEpGpvovcXagwQS",
-          "fieldPath": "system.description.value",
-          "name": "Awaken",
-          "sourcePath": "spells/5th-level/awaken.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "MCEpGpvovcXagwQS",
-          "fieldPath": "system.description.value",
-          "name": "Awaken",
-          "sourcePath": "spells/5th-level/awaken.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "spells",
-          "id": "MCEpGpvovcXagwQS",
-          "fieldPath": "system.description.value",
-          "name": "Awaken",
-          "sourcePath": "spells/5th-level/awaken.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "JQyigMNPiDnGI18b",
-          "fieldPath": "system.description.value",
-          "name": "Geas",
-          "sourcePath": "spells/5th-level/geas.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "JQyigMNPiDnGI18b",
-          "fieldPath": "system.description.value",
-          "name": "Geas",
-          "sourcePath": "spells/5th-level/geas.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "spells",
-          "id": "JQyigMNPiDnGI18b",
-          "fieldPath": "system.description.value",
-          "name": "Geas",
-          "sourcePath": "spells/5th-level/geas.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
           "id": "r3243JU4AyQJyfX4",
           "fieldPath": "system.description.value",
           "name": "Modify Memory",
@@ -77162,36 +77102,6 @@
           "fieldPath": "system.description.value",
           "name": "Seeming",
           "sourcePath": "spells/5th-level/seeming.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "4smlOvpF5AQHcyg1",
-          "fieldPath": "system.description.value",
-          "name": "Contingency",
-          "sourcePath": "spells/6th-level/contingency.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "4smlOvpF5AQHcyg1",
-          "fieldPath": "system.description.value",
-          "name": "Contingency",
-          "sourcePath": "spells/6th-level/contingency.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "spells",
-          "id": "4smlOvpF5AQHcyg1",
-          "fieldPath": "system.description.value",
-          "name": "Contingency",
-          "sourcePath": "spells/6th-level/contingency.yml"
         },
         {
           "code": "html-tag-sequence",

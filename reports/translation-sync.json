@@ -1359,6 +1359,14 @@
         },
         {
           "pack": "spells",
+          "id": "MCEpGpvovcXagwQS",
+          "name": "Awaken",
+          "sourcePath": "spells/5th-level/awaken.yml",
+          "lookupKey": "Awaken",
+          "matchedLookupKey": "Awaken"
+        },
+        {
+          "pack": "spells",
           "id": "LkvI11Uue774QBKZ",
           "name": "Cloudkill",
           "sourcePath": "spells/5th-level/cloudkill.yml",
@@ -1452,6 +1460,14 @@
           "sourcePath": "spells/5th-level/flame-strike.yml",
           "lookupKey": "Flame Strike",
           "matchedLookupKey": "Flame Strike"
+        },
+        {
+          "pack": "spells",
+          "id": "JQyigMNPiDnGI18b",
+          "name": "Geas",
+          "sourcePath": "spells/5th-level/geas.yml",
+          "lookupKey": "Geas",
+          "matchedLookupKey": "Geas"
         },
         {
           "pack": "spells",
@@ -1620,6 +1636,14 @@
           "sourcePath": "spells/6th-level/conjure-fey.yml",
           "lookupKey": "Conjure Fey",
           "matchedLookupKey": "Conjure Fey"
+        },
+        {
+          "pack": "spells",
+          "id": "4smlOvpF5AQHcyg1",
+          "name": "Contingency",
+          "sourcePath": "spells/6th-level/contingency.yml",
+          "lookupKey": "Contingency",
+          "matchedLookupKey": "Contingency"
         },
         {
           "pack": "spells",
@@ -2584,76 +2608,6 @@
         },
         {
           "pack": "spells",
-          "id": "MCEpGpvovcXagwQS",
-          "name": "Awaken",
-          "sourcePath": "spells/5th-level/awaken.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Awaken",
-          "matchedLookupKey": "Awaken",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "MCEpGpvovcXagwQS",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "MCEpGpvovcXagwQS",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "spells",
-              "id": "MCEpGpvovcXagwQS",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "JQyigMNPiDnGI18b",
-          "name": "Geas",
-          "sourcePath": "spells/5th-level/geas.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Geas",
-          "matchedLookupKey": "Geas",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "JQyigMNPiDnGI18b",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "JQyigMNPiDnGI18b",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "spells",
-              "id": "JQyigMNPiDnGI18b",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
           "id": "r3243JU4AyQJyfX4",
           "name": "Modify Memory",
           "sourcePath": "spells/5th-level/modify-memory.yml",
@@ -2745,41 +2699,6 @@
               "message": "HTML attributes differ from source",
               "pack": "spells",
               "id": "mbFw57uyfLkyiw5k",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "4smlOvpF5AQHcyg1",
-          "name": "Contingency",
-          "sourcePath": "spells/6th-level/contingency.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Contingency",
-          "matchedLookupKey": "Contingency",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "4smlOvpF5AQHcyg1",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "4smlOvpF5AQHcyg1",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "spells",
-              "id": "4smlOvpF5AQHcyg1",
               "fieldPath": "system.description.value"
             }
           ]
