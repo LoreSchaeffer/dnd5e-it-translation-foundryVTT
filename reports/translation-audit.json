@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1018,
+      "translated": 1021,
       "missing": 69,
-      "partial": 1304,
+      "partial": 1301,
       "review": 213
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 9222,
-      "missing": 6438,
+      "translated": 9247,
+      "missing": 6413,
       "invariantFailures": 2394,
       "englishResiduals": 135,
       "imperialResiduals": 4
     },
-    "blockingIssues": 8995
+    "blockingIssues": 8970
   },
   "packs": [
     {
@@ -76741,9 +76741,9 @@
       "summary": {
         "documents": {
           "total": 320,
-          "translated": 81,
+          "translated": 84,
           "missing": 0,
-          "partial": 239,
+          "partial": 236,
           "review": 10
         },
         "folders": {
@@ -76755,8 +76755,8 @@
         },
         "fields": {
           "total": 2007,
-          "translated": 1715,
-          "missing": 292,
+          "translated": 1740,
+          "missing": 267,
           "invariantFailures": 406,
           "englishResiduals": 17,
           "imperialResiduals": 2
@@ -77427,150 +77427,6 @@
           "sourcePath": "spells/1st-level/unseen-servant.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "4H6YgYdKgnX6ZQ8M",
-          "name": "Acid Arrow",
-          "fieldPath": "effects[o7n67yO2Hk4iu7f8].description",
-          "sourcePath": "spells/2nd-level/acid-arrow.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "4H6YgYdKgnX6ZQ8M",
-          "name": "Acid Arrow",
-          "fieldPath": "effects[qpwFpytSMBxaFTD1].description",
-          "sourcePath": "spells/2nd-level/acid-arrow.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "4H6YgYdKgnX6ZQ8M",
-          "name": "Acid Arrow",
-          "fieldPath": "effects[YrTEjADBP8aoI1TJ].description",
-          "sourcePath": "spells/2nd-level/acid-arrow.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "4H6YgYdKgnX6ZQ8M",
-          "name": "Acid Arrow",
-          "fieldPath": "effects[Jrszb8Az8m3l0nYt].description",
-          "sourcePath": "spells/2nd-level/acid-arrow.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "4H6YgYdKgnX6ZQ8M",
-          "name": "Acid Arrow",
-          "fieldPath": "effects[tMhQjFkHljm5KNmd].description",
-          "sourcePath": "spells/2nd-level/acid-arrow.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "4H6YgYdKgnX6ZQ8M",
-          "name": "Acid Arrow",
-          "fieldPath": "effects[e2v5kW8X5DCflr1C].description",
-          "sourcePath": "spells/2nd-level/acid-arrow.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "4H6YgYdKgnX6ZQ8M",
-          "name": "Acid Arrow",
-          "fieldPath": "effects[xcOgzbwUfFXtdDi5].description",
-          "sourcePath": "spells/2nd-level/acid-arrow.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "4H6YgYdKgnX6ZQ8M",
-          "name": "Acid Arrow",
-          "fieldPath": "effects[pefrR8ga75zq3LMU].description",
-          "sourcePath": "spells/2nd-level/acid-arrow.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "Opwh2PdX4runSBlm",
-          "name": "Aid",
-          "fieldPath": "effects[YigtHr8dQ0ngnghZ].description",
-          "sourcePath": "spells/2nd-level/aid.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "Opwh2PdX4runSBlm",
-          "name": "Aid",
-          "fieldPath": "effects[ydbXvjPv1fY3KtbQ].description",
-          "sourcePath": "spells/2nd-level/aid.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "Opwh2PdX4runSBlm",
-          "name": "Aid",
-          "fieldPath": "effects[W9eUgPnCkGtKvQOk].description",
-          "sourcePath": "spells/2nd-level/aid.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "Opwh2PdX4runSBlm",
-          "name": "Aid",
-          "fieldPath": "effects[7Zcvgumtxcyz4aj5].description",
-          "sourcePath": "spells/2nd-level/aid.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "Opwh2PdX4runSBlm",
-          "name": "Aid",
-          "fieldPath": "effects[mRobqRBcu8jtkYc3].description",
-          "sourcePath": "spells/2nd-level/aid.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "Opwh2PdX4runSBlm",
-          "name": "Aid",
-          "fieldPath": "effects[w1AUEmzJmQI5vaEs].description",
-          "sourcePath": "spells/2nd-level/aid.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "Opwh2PdX4runSBlm",
-          "name": "Aid",
-          "fieldPath": "effects[lHlCX0dxqfKc54ls].description",
-          "sourcePath": "spells/2nd-level/aid.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "Opwh2PdX4runSBlm",
-          "name": "Aid",
-          "fieldPath": "effects[Q7ho5m2GWwSVkEs1].description",
-          "sourcePath": "spells/2nd-level/aid.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -77805,87 +77661,6 @@
           "name": "Blur",
           "fieldPath": "effects[X4jof8gIhjMeaX9E].description",
           "sourcePath": "spells/2nd-level/blur.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "7UwUjJ6owIQkEPrs",
-          "name": "Branding Smite",
-          "fieldPath": "effects[xM2PEzUfQZgNIXRv].description",
-          "sourcePath": "spells/2nd-level/branding-smite.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "7UwUjJ6owIQkEPrs",
-          "name": "Branding Smite",
-          "fieldPath": "effects[pkXLCMEMNzccLQs4].description",
-          "sourcePath": "spells/2nd-level/branding-smite.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "7UwUjJ6owIQkEPrs",
-          "name": "Branding Smite",
-          "fieldPath": "effects[wylpKcAY3Gw609ug].description",
-          "sourcePath": "spells/2nd-level/branding-smite.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "7UwUjJ6owIQkEPrs",
-          "name": "Branding Smite",
-          "fieldPath": "effects[f4xG4p6y77duw9yt].description",
-          "sourcePath": "spells/2nd-level/branding-smite.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "7UwUjJ6owIQkEPrs",
-          "name": "Branding Smite",
-          "fieldPath": "effects[13BrsdpazrFevbup].description",
-          "sourcePath": "spells/2nd-level/branding-smite.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "7UwUjJ6owIQkEPrs",
-          "name": "Branding Smite",
-          "fieldPath": "effects[XNwGaFsyQyqp7cP7].description",
-          "sourcePath": "spells/2nd-level/branding-smite.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "7UwUjJ6owIQkEPrs",
-          "name": "Branding Smite",
-          "fieldPath": "effects[doT9gQvDafhsdNxs].description",
-          "sourcePath": "spells/2nd-level/branding-smite.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "7UwUjJ6owIQkEPrs",
-          "name": "Branding Smite",
-          "fieldPath": "effects[MQz6BZkH6TOMsHAn].description",
-          "sourcePath": "spells/2nd-level/branding-smite.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "7UwUjJ6owIQkEPrs",
-          "name": "Branding Smite",
-          "fieldPath": "effects[mEIfHN39NpypxvkS].description",
-          "sourcePath": "spells/2nd-level/branding-smite.yml"
         },
         {
           "code": "missing-field",
