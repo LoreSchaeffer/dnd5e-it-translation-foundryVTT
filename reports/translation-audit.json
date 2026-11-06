@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1234,
+      "translated": 1237,
       "missing": 69,
-      "partial": 1088,
+      "partial": 1085,
       "review": 203
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 2049,
+      "invariantFailures": 2042,
       "englishResiduals": 118,
       "imperialResiduals": 2
     },
-    "blockingIssues": 8339
+    "blockingIssues": 8332
   },
   "packs": [
     {
@@ -76741,9 +76741,9 @@
       "summary": {
         "documents": {
           "total": 320,
-          "translated": 297,
+          "translated": 300,
           "missing": 0,
-          "partial": 23,
+          "partial": 20,
           "review": 0
         },
         "folders": {
@@ -76757,7 +76757,7 @@
           "total": 2007,
           "translated": 2007,
           "missing": 0,
-          "invariantFailures": 61,
+          "invariantFailures": 54,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
@@ -77008,26 +77008,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "spells",
-          "id": "mbFw57uyfLkyiw5k",
-          "fieldPath": "system.description.value",
-          "name": "Seeming",
-          "sourcePath": "spells/5th-level/seeming.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "mbFw57uyfLkyiw5k",
-          "fieldPath": "system.description.value",
-          "name": "Seeming",
-          "sourcePath": "spells/5th-level/seeming.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
           "id": "E4NXux0RHvME1XgP",
           "fieldPath": "system.description.value",
           "name": "Create Undead",
@@ -77112,56 +77092,6 @@
           "fieldPath": "system.description.value",
           "name": "Magic Jar",
           "sourcePath": "spells/6th-level/magic-jar.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "fzZnVKLmBMo2f5up",
-          "fieldPath": "system.description.value",
-          "name": "Wall of Ice",
-          "sourcePath": "spells/6th-level/wall-of-ice.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "fzZnVKLmBMo2f5up",
-          "fieldPath": "system.description.value",
-          "name": "Wall of Ice",
-          "sourcePath": "spells/6th-level/wall-of-ice.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "Y7uWUO4yqUN0JKl0",
-          "fieldPath": "system.description.value",
-          "name": "Forcecage",
-          "sourcePath": "spells/7th-level/forcecage.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "Y7uWUO4yqUN0JKl0",
-          "fieldPath": "system.description.value",
-          "name": "Forcecage",
-          "sourcePath": "spells/7th-level/forcecage.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "spells",
-          "id": "Y7uWUO4yqUN0JKl0",
-          "fieldPath": "system.description.value",
-          "name": "Forcecage",
-          "sourcePath": "spells/7th-level/forcecage.yml"
         },
         {
           "code": "html-tag-sequence",

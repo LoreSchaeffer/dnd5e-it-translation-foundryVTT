@@ -12,12 +12,12 @@
 | monsters | 337 | 2 | 5 | 330 | 15 | 4810 | 5045 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
 | rules | 20 | 1 | 3 | 16 | 0 | 738 | 695 |
-| spells | 320 | 297 | 0 | 23 | 0 | 0 | 61 |
+| spells | 320 | 300 | 0 | 20 | 0 | 0 | 54 |
 | subclasses | 12 | 12 | 0 | 0 | 0 | 0 | 0 |
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 8339
+Total blocking issues: 8332
 
 ## Issues
 
@@ -8323,8 +8323,6 @@ Total blocking issues: 8339
 - **html-tag-sequence** `spells:42O2aNBW7vK90gTL:system.description.value`
 - **html-attributes** `spells:42O2aNBW7vK90gTL:system.description.value`
 - **foundry-reference-count** `spells:42O2aNBW7vK90gTL:system.description.value`
-- **html-tag-sequence** `spells:mbFw57uyfLkyiw5k:system.description.value`
-- **html-attributes** `spells:mbFw57uyfLkyiw5k:system.description.value`
 - **html-tag-sequence** `spells:E4NXux0RHvME1XgP:system.description.value`
 - **html-attributes** `spells:E4NXux0RHvME1XgP:system.description.value`
 - **foundry-reference-count** `spells:E4NXux0RHvME1XgP:system.description.value`
@@ -8334,11 +8332,6 @@ Total blocking issues: 8339
 - **html-tag-sequence** `spells:ej6wyY4G1gOcb1U6:system.description.value`
 - **html-attributes** `spells:ej6wyY4G1gOcb1U6:system.description.value`
 - **foundry-reference-count** `spells:ej6wyY4G1gOcb1U6:system.description.value`
-- **html-tag-sequence** `spells:fzZnVKLmBMo2f5up:system.description.value`
-- **html-attributes** `spells:fzZnVKLmBMo2f5up:system.description.value`
-- **html-tag-sequence** `spells:Y7uWUO4yqUN0JKl0:system.description.value`
-- **html-attributes** `spells:Y7uWUO4yqUN0JKl0:system.description.value`
-- **foundry-references** `spells:Y7uWUO4yqUN0JKl0:system.description.value`
 - **html-tag-sequence** `spells:eGMhwmuleAM46C6L:system.description.value`
 - **html-attributes** `spells:eGMhwmuleAM46C6L:system.description.value`
 - **html-tag-sequence** `spells:B2kbmgbA2WQR00kx:system.description.value`

@@ -1583,6 +1583,14 @@
         },
         {
           "pack": "spells",
+          "id": "mbFw57uyfLkyiw5k",
+          "name": "Seeming",
+          "sourcePath": "spells/5th-level/seeming.yml",
+          "lookupKey": "Seeming",
+          "matchedLookupKey": "Seeming"
+        },
+        {
+          "pack": "spells",
           "id": "HQfd7jJyULIoGxrZ",
           "name": "Telekinesis",
           "sourcePath": "spells/5th-level/telekinesis.yml",
@@ -1823,6 +1831,14 @@
         },
         {
           "pack": "spells",
+          "id": "fzZnVKLmBMo2f5up",
+          "name": "Wall of Ice",
+          "sourcePath": "spells/6th-level/wall-of-ice.yml",
+          "lookupKey": "Wall of Ice",
+          "matchedLookupKey": "Wall of Ice"
+        },
+        {
+          "pack": "spells",
           "id": "AQsBc94ES7W7s7iG",
           "name": "Wall of Thorns",
           "sourcePath": "spells/6th-level/wall-of-thorns.yml",
@@ -1900,6 +1916,14 @@
           "sourcePath": "spells/7th-level/fire-storm.yml",
           "lookupKey": "Fire Storm",
           "matchedLookupKey": "Fire Storm"
+        },
+        {
+          "pack": "spells",
+          "id": "Y7uWUO4yqUN0JKl0",
+          "name": "Forcecage",
+          "sourcePath": "spells/7th-level/forcecage.yml",
+          "lookupKey": "Forcecage",
+          "matchedLookupKey": "Forcecage"
         },
         {
           "pack": "spells",
@@ -2677,33 +2701,6 @@
         },
         {
           "pack": "spells",
-          "id": "mbFw57uyfLkyiw5k",
-          "name": "Seeming",
-          "sourcePath": "spells/5th-level/seeming.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Seeming",
-          "matchedLookupKey": "Seeming",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "mbFw57uyfLkyiw5k",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "mbFw57uyfLkyiw5k",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
           "id": "E4NXux0RHvME1XgP",
           "name": "Create Undead",
           "sourcePath": "spells/6th-level/create-undead.yml",
@@ -2803,68 +2800,6 @@
               "message": "Foundry reference count differs from source",
               "pack": "spells",
               "id": "ej6wyY4G1gOcb1U6",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "fzZnVKLmBMo2f5up",
-          "name": "Wall of Ice",
-          "sourcePath": "spells/6th-level/wall-of-ice.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Wall of Ice",
-          "matchedLookupKey": "Wall of Ice",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "fzZnVKLmBMo2f5up",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "fzZnVKLmBMo2f5up",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "Y7uWUO4yqUN0JKl0",
-          "name": "Forcecage",
-          "sourcePath": "spells/7th-level/forcecage.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Forcecage",
-          "matchedLookupKey": "Forcecage",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "Y7uWUO4yqUN0JKl0",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "Y7uWUO4yqUN0JKl0",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-references",
-              "severity": "blocking",
-              "message": "Foundry reference targets or order differ from source",
-              "pack": "spells",
-              "id": "Y7uWUO4yqUN0JKl0",
               "fieldPath": "system.description.value"
             }
           ]
