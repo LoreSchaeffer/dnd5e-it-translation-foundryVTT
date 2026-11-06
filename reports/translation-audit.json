@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1210,
+      "translated": 1213,
       "missing": 69,
-      "partial": 1112,
+      "partial": 1109,
       "review": 203
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 2115,
+      "invariantFailures": 2109,
       "englishResiduals": 118,
       "imperialResiduals": 2
     },
-    "blockingIssues": 8405
+    "blockingIssues": 8399
   },
   "packs": [
     {
@@ -76741,9 +76741,9 @@
       "summary": {
         "documents": {
           "total": 320,
-          "translated": 273,
+          "translated": 276,
           "missing": 0,
-          "partial": 47,
+          "partial": 44,
           "review": 0
         },
         "folders": {
@@ -76757,7 +76757,7 @@
           "total": 2007,
           "translated": 2007,
           "missing": 0,
-          "invariantFailures": 127,
+          "invariantFailures": 121,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
@@ -76988,26 +76988,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "spells",
-          "id": "DGONTFbk5eORs5qv",
-          "fieldPath": "system.description.value",
-          "name": "Black Tentacles",
-          "sourcePath": "spells/4th-level/black-tentacles.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "DGONTFbk5eORs5qv",
-          "fieldPath": "system.description.value",
-          "name": "Black Tentacles",
-          "sourcePath": "spells/4th-level/black-tentacles.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
           "id": "9hQXdMSmerkTsHDe",
           "fieldPath": "system.description.value",
           "name": "Confusion",
@@ -77032,46 +77012,6 @@
           "fieldPath": "system.description.value",
           "name": "Confusion",
           "sourcePath": "spells/4th-level/confusion.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "KgEw3sDr39C6g8nY",
-          "fieldPath": "system.description.value",
-          "name": "Conjure Minor Elementals",
-          "sourcePath": "spells/4th-level/conjure-minor-elementals.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "KgEw3sDr39C6g8nY",
-          "fieldPath": "system.description.value",
-          "name": "Conjure Minor Elementals",
-          "sourcePath": "spells/4th-level/conjure-minor-elementals.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "dEfSELiY1eO3cpX9",
-          "fieldPath": "system.description.value",
-          "name": "Conjure Woodland Beings",
-          "sourcePath": "spells/4th-level/conjure-woodland-beings.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "dEfSELiY1eO3cpX9",
-          "fieldPath": "system.description.value",
-          "name": "Conjure Woodland Beings",
-          "sourcePath": "spells/4th-level/conjure-woodland-beings.yml"
         },
         {
           "code": "html-tag-sequence",

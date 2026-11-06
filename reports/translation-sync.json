@@ -1119,6 +1119,14 @@
         },
         {
           "pack": "spells",
+          "id": "DGONTFbk5eORs5qv",
+          "name": "Black Tentacles",
+          "sourcePath": "spells/4th-level/black-tentacles.yml",
+          "lookupKey": "Black Tentacles",
+          "matchedLookupKey": "Black Tentacles"
+        },
+        {
+          "pack": "spells",
           "id": "pybg5MNc3lkerH4Y",
           "name": "Blight",
           "sourcePath": "spells/4th-level/blight.yml",
@@ -1132,6 +1140,22 @@
           "sourcePath": "spells/4th-level/compulsion.yml",
           "lookupKey": "Compulsion",
           "matchedLookupKey": "Compulsion"
+        },
+        {
+          "pack": "spells",
+          "id": "KgEw3sDr39C6g8nY",
+          "name": "Conjure Minor Elementals",
+          "sourcePath": "spells/4th-level/conjure-minor-elementals.yml",
+          "lookupKey": "Conjure Minor Elementals",
+          "matchedLookupKey": "Conjure Minor Elementals"
+        },
+        {
+          "pack": "spells",
+          "id": "dEfSELiY1eO3cpX9",
+          "name": "Conjure Woodland Beings",
+          "sourcePath": "spells/4th-level/conjure-woodland-beings.yml",
+          "lookupKey": "Conjure Woodland Beings",
+          "matchedLookupKey": "Conjure Woodland Beings"
         },
         {
           "pack": "spells",
@@ -2458,33 +2482,6 @@
         },
         {
           "pack": "spells",
-          "id": "DGONTFbk5eORs5qv",
-          "name": "Black Tentacles",
-          "sourcePath": "spells/4th-level/black-tentacles.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Black Tentacles",
-          "matchedLookupKey": "Black Tentacles",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "DGONTFbk5eORs5qv",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "DGONTFbk5eORs5qv",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
           "id": "9hQXdMSmerkTsHDe",
           "name": "Confusion",
           "sourcePath": "spells/4th-level/confusion.yml",
@@ -2514,60 +2511,6 @@
               "message": "Foundry reference count differs from source",
               "pack": "spells",
               "id": "9hQXdMSmerkTsHDe",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "KgEw3sDr39C6g8nY",
-          "name": "Conjure Minor Elementals",
-          "sourcePath": "spells/4th-level/conjure-minor-elementals.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Conjure Minor Elementals",
-          "matchedLookupKey": "Conjure Minor Elementals",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "KgEw3sDr39C6g8nY",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "KgEw3sDr39C6g8nY",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "dEfSELiY1eO3cpX9",
-          "name": "Conjure Woodland Beings",
-          "sourcePath": "spells/4th-level/conjure-woodland-beings.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Conjure Woodland Beings",
-          "matchedLookupKey": "Conjure Woodland Beings",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "dEfSELiY1eO3cpX9",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "dEfSELiY1eO3cpX9",
               "fieldPath": "system.description.value"
             }
           ]
