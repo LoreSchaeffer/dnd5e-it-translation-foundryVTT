@@ -102,7 +102,12 @@
     },
     "Alchemist's Fire": {
       "name": "Fuoco dell'Alchimista",
-      "description": "<div title=\"Page 151\"><div><div><p>Questo fluido adesivo e gommoso si infiamma quando è esposto all'aria. Con un'azione, il personaggio può lanciare questa ampolla fino 6 metri di distanza (l'ampolla si frantumerà all'impatto). Il personaggio effettua un attacco a distanza contro una creatura o un oggetto, considerando il fuoco dell'alchimista come arma improvvisata. Se colpisce il bersaglio, esso subisce 1d4 danni da fuoco all'inizio di ogni suo turno. Una creatura può terminare questi danni usando un'azione per effettuare una prova di Destrezza con CD 10 al fine di estinguere le fiamme.</p></div></div></div>"
+      "description": "<div title=\"Page 151\"><div><div><p>Questo fluido adesivo e gommoso si infiamma quando è esposto all'aria. Con un'azione, il personaggio può lanciare questa ampolla fino 6 metri di distanza (l'ampolla si frantumerà all'impatto). Il personaggio effettua un attacco a distanza contro una creatura o un oggetto, considerando il fuoco dell'alchimista come arma improvvisata. Se colpisce il bersaglio, esso subisce 1d4 danni da fuoco all'inizio di ogni suo turno. Una creatura può terminare questi danni usando un'azione per effettuare una prova di Destrezza con CD 10 al fine di estinguere le fiamme.</p></div></div></div>",
+      "effects": {
+        "qAc1etkfUQkCbmTM": {
+          "name": "Ricoperto di Fuoco dell'Alchimista"
+        }
+      }
     },
     "Alchemist's Supplies": {
       "name": "Scorte da Alchimista",
@@ -160,6 +165,11 @@
       "activities": {
         "aSEhgvHgQF5LiEsf": {
           "name": "Bevi"
+        }
+      },
+      "effects": {
+        "86kZBSv4Zyis1RQm": {
+          "name": "Protezione dell'Antitossina"
         }
       }
     },
@@ -443,7 +453,12 @@
     },
     "Bracers of Defense": {
       "name": "Bracciali della Difesa",
-      "description": "<p><em>Oggetto meraviglioso, (richiede sintonia)</em></p><p>Il personaggio che indossa questi bracciali ottiene un bonus di +2 alla CA se non veste alcuna armatura e non usa uno scudo.</p>"
+      "description": "<p><em>Oggetto meraviglioso, (richiede sintonia)</em></p><p>Il personaggio che indossa questi bracciali ottiene un bonus di +2 alla CA se non veste alcuna armatura e non usa uno scudo.</p>",
+      "effects": {
+        "ul7rjl68p1kyv4z2": {
+          "name": "+2 alla CA"
+        }
+      }
     },
     "Brass Horn of Valhalla": {
       "name": "Corno d'Ottone del Valhalla",
@@ -626,7 +641,12 @@
     },
     "Cloak of Arachnida": {
       "name": "Mantello dell’Aracnide",
-      "description": "<p><em>Oggetto meraviglioso, (richiede sintonia)</em></p><p>Questo raffinato indumento di seta nera è intessuto di sottilissimi fili argentati. Il personaggio che lo indossa riceve i benefici seguenti:</p><ul><li>Resistenza ai danni da veleno.</li><li>Velocità di scalare pari alla propria velocità base sul terreno.</li><li>Può muoversi in alto, in basso e lateralmente sulle superfici verticali e a testa in giù sui soffitti mantenendo le mani libere.</li><li>Non può essere bloccato da alcun tipo di ragnatela e può muoversi sulle ragnatele come se fossero terreno difficile.</li><li>Può usare un’azione per lanciare l’incantesimo @Compendium[dnd5e.spells.UJJu9c2UvCzVljiP]{Ragnatela} (CD 13 del tiro salvezza). La ragnatela creata dall’incantesimo riempie un’area doppia rispetto al normale. Una volta usata, la proprietà del mantello non può essere riutilizzata fino all’alba successiva.</li></ul>"
+      "description": "<p><em>Oggetto meraviglioso, (richiede sintonia)</em></p><p>Questo raffinato indumento di seta nera è intessuto di sottilissimi fili argentati. Il personaggio che lo indossa riceve i benefici seguenti:</p><ul><li>Resistenza ai danni da veleno.</li><li>Velocità di scalare pari alla propria velocità base sul terreno.</li><li>Può muoversi in alto, in basso e lateralmente sulle superfici verticali e a testa in giù sui soffitti mantenendo le mani libere.</li><li>Non può essere bloccato da alcun tipo di ragnatela e può muoversi sulle ragnatele come se fossero terreno difficile.</li><li>Può usare un’azione per lanciare l’incantesimo @Compendium[dnd5e.spells.UJJu9c2UvCzVljiP]{Ragnatela} (CD 13 del tiro salvezza). La ragnatela creata dall’incantesimo riempie un’area doppia rispetto al normale. Una volta usata, la proprietà del mantello non può essere riutilizzata fino all’alba successiva.</li></ul>",
+      "effects": {
+        "xwfSsFuNslCeBhw5": {
+          "name": "Movimento del Ragno e Resistenza"
+        }
+      }
     },
     "Cloak of Displacement": {
       "name": "Mantello Distorcente",
@@ -638,7 +658,12 @@
     },
     "Cloak of Protection": {
       "name": "Mantello della Protezione",
-      "description": "<p><em>Oggetto meraviglioso, (richiede sintonia)</em></p><p>Il personaggio che indossa questo mantello riceve un bonus di +1 alla CA e ai tiri salvezza.</p>"
+      "description": "<p><em>Oggetto meraviglioso, (richiede sintonia)</em></p><p>Il personaggio che indossa questo mantello riceve un bonus di +1 alla CA e ai tiri salvezza.</p>",
+      "effects": {
+        "jxfin1rh71p1xjjv": {
+          "name": "+1 alla CA e ai Tiri Salvezza"
+        }
+      }
     },
     "Cloak of the Bat": {
       "name": "Mantello del Pipistrello",
@@ -2338,6 +2363,14 @@
         "Wa0cWtddVr7eTGOz": {
           "name": "Applica Olio alle Munizioni"
         }
+      },
+      "effects": {
+        "IHJhvGPE1KPinh1r": {
+          "name": "Olio della Precisione: Arma"
+        },
+        "L6ERoLhCCv7UsF1b": {
+          "name": "Olio della Precisione: Munizione"
+        }
       }
     },
     "Oil of Slipperiness": {
@@ -2349,6 +2382,11 @@
         },
         "OCcBVLFoBjsgBp2r": {
           "name": "Versa l'Olio"
+        }
+      },
+      "effects": {
+        "4OOm3lGF9n4bLHyt": {
+          "name": "Scivolosità Alchemica"
         }
       }
     },
@@ -2432,6 +2470,11 @@
       "activities": {
         "PQa875kavCObYkw7": {
           "name": "Bevi"
+        }
+      },
+      "effects": {
+        "VGNePB21bqJfLsCr": {
+          "name": "Amore Alchemico"
         }
       }
     },
@@ -2533,6 +2576,11 @@
         "f3MtbdmZa35oIm67": {
           "name": "Bevi"
         }
+      },
+      "effects": {
+        "U6yBzHzpfZRh3yZY": {
+          "name": "Amico degli Animali"
+        }
       }
     },
     "Potion of Clairvoyance": {
@@ -2541,6 +2589,11 @@
       "activities": {
         "3sfoi99DiGRXsmVd": {
           "name": "Bevi"
+        }
+      },
+      "effects": {
+        "e5WEPmqHuxJlwMmB": {
+          "name": "Chiaroveggenza Alchemica"
         }
       }
     },
@@ -2551,6 +2604,11 @@
         "tbj9v3KiTzZwBX2E": {
           "name": "Bevi"
         }
+      },
+      "effects": {
+        "I7ywYX94qSyb3GRk": {
+          "name": "Scalata Potenziata Alchemicamente"
+        }
       }
     },
     "Potion of Cloud Giant Strength": {
@@ -2559,6 +2617,11 @@
       "activities": {
         "eEzkwNoMj0HJmmKn": {
           "name": "Bevi"
+        }
+      },
+      "effects": {
+        "0zUmrK4c8UybXZeQ": {
+          "name": "Forza del Gigante delle Nuvole"
         }
       }
     },
@@ -2583,6 +2646,11 @@
         "w7wDJOmMVf9b7Cnd": {
           "name": "Bevi"
         }
+      },
+      "effects": {
+        "6sChAuK0HObortfE": {
+          "name": "Rimpicciolito Alchemicamente"
+        }
       }
     },
     "Potion of Fire Giant Strength": {
@@ -2591,6 +2659,11 @@
       "activities": {
         "xT9Z6NFEEUFhxy1P": {
           "name": "Bevi"
+        }
+      },
+      "effects": {
+        "iCEYqMYew63B7ocr": {
+          "name": "Forza del Gigante del Fuoco"
         }
       }
     },
@@ -2615,6 +2688,11 @@
       "activities": {
         "dQ5KoAo9EfRNjkIg": {
           "name": "Bevi"
+        }
+      },
+      "effects": {
+        "UumpsHK33ePtvz3s": {
+          "name": "Volo Alchemico"
         }
       }
     },
@@ -2642,7 +2720,8 @@
       },
       "effects": {
         "ZPO6fKaUX5z0opim": {
-          "description": "<p>Il tuo punteggio di Forza diventa 23 per la durata. Questo effetto non ha alcun effetto su di te se la tua Forza è già pari o superiore a 23.</p>"
+          "description": "<p>Il tuo punteggio di Forza diventa 23 per la durata. Questo effetto non ha alcun effetto su di te se la tua Forza è già pari o superiore a 23.</p>",
+          "name": "Forza del Gigante del Gelo"
         }
       }
     },
@@ -2676,6 +2755,11 @@
         "ZgATJF7ZjCGRyL10": {
           "name": "Bevi"
         }
+      },
+      "effects": {
+        "HAuNLWE4FAG5lpup": {
+          "name": "Ingrandito Alchemicamente"
+        }
       }
     },
     "Potion of Healing": {
@@ -2694,6 +2778,11 @@
         "HXZpxqQDRfm5EL0r": {
           "name": "Bevi"
         }
+      },
+      "effects": {
+        "KKcIKvHCHET79fEp": {
+          "name": "Benedetto"
+        }
       }
     },
     "Potion of Hill Giant Strength": {
@@ -2702,6 +2791,11 @@
       "activities": {
         "UDIImot28uvAlkHv": {
           "name": "Bevi"
+        }
+      },
+      "effects": {
+        "Ee51dNBilkLQhVr9": {
+          "name": "Forza del Gigante delle Colline"
         }
       }
     },
@@ -2739,6 +2833,11 @@
       "activities": {
         "pZiGEv6ugCZX3Agp": {
           "name": "Bevi"
+        }
+      },
+      "effects": {
+        "sGtB63gv4o99IFMT": {
+          "name": "Lettura del Pensiero Alchemica"
         }
       }
     },
@@ -2814,6 +2913,11 @@
         "Hy33WqORkn5GhlSZ": {
           "name": "Bevi"
         }
+      },
+      "effects": {
+        "PXMOx6wnEh05eAKY": {
+          "name": "Accelerato"
+        }
       }
     },
     "Potion of Stone Giant Strength": {
@@ -2826,7 +2930,8 @@
       },
       "effects": {
         "qz2SZ5RcpuR5rOO4": {
-          "description": "<p>Il tuo punteggio di Forza diventa 23 per la durata. Questo effetto non ha alcun effetto su di te se la tua Forza è già pari o superiore a 23.</p>"
+          "description": "<p>Il tuo punteggio di Forza diventa 23 per la durata. Questo effetto non ha alcun effetto su di te se la tua Forza è già pari o superiore a 23.</p>",
+          "name": "Forza del Gigante delle Pietre"
         }
       }
     },
@@ -2836,6 +2941,11 @@
       "activities": {
         "2cOOq5vkw0u763Px": {
           "name": "Bevi"
+        }
+      },
+      "effects": {
+        "sjbluBPTvdkkf3pv": {
+          "name": "Forza del Gigante delle Tempeste"
         }
       }
     },
@@ -2877,6 +2987,11 @@
       "activities": {
         "nAaV0R1Qxq5syAlT": {
           "name": "Bevi"
+        }
+      },
+      "effects": {
+        "YfuBxNfhlPfQX8Ua": {
+          "name": "Respirazione Acquatica Alchemica"
         }
       }
     },
@@ -3176,7 +3291,12 @@
     },
     "Ring of Swimming": {
       "name": "Anello del Nuotare",
-      "description": "<p>Finché il personaggio indossa questo anello, la sua velocità di nuotare è pari a 12 metri.</p>"
+      "description": "<p>Finché il personaggio indossa questo anello, la sua velocità di nuotare è pari a 12 metri.</p>",
+      "effects": {
+        "Shw1dARwswVkzUYD": {
+          "name": "Nuoto"
+        }
+      }
     },
     "Ring of Telekinesis": {
       "name": "Anello di Telecinesi",
@@ -3197,11 +3317,21 @@
     },
     "Ring of Warmth": {
       "name": "Anello del Calore",
-      "description": "<p><em>(Richiede sintonia)</em></p>\n<p>Finché il personaggio indossa questo anello, ottiene resistenza ai danni da freddo. Inoltre, il personaggio e tutto ciò che indossa e trasporta non subiscono effetti nocivi dalle basse temperature fino a -45 gradi.</p>"
+      "description": "<p><em>(Richiede sintonia)</em></p>\n<p>Finché il personaggio indossa questo anello, ottiene resistenza ai danni da freddo. Inoltre, il personaggio e tutto ciò che indossa e trasporta non subiscono effetti nocivi dalle basse temperature fino a -45 gradi.</p>",
+      "effects": {
+        "ww5XGi3vgzt77IJs": {
+          "name": "Calore"
+        }
+      }
     },
     "Ring of Water Elemental Command": {
       "name": "Anello del Comando degli Elementali dell’Acqua",
-      "description": "<p><em style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">(Richiede sintonia)</em></p><p>Questo anello è collegato al Piano degli Elementali dell’Acqua.</p><p>Finché il personaggio indossa questo anello, dispone di vantaggio ai tiri per colpire contro gli @Compendium[dnd5e.monsters.namJz755U1EhvEJa]{Elementali dell’Acqua}, ed essi subiscono svantaggio ai tiri per colpire contro di lui. Il personaggio ha inoltre accesso alle proprietà basate sul piano collegato.</p><p>L’anello possiede 5 cariche e recupera 1d4 + 1 cariche spese ogni giorno all’alba. Gli incantesimi lanciati dall’anello hanno CD 17 per i tiri salvezza.</p><p><strong>Anello del Comando degli Elementali dell’Acqua</strong>.&nbsp;Il personaggio può spendere 2 cariche dell’anello per lanciare @Compendium[dnd5e.spells.eEpy1ONlXumKS1mp]{Dominare Mostri} su un elementale dell'acqua. Inoltre, può stare in piedi e camminare sulle superfici liquide come se fossero terreno solido. Può anche parlare e capire l’Aquan.</p><p>Se il personaggio contribuisce a uccidere un elementale dell’acqua mentre è in sintonia con l’anello, ottiene l’accesso alle seguenti proprietà aggiuntive:</p><ul><li>Il personaggio può respirare sott’acqua e ha una velocità di nuotare pari alla sua velocità base sul terreno.</li><li>Il personaggio può lanciare dall’anello gli incantesimi seguenti, spendendo il numero necessario di cariche: @Compendium[dnd5e.spells.a3XtAO5n2GrqiAh5]{Creare o Distruggere Acqua} (1 carica), @Compendium[dnd5e.spells.7fFHlBk3UNX8gPKL]{Controllare Acqua} (3 cariche), @Compendium[dnd5e.spells.WN2LWEljYU6QqnRH]{Tempesta di Ghiaccio} (2 cariche), o @Compendium[dnd5e.spells.fzZnVKLmBMo2f5up]{Muro di Ghiaccio} (3 cariche).</li></ul>"
+      "description": "<p><em style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">(Richiede sintonia)</em></p><p>Questo anello è collegato al Piano degli Elementali dell’Acqua.</p><p>Finché il personaggio indossa questo anello, dispone di vantaggio ai tiri per colpire contro gli @Compendium[dnd5e.monsters.namJz755U1EhvEJa]{Elementali dell’Acqua}, ed essi subiscono svantaggio ai tiri per colpire contro di lui. Il personaggio ha inoltre accesso alle proprietà basate sul piano collegato.</p><p>L’anello possiede 5 cariche e recupera 1d4 + 1 cariche spese ogni giorno all’alba. Gli incantesimi lanciati dall’anello hanno CD 17 per i tiri salvezza.</p><p><strong>Anello del Comando degli Elementali dell’Acqua</strong>.&nbsp;Il personaggio può spendere 2 cariche dell’anello per lanciare @Compendium[dnd5e.spells.eEpy1ONlXumKS1mp]{Dominare Mostri} su un elementale dell'acqua. Inoltre, può stare in piedi e camminare sulle superfici liquide come se fossero terreno solido. Può anche parlare e capire l’Aquan.</p><p>Se il personaggio contribuisce a uccidere un elementale dell’acqua mentre è in sintonia con l’anello, ottiene l’accesso alle seguenti proprietà aggiuntive:</p><ul><li>Il personaggio può respirare sott’acqua e ha una velocità di nuotare pari alla sua velocità base sul terreno.</li><li>Il personaggio può lanciare dall’anello gli incantesimi seguenti, spendendo il numero necessario di cariche: @Compendium[dnd5e.spells.a3XtAO5n2GrqiAh5]{Creare o Distruggere Acqua} (1 carica), @Compendium[dnd5e.spells.7fFHlBk3UNX8gPKL]{Controllare Acqua} (3 cariche), @Compendium[dnd5e.spells.WN2LWEljYU6QqnRH]{Tempesta di Ghiaccio} (2 cariche), o @Compendium[dnd5e.spells.fzZnVKLmBMo2f5up]{Muro di Ghiaccio} (3 cariche).</li></ul>",
+      "effects": {
+        "GDk5vt4XBMKVZJh4": {
+          "name": "Focalizzazione dell'Anello"
+        }
+      }
     },
     "Ring of Water Walking": {
       "name": "Anello del Camminare Sull’Acqua",
@@ -3246,7 +3376,12 @@
     },
     "Robe of the Archmagi": {
       "name": "Tunica dell'Arcimago",
-      "description": "<p><em>Oggetto meraviglioso, (richiede sintonia&nbsp;</em>con un mago, stregone o warlock<em>)</em></p><p>Questa elegante tunica &egrave; fatta di un esclusivo tessuto di colore bianco, grigio o nero decorato con rune argentate. Il colore della tunica corrisponde all&rsquo;allineamento per il quale la tunica &egrave; stata creata. Una tunica bianca &egrave; destinata a un allineamento buono, una grigia a un allineamento neutrale e una nera a un allineamento malvagio. Un personaggio non pu&ograve; entrare in sintonia con una tunica dell&rsquo;archimago che non corrisponda al suo allineamento. Finch&eacute; il personaggio indossa questa tunica, ottiene i benefici seguenti:</p><ul><li>Se il personaggio non indossa alcuna armatura, la sua Classe Armatura base &egrave; pari a 15 + il suo modificatore di Destrezza.</li><li>Il personaggio dispone di vantaggio ai tiri salvezza contro gli incantesimi e gli altri effetti magici.</li><li>La CD del tiro salvezza degli incantesimi e il bonus di attacco dell&rsquo;incantesimo del personaggio aumentano entrambi di 2.</li></ul>"
+      "description": "<p><em>Oggetto meraviglioso, (richiede sintonia&nbsp;</em>con un mago, stregone o warlock<em>)</em></p><p>Questa elegante tunica &egrave; fatta di un esclusivo tessuto di colore bianco, grigio o nero decorato con rune argentate. Il colore della tunica corrisponde all&rsquo;allineamento per il quale la tunica &egrave; stata creata. Una tunica bianca &egrave; destinata a un allineamento buono, una grigia a un allineamento neutrale e una nera a un allineamento malvagio. Un personaggio non pu&ograve; entrare in sintonia con una tunica dell&rsquo;archimago che non corrisponda al suo allineamento. Finch&eacute; il personaggio indossa questa tunica, ottiene i benefici seguenti:</p><ul><li>Se il personaggio non indossa alcuna armatura, la sua Classe Armatura base &egrave; pari a 15 + il suo modificatore di Destrezza.</li><li>Il personaggio dispone di vantaggio ai tiri salvezza contro gli incantesimi e gli altri effetti magici.</li><li>La CD del tiro salvezza degli incantesimi e il bonus di attacco dell&rsquo;incantesimo del personaggio aumentano entrambi di 2.</li></ul>",
+      "effects": {
+        "x6gy8sik893jvxea": {
+          "name": "CA Base 15"
+        }
+      }
     },
     "Robes": {
       "name": "Veste",
@@ -3801,7 +3936,12 @@
     },
     "Stone of Good Luck (Luckstone)": {
       "name": "Pietra della Buona Fortuna (Pietrafortuna)",
-      "description": "<p><em>Oggetto meraviglioso, (richiede sintonia)</em></p><p>Finché il personaggio porta quest’agata levigata sulla sua persona, ottiene un bonus di +1 alle prove di caratteristica e ai tiri salvezza.</p>"
+      "description": "<p><em>Oggetto meraviglioso, (richiede sintonia)</em></p><p>Finché il personaggio porta quest’agata levigata sulla sua persona, ottiene un bonus di +1 alle prove di caratteristica e ai tiri salvezza.</p>",
+      "effects": {
+        "TghMVbmFnR0t0AoP": {
+          "name": "Pietra della Buona Fortuna"
+        }
+      }
     },
     "Studded Leather Armor": {
       "name": "Armatura in Cuoio Borchiato",
@@ -3920,7 +4060,12 @@
     },
     "Truth Serum": {
       "name": "Siero della Verità",
-      "description": "<p><em>(ingerito)</em></p>\n<p>Una creatura sottoposta a questo veleno deve riuscire in un <strong>Tiro Salvezza su Costituzione con CD 11</strong> o diventare @Compendium[dnd5e.rules.Avvelenato]{Avvelenata} per <strong>1 ora</strong>. La creatura @Compendium[dnd5e.rules.Avvelenato]{Avvelenata} non può dire consapevolmente una bugia, come se fosse sotto l'effetto dell'incantesimo @Compendium[dnd5e.spells.Zona di Verità].</p>"
+      "description": "<p><em>(ingerito)</em></p>\n<p>Una creatura sottoposta a questo veleno deve riuscire in un <strong>Tiro Salvezza su Costituzione con CD 11</strong> o diventare @Compendium[dnd5e.rules.Avvelenato]{Avvelenata} per <strong>1 ora</strong>. La creatura @Compendium[dnd5e.rules.Avvelenato]{Avvelenata} non può dire consapevolmente una bugia, come se fosse sotto l'effetto dell'incantesimo @Compendium[dnd5e.spells.Zona di Verità].</p>",
+      "effects": {
+        "XJxOfIIj9oraLfCb": {
+          "name": "Non Può Mentire"
+        }
+      }
     },
     "Two-Person Tent": {
       "name": "Tenda",
@@ -4132,6 +4277,11 @@
         "zj1bSgRYmMvM3xaO": {
           "name": "Cono di Paura"
         }
+      },
+      "effects": {
+        "pC15uqif0tfmdlvY": {
+          "name": "Terrorizzato"
+        }
       }
     },
     "Wand of Fireballs": {
@@ -4156,6 +4306,11 @@
       "activities": {
         "Nz0tgKO1NqwN8vhb": {
           "name": "Raggio Paralizzante"
+        }
+      },
+      "effects": {
+        "lgD1h0ioOsqz6jK8": {
+          "name": "Paralisi"
         }
       }
     },
@@ -4214,15 +4369,30 @@
     },
     "Wand of the War Mage +1": {
       "name": "Bacchetta del Mago da Guerra +1",
-      "description": "<p><em>(Richiede sintonia con un incantatore)</em></p><p>Finch&eacute; il personaggio impugna questa bacchetta, riceve un bonus ai tiri per colpire con incantesimo di +1. Il personaggio pu&ograve; inoltre ignorare met&agrave; copertura quando effettua un attacco con incantesimo.</p>"
+      "description": "<p><em>(Richiede sintonia con un incantatore)</em></p><p>Finch&eacute; il personaggio impugna questa bacchetta, riceve un bonus ai tiri per colpire con incantesimo di +1. Il personaggio pu&ograve; inoltre ignorare met&agrave; copertura quando effettua un attacco con incantesimo.</p>",
+      "effects": {
+        "L2JsUOPt6kCEVZHT": {
+          "name": "Precisione del Mago da Guerra +1"
+        }
+      }
     },
     "Wand of the War Mage +2": {
       "name": "Bacchetta del Mago da Guerra +2",
-      "description": "<p><em>(Richiede sintonia con un incantatore)</em></p><p>Finché il personaggio impugna questa bacchetta, riceve un bonus ai tiri per colpire con incantesimo di +2. Il personaggio può inoltre ignorare metà copertura quando effettua un attacco con incantesimo.</p>"
+      "description": "<p><em>(Richiede sintonia con un incantatore)</em></p><p>Finché il personaggio impugna questa bacchetta, riceve un bonus ai tiri per colpire con incantesimo di +2. Il personaggio può inoltre ignorare metà copertura quando effettua un attacco con incantesimo.</p>",
+      "effects": {
+        "s8wl3gTptLVyPcsW": {
+          "name": "Precisione del Mago da Guerra +2"
+        }
+      }
     },
     "Wand of the War Mage +3": {
       "name": "Bacchetta del Mago da Guerra +3",
-      "description": "<p><em>(Richiede sintonia con un incantatore)</em></p><p>Finch&eacute; il personaggio impugna questa bacchetta, riceve un bonus ai tiri per colpire con incantesimo di +3. Il personaggio pu&ograve; inoltre ignorare met&agrave; copertura quando effettua un attacco con incantesimo.</p>"
+      "description": "<p><em>(Richiede sintonia con un incantatore)</em></p><p>Finch&eacute; il personaggio impugna questa bacchetta, riceve un bonus ai tiri per colpire con incantesimo di +3. Il personaggio pu&ograve; inoltre ignorare met&agrave; copertura quando effettua un attacco con incantesimo.</p>",
+      "effects": {
+        "57wol3ftCtHAGwV5": {
+          "name": "Precisione del Mago da Guerra +3"
+        }
+      }
     },
     "War Pick": {
       "name": "Piccone da Guerra",
@@ -4498,6 +4668,9 @@
       "effects": {
         "2Q62v3BF8Ofb1koU": {
           "name": "Avvelenato"
+        },
+        "dV49mks4cT9d5vxg": {
+          "name": "Avvelenato e Privo di Sensi"
         }
       }
     },
@@ -4542,6 +4715,22 @@
       "activities": {
         "dnd5eactivity000": {
           "name": "Esplosione"
+        }
+      }
+    },
+    "9HhPykgxpzgHjfak": {
+      "_id": "9HhPykgxpzgHjfak",
+      "effects": {
+        "n2M4VewapvHOC4q1": {
+          "name": "Avvelenato e Privo di Sensi"
+        }
+      }
+    },
+    "0R4VzaAY99facLlm": {
+      "_id": "0R4VzaAY99facLlm",
+      "effects": {
+        "MZS6EZWckpKRqLp1": {
+          "name": "Avvelenato e Privo di Sensi"
         }
       }
     }
