@@ -2663,6 +2663,38 @@
         },
         {
           "pack": "items",
+          "id": "Xbq8CyXSRV358SfP",
+          "name": "Oil of Etherealness",
+          "sourcePath": "items/potion/oil-of-etherealness.yml",
+          "lookupKey": "Oil of Etherealness",
+          "matchedLookupKey": "Oil of Etherealness"
+        },
+        {
+          "pack": "items",
+          "id": "C0MNXWA81ufzGlp5",
+          "name": "Oil of Sharpness",
+          "sourcePath": "items/potion/oil-of-sharpness.yml",
+          "lookupKey": "Oil of Sharpness",
+          "matchedLookupKey": "Oil of Sharpness"
+        },
+        {
+          "pack": "items",
+          "id": "FIDyR0kZnxGy7bj8",
+          "name": "Oil of Slipperiness",
+          "sourcePath": "items/potion/oil-of-slipperiness.yml",
+          "lookupKey": "Oil of Slipperiness",
+          "matchedLookupKey": "Oil of Slipperiness"
+        },
+        {
+          "pack": "items",
+          "id": "63nb14yQRJMc4bIn",
+          "name": "Philter of Love",
+          "sourcePath": "items/potion/philter-of-love.yml",
+          "lookupKey": "Philter of Love",
+          "matchedLookupKey": "Philter of Love"
+        },
+        {
+          "pack": "items",
           "id": "zgZkJAyFAfYmyn11",
           "name": "Potion of Acid Resistance",
           "sourcePath": "items/potion/potion-of-acid-resistance.yml",
@@ -2916,6 +2948,14 @@
           "sourcePath": "items/potion/potion-of-water-breathing.yml",
           "lookupKey": "Potion of Water Breathing",
           "matchedLookupKey": "Potion of Water Breathing"
+        },
+        {
+          "pack": "items",
+          "id": "VmcgAIsRCyrjBguC",
+          "name": "Restorative Ointment",
+          "sourcePath": "items/potion/restorative-ointment.yml",
+          "lookupKey": "Restorative Ointment",
+          "matchedLookupKey": "Restorative Ointment"
         },
         {
           "pack": "items",
@@ -6993,221 +7033,6 @@
               "message": "Foundry formulas differ from source",
               "pack": "items",
               "id": "2ksm2KXCY3vBHTAx",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "Xbq8CyXSRV358SfP",
-          "name": "Oil of Etherealness",
-          "sourcePath": "items/potion/oil-of-etherealness.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Oil of Etherealness",
-          "matchedLookupKey": "Oil of Etherealness",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "Xbq8CyXSRV358SfP",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "Xbq8CyXSRV358SfP",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "items",
-              "id": "Xbq8CyXSRV358SfP",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "Xbq8CyXSRV358SfP",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-data-references",
-              "severity": "blocking",
-              "message": "Foundry data references differ from source",
-              "pack": "items",
-              "id": "Xbq8CyXSRV358SfP",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "C0MNXWA81ufzGlp5",
-          "name": "Oil of Sharpness",
-          "sourcePath": "items/potion/oil-of-sharpness.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Oil of Sharpness",
-          "matchedLookupKey": "Oil of Sharpness",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "C0MNXWA81ufzGlp5",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "C0MNXWA81ufzGlp5",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "C0MNXWA81ufzGlp5",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-data-references",
-              "severity": "blocking",
-              "message": "Foundry data references differ from source",
-              "pack": "items",
-              "id": "C0MNXWA81ufzGlp5",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "FIDyR0kZnxGy7bj8",
-          "name": "Oil of Slipperiness",
-          "sourcePath": "items/potion/oil-of-slipperiness.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Oil of Slipperiness",
-          "matchedLookupKey": "Oil of Slipperiness",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "FIDyR0kZnxGy7bj8",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "FIDyR0kZnxGy7bj8",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "items",
-              "id": "FIDyR0kZnxGy7bj8",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "FIDyR0kZnxGy7bj8",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-data-references",
-              "severity": "blocking",
-              "message": "Foundry data references differ from source",
-              "pack": "items",
-              "id": "FIDyR0kZnxGy7bj8",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "63nb14yQRJMc4bIn",
-          "name": "Philter of Love",
-          "sourcePath": "items/potion/philter-of-love.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Philter of Love",
-          "matchedLookupKey": "Philter of Love",
-          "diagnostics": [
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "63nb14yQRJMc4bIn",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-data-references",
-              "severity": "blocking",
-              "message": "Foundry data references differ from source",
-              "pack": "items",
-              "id": "63nb14yQRJMc4bIn",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "VmcgAIsRCyrjBguC",
-          "name": "Restorative Ointment",
-          "sourcePath": "items/potion/restorative-ointment.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Restorative Ointment",
-          "matchedLookupKey": "Restorative Ointment",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "VmcgAIsRCyrjBguC",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "VmcgAIsRCyrjBguC",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "VmcgAIsRCyrjBguC",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-formulas",
-              "severity": "blocking",
-              "message": "Foundry formulas differ from source",
-              "pack": "items",
-              "id": "VmcgAIsRCyrjBguC",
               "fieldPath": "system.description.value"
             }
           ]

@@ -2304,7 +2304,7 @@
     },
     "Oil of Etherealness": {
       "name": "Olio di Forma Eterea",
-      "description": "<p><em>Le bolle di questo olio grigio nuvoloso si formano all'esterno del suo contenitore ed evaporano rapidamente.</em><em>&nbsp;&nbsp;</em></p><p>Una dose di olio &egrave; sufficiente a ricoprire una creatura di taglia Media o inferiore, e l&rsquo;equipaggiamento che indossa e trasporta (&egrave; necessaria un&rsquo;ulteriore fiala per ogni categoria di taglia sopra la Media). Applicare l&rsquo;olio richiede 10 minuti. Dopodich&eacute; la creatura ottiene l&rsquo;effetto dell&rsquo;incantesimo <strong>Forma Eterea</strong> per 1 ora.&nbsp;</p>",
+      "description": "<p><em>All'esterno del contenitore si formano gocce di questo olio grigio e torbido, che evaporano rapidamente.</em></p><p>L'olio può ricoprire una creatura di taglia Media o inferiore, insieme all'equipaggiamento che indossa e trasporta (è necessaria una fiala aggiuntiva per ogni categoria di taglia superiore alla Media). Applicare l'olio richiede [[lookup @labels.activation activity=xb8qrLDAQhKFA9MD]]. La creatura influenzata ottiene quindi l'effetto dell'incantesimo @UUID[Compendium.dnd5e.spells.Item.PQuEgKyCdovOvhqN]{forma eterea} per [[lookup @labels.duration activity=xb8qrLDAQhKFA9MD]].</p>",
       "effects": {
         "LajiYiJL7B2TZLUZ": {
           "name": "Forma Eterea",
@@ -2323,7 +2323,7 @@
     },
     "Oil of Sharpness": {
       "name": "Olio di Affilatezza",
-      "description": "<p><em>Questo olio limpido e gelatinoso brilla di minuscoli frammenti d'argento ultrasottili.</em></p><div title=\"Page 26\"><div><div><p>Quest’olio può ricoprire un’arma tagliente o perforante o fino a 5 munizioni taglienti o perforanti. Applicare l’olio richiede 1 minuto. Per 1 ora, l’arma ricoperta dall’olio è magica e ha un bonus di +3 ai tiri per colpire e danno.</p></div></div></div>",
+      "description": "<p><em>Questo olio limpido e gelatinoso scintilla di minuscole schegge d'argento sottilissime.</em></p><p>L'olio può ricoprire un'arma tagliente o perforante, oppure fino a 5 munizioni taglienti o perforanti. Applicare l'olio richiede [[lookup @labels.activation activity=cT06cj9LC81wNski]]. Per [[lookup @labels.duration activity=cT06cj9LC81wNski]], l'oggetto ricoperto è magico e dispone di un bonus di +3 ai tiri per colpire e per i danni.</p>",
       "activities": {
         "cT06cj9LC81wNski": {
           "name": "Applica Olio all'Arma"
@@ -2349,7 +2349,7 @@
     },
     "Oil of Slipperiness": {
       "name": "Olio di Scivolosità",
-      "description": "<p><em>Questo unguento nero appiccicoso è spesso e pesante nel contenitore, ma scorre rapidamente quando viene versato.</em></p><div title=\"Page 26\"><div><div><p>L’olio può coprire una creatura di taglia Media o inferiore, insieme a tutto l’equipaggiamento che indossa o trasporta (è necessaria un’ulteriore fiala per ogni categoria di taglia sopra la Media). Applicare l’olio richiede 10 minuti. La creatura ottiene poi il beneficio dell’incantesimo libertà di movimento per 8 ore.<br>In alternativa, con un’azione si può versare l’olio sul terreno, duplicando per 8 ore l’effetto dell’incantesimo <strong>Unto</strong> su quell’area.</p></div></div></div>",
+      "description": "<p><em>Questo unguento nero e appiccicoso è denso e pesante nel contenitore, ma scorre rapidamente quando viene versato.</em></p><p>L'olio può ricoprire una creatura di taglia Media o inferiore, insieme all'equipaggiamento che indossa e trasporta (è necessaria una fiala aggiuntiva per ogni categoria di taglia superiore alla Media). Applicare l'olio richiede [[lookup @labels.activation activity=OMSMC85UR5All9Vz]]. La creatura influenzata ottiene quindi l'effetto di un incantesimo @UUID[Compendium.dnd5e.spells.Item.da0a1t2FqaTjRZGT]{libertà di movimento} per [[lookup @labels.duration activity=OMSMC85UR5All9Vz]].</p><p>In alternativa, l'olio può essere versato sul terreno come azione, dove ricopre un quadrato con lato di 3 metri, duplicando in quell'area l'effetto dell'incantesimo @UUID[Compendium.dnd5e.spells.Item.etgcR9wqmrhyZ0tx]{unto} per 8 ore.</p>",
       "activities": {
         "OMSMC85UR5All9Vz": {
           "name": "Applica Olio",
@@ -2439,7 +2439,7 @@
     },
     "Philter of Love": {
       "name": "Filtro d'Amore",
-      "description": "<p><em>Il liquido effervescente color rosa di questa pozione ribolle di cristalli a forma di cuore.</em></p><p>Resterai affascinato per 1 ora dalla prima creatura che vedrai entro 10 minuti da quando avrai bevuto questo filtro. Se la creatura è di una specie o genere da cui sei normalmente attratto, finchè sei affascinato la considererai il tuo unico e grande amore.</p>",
+      "description": "<p><em>Il liquido effervescente color rosa di questa pozione contiene un'unica bolla a forma di cuore, facile da non notare.</em></p><p>La prossima volta che vedi una creatura entro 10 minuti da quando hai bevuto questo filtro, diventi &amp;reference[charmed] da quella creatura per [[lookup @labels.duration activity=PQa875kavCObYkw7]]. Se la creatura appartiene a una specie e a un genere da cui sei normalmente attratto, finché sei affascinato la consideri il tuo vero amore.</p>",
       "activities": {
         "PQa875kavCObYkw7": {
           "name": "Bevi"
@@ -3210,7 +3210,7 @@
     },
     "Restorative Ointment": {
       "name": "Unguento Ricostituente",
-      "description": "<p><em>Oggetto meraviglioso</em></p><p>Questo vasetto di vetro del diametro di 7,5 cm contiene 1d4 + 1 dosi di una densa mistura dal vago odore di aloe. Il vasetto e il suo contenuto pesano 250 grammi.</p><p>Usando un'azione &egrave; possibile inghiottire una dose di unguento o spalmarsela sulla pelle. La creatura che la riceve recupera 2d8 + 2 punti ferita, cessa di essere avvelenata ed &egrave; curata da ogni malattia.</p><p><em>Nota di Foundry: le 5 cariche rispecchiano il massimo numero di dosi possibili. </em><em>Allo stesso modo, il prezzo di 600 mo &egrave; calcolato su 120 mo per dose. Regolare entrambi come richiesto</em><em>.</em></p>",
+      "description": "<p>Questo vasetto di vetro, del diametro di 7,5 cm, contiene 1d4 + 1 dosi di una densa mistura dal lieve odore di aloe. Il vasetto e il suo contenuto pesano 250 grammi.</p><p>Come azione, una dose dell'unguento può essere ingerita o applicata sulla pelle. La creatura che la riceve recupera [[/healing activity=gRkokZZM4WWwqjEu]], cessa di essere &amp;reference[poisoned apply=false] ed è guarita da qualsiasi malattia.</p><section id=\"secret-hzyPBoWppRXYnf9A\" class=\"secret foundry-note\"><p><strong>Nota di Foundry</strong></p><p>Le 5 cariche rappresentano il numero massimo possibile di dosi. Analogamente, il prezzo indicativo di 600 mo è calcolato a 120 mo per dose. Modifica entrambi come necessario.</p></section>",
       "activities": {
         "gRkokZZM4WWwqjEu": {
           "name": "Applica Unguento",
