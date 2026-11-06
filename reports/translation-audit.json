@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1744,
+      "translated": 1746,
       "missing": 69,
-      "partial": 578,
+      "partial": 576,
       "review": 70
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 1047,
+      "invariantFailures": 1043,
       "englishResiduals": 72,
       "imperialResiduals": 0
     },
-    "blockingIssues": 7202
+    "blockingIssues": 7198
   },
   "packs": [
     {
@@ -5317,9 +5317,9 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 856,
+          "translated": 858,
           "missing": 0,
-          "partial": 29,
+          "partial": 27,
           "review": 0
         },
         "folders": {
@@ -5333,7 +5333,7 @@
           "total": 2227,
           "translated": 2227,
           "missing": 0,
-          "invariantFailures": 100,
+          "invariantFailures": 96,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
@@ -5860,26 +5860,6 @@
           "sourcePath": "items/trinket/manacles.yml"
         },
         {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "UxkP6FvDzPbsIY6o",
-          "fieldPath": "system.description.value",
-          "name": "Manual of Golems",
-          "sourcePath": "items/trinket/manual-of-golems.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "items",
-          "id": "UxkP6FvDzPbsIY6o",
-          "fieldPath": "system.description.value",
-          "name": "Manual of Golems",
-          "sourcePath": "items/trinket/manual-of-golems.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -5998,26 +5978,6 @@
           "fieldPath": "system.description.value",
           "name": "Talisman of the Sphere",
           "sourcePath": "items/trinket/talisman-of-the-sphere.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "w56FIjFafs2rN6iK",
-          "fieldPath": "system.description.value",
-          "name": "Mace of Smiting",
-          "sourcePath": "items/weapon/mace-of-smiting.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "w56FIjFafs2rN6iK",
-          "fieldPath": "system.description.value",
-          "name": "Mace of Smiting",
-          "sourcePath": "items/weapon/mace-of-smiting.yml"
         },
         {
           "code": "html-tag-sequence",

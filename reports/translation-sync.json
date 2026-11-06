@@ -4415,6 +4415,14 @@
         },
         {
           "pack": "items",
+          "id": "UxkP6FvDzPbsIY6o",
+          "name": "Manual of Golems",
+          "sourcePath": "items/trinket/manual-of-golems.yml",
+          "lookupKey": "Manual of Golems",
+          "matchedLookupKey": "Manual of Golems"
+        },
+        {
+          "pack": "items",
           "id": "Q4jmng3i9Lb2nL5F",
           "name": "Manual of Quickness of Action",
           "sourcePath": "items/trinket/manual-of-quickness-of-action.yml",
@@ -5860,6 +5868,14 @@
           "sourcePath": "items/weapon/mace-of-disruption.yml",
           "lookupKey": "Mace of Disruption",
           "matchedLookupKey": "Mace of Disruption"
+        },
+        {
+          "pack": "items",
+          "id": "w56FIjFafs2rN6iK",
+          "name": "Mace of Smiting",
+          "sourcePath": "items/weapon/mace-of-smiting.yml",
+          "lookupKey": "Mace of Smiting",
+          "matchedLookupKey": "Mace of Smiting"
         },
         {
           "pack": "items",
@@ -7428,33 +7444,6 @@
         },
         {
           "pack": "items",
-          "id": "UxkP6FvDzPbsIY6o",
-          "name": "Manual of Golems",
-          "sourcePath": "items/trinket/manual-of-golems.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Manual of Golems",
-          "matchedLookupKey": "Manual of Golems",
-          "diagnostics": [
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "UxkP6FvDzPbsIY6o",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "items",
-              "id": "UxkP6FvDzPbsIY6o",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
           "id": "lTfo6OVvAY2iJ4oq",
           "name": "Silver Horn of Valhalla",
           "sourcePath": "items/trinket/silver-horn-of-valhalla.yml",
@@ -7578,33 +7567,6 @@
               "message": "Foundry data references differ from source",
               "pack": "items",
               "id": "46ikeR4RrSim6DsN",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "w56FIjFafs2rN6iK",
-          "name": "Mace of Smiting",
-          "sourcePath": "items/weapon/mace-of-smiting.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Mace of Smiting",
-          "matchedLookupKey": "Mace of Smiting",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "w56FIjFafs2rN6iK",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "w56FIjFafs2rN6iK",
               "fieldPath": "system.description.value"
             }
           ]
