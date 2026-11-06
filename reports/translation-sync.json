@@ -211,16 +211,7 @@
           "name": "Identify",
           "sourcePath": "spells/1st-level/identify.yml",
           "lookupKey": "Identify",
-          "matchedLookupKey": "Identify",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore sceglie un oggetto che deve toccare durante il lancio dell'incantesimo. Se si tratta di un oggetto magico o di un altro oggetto infuso di magia, apprende le sue proprietà e come usarlo, se necessita di sintonia per usarlo e quante cariche contiene, se ne contiene. Apprende se l'oggetto è influenzato da eventuali incantesimi e quali essi siano. Se l'oggetto è stato creato da un incantesimo, l'incantatore apprende quale incantesimo l'ha creato.</p><p>Se invece tocca una creatura durante il lancio dell'incantesimo, apprende quali incantesimi influenzano attualmente quella creatura, se ce ne sono.</p>"
-            }
-          ]
+          "matchedLookupKey": "Identify"
         },
         {
           "pack": "spells",
@@ -236,16 +227,7 @@
           "name": "Inflict Wounds",
           "sourcePath": "spells/1st-level/inflict-wounds.yml",
           "lookupKey": "Inflict Wounds",
-          "matchedLookupKey": "Inflict Wounds",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Effettua un attacco incantesimo corpo a corpo contro una creatura che puoi&nbsp;raggiungere. In caso di successo, il bersaglio subisce un danno necrotico di 3d10.</p>\n\n<p><strong>Ai Livelli Superiori.</strong> Quando lanci questa magia usando uno slot incantesimo di 2° livello o superiore, il danno aumenta di 1d10 per ogni livello di slot superiore al 1°.</p>"
-            }
-          ]
+          "matchedLookupKey": "Inflict Wounds"
         },
         {
           "pack": "spells",
@@ -269,16 +251,7 @@
           "name": "Magic Missile",
           "sourcePath": "spells/1st-level/magic-missile.yml",
           "lookupKey": "Magic Missile",
-          "matchedLookupKey": "Magic Missile",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore crea tre dardi lucenti di forza magica. Ogni dardo colpisce una creatura scelta dall'incantatore, situata entro gittata e che egli sia in grado di vedere. Un dardo infligge 1d4 + 1 danni da forza al suo bersaglio. Tutti i dardi colpiscono simultaneamente e l'incantatore può dirigerli per colpire una sola creatura o più creature.</p><p><strong>Ai Livelli Superiori.&nbsp;</strong>Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, l'incantesimo crea un dardo aggiuntivo per ogni slot di livello superiore al 1°.</p>"
-            }
-          ]
+          "matchedLookupKey": "Magic Missile"
         },
         {
           "pack": "spells",
@@ -286,16 +259,7 @@
           "name": "Protection from Evil and Good",
           "sourcePath": "spells/1st-level/protection-from-evil-and-good.yml",
           "lookupKey": "Protection from Evil and Good",
-          "matchedLookupKey": "Protection from Evil and Good",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Finché l'incantesimo non termina, una creatura consenziente toccata dall'incantatore è protetta da certi tipi di creature: aberrazioni, celestiali, elementali, folletti, immondi e non morti.</p>\n\n<p>La protezione conferisce vari benefici. Le creature di quei tipi subiscono svantaggio ai tiri per colpire contro il bersaglio. Inoltre il bersaglio non può essere affascinato, posseduto o spaventato da una di quelle creature. Se il bersaglio è già affascinato, posseduto o spaventato dispone vantaggio al nuovo tiro salvezza contro l'effetto rilevante.</p>"
-            }
-          ]
+          "matchedLookupKey": "Protection from Evil and Good"
         },
         {
           "pack": "spells",
@@ -303,16 +267,7 @@
           "name": "Purify Food and Drink",
           "sourcePath": "spells/1st-level/purify-food-and-drink.yml",
           "lookupKey": "Purify Food and Drink",
-          "matchedLookupKey": "Purify Food and Drink",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Tutti i cibi e le bevande non magici entro una sfera del raggio di 1,5 m centrata su un punto a scelta dell'incantatore entro gittata sono purificati e liberati dai veleni e dalle malattie.</p>"
-            }
-          ]
+          "matchedLookupKey": "Purify Food and Drink"
         },
         {
           "pack": "spells",
@@ -320,16 +275,7 @@
           "name": "Sanctuary",
           "sourcePath": "spells/1st-level/sanctuary.yml",
           "lookupKey": "Sanctuary",
-          "matchedLookupKey": "Sanctuary",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore protegge una creatura situata entro gittata dagli attacchi. Finché l'incantesimo non termina, ogni creatura che bersaglia la creatura protetta con un attacco o un incantesimo che infligge danni deve prima effettuare un tiro salvezza su Saggezza. Se lo fallisce, deve scegliere un nuovo bersaglio o perdere l'attacco. Questo incantesimo non protegge la creatura bersaglio dagli effetti ad area come l'esplosione di una&nbsp;@UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{Palla di Fuoco}.</p><p>Se la creatura protetta effettua un attacco o lancia un incantesimo che influenza una creatura nemica, questo incantesimo termina.</p>"
-            }
-          ]
+          "matchedLookupKey": "Sanctuary"
         },
         {
           "pack": "spells",
@@ -337,16 +283,7 @@
           "name": "Shield of Faith",
           "sourcePath": "spells/1st-level/shield-of-faith.yml",
           "lookupKey": "Shield of Faith",
-          "matchedLookupKey": "Shield of Faith",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "\n<p>Un campo di energia scintillante si materializza attorno a una creatura scelta dall'incantatore entro gittata, conferendole un bonus di +2 alla CA per la durata dell'incantesimo.</p>"
-            }
-          ]
+          "matchedLookupKey": "Shield of Faith"
         },
         {
           "pack": "spells",
@@ -354,16 +291,7 @@
           "name": "Silent Image",
           "sourcePath": "spells/1st-level/silent-image.yml",
           "lookupKey": "Silent Image",
-          "matchedLookupKey": "Silent Image",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore crea l'immagine di un oggetto, una creatura o un altro fenomeno visibile che non sia più grande di un cubo con spigolo di 4,5 metri. L'immagine appare in un punto situato entro gitata e permane per la durata dell'incantesimo. L'immagine è puramente visiva; non è accompagnata da suoni, odori o altri effetti sensoriali.</p><p>L'incantatore può usare la sua azione per fare in modo che l'immagine si muova fino a qualsiasi altro punto entro gittata. Quando l'immagine cambia luogo, l'incantatore può alterare il suo aspetto in modo che il movimento appaia naturale per l'immagine. Per esempio, se crea l'immagine di una creatura e decide di muoverla, può alterare l'immagine in modo che sembri camminare.</p><p>Un'interazione fisica con l'immagine rivela che si tratta di un'illusione, in quanto gli oggetti vi passano attraverso. Una creatura che usa la sua azione per esaminare l'immagine può determinare che si tratta di un'illusione superando una prova di Intelligenza (Indagare) contro la CD del tiro salvezza dell'incantesimo. Se una creatura discerne l'illusione per ciò che è, riesce a vedere attraverso l'immagine.</p>"
-            }
-          ]
+          "matchedLookupKey": "Silent Image"
         },
         {
           "pack": "spells",
@@ -371,16 +299,7 @@
           "name": "Sleep",
           "sourcePath": "spells/1st-level/sleep.yml",
           "lookupKey": "Sleep",
-          "matchedLookupKey": "Sleep",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Questo incantesimo fa in modo che le creature siano vittime di un sonno magico. L'incantatore tira 5d8; il totale ottenuto è l'ammontare di creature in punti ferita che questo incantesimo può influenzare. Le creature entro 6 metri da un punto a scelta dell'incantatore situato entro gittata sono influenzate in ordine crescente dei loro punti ferita (ignorando le creature prive di sensi).</p><p>A partire dalla creatura che possiede meno punti ferita attuali, ogni creatura influenzata da questo incantesimo cade priva di sensi finché l'incantesimo non termina, il dormiente non subisce danni o qualcuno non usa un'azione per scuotere o schiaffeggiare il dormiente per svegliarlo. Si sottraggono i punti ferita di ogni creatura dal totale prima di passare alla creatura con l'ammontare immediatamente superiore di punti ferita. I punti ferita di una creatura devono essere pari o inferiori al totale rimanente affinché quella creatura possa essere influenzata.</p><p>Le creature non morte e quelle immuni all'essere affascinate non sono influenzate da questo incantesimo.</p><p><strong>Ai Livelli Superiori.&nbsp;</strong>Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, tira 2d8 aggiuntivi per ogni slot di livello superiore al 1°.</p>"
-            }
-          ]
+          "matchedLookupKey": "Sleep"
         },
         {
           "pack": "spells",
@@ -388,25 +307,7 @@
           "name": "Speak with Animals",
           "sourcePath": "spells/1st-level/speak-with-animals.yml",
           "lookupKey": "Speak with Animals",
-          "matchedLookupKey": "Speak with Animals",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore ottiene la capacità di comprendere le bestie e comunicare verbalmente con loro per la durata dell'incantesimo. Le conoscenze e la consapevolezza di molte bestie sono limitate alla loro intelligenza, ma l'incantatore può apprendere da loro quanto meno alcune informazioni sui luoghi o sui mostri nelle vicinanze, o su ciò che esse sono in grado di percepire o hanno percepito nell'ultimo giorno. L'incantatore potrebbe anche persuadere una bestia a fargli un piccolo favore, a discrezione del DM.</p>"
-            },
-            {
-              "fieldPath": "effects[5y2fw4tIHJG90LhP].description",
-              "translationPath": [
-                "effects",
-                "5y2fw4tIHJG90LhP",
-                "description"
-              ],
-              "value": "<p>L'incantatore ottiene la capacità di comprendere le bestie e comunicare verbalmente con loro per la durata dell'incantesimo. Le conoscenze e la consapevolezza di molte bestie sono limitate alla loro intelligenza, ma l'incantatore può apprendere da loro quanto meno alcune informazioni sui luoghi o sui mostri nelle vicinanze, o su ciò che esse sono in grado di percepire o hanno percepito nell'ultimo giorno. L'incantatore potrebbe anche persuadere una bestia a fargli un piccolo favore, a discrezione del DM.</p>"
-            }
-          ]
+          "matchedLookupKey": "Speak with Animals"
         },
         {
           "pack": "spells",
@@ -414,16 +315,7 @@
           "name": "Unseen Servant",
           "sourcePath": "spells/1st-level/unseen-servant.yml",
           "lookupKey": "Unseen Servant",
-          "matchedLookupKey": "Unseen Servant",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Questo incantesimo crea una forza invisibile, amorfa e priva di volontà propria che svolge i compiti più semplici su ordine dell'incantatore finché l'incantesimo non termina. Il servitore si materializza sul terreno, in uno spazio libero entro gittata. Possiede CA 10, 1 punto ferita, una Forza pari a 2 e non può attaccare. Se scende a 0 punti ferita, l'incantesimo termina.</p><p>Una volta in ogni suo turno, come azione bonus, l'incantatore può ordinare mentalmente al servitore di muoversi fino a 4,5 metri e di interagire con un oggetto. Il servitore può effettuare compiti semplici come portare oggetti, pulire, riparare, ripiegare abiti, accendere fuochi, servire pietanze, versare vino e così via. Una volta impartito l'ordine, il servitore svolge il compito al meglio delle sue capacità finché non lo porta a termine, poi attende il comando successivo dell'incantatore.</p><p>Se l'incantatore ordina al servitore di svolgere un compito che lo porterebbe a più di 18 metri da lui, l'incantesimo termina.</p>"
-            }
-          ]
+          "matchedLookupKey": "Unseen Servant"
         },
         {
           "pack": "spells",
@@ -599,16 +491,7 @@
           "name": "Invisibility",
           "sourcePath": "spells/2nd-level/invisibility.yml",
           "lookupKey": "Invisibility",
-          "matchedLookupKey": "Invisibility",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Una creatura toccata dall'incantatore diventa invisibile finché l'incantesimo non termina. Anche tutto ciò che il bersaglio indossa o trasporta diventa invisibile finché rimane sulla sua persona. L'incantesimo termina per un bersaglio quando quel bersaglio attacca o lancia un incantesimo.</p><p><strong>Ai Livelli Superiori.&nbsp;</strong>Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 3° livello o superiore, può bersagliare una creatura aggiuntiva per ogni slot di livello superiore al 2°.</p>"
-            }
-          ]
+          "matchedLookupKey": "Invisibility"
         },
         {
           "pack": "spells",
@@ -617,6 +500,57 @@
           "sourcePath": "spells/2nd-level/lesser-restoration.yml",
           "lookupKey": "Lesser Restoration",
           "matchedLookupKey": "Lesser Restoration"
+        },
+        {
+          "pack": "spells",
+          "id": "MRxldJd6C4bsBo3O",
+          "name": "Levitate",
+          "sourcePath": "spells/2nd-level/levitate.yml",
+          "lookupKey": "Levitate",
+          "matchedLookupKey": "Levitate",
+          "repairs": [
+            {
+              "fieldPath": "system.description.value",
+              "translationPath": [
+                "description"
+              ],
+              "value": "<p>Una creatura o un oggetto a scelta dell'incantatore, situato entro gittata e che egli sia in grado di vedere, si solleva verticalmente fino a 6 metri e rimane sospeso lassù per la durata dell'incantesimo. L'incantesimo può far levitare un bersaglio che pesa fino a 250 kg. Una creatura non consenziente che supera un tiro salvezza su Costituzione non subisce l'effetto dell'incantesimo</p><p>Il bersaglio può muoversi soltanto spingendosi o aggrappandosi a un oggetto fisso o a una superficie entro portata (come per esempio una parete o un soffitto), che gli permette di muoversi come se stesse scalando quella superficie. L'incantatore può variare l'altitudine del bersaglio di un massimo di 6 metri in ogni direzione nel proprio turno. Se il bersaglio è l'incantatore stesso, egli può muoversi su o giù come parte del suo movimento. Altrimenti può usare la sua azione per muovere il bersaglio, che deve rimanere entro gittata.</p><p>Quando l'incantesimo termina, il bersaglio scende dolcemente fluttuando fino a terra, se era ancora sospeso.</p>"
+            }
+          ]
+        },
+        {
+          "pack": "spells",
+          "id": "Iv2qqSAT7OkXKPFx",
+          "name": "Locate Animals or Plants",
+          "sourcePath": "spells/2nd-level/locate-animals-or-plants.yml",
+          "lookupKey": "Locate Animals or Plants",
+          "matchedLookupKey": "Locate Animals or Plants",
+          "repairs": [
+            {
+              "fieldPath": "system.description.value",
+              "translationPath": [
+                "description"
+              ],
+              "value": "<p>L'incantatore descrive o nomina un tipo specifico di bestia o vegetale. Concentrandosi sulla voce della natura che echeggia attorno a lui, apprende la direzione e la distanza fino alla creatura o al vegetale di quel tipo più vicino entro 7,5 km, se ne è presente almeno uno.</p>"
+            }
+          ]
+        },
+        {
+          "pack": "spells",
+          "id": "SleYkHovQ8NagmeV",
+          "name": "Locate Object",
+          "sourcePath": "spells/2nd-level/locate-object.yml",
+          "lookupKey": "Locate Object",
+          "matchedLookupKey": "Locate Object",
+          "repairs": [
+            {
+              "fieldPath": "system.description.value",
+              "translationPath": [
+                "description"
+              ],
+              "value": "<p>L'incantatore descrive o nomina un oggetto a lui familiare. Percepisce la direzione dell'ubicazione di quell'oggetto purché esso si trovi entro 300 metri da lui. Se l'oggetto è in movimento, l'incantatore sa in che direzione di muove.</p><p>L'incantesimo può localizzare un oggetto specifico noto all'incantatore, purché l'incantatore abbia visto tale oggetto da vicino (entro 9 metri) almeno una volta. In alternativa, l'incantesimo può localizzare l'oggetto più vicino di un tipo particolare, come un certo tipo di veste, gioiello, mobile, strumento o arma.</p><p>Questo incantesimo non può localizzare un oggetto se una cortina di piombo di qualsiasi spessore, anche una sottile lamina, blocca il percorso diretto tra l'incantatore e l'oggetto.</p>"
+            }
+          ]
         },
         {
           "pack": "spells",
@@ -640,16 +574,7 @@
           "name": "Misty Step",
           "sourcePath": "spells/2nd-level/misty-step.yml",
           "lookupKey": "Misty Step",
-          "matchedLookupKey": "Misty Step",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "\n<p>L'incantatore è avvolto per un istante da una foschia argentata e si teletrasporta di un massimo di 9 metri fino a uno spazio libero che egli sia in grado di vedere.</p>"
-            }
-          ]
+          "matchedLookupKey": "Misty Step"
         },
         {
           "pack": "spells",
@@ -665,16 +590,7 @@
           "name": "Pass without Trace",
           "sourcePath": "spells/2nd-level/pass-without-trace.yml",
           "lookupKey": "Pass without Trace",
-          "matchedLookupKey": "Pass without Trace",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore è avvolto da un velo d'ombra e di silenzio che impedisce a lui e ai suoi compagni di essere individuati. Per la durata dell'incantesimo, ogni creatura da lui scelta e situata entro 9 metri da lui (incluso sé stesso) ottiene un bonus di +10 alle prove di Destrezza (Furtività) e le sue tracce sono impossibili da seguire se non tramite mezzi magici. Una creatura che riceve questo bonus non lascia impronte o altre tracce del suo passaggio</p>"
-            }
-          ]
+          "matchedLookupKey": "Pass without Trace"
         },
         {
           "pack": "spells",
@@ -682,14 +598,39 @@
           "name": "Prayer of Healing",
           "sourcePath": "spells/2nd-level/prayer-of-healing.yml",
           "lookupKey": "Prayer of Healing",
-          "matchedLookupKey": "Prayer of Healing",
+          "matchedLookupKey": "Prayer of Healing"
+        },
+        {
+          "pack": "spells",
+          "id": "MAxM77CDUu8dgIRQ",
+          "name": "Protection from Poison",
+          "sourcePath": "spells/2nd-level/protection-from-poison.yml",
+          "lookupKey": "Protection from Poison",
+          "matchedLookupKey": "Protection from Poison",
           "repairs": [
             {
               "fieldPath": "system.description.value",
               "translationPath": [
                 "description"
               ],
-              "value": "<p>Fino a sei creature scelte dall'incantatore, situate entro gittata e che egli sia in grado di vedere, recuperano un ammontare di punti ferita a testa pari a 2d8 + il modificatore di caratteristica da incantatore. Questo incantesimo non ha effetto su costrutti o sui non morti.</p><p><strong>Ai Livelli Successivi.&nbsp;</strong>Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 3&deg; livello o superiore, la guarigione aumenta di 1d8 per ogni slot di livello superiore al 2&deg;.</p>"
+              "value": "<p>L'incantatore tocca una creatura, se quella creatura è avvelenata il veleno è neutralizzato. Se il bersaglio è afflitto da più veleni, l'incantatore neutralizza un veleno di cui conosce la presenza, oppure ne neutralizza uno a caso.</p>\n\n<p>Per la durata dell'incantesimo, il bersaglio dispone di vantaggio ai tiri salvezza per non essere avvelenato e di resistenza ai danni da veleno.</p>"
+            }
+          ]
+        },
+        {
+          "pack": "spells",
+          "id": "ap4dmtshjEbwU3Ts",
+          "name": "Rope Trick",
+          "sourcePath": "spells/2nd-level/rope-trick.yml",
+          "lookupKey": "Rope Trick",
+          "matchedLookupKey": "Rope Trick",
+          "repairs": [
+            {
+              "fieldPath": "system.description.value",
+              "translationPath": [
+                "description"
+              ],
+              "value": "<p>L'incantatore tocca un pezzo di corda di una lunghezza massima di 18 metri. Un'estremità della corda sale in aria finché essa non pende perpendicolarmente al terreno. All'estremità superiore della corda si apre un'entrata invisibile verso uno spazio extradimensionale che permane finché l'incantesimo non termina.</p>\n<p>È possibile raggiungere lo spazio extradimensionale arrampicandosi in cima alla corda. Lo spazio può contenere un massimo di otto creature di taglia Media o inferiore.. La corda può essere ritratta all'interno dello spazio, nel qual caso sparirà dalla vista di chi osserva all'esterno dello spazio.</p>\n<p>Gli attacchi e gli incantesimi non possono attraversare in entrata o in uscita lo spazio extradimensionale, ma coloro che si trovano all'interno possono vedere all'esterno come se osservassero da una finestra di 90 cm per 1,5 m centrata sulla corda.</p>\n<p>Tutto ciò che si trova all'interno dello spazio extradimensionale cade all'esterno quando l'incantesimo termina.</p>"
             }
           ]
         },
@@ -699,16 +640,7 @@
           "name": "Scorching Ray",
           "sourcePath": "spells/2nd-level/scorching-ray.yml",
           "lookupKey": "Scorching Ray",
-          "matchedLookupKey": "Scorching Ray",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore crea tre raggi di fuoco e li scaglia contro uno o più bersagli entro gittata.</p>\n<p>L'incantatore effettua un attacco a distanza con questo incantesimo per ogni raggio. Se colpisce, il bersaglio subisce 2d6 danni da fuoco.</p>\n\n<p><strong>Ai Livelli Superiori.&nbsp;</strong>Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 3° livello o superiore, crea un raggio aggiuntivo per ogni slot di livello superiore al 2°.</p>"
-            }
-          ]
+          "matchedLookupKey": "Scorching Ray"
         },
         {
           "pack": "spells",
@@ -716,25 +648,7 @@
           "name": "See Invisibility",
           "sourcePath": "spells/2nd-level/see-invisibility.yml",
           "lookupKey": "See Invisibility",
-          "matchedLookupKey": "See Invisibility",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Per la durata dell'incantesimo, l'incantatore vede le creature e gli oggetti invisibili come se fossero visibili e può vedere sul Piano Etereo. Le creature e gli oggetti eterei appaiono spettrali e trasparenti.</p>"
-            },
-            {
-              "fieldPath": "effects[3omf4AjcV8DOMCgO].description",
-              "translationPath": [
-                "effects",
-                "3omf4AjcV8DOMCgO",
-                "description"
-              ],
-              "value": "<p>Per la durata dell'incantesimo, l'incantatore vede le creature e gli oggetti invisibili come se fossero visibili e può vedere sul Piano Etereo. Le creature e gli oggetti eterei appaiono spettrali e trasparenti.</p>"
-            }
-          ]
+          "matchedLookupKey": "See Invisibility"
         },
         {
           "pack": "spells",
@@ -742,16 +656,7 @@
           "name": "Shatter",
           "sourcePath": "spells/2nd-level/shatter.yml",
           "lookupKey": "Shatter",
-          "matchedLookupKey": "Shatter",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Un rumore improvviso e assordante, dolorosamente intenso, si diffonde da un punto a scelta dell'incantatore situato entro gittata. Ogni creatura entro una sfera del raggio di 3 metri centrata su quel punto deve effettuare un tiro salvezza su Costituzione. Se lo fallisce, subisce 3d8 danni da tuono, mentre se lo supera, subisce soltanto la met&agrave; di quei danni. Una creatura fatta di materiale inorganico come pietra, cristallo o metallo subisce svantaggio a questo tiro salvezza.</p><p>Anche un oggetto non magico che non sia indossato o trasportato subisce i danni se si trova entro l'area dell'incantesimo.</p><p><strong>Ai Livelli Superiori.&nbsp;</strong>Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 3&deg; livello o superiore, i danni aumentano di 1d8 per ogni slot di livello superiore al 2&deg;.</p>"
-            }
-          ]
+          "matchedLookupKey": "Shatter"
         },
         {
           "pack": "spells",
@@ -759,14 +664,22 @@
           "name": "Silence",
           "sourcePath": "spells/2nd-level/silence.yml",
           "lookupKey": "Silence",
-          "matchedLookupKey": "Silence",
+          "matchedLookupKey": "Silence"
+        },
+        {
+          "pack": "spells",
+          "id": "KJRVzeMQXPj8Gtyx",
+          "name": "Spider Climb",
+          "sourcePath": "spells/2nd-level/spider-climb.yml",
+          "lookupKey": "Spider Climb",
+          "matchedLookupKey": "Spider Climb",
           "repairs": [
             {
               "fieldPath": "system.description.value",
               "translationPath": [
                 "description"
               ],
-              "value": "<p>L'incantatore genera una sfera del raggio di 6 metri centrata su un punto a sua scelta situato entro gittata. Per la durata dell'incantesimo, nessun suono può essere creato all'interno di quella sfera o attraversarla. Ogni creatura o oggetto interamente all'interno della sfera è immune ai danni da tuono e ogni creatura interamente all'interno della sfera è assordata. All'interno dell'area è impossibile lanciare un incantesimo che includa una componente verbale.</p>"
+              "value": "<p>Finché l'incantesimo non termina, una creatura consenziente toccata dall'incantatore ottiene la capacità di muoversi verticalmente e orizzontalmente sulle pareti e a testa in giù sui soffitti, mantenendo le mani libere. Il bersaglio ottiene inoltre una velocità di scalare pari alla sua velocità base sul terreno.</p>"
             }
           ]
         },
@@ -776,16 +689,7 @@
           "name": "Spike Growth",
           "sourcePath": "spells/2nd-level/spike-growth.yml",
           "lookupKey": "Spike Growth",
-          "matchedLookupKey": "Spike Growth",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Spine e spuntoni nascono dal terreno entro un raggio di 6 metri centrato su un punto situato entro gittata. L'area diventa terreno difficile per la durata dell'incantesimo. Quando una creatura entra nell'area o si muove al suo interno, subisce 2d4 danni perforanti per ogni 1,5 metri di cui si muove.</p><p>La trasformazione del terreno è mimetizzata in modo da sembrare naturale. Ogni creatura che non abbia osservato l'area al momento del lancio dell'incantesimo deve effettuare una prova di Saggezza (Percezione) contro la CD del tiro salvezza dell'incantesimo per riconoscere la pericolosità del terreno prima di entrarvi.</p>"
-            }
-          ]
+          "matchedLookupKey": "Spike Growth"
         },
         {
           "pack": "spells",
@@ -793,16 +697,7 @@
           "name": "Suggestion",
           "sourcePath": "spells/2nd-level/suggestion.yml",
           "lookupKey": "Suggestion",
-          "matchedLookupKey": "Suggestion",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore suggerisce un corso d'azione da intraprendere (limitandosi a una o due frasi) e influenza magicamente una creatura entro gittata e che egli sia in grado di vedere. La creatura deve essere in grado di sentire l'incantatore e di capirlo. Le creature che non possono essere affascinate sono immuni a questo effetto.</p><p>La suggestione deve essere formulata in modo che il corso d'azione appaia ragionevole. Chiedere a una creatura di pugnalarsi, gettarsi su una lancia, immolarsi o compiere altri atti palesemente autolesionistici pone termine all'incantesimo.</p><p>Il bersaglio deve effettuare un tiro salvezza su Saggezza. Se lo fallisce, deve perseguire il corso d'azione descritto dall'incantatore al meglio delle sue capacità. Tale corso d'azione può proseguire per l'intera durata dell'incantesimo. Se l'attività suggerita può essere completata in un periodo di tempo più breve, l'incantesimo termina quando il soggetto completa ciò che gli è stato chiesto di fare. L'incantatore può anche specificare quali condizioni innescheranno un'attività speciale nel corso della durata. Per esempio, potrebbe suggerire che un cavaliere ceda il suo cavallo da guerra al primo mendicante che incontra. Se questa condizione non viene soddisfatta prima che l'incantesimo termini, quell'attività non viene effettuata.</p><p>Se l'incantatore o uno dei suoi compagni infliggono danni al bersaglio, l'incantesimo termina.</p>"
-            }
-          ]
+          "matchedLookupKey": "Suggestion"
         },
         {
           "pack": "spells",
@@ -810,16 +705,7 @@
           "name": "Warding Bond",
           "sourcePath": "spells/2nd-level/warding-bond.yml",
           "lookupKey": "Warding Bond",
-          "matchedLookupKey": "Warding Bond",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Questo incantesimo protegge una creatura consenziente toccata dall’incantatore e crea tra i due un legame mistico che permane finché l’incantesimo non termina. Finché il bersaglio si trova entro 18 metri dall’incantatore, ottiene un bonus di +1 alla CA e ai tiri salvezza e resistenza a tutti i danni. Inoltre, ogni volta che subisce danni, l’incantatore subisce lo stesso ammontare di danni.</p>\n\n<p>L’incantesimo termina se l’incantatore scende a 0 punti ferita, se l’incantatore e il bersaglio si separano per più di 18 metri di distanza o se l’incantesimo viene lanciato di nuovo su una delle creature collegate. Inoltre, l’incantatore può interrompere l’incantesimo con un’azione.</p>"
-            }
-          ]
+          "matchedLookupKey": "Warding Bond"
         },
         {
           "pack": "spells",
@@ -827,14 +713,22 @@
           "name": "Web",
           "sourcePath": "spells/2nd-level/web.yml",
           "lookupKey": "Web",
-          "matchedLookupKey": "Web",
+          "matchedLookupKey": "Web"
+        },
+        {
+          "pack": "spells",
+          "id": "CylBa7jR8DSbo8Z3",
+          "name": "Zone of Truth",
+          "sourcePath": "spells/2nd-level/zone-of-truth.yml",
+          "lookupKey": "Zone of Truth",
+          "matchedLookupKey": "Zone of Truth",
           "repairs": [
             {
               "fieldPath": "system.description.value",
               "translationPath": [
                 "description"
               ],
-              "value": "<p>L'incantatore evoca una massa di spessi e viscosi filamenti di ragnatela in un punto a sua scelta situato entro gittata. Le ragnatele riempiono un cubo con spigolo di 6 metri generato da quel punto per la durata dell'incantesimo. Le ragnatele sono terreno difficile e la loro area &egrave; considerata leggermente oscurata.</p><p>Se le ragnatele non sono ancorate tra due masse solide (per esempio pareti o alberi) o stese su un pavimento, un muro o un soffitto, collassano su s&eacute; stesse e l'incantesimo termina all'inizio del turno successivo dell'incantatore. Le ragnatele stese su una superficie piatta hanno una profondit&agrave; di 1,5 metri.</p><p>Ogni creatura che inizia il suo turno nelle ragnatele o che vi entra durante il proprio turno deve effettuare un tiro salvezza su Destrezza. Se lo fallisce, la creatura &egrave; trattenuta fintanto che rimante tra le ragnatele o finch&eacute; non si libera spezzandole.</p><p>Una creatura trattenuta dalle ragnatele pu&ograve; usare la sua azione per effettuare una prova di Forza contro la CD del tiro salvezza dell'incantesimo. Se ha successo, non &egrave; pi&ugrave; trattenuta.</p><p>Le ragnatele sono infiammabili. Un cubo di ragnatele con spigolo di 1,5 metri brucia in 1 round, infliggendo 2d4 danni da fuoco a ogni creatura che inizi il suo turno tra le fiamme.</p>"
+              "value": "<p>L'incantatore crea una zona magica protetta dagli inganni entro una sfera di raggio di 4,5 metri centrata su un punto a sua scelta situato entro gittata. Finch&eacute; l'incantesimo non termina, una creatura che entra nell'area dell'incantesimo per la prima volta in un turno o vi inizia il proprio turno deve effettuare un tiro di salvezza su Carisma. Se lo fallisce la creatura non pu&ograve; mentire deliberatamente finch&eacute; si trova entro l'area. L'incantatore sa se ogni creatura ha superato o fallito il suo tiro salvezza.</p>\n\n<p>Una creatura influenzata &egrave; consapevole dell'incantesimo e pu&ograve; quindi evitare di rispondere alle domande a cui normalmente risponderebbe mentendo. Una tale creatura pu&ograve; fornire risposte sfuggenti, purch&eacute; rimanga entro i confini della verit&agrave;.</p>"
             }
           ]
         },
@@ -964,16 +858,7 @@
           "name": "Lightning Bolt",
           "sourcePath": "spells/3rd-level/lightning-bolt.yml",
           "lookupKey": "Lightning Bolt",
-          "matchedLookupKey": "Lightning Bolt",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Un fulmine parte dall'incantatore in una direzione a sua scelta, formando una linea lunga 30 metri e larga 1,5 metri. Ogni creatura entro la linea deve effettuare un tiro salvezza su Destrezza. Se lo fallisce subisce 8d6 danni da fulmine, mentre se lo supera, subisce soltanto al metà di quei danni.</p><p>Il fulmine incendia oggetti infiammabili nell'area che non sono indossati o trasportati.</p><p><strong>Ai Livelli Superiori.&nbsp;</strong>Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 4° livello o superiore, i danni aumentano di 1d6 per ogni slot di livello superiore al 3°.</p>"
-            }
-          ]
+          "matchedLookupKey": "Lightning Bolt"
         },
         {
           "pack": "spells",
@@ -981,16 +866,7 @@
           "name": "Major Image",
           "sourcePath": "spells/3rd-level/major-image.yml",
           "lookupKey": "Major Image",
-          "matchedLookupKey": "Major Image",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Crei l&rsquo;immagine di un oggetto, una creatura o qualche altro fenomeno visibile non pi&ugrave; grande di un cubo di 6 metri di spigolo. L&rsquo;immagine appare in un punto a gittata che puoi vedere e vi rimane per la durata dell&rsquo;incantesimo. L&rsquo;immagine sembra completamente reale, e comprende suoni, odori e la temperatura appropriata alla cosa raffigurata. Non puoi generare calore o freddo sufficiente a provocare danni, n&eacute; un suono abbastanza forte da infliggere danno da tuono o assordare una creatura, o un odore che possa far star male una creatura (come il fetore di un troglodita).</p>\n<p>Finch&eacute; resti a gittata dell&rsquo;illusione, puoi usare un&rsquo;azione per far muovere l&rsquo;immagine in qualsiasi altro punto a gittata. Quando l&rsquo;immagine cambia posizione, puoi alterarne l&rsquo;aspetto cos&igrave; che i suoi movimenti appaiano naturali. Per esempio, se crei l&rsquo;immagine di una creatura e la muovi, puoi alterare l&rsquo;immagine in modo che sembri camminare. Allo stesso modo, puoi impiegare l&rsquo;illusione per produrre suoni diversi in momenti diversi, fino a farle portare avanti una conversazione.</p>\n<p>L&rsquo;interazione fisica con l&rsquo;immagine la rivela come illusione, dato che le cose vi passano attraverso. Una creatura che usa la sua azione per esaminare l&rsquo;immagine pu&ograve; determinare che si tratta di un&rsquo;illusione con una prova riuscita di Intelligenza (Indagare) contro la CD del tiro salvezza del tuo incantesimo. Se una creatura riconosce l&rsquo;illusione per quello che &egrave;, la creatura pu&ograve; vedervi attraverso, e per quella creatura tutte le altre qualit&agrave; sensoriali svaniscono.</p>\n\n<p><strong>Ai Livelli Superiori</strong>. Quando lanci questo incantesimo usando uno slot incantesimo di 6&deg; livello o pi&ugrave; alto, l&rsquo;incantesimo dura finch&eacute; non viene dissolto, senza richiedere la tua concentrazione.</p>"
-            }
-          ]
+          "matchedLookupKey": "Major Image"
         },
         {
           "pack": "spells",
@@ -998,16 +874,7 @@
           "name": "Meld into Stone",
           "sourcePath": "spells/3rd-level/meld-into-stone.yml",
           "lookupKey": "Meld into Stone",
-          "matchedLookupKey": "Meld into Stone",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore entra in un oggetto o in una superficie di pietra sufficientemente grande da contenere il suo intero corpo, fondendosi nella pietra assieme a tutto l'equipaggiamento che trasporta per la durata dell'incantesimo. Usando il suo movimento, egli entra nella pietra in un punto che è in grado di toccare. Nulla della sua presenza rimane visibile o individuabile da qualsiasi senso non magico.</p><p>Finché è fuso con la pietra, l'incantatore non può vedere cosa accade all'esterno e ogni prova di Saggezza (Percezione) che effettua per udire suoni subisce svantaggio. L'incantatore rimane cosciente del passaggio del tempo e può lanciare incantesimi su sé stesso finché è fuso nella pietra. Può usare il suo movimento per lasciare la pietra nel punto in cui è entrato, cosa che termina l'incantesimo. Altrimenti, è impossibilitato a muoversi.</p><p>Gli eventuali danni minori inferti alla pietra non feriscono l'incantatore,, ma la sua distruzione parziale o un'alterazione della sua forma (se sufficiente a fare in modo che non contenga più il suo corpo) provoca l'espulsione dell'incantatore e gli infligge 6d6 danni contundenti. La distruzione completa della pietra (o la sua trasmutazione in una sostanza diversa) provoca l'espulsione dell'incantatore e gli infligge 50 danni condundenti. Quando l'incantatore viene espulso, cade a terra prono nello spazio libero più vicino al punti in cui era entrato.</p>"
-            }
-          ]
+          "matchedLookupKey": "Meld into Stone"
         },
         {
           "pack": "spells",
@@ -1015,16 +882,7 @@
           "name": "Plant Growth",
           "sourcePath": "spells/3rd-level/plant-growth.yml",
           "lookupKey": "Plant Growth",
-          "matchedLookupKey": "Plant Growth",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Questo incantesimo incanala vitalit&agrave; nei vegetali di un'area specifica. Esistono due possibili usi dell'incantesimo, mirati a fornire benefici immediati o a lungo termine.</p><p>Se l'incantatore lancia questo incantesimo usando 1 azione, sceglie un punto situato entro gittata. Tutti i vegetali normali entro un raggio di 30 metri centrato su quel punto crescono rigogliosamente fino a formare un groviglio. Una creatura che si muove attraverso quell'area deve spendere 120 cm di movimento per ogni 30 cm di cui si muove.</p><p>L'incantatore pu&ograve; escludere una o pi&ugrave; aree di qualsiasi dimensione all'interno dell'area dell'incantesimo per fare in modo che non ne siano influenzate.</p><p>Se l'incantatore lancia questo incantesimo nell'arco di 8 ore, rende la terra fertile. Tutti i vegetali entro un raggio di 750 metri centrato in un punto situato entro gittata cresceranno rigogliosamente per 1 anno. Al momento del raccolto produrranno il doppio del cibo normale.</p>"
-            }
-          ]
+          "matchedLookupKey": "Plant Growth"
         },
         {
           "pack": "spells",
@@ -1032,16 +890,7 @@
           "name": "Remove Curse",
           "sourcePath": "spells/3rd-level/remove-curse.yml",
           "lookupKey": "Remove Curse",
-          "matchedLookupKey": "Remove Curse",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Al tocco dell'incantatore, tutte le maledizioni che affliggono una creatura o un oggetto terminano. Se l'oggetto è un oggetto magico maledetto, la sua maledizione rimane, ma l'incantesimo spezza la sintonia del suo proprietario con quell'oggetto, consentendogli di rimuoverlo o di scartarlo.</p>"
-            }
-          ]
+          "matchedLookupKey": "Remove Curse"
         },
         {
           "pack": "spells",
@@ -1049,16 +898,7 @@
           "name": "Revivify",
           "sourcePath": "spells/3rd-level/revivify.yml",
           "lookupKey": "Revivify",
-          "matchedLookupKey": "Revivify",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore tocca una creatura morta entro l'ultimo minuto. Quella creatura torna in vita con 1 punto ferita. Questo incantesimo non può riportare in vita una creatura morta di vecchiaia e non può ripristinare le eventuali parti del corpo mancanti.</p>"
-            }
-          ]
+          "matchedLookupKey": "Revivify"
         },
         {
           "pack": "spells",
@@ -1066,14 +906,22 @@
           "name": "Sleet Storm",
           "sourcePath": "spells/3rd-level/sleet-storm.yml",
           "lookupKey": "Sleet Storm",
-          "matchedLookupKey": "Sleet Storm",
+          "matchedLookupKey": "Sleet Storm"
+        },
+        {
+          "pack": "spells",
+          "id": "yqUDoxk4x0NWG5Bz",
+          "name": "Slow",
+          "sourcePath": "spells/3rd-level/slow.yml",
+          "lookupKey": "Slow",
+          "matchedLookupKey": "Slow",
           "repairs": [
             {
               "fieldPath": "system.description.value",
               "translationPath": [
                 "description"
               ],
-              "value": "<p>Finché l'incantesimo non termina, una gelida pioggia di nevischio cade in un cilindro del raggio di 12 metri e alto 6 metri, centrato su un punto a scelta dell'incantatore e situato entro gittata. L'area è pesantemente oscurata e le fiamme scoperte vengono estinte.</p><p>Il terreno entro l'area è coperto di ghiaccio scivoloso e diventa terreno difficile. Quando una creatura entra nell'area dell'incantesimo per la prima volta in un turno o vi inizia il proprio turno, deve effettuare un tiro salvezza su Destrezza. Se lo fallisce, cade a terra prona.</p><p>Se una creatura cerca di concentrarsi nell'area dell'incantesimo, deve superare un tiro salvezza su Costituzione contro la CD del tiro salvezza dell'incantesimo lanciato dall'incantatore, altrimenti perderà la concentrazione.</p>"
+              "value": "<p>L'incantatore altera il tempo attorno a un massimo di sei creature a sua scelta all'interno di un cubo con spigolo di 12 metri situato entro gittata. Ogni bersaglio deve superare un tiro salvezza su Saggezza, altrimenti è influenzato da questo incantesimo per la sua durata.</p><p>Un bersaglio influenzato subisce una penalità di -2 alla CA e ai tiri salvezza su Destrezza, non può usare reazioni e la sua velocità è dimezzata. Nel proprio turno, il bersaglio deve scegliere se usare un'azione o un'azione bonus, ma non entrambe. A prescindere dalle sue capacità e oggetti magici, non può effettuare più di un attacco in mischia o a distanza durante il suo turno.</p><p>Se la creatura tenta di lanciare un incantesimo con un tempo di lancio di 1 azione, deve tirare un d20. Con un risultato pari o superiore a 11, l'incantesimo non ha effetto prima del turno successivo della creatura e quest'ultima deve usare la propria azione di quel turno per completare l'incantesimo.</p><p>Se non può farlo, l'incantesimo va sprecato. Una creatura influenzata da questo incantesimo effettua un altro tiro salvezza alla fine del suo turno. Se lo supera, l'effetto per lei termina.</p>"
             }
           ]
         },
@@ -1083,16 +931,7 @@
           "name": "Speak with Dead",
           "sourcePath": "spells/3rd-level/speak-with-dead.yml",
           "lookupKey": "Speak with Dead",
-          "matchedLookupKey": "Speak with Dead",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore conferisce una parvenza di vita e di intelligenza a un cadavere a sua scelta situato entro gittata, permettendogli di rispondere alle domande che egli gli pone. Il cadavere deve avere ancora una bocca e non deve essere un non morto. L'incantesimo fallisce se il cadavere è già stato il bersaglio di questo incantesimo negli ultimi 10 giorni.</p><p>Finché l'incantesimo non termina, l'incantatore può porre al cadavere un massimo di cinque domande. Il cadavere sa solo quello che sapeva in vita, inclusi i linguaggi che conosceva. Le risposte sono generalmente brevi, criptiche o ripetitive e il cadavere non è obbligato in alcun modo a fornire risposte sincere se l'incantatore gli è ostile o se lo riconosce come nemico. L'incantesimo non riporta l'anima della creatura nel suo corpo, ma soltanto lo spirito animante. Quindi il cadavere non può apprendere nuove informazioni, non conosce nulla di ciò che è accaduto dopo la sua morte e non può speculare sugli eventi futuri.</p>"
-            }
-          ]
+          "matchedLookupKey": "Speak with Dead"
         },
         {
           "pack": "spells",
@@ -1100,14 +939,22 @@
           "name": "Spirit Guardians",
           "sourcePath": "spells/3rd-level/spirit-guardians.yml",
           "lookupKey": "Spirit Guardians",
-          "matchedLookupKey": "Spirit Guardians",
+          "matchedLookupKey": "Spirit Guardians"
+        },
+        {
+          "pack": "spells",
+          "id": "TwlD4PLcltv7Xh7j",
+          "name": "Stinking Cloud",
+          "sourcePath": "spells/3rd-level/stinking-cloud.yml",
+          "lookupKey": "Stinking Cloud",
+          "matchedLookupKey": "Stinking Cloud",
           "repairs": [
             {
               "fieldPath": "system.description.value",
               "translationPath": [
                 "description"
               ],
-              "value": "<p>L'incantatore chiama a s&eacute; degli spiriti che lo proteggano. Gli spiriti fluttuano attorno a lui a una distanza di 4,5 metri per la durata dell'incantesimo. Se l'incantatore &egrave; buono o neutrale, la loro forma spettrale appare angelica o fatata (a scelta dell'incantatore).</p><p>Se &egrave; malvagio, appaiono come immondi. Quando l'incantatore lancia questo incantesimo, pu&ograve; designare un qualsiasi numero di creature che egli sia in grado di vedere, che non ne saranno influenzate. La velocit&agrave; di una creatura influenzata viene dimezzata nell'area, e quando la creatura entra nell'area per la prima volta o vi inizia il proprio turno, deve effettuare un tiro salvezza su Saggezza. Se lo fallisce subisce 3d8 danni radiosi (se l'incantatore &egrave; buono o neutrale) o 3d8 danni necrotici (se &egrave; malvagio), mentre se lo supera, subisce soltanto la met&agrave; di quei danni.</p><p><strong>Ai Livelli Superiori.&nbsp;</strong>Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 4&deg; livello o superiore, i danni aumentano di 1d8 per ogni slot di livello superiore al 3&deg;.</p>"
+              "value": "<p>L'incantatore crea una sfera del raggio di 6 metri composta di gas nauseante giallastro, centrata su un punto situato entro gittata. La nube si diffonde oltre gli angoli e la sua area è pesantemente oscurata. La nube permane nell'area per la durata dell'incantesimo.</p><p>Ogni creatura situata completamente all'interno della nube all'inizio del suo turno deve effettuare un tiro salvezza su Costituzione contro veleno. Se lo fallisce, spende la sua azione di quel turno a vomitare in preda al dolore. Le creature che non hanno bisogno di respirare o sono immuni al veleno superano automaticamente questo tiro salvezza.</p><p>Un vento moderato (almeno 15 km all'ora) disperde la nube dopo 4 round. Un vento forte (almeno 30 km all'ora) la disperde dopo un round.</p>"
             }
           ]
         },
@@ -1121,20 +968,28 @@
         },
         {
           "pack": "spells",
-          "id": "UfHQhA54M4323gVO",
-          "name": "Vampiric Touch",
-          "sourcePath": "spells/3rd-level/vampiric-touch.yml",
-          "lookupKey": "Vampiric Touch",
-          "matchedLookupKey": "Vampiric Touch",
+          "id": "gopnZvS0c2jD5FP8",
+          "name": "Tongues",
+          "sourcePath": "spells/3rd-level/tongues.yml",
+          "lookupKey": "Tongues",
+          "matchedLookupKey": "Tongues",
           "repairs": [
             {
               "fieldPath": "system.description.value",
               "translationPath": [
                 "description"
               ],
-              "value": "<p>Il tocco della mano dell'incantatore, avviluppata in una cortina d'ombra, può risucchiare l'energia vitale delle altre creature per curare le proprie ferite. L'incantatore effettua un attacco in mischia con questo incantesimo contro una creatura entro portata. Se colpisce, il bersaglio subisce 3d6 danni necrotici e l'incantatore recupera un ammontare di punti ferita pari alla metà dei danni necrotici inflitti. Finché l'incantesimo non termina, l'incantatore può effettuare l'attacco di nuovo ogni suo turno con azione</p>\n\n<p><strong>A livelli più alti</strong>. Quando si lancia l'incantesimo usando uno slot incantesimo di 4°livello o superiore, i danni aumentano di 1d6 per ogni slot di livello superiore al 3°</p>"
+              "value": "<p>Questo incantesimo garantisce ad una creatura toccata dall'incantatore l'abilità di comprendere e parlare un linguaggio che sente. Inoltre, quando il bersaglio parla, ogni creatura che conosca almeno un linguaggio e che possa sentire il bersaglio è in grado di comprendere ciò che esso pronuncia.</p>"
             }
           ]
+        },
+        {
+          "pack": "spells",
+          "id": "UfHQhA54M4323gVO",
+          "name": "Vampiric Touch",
+          "sourcePath": "spells/3rd-level/vampiric-touch.yml",
+          "lookupKey": "Vampiric Touch",
+          "matchedLookupKey": "Vampiric Touch"
         },
         {
           "pack": "spells",
@@ -1143,6 +998,23 @@
           "sourcePath": "spells/3rd-level/water-walk.yml",
           "lookupKey": "Water Walk",
           "matchedLookupKey": "Water Walk"
+        },
+        {
+          "pack": "spells",
+          "id": "ew6GA8dJy2spQmFW",
+          "name": "Wind Wall",
+          "sourcePath": "spells/3rd-level/wind-wall.yml",
+          "lookupKey": "Wind Wall",
+          "matchedLookupKey": "Wind Wall",
+          "repairs": [
+            {
+              "fieldPath": "system.description.value",
+              "translationPath": [
+                "description"
+              ],
+              "value": "<p>Un muro di vento forte si solleva dal terreno in un punto a scelta dell'incantatore situato entro gittata. Il muro può essere lungo fino a 15 metri, alto 4,5 metri e spesso 30 cm. L'incantatore può modellare il muro nel modo che preferisce, purché formi un percorso continuo lungo il terreno. Il muro permane per la durata dell'incantesimo.</p><p>Quando il muro appare, ogni creatura entro la sua area deve effettuare un tiro salvezza su Forza. Se lo fallisce, subisce 3d8 danni contundenti, mentre se lo supera, subisce soltanto la metà di quei danni. Il vento forte tiene lontana la nebbia, il fumo e gli altri gas.</p><p>Le creature o gli oggetti volanti di taglia Piccola o inferiore non possono passare attraverso il muro. I materiali leggeri e non fissati in qualche modo volano verso l'alto una volta portati all'interno del muro. Le frecce, i quadrelli e gli altri proiettili ordinari lanciati ai bersagli dietro il muro vengono deviati verso l'alto e mancano automaticamente (i macigni scagliati dai giganti o dalle macchine d'assedio e altri proiettili simili non sono influenzati dal muro). Le creature in forma gassosa non possono attraversare il muro.</p>"
+            }
+          ]
         },
         {
           "pack": "spells",
@@ -1282,6 +1154,23 @@
         },
         {
           "pack": "spells",
+          "id": "gXtzz9t1DTzJeLr4",
+          "name": "Locate Creature",
+          "sourcePath": "spells/4th-level/locate-creature.yml",
+          "lookupKey": "Locate Creature",
+          "matchedLookupKey": "Locate Creature",
+          "repairs": [
+            {
+              "fieldPath": "system.description.value",
+              "translationPath": [
+                "description"
+              ],
+              "value": "<p>L'incantatore descrive o nomina una creatura a lui familiare. Percepisce la direzione dell'ubicazione di quella creatura, purché essa si trovi entro 300 metri da lui. Se la creatura è in movimento, l'incantatore sa in che direzione si muove.</p><p>L'incantesimo può localizzare una creatura specifica nota all'incantatore, o la creatura più vicina di un tipo specifico (come per esempio un umano o un unicorno), purché l'incantatore abbia visto tale creatura da vicino (entro 9 metri) almeno una volta. Se la creatura descritta o nominata dall'incantatore ha una forma diversa, per esempio se si trova sotto l'effetto di un incantesimo&nbsp;@UUID[Compendium.dnd5e.spells.Item.04nMsTWkIFvkbXlY]{Metamorfosi}, questo incantesimo non localizza la creatura.</p><p>Questo incantesimo non può localizzare una creatura se un corso d'acqua largo almeno 3 metri blocca il percorso diretto tra l'incantatore e la creatura.</p>"
+            }
+          ]
+        },
+        {
+          "pack": "spells",
           "id": "BYNvBJzHcF5VJhXw",
           "name": "Phantasmal Killer",
           "sourcePath": "spells/4th-level/phantasmal-killer.yml",
@@ -1290,20 +1179,28 @@
         },
         {
           "pack": "spells",
-          "id": "8sgwRh8NUNkn9Vi0",
-          "name": "Secret Chest",
-          "sourcePath": "spells/4th-level/secret-chest.yml",
-          "lookupKey": "Secret Chest",
-          "matchedLookupKey": "Secret Chest",
+          "id": "04nMsTWkIFvkbXlY",
+          "name": "Polymorph",
+          "sourcePath": "spells/4th-level/polymorph.yml",
+          "lookupKey": "Polymorph",
+          "matchedLookupKey": "Polymorph",
           "repairs": [
             {
               "fieldPath": "system.description.value",
               "translationPath": [
                 "description"
               ],
-              "value": "<p>L'incantatore nasconde uno scrigno e tutti i suoi contenuti sul Piano Etereo. Deve toccare lo scrigno e la riproduzione in miniatura che funge da componente materiale dell'incantesimo. Lo scrigno pu&ograve; contenere fino a 90 x 60 x 60 cm di materiale non vivente.</p><p>Finch&eacute; lo scrigno rimane sul Piano Etereo, l'incantatore pu&ograve; usare un'azione e toccare la riproduzione per richiamare a s&eacute; lo scrigno, che appare a terra, in uno spazio libero entro 1,5 metri dall'incantatore. L'incatatore pu&ograve; rimandare lo scrigno sul Piano Etereo usando un'azione e toccando sia lo scrigno che la riproduzione. Dopo 60 giorni si applica una probabilit&agrave; cumulativa del 5 per cento al giorno che l'effetto dell'incantesimo termini.</p><p>Questo effetto termina se l'incantatore lancia questo incantesimo di nuovo, se la riproduzione pi&ugrave; piccola del forziere viene distrutta o se l'incantatore sceglie di terminare l'incantesimo con un'azione. Se lo scrigno pi&ugrave; grande si trova sul Piano Etereo quando l'incantesimo termina, &egrave; perduto irrimediabilmente.</p>"
+              "value": "<p>Questo incantesimo impartisce una nuova forma a una creatura entro gittata e che l'incantatore sia in grado di vedere. Una creatura non consenziente deve effettuare un tiro salvezza su Saggezza per evitare l'effetto. L'incantesimo non ha effetto su un mutaforma o su una creatura con 0 punti ferita.</p><p>La trasformazione permane per la durata dell'incantesimo o finché il bersaglio non scenda a 0 punti ferita o non muoia. La nuova forma può essere quella di qualsiasi bestia il cui grado di sfida sia pari o inferiore a quello del bersaglio (o al livello del bersaglio, se esso non possiede un grado di sfida). Le statistiche di gioco del bersaglio, inclusi i punteggi di caratteristica mentali, vengono sostituite dalle statistiche della bestia scelta. Il bersaglio mantiene il suo allineamento e la sua personalità.</p><p>Il bersaglio assume i punti ferita della sua nuova forma. Quando torna alla sua forma normale, torna al numero di punti ferita che possedeva prima della trasformazione. Se riassume la sua forma normale per essere sceso a 0 punti ferita, ogni eventuale danno in ecceso si trasferisce alla sua forma normale. Fintanto che i danni in eccesso non portano la forma normale della creatura a 0 punti ferita, essa non cade priva di sensi.</p><p>Le azioni della creatura sono limitate a quelle che la natura della sua nuova forma le consente di effettuare: non può parlare, lanciare incantesimi o effettuare qualsiasi altra azione che richieda l'uso delle mani o della parola.</p><p>L'equipaggiamento del bersaglio si fonde nella nuova forma. La creatura non può attivare, usare o impugnare gli oggetti del suo equipaggiamento, né trarne benefici in altri modi.</p>"
             }
           ]
+        },
+        {
+          "pack": "spells",
+          "id": "8sgwRh8NUNkn9Vi0",
+          "name": "Secret Chest",
+          "sourcePath": "spells/4th-level/secret-chest.yml",
+          "lookupKey": "Secret Chest",
+          "matchedLookupKey": "Secret Chest"
         },
         {
           "pack": "spells",
@@ -1311,16 +1208,7 @@
           "name": "Stone Shape",
           "sourcePath": "spells/4th-level/stone-shape.yml",
           "lookupKey": "Stone Shape",
-          "matchedLookupKey": "Stone Shape",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore tocca un oggetto di pietra di taglia Media o inferiore o una sezione di pietra che non deve essere pi&ugrave; grande di 1,5 metri in ogni dimensione e lo modella nella forma che desidera. Potrebbe per esempio modellare una grossa roccia per realizzare un'arma, un idolo o un forziere, o aprire un piccolo passaggio lungo una parete, purch&eacute; quella parete non sia spessa pi&ugrave; di 1,5 metri. Potrebbe anche modellare una porta di pietra o i suoi stipiti per sigillare la porta. L'oggetto creato dall'incantatore pu&ograve; avere un massimo di due cardini e un coperchio, ma non pu&ograve; essere dotato di meccanismi pi&ugrave; raffinati.</p>"
-            }
-          ]
+          "matchedLookupKey": "Stone Shape"
         },
         {
           "pack": "spells",
@@ -1328,14 +1216,22 @@
           "name": "Stoneskin",
           "sourcePath": "spells/4th-level/stoneskin.yml",
           "lookupKey": "Stoneskin",
-          "matchedLookupKey": "Stoneskin",
+          "matchedLookupKey": "Stoneskin"
+        },
+        {
+          "pack": "spells",
+          "id": "X3DrXgxjwI2dvkD6",
+          "name": "Wall of Fire",
+          "sourcePath": "spells/4th-level/wall-of-fire.yml",
+          "lookupKey": "Wall of Fire",
+          "matchedLookupKey": "Wall of Fire",
           "repairs": [
             {
               "fieldPath": "system.description.value",
               "translationPath": [
                 "description"
               ],
-              "value": "<p>Questo incantesimo rende la carne di una creatura consenziente toccata dall'incantatore dura come la pietra. Finché l'incantesimo non termina, il bersaglio ottiene resistenza ai danni non magici contundenti, perforanti e taglienti.</p>"
+              "value": "<p>L'incantatore crea un muro di fuoco su una superficie solida situata entro gittata. Il muro può essere lungo fino a 18 metri, alto 6 metri e spesso 30 cm, oppure può essere un muro circolare del diametro massimo di 6 metri, alto 6 metri e spesso 30 cm. Il muro è opaco e permane per la durata dell'incantesimo.</p><p>Quando il muro appare, ogni creatura entro la sua area deve effettuare un tiro salvezza su Destrezza. Se lo fallisce, subisce 5d8 danni da fuoco, mentre se lo supera, subisce soltanto la metà di quei danni.</p><p>Un lato del muro, scelto dall'incantatore al momento del lancio di questo incantesimo, infligge 5d8 danni da fuoco a ogni creatura che termina il suo turno entro 3 metri da quel lato o all'interno del muro. Una creatura subisce gli stessi danni quando entra nel muro per la prima volta in un turno o vi termina il proprio turno. L'altro lato del muro non infligge danni.</p><p><strong>Ai Livelli Superiori.</strong> Quando L'incantatore lancia questo incantesimo usando uno slot incantesimo di 5° livello o superiore, i danni aumentano di 1d8 per ogni slot di livello superiore al 4°.</p>"
             }
           ]
         },
@@ -1433,16 +1329,7 @@
           "name": "Greater Restoration",
           "sourcePath": "spells/5th-level/greater-restoration.yml",
           "lookupKey": "Greater Restoration",
-          "matchedLookupKey": "Greater Restoration",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore infonde energia positiva in una creatura toccata per disfare un effetto debilitante. L'incantatore pu&ograve; ridurre di uno il livello di indebolimento del bersaglio o terminare uno degli effetti seguenti su di esso:</p><ul><li><p>Un effetto che ha affascinato o pietrificato il bersaglio;</p></li><li><p>Una maledizione, inclusa la sintonia del bersaglio con un oggetto magico maledetto;</p></li><li><p>Una qualsiasi riduzione di un punteggio di caratteristica del bersaglio;</p></li><li><p>Un effetto che riduce il massimo dei punti ferita del bersaglio.</p></li></ul>"
-            }
-          ]
+          "matchedLookupKey": "Greater Restoration"
         },
         {
           "pack": "spells",
@@ -1450,16 +1337,7 @@
           "name": "Hallow",
           "sourcePath": "spells/5th-level/hallow.yml",
           "lookupKey": "Hallow",
-          "matchedLookupKey": "Hallow",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore tocca un punto e infonde un flusso di potere sacro (o sacrilego) in un'area del raggio massimo di 18 metri. L'incantatore fallisce se il raggio include già un'area sotto l'effetto di un incantesimo Santificare. L'area influenzata è soggetta agli effetti seguenti.</p><p>Per prima cosa, celestiali, elementali, folletti, immondi e non morti non possono entrare nell'area e non possono affascinare, spaventare o possedere le creature all'interno dell'area. Ogni creatura affascinata, spaventata o posseduta da una creatura del genere non è più affascinata, spaventata e posseduta una volta entrata nell'area. L'incantatore può escludere uno o più tipi di creature da questo effetto.</p><p>Secondariamente, l'incantatore può vincolare un effetto extra all'area, scegliendolo dalla lista sottostante o usando un effetto offerto dal DM. Alcuni effetti si applicano alle creature nell'area; l'incantatore può designare se si applica a tutte le creature, alle creature che seguono un capo o una divinità specifica o alle creature di un tipo specifico, come gli orchi o i troll. Quando una creatura che sarebbe influenzata entra nell'area dell'incantesimo per la prima volta in un turno o vi inizia il proprio turno, può effettuare un tiro salvezza su Carisma. Se lo supera, ignora l'effetto extra finché non esce dall'area.</p><ul><li><p><strong>Coraggio.&nbsp;</strong>Le creature influenzate non possono essere spaventate finché si trovano nell'area.</p></li><li><p><strong>Eterno Riposo.&nbsp;</strong>I corpi senza vita sepolti nell'area non possono essere trasformati in non morti.</p></li><li><p><strong>Interferenza Extradimensionale.&nbsp;</strong>Le creature influenzate non possono muoversi o viaggiare usando il teletrasporto o mezzi extradimensionali o interplanari.</p></li><li><p><strong>Linguaggi.&nbsp;</strong>Le creature influenzate possono comunicare con qualsiasi altra creatura nell'area, anche se non condividono un linguaggio comune.</p></li><li><p><strong>Luce Diurna.&nbsp;</strong>L'area è pervasa di luce intensa. L'oscurità magica creata dagli incantesimi di livello inferiore rispetto allo slot usato dall'incantatore per lanciare questo incantesimo non possono sopprimere la luce.</p></li><li><p><strong>Oscurità.&nbsp;</strong>L'area si riempie di oscurità. La luce normale, nonché la luce magica creata dagli incantesimi di livello inferiore rispetto allo slot usato dall'incantatore per lanciare questo incantesimo non possono illuminare l'area.</p></li><li><p><strong>Paura.&nbsp;</strong>Le creature influenzate sono spaventate finché si trovano nell'area.</p></li><li><p><strong>Protezione dall'Energia.&nbsp;</strong>Le creature influenzate entro l'area ottengono resistenza a un tipo di danno a scelta dell'incantatore, ad eccezione dei danni contundenti, perforanti o taglienti.</p></li><li><p><strong>Silenzio.&nbsp;</strong>Nessun suono può provenire dall'interno dell'area e nessun suono esterno può penetrare al suo interno.</p></li><li><p><strong>Vulnerabilità all'Energia.&nbsp;</strong>Le creature influenzate entro l'area ottengono vulnerabilità a un tipo di danno a scelta dell'incantatore, ad eccezione dei danni contundenti, perforanti o taglienti.</p></li></ul>"
-            }
-          ]
+          "matchedLookupKey": "Hallow"
         },
         {
           "pack": "spells",
@@ -1475,16 +1353,7 @@
           "name": "Insect Plague",
           "sourcePath": "spells/5th-level/insect-plague.yml",
           "lookupKey": "Insect Plague",
-          "matchedLookupKey": "Insect Plague",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Uno sciame di locuste fameliche riempie una sfera del raggio di 6 metri centrata su un punto a scelta dell'incantatore entro gittata. La sfera si diffonde oltre gli angoli, permane per la durata dell'incantesimo e la sua area è leggermente oscurata. L'area della sfera è considerata terreno difficile.</p>\n<p>Quando la sfera compare, ogni creatura al suo interno deve effettuare un tiro salvezza su Costituzione. Se lo fallisce, subisce 4d10 danni perforanti, mentre se lo supera subisce soltanto la metà di quei danni. Una creatura deve effettuare questo tiro salvezza anche quando entra nell'area dell'incantesimo per la prima volta in un turno o vi termina il proprio turno.</p>\n\n<p><strong>Ai Livelli Superiori.&nbsp;</strong>Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 6° livello o superiore, i danni aumentano di 1d10 per ogni slot di livello superiore al 5°.</p>"
-            }
-          ]
+          "matchedLookupKey": "Insect Plague"
         },
         {
           "pack": "spells",
@@ -1500,16 +1369,7 @@
           "name": "Mass Cure Wounds",
           "sourcePath": "spells/5th-level/mass-cure-wounds.yml",
           "lookupKey": "Mass Cure Wounds",
-          "matchedLookupKey": "Mass Cure Wounds",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Un'ondata di energia curativa si sprigiona da un punto a scelta dell'incantatore situato entro gittata. L'incantatore indica fino a sei creature entro una sfera del raggio di 9 metri centrata su quel punto. Ogni creatura bersaglio recupera un ammontare di punti ferita pari a 3d8 + il modificatore di caratteristica da incantatore. Questo incantesimo non ha effetto sui costrutti o sui non morti.</p><p><strong>Ai Livelli Superiori.&nbsp;</strong>Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 6° livello o superiore, la guarigione aumenta di 1d8 per ogni slot di livello superiore al 5°.</p>"
-            }
-          ]
+          "matchedLookupKey": "Mass Cure Wounds"
         },
         {
           "pack": "spells",
@@ -1517,16 +1377,7 @@
           "name": "Mislead",
           "sourcePath": "spells/5th-level/mislead.yml",
           "lookupKey": "Mislead",
-          "matchedLookupKey": "Mislead",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore diventa invisibile nello stesso momento in cui una sua replica illusoria appare nel punto in cui si trova. Il doppione permane per la durata dell'incantesimo, ma l'invisibilità termina se l'incantatore attacca o lancia un incantesimo.</p>\n<p>L'incantatore può utilizzare la sua&nbsp;azione per spostare il doppione fino al doppio della propria velocità e farlo gesticolare, parlare e comportare&nbsp;in qualsiasi&nbsp;maniera egli scelga.</p>\n\n<p>L'incantatore può vedere attraverso gli occhi della replica ed udire attraverso le sue orecchie come se si trovasse nello stesso punto. In ciascuno dei propri turni, come azione bonus, l'incantatore può passare dall'utilizzare i propri sensi a quelli della replica o viceversa. Mentre l'incantatore utilizza i sensi del doppione, si trova cieco e sordo in rapporto all'ambiente che lo circonda.</p>"
-            }
-          ]
+          "matchedLookupKey": "Mislead"
         },
         {
           "pack": "spells",
@@ -1534,16 +1385,7 @@
           "name": "Passwall",
           "sourcePath": "spells/5th-level/passwall.yml",
           "lookupKey": "Passwall",
-          "matchedLookupKey": "Passwall",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Un passaggio si apre in un punto scelto dall'incantatore su una superficie di legno, di pietra o di intonaco e che egli sia in grado di vedere (come per esempio una parete, un soffitto o un pavimento) entro gittata. Il pasaggio permane per la durata dell'incantesimo. L'incantatore decide le dimensioni dell'apertura, che pu&ograve; essere al massimo larga 1,5 metri, alta 2,4 metri e profonda 6 metri. Il passaggio non genera alcuna instabilit&agrave; nella struttura che lo circonda.</p><p>Quando l'apertura scompare, ogni creatura o oggetto ancora all'interno del passaggio creato dall'incantesimo viene espulso senza subire danni nello spazio liber&ograve; pi&ugrave; vicino alla superficie in cui l'incantesimo &egrave; stato lanciato.</p>"
-            }
-          ]
+          "matchedLookupKey": "Passwall"
         },
         {
           "pack": "spells",
@@ -1551,16 +1393,7 @@
           "name": "Raise Dead",
           "sourcePath": "spells/5th-level/raise-dead.yml",
           "lookupKey": "Raise Dead",
-          "matchedLookupKey": "Raise Dead",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore riporta in vita una creatura morta da lui toccata, purché non sia morta da più di 10 giorni. Se l'anima della creatura è consenziente ed è libera di riunirsi al corpo, la creatura torna in vita con 1 punto ferita.</p><p>Questo incantesimo neutralizza inoltre qualsiasi veleno e cura le malattie non magiche che influenzavano la creatura al momento della morte. Tuttavia, questo incantesimo non rimuove le malattie magiche, le maledizioni e le altre afflizioni analoghe; se non vengono rimossi prima del lancio dell'incantesimo, il bersaglio ne sarà afflitto quando tornerà in vita. Questo incantesimo non può riportare in vita una creatura non morta.</p><p>Questo incantesimo richiude tutte le ferite mortali, ma non ripristina le parti del corpo mancanti. Se una creatura è priva di parti del corpo o di organi essenziali per la sua sopravvivenza (come per esempio la testa), l'incantesimo fallisce automaticamente.</p><p>Il ritorno dalla morte è una vera e propria ordalia. Il bersaglio subisce una penalità di -4 a tutti i tiri per colpire, ai tiri salvezza e alle prove di caratteristica. Ogni volta che il bersaglio completa un riposo lungo, la penalità viene ridotta di 1 finché non sparisce del tutto.</p>"
-            }
-          ]
+          "matchedLookupKey": "Raise Dead"
         },
         {
           "pack": "spells",
@@ -1568,16 +1401,7 @@
           "name": "Scrying",
           "sourcePath": "spells/5th-level/scrying.yml",
           "lookupKey": "Scrying",
-          "matchedLookupKey": "Scrying",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore può vedere e udire una particolare creatura a sua scelta situata sul suo stesso piano di esistenza. Il bersaglio deve effettuare un tiro salvezza su Saggezza, modificato dalla conoscenza e dal tipo di legame che l'incantatore ha nei confronti del bersaglio. Se il bersaglio sa che l'incantatore sta lanciando questo incantesimo, può fallire il tiro salvezza volontariamente se desidera essere osservato.</p><table border=\"1\"><tbody><tr><td><p><strong>Conoscenza</strong></p></td><td><p><strong>Modificatore del</strong></p></td></tr><tr><td><p>tiro salvezza</p></td><td><p>Informazioni indirette (solo sentito parlare del bersaglio)</p></td></tr><tr><td><p>+5</p></td><td><p>Informazioni dirette (si è incontrato il bersaglio)</p></td></tr><tr><td><p>0</p></td><td><p>Familiarità (si conosce bene il bersaglio)</p></td></tr></tbody></table><table border=\"1\"><tbody><tr><td><p><strong>-5</strong></p></td><td><p><strong>Legame</strong></p></td></tr><tr><td><p>Modificatore del</p></td><td><p>tiro salvezza</p></td></tr><tr><td><p>Descrizione o immagine</p></td><td><p>-2</p></td></tr><tr><td><p>Oggetto personale o abito</p></td><td><p>-4</p></td></tr></tbody></table><p>Parte del corpo, ciocca di capelli, unghia tagliata ecc. &nbsp;&nbsp;</p><p>-10</p><p>In caso di tiro salvezza superato, il bersaglio non è influenzato e l'incantatore non può più usare questo incantesimo contro di lui per 24 ore.</p><section id=\"secret-7CHPfTUfUEUSvvtS\" class=\"secret\"><p><strong>In caso di tiro salvezza fallito, l'incantesimo crea un sensore invisibile entro 3 metri dal bersaglio. L'incantatore può vedere e sentire attraverso il sensore come se si trovasse sul posto. Il sensore si muove assieme al bersaglio, rimanendo entro 3 metri da esso per la durata dell'incantesimo. Una creatura in grado di vedere gli oggetti invisibili vede il sensore come un globo luminoso delle dimensioni approssimative di un pugno umano.</strong></p><p>Anziché bersagliare una creatura, l'incantatore può scegliere un luogo che abbia già visto in precedenza come bersaglio di questo incantesimo. Quando lo fa, il sensore appare in quel luogo e non si muove.</p></section>"
-            }
-          ]
+          "matchedLookupKey": "Scrying"
         },
         {
           "pack": "spells",
@@ -1585,14 +1409,22 @@
           "name": "Telekinesis",
           "sourcePath": "spells/5th-level/telekinesis.yml",
           "lookupKey": "Telekinesis",
-          "matchedLookupKey": "Telekinesis",
+          "matchedLookupKey": "Telekinesis"
+        },
+        {
+          "pack": "spells",
+          "id": "uAwtVZkiSTyP6ORB",
+          "name": "Telepathic Bond",
+          "sourcePath": "spells/5th-level/telepathic-bond.yml",
+          "lookupKey": "Telepathic Bond",
+          "matchedLookupKey": "Telepathic Bond",
           "repairs": [
             {
               "fieldPath": "system.description.value",
               "translationPath": [
                 "description"
               ],
-              "value": "<p>L'incantatore ottiene la capacità di spostare o manipolare le creature o gli oggetti con la forza del pensiero.</p><p><strong>Quando lancia l'incantesimo e come sua azione ogni round per la durata dell'incantesimo, può proiettare la sua volontà su una creatura o un oggetto situato entro gittata e che egli sia in grado di vedere, causando l'effetto appropriato sottostante.</strong>L'incantatore può influenzare lo stesso bersaglio round dopo round, oppure sceglierne uno nuovo in qualsiasi momento.</p><p>Se cambia bersaglio, il bersaglio precedente non è più influenzato dall'incantesimo</p><p><strong>Creatura.&nbsp;</strong>L'incantatore può tentare di muovere una creatura di taglia Enorme o inferiore, effettuando una prova di caratteristica con la propria caratteristica da incantatore contrapposta alla prova di Forza della creatura. Se vince la contesa, muove la creatura di un massimo di 9 metri in qualsiasi direzione, anche verticalmente, ma non oltre la gittata dell'incantesimo. Fino alla fine del turno successivo dell'incantatore, la creatura è trattenuta dalla morsa telecinetica. Una creatura sollevata verticalmente rimane sospesa a mezz'aria. Nei round successivi, l'incantatore può usare la sua azione per tentare di mantenere la sua morsa telecinetica sulla creatura ripetendo la contesa.</p><p>Oggetto.&nbsp;</p><p>L'incantatore può tentare di muovere un oggetto dal peso massimo di 500 kg. Se l'oggetto non è indossato o trasportato, l'incantatore può muoverlo automaticamente di un masimo di 9 metri in qualsiasi direzione, ma non oltre la gittata di questo incantesimo. Se l'oggetto è indossato o trasportato da una creatura, l'incantatore deve effettuare una prova di caratteristica con la sua caratteristica da incantatore contrapposta a una prova di Forza di quella creatura. Se vince la contesa, strappa l'oggetto a quella creatura e può muoverlo di un massimo di 9 metri in qualsiasi direzione, ma non oltre la gittata di questo incantesimo. L'incantatore può esercitare un controllo più preciso, come manipolare un semplice strumento, aprire una porta o un contenitore, riporre o prelevare un oggetto da un contenitore aperto o versare i contenuti di una fiala.</p>"
+              "value": "<p>L'incantatore stringe un legame telepatico con un massimo di otto creature consenzienti a sua scelta situate entro gittata, collegando fisicamente ogni creatura e tutte le altre per la durata dell'incantesimo. Le creature con un punteggo di Intelligenza pari o inferiore a 2 non sono influenzate da questo incantesimo.</p><p>Finch&eacute; l'incantesimo non termina, i bersagli possono comunicare telepaticamente attraverso il legame, a prescindere che abbiano un linguaggio in comune o meno. La comunicazione &egrave; possibile attraverso qualsiasi distanza, ma non pu&ograve; estendersi ad altri piani di esistenza.</p>"
             }
           ]
         },
@@ -1610,14 +1442,39 @@
           "name": "Tree Stride",
           "sourcePath": "spells/5th-level/tree-stride.yml",
           "lookupKey": "Tree Stride",
-          "matchedLookupKey": "Tree Stride",
+          "matchedLookupKey": "Tree Stride"
+        },
+        {
+          "pack": "spells",
+          "id": "o9ZCvuD2B1OTcubb",
+          "name": "Wall of Force",
+          "sourcePath": "spells/5th-level/wall-of-force.yml",
+          "lookupKey": "Wall of Force",
+          "matchedLookupKey": "Wall of Force",
           "repairs": [
             {
               "fieldPath": "system.description.value",
               "translationPath": [
                 "description"
               ],
-              "value": "<p>L'incantatore ottiene la capacità di entrare in un albero e di muoversi dall'interno di quell'albero a un altro albero dello stesso tipo situato entro 150 metri. Entrambi gli alberi devono essere vivi e di taglia pari o superiore a quella dell'incantatore. L'incantatore deve usare 1,5 metri di movimento per entrare in un albero. Apprende istantaneamente l'ubicazione di tutti gli altri alberi dello stesso tipo entro 150 metri e, come parte del movimento usato per entrare al suo interno, può scegliere se passare in uno di quegli alberi o emergere dall'albero in cui si trova. L'incantatore ricompare in un punto a sua scelta entro 1,5 metri dall'albero di destinazione usando ulteriori 1,5 metri di movimento. Se non gli rimane più alcun movimento, ricompare entro 1,5 metri dall'albero in cui è entrato.</p><p>L'incantatore può usare questa capacità di trasporto una volta per round per la durata dell'incantesimo. Deve concludere ogni suo turno fuori da un albero.</p>"
+              "value": "<p>Un muro invisibile di forza si materializza in un punto a scelta dell'incantatore situato entro gittata. Il muro appare nell'orientamento che l'incantatore desidera, come barriera orizzontale, verticale o inclinata. Pu&ograve; fluttuare nell'aria o poggiare su una superficie solida. L'incantatore pu&ograve; modellarlo in una semisfera o in una sfera del raggio massimo di 3 metri, o come una superficie piatta composta di dieci pannelli quadrati con lato di 3 metri l'uno. Ogni pannello deve essere contiguo a un altro pannello. In qualsiasi forma, il muro ha uno spessore di 0,5 cm e permane per la durata dell'incantesimo.</p><p>Se il muro passa attraverso lo spazio di una creatura quando appare, la creatura viene spinta da un lato del muro a scelta dell'incantatore. Nulla pu&ograve; attraversare fisicamente il muro, che &egrave; immune a tutti i danni e non pu&ograve; essere dissolto tramite&nbsp;@UUID[Compendium.dnd5e.spells.Item.15Fa6q1nH27XfbR8]{Dissolvi Magie}. Un incantesimo&nbsp;@UUID[Compendium.dnd5e.spells.Item.HBHbOGKNVVprSlwn]{Disintegrazione}, tuttavia, distrugge il muro istantaneamente. Il muro si estende anche sul Piano Etereo, bloccando i viaggi eterei che lo attraversano.</p>"
+            }
+          ]
+        },
+        {
+          "pack": "spells",
+          "id": "NmoRmM1mhuM3pqnY",
+          "name": "Wall of Stone",
+          "sourcePath": "spells/5th-level/wall-of-stone.yml",
+          "lookupKey": "Wall of Stone",
+          "matchedLookupKey": "Wall of Stone",
+          "repairs": [
+            {
+              "fieldPath": "system.description.value",
+              "translationPath": [
+                "description"
+              ],
+              "value": "<p>Un muro non magico di solida pietra si materializza partendo da un punto a scelta dell'incantatore situato entro gittata. Il muro è spesso 15 cm e composto da dieci pannelli quadrati con lato di 3 metri l'uno. Ogni pannello deve essere contiguo ad almeno un altro pannello. In alternativa, l'incantatore può creare dei pannelli di 3 metri per 6 metri dello spessore di soli 7,5 cm.</p><p>Se il muro attraversa lo spazio di una creatura nel momento in cui compare, quella creatura viene spinta da un lato del muro (a scelta dell'incantatore). Se una creatura sarebbe circondata su tutti i lati dal muro (o dal muro e da un'altra superficie solida), può effettuare un tiro salvezza su Destrezza. Se lo supera, può usare la sua reazione per muoversi fino alla sua velocità nel tentativo di non rimanere intrappolata dal muro.</p><p>Il muro può avere la forma desiderata dall'incantatore, ma non può occupare lo stesso spazio di una creatura o di un oggetto. Non è necessario che il muro sia verticale o poggi su fondamenta solide. Deve però fondersi ed essere solidamente sorretto da una massa di pietra già esistente. Quindi è possibile usare questo incantesimo per creare una rampa o un ponte che attraversi un baratro</p><p>Se l'incantatore crea un'arcata di lunghezza superiore a 6 metri, deve dimezzare le dimensioni di ogni pannello per creare dei sostegni. Può rozzamente modellare il muro per creare feritoie, spalti e così via.</p><p>Il muro è un oggetto fatto di pietra che può essere danneggiato e quindi sfondato. Ogni pannello ha CA 15 e 30 punti ferita per ogni 2,5 cm di spessore. Quando un pannello scende a 0 punti ferita è distrutto e potrebbe provocare anche il crollo di altri pannelli, a discrezione del DM.</p><p>Se l'incantatore mantiene la concentrazione su questo incantesimo per l'intera durata, il muro diventa permanente e non può essere dissolto. Altrimenti, il muro scompare quando l'incantesimo termina.</p>"
             }
           ]
         },
@@ -1731,14 +1588,22 @@
           "name": "Mass Suggestion",
           "sourcePath": "spells/6th-level/mass-suggestion.yml",
           "lookupKey": "Mass Suggestion",
-          "matchedLookupKey": "Mass Suggestion",
+          "matchedLookupKey": "Mass Suggestion"
+        },
+        {
+          "pack": "spells",
+          "id": "yI0XWIgI0IGGsR3R",
+          "name": "Move Earth",
+          "sourcePath": "spells/6th-level/move-earth.yml",
+          "lookupKey": "Move Earth",
+          "matchedLookupKey": "Move Earth",
           "repairs": [
             {
               "fieldPath": "system.description.value",
               "translationPath": [
                 "description"
               ],
-              "value": "<p>L'incantatore suggerisce un corso d'azione da intraprendere&nbsp;(limitandosi a una o due frasi) e influenza magicamente fino&nbsp;a dodici creature a sua scelta entro gittata e che egli sia in&nbsp;grado di vedere. Le creature devono essere in grado di sentire&nbsp;l'incantatore e di capirlo. Le creature che non possono essere&nbsp;affascinate sono immuni a questo effetto. La suggestione&nbsp;deve essere formulata in modo che il corso d'azione appaia&nbsp;ragionevole. Chiedere a una creatura di pugnalarsi, gettarsi&nbsp;su una lancia, immolarsi o compiere altri atti palesemente&nbsp;autolesionistici nega automaticamente l'effetto dell'incantesimo.</p>\n<p>Ogni bersaglio deve effettuare un tiro salvezza su Saggezza.&nbsp;Se lo fallisce, deve perseguire il corso d'azione descritto dall'incantatore al meglio delle sue capacità. Tale corso d'azione&nbsp;può proseguire per l'intera durata dell'incantesimo. Se l'attività&nbsp;suggerita può essere completata in un periodo di tempo più&nbsp;breve, l'incantesimo termina quando il soggetto completa ciò&nbsp;che gli è stato chiesto di fare.</p>\n<p>L'incantatore può anche specificare quali condizioni&nbsp;innescheranno un'attività speciale nel corso della durata. Per&nbsp;esempio, potrebbe suggerire che un gruppo di soldati ceda&nbsp;tutto il suo denaro al primo mendicante che incontra. Se questa&nbsp;condizione non viene soddisfatta prima che l'incantesimo termini, quell'attività non viene effettuata.</p>\n<p>Se l'incantatore o uno dei suoi compagni infligge danni a&nbsp;una creatura influenzata da questo incantesimo, l'incantesimo&nbsp;termina per quella creatura.</p>\n\n<p><strong>Ai&nbsp;Livelli Superiori.</strong> Quando l'incantatore lancia questo&nbsp;incantesimo usando uno slot incantesimo di 7°&nbsp;livello, la durata&nbsp;è pari a 10 giorni. Quando usa uno slot incantesimo di 8° livello,&nbsp;la durata è pari a 30 giorni. Quando usa uno slot incantesimo di&nbsp;9° livello, la durata è pari a un anno e un giorno.</p>"
+              "value": "<p>L'incantatore sceglie un'area di terreno grande al massimo 12 metri per lato e situata entro gittata. Può modellare l'argilla, il terriccio o la sabbia entro l'area nella maniera che preferisce per la durata dell'incantesimo. L'incantatore può aumentare o ridurre l'elevazione del terreno, creare o riempire una fossa, erigere o spianare una parete, innalzare una colonna. L'estensione di tali cambiamenti non può superare la metà della dimensione più grande dell'area. Quindi, se influenza un quadrato con lato di 12 metri, può creare una colonna alta fino a 6 metri, aumentare o ridurre l'elevazione del terreno di un massimo di 6 metri, scavare una fossa della profondità massima di 6 metri e così via. Servono 10 minuti prima che queste alterazioni siano completate.</p><p>Alla fine di ogni 10 minuti trascorsi a concentrarsi sull'incantesimo, l'incantatore può scegliere una nuova area di terreno da influenzare.</p><p>Dal momento che la trasformazione del terreno si completa gradualmente, le creature nell'area solitamente non restano intrappolate o ferite dal movimento del terreno.</p><p>Questo incantesimo non può manipolare la pietra naturale o le costruzioni in pietra. Le rocce e le strutture si sposteranno per adattarsi al nuovo terreno. Se l'incantatore modella il terreno in un modo che renderebbe la struttura instabile, quella struttura potrebbe crollare.</p><p>Analogamente questo incantesimo non influenza la crescita vegetale. La terra spostata sposta con sé ogni vegetale presente.</p>"
             }
           ]
         },
@@ -1756,16 +1621,7 @@
           "name": "Programmed Illusion",
           "sourcePath": "spells/6th-level/programmed-illusion.yml",
           "lookupKey": "Programmed Illusion",
-          "matchedLookupKey": "Programmed Illusion",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore crea l'illusione di un oggetto, una creatura o un altro fenomeno visibile situato entro gittata, che si attiva quando si verifica una condizione specifica. Fino ad allora, l'illusione &egrave; impercettibile. L'illusione non pu&ograve; essere pi&ugrave; grande di un cubo con spigolo di 9 metri, e l'incantatore decide al momento del lancio dell'incantesimo come si comporta l'illusione e quali suoni emette.</p><p>Questa esibizione preprogrammata pu&ograve; durare un massimo di 5 minuti. Quando la condizione specificata si verifica, l'illusione si materializza e si comporta nella maniera descritta dall'incantatore. Quando l'illusione ha concluso la sua esibizione, scompare e rimane latente per 10 minuti. Dopo questo periodo, pu&ograve; essere attivata di nuovo.</p><p>La condizione innescante pu&ograve; essere generica o dettagliata quanto l'incantatore preferisce, ma deve essere basata su condizioni visive o auditive che si verifichino entro 9 metri dall'area. Per esempio, l'incantatore potrebbe creare un0illusione di s&eacute; stesso che apparir&agrave; e avvertir&agrave; coloro che tenteranno di aprire una porta protetta da una trappola, oppure potrebbe programmarla per innescarsi solo quando una creatura recita la parola o la frase giusta.</p><p>Un'interazione fisica con l'mmagine rivela che si tratta di un'illusione, in quanto gli oggetti vi passano attraverso. Una creatura che usa la sua azione per esaminare l'immagine pu&ograve; determinare che si tratta di un'illusione superando una prova di Intelligenza (Indagare) contro la CD del tiro salvezza dell'incantesimo. Se una creatura discerne l'illusione per ci&ograve; che &egrave;, riesce a vedere attraverso l'immagine e gli eventuali suoni che essa emette si attenuano alle sue orecchie.</p>"
-            }
-          ]
+          "matchedLookupKey": "Programmed Illusion"
         },
         {
           "pack": "spells",
@@ -1781,16 +1637,7 @@
           "name": "Transport via Plants",
           "sourcePath": "spells/6th-level/transport-via-plants.yml",
           "lookupKey": "Transport via Plants",
-          "matchedLookupKey": "Transport via Plants",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Questo incantesimo crea un legame magico tra un vegetale inanimato di taglia Grande o superiore situato entro gittata e un altro vegetale, situato a qualsiasi distanza sullo stesso piano di esistenza. L'incantatore deve avere visto o toccato il vegetale di destinazione almeno una volta in precedenza. Per la durata dell'incantesimo, qualsiasi creatura può entrare nel vegetale bersaglio e uscire da quello di destinazione usando 1,5 metri di movimento.</p>"
-            }
-          ]
+          "matchedLookupKey": "Transport via Plants"
         },
         {
           "pack": "spells",
@@ -1798,14 +1645,22 @@
           "name": "True Seeing",
           "sourcePath": "spells/6th-level/true-seeing.yml",
           "lookupKey": "True Seeing",
-          "matchedLookupKey": "True Seeing",
+          "matchedLookupKey": "True Seeing"
+        },
+        {
+          "pack": "spells",
+          "id": "AQsBc94ES7W7s7iG",
+          "name": "Wall of Thorns",
+          "sourcePath": "spells/6th-level/wall-of-thorns.yml",
+          "lookupKey": "Wall of Thorns",
+          "matchedLookupKey": "Wall of Thorns",
           "repairs": [
             {
               "fieldPath": "system.description.value",
               "translationPath": [
                 "description"
               ],
-              "value": "<p>Questo incantesimo conferisce alla creatura toccata&nbsp;dall'incantatore la capacità di vedere le cose per ciò che&nbsp;effettivamente sono. Per la durata dell'incantesimo, la creatura è dotata di vista pura, nota le porte segrete nascoste dalla magia ed è in grado di vedere sul Piano Etereo, entro un raggio di 36 metri.</p>"
+              "value": "<p>L'incantatore crea un fitto muro di rovi, resistente, flessibile ed erto di spine affilate. Il muro appare su una superficie solida entro gittata e permane per la durata dell'incantesimo. Il muro può essere lungo fino a 18 metri, alto 3 metri e spesso 1,5 metri, oppure può essere un muro circolare del diametro di 6 metri, alto fino a 6 metri e spesso 1,5 metri. Il muro blocca la linea di vista.</p><p>Quando il muro appare, ogni creatura entro la sua area deve effettuare un tiro salvezza su Destrezza. Se lo fallisce, subisce 7d8 danni perforanti, mentre se lo supera, subisce soltanto la metà di quei danni.</p><p>Una creatura può muoversi attraverso il muro, anche se lentamente e dolorosamente. Per ogni 30 cm di muro che attraversa, la creatura deve spendere 120 cm di movimento. Inoltre, la prima volta che una creatura entra nel muro in un turno o vi termina il proprio turno, deve effettuare un tiro salvezza su Destrezza. Se lo fallisce, subisce 7d8 danni taglienti, mentre se lo supera, subisce solo al metà di quei danni.</p><p><strong>Ai Livelli Superiori.&nbsp;</strong>Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 7° livello o superiore, entrambi i tipi di danno aumentano di 1d8 per ogni slot di livello superiore al 6°</p>"
             }
           ]
         },
@@ -1823,16 +1678,7 @@
           "name": "Word of Recall",
           "sourcePath": "spells/6th-level/word-of-recall.yml",
           "lookupKey": "Word of Recall",
-          "matchedLookupKey": "Word of Recall",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore e un massimo di cinque creature consenzienti entro 1,5 metri da lui si teletrasportano istantaneamente in un santuario designato in precedenza. L'incantatore e le creature che si teletrasportano con lui compaiono nello spazio libero pi&ugrave; vicino al punto designato quando egli ha preparato il suo santuario (vedi sotto). Se lancia questo incantesimo prima di avere preparato un santuario, l'incantesimo non ha effetto.</p><p>L'incantatore deve designare un santuario lanciando questo incantesimo all'interno di un luogo dedicato alla sua divinit&agrave; o fortemente legato a essa, come per esempio un tempio. Se tenta di lanciare l'incantesimo in questo modo in un'area che non &egrave; dedicata alla sua divinit&agrave;, l'incantesimo non ha effetto.</p>"
-            }
-          ]
+          "matchedLookupKey": "Word of Recall"
         },
         {
           "pack": "spells",
@@ -1888,14 +1734,22 @@
           "name": "Magnificent Mansion",
           "sourcePath": "spells/7th-level/magnificent-mansion.yml",
           "lookupKey": "Magnificent Mansion",
-          "matchedLookupKey": "Magnificent Mansion",
+          "matchedLookupKey": "Magnificent Mansion"
+        },
+        {
+          "pack": "spells",
+          "id": "f38w5rd9SgdmWc6F",
+          "name": "Mirage Arcane",
+          "sourcePath": "spells/7th-level/mirage-arcane.yml",
+          "lookupKey": "Mirage Arcane",
+          "matchedLookupKey": "Mirage Arcane",
           "repairs": [
             {
               "fieldPath": "system.description.value",
               "translationPath": [
                 "description"
               ],
-              "value": "<p>L'incantatore evoca entro gittata una dimora&nbsp;extradimensionale che permane per la durata&nbsp;dell'incantesimo. L'incantatore sceglie l'ubicazione&nbsp;dell'entrata, che risplende di un debole bagliore di luce ed è&nbsp;larga 1,5 metri e alta 3 metri. L'incantatore e ogni creatura&nbsp;da lui designata al momento del lancio dell'incantesimo&nbsp;possono entrare nella dimora extradimensionale fintanto&nbsp;che il portale resta aperto.&nbsp;L'incantatore può aprire o&nbsp;chiudere il portale se si trova entro 9 metri da esso.&nbsp;Finché&nbsp;è chiuso, il portale è invisibile.</p><p>Oltre il portale si&nbsp;trova uno sfarzoso atrio circondato da&nbsp;numerose stanze.&nbsp;L'atmosfera è fresca, pulita e accogliente.&nbsp;L'incantatore può definire la planimetria della dimora&nbsp;come preferisce, ma lo spazio occupato non può superare&nbsp;50 cubi con spigolo di 3 metri ciascuno.</p><p>La dimora è&nbsp;arredata e decorata in base ai desideri dell'incantatore.&nbsp;Contiene cibo a sufficienza da servire un banchetto di 9&nbsp;portate per un massimo di 100 persone. Un personale di&nbsp;100 servitori semitrasparenti si prende cura di tutti coloro&nbsp;che entrano nella dimora.&nbsp;L'incantatore decide l'aspetto e&nbsp;la tenuta di questi servitori, che obbediscono a ogni suo&nbsp;ordine. Ogni servitore può eseguire qualsiasi compito che&nbsp;un normale servitore umano sarebbe in grado di eseguire,&nbsp;ma non può attaccare o effettuare qualsiasi altra azione&nbsp;che ferirebbe in modo diretto un'altra creatura.&nbsp;Quindi i&nbsp;servitori possono portare oggetti, pulire, riparare, ripiegare&nbsp;abiti, accendere fuochi, servire pietanze, versare vino&nbsp;e cosl via. I servitori possono recarsi in qualsiasi punto&nbsp;della dimora ma non possono uscirne.&nbsp;I mobili e gli altri&nbsp;oggetti creati da questo incantesimo si dissolvono in fumo&nbsp;se rimossi dalla dimora. Quando l'incantesimo termina, tutte le creature all'interno dello spazio extradimensionale vengono espulse negli spazi liberi più vicini all'entrata.</p>"
+              "value": "<p>Fai s&igrave; che un pezzo di terreno a gittata, in un&rsquo;area quadrata fino a 1,5 chilometri, appaia, risuoni e odori come qualche altro tipo di terreno. La conformazione generale del terreno rimane tuttavia la stessa. Campi aperti o una strada possono essere trasformati in un acquitrino, colline, un crepaccio o qualche altro tipo di terreno difficile o invalicabile.</p>\n<p>Un laghetto pu&ograve; essere trasformato in una radura erbosa, un precipizio in una lieve pendenza, un burrone cosparso di rocce in una strada ampia e liscia.Allo stesso modo, puoi modificare l&rsquo;aspetto delle strutture, o aggiungerne dove non ve ne sono. L&rsquo;incantesimo non camuffa, occulta n&eacute; aggiunge creature.</p>\n<p>L&rsquo;illusione comprende elementi uditivi, visivi, tattili e olfattivi, cos&igrave; da poter trasformare un terreno sgombro in terreno difficile (o viceversa) o impedire altrimenti il movimento nell'area. Qualsiasi pezzo di terreno illusorio (come una pietra o un bastone), che venga rimosso dall'area dell&rsquo;incantesimo, svanisce immediatamente.</p>\n\n<p>Le creature con visione del vero possono vedere oltre l&rsquo;illusione e distinguere la vera forma del terreno; tuttavia, gli altri elementi dell&rsquo;illusione rimangono, cos&igrave;, sebbene la creatura sia consapevole della presenza dell&rsquo;illusione, vi pu&ograve; comunque interagire fisicamente.</p>"
             }
           ]
         },
@@ -1905,16 +1759,7 @@
           "name": "Project Image",
           "sourcePath": "spells/7th-level/project-image.yml",
           "lookupKey": "Project Image",
-          "matchedLookupKey": "Project Image",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore crea una copia illusoria di sé stesso che permane per la durata dell'incantesimo. La copia può apparire in un qualsiasi luogo situato entro gittata e che l'incantatore abbia visto in precedenza, a prescindere dagli ostacoli frapposti. L'illusione appare e suona come l'incantatore ma è intangibile. Se l'illusione subisce danni, scompare e l'incantesimo termina.</p><p>L'incantatore può usare la sua azione per muovere questa illusione fino al doppio della sua velocità e farla agire, parlare e comportarsi nel modo che preferisce.</p><p>L'illusione imita i modi di fare dell'incantatore alla perfezione. L'incantatore vede e sente attraverso gli occhi e le orecchie dell'illusione come se si trovasse nel suo spazio. Nel suo turno, come azione bonus, può passare dai sensi dell'illusione ai propri o viceversa. Mentre usa i sensi dell'illusione è accecato e assordato nei confronti di ciò che accade attorno a lui.</p><p>Un'interazione fisica con l'immagine rivela che si tratta di un'illusione, in quanto gli oggetti vi passano attraverso. Una creatura che usa la sua azione per esaminare l'immagine può determinare che si tratta di un'illusione superando una prova di Intelligenza (Indagare) contro la CD del tiro salvezza dell'incantesimo. Se una creatura discerne l'illusione per ciò che è, riesce a vedere attraverso l'immagine e gli eventuali suoni che essa emette si attenuano alle sue orecchie.</p>"
-            }
-          ]
+          "matchedLookupKey": "Project Image"
         },
         {
           "pack": "spells",
@@ -1922,16 +1767,7 @@
           "name": "Resurrection",
           "sourcePath": "spells/7th-level/resurrection.yml",
           "lookupKey": "Resurrection",
-          "matchedLookupKey": "Resurrection",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Toccando una creatura morta da non più di un secolo, che non sia morte di vecchiaia, e che non sia un non-morto. Qualora la sua anima fosse consenziente, il bersaglio torna in vita con tutti i suoi punti ferita.</p><p>L'incantesimo neutralizza ogni veleno e cura ogni malattia comune. Ma non può curare malattie di origine magica e maledizioni. L'incantesimo inoltre, rimargina ogni ferita mortale e ripristina ogni parte mancate del corpo.</p><p>Tornare dai morti è un esperienza estenuante.</p><p>Il bersaglio riceve un -4 a tutti i tiri per colpire, tiri salvezza e tiri di abilità. Ogni volta che si finisce un riposo lungo , la penalità si riduce di 1 fino a svanire</p><p>Se il bersaglio è rimasto morto per più di un anno, non può lanciare incantesimi, e riceve svantaggio a tutti i tiri per colpire, tiri abilità e tiri salvezza fino alla fine di un riposo lungo.</p>"
-            }
-          ]
+          "matchedLookupKey": "Resurrection"
         },
         {
           "pack": "spells",
@@ -1939,16 +1775,7 @@
           "name": "Reverse Gravity",
           "sourcePath": "spells/7th-level/reverse-gravity.yml",
           "lookupKey": "Reverse Gravity",
-          "matchedLookupKey": "Reverse Gravity",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Questo incantesimo inverte la gravità all'interno di un cilindro del raggio di 15 metri e alto 30 metri, centrato su un punto situato entro gittata. Tutte le creature e gli oggetti che non sono in qualche modo ancorati al terreno all'interno dell'area cadono verso l'alto e arrivano in cima all'area quando l'incantesimo viene lanciato. Una creatura può effettuare un tiro salvezza su Destrezza per afferrare un oggetto ancorato entro portata, evitando in questo modo la caduta.</p><p>Se un oggetto solido di qualche tipo (come per esempio un soffitto) viene urtato durante questa caduta, gli oggetti e le creature subiscono un impatto identico a quello che subirebbero durante una normale caduta verso il basso. Se un oggetto o una creatura arriva in cima all'area senza colpire niente, rimane lassù a oscillare leggermente per la durata dell'incantesimo.</p><p>Alla fine della durata, gli oggetti e le creature influenzate ricadono a terra.</p>"
-            }
-          ]
+          "matchedLookupKey": "Reverse Gravity"
         },
         {
           "pack": "spells",
@@ -1964,16 +1791,7 @@
           "name": "Simulacrum",
           "sourcePath": "spells/7th-level/simulacrum.yml",
           "lookupKey": "Simulacrum",
-          "matchedLookupKey": "Simulacrum",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore realizza un duplicato illusorio di una bestia o di un umanoide che deve rimanere entro gittata per tutto il lancio dell'incantesimo. Il duplicato è una creatura parzialmente reale fatta di ghiaccio o di neve che può effettuare azioni ed essere influenzata come una creatura normale. Ha lo stesso aspetto dell'originale, ma possiede la metà del suo massimo dei punti ferita e viene formata priva di equipaggiamento. Sotto ogni altro aspetto, l'illusione usa tutte le statistiche della creatura che duplica.</p><p>Il simulacro è amichevole nei confronti dell'incantatore e delle creature da lui designate. Obbedisce ai comandi vocali dell'incantatore, si muove e agisce in ottemperanza ai suoi desideri e in combattimento agisce nel turno dell'incantatore. Il simulacro non è in grado di apprendere o di diventare pi potente, quindi non aumenta mai di livello, le sue caratteristiche non aumentano e non può recuperare gli slot incantesimo spesi.</p><p>Se il simulacro subisce danni, l'incantatore può ripararlo in un laboratorio alchemico usando minerali ed erbe rare del valore di 100 mo per ogni punto ferita che esso recupera. Il simulacro permane finché non scende a 0 punti ferita, nel qual caso si ritrasforma in neve e si scioglie istantaneamente.</p><p>Se l'incantatore lancia di nuovo questo incantesimo, il duplicato attualmente attivo da lui creato viene istantaneamente distrutto.</p>"
-            }
-          ]
+          "matchedLookupKey": "Simulacrum"
         },
         {
           "pack": "spells",
@@ -2029,14 +1847,22 @@
           "name": "Incendiary Cloud",
           "sourcePath": "spells/8th-level/incendiary-cloud.yml",
           "lookupKey": "Incendiary Cloud",
-          "matchedLookupKey": "Incendiary Cloud",
+          "matchedLookupKey": "Incendiary Cloud"
+        },
+        {
+          "pack": "spells",
+          "id": "clwv2PWOcT822hlr",
+          "name": "Maze",
+          "sourcePath": "spells/8th-level/maze.yml",
+          "lookupKey": "Maze",
+          "matchedLookupKey": "Maze",
           "repairs": [
             {
               "fieldPath": "system.description.value",
               "translationPath": [
                 "description"
               ],
-              "value": "<p>Una nube turbinante di fumo mista a un nugolo di tizzoni incandescenti appare in una sfera del raggio di 6 metri centrata su un punto entro gittata. La nube si diffonde oltre gli angoli ed è pesantemente oscurata. Permane per la durata dell'incantesimo o finché un vento moderato o superiore (almeno 15 km all'ora) non la disperde.</p><p>Quando la nube appare, ogni creatura al suo interno deve effettuare un tiro salvezza su Destrezza. Se lo fallisce, subisce 10d8 danni da fuoco, mentre se lo supera, subisce soltanto la metà di quei danni. Una creatura deve effettuare questo tiro salvezza anche quando entra nell'area dell'incantesimo per la prima volta in un turno o vi termina il proprio turno.</p><p>La nube si muove di 3 metri allontanandosi direttamente dall'incantatore, in una direzione a scelta di quest'ultimo all'inizio di ogni suo turno.</p>"
+              "value": "<p>L'incantatore esilia una creatura entro gittata e che egli sia in grado di vedere su un semipiano labirintico. Il bersaglio rimane laggiù per la durata dell'incantesimo o finché non fugge dal labirinto.</p><p>Il bersaglio può usare la sua azione per tentare di fuggire. Quando lo fa, effettua una prova di Intelligenza con CD 20. Se ha successo, riesce a fuggire e l'incantesimo termina (un @UUID[Compendium.dnd5e.monsters.Actor.pOPQU4UnR27zA0jf]{Minotauro} o un demone goristro hanno successo automaticamente).</p><p>Quando l'incantesimo termina, il bersaglio ricompare nello spazio che ha lasciato o, se quello spazio è occupato, nello spazio libero più vicino.</p>"
             }
           ]
         },
@@ -2046,16 +1872,7 @@
           "name": "Power Word Stun",
           "sourcePath": "spells/8th-level/power-word-stun.yml",
           "lookupKey": "Power Word Stun",
-          "matchedLookupKey": "Power Word Stun",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore pronuncia una parola del potere che può&nbsp;sopraffare la mente di una creatura entro gittata e che&nbsp;egli sia in grado di vedere, lasciandola in uno stato&nbsp;confusionale. Se il bersaglio possiede 150 punti ferita o&nbsp;meno, è stordito. Altrimenti, l'incantesimo non ha effetto.</p>\n\n<p>Il bersaglio stordito deve effettuare un tiro salvezza su Costituzione alla fine di ogni suo turno. Se lo supera, l'effetto di stordimento termina.</p>"
-            }
-          ]
+          "matchedLookupKey": "Power Word Stun"
         },
         {
           "pack": "spells",
@@ -2063,16 +1880,7 @@
           "name": "Sunburst",
           "sourcePath": "spells/8th-level/sunburst.yml",
           "lookupKey": "Sunburst",
-          "matchedLookupKey": "Sunburst",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Un luminoso bagliore solare si espande in un raggio di 18 metri centrato su di un punto entro portata a scelta dell'incantatore. Ogni creatura situata in quella luce deve effettuare un tiro salvezza Costituzione. Se lo fallisce, una creatura subisce 12d6 danni radianti e viene accecata per 1 minuto. Se lo supera, subisce la metà del danno e non viene accecata. Non-morti e gelatine hanno svantaggio a questo tiro salvezza.</p>\n<p>Una creatura accecata da questo incantesimo effettua un altro tiro salvezza Costituzione alla fine di ognuno dei propri turni. Se lo supera, non è più accecata.</p>\n\n<p>Questo incantesimo disperde qualsiasi oscurità creata da un incantesimo nella propria area d'effetto.</p>"
-            }
-          ]
+          "matchedLookupKey": "Sunburst"
         },
         {
           "pack": "spells",
@@ -2104,16 +1912,7 @@
           "name": "Meteor Swarm",
           "sourcePath": "spells/9th-level/meteor-swarm.yml",
           "lookupKey": "Meteor Swarm",
-          "matchedLookupKey": "Meteor Swarm",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Globi rocciosi infuocati precipitano a terra in quattro punti diversi situati entro gittata e che l'incantatore sia in grado di vedere. Ogni creatura situata entro una sfera del raggio di 12 metri centrata su ogni punto scelto dall'incantatore deve effettuare un tiro salvezza su Destrezza. La sfera si diffonde oltre gli angoli. Se una creatura fallisce il tiro salvezza, subisce 20d6 danni da fuoco e 20d6 danni contundenti, mentre se lo supera, subisce soltanto la metà di quei danni. Una creatura entro l'area di più esplosioni infuocate ne subisce l'effetto una volta sola.</p><p>L'incantesimo infligge danni ad oggetti nell'area e incendia gli oggetti infiammabili che non sono indossati o trasportati.</p>"
-            }
-          ]
+          "matchedLookupKey": "Meteor Swarm"
         },
         {
           "pack": "spells",
@@ -2121,16 +1920,7 @@
           "name": "Power Word Kill",
           "sourcePath": "spells/9th-level/power-word-kill.yml",
           "lookupKey": "Power Word Kill",
-          "matchedLookupKey": "Power Word Kill",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "\n<p>L'incantatore pronuncia una parola del potere che può uccidere istantaneamente una creatura entro gittata e che egli sia in grado di vedere. Se la creatura scelta possiede 100 punti ferita o meno, muore. Altrimenti, l'incantesimo non ha effetto.</p>"
-            }
-          ]
+          "matchedLookupKey": "Power Word Kill"
         },
         {
           "pack": "spells",
@@ -2138,16 +1928,7 @@
           "name": "Shapechange",
           "sourcePath": "spells/9th-level/shapechange.yml",
           "lookupKey": "Shapechange",
-          "matchedLookupKey": "Shapechange",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore assume la forma di una creatura diversa per la durata dell'incantesimo. La nuova forma può essere quella di qualsiasi creatura con un grado di sfida pari o inferiore al livello dell'incantatore. La creatura non può essere un costrutto o un non morto e deve essere un tipo di creatura che l'incantatore abbia visto almeno una volta. L'incantatore si trasforma in un normale esemplare di quella creatura, privo di livelli di classe e del tratto \"Incantesimi\".</p><p>Le statistiche di gioco vengono sostituite dalle statistiche della creatura scelta, ma l'incantatore conserva il suo allineamento e i suoi punteggi di Intelligenza, Seggezza e Carisma. Conserva inoltre tutte le sue competenze nelle abilità e nei tiri salvezza, oltre a ottenere quelle della creatura. Se la creatura possiede una competenza che anche l'incantatore possiede e il bonus elencato nelle sue statistiche è superiore a quello dell'incantatore, quest'ultimo usa il bonus della creatura al posto del proprio. L'incantatore non può usare nessuna azione leggendaria o di tana nella nuova forma.</p><p>L'incantatore assume i punti ferita e i Dadi Vita della nuova forma, e quando riassume la sua forma normale, ritorna al numero di punti ferita che possedeva prima di essere trasformato. Se riassume la forma normale per essere sceso a 0 punti ferita, ogni eventuale danno in eccesso si trasferisce alla sua forma normale. Fintanto che i danni in eccesso non portano la forma normale dell'incantatore a 0 punti ferita, l'incantatore non cade privo di sensi.</p><p>L'incantatore conserva il beneficio degli eventuali privilegi fornitigli dalla sua classe, razza o altre fonti, e può usarli, purché la sua nuova forma glielo consenta fisicamente. Non può usare alcun senso speciale che possieda (come per esempio la scurovisione), a meno che la sua nuova forma non lo possieda a sua volta. Può parlare solo se la creatura è normalmente in grado di parlare.</p><p>Quando l'incantatore si trasforma, sceglie se lasciare cadere a terra il suo equipaggiamento, se tale equipaggiamento si fonde nella sua nuova forma o se indossarlo. L'equipaggiamento indossato funziona normalmente, ma spetta al DM decidere se è pratico o meno che la nuova forma indossi ogni determinato oggetto di equipaggiamento, in base alla forma e alla taglia della creatura. L'equipaggiamento dell'incantatore non cambia taglia o forma per adattarsi alla nuova forma, e ogni oggetto di equipaggiamento che la nuova forma non può indossare deve cadere a terra o fondersi nella nuova forma dell'incantatore. L'equipaggiamento fuso alla nuova forma non ha alcun effetto in quello stato.</p><p>Per la durata dell'incantesimo, l'incantatore può usare la sua azione per assumere una forma diversa seguendo le stesse regole e restrizioni relative alla forma originale, con una eccezione: se la nuova forma possiede più punti ferita rispetto ai punti ferita attuali dell'incantatore, i punti ferita di quest'ultimo rimangono al suo valore attuale.</p>"
-            }
-          ]
+          "matchedLookupKey": "Shapechange"
         },
         {
           "pack": "spells",
@@ -2155,14 +1936,22 @@
           "name": "Time Stop",
           "sourcePath": "spells/9th-level/time-stop.yml",
           "lookupKey": "Time Stop",
-          "matchedLookupKey": "Time Stop",
+          "matchedLookupKey": "Time Stop"
+        },
+        {
+          "pack": "spells",
+          "id": "QbQZKoXOgHWN06aa",
+          "name": "True Polymorph",
+          "sourcePath": "spells/9th-level/true-polymorph.yml",
+          "lookupKey": "True Polymorph",
+          "matchedLookupKey": "True Polymorph",
           "repairs": [
             {
               "fieldPath": "system.description.value",
               "translationPath": [
                 "description"
               ],
-              "value": "<p>L'incantatore ferma brevemente lo scorrere del tempo per chiunque eccetto se stesso. Il tempo non scorre per le altre creature, mentre l'incantatore guadagna 1d4 + 1 turni di seguito, durante i quali può effettuare azioni e muoversi&nbsp;come di consueto.</p><p>Questo incantesimo termina se una delle azioni che l'incantatore effettua durante questo periodo, o qualsiasi effetto che egli possa creare durante questo periodo, interessa una creatura diversa dall'incantatore od un oggetto indossato o portato da qualcuno diverso dall'incantatore. Inoltre, l'incantesimo termina se l'incantatore si sposta in un luogo a più di 300 metri dalla zona in cui è stato lanciato.</p>"
+              "value": "<p>L'incantatore sceglie una creatura o un oggetto non magico situato entro gittata e che egli sia in grado di vedere e trasforma la creatura in una creatura diversa o in un oggetto, oppure trasforma l'oggetto in una creatura (l'oggetto non deve essere indossato o trasportato da un'altra creatura). La trasformazione permane per la durata dell'incantesimo, o finché il bersaglio non scende a O punti ferita o non muore. Se l'incantatore si concentra su questo incantesimo per l'intera durata, la trasformazione permane finché non viene dissolta.</p>\n<p>Questo incantesimo non ha effetto su un mutaforma o su una creatura con O punti ferita. Una creatura non consenziente può effettuare un tiro salvezza su Saggezza. Se lo supera, non è influenzata da questo incantesimo.</p>\n<p><strong>Creatura in Creatura.&nbsp;</strong>Se l'incantatore trasforma una creatura in un altro tipo di creatura, la nuova forma può essere di qualsiasi tipo a scelta dell'incantatore, purché il suo grado di sfida sia pari o inferiore a quello del bersaglio (o del suo livello, se il bersaglio non possiede un grado di sfida). Le statistiche di gioco del bersaglio, inclusi i punteggi di caratteristica mentali, vengono sostituite dalle statistiche della nuova forma. Il bersaglio mantiene il suo allineamento e la sua personalità.</p>\n<p>Il bersaglio assume i punti ferita della sua nuova forma. Quando torna alla sua forma normale, torna al numero di punti ferita che possedeva prima della trasformazione. Se riassume la sua forma normale per essere sceso a O punti ferita, ogni eventuale danno in eccesso si trasferisce alla sua forma normale. Fintanto che i danni in eccesso non portano la forma normale della creatura a O punti ferita, essa non cade priva di sensi.</p>\n<p>Le azioni della creatura sono limitate a quelle che la natura della sua nuova forma le consente di effettuare: non può parlare, lanciare incantesimi o effettuare qualsiasi altra azione che richieda l'uso delle mani o della parola, a meno che la sua nuova forma non sia in grado di compiere tali azioni.</p>\n<p>L'equipaggiamento del bersaglio si fonde nella nuova forma. La creatura non può attivare, usare o impugnare gli oggetti del suo equipaggiamento, né trarne benefici in altri modi.</p>\n<p><strong>Oggetto In Creatura.&nbsp;</strong>L'incantatore può trasformare un oggetto in una qualsiasi creatura, fintanto che la taglia della creatura non è superiore alla taglia dell'oggetto e il grado di sfida della creatura è pari o inferiore a 9. La creatura è amichevole nei confronti dell'incantatore e dei suoi compagni e agisce a ogni turno dell'incantatore, che decide quale azione effettua e come si muove. È il DM a possedere le sue statistiche e a risolvere le sue azioni e il suo movimento.</p>\n<p>Se l'incantesimo diventa permanente, l'incantatore non controlla più la creatura, che potrebbe rimanere amichevole o meno nei suoi confronti, in base a come è stata trattata.</p>\n\n<p><strong>Creatura In Oggetto.</strong> Se l'incantatore trasforma una creatura in oggetto, tutto ciò che la creatura trasporta e indossa si fonde in quella forma. Le statistiche della creatura diventano quelle dell'oggetto e la creatura non ricorderà nulla del tempo trascorso in questa forma quando l'incantesimo sarà terminato ed essa tornerà alla sua forma normale</p>"
             }
           ]
         },
@@ -2172,16 +1961,7 @@
           "name": "True Resurrection",
           "sourcePath": "spells/9th-level/true-resurrection.yml",
           "lookupKey": "True Resurrection",
-          "matchedLookupKey": "True Resurrection",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore tocca una creatura che è morta da non più di 200 anni e che è morta per qualsiasi motivo tranne la vecchiaia. Se l'anima della creatura è libera e disponibile, viene ripristinata con tutti i suoi punti ferita.</p><p>Questo incantesimo chiude tutte le ferite, neutralizza ogni veleno, cura tutte le malattie e toglie qualsiasi maledizione. L'incantesimo sostituisce gli organi e gli arti danneggiati o mancanti. Se la creatura era non morta, viene ripristinata nella sua forma non-non-morta.</p><p>L'incantesimo può fornire un nuovo corpo se l'originale non esiste più, nel qual caso l'incantatore deve pronunciare il nome della creatura. La creatura appare in uno spazio non occupato che l'incantatore sceglie entro 3 metri da esso.</p>"
-            }
-          ]
+          "matchedLookupKey": "True Resurrection"
         },
         {
           "pack": "spells",
@@ -2189,16 +1969,7 @@
           "name": "Weird",
           "sourcePath": "spells/9th-level/weird.yml",
           "lookupKey": "Weird",
-          "matchedLookupKey": "Weird",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "\n<p>Traendo dalle paure pi&ugrave; profonde di un gruppo di creature, l'incantatore manifesta nelle loro menti delle entit&agrave; illusorie visibili soltanto ad esse. Ogni creatura all'interno di una sfera con raggio di 9 metri centrata in un punto entro gittata a scelta dell'incantatore, deve effettuare un tiro salvezza Saggezza. Se lo fallisce, una creatura diventa spaventata per la durata dell'incantesimo. L'illusione risveglia le paure pi&ugrave; profonde della creatura, manifestando i suoi peggiori incubi come un'implacabile minaccia. All'inizio di ogni turno della creatura spaventata, essa deve superare un tiro salvezza Saggezza oppure subire 4d10 danni psichici. Se il tiro salvezza viene superato, l'incantesimo termina per quella creatura.</p>"
-            }
-          ]
+          "matchedLookupKey": "Weird"
         },
         {
           "pack": "spells",
@@ -2258,18 +2029,60 @@
         },
         {
           "pack": "spells",
-          "id": "kjmjY0zlE6IEiQVL",
-          "name": "Mending",
-          "sourcePath": "spells/cantrip/mending.yml",
-          "lookupKey": "Mending",
-          "matchedLookupKey": "Mending",
+          "id": "Bnn9Nzajixvow9xi",
+          "name": "Light",
+          "sourcePath": "spells/cantrip/light.yml",
+          "lookupKey": "Light",
+          "matchedLookupKey": "Light",
           "repairs": [
             {
               "fieldPath": "system.description.value",
               "translationPath": [
                 "description"
               ],
-              "value": "<p>Questo incantesimo ripara una singola crepa o uno squarcio in un oggetto toccato dall'incantatore, come l'anello spezzato di una catena, due met&agrave; di una chiave spezzata, un mantello strappato o un otre forato. Fintanto che la crepa o lo squarcio non &egrave; pi&ugrave; grande di 30 cm in ogni dimensione, l'incantatore lo ripara senza lasciare traccia del danno precedente.</p><p>Questo incantesimo pu&ograve; fisicamente riparare un oggetto magico o un costrutto, ma non pu&ograve; ripristinare la magia in un oggetto del genere.</p>"
+              "value": "<p>L'incantatore tocca un oggetto non più grande di 3 metri in ogni dimensione. Finché l'incantesimo non termina, l'oggetto proietta luce intensa entro un raggio di 6 metri e luce fioca per altri 6 metri. La luce può essere del colore desiderato dall'incantatore. Coprire completamente l'oggetto con qualcosa di opaco blocca la luce. L'incantesimo termina se l'incantatore lo lancia di nuovo o lo interrompe con un'azione.</p><p>Se l'incantatore bersaglia un oggetto impugnato o posseduto da una creatura ostile, quella creatura deve superare un tiro salvezza su Destrezza per evitare l'incantesimo.</p>"
+            }
+          ]
+        },
+        {
+          "pack": "spells",
+          "id": "Utk1OQRwYkMkFRD3",
+          "name": "Mage Hand",
+          "sourcePath": "spells/cantrip/mage-hand.yml",
+          "lookupKey": "Mage Hand",
+          "matchedLookupKey": "Mage Hand",
+          "repairs": [
+            {
+              "fieldPath": "system.description.value",
+              "translationPath": [
+                "description"
+              ],
+              "value": "<p>Una mano spettrale e fluttuante appare nel punto scelto all'interno del raggio. La mano dura per la durata o fino a quando non la scartate come azione. La mano svanisce se è mai più di 9 metri di distanza da te o se lanci di nuovo questo incantesimo.</p>\n<p>Puoi usare la tua azione per controllare la mano. Puoi usare la mano per manipolare un oggetto, aprire una porta o un contenitore sbloccato, riporre o recuperare un oggetto da un contenitore aperto o versare il contenuto da una fiala. Puoi muovere la mano fino a 9 metri ogni volta che la usi.</p>\n\n<p>La mano non può attaccare, attivare oggetti magici o trasportare più di 10 chili.</p>"
+            }
+          ]
+        },
+        {
+          "pack": "spells",
+          "id": "kjmjY0zlE6IEiQVL",
+          "name": "Mending",
+          "sourcePath": "spells/cantrip/mending.yml",
+          "lookupKey": "Mending",
+          "matchedLookupKey": "Mending"
+        },
+        {
+          "pack": "spells",
+          "id": "icZokbgV1jIMpNCv",
+          "name": "Message",
+          "sourcePath": "spells/cantrip/message.yml",
+          "lookupKey": "Message",
+          "matchedLookupKey": "Message",
+          "repairs": [
+            {
+              "fieldPath": "system.description.value",
+              "translationPath": [
+                "description"
+              ],
+              "value": "<p>L'incantatore punta l'indice verso una creatura entro gittata e sussurra un messaggio, il bersaglio (e soltanto il bersaglio) sente il messaggio e può rispondere con un sussurro che soltanto l'incantatore può udire.</p><p>L'incantatore può lanciare questo incantesimo attraverso gli oggetti solidi, se ha familiarità con il bersaglio e sa che si trova oltre la barriera. Il silenzio magico, 30 cm di pietra, 2,5 cm di metallo comune, una sottile lamina di piombo o 90 cm di legno bloccano l'incantesimo. l'incantesimo non deve necessariamente seguire una linea retta e può svilupparsi liberamente oltre gli angoli e attraverso le aperture.</p>"
             }
           ]
         },
@@ -2279,16 +2092,7 @@
           "name": "Poison Spray",
           "sourcePath": "spells/cantrip/poison-spray.yml",
           "lookupKey": "Poison Spray",
-          "matchedLookupKey": "Poison Spray",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore allunga la mano verso una creatura entro gittata e che egli sia in grado di vedere e proietta uno sbuffo di gas velenoso dal suo palmo. La creatura deve superare un tiro salvezza su Costituzione, altrimenti subisce 1d12 danni da veleno.</p><p>I danni di questo incantesimo aumentano di 1d12 quando l'incantatore arriva al 5° livello (2d12), 11° livello (3d12) e 17° livello (4d12).</p>"
-            }
-          ]
+          "matchedLookupKey": "Poison Spray"
         },
         {
           "pack": "spells",
@@ -2296,16 +2100,7 @@
           "name": "Prestidigitation",
           "sourcePath": "spells/cantrip/prestidigitation.yml",
           "lookupKey": "Prestidigitation",
-          "matchedLookupKey": "Prestidigitation",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Questo incantesimo è un trucco magico che gli incantatori novizi usano per fare pratica. L'incantatore crea uno degli effetti magici seguenti entro gittata:</p>\n<ul>\n<li>Crea un effetto sensoriale innocuo e istantaneo, come una pioggia di scintille, una folata di vento, una tenue melodia musicale o uno strano odore.</li>\n<li>Accende o spegne istantaneamente una candela, una torcia o un piccolo fuoco da campo.</li>\n<li>Pulisce o sporca istantaneamente un oggetto non più grande di un cubo con spigolo di 30 cm.</li>\n<li>Riscalda, raffredda o condisce materiale non vivente del volume massimo di un cubo di spigolo di 30 cm per 1 ora.</li>\n<li>Fa comparire un colore, un piccolo segno o un simbolo su un oggetto o una superficie per 1 ora.</li>\n<li>Crea un ninnolo non magico o un'immagine illusoria che può stare nella sua mano e che permane fino alla fine del suo turno.</li>\n</ul>\n\n<p>Se l'incantatore lancia questo incantesimo più volte può tenere attivi fino a tre dei suoi effetti non istantanei contemporaneamente, e può congedare ognuno di questi effetti con un'azione.</p>"
-            }
-          ]
+          "matchedLookupKey": "Prestidigitation"
         },
         {
           "pack": "spells",
@@ -2313,16 +2108,7 @@
           "name": "Produce Flame",
           "sourcePath": "spells/cantrip/produce-flame.yml",
           "lookupKey": "Produce Flame",
-          "matchedLookupKey": "Produce Flame",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Una fiamma tremolante compare nella mano dell'incantatore. La fiamma permane per la durata dell'incantesimo e non infligge danni né all'incantatore né al suo equipaggiamento. La fiamma proietta luce intensa entro un raggio di 3 metri e luce fioca per altri 3 metri. L'incantesimo termina se l'incantatore lo interrompe con un'azione o se lo lancia di nuovo.</p><p>L'incantatore può anche attaccare con la fiamma, ponendo termine all'incantesimo. Quando l'incantatore lancia questo incantesimo, o usando un'azione in un turno successivo, può scagliare la fiamma contro una creatura situata entro 9 metri da lui. Effettua un attacco a distanza con questo incantesimo. Se colpisce, il bersaglio subisce 1d8 danni da fuoco.</p><p>I danni di questo incantesimo aumentano di 1d8 quando l'incantatore arriva al 5° livello (2d8), 11° livello (3d8) e 17° livello (4d8).</p>"
-            }
-          ]
+          "matchedLookupKey": "Produce Flame"
         },
         {
           "pack": "spells",
@@ -2330,16 +2116,7 @@
           "name": "Ray of Frost",
           "sourcePath": "spells/cantrip/ray-of-frost.yml",
           "lookupKey": "Ray of Frost",
-          "matchedLookupKey": "Ray of Frost",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Un raggio gelido di luce azzurra e biancastra sfreccia verso una creatura entro gittata. L'incantatore effettua un attacco a distanza con questo incantesimo contro il bersaglio. Se lo colpisce, il bersaglio subisce 1d8 danni da freddo e la sua velocità è ridotta di 3 metri fino all'inizio del turno successivo dell'incantatore.</p><p>I danni di questo incantesimo aumentano di 1d8 quando l'incantatore arriva al 5° livello (2d8), 11° livello (3d8) e 17° livello (4d8).</p>"
-            }
-          ]
+          "matchedLookupKey": "Ray of Frost"
         },
         {
           "pack": "spells",
@@ -2347,16 +2124,7 @@
           "name": "Resistance",
           "sourcePath": "spells/cantrip/resistance.yml",
           "lookupKey": "Resistance",
-          "matchedLookupKey": "Resistance",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "\n<p>L'incantatore tocca una creatura consenziente. Per una volta prima che l'incantesimo termini, il bersaglio può tirare un d4 e aggiungere il risultato ottenuto ad un tiro salvezza a sua scelta. Può tirare il dado prima o dopo avere effettuato il tiro salvezza. Dopodiché l'incantesimo termina.</p>"
-            }
-          ]
+          "matchedLookupKey": "Resistance"
         },
         {
           "pack": "spells",
@@ -2364,16 +2132,7 @@
           "name": "Sacred Flame",
           "sourcePath": "spells/cantrip/sacred-flame.yml",
           "lookupKey": "Sacred Flame",
-          "matchedLookupKey": "Sacred Flame",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Un bagliore simile a una fiamma scende fino a una creatura entro gittata e che l'incantatore sia in grado di vedere. Il bersaglio deve superare un tiro salvezza su Destrezza, altrimenti subisce 1d8 danni radiosi. Il bersaglio non trae beneficio dalla copertura per questo tiro salvezza.</p><p>I danni di questo incantesimo aumentano di 1d8 quando l'incantatore arriva al 5° livello (2d8), 11° livello (3d8) e 17° livello (4d8).</p>"
-            }
-          ]
+          "matchedLookupKey": "Sacred Flame"
         },
         {
           "pack": "spells",
@@ -2381,16 +2140,7 @@
           "name": "Shillelagh",
           "sourcePath": "spells/cantrip/shillelagh.yml",
           "lookupKey": "Shillelagh",
-          "matchedLookupKey": "Shillelagh",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "\n<p>Il legno di un randello o di un bastone ferrato impugnato dall'incantatore è pervaso dal potere della natura. Per la durata dell’incantesimo, l'incantatore può usare la sua caratteristica da incantatore anziché la Forza per i tiri per colpire e i tiri per i danni effettuati negli attacchi in mischia usando quell'arma; inoltre, i danni dell’arma diventano un d8. L’arma diventa magica, se già non lo era. L’incantesimo termina se l'incantatore lo lancia di nuovo o se lascia andare l’arma.</p>"
-            }
-          ]
+          "matchedLookupKey": "Shillelagh"
         },
         {
           "pack": "spells",
@@ -2398,16 +2148,7 @@
           "name": "Shocking Grasp",
           "sourcePath": "spells/cantrip/shocking-grasp.yml",
           "lookupKey": "Shocking Grasp",
-          "matchedLookupKey": "Shocking Grasp",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Un fulmine si sprigiona dalla mano dell'incantatore per trasmettere una scarica folgorante a una creatura da lui toccata. L'incantatore effettua un attacco in mischia con questo incantesimo contro il bersaglio. Se il bersaglio indossa un'armatura fatta di metallo l'incantatore dispone di vantaggio. Se colpisce, il bersaglio subisce 1d8 danni da fulmine e non può effettuare reazioni fino all'inizio del suo turno successivo.</p><p>I danni di questo incantesimo aumentano di 1d8 quando l'incantatore arriva al 5° livello (2d8), 11° livello (3d8) e 17° livello (4d8).</p>"
-            }
-          ]
+          "matchedLookupKey": "Shocking Grasp"
         },
         {
           "pack": "spells",
@@ -2415,16 +2156,7 @@
           "name": "Spare the Dying",
           "sourcePath": "spells/cantrip/spare-the-dying.yml",
           "lookupKey": "Spare the Dying",
-          "matchedLookupKey": "Spare the Dying",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore tocca una creatura vivente a 0 punti ferita. Quella creatura diventa stabile. Questo incantesimo non ha effetto sui costrutti o sui non morti.</p>"
-            }
-          ]
+          "matchedLookupKey": "Spare the Dying"
         },
         {
           "pack": "spells",
@@ -2432,16 +2164,7 @@
           "name": "Thaumaturgy",
           "sourcePath": "spells/cantrip/thaumaturgy.yml",
           "lookupKey": "Thaumaturgy",
-          "matchedLookupKey": "Thaumaturgy",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore genera una meraviglia minore, una manifestazione di potere soprannaturale. Può creare uno degli effetti magici seguenti entro gittata:</p>\n<ul>\n<li>La sua voce rimbomba con potenza tre volte superiore rispetto al normale per 1 minuto.</li>\n<li>L'incantatore fa in modo che una fiamma tremi, si intensifichi, si affievolisca o cambi colore per 1 minuto.</li>\n<li>L'incantatore genera un tremito innocuo sul terreno per 1 minuto.</li>\n<li>L'incantatore crea un suono istantaneo che abbia origine da un punto entro gittata a sua scelta, come un rombo di tuono, il verso di un corvo o un sinistro sussurro.</li>\n<li>L'incantatore fa in modo che una porta o una finestra non chiusa a chiave si spalanchi o si chiuda di colpo da sola.</li>\n<li>L'incantatore altera l'aspetto dei suoi occhi per 1 minuto.</li>\n</ul>\n\n<p>Se l'incantatore lancia questo incantesimo più volte, può mantenere attivi fino a tre dei suoi effetti da 1 minuto simultaneamente e può congedare uno di quegli effetti con un'azione.</p>"
-            }
-          ]
+          "matchedLookupKey": "Thaumaturgy"
         },
         {
           "pack": "spells",
@@ -3003,87 +2726,6 @@
         },
         {
           "pack": "spells",
-          "id": "MRxldJd6C4bsBo3O",
-          "name": "Levitate",
-          "sourcePath": "spells/2nd-level/levitate.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Levitate",
-          "matchedLookupKey": "Levitate",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "MRxldJd6C4bsBo3O",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "MRxldJd6C4bsBo3O",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "Iv2qqSAT7OkXKPFx",
-          "name": "Locate Animals or Plants",
-          "sourcePath": "spells/2nd-level/locate-animals-or-plants.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Locate Animals or Plants",
-          "matchedLookupKey": "Locate Animals or Plants",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "Iv2qqSAT7OkXKPFx",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "Iv2qqSAT7OkXKPFx",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "SleYkHovQ8NagmeV",
-          "name": "Locate Object",
-          "sourcePath": "spells/2nd-level/locate-object.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Locate Object",
-          "matchedLookupKey": "Locate Object",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "SleYkHovQ8NagmeV",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "SleYkHovQ8NagmeV",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
           "id": "X4c8xCkmF8U9HUMz",
           "name": "Mirror Image",
           "sourcePath": "spells/2nd-level/mirror-image.yml",
@@ -3119,33 +2761,6 @@
         },
         {
           "pack": "spells",
-          "id": "MAxM77CDUu8dgIRQ",
-          "name": "Protection from Poison",
-          "sourcePath": "spells/2nd-level/protection-from-poison.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Protection from Poison",
-          "matchedLookupKey": "Protection from Poison",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "MAxM77CDUu8dgIRQ",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "MAxM77CDUu8dgIRQ",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
           "id": "ODhLKBxLnvvLOnw1",
           "name": "Ray of Enfeeblement",
           "sourcePath": "spells/2nd-level/ray-of-enfeeblement.yml",
@@ -3167,60 +2782,6 @@
               "message": "HTML attributes differ from source",
               "pack": "spells",
               "id": "ODhLKBxLnvvLOnw1",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "ap4dmtshjEbwU3Ts",
-          "name": "Rope Trick",
-          "sourcePath": "spells/2nd-level/rope-trick.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Rope Trick",
-          "matchedLookupKey": "Rope Trick",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "ap4dmtshjEbwU3Ts",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "ap4dmtshjEbwU3Ts",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "KJRVzeMQXPj8Gtyx",
-          "name": "Spider Climb",
-          "sourcePath": "spells/2nd-level/spider-climb.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Spider Climb",
-          "matchedLookupKey": "Spider Climb",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "KJRVzeMQXPj8Gtyx",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "KJRVzeMQXPj8Gtyx",
               "fieldPath": "system.description.value"
             }
           ]
@@ -3256,33 +2817,6 @@
               "message": "Foundry formulas differ from source",
               "pack": "spells",
               "id": "JbxsYXxSOTZbf9I0",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "CylBa7jR8DSbo8Z3",
-          "name": "Zone of Truth",
-          "sourcePath": "spells/2nd-level/zone-of-truth.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Zone of Truth",
-          "matchedLookupKey": "Zone of Truth",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "CylBa7jR8DSbo8Z3",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "CylBa7jR8DSbo8Z3",
               "fieldPath": "system.description.value"
             }
           ]
@@ -3556,33 +3090,6 @@
         },
         {
           "pack": "spells",
-          "id": "yqUDoxk4x0NWG5Bz",
-          "name": "Slow",
-          "sourcePath": "spells/3rd-level/slow.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Slow",
-          "matchedLookupKey": "Slow",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "yqUDoxk4x0NWG5Bz",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "yqUDoxk4x0NWG5Bz",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
           "id": "2VXGS206tuChoeXy",
           "name": "Speak with Plants",
           "sourcePath": "spells/3rd-level/speak-with-plants.yml",
@@ -3618,60 +3125,6 @@
         },
         {
           "pack": "spells",
-          "id": "TwlD4PLcltv7Xh7j",
-          "name": "Stinking Cloud",
-          "sourcePath": "spells/3rd-level/stinking-cloud.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Stinking Cloud",
-          "matchedLookupKey": "Stinking Cloud",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "TwlD4PLcltv7Xh7j",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "TwlD4PLcltv7Xh7j",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "gopnZvS0c2jD5FP8",
-          "name": "Tongues",
-          "sourcePath": "spells/3rd-level/tongues.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Tongues",
-          "matchedLookupKey": "Tongues",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "gopnZvS0c2jD5FP8",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "gopnZvS0c2jD5FP8",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
           "id": "13uVuBQP6VaiSPvC",
           "name": "Water Breathing",
           "sourcePath": "spells/3rd-level/water-breathing.yml",
@@ -3693,33 +3146,6 @@
               "message": "HTML attributes differ from source",
               "pack": "spells",
               "id": "13uVuBQP6VaiSPvC",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "ew6GA8dJy2spQmFW",
-          "name": "Wind Wall",
-          "sourcePath": "spells/3rd-level/wind-wall.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Wind Wall",
-          "matchedLookupKey": "Wind Wall",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "ew6GA8dJy2spQmFW",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "ew6GA8dJy2spQmFW",
               "fieldPath": "system.description.value"
             }
           ]
@@ -3869,68 +3295,6 @@
         },
         {
           "pack": "spells",
-          "id": "gXtzz9t1DTzJeLr4",
-          "name": "Locate Creature",
-          "sourcePath": "spells/4th-level/locate-creature.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Locate Creature",
-          "matchedLookupKey": "Locate Creature",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "gXtzz9t1DTzJeLr4",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "gXtzz9t1DTzJeLr4",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "spells",
-              "id": "gXtzz9t1DTzJeLr4",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "04nMsTWkIFvkbXlY",
-          "name": "Polymorph",
-          "sourcePath": "spells/4th-level/polymorph.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Polymorph",
-          "matchedLookupKey": "Polymorph",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "04nMsTWkIFvkbXlY",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "04nMsTWkIFvkbXlY",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
           "id": "NJgxf7pmSsBArIG7",
           "name": "Private Sanctum",
           "sourcePath": "spells/4th-level/private-sanctum.yml",
@@ -3987,33 +3351,6 @@
               "message": "Foundry reference targets or order differ from source",
               "pack": "spells",
               "id": "1ADstb0Xec6HHRcU",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "X3DrXgxjwI2dvkD6",
-          "name": "Wall of Fire",
-          "sourcePath": "spells/4th-level/wall-of-fire.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Wall of Fire",
-          "matchedLookupKey": "Wall of Fire",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "X3DrXgxjwI2dvkD6",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "X3DrXgxjwI2dvkD6",
               "fieldPath": "system.description.value"
             }
           ]
@@ -4338,95 +3675,6 @@
         },
         {
           "pack": "spells",
-          "id": "uAwtVZkiSTyP6ORB",
-          "name": "Telepathic Bond",
-          "sourcePath": "spells/5th-level/telepathic-bond.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Telepathic Bond",
-          "matchedLookupKey": "Telepathic Bond",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "uAwtVZkiSTyP6ORB",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "uAwtVZkiSTyP6ORB",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "o9ZCvuD2B1OTcubb",
-          "name": "Wall of Force",
-          "sourcePath": "spells/5th-level/wall-of-force.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Wall of Force",
-          "matchedLookupKey": "Wall of Force",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "o9ZCvuD2B1OTcubb",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "o9ZCvuD2B1OTcubb",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "spells",
-              "id": "o9ZCvuD2B1OTcubb",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "NmoRmM1mhuM3pqnY",
-          "name": "Wall of Stone",
-          "sourcePath": "spells/5th-level/wall-of-stone.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Wall of Stone",
-          "matchedLookupKey": "Wall of Stone",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "NmoRmM1mhuM3pqnY",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "NmoRmM1mhuM3pqnY",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
           "id": "4smlOvpF5AQHcyg1",
           "name": "Contingency",
           "sourcePath": "spells/6th-level/contingency.yml",
@@ -4680,33 +3928,6 @@
         },
         {
           "pack": "spells",
-          "id": "yI0XWIgI0IGGsR3R",
-          "name": "Move Earth",
-          "sourcePath": "spells/6th-level/move-earth.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Move Earth",
-          "matchedLookupKey": "Move Earth",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "yI0XWIgI0IGGsR3R",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "yI0XWIgI0IGGsR3R",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
           "id": "fzZnVKLmBMo2f5up",
           "name": "Wall of Ice",
           "sourcePath": "spells/6th-level/wall-of-ice.yml",
@@ -4728,33 +3949,6 @@
               "message": "HTML attributes differ from source",
               "pack": "spells",
               "id": "fzZnVKLmBMo2f5up",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "AQsBc94ES7W7s7iG",
-          "name": "Wall of Thorns",
-          "sourcePath": "spells/6th-level/wall-of-thorns.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Wall of Thorns",
-          "matchedLookupKey": "Wall of Thorns",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "AQsBc94ES7W7s7iG",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "AQsBc94ES7W7s7iG",
               "fieldPath": "system.description.value"
             }
           ]
@@ -4825,33 +4019,6 @@
               "message": "Foundry reference targets or order differ from source",
               "pack": "spells",
               "id": "Y7uWUO4yqUN0JKl0",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "f38w5rd9SgdmWc6F",
-          "name": "Mirage Arcane",
-          "sourcePath": "spells/7th-level/mirage-arcane.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Mirage Arcane",
-          "matchedLookupKey": "Mirage Arcane",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "f38w5rd9SgdmWc6F",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "f38w5rd9SgdmWc6F",
               "fieldPath": "system.description.value"
             }
           ]
@@ -5184,41 +4351,6 @@
         },
         {
           "pack": "spells",
-          "id": "clwv2PWOcT822hlr",
-          "name": "Maze",
-          "sourcePath": "spells/8th-level/maze.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Maze",
-          "matchedLookupKey": "Maze",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "clwv2PWOcT822hlr",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "clwv2PWOcT822hlr",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "spells",
-              "id": "clwv2PWOcT822hlr",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
           "id": "bllEWfm9xfEKynhv",
           "name": "Mind Blank",
           "sourcePath": "spells/8th-level/mind-blank.yml",
@@ -5378,33 +4510,6 @@
         },
         {
           "pack": "spells",
-          "id": "QbQZKoXOgHWN06aa",
-          "name": "True Polymorph",
-          "sourcePath": "spells/9th-level/true-polymorph.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "True Polymorph",
-          "matchedLookupKey": "True Polymorph",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "QbQZKoXOgHWN06aa",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "QbQZKoXOgHWN06aa",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
           "id": "3okM6Gn63zzEULkz",
           "name": "Wish",
           "sourcePath": "spells/9th-level/wish.yml",
@@ -5434,87 +4539,6 @@
               "message": "Foundry reference count differs from source",
               "pack": "spells",
               "id": "3okM6Gn63zzEULkz",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "Bnn9Nzajixvow9xi",
-          "name": "Light",
-          "sourcePath": "spells/cantrip/light.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Light",
-          "matchedLookupKey": "Light",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "Bnn9Nzajixvow9xi",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "Bnn9Nzajixvow9xi",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "Utk1OQRwYkMkFRD3",
-          "name": "Mage Hand",
-          "sourcePath": "spells/cantrip/mage-hand.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Mage Hand",
-          "matchedLookupKey": "Mage Hand",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "Utk1OQRwYkMkFRD3",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "Utk1OQRwYkMkFRD3",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "icZokbgV1jIMpNCv",
-          "name": "Message",
-          "sourcePath": "spells/cantrip/message.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Message",
-          "matchedLookupKey": "Message",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "icZokbgV1jIMpNCv",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "icZokbgV1jIMpNCv",
               "fieldPath": "system.description.value"
             }
           ]

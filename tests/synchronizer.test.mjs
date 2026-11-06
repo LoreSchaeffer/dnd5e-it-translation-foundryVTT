@@ -191,6 +191,13 @@ test("rebaseInvariantTokens drops a legacy spell header and empty spacer paragra
   );
 });
 
+test("rebaseInvariantTokens drops a legacy spell header split across four lists", () => {
+  const source = "<p>First rule.</p>";
+  const legacy = "<p><em>Evocazione di 2° livello</em></p><p>&nbsp;</p><ul><li><strong>Tempo di lancio:</strong> 1 azione</li></ul><ul><li><strong>Gittata:</strong> 18 metri</li></ul><ul><li><strong>Componenti:</strong> V, S</li></ul><ul><li><strong>Durata:</strong> Istantanea</li></ul><p>Prima regola.</p>";
+
+  assert.equal(rebaseInvariantTokens(source, legacy), "<p>Prima regola.</p>");
+});
+
 test("rebaseInvariantTokens projects translated text onto an equivalent source HTML skeleton", () => {
   const source = "<table><tr><td><strong>Level</strong></td><td>Feature</td></tr></table>";
   const legacy = "<table><thead><tr><th><p><strong>Livello</strong></p></th><th><p>Privilegio</p></th></tr></thead></table>";

@@ -92,7 +92,7 @@ function unwrapSingleLegacyDiv(text) {
 
 function stripLegacySpellHeader(text) {
   const value = text.trim();
-  const match = value.match(/^(<p\b[^>]*>\s*<em\b[^>]*>[\s\S]*?<\/em>\s*<\/p>)\s*(<ul\b[^>]*>[\s\S]*?<\/ul>)/i);
+  const match = value.match(/^(<p\b[^>]*>\s*<em\b[^>]*>[\s\S]*?<\/em>\s*<\/p>)((?:\s*<ul\b[^>]*>[\s\S]*?<\/ul>){1,4})/i);
   if (!match) return text;
   const items = [...match[2].matchAll(/<li\b[^>]*>[\s\S]*?<\/li>/gi)];
   if (items.length !== 4 || !items.every(item => /<strong\b[^>]*>[\s\S]*?<\/strong>/i.test(item[0]))) return text;
@@ -251,8 +251,8 @@ function reshapeReferenceChoiceList(source, translation, referenceLabels) {
 
 export function rebaseInvariantTokens(source, translation, { referenceLabels } = {}) {
   translation = translation.replace(/^\s*<p\b[^>]*>\s*Prerequisito:[\s\S]*?<\/p>\s*/i, "");
-  translation = stripLegacySpellHeader(translation);
   translation = dropEmptySpacerParagraphs(source, translation);
+  translation = stripLegacySpellHeader(translation);
   const choiceList = reshapeReferenceChoiceList(source, translation, referenceLabels);
   if (choiceList !== null) translation = choiceList;
   if (!/<table\b/i.test(source) && /<table\b/i.test(translation)) {
