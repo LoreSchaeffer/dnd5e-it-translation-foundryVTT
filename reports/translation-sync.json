@@ -447,6 +447,30 @@
         },
         {
           "pack": "items",
+          "id": "dXtZxlh2VKLCo1nA",
+          "name": "Leather Armor +1",
+          "sourcePath": "items/armor/leather-armor-1.yml",
+          "lookupKey": "Leather Armor +1",
+          "matchedLookupKey": "Leather Armor +1"
+        },
+        {
+          "pack": "items",
+          "id": "UT8zCwmdXVQlBiyl",
+          "name": "Leather Armor +2",
+          "sourcePath": "items/armor/leather-armor-2.yml",
+          "lookupKey": "Leather Armor +2",
+          "matchedLookupKey": "Leather Armor +2"
+        },
+        {
+          "pack": "items",
+          "id": "ZwFCZDgQljlidzns",
+          "name": "Leather Armor +3",
+          "sourcePath": "items/armor/leather-armor-3.yml",
+          "lookupKey": "Leather Armor +3",
+          "matchedLookupKey": "Leather Armor +3"
+        },
+        {
+          "pack": "items",
           "id": "dRtb9Tg34NKX9mGF",
           "name": "Leather Armor of Resistance",
           "sourcePath": "items/armor/leather-armor-of-resistance.yml",
@@ -524,6 +548,30 @@
           "sourcePath": "items/armor/mithral-splint-armor.yml",
           "lookupKey": "Mithral Splint Armor",
           "matchedLookupKey": "Mithral Splint Armor"
+        },
+        {
+          "pack": "items",
+          "id": "twRJhPtDQe1HceFt",
+          "name": "Padded Armor +1",
+          "sourcePath": "items/armor/padded-armor-1.yml",
+          "lookupKey": "Padded Armor +1",
+          "matchedLookupKey": "Padded Armor +1"
+        },
+        {
+          "pack": "items",
+          "id": "G9XQPNLlDXkpVxn1",
+          "name": "Padded Armor +2",
+          "sourcePath": "items/armor/padded-armor-2.yml",
+          "lookupKey": "Padded Armor +2",
+          "matchedLookupKey": "Padded Armor +2"
+        },
+        {
+          "pack": "items",
+          "id": "XKnDE8DTrJxIkVCF",
+          "name": "Padded Armor +3",
+          "sourcePath": "items/armor/padded-armor-3.yml",
+          "lookupKey": "Padded Armor +3",
+          "matchedLookupKey": "Padded Armor +3"
         },
         {
           "pack": "items",
@@ -5981,168 +6029,6 @@
               "message": "HTML attributes differ from source",
               "pack": "items",
               "id": "uWUD93jwuO2Jxkti",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "dXtZxlh2VKLCo1nA",
-          "name": "Leather Armor +1",
-          "sourcePath": "items/armor/leather-armor-1.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Leather Armor +1",
-          "matchedLookupKey": "Leather Armor +1",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "dXtZxlh2VKLCo1nA",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "dXtZxlh2VKLCo1nA",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "UT8zCwmdXVQlBiyl",
-          "name": "Leather Armor +2",
-          "sourcePath": "items/armor/leather-armor-2.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Leather Armor +2",
-          "matchedLookupKey": "Leather Armor +2",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "UT8zCwmdXVQlBiyl",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "UT8zCwmdXVQlBiyl",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "ZwFCZDgQljlidzns",
-          "name": "Leather Armor +3",
-          "sourcePath": "items/armor/leather-armor-3.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Leather Armor +3",
-          "matchedLookupKey": "Leather Armor +3",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "ZwFCZDgQljlidzns",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "ZwFCZDgQljlidzns",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "twRJhPtDQe1HceFt",
-          "name": "Padded Armor +1",
-          "sourcePath": "items/armor/padded-armor-1.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Padded Armor +1",
-          "matchedLookupKey": "Padded Armor +1",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "twRJhPtDQe1HceFt",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "twRJhPtDQe1HceFt",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "G9XQPNLlDXkpVxn1",
-          "name": "Padded Armor +2",
-          "sourcePath": "items/armor/padded-armor-2.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Padded Armor +2",
-          "matchedLookupKey": "Padded Armor +2",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "G9XQPNLlDXkpVxn1",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "G9XQPNLlDXkpVxn1",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "XKnDE8DTrJxIkVCF",
-          "name": "Padded Armor +3",
-          "sourcePath": "items/armor/padded-armor-3.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Padded Armor +3",
-          "matchedLookupKey": "Padded Armor +3",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "XKnDE8DTrJxIkVCF",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "XKnDE8DTrJxIkVCF",
               "fieldPath": "system.description.value"
             }
           ]

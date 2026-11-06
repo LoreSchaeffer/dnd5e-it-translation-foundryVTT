@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1587,
+      "translated": 1593,
       "missing": 69,
-      "partial": 735,
+      "partial": 729,
       "review": 116
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 1402,
+      "invariantFailures": 1390,
       "englishResiduals": 118,
       "imperialResiduals": 2
     },
-    "blockingIssues": 7605
+    "blockingIssues": 7593
   },
   "packs": [
     {
@@ -5317,9 +5317,9 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 699,
+          "translated": 705,
           "missing": 0,
-          "partial": 186,
+          "partial": 180,
           "review": 46
         },
         "folders": {
@@ -5333,7 +5333,7 @@
           "total": 2227,
           "translated": 2227,
           "missing": 0,
-          "invariantFailures": 455,
+          "invariantFailures": 443,
           "englishResiduals": 46,
           "imperialResiduals": 2
         }
@@ -5398,126 +5398,6 @@
           "fieldPath": "system.description.value",
           "name": "Arrow-Catching Shield",
           "sourcePath": "items/armor/arrow-catching-shield.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "dXtZxlh2VKLCo1nA",
-          "fieldPath": "system.description.value",
-          "name": "Leather Armor +1",
-          "sourcePath": "items/armor/leather-armor-1.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "dXtZxlh2VKLCo1nA",
-          "fieldPath": "system.description.value",
-          "name": "Leather Armor +1",
-          "sourcePath": "items/armor/leather-armor-1.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "UT8zCwmdXVQlBiyl",
-          "fieldPath": "system.description.value",
-          "name": "Leather Armor +2",
-          "sourcePath": "items/armor/leather-armor-2.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "UT8zCwmdXVQlBiyl",
-          "fieldPath": "system.description.value",
-          "name": "Leather Armor +2",
-          "sourcePath": "items/armor/leather-armor-2.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "ZwFCZDgQljlidzns",
-          "fieldPath": "system.description.value",
-          "name": "Leather Armor +3",
-          "sourcePath": "items/armor/leather-armor-3.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "ZwFCZDgQljlidzns",
-          "fieldPath": "system.description.value",
-          "name": "Leather Armor +3",
-          "sourcePath": "items/armor/leather-armor-3.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "twRJhPtDQe1HceFt",
-          "fieldPath": "system.description.value",
-          "name": "Padded Armor +1",
-          "sourcePath": "items/armor/padded-armor-1.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "twRJhPtDQe1HceFt",
-          "fieldPath": "system.description.value",
-          "name": "Padded Armor +1",
-          "sourcePath": "items/armor/padded-armor-1.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "G9XQPNLlDXkpVxn1",
-          "fieldPath": "system.description.value",
-          "name": "Padded Armor +2",
-          "sourcePath": "items/armor/padded-armor-2.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "G9XQPNLlDXkpVxn1",
-          "fieldPath": "system.description.value",
-          "name": "Padded Armor +2",
-          "sourcePath": "items/armor/padded-armor-2.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "XKnDE8DTrJxIkVCF",
-          "fieldPath": "system.description.value",
-          "name": "Padded Armor +3",
-          "sourcePath": "items/armor/padded-armor-3.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "XKnDE8DTrJxIkVCF",
-          "fieldPath": "system.description.value",
-          "name": "Padded Armor +3",
-          "sourcePath": "items/armor/padded-armor-3.yml"
         },
         {
           "code": "html-tag-sequence",
