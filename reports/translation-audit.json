@@ -3,10 +3,10 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1700,
+      "translated": 1746,
       "missing": 69,
-      "partial": 622,
-      "review": 109
+      "partial": 576,
+      "review": 70
     },
     "folders": {
       "total": 120,
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 1059,
-      "englishResiduals": 111,
-      "imperialResiduals": 2
+      "invariantFailures": 1043,
+      "englishResiduals": 72,
+      "imperialResiduals": 0
     },
-    "blockingIssues": 7255
+    "blockingIssues": 7198
   },
   "packs": [
     {
@@ -5317,10 +5317,10 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 812,
+          "translated": 858,
           "missing": 0,
-          "partial": 73,
-          "review": 39
+          "partial": 27,
+          "review": 0
         },
         "folders": {
           "total": 17,
@@ -5333,9 +5333,9 @@
           "total": 2227,
           "translated": 2227,
           "missing": 0,
-          "invariantFailures": 112,
-          "englishResiduals": 39,
-          "imperialResiduals": 2
+          "invariantFailures": 96,
+          "englishResiduals": 0,
+          "imperialResiduals": 0
         }
       },
       "issues": [
@@ -5440,79 +5440,6 @@
           "sourcePath": "items/rod/rod-of-absorption.yml"
         },
         {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "uXOT4fYbgPY8DGdd",
-          "fieldPath": "system.description.value",
-          "name": "Crystal",
-          "sourcePath": "items/spellcasting-focus/crystal.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "uXOT4fYbgPY8DGdd",
-          "fieldPath": "system.description.value",
-          "name": "Crystal",
-          "sourcePath": "items/spellcasting-focus/crystal.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "Questo talismano sferico funge da focus per da Incantatore, aiutando il praticante a canalizzare energie arcane, primarie o divine. Focus da Incantatore. An arcane focus is a special item designed to channel the power of arcane spells. Un mago, uno stregone o un warlock può usare questo oggetto come focus da incantatore, usandolo al posto di qualsiasi componente materiale che non elenca un costo.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "tH5Rn0JVRG1zdmPa",
-          "name": "Orb",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/spellcasting-focus/orb.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Totem",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "PGL6aaM0wE5h0VN5",
-          "name": "Totem",
-          "fieldPath": "name",
-          "sourcePath": "items/spellcasting-focus/totem.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Dulcimer",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "NtdDkjmpdIMiX7I2",
-          "name": "Dulcimer",
-          "fieldPath": "name",
-          "sourcePath": "items/tool/dulcimer.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "YHCmjsiXxZ9UdUhU",
-          "fieldPath": "system.description.value",
-          "name": "Navigator's Tools",
-          "sourcePath": "items/tool/navigators-tools.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "YHCmjsiXxZ9UdUhU",
-          "fieldPath": "system.description.value",
-          "name": "Navigator's Tools",
-          "sourcePath": "items/tool/navigators-tools.yml"
-        },
-        {
           "code": "html-balance",
           "severity": "blocking",
           "message": "Closing tag </tr> does not match <tbody>; Closing tag </tr> does not match <table>; Closing tag </tbody> does not match <div>; Closing tag </table> does not match <none>; Closing tag </div> does not match <none>",
@@ -5613,16 +5540,6 @@
           "sourcePath": "items/trinket/bag-of-beans.yml"
         },
         {
-          "code": "foundry-formulas",
-          "severity": "blocking",
-          "message": "Foundry formulas differ from source",
-          "pack": "items",
-          "id": "SqTtbBCfiEsmZ36N",
-          "fieldPath": "system.description.value",
-          "name": "Bead of Force",
-          "sourcePath": "items/trinket/bead-of-force.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -5941,67 +5858,6 @@
           "fieldPath": "system.description.value",
           "name": "Manacles",
           "sourcePath": "items/trinket/manacles.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "UxkP6FvDzPbsIY6o",
-          "fieldPath": "system.description.value",
-          "name": "Manual of Golems",
-          "sourcePath": "items/trinket/manual-of-golems.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "items",
-          "id": "UxkP6FvDzPbsIY6o",
-          "fieldPath": "system.description.value",
-          "name": "Manual of Golems",
-          "sourcePath": "items/trinket/manual-of-golems.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "e3XQygrXkzNvkDGF",
-          "fieldPath": "system.description.value",
-          "name": "Marvelous Pigments",
-          "sourcePath": "items/trinket/marvelous-pigments.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "e3XQygrXkzNvkDGF",
-          "fieldPath": "system.description.value",
-          "name": "Marvelous Pigments",
-          "sourcePath": "items/trinket/marvelous-pigments.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "items",
-          "id": "e3XQygrXkzNvkDGF",
-          "fieldPath": "system.description.value",
-          "name": "Marvelous Pigments",
-          "sourcePath": "items/trinket/marvelous-pigments.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "Oggetto meraviglioso Questi pigmenti, solitamente reperibili in 1d4 vasetti custoditi all'interno di un’elegante scatola di legno e corredati di un pennello (per un peso totale di 0,5 kg), consentono di creare oggetti tridimensionali dipingendoli in due dimensioni. La pittura fluisce dal pennello e forma l’oggetto desiderato mentre il personaggio si concentra sulla sua immagine. Ogni vasetto di pittura può coprire una superficie di 90 metri quadrati e consente al personaggio di creare oggetti inanimati o elementi del terreno (porte, fosse, fiori, alberi, celle,stanze o armi) per un volume massimo pari a 10.000 cubi con spigolo di 30 cm. Per coprire un’area di 9 metri quadrati sono necessari 10 minuti di tempo. When you complete the painting, the object or terrain feature depicted becomes a real, nonmagical object. Thus, painting a door on a wall creates an actual door that can be opened to whatever is beyond. Painting a pit on a floor creates a real pit, and its depth counts against the total area of objects you create. Quando il personaggio ha completato il dipinto, l’oggetto o l'elemento del terrenodiventa un oggetto comune reale. Di conseguenza, se i il personaggio dipinge una porta su un muro, crea una vera porta che dà accesso a ciò che si trova dall’altra parte e, se dipinge una fossa sul pavimento, crea una fossa vera e propria, la cui profondità conta al fine di determinare l’area totale di oggetti che il personaggio può creare. Nulla di ciò che viene creato tramite i pigmenti può avere un valore superiore a 25 mo. Se il personaggio dipinge un oggetto di valore superiore (come un diamante o un cumulo d’oro), quell'oggetto appare autentico, ma un esame accurato rivelerà che è composto di pasta, d’osso o di qualche altro materiale privo di valore. Se viene dipinta una forma di energia come il fuoco o il fulmine, l’energia compare, ma si dissipa non appena il personaggio ha finito di dipingerla, senza infliggere alcun danno.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "e3XQygrXkzNvkDGF",
-          "name": "Marvelous Pigments",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/trinket/marvelous-pigments.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -6128,90 +5984,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "items",
-          "id": "kvD4ElYCfCKpjDeg",
-          "fieldPath": "system.description.value",
-          "name": "Dwarven Thrower",
-          "sourcePath": "items/weapon/dwarven-thrower.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "kvD4ElYCfCKpjDeg",
-          "fieldPath": "system.description.value",
-          "name": "Dwarven Thrower",
-          "sourcePath": "items/weapon/dwarven-thrower.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "w56FIjFafs2rN6iK",
-          "fieldPath": "system.description.value",
-          "name": "Mace of Smiting",
-          "sourcePath": "items/weapon/mace-of-smiting.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "w56FIjFafs2rN6iK",
-          "fieldPath": "system.description.value",
-          "name": "Mace of Smiting",
-          "sourcePath": "items/weapon/mace-of-smiting.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Morningstar +1",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "PKpftwMAn88gfLi7",
-          "name": "Morningstar +1",
-          "fieldPath": "name",
-          "sourcePath": "items/weapon/morningstar-1.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Morningstar +2",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "NrHboku9vJO5FGiY",
-          "name": "Morningstar +2",
-          "fieldPath": "name",
-          "sourcePath": "items/weapon/morningstar-2.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Morningstar +3",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "dghpiMWDSUXtQf6X",
-          "name": "Morningstar +3",
-          "fieldPath": "name",
-          "sourcePath": "items/weapon/morningstar-3.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Morningstar",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "dX8AxCh9o0A9CkT3",
-          "name": "Morningstar",
-          "fieldPath": "name",
-          "sourcePath": "items/weapon/morningstar.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
           "id": "FeouSUPUlUhfgeRp",
           "fieldPath": "system.description.value",
           "name": "Staff of Charming",
@@ -6498,26 +6270,6 @@
           "sourcePath": "items/weapon/staff-of-the-woodlands.yml"
         },
         {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "F6v3Q7dz1SlpLTMf",
-          "fieldPath": "system.description.value",
-          "name": "Staff of Thunder and Lightning",
-          "sourcePath": "items/weapon/staff-of-thunder-and-lightning.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "items",
-          "id": "F6v3Q7dz1SlpLTMf",
-          "fieldPath": "system.description.value",
-          "name": "Staff of Thunder and Lightning",
-          "sourcePath": "items/weapon/staff-of-thunder-and-lightning.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -6546,369 +6298,6 @@
           "fieldPath": "system.description.value",
           "name": "Staff of Withering",
           "sourcePath": "items/weapon/staff-of-withering.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "A stout crescent blade mounted on a thick shaft wrapped in a sturdy grip. This axe is large enough to be wielded with two hands and is&nbsp;adorned with spikes upon the back-side of the blade and the top of the shaft. Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce&nbsp;2d6&nbsp;danni extra del tipo inflitto dall’arma.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "dG7iFak1YH1nXRpC",
-          "name": "Vicious Battleaxe",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/weapon/vicious-battleaxe.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "A primitive, but deadly, weapon favored by tribes and guerrila fighters. The darts fired from this gun can puncture and deliver lethal doses of venom. Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "ozYrQ5N4s81h35Fa",
-          "name": "Vicious Blowgun",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/weapon/vicious-blowgun.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "A short metal blade mounted to a small hilt and crossguard. The dagger makes an effective side armament for hardened warriors or a hidden blade for assassins and thieves. Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce&nbsp;2d6&nbsp;danni extra del tipo inflitto dall’arma.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "5Jz5w7XJxgtlsx6K",
-          "name": "Vicious Dagger",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/weapon/vicious-dagger.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "A small thrown implement crafted with a short wooden shaft and crossed feathres with a sharp wooden or metal tip. Darts can be thrown with sufficient force to puncture the skin. Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "jeoZmDD9fuQdvC77",
-          "name": "Vicious Dart",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/weapon/vicious-dart.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "A set of chain-linked spiked balls lashed to a stout wooden shaft. The flail deals devastating damage when whirled in a deadly arc. Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "qmuOeNsOKwkn6K8W",
-          "name": "Vicious Flail",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/weapon/vicious-flail.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "A crescent blade is mounted on the end of a tall metal shaft. This polearm provides the ability to attack with deadly efficiency from greater range than typical melee weapons. Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce&nbsp;2d6 danni extra del tipo inflitto dall’arma.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "eKip69fExSYN661B",
-          "name": "Vicious Glaive",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/weapon/vicious-glaive.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "A larger variant of the simple club, a hefty wooden shaft with an enormous knot of wood upon the end deals crippling bludgeoning damage to unfortunate foes. Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "p9dtQU9wEZGumHSb",
-          "name": "Vicious Greatclub",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/weapon/vicious-greatclub.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "A mighty two-handed blade is over four feet long and almost five inches wide. This weapon requires extensive martial training but those proficient in its use are formidable warriors. Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "FpLaviCom3XR1ckP",
-          "name": "Vicious Greatsword",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/weapon/vicious-greatsword.yml"
-        },
-        {
-          "code": "imperial-unit",
-          "value": "A mighty two-handed blade is over four feet long and almost five inches wide. This weapon requires extensive martial training but those proficient in its use are formidable warriors. Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.",
-          "message": "An imperial unit remains visible",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "FpLaviCom3XR1ckP",
-          "name": "Vicious Greatsword",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/weapon/vicious-greatsword.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "A spear-tipped metal shaft accompanied by a crescent blade, the halberd is a strong defensive weapon which allows a warrior to fend off foes using the reach of the shaft to attack from safe distance. Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest&rsquo;arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall&rsquo;arma.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "isKR904LkLaH4i6M",
-          "name": "Vicious Halberd",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/weapon/vicious-halberd.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "This one-handed axe is light and balanced for throwing while remaining useful in hand combat. Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "QM3gdsL0eaAus7XT",
-          "name": "Vicious Handaxe",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/weapon/vicious-handaxe.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "A large crossbow mounted on a sturdy block of wood which is loaded using a hand crank and fires thick steel bolts with deadly acceleration that punches through armor and flesh. Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "Fk78kNmp3OLX5EMC",
-          "name": "Vicious Heavy Crossbow",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/weapon/vicious-heavy-crossbow.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "This light and flexible spear is designed for throwing, but is versatile enough to be used in melee combat as well. Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce&nbsp;2d6&nbsp;danni extra del tipo inflitto dall’arma.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "lM5uo6R4gy8rJG5Y",
-          "name": "Vicious Javelin",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/weapon/vicious-javelin.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "A shining steel tip to puncture the hardiest of foe's defences, driven in by the force of a galloping steed. Although best suited for mounted combat, the lance can be brought to lethal effect on foot in the right hands. Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma. Speciale. Il personaggio subisce svantaggio quando usa una lancia da cavaliere per attaccare un bersaglio entro 1,5 metri da lui. Inoltre, una lancia da cavaliere deve essere impugnata a due mani quando il personaggio non è in sella.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "r8yK6SrWOz4hqF01",
-          "name": "Vicious Lance",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/weapon/vicious-lance.yml"
-        },
-        {
-          "code": "imperial-unit",
-          "value": "A shining steel tip to puncture the hardiest of foe's defences, driven in by the force of a galloping steed. Although best suited for mounted combat, the lance can be brought to lethal effect on foot in the right hands. Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma. Speciale. Il personaggio subisce svantaggio quando usa una lancia da cavaliere per attaccare un bersaglio entro 1,5 metri da lui. Inoltre, una lancia da cavaliere deve essere impugnata a due mani quando il personaggio non è in sella.",
-          "message": "An imperial unit remains visible",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "r8yK6SrWOz4hqF01",
-          "name": "Vicious Lance",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/weapon/vicious-lance.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "A small crossbow with a wooden haft and a tense cord which is capable of firing a single bolt which can puncture even heavy armor at close range. Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "VQAUcjn1qdwW3MeU",
-          "name": "Vicious Light Crossbow",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/weapon/vicious-light-crossbow.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "This sturdy hammer is small enough to be nimbly wielded or used in combination with another weapon. Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "4MeSq8KcF7KK7emF",
-          "name": "Vicious Light Hammer",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/weapon/vicious-light-hammer.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "A lengthy straight blade designed for slashing foes, the longsword is a highly versatile weapon that may also be wielded with two hands for more punishing strikes. Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "pC3202gDTy8G5i4r",
-          "name": "Vicious Longsword",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/weapon/vicious-longsword.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "A heavy bludgeoning weapon mounted to the end of a metal club. The head features spikes and blades designed to puncture armor and shatter the bones below. Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "gSwpQacBLOJeLWrK",
-          "name": "Vicious Mace",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/weapon/vicious-mace.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "This heavy two-handed mace crushes metal and bone with thunderous force. Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "6JbrdSg5YYbs9ANm",
-          "name": "Vicious Maul",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/weapon/vicious-maul.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "A viciously spiked metal orb mounted upon the end of a stout haft makes for a deadly weapon which can puncture armor and flesh alike. Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "Vm6SuX6TkDvSIVGr",
-          "name": "Vicious Morningstar",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/weapon/vicious-morningstar.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "A sturdy blade mounted upon the end of a long metal haft. Designed as a defensive weapon with considerable reach to both fend off and menace foes. Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "zibIgdxPz8QHSCg6",
-          "name": "Vicious Pike",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/weapon/vicious-pike.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "A thick shaft of wood wrapped with a sturdy grip makes a highly functional weapon in addition to a stout walking stick. Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce&nbsp;2d6&nbsp;danni extra del tipo inflitto dall’arma.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "Z7xno2zMzRtqqUIQ",
-          "name": "Vicious Quarterstaff",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/weapon/vicious-quarterstaff.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "A thin tensile metal blade, light in weight but long in reach designed for quick darting attacks to target weak points in enemy defenses with lightning swiftness. Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "h0XLhuUQ0vSnW3DU",
-          "name": "Vicious Rapier",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/weapon/vicious-rapier.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "This curved blade is wide near the wrapped handle but arcs and tapers towards a gleaming tip. Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "FHUDEygUW7EWCDgA",
-          "name": "Vicious Scimitar",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/weapon/vicious-scimitar.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "This two handed bow is somewhat smaller than the traditional longbow variant, making it well suited for rapid attacks while on the move or mounted from horseback. Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce&nbsp;2d6&nbsp;danni extra del tipo inflitto dall’arma.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "Z0eO3TTpYA2hjwdd",
-          "name": "Vicious Shortbow",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/weapon/vicious-shortbow.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "A medium sized blade with a firm crossguard and a leather-wrapped handle. A versatile weapon which makes up in versatility what it lacks in reach. Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "1PMaZR6CX8fUnOZd",
-          "name": "Vicious Shortsword",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/weapon/vicious-shortsword.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "A flexible lash of leather affixed to a wooden handle which is capable of flinging rocks or metal bullets with deadly velocity. Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6&nbsp;danni extra del tipo inflitto dall’arma.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "qGRN4wvZLJ8uITf2",
-          "name": "Vicious Sling",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/weapon/vicious-sling.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "A gleaming steel point mounted atop a stout wooden haft, the spear may be wielded in one hand or two and can puncture through the heaviest armor with deadly force. Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "e7JpVX2549vp9mgF",
-          "name": "Vicious Spear",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/weapon/vicious-spear.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "A multi-pronged spear designed to impale a target in multiple locations, pinning them in place. Often used in combination with a net to entrap and harass foes. Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce&nbsp;2d6&nbsp;danni extra del tipo inflitto dall’arma.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "TMqS62qjBCveT1Ss",
-          "name": "Vicious Trident",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/weapon/vicious-trident.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "A brutal curved spike mounted on the back of a sturdy haft - designed for puncturing armor with deadly force. Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce&nbsp;2d6&nbsp;danni extra del tipo inflitto dall’arma.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "g8DG0jXlvfP3uTtZ",
-          "name": "Vicious War Pick",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/weapon/vicious-war-pick.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "A heavy metal hammer capable of being wielded with a single hand with a shield or in two hands to deliver crushing concussive blows. Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce&nbsp;2d6&nbsp;danni extra del tipo inflitto dall’arma.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "HnJqfKkYXIWo2sp9",
-          "name": "Vicious Warhammer",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/weapon/vicious-warhammer.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "A tensile lash made of leather, cord, or chain which can lash out at nearby enemies, dealing lacerations and harrying them from a distance. Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce&nbsp;2d6&nbsp;danni extra del tipo inflitto dall’arma.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "luTJgPXN5n0EN7iy",
-          "name": "Vicious Whip",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/weapon/vicious-whip.yml"
         },
         {
           "code": "extra-entry",

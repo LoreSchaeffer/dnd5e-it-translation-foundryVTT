@@ -307,7 +307,7 @@
     },
     "Bead of Force": {
       "name": "Biglia di Forza",
-      "description": "<p><em>Oggetto meraviglioso</em></p><p>Questa piccola sfera nera ha un diametro di 2 cm e pesa 30 grammi. Generalmente si trovano in gruppi di ld4 + 4 biglie di forza.</p><p>Un personaggio pu&ograve; usare un&rsquo;azione per lanciare la biglia fino a un massimo di 18 metri. Quando colpisce qualcosa, la biglia esplode e si distrugge. Tutte le creature entro un raggio di 3 metri dal punto di impatto della biglia devono superare un tiro salvezza su Destrezza con CD 15, altrimenti subiscono 5d4 danni da forza. Poi l&rsquo;area viene rinchiusa per 1 minuto all&rsquo;interno di una sfera di forza trasparente. Ogni creatura che ha fallito il tiro salvezza e si trovava completamente all&rsquo;interno dell'area resta intrappolata all'interno della sfera. Chi ha superato il tiro salvezza o si trovava solo parzialmente all'interno dell&rsquo;area viene allontanato dal centro della sfera e spinto all&rsquo;esterno. Attraverso le pareti della sfera pu&ograve; passare solo aria respirabile. N&eacute; gli attacchi n&eacute; gli altri effetti possono passare.</p><p>Una creatura rinchiusa nell&rsquo;area pu&ograve; usare la sua azione per spingere le pareti della sfera, muovendola a una velocit&agrave; massima pari alla met&agrave; della propria velocit&agrave; base sul terreno. La sfera pu&ograve; essere sollevata e la sua magia fa s&igrave; che il suo peso sia sempre mezzo chilogrammo, a prescindere dal peso delle creature al suo interno.</p>"
+      "description": "<p><em>Oggetto meraviglioso</em></p><p>Questa piccola sfera nera ha un diametro di 2 cm e pesa 30 grammi. Generalmente si trovano in gruppi di 1d4 + 4 biglie di forza.</p><p>Un personaggio pu&ograve; usare un&rsquo;azione per lanciare la biglia fino a un massimo di 18 metri. Quando colpisce qualcosa, la biglia esplode e si distrugge. Tutte le creature entro un raggio di 3 metri dal punto di impatto della biglia devono superare un tiro salvezza su Destrezza con CD 15, altrimenti subiscono 5d4 danni da forza. Poi l&rsquo;area viene rinchiusa per 1 minuto all&rsquo;interno di una sfera di forza trasparente. Ogni creatura che ha fallito il tiro salvezza e si trovava completamente all&rsquo;interno dell'area resta intrappolata all'interno della sfera. Chi ha superato il tiro salvezza o si trovava solo parzialmente all'interno dell&rsquo;area viene allontanato dal centro della sfera e spinto all&rsquo;esterno. Attraverso le pareti della sfera pu&ograve; passare solo aria respirabile. N&eacute; gli attacchi n&eacute; gli altri effetti possono passare.</p><p>Una creatura rinchiusa nell&rsquo;area pu&ograve; usare la sua azione per spingere le pareti della sfera, muovendola a una velocit&agrave; massima pari alla met&agrave; della propria velocit&agrave; base sul terreno. La sfera pu&ograve; essere sollevata e la sua magia fa s&igrave; che il suo peso sia sempre mezzo chilogrammo, a prescindere dal peso delle creature al suo interno.</p>"
     },
     "Belt of Cloud Giant Strength": {
       "name": "Cintura della Forza dei Giganti delle Nuvole",
@@ -741,7 +741,7 @@
     },
     "Crystal": {
       "name": "Cristallo",
-      "description": "<p>Questo talismano cristallino serve come catalizzatore all'incantesimo, aiutando il praticante a incanalare energie arcane, primarie o divine.</p>"
+      "description": "<p>Questo talismano cristallino funge da focus da incantatore, aiutando chi lo usa a incanalare energie arcane, primordiali o divine.</p>\n<p><strong>Focus da Incantatore. </strong>Un focus arcano è un oggetto speciale progettato per incanalare il potere degli incantesimi arcani. Uno stregone, un warlock o un mago può usare un oggetto simile come focus da incantatore, al posto di qualsiasi componente materiale per cui non sia indicato un costo.</p>"
     },
     "Crystal Ball": {
       "name": "Sfera di Cristallo",
@@ -957,7 +957,7 @@
     },
     "Dwarven Thrower": {
       "name": "Martello Nanico da Lancio",
-      "description": "<p><em>(Richiede sintonia con un nano)</em></p><p>Il personaggio ottiene un bonus di +3 ai tiri per colpire e ai tiri per i danni effettuati con quest&rsquo;arma magica. L&rsquo;arma possiede la propriet&agrave; da lancio con una gittata normale di 6 metri e una gittata lunga di 18 metri. Quando il personaggio colpisce un bersaglio con un attacco a distanza con quest&rsquo;arma, infligge 1d8 danni extra o 2d8 danni, se il bersaglio &egrave; un gigante. Subito dopo l&rsquo;attacco, l&rsquo;arma torna in volo in mano al personaggio.</p><p><em>**Nota di Foundry: per applicare i danni addizionali ai giganti, perfavore usa l'Altra Formula ancora una volta.</em></p>",
+      "description": "<p><em>(Richiede sintonia con un nano)</em></p><p>Il personaggio ottiene un bonus di +3 ai tiri per colpire e ai tiri per i danni effettuati con quest&rsquo;arma magica. L&rsquo;arma possiede la propriet&agrave; da lancio con una gittata normale di 6 metri e una gittata lunga di 18 metri. Quando il personaggio colpisce un bersaglio con un attacco a distanza con quest&rsquo;arma, infligge 1d8 danni extra o 2d8 danni, se il bersaglio &egrave; un gigante. Subito dopo l&rsquo;attacco, l&rsquo;arma torna in volo in mano al personaggio.</p>",
       "activities": {
         "nrzlvqGr1Iv0fAa0": {
           "name": "Lancia"
@@ -2022,7 +2022,7 @@
     },
     "Mace of Smiting": {
       "name": "Mazza della Punizione",
-      "description": "<p>Il personaggio ottiene un bonus di +1 ai tiri per colpire e ai tiri per i danni effettuati con quest’arma magica. Quando usa la mazza per attaccare un costrutto, questo bonus sale a +3.</p><p>Quando il personaggio ottiene un 20 a un tiro per colpire con quest’arma, il bersaglio subisce 2d6 danni contundenti extra o 4d6 danni contundenti se si tratta di un costrutto. Se dopo aversubito tali danni un costrutto scende a 25 punti ferita o meno, è distrutto.</p><p><em>**Nota Foundry: il bonus al tiro per colpire e al danno è impostato a +1. Nel caso si colpisca un costrutto, si prega di ricordare di aggiungere +2 a entrambi i risultati. Inoltre, con un 20 al tiro per colpire su un costrutto, si prega di usare Altra Formula una seconda volta.</em></p>",
+      "description": "<p>Il personaggio ottiene un bonus di +1 ai tiri per colpire e ai tiri per i danni effettuati con quest’arma magica. Quando usa la mazza per attaccare un costrutto, questo bonus sale a +3.</p><p>Quando il personaggio ottiene un 20 a un tiro per colpire con quest’arma, il bersaglio subisce 2d6 danni contundenti extra o 4d6 danni contundenti se si tratta di un costrutto. Se dopo avere subito tali danni un costrutto scende a 25 punti ferita o meno, è distrutto.</p><section class=\"secret foundry-note\" id=\"secret-AY4O41uMKnbhqve5\"><p><strong>Nota Foundry</strong></p><p>Il bonus ai tiri per colpire e ai tiri per i danni è impostato a +1. Quando viene colpito un costrutto, ricordare di aggiungere +2 a entrambi i risultati. Inoltre, quando si ottiene un 20 contro un costrutto, usare la Formula Alternativa una seconda volta.</p></section>",
       "activities": {
         "AItO0vg7UJqWWDdP": {
           "name": "Danni con 20 Naturale"
@@ -2069,7 +2069,7 @@
     },
     "Manual of Golems": {
       "name": "Manuale dei Golem",
-      "description": "<p><em>Oggetto meraviglioso</em></p><p>Questo tomo contiene le informazioni e i rituali necessari alla creazione di un particolare tipo di golem. Il DM sceglie il tipo di golem descritto nel libro o lo determina casualmente. Per decifrare e usare il manuale, il personaggio deve essere un incantatore e possedere almeno due slot incantesimo di 5° livello. Una creatura che non sia in grado di usare il manuale deigolem e tenti di leggerlo comunque subisce 6d6 danni psichici.</p><table style=\"width: 280px;\"><thead><tr><th style=\"width: 38.0208px;\">d20</th><th style=\"width: 73.5764px;\">Golem</th><th style=\"width: 81.3542px;\">Tempo</th><th style=\"width: 76.9097px;\">Costo</th></tr></thead><tbody><tr><td style=\"width: 38.0208px;\">1-5</td><td style=\"width: 73.5764px;\">@Compendium[dnd5e.monsters.YOqhbf8WsX0jH9Fu]{Golem di Argilla}</td><td style=\"width: 81.3542px;\">30 giorni</td><td style=\"width: 76.9097px;\">65,000 mo</td></tr><tr><td style=\"width: 38.0208px;\">6-17</td><td style=\"width: 73.5764px;\">@Compendium[dnd5e.monsters.Hm4o2FgPZsdbXjLq]{Golem di Carne}</td><td style=\"width: 81.3542px;\">60 giorni</td><td style=\"width: 76.9097px;\">50,000 mo</td></tr><tr><td style=\"width: 38.0208px;\">18</td><td style=\"width: 73.5764px;\">@Compendium[dnd5e.monsters.h98AuPfomEPcCibP]{Golem di Ferro}</td><td style=\"width: 81.3542px;\">120 giorni</td><td style=\"width: 76.9097px;\">100,000 mo</td></tr><tr><td style=\"width: 38.0208px;\">19-20</td><td style=\"width: 73.5764px;\">@Compendium[dnd5e.monsters.z3gSIXHHWYaHjfBT]{Golem di Pietra}</td><td style=\"width: 81.3542px;\">90 giorni</td><td style=\"width: 76.9097px;\">80,000 mo</td></tr></tbody></table><p>Per creare un golem, il personaggio deve trascorrere il tempo indicato dalla tabella a lavorare ininterrottamente con il manuale a portata di mano e riposando al massimo per 8 ore al giorno. Deve inoltre pagare la somma specificata per procurarsi i materiali necessari.</p><p>Una volta terminato il processo di creazione del golem, il libro viene consumato da una fiammata soprannaturale. Il golem si anima quando su di esso vengono sparse le ceneri del manuale. Il golem è sotto il controllo del personaggio, e comprende ed esegue i suoi comandi verbali.</p>"
+      "description": "<p><em>Oggetto meraviglioso</em></p><p>Questo tomo contiene le informazioni e i rituali necessari alla creazione di un particolare tipo di golem. Il DM sceglie il tipo o lo determina casualmente consultando la @UUID[Compendium.dnd5e.tables.RollTable.htMPUPPABjI6fwck]{tabella Manuale dei Golem}. Consultare la tabella seguente per una descrizione dettagliata di ogni golem. Per decifrare e usare il manuale, il personaggio deve essere un incantatore e possedere almeno due slot incantesimo di 5° livello. Una creatura che non sia in grado di usare il Manuale dei Golem e tenti di leggerlo comunque subisce 6d6 danni psichici.</p><table><thead><tr><th>d20</th><th>Golem</th><th>Tempo</th><th>Costo</th></tr></thead><tbody><tr><td>1-5</td><td>@UUID[Compendium.dnd5e.monsters.Actor.YOqhbf8WsX0jH9Fu]{Golem di Argilla}</td><td>30 giorni</td><td>65,000 mo</td></tr><tr><td>6-17</td><td>@UUID[Compendium.dnd5e.monsters.Actor.Hm4o2FgPZsdbXjLq]{Golem di Carne}</td><td>60 giorni</td><td>50,000 mo</td></tr><tr><td>18</td><td>@UUID[Compendium.dnd5e.monsters.Actor.h98AuPfomEPcCibP]{Golem di Ferro}</td><td>120 giorni</td><td>100,000 mo</td></tr><tr><td>19-20</td><td>@UUID[Compendium.dnd5e.monsters.Actor.z3gSIXHHWYaHjfBT]{Golem di Pietra}</td><td>90 giorni</td><td>80,000 mo</td></tr></tbody></table><p>Per creare un golem, il personaggio deve trascorrere il tempo indicato dalla tabella a lavorare ininterrottamente con il manuale a portata di mano e riposando al massimo per 8 ore al giorno. Deve inoltre pagare la somma specificata per procurarsi i materiali necessari.</p><p>Una volta terminato il processo di creazione del golem, il libro viene consumato da una fiammata soprannaturale. Il golem si anima quando su di esso vengono sparse le ceneri del manuale. Il golem è sotto il controllo del personaggio, e comprende ed esegue i suoi comandi verbali.</p>"
     },
     "Manual of Quickness of Action": {
       "name": "Manuale della Velocità di Azione",
@@ -2081,7 +2081,7 @@
     },
     "Marvelous Pigments": {
       "name": "Pigmenti Meravigliosi",
-      "description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\" data-content-chunk-id=\"e176bfeb-9aca-43ff-b13d-7889105accd9\"><em>Oggetto meraviglioso</em></p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\" data-content-chunk-id=\"e176bfeb-9aca-43ff-b13d-7889105accd9\">Questi pigmenti, solitamente reperibili in 1d4 vasetti custoditi all'interno di un’elegante scatola di legno e corredati di un pennello (per un peso totale di 0,5 kg), consentono di creare oggetti tridimensionali dipingendoli in due dimensioni. La pittura fluisce dal pennello e forma l’oggetto desiderato mentre il personaggio si concentra sulla sua immagine.</p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\" data-content-chunk-id=\"cfbd6306-4089-4cfd-a6bc-d8bf18a04b5f\">Ogni vasetto di pittura può coprire una superficie di 90 metri quadrati e consente al personaggio di creare oggetti inanimati o elementi del terreno (porte, fosse, fiori, alberi, celle,stanze o armi) per un volume massimo pari a 10.000 cubi con spigolo di 30 cm. Per coprire un’area di 9 metri quadrati sono necessari 10 minuti di tempo.</p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\" data-content-chunk-id=\"ed6cc42f-2af4-4492-9731-cd4184b9056a\">When you complete the painting, the object or terrain feature depicted becomes a real, nonmagical object. Thus, painting a door on a wall creates an actual door that can be opened to whatever is beyond. Painting a pit on a floor creates a real pit, and its depth counts against the total area of objects you create.</p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\" data-content-chunk-id=\"575657bd-0095-438e-84be-ff342eb7d40d\">Quando il personaggio ha completato il dipinto, l’oggetto o l'elemento del terrenodiventa un oggetto comune reale. Di conseguenza, se i il personaggio dipinge una porta su un muro, crea una vera porta che dà accesso a ciò che si trova dall’altra parte e, se dipinge una fossa sul pavimento, crea una fossa vera e propria, la cui profondità conta al fine di determinare l’area totale di oggetti che il personaggio può creare.</p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\" data-content-chunk-id=\"6500c880-670a-47eb-b099-1014dcfdf74c\">Nulla di ciò che viene creato tramite i pigmenti può avere un valore superiore a 25 mo. Se il personaggio dipinge un oggetto di valore superiore (come un diamante o un cumulo d’oro), quell'oggetto appare autentico, ma un esame accurato rivelerà che è composto di pasta, d’osso o di qualche altro materiale privo di valore.</p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\" data-content-chunk-id=\"6500c880-670a-47eb-b099-1014dcfdf74c\">Se viene dipinta una forma di energia come il fuoco o il fulmine, l’energia compare, ma si dissipa non appena il personaggio ha finito di dipingerla, senza infliggere alcun danno.</p>"
+      "description": "<p>Solitamente rinvenuti in [[/r 1d4]] vasetti custoditi in un'elegante scatola di legno insieme a un pennello (per un peso totale di 0,5 kg), questi pigmenti consentono di creare oggetti tridimensionali dipingendoli in due dimensioni. La pittura fluisce dal pennello e forma l'oggetto desiderato mentre il personaggio si concentra sulla sua immagine.</p>\n<p>Ogni vasetto di pittura è sufficiente a coprire una superficie di 90 metri quadrati e consente di creare oggetti inanimati o elementi del terreno, come porte, fosse, fiori, alberi, celle, stanze o armi, per un volume massimo pari a 10.000 cubi con spigolo di 30 cm. Per coprire un'area di 9 metri quadrati sono necessari 10 minuti.</p>\n<p>Quando il personaggio completa il dipinto, l'oggetto o l'elemento del terreno raffigurato diventa un oggetto reale e non magico. Dipingere una porta su un muro, quindi, crea una vera porta che può essere aperta e conduce a ciò che si trova oltre il muro. Dipingere una fossa sul pavimento crea una vera fossa, la cui profondità conta ai fini dell'area totale degli oggetti creati.</p>\n<p>Nulla di ciò che viene creato tramite i pigmenti può avere un valore superiore a 25 mo. Se il personaggio dipinge un oggetto di valore superiore, come un diamante o un cumulo d'oro, l'oggetto appare autentico, ma un esame accurato rivela che è composto di pasta, osso o qualche altro materiale privo di valore.</p>\n<p>Se il personaggio dipinge una forma di energia, come il fuoco o il fulmine, l'energia compare ma si dissipa non appena completa il dipinto, senza nuocere a nulla.</p>"
     },
     "Mason's Tools": {
       "name": "Strumenti da Costruttore",
@@ -2157,19 +2157,19 @@
       "description": "<p>Il mithral &egrave; un metallo flessibile e leggero. Un giaco di maglia o una corazza di piastre in mithral possono essere indossate sotto i normali abiti. Se un&rsquo;armatura normalmente impone svantaggio alle prove di Destrezza (Furtivit&agrave;) o prevede un requisito di Forza, la sua versione in mithral non fa n&eacute; l&rsquo;una n&eacute; l&rsquo;altra cosa.</p>"
     },
     "Morningstar": {
-      "name": "Morningstar",
+      "name": "Morning Star",
       "description": "<p>Una sfera di metallo ricoperta di spuntoni montata sull'estremità di un grosso manico crea un'arma mortale che può perforare armature e carne allo stesso modo.</p>"
     },
     "Morningstar +1": {
-      "name": "Morningstar +1",
+      "name": "Morning Star +1",
       "description": "<p><em>Che sia per un dono demoniaco, un lascito celeste, un folle esperimento o magistrale artigianato, questa arma &egrave; potenziata perch&egrave; il portatore&nbsp;possa causare&nbsp;un maggior spargimento di sangue.</em></p><p>Il personaggio ottiene un bonus di +1 ai tiri per colpire e ai tiri per i danni effettuati con quest&rsquo;arma magica.</p>"
     },
     "Morningstar +2": {
-      "name": "Morningstar +2",
+      "name": "Morning Star +2",
       "description": "<p><em>Che sia per un dono demoniaco, un lascito celeste, un folle esperimento o magistrale artigianato, questa arma è potenziata perchè il portatore&nbsp;possa causare&nbsp;un maggior spargimento di sangue.</em></p><p>Il personaggio ottiene un bonus di +2 ai tiri per colpire e ai tiri per i danni effettuati con quest’arma magica.</p>"
     },
     "Morningstar +3": {
-      "name": "Morningstar +3",
+      "name": "Morning Star +3",
       "description": "<p><em>Che sia per un dono demoniaco, un lascito celeste, un folle esperimento o magistrale artigianato, questa arma è potenziata perchè il portatore&nbsp;possa causare&nbsp;un maggior spargimento di sangue.</em></p><p>Il personaggio ottiene un bonus di +3 ai tiri per colpire e ai tiri per i danni effettuati con quest’arma magica.</p>"
     },
     "Musical Instrument": {
@@ -2190,7 +2190,7 @@
     },
     "Navigator's Tools": {
       "name": "Strumenti da Navigatore",
-      "description": "<div title=\"Page 154\"><div><div><p>Questa serie di strumenti viene usata per navigare in mare. La competenza negli strumenti da navigatore consente a un personaggio di tracciare la rotta di una nave e di seguire le carte nautiche.</p></div><div><p>Questi strumenti consentono inoltre a un personaggio di aggiungere il proprio bonus di competenza a ogni prova di caratteristica effettuata per evitare di smarrirsi in mare.</p></div></div></div>",
+      "description": "<p>Questa serie di strumenti viene usata per navigare in mare. La competenza negli strumenti da navigatore consente a un personaggio di tracciare la rotta di una nave e di seguire le carte nautiche. Questi strumenti consentono inoltre a un personaggio di aggiungere il proprio bonus di competenza a ogni prova di caratteristica effettuata per evitare di smarrirsi in mare.</p>",
       "activities": {
         "yMZFTw27wRMLGAb2": {
           "name": "Usa Strumenti"
@@ -2377,7 +2377,7 @@
     },
     "Orb": {
       "name": "Globo",
-      "description": "<p>Questo talismano sferico funge da focus per da Incantatore, aiutando il praticante a canalizzare energie arcane, primarie o divine.</p>\n<p><strong>Focus da Incantatore.</strong>An arcane focus is a special item designed to channel the power of arcane spells. Un mago, uno stregone o un warlock può usare questo oggetto come focus da incantatore, usandolo al posto di qualsiasi componente materiale che non elenca un costo.</p>"
+      "description": "<p>Questo talismano sferico funge da focus da incantatore, aiutando chi lo usa a incanalare energie arcane, primordiali o divine.</p>\n<p><strong>Focus da Incantatore. </strong>Un focus arcano è un oggetto speciale progettato per incanalare il potere degli incantesimi arcani. Uno stregone, un warlock o un mago può usare un oggetto simile come focus da incantatore, al posto di qualsiasi componente materiale per cui non sia indicato un costo.</p>"
     },
     "Orb of Dragonkind": {
       "name": "Globo dei Draghi",
@@ -4029,7 +4029,7 @@
     },
     "Staff of Thunder and Lightning": {
       "name": "Bastone dei Tuoni e Fulmini",
-      "description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">(Richiede sintonia)</em></p><p>Questo bastone può essere impugnato come un bastone ferrato magico che conferisce un bonus di +2 ai tiri per colpire e ai tiri per i danni effettuati con esso. Possiede inoltre le seguenti proprietà aggiuntive. Quando una di queste proprietà viene usata, non può essere riutilizzata fino all'alba successiva.</p><p><strong>Fulmine</strong>. Quando il personaggio colpisce con un attacco in mischia usando questo bastone, il bersaglio subisce 2d6 danni da fulmine extra.</p><p><strong>Tuono</strong>. Quando il personaggio colpisce con un attacco in mischia usando questo bastone, il bastone emette un tuono improvviso che può essere udito fino a 90 metri. Il bersaglio colpito deve superare un tiro salvezza su Costituzione con CD 17, altrimenti è stordito fino alla fine del turno successivo del personaggio.</p><p><strong>Colpo del Fulmine</strong>. Il personaggio può usare un’azione per generare un fulmine che guizza dalla punta del bastone lungo una linea larga 1,5 metri e lunga 36 metri. Ogni creatura che si trova sulla linea del fulmine deve effettuare un tiro salvezza su Destrezza con CD 17: se lo fallisce, subisce 9d6 danni da fulmine, mentre se lo supera, subisce la metà di quei danni.</p><p><strong>Rombo di Tuono</strong>. Il personaggio può usare un’azione per fare in modo che il bastone emetta un rombo di tuono assordante, udibile fino a 180 metri. Ogni creatura che si trova entro 18 metri dal personaggio (escluso il personaggio stesso) deve effettuare un tiro salvezza su Costituzione con CD 17: se lo fallisce, subisce 2d6 danni da tuono e diventa assordata per 1 minuto, mentre se lo supera, subisce la metà di quei danni e non è assordata.</p><p><strong>Tuono e Fulmine</strong>. Il personaggio può usare un’azione per attivare le proprietà Colpo del Fulmine e Rombo di Tuono contemporaneamente. Così facendo il personaggio non spende l’uso giornaliero di quelle proprietà, ma solamente l’uso di questa.</p>"
+      "description": "<p><em>(Richiede sintonia)</em></p><p>Questo bastone può essere impugnato come un bastone ferrato magico che conferisce un bonus di +2 ai tiri per colpire e ai tiri per i danni effettuati con esso. Possiede inoltre le seguenti proprietà aggiuntive. Quando una di queste proprietà viene usata, non può essere riutilizzata fino all'alba successiva.</p><p><strong>Fulmine</strong>. Quando il personaggio colpisce con un attacco in mischia usando questo bastone, il bersaglio subisce [[/damage 2d6 lightning]] danni extra.</p><p><strong>Tuono</strong>. Quando il personaggio colpisce con un attacco in mischia usando questo bastone, il bastone emette un tuono improvviso che può essere udito fino a 90 metri. Il bersaglio colpito deve superare un [[/save dc=17 con]] tiro salvezza, altrimenti diventa &amp;Reference[stunned] fino alla fine del turno successivo del personaggio.</p><p><strong>Colpo del Fulmine</strong>. Il personaggio può usare un’azione per generare un fulmine che guizza dalla punta del bastone lungo una linea larga 1,5 metri e lunga 36 metri. Ogni creatura che si trova sulla linea del fulmine deve effettuare un [[/save dc=17 dex]] tiro salvezza: se lo fallisce, subisce [[/damage 9d6 lightning]] danni, mentre se lo supera subisce la metà di quei danni.</p><p><strong>Rombo di Tuono</strong>. Il personaggio può usare un’azione per fare in modo che il bastone emetta un rombo di tuono assordante, udibile fino a 180 metri. Ogni creatura che si trova entro 18 metri dal personaggio, escluso il personaggio stesso, deve effettuare un [[/save dc=17 con]] tiro salvezza. Se lo fallisce, subisce [[/damage 2d6 thunder]] danni e diventa &amp;Reference[deafened] per 1 minuto. Se lo supera, subisce la metà di quei danni e non diventa assordata.</p><p><strong>Tuono e Fulmine</strong>. Il personaggio può usare un’azione per attivare le proprietà Colpo del Fulmine e Rombo di Tuono contemporaneamente. Così facendo il personaggio non spende l’uso giornaliero di quelle proprietà, ma solamente l’uso di questa.</p>"
     },
     "Staff of Withering": {
       "name": "Bastone del Deperimento",
@@ -4259,11 +4259,11 @@
     },
     "Vicious Battleaxe": {
       "name": "Ascia da Battaglia Spietata",
-      "description": "<p>A stout crescent blade mounted on a thick shaft wrapped in a sturdy grip. This axe is large enough to be wielded with two hands and is&nbsp;adorned with spikes upon the back-side of the blade and the top of the shaft.</p><p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce&nbsp;2d6&nbsp;danni extra del tipo inflitto dall’arma.</p>"
+      "description": "<p>Una robusta lama a mezzaluna montata su uno spesso bastone avvolto in una robusta impugnatura. Questa ascia &egrave; abbastanza grande da essere impugnata a due mani ed &egrave; ornata da punte sul retro della lama e sulla parte superiore del bastone. &nbsp;</p><p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce&nbsp;2d6&nbsp;danni extra del tipo inflitto dall’arma.</p>"
     },
     "Vicious Blowgun": {
       "name": "Cerbottana Spietata",
-      "description": "<p>A primitive, but deadly, weapon favored by tribes and guerrila fighters. The darts fired from this gun can puncture and deliver lethal doses of venom.</p><p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.</p>"
+      "description": "<p>Arma primitiva, ma mortale, preferita da tribù e guerriglieri. Le freccette lanciate da quest'arma possono perforare e rilasciare dosi letali di veleno.</p><p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.</p>"
     },
     "Vicious Club": {
       "name": "Randello Spietato",
@@ -4271,19 +4271,19 @@
     },
     "Vicious Dagger": {
       "name": "Pugnale Spietato",
-      "description": "<p>A short metal blade mounted to a small hilt and crossguard. The dagger makes an effective side armament for hardened warriors or a hidden blade for assassins and thieves.</p><p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce&nbsp;2d6&nbsp;danni extra del tipo inflitto dall’arma.</p>"
+      "description": "<p>Una corta lama di metallo montata su una piccola elsa. Il pugnale crea un efficace armamento supplementare per guerriero una lama nascosta per assassini e ladri.</p><p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce&nbsp;2d6&nbsp;danni extra del tipo inflitto dall’arma.</p>"
     },
     "Vicious Dart": {
       "name": "Dardo Spietato",
-      "description": "<p>A small thrown implement crafted with a short wooden shaft and crossed feathres with a sharp wooden or metal tip. Darts can be thrown with sufficient force to puncture the skin.</p>\n<p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.</p>"
+      "description": "<p>Un piccolo oggetto da lancio, costruito con una corta asta di legno, piume incrociate e una punta affilata di legno o metallo. I dardi possono essere scagliati con forza sufficiente a perforare la pelle.</p>\n<p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.</p>"
     },
     "Vicious Flail": {
       "name": "Mazzafrusto Spietato",
-      "description": "<p>A set of chain-linked spiked balls lashed to a stout wooden shaft. The flail deals devastating damage when whirled in a deadly arc.</p>\n<p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.</p>"
+      "description": "<p>Una serie di sfere appuntite collegate da una catena e attaccate a un grosso manico di legno. Il flagello infligge danni devastanti quando viene fatto vorticare in un arco mortale.</p>\n<p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.</p>"
     },
     "Vicious Glaive": {
       "name": "Falcione Spietato",
-      "description": "<p>A crescent blade is mounted on the end of a tall metal shaft. This polearm provides the ability to attack with deadly efficiency from greater range than typical melee weapons.</p><p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce&nbsp;2d6 danni extra del tipo inflitto dall’arma.</p>"
+      "description": "<p>Una grande lama montata all'estremità di una lunga asta. Quest'arma inastata permette di attaccare con efficienza letale da una distanza maggiore rispetto alle comuni armi da mischia.</p><p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce&nbsp;2d6 danni extra del tipo inflitto dall’arma.</p>"
     },
     "Vicious Greataxe": {
       "name": "Ascia Bipenne Spietata",
@@ -4291,15 +4291,15 @@
     },
     "Vicious Greatclub": {
       "name": "Randello Pesante Spietato",
-      "description": "<p>A larger variant of the simple club, a hefty wooden shaft with an enormous knot of wood upon the end deals crippling bludgeoning damage to unfortunate foes.</p>\n<p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.</p>"
+      "description": "<p>Una variante più grande del comune randello: una massiccia asta di legno con un enorme nodo all'estremità, capace di infliggere devastanti danni contundenti agli sfortunati nemici.</p>\n<p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.</p>"
     },
     "Vicious Greatsword": {
       "name": "Spadone Spietato",
-      "description": "<p>A mighty two-handed blade is over four feet long and almost five inches wide. This weapon requires extensive martial training but those proficient in its use are formidable warriors.</p>\n<p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.</p>"
+      "description": "<p>Una possente lama a due mani, lunga oltre 1,2 metri e larga quasi 13 cm. Quest'arma richiede un addestramento marziale approfondito, ma chi è competente nel suo uso è un guerriero formidabile.</p>\n<p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.</p>"
     },
     "Vicious Halberd": {
       "name": "Alabarda Spietata",
-      "description": "<p>A spear-tipped metal shaft accompanied by a crescent blade, the halberd is a strong defensive weapon which allows a warrior to fend off foes using the reach of the shaft to attack from safe distance.</p>\n<p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest&rsquo;arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall&rsquo;arma.</p>"
+      "description": "<p>Costituita da un'asta metallica con punta di lancia e una lama a mezzaluna, l'alabarda è una robusta arma difensiva che consente a un guerriero di tenere a bada i nemici sfruttando la lunghezza dell'asta per attaccare da una distanza sicura.</p>\n<p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest&rsquo;arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall&rsquo;arma.</p>"
     },
     "Vicious Hand Crossbow": {
       "name": "Balestra a Mano Spietata",
@@ -4307,27 +4307,27 @@
     },
     "Vicious Handaxe": {
       "name": "Ascia Spietata",
-      "description": "<p>This one-handed axe is light and balanced for throwing while remaining useful in hand combat.</p>\n<p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.</p>"
+      "description": "<p>Quest'ascia a una mano è leggera e bilanciata per il lancio, pur rimanendo efficace nel combattimento in mischia.</p>\n<p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.</p>"
     },
     "Vicious Heavy Crossbow": {
       "name": "Balestra Pesante Spietata",
-      "description": "<p>A large crossbow mounted on a sturdy block of wood which is loaded using a hand crank and fires thick steel bolts with deadly acceleration that punches through armor and flesh.</p><p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.</p>"
+      "description": "<p>Una grande balestra montata su un robusto ceppo di legno, caricata mediante una manovella e capace di scagliare spessi dardi d'acciaio con un'accelerazione letale che perfora armature e carne.</p><p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.</p>"
     },
     "Vicious Javelin": {
       "name": "Giavellotto Spietato",
-      "description": "<p>This light and flexible spear is designed for throwing, but is versatile enough to be used in melee combat as well.</p><p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce&nbsp;2d6&nbsp;danni extra del tipo inflitto dall’arma.</p>"
+      "description": "<p>Questa lancia leggera e flessibile è progettata per essere scagliata, ma è abbastanza versatile da poter essere usata anche nel combattimento in mischia.</p><p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce&nbsp;2d6&nbsp;danni extra del tipo inflitto dall’arma.</p>"
     },
     "Vicious Lance": {
       "name": "Lancia da Cavaliere Spietata",
-      "description": "<p>A shining steel tip to puncture the hardiest of foe's defences, driven in by the force of a galloping steed. Although best suited for mounted combat, the lance can be brought to lethal effect on foot in the right hands.</p><p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.</p><p><strong>Speciale.</strong> Il personaggio subisce svantaggio quando usa una lancia da cavaliere per attaccare un bersaglio entro 1,5 metri da lui. Inoltre, una lancia da cavaliere deve essere impugnata a due mani quando il personaggio non è in sella.</p>"
+      "description": "<p>Una lucente punta d'acciaio, spinta dalla forza di una cavalcatura al galoppo, perfora le difese persino del nemico più coriaceo. Sebbene sia particolarmente adatta al combattimento in sella, nelle mani giuste la lancia da cavaliere può essere usata con effetti letali anche a piedi.</p><p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.</p><p><strong>Speciale.</strong> Il personaggio subisce svantaggio quando usa una lancia da cavaliere per attaccare un bersaglio entro 1,5 metri da lui. Inoltre, una lancia da cavaliere deve essere impugnata a due mani quando il personaggio non è in sella.</p>"
     },
     "Vicious Light Crossbow": {
       "name": "Balestra Leggera Spietata",
-      "description": "<p>A small crossbow with a wooden haft and a tense cord which is capable of firing a single bolt which can puncture even heavy armor at close range.</p><p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.</p>"
+      "description": "<p>Una piccola balestra con un fusto di legno e una corda tesa, capace di scagliare un singolo dardo in grado di perforare persino un'armatura pesante a distanza ravvicinata.</p><p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.</p>"
     },
     "Vicious Light Hammer": {
       "name": "Martello Leggero Spietato",
-      "description": "<p>This sturdy hammer is small enough to be nimbly wielded or used in combination with another weapon.</p>\n<p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.</p>"
+      "description": "<p>Questo robusto martello è abbastanza piccolo da essere maneggiato agilmente o usato insieme a un'altra arma.</p>\n<p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.</p>"
     },
     "Vicious Longbow": {
       "name": "Arco Lungo Spietato",
@@ -4335,43 +4335,43 @@
     },
     "Vicious Longsword": {
       "name": "Spada Lunga Spietata",
-      "description": "<p>A lengthy straight blade designed for slashing foes, the longsword is a highly versatile weapon that may also be wielded with two hands for more punishing strikes.</p><p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.</p>"
+      "description": "<p>Una lunga lama diritta progettata per fendere i nemici, la spada lunga è un'arma estremamente versatile che può anche essere impugnata a due mani per sferrare colpi più devastanti.</p><p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.</p>"
     },
     "Vicious Mace": {
       "name": "Mazza Spietata",
-      "description": "<p>A heavy bludgeoning weapon mounted to the end of a metal club. The head features spikes and blades designed to puncture armor and shatter the bones below.</p>\n<p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.</p>"
+      "description": "<p>Una pesante arma da sfondamento montata all'estremità di un bastone di metallo. La testa presenta punte e lame progettate per perforare l'armatura e frantumare le ossa sottostanti.</p>\n<p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.</p>"
     },
     "Vicious Maul": {
       "name": "Maglio Spietato",
-      "description": "<p>This heavy two-handed mace crushes metal and bone with thunderous force.</p>\n<p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.</p>"
+      "description": "<p>mazza a due mani schiaccia metallo e ossa con una forza brutale.</p>\n<p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.</p>"
     },
     "Vicious Morningstar": {
       "name": "Morningstar Spietata",
-      "description": "<p>A viciously spiked metal orb mounted upon the end of a stout haft makes for a deadly weapon which can puncture armor and flesh alike.</p>\n<p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.</p>"
+      "description": "<p>Una sfera di metallo ricoperta di spuntoni montata sull'estremità di un grosso manico crea un'arma mortale che può perforare armature e carne allo stesso modo.</p>\n<p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.</p>"
     },
     "Vicious Pike": {
       "name": "Picca Spietata",
-      "description": "<p>A sturdy blade mounted upon the end of a long metal haft. Designed as a defensive weapon with considerable reach to both fend off and menace foes.</p>\n<p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.</p>"
+      "description": "<p>Una robusta lama montata all'estremità di una lunga asta metallica. È concepita come arma difensiva dalla portata considerevole, utile sia per tenere lontani i nemici sia per minacciarli.</p>\n<p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.</p>"
     },
     "Vicious Quarterstaff": {
       "name": "Bastone Ferrato Spietato",
-      "description": "<p>A thick shaft of wood wrapped with a sturdy grip makes a highly functional weapon in addition to a stout walking stick.</p><p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce&nbsp;2d6&nbsp;danni extra del tipo inflitto dall’arma.</p>"
+      "description": "<p>Una spessa asta di legno avvolta da una robusta impugnatura costituisce un'arma estremamente funzionale, oltre che un solido bastone da passeggio.</p><p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce&nbsp;2d6&nbsp;danni extra del tipo inflitto dall’arma.</p>"
     },
     "Vicious Rapier": {
       "name": "Stocco Spietato",
-      "description": "<p>A thin tensile metal blade, light in weight but long in reach designed for quick darting attacks to target weak points in enemy defenses with lightning swiftness.</p><p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.</p>"
+      "description": "<p>Una sottile lama metallica resistente alla trazione, leggera ma dalla notevole lunghezza, progettata per sferrare rapidi affondi e colpire con fulminea velocità i punti deboli delle difese nemiche.</p><p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.</p>"
     },
     "Vicious Scimitar": {
       "name": "Scimitarra Spietata",
-      "description": "<p>This curved blade is wide near the wrapped handle but arcs and tapers towards a gleaming tip.</p><p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.</p>"
+      "description": "<p>Questa lama ricurva è stretta vicino all'impugnatura avvolta, ma si allarga verso una punta scintillante.</p><p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.</p>"
     },
     "Vicious Shortbow": {
       "name": "Arco Corto Spietato",
-      "description": "<p>This two handed bow is somewhat smaller than the traditional longbow variant, making it well suited for rapid attacks while on the move or mounted from horseback.</p><p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce&nbsp;2d6&nbsp;danni extra del tipo inflitto dall’arma.</p>"
+      "description": "<p>Questo arco a due mani è leggermente più piccolo del tradizionale arco lungo, caratteristica che lo rende adatto agli attacchi rapidi mentre ci si muove o si cavalca.</p><p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce&nbsp;2d6&nbsp;danni extra del tipo inflitto dall’arma.</p>"
     },
     "Vicious Shortsword": {
       "name": "Spada Corta Spietata",
-      "description": "<p>A medium sized blade with a firm crossguard and a leather-wrapped handle. A versatile weapon which makes up in versatility what it lacks in reach.</p><p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.</p>"
+      "description": "<p>Una lama di medie dimensioni con una robusta elsa e un manico rivestito in pelle. Un'arma versatile che compensa in versatilità ciò che le manca in gittata.</p><p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.</p>"
     },
     "Vicious Sickle": {
       "name": "Falcetto Spietato",
@@ -4379,27 +4379,27 @@
     },
     "Vicious Sling": {
       "name": "Fionda Spietata",
-      "description": "<p>A flexible lash of leather affixed to a wooden handle which is capable of flinging rocks or metal bullets with deadly velocity.</p>\n<p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6&nbsp;danni extra del tipo inflitto dall’arma.</p>"
+      "description": "<p>Una correggia flessibile di cuoio fissata a un'impugnatura di legno, capace di scagliare pietre o proiettili metallici a velocità letale.</p>\n<p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6&nbsp;danni extra del tipo inflitto dall’arma.</p>"
     },
     "Vicious Spear": {
       "name": "Lancia Spietata",
-      "description": "<p>A gleaming steel point mounted atop a stout wooden haft, the spear may be wielded in one hand or two and can puncture through the heaviest armor with deadly force.</p><p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.</p>"
+      "description": "<p>Una lucente punta d'acciaio montata su una robusta asta di legno; la lancia può essere impugnata a una o due mani e perforare con forza letale persino l'armatura più pesante.</p><p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce 2d6 danni extra del tipo inflitto dall’arma.</p>"
     },
     "Vicious Trident": {
       "name": "Tridente Spietato",
-      "description": "<p>A multi-pronged spear designed to impale a target in multiple locations, pinning them in place. Often used in combination with a net to entrap and harass foes.</p><p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce&nbsp;2d6&nbsp;danni extra del tipo inflitto dall’arma.</p>"
+      "description": "<p>Una lancia a più punte progettata per trafiggere un bersaglio in più punti, immobilizzandolo. Viene spesso usata insieme a una rete per intrappolare e tormentare i nemici.</p><p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce&nbsp;2d6&nbsp;danni extra del tipo inflitto dall’arma.</p>"
     },
     "Vicious War Pick": {
       "name": "Piccone da Guerra Spietato",
-      "description": "<p>A brutal curved spike mounted on the back of a sturdy haft - designed for puncturing armor with deadly force.</p><p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce&nbsp;2d6&nbsp;danni extra del tipo inflitto dall’arma.</p>"
+      "description": "<p>Una brutale punta ricurva montata sul retro di un robusto manico - progettata per perforare armature con forza mortale.</p><p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce&nbsp;2d6&nbsp;danni extra del tipo inflitto dall’arma.</p>"
     },
     "Vicious Warhammer": {
       "name": "Martello da Guerra Spietato",
-      "description": "<p>A heavy metal hammer capable of being wielded with a single hand with a shield or in two hands to deliver crushing concussive blows.</p><p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce&nbsp;2d6&nbsp;danni extra del tipo inflitto dall’arma.</p>"
+      "description": "<p>Un pesante martello metallico che può essere impugnato con una mano insieme a uno scudo, oppure con due mani per sferrare devastanti colpi contundenti.</p><p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce&nbsp;2d6&nbsp;danni extra del tipo inflitto dall’arma.</p>"
     },
     "Vicious Whip": {
       "name": "Frusta Spietata",
-      "description": "<p>A tensile lash made of leather, cord, or chain which can lash out at nearby enemies, dealing lacerations and harrying them from a distance.</p><p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce&nbsp;2d6&nbsp;danni extra del tipo inflitto dall’arma.</p>"
+      "description": "<p>Una robusta sferza di cuoio, corda o catena, capace di colpire i nemici vicini, lacerandoli e incalzandoli a distanza.</p><p>Quando il personaggio ottiene un risultato di 20 al tiro per colpire con quest’arma magica, il bersaglio subisce&nbsp;2d6&nbsp;danni extra del tipo inflitto dall’arma.</p>"
     },
     "Viol": {
       "name": "Viola",

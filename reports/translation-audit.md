@@ -7,7 +7,7 @@
 | classfeatures | 235 | 235 | 0 | 0 | 0 | 0 | 0 |
 | effects | 214 | 214 | 0 | 0 | 0 | 0 | 0 |
 | heroes | 12 | 0 | 0 | 12 | 0 | 466 | 561 |
-| items | 885 | 812 | 0 | 73 | 0 | 0 | 201 |
+| items | 885 | 858 | 0 | 27 | 0 | 0 | 144 |
 | monsterfeatures | 252 | 0 | 61 | 191 | 0 | 132 | 753 |
 | monsters | 337 | 2 | 5 | 330 | 15 | 4810 | 5045 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
@@ -17,7 +17,7 @@
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 7255
+Total blocking issues: 7198
 
 ## Issues
 
@@ -592,13 +592,6 @@ Total blocking issues: 7255
 - **foundry-formulas** `items:2ksm2KXCY3vBHTAx:system.description.value`
 - **html-tag-sequence** `items:6pjaQzbtxQTuQ4RW:system.description.value`
 - **html-attributes** `items:6pjaQzbtxQTuQ4RW:system.description.value`
-- **html-tag-sequence** `items:uXOT4fYbgPY8DGdd:system.description.value`
-- **html-attributes** `items:uXOT4fYbgPY8DGdd:system.description.value`
-- **english-residual** `items:tH5Rn0JVRG1zdmPa:system.description.value`
-- **unchanged-english** `items:PGL6aaM0wE5h0VN5:name`
-- **unchanged-english** `items:NtdDkjmpdIMiX7I2:name`
-- **html-tag-sequence** `items:YHCmjsiXxZ9UdUhU:system.description.value`
-- **html-attributes** `items:YHCmjsiXxZ9UdUhU:system.description.value`
 - **html-balance** `items:TZggpdbOYqOCG7mY:system.description.value`
 - **html-tag-sequence** `items:TZggpdbOYqOCG7mY:system.description.value`
 - **html-attributes** `items:TZggpdbOYqOCG7mY:system.description.value`
@@ -609,7 +602,6 @@ Total blocking issues: 7255
 - **foundry-reference-count** `items:F8QpasPjLrw2POzE:system.description.value`
 - **foundry-inline-rolls** `items:F8QpasPjLrw2POzE:system.description.value`
 - **foundry-formulas** `items:F8QpasPjLrw2POzE:system.description.value`
-- **foundry-formulas** `items:SqTtbBCfiEsmZ36N:system.description.value`
 - **html-tag-sequence** `items:QYJyQCnIQeLiMrmJ:system.description.value`
 - **html-attributes** `items:QYJyQCnIQeLiMrmJ:system.description.value`
 - **foundry-reference-count** `items:QYJyQCnIQeLiMrmJ:system.description.value`
@@ -642,12 +634,6 @@ Total blocking issues: 7255
 - **html-tag-sequence** `items:tWJLHIL6ZIZUez9k:system.description.value`
 - **html-attributes** `items:tWJLHIL6ZIZUez9k:system.description.value`
 - **foundry-inline-rolls** `items:tWJLHIL6ZIZUez9k:system.description.value`
-- **html-attributes** `items:UxkP6FvDzPbsIY6o:system.description.value`
-- **foundry-reference-count** `items:UxkP6FvDzPbsIY6o:system.description.value`
-- **html-tag-sequence** `items:e3XQygrXkzNvkDGF:system.description.value`
-- **html-attributes** `items:e3XQygrXkzNvkDGF:system.description.value`
-- **foundry-inline-rolls** `items:e3XQygrXkzNvkDGF:system.description.value`
-- **english-residual** `items:e3XQygrXkzNvkDGF:system.description.value`
 - **html-tag-sequence** `items:lTfo6OVvAY2iJ4oq:system.description.value`
 - **html-attributes** `items:lTfo6OVvAY2iJ4oq:system.description.value`
 - **foundry-reference-count** `items:lTfo6OVvAY2iJ4oq:system.description.value`
@@ -660,14 +646,6 @@ Total blocking issues: 7255
 - **html-attributes** `items:46ikeR4RrSim6DsN:system.description.value`
 - **foundry-inline-rolls** `items:46ikeR4RrSim6DsN:system.description.value`
 - **foundry-data-references** `items:46ikeR4RrSim6DsN:system.description.value`
-- **html-tag-sequence** `items:kvD4ElYCfCKpjDeg:system.description.value`
-- **html-attributes** `items:kvD4ElYCfCKpjDeg:system.description.value`
-- **html-tag-sequence** `items:w56FIjFafs2rN6iK:system.description.value`
-- **html-attributes** `items:w56FIjFafs2rN6iK:system.description.value`
-- **unchanged-english** `items:PKpftwMAn88gfLi7:name`
-- **unchanged-english** `items:NrHboku9vJO5FGiY:name`
-- **unchanged-english** `items:dghpiMWDSUXtQf6X:name`
-- **unchanged-english** `items:dX8AxCh9o0A9CkT3:name`
 - **html-tag-sequence** `items:FeouSUPUlUhfgeRp:system.description.value`
 - **html-attributes** `items:FeouSUPUlUhfgeRp:system.description.value`
 - **foundry-reference-count** `items:FeouSUPUlUhfgeRp:system.description.value`
@@ -697,44 +675,9 @@ Total blocking issues: 7255
 - **html-tag-sequence** `items:caEn3ixCUFBnHTx6:system.description.value`
 - **html-attributes** `items:caEn3ixCUFBnHTx6:system.description.value`
 - **foundry-references** `items:caEn3ixCUFBnHTx6:system.description.value`
-- **html-attributes** `items:F6v3Q7dz1SlpLTMf:system.description.value`
-- **foundry-inline-rolls** `items:F6v3Q7dz1SlpLTMf:system.description.value`
 - **html-tag-sequence** `items:uHL99JKLUpTKAbz8:system.description.value`
 - **html-attributes** `items:uHL99JKLUpTKAbz8:system.description.value`
 - **foundry-inline-rolls** `items:uHL99JKLUpTKAbz8:system.description.value`
-- **english-residual** `items:dG7iFak1YH1nXRpC:system.description.value`
-- **english-residual** `items:ozYrQ5N4s81h35Fa:system.description.value`
-- **english-residual** `items:5Jz5w7XJxgtlsx6K:system.description.value`
-- **english-residual** `items:jeoZmDD9fuQdvC77:system.description.value`
-- **english-residual** `items:qmuOeNsOKwkn6K8W:system.description.value`
-- **english-residual** `items:eKip69fExSYN661B:system.description.value`
-- **english-residual** `items:p9dtQU9wEZGumHSb:system.description.value`
-- **english-residual** `items:FpLaviCom3XR1ckP:system.description.value`
-- **imperial-unit** `items:FpLaviCom3XR1ckP:system.description.value`
-- **english-residual** `items:isKR904LkLaH4i6M:system.description.value`
-- **english-residual** `items:QM3gdsL0eaAus7XT:system.description.value`
-- **english-residual** `items:Fk78kNmp3OLX5EMC:system.description.value`
-- **english-residual** `items:lM5uo6R4gy8rJG5Y:system.description.value`
-- **english-residual** `items:r8yK6SrWOz4hqF01:system.description.value`
-- **imperial-unit** `items:r8yK6SrWOz4hqF01:system.description.value`
-- **english-residual** `items:VQAUcjn1qdwW3MeU:system.description.value`
-- **english-residual** `items:4MeSq8KcF7KK7emF:system.description.value`
-- **english-residual** `items:pC3202gDTy8G5i4r:system.description.value`
-- **english-residual** `items:gSwpQacBLOJeLWrK:system.description.value`
-- **english-residual** `items:6JbrdSg5YYbs9ANm:system.description.value`
-- **english-residual** `items:Vm6SuX6TkDvSIVGr:system.description.value`
-- **english-residual** `items:zibIgdxPz8QHSCg6:system.description.value`
-- **english-residual** `items:Z7xno2zMzRtqqUIQ:system.description.value`
-- **english-residual** `items:h0XLhuUQ0vSnW3DU:system.description.value`
-- **english-residual** `items:FHUDEygUW7EWCDgA:system.description.value`
-- **english-residual** `items:Z0eO3TTpYA2hjwdd:system.description.value`
-- **english-residual** `items:1PMaZR6CX8fUnOZd:system.description.value`
-- **english-residual** `items:qGRN4wvZLJ8uITf2:system.description.value`
-- **english-residual** `items:e7JpVX2549vp9mgF:system.description.value`
-- **english-residual** `items:TMqS62qjBCveT1Ss:system.description.value`
-- **english-residual** `items:g8DG0jXlvfP3uTtZ:system.description.value`
-- **english-residual** `items:HnJqfKkYXIWo2sp9:system.description.value`
-- **english-residual** `items:luTJgPXN5n0EN7iy:system.description.value`
 - **extra-entry** `items:Amulet of Proof Against Detection and Location`
 - **extra-entry** `items:Arrows`
 - **extra-entry** `items:Boots of Springing and Striding`
