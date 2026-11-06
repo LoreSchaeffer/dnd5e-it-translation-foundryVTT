@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1739,
+      "translated": 1744,
       "missing": 69,
-      "partial": 583,
+      "partial": 578,
       "review": 70
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 1056,
+      "invariantFailures": 1047,
       "englishResiduals": 72,
       "imperialResiduals": 0
     },
-    "blockingIssues": 7211
+    "blockingIssues": 7202
   },
   "packs": [
     {
@@ -5317,9 +5317,9 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 851,
+          "translated": 856,
           "missing": 0,
-          "partial": 34,
+          "partial": 29,
           "review": 0
         },
         "folders": {
@@ -5333,7 +5333,7 @@
           "total": 2227,
           "translated": 2227,
           "missing": 0,
-          "invariantFailures": 109,
+          "invariantFailures": 100,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
@@ -5440,46 +5440,6 @@
           "sourcePath": "items/rod/rod-of-absorption.yml"
         },
         {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "uXOT4fYbgPY8DGdd",
-          "fieldPath": "system.description.value",
-          "name": "Crystal",
-          "sourcePath": "items/spellcasting-focus/crystal.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "uXOT4fYbgPY8DGdd",
-          "fieldPath": "system.description.value",
-          "name": "Crystal",
-          "sourcePath": "items/spellcasting-focus/crystal.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "YHCmjsiXxZ9UdUhU",
-          "fieldPath": "system.description.value",
-          "name": "Navigator's Tools",
-          "sourcePath": "items/tool/navigators-tools.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "YHCmjsiXxZ9UdUhU",
-          "fieldPath": "system.description.value",
-          "name": "Navigator's Tools",
-          "sourcePath": "items/tool/navigators-tools.yml"
-        },
-        {
           "code": "html-balance",
           "severity": "blocking",
           "message": "Closing tag </tr> does not match <tbody>; Closing tag </tr> does not match <table>; Closing tag </tbody> does not match <div>; Closing tag </table> does not match <none>; Closing tag </div> does not match <none>",
@@ -5578,16 +5538,6 @@
           "fieldPath": "system.description.value",
           "name": "Bag of Beans",
           "sourcePath": "items/trinket/bag-of-beans.yml"
-        },
-        {
-          "code": "foundry-formulas",
-          "severity": "blocking",
-          "message": "Foundry formulas differ from source",
-          "pack": "items",
-          "id": "SqTtbBCfiEsmZ36N",
-          "fieldPath": "system.description.value",
-          "name": "Bead of Force",
-          "sourcePath": "items/trinket/bead-of-force.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -6054,26 +6004,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "items",
-          "id": "kvD4ElYCfCKpjDeg",
-          "fieldPath": "system.description.value",
-          "name": "Dwarven Thrower",
-          "sourcePath": "items/weapon/dwarven-thrower.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "kvD4ElYCfCKpjDeg",
-          "fieldPath": "system.description.value",
-          "name": "Dwarven Thrower",
-          "sourcePath": "items/weapon/dwarven-thrower.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
           "id": "w56FIjFafs2rN6iK",
           "fieldPath": "system.description.value",
           "name": "Mace of Smiting",
@@ -6378,26 +6308,6 @@
           "fieldPath": "system.description.value",
           "name": "Staff of the Woodlands",
           "sourcePath": "items/weapon/staff-of-the-woodlands.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "F6v3Q7dz1SlpLTMf",
-          "fieldPath": "system.description.value",
-          "name": "Staff of Thunder and Lightning",
-          "sourcePath": "items/weapon/staff-of-thunder-and-lightning.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "items",
-          "id": "F6v3Q7dz1SlpLTMf",
-          "fieldPath": "system.description.value",
-          "name": "Staff of Thunder and Lightning",
-          "sourcePath": "items/weapon/staff-of-thunder-and-lightning.yml"
         },
         {
           "code": "html-tag-sequence",

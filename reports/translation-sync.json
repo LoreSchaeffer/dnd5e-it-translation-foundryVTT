@@ -3463,6 +3463,14 @@
         },
         {
           "pack": "items",
+          "id": "uXOT4fYbgPY8DGdd",
+          "name": "Crystal",
+          "sourcePath": "items/spellcasting-focus/crystal.yml",
+          "lookupKey": "Crystal",
+          "matchedLookupKey": "Crystal"
+        },
+        {
+          "pack": "items",
           "id": "laVqttkGMW4B9654",
           "name": "Emblem",
           "sourcePath": "items/spellcasting-focus/emblem.yml",
@@ -3727,6 +3735,14 @@
         },
         {
           "pack": "items",
+          "id": "YHCmjsiXxZ9UdUhU",
+          "name": "Navigator's Tools",
+          "sourcePath": "items/tool/navigators-tools.yml",
+          "lookupKey": "Navigator's Tools",
+          "matchedLookupKey": "Navigator's Tools"
+        },
+        {
+          "pack": "items",
           "id": "ccm5xlWhx74d6lsK",
           "name": "Painter's Supplies",
           "sourcePath": "items/tool/painters-supplies.yml",
@@ -3852,6 +3868,14 @@
           "sourcePath": "items/trinket/ball-bearings.yml",
           "lookupKey": "3YSUIp4eFo26YxJr",
           "matchedLookupKey": "3YSUIp4eFo26YxJr"
+        },
+        {
+          "pack": "items",
+          "id": "SqTtbBCfiEsmZ36N",
+          "name": "Bead of Force",
+          "sourcePath": "items/trinket/bead-of-force.yml",
+          "lookupKey": "Bead of Force",
+          "matchedLookupKey": "Bead of Force"
         },
         {
           "pack": "items",
@@ -5028,6 +5052,14 @@
           "sourcePath": "items/weapon/dragon-slayer-shortsword.yml",
           "lookupKey": "Dragon Slayer Shortsword",
           "matchedLookupKey": "Dragon Slayer Shortsword"
+        },
+        {
+          "pack": "items",
+          "id": "kvD4ElYCfCKpjDeg",
+          "name": "Dwarven Thrower",
+          "sourcePath": "items/weapon/dwarven-thrower.yml",
+          "lookupKey": "Dwarven Thrower",
+          "matchedLookupKey": "Dwarven Thrower"
         },
         {
           "pack": "items",
@@ -6351,6 +6383,14 @@
         },
         {
           "pack": "items",
+          "id": "F6v3Q7dz1SlpLTMf",
+          "name": "Staff of Thunder and Lightning",
+          "sourcePath": "items/weapon/staff-of-thunder-and-lightning.yml",
+          "lookupKey": "Staff of Thunder and Lightning",
+          "matchedLookupKey": "Staff of Thunder and Lightning"
+        },
+        {
+          "pack": "items",
           "id": "yiYCqmD5n08NftYk",
           "name": "Sun Blade",
           "sourcePath": "items/weapon/sun-blade.yml",
@@ -6931,60 +6971,6 @@
         },
         {
           "pack": "items",
-          "id": "uXOT4fYbgPY8DGdd",
-          "name": "Crystal",
-          "sourcePath": "items/spellcasting-focus/crystal.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Crystal",
-          "matchedLookupKey": "Crystal",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "uXOT4fYbgPY8DGdd",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "uXOT4fYbgPY8DGdd",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "YHCmjsiXxZ9UdUhU",
-          "name": "Navigator's Tools",
-          "sourcePath": "items/tool/navigators-tools.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Navigator's Tools",
-          "matchedLookupKey": "Navigator's Tools",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "YHCmjsiXxZ9UdUhU",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "YHCmjsiXxZ9UdUhU",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
           "id": "TZggpdbOYqOCG7mY",
           "name": "Alchemy Jug",
           "sourcePath": "items/trinket/alchemy-jug.yml",
@@ -7092,25 +7078,6 @@
               "message": "Foundry formulas differ from source",
               "pack": "items",
               "id": "F8QpasPjLrw2POzE",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "SqTtbBCfiEsmZ36N",
-          "name": "Bead of Force",
-          "sourcePath": "items/trinket/bead-of-force.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Bead of Force",
-          "matchedLookupKey": "Bead of Force",
-          "diagnostics": [
-            {
-              "code": "foundry-formulas",
-              "severity": "blocking",
-              "message": "Foundry formulas differ from source",
-              "pack": "items",
-              "id": "SqTtbBCfiEsmZ36N",
               "fieldPath": "system.description.value"
             }
           ]
@@ -7617,33 +7584,6 @@
         },
         {
           "pack": "items",
-          "id": "kvD4ElYCfCKpjDeg",
-          "name": "Dwarven Thrower",
-          "sourcePath": "items/weapon/dwarven-thrower.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Dwarven Thrower",
-          "matchedLookupKey": "Dwarven Thrower",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "kvD4ElYCfCKpjDeg",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "kvD4ElYCfCKpjDeg",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
           "id": "w56FIjFafs2rN6iK",
           "name": "Mace of Smiting",
           "sourcePath": "items/weapon/mace-of-smiting.yml",
@@ -7996,33 +7936,6 @@
               "message": "Foundry reference targets or order differ from source",
               "pack": "items",
               "id": "caEn3ixCUFBnHTx6",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "F6v3Q7dz1SlpLTMf",
-          "name": "Staff of Thunder and Lightning",
-          "sourcePath": "items/weapon/staff-of-thunder-and-lightning.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Staff of Thunder and Lightning",
-          "matchedLookupKey": "Staff of Thunder and Lightning",
-          "diagnostics": [
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "F6v3Q7dz1SlpLTMf",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "F6v3Q7dz1SlpLTMf",
               "fieldPath": "system.description.value"
             }
           ]
