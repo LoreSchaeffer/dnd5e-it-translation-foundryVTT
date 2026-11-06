@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1023,
+      "translated": 1025,
       "missing": 69,
-      "partial": 1299,
+      "partial": 1297,
       "review": 213
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 9340,
-      "missing": 6320,
+      "translated": 9356,
+      "missing": 6304,
       "invariantFailures": 2394,
       "englishResiduals": 135,
       "imperialResiduals": 4
     },
-    "blockingIssues": 8877
+    "blockingIssues": 8861
   },
   "packs": [
     {
@@ -76741,9 +76741,9 @@
       "summary": {
         "documents": {
           "total": 320,
-          "translated": 86,
+          "translated": 88,
           "missing": 0,
-          "partial": 234,
+          "partial": 232,
           "review": 10
         },
         "folders": {
@@ -76755,8 +76755,8 @@
         },
         "fields": {
           "total": 2007,
-          "translated": 1833,
-          "missing": 174,
+          "translated": 1849,
+          "missing": 158,
           "invariantFailures": 406,
           "englishResiduals": 17,
           "imperialResiduals": 2
@@ -77745,51 +77745,6 @@
           "fieldPath": "system.description.value",
           "name": "Find Traps",
           "sourcePath": "spells/2nd-level/find-traps.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "Advtckpz1B733bu9",
-          "name": "Flame Blade",
-          "fieldPath": "system.activities.Wj7GiWyEQQKGdYol.description.value",
-          "sourcePath": "spells/2nd-level/flame-blade.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "Advtckpz1B733bu9",
-          "name": "Flame Blade",
-          "fieldPath": "effects[vULxJuCFS32tApK7].description",
-          "sourcePath": "spells/2nd-level/flame-blade.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "Advtckpz1B733bu9",
-          "name": "Flame Blade",
-          "fieldPath": "effects[tpXf44S04mFJMol7].description",
-          "sourcePath": "spells/2nd-level/flame-blade.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "Advtckpz1B733bu9",
-          "name": "Flame Blade",
-          "fieldPath": "effects[BUBEz95PSksSQbVs].description",
-          "sourcePath": "spells/2nd-level/flame-blade.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "Advtckpz1B733bu9",
-          "name": "Flame Blade",
-          "fieldPath": "effects[9TTHVfcjufZowUOr].description",
-          "sourcePath": "spells/2nd-level/flame-blade.yml"
         },
         {
           "code": "missing-field",
@@ -80124,60 +80079,6 @@
           "sourcePath": "spells/5th-level/scrying.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "fVbCxFRaORalHB20",
-          "name": "Scrying",
-          "fieldPath": "effects[swoj95aPKbfvOvzB].description",
-          "sourcePath": "spells/5th-level/scrying.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "fVbCxFRaORalHB20",
-          "name": "Scrying",
-          "fieldPath": "effects[eIRIAOP6mo2CCkgl].description",
-          "sourcePath": "spells/5th-level/scrying.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "fVbCxFRaORalHB20",
-          "name": "Scrying",
-          "fieldPath": "effects[aPR8EiMR9S3wbb1I].description",
-          "sourcePath": "spells/5th-level/scrying.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "fVbCxFRaORalHB20",
-          "name": "Scrying",
-          "fieldPath": "effects[sKoP7ypmOp1Wv5m2].description",
-          "sourcePath": "spells/5th-level/scrying.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "fVbCxFRaORalHB20",
-          "name": "Scrying",
-          "fieldPath": "effects[g6lZ5DEP8bOLRsWZ].description",
-          "sourcePath": "spells/5th-level/scrying.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "fVbCxFRaORalHB20",
-          "name": "Scrying",
-          "fieldPath": "effects[16QLcS43oSaMOpnz].description",
-          "sourcePath": "spells/5th-level/scrying.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -80517,51 +80418,6 @@
           "name": "Eyebite",
           "fieldPath": "effects[yBr3oIopzL8uDrPi].description",
           "sourcePath": "spells/6th-level/eyebite.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "kozNy29b0X6exFhY",
-          "name": "Flesh to Stone",
-          "fieldPath": "system.activities.ZLjky0SAN3L2Afkr.description.value",
-          "sourcePath": "spells/6th-level/flesh-to-stone.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "kozNy29b0X6exFhY",
-          "name": "Flesh to Stone",
-          "fieldPath": "effects[mVqFBzC5qYpFnZFV].description",
-          "sourcePath": "spells/6th-level/flesh-to-stone.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "kozNy29b0X6exFhY",
-          "name": "Flesh to Stone",
-          "fieldPath": "effects[GlcVeHlxmWkdMTiP].description",
-          "sourcePath": "spells/6th-level/flesh-to-stone.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "kozNy29b0X6exFhY",
-          "name": "Flesh to Stone",
-          "fieldPath": "effects[W767OHpOwFKPPaCL].description",
-          "sourcePath": "spells/6th-level/flesh-to-stone.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "kozNy29b0X6exFhY",
-          "name": "Flesh to Stone",
-          "fieldPath": "effects[lIhef4AI9rE2By2t].description",
-          "sourcePath": "spells/6th-level/flesh-to-stone.yml"
         },
         {
           "code": "missing-field",

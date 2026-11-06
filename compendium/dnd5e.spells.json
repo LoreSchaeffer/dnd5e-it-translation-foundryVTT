@@ -2011,7 +2011,10 @@
       "materials": "una foglia di scotano",
       "activities": {
         "Wj7GiWyEQQKGdYol": {
-          "name": "Lancia"
+          "name": "Lancia",
+          "description": {
+            "value": "<p>Evochi una lama infuocata nella tua mano libera. La lama è simile per forma e dimensioni a una Scimitarra e permane per la Durata. Se lasci andare la lama, essa scompare, ma puoi evocarla di nuovo con un'Azione Bonus.</p>"
+          }
         },
         "rUOzC7j6wRPm8fpO": {
           "name": "Evoca Lama Infuocata in Mano",
@@ -2026,16 +2029,20 @@
           "description": "<p>Hai evocato una Lama Infuocata nella tua mano.</p>"
         },
         "vULxJuCFS32tApK7": {
-          "name": "Lama Infuocata: 2° Livello"
+          "name": "Lama Infuocata: 2° Livello",
+          "description": "<p>Hai evocato una Lama Infuocata, che infligge 3d6 danni da fuoco quando colpisce.</p>"
         },
         "tpXf44S04mFJMol7": {
-          "name": "Lama Infuocata: 4° Livello"
+          "name": "Lama Infuocata: 4° Livello",
+          "description": "<p>Hai evocato una Lama Infuocata, che infligge 4d6 danni da fuoco quando colpisce.</p>"
         },
         "BUBEz95PSksSQbVs": {
-          "name": "Lama Infuocata: 6° Livello"
+          "name": "Lama Infuocata: 6° Livello",
+          "description": "<p>Hai evocato una Lama Infuocata, che infligge 5d6 danni da fuoco quando colpisce.</p>"
         },
         "9TTHVfcjufZowUOr": {
-          "name": "Lama Infuocata: 8° Livello"
+          "name": "Lama Infuocata: 8° Livello",
+          "description": "<p>Hai evocato una Lama Infuocata, che infligge 6d6 danni da fuoco quando colpisce.</p>"
         },
         "nHmffcGZo11sgPV3": {
           "name": "Lama Infuocata: 4° Livello",
@@ -2075,16 +2082,20 @@
       "materials": "Un pizzico di pietra calcarea, acqua e terra",
       "effects": {
         "mVqFBzC5qYpFnZFV": {
-          "name": "Carne in Pietra"
+          "name": "Carne in Pietra",
+          "description": "<p>Sei &amp;reference[Restrained apply=false] mentre la tua carne inizia a indurirsi. Finché sei trattenuto da questo incantesimo, devi effettuare un altro tiro salvezza su Costituzione alla fine di ogni tuo turno. Se superi il tiro salvezza contro questo incantesimo tre volte, l'incantesimo termina. Se fallisci il tiro salvezza tre volte, vieni trasformato in pietra e sei soggetto alla condizione &amp;reference[Petrified] per la durata.</p>"
         },
         "lIhef4AI9rE2By2t": {
-          "name": "Pietrificato"
+          "name": "Pietrificato",
+          "description": "<p>Sei &amp;reference[Petrified apply=false] per la durata dell'incantesimo o finché l'effetto non viene rimosso.</p><p>Se vieni spezzato fisicamente mentre sei pietrificato, presenti deformità analoghe se ritorni al tuo stato originale.</p>"
         },
         "GlcVeHlxmWkdMTiP": {
-          "name": "Tiro Salvezza contro Carne in Pietra Fallito"
+          "name": "Tiro Salvezza contro Carne in Pietra Fallito",
+          "description": "<p>Hai fallito un tiro salvezza contro l'incantesimo @UUID[Compendium.dnd5e.spells.Item.kozNy29b0X6exFhY]{Carne in Pietra}.</p>"
         },
         "W767OHpOwFKPPaCL": {
-          "name": "Tiro Salvezza contro Carne in Pietra Superato"
+          "name": "Tiro Salvezza contro Carne in Pietra Superato",
+          "description": "<p>Hai superato un tiro salvezza contro l'incantesimo @UUID[Compendium.dnd5e.spells.Item.kozNy29b0X6exFhY]{Carne in Pietra}.</p>"
         }
       },
       "activities": {
@@ -2092,7 +2103,10 @@
           "name": "Lancia"
         },
         "ZLjky0SAN3L2Afkr": {
-          "name": "Tiro Salvezza contro Pietrificazione"
+          "name": "Tiro Salvezza contro Pietrificazione",
+          "description": {
+            "value": "<p>Alla fine di ogni turno del bersaglio, esso deve effettuare un tiro salvezza su Costituzione. Dopo aver fallito tre di questi tiri salvezza, gli effetti della malattia durano per la durata e la creatura smette di effettuare questi tiri. Dopo aver superato tre di questi tiri salvezza, la creatura guarisce dalla malattia e l'incantesimo termina.</p><p>Poiché questo incantesimo induce una malattia naturale nel bersaglio, qualsiasi effetto che rimuova una malattia o ne allevi altrimenti gli effetti si applica a essa.</p>"
+          }
         }
       }
     },
@@ -4014,22 +4028,28 @@
       },
       "effects": {
         "swoj95aPKbfvOvzB": {
-          "name": "Conoscenza: Indiretta"
+          "name": "Conoscenza: Indiretta",
+          "description": "<p>Hai sentito parlare del bersaglio che stai Scrutando.</p>"
         },
         "eIRIAOP6mo2CCkgl": {
-          "name": "Conoscenza: Diretta"
+          "name": "Conoscenza: Diretta",
+          "description": "<p>Hai incontrato il bersaglio che stai Scrutando.</p>"
         },
         "aPR8EiMR9S3wbb1I": {
-          "name": "Conoscenza: Familiare"
+          "name": "Conoscenza: Familiare",
+          "description": "<p>Conosci bene il bersaglio che stai Scrutando.</p>"
         },
         "sKoP7ypmOp1Wv5m2": {
-          "name": "Legame: Somiglianza o Ritratto"
+          "name": "Legame: Somiglianza o Ritratto",
+          "description": "<p>Possiedi un ritratto o un'immagine del bersaglio che stai Scrutando.</p>"
         },
         "g6lZ5DEP8bOLRsWZ": {
-          "name": "Legame: Oggetto Posseduto o Indumento"
+          "name": "Legame: Oggetto Posseduto o Indumento",
+          "description": "<p>Possiedi un oggetto o un indumento del bersaglio che stai Scrutando.</p>"
         },
         "16QLcS43oSaMOpnz": {
-          "name": "Legame: Parte del Corpo"
+          "name": "Legame: Parte del Corpo",
+          "description": "<p>Possiedi una parte del corpo, una ciocca di capelli, un frammento di unghia o qualcosa di simile del bersaglio che stai Scrutando.</p>"
         }
       }
     },
