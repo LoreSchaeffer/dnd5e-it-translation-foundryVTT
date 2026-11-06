@@ -1311,6 +1311,14 @@
         },
         {
           "pack": "spells",
+          "id": "1ADstb0Xec6HHRcU",
+          "name": "Resilient Sphere",
+          "sourcePath": "spells/4th-level/resilient-sphere.yml",
+          "lookupKey": "Resilient Sphere",
+          "matchedLookupKey": "Resilient Sphere"
+        },
+        {
+          "pack": "spells",
           "id": "8sgwRh8NUNkn9Vi0",
           "name": "Secret Chest",
           "sourcePath": "spells/4th-level/secret-chest.yml",
@@ -1404,6 +1412,14 @@
           "sourcePath": "spells/5th-level/contagion.yml",
           "lookupKey": "Contagion",
           "matchedLookupKey": "Contagion"
+        },
+        {
+          "pack": "spells",
+          "id": "lnaGnxMzpYnbw1uU",
+          "name": "Creation",
+          "sourcePath": "spells/5th-level/creation.yml",
+          "lookupKey": "Creation",
+          "matchedLookupKey": "Creation"
         },
         {
           "pack": "spells",
@@ -1508,6 +1524,14 @@
           "sourcePath": "spells/5th-level/raise-dead.yml",
           "lookupKey": "Raise Dead",
           "matchedLookupKey": "Raise Dead"
+        },
+        {
+          "pack": "spells",
+          "id": "zMEo5DKK8uxsuWnq",
+          "name": "Reincarnate",
+          "sourcePath": "spells/5th-level/reincarnate.yml",
+          "lookupKey": "Reincarnate",
+          "matchedLookupKey": "Reincarnate"
         },
         {
           "pack": "spells",
@@ -2498,41 +2522,6 @@
         },
         {
           "pack": "spells",
-          "id": "1ADstb0Xec6HHRcU",
-          "name": "Resilient Sphere",
-          "sourcePath": "spells/4th-level/resilient-sphere.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Resilient Sphere",
-          "matchedLookupKey": "Resilient Sphere",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "1ADstb0Xec6HHRcU",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "1ADstb0Xec6HHRcU",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-references",
-              "severity": "blocking",
-              "message": "Foundry reference targets or order differ from source",
-              "pack": "spells",
-              "id": "1ADstb0Xec6HHRcU",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
           "id": "ATo0Eb63TDtnu6iA",
           "name": "Animate Objects",
           "sourcePath": "spells/5th-level/animate-objects.yml",
@@ -2624,33 +2613,6 @@
               "message": "Foundry reference count differs from source",
               "pack": "spells",
               "id": "MCEpGpvovcXagwQS",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "lnaGnxMzpYnbw1uU",
-          "name": "Creation",
-          "sourcePath": "spells/5th-level/creation.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Creation",
-          "matchedLookupKey": "Creation",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "lnaGnxMzpYnbw1uU",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "lnaGnxMzpYnbw1uU",
               "fieldPath": "system.description.value"
             }
           ]
@@ -2756,41 +2718,6 @@
               "message": "Foundry reference count differs from source",
               "pack": "spells",
               "id": "42O2aNBW7vK90gTL",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "zMEo5DKK8uxsuWnq",
-          "name": "Reincarnate",
-          "sourcePath": "spells/5th-level/reincarnate.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Reincarnate",
-          "matchedLookupKey": "Reincarnate",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "zMEo5DKK8uxsuWnq",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "zMEo5DKK8uxsuWnq",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "spells",
-              "id": "zMEo5DKK8uxsuWnq",
               "fieldPath": "system.description.value"
             }
           ]

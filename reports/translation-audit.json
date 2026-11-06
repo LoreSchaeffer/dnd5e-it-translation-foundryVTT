@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1216,
+      "translated": 1219,
       "missing": 69,
-      "partial": 1106,
+      "partial": 1103,
       "review": 203
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 2101,
+      "invariantFailures": 2093,
       "englishResiduals": 118,
       "imperialResiduals": 2
     },
-    "blockingIssues": 8391
+    "blockingIssues": 8383
   },
   "packs": [
     {
@@ -76741,9 +76741,9 @@
       "summary": {
         "documents": {
           "total": 320,
-          "translated": 279,
+          "translated": 282,
           "missing": 0,
-          "partial": 41,
+          "partial": 38,
           "review": 0
         },
         "folders": {
@@ -76757,7 +76757,7 @@
           "total": 2007,
           "translated": 2007,
           "missing": 0,
-          "invariantFailures": 113,
+          "invariantFailures": 105,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
@@ -76978,36 +76978,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "spells",
-          "id": "1ADstb0Xec6HHRcU",
-          "fieldPath": "system.description.value",
-          "name": "Resilient Sphere",
-          "sourcePath": "spells/4th-level/resilient-sphere.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "1ADstb0Xec6HHRcU",
-          "fieldPath": "system.description.value",
-          "name": "Resilient Sphere",
-          "sourcePath": "spells/4th-level/resilient-sphere.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "spells",
-          "id": "1ADstb0Xec6HHRcU",
-          "fieldPath": "system.description.value",
-          "name": "Resilient Sphere",
-          "sourcePath": "spells/4th-level/resilient-sphere.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
           "id": "ATo0Eb63TDtnu6iA",
           "fieldPath": "system.description.value",
           "name": "Animate Objects",
@@ -77088,26 +77058,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "spells",
-          "id": "lnaGnxMzpYnbw1uU",
-          "fieldPath": "system.description.value",
-          "name": "Creation",
-          "sourcePath": "spells/5th-level/creation.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "lnaGnxMzpYnbw1uU",
-          "fieldPath": "system.description.value",
-          "name": "Creation",
-          "sourcePath": "spells/5th-level/creation.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
           "id": "JQyigMNPiDnGI18b",
           "fieldPath": "system.description.value",
           "name": "Geas",
@@ -77192,36 +77142,6 @@
           "fieldPath": "system.description.value",
           "name": "Planar Binding",
           "sourcePath": "spells/5th-level/planar-binding.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "zMEo5DKK8uxsuWnq",
-          "fieldPath": "system.description.value",
-          "name": "Reincarnate",
-          "sourcePath": "spells/5th-level/reincarnate.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "zMEo5DKK8uxsuWnq",
-          "fieldPath": "system.description.value",
-          "name": "Reincarnate",
-          "sourcePath": "spells/5th-level/reincarnate.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "spells",
-          "id": "zMEo5DKK8uxsuWnq",
-          "fieldPath": "system.description.value",
-          "name": "Reincarnate",
-          "sourcePath": "spells/5th-level/reincarnate.yml"
         },
         {
           "code": "html-tag-sequence",
