@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 962,
+      "translated": 973,
       "missing": 77,
-      "partial": 1352,
+      "partial": 1341,
       "review": 213
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 8943,
-      "missing": 6717,
+      "translated": 8954,
+      "missing": 6706,
       "invariantFailures": 2394,
       "englishResiduals": 135,
       "imperialResiduals": 4
     },
-    "blockingIssues": 9230
+    "blockingIssues": 9219
   },
   "packs": [
     {
@@ -5317,9 +5317,9 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 358,
+          "translated": 369,
           "missing": 0,
-          "partial": 527,
+          "partial": 516,
           "review": 133
         },
         "folders": {
@@ -5331,8 +5331,8 @@
         },
         "fields": {
           "total": 2227,
-          "translated": 2216,
-          "missing": 11,
+          "translated": 2227,
+          "missing": 0,
           "invariantFailures": 1041,
           "englishResiduals": 46,
           "imperialResiduals": 2
@@ -11599,105 +11599,6 @@
           "fieldPath": "system.description.value",
           "name": "Feather Token Whip",
           "sourcePath": "items/trinket/feather-token-whip.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "CI58LNiwrTpmWYMp",
-          "name": "Figurine of Wondrous Power (Bronze Griffon)",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/trinket/figurine-of-wondrous-power-bronze-griffon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "s2kQs21J3cFg7ZSs",
-          "name": "Figurine of Wondrous Power (Ebony Fly)",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/trinket/figurine-of-wondrous-power-ebony-fly.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "Minr6xegwoHFvAjG",
-          "name": "Figurine of Wondrous Power (Golden Lions)",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/trinket/figurine-of-wondrous-power-golden-lions.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "8CaODbNQtxHGuVjn",
-          "name": "Figurine of Wondrous Power (Ivory Goat of Terror)",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/trinket/figurine-of-wondrous-power-ivory-goat-of-terror.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "41kYCmKq0PbGVKaM",
-          "name": "Figurine of Wondrous Power (Ivory Goat of Travail)",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/trinket/figurine-of-wondrous-power-ivory-goat-of-travail.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "iLt7wTWr4cJnQulJ",
-          "name": "Figurine of Wondrous Power (Ivory Goat of Traveling)",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/trinket/figurine-of-wondrous-power-ivory-goat-of-traveling.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "GP2bvHlxVi30OEmo",
-          "name": "Figurine of Wondrous Power (Marble Elephant)",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/trinket/figurine-of-wondrous-power-marble-elephant.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "M5qkJ7erLqWYUHa0",
-          "name": "Figurine of Wondrous Power (Obsidian Steed)",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/trinket/figurine-of-wondrous-power-obsidian-steed.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "9nxSHbqlDdngtuuz",
-          "name": "Figurine of Wondrous Power (Onyx Dog)",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/trinket/figurine-of-wondrous-power-onyx-dog.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "XEH5YErAN1WSytln",
-          "name": "Figurine of Wondrous Power (Serpentine Owl)",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/trinket/figurine-of-wondrous-power-serpentine-owl.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "nMtmxeYrbyFdv0bg",
-          "name": "Figurine of Wondrous Power (Silver Raven)",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/trinket/figurine-of-wondrous-power-silver-raven.yml"
         },
         {
           "code": "ambiguous-name",
