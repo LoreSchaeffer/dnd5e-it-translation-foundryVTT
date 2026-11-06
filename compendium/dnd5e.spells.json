@@ -20,6 +20,17 @@
         "name": "name",
         "chatFlavor": "description.chatFlavor"
       }
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "structured",
+      "cardinality": "many",
+      "container": "array",
+      "key": "_id",
+      "mapping": {
+        "name": "name",
+        "description": "description"
+      }
     }
   },
   "folders": {
@@ -143,6 +154,12 @@
         },
         "slTKkuzJMunnfkAs": {
           "name": "Lancia: Anima Resti"
+        }
+      },
+      "effects": {
+        "Gz4NTcpPjakj03qY": {
+          "name": "Non Morto Controllato",
+          "description": "<p>Sei sotto il controllo dell'incantatore per le successive 24 ore.</p>"
         }
       }
     },
@@ -667,6 +684,11 @@
         "dnd5eactivity000": {
           "name": "Evoca Elementale"
         }
+      },
+      "effects": {
+        "ERO8p9cfsc3Ifbii": {
+          "description": "<p>Sei sotto il controllo dell'incantatore finché mantiene la concentrazione su questo incantesimo. Se la sua concentrazione si interrompe, non scompari. L'incantatore perde invece il controllo su di te, diventi ostile verso di lui e i suoi compagni e scompari 1 ora dopo essere stato evocato.</p>"
+        }
       }
     },
     "Conjure Fey": {
@@ -675,6 +697,11 @@
       "activities": {
         "dnd5eactivity000": {
           "name": "Evoca Folletto"
+        }
+      },
+      "effects": {
+        "2k0c8R6S9F6lQIpH": {
+          "description": "<p>Sei sotto il controllo dell'incantatore finché mantiene la concentrazione su questo incantesimo. Se la sua concentrazione si interrompe, non scompari. L'incantatore perde invece il controllo su di te, diventi ostile verso di lui e i suoi compagni e scompari 1 ora dopo essere stato evocato.</p>"
         }
       }
     },
@@ -693,6 +720,11 @@
       "activities": {
         "dnd5eactivity000": {
           "name": "Lancia"
+        }
+      },
+      "effects": {
+        "I4lTsFrmG6W4G5Wo": {
+          "name": "Follia"
         }
       }
     },
@@ -830,6 +862,12 @@
         },
         "dnd5eactivity000": {
           "name": "Lancia Animare Resti"
+        }
+      },
+      "effects": {
+        "tcvcliUzqg19mdCv": {
+          "name": "Non Morto Controllato",
+          "description": "<p>Sei sotto il controllo dell'incantatore per le successive 24 ore.</p>"
         }
       }
     },
@@ -1119,6 +1157,20 @@
         "MrdlZ8bb33mejJ1P": {
           "name": "Assumi il Controllo Diretto"
         }
+      },
+      "effects": {
+        "fX9KJAQYigkiCMhL": {
+          "description": "<p>Sei &amp;reference[charmed apply=false] e l'incantatore mantiene un legame telepatico con te finché vi trovate entrambi sullo stesso piano di esistenza. Può usare questo legame telepatico per impartirti ordini, a cui devi obbedire al meglio delle tue capacità. Se completi l'ordine e non ricevi ulteriori istruzioni dall'incantatore, ti difendi e cerchi di sopravvivere al meglio delle tue capacità.</p><p>Ogni volta che subisci danni, effettui un nuovo tiro salvezza su Saggezza contro l'incantesimo. Se lo superi, l'incantesimo termina.</p>"
+        },
+        "YxbwZ5OKWuDoAeeG": {
+          "description": "<p>Sei &amp;reference[charmed apply=false] e l'incantatore mantiene un legame telepatico con te finché vi trovate entrambi sullo stesso piano di esistenza. Può usare questo legame telepatico per impartirti ordini, a cui devi obbedire al meglio delle tue capacità. Se completi l'ordine e non ricevi ulteriori istruzioni dall'incantatore, ti difendi e cerchi di sopravvivere al meglio delle tue capacità.</p><p>Ogni volta che subisci danni, effettui un nuovo tiro salvezza su Saggezza contro l'incantesimo. Se lo superi, l'incantesimo termina.</p>"
+        },
+        "eLfg2AYO32DCtzG1": {
+          "description": "<p>Sei &amp;reference[charmed apply=false] e l'incantatore mantiene un legame telepatico con te finché vi trovate entrambi sullo stesso piano di esistenza. Può usare questo legame telepatico per impartirti ordini, a cui devi obbedire al meglio delle tue capacità. Se completi l'ordine e non ricevi ulteriori istruzioni dall'incantatore, ti difendi e cerchi di sopravvivere al meglio delle tue capacità.</p><p>Ogni volta che subisci danni, effettui un nuovo tiro salvezza su Saggezza contro l'incantesimo. Se lo superi, l'incantesimo termina.</p>"
+        },
+        "ojk5aU3AWnbZjwxB": {
+          "description": "<p>Sei &amp;reference[charmed apply=false] e l'incantatore mantiene un legame telepatico con te finché vi trovate entrambi sullo stesso piano di esistenza. Può usare questo legame telepatico per impartirti ordini, a cui devi obbedire al meglio delle tue capacità. Se completi l'ordine e non ricevi ulteriori istruzioni dall'incantatore, ti difendi e cerchi di sopravvivere al meglio delle tue capacità.</p><p>Ogni volta che subisci danni, effettui un nuovo tiro salvezza su Saggezza contro l'incantesimo. Se lo superi, l'incantesimo termina.</p>"
+        }
       }
     },
     "Dominate Monster": {
@@ -1131,6 +1183,14 @@
         "gTWT6EVmsdlCKci4": {
           "name": "Assumi il Controllo Diretto"
         }
+      },
+      "effects": {
+        "fBMLyF7ftAaWmv1s": {
+          "description": "<p>Sei &amp;reference[charmed apply=false] e l'incantatore mantiene un legame telepatico con te finché vi trovate entrambi sullo stesso piano di esistenza. Può usare questo legame telepatico per impartirti ordini, a cui devi obbedire al meglio delle tue capacità. Se completi l'ordine e non ricevi ulteriori istruzioni dall'incantatore, ti difendi e cerchi di sopravvivere al meglio delle tue capacità.</p><p>Ogni volta che subisci danni, effettui un nuovo tiro salvezza su Saggezza contro l'incantesimo. Se lo superi, l'incantesimo termina.</p>"
+        },
+        "A9gnQnWfCRqoymRm": {
+          "description": "<p>Sei &amp;reference[charmed apply=false] e l'incantatore mantiene un legame telepatico con te finché vi trovate entrambi sullo stesso piano di esistenza. Può usare questo legame telepatico per impartirti ordini, a cui devi obbedire al meglio delle tue capacità. Se completi l'ordine e non ricevi ulteriori istruzioni dall'incantatore, ti difendi e cerchi di sopravvivere al meglio delle tue capacità.</p><p>Ogni volta che subisci danni, effettui un nuovo tiro salvezza su Saggezza contro l'incantesimo. Se lo superi, l'incantesimo termina.</p>"
+        }
       }
     },
     "Dominate Person": {
@@ -1142,6 +1202,20 @@
         },
         "200TV6FrMbK0EJzM": {
           "name": "Comanda Creatura"
+        }
+      },
+      "effects": {
+        "t7q0nA3ojHoNF0A8": {
+          "description": "<p>Sei &amp;reference[charmed apply=false] e l'incantatore mantiene un legame telepatico con te finché vi trovate entrambi sullo stesso piano di esistenza. Può usare questo legame telepatico per impartirti ordini, a cui devi obbedire al meglio delle tue capacità. Se completi l'ordine e non ricevi ulteriori istruzioni dall'incantatore, ti difendi e cerchi di sopravvivere al meglio delle tue capacità.</p><p>Ogni volta che subisci danni, effettui un nuovo tiro salvezza su Saggezza contro l'incantesimo. Se lo superi, l'incantesimo termina.</p>"
+        },
+        "OlmR2e1Mm1oevh9J": {
+          "description": "<p>Sei &amp;reference[charmed apply=false] e l'incantatore mantiene un legame telepatico con te finché vi trovate entrambi sullo stesso piano di esistenza. Può usare questo legame telepatico per impartirti ordini, a cui devi obbedire al meglio delle tue capacità. Se completi l'ordine e non ricevi ulteriori istruzioni dall'incantatore, ti difendi e cerchi di sopravvivere al meglio delle tue capacità.</p><p>Ogni volta che subisci danni, effettui un nuovo tiro salvezza su Saggezza contro l'incantesimo. Se lo superi, l'incantesimo termina.</p>"
+        },
+        "NmiqxKuk9UUWjSfU": {
+          "description": "<p>Sei &amp;reference[charmed apply=false] e l'incantatore mantiene un legame telepatico con te finché vi trovate entrambi sullo stesso piano di esistenza. Può usare questo legame telepatico per impartirti ordini, a cui devi obbedire al meglio delle tue capacità. Se completi l'ordine e non ricevi ulteriori istruzioni dall'incantatore, ti difendi e cerchi di sopravvivere al meglio delle tue capacità.</p><p>Ogni volta che subisci danni, effettui un nuovo tiro salvezza su Saggezza contro l'incantesimo. Se lo superi, l'incantesimo termina.</p>"
+        },
+        "YBuB8CsYjYrl3GXE": {
+          "description": "<p>Sei &amp;reference[charmed apply=false] e l'incantatore mantiene un legame telepatico con te finché vi trovate entrambi sullo stesso piano di esistenza. Può usare questo legame telepatico per impartirti ordini, a cui devi obbedire al meglio delle tue capacità. Se completi l'ordine e non ricevi ulteriori istruzioni dall'incantatore, ti difendi e cerchi di sopravvivere al meglio delle tue capacità.</p><p>Ogni volta che subisci danni, effettui un nuovo tiro salvezza su Saggezza contro l'incantesimo. Se lo superi, l'incantesimo termina.</p>"
         }
       }
     },
@@ -1482,6 +1556,36 @@
         },
         "rUOzC7j6wRPm8fpO": {
           "name": "Evoca Lama Infuocata in Mano"
+        }
+      },
+      "effects": {
+        "Dg3Qi2SmWyCMpmU4": {
+          "name": "Lama Infuocata: 2° Livello",
+          "description": "<p>Hai evocato una Lama Infuocata nella tua mano.</p>"
+        },
+        "vULxJuCFS32tApK7": {
+          "name": "Lama Infuocata: 2° Livello"
+        },
+        "tpXf44S04mFJMol7": {
+          "name": "Lama Infuocata: 4° Livello"
+        },
+        "BUBEz95PSksSQbVs": {
+          "name": "Lama Infuocata: 6° Livello"
+        },
+        "9TTHVfcjufZowUOr": {
+          "name": "Lama Infuocata: 8° Livello"
+        },
+        "nHmffcGZo11sgPV3": {
+          "name": "Lama Infuocata: 4° Livello",
+          "description": "<p>Hai evocato una Lama Infuocata nella tua mano.</p>"
+        },
+        "JF8ELBI1o8vmfiZA": {
+          "name": "Lama Infuocata: 6° Livello",
+          "description": "<p>Hai evocato una Lama Infuocata nella tua mano.</p>"
+        },
+        "HrBnniYMsaCB4PQz": {
+          "name": "Lama Infuocata: 8° Livello",
+          "description": "<p>Hai evocato una Lama Infuocata nella tua mano.</p>"
         }
       }
     },
@@ -1961,7 +2065,8 @@
       "materials": "Una piccola sbarra di ferro",
       "effects": {
         "1nGyCW9SEQ2TusXw": {
-          "name": "Blocca Mostri"
+          "name": "Blocca Mostri",
+          "description": "<p>Sei &amp;reference[Paralyzed apply=false] per la durata. Alla fine di ogni tuo turno puoi effettuare un altro tiro salvezza su Saggezza. Se lo superi, l'incantesimo termina su di te.</p>"
         }
       },
       "activities": {
@@ -1976,7 +2081,8 @@
       "materials": "Una piccola sbarra di ferro",
       "effects": {
         "HH5YVjzxkwXpDZS0": {
-          "name": "Blocca Persone"
+          "name": "Blocca Persone",
+          "description": "<p>Sei &amp;reference[Paralyzed apply=false] per la durata. Alla fine di ogni tuo turno puoi effettuare un altro tiro salvezza su Saggezza. Se lo superi, l'incantesimo termina su di te.</p>"
         }
       },
       "activities": {
@@ -2407,6 +2513,20 @@
         "dnd5eactivity000": {
           "name": "Lancia"
         }
+      },
+      "effects": {
+        "s8TC1UrCgjeBdf78": {
+          "description": "<p>Segui la condotta descritta dall'incantatore al meglio delle tue capacità. La condotta suggerita può proseguire per l'intera durata. Se l'attività suggerita può essere completata in meno tempo, l'incantesimo termina quando hai portato a termine ciò che ti è stato chiesto.</p>"
+        },
+        "8zdxyPjy2ubw9zER": {
+          "description": "<p>Segui la condotta descritta dall'incantatore al meglio delle tue capacità. La condotta suggerita può proseguire per l'intera durata. Se l'attività suggerita può essere completata in meno tempo, l'incantesimo termina quando hai portato a termine ciò che ti è stato chiesto.</p>"
+        },
+        "BGqCb71GgI0jO1zt": {
+          "description": "<p>Segui la condotta descritta dall'incantatore al meglio delle tue capacità. La condotta suggerita può proseguire per l'intera durata. Se l'attività suggerita può essere completata in meno tempo, l'incantesimo termina quando hai portato a termine ciò che ti è stato chiesto.</p>"
+        },
+        "kyGswuqopTTebwTU": {
+          "description": "<p>Segui la condotta descritta dall'incantatore al meglio delle tue capacità. La condotta suggerita può proseguire per l'intera durata. Se l'attività suggerita può essere completata in meno tempo, l'incantesimo termina quando hai portato a termine ciò che ti è stato chiesto.</p>"
+        }
       }
     },
     "Maze": {
@@ -2510,6 +2630,17 @@
           "roll": {
             "name": "Tiro per Distruggere Immagine Speculare"
           }
+        }
+      },
+      "effects": {
+        "I5Cgu5m0knHmdXge": {
+          "description": "<p>Nel tuo spazio compare un duplicato illusorio. I duplicati si muovono assieme a te e imitano le tue azioni, cambiando posizione in modo che sia impossibile individuare quale immagine sia reale. Puoi usare la tua azione per congedare i duplicati illusori.</p><p>Ogni volta che una creatura ti bersaglia con un attacco durante la durata dell'incantesimo, tira 1d20 per determinare se l'attacco bersaglia invece uno dei tuoi duplicati.</p><p>La CA di un duplicato è pari a 10 + il tuo modificatore di Destrezza. Se un attacco colpisce un duplicato, esso è distrutto. Un duplicato può essere distrutto soltanto da un attacco che lo colpisce e ignora tutti gli altri danni ed effetti. L'incantesimo termina quando tutti e tre i duplicati sono distrutti.</p><p>Una creatura non è influenzata da questo incantesimo se non può vedere, se si affida a sensi diversi dalla vista, come &amp;reference[blindsight], o se può percepire le illusioni come false, come tramite &amp;reference[truesight].</p>"
+        },
+        "uFd6X0bNcmjRKqu1": {
+          "description": "<p>Nel tuo spazio compare un duplicato illusorio. I duplicati si muovono assieme a te e imitano le tue azioni, cambiando posizione in modo che sia impossibile individuare quale immagine sia reale. Puoi usare la tua azione per congedare i duplicati illusori.</p><p>Ogni volta che una creatura ti bersaglia con un attacco durante la durata dell'incantesimo, tira 1d20 per determinare se l'attacco bersaglia invece uno dei tuoi duplicati.</p><p>La CA di un duplicato è pari a 10 + il tuo modificatore di Destrezza. Se un attacco colpisce un duplicato, esso è distrutto. Un duplicato può essere distrutto soltanto da un attacco che lo colpisce e ignora tutti gli altri danni ed effetti. L'incantesimo termina quando tutti e tre i duplicati sono distrutti.</p><p>Una creatura non è influenzata da questo incantesimo se non può vedere, se si affida a sensi diversi dalla vista, come &amp;reference[blindsight], o se può percepire le illusioni come false, come tramite &amp;reference[truesight].</p>"
+        },
+        "n89eid0r3Ui0XvJb": {
+          "description": "<p>Nel tuo spazio compare un duplicato illusorio. I duplicati si muovono assieme a te e imitano le tue azioni, cambiando posizione in modo che sia impossibile individuare quale immagine sia reale. Puoi usare la tua azione per congedare i duplicati illusori.</p><p>Ogni volta che una creatura ti bersaglia con un attacco durante la durata dell'incantesimo, tira 1d20 per determinare se l'attacco bersaglia invece uno dei tuoi duplicati.</p><p>La CA di un duplicato è pari a 10 + il tuo modificatore di Destrezza. Se un attacco colpisce un duplicato, esso è distrutto. Un duplicato può essere distrutto soltanto da un attacco che lo colpisce e ignora tutti gli altri danni ed effetti. L'incantesimo termina quando tutti e tre i duplicati sono distrutti.</p><p>Una creatura non è influenzata da questo incantesimo se non può vedere, se si affida a sensi diversi dalla vista, come &amp;reference[blindsight], o se può percepire le illusioni come false, come tramite &amp;reference[truesight].</p>"
         }
       }
     },
@@ -2657,6 +2788,23 @@
         "dnd5eactivity000": {
           "name": "Lancia"
         }
+      },
+      "effects": {
+        "emSe7CIQnxueDNgP": {
+          "description": "<p>Sei vincolato a servire l'incantatore per la durata.</p><p>Devi seguire le sue istruzioni al meglio delle tue capacità. Potrebbe ordinarti di accompagnarlo in un'avventura, sorvegliare un luogo o consegnare un messaggio. Obbedisci alla lettera alle sue istruzioni, ma se gli sei ostile potresti cercare di interpretarle in modo da perseguire i tuoi obiettivi.</p><p>Se esegui completamente le istruzioni dell'incantatore prima che l'incantesimo termini, ti rechi da lui per riferirglielo se vi trovate sullo stesso piano di esistenza. Se si trova su un altro piano di esistenza, torni nel luogo in cui ti ha vincolato e rimani lì finché l'incantesimo non termina.</p>"
+        },
+        "8NkyrHOtbVWMguA8": {
+          "description": "<p>Sei vincolato a servire l'incantatore per la durata.</p><p>Devi seguire le sue istruzioni al meglio delle tue capacità. Potrebbe ordinarti di accompagnarlo in un'avventura, sorvegliare un luogo o consegnare un messaggio. Obbedisci alla lettera alle sue istruzioni, ma se gli sei ostile potresti cercare di interpretarle in modo da perseguire i tuoi obiettivi.</p><p>Se esegui completamente le istruzioni dell'incantatore prima che l'incantesimo termini, ti rechi da lui per riferirglielo se vi trovate sullo stesso piano di esistenza. Se si trova su un altro piano di esistenza, torni nel luogo in cui ti ha vincolato e rimani lì finché l'incantesimo non termina.</p>"
+        },
+        "S8lln6FqpREPWcFV": {
+          "description": "<p>Sei vincolato a servire l'incantatore per la durata.</p><p>Devi seguire le sue istruzioni al meglio delle tue capacità. Potrebbe ordinarti di accompagnarlo in un'avventura, sorvegliare un luogo o consegnare un messaggio. Obbedisci alla lettera alle sue istruzioni, ma se gli sei ostile potresti cercare di interpretarle in modo da perseguire i tuoi obiettivi.</p><p>Se esegui completamente le istruzioni dell'incantatore prima che l'incantesimo termini, ti rechi da lui per riferirglielo se vi trovate sullo stesso piano di esistenza. Se si trova su un altro piano di esistenza, torni nel luogo in cui ti ha vincolato e rimani lì finché l'incantesimo non termina.</p>"
+        },
+        "J92s3ByKs6NaOktF": {
+          "description": "<p>Sei vincolato a servire l'incantatore per la durata.</p><p>Devi seguire le sue istruzioni al meglio delle tue capacità. Potrebbe ordinarti di accompagnarlo in un'avventura, sorvegliare un luogo o consegnare un messaggio. Obbedisci alla lettera alle sue istruzioni, ma se gli sei ostile potresti cercare di interpretarle in modo da perseguire i tuoi obiettivi.</p><p>Se esegui completamente le istruzioni dell'incantatore prima che l'incantesimo termini, ti rechi da lui per riferirglielo se vi trovate sullo stesso piano di esistenza. Se si trova su un altro piano di esistenza, torni nel luogo in cui ti ha vincolato e rimani lì finché l'incantesimo non termina.</p>"
+        },
+        "L76gMWDkyMqNzklM": {
+          "description": "<p>Sei vincolato a servire l'incantatore per la durata.</p><p>Devi seguire le sue istruzioni al meglio delle tue capacità. Potrebbe ordinarti di accompagnarlo in un'avventura, sorvegliare un luogo o consegnare un messaggio. Obbedisci alla lettera alle sue istruzioni, ma se gli sei ostile potresti cercare di interpretarle in modo da perseguire i tuoi obiettivi.</p><p>Se esegui completamente le istruzioni dell'incantatore prima che l'incantesimo termini, ti rechi da lui per riferirglielo se vi trovate sullo stesso piano di esistenza. Se si trova su un altro piano di esistenza, torni nel luogo in cui ti ha vincolato e rimani lì finché l'incantesimo non termina.</p>"
+        }
       }
     },
     "Plane Shift": {
@@ -2783,6 +2931,18 @@
         "Hwrf7958jBf5s8rV": {
           "name": "7. Raggio Violetto"
         }
+      },
+      "effects": {
+        "KhVHkGeHijwInogC": {
+          "name": "Tiro Salvezza contro Pietrificazione Fallito"
+        },
+        "fLn8u0YSR14RNskW": {
+          "name": "Tiro Salvezza contro Pietrificazione Superato"
+        },
+        "BXVaxwA9fG3a4YXW": {
+          "name": "Cecità Violetta",
+          "description": "<p>Sei &amp;reference[blinded apply=false]. All'inizio del tuo turno successivo devi effettuare un tiro salvezza su Saggezza. Se lo superi, la cecità termina. Se lo fallisci, vieni trasportato su un altro piano scelto dal DM e non sei più accecato.</p>"
+        }
       }
     },
     "Prismatic Wall": {
@@ -2815,6 +2975,18 @@
         },
         "WTO4S69BzGKFrs8A": {
           "name": "Parete Violetta"
+        }
+      },
+      "effects": {
+        "XnYc2CO3kl73Rxr9": {
+          "name": "Tiro Salvezza contro Pietrificazione Fallito"
+        },
+        "0lcdF9sc0cBgnvBg": {
+          "name": "Tiro Salvezza contro Pietrificazione Superato"
+        },
+        "RyMdtaDljl9zha5P": {
+          "name": "Cecità Violetta",
+          "description": "<p>Sei &amp;reference[blinded apply=false]. All'inizio del tuo turno successivo devi effettuare un tiro salvezza su Saggezza. Se lo superi, la cecità termina. Se lo fallisci, vieni trasportato su un altro piano scelto dal DM e non sei più accecato.</p>"
         }
       }
     },
@@ -2918,6 +3090,12 @@
         "dnd5eactivity000": {
           "name": "Lancia"
         }
+      },
+      "effects": {
+        "tiAHzh61HiuYLoYf": {
+          "name": "Debolezza da Resurrezione",
+          "description": "<p>Tornare dalla morte è una prova estenuante. Subisci una penalità di −4 a tutti i tiri per colpire, i tiri salvezza e le prove di caratteristica. Ogni volta che completi un riposo lungo, la penalità si riduce di 1 finché non scompare.</p>"
+        }
       }
     },
     "Ray of Enfeeblement": {
@@ -3007,6 +3185,12 @@
       "activities": {
         "dnd5eactivity000": {
           "name": "Lancia"
+        }
+      },
+      "effects": {
+        "ydRvh0MNOPLGsycK": {
+          "name": "Debolezza da Resurrezione",
+          "description": "<p>Tornare dalla morte è una prova estenuante. Subisci una penalità di −4 a tutti i tiri per colpire, i tiri salvezza e le prove di caratteristica. Ogni volta che completi un riposo lungo, la penalità si riduce di 1 finché non scompare.</p>"
         }
       }
     },
@@ -3493,6 +3677,11 @@
         "dnd5eactivity000": {
           "name": "Pronuncia Suggestione"
         }
+      },
+      "effects": {
+        "ODGIMpaADKrhr2Ib": {
+          "description": "<p>Segui la condotta descritta dall'incantatore al meglio delle tue capacità. La condotta suggerita può proseguire per l'intera durata. Se l'attività suggerita può essere completata in meno tempo, l'incantesimo termina quando hai portato a termine ciò che ti è stato chiesto.</p>"
+        }
       }
     },
     "Sunbeam": {
@@ -3531,6 +3720,9 @@
         },
         "zeCgJ2WL6LphCbJd": {
           "name": "Stordito"
+        },
+        "Cvg6HrXoZJe9uWQQ": {
+          "name": "Follia"
         }
       },
       "activities": {

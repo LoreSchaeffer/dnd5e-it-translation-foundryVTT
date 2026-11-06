@@ -27,6 +27,17 @@
         "name": "name",
         "chatFlavor": "description.chatFlavor"
       }
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "structured",
+      "cardinality": "many",
+      "container": "array",
+      "key": "_id",
+      "mapping": {
+        "name": "name",
+        "description": "description"
+      }
     }
   },
   "folders": {
@@ -2628,6 +2639,11 @@
         "pE7C9XIq67aoCkGp": {
           "name": "Bevi"
         }
+      },
+      "effects": {
+        "ZPO6fKaUX5z0opim": {
+          "description": "<p>Il tuo punteggio di Forza diventa 23 per la durata. Questo effetto non ha alcun effetto su di te se la tua Forza è già pari o superiore a 23.</p>"
+        }
       }
     },
     "Potion of Gaseous Form": {
@@ -2806,6 +2822,11 @@
       "activities": {
         "0S5O1JqFRIlf9gik": {
           "name": "Bevi"
+        }
+      },
+      "effects": {
+        "qz2SZ5RcpuR5rOO4": {
+          "description": "<p>Il tuo punteggio di Forza diventa 23 per la durata. Questo effetto non ha alcun effetto su di te se la tua Forza è già pari o superiore a 23.</p>"
         }
       }
     },
