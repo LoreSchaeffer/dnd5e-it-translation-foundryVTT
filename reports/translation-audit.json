@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1681,
+      "translated": 1683,
       "missing": 69,
-      "partial": 641,
+      "partial": 639,
       "review": 111
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 1128,
+      "invariantFailures": 1124,
       "englishResiduals": 113,
       "imperialResiduals": 2
     },
-    "blockingIssues": 7326
+    "blockingIssues": 7322
   },
   "packs": [
     {
@@ -5317,9 +5317,9 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 793,
+          "translated": 795,
           "missing": 0,
-          "partial": 92,
+          "partial": 90,
           "review": 41
         },
         "folders": {
@@ -5333,32 +5333,12 @@
           "total": 2227,
           "translated": 2227,
           "missing": 0,
-          "invariantFailures": 181,
+          "invariantFailures": 177,
           "englishResiduals": 41,
           "imperialResiduals": 2
         }
       },
       "issues": [
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "jvKmgJYL33E8gev5",
-          "fieldPath": "system.description.value",
-          "name": "Ioun Stone of Reserve",
-          "sourcePath": "items/equipment/ioun-stone-of-reserve.yml"
-        },
-        {
-          "code": "foundry-formulas",
-          "severity": "blocking",
-          "message": "Foundry formulas differ from source",
-          "pack": "items",
-          "id": "jvKmgJYL33E8gev5",
-          "fieldPath": "system.description.value",
-          "name": "Ioun Stone of Reserve",
-          "sourcePath": "items/equipment/ioun-stone-of-reserve.yml"
-        },
         {
           "code": "html-tag-sequence",
           "severity": "blocking",
@@ -5418,26 +5398,6 @@
           "fieldPath": "system.description.value",
           "name": "Orb of Dragonkind",
           "sourcePath": "items/equipment/orb-of-dragonkind.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "mr96Z8YTI490ExhP",
-          "fieldPath": "system.description.value",
-          "name": "Robe of the Archmagi",
-          "sourcePath": "items/equipment/robe-of-the-archmagi.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "mr96Z8YTI490ExhP",
-          "fieldPath": "system.description.value",
-          "name": "Robe of the Archmagi",
-          "sourcePath": "items/equipment/robe-of-the-archmagi.yml"
         },
         {
           "code": "html-tag-sequence",

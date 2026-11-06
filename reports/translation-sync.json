@@ -2039,6 +2039,14 @@
         },
         {
           "pack": "items",
+          "id": "jvKmgJYL33E8gev5",
+          "name": "Ioun Stone of Reserve",
+          "sourcePath": "items/equipment/ioun-stone-of-reserve.yml",
+          "lookupKey": "Ioun Stone of Reserve",
+          "matchedLookupKey": "Ioun Stone of Reserve"
+        },
+        {
+          "pack": "items",
           "id": "0G5LSgbb5NTV4XC7",
           "name": "Ioun Stone of Strength",
           "sourcePath": "items/equipment/ioun-stone-of-strength.yml",
@@ -2148,6 +2156,14 @@
           "sourcePath": "items/equipment/robe-of-stars.yml",
           "lookupKey": "Robe of Stars",
           "matchedLookupKey": "Robe of Stars"
+        },
+        {
+          "pack": "items",
+          "id": "mr96Z8YTI490ExhP",
+          "name": "Robe of the Archmagi",
+          "sourcePath": "items/equipment/robe-of-the-archmagi.yml",
+          "lookupKey": "Robe of the Archmagi",
+          "matchedLookupKey": "Robe of the Archmagi"
         },
         {
           "pack": "items",
@@ -6658,33 +6674,6 @@
       "manualReview": [
         {
           "pack": "items",
-          "id": "jvKmgJYL33E8gev5",
-          "name": "Ioun Stone of Reserve",
-          "sourcePath": "items/equipment/ioun-stone-of-reserve.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Ioun Stone of Reserve",
-          "matchedLookupKey": "Ioun Stone of Reserve",
-          "diagnostics": [
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "jvKmgJYL33E8gev5",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-formulas",
-              "severity": "blocking",
-              "message": "Foundry formulas differ from source",
-              "pack": "items",
-              "id": "jvKmgJYL33E8gev5",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
           "id": "wqVSRfkcTjuhvDyx",
           "name": "Necklace of Prayer Beads",
           "sourcePath": "items/equipment/necklace-of-prayer-beads.yml",
@@ -6749,33 +6738,6 @@
               "message": "Foundry reference targets or order differ from source",
               "pack": "items",
               "id": "1RwJWOAeyoideLKe",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "mr96Z8YTI490ExhP",
-          "name": "Robe of the Archmagi",
-          "sourcePath": "items/equipment/robe-of-the-archmagi.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Robe of the Archmagi",
-          "matchedLookupKey": "Robe of the Archmagi",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "mr96Z8YTI490ExhP",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "mr96Z8YTI490ExhP",
               "fieldPath": "system.description.value"
             }
           ]
