@@ -567,6 +567,14 @@
         },
         {
           "pack": "spells",
+          "id": "FSMy6VAjDnXY9vWz",
+          "name": "Gust of Wind",
+          "sourcePath": "spells/2nd-level/gust-of-wind.yml",
+          "lookupKey": "Gust of Wind",
+          "matchedLookupKey": "Gust of Wind"
+        },
+        {
+          "pack": "spells",
           "id": "2yHXEcrRbadZDr5M",
           "name": "Heat Metal",
           "sourcePath": "spells/2nd-level/heat-metal.yml",
@@ -748,6 +756,14 @@
           "sourcePath": "spells/2nd-level/spike-growth.yml",
           "lookupKey": "Spike Growth",
           "matchedLookupKey": "Spike Growth"
+        },
+        {
+          "pack": "spells",
+          "id": "JbxsYXxSOTZbf9I0",
+          "name": "Spiritual Weapon",
+          "sourcePath": "spells/2nd-level/spiritual-weapon.yml",
+          "lookupKey": "Spiritual Weapon",
+          "matchedLookupKey": "Spiritual Weapon"
         },
         {
           "pack": "spells",
@@ -948,6 +964,14 @@
           "sourcePath": "spells/3rd-level/nondetection.yml",
           "lookupKey": "Nondetection",
           "matchedLookupKey": "Nondetection"
+        },
+        {
+          "pack": "spells",
+          "id": "wpx42mtoZ5BmXRs1",
+          "name": "Phantom Steed",
+          "sourcePath": "spells/3rd-level/phantom-steed.yml",
+          "lookupKey": "Phantom Steed",
+          "matchedLookupKey": "Phantom Steed"
         },
         {
           "pack": "spells",
@@ -2275,49 +2299,6 @@
         },
         {
           "pack": "spells",
-          "id": "FSMy6VAjDnXY9vWz",
-          "name": "Gust of Wind",
-          "sourcePath": "spells/2nd-level/gust-of-wind.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Gust of Wind",
-          "matchedLookupKey": "Gust of Wind",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "FSMy6VAjDnXY9vWz",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "FSMy6VAjDnXY9vWz",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "spells",
-              "id": "FSMy6VAjDnXY9vWz",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-formulas",
-              "severity": "blocking",
-              "message": "Foundry formulas differ from source",
-              "pack": "spells",
-              "id": "FSMy6VAjDnXY9vWz",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
           "id": "X4c8xCkmF8U9HUMz",
           "name": "Mirror Image",
           "sourcePath": "spells/2nd-level/mirror-image.yml",
@@ -2347,41 +2328,6 @@
               "message": "Foundry formulas differ from source",
               "pack": "spells",
               "id": "X4c8xCkmF8U9HUMz",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "JbxsYXxSOTZbf9I0",
-          "name": "Spiritual Weapon",
-          "sourcePath": "spells/2nd-level/spiritual-weapon.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Spiritual Weapon",
-          "matchedLookupKey": "Spiritual Weapon",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "JbxsYXxSOTZbf9I0",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "JbxsYXxSOTZbf9I0",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-formulas",
-              "severity": "blocking",
-              "message": "Foundry formulas differ from source",
-              "pack": "spells",
-              "id": "JbxsYXxSOTZbf9I0",
               "fieldPath": "system.description.value"
             }
           ]
@@ -2471,41 +2417,6 @@
               "message": "HTML attributes differ from source",
               "pack": "spells",
               "id": "y8A4HfTwd93ypdEz",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "wpx42mtoZ5BmXRs1",
-          "name": "Phantom Steed",
-          "sourcePath": "spells/3rd-level/phantom-steed.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Phantom Steed",
-          "matchedLookupKey": "Phantom Steed",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "wpx42mtoZ5BmXRs1",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "wpx42mtoZ5BmXRs1",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "spells",
-              "id": "wpx42mtoZ5BmXRs1",
               "fieldPath": "system.description.value"
             }
           ]

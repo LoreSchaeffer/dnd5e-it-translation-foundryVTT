@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1207,
+      "translated": 1210,
       "missing": 69,
-      "partial": 1115,
+      "partial": 1112,
       "review": 203
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 2125,
+      "invariantFailures": 2115,
       "englishResiduals": 118,
       "imperialResiduals": 2
     },
-    "blockingIssues": 8415
+    "blockingIssues": 8405
   },
   "packs": [
     {
@@ -76741,9 +76741,9 @@
       "summary": {
         "documents": {
           "total": 320,
-          "translated": 270,
+          "translated": 273,
           "missing": 0,
-          "partial": 50,
+          "partial": 47,
           "review": 0
         },
         "folders": {
@@ -76757,7 +76757,7 @@
           "total": 2007,
           "translated": 2007,
           "missing": 0,
-          "invariantFailures": 137,
+          "invariantFailures": 127,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
@@ -76858,46 +76858,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "spells",
-          "id": "FSMy6VAjDnXY9vWz",
-          "fieldPath": "system.description.value",
-          "name": "Gust of Wind",
-          "sourcePath": "spells/2nd-level/gust-of-wind.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "FSMy6VAjDnXY9vWz",
-          "fieldPath": "system.description.value",
-          "name": "Gust of Wind",
-          "sourcePath": "spells/2nd-level/gust-of-wind.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "spells",
-          "id": "FSMy6VAjDnXY9vWz",
-          "fieldPath": "system.description.value",
-          "name": "Gust of Wind",
-          "sourcePath": "spells/2nd-level/gust-of-wind.yml"
-        },
-        {
-          "code": "foundry-formulas",
-          "severity": "blocking",
-          "message": "Foundry formulas differ from source",
-          "pack": "spells",
-          "id": "FSMy6VAjDnXY9vWz",
-          "fieldPath": "system.description.value",
-          "name": "Gust of Wind",
-          "sourcePath": "spells/2nd-level/gust-of-wind.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
           "id": "X4c8xCkmF8U9HUMz",
           "fieldPath": "system.description.value",
           "name": "Mirror Image",
@@ -76922,36 +76882,6 @@
           "fieldPath": "system.description.value",
           "name": "Mirror Image",
           "sourcePath": "spells/2nd-level/mirror-image.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "JbxsYXxSOTZbf9I0",
-          "fieldPath": "system.description.value",
-          "name": "Spiritual Weapon",
-          "sourcePath": "spells/2nd-level/spiritual-weapon.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "JbxsYXxSOTZbf9I0",
-          "fieldPath": "system.description.value",
-          "name": "Spiritual Weapon",
-          "sourcePath": "spells/2nd-level/spiritual-weapon.yml"
-        },
-        {
-          "code": "foundry-formulas",
-          "severity": "blocking",
-          "message": "Foundry formulas differ from source",
-          "pack": "spells",
-          "id": "JbxsYXxSOTZbf9I0",
-          "fieldPath": "system.description.value",
-          "name": "Spiritual Weapon",
-          "sourcePath": "spells/2nd-level/spiritual-weapon.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -77022,36 +76952,6 @@
           "fieldPath": "system.description.value",
           "name": "Magic Circle",
           "sourcePath": "spells/3rd-level/magic-circle.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "wpx42mtoZ5BmXRs1",
-          "fieldPath": "system.description.value",
-          "name": "Phantom Steed",
-          "sourcePath": "spells/3rd-level/phantom-steed.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "wpx42mtoZ5BmXRs1",
-          "fieldPath": "system.description.value",
-          "name": "Phantom Steed",
-          "sourcePath": "spells/3rd-level/phantom-steed.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "spells",
-          "id": "wpx42mtoZ5BmXRs1",
-          "fieldPath": "system.description.value",
-          "name": "Phantom Steed",
-          "sourcePath": "spells/3rd-level/phantom-steed.yml"
         },
         {
           "code": "html-tag-sequence",
