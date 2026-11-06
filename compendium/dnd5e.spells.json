@@ -335,7 +335,10 @@
       "materials": "una spada di platino in miniatura dall'impugnatura e dal pomolo di rame e di zinco, del valore di 250 mo",
       "activities": {
         "pK9UiWSr9drFEaEE": {
-          "name": "Muovi Spada e Attacca"
+          "name": "Muovi Spada e Attacca",
+          "description": {
+            "value": "<p>Finché l'incantesimo non termina, in ogni tuo turno puoi usare un'azione bonus per muovere la spada fino a 6 metri verso un punto che puoi vedere e ripetere questo attacco contro lo stesso bersaglio o uno diverso.</p>"
+          }
         }
       }
     },
@@ -534,7 +537,10 @@
       "description": "<p>L'incantatore crea un muro verticale di lame affilate turbinanti, fatte di energia magica. li muro appare entro gittata e permane per la durata dell'incantesimo. L'incantatore può creare un muro in linea retta lungo fino a 30 metri, alto 6 metri e spesso 1,5 metri, oppure un muro circolare del diametro massimo di 18 metri, alto 6 metri e spesso 1,5 metri. fl muro fornisce tre quarti di copertura alle creature dietro di esso e il suo spazio è considerato terreno difficile.</p><p>Quando una creatura entra nell'area del muro per la Prima volta in un turno o vi inizia il proprio turno, essa deve superare, un tiro salvezza su Destrezza. Se lo fallisce, subisce 6d10 danni taglienti, mentre se lo supera, subisce soltanto la metà di quei danni.</p>",
       "activities": {
         "dnd5eactivity000": {
-          "name": "Tiro Salvezza al Contatto con la Parete"
+          "name": "Tiro Salvezza al Contatto con la Parete",
+          "description": {
+            "value": "<p>Quando una creatura entra nell'area del muro per la prima volta in un turno o vi inizia il proprio turno, deve effettuare un tiro salvezza su Destrezza. Se lo fallisce, subisce 6d10 danni taglienti. Se lo supera, subisce la metà di quei danni.</p>"
+          }
         },
         "mhpt8uRwMGXNYABF": {
           "name": "Evoca Barriera di Lame (Parete)"
@@ -943,7 +949,8 @@
       },
       "effects": {
         "tnL6RVwXew6ete0r": {
-          "name": "Celestiale Evocato"
+          "name": "Celestiale Evocato",
+          "description": "<p>Sei stato evocato dall'incantesimo @UUID[Compendium.dnd5e.spells.Item.XT7nzJmVGgv73uaf]{Evoca Celestiale}.</p>"
         }
       }
     },
@@ -1104,7 +1111,8 @@
       },
       "effects": {
         "zkzP5EH8i1kRZWMq": {
-          "name": "Contingenza Attiva"
+          "name": "Contingenza Attiva",
+          "description": "<p>Hai una @UUID[Compendium.dnd5e.spells.Item.4smlOvpF5AQHcyg1]{Contingenza} attiva. L'incantesimo contingente ha effetto immediatamente dopo che la circostanza si verifica per la prima volta, che tu lo voglia o meno, dopodiché l'incantesimo termina.</p><p>L'incantesimo contingente ha effetto soltanto su di te, anche se normalmente può bersagliare altri. Puoi usare un solo incantesimo Contingenza alla volta. Se lanci di nuovo questo incantesimo, l'effetto di un altro incantesimo Contingenza su di te termina. Inoltre, Contingenza termina su di te se la sua componente materiale non si trova più sulla tua persona.</p>"
         }
       }
     },
@@ -1820,7 +1828,8 @@
       "description": "<p>L'incantatore mette i piedi nelle regioni di confine del Piano Etereo, nell'area dove si sovrappone con il suo piano attuale. L'incantatore rimane nei Confini Eterei per la durata oppure finchè effettua un'azione per dissolvere l'incantesimo. Durante questo periodo, si può spostare in qualsiasi direzione. Se l'incantatore si sposta verso l'alto o il basso, ogni metro di movimento costa un metro extra. L'incantatore è in grado di vedere e sentire il piano dal quale proviene, ma ogni cosa appare grigia e non può vedere oltre 18 metri di distanza.</p><p>Mentre si trova nel Piano Etereo, l'incantatore può influenzare ed essere influenzato solo da&nbsp;creature presenti in quel piano. Le creature che non si trovano nel Piano Etereo non possono percepire o interagire con l'incantatore, a meno che un'abilità speciale o incantesimo garantisca loro la capacità di farlo.</p><p>L'incantatore ignora tutti gli oggetti ed effetti che non si trovano nel Piano Etereo, permettendogli di muoversi attraverso oggetti che percepisce nel piano dal quale proviene.</p><p>Quando l'incantesimo termina, l'incantatore torna immediatamente al piano dal quale è partito nel punto in cui si trova attualmente. Se l'incantatore occupa lo stesso spazio di un oggetto solido o una creatura quando ciò accade, viene subito spinto verso il più vicino spazio libero che possa occupare e subisce danni&nbsp;da forza pari al doppio dei metri di cui viene spostato.</p><p>Questo incantesimo non ha effetto se viene lanciato mentre l'incantatore si trova nel Piano Etereo&nbsp;o in un piano che non sia confinante con esso, come uno dei Piani Esterni. &nbsp;</p><p><strong>Ai Livelli Superiori.</strong>Se questo incantesimo viene lanciato utilizzando uno slot incantesimo di 8° livello o superiore, possono essere scelte&nbsp;come bersaglio fino ad altre tre&nbsp;creature consenzienti (incantatore incluso) per ogni livello di slot incantesimo oltre il 7°. Le creature devono trovarsi entro 3 metri dall'incantatore quando l'incantesimo viene lanciato.</p>",
       "effects": {
         "rrA8RYmv4eAuVbg8": {
-          "name": "Forma Eterea"
+          "name": "Forma Eterea",
+          "description": "<p>Entri nelle regioni di confine del Piano Etereo, nell'area in cui si sovrappone al tuo piano attuale. Rimani nell'Etereo di Confine per la durata o finché non usi la tua azione per congedare l'incantesimo. Durante questo periodo puoi muoverti in qualsiasi direzione. Se ti muovi verso l'alto o verso il basso, ogni metro di movimento costa un metro aggiuntivo. Puoi vedere e udire il piano da cui provieni, ma ogni cosa appare grigia e non puoi vedere nulla che si trovi a più di 18 metri da te.</p><p>Finché ti trovi sul Piano Etereo, puoi influenzare ed essere influenzato soltanto dalle altre creature su quel piano. Le creature che non si trovano sul Piano Etereo non possono percepirti né interagire con te, a meno che una capacità speciale o la magia non abbia conferito loro la capacità di farlo.</p><p>Ignori tutti gli oggetti e gli effetti che non si trovano sul Piano Etereo, cosa che ti consente di attraversare gli oggetti che percepisci sul piano da cui provieni.</p><p>Quando l'incantesimo termina, torni immediatamente sul piano da cui provieni nel punto che occupi attualmente. Se in quel momento occupi lo stesso punto di un oggetto solido o di una creatura, vieni immediatamente spinto nello spazio libero più vicino che puoi occupare e subisci 2 danni da forza per ogni 0,3 metri di cui vieni spostato.</p>"
         }
       },
       "activities": {
@@ -2252,7 +2261,8 @@
       },
       "effects": {
         "drgadffAtuXTSxYb": {
-          "name": "Intrappolato nella Gabbia di Forza"
+          "name": "Intrappolato nella Gabbia di Forza",
+          "description": "<p>Finché ti trovi all'interno della gabbia, non puoi lasciarla con mezzi non magici. Se tenti di usare il teletrasporto o il viaggio interplanare per lasciare la gabbia, devi prima effettuare un tiro salvezza su Carisma. Se lo superi, puoi usare quella magia per uscire dalla gabbia. Se lo fallisci, non puoi uscire dalla gabbia e sprechi l'uso dell'incantesimo o dell'effetto. La gabbia si estende inoltre nel Piano Etereo, bloccando il viaggio etereo.</p>"
         }
       }
     },
@@ -2293,7 +2303,8 @@
       },
       "effects": {
         "N2YjmVRCv4gVvuk8": {
-          "name": "Congelato nel Ghiaccio"
+          "name": "Congelato nel Ghiaccio",
+          "description": "<p>Sei stato congelato in uno specchio d'acqua e sei intrappolato al suo interno. Puoi effettuare una prova [[/check str]] contro la CD del tiro salvezza dell'incantesimo dell'incantatore per liberarti.</p>"
         }
       }
     },
@@ -2639,7 +2650,8 @@
       "materials": "una scodella tempestata di gemme del valore di almeno 1.000 mo, che l'incantatore consuma",
       "effects": {
         "9nCmXRaDKtOjPZVh": {
-          "name": "Banchetto degli Eroi"
+          "name": "Banchetto degli Eroi",
+          "description": "<p>Hai partecipato a un banchetto degli eroi. Sei immune al veleno e all'essere &amp;reference[Frightened apply=false] e disponi di vantaggio a tutti i tiri salvezza su Saggezza. Il tuo massimo dei punti ferita aumenta inoltre di 2d10. Questi benefici durano 24 ore.</p>"
         }
       },
       "activities": {
@@ -2884,7 +2896,8 @@
       },
       "effects": {
         "l9wtHPpBbSo8cI95": {
-          "name": "Marchio di Evocazioni Istantanee"
+          "name": "Marchio di Evocazioni Istantanee",
+          "description": "<p><strong>Evocazioni Istantanee.</strong> Questo oggetto è stato contrassegnato dall'incantesimo @UUID[Compendium.dnd5e.spells.Item.SgrEKiC6dAtvy6Pz]{Evocazioni Istantanee} e può essere evocato nelle mani dell'incantatore a prescindere dalla distanza fisica o planare quando viene pronunciato il suo nome e lo zaffiro corrispondente viene frantumato, terminando l'incantesimo.</p><p>Se un'altra creatura impugna o trasporta l'oggetto, frantumare lo zaffiro non trasporta l'oggetto dall'incantatore, ma questi apprende invece chi è la creatura che lo possiede e, approssimativamente, dove si trova in quel momento.</p><p>Un incantesimo @UUID[Compendium.dnd5e.spells.Item.15Fa6q1nH27XfbR8]{Dissolvi Magie} o un effetto simile applicato con successo allo zaffiro termina l'effetto di questo incantesimo.</p>"
         }
       }
     },
@@ -2904,7 +2917,8 @@
       "description": "<p>L'incantatore sceglie una creatura entro gittata e che egli sia in grado di vedere. La creatura inizia a danzare comicamente sul posto, agitando le braccia, battendo i piedi a terra e facendo capriole per la durata dell'incantesimo. Le creature che non possono essere affascinate sono immuni a questo incantesimo.</p><p>Una creatura danzante deve usare tutto il suo movimento per danzare senza uscire dal suo spazio e subisce svantaggio ai tiri salvezza su Destrezza e ai tiri per colpire. Finché il bersaglio è influenzato da questo incantesimo, le altre creature dispongono di vantaggio ai tiri per colpire contro di esso. &nbsp; Con un'azione, una creatura danzante può effettuare un tiro salvezza su Saggezza per riprendere il controllo di sé stessa. Se lo supera, l'incantesimo termina.</p>",
       "effects": {
         "xkNK7kGzkmyftFlx": {
-          "name": "Danza Irresistibile"
+          "name": "Danza Irresistibile",
+          "description": "<p>Inizi una danza comica sul posto, trascinando i piedi, battendoli e saltellando per la durata.</p><p>Devi usare tutto il tuo movimento per danzare senza lasciare il tuo spazio e disponi di svantaggio ai tiri salvezza su Destrezza e ai tiri per colpire. Finché sei influenzato da questo incantesimo, le altre creature dispongono di vantaggio ai tiri per colpire contro di te.</p><p>Con un'azione puoi effettuare un tiro salvezza su Saggezza per riprendere il controllo di te stesso. Se lo superi, l'incantesimo termina.</p>"
         }
       },
       "activities": {
@@ -3417,7 +3431,8 @@
       },
       "effects": {
         "rHGMR5r82WMvwTnq": {
-          "name": "Modifica della Memoria in Corso"
+          "name": "Modifica della Memoria in Corso",
+          "description": "<p>Sei &amp;reference[charmed apply=false]. Finché sei affascinato, sei &amp;reference[incapacitated apply=false] e inconsapevole di ciò che ti circonda, sebbene tu possa ancora udire l'incantatore. Se subisci danni o sei bersagliato da un altro incantesimo, questo incantesimo termina e nessuno dei tuoi ricordi viene modificato.</p>"
         }
       }
     },
@@ -3597,7 +3612,10 @@
           "name": "Lancia: Viaggio Planare"
         },
         "BiYdn4VHVCaWsJmQ": {
-          "name": "Lancia: Attacco di Esilio"
+          "name": "Lancia: Attacco di Esilio",
+          "description": {
+            "value": "<p>Puoi usare questo incantesimo per esiliare una creatura non consenziente su un altro piano. Scegli una creatura entro la tua portata ed effettua un attacco con incantesimo in mischia contro di essa. Se colpisci, la creatura deve effettuare un tiro salvezza su Carisma. Se lo fallisce, viene trasportata in un punto casuale del piano di esistenza specificato da te. Una creatura trasportata in questo modo deve trovare autonomamente il modo di tornare sul tuo attuale piano di esistenza.</p>"
+          }
         },
         "C5T8DFHfK0iVDfXN": {
           "name": "Tiro Salvezza contro Esilio"
@@ -4088,7 +4106,10 @@
           "name": "Lancia"
         },
         "dnd5eactivity000": {
-          "name": "Tiro Salvezza per Afferrare un Oggetto Fisso"
+          "name": "Tiro Salvezza per Afferrare un Oggetto Fisso",
+          "description": {
+            "value": "<p>Una creatura può effettuare un tiro salvezza su Destrezza per aggrapparsi a un oggetto fisso entro la sua portata, evitando così la caduta.</p>"
+          }
         }
       }
     },
@@ -4245,7 +4266,8 @@
       },
       "effects": {
         "UT3MlW6CWVpV2BHK": {
-          "name": "Travestimento di Sembrare"
+          "name": "Travestimento di Sembrare",
+          "description": "<p>Sei stato camuffato da un'illusione.</p><p>L'incantesimo camuffa il tuo aspetto fisico, nonché abiti, armatura, armi ed equipaggiamento. Puoi apparire più basso o più alto di 0,3 metri e sembrare magro, grasso o una via di mezzo. Il tuo tipo di corpo non può cambiare, quindi devi assumere una forma con la stessa disposizione basilare degli arti. Per il resto, l'estensione dell'Illusione è a discrezione dell'incantatore. L'incantesimo permane per la durata, a meno che l'incantatore non usi la propria azione per congedarlo prima.</p><p>I cambiamenti prodotti da questo incantesimo non reggono a un'ispezione fisica. Per esempio, se l'incantesimo aggiunge un cappello al tuo abbigliamento, gli oggetti attraversano il cappello e chiunque lo tocchi non sente nulla oppure sente la tua testa e i tuoi capelli. Se questo incantesimo ti fa apparire più magro di quanto sei, la mano di chi tenta di toccarti urta contro di te mentre sembra ancora sospesa a mezz'aria.</p><p>Una creatura può usare la propria azione per ispezionarti ed effettuare una prova [[/check int inv]] contro la CD del tiro salvezza dell'incantesimo dell'incantatore. Se la supera, si accorge che sei camuffato.</p>"
         }
       }
     },
@@ -4397,7 +4419,8 @@
       "materials": "neve o ghiaccio sufficienti a effettuare una copia a grandezza naturale della creatura da duplicare; una ciocca di capelli, un'unghia tagliata o un altro pezzo del corpo della creatura da collocare in mezzo al ghiaccio o alla neve, polvere di rubino del valore di 1.500 mo da spruzzare sul duplicato, che l'incantesimo consuma",
       "effects": {
         "9gAmWWC5uTiUuxAI": {
-          "name": "Simulacro"
+          "name": "Simulacro",
+          "description": "<p>Sei un simulacro con un massimo dei punti ferita pari alla metà di quello della creatura di cui sei stato creato come duplicato. Per il resto, usi tutte le statistiche di quella creatura.</p><p>Non possiedi la capacità di apprendere o diventare più potente, quindi non aumenti mai il tuo livello o le tue altre capacità, né puoi recuperare gli slot incantesimo spesi.</p><p>Se vieni danneggiato, puoi essere riparato in un laboratorio alchemico usando erbe e minerali rari del valore di 100 mo per ogni punto ferita recuperato. Permani finché non scendi a 0 punti ferita, dopodiché torni a essere neve e ti sciogli istantaneamente.</p><p>Se l'incantatore lancia di nuovo questo incantesimo, vieni distrutto.</p>"
         }
       },
       "activities": {
@@ -4802,7 +4825,8 @@
       },
       "effects": {
         "wv2ZdOUnHIEoBTOD": {
-          "name": "Legame Telepatico"
+          "name": "Legame Telepatico",
+          "description": "<p>L'incantatore ha stabilito un legame telepatico con te, collegandoti psichicamente a tutti gli altri per la durata.</p><p>Finché l'incantesimo non termina, potete comunicare telepaticamente attraverso il legame, che abbiate o meno un linguaggio in comune. La comunicazione è possibile a qualsiasi distanza, ma non può estendersi ad altri piani di esistenza.</p>"
         }
       }
     },
@@ -4940,7 +4964,8 @@
       "materials": "un unguento per gli occhi del costo di 25 mo, ricavato da polvere di funghi, zolfo e grasso, che l'incantesimo consuma",
       "effects": {
         "EurClWVSLFaZFKO8": {
-          "name": "Visione del Vero"
+          "name": "Visione del Vero",
+          "description": "<p>Possiedi la capacità di vedere le cose come sono realmente. Per la durata possiedi &amp;reference[truesight], noti le porte segrete nascoste dalla magia e puoi vedere nel Piano Etereo, il tutto entro una gittata di 36 metri.</p>"
         }
       },
       "activities": {
@@ -5043,7 +5068,10 @@
           "name": "Evoca Muro di Ghiaccio"
         },
         "dnd5eactivity200": {
-          "name": "Danni da Aria Gelida"
+          "name": "Danni da Aria Gelida",
+          "description": {
+            "value": "<p>Una creatura che attraversa la cortina d'aria gelida per la prima volta in un turno deve effettuare un tiro salvezza su Costituzione. Se lo fallisce, subisce 5d6 danni da freddo, o la metà di quei danni se lo supera.</p>"
+          }
         },
         "QaMcKZp0TzrGWLZ1": {
           "name": "Evoca Cupola di Ghiaccio"
@@ -5069,7 +5097,10 @@
       "materials": "una manciata di spine",
       "activities": {
         "8YDZAxCbAqr4etpJ": {
-          "name": "Danni da Contatto con la Parete"
+          "name": "Danni da Contatto con la Parete",
+          "description": {
+            "value": "<p>La prima volta che una creatura entra nel muro in un turno o vi termina il proprio turno, deve effettuare un tiro salvezza su Destrezza. Se lo fallisce, subisce 7d8 danni taglienti, o la metà di quei danni se lo supera.</p>"
+          }
         },
         "dnd5eactivity000": {
           "name": "Evoca Muro di Spine"
@@ -5180,7 +5211,8 @@
       },
       "effects": {
         "Ci7AbltSNoXhSBWy": {
-          "name": "Camminare nel Vento"
+          "name": "Camminare nel Vento",
+          "description": "<p>Assumi una forma gassosa per la durata, apparendo come volute di nube. Finché sei in questa forma di nube, possiedi una velocità di volare di 90 metri e resistenza ai danni delle armi non magiche. Le uniche azioni che puoi effettuare in questa forma sono l'azione &amp;reference[Dash] o il ritorno alla tua forma normale. Ritornare alla forma normale richiede 1 minuto, durante il quale sei &amp;reference[Incapacitated apply=false] e non puoi muoverti. Finché l'incantesimo non termina, puoi tornare alla forma di nube, cosa che richiede anch'essa una trasformazione di 1 minuto.</p><p>Se sei in forma di nube e in volo quando l'effetto termina, scendi di 18 metri per round per 1 minuto finché non atterri, cosa che fai senza pericolo. Se non puoi atterrare dopo 1 minuto, cadi per la distanza rimanente.</p>"
         }
       }
     },

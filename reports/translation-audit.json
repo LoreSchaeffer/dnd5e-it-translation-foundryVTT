@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1063,
+      "translated": 1071,
       "missing": 69,
-      "partial": 1259,
+      "partial": 1251,
       "review": 213
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 9480,
-      "missing": 6180,
+      "translated": 9500,
+      "missing": 6160,
       "invariantFailures": 2394,
       "englishResiduals": 135,
       "imperialResiduals": 4
     },
-    "blockingIssues": 8737
+    "blockingIssues": 8717
   },
   "packs": [
     {
@@ -76741,9 +76741,9 @@
       "summary": {
         "documents": {
           "total": 320,
-          "translated": 126,
+          "translated": 134,
           "missing": 0,
-          "partial": 194,
+          "partial": 186,
           "review": 10
         },
         "folders": {
@@ -76755,8 +76755,8 @@
         },
         "fields": {
           "total": 2007,
-          "translated": 1973,
-          "missing": 34,
+          "translated": 1993,
+          "missing": 14,
           "invariantFailures": 406,
           "englishResiduals": 17,
           "imperialResiduals": 2
@@ -79165,15 +79165,6 @@
           "sourcePath": "spells/5th-level/modify-memory.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "r3243JU4AyQJyfX4",
-          "name": "Modify Memory",
-          "fieldPath": "effects[rHGMR5r82WMvwTnq].description",
-          "sourcePath": "spells/5th-level/modify-memory.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -79325,15 +79316,6 @@
           "sourcePath": "spells/5th-level/seeming.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "mbFw57uyfLkyiw5k",
-          "name": "Seeming",
-          "fieldPath": "effects[UT3MlW6CWVpV2BHK].description",
-          "sourcePath": "spells/5th-level/seeming.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -79371,15 +79353,6 @@
           "id": "uAwtVZkiSTyP6ORB",
           "fieldPath": "system.description.value",
           "name": "Telepathic Bond",
-          "sourcePath": "spells/5th-level/telepathic-bond.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "uAwtVZkiSTyP6ORB",
-          "name": "Telepathic Bond",
-          "fieldPath": "effects[wv2ZdOUnHIEoBTOD].description",
           "sourcePath": "spells/5th-level/telepathic-bond.yml"
         },
         {
@@ -79453,15 +79426,6 @@
           "sourcePath": "spells/5th-level/wall-of-stone.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "dLJhxDfeyOsc3zsY",
-          "name": "Blade Barrier",
-          "fieldPath": "system.activities.dnd5eactivity000.description.value",
-          "sourcePath": "spells/6th-level/blade-barrier.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -79489,15 +79453,6 @@
           "id": "4smlOvpF5AQHcyg1",
           "fieldPath": "system.description.value",
           "name": "Contingency",
-          "sourcePath": "spells/6th-level/contingency.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "4smlOvpF5AQHcyg1",
-          "name": "Contingency",
-          "fieldPath": "effects[zkzP5EH8i1kRZWMq].description",
           "sourcePath": "spells/6th-level/contingency.yml"
         },
         {
@@ -79601,15 +79556,6 @@
           "sourcePath": "spells/6th-level/eyebite.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "MImfWCzEPRMYD3Xp",
-          "name": "Freezing Sphere",
-          "fieldPath": "effects[N2YjmVRCv4gVvuk8].description",
-          "sourcePath": "spells/6th-level/freezing-sphere.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -79640,15 +79586,6 @@
           "sourcePath": "spells/6th-level/guards-and-wards.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "mgFqi0ev8f7Ut19y",
-          "name": "Heroes' Feast",
-          "fieldPath": "effects[9nCmXRaDKtOjPZVh].description",
-          "sourcePath": "spells/6th-level/heroes-feast.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -79677,24 +79614,6 @@
           "fieldPath": "system.description.value",
           "name": "Instant Summons",
           "sourcePath": "spells/6th-level/instant-summons.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "SgrEKiC6dAtvy6Pz",
-          "name": "Instant Summons",
-          "fieldPath": "effects[l9wtHPpBbSo8cI95].description",
-          "sourcePath": "spells/6th-level/instant-summons.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "TfRzwEgBHHkCc6Ql",
-          "name": "Irresistible Dance",
-          "fieldPath": "effects[xkNK7kGzkmyftFlx].description",
-          "sourcePath": "spells/6th-level/irresistible-dance.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -79827,15 +79746,6 @@
           "sourcePath": "spells/6th-level/true-seeing.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "XzkJpE6XpZfKjODD",
-          "name": "True Seeing",
-          "fieldPath": "effects[EurClWVSLFaZFKO8].description",
-          "sourcePath": "spells/6th-level/true-seeing.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -79853,15 +79763,6 @@
           "id": "fzZnVKLmBMo2f5up",
           "fieldPath": "system.description.value",
           "name": "Wall of Ice",
-          "sourcePath": "spells/6th-level/wall-of-ice.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "fzZnVKLmBMo2f5up",
-          "name": "Wall of Ice",
-          "fieldPath": "system.activities.dnd5eactivity200.description.value",
           "sourcePath": "spells/6th-level/wall-of-ice.yml"
         },
         {
@@ -79883,24 +79784,6 @@
           "fieldPath": "system.description.value",
           "name": "Wall of Thorns",
           "sourcePath": "spells/6th-level/wall-of-thorns.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "AQsBc94ES7W7s7iG",
-          "name": "Wall of Thorns",
-          "fieldPath": "system.activities.8YDZAxCbAqr4etpJ.description.value",
-          "sourcePath": "spells/6th-level/wall-of-thorns.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "8PJAsHmbu6UgDHC0",
-          "name": "Wind Walk",
-          "fieldPath": "effects[Ci7AbltSNoXhSBWy].description",
-          "sourcePath": "spells/6th-level/wind-walk.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -79921,24 +79804,6 @@
           "fieldPath": "system.description.value",
           "name": "Word of Recall",
           "sourcePath": "spells/6th-level/word-of-recall.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "LTDNWoFVJNLjiiNa",
-          "name": "Arcane Sword",
-          "fieldPath": "system.activities.pK9UiWSr9drFEaEE.description.value",
-          "sourcePath": "spells/7th-level/arcane-sword.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "XT7nzJmVGgv73uaf",
-          "name": "Conjure Celestial",
-          "fieldPath": "effects[tnL6RVwXew6ete0r].description",
-          "sourcePath": "spells/7th-level/conjure-celestial.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -79969,15 +79834,6 @@
           "fieldPath": "system.description.value",
           "name": "Divine Word",
           "sourcePath": "spells/7th-level/divine-word.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "PQuEgKyCdovOvhqN",
-          "name": "Etherealness",
-          "fieldPath": "effects[rrA8RYmv4eAuVbg8].description",
-          "sourcePath": "spells/7th-level/etherealness.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -80010,15 +79866,6 @@
           "sourcePath": "spells/7th-level/forcecage.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "Y7uWUO4yqUN0JKl0",
-          "name": "Forcecage",
-          "fieldPath": "effects[drgadffAtuXTSxYb].description",
-          "sourcePath": "spells/7th-level/forcecage.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -80086,15 +79933,6 @@
           "id": "J6Jpw5XzB5aTeqnz",
           "fieldPath": "system.description.value",
           "name": "Plane Shift",
-          "sourcePath": "spells/7th-level/plane-shift.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "J6Jpw5XzB5aTeqnz",
-          "name": "Plane Shift",
-          "fieldPath": "system.activities.BiYdn4VHVCaWsJmQ.description.value",
           "sourcePath": "spells/7th-level/plane-shift.yml"
         },
         {
@@ -80230,15 +80068,6 @@
           "sourcePath": "spells/7th-level/reverse-gravity.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "ERCv7yuRkQ0YjGx6",
-          "name": "Reverse Gravity",
-          "fieldPath": "system.activities.dnd5eactivity000.description.value",
-          "sourcePath": "spells/7th-level/reverse-gravity.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -80256,15 +80085,6 @@
           "id": "jccbeBIfLrqEZnDP",
           "fieldPath": "system.description.value",
           "name": "Simulacrum",
-          "sourcePath": "spells/7th-level/simulacrum.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "jccbeBIfLrqEZnDP",
-          "name": "Simulacrum",
-          "fieldPath": "effects[9gAmWWC5uTiUuxAI].description",
           "sourcePath": "spells/7th-level/simulacrum.yml"
         },
         {
