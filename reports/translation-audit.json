@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1642,
+      "translated": 1648,
       "missing": 69,
-      "partial": 680,
+      "partial": 674,
       "review": 111
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 1262,
+      "invariantFailures": 1238,
       "englishResiduals": 113,
       "imperialResiduals": 2
     },
-    "blockingIssues": 7460
+    "blockingIssues": 7436
   },
   "packs": [
     {
@@ -5317,9 +5317,9 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 754,
+          "translated": 760,
           "missing": 0,
-          "partial": 131,
+          "partial": 125,
           "review": 41
         },
         "folders": {
@@ -5333,7 +5333,7 @@
           "total": 2227,
           "translated": 2227,
           "missing": 0,
-          "invariantFailures": 315,
+          "invariantFailures": 291,
           "englishResiduals": 41,
           "imperialResiduals": 2
         }
@@ -6164,86 +6164,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "items",
-          "id": "lAcTZgNtpmks2Mo5",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Cloud Giant Strength",
-          "sourcePath": "items/potion/potion-of-cloud-giant-strength.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "lAcTZgNtpmks2Mo5",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Cloud Giant Strength",
-          "sourcePath": "items/potion/potion-of-cloud-giant-strength.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "items",
-          "id": "lAcTZgNtpmks2Mo5",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Cloud Giant Strength",
-          "sourcePath": "items/potion/potion-of-cloud-giant-strength.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "items",
-          "id": "lAcTZgNtpmks2Mo5",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Cloud Giant Strength",
-          "sourcePath": "items/potion/potion-of-cloud-giant-strength.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "bEZOY6uvHRweMM56",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Fire Giant Strength",
-          "sourcePath": "items/potion/potion-of-fire-giant-strength.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "bEZOY6uvHRweMM56",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Fire Giant Strength",
-          "sourcePath": "items/potion/potion-of-fire-giant-strength.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "items",
-          "id": "bEZOY6uvHRweMM56",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Fire Giant Strength",
-          "sourcePath": "items/potion/potion-of-fire-giant-strength.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "items",
-          "id": "bEZOY6uvHRweMM56",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Fire Giant Strength",
-          "sourcePath": "items/potion/potion-of-fire-giant-strength.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
           "id": "eTNc8XPtvZNe3yQs",
           "fieldPath": "system.description.value",
           "name": "Potion of Flying",
@@ -6278,46 +6198,6 @@
           "fieldPath": "system.description.value",
           "name": "Potion of Flying",
           "sourcePath": "items/potion/potion-of-flying.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "TevMHicE3A70AlmP",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Frost Giant Strength",
-          "sourcePath": "items/potion/potion-of-frost-giant-strength.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "TevMHicE3A70AlmP",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Frost Giant Strength",
-          "sourcePath": "items/potion/potion-of-frost-giant-strength.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "items",
-          "id": "TevMHicE3A70AlmP",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Frost Giant Strength",
-          "sourcePath": "items/potion/potion-of-frost-giant-strength.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "items",
-          "id": "TevMHicE3A70AlmP",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Frost Giant Strength",
-          "sourcePath": "items/potion/potion-of-frost-giant-strength.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -6504,46 +6384,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "items",
-          "id": "mhFBTY0egW8AeCHe",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Hill Giant Strength",
-          "sourcePath": "items/potion/potion-of-hill-giant-strength.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "mhFBTY0egW8AeCHe",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Hill Giant Strength",
-          "sourcePath": "items/potion/potion-of-hill-giant-strength.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "items",
-          "id": "mhFBTY0egW8AeCHe",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Hill Giant Strength",
-          "sourcePath": "items/potion/potion-of-hill-giant-strength.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "items",
-          "id": "mhFBTY0egW8AeCHe",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Hill Giant Strength",
-          "sourcePath": "items/potion/potion-of-hill-giant-strength.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
           "id": "rTn4p9nJr4Aq2GPB",
           "fieldPath": "system.description.value",
           "name": "Potion of Invisibility",
@@ -6628,86 +6468,6 @@
           "fieldPath": "system.description.value",
           "name": "Potion of Speed",
           "sourcePath": "items/potion/potion-of-speed.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "4ZiJsDTRA1GgcWKP",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Stone Giant Strength",
-          "sourcePath": "items/potion/potion-of-stone-giant-strength.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "4ZiJsDTRA1GgcWKP",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Stone Giant Strength",
-          "sourcePath": "items/potion/potion-of-stone-giant-strength.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "items",
-          "id": "4ZiJsDTRA1GgcWKP",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Stone Giant Strength",
-          "sourcePath": "items/potion/potion-of-stone-giant-strength.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "items",
-          "id": "4ZiJsDTRA1GgcWKP",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Stone Giant Strength",
-          "sourcePath": "items/potion/potion-of-stone-giant-strength.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "1KMSpOSU0EliUBm2",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Storm Giant Strength",
-          "sourcePath": "items/potion/potion-of-storm-giant-strength.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "1KMSpOSU0EliUBm2",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Storm Giant Strength",
-          "sourcePath": "items/potion/potion-of-storm-giant-strength.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "items",
-          "id": "1KMSpOSU0EliUBm2",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Storm Giant Strength",
-          "sourcePath": "items/potion/potion-of-storm-giant-strength.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "items",
-          "id": "1KMSpOSU0EliUBm2",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Storm Giant Strength",
-          "sourcePath": "items/potion/potion-of-storm-giant-strength.yml"
         },
         {
           "code": "foundry-inline-rolls",
