@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1688,
+      "translated": 1690,
       "missing": 69,
-      "partial": 634,
+      "partial": 632,
       "review": 109
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 1109,
+      "invariantFailures": 1100,
       "englishResiduals": 111,
       "imperialResiduals": 2
     },
-    "blockingIssues": 7305
+    "blockingIssues": 7296
   },
   "packs": [
     {
@@ -5317,9 +5317,9 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 800,
+          "translated": 802,
           "missing": 0,
-          "partial": 85,
+          "partial": 83,
           "review": 39
         },
         "folders": {
@@ -5333,7 +5333,7 @@
           "total": 2227,
           "translated": 2227,
           "missing": 0,
-          "invariantFailures": 162,
+          "invariantFailures": 153,
           "englishResiduals": 39,
           "imperialResiduals": 2
         }
@@ -6318,56 +6318,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "items",
-          "id": "18fbyArtidKzON01",
-          "fieldPath": "system.description.value",
-          "name": "Wand of Magic Detection",
-          "sourcePath": "items/wand/wand-of-magic-detection.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "18fbyArtidKzON01",
-          "fieldPath": "system.description.value",
-          "name": "Wand of Magic Detection",
-          "sourcePath": "items/wand/wand-of-magic-detection.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "18fbyArtidKzON01",
-          "fieldPath": "system.description.value",
-          "name": "Wand of Magic Detection",
-          "sourcePath": "items/wand/wand-of-magic-detection.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "items",
-          "id": "18fbyArtidKzON01",
-          "fieldPath": "system.description.value",
-          "name": "Wand of Magic Detection",
-          "sourcePath": "items/wand/wand-of-magic-detection.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "items",
-          "id": "18fbyArtidKzON01",
-          "fieldPath": "system.description.value",
-          "name": "Wand of Magic Detection",
-          "sourcePath": "items/wand/wand-of-magic-detection.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
           "id": "1taRIMF9w7jpnonN",
           "fieldPath": "system.description.value",
           "name": "Wand of Magic Missiles",
@@ -6482,46 +6432,6 @@
           "fieldPath": "system.description.value",
           "name": "Wand of Polymorph",
           "sourcePath": "items/wand/wand-of-polymorph.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "VQ6NWjWV37wiB29O",
-          "fieldPath": "system.description.value",
-          "name": "Wand of Secrets",
-          "sourcePath": "items/wand/wand-of-secrets.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "VQ6NWjWV37wiB29O",
-          "fieldPath": "system.description.value",
-          "name": "Wand of Secrets",
-          "sourcePath": "items/wand/wand-of-secrets.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "items",
-          "id": "VQ6NWjWV37wiB29O",
-          "fieldPath": "system.description.value",
-          "name": "Wand of Secrets",
-          "sourcePath": "items/wand/wand-of-secrets.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "items",
-          "id": "VQ6NWjWV37wiB29O",
-          "fieldPath": "system.description.value",
-          "name": "Wand of Secrets",
-          "sourcePath": "items/wand/wand-of-secrets.yml"
         },
         {
           "code": "html-attributes",

@@ -7,7 +7,7 @@
 | classfeatures | 235 | 235 | 0 | 0 | 0 | 0 | 0 |
 | effects | 214 | 214 | 0 | 0 | 0 | 0 | 0 |
 | heroes | 12 | 0 | 0 | 12 | 0 | 466 | 561 |
-| items | 885 | 800 | 0 | 85 | 0 | 0 | 251 |
+| items | 885 | 802 | 0 | 83 | 0 | 0 | 242 |
 | monsterfeatures | 252 | 0 | 61 | 191 | 0 | 132 | 753 |
 | monsters | 337 | 2 | 5 | 330 | 15 | 4810 | 5045 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
@@ -17,7 +17,7 @@
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 7305
+Total blocking issues: 7296
 
 ## Issues
 
@@ -679,11 +679,6 @@ Total blocking issues: 7305
 - **foundry-references** `items:bPFVfq81EsMNu6OQ:system.description.value`
 - **foundry-inline-rolls** `items:bPFVfq81EsMNu6OQ:system.description.value`
 - **foundry-data-references** `items:bPFVfq81EsMNu6OQ:system.description.value`
-- **html-tag-sequence** `items:18fbyArtidKzON01:system.description.value`
-- **html-attributes** `items:18fbyArtidKzON01:system.description.value`
-- **foundry-references** `items:18fbyArtidKzON01:system.description.value`
-- **foundry-inline-rolls** `items:18fbyArtidKzON01:system.description.value`
-- **foundry-data-references** `items:18fbyArtidKzON01:system.description.value`
 - **html-tag-sequence** `items:1taRIMF9w7jpnonN:system.description.value`
 - **html-attributes** `items:1taRIMF9w7jpnonN:system.description.value`
 - **foundry-references** `items:1taRIMF9w7jpnonN:system.description.value`
@@ -696,10 +691,6 @@ Total blocking issues: 7305
 - **foundry-references** `items:khyjT3dKyoEOf4eA:system.description.value`
 - **foundry-inline-rolls** `items:khyjT3dKyoEOf4eA:system.description.value`
 - **foundry-data-references** `items:khyjT3dKyoEOf4eA:system.description.value`
-- **html-tag-sequence** `items:VQ6NWjWV37wiB29O:system.description.value`
-- **html-attributes** `items:VQ6NWjWV37wiB29O:system.description.value`
-- **foundry-inline-rolls** `items:VQ6NWjWV37wiB29O:system.description.value`
-- **foundry-data-references** `items:VQ6NWjWV37wiB29O:system.description.value`
 - **html-attributes** `items:4sR5HOah6KwVPHOb:system.description.value`
 - **foundry-references** `items:4sR5HOah6KwVPHOb:system.description.value`
 - **foundry-inline-rolls** `items:4sR5HOah6KwVPHOb:system.description.value`
