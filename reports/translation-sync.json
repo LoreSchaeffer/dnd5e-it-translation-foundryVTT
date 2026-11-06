@@ -3335,6 +3335,30 @@
         },
         {
           "pack": "items",
+          "id": "9Ifr8fGvJ1bArzOW",
+          "name": "Bag of Tricks (Grey)",
+          "sourcePath": "items/trinket/bag-of-tricks-grey.yml",
+          "lookupKey": "Bag of Tricks (Grey)",
+          "matchedLookupKey": "Bag of Tricks (Grey)"
+        },
+        {
+          "pack": "items",
+          "id": "DxIdfGoJEYQj8o3D",
+          "name": "Bag of Tricks (Rust)",
+          "sourcePath": "items/trinket/bag-of-tricks-rust.yml",
+          "lookupKey": "Bag of Tricks (Rust)",
+          "matchedLookupKey": "Bag of Tricks (Rust)"
+        },
+        {
+          "pack": "items",
+          "id": "LHaqMvrx3PfSzWMQ",
+          "name": "Bag of Tricks (Tan)",
+          "sourcePath": "items/trinket/bag-of-tricks-tan.yml",
+          "lookupKey": "Bag of Tricks (Tan)",
+          "matchedLookupKey": "Bag of Tricks (Tan)"
+        },
+        {
+          "pack": "items",
           "id": "3YSUIp4eFo26YxJr",
           "name": "Ball Bearings",
           "sourcePath": "items/trinket/ball-bearings.yml",
@@ -3596,6 +3620,54 @@
           "sourcePath": "items/trinket/eversmoking-bottle.yml",
           "lookupKey": "Eversmoking Bottle",
           "matchedLookupKey": "Eversmoking Bottle"
+        },
+        {
+          "pack": "items",
+          "id": "DnlQkH6Bpwkd5n5Y",
+          "name": "Feather Token Anchor",
+          "sourcePath": "items/trinket/feather-token-anchor.yml",
+          "lookupKey": "Feather Token Anchor",
+          "matchedLookupKey": "Feather Token Anchor"
+        },
+        {
+          "pack": "items",
+          "id": "hWqImieUaLo08l9l",
+          "name": "Feather Token Bird",
+          "sourcePath": "items/trinket/feather-token-bird.yml",
+          "lookupKey": "Feather Token Bird",
+          "matchedLookupKey": "Feather Token Bird"
+        },
+        {
+          "pack": "items",
+          "id": "e98hfROZjztt7ccO",
+          "name": "Feather Token Fan",
+          "sourcePath": "items/trinket/feather-token-fan.yml",
+          "lookupKey": "Feather Token Fan",
+          "matchedLookupKey": "Feather Token Fan"
+        },
+        {
+          "pack": "items",
+          "id": "UgnUJhu0tW1tLt7g",
+          "name": "Feather Token Swan Boat",
+          "sourcePath": "items/trinket/feather-token-swan-boat.yml",
+          "lookupKey": "Feather Token Swan Boat",
+          "matchedLookupKey": "Feather Token Swan Boat"
+        },
+        {
+          "pack": "items",
+          "id": "NjTgPn2o0M1TGk93",
+          "name": "Feather Token Tree",
+          "sourcePath": "items/trinket/feather-token-tree.yml",
+          "lookupKey": "Feather Token Tree",
+          "matchedLookupKey": "Feather Token Tree"
+        },
+        {
+          "pack": "items",
+          "id": "Fgkj11diTJJ7H3JC",
+          "name": "Feather Token Whip",
+          "sourcePath": "items/trinket/feather-token-whip.yml",
+          "lookupKey": "Feather Token Whip",
+          "matchedLookupKey": "Feather Token Whip"
         },
         {
           "pack": "items",
@@ -8481,111 +8553,6 @@
         },
         {
           "pack": "items",
-          "id": "9Ifr8fGvJ1bArzOW",
-          "name": "Bag of Tricks (Grey)",
-          "sourcePath": "items/trinket/bag-of-tricks-grey.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Bag of Tricks (Grey)",
-          "matchedLookupKey": "Bag of Tricks (Grey)",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "9Ifr8fGvJ1bArzOW",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "9Ifr8fGvJ1bArzOW",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "items",
-              "id": "9Ifr8fGvJ1bArzOW",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "DxIdfGoJEYQj8o3D",
-          "name": "Bag of Tricks (Rust)",
-          "sourcePath": "items/trinket/bag-of-tricks-rust.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Bag of Tricks (Rust)",
-          "matchedLookupKey": "Bag of Tricks (Rust)",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "DxIdfGoJEYQj8o3D",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "DxIdfGoJEYQj8o3D",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "items",
-              "id": "DxIdfGoJEYQj8o3D",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "LHaqMvrx3PfSzWMQ",
-          "name": "Bag of Tricks (Tan)",
-          "sourcePath": "items/trinket/bag-of-tricks-tan.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Bag of Tricks (Tan)",
-          "matchedLookupKey": "Bag of Tricks (Tan)",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "LHaqMvrx3PfSzWMQ",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "LHaqMvrx3PfSzWMQ",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "items",
-              "id": "LHaqMvrx3PfSzWMQ",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
           "id": "SqTtbBCfiEsmZ36N",
           "name": "Bead of Force",
           "sourcePath": "items/trinket/bead-of-force.yml",
@@ -8822,216 +8789,6 @@
               "message": "Foundry formulas differ from source",
               "pack": "items",
               "id": "oSarKEU8x1AupB6z",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "DnlQkH6Bpwkd5n5Y",
-          "name": "Feather Token Anchor",
-          "sourcePath": "items/trinket/feather-token-anchor.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Feather Token Anchor",
-          "matchedLookupKey": "Feather Token Anchor",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "DnlQkH6Bpwkd5n5Y",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "DnlQkH6Bpwkd5n5Y",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "items",
-              "id": "DnlQkH6Bpwkd5n5Y",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "hWqImieUaLo08l9l",
-          "name": "Feather Token Bird",
-          "sourcePath": "items/trinket/feather-token-bird.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Feather Token Bird",
-          "matchedLookupKey": "Feather Token Bird",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "hWqImieUaLo08l9l",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "hWqImieUaLo08l9l",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "items",
-              "id": "hWqImieUaLo08l9l",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "e98hfROZjztt7ccO",
-          "name": "Feather Token Fan",
-          "sourcePath": "items/trinket/feather-token-fan.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Feather Token Fan",
-          "matchedLookupKey": "Feather Token Fan",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "e98hfROZjztt7ccO",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "e98hfROZjztt7ccO",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "items",
-              "id": "e98hfROZjztt7ccO",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "UgnUJhu0tW1tLt7g",
-          "name": "Feather Token Swan Boat",
-          "sourcePath": "items/trinket/feather-token-swan-boat.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Feather Token Swan Boat",
-          "matchedLookupKey": "Feather Token Swan Boat",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "UgnUJhu0tW1tLt7g",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "UgnUJhu0tW1tLt7g",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "items",
-              "id": "UgnUJhu0tW1tLt7g",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "NjTgPn2o0M1TGk93",
-          "name": "Feather Token Tree",
-          "sourcePath": "items/trinket/feather-token-tree.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Feather Token Tree",
-          "matchedLookupKey": "Feather Token Tree",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "NjTgPn2o0M1TGk93",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "NjTgPn2o0M1TGk93",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "items",
-              "id": "NjTgPn2o0M1TGk93",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "Fgkj11diTJJ7H3JC",
-          "name": "Feather Token Whip",
-          "sourcePath": "items/trinket/feather-token-whip.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Feather Token Whip",
-          "matchedLookupKey": "Feather Token Whip",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "Fgkj11diTJJ7H3JC",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "Fgkj11diTJJ7H3JC",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "items",
-              "id": "Fgkj11diTJJ7H3JC",
               "fieldPath": "system.description.value"
             }
           ]
