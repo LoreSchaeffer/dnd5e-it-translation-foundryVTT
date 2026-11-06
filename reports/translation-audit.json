@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1237,
+      "translated": 1240,
       "missing": 69,
-      "partial": 1085,
+      "partial": 1082,
       "review": 203
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 2042,
+      "invariantFailures": 2034,
       "englishResiduals": 118,
       "imperialResiduals": 2
     },
-    "blockingIssues": 8332
+    "blockingIssues": 8324
   },
   "packs": [
     {
@@ -76741,9 +76741,9 @@
       "summary": {
         "documents": {
           "total": 320,
-          "translated": 300,
+          "translated": 303,
           "missing": 0,
-          "partial": 20,
+          "partial": 17,
           "review": 0
         },
         "folders": {
@@ -76757,7 +76757,7 @@
           "total": 2007,
           "translated": 2007,
           "missing": 0,
-          "invariantFailures": 54,
+          "invariantFailures": 46,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
@@ -76828,36 +76828,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "spells",
-          "id": "RvEqsD89Zvd5yex4",
-          "fieldPath": "system.description.value",
-          "name": "Arcanist's Magic Aura",
-          "sourcePath": "spells/2nd-level/arcanists-magic-aura.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "RvEqsD89Zvd5yex4",
-          "fieldPath": "system.description.value",
-          "name": "Arcanist's Magic Aura",
-          "sourcePath": "spells/2nd-level/arcanists-magic-aura.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "spells",
-          "id": "RvEqsD89Zvd5yex4",
-          "fieldPath": "system.description.value",
-          "name": "Arcanist's Magic Aura",
-          "sourcePath": "spells/2nd-level/arcanists-magic-aura.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
           "id": "pB7XVYwdGNcUG935",
           "fieldPath": "system.description.value",
           "name": "Glyph of Warding",
@@ -76972,36 +76942,6 @@
           "fieldPath": "system.description.value",
           "name": "Modify Memory",
           "sourcePath": "spells/5th-level/modify-memory.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "42O2aNBW7vK90gTL",
-          "fieldPath": "system.description.value",
-          "name": "Planar Binding",
-          "sourcePath": "spells/5th-level/planar-binding.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "42O2aNBW7vK90gTL",
-          "fieldPath": "system.description.value",
-          "name": "Planar Binding",
-          "sourcePath": "spells/5th-level/planar-binding.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "spells",
-          "id": "42O2aNBW7vK90gTL",
-          "fieldPath": "system.description.value",
-          "name": "Planar Binding",
-          "sourcePath": "spells/5th-level/planar-binding.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -77252,26 +77192,6 @@
           "fieldPath": "system.description.value",
           "name": "Prismatic Wall",
           "sourcePath": "spells/9th-level/prismatic-wall.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "7KjExw0kmuqERa7C",
-          "fieldPath": "system.description.value",
-          "name": "Storm of Vengeance",
-          "sourcePath": "spells/9th-level/storm-of-vengeance.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "7KjExw0kmuqERa7C",
-          "fieldPath": "system.description.value",
-          "name": "Storm of Vengeance",
-          "sourcePath": "spells/9th-level/storm-of-vengeance.yml"
         },
         {
           "code": "html-tag-sequence",

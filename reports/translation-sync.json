@@ -423,6 +423,14 @@
         },
         {
           "pack": "spells",
+          "id": "RvEqsD89Zvd5yex4",
+          "name": "Arcanist's Magic Aura",
+          "sourcePath": "spells/2nd-level/arcanists-magic-aura.yml",
+          "lookupKey": "Arcanist's Magic Aura",
+          "matchedLookupKey": "Arcanist's Magic Aura"
+        },
+        {
+          "pack": "spells",
           "id": "4v2H3hHb3Ph9XLNd",
           "name": "Augury",
           "sourcePath": "spells/2nd-level/augury.yml",
@@ -1559,6 +1567,14 @@
         },
         {
           "pack": "spells",
+          "id": "42O2aNBW7vK90gTL",
+          "name": "Planar Binding",
+          "sourcePath": "spells/5th-level/planar-binding.yml",
+          "lookupKey": "Planar Binding",
+          "matchedLookupKey": "Planar Binding"
+        },
+        {
+          "pack": "spells",
           "id": "AGFMPAmuzwWO6Dfz",
           "name": "Raise Dead",
           "sourcePath": "spells/5th-level/raise-dead.yml",
@@ -2175,6 +2191,14 @@
         },
         {
           "pack": "spells",
+          "id": "7KjExw0kmuqERa7C",
+          "name": "Storm of Vengeance",
+          "sourcePath": "spells/9th-level/storm-of-vengeance.yml",
+          "lookupKey": "Storm of Vengeance",
+          "matchedLookupKey": "Storm of Vengeance"
+        },
+        {
+          "pack": "spells",
           "id": "JYuRBwxpoFhXduvD",
           "name": "Time Stop",
           "sourcePath": "spells/9th-level/time-stop.yml",
@@ -2480,41 +2504,6 @@
         },
         {
           "pack": "spells",
-          "id": "RvEqsD89Zvd5yex4",
-          "name": "Arcanist's Magic Aura",
-          "sourcePath": "spells/2nd-level/arcanists-magic-aura.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Arcanist's Magic Aura",
-          "matchedLookupKey": "Arcanist's Magic Aura",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "RvEqsD89Zvd5yex4",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "RvEqsD89Zvd5yex4",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-references",
-              "severity": "blocking",
-              "message": "Foundry reference targets or order differ from source",
-              "pack": "spells",
-              "id": "RvEqsD89Zvd5yex4",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
           "id": "pB7XVYwdGNcUG935",
           "name": "Glyph of Warding",
           "sourcePath": "spells/3rd-level/glyph-of-warding.yml",
@@ -2660,41 +2649,6 @@
               "message": "Foundry reference count differs from source",
               "pack": "spells",
               "id": "r3243JU4AyQJyfX4",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "42O2aNBW7vK90gTL",
-          "name": "Planar Binding",
-          "sourcePath": "spells/5th-level/planar-binding.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Planar Binding",
-          "matchedLookupKey": "Planar Binding",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "42O2aNBW7vK90gTL",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "42O2aNBW7vK90gTL",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "spells",
-              "id": "42O2aNBW7vK90gTL",
               "fieldPath": "system.description.value"
             }
           ]
@@ -2994,33 +2948,6 @@
               "message": "Foundry reference count differs from source",
               "pack": "spells",
               "id": "jmfu8zj4zjjzUbeh",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "7KjExw0kmuqERa7C",
-          "name": "Storm of Vengeance",
-          "sourcePath": "spells/9th-level/storm-of-vengeance.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Storm of Vengeance",
-          "matchedLookupKey": "Storm of Vengeance",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "7KjExw0kmuqERa7C",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "7KjExw0kmuqERa7C",
               "fieldPath": "system.description.value"
             }
           ]
