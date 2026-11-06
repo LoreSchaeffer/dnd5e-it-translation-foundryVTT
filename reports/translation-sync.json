@@ -1415,6 +1415,14 @@
         },
         {
           "pack": "spells",
+          "id": "ATo0Eb63TDtnu6iA",
+          "name": "Animate Objects",
+          "sourcePath": "spells/5th-level/animate-objects.yml",
+          "lookupKey": "Animate Objects",
+          "matchedLookupKey": "Animate Objects"
+        },
+        {
+          "pack": "spells",
           "id": "wXzkqpeFP8eWgJzK",
           "name": "Antilife Shell",
           "sourcePath": "spells/5th-level/antilife-shell.yml",
@@ -2095,6 +2103,14 @@
         },
         {
           "pack": "spells",
+          "id": "L4J89JXqbKs6puEV",
+          "name": "Teleport",
+          "sourcePath": "spells/7th-level/teleport.yml",
+          "lookupKey": "Teleport",
+          "matchedLookupKey": "Teleport"
+        },
+        {
+          "pack": "spells",
           "id": "ohqAIBg6de989CIo",
           "name": "Animal Shapes",
           "sourcePath": "spells/8th-level/animal-shapes.yml",
@@ -2244,6 +2260,14 @@
           "sourcePath": "spells/9th-level/gate.yml",
           "lookupKey": "Gate",
           "matchedLookupKey": "Gate"
+        },
+        {
+          "pack": "spells",
+          "id": "ZVnL9L8v1KC9TBF4",
+          "name": "Imprisonment",
+          "sourcePath": "spells/9th-level/imprisonment.yml",
+          "lookupKey": "Imprisonment",
+          "matchedLookupKey": "Imprisonment"
         },
         {
           "pack": "spells",
@@ -2530,33 +2554,6 @@
       "manualReview": [
         {
           "pack": "spells",
-          "id": "ATo0Eb63TDtnu6iA",
-          "name": "Animate Objects",
-          "sourcePath": "spells/5th-level/animate-objects.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Animate Objects",
-          "matchedLookupKey": "Animate Objects",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "ATo0Eb63TDtnu6iA",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "ATo0Eb63TDtnu6iA",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
           "id": "B2kbmgbA2WQR00kx",
           "name": "Symbol",
           "sourcePath": "spells/7th-level/symbol.yml",
@@ -2594,68 +2591,6 @@
               "message": "Foundry data references differ from source",
               "pack": "spells",
               "id": "B2kbmgbA2WQR00kx",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "L4J89JXqbKs6puEV",
-          "name": "Teleport",
-          "sourcePath": "spells/7th-level/teleport.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Teleport",
-          "matchedLookupKey": "Teleport",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "L4J89JXqbKs6puEV",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "L4J89JXqbKs6puEV",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "ZVnL9L8v1KC9TBF4",
-          "name": "Imprisonment",
-          "sourcePath": "spells/9th-level/imprisonment.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Imprisonment",
-          "matchedLookupKey": "Imprisonment",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "ZVnL9L8v1KC9TBF4",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "ZVnL9L8v1KC9TBF4",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "spells",
-              "id": "ZVnL9L8v1KC9TBF4",
               "fieldPath": "system.description.value"
             }
           ]

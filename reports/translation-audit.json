@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1252,
+      "translated": 1255,
       "missing": 69,
-      "partial": 1070,
+      "partial": 1067,
       "review": 203
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 2002,
+      "invariantFailures": 1995,
       "englishResiduals": 118,
       "imperialResiduals": 2
     },
-    "blockingIssues": 8292
+    "blockingIssues": 8285
   },
   "packs": [
     {
@@ -76741,9 +76741,9 @@
       "summary": {
         "documents": {
           "total": 320,
-          "translated": 315,
+          "translated": 318,
           "missing": 0,
-          "partial": 5,
+          "partial": 2,
           "review": 0
         },
         "folders": {
@@ -76757,32 +76757,12 @@
           "total": 2007,
           "translated": 2007,
           "missing": 0,
-          "invariantFailures": 14,
+          "invariantFailures": 7,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "ATo0Eb63TDtnu6iA",
-          "fieldPath": "system.description.value",
-          "name": "Animate Objects",
-          "sourcePath": "spells/5th-level/animate-objects.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "ATo0Eb63TDtnu6iA",
-          "fieldPath": "system.description.value",
-          "name": "Animate Objects",
-          "sourcePath": "spells/5th-level/animate-objects.yml"
-        },
         {
           "code": "html-tag-sequence",
           "severity": "blocking",
@@ -76822,56 +76802,6 @@
           "fieldPath": "system.description.value",
           "name": "Symbol",
           "sourcePath": "spells/7th-level/symbol.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "L4J89JXqbKs6puEV",
-          "fieldPath": "system.description.value",
-          "name": "Teleport",
-          "sourcePath": "spells/7th-level/teleport.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "L4J89JXqbKs6puEV",
-          "fieldPath": "system.description.value",
-          "name": "Teleport",
-          "sourcePath": "spells/7th-level/teleport.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "ZVnL9L8v1KC9TBF4",
-          "fieldPath": "system.description.value",
-          "name": "Imprisonment",
-          "sourcePath": "spells/9th-level/imprisonment.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "ZVnL9L8v1KC9TBF4",
-          "fieldPath": "system.description.value",
-          "name": "Imprisonment",
-          "sourcePath": "spells/9th-level/imprisonment.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "spells",
-          "id": "ZVnL9L8v1KC9TBF4",
-          "fieldPath": "system.description.value",
-          "name": "Imprisonment",
-          "sourcePath": "spells/9th-level/imprisonment.yml"
         },
         {
           "code": "html-tag-sequence",
