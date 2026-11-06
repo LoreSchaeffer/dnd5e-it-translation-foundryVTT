@@ -90,6 +90,22 @@ function unwrapSingleLegacyDiv(text) {
   return value.slice(tags[0][0].length, tags.at(-1).index).trim();
 }
 
+function stripLegacySpellHeader(text) {
+  const value = text.trim();
+  const match = value.match(/^(<p\b[^>]*>\s*<em\b[^>]*>[\s\S]*?<\/em>\s*<\/p>)\s*(<ul\b[^>]*>[\s\S]*?<\/ul>)/i);
+  if (!match) return text;
+  const items = [...match[2].matchAll(/<li\b[^>]*>[\s\S]*?<\/li>/gi)];
+  if (items.length !== 4 || !items.every(item => /<strong\b[^>]*>[\s\S]*?<\/strong>/i.test(item[0]))) return text;
+  return value.slice(match[0].length).trim();
+}
+
+function dropEmptySpacerParagraphs(source, translation) {
+  const emptyParagraph = /<p\b[^>]*>\s*(?:(?:&nbsp;|&#160;|<br\s*\/?\s*>))?\s*<\/p>/gi;
+  if (emptyParagraph.test(source)) return translation;
+  emptyParagraph.lastIndex = 0;
+  return translation.replace(emptyParagraph, "");
+}
+
 function reshapeLegacyParagraphs(source, translation) {
   const paragraph = /<p\b[^>]*>[\s\S]*?<\/p>/gi;
   const sourceParagraphs = [...source.matchAll(paragraph)];
@@ -235,6 +251,8 @@ function reshapeReferenceChoiceList(source, translation, referenceLabels) {
 
 export function rebaseInvariantTokens(source, translation, { referenceLabels } = {}) {
   translation = translation.replace(/^\s*<p\b[^>]*>\s*Prerequisito:[\s\S]*?<\/p>\s*/i, "");
+  translation = stripLegacySpellHeader(translation);
+  translation = dropEmptySpacerParagraphs(source, translation);
   const choiceList = reshapeReferenceChoiceList(source, translation, referenceLabels);
   if (choiceList !== null) translation = choiceList;
   if (!/<table\b/i.test(source) && /<table\b/i.test(translation)) {

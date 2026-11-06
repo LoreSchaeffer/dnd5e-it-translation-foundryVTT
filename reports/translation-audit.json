@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1081,
+      "translated": 1157,
       "missing": 69,
-      "partial": 1241,
+      "partial": 1165,
       "review": 203
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 2394,
+      "invariantFailures": 2235,
       "englishResiduals": 118,
       "imperialResiduals": 2
     },
-    "blockingIssues": 8684
+    "blockingIssues": 8525
   },
   "packs": [
     {
@@ -76741,9 +76741,9 @@
       "summary": {
         "documents": {
           "total": 320,
-          "translated": 144,
+          "translated": 220,
           "missing": 0,
-          "partial": 176,
+          "partial": 100,
           "review": 0
         },
         "folders": {
@@ -76757,7 +76757,7 @@
           "total": 2007,
           "translated": 2007,
           "missing": 0,
-          "invariantFailures": 406,
+          "invariantFailures": 247,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
@@ -76928,46 +76928,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "spells",
-          "id": "3OZnNhunvRtPOQmH",
-          "fieldPath": "system.description.value",
-          "name": "Identify",
-          "sourcePath": "spells/1st-level/identify.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "3OZnNhunvRtPOQmH",
-          "fieldPath": "system.description.value",
-          "name": "Identify",
-          "sourcePath": "spells/1st-level/identify.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "ksaaTxIbKx2sJfia",
-          "fieldPath": "system.description.value",
-          "name": "Inflict Wounds",
-          "sourcePath": "spells/1st-level/inflict-wounds.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "ksaaTxIbKx2sJfia",
-          "fieldPath": "system.description.value",
-          "name": "Inflict Wounds",
-          "sourcePath": "spells/1st-level/inflict-wounds.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
           "id": "B0pnIcc52O6G8hi8",
           "fieldPath": "system.description.value",
           "name": "Longstrider",
@@ -76982,126 +76942,6 @@
           "fieldPath": "system.description.value",
           "name": "Longstrider",
           "sourcePath": "spells/1st-level/longstrider.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "41JIhpDyM9Anm7cs",
-          "fieldPath": "system.description.value",
-          "name": "Magic Missile",
-          "sourcePath": "spells/1st-level/magic-missile.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "41JIhpDyM9Anm7cs",
-          "fieldPath": "system.description.value",
-          "name": "Magic Missile",
-          "sourcePath": "spells/1st-level/magic-missile.yml"
-        },
-        {
-          "code": "foundry-formulas",
-          "severity": "blocking",
-          "message": "Foundry formulas differ from source",
-          "pack": "spells",
-          "id": "41JIhpDyM9Anm7cs",
-          "fieldPath": "system.description.value",
-          "name": "Magic Missile",
-          "sourcePath": "spells/1st-level/magic-missile.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "xmDBqZhRVrtLP8h2",
-          "fieldPath": "system.description.value",
-          "name": "Protection from Evil and Good",
-          "sourcePath": "spells/1st-level/protection-from-evil-and-good.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "xmDBqZhRVrtLP8h2",
-          "fieldPath": "system.description.value",
-          "name": "Protection from Evil and Good",
-          "sourcePath": "spells/1st-level/protection-from-evil-and-good.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "Kn7K5PtYUJAKZTTp",
-          "fieldPath": "system.description.value",
-          "name": "Purify Food and Drink",
-          "sourcePath": "spells/1st-level/purify-food-and-drink.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "Kn7K5PtYUJAKZTTp",
-          "fieldPath": "system.description.value",
-          "name": "Purify Food and Drink",
-          "sourcePath": "spells/1st-level/purify-food-and-drink.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "gvdA9nPuWLck4tBl",
-          "fieldPath": "system.description.value",
-          "name": "Sanctuary",
-          "sourcePath": "spells/1st-level/sanctuary.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "gvdA9nPuWLck4tBl",
-          "fieldPath": "system.description.value",
-          "name": "Sanctuary",
-          "sourcePath": "spells/1st-level/sanctuary.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "spells",
-          "id": "gvdA9nPuWLck4tBl",
-          "fieldPath": "system.description.value",
-          "name": "Sanctuary",
-          "sourcePath": "spells/1st-level/sanctuary.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "jZ6JNykRtdQ90MOo",
-          "fieldPath": "system.description.value",
-          "name": "Shield of Faith",
-          "sourcePath": "spells/1st-level/shield-of-faith.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "jZ6JNykRtdQ90MOo",
-          "fieldPath": "system.description.value",
-          "name": "Shield of Faith",
-          "sourcePath": "spells/1st-level/shield-of-faith.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -77138,86 +76978,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "spells",
-          "id": "BrBZdCCrJRIVg7YX",
-          "fieldPath": "system.description.value",
-          "name": "Silent Image",
-          "sourcePath": "spells/1st-level/silent-image.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "BrBZdCCrJRIVg7YX",
-          "fieldPath": "system.description.value",
-          "name": "Silent Image",
-          "sourcePath": "spells/1st-level/silent-image.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "KhwiSi9fwVfUPtku",
-          "fieldPath": "system.description.value",
-          "name": "Sleep",
-          "sourcePath": "spells/1st-level/sleep.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "KhwiSi9fwVfUPtku",
-          "fieldPath": "system.description.value",
-          "name": "Sleep",
-          "sourcePath": "spells/1st-level/sleep.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "aL1F8fvYLtNzUbKu",
-          "fieldPath": "system.description.value",
-          "name": "Speak with Animals",
-          "sourcePath": "spells/1st-level/speak-with-animals.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "aL1F8fvYLtNzUbKu",
-          "fieldPath": "system.description.value",
-          "name": "Speak with Animals",
-          "sourcePath": "spells/1st-level/speak-with-animals.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "aL1F8fvYLtNzUbKu",
-          "fieldPath": "effects[5y2fw4tIHJG90LhP].description",
-          "name": "Speak with Animals",
-          "sourcePath": "spells/1st-level/speak-with-animals.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "aL1F8fvYLtNzUbKu",
-          "fieldPath": "effects[5y2fw4tIHJG90LhP].description",
-          "name": "Speak with Animals",
-          "sourcePath": "spells/1st-level/speak-with-animals.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
           "id": "WTbOQBsarsL1LuXJ",
           "fieldPath": "system.description.value",
           "name": "Thunderwave",
@@ -77232,26 +76992,6 @@
           "fieldPath": "system.description.value",
           "name": "Thunderwave",
           "sourcePath": "spells/1st-level/thunderwave.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "ccduLIvutyNqvkgv",
-          "fieldPath": "system.description.value",
-          "name": "Unseen Servant",
-          "sourcePath": "spells/1st-level/unseen-servant.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "ccduLIvutyNqvkgv",
-          "fieldPath": "system.description.value",
-          "name": "Unseen Servant",
-          "sourcePath": "spells/1st-level/unseen-servant.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -77428,26 +77168,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "spells",
-          "id": "1N8dDMMgZ1h1YJ3B",
-          "fieldPath": "system.description.value",
-          "name": "Invisibility",
-          "sourcePath": "spells/2nd-level/invisibility.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "1N8dDMMgZ1h1YJ3B",
-          "fieldPath": "system.description.value",
-          "name": "Invisibility",
-          "sourcePath": "spells/2nd-level/invisibility.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
           "id": "1nhIxh0DsJsntCfj",
           "fieldPath": "system.description.value",
           "name": "Knock",
@@ -77568,66 +77288,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "spells",
-          "id": "wqfAVANuQonNBgnL",
-          "fieldPath": "system.description.value",
-          "name": "Misty Step",
-          "sourcePath": "spells/2nd-level/misty-step.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "wqfAVANuQonNBgnL",
-          "fieldPath": "system.description.value",
-          "name": "Misty Step",
-          "sourcePath": "spells/2nd-level/misty-step.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "pRMvmknwLf2tdMTj",
-          "fieldPath": "system.description.value",
-          "name": "Pass without Trace",
-          "sourcePath": "spells/2nd-level/pass-without-trace.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "pRMvmknwLf2tdMTj",
-          "fieldPath": "system.description.value",
-          "name": "Pass without Trace",
-          "sourcePath": "spells/2nd-level/pass-without-trace.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "MOEmz9N0j0QPkKEE",
-          "fieldPath": "system.description.value",
-          "name": "Prayer of Healing",
-          "sourcePath": "spells/2nd-level/prayer-of-healing.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "MOEmz9N0j0QPkKEE",
-          "fieldPath": "system.description.value",
-          "name": "Prayer of Healing",
-          "sourcePath": "spells/2nd-level/prayer-of-healing.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
           "id": "MAxM77CDUu8dgIRQ",
           "fieldPath": "system.description.value",
           "name": "Protection from Poison",
@@ -77688,106 +77348,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "spells",
-          "id": "7u2obDvuvtZBkTfq",
-          "fieldPath": "system.description.value",
-          "name": "Scorching Ray",
-          "sourcePath": "spells/2nd-level/scorching-ray.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "7u2obDvuvtZBkTfq",
-          "fieldPath": "system.description.value",
-          "name": "Scorching Ray",
-          "sourcePath": "spells/2nd-level/scorching-ray.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "DQzlB5Y3k791W5bH",
-          "fieldPath": "system.description.value",
-          "name": "See Invisibility",
-          "sourcePath": "spells/2nd-level/see-invisibility.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "DQzlB5Y3k791W5bH",
-          "fieldPath": "system.description.value",
-          "name": "See Invisibility",
-          "sourcePath": "spells/2nd-level/see-invisibility.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "DQzlB5Y3k791W5bH",
-          "fieldPath": "effects[3omf4AjcV8DOMCgO].description",
-          "name": "See Invisibility",
-          "sourcePath": "spells/2nd-level/see-invisibility.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "DQzlB5Y3k791W5bH",
-          "fieldPath": "effects[3omf4AjcV8DOMCgO].description",
-          "name": "See Invisibility",
-          "sourcePath": "spells/2nd-level/see-invisibility.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "wJKpSvSTbSkTjqyb",
-          "fieldPath": "system.description.value",
-          "name": "Shatter",
-          "sourcePath": "spells/2nd-level/shatter.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "wJKpSvSTbSkTjqyb",
-          "fieldPath": "system.description.value",
-          "name": "Shatter",
-          "sourcePath": "spells/2nd-level/shatter.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "5VhqFROQYjr1P9lp",
-          "fieldPath": "system.description.value",
-          "name": "Silence",
-          "sourcePath": "spells/2nd-level/silence.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "5VhqFROQYjr1P9lp",
-          "fieldPath": "system.description.value",
-          "name": "Silence",
-          "sourcePath": "spells/2nd-level/silence.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
           "id": "KJRVzeMQXPj8Gtyx",
           "fieldPath": "system.description.value",
           "name": "Spider Climb",
@@ -77802,26 +77362,6 @@
           "fieldPath": "system.description.value",
           "name": "Spider Climb",
           "sourcePath": "spells/2nd-level/spider-climb.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "9gYGkrL6qFTsE6fw",
-          "fieldPath": "system.description.value",
-          "name": "Spike Growth",
-          "sourcePath": "spells/2nd-level/spike-growth.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "9gYGkrL6qFTsE6fw",
-          "fieldPath": "system.description.value",
-          "name": "Spike Growth",
-          "sourcePath": "spells/2nd-level/spike-growth.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -77852,66 +77392,6 @@
           "fieldPath": "system.description.value",
           "name": "Spiritual Weapon",
           "sourcePath": "spells/2nd-level/spiritual-weapon.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "zMAWdyc8UVb37BK4",
-          "fieldPath": "system.description.value",
-          "name": "Suggestion",
-          "sourcePath": "spells/2nd-level/suggestion.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "zMAWdyc8UVb37BK4",
-          "fieldPath": "system.description.value",
-          "name": "Suggestion",
-          "sourcePath": "spells/2nd-level/suggestion.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "JVhKeanAXZH62DrF",
-          "fieldPath": "system.description.value",
-          "name": "Warding Bond",
-          "sourcePath": "spells/2nd-level/warding-bond.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "JVhKeanAXZH62DrF",
-          "fieldPath": "system.description.value",
-          "name": "Warding Bond",
-          "sourcePath": "spells/2nd-level/warding-bond.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "UJJu9c2UvCzVljiP",
-          "fieldPath": "system.description.value",
-          "name": "Web",
-          "sourcePath": "spells/2nd-level/web.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "UJJu9c2UvCzVljiP",
-          "fieldPath": "system.description.value",
-          "name": "Web",
-          "sourcePath": "spells/2nd-level/web.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -78008,26 +77488,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "spells",
-          "id": "IyikgTEOTv701jgQ",
-          "fieldPath": "system.description.value",
-          "name": "Lightning Bolt",
-          "sourcePath": "spells/3rd-level/lightning-bolt.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "IyikgTEOTv701jgQ",
-          "fieldPath": "system.description.value",
-          "name": "Lightning Bolt",
-          "sourcePath": "spells/3rd-level/lightning-bolt.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
           "id": "y8A4HfTwd93ypdEz",
           "fieldPath": "system.description.value",
           "name": "Magic Circle",
@@ -78048,26 +77508,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "spells",
-          "id": "nslx2nT3p4lNkmdp",
-          "fieldPath": "system.description.value",
-          "name": "Major Image",
-          "sourcePath": "spells/3rd-level/major-image.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "nslx2nT3p4lNkmdp",
-          "fieldPath": "system.description.value",
-          "name": "Major Image",
-          "sourcePath": "spells/3rd-level/major-image.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
           "id": "34ddoYIrnOZ2GFYi",
           "fieldPath": "system.description.value",
           "name": "Mass Healing Word",
@@ -78082,26 +77522,6 @@
           "fieldPath": "system.description.value",
           "name": "Mass Healing Word",
           "sourcePath": "spells/3rd-level/mass-healing-word.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "64uo4fHriHLjRUrX",
-          "fieldPath": "system.description.value",
-          "name": "Meld into Stone",
-          "sourcePath": "spells/3rd-level/meld-into-stone.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "64uo4fHriHLjRUrX",
-          "fieldPath": "system.description.value",
-          "name": "Meld into Stone",
-          "sourcePath": "spells/3rd-level/meld-into-stone.yml"
         },
         {
           "code": "foundry-reference-count",
@@ -78148,26 +77568,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "spells",
-          "id": "YWtwzp6ZnQJMEmVW",
-          "fieldPath": "system.description.value",
-          "name": "Plant Growth",
-          "sourcePath": "spells/3rd-level/plant-growth.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "YWtwzp6ZnQJMEmVW",
-          "fieldPath": "system.description.value",
-          "name": "Plant Growth",
-          "sourcePath": "spells/3rd-level/plant-growth.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
           "id": "j8NtLXOOJ3GAKF8I",
           "fieldPath": "system.description.value",
           "name": "Protection from Energy",
@@ -78182,46 +77582,6 @@
           "fieldPath": "system.description.value",
           "name": "Protection from Energy",
           "sourcePath": "spells/3rd-level/protection-from-energy.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "XZhdgVK3cLoxNCQl",
-          "fieldPath": "system.description.value",
-          "name": "Remove Curse",
-          "sourcePath": "spells/3rd-level/remove-curse.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "XZhdgVK3cLoxNCQl",
-          "fieldPath": "system.description.value",
-          "name": "Remove Curse",
-          "sourcePath": "spells/3rd-level/remove-curse.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "LmRHHMtplpxr9fX6",
-          "fieldPath": "system.description.value",
-          "name": "Revivify",
-          "sourcePath": "spells/3rd-level/revivify.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "LmRHHMtplpxr9fX6",
-          "fieldPath": "system.description.value",
-          "name": "Revivify",
-          "sourcePath": "spells/3rd-level/revivify.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -78268,26 +77628,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "spells",
-          "id": "dhqBY4TvVjxVmOZd",
-          "fieldPath": "system.description.value",
-          "name": "Sleet Storm",
-          "sourcePath": "spells/3rd-level/sleet-storm.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "dhqBY4TvVjxVmOZd",
-          "fieldPath": "system.description.value",
-          "name": "Sleet Storm",
-          "sourcePath": "spells/3rd-level/sleet-storm.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
           "id": "yqUDoxk4x0NWG5Bz",
           "fieldPath": "system.description.value",
           "name": "Slow",
@@ -78302,26 +77642,6 @@
           "fieldPath": "system.description.value",
           "name": "Slow",
           "sourcePath": "spells/3rd-level/slow.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "I2LUSF5ogc7Bj62e",
-          "fieldPath": "system.description.value",
-          "name": "Speak with Dead",
-          "sourcePath": "spells/3rd-level/speak-with-dead.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "I2LUSF5ogc7Bj62e",
-          "fieldPath": "system.description.value",
-          "name": "Speak with Dead",
-          "sourcePath": "spells/3rd-level/speak-with-dead.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -78358,26 +77678,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "spells",
-          "id": "uCud2s4TjMfjiXUb",
-          "fieldPath": "system.description.value",
-          "name": "Spirit Guardians",
-          "sourcePath": "spells/3rd-level/spirit-guardians.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "uCud2s4TjMfjiXUb",
-          "fieldPath": "system.description.value",
-          "name": "Spirit Guardians",
-          "sourcePath": "spells/3rd-level/spirit-guardians.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
           "id": "TwlD4PLcltv7Xh7j",
           "fieldPath": "system.description.value",
           "name": "Stinking Cloud",
@@ -78412,26 +77712,6 @@
           "fieldPath": "system.description.value",
           "name": "Tongues",
           "sourcePath": "spells/3rd-level/tongues.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "UfHQhA54M4323gVO",
-          "fieldPath": "system.description.value",
-          "name": "Vampiric Touch",
-          "sourcePath": "spells/3rd-level/vampiric-touch.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "UfHQhA54M4323gVO",
-          "fieldPath": "system.description.value",
-          "name": "Vampiric Touch",
-          "sourcePath": "spells/3rd-level/vampiric-touch.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -78688,66 +77968,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "spells",
-          "id": "8sgwRh8NUNkn9Vi0",
-          "fieldPath": "system.description.value",
-          "name": "Secret Chest",
-          "sourcePath": "spells/4th-level/secret-chest.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "8sgwRh8NUNkn9Vi0",
-          "fieldPath": "system.description.value",
-          "name": "Secret Chest",
-          "sourcePath": "spells/4th-level/secret-chest.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "QvGcdRUSNRKEQJlK",
-          "fieldPath": "system.description.value",
-          "name": "Stone Shape",
-          "sourcePath": "spells/4th-level/stone-shape.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "QvGcdRUSNRKEQJlK",
-          "fieldPath": "system.description.value",
-          "name": "Stone Shape",
-          "sourcePath": "spells/4th-level/stone-shape.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "ReMbjfeOKoSj3O79",
-          "fieldPath": "system.description.value",
-          "name": "Stoneskin",
-          "sourcePath": "spells/4th-level/stoneskin.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "ReMbjfeOKoSj3O79",
-          "fieldPath": "system.description.value",
-          "name": "Stoneskin",
-          "sourcePath": "spells/4th-level/stoneskin.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
           "id": "X3DrXgxjwI2dvkD6",
           "fieldPath": "system.description.value",
           "name": "Wall of Fire",
@@ -78918,106 +78138,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "spells",
-          "id": "WzvJ7G3cqvIubsLk",
-          "fieldPath": "system.description.value",
-          "name": "Greater Restoration",
-          "sourcePath": "spells/5th-level/greater-restoration.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "WzvJ7G3cqvIubsLk",
-          "fieldPath": "system.description.value",
-          "name": "Greater Restoration",
-          "sourcePath": "spells/5th-level/greater-restoration.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "SLxA9QhrggTz0taU",
-          "fieldPath": "system.description.value",
-          "name": "Hallow",
-          "sourcePath": "spells/5th-level/hallow.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "SLxA9QhrggTz0taU",
-          "fieldPath": "system.description.value",
-          "name": "Hallow",
-          "sourcePath": "spells/5th-level/hallow.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "OVikYmSdHliAG2YD",
-          "fieldPath": "system.description.value",
-          "name": "Insect Plague",
-          "sourcePath": "spells/5th-level/insect-plague.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "OVikYmSdHliAG2YD",
-          "fieldPath": "system.description.value",
-          "name": "Insect Plague",
-          "sourcePath": "spells/5th-level/insect-plague.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "Pyzmm8R7rVsNAPsd",
-          "fieldPath": "system.description.value",
-          "name": "Mass Cure Wounds",
-          "sourcePath": "spells/5th-level/mass-cure-wounds.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "Pyzmm8R7rVsNAPsd",
-          "fieldPath": "system.description.value",
-          "name": "Mass Cure Wounds",
-          "sourcePath": "spells/5th-level/mass-cure-wounds.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "MBMaQLwoy05qzMJ3",
-          "fieldPath": "system.description.value",
-          "name": "Mislead",
-          "sourcePath": "spells/5th-level/mislead.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "MBMaQLwoy05qzMJ3",
-          "fieldPath": "system.description.value",
-          "name": "Mislead",
-          "sourcePath": "spells/5th-level/mislead.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
           "id": "r3243JU4AyQJyfX4",
           "fieldPath": "system.description.value",
           "name": "Modify Memory",
@@ -79042,26 +78162,6 @@
           "fieldPath": "system.description.value",
           "name": "Modify Memory",
           "sourcePath": "spells/5th-level/modify-memory.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "d9MwcXi7Il3HROXd",
-          "fieldPath": "system.description.value",
-          "name": "Passwall",
-          "sourcePath": "spells/5th-level/passwall.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "d9MwcXi7Il3HROXd",
-          "fieldPath": "system.description.value",
-          "name": "Passwall",
-          "sourcePath": "spells/5th-level/passwall.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -79098,26 +78198,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "spells",
-          "id": "AGFMPAmuzwWO6Dfz",
-          "fieldPath": "system.description.value",
-          "name": "Raise Dead",
-          "sourcePath": "spells/5th-level/raise-dead.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "AGFMPAmuzwWO6Dfz",
-          "fieldPath": "system.description.value",
-          "name": "Raise Dead",
-          "sourcePath": "spells/5th-level/raise-dead.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
           "id": "zMEo5DKK8uxsuWnq",
           "fieldPath": "system.description.value",
           "name": "Reincarnate",
@@ -79142,26 +78222,6 @@
           "fieldPath": "system.description.value",
           "name": "Reincarnate",
           "sourcePath": "spells/5th-level/reincarnate.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "fVbCxFRaORalHB20",
-          "fieldPath": "system.description.value",
-          "name": "Scrying",
-          "sourcePath": "spells/5th-level/scrying.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "fVbCxFRaORalHB20",
-          "fieldPath": "system.description.value",
-          "name": "Scrying",
-          "sourcePath": "spells/5th-level/scrying.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -79188,26 +78248,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "spells",
-          "id": "HQfd7jJyULIoGxrZ",
-          "fieldPath": "system.description.value",
-          "name": "Telekinesis",
-          "sourcePath": "spells/5th-level/telekinesis.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "HQfd7jJyULIoGxrZ",
-          "fieldPath": "system.description.value",
-          "name": "Telekinesis",
-          "sourcePath": "spells/5th-level/telekinesis.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
           "id": "uAwtVZkiSTyP6ORB",
           "fieldPath": "system.description.value",
           "name": "Telepathic Bond",
@@ -79222,26 +78262,6 @@
           "fieldPath": "system.description.value",
           "name": "Telepathic Bond",
           "sourcePath": "spells/5th-level/telepathic-bond.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "DUBgwHPakcLDkB6W",
-          "fieldPath": "system.description.value",
-          "name": "Tree Stride",
-          "sourcePath": "spells/5th-level/tree-stride.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "DUBgwHPakcLDkB6W",
-          "fieldPath": "system.description.value",
-          "name": "Tree Stride",
-          "sourcePath": "spells/5th-level/tree-stride.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -79518,26 +78538,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "spells",
-          "id": "5OGFdJw35QXp6mh6",
-          "fieldPath": "system.description.value",
-          "name": "Mass Suggestion",
-          "sourcePath": "spells/6th-level/mass-suggestion.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "5OGFdJw35QXp6mh6",
-          "fieldPath": "system.description.value",
-          "name": "Mass Suggestion",
-          "sourcePath": "spells/6th-level/mass-suggestion.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
           "id": "yI0XWIgI0IGGsR3R",
           "fieldPath": "system.description.value",
           "name": "Move Earth",
@@ -79552,66 +78552,6 @@
           "fieldPath": "system.description.value",
           "name": "Move Earth",
           "sourcePath": "spells/6th-level/move-earth.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "bA2sk9eMKBeY7EPD",
-          "fieldPath": "system.description.value",
-          "name": "Programmed Illusion",
-          "sourcePath": "spells/6th-level/programmed-illusion.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "bA2sk9eMKBeY7EPD",
-          "fieldPath": "system.description.value",
-          "name": "Programmed Illusion",
-          "sourcePath": "spells/6th-level/programmed-illusion.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "s7nXgot5gGZVcMrv",
-          "fieldPath": "system.description.value",
-          "name": "Transport via Plants",
-          "sourcePath": "spells/6th-level/transport-via-plants.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "s7nXgot5gGZVcMrv",
-          "fieldPath": "system.description.value",
-          "name": "Transport via Plants",
-          "sourcePath": "spells/6th-level/transport-via-plants.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "XzkJpE6XpZfKjODD",
-          "fieldPath": "system.description.value",
-          "name": "True Seeing",
-          "sourcePath": "spells/6th-level/true-seeing.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "XzkJpE6XpZfKjODD",
-          "fieldPath": "system.description.value",
-          "name": "True Seeing",
-          "sourcePath": "spells/6th-level/true-seeing.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -79652,26 +78592,6 @@
           "fieldPath": "system.description.value",
           "name": "Wall of Thorns",
           "sourcePath": "spells/6th-level/wall-of-thorns.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "76C0FdcxlU8F9Rl2",
-          "fieldPath": "system.description.value",
-          "name": "Word of Recall",
-          "sourcePath": "spells/6th-level/word-of-recall.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "76C0FdcxlU8F9Rl2",
-          "fieldPath": "system.description.value",
-          "name": "Word of Recall",
-          "sourcePath": "spells/6th-level/word-of-recall.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -79738,26 +78658,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "spells",
-          "id": "pn4SnsFDvYDiE6rC",
-          "fieldPath": "system.description.value",
-          "name": "Magnificent Mansion",
-          "sourcePath": "spells/7th-level/magnificent-mansion.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "pn4SnsFDvYDiE6rC",
-          "fieldPath": "system.description.value",
-          "name": "Magnificent Mansion",
-          "sourcePath": "spells/7th-level/magnificent-mansion.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
           "id": "f38w5rd9SgdmWc6F",
           "fieldPath": "system.description.value",
           "name": "Mirage Arcane",
@@ -79828,26 +78728,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "spells",
-          "id": "ePhRKHXRE7l1sEoQ",
-          "fieldPath": "system.description.value",
-          "name": "Project Image",
-          "sourcePath": "spells/7th-level/project-image.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "ePhRKHXRE7l1sEoQ",
-          "fieldPath": "system.description.value",
-          "name": "Project Image",
-          "sourcePath": "spells/7th-level/project-image.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
           "id": "9kGrFXnLiRg3Xnbo",
           "fieldPath": "system.description.value",
           "name": "Regenerate",
@@ -79872,66 +78752,6 @@
           "fieldPath": "system.description.value",
           "name": "Regenerate",
           "sourcePath": "spells/7th-level/regenerate.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "jhhT9PsHy5A7EojO",
-          "fieldPath": "system.description.value",
-          "name": "Resurrection",
-          "sourcePath": "spells/7th-level/resurrection.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "jhhT9PsHy5A7EojO",
-          "fieldPath": "system.description.value",
-          "name": "Resurrection",
-          "sourcePath": "spells/7th-level/resurrection.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "ERCv7yuRkQ0YjGx6",
-          "fieldPath": "system.description.value",
-          "name": "Reverse Gravity",
-          "sourcePath": "spells/7th-level/reverse-gravity.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "ERCv7yuRkQ0YjGx6",
-          "fieldPath": "system.description.value",
-          "name": "Reverse Gravity",
-          "sourcePath": "spells/7th-level/reverse-gravity.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "jccbeBIfLrqEZnDP",
-          "fieldPath": "system.description.value",
-          "name": "Simulacrum",
-          "sourcePath": "spells/7th-level/simulacrum.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "jccbeBIfLrqEZnDP",
-          "fieldPath": "system.description.value",
-          "name": "Simulacrum",
-          "sourcePath": "spells/7th-level/simulacrum.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -80128,26 +78948,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "spells",
-          "id": "pV04y1iXoWiom6bp",
-          "fieldPath": "system.description.value",
-          "name": "Incendiary Cloud",
-          "sourcePath": "spells/8th-level/incendiary-cloud.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "pV04y1iXoWiom6bp",
-          "fieldPath": "system.description.value",
-          "name": "Incendiary Cloud",
-          "sourcePath": "spells/8th-level/incendiary-cloud.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
           "id": "clwv2PWOcT822hlr",
           "fieldPath": "system.description.value",
           "name": "Maze",
@@ -80208,46 +79008,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "spells",
-          "id": "35j2QIMmIk6aEdxj",
-          "fieldPath": "system.description.value",
-          "name": "Power Word Stun",
-          "sourcePath": "spells/8th-level/power-word-stun.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "35j2QIMmIk6aEdxj",
-          "fieldPath": "system.description.value",
-          "name": "Power Word Stun",
-          "sourcePath": "spells/8th-level/power-word-stun.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "hzK7FQya0BDjSmLE",
-          "fieldPath": "system.description.value",
-          "name": "Sunburst",
-          "sourcePath": "spells/8th-level/sunburst.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "hzK7FQya0BDjSmLE",
-          "fieldPath": "system.description.value",
-          "name": "Sunburst",
-          "sourcePath": "spells/8th-level/sunburst.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
           "id": "ZVnL9L8v1KC9TBF4",
           "fieldPath": "system.description.value",
           "name": "Imprisonment",
@@ -80298,46 +79058,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "spells",
-          "id": "mF52ldF79Cr7wfQo",
-          "fieldPath": "system.description.value",
-          "name": "Meteor Swarm",
-          "sourcePath": "spells/9th-level/meteor-swarm.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "mF52ldF79Cr7wfQo",
-          "fieldPath": "system.description.value",
-          "name": "Meteor Swarm",
-          "sourcePath": "spells/9th-level/meteor-swarm.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "dmvaMLFWFtv0qx0S",
-          "fieldPath": "system.description.value",
-          "name": "Power Word Kill",
-          "sourcePath": "spells/9th-level/power-word-kill.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "dmvaMLFWFtv0qx0S",
-          "fieldPath": "system.description.value",
-          "name": "Power Word Kill",
-          "sourcePath": "spells/9th-level/power-word-kill.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
           "id": "jmfu8zj4zjjzUbeh",
           "fieldPath": "system.description.value",
           "name": "Prismatic Wall",
@@ -80368,26 +79088,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "spells",
-          "id": "N2UEFq8X5LRsLcOZ",
-          "fieldPath": "system.description.value",
-          "name": "Shapechange",
-          "sourcePath": "spells/9th-level/shapechange.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "N2UEFq8X5LRsLcOZ",
-          "fieldPath": "system.description.value",
-          "name": "Shapechange",
-          "sourcePath": "spells/9th-level/shapechange.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
           "id": "7KjExw0kmuqERa7C",
           "fieldPath": "system.description.value",
           "name": "Storm of Vengeance",
@@ -80408,36 +79108,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "spells",
-          "id": "JYuRBwxpoFhXduvD",
-          "fieldPath": "system.description.value",
-          "name": "Time Stop",
-          "sourcePath": "spells/9th-level/time-stop.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "JYuRBwxpoFhXduvD",
-          "fieldPath": "system.description.value",
-          "name": "Time Stop",
-          "sourcePath": "spells/9th-level/time-stop.yml"
-        },
-        {
-          "code": "foundry-formulas",
-          "severity": "blocking",
-          "message": "Foundry formulas differ from source",
-          "pack": "spells",
-          "id": "JYuRBwxpoFhXduvD",
-          "fieldPath": "system.description.value",
-          "name": "Time Stop",
-          "sourcePath": "spells/9th-level/time-stop.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
           "id": "QbQZKoXOgHWN06aa",
           "fieldPath": "system.description.value",
           "name": "True Polymorph",
@@ -80452,46 +79122,6 @@
           "fieldPath": "system.description.value",
           "name": "True Polymorph",
           "sourcePath": "spells/9th-level/true-polymorph.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "qLeEXZDbW5y4bmLY",
-          "fieldPath": "system.description.value",
-          "name": "True Resurrection",
-          "sourcePath": "spells/9th-level/true-resurrection.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "qLeEXZDbW5y4bmLY",
-          "fieldPath": "system.description.value",
-          "name": "True Resurrection",
-          "sourcePath": "spells/9th-level/true-resurrection.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "Wl2vtJ4hCt2tpWfR",
-          "fieldPath": "system.description.value",
-          "name": "Weird",
-          "sourcePath": "spells/9th-level/weird.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "Wl2vtJ4hCt2tpWfR",
-          "fieldPath": "system.description.value",
-          "name": "Weird",
-          "sourcePath": "spells/9th-level/weird.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -80568,26 +79198,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "spells",
-          "id": "kjmjY0zlE6IEiQVL",
-          "fieldPath": "system.description.value",
-          "name": "Mending",
-          "sourcePath": "spells/cantrip/mending.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "kjmjY0zlE6IEiQVL",
-          "fieldPath": "system.description.value",
-          "name": "Mending",
-          "sourcePath": "spells/cantrip/mending.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
           "id": "icZokbgV1jIMpNCv",
           "fieldPath": "system.description.value",
           "name": "Message",
@@ -80622,206 +79232,6 @@
           "fieldPath": "system.description.value",
           "name": "Minor Illusion",
           "sourcePath": "spells/cantrip/minor-illusion.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "g2u9PYfqWQAyg9OI",
-          "fieldPath": "system.description.value",
-          "name": "Poison Spray",
-          "sourcePath": "spells/cantrip/poison-spray.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "g2u9PYfqWQAyg9OI",
-          "fieldPath": "system.description.value",
-          "name": "Poison Spray",
-          "sourcePath": "spells/cantrip/poison-spray.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "udsLtG0BugXHR2JQ",
-          "fieldPath": "system.description.value",
-          "name": "Prestidigitation",
-          "sourcePath": "spells/cantrip/prestidigitation.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "udsLtG0BugXHR2JQ",
-          "fieldPath": "system.description.value",
-          "name": "Prestidigitation",
-          "sourcePath": "spells/cantrip/prestidigitation.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "eCPQuQkIabFKTl9u",
-          "fieldPath": "system.description.value",
-          "name": "Produce Flame",
-          "sourcePath": "spells/cantrip/produce-flame.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "eCPQuQkIabFKTl9u",
-          "fieldPath": "system.description.value",
-          "name": "Produce Flame",
-          "sourcePath": "spells/cantrip/produce-flame.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "ctW81uiX56xZR2c5",
-          "fieldPath": "system.description.value",
-          "name": "Ray of Frost",
-          "sourcePath": "spells/cantrip/ray-of-frost.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "ctW81uiX56xZR2c5",
-          "fieldPath": "system.description.value",
-          "name": "Ray of Frost",
-          "sourcePath": "spells/cantrip/ray-of-frost.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "dl8YwvMboBqX2OC4",
-          "fieldPath": "system.description.value",
-          "name": "Resistance",
-          "sourcePath": "spells/cantrip/resistance.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "dl8YwvMboBqX2OC4",
-          "fieldPath": "system.description.value",
-          "name": "Resistance",
-          "sourcePath": "spells/cantrip/resistance.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "n9pJzTDsAwQxJVRl",
-          "fieldPath": "system.description.value",
-          "name": "Sacred Flame",
-          "sourcePath": "spells/cantrip/sacred-flame.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "n9pJzTDsAwQxJVRl",
-          "fieldPath": "system.description.value",
-          "name": "Sacred Flame",
-          "sourcePath": "spells/cantrip/sacred-flame.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "VzgFzcmocr1X1cp4",
-          "fieldPath": "system.description.value",
-          "name": "Shillelagh",
-          "sourcePath": "spells/cantrip/shillelagh.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "VzgFzcmocr1X1cp4",
-          "fieldPath": "system.description.value",
-          "name": "Shillelagh",
-          "sourcePath": "spells/cantrip/shillelagh.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "XvbiNhNqXXIFisIy",
-          "fieldPath": "system.description.value",
-          "name": "Shocking Grasp",
-          "sourcePath": "spells/cantrip/shocking-grasp.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "XvbiNhNqXXIFisIy",
-          "fieldPath": "system.description.value",
-          "name": "Shocking Grasp",
-          "sourcePath": "spells/cantrip/shocking-grasp.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "8zT7njvqbpXs4Cel",
-          "fieldPath": "system.description.value",
-          "name": "Spare the Dying",
-          "sourcePath": "spells/cantrip/spare-the-dying.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "8zT7njvqbpXs4Cel",
-          "fieldPath": "system.description.value",
-          "name": "Spare the Dying",
-          "sourcePath": "spells/cantrip/spare-the-dying.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "MUO1uYN7JR1hm4dR",
-          "fieldPath": "system.description.value",
-          "name": "Thaumaturgy",
-          "sourcePath": "spells/cantrip/thaumaturgy.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "MUO1uYN7JR1hm4dR",
-          "fieldPath": "system.description.value",
-          "name": "Thaumaturgy",
-          "sourcePath": "spells/cantrip/thaumaturgy.yml"
         }
       ]
     },

@@ -181,6 +181,16 @@ test("rebaseInvariantTokens splits a legacy paragraph at sentence boundaries", (
   );
 });
 
+test("rebaseInvariantTokens drops a legacy spell header and empty spacer paragraph", () => {
+  const source = "<p>First rule.</p><p><strong>At Higher Levels.</strong> Second rule.</p>";
+  const legacy = "<p><em>Abiurazione di 1° livello</em></p><ul><li><strong>Tempo di lancio:</strong> 1 azione</li><li><strong>Gittata:</strong> 9 metri</li><li><strong>Componenti:</strong> V, S</li><li><strong>Durata:</strong> Istantanea</li></ul><p>Prima regola.</p><p>&nbsp;</p><p><strong>Ai Livelli Superiori.</strong> Seconda regola.</p>";
+
+  assert.equal(
+    rebaseInvariantTokens(source, legacy),
+    "<p>Prima regola.</p><p><strong>Ai Livelli Superiori.</strong> Seconda regola.</p>"
+  );
+});
+
 test("rebaseInvariantTokens projects translated text onto an equivalent source HTML skeleton", () => {
   const source = "<table><tr><td><strong>Level</strong></td><td>Feature</td></tr></table>";
   const legacy = "<table><thead><tr><th><p><strong>Livello</strong></p></th><th><p>Privilegio</p></th></tr></thead></table>";
