@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "mode": "apply",
+  "mode": "dry-run",
   "packs": [
     {
       "pack": "spells",
@@ -39,11 +39,27 @@
         },
         {
           "pack": "spells",
+          "id": "eS7XnnApoxRxYXPs",
+          "name": "Charm Person",
+          "sourcePath": "spells/1st-level/charm-person.yml",
+          "lookupKey": "Charm Person",
+          "matchedLookupKey": "Charm Person"
+        },
+        {
+          "pack": "spells",
           "id": "LWTUqKkUQdMAmOe0",
           "name": "Color Spray",
           "sourcePath": "spells/1st-level/color-spray.yml",
           "lookupKey": "Color Spray",
           "matchedLookupKey": "Color Spray"
+        },
+        {
+          "pack": "spells",
+          "id": "arzCrMRgcNiQuh43",
+          "name": "Command",
+          "sourcePath": "spells/1st-level/command.yml",
+          "lookupKey": "Command",
+          "matchedLookupKey": "Command"
         },
         {
           "pack": "spells",
@@ -107,25 +123,7 @@
           "name": "Divine Favor",
           "sourcePath": "spells/1st-level/divine-favor.yml",
           "lookupKey": "Divine Favor",
-          "matchedLookupKey": "Divine Favor",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Intonando una preghiera, l'incantatore è pervaso da un alone radioso di luce divina. Finché l'incantesimo non termina, i suoi attacchi con le armi infliggono 1d4 danni radiosi extra se colpiscono.</p>"
-            },
-            {
-              "fieldPath": "effects[YNlbHxIwut5swF2d].description",
-              "translationPath": [
-                "effects",
-                "YNlbHxIwut5swF2d",
-                "description"
-              ],
-              "value": "<p>Intonando una preghiera, l'incantatore è pervaso da un alone radioso di luce divina. Finché l'incantesimo non termina, i suoi attacchi con le armi infliggono 1d4 danni radiosi extra se colpiscono.</p>"
-            }
-          ]
+          "matchedLookupKey": "Divine Favor"
         },
         {
           "pack": "spells",
@@ -241,6 +239,14 @@
         },
         {
           "pack": "spells",
+          "id": "0xmXiPiuYws1OGcX",
+          "name": "Hunter's Mark",
+          "sourcePath": "spells/1st-level/hunters-mark.yml",
+          "lookupKey": "Hunter's Mark",
+          "matchedLookupKey": "Hunter's Mark"
+        },
+        {
+          "pack": "spells",
           "id": "3OZnNhunvRtPOQmH",
           "name": "Identify",
           "sourcePath": "spells/1st-level/identify.yml",
@@ -277,16 +283,7 @@
           "name": "Longstrider",
           "sourcePath": "spells/1st-level/longstrider.yml",
           "lookupKey": "Longstrider",
-          "matchedLookupKey": "Longstrider",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore tocca una creatura, la cui velocità aumenta di 3 metri finché l'incantesimo non termina.</p>\n\n<p><strong>Ai Livelli Superiori</strong>: Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, l'incantatore può bersagliare una creatura aggiuntiva per ogni slot di livello superiore al 1°.</p>"
-            }
-          ]
+          "matchedLookupKey": "Longstrider"
         },
         {
           "pack": "spells",
@@ -366,16 +363,7 @@
           "name": "Thunderwave",
           "sourcePath": "spells/1st-level/thunderwave.yml",
           "lookupKey": "Thunderwave",
-          "matchedLookupKey": "Thunderwave",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Un'ondata di energia tonante si propaga dall'incantatore. Ogni creatura entro un cubo con spigolo di 4,5 metri originato dall'incantatore deve effettuare un tiro salvezza su Costituzione. Se lo fallisce, subisce 2d8 danni da tuono e viene spinta di 3 metri più lontana dall'incantatore, mentre se lo supera, subisce soltanto la metà di quei danni e non viene spinta. Inoltre, gli oggetti non fissati e completamente situati all'interno dell'area di effetto vengono automaticamente spinti 3 metri più lontani dall'incantatore a seguito dell'effetto dell'incantesimo.</p><p>L'incantesimo emette un rombo tonante udibile fino a 90 metri di distanza.</p><p><strong>Ai Livelli Superiori.</strong>&nbsp;Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, i danni aumentano di 1d8 per ogni slot di livello superiore al 1°.</p>"
-            }
-          ]
+          "matchedLookupKey": "Thunderwave"
         },
         {
           "pack": "spells",
@@ -431,16 +419,7 @@
           "name": "Blindness/Deafness",
           "sourcePath": "spells/2nd-level/blindness-deafness.yml",
           "lookupKey": "Blindness/Deafness",
-          "matchedLookupKey": "Blindness/Deafness",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore può accecare o assordare un nemico, scegliendo una creatura entro gittata e che egli sia in grado di vedere. Quella creatura deve effettuare un tiro salvezza su Costituzione. Se lo fallisce, è accecata o assordata (a scelta dell'incantatore) per la durata dell'incantesimo. Alla fine di ogni suo turno può effettuare un nuovo tiro salvezza su Costituzione. Se lo supera, l'incantesimo termina.</p><p><strong>Al Livelli Superiori.</strong> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 3° livello o superiore, può bersagliare una creatura aggiuntiva per ogni slot superiore al 2°.</p>"
-            }
-          ]
+          "matchedLookupKey": "Blindness/Deafness"
         },
         {
           "pack": "spells",
@@ -672,16 +651,7 @@
           "name": "Ray of Enfeeblement",
           "sourcePath": "spells/2nd-level/ray-of-enfeeblement.yml",
           "lookupKey": "Ray of Enfeeblement",
-          "matchedLookupKey": "Ray of Enfeeblement",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Un fascio nero di energia debilitante parte dal tuo dito diretto contro una creatura a gittata. Effettua un attacco a distanza con incantesimo contro il bersaglio. Se colpisci, il bersaglio infliggerà la metà dei danni con gli attacchi con arma che usano la Forza fino al termine dell’incantesimo.</p>\n\n<p>Al termine di ciascun turno del bersaglio, questi può effettuare un tiro salvezza su Costituzione contro l’incantesimo. Se lo supera, l’incantesimo ha termine.</p>"
-            }
-          ]
+          "matchedLookupKey": "Ray of Enfeeblement"
         },
         {
           "pack": "spells",
@@ -913,16 +883,7 @@
           "name": "Mass Healing Word",
           "sourcePath": "spells/3rd-level/mass-healing-word.yml",
           "lookupKey": "Mass Healing Word",
-          "matchedLookupKey": "Mass Healing Word",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Finch&eacute; pronunci&nbsp;parole di cura, fino a sei creature&nbsp;di tua scelta che puoi vedere entro gittata&nbsp;riacquistano punti ferita&nbsp;pari a 1d4 + il modificatore da Incantatore. Questo incantesimo non ha effetto su non morti o costrutti.</p>\n\n<p><strong>Ai Livelli Superiori.</strong> Quando lanci questa magia usando uno slot incantesimo di 4&deg; livello o superiore, la guarigione aumenta di&nbsp;1d4 per ogni livello di slot superiore al 3&deg;.</p>"
-            }
-          ]
+          "matchedLookupKey": "Mass Healing Word"
         },
         {
           "pack": "spells",
@@ -1706,16 +1667,7 @@
           "name": "Regenerate",
           "sourcePath": "spells/7th-level/regenerate.yml",
           "lookupKey": "Regenerate",
-          "matchedLookupKey": "Regenerate",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore tocca una creatura e amplifica le sue capacità curative naturali. Il bersaglio recupera 4d8 + 15 punti ferita. Per la durata dell'incantesimo, il bersaglio recupera 1 punto ferita all'inizio di ogni suo turno (10 punti ferita al minuto).</p>\n\n<p>Se al bersaglio sono state recise parti del corpo (dita, gambe, coda e così via) quelle parti vengono rigenerate dopo 2 minuti. Se l'incantatore è in possesso della parte recisa e l'appoggia al moncherino, l'incantesimo riunisce istantaneamente l'arto reciso al moncherino.</p>"
-            }
-          ]
+          "matchedLookupKey": "Regenerate"
         },
         {
           "pack": "spells",
@@ -1763,16 +1715,7 @@
           "name": "Antimagic Field",
           "sourcePath": "spells/8th-level/antimagic-field.yml",
           "lookupKey": "Antimagic Field",
-          "matchedLookupKey": "Antimagic Field",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore viene circondato da una sfera di anti-magia invisibile del raggio di 3 metri. Quest'area è isolata dall'energia magica che pervade il multiverso. All'interno della sfera non è possibile lanciare incantesimi, le creature evocate scompaiono e perfino gli oggetti magici diventano oggetti comuni. Finché l'incantesimo non termina, la sfera si muove assieme all'incantatore, centrata su di lui. Gli incantesimi e gli altri effetti magici, ad eccezione di quelli creati da un artefatto o da una divinità, sono soppressi all'interno della sfera e non possono spingersi all'interno di essa. Uno slot speso per lanciare un incantesimo soppresso viene consumato. Finché un effetto è soppresso, esso non funziona, ma il tempo che trascorre da soppresso viene comunque sottratto dalla sua durata.</p><p>Effetti a Bersaglio.</p><p><strong>Gli incantesimi e gli altri effetti magici, come @UUID[Compendium.dnd5e.spells.Item.41JIhpDyM9Anm7cs]{dardo incantato} e @UUID[Compendium.dnd5e.spells.Item.eS7XnnApoxRxYXPs]{charme su persone}, che bersagliano una creatura o un oggetto all'interno della sfera non hanno alcun effetto su quel bersaglio.</strong>Aree di Magia.</p><p><strong>L'area di un altro incantesimo o effetto magico, come palla di fuoco, non può estendersi all'interno della sfera. Se la sfera si sovrappone a un'area di magia, quella parte dell'area che è coperta dalla sfera viene soppressa. Per esempio, le fiamme create da un @UUID[Compendium.dnd5e.spells.Item.X3DrXgxjwI2dvkD6]{muro di fuoco} sono soppresse all'interno della sfera e creano un varco nel muro se la sovrapposizione è larga a sufficienza.</strong>Incantesimi.</p><p><strong>&nbsp;Ogni incantesimo o altro effetto magico su una creatura o un oggetto all'interno della sfera è soppresso finché la creatura o l'oggetto in questione si trova al suo interno.</strong>Oggetti Magici.</p><p><strong>Le proprietà e i poteri degli oggetti magici sono soppressi all'interno della sfera. Per esempio, una spada Lunga +I all'interno della sfera funziona come una spada lunga non magica.</strong>Le proprietà e i poteri di un'arma magica vengono soppressi se usati contro un bersaglio all'interno della sfera o impugnati da un attaccante all'interno della sfera. Se un'arma magica o una munizione magica esce interamente dalla sfera (per esempio se l'incantatore scaglia una freccia magica o una lancia magica verso un bersaglio al di fuori della sfera), la magia dell'oggetto cessa di essere soppressa non appena esce.</p><p>Viaggio Magico.</p><p><strong>Il teletrasporto e i viaggi planari non funzionano all'interno della sfera, che essa costituisca il punto di partenza o di arrivo di un tale viaggio magico. Un Portale verso un altro luogo, mondo o piano di esistenza, nonché un varco verso uno spazio extradlmensionale come quello creato dall'incantesimo @UUID[Compendium.dnd5e.spells.Item.ap4dmtshjEbwU3Ts]{trucco della corda}, si chiude temporaneamente finché si trova all'interno della sfera.</strong>Creature e Oggetti</p><p><strong>. Una creatura o un oggetto evocato o creato dalla magia svanisce temporaneamente dall'esistenza all'interno della sfera. Una tale creatura</strong>ricompare istantaneamente una volta che lo spazio che essa occupa non si trova più all'interno della sfera..</p><p><strong>@UUID[Compendium.dnd5e.spells.Item.15Fa6q1nH27XfbR8]{Dissolvi Magie}.</strong>Gli incantesimi e gli effetti magici come dissolvi magie non hanno alcun effetto sulla sfera. Analogamente, le sfere create da più incantesimi campo anti-magia non si annullano a vicenda.</p>"
-            }
-          ]
+          "matchedLookupKey": "Antimagic Field"
         },
         {
           "pack": "spells",
@@ -1876,16 +1819,7 @@
           "name": "Mass Heal",
           "sourcePath": "spells/9th-level/mass-heal.yml",
           "lookupKey": "Mass Heal",
-          "matchedLookupKey": "Mass Heal",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>L'incantatore può ripristinare fino a 700 punti ferita, divisi tra qualsiasi numero di creature che riesce a vedere. Le creature sono anche guarite da tutte le malattie, dalla cecità e dalla sordità. Questo incantesimo non ha effetto su non morti o costrutti.</p>"
-            }
-          ]
+          "matchedLookupKey": "Mass Heal"
         },
         {
           "pack": "spells",
@@ -2159,60 +2093,6 @@
         },
         {
           "pack": "spells",
-          "id": "eS7XnnApoxRxYXPs",
-          "name": "Charm Person",
-          "sourcePath": "spells/1st-level/charm-person.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Charm Person",
-          "matchedLookupKey": "Charm Person",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "eS7XnnApoxRxYXPs",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "eS7XnnApoxRxYXPs",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "arzCrMRgcNiQuh43",
-          "name": "Command",
-          "sourcePath": "spells/1st-level/command.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Command",
-          "matchedLookupKey": "Command",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "arzCrMRgcNiQuh43",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "arzCrMRgcNiQuh43",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
           "id": "JGT5bNqu9REL7Fuz",
           "name": "Find Familiar",
           "sourcePath": "spells/1st-level/find-familiar.yml",
@@ -2242,33 +2122,6 @@
               "message": "Foundry reference count differs from source",
               "pack": "spells",
               "id": "JGT5bNqu9REL7Fuz",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "0xmXiPiuYws1OGcX",
-          "name": "Hunter's Mark",
-          "sourcePath": "spells/1st-level/hunters-mark.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Hunter's Mark",
-          "matchedLookupKey": "Hunter's Mark",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "0xmXiPiuYws1OGcX",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "0xmXiPiuYws1OGcX",
               "fieldPath": "system.description.value"
             }
           ]

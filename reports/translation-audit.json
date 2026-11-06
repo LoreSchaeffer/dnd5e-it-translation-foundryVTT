@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1192,
+      "translated": 1195,
       "missing": 69,
-      "partial": 1130,
+      "partial": 1127,
       "review": 203
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 2158,
+      "invariantFailures": 2152,
       "englishResiduals": 118,
       "imperialResiduals": 2
     },
-    "blockingIssues": 8448
+    "blockingIssues": 8442
   },
   "packs": [
     {
@@ -76741,9 +76741,9 @@
       "summary": {
         "documents": {
           "total": 320,
-          "translated": 255,
+          "translated": 258,
           "missing": 0,
-          "partial": 65,
+          "partial": 62,
           "review": 0
         },
         "folders": {
@@ -76757,7 +76757,7 @@
           "total": 2007,
           "translated": 2007,
           "missing": 0,
-          "invariantFailures": 170,
+          "invariantFailures": 164,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
@@ -76772,46 +76772,6 @@
           "fieldPath": "system.description.value",
           "name": "Bless",
           "sourcePath": "spells/1st-level/bless.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "eS7XnnApoxRxYXPs",
-          "fieldPath": "system.description.value",
-          "name": "Charm Person",
-          "sourcePath": "spells/1st-level/charm-person.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "eS7XnnApoxRxYXPs",
-          "fieldPath": "system.description.value",
-          "name": "Charm Person",
-          "sourcePath": "spells/1st-level/charm-person.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "arzCrMRgcNiQuh43",
-          "fieldPath": "system.description.value",
-          "name": "Command",
-          "sourcePath": "spells/1st-level/command.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "arzCrMRgcNiQuh43",
-          "fieldPath": "system.description.value",
-          "name": "Command",
-          "sourcePath": "spells/1st-level/command.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -76842,26 +76802,6 @@
           "fieldPath": "system.description.value",
           "name": "Find Familiar",
           "sourcePath": "spells/1st-level/find-familiar.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "0xmXiPiuYws1OGcX",
-          "fieldPath": "system.description.value",
-          "name": "Hunter's Mark",
-          "sourcePath": "spells/1st-level/hunters-mark.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "0xmXiPiuYws1OGcX",
-          "fieldPath": "system.description.value",
-          "name": "Hunter's Mark",
-          "sourcePath": "spells/1st-level/hunters-mark.yml"
         },
         {
           "code": "html-tag-sequence",
