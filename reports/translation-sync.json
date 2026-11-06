@@ -5247,6 +5247,38 @@
         },
         {
           "pack": "items",
+          "id": "rJKXDPikXSYXYgb5",
+          "name": "Net +1",
+          "sourcePath": "items/weapon/net-1.yml",
+          "lookupKey": "Net +1",
+          "matchedLookupKey": "Net +1"
+        },
+        {
+          "pack": "items",
+          "id": "hHX5qXva1ScCpBpL",
+          "name": "Net +2",
+          "sourcePath": "items/weapon/net-2.yml",
+          "lookupKey": "Net +2",
+          "matchedLookupKey": "Net +2"
+        },
+        {
+          "pack": "items",
+          "id": "iIuNqnpWCHrLEKWj",
+          "name": "Net +3",
+          "sourcePath": "items/weapon/net-3.yml",
+          "lookupKey": "Net +3",
+          "matchedLookupKey": "Net +3"
+        },
+        {
+          "pack": "items",
+          "id": "aEiM49V8vWpWw7rU",
+          "name": "Net",
+          "sourcePath": "items/weapon/net.yml",
+          "lookupKey": "Net",
+          "matchedLookupKey": "Net"
+        },
+        {
+          "pack": "items",
           "id": "tFLmAPUDLxBY8jFO",
           "name": "Nine Lives Stealer Greatsword",
           "sourcePath": "items/weapon/nine-lives-stealer-greatsword.yml",
@@ -10066,114 +10098,6 @@
               "message": "HTML attributes differ from source",
               "pack": "items",
               "id": "w56FIjFafs2rN6iK",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "rJKXDPikXSYXYgb5",
-          "name": "Net +1",
-          "sourcePath": "items/weapon/net-1.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Net +1",
-          "matchedLookupKey": "Net +1",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "rJKXDPikXSYXYgb5",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "rJKXDPikXSYXYgb5",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "hHX5qXva1ScCpBpL",
-          "name": "Net +2",
-          "sourcePath": "items/weapon/net-2.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Net +2",
-          "matchedLookupKey": "Net +2",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "hHX5qXva1ScCpBpL",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "hHX5qXva1ScCpBpL",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "iIuNqnpWCHrLEKWj",
-          "name": "Net +3",
-          "sourcePath": "items/weapon/net-3.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Net +3",
-          "matchedLookupKey": "Net +3",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "iIuNqnpWCHrLEKWj",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "iIuNqnpWCHrLEKWj",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "aEiM49V8vWpWw7rU",
-          "name": "Net",
-          "sourcePath": "items/weapon/net.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Net",
-          "matchedLookupKey": "Net",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "aEiM49V8vWpWw7rU",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "aEiM49V8vWpWw7rU",
               "fieldPath": "system.description.value"
             }
           ]

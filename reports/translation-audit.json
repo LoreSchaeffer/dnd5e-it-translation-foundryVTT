@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1603,
+      "translated": 1607,
       "missing": 69,
-      "partial": 719,
+      "partial": 715,
       "review": 111
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 1370,
+      "invariantFailures": 1362,
       "englishResiduals": 113,
       "imperialResiduals": 2
     },
-    "blockingIssues": 7568
+    "blockingIssues": 7560
   },
   "packs": [
     {
@@ -5317,9 +5317,9 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 715,
+          "translated": 719,
           "missing": 0,
-          "partial": 170,
+          "partial": 166,
           "review": 41
         },
         "folders": {
@@ -5333,7 +5333,7 @@
           "total": 2227,
           "translated": 2227,
           "missing": 0,
-          "invariantFailures": 423,
+          "invariantFailures": 415,
           "englishResiduals": 41,
           "imperialResiduals": 2
         }
@@ -9038,86 +9038,6 @@
           "name": "Morningstar",
           "fieldPath": "name",
           "sourcePath": "items/weapon/morningstar.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "rJKXDPikXSYXYgb5",
-          "fieldPath": "system.description.value",
-          "name": "Net +1",
-          "sourcePath": "items/weapon/net-1.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "rJKXDPikXSYXYgb5",
-          "fieldPath": "system.description.value",
-          "name": "Net +1",
-          "sourcePath": "items/weapon/net-1.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "hHX5qXva1ScCpBpL",
-          "fieldPath": "system.description.value",
-          "name": "Net +2",
-          "sourcePath": "items/weapon/net-2.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "hHX5qXva1ScCpBpL",
-          "fieldPath": "system.description.value",
-          "name": "Net +2",
-          "sourcePath": "items/weapon/net-2.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "iIuNqnpWCHrLEKWj",
-          "fieldPath": "system.description.value",
-          "name": "Net +3",
-          "sourcePath": "items/weapon/net-3.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "iIuNqnpWCHrLEKWj",
-          "fieldPath": "system.description.value",
-          "name": "Net +3",
-          "sourcePath": "items/weapon/net-3.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "aEiM49V8vWpWw7rU",
-          "fieldPath": "system.description.value",
-          "name": "Net",
-          "sourcePath": "items/weapon/net.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "aEiM49V8vWpWw7rU",
-          "fieldPath": "system.description.value",
-          "name": "Net",
-          "sourcePath": "items/weapon/net.yml"
         },
         {
           "code": "html-tag-sequence",
