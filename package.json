@@ -1,0 +1,13 @@
+{
+  "name": "dnd5e-it-translation-tools",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "audit": "node scripts/audit-translations.mjs"
+  },
+  "devDependencies": {
+    "js-yaml": "^4.1.0"
+  }
+}
