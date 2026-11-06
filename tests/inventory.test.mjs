@@ -41,7 +41,8 @@ test("loadBabelePack normalizes entry and folder records", async () => {
     [
       ["folder", "Adventuring Gear", "mixed", "Folder"],
       ["entry", "Flame Test", "mixed", "BabeleEntry"],
-      ["entry", "Sample Outcomes", "mixed", "BabeleEntry"]
+      ["entry", "Sample Outcomes", "mixed", "BabeleEntry"],
+      ["entry", "Sample Rules", "mixed", "BabeleEntry"]
     ]
   );
   assert.equal(records[1].data.name, "Prova di Fiamma");
