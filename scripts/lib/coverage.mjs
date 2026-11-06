@@ -27,7 +27,7 @@ function translateNestedField(translation, rest) {
   return getPath(translation, rest.replace(/^system\./, "")) ?? getPath(translation, rest);
 }
 
-function translationForField(sourceRecord, field, translation) {
+export function translationForField(sourceRecord, field, translation) {
   const fieldPath = field.fieldPath;
   if (fieldPath === "name") return translation?.name;
   if (fieldPath === "system.description.value" || fieldPath === "description") return translation?.description;

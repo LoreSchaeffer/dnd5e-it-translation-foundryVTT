@@ -5,19 +5,19 @@
 | backgrounds | 3 | 1 | 0 | 2 | 0 | 2 | 5 |
 | classes | 12 | 0 | 0 | 12 | 0 | 207 | 270 |
 | classfeatures | 235 | 0 | 78 | 157 | 27 | 417 | 640 |
-| effects | 214 | 0 | 214 | 0 | 20 | 221 | 234 |
+| effects | 214 | 1 | 213 | 0 | 19 | 220 | 232 |
 | heroes | 12 | 0 | 0 | 12 | 0 | 1153 | 1153 |
 | items | 885 | 62 | 42 | 781 | 0 | 547 | 2422 |
 | monsterfeatures | 252 | 0 | 66 | 186 | 0 | 143 | 1007 |
-| monsters | 337 | 0 | 14 | 323 | 15 | 6783 | 6791 |
+| monsters | 337 | 1 | 13 | 323 | 15 | 6781 | 6790 |
 | races | 35 | 0 | 13 | 22 | 0 | 101 | 107 |
-| rules | 20 | 0 | 5 | 15 | 0 | 772 | 93 |
+| rules | 20 | 1 | 4 | 15 | 0 | 770 | 92 |
 | spells | 320 | 0 | 1 | 319 | 2 | 1185 | 2196 |
 | subclasses | 12 | 0 | 0 | 12 | 0 | 59 | 77 |
-| tables | 31 | 0 | 24 | 7 | 0 | 289 | 90 |
+| tables | 31 | 1 | 23 | 7 | 0 | 285 | 89 |
 | tradegoods | 23 | 13 | 0 | 10 | 0 | 0 | 18 |
 
-Total blocking issues: 15103
+Total blocking issues: 15098
 
 ## Issues
 
@@ -947,7 +947,6 @@ Total blocking issues: 15103
 - **missing-folder** `effects:tlwRMODOZMa8Cksf`
 - **missing-folder** `effects:IfLBBXmSvJFGNJaF`
 - **missing-folder** `effects:ACBCkk4XVWx3KkXb`
-- **missing-folder** `effects:w70rfvAVNHLuTPv3`
 - **missing-folder** `effects:m7bI2qqrnUPGPIjj`
 - **missing-folder** `effects:TxqYeqxORIBFjl3d`
 - **missing-folder** `effects:iDHeF0EnK8tpVcgP`
@@ -1076,7 +1075,6 @@ Total blocking issues: 15103
 - **missing-document** `effects:HjLkxDzLNBogspf9`
 - **missing-document** `effects:RiUrP3pEtoMXss7j`
 - **missing-document** `effects:UzcM4kRFU9oCbLkN`
-- **missing-document** `effects:e46IrPKA531h2afv`
 - **missing-document** `effects:0bUM3GtoOpK0eR0t`
 - **missing-document** `effects:y6KvIwD5qINhJpoQ`
 - **missing-document** `effects:pkByuQ5fLF5opCQ0`
@@ -11972,7 +11970,6 @@ Total blocking issues: 15103
 - **missing-document** `monsters:tuHyePQ9GazMTyc0`
 - **missing-document** `monsters:iHj5Tkm6HRgXuaWP`
 - **missing-document** `monsters:Tac7eq0AXJco0nml`
-- **missing-document** `monsters:JNmHqTwkWayvkH37`
 - **missing-document** `monsters:UrXp9O9N7DvdH9nL`
 - **missing-document** `monsters:CoRG225xaZf4ewLF`
 - **missing-document** `monsters:abG4qRbHQzehlVYz`
@@ -12742,7 +12739,6 @@ Total blocking issues: 15103
 - **missing-document** `rules:4ANrmP15aBGam0QS`
 - **missing-document** `rules:xxt7YT2t76JxNTel`
 - **missing-document** `rules:sfJtvPjEs50Ruzi4`
-- **missing-document** `rules:plCB5ei1JbVtBseb`
 - **missing-folder** `spells:5Si35RRLLaaoWvC3`
 - **missing-folder** `spells:DQSeMEpnNmujkHlX`
 - **html-tag-sequence** `spells:7p9IuWrSWFgfyQo2:system.description.value`
@@ -15103,7 +15099,6 @@ Total blocking issues: 15103
 - **missing-field** `tables:ypk2L9feVwTx0QVj:results[dswa3ZDK4ZIhw98a].description`
 - **missing-field** `tables:ypk2L9feVwTx0QVj:results[zW1HUUNLqwmOfFgg].description`
 - **missing-field** `tables:ypk2L9feVwTx0QVj:results[0FNn7OzOX4DtlC4x].description`
-- **missing-document** `tables:hHR0Zw75o9PXYl4c`
 - **missing-document** `tables:5PTePCTxrk2fIrll`
 - **missing-document** `tables:X03rbSjVcNNJNqa8`
 - **html-tag-sequence** `tradegoods:mFJkwdzb9IpLC3Ip:system.description.value`

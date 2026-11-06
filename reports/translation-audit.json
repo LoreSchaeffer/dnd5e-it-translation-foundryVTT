@@ -3,27 +3,27 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 76,
-      "missing": 457,
+      "translated": 80,
+      "missing": 453,
       "partial": 1858,
       "review": 581
     },
     "folders": {
       "total": 120,
-      "translated": 56,
-      "missing": 64,
+      "translated": 57,
+      "missing": 63,
       "partial": 0,
       "review": 0
     },
     "fields": {
       "total": 15660,
-      "translated": 3781,
-      "missing": 11879,
+      "translated": 3790,
+      "missing": 11870,
       "invariantFailures": 2856,
       "englishResiduals": 492,
       "imperialResiduals": 828
     },
-    "blockingIssues": 15103
+    "blockingIssues": 15098
   },
   "packs": [
     {
@@ -8425,22 +8425,22 @@
       "summary": {
         "documents": {
           "total": 214,
-          "translated": 0,
-          "missing": 214,
+          "translated": 1,
+          "missing": 213,
           "partial": 0,
           "review": 0
         },
         "folders": {
           "total": 20,
-          "translated": 0,
-          "missing": 20,
+          "translated": 1,
+          "missing": 19,
           "partial": 0,
           "review": 0
         },
         "fields": {
           "total": 221,
-          "translated": 0,
-          "missing": 221,
+          "translated": 1,
+          "missing": 220,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -8534,14 +8534,6 @@
           "id": "ACBCkk4XVWx3KkXb",
           "name": "D20 Tests",
           "sourcePath": "effects/d20-tests/_folder.yml"
-        },
-        {
-          "code": "missing-folder",
-          "severity": "blocking",
-          "pack": "effects",
-          "id": "w70rfvAVNHLuTPv3",
-          "name": "Damage Immunities",
-          "sourcePath": "effects/damage-immunities/_folder.yml"
         },
         {
           "code": "missing-folder",
@@ -9566,14 +9558,6 @@
           "id": "UzcM4kRFU9oCbLkN",
           "name": "Disadvantage on D20 Tests",
           "sourcePath": "effects/d20-tests/disadvantage-on-d20-tests.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "effects",
-          "id": "e46IrPKA531h2afv",
-          "name": "Acid Immunity",
-          "sourcePath": "effects/damage-immunities/acid-immunity.yml"
         },
         {
           "code": "missing-document",
@@ -54778,8 +54762,8 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 0,
-          "missing": 14,
+          "translated": 1,
+          "missing": 13,
           "partial": 323,
           "review": 65
         },
@@ -54792,8 +54776,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 323,
-          "missing": 6783,
+          "translated": 325,
+          "missing": 6781,
           "invariantFailures": 0,
           "englishResiduals": 65,
           "imperialResiduals": 0
@@ -110885,14 +110869,6 @@
           "code": "missing-document",
           "severity": "blocking",
           "pack": "monsters",
-          "id": "JNmHqTwkWayvkH37",
-          "name": "Dancing Lights (medium)",
-          "sourcePath": "monsters/summons/dancing-lights-medium.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsters",
           "id": "UrXp9O9N7DvdH9nL",
           "name": "Dancing Lights (tiny)",
           "sourcePath": "monsters/summons/dancing-lights-tiny.yml"
@@ -117038,8 +117014,8 @@
       "summary": {
         "documents": {
           "total": 20,
-          "translated": 0,
-          "missing": 5,
+          "translated": 1,
+          "missing": 4,
           "partial": 15,
           "review": 2
         },
@@ -117052,8 +117028,8 @@
         },
         "fields": {
           "total": 877,
-          "translated": 105,
-          "missing": 772,
+          "translated": 107,
+          "missing": 770,
           "invariantFailures": 0,
           "englishResiduals": 5,
           "imperialResiduals": 1
@@ -117895,14 +117871,6 @@
           "id": "sfJtvPjEs50Ruzi4",
           "name": "Magic Items A-Z",
           "sourcePath": "rules/magic-items-a-z.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "plCB5ei1JbVtBseb",
-          "name": "Spells A-Z",
-          "sourcePath": "rules/spells-a-z.yml"
         }
       ]
     },
@@ -139844,8 +139812,8 @@
       "summary": {
         "documents": {
           "total": 31,
-          "translated": 0,
-          "missing": 24,
+          "translated": 1,
+          "missing": 23,
           "partial": 7,
           "review": 0
         },
@@ -139858,8 +139826,8 @@
         },
         "fields": {
           "total": 299,
-          "translated": 10,
-          "missing": 289,
+          "translated": 14,
+          "missing": 285,
           "invariantFailures": 6,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -140633,14 +140601,6 @@
           "name": "Short-Term Madness",
           "fieldPath": "results[0FNn7OzOX4DtlC4x].description",
           "sourcePath": "tables/short-term-madness.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "tables",
-          "id": "hHR0Zw75o9PXYl4c",
-          "name": "Sphere of Annihilation",
-          "sourcePath": "tables/sphere-of-annihilation.yml"
         },
         {
           "code": "missing-document",
