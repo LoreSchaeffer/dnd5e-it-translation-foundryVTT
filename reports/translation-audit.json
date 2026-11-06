@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1228,
+      "translated": 1231,
       "missing": 69,
-      "partial": 1094,
+      "partial": 1091,
       "review": 203
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 2067,
+      "invariantFailures": 2059,
       "englishResiduals": 118,
       "imperialResiduals": 2
     },
-    "blockingIssues": 8357
+    "blockingIssues": 8349
   },
   "packs": [
     {
@@ -76741,9 +76741,9 @@
       "summary": {
         "documents": {
           "total": 320,
-          "translated": 291,
+          "translated": 294,
           "missing": 0,
-          "partial": 29,
+          "partial": 26,
           "review": 0
         },
         "folders": {
@@ -76757,7 +76757,7 @@
           "total": 2007,
           "translated": 2007,
           "missing": 0,
-          "invariantFailures": 79,
+          "invariantFailures": 71,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
@@ -77208,36 +77208,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "spells",
-          "id": "T1vpZLam7LezjToj",
-          "fieldPath": "system.description.value",
-          "name": "Divine Word",
-          "sourcePath": "spells/7th-level/divine-word.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "T1vpZLam7LezjToj",
-          "fieldPath": "system.description.value",
-          "name": "Divine Word",
-          "sourcePath": "spells/7th-level/divine-word.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "spells",
-          "id": "T1vpZLam7LezjToj",
-          "fieldPath": "system.description.value",
-          "name": "Divine Word",
-          "sourcePath": "spells/7th-level/divine-word.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
           "id": "Y7uWUO4yqUN0JKl0",
           "fieldPath": "system.description.value",
           "name": "Forcecage",
@@ -77374,26 +77344,6 @@
           "sourcePath": "spells/7th-level/teleport.yml"
         },
         {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "ZPd73HtKF3At11jh",
-          "fieldPath": "system.description.value",
-          "name": "Control Weather",
-          "sourcePath": "spells/8th-level/control-weather.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "ZPd73HtKF3At11jh",
-          "fieldPath": "system.description.value",
-          "name": "Control Weather",
-          "sourcePath": "spells/8th-level/control-weather.yml"
-        },
-        {
           "code": "html-attributes",
           "severity": "blocking",
           "message": "HTML attributes differ from source",
@@ -77412,36 +77362,6 @@
           "fieldPath": "system.description.value",
           "name": "Earthquake",
           "sourcePath": "spells/8th-level/earthquake.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "j8S49Rea8b1640Zi",
-          "fieldPath": "system.description.value",
-          "name": "Holy Aura",
-          "sourcePath": "spells/8th-level/holy-aura.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "j8S49Rea8b1640Zi",
-          "fieldPath": "system.description.value",
-          "name": "Holy Aura",
-          "sourcePath": "spells/8th-level/holy-aura.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "spells",
-          "id": "j8S49Rea8b1640Zi",
-          "fieldPath": "system.description.value",
-          "name": "Holy Aura",
-          "sourcePath": "spells/8th-level/holy-aura.yml"
         },
         {
           "code": "html-tag-sequence",

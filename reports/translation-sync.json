@@ -1855,6 +1855,14 @@
         },
         {
           "pack": "spells",
+          "id": "T1vpZLam7LezjToj",
+          "name": "Divine Word",
+          "sourcePath": "spells/7th-level/divine-word.yml",
+          "lookupKey": "Divine Word",
+          "matchedLookupKey": "Divine Word"
+        },
+        {
+          "pack": "spells",
           "id": "PQuEgKyCdovOvhqN",
           "name": "Etherealness",
           "sourcePath": "spells/7th-level/etherealness.yml",
@@ -1975,6 +1983,14 @@
         },
         {
           "pack": "spells",
+          "id": "ZPd73HtKF3At11jh",
+          "name": "Control Weather",
+          "sourcePath": "spells/8th-level/control-weather.yml",
+          "lookupKey": "Control Weather",
+          "matchedLookupKey": "Control Weather"
+        },
+        {
+          "pack": "spells",
           "id": "xNM9CzQQr2CieM4B",
           "name": "Demiplane",
           "sourcePath": "spells/8th-level/demiplane.yml",
@@ -2004,6 +2020,14 @@
           "sourcePath": "spells/8th-level/glibness.yml",
           "lookupKey": "Glibness",
           "matchedLookupKey": "Glibness"
+        },
+        {
+          "pack": "spells",
+          "id": "j8S49Rea8b1640Zi",
+          "name": "Holy Aura",
+          "sourcePath": "spells/8th-level/holy-aura.yml",
+          "lookupKey": "Holy Aura",
+          "matchedLookupKey": "Holy Aura"
         },
         {
           "pack": "spells",
@@ -2866,41 +2890,6 @@
         },
         {
           "pack": "spells",
-          "id": "T1vpZLam7LezjToj",
-          "name": "Divine Word",
-          "sourcePath": "spells/7th-level/divine-word.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Divine Word",
-          "matchedLookupKey": "Divine Word",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "T1vpZLam7LezjToj",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "T1vpZLam7LezjToj",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "spells",
-              "id": "T1vpZLam7LezjToj",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
           "id": "Y7uWUO4yqUN0JKl0",
           "name": "Forcecage",
           "sourcePath": "spells/7th-level/forcecage.yml",
@@ -3068,33 +3057,6 @@
         },
         {
           "pack": "spells",
-          "id": "ZPd73HtKF3At11jh",
-          "name": "Control Weather",
-          "sourcePath": "spells/8th-level/control-weather.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Control Weather",
-          "matchedLookupKey": "Control Weather",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "ZPd73HtKF3At11jh",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "ZPd73HtKF3At11jh",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
           "id": "x5JNBSyIBBZsjcGT",
           "name": "Earthquake",
           "sourcePath": "spells/8th-level/earthquake.yml",
@@ -3116,41 +3078,6 @@
               "message": "Foundry inline rolls differ from source",
               "pack": "spells",
               "id": "x5JNBSyIBBZsjcGT",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "j8S49Rea8b1640Zi",
-          "name": "Holy Aura",
-          "sourcePath": "spells/8th-level/holy-aura.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Holy Aura",
-          "matchedLookupKey": "Holy Aura",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "j8S49Rea8b1640Zi",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "j8S49Rea8b1640Zi",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "spells",
-              "id": "j8S49Rea8b1640Zi",
               "fieldPath": "system.description.value"
             }
           ]
