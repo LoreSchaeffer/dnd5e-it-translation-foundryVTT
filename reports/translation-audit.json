@@ -3,10 +3,10 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1355,
+      "translated": 1360,
       "missing": 69,
-      "partial": 967,
-      "review": 121
+      "partial": 962,
+      "review": 116
     },
     "folders": {
       "total": 120,
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 1906,
+      "invariantFailures": 1896,
       "englishResiduals": 118,
       "imperialResiduals": 2
     },
-    "blockingIssues": 8114
+    "blockingIssues": 8099
   },
   "packs": [
     {
@@ -5317,10 +5317,10 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 467,
+          "translated": 472,
           "missing": 0,
-          "partial": 418,
-          "review": 51
+          "partial": 413,
+          "review": 46
         },
         "folders": {
           "total": 17,
@@ -5333,7 +5333,7 @@
           "total": 2227,
           "translated": 2227,
           "missing": 0,
-          "invariantFailures": 959,
+          "invariantFailures": 949,
           "englishResiduals": 46,
           "imperialResiduals": 2
         }
@@ -6788,146 +6788,6 @@
           "fieldPath": "system.description.value",
           "name": "Robe of Useful Items",
           "sourcePath": "items/equipment/robe-of-useful-items.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "CG0LhGQtc3KOAeE1",
-          "name": "Tinderbox",
-          "sourcePath": "items/equipment-packs/burglars-pack/tinderbox.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "CG0LhGQtc3KOAeE1",
-          "fieldPath": "system.description.value",
-          "name": "Tinderbox",
-          "sourcePath": "items/equipment-packs/burglars-pack/tinderbox.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "CG0LhGQtc3KOAeE1",
-          "fieldPath": "system.description.value",
-          "name": "Tinderbox",
-          "sourcePath": "items/equipment-packs/burglars-pack/tinderbox.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "m7I2KkwIWttQSElS",
-          "name": "Tinderbox",
-          "sourcePath": "items/equipment-packs/dungeoneers-pack/tinderbox.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "m7I2KkwIWttQSElS",
-          "fieldPath": "system.description.value",
-          "name": "Tinderbox",
-          "sourcePath": "items/equipment-packs/dungeoneers-pack/tinderbox.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "m7I2KkwIWttQSElS",
-          "fieldPath": "system.description.value",
-          "name": "Tinderbox",
-          "sourcePath": "items/equipment-packs/dungeoneers-pack/tinderbox.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "1FSubnBpSTDmVaYV",
-          "name": "Tinderbox",
-          "sourcePath": "items/equipment-packs/explorers-pack/tinderbox.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "1FSubnBpSTDmVaYV",
-          "fieldPath": "system.description.value",
-          "name": "Tinderbox",
-          "sourcePath": "items/equipment-packs/explorers-pack/tinderbox.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "1FSubnBpSTDmVaYV",
-          "fieldPath": "system.description.value",
-          "name": "Tinderbox",
-          "sourcePath": "items/equipment-packs/explorers-pack/tinderbox.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "DSWvkerPQsusbqzJ",
-          "name": "Tinderbox",
-          "sourcePath": "items/equipment-packs/priests-pack/tinderbox.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "DSWvkerPQsusbqzJ",
-          "fieldPath": "system.description.value",
-          "name": "Tinderbox",
-          "sourcePath": "items/equipment-packs/priests-pack/tinderbox.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "DSWvkerPQsusbqzJ",
-          "fieldPath": "system.description.value",
-          "name": "Tinderbox",
-          "sourcePath": "items/equipment-packs/priests-pack/tinderbox.yml"
-        },
-        {
-          "code": "ambiguous-name",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "DNOSEAvF4Oh1DlWy",
-          "name": "Tinderbox",
-          "sourcePath": "items/loot/tinderbox.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "DNOSEAvF4Oh1DlWy",
-          "fieldPath": "system.description.value",
-          "name": "Tinderbox",
-          "sourcePath": "items/loot/tinderbox.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "DNOSEAvF4Oh1DlWy",
-          "fieldPath": "system.description.value",
-          "name": "Tinderbox",
-          "sourcePath": "items/loot/tinderbox.yml"
         },
         {
           "code": "foundry-inline-rolls",

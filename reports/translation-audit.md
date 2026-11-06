@@ -7,7 +7,7 @@
 | classfeatures | 235 | 235 | 0 | 0 | 0 | 0 | 0 |
 | effects | 214 | 214 | 0 | 0 | 0 | 0 | 0 |
 | heroes | 12 | 0 | 0 | 12 | 0 | 466 | 561 |
-| items | 885 | 467 | 0 | 418 | 0 | 0 | 1060 |
+| items | 885 | 472 | 0 | 413 | 0 | 0 | 1045 |
 | monsterfeatures | 252 | 0 | 61 | 191 | 0 | 132 | 753 |
 | monsters | 337 | 2 | 5 | 330 | 15 | 4810 | 5045 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
@@ -17,7 +17,7 @@
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 8114
+Total blocking issues: 8099
 
 ## Issues
 
@@ -727,21 +727,6 @@ Total blocking issues: 8114
 - **foundry-references** `items:2ksm2KXCY3vBHTAx:system.description.value`
 - **foundry-inline-rolls** `items:2ksm2KXCY3vBHTAx:system.description.value`
 - **foundry-formulas** `items:2ksm2KXCY3vBHTAx:system.description.value`
-- **ambiguous-name** `items:CG0LhGQtc3KOAeE1`
-- **html-tag-sequence** `items:CG0LhGQtc3KOAeE1:system.description.value`
-- **html-attributes** `items:CG0LhGQtc3KOAeE1:system.description.value`
-- **ambiguous-name** `items:m7I2KkwIWttQSElS`
-- **html-tag-sequence** `items:m7I2KkwIWttQSElS:system.description.value`
-- **html-attributes** `items:m7I2KkwIWttQSElS:system.description.value`
-- **ambiguous-name** `items:1FSubnBpSTDmVaYV`
-- **html-tag-sequence** `items:1FSubnBpSTDmVaYV:system.description.value`
-- **html-attributes** `items:1FSubnBpSTDmVaYV:system.description.value`
-- **ambiguous-name** `items:DSWvkerPQsusbqzJ`
-- **html-tag-sequence** `items:DSWvkerPQsusbqzJ:system.description.value`
-- **html-attributes** `items:DSWvkerPQsusbqzJ:system.description.value`
-- **ambiguous-name** `items:DNOSEAvF4Oh1DlWy`
-- **html-tag-sequence** `items:DNOSEAvF4Oh1DlWy:system.description.value`
-- **html-attributes** `items:DNOSEAvF4Oh1DlWy:system.description.value`
 - **foundry-inline-rolls** `items:eVbPkYjpl29RE2uW:system.description.value`
 - **foundry-formulas** `items:eVbPkYjpl29RE2uW:system.description.value`
 - **html-tag-sequence** `items:qBSEGJyHxdKIlBfj:system.description.value`
