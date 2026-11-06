@@ -655,6 +655,14 @@
         },
         {
           "pack": "spells",
+          "id": "X4c8xCkmF8U9HUMz",
+          "name": "Mirror Image",
+          "sourcePath": "spells/2nd-level/mirror-image.yml",
+          "lookupKey": "Mirror Image",
+          "matchedLookupKey": "Mirror Image"
+        },
+        {
+          "pack": "spells",
           "id": "wqfAVANuQonNBgnL",
           "name": "Misty Step",
           "sourcePath": "spells/2nd-level/misty-step.yml",
@@ -812,6 +820,14 @@
           "sourcePath": "spells/3rd-level/beacon-of-hope.yml",
           "lookupKey": "Beacon of Hope",
           "matchedLookupKey": "Beacon of Hope"
+        },
+        {
+          "pack": "spells",
+          "id": "pO4zGe5LmFIYqJiL",
+          "name": "Bestow Curse",
+          "sourcePath": "spells/3rd-level/bestow-curse.yml",
+          "lookupKey": "Bestow Curse",
+          "matchedLookupKey": "Bestow Curse"
         },
         {
           "pack": "spells",
@@ -1308,6 +1324,14 @@
           "sourcePath": "spells/4th-level/polymorph.yml",
           "lookupKey": "Polymorph",
           "matchedLookupKey": "Polymorph"
+        },
+        {
+          "pack": "spells",
+          "id": "NJgxf7pmSsBArIG7",
+          "name": "Private Sanctum",
+          "sourcePath": "spells/4th-level/private-sanctum.yml",
+          "lookupKey": "Private Sanctum",
+          "matchedLookupKey": "Private Sanctum"
         },
         {
           "pack": "spells",
@@ -2395,76 +2419,6 @@
         },
         {
           "pack": "spells",
-          "id": "X4c8xCkmF8U9HUMz",
-          "name": "Mirror Image",
-          "sourcePath": "spells/2nd-level/mirror-image.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Mirror Image",
-          "matchedLookupKey": "Mirror Image",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "X4c8xCkmF8U9HUMz",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "X4c8xCkmF8U9HUMz",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-formulas",
-              "severity": "blocking",
-              "message": "Foundry formulas differ from source",
-              "pack": "spells",
-              "id": "X4c8xCkmF8U9HUMz",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "pO4zGe5LmFIYqJiL",
-          "name": "Bestow Curse",
-          "sourcePath": "spells/3rd-level/bestow-curse.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Bestow Curse",
-          "matchedLookupKey": "Bestow Curse",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "pO4zGe5LmFIYqJiL",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "pO4zGe5LmFIYqJiL",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "spells",
-              "id": "pO4zGe5LmFIYqJiL",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
           "id": "pB7XVYwdGNcUG935",
           "name": "Glyph of Warding",
           "sourcePath": "spells/3rd-level/glyph-of-warding.yml",
@@ -2513,33 +2467,6 @@
               "message": "HTML attributes differ from source",
               "pack": "spells",
               "id": "7fFHlBk3UNX8gPKL",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "NJgxf7pmSsBArIG7",
-          "name": "Private Sanctum",
-          "sourcePath": "spells/4th-level/private-sanctum.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Private Sanctum",
-          "matchedLookupKey": "Private Sanctum",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "NJgxf7pmSsBArIG7",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "NJgxf7pmSsBArIG7",
               "fieldPath": "system.description.value"
             }
           ]

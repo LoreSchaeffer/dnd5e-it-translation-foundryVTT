@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1222,
+      "translated": 1225,
       "missing": 69,
-      "partial": 1100,
+      "partial": 1097,
       "review": 203
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 2084,
+      "invariantFailures": 2076,
       "englishResiduals": 118,
       "imperialResiduals": 2
     },
-    "blockingIssues": 8374
+    "blockingIssues": 8366
   },
   "packs": [
     {
@@ -76741,9 +76741,9 @@
       "summary": {
         "documents": {
           "total": 320,
-          "translated": 285,
+          "translated": 288,
           "missing": 0,
-          "partial": 35,
+          "partial": 32,
           "review": 0
         },
         "folders": {
@@ -76757,7 +76757,7 @@
           "total": 2007,
           "translated": 2007,
           "missing": 0,
-          "invariantFailures": 96,
+          "invariantFailures": 88,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
@@ -76858,66 +76858,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "spells",
-          "id": "X4c8xCkmF8U9HUMz",
-          "fieldPath": "system.description.value",
-          "name": "Mirror Image",
-          "sourcePath": "spells/2nd-level/mirror-image.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "X4c8xCkmF8U9HUMz",
-          "fieldPath": "system.description.value",
-          "name": "Mirror Image",
-          "sourcePath": "spells/2nd-level/mirror-image.yml"
-        },
-        {
-          "code": "foundry-formulas",
-          "severity": "blocking",
-          "message": "Foundry formulas differ from source",
-          "pack": "spells",
-          "id": "X4c8xCkmF8U9HUMz",
-          "fieldPath": "system.description.value",
-          "name": "Mirror Image",
-          "sourcePath": "spells/2nd-level/mirror-image.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "pO4zGe5LmFIYqJiL",
-          "fieldPath": "system.description.value",
-          "name": "Bestow Curse",
-          "sourcePath": "spells/3rd-level/bestow-curse.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "pO4zGe5LmFIYqJiL",
-          "fieldPath": "system.description.value",
-          "name": "Bestow Curse",
-          "sourcePath": "spells/3rd-level/bestow-curse.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "spells",
-          "id": "pO4zGe5LmFIYqJiL",
-          "fieldPath": "system.description.value",
-          "name": "Bestow Curse",
-          "sourcePath": "spells/3rd-level/bestow-curse.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
           "id": "pB7XVYwdGNcUG935",
           "fieldPath": "system.description.value",
           "name": "Glyph of Warding",
@@ -76952,26 +76892,6 @@
           "fieldPath": "system.description.value",
           "name": "Control Water",
           "sourcePath": "spells/4th-level/control-water.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "NJgxf7pmSsBArIG7",
-          "fieldPath": "system.description.value",
-          "name": "Private Sanctum",
-          "sourcePath": "spells/4th-level/private-sanctum.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "NJgxf7pmSsBArIG7",
-          "fieldPath": "system.description.value",
-          "name": "Private Sanctum",
-          "sourcePath": "spells/4th-level/private-sanctum.yml"
         },
         {
           "code": "html-tag-sequence",

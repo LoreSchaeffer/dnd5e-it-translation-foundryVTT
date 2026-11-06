@@ -71,12 +71,6 @@
     "VzgFzcmocr1X1cp4": {
       "effects[QPsqj6jfS0iXSrTs].description": "<p>Per la durata puoi usare la tua caratteristica da incantatore anziché Forza per i tiri per colpire e per i danni degli attacchi in mischia effettuati con quest'arma, e il dado di danno dell'arma diventa un d8. L'arma diventa inoltre magica, se non lo è già. L'incantesimo termina se lo lanci di nuovo o se lasci andare l'arma.</p>"
     },
-    "3MYDjS6k9IYL0aTj": {
-      "effects[QgkZ0wXeQ7CsDhJJ].description": "<p>Ogni effetto che ti rende &amp;reference[charmed apply=false] o &amp;reference[frightened apply=false] è soppresso. Quando questo incantesimo termina, ogni effetto soppresso riprende, purché nel frattempo la sua durata non sia terminata.</p>"
-    },
-    "Wl2vtJ4hCt2tpWfR": {
-      "system.activities.IdPqCJyxclpJDc5O.description.value": "<p>Alla fine di ogni turno della creatura &amp;reference[Frightened apply=false], essa deve superare un tiro salvezza su Saggezza, altrimenti subisce 4d10 danni psichici. Se supera il tiro salvezza, l'incantesimo termina per quella creatura.</p>"
-    },
     "wvLbtemkH8gyBpdc": {
       "effects[zqdAKeHbYiGinR9k].description": "<p>Tramite questo incantesimo sei nascosto al sicuro dall'individuazione per la durata. Sei &amp;reference[Invisible apply=false] e non puoi essere bersagliato da incantesimi di divinazione né percepito attraverso sensori di scrutamento creati da incantesimi di Divinazione.</p><p>Cadi inoltre in uno stato di animazione sospesa. Il tempo smette di scorrere per te e non invecchi.</p><p>Se si verificano le condizioni stabilite dall'incantatore, l'incantesimo termina anticipatamente.</p>",
       "effects[7DN3i7SSb2unFuKJ].description": "<p>Questo oggetto è @UUID[Compendium.dnd5e.spells.Item.wvLbtemkH8gyBpdc]{Sotto Sequestro}, è &amp;reference[Invisible apply=false] e non può essere bersagliato da incantesimi di divinazione né percepito attraverso sensori di scrutamento creati da incantesimi di Divinazione.</p>"
@@ -106,26 +100,11 @@
     "P6f1PPKPd9BCb742": {
       "effects[gG6gFVVIuoHKH4J9].description": "<p>Finché l'incantesimo non termina, l'incantatore può usare un'azione bonus in ogni suo turno per indicarti una direzione orizzontale rispetto a lui. Nel tuo turno successivo devi usare quanto più movimento possibile per muoverti in quella direzione. Puoi effettuare qualsiasi azione prima di muoverti. Dopo esserti mosso in questo modo, puoi effettuare un altro tiro salvezza su Saggezza per tentare di terminare l'effetto.</p><p>Non sei obbligato a muoverti verso un pericolo palesemente letale, come un incendio o una fossa, ma provochi &amp;reference[opportunity attacks] per muoverti nella direzione indicata.</p>"
     },
-    "pO4zGe5LmFIYqJiL": {
-      "effects[Ebzd58ARPldBzKci].description": "<p>In combattimento devi superare un tiro salvezza [[/save wis]] all'inizio di ogni tuo turno. Se lo fallisci, sprechi la tua azione nel turno senza fare nulla.</p><p>Un incantesimo @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{Rimuovi Maledizione} termina questo effetto.</p>"
-    },
-    "35j2QIMmIk6aEdxj": {
-      "system.activities.dnd5eactivity000.description.value": "<p>Il bersaglio stordito deve effettuare un tiro salvezza su Costituzione alla fine di ogni suo turno. Se lo supera, questo effetto stordente termina.</p>"
-    },
-    "GSvLWcdCZLQkilXT": {
-      "system.activities.Vw0IvqP9k2jfsu8n.description.value": "<p>Con un risultato di 11 o superiore, svanisci nel Piano Etereo.</p>"
-    },
-    "clwv2PWOcT822hlr": {
-      "system.activities.gPtL2C25UZ6sJtDM.description.value": "<p>Il bersaglio può usare la sua azione per tentare di fuggire. Quando lo fa, effettua una prova di Intelligenza con CD 20. Se la supera, fugge e l'incantesimo termina (un @UUID[Compendium.dnd5e.monsters.Actor.pOPQU4UnR27zA0jf]{Minotauro} o un demone goristro supera automaticamente la prova).</p>"
-    },
     "JGT5bNqu9REL7Fuz": {
       "effects[ElS7F2Oh06jeZtpi].description": "<p>Questa creatura è un @UUID[Compendium.dnd5e.spells.Item.JGT5bNqu9REL7Fuz]{Famiglio}. Un famiglio non può attaccare, ma può effettuare normalmente le altre azioni.</p>"
     },
     "YBda6nLKjxdT1LbS": {
       "effects[2WdkWIsjxEWwsGKf].description": "<p>Questo incantesimo ti conferisce la capacità di muoverti su qualsiasi superficie liquida, come acqua, acido, fango, neve, sabbie mobili o lava, come se fosse terreno solido innocuo (attraversare la lava fusa può comunque infliggerti danni a causa del calore).</p><p>Se sei immerso in un liquido, l'incantesimo ti trasporta verso la superficie al ritmo di 18 metri per round.</p>"
-    },
-    "Advtckpz1B733bu9": {
-      "system.activities.rUOzC7j6wRPm8fpO.description.value": "<p>Se lasci andare la lama, essa scompare, ma puoi evocarla di nuovo con un'Azione Bonus.</p>"
     },
     "MK6gpQMeDFo0cP9f": {
       "effects[H4kfOYuc1G4lckzb].description": "<p>Da questo oggetto scaturisce una fiamma luminosa quanto una torcia. L'effetto ha l'aspetto di una fiamma normale, ma non genera calore e non consuma ossigeno. Una fiamma perenne può essere coperta o nascosta, ma non soffocata o spenta.</p>",
@@ -261,6 +240,8 @@
       "effects[0lcdF9sc0cBgnvBg].description": "<p>Hai superato un tiro salvezza contro il Muro Indaco.</p>"
     },
     "pO4zGe5LmFIYqJiL": {
+      "system.description.value": "<p>L'incantatore tocca una creatura, che deve superare un tiro salvezza su Saggezza, altrimenti è maledetta per la durata dell'incantesimo. Quando lancia questo incantesimo, l'incantatore sceglie la natura della maledizione tra le opzioni seguenti:</p><ul><li><p>Sceglie un punteggio di caratteristica. Finché è maledetto, il bersaglio dispone di svantaggio alle prove di caratteristica e ai tiri salvezza effettuati con quel punteggio di caratteristica.</p></li><li><p>Finché è maledetto, il bersaglio dispone di svantaggio ai tiri per colpire contro l'incantatore.</p></li><li><p>Finché è maledetto, il bersaglio deve effettuare un tiro salvezza su Saggezza all'inizio di ciascuno dei propri turni. Se lo fallisce, spreca la propria azione durante quel turno senza fare nulla.</p></li><li><p>Finché il bersaglio è maledetto, gli attacchi e gli incantesimi dell'incantatore infliggono 1d8 danni necrotici extra al bersaglio.</p></li></ul><p>Un incantesimo @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{Rimuovi Maledizione} termina questo effetto. A discrezione del DM, l'incantatore può scegliere un effetto alternativo per la maledizione, che non dovrebbe però essere più potente di quelli descritti sopra. Il DM ha l'ultima parola sull'effetto di una tale maledizione.</p><p><strong>Ai Livelli Superiori.</strong> Se l'incantatore lancia questo incantesimo usando uno slot incantesimo di 4° livello o superiore, la durata diventa concentrazione, fino a 10 minuti. Se usa uno slot incantesimo di 5° livello o superiore, la durata è di 8 ore. Se usa uno slot incantesimo di 7° livello o superiore, la durata è di 24 ore. Se usa uno slot incantesimo di 9° livello, l'incantesimo dura finché non viene dissolto. Usare uno slot incantesimo di 5° livello o superiore conferisce una durata che non richiede concentrazione.</p>",
+      "effects[Ebzd58ARPldBzKci].description": "<p>In combattimento devi superare un tiro salvezza [[/save wis]] all'inizio di ogni tuo turno. Se lo fallisci, sprechi la tua azione nel turno senza fare nulla.</p><p>Un incantesimo @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{Rimuovi Maledizione} termina questo effetto.</p>",
       "effects[OSGSF1Zm61GXLvrC].description": "<p>Disponi di Svantaggio alle prove di Carisma e ai tiri salvezza su Carisma.</p><p>Un incantesimo @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{Rimuovi Maledizione} termina questo effetto.</p>",
       "effects[pgBN0brGeJBSc413].description": "<p>Disponi di Svantaggio alle prove di Costituzione e ai tiri salvezza su Costituzione.</p><p>Un incantesimo @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{Rimuovi Maledizione} termina questo effetto.</p>",
       "effects[RoAMbIx9IUqpNREv].description": "<p>Disponi di Svantaggio alle prove di Destrezza e ai tiri salvezza su Destrezza.</p><p>Un incantesimo @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{Rimuovi Maledizione} termina questo effetto.</p>",
@@ -287,6 +268,7 @@
       "effects[kMYQQYGLWCoTKpPJ].description": "<p>Sei &amp;reference[frightened apply=false] per la durata. Alla fine di ogni tuo turno prima che l'incantesimo termini, devi superare un tiro salvezza su Saggezza, altrimenti subisci 9d10 danni psichici. Se superi il tiro salvezza, l'incantesimo termina.</p>"
     },
     "Advtckpz1B733bu9": {
+      "system.activities.rUOzC7j6wRPm8fpO.description.value": "<p>Se lasci andare la lama, essa scompare, ma puoi evocarla di nuovo con un'Azione Bonus.</p>",
       "system.activities.Wj7GiWyEQQKGdYol.description.value": "<p>Evochi una lama infuocata nella tua mano libera. La lama è simile per forma e dimensioni a una Scimitarra e permane per la Durata. Se lasci andare la lama, essa scompare, ma puoi evocarla di nuovo con un'Azione Bonus.</p>",
       "effects[vULxJuCFS32tApK7].description": "<p>Hai evocato una Lama Infuocata, che infligge 3d6 danni da fuoco quando colpisce.</p>",
       "effects[tpXf44S04mFJMol7].description": "<p>Hai evocato una Lama Infuocata, che infligge 4d6 danni da fuoco quando colpisce.</p>",
@@ -492,6 +474,7 @@
       "effects[X4jof8gIhjMeaX9E].description": "<p>Il tuo corpo è diventato sfocato, mutevole e tremolante agli occhi di chiunque possa vederti. Per la durata, qualsiasi creatura dispone di svantaggio ai tiri per colpire contro di te. Un attaccante è immune a questo effetto se non si affida alla vista, come nel caso di &amp;reference[blindsight], o se può vedere attraverso le illusioni, come nel caso di &amp;reference[truesight].</p>"
     },
     "3MYDjS6k9IYL0aTj": {
+      "effects[QgkZ0wXeQ7CsDhJJ].description": "<p>Ogni effetto che ti rende &amp;reference[charmed apply=false] o &amp;reference[frightened apply=false] è soppresso. Quando questo incantesimo termina, ogni effetto soppresso riprende, purché nel frattempo la sua durata non sia terminata.</p>",
       "effects[GgT59J1pn49xUaJW].description": "<p>Sei stato reso indifferente nei confronti delle creature scelte dall'incantatore verso cui eri ostile. Questa indifferenza termina se vieni attaccato o danneggiato da un incantesimo oppure se assisti al ferimento di uno dei tuoi amici. Quando l'incantesimo termina, torni ostile, a meno che il DM non decida diversamente.</p>"
     },
     "hJ6ZiA3fpoY8v9cp": {
@@ -513,7 +496,11 @@
       "effects[pEY6ZwxlbDrRPp6h].description": "<p>Stai levitando. Puoi muoverti soltanto spingendo o tirando contro un oggetto o una superficie fissa entro la tua portata (come una parete o un soffitto), cosa che ti consente di muoverti come se stessi scalando. Nel proprio turno l'incantatore può cambiare la tua altitudine fino a 6 metri in entrambe le direzioni. Se sei l'incantatore, puoi salire o scendere come parte del tuo movimento.</p>"
     },
     "X4c8xCkmF8U9HUMz": {
+      "system.description.value": "<p>Tre duplicati illusori dell'incantatore compaiono nel suo spazio. Finché l'incantesimo non termina, i duplicati si muovono assieme a lui e imitano le sue azioni, cambiando posizione in modo che sia impossibile individuare quale immagine sia reale. L'incantatore può usare la propria azione per congedare i duplicati illusori.</p><p>Ogni volta che una creatura bersaglia l'incantatore con un attacco durante la durata dell'incantesimo, l'incantatore tira 1d20 per determinare se l'attacco bersagli invece uno dei duplicati.</p><p>Se l'incantatore possiede tre duplicati, deve ottenere 6 o più per cambiare il bersaglio dell'attacco in un duplicato. Con due duplicati deve ottenere 8 o più. Con un duplicato deve ottenere 11 o più.</p><p>La CA di un duplicato è pari a 10 + il modificatore di Destrezza dell'incantatore. Se un attacco colpisce un duplicato, il duplicato viene distrutto. Un duplicato può essere distrutto soltanto da un attacco che lo colpisce. Ignora tutti gli altri danni ed effetti. L'incantesimo termina quando tutti e tre i duplicati vengono distrutti.</p><p>Una creatura non è influenzata da questo incantesimo se non può vedere, se si affida a sensi diversi dalla vista, come &amp;reference[blindsight], o se può percepire le illusioni come false, come tramite &amp;reference[truesight].</p>",
       "system.activities.rQbzIAnDXYbVe48y.description.value": "<p>Ogni volta che una creatura ti bersaglia con un attacco durante la durata dell'incantesimo, tira 1d20 per determinare se l'attacco bersaglia invece uno dei tuoi duplicati.</p><p>Se possiedi tre duplicati, devi ottenere 6 o più per cambiare il bersaglio dell'attacco in un duplicato. Con due duplicati devi ottenere 8 o più. Con un duplicato devi ottenere 11 o più.</p><h4><strong>Numero di Immagini Speculari:</strong> [[lookup @flags.world.mirror-image]]{0}</h4>"
+    },
+    "NJgxf7pmSsBArIG7": {
+      "system.description.value": "<p>L'incantatore rende magicamente sicura un'area entro gittata. L'area è un cubo il cui spigolo può misurare da un minimo di 1,5 metri a un massimo di 30 metri. L'incantesimo permane per la durata o finché l'incantatore non usa un'azione per congedarlo.</p><p>Quando lancia l'incantesimo, l'incantatore decide quale tipo di sicurezza fornisca, scegliendo una o più delle proprietà seguenti:</p><ul><li><p>I suoni non possono attraversare la barriera al confine dell'area protetta.</p></li><li><p>La barriera dell'area protetta appare scura e nebbiosa, impedendo di vedere attraverso di essa, anche con &amp;reference[darkvision].</p></li><li><p>I sensori creati dagli incantesimi di Divinazione non possono comparire all'interno dell'area protetta né attraversare la barriera lungo il suo perimetro.</p></li><li><p>Le creature nell'area non possono essere bersagliate dagli incantesimi di divinazione.</p></li><li><p>Nulla può teletrasportarsi dentro o fuori dall'area protetta.</p></li><li><p>Il viaggio planare è bloccato all'interno dell'area protetta.</p></li></ul><p>Lanciare questo incantesimo nello stesso punto ogni giorno per un anno rende l'effetto permanente.</p><p><strong>Ai Livelli Superiori</strong>. Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 5° livello o superiore, può aumentare lo spigolo del cubo di 30 metri per ogni livello dello slot superiore al 4°. Potrebbe quindi proteggere un cubo con spigolo massimo di 60 metri usando uno slot incantesimo di 5° livello.</p>"
     },
     "MAxM77CDUu8dgIRQ": {
       "effects[dNSELIYDQMBopj0Z].description": "<p>Disponi di vantaggio ai tiri salvezza contro l'essere &amp;reference[poisoned apply=false] e possiedi resistenza ai danni da veleno.</p>"
@@ -528,6 +515,7 @@
       "effects[rTmKyD87PuzUBGpJ].description": "<p>Disponi di vantaggio ai tiri salvezza su Saggezza e ai Tiri Salvezza contro Morte e recuperi il massimo numero di Punti Ferita possibile da qualsiasi guarigione.</p>"
     },
     "GSvLWcdCZLQkilXT": {
+      "system.activities.Vw0IvqP9k2jfsu8n.description.value": "<p>Con un risultato di 11 o superiore, svanisci nel Piano Etereo.</p>",
       "effects[KfxYKxbFoCe5HJYS].description": "<p>Sei svanito nel Piano Etereo fino all'inizio del tuo turno successivo.</p><p>Finché ti trovi sul Piano Etereo, puoi vedere e udire il piano da cui provieni, che appare in tonalità di grigio, e non puoi vedere nulla che si trovi a più di 18 metri da te. Puoi influenzare ed essere influenzato soltanto dalle altre creature sul Piano Etereo. Le creature che non vi si trovano non possono percepirti né interagire con te, a meno che non possiedano la capacità di farlo.</p>"
     },
     "1Drt0SHxbEAHxprN": {
@@ -709,9 +697,11 @@
       "effects[flpBCg1pgZchf5Hz].description": "<p>I tuoi punteggi di Intelligenza e Carisma diventano 1. Non puoi lanciare incantesimi, attivare oggetti magici, comprendere linguaggi o comunicare in modo intelligibile. Puoi tuttavia riconoscere i tuoi amici, seguirli e perfino proteggerli.</p><p>Al termine di ogni periodo di 30 giorni, puoi ripetere il tiro salvezza contro questo incantesimo. Se superi il tiro salvezza, l'incantesimo termina.</p><p>L'incantesimo può essere terminato anche da @UUID[Compendium.dnd5e.spells.Item.WzvJ7G3cqvIubsLk]{Ristorare Superiore}, @UUID[Compendium.dnd5e.spells.Item.qcYitWoSMTnKkzM1]{Guarigione} o @UUID[Compendium.dnd5e.spells.Item.3okM6Gn63zzEULkz]{Desiderio}.</p>"
     },
     "clwv2PWOcT822hlr": {
+      "system.activities.gPtL2C25UZ6sJtDM.description.value": "<p>Il bersaglio può usare la sua azione per tentare di fuggire. Quando lo fa, effettua una prova di Intelligenza con CD 20. Se la supera, fugge e l'incantesimo termina (un @UUID[Compendium.dnd5e.monsters.Actor.pOPQU4UnR27zA0jf]{Minotauro} o un demone goristro supera automaticamente la prova).</p>",
       "effects[od0XuYES3kvwhFct].description": "<p>Sei stato esiliato in un semipiano labirintico. Rimani lì per la durata o finché non fuggi dal labirinto.</p><p>Puoi usare la tua azione per tentare di fuggire. Quando lo fai, effettua una prova [[/check 20 int]]. Se la superi, fuggi e l'incantesimo termina (un @UUID[Compendium.dnd5e.monsters.Actor.pOPQU4UnR27zA0jf]{Minotauro} o un demone goristro supera automaticamente la prova).</p><p>Quando l'incantesimo termina, ricompari nello spazio che hai lasciato o, se quello spazio è occupato, nello spazio libero più vicino.</p>"
     },
     "35j2QIMmIk6aEdxj": {
+      "system.activities.dnd5eactivity000.description.value": "<p>Il bersaglio stordito deve effettuare un tiro salvezza su Costituzione alla fine di ogni suo turno. Se lo supera, questo effetto stordente termina.</p>",
       "effects[XUk41wJR26neJaic].description": "<p>Sei &amp;reference[Stunned apply=false]. Devi effettuare un tiro salvezza su Costituzione alla fine di ogni tuo turno. Se lo superi, questo effetto stordente termina.</p>"
     },
     "hzK7FQya0BDjSmLE": {
@@ -724,6 +714,7 @@
       "system.activities.lFO5S0pA2P2d5GpZ.description.value": "<p>Puoi pronunciare il nome di una creatura specifica (uno pseudonimo, un titolo o un soprannome non funziona). Se quella creatura si trova su un piano diverso dal tuo, il portale si apre nelle sue immediate vicinanze e la trascina attraverso di esso fino allo spazio libero più vicino sul tuo lato del portale. Non ottieni alcun potere speciale sulla creatura, che è libera di agire come il DM ritiene appropriato. Potrebbe andarsene, Attaccarti o aiutarti.</p>"
     },
     "Wl2vtJ4hCt2tpWfR": {
+      "system.activities.IdPqCJyxclpJDc5O.description.value": "<p>Alla fine di ogni turno della creatura &amp;reference[Frightened apply=false], essa deve superare un tiro salvezza su Saggezza, altrimenti subisce 4d10 danni psichici. Se supera il tiro salvezza, l'incantesimo termina per quella creatura.</p>",
       "effects[YQNznF5HERSuMOj6].description": "<p>Sei &amp;reference[frightened apply=false] per la durata. L'illusione fa leva sulle tue paure più profonde, manifestando i tuoi peggiori incubi come una minaccia implacabile.</p><p>Alla fine di ogni tuo turno devi superare un tiro salvezza su Saggezza, altrimenti subisci 4d10 danni psichici. Se lo superi, l'incantesimo termina per te.</p>"
     },
     "vrN18tbTw7io5MWd": {
