@@ -5,6 +5,7 @@ const IMPERIAL_UNIT = /(?:\b(?:\d+(?:[.,]\d+)?\s*)?(?:feet|foot|miles?|pounds?|i
 
 function visibleText(value) {
   return value
+    .replace(/&(?:amp;)?reference\[[^\]]*\](?:\{([^{}]*)\})?/gi, (_, label) => label ?? "")
     .replace(/@(UUID|Compendium|Embed|Check|Save|Damage|Template|Condition)\[[^\]]*\](?:\{([^{}]*)\})?/gi, (_, _type, label) => label ?? "")
     .replace(/\[\[[\s\S]*?\]\]/g, "")
     .replace(/\{\{\{?[\s\S]*?\}\}\}?/g, "")

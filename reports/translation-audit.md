@@ -7,7 +7,7 @@
 | classfeatures | 235 | 235 | 0 | 0 | 0 | 0 | 0 |
 | effects | 214 | 214 | 0 | 0 | 0 | 0 | 0 |
 | heroes | 12 | 0 | 0 | 12 | 0 | 466 | 561 |
-| items | 885 | 303 | 33 | 549 | 0 | 266 | 1451 |
+| items | 885 | 304 | 33 | 548 | 0 | 224 | 1409 |
 | monsterfeatures | 252 | 0 | 61 | 191 | 0 | 132 | 753 |
 | monsters | 337 | 2 | 5 | 330 | 15 | 4810 | 5045 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
@@ -17,7 +17,7 @@
 | tables | 31 | 2 | 7 | 22 | 0 | 212 | 169 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 9446
+Total blocking issues: 9404
 
 ## Issues
 
@@ -686,7 +686,6 @@ Total blocking issues: 9446
 - **foundry-reference-count** `items:W1kDsFekjroIywuz:system.description.value`
 - **ambiguous-name** `items:g8fQZ1WyTz2bTtvA`
 - **missing-document** `items:TmfaFUSZJAotndn9`
-- **missing-field** `items:iiQxTvDOhPGW5spF:effects[EDhQAxztAvrCtTMV].description`
 - **html-tag-sequence** `items:50N8zf58FR4JWR05:system.description.value`
 - **html-attributes** `items:50N8zf58FR4JWR05:system.description.value`
 - **html-tag-sequence** `items:8ABk0XV76Hzq8Qul:system.description.value`
@@ -895,7 +894,6 @@ Total blocking issues: 9446
 - **html-attributes** `items:a86F565Pjdzym1jH:system.description.value`
 - **foundry-reference-count** `items:a86F565Pjdzym1jH:system.description.value`
 - **foundry-inline-rolls** `items:a86F565Pjdzym1jH:system.description.value`
-- **missing-field** `items:a86F565Pjdzym1jH:effects[XJxOfIIj9oraLfCb].description`
 - **missing-document** `items:tJC6SG4kAO2Vt4Qd`
 - **html-tag-sequence** `items:Sx5E6utixHdAbGNb:system.description.value`
 - **html-attributes** `items:Sx5E6utixHdAbGNb:system.description.value`
@@ -909,11 +907,9 @@ Total blocking issues: 9446
 - **missing-field** `items:FvNOwWbh5FXyX4xe:system.unidentified.description`
 - **missing-field** `items:FvNOwWbh5FXyX4xe:system.unidentified.name`
 - **missing-field** `items:FvNOwWbh5FXyX4xe:system.activities.fEkrHFEJKXhIwljC.description.chatFlavor`
-- **missing-field** `items:FvNOwWbh5FXyX4xe:effects[qAc1etkfUQkCbmTM].description`
 - **foundry-inline-rolls** `items:Fc6UfFNOnW80XMzi:system.description.value`
 - **foundry-data-references** `items:Fc6UfFNOnW80XMzi:system.description.value`
 - **missing-field** `items:Fc6UfFNOnW80XMzi:system.unidentified.name`
-- **missing-field** `items:Fc6UfFNOnW80XMzi:effects[86kZBSv4Zyis1RQm].description`
 - **missing-field** `items:WPWszFTGzmdIuDRJ:system.unidentified.name`
 - **html-tag-sequence** `items:Xbq8CyXSRV358SfP:system.description.value`
 - **html-attributes** `items:Xbq8CyXSRV358SfP:system.description.value`
@@ -929,8 +925,6 @@ Total blocking issues: 9446
 - **foundry-data-references** `items:C0MNXWA81ufzGlp5:system.description.value`
 - **missing-field** `items:C0MNXWA81ufzGlp5:system.unidentified.description`
 - **missing-field** `items:C0MNXWA81ufzGlp5:system.unidentified.name`
-- **missing-field** `items:C0MNXWA81ufzGlp5:effects[IHJhvGPE1KPinh1r].description`
-- **missing-field** `items:C0MNXWA81ufzGlp5:effects[L6ERoLhCCv7UsF1b].description`
 - **html-tag-sequence** `items:FIDyR0kZnxGy7bj8:system.description.value`
 - **html-attributes** `items:FIDyR0kZnxGy7bj8:system.description.value`
 - **foundry-reference-count** `items:FIDyR0kZnxGy7bj8:system.description.value`
@@ -940,12 +934,10 @@ Total blocking issues: 9446
 - **missing-field** `items:FIDyR0kZnxGy7bj8:system.unidentified.name`
 - **missing-field** `items:FIDyR0kZnxGy7bj8:system.activities.OMSMC85UR5All9Vz.description.value`
 - **missing-field** `items:FIDyR0kZnxGy7bj8:system.activities.OCcBVLFoBjsgBp2r.description.value`
-- **missing-field** `items:FIDyR0kZnxGy7bj8:effects[4OOm3lGF9n4bLHyt].description`
 - **foundry-inline-rolls** `items:63nb14yQRJMc4bIn:system.description.value`
 - **foundry-data-references** `items:63nb14yQRJMc4bIn:system.description.value`
 - **missing-field** `items:63nb14yQRJMc4bIn:system.unidentified.description`
 - **missing-field** `items:63nb14yQRJMc4bIn:system.unidentified.name`
-- **missing-field** `items:63nb14yQRJMc4bIn:effects[VGNePB21bqJfLsCr].description`
 - **html-tag-sequence** `items:zgZkJAyFAfYmyn11:system.description.value`
 - **html-attributes** `items:zgZkJAyFAfYmyn11:system.description.value`
 - **foundry-reference-count** `items:zgZkJAyFAfYmyn11:system.description.value`
@@ -953,7 +945,6 @@ Total blocking issues: 9446
 - **foundry-data-references** `items:zgZkJAyFAfYmyn11:system.description.value`
 - **missing-field** `items:zgZkJAyFAfYmyn11:system.unidentified.description`
 - **missing-field** `items:zgZkJAyFAfYmyn11:system.unidentified.name`
-- **missing-field** `items:zgZkJAyFAfYmyn11:effects[7bDbdK6YYorswEGe].description`
 - **html-tag-sequence** `items:nXWevqtV6p484N59:system.description.value`
 - **html-attributes** `items:nXWevqtV6p484N59:system.description.value`
 - **foundry-reference-count** `items:nXWevqtV6p484N59:system.description.value`
@@ -961,7 +952,6 @@ Total blocking issues: 9446
 - **foundry-data-references** `items:nXWevqtV6p484N59:system.description.value`
 - **missing-field** `items:nXWevqtV6p484N59:system.unidentified.description`
 - **missing-field** `items:nXWevqtV6p484N59:system.unidentified.name`
-- **missing-field** `items:nXWevqtV6p484N59:effects[U6yBzHzpfZRh3yZY].description`
 - **foundry-references** `items:bAyr7j5Peq9wIJTa:system.description.value`
 - **missing-field** `items:bAyr7j5Peq9wIJTa:system.unidentified.description`
 - **missing-field** `items:bAyr7j5Peq9wIJTa:system.unidentified.name`
@@ -972,14 +962,12 @@ Total blocking issues: 9446
 - **foundry-data-references** `items:aMnWi1WXWpxRHq4r:system.description.value`
 - **missing-field** `items:aMnWi1WXWpxRHq4r:system.unidentified.description`
 - **missing-field** `items:aMnWi1WXWpxRHq4r:system.unidentified.name`
-- **missing-field** `items:aMnWi1WXWpxRHq4r:effects[I7ywYX94qSyb3GRk].description`
 - **html-tag-sequence** `items:lAcTZgNtpmks2Mo5:system.description.value`
 - **html-attributes** `items:lAcTZgNtpmks2Mo5:system.description.value`
 - **foundry-inline-rolls** `items:lAcTZgNtpmks2Mo5:system.description.value`
 - **foundry-data-references** `items:lAcTZgNtpmks2Mo5:system.description.value`
 - **missing-field** `items:lAcTZgNtpmks2Mo5:system.unidentified.description`
 - **missing-field** `items:lAcTZgNtpmks2Mo5:system.unidentified.name`
-- **missing-field** `items:lAcTZgNtpmks2Mo5:effects[0zUmrK4c8UybXZeQ].description`
 - **html-tag-sequence** `items:34YKlIJVVWLeBv7R:system.description.value`
 - **html-attributes** `items:34YKlIJVVWLeBv7R:system.description.value`
 - **foundry-reference-count** `items:34YKlIJVVWLeBv7R:system.description.value`
@@ -987,20 +975,17 @@ Total blocking issues: 9446
 - **foundry-data-references** `items:34YKlIJVVWLeBv7R:system.description.value`
 - **missing-field** `items:34YKlIJVVWLeBv7R:system.unidentified.description`
 - **missing-field** `items:34YKlIJVVWLeBv7R:system.unidentified.name`
-- **missing-field** `items:34YKlIJVVWLeBv7R:effects[iYO0o4oLErq9j3ph].description`
 - **html-tag-sequence** `items:HY8duCwmvlXOruTG:system.description.value`
 - **html-attributes** `items:HY8duCwmvlXOruTG:system.description.value`
 - **foundry-reference-count** `items:HY8duCwmvlXOruTG:system.description.value`
 - **missing-field** `items:HY8duCwmvlXOruTG:system.unidentified.description`
 - **missing-field** `items:HY8duCwmvlXOruTG:system.unidentified.name`
-- **missing-field** `items:HY8duCwmvlXOruTG:effects[6sChAuK0HObortfE].description`
 - **html-tag-sequence** `items:bEZOY6uvHRweMM56:system.description.value`
 - **html-attributes** `items:bEZOY6uvHRweMM56:system.description.value`
 - **foundry-inline-rolls** `items:bEZOY6uvHRweMM56:system.description.value`
 - **foundry-data-references** `items:bEZOY6uvHRweMM56:system.description.value`
 - **missing-field** `items:bEZOY6uvHRweMM56:system.unidentified.description`
 - **missing-field** `items:bEZOY6uvHRweMM56:system.unidentified.name`
-- **missing-field** `items:bEZOY6uvHRweMM56:effects[iCEYqMYew63B7ocr].description`
 - **html-tag-sequence** `items:Jj4iFQQGvckx8Wsj:system.description.value`
 - **html-attributes** `items:Jj4iFQQGvckx8Wsj:system.description.value`
 - **foundry-reference-count** `items:Jj4iFQQGvckx8Wsj:system.description.value`
@@ -1014,7 +999,6 @@ Total blocking issues: 9446
 - **foundry-data-references** `items:eTNc8XPtvZNe3yQs:system.description.value`
 - **missing-field** `items:eTNc8XPtvZNe3yQs:system.unidentified.description`
 - **missing-field** `items:eTNc8XPtvZNe3yQs:system.unidentified.name`
-- **missing-field** `items:eTNc8XPtvZNe3yQs:effects[UumpsHK33ePtvz3s].description`
 - **html-tag-sequence** `items:kKGJjVVlJVoakWgQ:system.description.value`
 - **html-attributes** `items:kKGJjVVlJVoakWgQ:system.description.value`
 - **foundry-reference-count** `items:kKGJjVVlJVoakWgQ:system.description.value`
@@ -1022,7 +1006,6 @@ Total blocking issues: 9446
 - **foundry-data-references** `items:kKGJjVVlJVoakWgQ:system.description.value`
 - **missing-field** `items:kKGJjVVlJVoakWgQ:system.unidentified.description`
 - **missing-field** `items:kKGJjVVlJVoakWgQ:system.unidentified.name`
-- **missing-field** `items:kKGJjVVlJVoakWgQ:effects[d8PTXF30xWHZcQGt].description`
 - **html-tag-sequence** `items:TevMHicE3A70AlmP:system.description.value`
 - **html-attributes** `items:TevMHicE3A70AlmP:system.description.value`
 - **foundry-inline-rolls** `items:TevMHicE3A70AlmP:system.description.value`
@@ -1036,7 +1019,6 @@ Total blocking issues: 9446
 - **foundry-data-references** `items:bqZ6NTLDCUB98YjV:system.description.value`
 - **missing-field** `items:bqZ6NTLDCUB98YjV:system.unidentified.description`
 - **missing-field** `items:bqZ6NTLDCUB98YjV:system.unidentified.name`
-- **missing-field** `items:bqZ6NTLDCUB98YjV:effects[SffmmlIyQEG7jM0r].description`
 - **html-tag-sequence** `items:L887NdWEP5NqHCrQ:system.description.value`
 - **html-attributes** `items:L887NdWEP5NqHCrQ:system.description.value`
 - **foundry-inline-rolls** `items:L887NdWEP5NqHCrQ:system.description.value`
@@ -1048,7 +1030,6 @@ Total blocking issues: 9446
 - **foundry-reference-count** `items:gTRFQLdVD1gsKtPi:system.description.value`
 - **missing-field** `items:gTRFQLdVD1gsKtPi:system.unidentified.description`
 - **missing-field** `items:gTRFQLdVD1gsKtPi:system.unidentified.name`
-- **missing-field** `items:gTRFQLdVD1gsKtPi:effects[HAuNLWE4FAG5lpup].description`
 - **html-tag-sequence** `items:ytlsBjYsZ7OBSEBs:system.description.value`
 - **html-attributes** `items:ytlsBjYsZ7OBSEBs:system.description.value`
 - **foundry-inline-rolls** `items:ytlsBjYsZ7OBSEBs:system.description.value`
@@ -1062,21 +1043,18 @@ Total blocking issues: 9446
 - **foundry-data-references** `items:wNKYbKYwOHbA7SH8:system.description.value`
 - **missing-field** `items:wNKYbKYwOHbA7SH8:system.unidentified.description`
 - **missing-field** `items:wNKYbKYwOHbA7SH8:system.unidentified.name`
-- **missing-field** `items:wNKYbKYwOHbA7SH8:effects[KKcIKvHCHET79fEp].description`
 - **html-tag-sequence** `items:mhFBTY0egW8AeCHe:system.description.value`
 - **html-attributes** `items:mhFBTY0egW8AeCHe:system.description.value`
 - **foundry-inline-rolls** `items:mhFBTY0egW8AeCHe:system.description.value`
 - **foundry-data-references** `items:mhFBTY0egW8AeCHe:system.description.value`
 - **missing-field** `items:mhFBTY0egW8AeCHe:system.unidentified.description`
 - **missing-field** `items:mhFBTY0egW8AeCHe:system.unidentified.name`
-- **missing-field** `items:mhFBTY0egW8AeCHe:effects[Ee51dNBilkLQhVr9].description`
 - **html-tag-sequence** `items:rTn4p9nJr4Aq2GPB:system.description.value`
 - **html-attributes** `items:rTn4p9nJr4Aq2GPB:system.description.value`
 - **foundry-inline-rolls** `items:rTn4p9nJr4Aq2GPB:system.description.value`
 - **foundry-data-references** `items:rTn4p9nJr4Aq2GPB:system.description.value`
 - **missing-field** `items:rTn4p9nJr4Aq2GPB:system.unidentified.description`
 - **missing-field** `items:rTn4p9nJr4Aq2GPB:system.unidentified.name`
-- **missing-field** `items:rTn4p9nJr4Aq2GPB:effects[oGWqgNUAzC2P3E2m].description`
 - **html-tag-sequence** `items:8MPnSrvEeZhPhtTi:system.description.value`
 - **html-attributes** `items:8MPnSrvEeZhPhtTi:system.description.value`
 - **foundry-reference-count** `items:8MPnSrvEeZhPhtTi:system.description.value`
@@ -1084,7 +1062,6 @@ Total blocking issues: 9446
 - **foundry-data-references** `items:8MPnSrvEeZhPhtTi:system.description.value`
 - **missing-field** `items:8MPnSrvEeZhPhtTi:system.unidentified.description`
 - **missing-field** `items:8MPnSrvEeZhPhtTi:system.unidentified.name`
-- **missing-field** `items:8MPnSrvEeZhPhtTi:effects[o5uwUilyOmZKavPX].description`
 - **html-tag-sequence** `items:Ct9LR9Ft1FG4a6Y1:system.description.value`
 - **html-attributes** `items:Ct9LR9Ft1FG4a6Y1:system.description.value`
 - **foundry-reference-count** `items:Ct9LR9Ft1FG4a6Y1:system.description.value`
@@ -1098,7 +1075,6 @@ Total blocking issues: 9446
 - **foundry-data-references** `items:xw99pcqPBVwtMOLw:system.description.value`
 - **missing-field** `items:xw99pcqPBVwtMOLw:system.unidentified.description`
 - **missing-field** `items:xw99pcqPBVwtMOLw:system.unidentified.name`
-- **missing-field** `items:xw99pcqPBVwtMOLw:effects[MKFIbvGusGUaKtav].description`
 - **html-tag-sequence** `items:f5chGcpQCi1HYPQw:system.description.value`
 - **html-attributes** `items:f5chGcpQCi1HYPQw:system.description.value`
 - **foundry-reference-count** `items:f5chGcpQCi1HYPQw:system.description.value`
@@ -1106,7 +1082,6 @@ Total blocking issues: 9446
 - **foundry-data-references** `items:f5chGcpQCi1HYPQw:system.description.value`
 - **missing-field** `items:f5chGcpQCi1HYPQw:system.unidentified.description`
 - **missing-field** `items:f5chGcpQCi1HYPQw:system.unidentified.name`
-- **missing-field** `items:f5chGcpQCi1HYPQw:effects[vkhMbnwDVjFzcSsl].description`
 - **html-tag-sequence** `items:c0luemOP0iW8L23R:system.description.value`
 - **html-attributes** `items:c0luemOP0iW8L23R:system.description.value`
 - **foundry-reference-count** `items:c0luemOP0iW8L23R:system.description.value`
@@ -1114,7 +1089,6 @@ Total blocking issues: 9446
 - **foundry-data-references** `items:c0luemOP0iW8L23R:system.description.value`
 - **missing-field** `items:c0luemOP0iW8L23R:system.unidentified.description`
 - **missing-field** `items:c0luemOP0iW8L23R:system.unidentified.name`
-- **missing-field** `items:c0luemOP0iW8L23R:effects[uvppImdMsIuq4DrH].description`
 - **html-tag-sequence** `items:LBQWNqX6hZOKhQ8a:system.description.value`
 - **html-attributes** `items:LBQWNqX6hZOKhQ8a:system.description.value`
 - **foundry-reference-count** `items:LBQWNqX6hZOKhQ8a:system.description.value`
@@ -1122,7 +1096,6 @@ Total blocking issues: 9446
 - **foundry-data-references** `items:LBQWNqX6hZOKhQ8a:system.description.value`
 - **missing-field** `items:LBQWNqX6hZOKhQ8a:system.unidentified.description`
 - **missing-field** `items:LBQWNqX6hZOKhQ8a:system.unidentified.name`
-- **missing-field** `items:LBQWNqX6hZOKhQ8a:effects[eEef3fb2MpkTeguM].description`
 - **html-tag-sequence** `items:ctKfjHjk9gs9UtZI:system.description.value`
 - **html-attributes** `items:ctKfjHjk9gs9UtZI:system.description.value`
 - **foundry-reference-count** `items:ctKfjHjk9gs9UtZI:system.description.value`
@@ -1130,7 +1103,6 @@ Total blocking issues: 9446
 - **foundry-data-references** `items:ctKfjHjk9gs9UtZI:system.description.value`
 - **missing-field** `items:ctKfjHjk9gs9UtZI:system.unidentified.description`
 - **missing-field** `items:ctKfjHjk9gs9UtZI:system.unidentified.name`
-- **missing-field** `items:ctKfjHjk9gs9UtZI:effects[PXMOx6wnEh05eAKY].description`
 - **html-tag-sequence** `items:4ZiJsDTRA1GgcWKP:system.description.value`
 - **html-attributes** `items:4ZiJsDTRA1GgcWKP:system.description.value`
 - **foundry-inline-rolls** `items:4ZiJsDTRA1GgcWKP:system.description.value`
@@ -1143,7 +1115,6 @@ Total blocking issues: 9446
 - **foundry-data-references** `items:1KMSpOSU0EliUBm2:system.description.value`
 - **missing-field** `items:1KMSpOSU0EliUBm2:system.unidentified.description`
 - **missing-field** `items:1KMSpOSU0EliUBm2:system.unidentified.name`
-- **missing-field** `items:1KMSpOSU0EliUBm2:effects[sjbluBPTvdkkf3pv].description`
 - **foundry-inline-rolls** `items:5m9ErO9In8Uc5yyf:system.description.value`
 - **foundry-formulas** `items:5m9ErO9In8Uc5yyf:system.description.value`
 - **missing-field** `items:5m9ErO9In8Uc5yyf:system.unidentified.description`
@@ -1159,14 +1130,12 @@ Total blocking issues: 9446
 - **foundry-data-references** `items:zBX8LLC2CjC89Dzl:system.description.value`
 - **missing-field** `items:zBX8LLC2CjC89Dzl:system.unidentified.description`
 - **missing-field** `items:zBX8LLC2CjC89Dzl:system.unidentified.name`
-- **missing-field** `items:zBX8LLC2CjC89Dzl:effects[QlQh25ywP4LsgKtg].description`
 - **html-tag-sequence** `items:CAZMwFBWp9VC0ZCg:system.description.value`
 - **html-attributes** `items:CAZMwFBWp9VC0ZCg:system.description.value`
 - **foundry-inline-rolls** `items:CAZMwFBWp9VC0ZCg:system.description.value`
 - **foundry-data-references** `items:CAZMwFBWp9VC0ZCg:system.description.value`
 - **missing-field** `items:CAZMwFBWp9VC0ZCg:system.unidentified.description`
 - **missing-field** `items:CAZMwFBWp9VC0ZCg:system.unidentified.name`
-- **missing-field** `items:CAZMwFBWp9VC0ZCg:effects[YfuBxNfhlPfQX8Ua].description`
 - **html-tag-sequence** `items:VmcgAIsRCyrjBguC:system.description.value`
 - **html-attributes** `items:VmcgAIsRCyrjBguC:system.description.value`
 - **foundry-inline-rolls** `items:VmcgAIsRCyrjBguC:system.description.value`
@@ -1487,7 +1456,6 @@ Total blocking issues: 9446
 - **foundry-data-references** `items:EJFql4aNWHHJSxT9:system.description.value`
 - **missing-field** `items:EJFql4aNWHHJSxT9:system.unidentified.name`
 - **missing-field** `items:EJFql4aNWHHJSxT9:system.activities.zj1bSgRYmMvM3xaO.description.value`
-- **missing-field** `items:EJFql4aNWHHJSxT9:effects[pC15uqif0tfmdlvY].description`
 - **html-attributes** `items:DoSvjhRARhRqWZXg:system.description.value`
 - **foundry-references** `items:DoSvjhRARhRqWZXg:system.description.value`
 - **foundry-inline-rolls** `items:DoSvjhRARhRqWZXg:system.description.value`
@@ -1514,7 +1482,6 @@ Total blocking issues: 9446
 - **foundry-inline-rolls** `items:GcpXNc4dKUNw0Tk6:system.description.value`
 - **foundry-data-references** `items:GcpXNc4dKUNw0Tk6:system.description.value`
 - **missing-field** `items:GcpXNc4dKUNw0Tk6:system.unidentified.name`
-- **missing-field** `items:GcpXNc4dKUNw0Tk6:effects[lgD1h0ioOsqz6jK8].description`
 - **html-attributes** `items:khyjT3dKyoEOf4eA:system.description.value`
 - **foundry-references** `items:khyjT3dKyoEOf4eA:system.description.value`
 - **foundry-inline-rolls** `items:khyjT3dKyoEOf4eA:system.description.value`
@@ -1526,11 +1493,8 @@ Total blocking issues: 9446
 - **foundry-data-references** `items:VQ6NWjWV37wiB29O:system.description.value`
 - **missing-field** `items:VQ6NWjWV37wiB29O:system.unidentified.name`
 - **missing-field** `items:OPbdSlrhkUDNpgcS:system.unidentified.name`
-- **missing-field** `items:OPbdSlrhkUDNpgcS:effects[L2JsUOPt6kCEVZHT].description`
 - **missing-field** `items:k3T7tpcdzDyVKlF4:system.unidentified.name`
-- **missing-field** `items:k3T7tpcdzDyVKlF4:effects[s8wl3gTptLVyPcsW].description`
 - **missing-field** `items:IuVaBrq17AqxpXc4:system.unidentified.name`
-- **missing-field** `items:IuVaBrq17AqxpXc4:effects[57wol3ftCtHAGwV5].description`
 - **html-attributes** `items:4sR5HOah6KwVPHOb:system.description.value`
 - **foundry-references** `items:4sR5HOah6KwVPHOb:system.description.value`
 - **foundry-inline-rolls** `items:4sR5HOah6KwVPHOb:system.description.value`
@@ -1666,7 +1630,6 @@ Total blocking issues: 9446
 - **html-attributes** `items:DMejWAc8r8YvDPP1:system.description.value`
 - **missing-field** `items:wGDDt17DpBcXPuUD:system.activities.dnd5eactivity100.description.chatFlavor`
 - **missing-field** `items:wGDDt17DpBcXPuUD:system.activities.raoOPd1C5wdDhOed.description.chatFlavor`
-- **missing-field** `items:wGDDt17DpBcXPuUD:effects[95tYhecAl2D69Gtv].description`
 - **html-tag-sequence** `items:MnX9soPEMNsCtpv7:system.description.value`
 - **html-attributes** `items:MnX9soPEMNsCtpv7:system.description.value`
 - **html-tag-sequence** `items:3Q6rw9kAMf6F1SW5:system.description.value`
@@ -1865,11 +1828,9 @@ Total blocking issues: 9446
 - **html-tag-sequence** `items:lsiR1hVfISlC5YoB:system.description.value`
 - **html-attributes** `items:lsiR1hVfISlC5YoB:system.description.value`
 - **foundry-references** `items:lsiR1hVfISlC5YoB:system.description.value`
-- **missing-field** `items:lsiR1hVfISlC5YoB:effects[jewb1yIhlxLetpCp].description`
 - **html-tag-sequence** `items:xEtBeZjJnkDXojQM:system.description.value`
 - **html-attributes** `items:xEtBeZjJnkDXojQM:system.description.value`
 - **foundry-references** `items:xEtBeZjJnkDXojQM:system.description.value`
-- **missing-field** `items:xEtBeZjJnkDXojQM:effects[cY6gjrYWTbo4ezzH].description`
 - **html-tag-sequence** `items:WLVQJVpCWiPkCAtZ:system.description.value`
 - **html-attributes** `items:WLVQJVpCWiPkCAtZ:system.description.value`
 - **foundry-references** `items:WLVQJVpCWiPkCAtZ:system.description.value`
@@ -1877,7 +1838,6 @@ Total blocking issues: 9446
 - **html-attributes** `items:eM5gEe4SEOvA2Y9t:system.description.value`
 - **foundry-references** `items:eM5gEe4SEOvA2Y9t:system.description.value`
 - **foundry-formulas** `items:eM5gEe4SEOvA2Y9t:system.description.value`
-- **missing-field** `items:eM5gEe4SEOvA2Y9t:effects[313kehq7ifkqiz2u].description`
 - **html-tag-sequence** `items:URun3vYrXKJJdAJe:system.description.value`
 - **html-attributes** `items:URun3vYrXKJJdAJe:system.description.value`
 - **foundry-inline-rolls** `items:URun3vYrXKJJdAJe:system.description.value`
@@ -1888,11 +1848,9 @@ Total blocking issues: 9446
 - **html-tag-sequence** `items:l3V7V8VCXpmAAysQ:system.description.value`
 - **html-attributes** `items:l3V7V8VCXpmAAysQ:system.description.value`
 - **foundry-references** `items:l3V7V8VCXpmAAysQ:system.description.value`
-- **missing-field** `items:l3V7V8VCXpmAAysQ:effects[eppPFRx8i3sCHN2E].description`
 - **html-tag-sequence** `items:caEn3ixCUFBnHTx6:system.description.value`
 - **html-attributes** `items:caEn3ixCUFBnHTx6:system.description.value`
 - **foundry-references** `items:caEn3ixCUFBnHTx6:system.description.value`
-- **missing-field** `items:caEn3ixCUFBnHTx6:effects[ySNgKEIdpRR6Eyc7].description`
 - **html-attributes** `items:F6v3Q7dz1SlpLTMf:system.description.value`
 - **foundry-inline-rolls** `items:F6v3Q7dz1SlpLTMf:system.description.value`
 - **html-tag-sequence** `items:uHL99JKLUpTKAbz8:system.description.value`

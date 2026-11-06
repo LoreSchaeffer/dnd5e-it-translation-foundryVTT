@@ -136,6 +136,17 @@ test("detectResiduals ignores technical Foundry targets, rolls, formulas, and pl
   assert.deepEqual(issues, []);
 });
 
+test("detectResiduals ignores technical ampersand reference targets", () => {
+  const issues = detectResiduals({
+    source: "<p>Take the &amp;reference[Attack] action.</p>",
+    translation: "<p>Effettua l'azione &amp;reference[Attack].</p>",
+    context: { pack: "items", id: "item1", fieldPath: "description" },
+    allowlist: []
+  });
+
+  assert.deepEqual(issues, []);
+});
+
 test("auditPack rejects modern content from the legacy coverage boundary", () => {
   assert.throws(
     () => auditPack({ pack: "spells24", sourceRecords: [], translationRecords: [], allowlist: [] }),

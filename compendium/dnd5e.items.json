@@ -105,7 +105,8 @@
       "description": "<div title=\"Page 151\"><div><div><p>Questo fluido adesivo e gommoso si infiamma quando è esposto all'aria. Con un'azione, il personaggio può lanciare questa ampolla fino 6 metri di distanza (l'ampolla si frantumerà all'impatto). Il personaggio effettua un attacco a distanza contro una creatura o un oggetto, considerando il fuoco dell'alchimista come arma improvvisata. Se colpisce il bersaglio, esso subisce 1d4 danni da fuoco all'inizio di ogni suo turno. Una creatura può terminare questi danni usando un'azione per effettuare una prova di Destrezza con CD 10 al fine di estinguere le fiamme.</p></div></div></div>",
       "effects": {
         "qAc1etkfUQkCbmTM": {
-          "name": "Ricoperto di Fuoco dell'Alchimista"
+          "name": "Ricoperto di Fuoco dell'Alchimista",
+          "description": "<p>Sei ricoperto di Fuoco dell'Alchimista e subisci [[/damage 1d4 fire]] danni all'inizio di ogni tuo turno. Puoi porre fine a questi danni usando la tua azione per effettuare una prova di [[/check 10 dex]] e spegnere le fiamme.</p>"
         }
       }
     },
@@ -138,7 +139,8 @@
       "description": "<p><em>Oggetto meraviglioso,&nbsp; (richiede sintonia)</em></p><p>Il punteggio di Costituzione di chi indossa questo amuleto&nbsp;è pari a 19. Se il suo punteggio di Costituzione è già pari o&nbsp;superiore a 19, l’amuleto non ha alcun effetto.</p>",
       "effects": {
         "EDhQAxztAvrCtTMV": {
-          "name": "Amuleto della Salute"
+          "name": "Amuleto della Salute",
+          "description": "<p>Il tuo punteggio di Costituzione è 19 finché indossi questo amuleto. Non ha alcun effetto su di te se, senza di esso, la tua Costituzione è già pari o superiore a 19.</p>"
         }
       }
     },
@@ -169,7 +171,8 @@
       },
       "effects": {
         "86kZBSv4Zyis1RQm": {
-          "name": "Protezione dell'Antitossina"
+          "name": "Protezione dell'Antitossina",
+          "description": "<p>Disponi di vantaggio ai tiri salvezza contro il veleno.</p>"
         }
       }
     },
@@ -1459,7 +1462,8 @@
       "description": "<p>Il personaggio ottiene un bonus di +1 ai tiri per colpire e ai tiri per i danni effettuati con quest’arma magica.</p><p><strong>Anatema dei Giganti</strong> (<em>Richiede sintonia</em>)</p><p>Per entrare in sintonia con quest’arma, il personaggio deve indossare una cintura della forza deigiganti (di qualunque tipo) e dei guanti del potere orchesco. La sintonia termina se il personaggio rimuove uno qualsiasi di questi oggetti. Finché il personaggio è in sintonia con l’arma e la impugna, il suo punteggio di Forza aumenta di 4 e può superare 20, ma non 30.</p><p>Quando il personaggio ottiene un 20 ai tiri per colpire effettuati con quest’arma contro un gigante, il gigante deve superare un tiro salvezza su Costituzione con CD 17, altrimenti muore.</p><p>Il martello possiede anche 5 cariche. Finché il personaggio è in sintonia con esso, può spendere 1 carica e usarlo per effettuare un attacco con un’arma a distanza, come se avesse la proprietà da lancio con una gittata normale di 6 metri e una gittata lunga di 18 metri. Se l’attacco colpisce, il martello genera un rombo di tuono udibile fino a 90 metri di distanza. Il bersaglio e ogni creatura entro 9 metri dal martello devono superare un tiro salvezza su Costituzione con CD 17, altrimenti diventano stordite fino alla fine del turno successivo del personaggio. Il martello recupera 1d4 + 1 cariche spese ogni giorno all’alba.</p>",
       "effects": {
         "95tYhecAl2D69Gtv": {
-          "name": "Martello dei Fulmini"
+          "name": "Martello dei Fulmini",
+          "description": "<p>Finché sei in sintonia con il Martello dei Fulmini, il tuo punteggio di Forza aumenta di 4 e può superare 20, ma non 30.</p>"
         }
       },
       "activities": {
@@ -2366,10 +2370,12 @@
       },
       "effects": {
         "IHJhvGPE1KPinh1r": {
-          "name": "Olio della Precisione: Arma"
+          "name": "Olio della Precisione: Arma",
+          "description": "<p>Per la durata, quest'arma è magica e conferisce un bonus di +3 ai tiri per colpire e per i danni.</p>"
         },
         "L6ERoLhCCv7UsF1b": {
-          "name": "Olio della Precisione: Munizione"
+          "name": "Olio della Precisione: Munizione",
+          "description": "<p>Per la durata, questa munizione è magica e conferisce un bonus di +3 ai tiri per colpire e per i danni.</p>"
         }
       }
     },
@@ -2386,7 +2392,8 @@
       },
       "effects": {
         "4OOm3lGF9n4bLHyt": {
-          "name": "Scivolosità Alchemica"
+          "name": "Scivolosità Alchemica",
+          "description": "<p>Il tuo movimento non è influenzato dal &amp;reference[difficult terrain] e gli incantesimi e gli altri effetti magici non possono né ridurre la tua velocità né renderti &amp;reference[Paralyzed apply=false] o &amp;reference[Restrained apply=false].</p><p>Puoi inoltre spendere 1,5 metri di movimento per sfuggire automaticamente a impedimenti non magici, come delle manette o una creatura che ti ha &amp;reference[Grappled apply=false]. Infine, trovarti sott'acqua non impone penalità al tuo movimento o ai tuoi attacchi.</p>"
         }
       }
     },
@@ -2474,7 +2481,8 @@
       },
       "effects": {
         "VGNePB21bqJfLsCr": {
-          "name": "Amore Alchemico"
+          "name": "Amore Alchemico",
+          "description": "<p>Sei &amp;reference[charmed apply=false] per 1 ora dalla prima creatura che vedi entro 10 minuti da quando hai bevuto questa pozione. Se la creatura appartiene a una specie e a un genere da cui sei normalmente attratto, mentre sei affascinato la consideri il tuo vero amore.</p>"
         }
       }
     },
@@ -2560,7 +2568,8 @@
       "description": "<p><em>La pozione ha un colore indecifrabile e un odore leggermente disgustoso.</em></p><div title=\"Page 30\"><div><div><p>Quando bevi questa pozione, per 1 ora ottieni resistenza a danni di tipo acido.&nbsp;</p></div></div></div><p>&nbsp;</p>",
       "effects": {
         "7bDbdK6YYorswEGe": {
-          "name": "Resistenza ai Danni da Acido"
+          "name": "Resistenza ai Danni da Acido",
+          "description": "<p>Disponi di resistenza ai danni da acido.</p>"
         }
       },
       "activities": {
@@ -2579,7 +2588,8 @@
       },
       "effects": {
         "U6yBzHzpfZRh3yZY": {
-          "name": "Amico degli Animali"
+          "name": "Amico degli Animali",
+          "description": "<p>Per la durata, puoi lanciare a volontà l'incantesimo @UUID[Compendium.dnd5e.spells.Item.hDOENzjuj5WpLq7B]{Amicizia con gli Animali} (CD del tiro salvezza 13).</p>"
         }
       }
     },
@@ -2607,7 +2617,8 @@
       },
       "effects": {
         "I7ywYX94qSyb3GRk": {
-          "name": "Scalata Potenziata Alchemicamente"
+          "name": "Scalata Potenziata Alchemicamente",
+          "description": "<p>Per la durata, ottieni una velocità di scalare pari alla tua velocità base sul terreno e disponi di vantaggio alle prove di Forza (Atletica) che effettui per scalare.</p>"
         }
       }
     },
@@ -2621,7 +2632,8 @@
       },
       "effects": {
         "0zUmrK4c8UybXZeQ": {
-          "name": "Forza del Gigante delle Nuvole"
+          "name": "Forza del Gigante delle Nuvole",
+          "description": "<p>Il tuo punteggio di Forza diventa 27 per la durata. Questo effetto non ha alcun effetto su di te se la tua Forza è già pari o superiore a 27.</p>"
         }
       }
     },
@@ -2630,7 +2642,8 @@
       "description": "<div style=\"box-sizing: border-box; user-select: text; color: #191813; font-family: Signika, 'Palatino Linotype', serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;\" title=\"Page 30\"><div style=\"box-sizing: border-box; user-select: text;\"><div style=\"box-sizing: border-box; user-select: text;\"><em style=\"box-sizing: border-box; user-select: text;\">La pozione ha un colore indecifrabile e un odore leggermente disgustoso.</em></div></div></div><div title=\"Page 30\"><div><div><p>Quando bevi questa pozione, per 1 ora ottieni resistenza ai danni del freddo.</p></div></div></div><p>&nbsp;</p>",
       "effects": {
         "iYO0o4oLErq9j3ph": {
-          "name": "Resistenza ai Danni da Freddo"
+          "name": "Resistenza ai Danni da Freddo",
+          "description": "<p>Disponi di resistenza ai danni da freddo.</p>"
         }
       },
       "activities": {
@@ -2649,7 +2662,8 @@
       },
       "effects": {
         "6sChAuK0HObortfE": {
-          "name": "Rimpicciolito Alchemicamente"
+          "name": "Rimpicciolito Alchemicamente",
+          "description": "<p>Le tue dimensioni si dimezzano in ogni direzione e il tuo peso si riduce a un ottavo del normale. Questa riduzione diminuisce la tua taglia di una categoria, per esempio da Media a Piccola. Finché l'effetto non termina, disponi inoltre di svantaggio alle prove di Forza e ai tiri salvezza su Forza.</p><p>Anche le tue armi si rimpiccioliscono per adattarsi alla nuova taglia. Finché sono rimpicciolite, i tuoi attacchi con esse infliggono 1d4 danni in meno (questo non può ridurre i danni a meno di 1).</p>"
         }
       }
     },
@@ -2663,7 +2677,8 @@
       },
       "effects": {
         "iCEYqMYew63B7ocr": {
-          "name": "Forza del Gigante del Fuoco"
+          "name": "Forza del Gigante del Fuoco",
+          "description": "<p>Il tuo punteggio di Forza diventa 25 per la durata. Questo effetto non ha alcun effetto su di te se la tua Forza è già pari o superiore a 25.</p>"
         }
       }
     },
@@ -2692,7 +2707,8 @@
       },
       "effects": {
         "UumpsHK33ePtvz3s": {
-          "name": "Volo Alchemico"
+          "name": "Volo Alchemico",
+          "description": "<p>Per la durata, ottieni una velocità di volare pari alla tua velocità base sul terreno e puoi fluttuare. Se ti trovi in aria quando l'effetto della pozione termina, cadi a meno che tu non disponga di un altro mezzo per rimanere in volo.</p>"
         }
       }
     },
@@ -2701,7 +2717,8 @@
       "description": "<div style=\"box-sizing: border-box; user-select: text; color: #191813; font-family: Signika, 'Palatino Linotype', serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;\" title=\"Page 30\"><div style=\"box-sizing: border-box; user-select: text;\"><div style=\"box-sizing: border-box; user-select: text;\"><em style=\"box-sizing: border-box; user-select: text;\">La pozione ha un colore indecifrabile e un odore leggermente disgustoso.</em></div></div></div><div title=\"Page 30\"><p>Quando bevi questa pozione, per 1 ora ottieni resistenza ai danni di forza.</p></div><p>&nbsp;</p>",
       "effects": {
         "d8PTXF30xWHZcQGt": {
-          "name": "Resistenza ai Danni da Forza"
+          "name": "Resistenza ai Danni da Forza",
+          "description": "<p>Disponi di resistenza ai danni da forza.</p>"
         }
       },
       "activities": {
@@ -2730,7 +2747,8 @@
       "description": "<p><em>Il contenitore di questa pozione sembra contenere una nebbia che si muove e si riversa come fosse acqua.</em></p><div title=\"Page 30\"><div><div><p>Quando bevi questa pozione, per 1 ora o finché non terminerai l’effetto con un’azione bonus, ottieni l’effetto dell’incantesimo <strong>Forma Gassosa</strong> (non richiede concentrazione).</p></div></div></div>",
       "effects": {
         "SffmmlIyQEG7jM0r": {
-          "name": "Forma Gassosa"
+          "name": "Forma Gassosa",
+          "description": "<p>Sei trasformato, assieme a tutto ciò che indossi e trasporti, in una nube brumosa per la durata. Questo effetto termina se scendi a 0 punti ferita.</p><p>Finché mantieni questa forma, il tuo unico metodo di movimento è una velocità di volare di 3 metri. Puoi entrare e occupare lo spazio di un'altra creatura. Disponi di resistenza ai danni non magici e di vantaggio ai tiri salvezza su Forza, Destrezza e Costituzione. Puoi attraversare piccoli fori, aperture strette e perfino semplici crepe, ma consideri i liquidi come se fossero superfici solide. Non puoi cadere e rimani sospeso in aria anche quando sei &amp;reference[stunned apply=false] o altrimenti &amp;reference[incapacitated apply=false].</p><p>Finché mantieni la forma di nube brumosa non puoi parlare o manipolare oggetti, e gli oggetti che trasportavi o impugnavi non possono essere lasciati cadere, usati o altrimenti manipolati. Non puoi attaccare o lanciare incantesimi.</p>"
         }
       },
       "activities": {
@@ -2758,7 +2776,8 @@
       },
       "effects": {
         "HAuNLWE4FAG5lpup": {
-          "name": "Ingrandito Alchemicamente"
+          "name": "Ingrandito Alchemicamente",
+          "description": "<p>Le tue dimensioni raddoppiano in ogni direzione e il tuo peso si moltiplica per otto. Questa crescita aumenta la tua taglia di una categoria, per esempio da Media a Grande. Se lo spazio non è sufficiente a raddoppiare le tue dimensioni, raggiungi la massima taglia possibile nello spazio disponibile. Disponi inoltre di vantaggio alle prove di Forza e ai tiri salvezza su Forza.</p><p>Anche le tue armi crescono per adattarsi alla nuova taglia. Finché sono ingrandite, i tuoi attacchi con esse infliggono 1d4 danni extra.</p>"
         }
       }
     },
@@ -2781,7 +2800,8 @@
       },
       "effects": {
         "KKcIKvHCHET79fEp": {
-          "name": "Benedetto"
+          "name": "Benedetto",
+          "description": "<p>Per la durata, ogni volta che effettui un tiro per colpire o un tiro salvezza, puoi tirare 1d4 e aggiungere il risultato al tiro per colpire o al tiro salvezza.</p>"
         }
       }
     },
@@ -2795,7 +2815,8 @@
       },
       "effects": {
         "Ee51dNBilkLQhVr9": {
-          "name": "Forza del Gigante delle Colline"
+          "name": "Forza del Gigante delle Colline",
+          "description": "<p>Il tuo punteggio di Forza diventa 21 per la durata. Questo effetto non ha alcun effetto su di te se la tua Forza è già pari o superiore a 21.</p>"
         }
       }
     },
@@ -2804,7 +2825,8 @@
       "description": "<p><em>Il contenitore di questa pozione sembra vuoto ma si percepisce che contiene del liquido.</em></p><div title=\"Page 30\"><div><div><p>Quando bevi questa pozione, per 1 ora diventi invisibile. Mentre sei invisibile, tutto ciò che trasporti o indossi resta anch’esso invisibile assieme a te. L’effetto ha termine qualora tu attacchi o lanci un incantesimo.&nbsp;</p></div></div></div><p>&nbsp;</p>",
       "effects": {
         "oGWqgNUAzC2P3E2m": {
-          "name": "Invisibilità"
+          "name": "Invisibilità",
+          "description": "<p>Per la durata, sei &amp;reference[invisible apply=false]. Qualsiasi cosa indossi o trasporti è invisibile assieme a te. Questo effetto termina anticipatamente se attacchi o lanci un incantesimo.</p>"
         }
       },
       "activities": {
@@ -2818,7 +2840,8 @@
       "description": "<div style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\" title=\"Page 30\"><div style=\"box-sizing: border-box; user-select: text;\"><div style=\"box-sizing: border-box; user-select: text;\"><em style=\"box-sizing: border-box; user-select: text;\">La pozione ha un colore indecifrabile e un odore leggermente disgustoso.</em></div></div></div><div style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\" title=\"Page 30\"><p style=\"box-sizing: border-box; user-select: text;\">Quando bevi questa pozione, per 1 ora ottieni resistenza ai danni da fulmine.</p></div><p>&nbsp;</p>",
       "effects": {
         "o5uwUilyOmZKavPX": {
-          "name": "Resistenza ai Danni da Fulmine"
+          "name": "Resistenza ai Danni da Fulmine",
+          "description": "<p>Disponi di resistenza ai danni da fulmine.</p>"
         }
       },
       "activities": {
@@ -2846,7 +2869,8 @@
       "description": "<div style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\" title=\"Page 30\"><div style=\"box-sizing: border-box; user-select: text;\"><div style=\"box-sizing: border-box; user-select: text;\"><em style=\"box-sizing: border-box; user-select: text;\">La pozione ha un colore indecifrabile e un odore leggermente disgustoso.</em></div></div></div><div style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\" title=\"Page 30\"><p style=\"box-sizing: border-box; user-select: text;\">Quando bevi questa pozione, per 1 ora ottieni resistenza ai danni di tipo necrotico.</p></div>",
       "effects": {
         "MKFIbvGusGUaKtav": {
-          "name": "Resistenza ai Danni Necrotici"
+          "name": "Resistenza ai Danni Necrotici",
+          "description": "<p>Disponi di resistenza ai danni necrotici.</p>"
         }
       },
       "activities": {
@@ -2869,7 +2893,8 @@
       "description": "<div style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\" title=\"Page 30\"><div style=\"box-sizing: border-box; user-select: text;\"><div style=\"box-sizing: border-box; user-select: text;\"><em style=\"box-sizing: border-box; user-select: text;\">La pozione ha un colore indecifrabile e un odore leggermente disgustoso.</em></div></div></div><div style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\" title=\"Page 30\"><p style=\"box-sizing: border-box; user-select: text;\">Quando bevi questa pozione, per 1 ora ottieni resistenza ai danni da veleno.</p></div><p>&nbsp;</p>",
       "effects": {
         "vkhMbnwDVjFzcSsl": {
-          "name": "Resistenza ai Danni da Veleno"
+          "name": "Resistenza ai Danni da Veleno",
+          "description": "<p>Disponi di resistenza ai danni da veleno.</p>"
         }
       },
       "activities": {
@@ -2883,7 +2908,8 @@
       "description": "<div style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\" title=\"Page 30\"><div style=\"box-sizing: border-box; user-select: text;\"><div style=\"box-sizing: border-box; user-select: text;\"><em style=\"box-sizing: border-box; user-select: text;\">La pozione ha un colore indecifrabile e un odore leggermente disgustoso.</em></div></div></div><div style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\" title=\"Page 30\"><p style=\"box-sizing: border-box; user-select: text;\">Quando bevi questa pozione, per 1 ora ottieni resistenza ai danni di tipo psichico.</p></div><p>&nbsp;</p>",
       "effects": {
         "uvppImdMsIuq4DrH": {
-          "name": "Resistenza ai Danni Psichici"
+          "name": "Resistenza ai Danni Psichici",
+          "description": "<p>Disponi di resistenza ai danni psichici.</p>"
         }
       },
       "activities": {
@@ -2897,7 +2923,8 @@
       "description": "<div style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\" title=\"Page 30\"><div style=\"box-sizing: border-box; user-select: text;\"><div style=\"box-sizing: border-box; user-select: text;\"><em style=\"box-sizing: border-box; user-select: text;\">La pozione ha un colore indecifrabile e un odore leggermente disgustoso.</em></div></div></div><div style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\" title=\"Page 30\"><p style=\"box-sizing: border-box; user-select: text;\">Quando bevi questa pozione, per 1 ora ottieni resistenza ai danni di tipo radiante.</p></div>",
       "effects": {
         "eEef3fb2MpkTeguM": {
-          "name": "Resistenza ai Danni Radianti"
+          "name": "Resistenza ai Danni Radianti",
+          "description": "<p>Disponi di resistenza ai danni radiosi.</p>"
         }
       },
       "activities": {
@@ -2916,7 +2943,8 @@
       },
       "effects": {
         "PXMOx6wnEh05eAKY": {
-          "name": "Accelerato"
+          "name": "Accelerato",
+          "description": "<p>Per la durata, la tua velocità raddoppia, ottieni un bonus di +2 alla CA, disponi di vantaggio ai tiri salvezza su Destrezza e ottieni un'azione aggiuntiva a ogni tuo turno. Questa azione può essere usata soltanto per effettuare l'azione &amp;reference[Attack] (un solo attacco con un'arma), &amp;reference[Dash], &amp;reference[Disengage], &amp;reference[Hide] o &amp;reference[Use an Object].</p>"
         }
       }
     },
@@ -2945,7 +2973,8 @@
       },
       "effects": {
         "sjbluBPTvdkkf3pv": {
-          "name": "Forza del Gigante delle Tempeste"
+          "name": "Forza del Gigante delle Tempeste",
+          "description": "<p>Il tuo punteggio di Forza diventa 29 per la durata. Questo effetto non ha alcun effetto su di te se la tua Forza è già pari o superiore a 29.</p>"
         }
       }
     },
@@ -2972,7 +3001,8 @@
       "description": "<div style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\" title=\"Page 30\"><div style=\"box-sizing: border-box; user-select: text;\"><div style=\"box-sizing: border-box; user-select: text;\"><em style=\"box-sizing: border-box; user-select: text;\">La pozione ha un colore indecifrabile e un odore leggermente disgustoso.</em></div></div></div><div style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\" title=\"Page 30\"><p style=\"box-sizing: border-box; user-select: text;\">Quando bevi questa pozione, per 1 ora ottieni resistenza ai danni di tipo tuono.</p></div>",
       "effects": {
         "QlQh25ywP4LsgKtg": {
-          "name": "Resistenza ai Danni da Tuono"
+          "name": "Resistenza ai Danni da Tuono",
+          "description": "<p>Disponi di resistenza ai danni da tuono.</p>"
         }
       },
       "activities": {
@@ -2991,7 +3021,8 @@
       },
       "effects": {
         "YfuBxNfhlPfQX8Ua": {
-          "name": "Respirazione Acquatica Alchemica"
+          "name": "Respirazione Acquatica Alchemica",
+          "description": "<p>Puoi respirare sott'acqua per la durata.</p>"
         }
       }
     },
@@ -3822,7 +3853,8 @@
       "description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">(richiede sintonia con un druido, mago, stregone o warlock)</em></p><p>Finché il personaggio impugna questo bastone, ottiene resistenza ai danni da fuoco.</p><p>Il bastone possiede 10 cariche. Quando il personaggio lo impugna, può usare un’azione e spendere 1 o più cariche per lanciare con esso uno degli incantesimi seguenti, usando la sua CD del tiro salvezza degli incantesimi: @Compendium[dnd5e.spells.5SuJewoa1CRWaj1F]{Mani Brucianti} (1 carica), @Compendium[dnd5e.spells.ztgcdrWPshKRpFd0]{Palla di Fuoco} (3 cariche), o @Compendium[dnd5e.spells.X3DrXgxjwI2dvkD6]{Muro di Fuoco} (4 cariche).</p><p>Il bastone recupera 1d6 + 4 cariche spese ogni giorno all’alba. Se il personaggio spende l’ultima carica, tira un d20. Con un risultato di 1, il bastone si annerisce, si sbriciola in cenere ed è distrutto.</p><p><em style=\"color: #191813; font-size: 13px;\">Nota di Foundry: Il</em><em style=\"color: #191813; font-size: 13px;\"> pulsante Altra Formula è stato configurato per tirare il recupero di cariche del bastone all'alba, se necesario.</em></p>",
       "effects": {
         "jewb1yIhlxLetpCp": {
-          "name": "Bastone del Fuoco"
+          "name": "Bastone del Fuoco",
+          "description": "<p>Disponi di resistenza ai danni da fuoco finché impugni questo bastone.</p>"
         }
       }
     },
@@ -3831,7 +3863,8 @@
       "description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">(Richiede sintonia con un druido, mago, stregone o warlock)</em></p><p>Finché il personaggio impugna questo bastone, ottiene resistenza ai danni da freddo.</p><p>Il bastone possiede 10 cariche. Quando il personaggio lo impugna, può usare un’azione e spendere 1 o più cariche per lanciare con esso uno degli incantesimi seguenti, usando la sua CD del tiro salvezza degli incantesimi: @Compendium[dnd5e.spells.RpKjTlYASrfqUPVA]{Cono di Freddo} (5 cariche), @Compendium[dnd5e.spells.IBJmWjzbQGu7M4UX]{Nube di Nebbia} (1 carica), @Compendium[dnd5e.spells.WN2LWEljYU6QqnRH]{Tempesta di Ghiaccio} (4 cariche), o @Compendium[dnd5e.spells.fzZnVKLmBMo2f5up]{Muro di Ghiaccio} (4 cariche).</p><p>Il bastone recupera 1d6 + 4 cariche spese ogni giorno all'alba. Se il personaggio spende l'ultima carica, tira un d20. Con un risultato di 1, il bastone si trasforma in acqua ed è distrutto.</p><p><em style=\"color: #191813; font-size: 13px;\">Nota di Foundry: Il</em><em style=\"color: #191813; font-size: 13px;\"> pulsante Altra Formula è stato configurato per tirare il recupero di cariche del bastone all'alba, se necesario.</em></p>",
       "effects": {
         "cY6gjrYWTbo4ezzH": {
-          "name": "Bastone del Gelo"
+          "name": "Bastone del Gelo",
+          "description": "<p>Disponi di resistenza ai danni da freddo finché impugni questo bastone.</p>"
         }
       }
     },
@@ -3844,7 +3877,8 @@
       "description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">(Richiede sintonia con un mago, stregone o warlock)</em></p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Questo bastone può essere impugnato come un bastone ferrato magico che conferisce un bonus di +2 ai tiri per colpire e ai tiri per i danni effettuati con esso. Finché il personaggio lo impugna, ottiene un bonus di +2 alla Classe Armatura, ai tiri salvezza e ai tiri per colpire con incantesimo.</p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Il bastone possiede 20 cariche per le seguenti proprietà. Il bastone recupera 2d8 + 4 cariche spese ogni giorno all’alba. Se il personaggio spende l’ultima carica, tira un d20. Con un risultato di 1, il bastone conserva il bonus di +2 ai tiri per colpire e per i danni, ma perde tutte le altre proprietà. Se ottiene 20, il bastone recupera 1d8 + 2 cariche.</p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><strong>Colpo Poderoso</strong>. Quando il personaggio colpisce con un attacco in mischia usando il bastone, può spendere 1 carica per infliggere ld6 danni da forza extra al bersaglio.</p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><strong>Incantesimi</strong>. Finché il personaggio impugna il bastone, può usare un’azione e spendere 1 o più cariche per lanciare con esso uno dei seguenti incantesimi, usando la sua CD del tiro salvezza degli incantesimi e il suo bonus di attacco dell’incantesimo: @Compendium[dnd5e.spells.RpKjTlYASrfqUPVA]{Cono di Freddo} (5 cariche), @Compendium[dnd5e.spells.ztgcdrWPshKRpFd0]{Palla di Fuoco} (versione di 5° livello, 5 cariche), @Compendium[dnd5e.spells.WmQpxfjZwF3MGUby]{Globo di Invulnerabilità} (6 cariche), @Compendium[dnd5e.spells.l9Ju5KE7bbn3WpTm]{Blocca Mostri} (5 cariche), @Compendium[dnd5e.spells.MRxldJd6C4bsBo3O]{Levitazione} (2 cariche), @Compendium[dnd5e.spells.IyikgTEOTv701jgQ]{Fulmine} (versione di 5° livello, 5 cariche), @Compendium[dnd5e.spells.41JIhpDyM9Anm7cs]{Dardo Incantato} (1 carica), @Compendium[dnd5e.spells.ODhLKBxLnvvLOnw1]{Raggio di Affaticamento} (1 carica), o @Compendium[dnd5e.spells.o9ZCvuD2B1OTcubb]{Muro di Forza} (5 cariche).</p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><strong>Colpo del Castigo</strong>. Il personaggio può usare un'azione perspezzare il bastone sul ginocchio o contro una superficie solida ed effettuare un colpo del castigo. Il bastone è distrutto e sprigiona la magia che gli restava in un'esplosione che si espande fino a riempire una sfera del raggio di 9 metri centrata su di esso.</p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Il personaggio ha una probabilità del 50 per cento di spostarsi istantaneamente su un piano di esistenza scelto a caso per evitare l’esplosione. Se non riesce a evitare l’effetto, subisce danni da forza pari a 16 x il numero di cariche rimanenti nel bastone. Ogni altra creatura che si trova nell’area deve effettuare un tiro salvezza su Destrezza con CD 17: se fallisce, subisce un ammontare di danni basato sulla sua distanza dal punto di origine dell’esplosione (come indicato nella tabella sottostante), mentre se lo supera, subisce la metà di quei danni.</p><table border=\"1\"><tbody><tr><td><strong>Distanza dall'Origine</strong></td><td><strong>Danni</strong></td></tr><tr><td>3 m o meno</td><td>8 x il numero di cariche nel bastone</td></tr><tr><td>Da 3,1 m a 6 m</td><td>6 x il numero di cariche nel bastone</td></tr><tr><td>Da 6,1 m a 9 m</td><td>4 x il numero di cariche nel bastone</td></tr></tbody></table><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em>Nota di Foundry: Il</em><em> pulsante Altra Formula è stato configurato per tirare il recupero di cariche del bastone all'alba, se necesario.</em></p>",
       "effects": {
         "313kehq7ifkqiz2u": {
-          "name": "Bastone del Potere"
+          "name": "Bastone del Potere",
+          "description": "<p>Finché impugni questo bastone, ottieni un bonus di +2 alla Classe Armatura, ai tiri salvezza e ai tiri per colpire con incantesimo.</p>"
         }
       },
       "activities": {
@@ -3887,7 +3921,8 @@
       "description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">(Richiede sintonia con un mago, stregone o warlock)</em></p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Questo bastone può essere impugnato come un bastone ferrato magico che conferisce un bonus di +2 ai tiri per colpire e ai tiri per i danni effettuati con esso. Finché il personaggio lo impugna, ottiene un bonus di +2 ai tiri per colpire con incantesimo.</p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Il bastone possiede 50 cariche per le proprietà seguenti. Il bastone recupera 4d6 + 2 cariche spese ogni giorno all'alba. Se il personaggio spende l’ultima carica, tira un d20. Con un risultato di 20, il bastone recupera 1d12 + 1 cariche.</p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><strong>Assorbimento degli Incantesimi</strong>. Finché il personaggio impugna il bastone, dispone di vantaggio ai tiri salvezza contro gli incantesimi. Può inoltre usare la sua reazione quando un'altra creatura lancia un incantesimo che bersaglia solo il personaggio. Se lo fa, il bastone assorbe la magia dell’incantesimo, annullandone gli effetti e ottenendo un numero di cariche pari al livello dell’incantesimo assorbito. Tuttavia, se così facendo il numero totale delle cariche del bastone supera 50, il bastone esplode come se il personaggio avesse attivato il suo <strong>Colpo del Castigo</strong> (vedi sotto).</p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><strong>Incantesimi</strong>. Finché il personaggio impugna il bastone, può usare un'azione e spendere alcune cariche per lanciare con esso uno degli incantesimi seguenti, usando la sua CD del tiro salvezza degli incantesimi e la sua caratteristica da incantatore: @Compendium[dnd5e.spells.1LkZvINag7KqBmDR]{Evoca Elementale} (7 cariche), @Compendium[dnd5e.spells.15Fa6q1nH27XfbR8]{Dissolvi Magie} (3 cariche), @Compendium[dnd5e.spells.ztgcdrWPshKRpFd0]{Palla di&nbsp; Fuoco} (versione di 7° livello, 7 cariche), @Compendium[dnd5e.spells.FjYE214HTERCRZNm]{Sfera Infuocata} (2 cariche), @Compendium[dnd5e.spells.WN2LWEljYU6QqnRH]{Tempesta di Ghiaccio} (4 cariche), @Compendium[dnd5e.spells.1N8dDMMgZ1h1YJ3B]{Invisibilità} (2 cariche), @Compendium[dnd5e.spells.1nhIxh0DsJsntCfj]{Scassinare} (2 cariche), @Compendium[dnd5e.spells.IyikgTEOTv701jgQ]{Fulmine} (versione di 7° livello, 7 cariche), @Compendium[dnd5e.spells.d9MwcXi7Il3HROXd]{Passapareti} (5 cariche), @Compendium[dnd5e.spells.J6Jpw5XzB5aTeqnz]{Spostamento Planare} (7 cariche), @Compendium[dnd5e.spells.HQfd7jJyULIoGxrZ]{Telecinesi} (5 cariche), @Compendium[dnd5e.spells.X3DrXgxjwI2dvkD6]{Muro di Fuoco} (4 cariche), o @Compendium[dnd5e.spells.UJJu9c2UvCzVljiP]{Ragnatela} (2 cariche).</p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Il personaggio può anche usare un'azione per lanciare con il bastone uno degli incantesimi seguenti senza spendere alcuna carica: @Compendium[dnd5e.spells.8cse7rit0oswRPUP]{Serratura Arcana}, @Compendium[dnd5e.spells.ghXTfe7sgCbgf1Q8]{Individuazione del Magico}, @Compendium[dnd5e.spells.WahI41a3goVUg0x1]{Ingrandire/Ridurre}, @Compendium[dnd5e.spells.Bnn9Nzajixvow9xi]{Luce}, @Compendium[dnd5e.spells.Utk1OQRwYkMkFRD3]{Mano Magica}, o @Compendium[dnd5e.spells.xmDBqZhRVrtLP8h2]{Protezione dal Bene e dal Male}.</p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><strong>Colpo del Castigo</strong>. Il personaggio può usare un'azione per spezzare il bastone sul ginocchio o contro una superfìcie solida ed effettuare un colpo del castigo. Il bastone è distrutto e sprigiona la magia che gli restava in un’esplosione che si espande fino a riempire una sfera del raggio di 9 metri centrata su di esso.</p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Il personaggio ha una probabilità del 50 percento di spostarsi istantaneamente su un piano di esistenza scelto a caso per evitare l'esplosione. Se non riesce a evitare l’effetto, subisce danni da forza pari a 16 x il numero di cariche rimanenti nel bastone. Ogni altra creatura che si trova nell’area deve effettuare un tiro salvezza su Destrezza con CD 17: se fallisce, subisce un ammontare di danni basato sulla sua distanza dal punto di origine dell’esplosione (come indicato nella tabella sottostante), mentre se lo supera, subisce la metà di quei danni.</p><table border=\"1\"><tbody><tr><td><strong>Distanza dall'Origine</strong></td><td><strong>Danni</strong></td></tr><tr><td>3 m o meno</td><td>8 x il numero di cariche nel bastone</td></tr><tr><td>Da 3,1 m a 6 m</td><td>6 x il numero di cariche nel bastone</td></tr><tr><td>Da 6,1 m a 9 m</td><td>4 x il numero di cariche nel bastone</td></tr></tbody></table><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em>Nota di Foundry: Il</em><em> pulsante Altra Formula è stato configurato per tirare il recupero di cariche del bastone all'alba, se necesario.</em></p>",
       "effects": {
         "eppPFRx8i3sCHN2E": {
-          "name": "Bastone dei Magi"
+          "name": "Bastone dei Magi",
+          "description": "<p>Finché impugni questo bastone, ottieni un bonus di +2 ai tiri per colpire con incantesimo.</p>"
         }
       },
       "activities": {
@@ -3913,7 +3948,8 @@
       "description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">(Richiede sintonia con un druido)</em></p><p>Questo bastone può essere impugnato come un bastone ferrato magico che conferisce un bonus di +2 ai tiri per colpire e ai tiri per i danni effettuati con esso. Finché il personaggio lo impugna, ottiene un bonus di +2 ai tiri per colpire con incantesimo.</p><p>Il bastone possiede 10 cariche per le seguenti proprietà. Recupera 1d6 + 4 cariche spese ogni giorno all’alba. Se il personaggio spende l'ultima carica, tira un d20. Con un risultato di 1, il bastone perde le sue proprietà e diventa un bastone ferrato non magico.</p><p><strong>Incantesimi</strong>. Il personaggio può usare un'azione e spendere 1 o più cariche del bastone per lanciare con esso uno degli incantesimi seguenti, usando la sua CD del tiro salvezza degli incantesimi: @Compendium[dnd5e.spells.hDOENzjuj5WpLq7B]{Amicizia con gli Animali} (1 carica), @Compendium[dnd5e.spells.MCEpGpvovcXagwQS]{Risveglio} (5 cariche), @Compendium[dnd5e.spells.JPwIEfgUPVebr5AH]{Pelle Coriacea} (2 cariche), @Compendium[dnd5e.spells.Iv2qqSAT7OkXKPFx]{Localizza Animali o Vegetali} (2 cariche), @Compendium[dnd5e.spells.aL1F8fvYLtNzUbKu]{Parlare con gli Animali} (1 carica), @Compendium[dnd5e.spells.2VXGS206tuChoeXy]{Parlare con i Vegetali} (3 cariche), o @Compendium[dnd5e.spells.AQsBc94ES7W7s7iG]{Muro di Spine} (6 cariche).</p><p>Il personaggio può anche usare un’azione per lanciare con il bastone l’incantesimo @Compendium[dnd5e.spells.pRMvmknwLf2tdMTj]{Passare Senza Tracce} senza usare alcuna carica.</p><p><strong>Forma Arborea</strong>. Il personaggio può usare un’azione per piantare un’estremità del bastone in un tratto di terra fertile e spendere 1 carica per trasformare il bastone in un albero rigoglioso. L'albero è alto 18 metri, ha un tronco del diametro di 1,5 metri e i rami sulla cima si estendono in un raggio di 6 metri. Appare come un albero comune, ma se bersagliato da @Compendium[dnd5e.spells.ghXTfe7sgCbgf1Q8]{Individuazione del Magico}, emana una debole aura magica di trasmutazione. Toccando l’albero e usando un’altra azione per pronunciare la parola d'ordine, il personaggio può riportare il bastone alla sua forma normale. Ogni creatura che si trova sull'albero cade quando questo si ritrasforma in bastone.</p><p><em style=\"color: #191813; font-size: 13px;\">Nota di Foundry: Il</em><em style=\"color: #191813; font-size: 13px;\"> pulsante Altra Formula è stato configurato per tirare il recupero di cariche del bastone all'alba, se necesario.</em></p>",
       "effects": {
         "ySNgKEIdpRR6Eyc7": {
-          "name": "Bastone dei Boschi"
+          "name": "Bastone dei Boschi",
+          "description": "<p>Finché impugni questo bastone, disponi di un bonus di +2 ai tiri per colpire con incantesimo.</p>"
         }
       },
       "activities": {
@@ -4063,7 +4099,8 @@
       "description": "<p><em>(ingerito)</em></p>\n<p>Una creatura sottoposta a questo veleno deve riuscire in un <strong>Tiro Salvezza su Costituzione con CD 11</strong> o diventare @Compendium[dnd5e.rules.Avvelenato]{Avvelenata} per <strong>1 ora</strong>. La creatura @Compendium[dnd5e.rules.Avvelenato]{Avvelenata} non può dire consapevolmente una bugia, come se fosse sotto l'effetto dell'incantesimo @Compendium[dnd5e.spells.Zona di Verità].</p>",
       "effects": {
         "XJxOfIIj9oraLfCb": {
-          "name": "Non Può Mentire"
+          "name": "Non Può Mentire",
+          "description": "<p>Non puoi pronunciare consapevolmente una menzogna, come se fossi sotto l'effetto di un incantesimo @UUID[Compendium.dnd5e.spells.Item.CylBa7jR8DSbo8Z3]{Zona di Verità}.</p>"
         }
       }
     },
@@ -4280,7 +4317,8 @@
       },
       "effects": {
         "pC15uqif0tfmdlvY": {
-          "name": "Terrorizzato"
+          "name": "Terrorizzato",
+          "description": "<p>Sei &amp;reference[frightened apply=false] dall'utilizzatore della bacchetta per la durata. Finché sei spaventato in questo modo, devi impiegare i tuoi turni per cercare di allontanarti il più possibile e non puoi muoverti volontariamente in uno spazio entro 9 metri dalla creatura che ti ha spaventato.</p><p>Non puoi inoltre effettuare reazioni. Come azione, puoi usare soltanto l'azione &amp;reference[dash] o cercare di sfuggire a un effetto che ti impedisce di muoverti. Se non hai alcun luogo verso cui muoverti, puoi usare l'azione &amp;reference[dodge].</p><p>Alla fine di ogni tuo turno puoi ripetere il tiro salvezza; se lo superi, l'effetto termina su di te.</p>"
         }
       }
     },
@@ -4310,7 +4348,8 @@
       },
       "effects": {
         "lgD1h0ioOsqz6jK8": {
-          "name": "Paralisi"
+          "name": "Paralisi",
+          "description": "<p>Sei &amp;reference[paralyzed apply=false] per la durata.</p><p>Alla fine di ogni tuo turno puoi ripetere il tiro salvezza; se lo superi, l'effetto termina su di te.</p>"
         }
       }
     },
@@ -4372,7 +4411,8 @@
       "description": "<p><em>(Richiede sintonia con un incantatore)</em></p><p>Finch&eacute; il personaggio impugna questa bacchetta, riceve un bonus ai tiri per colpire con incantesimo di +1. Il personaggio pu&ograve; inoltre ignorare met&agrave; copertura quando effettua un attacco con incantesimo.</p>",
       "effects": {
         "L2JsUOPt6kCEVZHT": {
-          "name": "Precisione del Mago da Guerra +1"
+          "name": "Precisione del Mago da Guerra +1",
+          "description": "<p>Ottieni un bonus di +1 ai tiri per colpire con incantesimo e ignori la &amp;reference[half cover] quando effettui un tiro per colpire con incantesimo.</p>"
         }
       }
     },
@@ -4381,7 +4421,8 @@
       "description": "<p><em>(Richiede sintonia con un incantatore)</em></p><p>Finché il personaggio impugna questa bacchetta, riceve un bonus ai tiri per colpire con incantesimo di +2. Il personaggio può inoltre ignorare metà copertura quando effettua un attacco con incantesimo.</p>",
       "effects": {
         "s8wl3gTptLVyPcsW": {
-          "name": "Precisione del Mago da Guerra +2"
+          "name": "Precisione del Mago da Guerra +2",
+          "description": "<p>Ottieni un bonus di +2 ai tiri per colpire con incantesimo e ignori la &amp;reference[half cover] quando effettui un tiro per colpire con incantesimo.</p>"
         }
       }
     },
@@ -4390,7 +4431,8 @@
       "description": "<p><em>(Richiede sintonia con un incantatore)</em></p><p>Finch&eacute; il personaggio impugna questa bacchetta, riceve un bonus ai tiri per colpire con incantesimo di +3. Il personaggio pu&ograve; inoltre ignorare met&agrave; copertura quando effettua un attacco con incantesimo.</p>",
       "effects": {
         "57wol3ftCtHAGwV5": {
-          "name": "Precisione del Mago da Guerra +3"
+          "name": "Precisione del Mago da Guerra +3",
+          "description": "<p>Ottieni un bonus di +3 ai tiri per colpire con incantesimo e ignori la &amp;reference[half cover] quando effettui un tiro per colpire con incantesimo.</p>"
         }
       }
     },
