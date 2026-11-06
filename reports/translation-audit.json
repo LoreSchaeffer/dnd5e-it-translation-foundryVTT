@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1025,
+      "translated": 1027,
       "missing": 69,
-      "partial": 1297,
+      "partial": 1295,
       "review": 213
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 9371,
-      "missing": 6289,
+      "translated": 9392,
+      "missing": 6268,
       "invariantFailures": 2394,
       "englishResiduals": 135,
       "imperialResiduals": 4
     },
-    "blockingIssues": 8846
+    "blockingIssues": 8825
   },
   "packs": [
     {
@@ -76741,9 +76741,9 @@
       "summary": {
         "documents": {
           "total": 320,
-          "translated": 88,
+          "translated": 90,
           "missing": 0,
-          "partial": 232,
+          "partial": 230,
           "review": 10
         },
         "folders": {
@@ -76755,8 +76755,8 @@
         },
         "fields": {
           "total": 2007,
-          "translated": 1864,
-          "missing": 143,
+          "translated": 1885,
+          "missing": 122,
           "invariantFailures": 406,
           "englishResiduals": 17,
           "imperialResiduals": 2
@@ -77454,33 +77454,6 @@
           "id": "8RTDOt80u8aBv9qx",
           "fieldPath": "system.description.value",
           "name": "Alter Self",
-          "sourcePath": "spells/2nd-level/alter-self.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "8RTDOt80u8aBv9qx",
-          "name": "Alter Self",
-          "fieldPath": "effects[14Qp5HLSat31r3uM].description",
-          "sourcePath": "spells/2nd-level/alter-self.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "8RTDOt80u8aBv9qx",
-          "name": "Alter Self",
-          "fieldPath": "effects[V6Y9a1LElOYZc4J7].description",
-          "sourcePath": "spells/2nd-level/alter-self.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "8RTDOt80u8aBv9qx",
-          "name": "Alter Self",
-          "fieldPath": "effects[nQT9INSQxHJZQfFS].description",
           "sourcePath": "spells/2nd-level/alter-self.yml"
         },
         {
@@ -79701,33 +79674,6 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "spells",
-          "id": "TkJ8Wtg1L7TZtspm",
-          "name": "Dispel Evil and Good",
-          "fieldPath": "system.activities.5nYzFGATnggEH6oq.description.value",
-          "sourcePath": "spells/5th-level/dispel-evil-and-good.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "TkJ8Wtg1L7TZtspm",
-          "name": "Dispel Evil and Good",
-          "fieldPath": "system.activities.xlms51P5nGb9Rbc0.description.value",
-          "sourcePath": "spells/5th-level/dispel-evil-and-good.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "TkJ8Wtg1L7TZtspm",
-          "name": "Dispel Evil and Good",
-          "fieldPath": "system.activities.vtFdULsqeSCfhN7T.description.value",
-          "sourcePath": "spells/5th-level/dispel-evil-and-good.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
           "id": "91Sw6vOIaO7U8DvM",
           "name": "Dominate Person",
           "fieldPath": "system.activities.NB35NZ5xw2Gol0nu.description.value",
@@ -80396,33 +80342,6 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "spells",
-          "id": "ZRqu3Xh9FmlBCZGy",
-          "name": "Eyebite",
-          "fieldPath": "effects[4aX9fGlauAQsLCAH].description",
-          "sourcePath": "spells/6th-level/eyebite.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "ZRqu3Xh9FmlBCZGy",
-          "name": "Eyebite",
-          "fieldPath": "effects[2X7i49sZdg2mqPZB].description",
-          "sourcePath": "spells/6th-level/eyebite.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "ZRqu3Xh9FmlBCZGy",
-          "name": "Eyebite",
-          "fieldPath": "effects[yBr3oIopzL8uDrPi].description",
-          "sourcePath": "spells/6th-level/eyebite.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
           "id": "MImfWCzEPRMYD3Xp",
           "name": "Freezing Sphere",
           "fieldPath": "effects[N2YjmVRCv4gVvuk8].description",
@@ -80543,33 +80462,6 @@
           "id": "ej6wyY4G1gOcb1U6",
           "fieldPath": "system.description.value",
           "name": "Magic Jar",
-          "sourcePath": "spells/6th-level/magic-jar.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "ej6wyY4G1gOcb1U6",
-          "name": "Magic Jar",
-          "fieldPath": "system.activities.KP2dpK9GVYQN8V7W.description.value",
-          "sourcePath": "spells/6th-level/magic-jar.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "ej6wyY4G1gOcb1U6",
-          "name": "Magic Jar",
-          "fieldPath": "effects[qouBiD1Bd8bM3lzS].description",
-          "sourcePath": "spells/6th-level/magic-jar.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "ej6wyY4G1gOcb1U6",
-          "name": "Magic Jar",
-          "fieldPath": "effects[WOqZ4GoBhC7fBd91].description",
           "sourcePath": "spells/6th-level/magic-jar.yml"
         },
         {
@@ -80832,33 +80724,6 @@
           "id": "T1vpZLam7LezjToj",
           "fieldPath": "system.description.value",
           "name": "Divine Word",
-          "sourcePath": "spells/7th-level/divine-word.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "T1vpZLam7LezjToj",
-          "name": "Divine Word",
-          "fieldPath": "effects[ng33sfAG959luxm1].description",
-          "sourcePath": "spells/7th-level/divine-word.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "T1vpZLam7LezjToj",
-          "name": "Divine Word",
-          "fieldPath": "effects[WFygB4koHfaqBOiK].description",
-          "sourcePath": "spells/7th-level/divine-word.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "T1vpZLam7LezjToj",
-          "name": "Divine Word",
-          "fieldPath": "effects[QNru4BLkBqnn3uBB].description",
           "sourcePath": "spells/7th-level/divine-word.yml"
         },
         {
@@ -81298,33 +81163,6 @@
           "sourcePath": "spells/8th-level/antimagic-field.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "GJ2WYm3SQFR0winH",
-          "name": "Antipathy/Sympathy",
-          "fieldPath": "effects[Cz824xQ2Z4BYuSa9].description",
-          "sourcePath": "spells/8th-level/antipathy-sympathy.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "GJ2WYm3SQFR0winH",
-          "name": "Antipathy/Sympathy",
-          "fieldPath": "effects[Q8oqI0ISzsugmoDk].description",
-          "sourcePath": "spells/8th-level/antipathy-sympathy.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "GJ2WYm3SQFR0winH",
-          "name": "Antipathy/Sympathy",
-          "fieldPath": "effects[lFjm3pDxzxo4U5Jm].description",
-          "sourcePath": "spells/8th-level/antipathy-sympathy.yml"
-        },
-        {
           "code": "unchanged-english",
           "value": "Clone",
           "message": "Visible translation is identical to the English source",
@@ -81451,33 +81289,6 @@
           "id": "j8S49Rea8b1640Zi",
           "fieldPath": "system.description.value",
           "name": "Holy Aura",
-          "sourcePath": "spells/8th-level/holy-aura.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "j8S49Rea8b1640Zi",
-          "name": "Holy Aura",
-          "fieldPath": "system.activities.dnd5eactivity100.description.value",
-          "sourcePath": "spells/8th-level/holy-aura.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "j8S49Rea8b1640Zi",
-          "name": "Holy Aura",
-          "fieldPath": "effects[vtInaQPPgrwFw8iq].description",
-          "sourcePath": "spells/8th-level/holy-aura.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "j8S49Rea8b1640Zi",
-          "name": "Holy Aura",
-          "fieldPath": "effects[VMRCzFjA3Omw9nB2].description",
           "sourcePath": "spells/8th-level/holy-aura.yml"
         },
         {

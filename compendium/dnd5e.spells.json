@@ -168,13 +168,16 @@
       },
       "effects": {
         "14Qp5HLSat31r3uM": {
-          "name": "Adattamento Acquatico"
+          "name": "Adattamento Acquatico",
+          "description": "<p>Il tuo corpo si è adattato a un ambiente acquatico, sviluppando branchie e membrane tra le dita. Puoi respirare sott'acqua e ottieni una velocità di nuotare pari alla tua velocità base sul terreno.</p>"
         },
         "V6Y9a1LElOYZc4J7": {
-          "name": "Aspetto Cambiato"
+          "name": "Aspetto Cambiato",
+          "description": "<p>Hai trasformato il tuo aspetto. Decidi che aspetto assumere, inclusi altezza, peso, tratti del volto, suono della voce, lunghezza dei capelli, colorito ed eventuali caratteristiche distintive. Puoi apparire come un membro di un'altra razza, ma nessuna delle tue statistiche cambia.</p><p>Inoltre, non puoi apparire come una creatura di taglia diversa dalla tua e la tua forma di base rimane la stessa; per esempio, se sei bipede, non puoi usare questo incantesimo per diventare quadrupede. In qualsiasi momento per la durata dell'incantesimo, puoi usare la tua azione per cambiare di nuovo il tuo aspetto in questo modo.</p>"
         },
         "nQT9INSQxHJZQfFS": {
-          "name": "Armi Naturali"
+          "name": "Armi Naturali",
+          "description": "<p>Ti sono cresciuti artigli, zanne, spine, corna o un'altra arma naturale a tua scelta. I tuoi colpi senz'armi infliggono 1d6 danni contundenti, perforanti o taglienti, come appropriato all'arma naturale scelta, e possiedi competenza nei tuoi colpi senz'armi. Infine, l'arma naturale è magica e ottieni un bonus di +1 ai tiri per colpire e per i danni che effettui usandola.</p>"
         }
       }
     },
@@ -286,13 +289,16 @@
       },
       "effects": {
         "Cz824xQ2Z4BYuSa9": {
-          "name": "Antipatia"
+          "name": "Antipatia",
+          "description": "<p>Finché è Spaventata dal bersaglio, la creatura deve usare il proprio movimento per raggiungere il punto sicuro più vicino dal quale non possa vedere il bersaglio. Se la creatura si allontana di oltre 18 metri dal bersaglio e non può vederlo, non è più spaventata, ma torna a esserlo se vede di nuovo il bersaglio o si muove entro 18 metri da esso.</p>"
         },
         "Q8oqI0ISzsugmoDk": {
-          "name": "Aura di Antipatia"
+          "name": "Aura di Antipatia",
+          "description": "<p>Sei pervaso da un'aura di antipatia.</p><p>L'ammaliamento induce le creature del tipo indicato dall'incantatore a provare un intenso impulso ad abbandonare l'area e a evitare il bersaglio. Quando una creatura simile può vedere il bersaglio o si porta entro 18 metri da esso, deve superare un tiro salvezza su Saggezza, altrimenti diventa &amp;Reference[frightened]. La creatura rimane spaventata finché può vedere il bersaglio o si trova entro 18 metri da esso.</p><p>Finché è spaventata da te, la creatura deve usare il proprio movimento per raggiungere il punto sicuro più vicino dal quale non possa vederti. Se la creatura si allontana di oltre 18 metri da te e non può vederti, non è più spaventata, ma torna a esserlo se ti vede di nuovo o si muove entro 18 metri da te.</p><p><strong>Terminare l'Effetto.</strong> Se una creatura influenzata termina il proprio turno senza trovarsi entro 18 metri da te o senza poterti vedere, effettua un tiro salvezza su Saggezza. Se lo supera, la creatura non è più influenzata da te e riconosce come magica la sensazione di repulsione o attrazione. Inoltre, una creatura influenzata dall'incantesimo può effettuare un altro tiro salvezza su Saggezza ogni 24 ore finché l'incantesimo permane.</p>"
         },
         "lFjm3pDxzxo4U5Jm": {
-          "name": "Aura di Simpatia"
+          "name": "Aura di Simpatia",
+          "description": "<p>Sei pervaso da un'aura di simpatia.</p><p>L'ammaliamento induce le creature specificate a provare un intenso impulso ad avvicinarsi a te finché si trovano entro 18 metri da te o possono vederti. Quando una creatura simile può vederti o si porta entro 18 metri da te, deve superare un tiro salvezza su Saggezza, altrimenti deve usare il proprio movimento in ogni suo turno per entrare nell'area o portarsi entro la portata del bersaglio. Una volta fatto, la creatura non può allontanarsi volontariamente da te.</p><p>Se infliggi danni a una creatura influenzata o la danneggi in altro modo, la creatura influenzata può effettuare un tiro salvezza su Saggezza per terminare l'effetto, come descritto di seguito.</p><p><strong>Terminare l'Effetto.</strong> Se una creatura influenzata termina il proprio turno senza trovarsi entro 18 metri da te o senza poterti vedere, effettua un tiro salvezza su Saggezza. Se lo supera, la creatura non è più influenzata da te e riconosce come magica la sensazione di repulsione o attrazione. Inoltre, una creatura influenzata dall'incantesimo può effettuare un altro tiro salvezza su Saggezza ogni 24 ore finché l'incantesimo permane.</p>"
         }
       }
     },
@@ -1449,13 +1455,22 @@
           "name": "Lancia"
         },
         "5nYzFGATnggEH6oq": {
-          "name": "Spezza Ammaliamento"
+          "name": "Spezza Ammaliamento",
+          "description": {
+            "value": "<p>Tocchi una creatura entro la tua portata che sia &amp;reference[Charmed apply=false], &amp;reference[Frightened apply=false] o posseduta da un celestiale, un elementale, un folletto, un immondo o un non morto. La creatura che tocchi non è più affascinata, spaventata o posseduta da tali creature.</p>"
+          }
         },
         "xlms51P5nGb9Rbc0": {
-          "name": "Attacco di Congedo"
+          "name": "Attacco di Congedo",
+          "description": {
+            "value": "<p>Effettua un attacco con incantesimo in mischia contro un celestiale, un elementale, un folletto, un immondo o un non morto entro la tua portata. Se colpisci, tenti di ricacciare la creatura sul suo piano natale. La creatura deve superare un tiro salvezza su Carisma, altrimenti viene rimandata sul suo piano natale (se non vi si trova già). Se non si trovano sul loro piano natale, i non morti vengono inviati nella Coltre Oscura e i folletti nella Selva Fatata.</p>"
+          }
         },
         "vtFdULsqeSCfhN7T": {
-          "name": "Tiro Salvezza contro Congedo"
+          "name": "Tiro Salvezza contro Congedo",
+          "description": {
+            "value": "<p>La creatura deve superare un tiro salvezza su Carisma, altrimenti viene rimandata sul suo piano natale (se non vi si trova già). Se non si trovano sul loro piano natale, i non morti vengono inviati nella Coltre Oscura e i folletti nella Selva Fatata.</p>"
+          }
         }
       }
     },
@@ -1503,13 +1518,16 @@
       },
       "effects": {
         "ng33sfAG959luxm1": {
-          "name": "Parola Divina (50 PF o Meno)"
+          "name": "Parola Divina (50 PF o Meno)",
+          "description": "<p>Sei &amp;reference[Deafened apply=false] per 1 minuto.</p>"
         },
         "WFygB4koHfaqBOiK": {
-          "name": "Parola Divina (40 PF o Meno)"
+          "name": "Parola Divina (40 PF o Meno)",
+          "description": "<p>Sei &amp;reference[Deafened apply=false] e &amp;reference[Blinded apply=false] per 10 minuti.</p>"
         },
         "QNru4BLkBqnn3uBB": {
-          "name": "Parola Divina (30 PF o Meno)"
+          "name": "Parola Divina (30 PF o Meno)",
+          "description": "<p>Sei &amp;reference[Blinded apply=false], &amp;reference[Deafened apply=false] e &amp;reference[Stunned apply=false] per 1 ora.</p>"
         }
       }
     },
@@ -1796,13 +1814,16 @@
       },
       "effects": {
         "4aX9fGlauAQsLCAH": {
-          "name": "Sguardo Penetrante: Sonno"
+          "name": "Sguardo Penetrante: Sonno",
+          "description": "<p>Sei caduto &amp;reference[unconscious apply=false]. Ti svegli se subisci danni o se un'altra creatura usa un'azione per scuoterti e svegliarti.</p>"
         },
         "2X7i49sZdg2mqPZB": {
-          "name": "Sguardo Penetrante: Panico"
+          "name": "Sguardo Penetrante: Panico",
+          "description": "<p>Sei &amp;reference[frightened apply=false] dall'incantatore. In ogni tuo turno devi effettuare l'azione &amp;reference[dash] e allontanarti da lui seguendo il percorso disponibile più sicuro e breve, a meno che tu non abbia un luogo verso cui muoverti. Se raggiungi un punto ad almeno 18 metri dall'incantatore dal quale non puoi più vederlo, questo effetto termina.</p>"
         },
         "yBr3oIopzL8uDrPi": {
-          "name": "Sguardo Penetrante: Infermità"
+          "name": "Sguardo Penetrante: Infermità",
+          "description": "<p>Disponi di svantaggio ai tiri per colpire e alle prove di caratteristica. Alla fine di ogni tuo turno puoi effettuare un altro tiro salvezza su Saggezza. Se lo superi, l'effetto termina.</p>"
         }
       }
     },
@@ -2626,15 +2647,20 @@
           "name": "Lancia"
         },
         "dnd5eactivity100": {
-          "name": "Luce Accecante"
+          "name": "Luce Accecante",
+          "description": {
+            "value": "<p>Quando un immondo o un non morto colpisce una creatura influenzata con un attacco in mischia, l'aura lampeggia di luce brillante. L'attaccante deve superare un tiro salvezza su Costituzione, altrimenti è &amp;reference[Blinded] finché l'incantesimo non termina.</p>"
+          }
         }
       },
       "effects": {
         "vtInaQPPgrwFw8iq": {
-          "name": "Immerso nell'Aura Sacra"
+          "name": "Immerso nell'Aura Sacra",
+          "description": "<p>Proietti &amp;reference[dim light] entro un raggio di 1,5 metri e disponi di vantaggio a tutti i tiri salvezza, mentre le altre creature dispongono di svantaggio ai tiri per colpire contro di te finché questo incantesimo non termina.</p><p>Inoltre, quando un immondo o un non morto ti colpisce con un attacco in mischia, l'aura lampeggia di luce brillante. L'attaccante deve superare un tiro salvezza [[/save con]], altrimenti è &amp;reference[blinded] finché l'incantesimo non termina.</p>"
         },
         "VMRCzFjA3Omw9nB2": {
-          "name": "Accecato dall'Aura Sacra"
+          "name": "Accecato dall'Aura Sacra",
+          "description": "<p>Sei &amp;reference[blinded apply=false] per la durata dell'incantesimo.</p>"
         }
       }
     },
@@ -2995,15 +3021,20 @@
           "name": "Lancia"
         },
         "KP2dpK9GVYQN8V7W": {
-          "name": "Possiedi Creatura"
+          "name": "Possiedi Creatura",
+          "description": {
+            "value": "<p>Puoi tentare di possedere qualsiasi umanoide entro 30 metri da te che tu possa vedere (le creature protette da un incantesimo @UUID[Compendium.dnd5e.spells.Item.xmDBqZhRVrtLP8h2]{Protezione dal Bene e dal Male} o @UUID[Compendium.dnd5e.spells.Item.y8A4HfTwd93ypdEz]{Cerchio Magico} non possono essere possedute). Il bersaglio deve effettuare un tiro salvezza su Carisma. Se lo fallisce, la tua anima si trasferisce nel corpo del bersaglio e l'anima del bersaglio rimane intrappolata nel contenitore. Se lo supera, il bersaglio resiste al tuo tentativo di possederlo e non puoi tentare di possederlo di nuovo per 24 ore.</p><p>Una volta posseduto il corpo di una creatura, lo controlli. Le tue statistiche di gioco sono sostituite da quelle della creatura, ma conservi il tuo allineamento e i tuoi punteggi di Intelligenza, Saggezza e Carisma. Conservi i benefici dei tuoi privilegi di classe. Se il bersaglio possiede livelli di classe, non puoi usare alcuno dei suoi privilegi di classe.</p><p>Nel frattempo, l'anima della creatura posseduta può percepire dal contenitore usando i propri sensi, ma non può muoversi né effettuare azioni.</p><p>Mentre possiedi un corpo, puoi usare la tua azione per tornare dal corpo ospite al contenitore se questo si trova entro 30 metri da te, facendo tornare nel proprio corpo l'anima della creatura ospite. Se il corpo ospite muore mentre ti trovi al suo interno, la creatura muore e devi effettuare un tiro salvezza su Carisma contro la CD dei tuoi incantesimi. Se lo superi, torni nel contenitore se si trova entro 30 metri da te. Altrimenti, muori.</p>"
+          }
         }
       },
       "effects": {
         "qouBiD1Bd8bM3lzS": {
-          "name": "Insediato nel Ricettacolo dell'Anima"
+          "name": "Insediato nel Ricettacolo dell'Anima",
+          "description": "<p>Il tuo corpo cade in stato catatonico mentre la tua anima lo abbandona ed entra nel contenitore usato come componente materiale dell'incantesimo. Finché la tua anima risiede nel contenitore, sei consapevole di ciò che ti circonda come se ti trovassi nello spazio del contenitore. Non puoi muoverti né usare reazioni. L'unica azione che puoi effettuare consiste nel proiettare la tua anima fino a 30 metri fuori dal contenitore, tornando nel tuo corpo vivente (e terminando l'incantesimo) oppure tentando di possedere il corpo di un umanoide.</p><p>Puoi tentare di possedere qualsiasi umanoide entro 30 metri da te che tu possa vedere (le creature protette da un incantesimo @UUID[Compendium.dnd5e.spells.Item.xmDBqZhRVrtLP8h2]{Protezione dal Bene e dal Male} o @UUID[Compendium.dnd5e.spells.Item.y8A4HfTwd93ypdEz]{Cerchio Magico} non possono essere possedute). Il bersaglio deve effettuare un tiro salvezza su Carisma. Se lo fallisce, la tua anima si trasferisce nel corpo del bersaglio e l'anima del bersaglio rimane intrappolata nel contenitore. Se lo supera, il bersaglio resiste al tuo tentativo di possederlo e non puoi tentare di possederlo di nuovo per 24 ore.</p>"
         },
         "WOqZ4GoBhC7fBd91": {
-          "name": "Possessione della Giara Magica"
+          "name": "Possessione della Giara Magica",
+          "description": "<p>Il tuo corpo è stato posseduto e la tua anima è rimasta intrappolata nel contenitore usato per lanciare questo incantesimo. La tua anima può percepire dal contenitore usando i tuoi sensi, ma non puoi muoverti né effettuare azioni.</p><p>Se il corpo ospite muore mentre l'incantatore si trova al suo interno, muori.</p><p>Se il contenitore viene distrutto o l'incantesimo termina, la tua anima torna nel tuo corpo se questo è vivo e si trova entro 30 metri. Altrimenti, muori.</p>"
         }
       }
     },
