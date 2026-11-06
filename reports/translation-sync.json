@@ -99,16 +99,7 @@
           "name": "Frenzy",
           "sourcePath": "classfeatures/barbarian/path-of-the-berserker-features/frenzy.yml",
           "lookupKey": "Frenzy",
-          "matchedLookupKey": "Frenzy",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>A partire da quando scegli questo percorso al 3° livello, quando vai in @UUID[Compendium.dnd5e.classfeatures.Item.VoR0SUrNX5EJVPIO]{ira} puoi entrare in frenesia. Se lo fai, per la durata della tua ira puoi effettuare un singolo attacco con arma da mischia come azione bonus durante ciascun tuo turno oltre quello iniziale. Quando l’ira termina, subisci un livello di sfinimento.</p>"
-            }
-          ]
+          "matchedLookupKey": "Frenzy"
         },
         {
           "pack": "classfeatures",
@@ -124,16 +115,7 @@
           "name": "Mindless Rage",
           "sourcePath": "classfeatures/barbarian/path-of-the-berserker-features/mindless-rage.yml",
           "lookupKey": "Mindless Rage",
-          "matchedLookupKey": "Mindless Rage",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>A partire dal 6° livello, non puoi essere affascinato o spaventato mentre sei in @UUID[Compendium.dnd5e.classfeatures.Item.VoR0SUrNX5EJVPIO]{ira}. Se sei già affascinato o spaventato mentre entri in ira, l’effetto è sospeso per la durata dell’ira.</p>"
-            }
-          ]
+          "matchedLookupKey": "Mindless Rage"
         },
         {
           "pack": "classfeatures",
@@ -229,16 +211,7 @@
           "name": "Cutting Words",
           "sourcePath": "classfeatures/bard/college-of-lore-features/cutting-words.yml",
           "lookupKey": "Cutting Words",
-          "matchedLookupKey": "Cutting Words",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Inoltre, al 3° livello, apprendi come usare la tua astuzia per distrarre, confondere o altrimenti diminuire la sicurezza e la competenza altrui.</p><p>Quando una creatura entro 18 metri da te e che puoi vedere effettua un tiro per colpire, una prova di caratteristica o un tiro di danno, puoi usare la tua reazione per spendere uno dei tuoi usi di @UUID[Compendium.dnd5e.classfeatures.Item.hpLNiGq7y67d2EHA]{Ispirazione Bardica}, tirando un dado di Ispirazione Bardica e sottraendo il numero ottenuto dal tiro della creatura.</p><p>Puoi scegliere di usare questo privilegio dopo che la creatura ha effettuato il tiro, ma prima che il GM determini se il tiro per colpire o la prova di caratteristica sia superata o fallita, oppure prima che la creatura infligga il suo danno. La creatura è immune a questa capacità se non può udirti o se è immune all’essere affascinata.</p>"
-            }
-          ]
+          "matchedLookupKey": "Cutting Words"
         },
         {
           "pack": "classfeatures",
@@ -246,16 +219,7 @@
           "name": "Peerless Skill",
           "sourcePath": "classfeatures/bard/college-of-lore-features/peerless-skill.yml",
           "lookupKey": "Peerless Skill",
-          "matchedLookupKey": "Peerless Skill",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Al 14° livello, quando effettui una prova di caratteristica, puoi spendere un uso di @UUID[Compendium.dnd5e.classfeatures.Item.hpLNiGq7y67d2EHA]{Ispirazione Bardica}.</p><p>Tira un dado di Ispirazione Bardica e somma il numero ottenuto alla tua prova di caratteristica.</p><p>Puoi scegliere di farlo dopo aver tirato il dado per la prova di caratteristica, ma prima che il GM determini se questa sia riuscita o fallita.&nbsp;</p>"
-            }
-          ]
+          "matchedLookupKey": "Peerless Skill"
         },
         {
           "pack": "classfeatures",
@@ -375,16 +339,7 @@
           "name": "Archdruid",
           "sourcePath": "classfeatures/druid/druid-features/archdruid.yml",
           "lookupKey": "Archdruid",
-          "matchedLookupKey": "Archdruid",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Al 20° livello, puoi usare la tua @UUID[Compendium.dnd5e.classfeatures.Item.swK0r5TOIxredxWS]{Forma Selvatica} un numero illimitato di volte.&nbsp;</p><p>Inoltre puoi ignorare le componenti verbali e somatiche dei tuoi incantesimi da druido, oltre a qualsiasi componente materiale priva di un costo e che non sia consumata dall’incantesimo.</p><p>Ottieni questo beneficio sia nella tua forma naturale che nella forma bestiale della Forma Selvatica.</p>"
-            }
-          ]
+          "matchedLookupKey": "Archdruid"
         },
         {
           "pack": "classfeatures",
@@ -489,6 +444,23 @@
           "sourcePath": "classfeatures/fighter/fighter-features/extra-attack.yml",
           "lookupKey": "Extra Attack",
           "matchedLookupKey": "q9g1MLXuLZyxjQMg"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "fbExzwNwEAl2kW9c",
+          "name": "Fighting Style",
+          "sourcePath": "classfeatures/fighter/fighter-features/fighting-style.yml",
+          "lookupKey": "fbExzwNwEAl2kW9c",
+          "matchedLookupKey": "fbExzwNwEAl2kW9c",
+          "repairs": [
+            {
+              "fieldPath": "system.description.value",
+              "translationPath": [
+                "description"
+              ],
+              "value": "<p>Adotta uno stile di combattimento in cui specializzarsi scegliendo una tra le opzioni seguenti. Non è consentito scegliere uno stile di combattimento più di una volta, anche se in seguito hai diritto a scegliere di nuovo.</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.8YwPFv3UAPjWVDNf]{Stile di Combattimento: Tiro}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.zSlV0O2rQMdoq6pB]{Stile di Combattimento: Difesa}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.hCop9uJrWhF1QPb4]{Stile di Combattimento: Duellare}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.3Nc6u9pyStByuJsm]{Stile di Combattimento: Combattere con Armi Possenti}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.06NVMYf58Z76O85O]{Stile di Combattimento: Protezione}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.mHcSjcHJ8oZu3hkb]{Stile di Combattimento: Combattere con Due Armi}</p>"
+            }
+          ]
         },
         {
           "pack": "classfeatures",
@@ -764,20 +736,28 @@
         },
         {
           "pack": "classfeatures",
-          "id": "FAk41RPCTcvCk6KI",
-          "name": "Improved Divine Smite",
-          "sourcePath": "classfeatures/paladin/paladin-features/improved-divine-smite.yml",
-          "lookupKey": "Improved Divine Smite",
-          "matchedLookupKey": "Improved Divine Smite",
+          "id": "Ho7dVxBlOYFlfBHk",
+          "name": "Fighting Style",
+          "sourcePath": "classfeatures/paladin/paladin-features/fighting-style.yml",
+          "lookupKey": "Ho7dVxBlOYFlfBHk",
+          "matchedLookupKey": "Ho7dVxBlOYFlfBHk",
           "repairs": [
             {
               "fieldPath": "system.description.value",
               "translationPath": [
                 "description"
               ],
-              "value": "<p>Per l’11° livello, sei così infuso di giusta potenza che tutti i tuoi colpi con arma da mischia convogliano potere divino.</p><p>Ogni qualvolta colpisci una creatura con un’arma da mischia, la creatura subisce 1d8 danni radianti aggiuntivi. Se usi la tua @UUID[Compendium.dnd5e.classfeatures.Item.ySMPQ6zNSlvkrl2f]{Punizione Divina} assieme a un attacco, somma questo danno al danno aggiuntivo della Punizione Divina.</p>"
+              "value": "<p>Adotta uno stile di combattimento in cui specializzarsi scegliendo una tra le opzioni seguenti. Non è consentito scegliere uno stile di combattimento più di una volta, anche se in seguito hai diritto a scegliere di nuovo.</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.zSlV0O2rQMdoq6pB]{Stile di Combattimento: Difesa}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.hCop9uJrWhF1QPb4]{Stile di Combattimento: Duellare}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.3Nc6u9pyStByuJsm]{Stile di Combattimento: Combattere con Armi Possenti}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.06NVMYf58Z76O85O]{Stile di Combattimento: Protezione}</p>"
             }
           ]
+        },
+        {
+          "pack": "classfeatures",
+          "id": "FAk41RPCTcvCk6KI",
+          "name": "Improved Divine Smite",
+          "sourcePath": "classfeatures/paladin/paladin-features/improved-divine-smite.yml",
+          "lookupKey": "Improved Divine Smite",
+          "matchedLookupKey": "Improved Divine Smite"
         },
         {
           "pack": "classfeatures",
@@ -906,6 +886,23 @@
           "sourcePath": "classfeatures/ranger/ranger-features/feral-senses.yml",
           "lookupKey": "Feral Senses",
           "matchedLookupKey": "Feral Senses"
+        },
+        {
+          "pack": "classfeatures",
+          "id": "nJA3ISVmyj3uPRVM",
+          "name": "Fighting Style",
+          "sourcePath": "classfeatures/ranger/ranger-features/fighting-style.yml",
+          "lookupKey": "nJA3ISVmyj3uPRVM",
+          "matchedLookupKey": "nJA3ISVmyj3uPRVM",
+          "repairs": [
+            {
+              "fieldPath": "system.description.value",
+              "translationPath": [
+                "description"
+              ],
+              "value": "<p>Adotta uno stile di combattimento in cui specializzarsi scegliendo una tra le opzioni seguenti. Non è consentito scegliere uno stile di combattimento più di una volta, anche se in seguito hai diritto a scegliere di nuovo.</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.8YwPFv3UAPjWVDNf]{Stile di Combattimento: Tiro}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.zSlV0O2rQMdoq6pB]{Stile di Combattimento: Difesa}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.hCop9uJrWhF1QPb4]{Stile di Combattimento: Duellare}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.mHcSjcHJ8oZu3hkb]{Stile di Combattimento: Combattere con Due Armi}</p>"
+            }
+          ]
         },
         {
           "pack": "classfeatures",
@@ -1277,6 +1274,23 @@
         },
         {
           "pack": "classfeatures",
+          "id": "9Uh7uTDNZ04oTJsL",
+          "name": "Metamagic",
+          "sourcePath": "classfeatures/sorcerer/sorcerer-features/metamagic.yml",
+          "lookupKey": "Metamagic",
+          "matchedLookupKey": "Metamagic",
+          "repairs": [
+            {
+              "fieldPath": "system.description.value",
+              "translationPath": [
+                "description"
+              ],
+              "value": "<p>Al 3° livello, acquisisci la capacità di piegare i tuoi incantesimi alle tue necessità. Ottieni due delle seguenti opzioni di Metamagia di tua scelta. Ne ottieni un’altra al 10° e 17° livello. Puoi usare una sola opzione di Metamagia su di un incantesimo da te lanciato, a meno che non sia indicato altrimenti.</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.zElYrOcCFFMhB6Xl]{Metamagia: Incantesimo Preciso}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.DZpAa3LzMNBexbmX]{Metamagia: Incantesimo Distante}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.IWpe0Y9uAStHGiH1]{Metamagia: Incantesimo Potenziato}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.tQxlKyAx9sgPrbgj]{Metamagia: Incantesimo Esteso}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.tNG2qi9zhmXEkecA]{Metamagia: Incantesimo Intensificato}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.nViGf6bZ6DQAJhkw]{Metamagia: Incantesimo Rapido}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.fXa0DMhoVLtbBu9l]{Metamagia: Incantesimo Celato}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.Qb391hakCfmH4w8p]{Metamagia: Incantesimo Raddoppiato}</p>"
+            }
+          ]
+        },
+        {
+          "pack": "classfeatures",
           "id": "cmRCL9T9UgRYOj1c",
           "name": "Sorcerous Origins",
           "sourcePath": "classfeatures/sorcerer/sorcerer-features/sorcerous-origins.yml",
@@ -1401,16 +1415,7 @@
           "name": "Mask of Many Faces",
           "sourcePath": "classfeatures/warlock/eldritch-invocations/mask-of-many-faces.yml",
           "lookupKey": "Mask of Many Faces",
-          "matchedLookupKey": "MhJfdBl1B7PdU4oZ",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Puoi lanciare a volontà @UUID[Compendium.dnd5e.spells.Item.A3q2gTNqG6fvNGrv]{camuffare sé stesso}, senza spendere uno slot incantesimo.</p>"
-            }
-          ]
+          "matchedLookupKey": "MhJfdBl1B7PdU4oZ"
         },
         {
           "pack": "classfeatures",
@@ -1418,16 +1423,7 @@
           "name": "Master of Myriad Forms",
           "sourcePath": "classfeatures/warlock/eldritch-invocations/master-of-myriad-forms.yml",
           "lookupKey": "Master of Myriad Forms",
-          "matchedLookupKey": "lxfdjLer3uKjyZqU",
-          "repairs": [
-            {
-              "fieldPath": "system.description.value",
-              "translationPath": [
-                "description"
-              ],
-              "value": "<p>Prerequisito: 15° livello&nbsp; Puoi lanciare a volontà @UUID[Compendium.dnd5e.spells.Item.8RTDOt80u8aBv9qx]{alterare sé stesso}, senza spendere uno slot incantesimo.</p>"
-            }
-          ]
+          "matchedLookupKey": "lxfdjLer3uKjyZqU"
         },
         {
           "pack": "classfeatures",
@@ -1954,41 +1950,6 @@
         },
         {
           "pack": "classfeatures",
-          "id": "fbExzwNwEAl2kW9c",
-          "name": "Fighting Style",
-          "sourcePath": "classfeatures/fighter/fighter-features/fighting-style.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "fbExzwNwEAl2kW9c",
-          "matchedLookupKey": "fbExzwNwEAl2kW9c",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "classfeatures",
-              "id": "fbExzwNwEAl2kW9c",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "classfeatures",
-              "id": "fbExzwNwEAl2kW9c",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "classfeatures",
-              "id": "fbExzwNwEAl2kW9c",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classfeatures",
           "id": "Dop1RcU5UdhSVLYS",
           "name": "Grappler",
           "sourcePath": "classfeatures/grappler.yml",
@@ -2199,41 +2160,6 @@
         },
         {
           "pack": "classfeatures",
-          "id": "Ho7dVxBlOYFlfBHk",
-          "name": "Fighting Style",
-          "sourcePath": "classfeatures/paladin/paladin-features/fighting-style.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Ho7dVxBlOYFlfBHk",
-          "matchedLookupKey": "Ho7dVxBlOYFlfBHk",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "classfeatures",
-              "id": "Ho7dVxBlOYFlfBHk",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "classfeatures",
-              "id": "Ho7dVxBlOYFlfBHk",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "classfeatures",
-              "id": "Ho7dVxBlOYFlfBHk",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classfeatures",
           "id": "olAqNsUTIef9x8xC",
           "name": "Sacred Oath",
           "sourcePath": "classfeatures/paladin/paladin-features/sacred-oath.yml",
@@ -2366,41 +2292,6 @@
         },
         {
           "pack": "classfeatures",
-          "id": "nJA3ISVmyj3uPRVM",
-          "name": "Fighting Style",
-          "sourcePath": "classfeatures/ranger/ranger-features/fighting-style.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "nJA3ISVmyj3uPRVM",
-          "matchedLookupKey": "nJA3ISVmyj3uPRVM",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "classfeatures",
-              "id": "nJA3ISVmyj3uPRVM",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "classfeatures",
-              "id": "nJA3ISVmyj3uPRVM",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "classfeatures",
-              "id": "nJA3ISVmyj3uPRVM",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classfeatures",
           "id": "8fbZt2Qh7ZttwIan",
           "name": "Natural Explorer",
           "sourcePath": "classfeatures/ranger/ranger-features/natural-explorer.yml",
@@ -2449,41 +2340,6 @@
               "message": "HTML attributes differ from source",
               "pack": "classfeatures",
               "id": "s0Cc2zcX0JzIgam5",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "classfeatures",
-          "id": "9Uh7uTDNZ04oTJsL",
-          "name": "Metamagic",
-          "sourcePath": "classfeatures/sorcerer/sorcerer-features/metamagic.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Metamagic",
-          "matchedLookupKey": "Metamagic",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "classfeatures",
-              "id": "9Uh7uTDNZ04oTJsL",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "classfeatures",
-              "id": "9Uh7uTDNZ04oTJsL",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "classfeatures",
-              "id": "9Uh7uTDNZ04oTJsL",
               "fieldPath": "system.description.value"
             }
           ]

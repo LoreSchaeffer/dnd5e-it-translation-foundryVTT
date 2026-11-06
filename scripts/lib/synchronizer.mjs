@@ -200,7 +200,42 @@ function injectMissingReferences(source, translation, referenceLabels) {
   return output;
 }
 
+function translatedReference(sourceReference, referenceLabels) {
+  const match = sourceReference.match(/^@(UUID|Compendium|Embed|Check|Save|Damage|Template|Condition)\[([^\]]*)\](?:\{([^{}]*)\})?$/i);
+  if (!match) return null;
+  const label = referenceLabels?.get(match[2]) ?? referenceLabels?.get(match[2].split(".").at(-1));
+  if (!label) return null;
+  return `@${match[1]}[${match[2]}]{${label}}`;
+}
+
+function reshapeReferenceChoiceList(source, translation, referenceLabels) {
+  const paragraph = /<p\b[^>]*>[\s\S]*?<\/p>/gi;
+  const sourceParagraphs = [...source.matchAll(paragraph)];
+  if (sourceParagraphs.length < 2 || removeMatches(source, sourceParagraphs).trim()) return null;
+  const sourceInners = sourceParagraphs.map(match => match[0].replace(/^<p\b[^>]*>/i, "").replace(/<\/p>$/i, "").trim());
+  if (/@(?:UUID|Compendium|Embed|Check|Save|Damage|Template|Condition)\[/i.test(sourceInners[0])) return null;
+  if (!sourceInners.slice(1).every(inner => /^@(UUID|Compendium|Embed|Check|Save|Damage|Template|Condition)\[[^\]]*\](?:\{[^{}]*\})?$/i.test(inner))) return null;
+  const translatedChoices = sourceInners.slice(1).map(inner => translatedReference(inner, referenceLabels));
+  if (translatedChoices.some(value => value === null)) return null;
+
+  const leading = [];
+  const trimmed = translation.trim();
+  let cursor = 0;
+  for (const match of trimmed.matchAll(paragraph)) {
+    if (match.index !== cursor && trimmed.slice(cursor, match.index).trim()) break;
+    const inner = match[0].replace(/^<p\b[^>]*>/i, "").replace(/<\/p>$/i, "").trim();
+    if (/@(?:UUID|Compendium|Embed|Check|Save|Damage|Template|Condition)\[/i.test(inner) || /^Prerequisito:/i.test(inner)) break;
+    leading.push(inner);
+    cursor = match.index + match[0].length;
+  }
+  if (!leading.length) return null;
+  return `<p>${leading.join(" ")}</p>${translatedChoices.map(choice => `<p>${choice}</p>`).join("")}`;
+}
+
 export function rebaseInvariantTokens(source, translation, { referenceLabels } = {}) {
+  translation = translation.replace(/^\s*<p\b[^>]*>\s*Prerequisito:[\s\S]*?<\/p>\s*/i, "");
+  const choiceList = reshapeReferenceChoiceList(source, translation, referenceLabels);
+  if (choiceList !== null) translation = choiceList;
   if (!/<table\b/i.test(source) && /<table\b/i.test(translation)) {
     translation = translation.replace(/<table\b[^>]*>[\s\S]*?<\/table>/gi, "");
   }

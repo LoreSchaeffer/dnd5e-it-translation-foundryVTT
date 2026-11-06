@@ -227,3 +227,26 @@ test("rebaseInvariantTokens discards an obsolete legacy table absent from the so
     "<p>Regola.</p><h5>Dettagli</h5><p>Altro.</p>"
   );
 });
+
+test("rebaseInvariantTokens drops a legacy prerequisite now stored in structured data", () => {
+  const source = "<p>You can cast @UUID[Compendium.test.Item.spell]{Spell} at will.</p>";
+  const legacy = "<p>Prerequisito: 9° livello</p><p>Puoi lanciare incantesimo a volontà.</p>";
+  const referenceLabels = new Map([["Compendium.test.Item.spell", "incantesimo"]]);
+  assert.equal(
+    rebaseInvariantTokens(source, legacy, { referenceLabels }),
+    "<p>Puoi lanciare @UUID[Compendium.test.Item.spell]{incantesimo} a volontà.</p>"
+  );
+});
+
+test("rebaseInvariantTokens rebuilds a source choice list with translated stable labels", () => {
+  const source = "<p>Choose one option.</p><p>@UUID[Compendium.test.Item.a]{Alpha}</p><p>@UUID[Compendium.test.Item.b]{Beta}</p>";
+  const legacy = "<p>Scegli un'opzione.</p><h3>Vecchie opzioni</h3><p>Testo obsoleto.</p>";
+  const referenceLabels = new Map([
+    ["Compendium.test.Item.a", "Alfa"],
+    ["Compendium.test.Item.b", "Beta"]
+  ]);
+  assert.equal(
+    rebaseInvariantTokens(source, legacy, { referenceLabels }),
+    "<p>Scegli un'opzione.</p><p>@UUID[Compendium.test.Item.a]{Alfa}</p><p>@UUID[Compendium.test.Item.b]{Beta}</p>"
+  );
+});

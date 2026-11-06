@@ -4,7 +4,7 @@
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | backgrounds | 3 | 3 | 0 | 0 | 0 | 0 | 0 |
 | classes | 12 | 12 | 0 | 0 | 0 | 0 | 0 |
-| classfeatures | 235 | 201 | 0 | 34 | 0 | 0 | 96 |
+| classfeatures | 235 | 235 | 0 | 0 | 0 | 0 | 0 |
 | effects | 214 | 1 | 213 | 0 | 19 | 220 | 232 |
 | heroes | 12 | 0 | 0 | 12 | 0 | 1153 | 1153 |
 | items | 885 | 149 | 42 | 694 | 0 | 547 | 1968 |
@@ -17,106 +17,10 @@
 | tables | 31 | 1 | 23 | 7 | 0 | 285 | 89 |
 | tradegoods | 23 | 19 | 0 | 4 | 0 | 0 | 8 |
 
-Total blocking issues: 13015
+Total blocking issues: 12919
 
 ## Issues
 
-- **html-tag-sequence** `classfeatures:VoR0SUrNX5EJVPIO:system.description.value`
-- **html-attributes** `classfeatures:VoR0SUrNX5EJVPIO:system.description.value`
-- **html-tag-sequence** `classfeatures:hpLNiGq7y67d2EHA:system.description.value`
-- **html-attributes** `classfeatures:hpLNiGq7y67d2EHA:system.description.value`
-- **foundry-references** `classfeatures:hpLNiGq7y67d2EHA:system.description.value`
-- **foundry-formulas** `classfeatures:hpLNiGq7y67d2EHA:system.description.value`
-- **html-tag-sequence** `classfeatures:3VDZGs5Ug3hIE322:system.description.value`
-- **html-attributes** `classfeatures:3VDZGs5Ug3hIE322:system.description.value`
-- **foundry-reference-count** `classfeatures:3VDZGs5Ug3hIE322:system.description.value`
-- **html-tag-sequence** `classfeatures:NMy4piwXIpLjYbRE:system.description.value`
-- **html-attributes** `classfeatures:NMy4piwXIpLjYbRE:system.description.value`
-- **foundry-reference-count** `classfeatures:NMy4piwXIpLjYbRE:system.description.value`
-- **html-tag-sequence** `classfeatures:x637K2Icp2ZFM1TB:system.description.value`
-- **html-attributes** `classfeatures:x637K2Icp2ZFM1TB:system.description.value`
-- **html-tag-sequence** `classfeatures:yv49QN6Bzqs0ecCs:system.description.value`
-- **html-attributes** `classfeatures:yv49QN6Bzqs0ecCs:system.description.value`
-- **html-tag-sequence** `classfeatures:YiK59gWSlcQ6Mbdz:system.description.value`
-- **html-attributes** `classfeatures:YiK59gWSlcQ6Mbdz:system.description.value`
-- **foundry-reference-count** `classfeatures:YiK59gWSlcQ6Mbdz:system.description.value`
-- **html-tag-sequence** `classfeatures:kYJsED0rqqqUcgKz:system.description.value`
-- **html-attributes** `classfeatures:kYJsED0rqqqUcgKz:system.description.value`
-- **foundry-reference-count** `classfeatures:kYJsED0rqqqUcgKz:system.description.value`
-- **html-tag-sequence** `classfeatures:fbExzwNwEAl2kW9c:system.description.value`
-- **html-attributes** `classfeatures:fbExzwNwEAl2kW9c:system.description.value`
-- **foundry-reference-count** `classfeatures:fbExzwNwEAl2kW9c:system.description.value`
-- **html-tag-sequence** `classfeatures:Dop1RcU5UdhSVLYS:system.description.value`
-- **html-attributes** `classfeatures:Dop1RcU5UdhSVLYS:system.description.value`
-- **foundry-reference-count** `classfeatures:mzweVbnsJPQiVkAe:system.description.value`
-- **foundry-inline-rolls** `classfeatures:mzweVbnsJPQiVkAe:system.description.value`
-- **foundry-formulas** `classfeatures:mzweVbnsJPQiVkAe:system.description.value`
-- **foundry-data-references** `classfeatures:mzweVbnsJPQiVkAe:system.description.value`
-- **html-tag-sequence** `classfeatures:10b6z2W1txNkrGP7:system.description.value`
-- **html-attributes** `classfeatures:10b6z2W1txNkrGP7:system.description.value`
-- **foundry-reference-count** `classfeatures:10b6z2W1txNkrGP7:system.description.value`
-- **html-balance** `classfeatures:l50hjTxO2r0iecKw:system.description.value`
-- **html-tag-sequence** `classfeatures:l50hjTxO2r0iecKw:system.description.value`
-- **html-attributes** `classfeatures:l50hjTxO2r0iecKw:system.description.value`
-- **html-tag-sequence** `classfeatures:iQxLNydNLlCHNKbp:system.description.value`
-- **html-attributes** `classfeatures:iQxLNydNLlCHNKbp:system.description.value`
-- **foundry-reference-count** `classfeatures:iQxLNydNLlCHNKbp:system.description.value`
-- **html-tag-sequence** `classfeatures:rBDZLatuoolT2FUW:system.description.value`
-- **html-attributes** `classfeatures:rBDZLatuoolT2FUW:system.description.value`
-- **foundry-reference-count** `classfeatures:rBDZLatuoolT2FUW:system.description.value`
-- **html-tag-sequence** `classfeatures:Ho7dVxBlOYFlfBHk:system.description.value`
-- **html-attributes** `classfeatures:Ho7dVxBlOYFlfBHk:system.description.value`
-- **foundry-reference-count** `classfeatures:Ho7dVxBlOYFlfBHk:system.description.value`
-- **html-tag-sequence** `classfeatures:olAqNsUTIef9x8xC:system.description.value`
-- **html-attributes** `classfeatures:olAqNsUTIef9x8xC:system.description.value`
-- **foundry-reference-count** `classfeatures:olAqNsUTIef9x8xC:system.description.value`
-- **html-tag-sequence** `classfeatures:ihoQHsmVZlyDbPhX:system.description.value`
-- **html-attributes** `classfeatures:ihoQHsmVZlyDbPhX:system.description.value`
-- **foundry-reference-count** `classfeatures:ihoQHsmVZlyDbPhX:system.description.value`
-- **html-tag-sequence** `classfeatures:7zlTRRXT1vWSBGjX:system.description.value`
-- **html-attributes** `classfeatures:7zlTRRXT1vWSBGjX:system.description.value`
-- **foundry-reference-count** `classfeatures:7zlTRRXT1vWSBGjX:system.description.value`
-- **html-tag-sequence** `classfeatures:4Vpj9vCOB37GtXk6:system.description.value`
-- **html-attributes** `classfeatures:4Vpj9vCOB37GtXk6:system.description.value`
-- **html-tag-sequence** `classfeatures:nJA3ISVmyj3uPRVM:system.description.value`
-- **html-attributes** `classfeatures:nJA3ISVmyj3uPRVM:system.description.value`
-- **foundry-reference-count** `classfeatures:nJA3ISVmyj3uPRVM:system.description.value`
-- **html-tag-sequence** `classfeatures:8fbZt2Qh7ZttwIan:system.description.value`
-- **html-attributes** `classfeatures:8fbZt2Qh7ZttwIan:system.description.value`
-- **html-tag-sequence** `classfeatures:s0Cc2zcX0JzIgam5:system.description.value`
-- **html-attributes** `classfeatures:s0Cc2zcX0JzIgam5:system.description.value`
-- **html-tag-sequence** `classfeatures:9Uh7uTDNZ04oTJsL:system.description.value`
-- **html-attributes** `classfeatures:9Uh7uTDNZ04oTJsL:system.description.value`
-- **foundry-reference-count** `classfeatures:9Uh7uTDNZ04oTJsL:system.description.value`
-- **html-tag-sequence** `classfeatures:2fyuw7MiCnocDeAU:system.description.value`
-- **html-attributes** `classfeatures:2fyuw7MiCnocDeAU:system.description.value`
-- **foundry-reference-count** `classfeatures:2fyuw7MiCnocDeAU:system.description.value`
-- **html-tag-sequence** `classfeatures:QEuH5TeBN4PPYT2g:system.description.value`
-- **html-attributes** `classfeatures:QEuH5TeBN4PPYT2g:system.description.value`
-- **foundry-reference-count** `classfeatures:QEuH5TeBN4PPYT2g:system.description.value`
-- **html-tag-sequence** `classfeatures:Phy02H5x0TKHd7T3:system.description.value`
-- **html-attributes** `classfeatures:Phy02H5x0TKHd7T3:system.description.value`
-- **foundry-reference-count** `classfeatures:Phy02H5x0TKHd7T3:system.description.value`
-- **html-tag-sequence** `classfeatures:r01WtcxTg4yTHm9m:system.description.value`
-- **html-attributes** `classfeatures:r01WtcxTg4yTHm9m:system.description.value`
-- **foundry-reference-count** `classfeatures:r01WtcxTg4yTHm9m:system.description.value`
-- **html-tag-sequence** `classfeatures:rdBPd6CwqXT64iJM:system.description.value`
-- **html-attributes** `classfeatures:rdBPd6CwqXT64iJM:system.description.value`
-- **foundry-reference-count** `classfeatures:rdBPd6CwqXT64iJM:system.description.value`
-- **html-tag-sequence** `classfeatures:8MlxM2nEfE3Q0EVk:system.description.value`
-- **html-attributes** `classfeatures:8MlxM2nEfE3Q0EVk:system.description.value`
-- **foundry-references** `classfeatures:8MlxM2nEfE3Q0EVk:system.description.value`
-- **html-tag-sequence** `classfeatures:QwgfIpCN8VWfoUtX:system.description.value`
-- **html-attributes** `classfeatures:QwgfIpCN8VWfoUtX:system.description.value`
-- **foundry-reference-count** `classfeatures:QwgfIpCN8VWfoUtX:system.description.value`
-- **html-tag-sequence** `classfeatures:Ic1CSjvbWKudVUv9:system.description.value`
-- **html-attributes** `classfeatures:Ic1CSjvbWKudVUv9:system.description.value`
-- **foundry-reference-count** `classfeatures:Ic1CSjvbWKudVUv9:system.description.value`
-- **html-tag-sequence** `classfeatures:VUtSLeCzFubGXmGx:system.description.value`
-- **html-attributes** `classfeatures:VUtSLeCzFubGXmGx:system.description.value`
-- **foundry-formulas** `classfeatures:VUtSLeCzFubGXmGx:system.description.value`
-- **html-tag-sequence** `classfeatures:JfFfHTeIszx1hNRx:system.description.value`
-- **html-attributes** `classfeatures:JfFfHTeIszx1hNRx:system.description.value`
 - **missing-folder** `effects:Ix7AOd1FAYuhH9YR`
 - **missing-folder** `effects:0Ch2NOcABVIoN3cQ`
 - **missing-folder** `effects:qzel1ixDUyfRqtnx`
