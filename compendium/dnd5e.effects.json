@@ -1,68 +1,678 @@
 {
   "label": "Effetti",
   "folders": {
+    "Ability Check Advantage": "Vantaggio alle Prove di Caratteristica",
+    "Ability Check Disadvantage": "Svantaggio alle Prove di Caratteristica",
+    "Ability Check & Save Advantage": "Vantaggio alle Prove e ai Tiri Salvezza",
+    "Ability Check & Save Disadvantage": "Svantaggio alle Prove e ai Tiri Salvezza",
+    "Ability Save Advantage": "Vantaggio ai Tiri Salvezza",
+    "Ability Save Disadvantage": "Svantaggio ai Tiri Salvezza",
+    "Attack Advantage": "Vantaggio agli Attacchi",
+    "Attack Disadvantage": "Svantaggio agli Attacchi",
+    "Condition Immunities": "Immunità alle Condizioni",
+    "Conditions": "Condizioni",
+    "D20 Tests": "Prove di d20",
     "Damage Immunities": "Immunità ai Danni",
-    "Dragonborn": "Dragonide"
+    "Damage Resistances": "Resistenze ai Danni",
+    "Damage Vulnerabilities": "Vulnerabilità ai Danni",
+    "Skill Advantage": "Vantaggio alle Prove di Abilità",
+    "Skill Disadvantage": "Svantaggio alle Prove di Abilità",
+    "Species": "Specie",
+    "Dragonborn": "Dragonide",
+    "Speeds": "Velocità",
+    "Spells": "Incantesimi"
   },
   "entries": {
-    "Acid Immunity": {
-      "name": "Immunità all'Acido"
+    "Advantage on Ability Checks": {
+      "name": "Vantaggio alle Prove di Caratteristica"
     },
-    "4odkdDU1wBQrCMJ1": {
-      "_id": "4odkdDU1wBQrCMJ1",
+    "Charisma Check Advantage": {
+      "name": "Vantaggio alle Prove di Carisma"
+    },
+    "Constitution Check Advantage": {
+      "name": "Vantaggio alle Prove di Costituzione"
+    },
+    "Dexterity Check Advantage": {
+      "name": "Vantaggio alle Prove di Destrezza"
+    },
+    "Initiative Advantage": {
+      "name": "Vantaggio all'Iniziativa"
+    },
+    "Intelligence Check Advantage": {
+      "name": "Vantaggio alle Prove di Intelligenza"
+    },
+    "Strength Check Advantage": {
+      "name": "Vantaggio alle Prove di Forza"
+    },
+    "Wisdom Check Advantage": {
+      "name": "Vantaggio alle Prove di Saggezza"
+    },
+    "Charisma Check Disadvantage": {
+      "name": "Svantaggio alle Prove di Carisma"
+    },
+    "Constitution Check Disadvantage": {
+      "name": "Svantaggio alle Prove di Costituzione"
+    },
+    "Dexterity Check Disadvantage": {
+      "name": "Svantaggio alle Prove di Destrezza"
+    },
+    "Disadvantage on Ability Checks": {
+      "name": "Svantaggio alle Prove di Caratteristica"
+    },
+    "Initiative Disadvantage": {
+      "name": "Svantaggio all'Iniziativa"
+    },
+    "Intelligence Check Disadvantage": {
+      "name": "Svantaggio alle Prove di Intelligenza"
+    },
+    "Strength Check Disadvantage": {
+      "name": "Svantaggio alle Prove di Forza"
+    },
+    "Wisdom Check Disadvantage": {
+      "name": "Svantaggio alle Prove di Saggezza"
+    },
+    "Advantage on Checks & Saves": {
+      "name": "Vantaggio alle Prove e ai Tiri Salvezza"
+    },
+    "Charisma Check & Save Advantage": {
+      "name": "Vantaggio alle Prove e ai Tiri Salvezza di Carisma"
+    },
+    "Constitution Check & Save Advantage": {
+      "name": "Vantaggio alle Prove e ai Tiri Salvezza di Costituzione"
+    },
+    "Dexterity Check & Save Advantage": {
+      "name": "Vantaggio alle Prove e ai Tiri Salvezza di Destrezza"
+    },
+    "Intelligence Check & Save Advantage": {
+      "name": "Vantaggio alle Prove e ai Tiri Salvezza di Intelligenza"
+    },
+    "Strength Check & Save Advantage": {
+      "name": "Vantaggio alle Prove e ai Tiri Salvezza di Forza"
+    },
+    "Wisdom Check & Save Advantage": {
+      "name": "Vantaggio alle Prove e ai Tiri Salvezza di Saggezza"
+    },
+    "Charisma Check & Save Disadvantage": {
+      "name": "Svantaggio alle Prove e ai Tiri Salvezza di Carisma"
+    },
+    "Constitution Check & Save Disadvantage": {
+      "name": "Svantaggio alle Prove e ai Tiri Salvezza di Costituzione"
+    },
+    "Dexterity Check & Save Disadvantage": {
+      "name": "Svantaggio alle Prove e ai Tiri Salvezza di Destrezza"
+    },
+    "Disadvantage on Checks & Saves": {
+      "name": "Svantaggio alle Prove e ai Tiri Salvezza"
+    },
+    "Intelligence Check & Save Disadvantage": {
+      "name": "Svantaggio alle Prove e ai Tiri Salvezza di Intelligenza"
+    },
+    "Strength Check & Save Disadvantage": {
+      "name": "Svantaggio alle Prove e ai Tiri Salvezza di Forza"
+    },
+    "Wisdom Check & Save Disadvantage": {
+      "name": "Svantaggio alle Prove e ai Tiri Salvezza di Saggezza"
+    },
+    "Advantage on Saving Throws": {
+      "name": "Vantaggio ai Tiri Salvezza"
+    },
+    "Charisma Save Advantage": {
+      "name": "Vantaggio ai Tiri Salvezza su Carisma"
+    },
+    "Constitution Save Advantage": {
+      "name": "Vantaggio ai Tiri Salvezza su Costituzione"
+    },
+    "Dexterity Save Advantage": {
+      "name": "Vantaggio ai Tiri Salvezza su Destrezza"
+    },
+    "Intelligence Save Advantage": {
+      "name": "Vantaggio ai Tiri Salvezza su Intelligenza"
+    },
+    "Strength Save Advantage": {
+      "name": "Vantaggio ai Tiri Salvezza su Forza"
+    },
+    "Wisdom Save Advantage": {
+      "name": "Vantaggio ai Tiri Salvezza su Saggezza"
+    },
+    "Charisma Save Disadvantage": {
+      "name": "Svantaggio ai Tiri Salvezza su Carisma"
+    },
+    "Constitution Save Disadvantage": {
+      "name": "Svantaggio ai Tiri Salvezza su Costituzione"
+    },
+    "Dexterity Save Disadvantage": {
+      "name": "Svantaggio ai Tiri Salvezza su Destrezza"
+    },
+    "Disadvantage on Saving Throws": {
+      "name": "Svantaggio ai Tiri Salvezza"
+    },
+    "Intelligence Save Disadvantage": {
+      "name": "Svantaggio ai Tiri Salvezza su Intelligenza"
+    },
+    "Strength Save Disadvantage": {
+      "name": "Svantaggio ai Tiri Salvezza su Forza"
+    },
+    "Wisdom Save Disadvantage": {
+      "name": "Svantaggio ai Tiri Salvezza su Saggezza"
+    },
+    "Advantage on Attacks": {
+      "name": "Vantaggio agli Attacchi"
+    },
+    "Advantage on Melee Attacks": {
+      "name": "Vantaggio agli Attacchi in Mischia"
+    },
+    "Advantage on Melee Spell Attacks": {
+      "name": "Vantaggio agli Attacchi in Mischia con Incantesimo"
+    },
+    "Advantage on Melee Weapon Attacks": {
+      "name": "Vantaggio agli Attacchi in Mischia con Arma"
+    },
+    "Advantage on Ranged Attacks": {
+      "name": "Vantaggio agli Attacchi a Distanza"
+    },
+    "Advantage on Ranged Spell Attacks": {
+      "name": "Vantaggio agli Attacchi a Distanza con Incantesimo"
+    },
+    "Advantage on Ranged Weapon Attacks": {
+      "name": "Vantaggio agli Attacchi a Distanza con Arma"
+    },
+    "Advantage on Spell Attacks": {
+      "name": "Vantaggio agli Attacchi con Incantesimo"
+    },
+    "Advantage on Weapon Attacks": {
+      "name": "Vantaggio agli Attacchi con Arma"
+    },
+    "Disadvantage on Attacks": {
+      "name": "Svantaggio agli Attacchi"
+    },
+    "Disadvantage on Melee Attacks": {
+      "name": "Svantaggio agli Attacchi in Mischia"
+    },
+    "Disadvantage on Melee Spell Attacks": {
+      "name": "Svantaggio agli Attacchi in Mischia con Incantesimo"
+    },
+    "Disadvantage on Melee Weapon Attacks": {
+      "name": "Svantaggio agli Attacchi in Mischia con Arma"
+    },
+    "Disadvantage on Ranged Attacks": {
+      "name": "Svantaggio agli Attacchi a Distanza"
+    },
+    "Disadvantage on Ranged Spell Attacks": {
+      "name": "Svantaggio agli Attacchi a Distanza con Incantesimo"
+    },
+    "Disadvantage on Ranged Weapon Attacks": {
+      "name": "Svantaggio agli Attacchi a Distanza con Arma"
+    },
+    "Disadvantage on Spell Attacks": {
+      "name": "Svantaggio agli Attacchi con Incantesimo"
+    },
+    "Disadvantage on Weapon Attacks": {
+      "name": "Svantaggio agli Attacchi con Arma"
+    },
+    "Bleeding Immunity": {
+      "name": "Immunità: Sanguinante"
+    },
+    "Blinded Immunity": {
+      "name": "Immunità: Accecato"
+    },
+    "Burning Immunity": {
+      "name": "Immunità: In Fiamme"
+    },
+    "Charmed Immunity": {
+      "name": "Immunità: Affascinato"
+    },
+    "Cursed Immunity": {
+      "name": "Immunità: Maledetto"
+    },
+    "Deafened Immunity": {
+      "name": "Immunità: Assordato"
+    },
+    "Dehydration Immunity": {
+      "name": "Immunità: Disidratato"
+    },
+    "Diseased Immunity": {
+      "name": "Immunità: Malato"
+    },
+    "Exhaustion Immunity": {
+      "name": "Immunità: undefined"
+    },
+    "Falling Immunity": {
+      "name": "Immunità: In Caduta"
+    },
+    "Frightened Immunity": {
+      "name": "Immunità: Spaventato"
+    },
+    "Grappled Immunity": {
+      "name": "Immunità: Afferrato"
+    },
+    "Incapacitated Immunity": {
+      "name": "Immunità: Incapacitato"
+    },
+    "Invisible Immunity": {
+      "name": "Immunità: Invisibile"
+    },
+    "Malnutrition Immunity": {
+      "name": "Immunità: Malnutrito"
+    },
+    "Paralyzed Immunity": {
+      "name": "Immunità: Paralizzato"
+    },
+    "Petrified Immunity": {
+      "name": "Immunità: Pietrificato"
+    },
+    "Poisoned Immunity": {
+      "name": "Immunità: Avvelenato"
+    },
+    "Prone Immunity": {
+      "name": "Immunità: Prono"
+    },
+    "Restrained Immunity": {
+      "name": "Immunità: Trattenuto"
+    },
+    "Silenced Immunity": {
+      "name": "Immunità: Silenziato"
+    },
+    "Stunned Immunity": {
+      "name": "Immunità: Stordito"
+    },
+    "Suffocation Immunity": {
+      "name": "Immunità: Soffocamento"
+    },
+    "Surprised Immunity": {
+      "name": "Immunità: Sorpreso"
+    },
+    "Transformed Immunity": {
+      "name": "Immunità: Trasformato"
+    },
+    "Unconscious Immunity": {
+      "name": "Immunità: Privo di Sensi"
+    },
+    "Bleeding": {
+      "name": "Sanguinante"
+    },
+    "Blinded": {
       "name": "Accecato"
     },
-    "9AQYUpfcUn1TkZEn": {
-      "_id": "9AQYUpfcUn1TkZEn",
+    "Burning": {
+      "name": "In Fiamme"
+    },
+    "Charmed": {
       "name": "Affascinato"
     },
-    "clPiz851aOUtuZ3f": {
-      "_id": "clPiz851aOUtuZ3f",
+    "Cursed": {
+      "name": "Maledetto"
+    },
+    "Dashing": {
+      "name": "Scatto"
+    },
+    "Deafened": {
       "name": "Assordato"
     },
-    "OpCz3oGBfDZfxAlt": {
-      "_id": "OpCz3oGBfDZfxAlt",
+    "Dehydration": {
+      "name": "Disidratato"
+    },
+    "Diseased": {
+      "name": "Malato"
+    },
+    "Disengaged": {
+      "name": "Disimpegno"
+    },
+    "Dodging": {
+      "name": "Schivata"
+    },
+    "Falling": {
+      "name": "In Caduta"
+    },
+    "Frightened": {
       "name": "Spaventato"
     },
-    "DoHlDRcjgby463Pp": {
-      "_id": "DoHlDRcjgby463Pp",
+    "Grappled": {
       "name": "Afferrato"
     },
-    "ZUJBSrYzFeQWh7kt": {
-      "_id": "ZUJBSrYzFeQWh7kt",
+    "Incapacitated": {
       "name": "Incapacitato"
     },
-    "QUmDKA6mnK7HoASC": {
-      "_id": "QUmDKA6mnK7HoASC",
+    "Invisible": {
       "name": "Invisibile"
     },
-    "3rwsG5WKz6EPDc9R": {
-      "_id": "3rwsG5WKz6EPDc9R",
+    "Malnutrition": {
+      "name": "Malnutrito"
+    },
+    "No Opportunity Attacks": {
+      "name": "Nessun Attacco di Opportunità"
+    },
+    "No Reactions": {
+      "name": "Nessuna Reazione"
+    },
+    "Paralyzed": {
       "name": "Paralizzato"
     },
-    "JxLxOu6GO8sSRmAD": {
-      "_id": "JxLxOu6GO8sSRmAD",
+    "Petrified": {
       "name": "Pietrificato"
     },
-    "wAnw5y4atBxNJHUP": {
-      "_id": "wAnw5y4atBxNJHUP",
+    "Poisoned": {
       "name": "Avvelenato"
     },
-    "UVtVRNlaslbMIsuH": {
-      "_id": "UVtVRNlaslbMIsuH",
+    "Prone": {
       "name": "Prono"
     },
-    "XGrVyCOf9Fr8WGJl": {
-      "_id": "XGrVyCOf9Fr8WGJl",
+    "Restrained": {
       "name": "Trattenuto"
     },
-    "rFipUvJNQ4QTA8I4": {
-      "_id": "rFipUvJNQ4QTA8I4",
+    "ryGbnbaNnIOEHvHG": {
+      "_id": "ryGbnbaNnIOEHvHG",
+      "name": "Silenziato"
+    },
+    "Stunned": {
       "name": "Stordito"
     },
-    "HjLkxDzLNBogspf9": {
-      "_id": "HjLkxDzLNBogspf9",
+    "Suffocation": {
+      "name": "Soffocamento"
+    },
+    "Surprised": {
+      "name": "Sorpreso"
+    },
+    "Transformed": {
+      "name": "Trasformato"
+    },
+    "Unconscious": {
       "name": "Privo di Sensi"
+    },
+    "Advantage on D20 Tests": {
+      "name": "Vantaggio alle Prove di d20"
+    },
+    "Disadvantage on D20 Tests": {
+      "name": "Svantaggio alle Prove di d20"
+    },
+    "Acid Immunity": {
+      "name": "Immunità ai Danni da Acido"
+    },
+    "Bludgeoning Immunity": {
+      "name": "Immunità ai Danni Contundenti"
+    },
+    "Cold Immunity": {
+      "name": "Immunità ai Danni da Freddo"
+    },
+    "Fire Immunity": {
+      "name": "Immunità ai Danni da Fuoco"
+    },
+    "Force Immunity": {
+      "name": "Immunità ai Danni da Forza"
+    },
+    "Immunity to All Damage": {
+      "name": "Immunità a Tutti i Danni"
+    },
+    "Lightning Immunity": {
+      "name": "Immunità ai Danni da Fulmine"
+    },
+    "Necrotic Immunity": {
+      "name": "Immunità ai Danni Necrotici"
+    },
+    "Piercing Immunity": {
+      "name": "Immunità ai Danni Perforanti"
+    },
+    "Poison Immunity": {
+      "name": "Immunità ai Danni da Veleno"
+    },
+    "Psychic Immunity": {
+      "name": "Immunità ai Danni Psichici"
+    },
+    "Radiant Immunity": {
+      "name": "Immunità ai Danni Radianti"
+    },
+    "Slashing Immunity": {
+      "name": "Immunità ai Danni Taglienti"
+    },
+    "Thunder Immunity": {
+      "name": "Immunità ai Danni da Tuono"
+    },
+    "Acid Resistance": {
+      "name": "Resistenza ai Danni da Acido"
+    },
+    "Bludgeoning Resistance": {
+      "name": "Resistenza ai Danni Contundenti"
+    },
+    "Cold Resistance": {
+      "name": "Resistenza ai Danni da Freddo"
+    },
+    "Fire Resistance": {
+      "name": "Resistenza ai Danni da Fuoco"
+    },
+    "Force Resistance": {
+      "name": "Resistenza ai Danni da Forza"
+    },
+    "Lightning Resistance": {
+      "name": "Resistenza ai Danni da Fulmine"
+    },
+    "Necrotic Resistance": {
+      "name": "Resistenza ai Danni Necrotici"
+    },
+    "Piercing Resistance": {
+      "name": "Resistenza ai Danni Perforanti"
+    },
+    "Poison Resistance": {
+      "name": "Resistenza ai Danni da Veleno"
+    },
+    "Psychic Resistance": {
+      "name": "Resistenza ai Danni Psichici"
+    },
+    "Radiant Resistance": {
+      "name": "Resistenza ai Danni Radianti"
+    },
+    "Resistance to All Damage": {
+      "name": "Resistenza a Tutti i Danni"
+    },
+    "Slashing Resistance": {
+      "name": "Resistenza ai Danni Taglienti"
+    },
+    "Thunder Resistance": {
+      "name": "Resistenza ai Danni da Tuono"
+    },
+    "Acid Vulnerability": {
+      "name": "Vulnerabilità ai Danni da Acido"
+    },
+    "Bludgeoning Vulnerability": {
+      "name": "Vulnerabilità ai Danni Contundenti"
+    },
+    "Cold Vulnerability": {
+      "name": "Vulnerabilità ai Danni da Freddo"
+    },
+    "Fire Vulnerability": {
+      "name": "Vulnerabilità ai Danni da Fuoco"
+    },
+    "Force Vulnerability": {
+      "name": "Vulnerabilità ai Danni da Forza"
+    },
+    "Lightning Vulnerability": {
+      "name": "Vulnerabilità ai Danni da Fulmine"
+    },
+    "Necrotic Vulnerability": {
+      "name": "Vulnerabilità ai Danni Necrotici"
+    },
+    "Piercing Vulnerability": {
+      "name": "Vulnerabilità ai Danni Perforanti"
+    },
+    "Poison Vulnerability": {
+      "name": "Vulnerabilità ai Danni da Veleno"
+    },
+    "Psychic Vulnerability": {
+      "name": "Vulnerabilità ai Danni Psichici"
+    },
+    "Radiant Vulnerability": {
+      "name": "Vulnerabilità ai Danni Radianti"
+    },
+    "Slashing Vulnerability": {
+      "name": "Vulnerabilità ai Danni Taglienti"
+    },
+    "Thunder Vulnerability": {
+      "name": "Vulnerabilità ai Danni da Tuono"
+    },
+    "Vulnerability to All Damage": {
+      "name": "Vulnerabilità a Tutti i Danni"
+    },
+    "Acrobatics Advantage": {
+      "name": "Vantaggio alle Prove di Acrobazia"
+    },
+    "Advantage on Skill Checks": {
+      "name": "Vantaggio alle Prove di Abilità"
+    },
+    "Animal Handling Advantage": {
+      "name": "Vantaggio alle Prove di Addestrare Animali"
+    },
+    "Arcana Advantage": {
+      "name": "Vantaggio alle Prove di Arcano"
+    },
+    "Athletics Advantage": {
+      "name": "Vantaggio alle Prove di Atletica"
+    },
+    "Deception Advantage": {
+      "name": "Vantaggio alle Prove di Inganno"
+    },
+    "History Advantage": {
+      "name": "Vantaggio alle Prove di Storia"
+    },
+    "Insight Advantage": {
+      "name": "Vantaggio alle Prove di Intuizione"
+    },
+    "Intimidation Advantage": {
+      "name": "Vantaggio alle Prove di Intimidire"
+    },
+    "Investigation Advantage": {
+      "name": "Vantaggio alle Prove di Indagare"
+    },
+    "Medicine Advantage": {
+      "name": "Vantaggio alle Prove di Medicina"
+    },
+    "Nature Advantage": {
+      "name": "Vantaggio alle Prove di Natura"
+    },
+    "Perception Advantage": {
+      "name": "Vantaggio alle Prove di Percezione"
+    },
+    "Performance Advantage": {
+      "name": "Vantaggio alle Prove di Intrattenere"
+    },
+    "Persuasion Advantage": {
+      "name": "Vantaggio alle Prove di Persuasione"
+    },
+    "Religion Advantage": {
+      "name": "Vantaggio alle Prove di Religione"
+    },
+    "Sleight of Hand Advantage": {
+      "name": "Vantaggio alle Prove di Rapidità di Mano"
+    },
+    "Stealth Advantage": {
+      "name": "Vantaggio alle Prove di Furtività"
+    },
+    "Survival Advantage": {
+      "name": "Vantaggio alle Prove di Sopravvivenza"
+    },
+    "Acrobatics Disadvantage": {
+      "name": "Svantaggio alle Prove di Acrobazia"
+    },
+    "Animal Handling Disadvantage": {
+      "name": "Svantaggio alle Prove di Addestrare Animali"
+    },
+    "Arcana Disadvantage": {
+      "name": "Svantaggio alle Prove di Arcano"
+    },
+    "Athletics Disadvantage": {
+      "name": "Svantaggio alle Prove di Atletica"
+    },
+    "Deception Disadvantage": {
+      "name": "Svantaggio alle Prove di Inganno"
+    },
+    "Disadvantage on Skill Checks": {
+      "name": "Svantaggio alle Prove di Abilità"
+    },
+    "History Disadvantage": {
+      "name": "Svantaggio alle Prove di Storia"
+    },
+    "Insight Disadvantage": {
+      "name": "Svantaggio alle Prove di Intuizione"
+    },
+    "Intimidation Disadvantage": {
+      "name": "Svantaggio alle Prove di Intimidire"
+    },
+    "Investigation Disadvantage": {
+      "name": "Svantaggio alle Prove di Indagare"
+    },
+    "Medicine Disadvantage": {
+      "name": "Svantaggio alle Prove di Medicina"
+    },
+    "Nature Disadvantage": {
+      "name": "Svantaggio alle Prove di Natura"
+    },
+    "Perception Disadvantage": {
+      "name": "Svantaggio alle Prove di Percezione"
+    },
+    "Performance Disadvantage": {
+      "name": "Svantaggio alle Prove di Intrattenere"
+    },
+    "Persuasion Disadvantage": {
+      "name": "Svantaggio alle Prove di Persuasione"
+    },
+    "Religion Disadvantage": {
+      "name": "Svantaggio alle Prove di Religione"
+    },
+    "Sleight of Hand Disadvantage": {
+      "name": "Svantaggio alle Prove di Rapidità di Mano"
+    },
+    "Stealth Disadvantage": {
+      "name": "Svantaggio alle Prove di Furtività"
+    },
+    "Survival Disadvantage": {
+      "name": "Svantaggio alle Prove di Sopravvivenza"
+    },
+    "Acid Breath Weapon": {
+      "name": "Arma a Soffio di Acido",
+      "description": "<p>La tua Arma a Soffio infligge danni da Acido.</p>"
+    },
+    "Cold Breath Weapon": {
+      "name": "Arma a Soffio di Freddo",
+      "description": "<p>La tua Arma a Soffio infligge danni da Freddo.</p>"
+    },
+    "Fire Breath Weapon": {
+      "name": "Arma a Soffio di Fuoco",
+      "description": "<p>La tua Arma a Soffio infligge danni da Fuoco.</p>"
+    },
+    "Lightning Breath Weapon": {
+      "name": "Arma a Soffio di Fulmine",
+      "description": "<p>La tua Arma a Soffio infligge danni da Fulmine.</p>"
+    },
+    "Poison Breath Weapon": {
+      "name": "Arma a Soffio di Veleno",
+      "description": "<p>La tua Arma a Soffio infligge danni da Veleno.</p>"
+    },
+    "Burrow Speed": {
+      "name": "Velocità di Scavare"
+    },
+    "Climb Speed": {
+      "name": "Velocità di Scalare"
+    },
+    "Fly Speed": {
+      "name": "Velocità di Volare"
+    },
+    "Speed Doubled": {
+      "name": "Velocità Raddoppiata"
+    },
+    "Speed Halved": {
+      "name": "Velocità Dimezzata"
+    },
+    "Speed is 0": {
+      "name": "Velocità Pari a 0"
+    },
+    "Swim Speed": {
+      "name": "Velocità di Nuotare"
+    },
+    "Aura of Life": {
+      "name": "Aura di Vita",
+      "description": "<p>Finché si trovano nell'aura, tu e i tuoi alleati possedete Resistenza ai danni Necrotici e i vostri massimi dei Punti Ferita non possono essere ridotti. Se un alleato con 0 Punti Ferita inizia il proprio turno nell'aura, recupera [[/healing 1 type=healing]]{1 Punto Ferita}.</p>"
+    },
+    "phbeffSilenced00": {
+      "_id": "phbeffSilenced00",
+      "name": "Silenziato",
+      "description": "<p>Qualsiasi creatura o oggetto interamente all'interno della Sfera possiede Immunità ai danni da Tuono e le creature interamente al suo interno sono Assordate. In quell'area è impossibile lanciare un incantesimo che includa una componente Verbale.</p>"
     }
   }
 }
