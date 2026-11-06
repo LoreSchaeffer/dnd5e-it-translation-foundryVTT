@@ -6423,6 +6423,22 @@
         },
         {
           "pack": "items",
+          "id": "eM5gEe4SEOvA2Y9t",
+          "name": "Staff of Power",
+          "sourcePath": "items/weapon/staff-of-power.yml",
+          "lookupKey": "Staff of Power",
+          "matchedLookupKey": "Staff of Power"
+        },
+        {
+          "pack": "items",
+          "id": "URun3vYrXKJJdAJe",
+          "name": "Staff of Striking",
+          "sourcePath": "items/weapon/staff-of-striking.yml",
+          "lookupKey": "Staff of Striking",
+          "matchedLookupKey": "Staff of Striking"
+        },
+        {
+          "pack": "items",
           "id": "bod1dKzbAkAm21Ho",
           "name": "Staff of Swarming Insects",
           "sourcePath": "items/weapon/staff-of-swarming-insects.yml",
@@ -7623,92 +7639,6 @@
               "message": "Foundry data references differ from source",
               "pack": "items",
               "id": "46ikeR4RrSim6DsN",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "eM5gEe4SEOvA2Y9t",
-          "name": "Staff of Power",
-          "sourcePath": "items/weapon/staff-of-power.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Staff of Power",
-          "matchedLookupKey": "Staff of Power",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "eM5gEe4SEOvA2Y9t",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "eM5gEe4SEOvA2Y9t",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-references",
-              "severity": "blocking",
-              "message": "Foundry reference targets or order differ from source",
-              "pack": "items",
-              "id": "eM5gEe4SEOvA2Y9t",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-formulas",
-              "severity": "blocking",
-              "message": "Foundry formulas differ from source",
-              "pack": "items",
-              "id": "eM5gEe4SEOvA2Y9t",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "URun3vYrXKJJdAJe",
-          "name": "Staff of Striking",
-          "sourcePath": "items/weapon/staff-of-striking.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Staff of Striking",
-          "matchedLookupKey": "Staff of Striking",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "URun3vYrXKJJdAJe",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "URun3vYrXKJJdAJe",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "URun3vYrXKJJdAJe",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-formulas",
-              "severity": "blocking",
-              "message": "Foundry formulas differ from source",
-              "pack": "items",
-              "id": "URun3vYrXKJJdAJe",
               "fieldPath": "system.description.value"
             }
           ]

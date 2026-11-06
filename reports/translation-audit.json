@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1753,
+      "translated": 1755,
       "missing": 69,
-      "partial": 569,
+      "partial": 567,
       "review": 70
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 1022,
+      "invariantFailures": 1014,
       "englishResiduals": 72,
       "imperialResiduals": 0
     },
-    "blockingIssues": 7177
+    "blockingIssues": 7169
   },
   "packs": [
     {
@@ -5317,9 +5317,9 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 865,
+          "translated": 867,
           "missing": 0,
-          "partial": 20,
+          "partial": 18,
           "review": 0
         },
         "folders": {
@@ -5333,7 +5333,7 @@
           "total": 2227,
           "translated": 2227,
           "missing": 0,
-          "invariantFailures": 75,
+          "invariantFailures": 67,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
@@ -5978,86 +5978,6 @@
           "fieldPath": "system.description.value",
           "name": "Talisman of the Sphere",
           "sourcePath": "items/trinket/talisman-of-the-sphere.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "eM5gEe4SEOvA2Y9t",
-          "fieldPath": "system.description.value",
-          "name": "Staff of Power",
-          "sourcePath": "items/weapon/staff-of-power.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "eM5gEe4SEOvA2Y9t",
-          "fieldPath": "system.description.value",
-          "name": "Staff of Power",
-          "sourcePath": "items/weapon/staff-of-power.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "eM5gEe4SEOvA2Y9t",
-          "fieldPath": "system.description.value",
-          "name": "Staff of Power",
-          "sourcePath": "items/weapon/staff-of-power.yml"
-        },
-        {
-          "code": "foundry-formulas",
-          "severity": "blocking",
-          "message": "Foundry formulas differ from source",
-          "pack": "items",
-          "id": "eM5gEe4SEOvA2Y9t",
-          "fieldPath": "system.description.value",
-          "name": "Staff of Power",
-          "sourcePath": "items/weapon/staff-of-power.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "URun3vYrXKJJdAJe",
-          "fieldPath": "system.description.value",
-          "name": "Staff of Striking",
-          "sourcePath": "items/weapon/staff-of-striking.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "URun3vYrXKJJdAJe",
-          "fieldPath": "system.description.value",
-          "name": "Staff of Striking",
-          "sourcePath": "items/weapon/staff-of-striking.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "items",
-          "id": "URun3vYrXKJJdAJe",
-          "fieldPath": "system.description.value",
-          "name": "Staff of Striking",
-          "sourcePath": "items/weapon/staff-of-striking.yml"
-        },
-        {
-          "code": "foundry-formulas",
-          "severity": "blocking",
-          "message": "Foundry formulas differ from source",
-          "pack": "items",
-          "id": "URun3vYrXKJJdAJe",
-          "fieldPath": "system.description.value",
-          "name": "Staff of Striking",
-          "sourcePath": "items/weapon/staff-of-striking.yml"
         },
         {
           "code": "html-tag-sequence",
