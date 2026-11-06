@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1204,
+      "translated": 1207,
       "missing": 69,
-      "partial": 1118,
+      "partial": 1115,
       "review": 203
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 2133,
+      "invariantFailures": 2125,
       "englishResiduals": 118,
       "imperialResiduals": 2
     },
-    "blockingIssues": 8423
+    "blockingIssues": 8415
   },
   "packs": [
     {
@@ -76741,9 +76741,9 @@
       "summary": {
         "documents": {
           "total": 320,
-          "translated": 267,
+          "translated": 270,
           "missing": 0,
-          "partial": 53,
+          "partial": 50,
           "review": 0
         },
         "folders": {
@@ -76757,7 +76757,7 @@
           "total": 2007,
           "translated": 2007,
           "missing": 0,
-          "invariantFailures": 145,
+          "invariantFailures": 137,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
@@ -76858,36 +76858,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "spells",
-          "id": "KrM3oHVv13RAALrS",
-          "fieldPath": "system.description.value",
-          "name": "Find Traps",
-          "sourcePath": "spells/2nd-level/find-traps.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "KrM3oHVv13RAALrS",
-          "fieldPath": "system.description.value",
-          "name": "Find Traps",
-          "sourcePath": "spells/2nd-level/find-traps.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "spells",
-          "id": "KrM3oHVv13RAALrS",
-          "fieldPath": "system.description.value",
-          "name": "Find Traps",
-          "sourcePath": "spells/2nd-level/find-traps.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
           "id": "FSMy6VAjDnXY9vWz",
           "fieldPath": "system.description.value",
           "name": "Gust of Wind",
@@ -77054,16 +77024,6 @@
           "sourcePath": "spells/3rd-level/magic-circle.yml"
         },
         {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "spells",
-          "id": "aU62xVUBYkAQWIHv",
-          "fieldPath": "system.description.value",
-          "name": "Nondetection",
-          "sourcePath": "spells/3rd-level/nondetection.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -77092,46 +77052,6 @@
           "fieldPath": "system.description.value",
           "name": "Phantom Steed",
           "sourcePath": "spells/3rd-level/phantom-steed.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "GtGjNjPBgUHxGYAD",
-          "fieldPath": "system.description.value",
-          "name": "Sending",
-          "sourcePath": "spells/3rd-level/sending.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "GtGjNjPBgUHxGYAD",
-          "fieldPath": "system.description.value",
-          "name": "Sending",
-          "sourcePath": "spells/3rd-level/sending.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "spells",
-          "id": "GtGjNjPBgUHxGYAD",
-          "fieldPath": "system.description.value",
-          "name": "Sending",
-          "sourcePath": "spells/3rd-level/sending.yml"
-        },
-        {
-          "code": "foundry-formulas",
-          "severity": "blocking",
-          "message": "Foundry formulas differ from source",
-          "pack": "spells",
-          "id": "GtGjNjPBgUHxGYAD",
-          "fieldPath": "system.description.value",
-          "name": "Sending",
-          "sourcePath": "spells/3rd-level/sending.yml"
         },
         {
           "code": "html-tag-sequence",

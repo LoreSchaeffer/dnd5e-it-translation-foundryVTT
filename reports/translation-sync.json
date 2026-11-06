@@ -535,6 +535,14 @@
         },
         {
           "pack": "spells",
+          "id": "KrM3oHVv13RAALrS",
+          "name": "Find Traps",
+          "sourcePath": "spells/2nd-level/find-traps.yml",
+          "lookupKey": "Find Traps",
+          "matchedLookupKey": "Find Traps"
+        },
+        {
+          "pack": "spells",
           "id": "Advtckpz1B733bu9",
           "name": "Flame Blade",
           "sourcePath": "spells/2nd-level/flame-blade.yml",
@@ -935,6 +943,14 @@
         },
         {
           "pack": "spells",
+          "id": "aU62xVUBYkAQWIHv",
+          "name": "Nondetection",
+          "sourcePath": "spells/3rd-level/nondetection.yml",
+          "lookupKey": "Nondetection",
+          "matchedLookupKey": "Nondetection"
+        },
+        {
+          "pack": "spells",
           "id": "YWtwzp6ZnQJMEmVW",
           "name": "Plant Growth",
           "sourcePath": "spells/3rd-level/plant-growth.yml",
@@ -964,6 +980,14 @@
           "sourcePath": "spells/3rd-level/revivify.yml",
           "lookupKey": "Revivify",
           "matchedLookupKey": "Revivify"
+        },
+        {
+          "pack": "spells",
+          "id": "GtGjNjPBgUHxGYAD",
+          "name": "Sending",
+          "sourcePath": "spells/3rd-level/sending.yml",
+          "lookupKey": "Sending",
+          "matchedLookupKey": "Sending"
         },
         {
           "pack": "spells",
@@ -2251,41 +2275,6 @@
         },
         {
           "pack": "spells",
-          "id": "KrM3oHVv13RAALrS",
-          "name": "Find Traps",
-          "sourcePath": "spells/2nd-level/find-traps.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Find Traps",
-          "matchedLookupKey": "Find Traps",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "KrM3oHVv13RAALrS",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "KrM3oHVv13RAALrS",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-references",
-              "severity": "blocking",
-              "message": "Foundry reference targets or order differ from source",
-              "pack": "spells",
-              "id": "KrM3oHVv13RAALrS",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
           "id": "FSMy6VAjDnXY9vWz",
           "name": "Gust of Wind",
           "sourcePath": "spells/2nd-level/gust-of-wind.yml",
@@ -2488,25 +2477,6 @@
         },
         {
           "pack": "spells",
-          "id": "aU62xVUBYkAQWIHv",
-          "name": "Nondetection",
-          "sourcePath": "spells/3rd-level/nondetection.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Nondetection",
-          "matchedLookupKey": "Nondetection",
-          "diagnostics": [
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "spells",
-              "id": "aU62xVUBYkAQWIHv",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
           "id": "wpx42mtoZ5BmXRs1",
           "name": "Phantom Steed",
           "sourcePath": "spells/3rd-level/phantom-steed.yml",
@@ -2536,49 +2506,6 @@
               "message": "Foundry reference count differs from source",
               "pack": "spells",
               "id": "wpx42mtoZ5BmXRs1",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "GtGjNjPBgUHxGYAD",
-          "name": "Sending",
-          "sourcePath": "spells/3rd-level/sending.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Sending",
-          "matchedLookupKey": "Sending",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "GtGjNjPBgUHxGYAD",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "GtGjNjPBgUHxGYAD",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "spells",
-              "id": "GtGjNjPBgUHxGYAD",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-formulas",
-              "severity": "blocking",
-              "message": "Foundry formulas differ from source",
-              "pack": "spells",
-              "id": "GtGjNjPBgUHxGYAD",
               "fieldPath": "system.description.value"
             }
           ]
