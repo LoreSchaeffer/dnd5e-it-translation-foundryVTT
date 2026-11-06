@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 908,
-      "missing": 110,
-      "partial": 1373,
+      "translated": 926,
+      "missing": 109,
+      "partial": 1356,
       "review": 213
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 8733,
-      "missing": 6927,
+      "translated": 8853,
+      "missing": 6807,
       "invariantFailures": 2394,
       "englishResiduals": 135,
       "imperialResiduals": 4
     },
-    "blockingIssues": 9401
+    "blockingIssues": 9284
   },
   "packs": [
     {
@@ -5317,9 +5317,9 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 304,
-          "missing": 33,
-          "partial": 548,
+          "translated": 322,
+          "missing": 32,
+          "partial": 531,
           "review": 133
         },
         "folders": {
@@ -5331,8 +5331,8 @@
         },
         "fields": {
           "total": 2227,
-          "translated": 2006,
-          "missing": 221,
+          "translated": 2126,
+          "missing": 101,
           "invariantFailures": 1041,
           "englishResiduals": 46,
           "imperialResiduals": 2
@@ -8357,24 +8357,6 @@
           "pack": "items",
           "id": "FvNOwWbh5FXyX4xe",
           "name": "Alchemist's Fire",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/potion/alchemists-fire.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "FvNOwWbh5FXyX4xe",
-          "name": "Alchemist's Fire",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/potion/alchemists-fire.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "FvNOwWbh5FXyX4xe",
-          "name": "Alchemist's Fire",
           "fieldPath": "system.activities.fEkrHFEJKXhIwljC.description.chatFlavor",
           "sourcePath": "items/potion/alchemists-fire.yml"
         },
@@ -8399,24 +8381,6 @@
           "sourcePath": "items/potion/antitoxin.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "Fc6UfFNOnW80XMzi",
-          "name": "Antitoxin",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/potion/antitoxin.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "WPWszFTGzmdIuDRJ",
-          "name": "Flask of Holy Water",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/potion/flask-of-holy-water.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -8467,24 +8431,6 @@
           "sourcePath": "items/potion/oil-of-etherealness.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "Xbq8CyXSRV358SfP",
-          "name": "Oil of Etherealness",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/potion/oil-of-etherealness.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "Xbq8CyXSRV358SfP",
-          "name": "Oil of Etherealness",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/potion/oil-of-etherealness.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -8522,24 +8468,6 @@
           "id": "C0MNXWA81ufzGlp5",
           "fieldPath": "system.description.value",
           "name": "Oil of Sharpness",
-          "sourcePath": "items/potion/oil-of-sharpness.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "C0MNXWA81ufzGlp5",
-          "name": "Oil of Sharpness",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/potion/oil-of-sharpness.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "C0MNXWA81ufzGlp5",
-          "name": "Oil of Sharpness",
-          "fieldPath": "system.unidentified.name",
           "sourcePath": "items/potion/oil-of-sharpness.yml"
         },
         {
@@ -8590,24 +8518,6 @@
           "id": "FIDyR0kZnxGy7bj8",
           "fieldPath": "system.description.value",
           "name": "Oil of Slipperiness",
-          "sourcePath": "items/potion/oil-of-slipperiness.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "FIDyR0kZnxGy7bj8",
-          "name": "Oil of Slipperiness",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/potion/oil-of-slipperiness.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "FIDyR0kZnxGy7bj8",
-          "name": "Oil of Slipperiness",
-          "fieldPath": "system.unidentified.name",
           "sourcePath": "items/potion/oil-of-slipperiness.yml"
         },
         {
@@ -8649,24 +8559,6 @@
           "sourcePath": "items/potion/philter-of-love.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "63nb14yQRJMc4bIn",
-          "name": "Philter of Love",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/potion/philter-of-love.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "63nb14yQRJMc4bIn",
-          "name": "Philter of Love",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/potion/philter-of-love.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -8717,24 +8609,6 @@
           "sourcePath": "items/potion/potion-of-acid-resistance.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "zgZkJAyFAfYmyn11",
-          "name": "Potion of Acid Resistance",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/potion/potion-of-acid-resistance.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "zgZkJAyFAfYmyn11",
-          "name": "Potion of Acid Resistance",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/potion/potion-of-acid-resistance.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -8782,24 +8656,6 @@
           "id": "nXWevqtV6p484N59",
           "fieldPath": "system.description.value",
           "name": "Potion of Animal Friendship",
-          "sourcePath": "items/potion/potion-of-animal-friendship.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "nXWevqtV6p484N59",
-          "name": "Potion of Animal Friendship",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/potion/potion-of-animal-friendship.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "nXWevqtV6p484N59",
-          "name": "Potion of Animal Friendship",
-          "fieldPath": "system.unidentified.name",
           "sourcePath": "items/potion/potion-of-animal-friendship.yml"
         },
         {
@@ -8813,24 +8669,6 @@
           "sourcePath": "items/potion/potion-of-clairvoyance.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "bAyr7j5Peq9wIJTa",
-          "name": "Potion of Clairvoyance",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/potion/potion-of-clairvoyance.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "bAyr7j5Peq9wIJTa",
-          "name": "Potion of Clairvoyance",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/potion/potion-of-clairvoyance.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -8871,24 +8709,6 @@
           "sourcePath": "items/potion/potion-of-climbing.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "aMnWi1WXWpxRHq4r",
-          "name": "Potion of Climbing",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/potion/potion-of-climbing.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "aMnWi1WXWpxRHq4r",
-          "name": "Potion of Climbing",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/potion/potion-of-climbing.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -8926,24 +8746,6 @@
           "id": "lAcTZgNtpmks2Mo5",
           "fieldPath": "system.description.value",
           "name": "Potion of Cloud Giant Strength",
-          "sourcePath": "items/potion/potion-of-cloud-giant-strength.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "lAcTZgNtpmks2Mo5",
-          "name": "Potion of Cloud Giant Strength",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/potion/potion-of-cloud-giant-strength.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "lAcTZgNtpmks2Mo5",
-          "name": "Potion of Cloud Giant Strength",
-          "fieldPath": "system.unidentified.name",
           "sourcePath": "items/potion/potion-of-cloud-giant-strength.yml"
         },
         {
@@ -8997,24 +8799,6 @@
           "sourcePath": "items/potion/potion-of-cold-resistance.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "34YKlIJVVWLeBv7R",
-          "name": "Potion of Cold Resistance",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/potion/potion-of-cold-resistance.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "34YKlIJVVWLeBv7R",
-          "name": "Potion of Cold Resistance",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/potion/potion-of-cold-resistance.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -9042,24 +8826,6 @@
           "id": "HY8duCwmvlXOruTG",
           "fieldPath": "system.description.value",
           "name": "Potion of Diminution",
-          "sourcePath": "items/potion/potion-of-diminution.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "HY8duCwmvlXOruTG",
-          "name": "Potion of Diminution",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/potion/potion-of-diminution.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "HY8duCwmvlXOruTG",
-          "name": "Potion of Diminution",
-          "fieldPath": "system.unidentified.name",
           "sourcePath": "items/potion/potion-of-diminution.yml"
         },
         {
@@ -9100,24 +8866,6 @@
           "id": "bEZOY6uvHRweMM56",
           "fieldPath": "system.description.value",
           "name": "Potion of Fire Giant Strength",
-          "sourcePath": "items/potion/potion-of-fire-giant-strength.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "bEZOY6uvHRweMM56",
-          "name": "Potion of Fire Giant Strength",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/potion/potion-of-fire-giant-strength.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "bEZOY6uvHRweMM56",
-          "name": "Potion of Fire Giant Strength",
-          "fieldPath": "system.unidentified.name",
           "sourcePath": "items/potion/potion-of-fire-giant-strength.yml"
         },
         {
@@ -9171,24 +8919,6 @@
           "sourcePath": "items/potion/potion-of-fire-resistance.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "Jj4iFQQGvckx8Wsj",
-          "name": "Potion of Fire Resistance",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/potion/potion-of-fire-resistance.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "Jj4iFQQGvckx8Wsj",
-          "name": "Potion of Fire Resistance",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/potion/potion-of-fire-resistance.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -9226,24 +8956,6 @@
           "id": "eTNc8XPtvZNe3yQs",
           "fieldPath": "system.description.value",
           "name": "Potion of Flying",
-          "sourcePath": "items/potion/potion-of-flying.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "eTNc8XPtvZNe3yQs",
-          "name": "Potion of Flying",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/potion/potion-of-flying.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "eTNc8XPtvZNe3yQs",
-          "name": "Potion of Flying",
-          "fieldPath": "system.unidentified.name",
           "sourcePath": "items/potion/potion-of-flying.yml"
         },
         {
@@ -9297,24 +9009,6 @@
           "sourcePath": "items/potion/potion-of-force-resistance.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "kKGJjVVlJVoakWgQ",
-          "name": "Potion of Force Resistance",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/potion/potion-of-force-resistance.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "kKGJjVVlJVoakWgQ",
-          "name": "Potion of Force Resistance",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/potion/potion-of-force-resistance.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -9352,24 +9046,6 @@
           "id": "TevMHicE3A70AlmP",
           "fieldPath": "system.description.value",
           "name": "Potion of Frost Giant Strength",
-          "sourcePath": "items/potion/potion-of-frost-giant-strength.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "TevMHicE3A70AlmP",
-          "name": "Potion of Frost Giant Strength",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/potion/potion-of-frost-giant-strength.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "TevMHicE3A70AlmP",
-          "name": "Potion of Frost Giant Strength",
-          "fieldPath": "system.unidentified.name",
           "sourcePath": "items/potion/potion-of-frost-giant-strength.yml"
         },
         {
@@ -9420,24 +9096,6 @@
           "id": "bqZ6NTLDCUB98YjV",
           "fieldPath": "system.description.value",
           "name": "Potion of Gaseous Form",
-          "sourcePath": "items/potion/potion-of-gaseous-form.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "bqZ6NTLDCUB98YjV",
-          "name": "Potion of Gaseous Form",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/potion/potion-of-gaseous-form.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "bqZ6NTLDCUB98YjV",
-          "name": "Potion of Gaseous Form",
-          "fieldPath": "system.unidentified.name",
           "sourcePath": "items/potion/potion-of-gaseous-form.yml"
         },
         {
@@ -9481,24 +9139,6 @@
           "sourcePath": "items/potion/potion-of-greater-healing.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "L887NdWEP5NqHCrQ",
-          "name": "Potion of Greater Healing",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/potion/potion-of-greater-healing.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "L887NdWEP5NqHCrQ",
-          "name": "Potion of Greater Healing",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/potion/potion-of-greater-healing.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -9526,24 +9166,6 @@
           "id": "gTRFQLdVD1gsKtPi",
           "fieldPath": "system.description.value",
           "name": "Potion of Growth",
-          "sourcePath": "items/potion/potion-of-growth.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "gTRFQLdVD1gsKtPi",
-          "name": "Potion of Growth",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/potion/potion-of-growth.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "gTRFQLdVD1gsKtPi",
-          "name": "Potion of Growth",
-          "fieldPath": "system.unidentified.name",
           "sourcePath": "items/potion/potion-of-growth.yml"
         },
         {
@@ -9587,24 +9209,6 @@
           "sourcePath": "items/potion/potion-of-healing.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "ytlsBjYsZ7OBSEBs",
-          "name": "Potion of Healing",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/potion/potion-of-healing.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "ytlsBjYsZ7OBSEBs",
-          "name": "Potion of Healing",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/potion/potion-of-healing.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -9655,24 +9259,6 @@
           "sourcePath": "items/potion/potion-of-heroism.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "wNKYbKYwOHbA7SH8",
-          "name": "Potion of Heroism",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/potion/potion-of-heroism.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "wNKYbKYwOHbA7SH8",
-          "name": "Potion of Heroism",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/potion/potion-of-heroism.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -9713,24 +9299,6 @@
           "sourcePath": "items/potion/potion-of-hill-giant-strength.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "mhFBTY0egW8AeCHe",
-          "name": "Potion of Hill Giant Strength",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/potion/potion-of-hill-giant-strength.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "mhFBTY0egW8AeCHe",
-          "name": "Potion of Hill Giant Strength",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/potion/potion-of-hill-giant-strength.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -9768,24 +9336,6 @@
           "id": "rTn4p9nJr4Aq2GPB",
           "fieldPath": "system.description.value",
           "name": "Potion of Invisibility",
-          "sourcePath": "items/potion/potion-of-invisibility.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "rTn4p9nJr4Aq2GPB",
-          "name": "Potion of Invisibility",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/potion/potion-of-invisibility.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "rTn4p9nJr4Aq2GPB",
-          "name": "Potion of Invisibility",
-          "fieldPath": "system.unidentified.name",
           "sourcePath": "items/potion/potion-of-invisibility.yml"
         },
         {
@@ -9836,24 +9386,6 @@
           "id": "8MPnSrvEeZhPhtTi",
           "fieldPath": "system.description.value",
           "name": "Potion of Lightning Resistance",
-          "sourcePath": "items/potion/potion-of-lightning-resistance.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "8MPnSrvEeZhPhtTi",
-          "name": "Potion of Lightning Resistance",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/potion/potion-of-lightning-resistance.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "8MPnSrvEeZhPhtTi",
-          "name": "Potion of Lightning Resistance",
-          "fieldPath": "system.unidentified.name",
           "sourcePath": "items/potion/potion-of-lightning-resistance.yml"
         },
         {
@@ -9887,24 +9419,6 @@
           "sourcePath": "items/potion/potion-of-mind-reading.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "Ct9LR9Ft1FG4a6Y1",
-          "name": "Potion of Mind Reading",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/potion/potion-of-mind-reading.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "Ct9LR9Ft1FG4a6Y1",
-          "name": "Potion of Mind Reading",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/potion/potion-of-mind-reading.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -9952,24 +9466,6 @@
           "id": "xw99pcqPBVwtMOLw",
           "fieldPath": "system.description.value",
           "name": "Potion of Necrotic Resistance",
-          "sourcePath": "items/potion/potion-of-necrotic-resistance.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "xw99pcqPBVwtMOLw",
-          "name": "Potion of Necrotic Resistance",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/potion/potion-of-necrotic-resistance.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "xw99pcqPBVwtMOLw",
-          "name": "Potion of Necrotic Resistance",
-          "fieldPath": "system.unidentified.name",
           "sourcePath": "items/potion/potion-of-necrotic-resistance.yml"
         },
         {
@@ -10023,24 +9519,6 @@
           "sourcePath": "items/potion/potion-of-poison-resistance.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "f5chGcpQCi1HYPQw",
-          "name": "Potion of Poison Resistance",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/potion/potion-of-poison-resistance.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "f5chGcpQCi1HYPQw",
-          "name": "Potion of Poison Resistance",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/potion/potion-of-poison-resistance.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -10088,24 +9566,6 @@
           "id": "c0luemOP0iW8L23R",
           "fieldPath": "system.description.value",
           "name": "Potion of Psychic Resistance",
-          "sourcePath": "items/potion/potion-of-psychic-resistance.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "c0luemOP0iW8L23R",
-          "name": "Potion of Psychic Resistance",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/potion/potion-of-psychic-resistance.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "c0luemOP0iW8L23R",
-          "name": "Potion of Psychic Resistance",
-          "fieldPath": "system.unidentified.name",
           "sourcePath": "items/potion/potion-of-psychic-resistance.yml"
         },
         {
@@ -10159,24 +9619,6 @@
           "sourcePath": "items/potion/potion-of-radiant-resistance.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "LBQWNqX6hZOKhQ8a",
-          "name": "Potion of Radiant Resistance",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/potion/potion-of-radiant-resistance.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "LBQWNqX6hZOKhQ8a",
-          "name": "Potion of Radiant Resistance",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/potion/potion-of-radiant-resistance.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -10224,24 +9666,6 @@
           "id": "ctKfjHjk9gs9UtZI",
           "fieldPath": "system.description.value",
           "name": "Potion of Speed",
-          "sourcePath": "items/potion/potion-of-speed.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "ctKfjHjk9gs9UtZI",
-          "name": "Potion of Speed",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/potion/potion-of-speed.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "ctKfjHjk9gs9UtZI",
-          "name": "Potion of Speed",
-          "fieldPath": "system.unidentified.name",
           "sourcePath": "items/potion/potion-of-speed.yml"
         },
         {
@@ -10282,24 +9706,6 @@
           "id": "4ZiJsDTRA1GgcWKP",
           "fieldPath": "system.description.value",
           "name": "Potion of Stone Giant Strength",
-          "sourcePath": "items/potion/potion-of-stone-giant-strength.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "4ZiJsDTRA1GgcWKP",
-          "name": "Potion of Stone Giant Strength",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/potion/potion-of-stone-giant-strength.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "4ZiJsDTRA1GgcWKP",
-          "name": "Potion of Stone Giant Strength",
-          "fieldPath": "system.unidentified.name",
           "sourcePath": "items/potion/potion-of-stone-giant-strength.yml"
         },
         {
@@ -10340,24 +9746,6 @@
           "id": "1KMSpOSU0EliUBm2",
           "fieldPath": "system.description.value",
           "name": "Potion of Storm Giant Strength",
-          "sourcePath": "items/potion/potion-of-storm-giant-strength.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "1KMSpOSU0EliUBm2",
-          "name": "Potion of Storm Giant Strength",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/potion/potion-of-storm-giant-strength.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "1KMSpOSU0EliUBm2",
-          "name": "Potion of Storm Giant Strength",
-          "fieldPath": "system.unidentified.name",
           "sourcePath": "items/potion/potion-of-storm-giant-strength.yml"
         },
         {
@@ -10381,24 +9769,6 @@
           "sourcePath": "items/potion/potion-of-superior-healing.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "5m9ErO9In8Uc5yyf",
-          "name": "Potion of Superior Healing",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/potion/potion-of-superior-healing.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "5m9ErO9In8Uc5yyf",
-          "name": "Potion of Superior Healing",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/potion/potion-of-superior-healing.yml"
-        },
-        {
           "code": "foundry-inline-rolls",
           "severity": "blocking",
           "message": "Foundry inline rolls differ from source",
@@ -10416,24 +9786,6 @@
           "id": "JFiSlgcm3uSSBM5t",
           "fieldPath": "system.description.value",
           "name": "Potion of Supreme Healing",
-          "sourcePath": "items/potion/potion-of-supreme-healing.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "JFiSlgcm3uSSBM5t",
-          "name": "Potion of Supreme Healing",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/potion/potion-of-supreme-healing.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "JFiSlgcm3uSSBM5t",
-          "name": "Potion of Supreme Healing",
-          "fieldPath": "system.unidentified.name",
           "sourcePath": "items/potion/potion-of-supreme-healing.yml"
         },
         {
@@ -10487,24 +9839,6 @@
           "sourcePath": "items/potion/potion-of-thunder-resistance.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "zBX8LLC2CjC89Dzl",
-          "name": "Potion of Thunder Resistance",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/potion/potion-of-thunder-resistance.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "zBX8LLC2CjC89Dzl",
-          "name": "Potion of Thunder Resistance",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/potion/potion-of-thunder-resistance.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -10545,24 +9879,6 @@
           "sourcePath": "items/potion/potion-of-water-breathing.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "CAZMwFBWp9VC0ZCg",
-          "name": "Potion of Water Breathing",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/potion/potion-of-water-breathing.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "CAZMwFBWp9VC0ZCg",
-          "name": "Potion of Water Breathing",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/potion/potion-of-water-breathing.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -10600,24 +9916,6 @@
           "id": "VmcgAIsRCyrjBguC",
           "fieldPath": "system.description.value",
           "name": "Restorative Ointment",
-          "sourcePath": "items/potion/restorative-ointment.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "VmcgAIsRCyrjBguC",
-          "name": "Restorative Ointment",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/potion/restorative-ointment.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "VmcgAIsRCyrjBguC",
-          "name": "Restorative Ointment",
-          "fieldPath": "system.unidentified.name",
           "sourcePath": "items/potion/restorative-ointment.yml"
         },
         {
@@ -11235,170 +10533,18 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "items",
-          "id": "9GSfMg0VOA2b4uFN",
-          "name": "Spell Scroll 1st Level",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/scroll/spell-scroll-1st-level.yml"
+          "id": "rQ6sO7HDWzqMhSI3",
+          "name": "Spell Scroll Cantrip",
+          "fieldPath": "name",
+          "sourcePath": "items/scroll/spell-scroll-cantrip.yml"
         },
         {
           "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "9GSfMg0VOA2b4uFN",
-          "name": "Spell Scroll 1st Level",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/scroll/spell-scroll-1st-level.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "XdDp6CKh9qEvPTuS",
-          "name": "Spell Scroll 2nd Level",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/scroll/spell-scroll-2nd-level.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "XdDp6CKh9qEvPTuS",
-          "name": "Spell Scroll 2nd Level",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/scroll/spell-scroll-2nd-level.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "hqVKZie7x9w3Kqds",
-          "name": "Spell Scroll 3rd Level",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/scroll/spell-scroll-3rd-level.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "hqVKZie7x9w3Kqds",
-          "name": "Spell Scroll 3rd Level",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/scroll/spell-scroll-3rd-level.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "DM7hzgL836ZyUFB1",
-          "name": "Spell Scroll 4th Level",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/scroll/spell-scroll-4th-level.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "DM7hzgL836ZyUFB1",
-          "name": "Spell Scroll 4th Level",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/scroll/spell-scroll-4th-level.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "wa1VF8TXHmkrrR35",
-          "name": "Spell Scroll 5th Level",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/scroll/spell-scroll-5th-level.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "wa1VF8TXHmkrrR35",
-          "name": "Spell Scroll 5th Level",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/scroll/spell-scroll-5th-level.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "tI3rWx4bxefNCexS",
-          "name": "Spell Scroll 6th Level",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/scroll/spell-scroll-6th-level.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "tI3rWx4bxefNCexS",
-          "name": "Spell Scroll 6th Level",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/scroll/spell-scroll-6th-level.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "mtyw4NS1s7j2EJaD",
-          "name": "Spell Scroll 7th Level",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/scroll/spell-scroll-7th-level.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "mtyw4NS1s7j2EJaD",
-          "name": "Spell Scroll 7th Level",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/scroll/spell-scroll-7th-level.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "aOrinPg7yuDZEuWr",
-          "name": "Spell Scroll 8th Level",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/scroll/spell-scroll-8th-level.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "aOrinPg7yuDZEuWr",
-          "name": "Spell Scroll 8th Level",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/scroll/spell-scroll-8th-level.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "O4YbkJkLlnsgUszZ",
-          "name": "Spell Scroll 9th Level",
-          "fieldPath": "system.unidentified.description",
-          "sourcePath": "items/scroll/spell-scroll-9th-level.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "O4YbkJkLlnsgUszZ",
-          "name": "Spell Scroll 9th Level",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/scroll/spell-scroll-9th-level.yml"
-        },
-        {
-          "code": "missing-document",
           "severity": "blocking",
           "pack": "items",
           "id": "rQ6sO7HDWzqMhSI3",
           "name": "Spell Scroll Cantrip",
+          "fieldPath": "system.description.value",
           "sourcePath": "items/scroll/spell-scroll-cantrip.yml"
         },
         {
@@ -11524,15 +10670,6 @@
           "sourcePath": "items/tool/alchemists-supplies.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "SztwZhbhZeCqyAes",
-          "name": "Alchemist's Supplies",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/tool/alchemists-supplies.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -11613,15 +10750,6 @@
           "sourcePath": "items/tool/carpenters-tools.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "8NS6MSOdXtUqD7Ib",
-          "name": "Carpenter's Tools",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/tool/carpenters-tools.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -11642,24 +10770,6 @@
           "sourcePath": "items/tool/cartographers-tools.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "23y8FvWKf9YLcnBL",
-          "name": "Chess Set",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/tool/chess-set.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "hM84pZnpCqKfi8XH",
-          "name": "Cobbler's Tools",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/tool/cobblers-tools.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -11678,15 +10788,6 @@
           "fieldPath": "system.description.value",
           "name": "Cook's Utensils",
           "sourcePath": "items/tool/cooks-utensils.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "iBuTM09KD9IoM5L8",
-          "name": "Dice Set",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/tool/dice-set.yml"
         },
         {
           "code": "missing-field",
@@ -11818,15 +10919,6 @@
           "sourcePath": "items/tool/navigators-tools.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "YwlHI3BVJapz4a3E",
-          "name": "Playing Cards Set",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/tool/playing-cards-set.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -11845,15 +10937,6 @@
           "fieldPath": "system.description.value",
           "name": "Potter's Tools",
           "sourcePath": "items/tool/potters-tools.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "G3cqbejJpfB91VhP",
-          "name": "Shawm",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/tool/shawm.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -13572,15 +12655,6 @@
           "pack": "items",
           "id": "7jEKkA9qbwJ3IuCb",
           "name": "Wand of Binding",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/wand/wand-of-binding.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "7jEKkA9qbwJ3IuCb",
-          "name": "Wand of Binding",
           "fieldPath": "system.activities.zlPilAc3Tg3RVZyG.description.value",
           "sourcePath": "items/wand/wand-of-binding.yml"
         },
@@ -13612,15 +12686,6 @@
           "id": "5Rxo4K9cgpwgW9vZ",
           "fieldPath": "system.description.value",
           "name": "Wand of Enemy Detection",
-          "sourcePath": "items/wand/wand-of-enemy-detection.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "5Rxo4K9cgpwgW9vZ",
-          "name": "Wand of Enemy Detection",
-          "fieldPath": "system.unidentified.name",
           "sourcePath": "items/wand/wand-of-enemy-detection.yml"
         },
         {
@@ -13661,15 +12726,6 @@
           "id": "EJFql4aNWHHJSxT9",
           "fieldPath": "system.description.value",
           "name": "Wand of Fear",
-          "sourcePath": "items/wand/wand-of-fear.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "EJFql4aNWHHJSxT9",
-          "name": "Wand of Fear",
-          "fieldPath": "system.unidentified.name",
           "sourcePath": "items/wand/wand-of-fear.yml"
         },
         {
@@ -13722,15 +12778,6 @@
           "sourcePath": "items/wand/wand-of-fireballs.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "DoSvjhRARhRqWZXg",
-          "name": "Wand of Fireballs",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/wand/wand-of-fireballs.yml"
-        },
-        {
           "code": "html-attributes",
           "severity": "blocking",
           "message": "HTML attributes differ from source",
@@ -13768,15 +12815,6 @@
           "id": "bPFVfq81EsMNu6OQ",
           "fieldPath": "system.description.value",
           "name": "Wand of Lightning Bolts",
-          "sourcePath": "items/wand/wand-of-lightning-bolts.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "bPFVfq81EsMNu6OQ",
-          "name": "Wand of Lightning Bolts",
-          "fieldPath": "system.unidentified.name",
           "sourcePath": "items/wand/wand-of-lightning-bolts.yml"
         },
         {
@@ -13830,15 +12868,6 @@
           "sourcePath": "items/wand/wand-of-magic-detection.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "18fbyArtidKzON01",
-          "name": "Wand of Magic Detection",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/wand/wand-of-magic-detection.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -13889,15 +12918,6 @@
           "sourcePath": "items/wand/wand-of-magic-missiles.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "1taRIMF9w7jpnonN",
-          "name": "Wand of Magic Missiles",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/wand/wand-of-magic-missiles.yml"
-        },
-        {
           "code": "html-attributes",
           "severity": "blocking",
           "message": "HTML attributes differ from source",
@@ -13925,15 +12945,6 @@
           "id": "GcpXNc4dKUNw0Tk6",
           "fieldPath": "system.description.value",
           "name": "Wand of Paralysis",
-          "sourcePath": "items/wand/wand-of-paralysis.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "GcpXNc4dKUNw0Tk6",
-          "name": "Wand of Paralysis",
-          "fieldPath": "system.unidentified.name",
           "sourcePath": "items/wand/wand-of-paralysis.yml"
         },
         {
@@ -13974,15 +12985,6 @@
           "id": "khyjT3dKyoEOf4eA",
           "fieldPath": "system.description.value",
           "name": "Wand of Polymorph",
-          "sourcePath": "items/wand/wand-of-polymorph.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "khyjT3dKyoEOf4eA",
-          "name": "Wand of Polymorph",
-          "fieldPath": "system.unidentified.name",
           "sourcePath": "items/wand/wand-of-polymorph.yml"
         },
         {
@@ -14026,42 +13028,6 @@
           "sourcePath": "items/wand/wand-of-secrets.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "VQ6NWjWV37wiB29O",
-          "name": "Wand of Secrets",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/wand/wand-of-secrets.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "OPbdSlrhkUDNpgcS",
-          "name": "Wand of the War Mage +1",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/wand/wand-of-the-war-mage-1.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "k3T7tpcdzDyVKlF4",
-          "name": "Wand of the War Mage +2",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/wand/wand-of-the-war-mage-2.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "IuVaBrq17AqxpXc4",
-          "name": "Wand of the War Mage +3",
-          "fieldPath": "system.unidentified.name",
-          "sourcePath": "items/wand/wand-of-the-war-mage-3.yml"
-        },
-        {
           "code": "html-attributes",
           "severity": "blocking",
           "message": "HTML attributes differ from source",
@@ -14099,15 +13065,6 @@
           "id": "4sR5HOah6KwVPHOb",
           "fieldPath": "system.description.value",
           "name": "Wand of Web",
-          "sourcePath": "items/wand/wand-of-web.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "4sR5HOah6KwVPHOb",
-          "name": "Wand of Web",
-          "fieldPath": "system.unidentified.name",
           "sourcePath": "items/wand/wand-of-web.yml"
         },
         {
@@ -14168,15 +13125,6 @@
           "id": "lPsueMv4ZoXqCYf9",
           "fieldPath": "system.description.value",
           "name": "Wand of Wonder",
-          "sourcePath": "items/wand/wand-of-wonder.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "lPsueMv4ZoXqCYf9",
-          "name": "Wand of Wonder",
-          "fieldPath": "system.unidentified.name",
           "sourcePath": "items/wand/wand-of-wonder.yml"
         },
         {

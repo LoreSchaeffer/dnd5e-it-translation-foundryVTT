@@ -38,6 +38,16 @@
         "name": "name",
         "description": "description"
       }
+    },
+    "unidentified": {
+      "path": "system.unidentified",
+      "converter": "structured",
+      "cardinality": "one",
+      "container": "object",
+      "mapping": {
+        "name": "name",
+        "description": "description"
+      }
     }
   },
   "folders": {
@@ -108,13 +118,18 @@
           "name": "Ricoperto di Fuoco dell'Alchimista",
           "description": "<p>Sei ricoperto di Fuoco dell'Alchimista e subisci [[/damage 1d4 fire]] danni all'inizio di ogni tuo turno. Puoi porre fine a questi danni usando la tua azione per effettuare una prova di [[/check 10 dex]] e spegnere le fiamme.</p>"
         }
+      },
+      "unidentified": {
+        "name": "Fiala Non Identificata",
+        "description": "<p>Una fiala di fluido appiccicoso e adesivo.</p>"
       }
     },
     "Alchemist's Supplies": {
       "name": "Scorte da Alchimista",
       "description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Questi strumenti speciali includono gli oggetti necessari per praticare un'arte o un mestiere. La tabella contiene alcuni esempi dei tipi di strumenti più ricorrenti, ognuno dei quali fornisce<br style=\"box-sizing: border-box; user-select: text;\">gli oggetti relativi a un singolo tipo di artigianato.</p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">La competenza in un set di strumenti da artigiano consente a un personaggio di aggiungere il proprio bonus di competenza a ogni prova di caratteristica effettuata usando gli strumenti del suo mestiere. Ogni tipo di strumenti da artigiano richiede una competenza separata.</p>",
       "unidentified": {
-        "description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Questi strumenti speciali includono gli oggetti necessari per praticare un'arte o un mestiere. La tabella contiene alcuni esempi dei tipi di strumenti più ricorrenti, ognuno dei quali fornisce<br style=\"box-sizing: border-box; user-select: text;\">gli oggetti relativi a un singolo tipo di artigianato.</p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">La competenza in un set di strumenti da artigiano consente a un personaggio di aggiungere il proprio bonus di competenza a ogni prova di caratteristica effettuata usando gli strumenti del suo mestiere. Ogni tipo di strumenti da artigiano richiede una competenza separata.</p>"
+        "description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Questi strumenti speciali includono gli oggetti necessari per praticare un'arte o un mestiere. La tabella contiene alcuni esempi dei tipi di strumenti più ricorrenti, ognuno dei quali fornisce<br style=\"box-sizing: border-box; user-select: text;\">gli oggetti relativi a un singolo tipo di artigianato.</p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">La competenza in un set di strumenti da artigiano consente a un personaggio di aggiungere il proprio bonus di competenza a ogni prova di caratteristica effettuata usando gli strumenti del suo mestiere. Ogni tipo di strumenti da artigiano richiede una competenza separata.</p>",
+        "name": "Scorte da Alchimista Non Identificate"
       },
       "activities": {
         "JYiIYjfC4CdDixTE": {
@@ -174,6 +189,9 @@
           "name": "Protezione dell'Antitossina",
           "description": "<p>Disponi di vantaggio ai tiri salvezza contro il veleno.</p>"
         }
+      },
+      "unidentified": {
+        "name": "Pozione Non Identificata"
       }
     },
     "Apparatus of the Crab": {
@@ -549,7 +567,8 @@
       "name": "Strumenti da Falegname",
       "description": "<div title=\"Page 154\"><div><div><p>Questi strumenti speciali includono gli oggetti necessari per praticare un'arte o un mestiere. La tabella contiene alcuni esempi dei tipi di strumenti più ricorrenti, ognuno dei quali fornisce<br>gli oggetti relativi a un singolo tipo di artigianato.</p><p>La competenza in un set di strumenti da artigiano consente a un personaggio di aggiungere il proprio bonus di competenza a ogni prova di caratteristica effettuata usando gli strumenti del suo mestiere. Ogni tipo di strumenti da artigiano richiede una competenza separata.</p></div></div></div>",
       "unidentified": {
-        "description": "<div title=\"Page 154\"><div><div><p>Questi strumenti speciali includono gli oggetti necessari per praticare un'arte o un mestiere. La tabella contiene alcuni esempi dei tipi di strumenti più ricorrenti, ognuno dei quali fornisce<br>gli oggetti relativi a un singolo tipo di artigianato.</p><p>La competenza in un set di strumenti da artigiano consente a un personaggio di aggiungere il proprio bonus di competenza a ogni prova di caratteristica effettuata usando gli strumenti del suo mestiere. Ogni tipo di strumenti da artigiano richiede una competenza separata.</p></div></div></div>"
+        "description": "<div title=\"Page 154\"><div><div><p>Questi strumenti speciali includono gli oggetti necessari per praticare un'arte o un mestiere. La tabella contiene alcuni esempi dei tipi di strumenti più ricorrenti, ognuno dei quali fornisce<br>gli oggetti relativi a un singolo tipo di artigianato.</p><p>La competenza in un set di strumenti da artigiano consente a un personaggio di aggiungere il proprio bonus di competenza a ogni prova di caratteristica effettuata usando gli strumenti del suo mestiere. Ogni tipo di strumenti da artigiano richiede una competenza separata.</p></div></div></div>",
+        "name": "Attrezzi da Falegname Non Identificati"
       },
       "activities": {
         "5gV1FklPzCP5ncIc": {
@@ -696,7 +715,8 @@
       "name": "Strumenti da Calzolaio",
       "description": "<p>Questi strumenti speciali includono gli oggetti necessari per praticare un'arte o un mestiere. La tabella contiene alcuni esempi dei tipi di strumenti più ricorrenti, ognuno dei quali fornisce gli oggetti relativi a un singolo tipo di artigianato.</p><p>La competenza in un set di strumenti da artigiano consente a un personaggio di aggiungere il proprio bonus di competenza a ogni prova di caratteristica effettuata usando gli strumenti del suo mestiere. Ogni tipo di strumenti da artigiano richiede una competenza separata.</p>",
       "unidentified": {
-        "description": "<p>Questi strumenti speciali includono gli oggetti necessari per praticare un'arte o un mestiere. La tabella contiene alcuni esempi dei tipi di strumenti più ricorrenti, ognuno dei quali fornisce gli oggetti relativi a un singolo tipo di artigianato.</p><p>La competenza in un set di strumenti da artigiano consente a un personaggio di aggiungere il proprio bonus di competenza a ogni prova di caratteristica effettuata usando gli strumenti del suo mestiere. Ogni tipo di strumenti da artigiano richiede una competenza separata.</p>"
+        "description": "<p>Questi strumenti speciali includono gli oggetti necessari per praticare un'arte o un mestiere. La tabella contiene alcuni esempi dei tipi di strumenti più ricorrenti, ognuno dei quali fornisce gli oggetti relativi a un singolo tipo di artigianato.</p><p>La competenza in un set di strumenti da artigiano consente a un personaggio di aggiungere il proprio bonus di competenza a ogni prova di caratteristica effettuata usando gli strumenti del suo mestiere. Ogni tipo di strumenti da artigiano richiede una competenza separata.</p>",
+        "name": "Attrezzi da Calzolaio Non Identificati"
       },
       "activities": {
         "ahpYun8CZThsQxIt": {
@@ -1172,7 +1192,10 @@
     },
     "Flask of Holy Water": {
       "name": "Acqua Santa",
-      "description": "<p>Con un'azione, il personaggio può spruzzare il contenuto di questa ampolla su una creatura situata entro 1,5 metri da lui o lanciarla fino a 6 metri di distanza (l'ampolla si frantumerà all'impatto). In ogni caso, il personaggio effettua un attacco a distanza contro la creatura bersaglio, considerando l'acqua santa come un'arma improvvisata. Se il bersaglio è un immondo o un non morto, subisce 2d6 danni radiosi. Un chierico o un paladino può creare l'acqua santa celebrando un rituale speciale. Per celebrare questo rituale è richiesta 1 ora di tempo e polvere d'argento per un valore di 25 mo; l'incantatore deve inoltre spendere uno slot incantesimo di 1° livello.</p>"
+      "description": "<p>Con un'azione, il personaggio può spruzzare il contenuto di questa ampolla su una creatura situata entro 1,5 metri da lui o lanciarla fino a 6 metri di distanza (l'ampolla si frantumerà all'impatto). In ogni caso, il personaggio effettua un attacco a distanza contro la creatura bersaglio, considerando l'acqua santa come un'arma improvvisata. Se il bersaglio è un immondo o un non morto, subisce 2d6 danni radiosi. Un chierico o un paladino può creare l'acqua santa celebrando un rituale speciale. Per celebrare questo rituale è richiesta 1 ora di tempo e polvere d'argento per un valore di 25 mo; l'incantatore deve inoltre spendere uno slot incantesimo di 1° livello.</p>",
+      "unidentified": {
+        "name": "Fiala d'Acqua Non Identificata"
+      }
     },
     "Flute": {
       "name": "Flauto",
@@ -2356,6 +2379,10 @@
         "xb8qrLDAQhKFA9MD": {
           "name": "Applica Olio"
         }
+      },
+      "unidentified": {
+        "name": "Olio Non Identificato",
+        "description": "<p>Gocce di questo olio grigio e torbido si formano all'esterno del contenitore ed evaporano rapidamente.</p>"
       }
     },
     "Oil of Sharpness": {
@@ -2378,6 +2405,10 @@
           "name": "Olio della Precisione: Munizione",
           "description": "<p>Per la durata, questa munizione è magica e conferisce un bonus di +3 ai tiri per colpire e per i danni.</p>"
         }
+      },
+      "unidentified": {
+        "name": "Olio Non Identificato",
+        "description": "<p>Questo olio limpido e gelatinoso scintilla per minuscole schegge d'argento sottilissime.</p>"
       }
     },
     "Oil of Slipperiness": {
@@ -2396,6 +2427,10 @@
           "name": "Scivolosità Alchemica",
           "description": "<p>Il tuo movimento non è influenzato dal &amp;reference[difficult terrain] e gli incantesimi e gli altri effetti magici non possono né ridurre la tua velocità né renderti &amp;reference[Paralyzed apply=false] o &amp;reference[Restrained apply=false].</p><p>Puoi inoltre spendere 1,5 metri di movimento per sfuggire automaticamente a impedimenti non magici, come delle manette o una creatura che ti ha &amp;reference[Grappled apply=false]. Infine, trovarti sott'acqua non impone penalità al tuo movimento o ai tuoi attacchi.</p>"
         }
+      },
+      "unidentified": {
+        "name": "Olio Non Identificato",
+        "description": "<p>Questo unguento nero e vischioso è denso e pesante nel contenitore, ma scorre rapidamente quando viene versato.</p>"
       }
     },
     "Orb": {
@@ -2485,6 +2520,10 @@
           "name": "Amore Alchemico",
           "description": "<p>Sei &amp;reference[charmed apply=false] per 1 ora dalla prima creatura che vedi entro 10 minuti da quando hai bevuto questa pozione. Se la creatura appartiene a una specie e a un genere da cui sei normalmente attratto, mentre sei affascinato la consideri il tuo vero amore.</p>"
         }
+      },
+      "unidentified": {
+        "name": "Pozione Non Identificata",
+        "description": "<p>Il liquido effervescente color rosa di questa pozione contiene una bollicina a forma di cuore che è facile non notare.</p>"
       }
     },
     "Pike": {
@@ -2577,6 +2616,10 @@
         "bo78O7W2RFsL6v3I": {
           "name": "Bevi"
         }
+      },
+      "unidentified": {
+        "name": "Pozione Non Identificata",
+        "description": "<p>La pozione ha un colore uniforme e indistinto e un odore leggermente sgradevole.</p>"
       }
     },
     "Potion of Animal Friendship": {
@@ -2592,6 +2635,10 @@
           "name": "Amico degli Animali",
           "description": "<p>Per la durata, puoi lanciare a volontà l'incantesimo @UUID[Compendium.dnd5e.spells.Item.hDOENzjuj5WpLq7B]{Amicizia con gli Animali} (CD del tiro salvezza 13).</p>"
         }
+      },
+      "unidentified": {
+        "name": "Pozione Non Identificata",
+        "description": "<p>Agitando questo liquido fangoso affiorano piccoli frammenti: una squama di pesce, una lingua di colibrì, un artiglio di gatto o un pelo di scoiattolo.</p>"
       }
     },
     "Potion of Clairvoyance": {
@@ -2607,6 +2654,10 @@
           "name": "Chiaroveggenza Alchemica",
           "description": "<p>Crei un sensore invisibile entro gittata, in un luogo a te familiare (un luogo che hai già visitato o visto in precedenza) o in un luogo evidente che non ti è familiare (come dietro una porta, oltre un angolo o in un boschetto). Il sensore rimane sul posto per la durata e non può essere attaccato né essere oggetto di altre interazioni.</p><p>Scegli vista o udito. Puoi usare il senso scelto attraverso il sensore come se ti trovassi nel suo spazio. Come azione, puoi passare dalla vista all'udito o viceversa.</p><p>Una creatura in grado di vedere il sensore (per esempio una creatura che beneficia di @UUID[Compendium.dnd5e.spells.Item.DQzlB5Y3k791W5bH]{Vedere Invisibilità} o di &amp;reference[truesight]) vede un globo luminoso e intangibile delle dimensioni approssimative del tuo pugno.</p>"
         }
+      },
+      "unidentified": {
+        "name": "Pozione Non Identificata",
+        "description": "<p>Un bulbo oculare galleggia in questo liquido giallastro, ma svanisce quando la pozione viene aperta.</p>"
       }
     },
     "Potion of Climbing": {
@@ -2622,6 +2673,10 @@
           "name": "Scalata Potenziata Alchemicamente",
           "description": "<p>Per la durata, ottieni una velocità di scalare pari alla tua velocità base sul terreno e disponi di vantaggio alle prove di Forza (Atletica) che effettui per scalare.</p>"
         }
+      },
+      "unidentified": {
+        "name": "Pozione Non Identificata",
+        "description": "<p>La pozione è separata in strati marroni, argentati e grigi simili a fasce di pietra. Agitare la bottiglia non riesce a mescolare i colori.</p>"
       }
     },
     "Potion of Cloud Giant Strength": {
@@ -2637,6 +2692,10 @@
           "name": "Forza del Gigante delle Nuvole",
           "description": "<p>Il tuo punteggio di Forza diventa 27 per la durata. Questo effetto non ha alcun effetto su di te se la tua Forza è già pari o superiore a 27.</p>"
         }
+      },
+      "unidentified": {
+        "name": "Pozione Non Identificata",
+        "description": "<p>Nel liquido trasparente di questa pozione galleggia una scheggia di unghia.</p>"
       }
     },
     "Potion of Cold Resistance": {
@@ -2652,6 +2711,10 @@
         "4nxLtrnFMNAK4ysZ": {
           "name": "Bevi"
         }
+      },
+      "unidentified": {
+        "name": "Pozione Non Identificata",
+        "description": "<p>La pozione ha un colore uniforme e indistinto e un odore leggermente sgradevole.</p>"
       }
     },
     "Potion of Diminution": {
@@ -2667,6 +2730,10 @@
           "name": "Rimpicciolito Alchemicamente",
           "description": "<p>Le tue dimensioni si dimezzano in ogni direzione e il tuo peso si riduce a un ottavo del normale. Questa riduzione diminuisce la tua taglia di una categoria, per esempio da Media a Piccola. Finché l'effetto non termina, disponi inoltre di svantaggio alle prove di Forza e ai tiri salvezza su Forza.</p><p>Anche le tue armi si rimpiccioliscono per adattarsi alla nuova taglia. Finché sono rimpicciolite, i tuoi attacchi con esse infliggono 1d4 danni in meno (questo non può ridurre i danni a meno di 1).</p>"
         }
+      },
+      "unidentified": {
+        "name": "Pozione Non Identificata",
+        "description": "<p>Il rosso nel liquido della pozione si contrae continuamente fino a formare una minuscola perla, poi si espande colorando il liquido trasparente circostante. Agitare la bottiglia non interrompe questo processo.</p>"
       }
     },
     "Potion of Fire Giant Strength": {
@@ -2682,6 +2749,10 @@
           "name": "Forza del Gigante del Fuoco",
           "description": "<p>Il tuo punteggio di Forza diventa 25 per la durata. Questo effetto non ha alcun effetto su di te se la tua Forza è già pari o superiore a 25.</p>"
         }
+      },
+      "unidentified": {
+        "name": "Pozione Non Identificata",
+        "description": "<p>Nel liquido trasparente di questa pozione galleggia una scheggia di unghia.</p>"
       }
     },
     "Potion of Fire Resistance": {
@@ -2697,6 +2768,10 @@
         "qkJxETJ3791U09MR": {
           "name": "Bevi"
         }
+      },
+      "unidentified": {
+        "name": "Pozione Non Identificata",
+        "description": "<p>La pozione ha un colore uniforme e indistinto e un odore leggermente sgradevole.</p>"
       }
     },
     "Potion of Flying": {
@@ -2712,6 +2787,10 @@
           "name": "Volo Alchemico",
           "description": "<p>Per la durata, ottieni una velocità di volare pari alla tua velocità base sul terreno e puoi fluttuare. Se ti trovi in aria quando l'effetto della pozione termina, cadi a meno che tu non disponga di un altro mezzo per rimanere in volo.</p>"
         }
+      },
+      "unidentified": {
+        "name": "Pozione Non Identificata",
+        "description": "<p>Il liquido trasparente di questa pozione galleggia nella parte superiore del contenitore e presenta impurità bianche e torbide alla deriva.</p>"
       }
     },
     "Potion of Force Resistance": {
@@ -2727,6 +2806,10 @@
         "WBQEjgocMEcDWwnO": {
           "name": "Bevi"
         }
+      },
+      "unidentified": {
+        "name": "Pozione Non Identificata",
+        "description": "<p>La pozione ha un colore uniforme e indistinto e un odore leggermente sgradevole.</p>"
       }
     },
     "Potion of Frost Giant Strength": {
@@ -2742,6 +2825,10 @@
           "description": "<p>Il tuo punteggio di Forza diventa 23 per la durata. Questo effetto non ha alcun effetto su di te se la tua Forza è già pari o superiore a 23.</p>",
           "name": "Forza del Gigante del Gelo"
         }
+      },
+      "unidentified": {
+        "name": "Pozione Non Identificata",
+        "description": "<p>Nel liquido trasparente di questa pozione galleggia una scheggia di unghia.</p>"
       }
     },
     "Potion of Gaseous Form": {
@@ -2757,6 +2844,10 @@
         "CvPLbEm6AY14aSst": {
           "name": "Bevi"
         }
+      },
+      "unidentified": {
+        "name": "Pozione Non Identificata",
+        "description": "<p>Il contenitore di questa pozione sembra racchiudere una nebbia che si muove e si versa come acqua.</p>"
       }
     },
     "Potion of Greater Healing": {
@@ -2766,6 +2857,10 @@
         "fWvDOSK8Cpfx6EkF": {
           "name": "Bevi"
         }
+      },
+      "unidentified": {
+        "name": "Pozione Non Identificata",
+        "description": "<p>Il liquido rosso della pozione brilla quando viene agitato.</p>"
       }
     },
     "Potion of Growth": {
@@ -2781,6 +2876,10 @@
           "name": "Ingrandito Alchemicamente",
           "description": "<p>Le tue dimensioni raddoppiano in ogni direzione e il tuo peso si moltiplica per otto. Questa crescita aumenta la tua taglia di una categoria, per esempio da Media a Grande. Se lo spazio non è sufficiente a raddoppiare le tue dimensioni, raggiungi la massima taglia possibile nello spazio disponibile. Disponi inoltre di vantaggio alle prove di Forza e ai tiri salvezza su Forza.</p><p>Anche le tue armi crescono per adattarsi alla nuova taglia. Finché sono ingrandite, i tuoi attacchi con esse infliggono 1d4 danni extra.</p>"
         }
+      },
+      "unidentified": {
+        "name": "Pozione Non Identificata",
+        "description": "<p>Il rosso nel liquido della pozione si espande continuamente da una minuscola perla, colorando il liquido trasparente circostante, e poi si contrae. Agitare la bottiglia non interrompe questo processo.</p>"
       }
     },
     "Potion of Healing": {
@@ -2790,6 +2889,10 @@
         "33TpG8uDHXtjcaUE": {
           "name": "Bevi"
         }
+      },
+      "unidentified": {
+        "name": "Pozione Non Identificata",
+        "description": "<p>Il liquido rosso della pozione brilla quando viene agitato.</p>"
       }
     },
     "Potion of Heroism": {
@@ -2805,6 +2908,10 @@
           "name": "Benedetto",
           "description": "<p>Per la durata, ogni volta che effettui un tiro per colpire o un tiro salvezza, puoi tirare 1d4 e aggiungere il risultato al tiro per colpire o al tiro salvezza.</p>"
         }
+      },
+      "unidentified": {
+        "name": "Pozione Non Identificata",
+        "description": "<p>Questa pozione blu ribolle ed emette vapore come se fosse in ebollizione.</p>"
       }
     },
     "Potion of Hill Giant Strength": {
@@ -2820,6 +2927,10 @@
           "name": "Forza del Gigante delle Colline",
           "description": "<p>Il tuo punteggio di Forza diventa 21 per la durata. Questo effetto non ha alcun effetto su di te se la tua Forza è già pari o superiore a 21.</p>"
         }
+      },
+      "unidentified": {
+        "name": "Pozione Non Identificata",
+        "description": "<p>Nel liquido trasparente di questa pozione galleggia una scheggia di unghia.</p>"
       }
     },
     "Potion of Invisibility": {
@@ -2835,6 +2946,10 @@
         "V2JumDYJgM7ktIzw": {
           "name": "Bevi"
         }
+      },
+      "unidentified": {
+        "name": "Pozione Non Identificata",
+        "description": "<p>Il contenitore di questa pozione sembra vuoto, ma al tatto pare contenere del liquido.</p>"
       }
     },
     "Potion of Lightning Resistance": {
@@ -2850,6 +2965,10 @@
         "pKltvikkvHLlLjXo": {
           "name": "Bevi"
         }
+      },
+      "unidentified": {
+        "name": "Pozione Non Identificata",
+        "description": "<p>La pozione ha un colore uniforme e indistinto e un odore leggermente sgradevole.</p>"
       }
     },
     "Potion of Mind Reading": {
@@ -2865,6 +2984,10 @@
           "name": "Lettura del Pensiero Alchemica",
           "description": "<p>Per la durata puoi leggere i pensieri di certe creature. Quando bevi questa pozione, e come tua azione in ogni turno finché l'effetto non termina, puoi concentrarti su una qualsiasi creatura situata entro 9 metri da te e che sei in grado di vedere. Se la creatura scelta ha un punteggio di Intelligenza pari o inferiore a 3 o non parla alcun linguaggio, non è influenzata.</p><p>All'inizio apprendi i pensieri superficiali della creatura, vale a dire ciò a cui sta pensando in quel momento. Come azione, puoi trasferire la tua attenzione sui pensieri di un'altra creatura oppure tentare di sondare più a fondo la mente della stessa creatura. Se sondi più a fondo, il bersaglio deve effettuare un tiro salvezza di [[/save wis 13]]. Se lo fallisce, apprendi i suoi ragionamenti (se ne fa), il suo stato emotivo e una presenza dominante nei suoi pensieri (qualcosa di cui si preoccupa, che ama o che odia). Se lo supera, l'effetto termina. In ogni caso, il bersaglio è consapevole che stai sondando la sua mente e, a meno che tu non trasferisca la tua attenzione sui pensieri di un'altra creatura, può usare la sua azione nel proprio turno per effettuare una prova di Intelligenza contrapposta alla tua prova di Intelligenza; se la supera, l'effetto termina.</p><p>Le domande rivolte verbalmente alla creatura bersaglio plasmano naturalmente il corso dei suoi pensieri, quindi questo effetto è particolarmente efficace nel corso di un interrogatorio.</p><p>Puoi anche usare questo effetto per individuare la presenza di creature pensanti che non sei in grado di vedere. Quando bevi la pozione, o come tua azione durante la durata, puoi cercare pensieri entro 9 metri da te. Questo effetto può penetrare le barriere, ma è bloccato da 60 cm di pietra, 5 cm di qualsiasi metallo diverso dal piombo o una sottile lamina di piombo. Non puoi individuare una creatura con un punteggio di Intelligenza pari o inferiore a 3 o che non parli alcun linguaggio.</p><p>Una volta individuata la presenza di una creatura in questo modo, puoi leggerne i pensieri per il resto della durata come descritto sopra, anche se non sei in grado di vederla; la creatura deve tuttavia trovarsi ancora entro gittata.</p>"
         }
+      },
+      "unidentified": {
+        "name": "Pozione Non Identificata",
+        "description": "<p>Nel denso liquido viola della pozione galleggia una nube ovoidale rosa.</p>"
       }
     },
     "Potion of Necrotic Resistance": {
@@ -2880,6 +3003,10 @@
         "CYyNHqO1SdtnOY8t": {
           "name": "Bevi"
         }
+      },
+      "unidentified": {
+        "name": "Pozione Non Identificata",
+        "description": "<p>La pozione ha un colore uniforme e indistinto e un odore leggermente sgradevole.</p>"
       }
     },
     "Potion of Poison": {
@@ -2904,6 +3031,10 @@
         "AqP9tNv6zZ2N6PLi": {
           "name": "Bevi"
         }
+      },
+      "unidentified": {
+        "name": "Pozione Non Identificata",
+        "description": "<p>La pozione ha un colore uniforme e indistinto e un odore leggermente sgradevole.</p>"
       }
     },
     "Potion of Psychic Resistance": {
@@ -2919,6 +3050,10 @@
         "of7MLaNWoYfQedkv": {
           "name": "Bevi"
         }
+      },
+      "unidentified": {
+        "name": "Pozione Non Identificata",
+        "description": "<p>La pozione ha un colore uniforme e indistinto e un odore leggermente sgradevole.</p>"
       }
     },
     "Potion of Radiant Resistance": {
@@ -2934,6 +3069,10 @@
         "y2q1JJGZ4PCRK6VZ": {
           "name": "Bevi"
         }
+      },
+      "unidentified": {
+        "name": "Pozione Non Identificata",
+        "description": "<p>La pozione ha un colore uniforme e indistinto e un odore leggermente sgradevole.</p>"
       }
     },
     "Potion of Speed": {
@@ -2949,6 +3088,10 @@
           "name": "Accelerato",
           "description": "<p>Per la durata, la tua velocità raddoppia, ottieni un bonus di +2 alla CA, disponi di vantaggio ai tiri salvezza su Destrezza e ottieni un'azione aggiuntiva a ogni tuo turno. Questa azione può essere usata soltanto per effettuare l'azione &amp;reference[Attack] (un solo attacco con un'arma), &amp;reference[Dash], &amp;reference[Disengage], &amp;reference[Hide] o &amp;reference[Use an Object].</p>"
         }
+      },
+      "unidentified": {
+        "name": "Pozione Non Identificata",
+        "description": "<p>Il fluido giallo della pozione è striato di nero e vortica autonomamente.</p>"
       }
     },
     "Potion of Stone Giant Strength": {
@@ -2964,6 +3107,10 @@
           "description": "<p>Il tuo punteggio di Forza diventa 23 per la durata. Questo effetto non ha alcun effetto su di te se la tua Forza è già pari o superiore a 23.</p>",
           "name": "Forza del Gigante delle Pietre"
         }
+      },
+      "unidentified": {
+        "name": "Pozione Non Identificata",
+        "description": "<p>Nel liquido trasparente di questa pozione galleggia una scheggia di unghia.</p>"
       }
     },
     "Potion of Storm Giant Strength": {
@@ -2979,6 +3126,10 @@
           "name": "Forza del Gigante delle Tempeste",
           "description": "<p>Il tuo punteggio di Forza diventa 29 per la durata. Questo effetto non ha alcun effetto su di te se la tua Forza è già pari o superiore a 29.</p>"
         }
+      },
+      "unidentified": {
+        "name": "Pozione Non Identificata",
+        "description": "<p>Nel liquido trasparente di questa pozione galleggia una scheggia di unghia.</p>"
       }
     },
     "Potion of Superior Healing": {
@@ -2988,6 +3139,10 @@
         "Kzhyy0MhTDsOwDWy": {
           "name": "Bevi"
         }
+      },
+      "unidentified": {
+        "name": "Pozione Non Identificata",
+        "description": "<p>Il liquido rosso della pozione brilla quando viene agitato.</p>"
       }
     },
     "Potion of Supreme Healing": {
@@ -2997,6 +3152,10 @@
         "iM7JVSweoN2dwivd": {
           "name": "Bevi"
         }
+      },
+      "unidentified": {
+        "name": "Pozione Non Identificata",
+        "description": "<p>Il liquido rosso della pozione brilla quando viene agitato.</p>"
       }
     },
     "Potion of Thunder Resistance": {
@@ -3012,6 +3171,10 @@
         "sphH4mVrVY0W7Plg": {
           "name": "Bevi"
         }
+      },
+      "unidentified": {
+        "name": "Pozione Non Identificata",
+        "description": "<p>La pozione ha un colore uniforme e indistinto e un odore leggermente sgradevole.</p>"
       }
     },
     "Potion of Water Breathing": {
@@ -3027,6 +3190,10 @@
           "name": "Respirazione Acquatica Alchemica",
           "description": "<p>Puoi respirare sott'acqua per la durata.</p>"
         }
+      },
+      "unidentified": {
+        "name": "Pozione Non Identificata",
+        "description": "<p>Il suo fluido verde e torbido odora di mare e contiene una bolla simile a una medusa che vi galleggia.</p>"
       }
     },
     "Potter's Tools": {
@@ -3126,6 +3293,10 @@
         "gRkokZZM4WWwqjEu": {
           "name": "Applica Unguento"
         }
+      },
+      "unidentified": {
+        "name": "Miscela Non Identificata",
+        "description": "<p>Questo barattolo di vetro, del diametro di 7,5 cm, contiene 1d4 + 1 dosi di una miscela densa dal lieve odore di aloe. Il barattolo e il suo contenuto pesano 0,25 kg.</p>"
       }
     },
     "Ring Mail": {
@@ -3544,7 +3715,8 @@
       "name": "Chiarina",
       "description": "<p>Sulla tabella sono mostrati alcuni dei più comuni esempi di strumenti musicali.</p><p>Se hai la competenza con uno specifico strumento musicale, puoi sommare il tuo bonus di competenza a qualsiasi prova di caratteristica effettuata per suonare musica con quello strumento. Ogni tipo di strumento musicale richiede una competenza separata.</p>",
       "unidentified": {
-        "description": "<p>Sulla tabella sono mostrati alcuni dei più comuni esempi di strumenti musicali.</p><p>Se hai la competenza con uno specifico strumento musicale, puoi sommare il tuo bonus di competenza a qualsiasi prova di caratteristica effettuata per suonare musica con quello strumento. Ogni tipo di strumento musicale richiede una competenza separata.</p>"
+        "description": "<p>Sulla tabella sono mostrati alcuni dei più comuni esempi di strumenti musicali.</p><p>Se hai la competenza con uno specifico strumento musicale, puoi sommare il tuo bonus di competenza a qualsiasi prova di caratteristica effettuata per suonare musica con quello strumento. Ogni tipo di strumento musicale richiede una competenza separata.</p>",
+        "name": "Ciaramella Non Identificata"
       },
       "activities": {
         "Hec3imxYjD3meH3G": {
@@ -3753,39 +3925,75 @@
     },
     "Spell Scroll 1st Level": {
       "name": "Pergamena Magica di 1° Livello",
-      "description": "<p>Una pergamena magica contiene le parole di un unico incantesimo, scritto in un linguaggio mistico. Se l&rsquo;incantesimo &egrave; contenuto nella lista degli incantesimi di classe del personaggio, egli pu&ograve; leggere la pergamena e lanciarlo senza fornire alcuna componente materiale. Altrimenti, la pergamena &egrave; indecifrabile. Lanciare l&rsquo;incantesimo leggendolo dalla pergamena richiede il normale tempo di lancio dell&rsquo;incantesimo. Una volta che l&rsquo;incantesimo &egrave; stato lanciato, le parole sulla pergamena scompaiono e la pergamena si sbriciola in polvere. Se l&rsquo;incantesimo viene interrotto, la pergamena non viene perduta.&nbsp;</p><p>Se l&rsquo;incantesimo si trova sulla lista degli incantesimi di classe del personaggio, ma &egrave; di un livello pi&ugrave; alto rispetto a quelli che il personaggio pu&ograve; lanciare normalmente, il personaggio deve effettuare una prova di caratteristica usando la sua caratteristica da incantatore per determinare se riesce a lanciarlo. La CD &egrave; 11. In caso di fallimento, l&rsquo;incantesimo scompare dalla pergamena senza alcun altro effetto.</p><p>Il livello dell&rsquo;incantesimo sulla pergamena determina la CD del tiro salvezza e il bonus di attacco dell&rsquo;incantesimo, nonch&eacute; la rarit&agrave; della pergamena.</p><p><strong>CD del Tiro Salvezza</strong>: 13<br /><strong>Bonus di Attacco</strong>: +5.</p><p>Un incantesimo da mago su una pergamena magica pu&ograve; essere copiato allo stesso modo di quelli contenuti in un libro degli incantesimi. Per copiare un incantesimo da una pergamena magica, chi lo copia deve effettuare con successo una prova di Intelligenza (Arcano) con CD pari a 11. Se la prova ha successo, l&rsquo;incantesimo &egrave; copiato. Sia che la prova abbia successo, sia che fallisca, la pergamena magica &egrave; distrutta. &nbsp; &nbsp;</p>"
+      "description": "<p>Una pergamena magica contiene le parole di un unico incantesimo, scritto in un linguaggio mistico. Se l&rsquo;incantesimo &egrave; contenuto nella lista degli incantesimi di classe del personaggio, egli pu&ograve; leggere la pergamena e lanciarlo senza fornire alcuna componente materiale. Altrimenti, la pergamena &egrave; indecifrabile. Lanciare l&rsquo;incantesimo leggendolo dalla pergamena richiede il normale tempo di lancio dell&rsquo;incantesimo. Una volta che l&rsquo;incantesimo &egrave; stato lanciato, le parole sulla pergamena scompaiono e la pergamena si sbriciola in polvere. Se l&rsquo;incantesimo viene interrotto, la pergamena non viene perduta.&nbsp;</p><p>Se l&rsquo;incantesimo si trova sulla lista degli incantesimi di classe del personaggio, ma &egrave; di un livello pi&ugrave; alto rispetto a quelli che il personaggio pu&ograve; lanciare normalmente, il personaggio deve effettuare una prova di caratteristica usando la sua caratteristica da incantatore per determinare se riesce a lanciarlo. La CD &egrave; 11. In caso di fallimento, l&rsquo;incantesimo scompare dalla pergamena senza alcun altro effetto.</p><p>Il livello dell&rsquo;incantesimo sulla pergamena determina la CD del tiro salvezza e il bonus di attacco dell&rsquo;incantesimo, nonch&eacute; la rarit&agrave; della pergamena.</p><p><strong>CD del Tiro Salvezza</strong>: 13<br /><strong>Bonus di Attacco</strong>: +5.</p><p>Un incantesimo da mago su una pergamena magica pu&ograve; essere copiato allo stesso modo di quelli contenuti in un libro degli incantesimi. Per copiare un incantesimo da una pergamena magica, chi lo copia deve effettuare con successo una prova di Intelligenza (Arcano) con CD pari a 11. Se la prova ha successo, l&rsquo;incantesimo &egrave; copiato. Sia che la prova abbia successo, sia che fallisca, la pergamena magica &egrave; distrutta. &nbsp; &nbsp;</p>",
+      "unidentified": {
+        "name": "Pergamena Non Identificata",
+        "description": "<p>Questa pergamena contiene le parole di un singolo incantesimo, scritte in un codice mistico. Se l'incantesimo compare nella lista degli incantesimi della tua classe, puoi leggere la pergamena e lanciare l'incantesimo senza fornire alcuna componente materiale. Altrimenti, la pergamena risulta incomprensibile.</p>"
+      }
     },
     "Spell Scroll 2nd Level": {
       "name": "Pergamena Magica di 2° Livello",
-      "description": "<p>Una pergamena magica contiene le parole di un unico incantesimo, scritto in un linguaggio mistico. Se l’incantesimo è contenuto nella lista degli incantesimi di classe del personaggio, egli può leggere la pergamena e lanciarlo senza fornire alcuna componente materiale. Altrimenti, la pergamena è indecifrabile. Lanciare l’incantesimo leggendolo dalla pergamena richiede il normale tempo di lancio dell’incantesimo. Una volta che l’incantesimo è stato lanciato, le parole sulla pergamena scompaiono e la pergamena si sbriciola in polvere. Se l’incantesimo viene interrotto, la pergamena non viene perduta.&nbsp;</p><p>Se l’incantesimo si trova sulla lista degli incantesimi di classe del personaggio, ma è di un livello più alto rispetto a quelli che il personaggio può lanciare normalmente, il personaggio deve effettuare una prova di caratteristica usando la sua caratteristica da incantatore per determinare se riesce a lanciarlo. La CD è 12. In caso di fallimento, l’incantesimo scompare dalla pergamena senza alcun altro effetto.</p><p>Il livello dell’incantesimo sulla pergamena determina la CD del tiro salvezza e il bonus di attacco dell’incantesimo, nonché la rarità della pergamena.</p><p><strong>CD del Tiro Salvezza</strong>: 13<br><strong>Bonus di Attacco</strong>: +5.</p><p>Un incantesimo da mago su una pergamena magica può essere copiato allo stesso modo di quelli contenuti in un libro degli incantesimi. Per copiare un incantesimo da una pergamena magica, chi lo copia deve effettuare con successo una prova di Intelligenza (Arcano) con CD pari a 12. Se la prova ha successo, l’incantesimo è copiato. Sia che la prova abbia successo, sia che fallisca, la pergamena magica è distrutta. &nbsp; &nbsp;</p>"
+      "description": "<p>Una pergamena magica contiene le parole di un unico incantesimo, scritto in un linguaggio mistico. Se l’incantesimo è contenuto nella lista degli incantesimi di classe del personaggio, egli può leggere la pergamena e lanciarlo senza fornire alcuna componente materiale. Altrimenti, la pergamena è indecifrabile. Lanciare l’incantesimo leggendolo dalla pergamena richiede il normale tempo di lancio dell’incantesimo. Una volta che l’incantesimo è stato lanciato, le parole sulla pergamena scompaiono e la pergamena si sbriciola in polvere. Se l’incantesimo viene interrotto, la pergamena non viene perduta.&nbsp;</p><p>Se l’incantesimo si trova sulla lista degli incantesimi di classe del personaggio, ma è di un livello più alto rispetto a quelli che il personaggio può lanciare normalmente, il personaggio deve effettuare una prova di caratteristica usando la sua caratteristica da incantatore per determinare se riesce a lanciarlo. La CD è 12. In caso di fallimento, l’incantesimo scompare dalla pergamena senza alcun altro effetto.</p><p>Il livello dell’incantesimo sulla pergamena determina la CD del tiro salvezza e il bonus di attacco dell’incantesimo, nonché la rarità della pergamena.</p><p><strong>CD del Tiro Salvezza</strong>: 13<br><strong>Bonus di Attacco</strong>: +5.</p><p>Un incantesimo da mago su una pergamena magica può essere copiato allo stesso modo di quelli contenuti in un libro degli incantesimi. Per copiare un incantesimo da una pergamena magica, chi lo copia deve effettuare con successo una prova di Intelligenza (Arcano) con CD pari a 12. Se la prova ha successo, l’incantesimo è copiato. Sia che la prova abbia successo, sia che fallisca, la pergamena magica è distrutta. &nbsp; &nbsp;</p>",
+      "unidentified": {
+        "name": "Pergamena Non Identificata",
+        "description": "<p>Questa pergamena contiene le parole di un singolo incantesimo, scritte in un codice mistico. Se l'incantesimo compare nella lista degli incantesimi della tua classe, puoi leggere la pergamena e lanciare l'incantesimo senza fornire alcuna componente materiale. Altrimenti, la pergamena risulta incomprensibile.</p>"
+      }
     },
     "Spell Scroll 3rd Level": {
       "name": "Pergamena Magica di 3° Livello",
-      "description": "<p>Una pergamena magica contiene le parole di un unico incantesimo, scritto in un linguaggio mistico. Se l&rsquo;incantesimo &egrave; contenuto nella lista degli incantesimi di classe del personaggio, egli pu&ograve; leggere la pergamena e lanciarlo senza fornire alcuna componente materiale. Altrimenti, la pergamena &egrave; indecifrabile. Lanciare l&rsquo;incantesimo leggendolo dalla pergamena richiede il normale tempo di lancio dell&rsquo;incantesimo. Una volta che l&rsquo;incantesimo &egrave; stato lanciato, le parole sulla pergamena scompaiono e la pergamena si sbriciola in polvere. Se l&rsquo;incantesimo viene interrotto, la pergamena non viene perduta.&nbsp;</p><p>Se l&rsquo;incantesimo si trova sulla lista degli incantesimi di classe del personaggio, ma &egrave; di un livello pi&ugrave; alto rispetto a quelli che il personaggio pu&ograve; lanciare normalmente, il personaggio deve effettuare una prova di caratteristica usando la sua caratteristica da incantatore per determinare se riesce a lanciarlo. La CD &egrave; 13. In caso di fallimento, l&rsquo;incantesimo scompare dalla pergamena senza alcun altro effetto.</p><p>Il livello dell&rsquo;incantesimo sulla pergamena determina la CD del tiro salvezza e il bonus di attacco dell&rsquo;incantesimo, nonch&eacute; la rarit&agrave; della pergamena.</p><p><strong>CD del Tiro Salvezza</strong>: 15<br /><strong>Bonus di Attacco</strong>: +7.</p><p>Un incantesimo da mago su una pergamena magica pu&ograve; essere copiato allo stesso modo di quelli contenuti in un libro degli incantesimi. Per copiare un incantesimo da una pergamena magica, chi lo copia deve effettuare con successo una prova di Intelligenza (Arcano) con CD pari a 13. Se la prova ha successo, l&rsquo;incantesimo &egrave; copiato. Sia che la prova abbia successo, sia che fallisca, la pergamena magica &egrave; distrutta.</p>"
+      "description": "<p>Una pergamena magica contiene le parole di un unico incantesimo, scritto in un linguaggio mistico. Se l&rsquo;incantesimo &egrave; contenuto nella lista degli incantesimi di classe del personaggio, egli pu&ograve; leggere la pergamena e lanciarlo senza fornire alcuna componente materiale. Altrimenti, la pergamena &egrave; indecifrabile. Lanciare l&rsquo;incantesimo leggendolo dalla pergamena richiede il normale tempo di lancio dell&rsquo;incantesimo. Una volta che l&rsquo;incantesimo &egrave; stato lanciato, le parole sulla pergamena scompaiono e la pergamena si sbriciola in polvere. Se l&rsquo;incantesimo viene interrotto, la pergamena non viene perduta.&nbsp;</p><p>Se l&rsquo;incantesimo si trova sulla lista degli incantesimi di classe del personaggio, ma &egrave; di un livello pi&ugrave; alto rispetto a quelli che il personaggio pu&ograve; lanciare normalmente, il personaggio deve effettuare una prova di caratteristica usando la sua caratteristica da incantatore per determinare se riesce a lanciarlo. La CD &egrave; 13. In caso di fallimento, l&rsquo;incantesimo scompare dalla pergamena senza alcun altro effetto.</p><p>Il livello dell&rsquo;incantesimo sulla pergamena determina la CD del tiro salvezza e il bonus di attacco dell&rsquo;incantesimo, nonch&eacute; la rarit&agrave; della pergamena.</p><p><strong>CD del Tiro Salvezza</strong>: 15<br /><strong>Bonus di Attacco</strong>: +7.</p><p>Un incantesimo da mago su una pergamena magica pu&ograve; essere copiato allo stesso modo di quelli contenuti in un libro degli incantesimi. Per copiare un incantesimo da una pergamena magica, chi lo copia deve effettuare con successo una prova di Intelligenza (Arcano) con CD pari a 13. Se la prova ha successo, l&rsquo;incantesimo &egrave; copiato. Sia che la prova abbia successo, sia che fallisca, la pergamena magica &egrave; distrutta.</p>",
+      "unidentified": {
+        "name": "Pergamena Non Identificata",
+        "description": "<p>Questa pergamena contiene le parole di un singolo incantesimo, scritte in un codice mistico. Se l'incantesimo compare nella lista degli incantesimi della tua classe, puoi leggere la pergamena e lanciare l'incantesimo senza fornire alcuna componente materiale. Altrimenti, la pergamena risulta incomprensibile.</p>"
+      }
     },
     "Spell Scroll 4th Level": {
       "name": "Pergamena Magica di 4° Livello",
-      "description": "<p>Una pergamena magica contiene le parole di un unico incantesimo, scritto in un linguaggio mistico. Se l’incantesimo è contenuto nella lista degli incantesimi di classe del personaggio, egli può leggere la pergamena e lanciarlo senza fornire alcuna componente materiale. Altrimenti, la pergamena è indecifrabile. Lanciare l’incantesimo leggendolo dalla pergamena richiede il normale tempo di lancio dell’incantesimo. Una volta che l’incantesimo è stato lanciato, le parole sulla pergamena scompaiono e la pergamena si sbriciola in polvere. Se l’incantesimo viene interrotto, la pergamena non viene perduta.&nbsp;</p>\n<p>Se l’incantesimo si trova sulla lista degli incantesimi di classe del personaggio, ma è di un livello più alto rispetto a quelli che il personaggio può lanciare normalmente, il personaggio deve effettuare una prova di caratteristica usando la sua caratteristica da incantatore per determinare se riesce a lanciarlo. La CD è 14. In caso di fallimento, l’incantesimo scompare dalla pergamena senza alcun altro effetto.</p>\n<p>Il livello dell’incantesimo sulla pergamena determina la CD del tiro salvezza e il bonus di attacco dell’incantesimo, nonché la rarità della pergamena.</p>\n<p><strong>CD del Tiro Salvezza</strong>: 15<br /><strong>Bonus di Attacco</strong>: +7.</p>\n<p>Un incantesimo da mago su una pergamena magica può essere copiato allo stesso modo di quelli contenuti in un libro degli incantesimi. Per copiare un incantesimo da una pergamena magica, chi lo copia deve effettuare con successo una prova di Intelligenza (Arcano) con CD pari a 14. Se la prova ha successo, l’incantesimo è copiato. Sia che la prova abbia successo, sia che fallisca, la pergamena magica è distrutta.</p>"
+      "description": "<p>Una pergamena magica contiene le parole di un unico incantesimo, scritto in un linguaggio mistico. Se l’incantesimo è contenuto nella lista degli incantesimi di classe del personaggio, egli può leggere la pergamena e lanciarlo senza fornire alcuna componente materiale. Altrimenti, la pergamena è indecifrabile. Lanciare l’incantesimo leggendolo dalla pergamena richiede il normale tempo di lancio dell’incantesimo. Una volta che l’incantesimo è stato lanciato, le parole sulla pergamena scompaiono e la pergamena si sbriciola in polvere. Se l’incantesimo viene interrotto, la pergamena non viene perduta.&nbsp;</p>\n<p>Se l’incantesimo si trova sulla lista degli incantesimi di classe del personaggio, ma è di un livello più alto rispetto a quelli che il personaggio può lanciare normalmente, il personaggio deve effettuare una prova di caratteristica usando la sua caratteristica da incantatore per determinare se riesce a lanciarlo. La CD è 14. In caso di fallimento, l’incantesimo scompare dalla pergamena senza alcun altro effetto.</p>\n<p>Il livello dell’incantesimo sulla pergamena determina la CD del tiro salvezza e il bonus di attacco dell’incantesimo, nonché la rarità della pergamena.</p>\n<p><strong>CD del Tiro Salvezza</strong>: 15<br /><strong>Bonus di Attacco</strong>: +7.</p>\n<p>Un incantesimo da mago su una pergamena magica può essere copiato allo stesso modo di quelli contenuti in un libro degli incantesimi. Per copiare un incantesimo da una pergamena magica, chi lo copia deve effettuare con successo una prova di Intelligenza (Arcano) con CD pari a 14. Se la prova ha successo, l’incantesimo è copiato. Sia che la prova abbia successo, sia che fallisca, la pergamena magica è distrutta.</p>",
+      "unidentified": {
+        "name": "Pergamena Non Identificata",
+        "description": "<p>Questa pergamena contiene le parole di un singolo incantesimo, scritte in un codice mistico. Se l'incantesimo compare nella lista degli incantesimi della tua classe, puoi leggere la pergamena e lanciare l'incantesimo senza fornire alcuna componente materiale. Altrimenti, la pergamena risulta incomprensibile.</p>"
+      }
     },
     "Spell Scroll 5th Level": {
       "name": "Pergamena Magica di 5° Livello",
-      "description": "<p>Una pergamena magica contiene le parole di un unico incantesimo, scritto in un linguaggio mistico. Se l’incantesimo è contenuto nella lista degli incantesimi di classe del personaggio, egli può leggere la pergamena e lanciarlo senza fornire alcuna componente materiale. Altrimenti, la pergamena è indecifrabile. Lanciare l’incantesimo leggendolo dalla pergamena richiede il normale tempo di lancio dell’incantesimo. Una volta che l’incantesimo è stato lanciato, le parole sulla pergamena scompaiono e la pergamena si sbriciola in polvere. Se l’incantesimo viene interrotto, la pergamena non viene perduta.&nbsp;</p>\n<p>Se l’incantesimo si trova sulla lista degli incantesimi di classe del personaggio, ma è di un livello più alto rispetto a quelli che il personaggio può lanciare normalmente, il personaggio deve effettuare una prova di caratteristica usando la sua caratteristica da incantatore per determinare se riesce a lanciarlo. La CD è 15. In caso di fallimento, l’incantesimo scompare dalla pergamena senza alcun altro effetto.</p>\n<p>Il livello dell’incantesimo sulla pergamena determina la CD del tiro salvezza e il bonus di attacco dell’incantesimo, nonché la rarità della pergamena.</p>\n<p><strong>CD del Tiro Salvezza</strong>: 17<br /><strong>Bonus di Attacco</strong>: +9.</p>\n<p>Un incantesimo da mago su una pergamena magica può essere copiato allo stesso modo di quelli contenuti in un libro degli incantesimi. Per copiare un incantesimo da una pergamena magica, chi lo copia deve effettuare con successo una prova di Intelligenza (Arcano) con CD pari a 15. Se la prova ha successo, l’incantesimo è copiato. Sia che la prova abbia successo, sia che fallisca, la pergamena magica è distrutta.</p>"
+      "description": "<p>Una pergamena magica contiene le parole di un unico incantesimo, scritto in un linguaggio mistico. Se l’incantesimo è contenuto nella lista degli incantesimi di classe del personaggio, egli può leggere la pergamena e lanciarlo senza fornire alcuna componente materiale. Altrimenti, la pergamena è indecifrabile. Lanciare l’incantesimo leggendolo dalla pergamena richiede il normale tempo di lancio dell’incantesimo. Una volta che l’incantesimo è stato lanciato, le parole sulla pergamena scompaiono e la pergamena si sbriciola in polvere. Se l’incantesimo viene interrotto, la pergamena non viene perduta.&nbsp;</p>\n<p>Se l’incantesimo si trova sulla lista degli incantesimi di classe del personaggio, ma è di un livello più alto rispetto a quelli che il personaggio può lanciare normalmente, il personaggio deve effettuare una prova di caratteristica usando la sua caratteristica da incantatore per determinare se riesce a lanciarlo. La CD è 15. In caso di fallimento, l’incantesimo scompare dalla pergamena senza alcun altro effetto.</p>\n<p>Il livello dell’incantesimo sulla pergamena determina la CD del tiro salvezza e il bonus di attacco dell’incantesimo, nonché la rarità della pergamena.</p>\n<p><strong>CD del Tiro Salvezza</strong>: 17<br /><strong>Bonus di Attacco</strong>: +9.</p>\n<p>Un incantesimo da mago su una pergamena magica può essere copiato allo stesso modo di quelli contenuti in un libro degli incantesimi. Per copiare un incantesimo da una pergamena magica, chi lo copia deve effettuare con successo una prova di Intelligenza (Arcano) con CD pari a 15. Se la prova ha successo, l’incantesimo è copiato. Sia che la prova abbia successo, sia che fallisca, la pergamena magica è distrutta.</p>",
+      "unidentified": {
+        "name": "Pergamena Non Identificata",
+        "description": "<p>Questa pergamena contiene le parole di un singolo incantesimo, scritte in un codice mistico. Se l'incantesimo compare nella lista degli incantesimi della tua classe, puoi leggere la pergamena e lanciare l'incantesimo senza fornire alcuna componente materiale. Altrimenti, la pergamena risulta incomprensibile.</p>"
+      }
     },
     "Spell Scroll 6th Level": {
       "name": "Pergamena Magica di 6° Livello",
-      "description": "<p>Una pergamena magica contiene le parole di un unico incantesimo, scritto in un linguaggio mistico. Se l’incantesimo è contenuto nella lista degli incantesimi di classe del personaggio, egli può leggere la pergamena e lanciarlo senza fornire alcuna componente materiale. Altrimenti, la pergamena è indecifrabile. Lanciare l’incantesimo leggendolo dalla pergamena richiede il normale tempo di lancio dell’incantesimo. Una volta che l’incantesimo è stato lanciato, le parole sulla pergamena scompaiono e la pergamena si sbriciola in polvere. Se l’incantesimo viene interrotto, la pergamena non viene perduta.&nbsp;</p>\n<p>Se l’incantesimo si trova sulla lista degli incantesimi di classe del personaggio, ma è di un livello più alto rispetto a quelli che il personaggio può lanciare normalmente, il personaggio deve effettuare una prova di caratteristica usando la sua caratteristica da incantatore per determinare se riesce a lanciarlo. La CD è 16. In caso di fallimento, l’incantesimo scompare dalla pergamena senza alcun altro effetto.</p>\n<p>Il livello dell’incantesimo sulla pergamena determina la CD del tiro salvezza e il bonus di attacco dell’incantesimo, nonché la rarità della pergamena.</p>\n<p><strong>CD del Tiro Salvezza</strong>: 17<br /><strong>Bonus di Attacco</strong>: +9.</p>\n<p>Un incantesimo da mago su una pergamena magica può essere copiato allo stesso modo di quelli contenuti in un libro degli incantesimi. Per copiare un incantesimo da una pergamena magica, chi lo copia deve effettuare con successo una prova di Intelligenza (Arcano) con CD pari a 16. Se la prova ha successo, l’incantesimo è copiato. Sia che la prova abbia successo, sia che fallisca, la pergamena magica è distrutta.</p>"
+      "description": "<p>Una pergamena magica contiene le parole di un unico incantesimo, scritto in un linguaggio mistico. Se l’incantesimo è contenuto nella lista degli incantesimi di classe del personaggio, egli può leggere la pergamena e lanciarlo senza fornire alcuna componente materiale. Altrimenti, la pergamena è indecifrabile. Lanciare l’incantesimo leggendolo dalla pergamena richiede il normale tempo di lancio dell’incantesimo. Una volta che l’incantesimo è stato lanciato, le parole sulla pergamena scompaiono e la pergamena si sbriciola in polvere. Se l’incantesimo viene interrotto, la pergamena non viene perduta.&nbsp;</p>\n<p>Se l’incantesimo si trova sulla lista degli incantesimi di classe del personaggio, ma è di un livello più alto rispetto a quelli che il personaggio può lanciare normalmente, il personaggio deve effettuare una prova di caratteristica usando la sua caratteristica da incantatore per determinare se riesce a lanciarlo. La CD è 16. In caso di fallimento, l’incantesimo scompare dalla pergamena senza alcun altro effetto.</p>\n<p>Il livello dell’incantesimo sulla pergamena determina la CD del tiro salvezza e il bonus di attacco dell’incantesimo, nonché la rarità della pergamena.</p>\n<p><strong>CD del Tiro Salvezza</strong>: 17<br /><strong>Bonus di Attacco</strong>: +9.</p>\n<p>Un incantesimo da mago su una pergamena magica può essere copiato allo stesso modo di quelli contenuti in un libro degli incantesimi. Per copiare un incantesimo da una pergamena magica, chi lo copia deve effettuare con successo una prova di Intelligenza (Arcano) con CD pari a 16. Se la prova ha successo, l’incantesimo è copiato. Sia che la prova abbia successo, sia che fallisca, la pergamena magica è distrutta.</p>",
+      "unidentified": {
+        "name": "Pergamena Non Identificata",
+        "description": "<p>Questa pergamena contiene le parole di un singolo incantesimo, scritte in un codice mistico. Se l'incantesimo compare nella lista degli incantesimi della tua classe, puoi leggere la pergamena e lanciare l'incantesimo senza fornire alcuna componente materiale. Altrimenti, la pergamena risulta incomprensibile.</p>"
+      }
     },
     "Spell Scroll 7th Level": {
       "name": "Pergamena Magica di 7° Livello",
-      "description": "<p>Una pergamena magica contiene le parole di un unico incantesimo, scritto in un linguaggio mistico. Se l’incantesimo è contenuto nella lista degli incantesimi di classe del personaggio, egli può leggere la pergamena e lanciarlo senza fornire alcuna componente materiale. Altrimenti, la pergamena è indecifrabile. Lanciare l’incantesimo leggendolo dalla pergamena richiede il normale tempo di lancio dell’incantesimo. Una volta che l’incantesimo è stato lanciato, le parole sulla pergamena scompaiono e la pergamena si sbriciola in polvere. Se l’incantesimo viene interrotto, la pergamena non viene perduta.&nbsp;</p>\n<p>Se l’incantesimo si trova sulla lista degli incantesimi di classe del personaggio, ma è di un livello più alto rispetto a quelli che il personaggio può lanciare normalmente, il personaggio deve effettuare una prova di caratteristica usando la sua caratteristica da incantatore per determinare se riesce a lanciarlo. La CD è 17. In caso di fallimento, l’incantesimo scompare dalla pergamena senza alcun altro effetto.</p>\n<p>Il livello dell’incantesimo sulla pergamena determina la CD del tiro salvezza e il bonus di attacco dell’incantesimo, nonché la rarità della pergamena.</p>\n<p><strong>CD del Tiro Salvezza</strong>: 18<br /><strong>Bonus di Attacco</strong>: +10.</p>\n<p>Un incantesimo da mago su una pergamena magica può essere copiato allo stesso modo di quelli contenuti in un libro degli incantesimi. Per copiare un incantesimo da una pergamena magica, chi lo copia deve effettuare con successo una prova di Intelligenza (Arcano) con CD pari a 17. Se la prova ha successo, l’incantesimo è copiato. Sia che la prova abbia successo, sia che fallisca, la pergamena magica è distrutta.</p>"
+      "description": "<p>Una pergamena magica contiene le parole di un unico incantesimo, scritto in un linguaggio mistico. Se l’incantesimo è contenuto nella lista degli incantesimi di classe del personaggio, egli può leggere la pergamena e lanciarlo senza fornire alcuna componente materiale. Altrimenti, la pergamena è indecifrabile. Lanciare l’incantesimo leggendolo dalla pergamena richiede il normale tempo di lancio dell’incantesimo. Una volta che l’incantesimo è stato lanciato, le parole sulla pergamena scompaiono e la pergamena si sbriciola in polvere. Se l’incantesimo viene interrotto, la pergamena non viene perduta.&nbsp;</p>\n<p>Se l’incantesimo si trova sulla lista degli incantesimi di classe del personaggio, ma è di un livello più alto rispetto a quelli che il personaggio può lanciare normalmente, il personaggio deve effettuare una prova di caratteristica usando la sua caratteristica da incantatore per determinare se riesce a lanciarlo. La CD è 17. In caso di fallimento, l’incantesimo scompare dalla pergamena senza alcun altro effetto.</p>\n<p>Il livello dell’incantesimo sulla pergamena determina la CD del tiro salvezza e il bonus di attacco dell’incantesimo, nonché la rarità della pergamena.</p>\n<p><strong>CD del Tiro Salvezza</strong>: 18<br /><strong>Bonus di Attacco</strong>: +10.</p>\n<p>Un incantesimo da mago su una pergamena magica può essere copiato allo stesso modo di quelli contenuti in un libro degli incantesimi. Per copiare un incantesimo da una pergamena magica, chi lo copia deve effettuare con successo una prova di Intelligenza (Arcano) con CD pari a 17. Se la prova ha successo, l’incantesimo è copiato. Sia che la prova abbia successo, sia che fallisca, la pergamena magica è distrutta.</p>",
+      "unidentified": {
+        "name": "Pergamena Non Identificata",
+        "description": "<p>Questa pergamena contiene le parole di un singolo incantesimo, scritte in un codice mistico. Se l'incantesimo compare nella lista degli incantesimi della tua classe, puoi leggere la pergamena e lanciare l'incantesimo senza fornire alcuna componente materiale. Altrimenti, la pergamena risulta incomprensibile.</p>"
+      }
     },
     "Spell Scroll 8th Level": {
       "name": "Pergamena Magica di 8° Livello",
-      "description": "<p>Una pergamena magica contiene le parole di un unico incantesimo, scritto in un linguaggio mistico. Se l’incantesimo è contenuto nella lista degli incantesimi di classe del personaggio, egli può leggere la pergamena e lanciarlo senza fornire alcuna componente materiale. Altrimenti, la pergamena è indecifrabile. Lanciare l’incantesimo leggendolo dalla pergamena richiede il normale tempo di lancio dell’incantesimo. Una volta che l’incantesimo è stato lanciato, le parole sulla pergamena scompaiono e la pergamena si sbriciola in polvere. Se l’incantesimo viene interrotto, la pergamena non viene perduta.&nbsp;</p>\n<p>Se l’incantesimo si trova sulla lista degli incantesimi di classe del personaggio, ma è di un livello più alto rispetto a quelli che il personaggio può lanciare normalmente, il personaggio deve effettuare una prova di caratteristica usando la sua caratteristica da incantatore per determinare se riesce a lanciarlo. La CD è 18. In caso di fallimento, l’incantesimo scompare dalla pergamena senza alcun altro effetto.</p>\n<p>Il livello dell’incantesimo sulla pergamena determina la CD del tiro salvezza e il bonus di attacco dell’incantesimo, nonché la rarità della pergamena.</p>\n<p><strong>CD del Tiro Salvezza</strong>: 18<br /><strong>Bonus di Attacco</strong>: +10.</p>\n<p>Un incantesimo da mago su una pergamena magica può essere copiato allo stesso modo di quelli contenuti in un libro degli incantesimi. Per copiare un incantesimo da una pergamena magica, chi lo copia deve effettuare con successo una prova di Intelligenza (Arcano) con CD pari a 18. Se la prova ha successo, l’incantesimo è copiato. Sia che la prova abbia successo, sia che fallisca, la pergamena magica è distrutta.</p>"
+      "description": "<p>Una pergamena magica contiene le parole di un unico incantesimo, scritto in un linguaggio mistico. Se l’incantesimo è contenuto nella lista degli incantesimi di classe del personaggio, egli può leggere la pergamena e lanciarlo senza fornire alcuna componente materiale. Altrimenti, la pergamena è indecifrabile. Lanciare l’incantesimo leggendolo dalla pergamena richiede il normale tempo di lancio dell’incantesimo. Una volta che l’incantesimo è stato lanciato, le parole sulla pergamena scompaiono e la pergamena si sbriciola in polvere. Se l’incantesimo viene interrotto, la pergamena non viene perduta.&nbsp;</p>\n<p>Se l’incantesimo si trova sulla lista degli incantesimi di classe del personaggio, ma è di un livello più alto rispetto a quelli che il personaggio può lanciare normalmente, il personaggio deve effettuare una prova di caratteristica usando la sua caratteristica da incantatore per determinare se riesce a lanciarlo. La CD è 18. In caso di fallimento, l’incantesimo scompare dalla pergamena senza alcun altro effetto.</p>\n<p>Il livello dell’incantesimo sulla pergamena determina la CD del tiro salvezza e il bonus di attacco dell’incantesimo, nonché la rarità della pergamena.</p>\n<p><strong>CD del Tiro Salvezza</strong>: 18<br /><strong>Bonus di Attacco</strong>: +10.</p>\n<p>Un incantesimo da mago su una pergamena magica può essere copiato allo stesso modo di quelli contenuti in un libro degli incantesimi. Per copiare un incantesimo da una pergamena magica, chi lo copia deve effettuare con successo una prova di Intelligenza (Arcano) con CD pari a 18. Se la prova ha successo, l’incantesimo è copiato. Sia che la prova abbia successo, sia che fallisca, la pergamena magica è distrutta.</p>",
+      "unidentified": {
+        "name": "Pergamena Non Identificata",
+        "description": "<p>Questa pergamena contiene le parole di un singolo incantesimo, scritte in un codice mistico. Se l'incantesimo compare nella lista degli incantesimi della tua classe, puoi leggere la pergamena e lanciare l'incantesimo senza fornire alcuna componente materiale. Altrimenti, la pergamena risulta incomprensibile.</p>"
+      }
     },
     "Spell Scroll 9th Level": {
       "name": "Pergamena Magica di 9° Livello",
-      "description": "<p>Una pergamena magica contiene le parole di un unico incantesimo, scritto in un linguaggio mistico. Se l’incantesimo è contenuto nella lista degli incantesimi di classe del personaggio, egli può leggere la pergamena e lanciarlo senza fornire alcuna componente materiale. Altrimenti, la pergamena è indecifrabile. Lanciare l’incantesimo leggendolo dalla pergamena richiede il normale tempo di lancio dell’incantesimo. Una volta che l’incantesimo è stato lanciato, le parole sulla pergamena scompaiono e la pergamena si sbriciola in polvere. Se l’incantesimo viene interrotto, la pergamena non viene perduta.&nbsp;</p>\n<p>Se l’incantesimo si trova sulla lista degli incantesimi di classe del personaggio, ma è di un livello più alto rispetto a quelli che il personaggio può lanciare normalmente, il personaggio deve effettuare una prova di caratteristica usando la sua caratteristica da incantatore per determinare se riesce a lanciarlo. La CD è 19. In caso di fallimento, l’incantesimo scompare dalla pergamena senza alcun altro effetto.</p>\n<p>Il livello dell’incantesimo sulla pergamena determina la CD del tiro salvezza e il bonus di attacco dell’incantesimo, nonché la rarità della pergamena.</p>\n<p><strong>CD del Tiro Salvezza</strong>: 19<br /><strong>Bonus di Attacco</strong>: +11.</p>\n<p>Un incantesimo da mago su una pergamena magica può essere copiato allo stesso modo di quelli contenuti in un libro degli incantesimi. Per copiare un incantesimo da una pergamena magica, chi lo copia deve effettuare con successo una prova di Intelligenza (Arcano) con CD pari a 19. Se la prova ha successo, l’incantesimo è copiato. Sia che la prova abbia successo, sia che fallisca, la pergamena magica è distrutta.</p>"
+      "description": "<p>Una pergamena magica contiene le parole di un unico incantesimo, scritto in un linguaggio mistico. Se l’incantesimo è contenuto nella lista degli incantesimi di classe del personaggio, egli può leggere la pergamena e lanciarlo senza fornire alcuna componente materiale. Altrimenti, la pergamena è indecifrabile. Lanciare l’incantesimo leggendolo dalla pergamena richiede il normale tempo di lancio dell’incantesimo. Una volta che l’incantesimo è stato lanciato, le parole sulla pergamena scompaiono e la pergamena si sbriciola in polvere. Se l’incantesimo viene interrotto, la pergamena non viene perduta.&nbsp;</p>\n<p>Se l’incantesimo si trova sulla lista degli incantesimi di classe del personaggio, ma è di un livello più alto rispetto a quelli che il personaggio può lanciare normalmente, il personaggio deve effettuare una prova di caratteristica usando la sua caratteristica da incantatore per determinare se riesce a lanciarlo. La CD è 19. In caso di fallimento, l’incantesimo scompare dalla pergamena senza alcun altro effetto.</p>\n<p>Il livello dell’incantesimo sulla pergamena determina la CD del tiro salvezza e il bonus di attacco dell’incantesimo, nonché la rarità della pergamena.</p>\n<p><strong>CD del Tiro Salvezza</strong>: 19<br /><strong>Bonus di Attacco</strong>: +11.</p>\n<p>Un incantesimo da mago su una pergamena magica può essere copiato allo stesso modo di quelli contenuti in un libro degli incantesimi. Per copiare un incantesimo da una pergamena magica, chi lo copia deve effettuare con successo una prova di Intelligenza (Arcano) con CD pari a 19. Se la prova ha successo, l’incantesimo è copiato. Sia che la prova abbia successo, sia che fallisca, la pergamena magica è distrutta.</p>",
+      "unidentified": {
+        "name": "Pergamena Non Identificata",
+        "description": "<p>Questa pergamena contiene le parole di un singolo incantesimo, scritte in un codice mistico. Se l'incantesimo compare nella lista degli incantesimi della tua classe, puoi leggere la pergamena e lanciare l'incantesimo senza fornire alcuna componente materiale. Altrimenti, la pergamena risulta incomprensibile.</p>"
+      }
     },
     "Spell Scroll Cantrip Level": {
       "name": "Pergamena Magica di Trucchetto",
@@ -4299,6 +4507,9 @@
         "zlPilAc3Tg3RVZyG": {
           "name": "Fuga Assistita"
         }
+      },
+      "unidentified": {
+        "name": "Bacchetta Non Identificata"
       }
     },
     "Wand of Enemy Detection": {
@@ -4308,6 +4519,9 @@
         "8rw7aoQH53r3yP40": {
           "name": "Individua Nemico"
         }
+      },
+      "unidentified": {
+        "name": "Bacchetta Non Identificata"
       }
     },
     "Wand of Fear": {
@@ -4323,23 +4537,38 @@
           "name": "Terrorizzato",
           "description": "<p>Sei &amp;reference[frightened apply=false] dall'utilizzatore della bacchetta per la durata. Finché sei spaventato in questo modo, devi impiegare i tuoi turni per cercare di allontanarti il più possibile e non puoi muoverti volontariamente in uno spazio entro 9 metri dalla creatura che ti ha spaventato.</p><p>Non puoi inoltre effettuare reazioni. Come azione, puoi usare soltanto l'azione &amp;reference[dash] o cercare di sfuggire a un effetto che ti impedisce di muoverti. Se non hai alcun luogo verso cui muoverti, puoi usare l'azione &amp;reference[dodge].</p><p>Alla fine di ogni tuo turno puoi ripetere il tiro salvezza; se lo superi, l'effetto termina su di te.</p>"
         }
+      },
+      "unidentified": {
+        "name": "Bacchetta Non Identificata"
       }
     },
     "Wand of Fireballs": {
       "name": "Bacchetta delle Palle di Fuoco",
-      "description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">(Richiede sintonia con un incantatore)</em></p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Questa bacchetta possiede 7 cariche. Finché il personaggio la impugna, può usare un'azione e spendere 1 o più cariche per lanciare con essa l’incantesimo @Compendium[dnd5e.spells.ztgcdrWPshKRpFd0]{Palla di Fuoco} (CD 15 del tiro salvezza). Spendendo 1 carica, il personaggio lancia la versione di 3° livello dell’incantesimo. Può aumentare di uno il livello dello slot incantesimo per ogni carica aggiuntiva che spende.</p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">La bacchetta recupera 1d6 + 1 cariche spese ogni giorno all'alba. Se il personaggio spende l’ultima carica della bacchetta, tira un d20. Con un risultato di 1, la bacchetta si sbriciola in cenere ed è distrutta.</p>"
+      "description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">(Richiede sintonia con un incantatore)</em></p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Questa bacchetta possiede 7 cariche. Finché il personaggio la impugna, può usare un'azione e spendere 1 o più cariche per lanciare con essa l’incantesimo @Compendium[dnd5e.spells.ztgcdrWPshKRpFd0]{Palla di Fuoco} (CD 15 del tiro salvezza). Spendendo 1 carica, il personaggio lancia la versione di 3° livello dell’incantesimo. Può aumentare di uno il livello dello slot incantesimo per ogni carica aggiuntiva che spende.</p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">La bacchetta recupera 1d6 + 1 cariche spese ogni giorno all'alba. Se il personaggio spende l’ultima carica della bacchetta, tira un d20. Con un risultato di 1, la bacchetta si sbriciola in cenere ed è distrutta.</p>",
+      "unidentified": {
+        "name": "Bacchetta Non Identificata"
+      }
     },
     "Wand of Lightning Bolts": {
       "name": "Bacchetta dei Fulmini",
-      "description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">(Richiede sintonia con un incantatore)</em></p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Questa bacchetta possiede 7 cariche. Finché il personaggio la impugna, può usare un’azione e spendere 1 o più cariche per lanciare con essa l’incantesimo @Compendium[dnd5e.spells.IyikgTEOTv701jgQ]{Fulmine} (CD 15 del tiro salvezza). Spendendo 1 carica, il personaggio lancia la versione di 3° livello dell’incantesimo. Può aumentare di uno il livello dello slot incantesimo per ogni carica aggiuntiva che spende.</p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">La bacchetta recupera 1d6 + 1 cariche spese ogni giorno all’alba. Se il personaggio spende l’ultima carica della bacchetta, tira un d20. Con un risultato di 1, la bacchetta si sbriciola in cenere ed è distrutta.</p>"
+      "description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">(Richiede sintonia con un incantatore)</em></p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Questa bacchetta possiede 7 cariche. Finché il personaggio la impugna, può usare un’azione e spendere 1 o più cariche per lanciare con essa l’incantesimo @Compendium[dnd5e.spells.IyikgTEOTv701jgQ]{Fulmine} (CD 15 del tiro salvezza). Spendendo 1 carica, il personaggio lancia la versione di 3° livello dell’incantesimo. Può aumentare di uno il livello dello slot incantesimo per ogni carica aggiuntiva che spende.</p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">La bacchetta recupera 1d6 + 1 cariche spese ogni giorno all’alba. Se il personaggio spende l’ultima carica della bacchetta, tira un d20. Con un risultato di 1, la bacchetta si sbriciola in cenere ed è distrutta.</p>",
+      "unidentified": {
+        "name": "Bacchetta Non Identificata"
+      }
     },
     "Wand of Magic Detection": {
       "name": "Bacchetta di Individuazione del Magico",
-      "description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Questa bacchetta possiede 3 cariche. Finché il personaggio la impugna, può usare un’azione e spendere 1 carica per lanciare con essa l'incantesimo @Compendium[dnd5e.spells.ghXTfe7sgCbgf1Q8]{Individuazione del Magico}. La bacchetta recupera 1d3 cariche spese ogni giorno all'alba.</p>"
+      "description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Questa bacchetta possiede 3 cariche. Finché il personaggio la impugna, può usare un’azione e spendere 1 carica per lanciare con essa l'incantesimo @Compendium[dnd5e.spells.ghXTfe7sgCbgf1Q8]{Individuazione del Magico}. La bacchetta recupera 1d3 cariche spese ogni giorno all'alba.</p>",
+      "unidentified": {
+        "name": "Bacchetta Non Identificata"
+      }
     },
     "Wand of Magic Missiles": {
       "name": "Bacchetta dei Dardi Incantati",
-      "description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Questa bacchetta possiede 7 cariche. Finché il personaggio la impugna, può usare un’azione e spendere 1 o più cariche per lanciare con essa l’incantesimo @Compendium[dnd5e.spells.41JIhpDyM9Anm7cs]{Dardo Incantato}. Spendendo 1 carica, il personaggio lancia la versione di 1° livello dell’incantesimo. Può aumentare di uno il livello dello slot incantesimo per ogni carica aggiuntiva che spende.</p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">La bacchetta recupera 1d6 + 1 cariche spese ogni giorno all’alba. Se il personaggio spende l’ultima carica della bacchetta, tira un d20. Con un risultato di 1, la bacchetta si sbriciola in cenere ed è distrutta.</p>"
+      "description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Questa bacchetta possiede 7 cariche. Finché il personaggio la impugna, può usare un’azione e spendere 1 o più cariche per lanciare con essa l’incantesimo @Compendium[dnd5e.spells.41JIhpDyM9Anm7cs]{Dardo Incantato}. Spendendo 1 carica, il personaggio lancia la versione di 1° livello dell’incantesimo. Può aumentare di uno il livello dello slot incantesimo per ogni carica aggiuntiva che spende.</p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">La bacchetta recupera 1d6 + 1 cariche spese ogni giorno all’alba. Se il personaggio spende l’ultima carica della bacchetta, tira un d20. Con un risultato di 1, la bacchetta si sbriciola in cenere ed è distrutta.</p>",
+      "unidentified": {
+        "name": "Bacchetta Non Identificata"
+      }
     },
     "Wand of Paralysis": {
       "name": "Bacchetta della Paralisi",
@@ -4354,11 +4583,17 @@
           "name": "Paralisi",
           "description": "<p>Sei &amp;reference[paralyzed apply=false] per la durata.</p><p>Alla fine di ogni tuo turno puoi ripetere il tiro salvezza; se lo superi, l'effetto termina su di te.</p>"
         }
+      },
+      "unidentified": {
+        "name": "Bacchetta Non Identificata"
       }
     },
     "Wand of Polymorph": {
       "name": "Bacchetta della Metamorfosi",
-      "description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em>(Richiede sintonia con un incantatore)</em></p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Questa bacchetta possiede 7 cariche. Finché il personaggio la impugna, può usare un’azione e spendere 1 carica per lanciare con essa l’incantesimo @Compendium[dnd5e.spells.04nMsTWkIFvkbXlY]{Metamorfosi} (CD 15 del tiro salvezza).</p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">La bacchetta recupera 1d6 + 1 cariche spese ogni giorno all’alba. Se il personaggio spende l’ultima carica della bacchetta, tira un d20. Con un risultato di 1, la bacchetta si sbriciola in cenere ed è distrutta.</p>"
+      "description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em>(Richiede sintonia con un incantatore)</em></p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Questa bacchetta possiede 7 cariche. Finché il personaggio la impugna, può usare un’azione e spendere 1 carica per lanciare con essa l’incantesimo @Compendium[dnd5e.spells.04nMsTWkIFvkbXlY]{Metamorfosi} (CD 15 del tiro salvezza).</p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">La bacchetta recupera 1d6 + 1 cariche spese ogni giorno all’alba. Se il personaggio spende l’ultima carica della bacchetta, tira un d20. Con un risultato di 1, la bacchetta si sbriciola in cenere ed è distrutta.</p>",
+      "unidentified": {
+        "name": "Bacchetta Non Identificata"
+      }
     },
     "Wand of Secrets": {
       "name": "Bacchetta dei Segreti",
@@ -4367,11 +4602,17 @@
         "6BGlNewJFiu476l8": {
           "name": "Individua Segreto"
         }
+      },
+      "unidentified": {
+        "name": "Bacchetta Non Identificata"
       }
     },
     "Wand of Web": {
       "name": "Bacchetta della Ragnatela",
-      "description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em>(Richiede sintonia con un incantatore)</em></p><p>Questa bacchetta possiede 7 cariche. Finché il personaggio la impugna, può usare un’azione e spendere 1 carica per lanciare con essa l’incantesimo @Compendium[dnd5e.spells.UJJu9c2UvCzVljiP]{Ragnatela} (CD 15 del tiro salvezza).</p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">La bacchetta recupera 1d6 + 1 cariche spese ogni giorno all’alba. Se il personaggio spende l’ultima carica della bacchetta, tira un d20. Con un risultato di 1, la bacchetta si sbriciola in cenere ed è distrutta.</p>"
+      "description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em>(Richiede sintonia con un incantatore)</em></p><p>Questa bacchetta possiede 7 cariche. Finché il personaggio la impugna, può usare un’azione e spendere 1 carica per lanciare con essa l’incantesimo @Compendium[dnd5e.spells.UJJu9c2UvCzVljiP]{Ragnatela} (CD 15 del tiro salvezza).</p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">La bacchetta recupera 1d6 + 1 cariche spese ogni giorno all’alba. Se il personaggio spende l’ultima carica della bacchetta, tira un d20. Con un risultato di 1, la bacchetta si sbriciola in cenere ed è distrutta.</p>",
+      "unidentified": {
+        "name": "Bacchetta Non Identificata"
+      }
     },
     "Wand of Wonder": {
       "name": "Bacchetta della Meraviglie",
@@ -4407,6 +4648,9 @@
         "J8RHNvGM7pmoqBNJ": {
           "name": "Punta la Bacchetta sul Bersaglio"
         }
+      },
+      "unidentified": {
+        "name": "Bacchetta Non Identificata"
       }
     },
     "Wand of the War Mage +1": {
@@ -4417,6 +4661,9 @@
           "name": "Precisione del Mago da Guerra +1",
           "description": "<p>Ottieni un bonus di +1 ai tiri per colpire con incantesimo e ignori la &amp;reference[half cover] quando effettui un tiro per colpire con incantesimo.</p>"
         }
+      },
+      "unidentified": {
+        "name": "Bacchetta Non Identificata"
       }
     },
     "Wand of the War Mage +2": {
@@ -4427,6 +4674,9 @@
           "name": "Precisione del Mago da Guerra +2",
           "description": "<p>Ottieni un bonus di +2 ai tiri per colpire con incantesimo e ignori la &amp;reference[half cover] quando effettui un tiro per colpire con incantesimo.</p>"
         }
+      },
+      "unidentified": {
+        "name": "Bacchetta Non Identificata"
       }
     },
     "Wand of the War Mage +3": {
@@ -4437,6 +4687,9 @@
           "name": "Precisione del Mago da Guerra +3",
           "description": "<p>Ottieni un bonus di +3 ai tiri per colpire con incantesimo e ignori la &amp;reference[half cover] quando effettui un tiro per colpire con incantesimo.</p>"
         }
+      },
+      "unidentified": {
+        "name": "Bacchetta Non Identificata"
       }
     },
     "War Pick": {
@@ -4621,13 +4874,17 @@
         "RUUCcFGTvTV9vhrS": {
           "name": "Gioca"
         }
+      },
+      "unidentified": {
+        "name": "Set da Scacchi Non Identificato"
       }
     },
     "Dice Set": {
       "name": "Dadi",
       "description": "<p>Questo oggetto comprende una vasta gamma di dadi, sia lisci che pesati.</p><p>Se sei competente con un set da gioco, puoi aggiungere il tuo bonus di competenza alle prove di abilità che effettui per giocare una partita con quel set. Ogni tipo di set da gioco richiede una competenza separata.</p>",
       "unidentified": {
-        "description": "<p>Questo oggetto comprende una vasta gamma di dadi, sia lisci che pesati.</p><p>Se sei competente con un set da gioco, puoi aggiungere il tuo bonus di competenza alle prove di abilità che effettui per giocare una partita con quel set. Ogni tipo di set da gioco richiede una competenza separata.</p>"
+        "description": "<p>Questo oggetto comprende una vasta gamma di dadi, sia lisci che pesati.</p><p>Se sei competente con un set da gioco, puoi aggiungere il tuo bonus di competenza alle prove di abilità che effettui per giocare una partita con quel set. Ogni tipo di set da gioco richiede una competenza separata.</p>",
+        "name": "Set di Dadi Non Identificato"
       },
       "activities": {
         "FK4JIMNtS0jqH4oH": {
@@ -4639,7 +4896,8 @@
       "name": "Carte da Gioco",
       "description": "<p>Questo articolo comprende un'ampia gamma di tipi di carte da gioco, sia non contrassegnate che contrassegnate.</p><p>Se sei competente con un set da gioco, puoi aggiungere il tuo bonus di competenza alle prove di abilità che effettui per giocare una partita con quel set. Ogni tipo di set da gioco richiede una competenza separata.</p>",
       "unidentified": {
-        "description": "<p>Questo articolo comprende un'ampia gamma di tipi di carte da gioco, sia non contrassegnate che contrassegnate.</p><p>Se sei competente con un set da gioco, puoi aggiungere il tuo bonus di competenza alle prove di abilità che effettui per giocare una partita con quel set. Ogni tipo di set da gioco richiede una competenza separata.</p>"
+        "description": "<p>Questo articolo comprende un'ampia gamma di tipi di carte da gioco, sia non contrassegnate che contrassegnate.</p><p>Se sei competente con un set da gioco, puoi aggiungere il tuo bonus di competenza alle prove di abilità che effettui per giocare una partita con quel set. Ogni tipo di set da gioco richiede una competenza separata.</p>",
+        "name": "Mazzo di Carte Non Identificato"
       },
       "activities": {
         "HkDgcxCvNAnHH6Qx": {
@@ -4777,6 +5035,13 @@
         "MZS6EZWckpKRqLp1": {
           "name": "Avvelenato e Privo di Sensi"
         }
+      }
+    },
+    "rQ6sO7HDWzqMhSI3": {
+      "_id": "rQ6sO7HDWzqMhSI3",
+      "unidentified": {
+        "name": "Pergamena Non Identificata",
+        "description": "<p>Questa pergamena contiene le parole di un singolo incantesimo, scritte in un codice mistico. Se l'incantesimo compare nella lista degli incantesimi della tua classe, puoi leggere la pergamena e lanciare l'incantesimo senza fornire alcuna componente materiale. Altrimenti, la pergamena risulta incomprensibile.</p>"
       }
     }
   }
