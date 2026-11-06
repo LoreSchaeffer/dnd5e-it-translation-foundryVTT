@@ -10,14 +10,14 @@
 | items | 885 | 149 | 42 | 694 | 0 | 547 | 1968 |
 | monsterfeatures | 252 | 0 | 66 | 186 | 0 | 143 | 759 |
 | monsters | 337 | 1 | 13 | 323 | 15 | 6781 | 6790 |
-| races | 35 | 27 | 0 | 8 | 0 | 26 | 50 |
+| races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
 | rules | 20 | 1 | 4 | 15 | 0 | 770 | 89 |
 | spells | 320 | 1 | 1 | 318 | 2 | 1185 | 1831 |
 | subclasses | 12 | 12 | 0 | 0 | 0 | 0 | 0 |
 | tables | 31 | 1 | 23 | 7 | 0 | 285 | 89 |
 | tradegoods | 23 | 19 | 0 | 4 | 0 | 0 | 8 |
 
-Total blocking issues: 13518
+Total blocking issues: 13468
 
 ## Issues
 
@@ -11472,56 +11472,6 @@ Total blocking issues: 13518
 - **missing-field** `monsters:NAISFPoNNgUCsEyW:items[RDeCoZRniQBNq0rX].system.description.chat`
 - **missing-field** `monsters:NAISFPoNNgUCsEyW:items[RDeCoZRniQBNq0rX].system.activities.nQHEt1QScDti5fhO.name`
 - **extra-entry** `monsters:Adult Blue Dracolich`
-- **html-tag-sequence** `races:K4DNDcR6vngbp0pf:system.description.value`
-- **html-attributes** `races:K4DNDcR6vngbp0pf:system.description.value`
-- **missing-field** `races:K4DNDcR6vngbp0pf:system.advancement.QIrBmvSmNOTEJLWn.title`
-- **missing-field** `races:K4DNDcR6vngbp0pf:system.advancement.QIrBmvSmNOTEJLWn.hint`
-- **missing-field** `races:K4DNDcR6vngbp0pf:system.advancement.rXLC7smebN2zPOBT.title`
-- **missing-field** `races:K4DNDcR6vngbp0pf:system.advancement.9D8XNnmTLWfzN32K.hint`
-- **missing-field** `races:K4DNDcR6vngbp0pf:system.advancement.2f4dkpTYlhOgRgxu.hint`
-- **html-tag-sequence** `races:UQiRQUTBcsz8gZU1:system.description.value`
-- **html-attributes** `races:UQiRQUTBcsz8gZU1:system.description.value`
-- **missing-field** `races:UQiRQUTBcsz8gZU1:system.advancement.kdMPoRp3j1uOHQom.hint`
-- **missing-field** `races:UQiRQUTBcsz8gZU1:system.advancement.5zWGcz9uAerx3Dh5.title`
-- **missing-field** `races:UQiRQUTBcsz8gZU1:system.advancement.J0UGmCyMy6thWDeU.title`
-- **html-tag-sequence** `races:Hye5IZwPOSwV0qRR:system.description.value`
-- **html-attributes** `races:Hye5IZwPOSwV0qRR:system.description.value`
-- **missing-field** `races:Hye5IZwPOSwV0qRR:system.advancement[r3PSgtQO6Eim49LU].hint`
-- **missing-field** `races:Hye5IZwPOSwV0qRR:system.advancement[CormRQZ5momyvS2I].title`
-- **html-tag-sequence** `races:A69KxdH1renVPrQV:system.description.value`
-- **html-attributes** `races:A69KxdH1renVPrQV:system.description.value`
-- **missing-field** `races:A69KxdH1renVPrQV:system.advancement.9SgUOZ9mjqyA8Q2d.title`
-- **missing-field** `races:A69KxdH1renVPrQV:system.advancement.l1Pw82BvhrSkYiyF.title`
-- **missing-field** `races:A69KxdH1renVPrQV:system.advancement.l1Pw82BvhrSkYiyF.hint`
-- **missing-field** `races:A69KxdH1renVPrQV:system.advancement.eqSwyWvm0gYgBzJJ.hint`
-- **missing-field** `races:A69KxdH1renVPrQV:system.advancement.eAv9eLr0ackU7WO2.title`
-- **missing-field** `races:A69KxdH1renVPrQV:system.advancement.ZwJOJ5Ywagq7rWNI.title`
-- **html-tag-sequence** `races:TZtarkKs6cgGD7z2:system.description.value`
-- **html-attributes** `races:TZtarkKs6cgGD7z2:system.description.value`
-- **missing-field** `races:TZtarkKs6cgGD7z2:system.advancement[1qwH1s1GrEC8T8Qp].hint`
-- **missing-field** `races:TZtarkKs6cgGD7z2:system.advancement[3iZH8gdahsVwLPbQ].title`
-- **html-tag-sequence** `races:ydP3QzCmur55mtY2:system.description.value`
-- **html-attributes** `races:ydP3QzCmur55mtY2:system.description.value`
-- **missing-field** `races:ydP3QzCmur55mtY2:system.advancement[dNSrZePZHz2qwVpi].hint`
-- **html-tag-sequence** `races:n5L000DkNBU6h2oJ:system.description.value`
-- **html-attributes** `races:n5L000DkNBU6h2oJ:system.description.value`
-- **missing-field** `races:n5L000DkNBU6h2oJ:system.advancement[jdak6D1rjScJSK8i].hint`
-- **missing-field** `races:n5L000DkNBU6h2oJ:system.advancement[aRv9Ec4xJCyrFMpY].title`
-- **html-tag-sequence** `races:aHTokZ151W0ASSmo:system.description.value`
-- **html-attributes** `races:aHTokZ151W0ASSmo:system.description.value`
-- **foundry-reference-count** `races:aHTokZ151W0ASSmo:system.description.value`
-- **missing-field** `races:aHTokZ151W0ASSmo:system.advancement[d8rqpB59h8lfbnva].title`
-- **missing-field** `races:aHTokZ151W0ASSmo:system.advancement[p2AP4Rn6S8A8Xu5L].title`
-- **missing-field** `races:aHTokZ151W0ASSmo:system.advancement[RdFKqK8MykC5CYIB].hint`
-- **missing-field** `races:aHTokZ151W0ASSmo:system.advancement[rE6m74Xp32VuJC5y].title`
-- **missing-field** `races:aHTokZ151W0ASSmo:system.advancement[VUUQMvAtL25wj3vD].title`
-- **extra-entry** `races:Breath Weapon`
-- **extra-entry** `races:Elf`
-- **extra-entry** `races:Gnome`
-- **extra-entry** `races:Halfling`
-- **extra-entry** `races:Dwarf`
-- **extra-entry** `races:Lightfoot`
-- **extra-entry** `races:Damage Resistance`
 - **missing-field** `rules:w7eitkpD7QQTB6j0:pages[ZOCWbO9IYvBf9WyR].name`
 - **missing-field** `rules:w7eitkpD7QQTB6j0:pages[ZOCWbO9IYvBf9WyR].text.content`
 - **missing-field** `rules:w7eitkpD7QQTB6j0:pages[0b8N4FymGGfbZGpJ].text.content`
