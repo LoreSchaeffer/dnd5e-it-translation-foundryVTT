@@ -1631,6 +1631,14 @@
         },
         {
           "pack": "items",
+          "id": "j2ZGEwx8MhHZXds4",
+          "name": "Belt of Dwarvenkind",
+          "sourcePath": "items/equipment/belt-of-dwarvenkind.yml",
+          "lookupKey": "Belt of Dwarvenkind",
+          "matchedLookupKey": "Belt of Dwarvenkind"
+        },
+        {
+          "pack": "items",
           "id": "bq9YKwEHLQ7p7ric",
           "name": "Belt of Fire Giant Strength",
           "sourcePath": "items/equipment/belt-of-fire-giant-strength.yml",
@@ -1708,6 +1716,14 @@
           "sourcePath": "items/equipment/boots-of-striding-and-springing.yml",
           "lookupKey": "Boots of Striding and Springing",
           "matchedLookupKey": "Boots of Striding and Springing"
+        },
+        {
+          "pack": "items",
+          "id": "RDPFmUR9exTEXFc8",
+          "name": "Boots of the Winterlands",
+          "sourcePath": "items/equipment/boots-of-the-winterlands.yml",
+          "lookupKey": "Boots of the Winterlands",
+          "matchedLookupKey": "Boots of the Winterlands"
         },
         {
           "pack": "items",
@@ -1919,6 +1935,14 @@
         },
         {
           "pack": "items",
+          "id": "EJVaAvNfCq6gn6VG",
+          "name": "Helm of Telepathy",
+          "sourcePath": "items/equipment/helm-of-telepathy.yml",
+          "lookupKey": "Helm of Telepathy",
+          "matchedLookupKey": "Helm of Telepathy"
+        },
+        {
+          "pack": "items",
           "id": "DEQkJiQdGyfmSNkV",
           "name": "Helm of Teleportation",
           "sourcePath": "items/equipment/helm-of-teleportation.yml",
@@ -2028,6 +2052,14 @@
           "sourcePath": "items/equipment/ioun-stone-of-sustenance.yml",
           "lookupKey": "Ioun Stone of Sustenance",
           "matchedLookupKey": "Ioun Stone of Sustenance"
+        },
+        {
+          "pack": "items",
+          "id": "oxzUb5j1TMsccGW4",
+          "name": "Mantle of Spell Resistance",
+          "sourcePath": "items/equipment/mantle-of-spell-resistance.yml",
+          "lookupKey": "Mantle of Spell Resistance",
+          "matchedLookupKey": "Mantle of Spell Resistance"
         },
         {
           "pack": "items",
@@ -6626,95 +6658,6 @@
       "manualReview": [
         {
           "pack": "items",
-          "id": "j2ZGEwx8MhHZXds4",
-          "name": "Belt of Dwarvenkind",
-          "sourcePath": "items/equipment/belt-of-dwarvenkind.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Belt of Dwarvenkind",
-          "matchedLookupKey": "Belt of Dwarvenkind",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "j2ZGEwx8MhHZXds4",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "j2ZGEwx8MhHZXds4",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "RDPFmUR9exTEXFc8",
-          "name": "Boots of the Winterlands",
-          "sourcePath": "items/equipment/boots-of-the-winterlands.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Boots of the Winterlands",
-          "matchedLookupKey": "Boots of the Winterlands",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "RDPFmUR9exTEXFc8",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "RDPFmUR9exTEXFc8",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "EJVaAvNfCq6gn6VG",
-          "name": "Helm of Telepathy",
-          "sourcePath": "items/equipment/helm-of-telepathy.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Helm of Telepathy",
-          "matchedLookupKey": "Helm of Telepathy",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "EJVaAvNfCq6gn6VG",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "EJVaAvNfCq6gn6VG",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-references",
-              "severity": "blocking",
-              "message": "Foundry reference targets or order differ from source",
-              "pack": "items",
-              "id": "EJVaAvNfCq6gn6VG",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
           "id": "jvKmgJYL33E8gev5",
           "name": "Ioun Stone of Reserve",
           "sourcePath": "items/equipment/ioun-stone-of-reserve.yml",
@@ -6736,33 +6679,6 @@
               "message": "Foundry formulas differ from source",
               "pack": "items",
               "id": "jvKmgJYL33E8gev5",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "oxzUb5j1TMsccGW4",
-          "name": "Mantle of Spell Resistance",
-          "sourcePath": "items/equipment/mantle-of-spell-resistance.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Mantle of Spell Resistance",
-          "matchedLookupKey": "Mantle of Spell Resistance",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "oxzUb5j1TMsccGW4",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "oxzUb5j1TMsccGW4",
               "fieldPath": "system.description.value"
             }
           ]

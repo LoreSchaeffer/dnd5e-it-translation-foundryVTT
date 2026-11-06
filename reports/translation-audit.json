@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1677,
+      "translated": 1681,
       "missing": 69,
-      "partial": 645,
+      "partial": 641,
       "review": 111
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 1137,
+      "invariantFailures": 1128,
       "englishResiduals": 113,
       "imperialResiduals": 2
     },
-    "blockingIssues": 7335
+    "blockingIssues": 7326
   },
   "packs": [
     {
@@ -5317,9 +5317,9 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 789,
+          "translated": 793,
           "missing": 0,
-          "partial": 96,
+          "partial": 92,
           "review": 41
         },
         "folders": {
@@ -5333,82 +5333,12 @@
           "total": 2227,
           "translated": 2227,
           "missing": 0,
-          "invariantFailures": 190,
+          "invariantFailures": 181,
           "englishResiduals": 41,
           "imperialResiduals": 2
         }
       },
       "issues": [
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "j2ZGEwx8MhHZXds4",
-          "fieldPath": "system.description.value",
-          "name": "Belt of Dwarvenkind",
-          "sourcePath": "items/equipment/belt-of-dwarvenkind.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "j2ZGEwx8MhHZXds4",
-          "fieldPath": "system.description.value",
-          "name": "Belt of Dwarvenkind",
-          "sourcePath": "items/equipment/belt-of-dwarvenkind.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "RDPFmUR9exTEXFc8",
-          "fieldPath": "system.description.value",
-          "name": "Boots of the Winterlands",
-          "sourcePath": "items/equipment/boots-of-the-winterlands.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "RDPFmUR9exTEXFc8",
-          "fieldPath": "system.description.value",
-          "name": "Boots of the Winterlands",
-          "sourcePath": "items/equipment/boots-of-the-winterlands.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "EJVaAvNfCq6gn6VG",
-          "fieldPath": "system.description.value",
-          "name": "Helm of Telepathy",
-          "sourcePath": "items/equipment/helm-of-telepathy.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "EJVaAvNfCq6gn6VG",
-          "fieldPath": "system.description.value",
-          "name": "Helm of Telepathy",
-          "sourcePath": "items/equipment/helm-of-telepathy.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "EJVaAvNfCq6gn6VG",
-          "fieldPath": "system.description.value",
-          "name": "Helm of Telepathy",
-          "sourcePath": "items/equipment/helm-of-telepathy.yml"
-        },
         {
           "code": "html-attributes",
           "severity": "blocking",
@@ -5428,26 +5358,6 @@
           "fieldPath": "system.description.value",
           "name": "Ioun Stone of Reserve",
           "sourcePath": "items/equipment/ioun-stone-of-reserve.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "oxzUb5j1TMsccGW4",
-          "fieldPath": "system.description.value",
-          "name": "Mantle of Spell Resistance",
-          "sourcePath": "items/equipment/mantle-of-spell-resistance.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "oxzUb5j1TMsccGW4",
-          "fieldPath": "system.description.value",
-          "name": "Mantle of Spell Resistance",
-          "sourcePath": "items/equipment/mantle-of-spell-resistance.yml"
         },
         {
           "code": "html-tag-sequence",
