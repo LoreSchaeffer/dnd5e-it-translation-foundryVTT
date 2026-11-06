@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1249,
+      "translated": 1252,
       "missing": 69,
-      "partial": 1073,
+      "partial": 1070,
       "review": 203
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 2010,
+      "invariantFailures": 2002,
       "englishResiduals": 118,
       "imperialResiduals": 2
     },
-    "blockingIssues": 8300
+    "blockingIssues": 8292
   },
   "packs": [
     {
@@ -76741,9 +76741,9 @@
       "summary": {
         "documents": {
           "total": 320,
-          "translated": 312,
+          "translated": 315,
           "missing": 0,
-          "partial": 8,
+          "partial": 5,
           "review": 0
         },
         "folders": {
@@ -76757,7 +76757,7 @@
           "total": 2007,
           "translated": 2007,
           "missing": 0,
-          "invariantFailures": 22,
+          "invariantFailures": 14,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
@@ -76768,26 +76768,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "spells",
-          "id": "pB7XVYwdGNcUG935",
-          "fieldPath": "system.description.value",
-          "name": "Glyph of Warding",
-          "sourcePath": "spells/3rd-level/glyph-of-warding.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "pB7XVYwdGNcUG935",
-          "fieldPath": "system.description.value",
-          "name": "Glyph of Warding",
-          "sourcePath": "spells/3rd-level/glyph-of-warding.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
           "id": "ATo0Eb63TDtnu6iA",
           "fieldPath": "system.description.value",
           "name": "Animate Objects",
@@ -76802,36 +76782,6 @@
           "fieldPath": "system.description.value",
           "name": "Animate Objects",
           "sourcePath": "spells/5th-level/animate-objects.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "a2KJHCIbY5Mi4Dmn",
-          "fieldPath": "system.description.value",
-          "name": "Arcane Hand",
-          "sourcePath": "spells/5th-level/arcane-hand.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "a2KJHCIbY5Mi4Dmn",
-          "fieldPath": "system.description.value",
-          "name": "Arcane Hand",
-          "sourcePath": "spells/5th-level/arcane-hand.yml"
-        },
-        {
-          "code": "foundry-formulas",
-          "severity": "blocking",
-          "message": "Foundry formulas differ from source",
-          "pack": "spells",
-          "id": "a2KJHCIbY5Mi4Dmn",
-          "fieldPath": "system.description.value",
-          "name": "Arcane Hand",
-          "sourcePath": "spells/5th-level/arcane-hand.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -76952,36 +76902,6 @@
           "fieldPath": "system.description.value",
           "name": "Prismatic Wall",
           "sourcePath": "spells/9th-level/prismatic-wall.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "spells",
-          "id": "3okM6Gn63zzEULkz",
-          "fieldPath": "system.description.value",
-          "name": "Wish",
-          "sourcePath": "spells/9th-level/wish.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "spells",
-          "id": "3okM6Gn63zzEULkz",
-          "fieldPath": "system.description.value",
-          "name": "Wish",
-          "sourcePath": "spells/9th-level/wish.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "spells",
-          "id": "3okM6Gn63zzEULkz",
-          "fieldPath": "system.description.value",
-          "name": "Wish",
-          "sourcePath": "spells/9th-level/wish.yml"
         }
       ]
     },

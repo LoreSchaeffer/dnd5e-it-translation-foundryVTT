@@ -951,6 +951,14 @@
         },
         {
           "pack": "spells",
+          "id": "pB7XVYwdGNcUG935",
+          "name": "Glyph of Warding",
+          "sourcePath": "spells/3rd-level/glyph-of-warding.yml",
+          "lookupKey": "Glyph of Warding",
+          "matchedLookupKey": "Glyph of Warding"
+        },
+        {
+          "pack": "spells",
           "id": "Szvk5FEVQW3uhJi5",
           "name": "Haste",
           "sourcePath": "spells/3rd-level/haste.yml",
@@ -1412,6 +1420,14 @@
           "sourcePath": "spells/5th-level/antilife-shell.yml",
           "lookupKey": "Antilife Shell",
           "matchedLookupKey": "Antilife Shell"
+        },
+        {
+          "pack": "spells",
+          "id": "a2KJHCIbY5Mi4Dmn",
+          "name": "Arcane Hand",
+          "sourcePath": "spells/5th-level/arcane-hand.yml",
+          "lookupKey": "Arcane Hand",
+          "matchedLookupKey": "Arcane Hand"
         },
         {
           "pack": "spells",
@@ -2303,6 +2319,14 @@
         },
         {
           "pack": "spells",
+          "id": "3okM6Gn63zzEULkz",
+          "name": "Wish",
+          "sourcePath": "spells/9th-level/wish.yml",
+          "lookupKey": "Wish",
+          "matchedLookupKey": "Wish"
+        },
+        {
+          "pack": "spells",
           "id": "JLTQyqXEaJDrTXyW",
           "name": "Acid Splash",
           "sourcePath": "spells/cantrip/acid-splash.yml",
@@ -2506,33 +2530,6 @@
       "manualReview": [
         {
           "pack": "spells",
-          "id": "pB7XVYwdGNcUG935",
-          "name": "Glyph of Warding",
-          "sourcePath": "spells/3rd-level/glyph-of-warding.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Glyph of Warding",
-          "matchedLookupKey": "Glyph of Warding",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "pB7XVYwdGNcUG935",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "pB7XVYwdGNcUG935",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
           "id": "ATo0Eb63TDtnu6iA",
           "name": "Animate Objects",
           "sourcePath": "spells/5th-level/animate-objects.yml",
@@ -2554,41 +2551,6 @@
               "message": "HTML attributes differ from source",
               "pack": "spells",
               "id": "ATo0Eb63TDtnu6iA",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "a2KJHCIbY5Mi4Dmn",
-          "name": "Arcane Hand",
-          "sourcePath": "spells/5th-level/arcane-hand.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Arcane Hand",
-          "matchedLookupKey": "Arcane Hand",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "a2KJHCIbY5Mi4Dmn",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "a2KJHCIbY5Mi4Dmn",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-formulas",
-              "severity": "blocking",
-              "message": "Foundry formulas differ from source",
-              "pack": "spells",
-              "id": "a2KJHCIbY5Mi4Dmn",
               "fieldPath": "system.description.value"
             }
           ]
@@ -2729,41 +2691,6 @@
               "message": "Foundry reference count differs from source",
               "pack": "spells",
               "id": "jmfu8zj4zjjzUbeh",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "spells",
-          "id": "3okM6Gn63zzEULkz",
-          "name": "Wish",
-          "sourcePath": "spells/9th-level/wish.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Wish",
-          "matchedLookupKey": "Wish",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "spells",
-              "id": "3okM6Gn63zzEULkz",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "spells",
-              "id": "3okM6Gn63zzEULkz",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "spells",
-              "id": "3okM6Gn63zzEULkz",
               "fieldPath": "system.description.value"
             }
           ]
