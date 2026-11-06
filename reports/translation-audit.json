@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1502,
+      "translated": 1553,
       "missing": 69,
-      "partial": 820,
+      "partial": 769,
       "review": 116
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 1586,
+      "invariantFailures": 1505,
       "englishResiduals": 118,
       "imperialResiduals": 2
     },
-    "blockingIssues": 7789
+    "blockingIssues": 7708
   },
   "packs": [
     {
@@ -5317,9 +5317,9 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 614,
+          "translated": 665,
           "missing": 0,
-          "partial": 271,
+          "partial": 220,
           "review": 46
         },
         "folders": {
@@ -5333,7 +5333,7 @@
           "total": 2227,
           "translated": 2227,
           "missing": 0,
-          "invariantFailures": 639,
+          "invariantFailures": 558,
           "englishResiduals": 46,
           "imperialResiduals": 2
         }
@@ -5500,16 +5500,6 @@
           "sourcePath": "items/armor/chain-shirt-armor-of-resistance.yml"
         },
         {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "ejEt6hLQxOux04lS",
-          "fieldPath": "system.description.value",
-          "name": "Demon Armor",
-          "sourcePath": "items/armor/demon-armor.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -5860,16 +5850,6 @@
           "sourcePath": "items/armor/scale-mail-armor-of-resistance.yml"
         },
         {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "M5APnDW8bKQb7fHI",
-          "fieldPath": "system.description.value",
-          "name": "Shield of Missile Attraction",
-          "sourcePath": "items/armor/shield-of-missile-attraction.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -6000,16 +5980,6 @@
           "sourcePath": "items/equipment/belt-of-dwarvenkind.yml"
         },
         {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "HLhFCDGfI8EK7uV9",
-          "fieldPath": "system.description.value",
-          "name": "Boots of Levitation",
-          "sourcePath": "items/equipment/boots-of-levitation.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -6028,96 +5998,6 @@
           "fieldPath": "system.description.value",
           "name": "Boots of the Winterlands",
           "sourcePath": "items/equipment/boots-of-the-winterlands.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "ZdcEtbtU3VkuxIFE",
-          "fieldPath": "system.description.value",
-          "name": "Brooch of Shielding",
-          "sourcePath": "items/equipment/brooch-of-shielding.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "gpHgWLsD8k2yzbfR",
-          "fieldPath": "system.description.value",
-          "name": "Cape of the Mountebank",
-          "sourcePath": "items/equipment/cape-of-the-mountebank.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "9UvWQTY5yIgkJmmb",
-          "fieldPath": "system.description.value",
-          "name": "Circlet of Blasting",
-          "sourcePath": "items/equipment/circlet-of-blasting.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "VwJjuNbBf2KHMPrY",
-          "fieldPath": "system.description.value",
-          "name": "Cloak of Arachnida",
-          "sourcePath": "items/equipment/cloak-of-arachnida.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "Aq1rhgcgFnwu2T4I",
-          "fieldPath": "system.description.value",
-          "name": "Cloak of the Bat",
-          "sourcePath": "items/equipment/cloak-of-the-bat.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "8dfhaa1g3VDjhtm3",
-          "fieldPath": "system.description.value",
-          "name": "Eyes of Charming",
-          "sourcePath": "items/equipment/eyes-of-charming.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "dQxqcjDm0IxYusCV",
-          "fieldPath": "system.description.value",
-          "name": "Hat of Disguise",
-          "sourcePath": "items/equipment/hat-of-disguise.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "rhGulc3gEJhnuP31",
-          "fieldPath": "system.description.value",
-          "name": "Helm of Brilliance",
-          "sourcePath": "items/equipment/helm-of-brilliance.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "rY9sRFQp5CFSfsat",
-          "fieldPath": "system.description.value",
-          "name": "Helm of Comprehending Languages",
-          "sourcePath": "items/equipment/helm-of-comprehending-languages.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -6148,16 +6028,6 @@
           "fieldPath": "system.description.value",
           "name": "Helm of Telepathy",
           "sourcePath": "items/equipment/helm-of-telepathy.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "DEQkJiQdGyfmSNkV",
-          "fieldPath": "system.description.value",
-          "name": "Helm of Teleportation",
-          "sourcePath": "items/equipment/helm-of-teleportation.yml"
         },
         {
           "code": "html-attributes",
@@ -6200,26 +6070,6 @@
           "sourcePath": "items/equipment/mantle-of-spell-resistance.yml"
         },
         {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "skoUe223EvRYGPL6",
-          "fieldPath": "system.description.value",
-          "name": "Medallion of Thoughts",
-          "sourcePath": "items/equipment/medallion-of-thoughts.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "wwNpAz2KMukovewN",
-          "fieldPath": "system.description.value",
-          "name": "Necklace of Adaptation",
-          "sourcePath": "items/equipment/necklace-of-adaptation.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -6278,26 +6128,6 @@
           "fieldPath": "system.description.value",
           "name": "Orb of Dragonkind",
           "sourcePath": "items/equipment/orb-of-dragonkind.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "U74TPNQLJZbHJyCk",
-          "fieldPath": "system.description.value",
-          "name": "Robe of Eyes",
-          "sourcePath": "items/equipment/robe-of-eyes.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "66UkbfH0PVwo4HgA",
-          "fieldPath": "system.description.value",
-          "name": "Robe of Stars",
-          "sourcePath": "items/equipment/robe-of-stars.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -6828,16 +6658,6 @@
           "fieldPath": "system.description.value",
           "name": "Potion of Animal Friendship",
           "sourcePath": "items/potion/potion-of-animal-friendship.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "bAyr7j5Peq9wIJTa",
-          "fieldPath": "system.description.value",
-          "name": "Potion of Clairvoyance",
-          "sourcePath": "items/potion/potion-of-clairvoyance.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -8120,16 +7940,6 @@
           "sourcePath": "items/ring/ring-of-acid-resistance.yml"
         },
         {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "ElLfmohtIFMagr5f",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Animal Influence",
-          "sourcePath": "items/ring/ring-of-animal-influence.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -8158,76 +7968,6 @@
           "fieldPath": "system.description.value",
           "name": "Ring of Cold Resistance",
           "sourcePath": "items/ring/ring-of-cold-resistance.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "hdlBOEbEjiwUjTW5",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Djinni Summoning",
-          "sourcePath": "items/ring/ring-of-djinni-summoning.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "hdlBOEbEjiwUjTW5",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Djinni Summoning",
-          "sourcePath": "items/ring/ring-of-djinni-summoning.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "Zf7kBZa5f4WBepn1",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Earth Elemental Command",
-          "sourcePath": "items/ring/ring-of-earth-elemental-command.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "Zf7kBZa5f4WBepn1",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Earth Elemental Command",
-          "sourcePath": "items/ring/ring-of-earth-elemental-command.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "L9KBLub5vfb3mTDz",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Fire Elemental Command",
-          "sourcePath": "items/ring/ring-of-fire-elemental-command.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "L9KBLub5vfb3mTDz",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Fire Elemental Command",
-          "sourcePath": "items/ring/ring-of-fire-elemental-command.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "L9KBLub5vfb3mTDz",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Fire Elemental Command",
-          "sourcePath": "items/ring/ring-of-fire-elemental-command.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -8288,26 +8028,6 @@
           "fieldPath": "system.description.value",
           "name": "Ring of Force Resistance",
           "sourcePath": "items/ring/ring-of-force-resistance.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "x7LfMrLafLKfemGH",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Jumping",
-          "sourcePath": "items/ring/ring-of-jumping.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "x7LfMrLafLKfemGH",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Jumping",
-          "sourcePath": "items/ring/ring-of-jumping.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -8531,26 +8251,6 @@
           "sourcePath": "items/ring/ring-of-shooting-stars.yml"
         },
         {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "hxfOtvFrY1PXHQN1",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Telekinesis",
-          "sourcePath": "items/ring/ring-of-telekinesis.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "hxfOtvFrY1PXHQN1",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Telekinesis",
-          "sourcePath": "items/ring/ring-of-telekinesis.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -8592,16 +8292,6 @@
           "sourcePath": "items/ring/ring-of-the-ram.yml"
         },
         {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "ewXgnWiYQhS8KArS",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Three Wishes",
-          "sourcePath": "items/ring/ring-of-three-wishes.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -8632,26 +8322,6 @@
           "sourcePath": "items/ring/ring-of-thunder-resistance.yml"
         },
         {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "HnIERWmmra74hSCw",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Water Elemental Command",
-          "sourcePath": "items/ring/ring-of-water-elemental-command.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "HnIERWmmra74hSCw",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Water Elemental Command",
-          "sourcePath": "items/ring/ring-of-water-elemental-command.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -8670,26 +8340,6 @@
           "fieldPath": "system.description.value",
           "name": "Rod of Absorption",
           "sourcePath": "items/rod/rod-of-absorption.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "Do3qeSHtBjUsmfvz",
-          "fieldPath": "system.description.value",
-          "name": "Rod of Alertness",
-          "sourcePath": "items/rod/rod-of-alertness.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "Do3qeSHtBjUsmfvz",
-          "fieldPath": "system.description.value",
-          "name": "Rod of Alertness",
-          "sourcePath": "items/rod/rod-of-alertness.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -8965,26 +8615,6 @@
           "sourcePath": "items/trinket/bead-of-force.yml"
         },
         {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "rRMaaGZ7qbzqMvoI",
-          "fieldPath": "system.description.value",
-          "name": "Bowl of Commanding Water Elementals",
-          "sourcePath": "items/trinket/bowl-of-commanding-water-elementals.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "rRMaaGZ7qbzqMvoI",
-          "fieldPath": "system.description.value",
-          "name": "Bowl of Commanding Water Elementals",
-          "sourcePath": "items/trinket/bowl-of-commanding-water-elementals.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -9033,26 +8663,6 @@
           "fieldPath": "system.description.value",
           "name": "Brass Horn of Valhalla",
           "sourcePath": "items/trinket/brass-horn-of-valhalla.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "OcjcplcUWH07Kn9k",
-          "fieldPath": "system.description.value",
-          "name": "Brazier of Commanding Fire Elementals",
-          "sourcePath": "items/trinket/brazier-of-commanding-fire-elementals.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "OcjcplcUWH07Kn9k",
-          "fieldPath": "system.description.value",
-          "name": "Brazier of Commanding Fire Elementals",
-          "sourcePath": "items/trinket/brazier-of-commanding-fire-elementals.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -9139,106 +8749,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "items",
-          "id": "sXEkkTDXWQDUMzsC",
-          "fieldPath": "system.description.value",
-          "name": "Censer of Controlling Air Elementals",
-          "sourcePath": "items/trinket/censer-of-controlling-air-elementals.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "sXEkkTDXWQDUMzsC",
-          "fieldPath": "system.description.value",
-          "name": "Censer of Controlling Air Elementals",
-          "sourcePath": "items/trinket/censer-of-controlling-air-elementals.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "sXEkkTDXWQDUMzsC",
-          "fieldPath": "system.description.value",
-          "name": "Censer of Controlling Air Elementals",
-          "sourcePath": "items/trinket/censer-of-controlling-air-elementals.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "TwYeck6buBZ602mg",
-          "fieldPath": "system.description.value",
-          "name": "Crystal Ball of Mind Reading",
-          "sourcePath": "items/trinket/crystal-ball-of-mind-reading.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "5KiRtMMSTnJmMtBr",
-          "fieldPath": "system.description.value",
-          "name": "Crystal Ball of Telepathy",
-          "sourcePath": "items/trinket/crystal-ball-of-telepathy.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "ADH0UZ8bf7Op0dgf",
-          "fieldPath": "system.description.value",
-          "name": "Crystal Ball of True Seeing",
-          "sourcePath": "items/trinket/crystal-ball-of-true-seeing.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "ItoGjtOtDOQ2noNM",
-          "fieldPath": "system.description.value",
-          "name": "Crystal Ball",
-          "sourcePath": "items/trinket/crystal-ball.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "s4fR8bxQGSt4wbH7",
-          "fieldPath": "system.description.value",
-          "name": "Cube of Force",
-          "sourcePath": "items/trinket/cube-of-force.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "s4fR8bxQGSt4wbH7",
-          "fieldPath": "system.description.value",
-          "name": "Cube of Force",
-          "sourcePath": "items/trinket/cube-of-force.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "6ai1pEde3iQX30Fr",
-          "fieldPath": "system.description.value",
-          "name": "Cubic Gate",
-          "sourcePath": "items/trinket/cubic-gate.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
           "id": "Wk7EOYoY3b2tgGoS",
           "fieldPath": "system.description.value",
           "name": "Deck of Illusions",
@@ -9315,136 +8825,6 @@
           "sourcePath": "items/trinket/deck-of-many-things.yml"
         },
         {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "9eyZY9tL3fXD1Mbm",
-          "fieldPath": "system.description.value",
-          "name": "Dust of Sneezing and Choking",
-          "sourcePath": "items/trinket/dust-of-sneezing-and-choking.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "zDJ4oEt5HArN1xmP",
-          "fieldPath": "system.description.value",
-          "name": "Elemental Gem of Air",
-          "sourcePath": "items/trinket/elemental-gem-of-air.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "zDJ4oEt5HArN1xmP",
-          "fieldPath": "system.description.value",
-          "name": "Elemental Gem of Air",
-          "sourcePath": "items/trinket/elemental-gem-of-air.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "zDJ4oEt5HArN1xmP",
-          "fieldPath": "system.description.value",
-          "name": "Elemental Gem of Air",
-          "sourcePath": "items/trinket/elemental-gem-of-air.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "IGwDN9gtYxCrlrCr",
-          "fieldPath": "system.description.value",
-          "name": "Elemental Gem of Earth",
-          "sourcePath": "items/trinket/elemental-gem-of-earth.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "IGwDN9gtYxCrlrCr",
-          "fieldPath": "system.description.value",
-          "name": "Elemental Gem of Earth",
-          "sourcePath": "items/trinket/elemental-gem-of-earth.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "IGwDN9gtYxCrlrCr",
-          "fieldPath": "system.description.value",
-          "name": "Elemental Gem of Earth",
-          "sourcePath": "items/trinket/elemental-gem-of-earth.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "dsjke4vPPsc9gsxH",
-          "fieldPath": "system.description.value",
-          "name": "Elemental Gem of Fire",
-          "sourcePath": "items/trinket/elemental-gem-of-fire.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "dsjke4vPPsc9gsxH",
-          "fieldPath": "system.description.value",
-          "name": "Elemental Gem of Fire",
-          "sourcePath": "items/trinket/elemental-gem-of-fire.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "dsjke4vPPsc9gsxH",
-          "fieldPath": "system.description.value",
-          "name": "Elemental Gem of Fire",
-          "sourcePath": "items/trinket/elemental-gem-of-fire.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "HLEhnzLbpRbYdAHo",
-          "fieldPath": "system.description.value",
-          "name": "Elemental Gem of Water",
-          "sourcePath": "items/trinket/elemental-gem-of-water.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "HLEhnzLbpRbYdAHo",
-          "fieldPath": "system.description.value",
-          "name": "Elemental Gem of Water",
-          "sourcePath": "items/trinket/elemental-gem-of-water.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "HLEhnzLbpRbYdAHo",
-          "fieldPath": "system.description.value",
-          "name": "Elemental Gem of Water",
-          "sourcePath": "items/trinket/elemental-gem-of-water.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -9623,16 +9003,6 @@
           "fieldPath": "system.description.value",
           "name": "Feather Token Whip",
           "sourcePath": "items/trinket/feather-token-whip.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "9stfX2i2I1YPo8vx",
-          "fieldPath": "system.description.value",
-          "name": "Instant Fortress",
-          "sourcePath": "items/trinket/instant-fortress.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -9920,66 +9290,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "items",
-          "id": "2YNqk5zm9jDTvd7q",
-          "fieldPath": "system.description.value",
-          "name": "Sphere of Annihilation",
-          "sourcePath": "items/trinket/sphere-of-annihilation.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "2YNqk5zm9jDTvd7q",
-          "fieldPath": "system.description.value",
-          "name": "Sphere of Annihilation",
-          "sourcePath": "items/trinket/sphere-of-annihilation.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "items",
-          "id": "2YNqk5zm9jDTvd7q",
-          "fieldPath": "system.description.value",
-          "name": "Sphere of Annihilation",
-          "sourcePath": "items/trinket/sphere-of-annihilation.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "TWFS1BtruQeE10BY",
-          "fieldPath": "system.description.value",
-          "name": "Stone of Controlling Earth Elementals",
-          "sourcePath": "items/trinket/stone-of-controlling-earth-elementals.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "TWFS1BtruQeE10BY",
-          "fieldPath": "system.description.value",
-          "name": "Stone of Controlling Earth Elementals",
-          "sourcePath": "items/trinket/stone-of-controlling-earth-elementals.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "TWFS1BtruQeE10BY",
-          "fieldPath": "system.description.value",
-          "name": "Stone of Controlling Earth Elementals",
-          "sourcePath": "items/trinket/stone-of-controlling-earth-elementals.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
           "id": "46ikeR4RrSim6DsN",
           "fieldPath": "system.description.value",
           "name": "Talisman of the Sphere",
@@ -10014,16 +9324,6 @@
           "fieldPath": "system.description.value",
           "name": "Talisman of the Sphere",
           "sourcePath": "items/trinket/talisman-of-the-sphere.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "mYFfH24uzuKh4IPS",
-          "fieldPath": "system.description.value",
-          "name": "Wind Fan",
-          "sourcePath": "items/trinket/wind-fan.yml"
         },
         {
           "code": "html-attributes",
@@ -10979,106 +10279,6 @@
           "fieldPath": "system.description.value",
           "name": "Longsword",
           "sourcePath": "items/weapon/longsword.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "fWR9EFEjR0JtFdCC",
-          "fieldPath": "system.description.value",
-          "name": "Luck Blade Greatsword",
-          "sourcePath": "items/weapon/luck-blade-greatsword.yml"
-        },
-        {
-          "code": "foundry-formulas",
-          "severity": "blocking",
-          "message": "Foundry formulas differ from source",
-          "pack": "items",
-          "id": "fWR9EFEjR0JtFdCC",
-          "fieldPath": "system.description.value",
-          "name": "Luck Blade Greatsword",
-          "sourcePath": "items/weapon/luck-blade-greatsword.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "X6PHssSGnwiJRgcx",
-          "fieldPath": "system.description.value",
-          "name": "Luck Blade Longsword",
-          "sourcePath": "items/weapon/luck-blade-longsword.yml"
-        },
-        {
-          "code": "foundry-formulas",
-          "severity": "blocking",
-          "message": "Foundry formulas differ from source",
-          "pack": "items",
-          "id": "X6PHssSGnwiJRgcx",
-          "fieldPath": "system.description.value",
-          "name": "Luck Blade Longsword",
-          "sourcePath": "items/weapon/luck-blade-longsword.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "qGH7YqWhi0tHisMi",
-          "fieldPath": "system.description.value",
-          "name": "Luck Blade Rapier",
-          "sourcePath": "items/weapon/luck-blade-rapier.yml"
-        },
-        {
-          "code": "foundry-formulas",
-          "severity": "blocking",
-          "message": "Foundry formulas differ from source",
-          "pack": "items",
-          "id": "qGH7YqWhi0tHisMi",
-          "fieldPath": "system.description.value",
-          "name": "Luck Blade Rapier",
-          "sourcePath": "items/weapon/luck-blade-rapier.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "E7c4zpWdYgkKDHGo",
-          "fieldPath": "system.description.value",
-          "name": "Luck Blade Scimitar",
-          "sourcePath": "items/weapon/luck-blade-scimitar.yml"
-        },
-        {
-          "code": "foundry-formulas",
-          "severity": "blocking",
-          "message": "Foundry formulas differ from source",
-          "pack": "items",
-          "id": "E7c4zpWdYgkKDHGo",
-          "fieldPath": "system.description.value",
-          "name": "Luck Blade Scimitar",
-          "sourcePath": "items/weapon/luck-blade-scimitar.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "nL0Y0X8SjF58OmBM",
-          "fieldPath": "system.description.value",
-          "name": "Luck Blade Shortsword",
-          "sourcePath": "items/weapon/luck-blade-shortsword.yml"
-        },
-        {
-          "code": "foundry-formulas",
-          "severity": "blocking",
-          "message": "Foundry formulas differ from source",
-          "pack": "items",
-          "id": "nL0Y0X8SjF58OmBM",
-          "fieldPath": "system.description.value",
-          "name": "Luck Blade Shortsword",
-          "sourcePath": "items/weapon/luck-blade-shortsword.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -11823,16 +11023,6 @@
           "fieldPath": "system.description.value",
           "name": "Staff of Withering",
           "sourcePath": "items/weapon/staff-of-withering.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "o4Irx3hHiD3FnPbL",
-          "fieldPath": "system.description.value",
-          "name": "Trident of Fish Command",
-          "sourcePath": "items/weapon/trident-of-fish-command.yml"
         },
         {
           "code": "html-tag-sequence",

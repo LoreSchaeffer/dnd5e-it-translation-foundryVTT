@@ -153,6 +153,17 @@ test("rebaseInvariantTokens restores source HTML and mechanics while retaining I
   );
 });
 
+test("rebaseInvariantTokens does not duplicate an equivalent legacy compendium reference", () => {
+  const source = "<p>Cast @UUID[Compendium.dnd5e.spells.Item.abc]{Magic Spell}.</p>";
+  const legacy = "<p>Lancia @Compendium[dnd5e.spells.abc]{Incantesimo Magico}.</p>";
+  const referenceLabels = new Map([["Compendium.dnd5e.spells.Item.abc", "Incantesimo Magico"]]);
+
+  assert.equal(
+    rebaseInvariantTokens(source, legacy, { referenceLabels }),
+    "<p>Lancia @UUID[Compendium.dnd5e.spells.Item.abc]{Incantesimo Magico}.</p>"
+  );
+});
+
 test("rebaseInvariantTokens refuses incompatible HTML shape", () => {
   assert.equal(rebaseInvariantTokens("<p><strong>Rule</strong> Tail</p>", "<p>Regola</p>"), null);
 });

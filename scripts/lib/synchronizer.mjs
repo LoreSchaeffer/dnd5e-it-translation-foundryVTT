@@ -246,9 +246,10 @@ function injectMissingReferences(source, translation, referenceLabels) {
   const expression = /@(UUID|Compendium|Embed|Check|Save|Damage|Template|Condition)\[([^\]]*)\](?:\{([^{}]*)\})?/gi;
   const sourceReferences = [...source.matchAll(expression)];
   const translatedTargets = new Set([...translation.matchAll(expression)].map(match => match[2]));
+  const translatedIds = new Set([...translatedTargets].map(target => target.split(".").at(-1)));
   let output = translation;
   for (const reference of sourceReferences) {
-    if (translatedTargets.has(reference[2])) continue;
+    if (translatedTargets.has(reference[2]) || translatedIds.has(reference[2].split(".").at(-1))) continue;
     const label = referenceLabels.get(reference[2]) ?? referenceLabels.get(reference[2].split(".").at(-1));
     if (!label) return translation;
     const occurrences = [...output.matchAll(new RegExp(accentTolerantPattern(label), "giu"))];
@@ -257,6 +258,7 @@ function injectMissingReferences(source, translation, referenceLabels) {
       + `@${reference[1]}[${reference[2]}]{${occurrences[0][0]}}`
       + output.slice(occurrences[0].index + occurrences[0][0].length);
     translatedTargets.add(reference[2]);
+    translatedIds.add(reference[2].split(".").at(-1));
   }
   return output;
 }
