@@ -76,7 +76,7 @@
     },
     "Acid (vial)": {
       "name": "Acido (fiala)",
-      "description": "<div title=\"Page 148\"><div><div><p>Con un'azione, il personaggio può spruzzare il contenuto di questa fiala su una creatura situata entro 1,5 metri da lui o lanciarla fino a 6 metri di distanza (la fiala si frantumerà all'impatto). In ogni caso, il personaggio effettua un attacco a distanza contro una creatura o un oggetto, considerando l'acido come un'arma improvvisata. Se la fiala d'acido colpisce il bersaglio, quest'ultimo subisce 2d6 danni da acido.</p></div></div></div>",
+      "description": "<p>Come azione, puoi spruzzare il contenuto di questa fiala su una creatura entro 1,5 metri da te oppure lanciare la fiala fino a [[lookup @labels.description.range activity=6wCdPWZTzKh8mN0m]], facendola frantumare all'impatto. In entrambi i casi, effettua un attacco a distanza contro una creatura o un oggetto, considerando l'acido un'arma improvvisata. Se colpisce, il bersaglio subisce 2d6 danni da acido.</p>",
       "activities": {
         "6wCdPWZTzKh8mN0m": {
           "description": {
@@ -119,7 +119,7 @@
     },
     "Alchemist's Fire": {
       "name": "Fuoco dell'Alchimista",
-      "description": "<div title=\"Page 151\"><div><div><p>Questo fluido adesivo e gommoso si infiamma quando è esposto all'aria. Con un'azione, il personaggio può lanciare questa ampolla fino 6 metri di distanza (l'ampolla si frantumerà all'impatto). Il personaggio effettua un attacco a distanza contro una creatura o un oggetto, considerando il fuoco dell'alchimista come arma improvvisata. Se colpisce il bersaglio, esso subisce 1d4 danni da fuoco all'inizio di ogni suo turno. Una creatura può terminare questi danni usando un'azione per effettuare una prova di Destrezza con CD 10 al fine di estinguere le fiamme.</p></div></div></div>",
+      "description": "<p>Questo fluido denso e adesivo si incendia quando viene esposto all'aria. Come azione, puoi lanciare questa ampolla fino a [[lookup @labels.description.range activity=fEkrHFEJKXhIwljC]], facendola frantumare all'impatto. Effettua un attacco a distanza contro una creatura o un oggetto, considerando il fuoco dell'alchimista un'arma improvvisata. Se colpisce, il bersaglio subisce 1d4 danni da fuoco all'inizio di ogni suo turno. Una creatura può porre fine a questi danni usando la sua azione per effettuare una prova di Destrezza con CD 10 e spegnere le fiamme.</p>",
       "effects": {
         "qAc1etkfUQkCbmTM": {
           "name": "Ricoperto di Fuoco dell'Alchimista",
@@ -188,7 +188,7 @@
     },
     "Antitoxin": {
       "name": "Antitossina",
-      "description": "<p>Una creatura che beve questa fiala di lìquìdo, dispone di vantaggio ai tiri salvezza contro veleno per 1 ora. Non conferisce alcun beneficio ai costrutti o ai non morti</p>",
+      "description": "<p>Una creatura che beve questa fiala di liquido dispone di vantaggio ai tiri salvezza contro il veleno per [[lookup @labels.duration activity=aSEhgvHgQF5LiEsf]]. Non conferisce alcun beneficio ai non morti o ai costrutti.</p>",
       "activities": {
         "aSEhgvHgQF5LiEsf": {
           "name": "Bevi"
@@ -283,7 +283,7 @@
     },
     "Basic Poison": {
       "name": "Veleno Base (fiala)",
-      "description": "<p>Puoi usare il veleno in questa fiala per coprire un’arma tagliente o perforante o fino a tre pezzi di munizioni. Applicare il veleno necessita un’azione. Una creatura colpita da un’arma o munizione avvelenata deve superare un tiro salvezza su Costituzione con CD 10 o subire 1d4 danni da veleno. Una volta applicato, il veleno mantiene la sua efficacia per 1 minuto prima di seccarsi.</p>"
+      "description": "<p>Puoi usare il veleno contenuto in questa fiala per ricoprire un'arma tagliente o perforante, oppure fino a tre munizioni. Applicare il veleno richiede un'azione. Una creatura colpita dall'arma o dalla munizione avvelenata deve effettuare un tiro salvezza [[/save]], altrimenti subisce [[/damage]] danni. Una volta applicato, il veleno conserva la sua efficacia per 1 minuto prima di seccarsi.</p>"
     },
     "Basket": {
       "name": "Cesta",
@@ -2937,7 +2937,7 @@
     },
     "Potion of Poison": {
       "name": "Pozione di Veleno",
-      "description": "<p><em>Questa miscela sembra, odora e sa di pozione di guarigione o altra pozione benefica.</em></p><div title=\"Page 31\"><div><div><p>Questo distillato assomiglia, odora e ha il sapore di una pozione di guarigione o di un’altra pozione benefica. Tuttavia è in realtà un veleno mascherato da magie di illusione. L’incantesimo identificare ne rivela la vera natura.</p><p>Se lo bevi, subisci 3d6 danni da veleno, e devi superare un tiro salvezza di Costituzione con CD 13 o restare avvelenato. All’inizio di ciascun tuo turno, finché resti avvelenato a questo modo, subisci 3d6 danni da veleno. Puoi ripetere il tiro salvezza al termine di ciascun tuo turno. Se il tiro salvezza riesce, il danno da veleno subito nei turni successivi diminuisce di 1d6. Il veleno cessa i suoi effetti quando il danno scende a 0d6.</p></div></div></div>",
+      "description": "<p><em>Questo intruglio ha l'aspetto, l'odore e il sapore di una pozione di guarigione o di un'altra pozione benefica.</em></p><p>In realtà è un veleno mascherato dalla magia di illusione. Un incantesimo identificare ne rivela la vera natura.</p><p>Se lo bevi, subisci [[/damage]] danni e devi superare un tiro salvezza [[/save]], altrimenti sei &amp;Reference[poisoned apply=false]{avvelenato}. All'inizio di ogni tuo turno, finché sei avvelenato in questo modo, subisci [[/damage]] danni. Alla fine di ogni tuo turno puoi ripetere il tiro salvezza. Se lo superi, i danni da veleno che subisci nei turni successivi diminuiscono di 1d6. Il veleno termina quando i danni scendono a 0.</p><section id=\"secret-zrLCcwvOwukVWTvT\" class=\"secret\"><p>Per comodità, puoi usare questi elementi interattivi ([[/damage 2d6 poison]] o [[/damage 1d6 poison]]) per effettuare il tiro dei danni ridotti.</p></section>",
       "effects": {
         "be3nxDanNX7bg2dn": {
           "name": "Avvelenato"
@@ -4237,7 +4237,7 @@
     },
     "Truth Serum": {
       "name": "Siero della Verità",
-      "description": "<p><em>(ingerito)</em></p>\n<p>Una creatura sottoposta a questo veleno deve riuscire in un <strong>Tiro Salvezza su Costituzione con CD 11</strong> o diventare @Compendium[dnd5e.rules.Avvelenato]{Avvelenata} per <strong>1 ora</strong>. La creatura @Compendium[dnd5e.rules.Avvelenato]{Avvelenata} non può dire consapevolmente una bugia, come se fosse sotto l'effetto dell'incantesimo @Compendium[dnd5e.spells.Zona di Verità].</p>",
+      "description": "<p>Una creatura soggetta a questo veleno deve superare un tiro salvezza [[/save]], altrimenti diventa &amp;Reference[poisoned apply=false]{avvelenata} per 1 ora. La creatura avvelenata non può pronunciare consapevolmente una menzogna, come se fosse sotto l'effetto di un incantesimo @UUID[Compendium.dnd5e.spells.Item.CylBa7jR8DSbo8Z3]{Zona di Verità}.</p>",
       "effects": {
         "XJxOfIIj9oraLfCb": {
           "name": "Non Può Mentire",

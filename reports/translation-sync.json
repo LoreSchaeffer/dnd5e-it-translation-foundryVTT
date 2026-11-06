@@ -2511,6 +2511,14 @@
         },
         {
           "pack": "items",
+          "id": "eVbPkYjpl29RE2uW",
+          "name": "Basic Poison",
+          "sourcePath": "items/poison/basic-poison.yml",
+          "lookupKey": "Basic Poison",
+          "matchedLookupKey": "Basic Poison"
+        },
+        {
+          "pack": "items",
           "id": "Neh9udRZHj0Bg9EH",
           "name": "Burnt Othur Fumes",
           "sourcePath": "items/poison/burnt-othur-fumes.yml",
@@ -2575,6 +2583,14 @@
         },
         {
           "pack": "items",
+          "id": "qBSEGJyHxdKIlBfj",
+          "name": "Potion of Poison",
+          "sourcePath": "items/poison/potion-of-poison.yml",
+          "lookupKey": "Potion of Poison",
+          "matchedLookupKey": "Potion of Poison"
+        },
+        {
+          "pack": "items",
           "id": "PWUGVaKaYHkvNMDr",
           "name": "Purple Worm Poison",
           "sourcePath": "items/poison/purple-worm-poison.yml",
@@ -2599,11 +2615,43 @@
         },
         {
           "pack": "items",
+          "id": "a86F565Pjdzym1jH",
+          "name": "Truth Serum",
+          "sourcePath": "items/poison/truth-serum.yml",
+          "lookupKey": "Truth Serum",
+          "matchedLookupKey": "Truth Serum"
+        },
+        {
+          "pack": "items",
           "id": "tJC6SG4kAO2Vt4Qd",
           "name": "Wyvern Poison",
           "sourcePath": "items/poison/wyvern-poison.yml",
           "lookupKey": "tJC6SG4kAO2Vt4Qd",
           "matchedLookupKey": "tJC6SG4kAO2Vt4Qd"
+        },
+        {
+          "pack": "items",
+          "id": "Sx5E6utixHdAbGNb",
+          "name": "Acid (vial)",
+          "sourcePath": "items/potion/acid-vial.yml",
+          "lookupKey": "Acid (vial)",
+          "matchedLookupKey": "Acid (vial)"
+        },
+        {
+          "pack": "items",
+          "id": "FvNOwWbh5FXyX4xe",
+          "name": "Alchemist's Fire",
+          "sourcePath": "items/potion/alchemists-fire.yml",
+          "lookupKey": "Alchemist's Fire",
+          "matchedLookupKey": "Alchemist's Fire"
+        },
+        {
+          "pack": "items",
+          "id": "Fc6UfFNOnW80XMzi",
+          "name": "Antitoxin",
+          "sourcePath": "items/potion/antitoxin.yml",
+          "lookupKey": "Antitoxin",
+          "matchedLookupKey": "Antitoxin"
         },
         {
           "pack": "items",
@@ -6881,232 +6929,6 @@
               "message": "Foundry formulas differ from source",
               "pack": "items",
               "id": "2ksm2KXCY3vBHTAx",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "eVbPkYjpl29RE2uW",
-          "name": "Basic Poison",
-          "sourcePath": "items/poison/basic-poison.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Basic Poison",
-          "matchedLookupKey": "Basic Poison",
-          "diagnostics": [
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "eVbPkYjpl29RE2uW",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-formulas",
-              "severity": "blocking",
-              "message": "Foundry formulas differ from source",
-              "pack": "items",
-              "id": "eVbPkYjpl29RE2uW",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "qBSEGJyHxdKIlBfj",
-          "name": "Potion of Poison",
-          "sourcePath": "items/poison/potion-of-poison.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Potion of Poison",
-          "matchedLookupKey": "Potion of Poison",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "qBSEGJyHxdKIlBfj",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "qBSEGJyHxdKIlBfj",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "qBSEGJyHxdKIlBfj",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-formulas",
-              "severity": "blocking",
-              "message": "Foundry formulas differ from source",
-              "pack": "items",
-              "id": "qBSEGJyHxdKIlBfj",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "a86F565Pjdzym1jH",
-          "name": "Truth Serum",
-          "sourcePath": "items/poison/truth-serum.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Truth Serum",
-          "matchedLookupKey": "Truth Serum",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "a86F565Pjdzym1jH",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "a86F565Pjdzym1jH",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "items",
-              "id": "a86F565Pjdzym1jH",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "a86F565Pjdzym1jH",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "Sx5E6utixHdAbGNb",
-          "name": "Acid (vial)",
-          "sourcePath": "items/potion/acid-vial.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Acid (vial)",
-          "matchedLookupKey": "Acid (vial)",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "Sx5E6utixHdAbGNb",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "Sx5E6utixHdAbGNb",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "Sx5E6utixHdAbGNb",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-data-references",
-              "severity": "blocking",
-              "message": "Foundry data references differ from source",
-              "pack": "items",
-              "id": "Sx5E6utixHdAbGNb",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "FvNOwWbh5FXyX4xe",
-          "name": "Alchemist's Fire",
-          "sourcePath": "items/potion/alchemists-fire.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Alchemist's Fire",
-          "matchedLookupKey": "Alchemist's Fire",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "FvNOwWbh5FXyX4xe",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "FvNOwWbh5FXyX4xe",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "FvNOwWbh5FXyX4xe",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-data-references",
-              "severity": "blocking",
-              "message": "Foundry data references differ from source",
-              "pack": "items",
-              "id": "FvNOwWbh5FXyX4xe",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "Fc6UfFNOnW80XMzi",
-          "name": "Antitoxin",
-          "sourcePath": "items/potion/antitoxin.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Antitoxin",
-          "matchedLookupKey": "Antitoxin",
-          "diagnostics": [
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "Fc6UfFNOnW80XMzi",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-data-references",
-              "severity": "blocking",
-              "message": "Foundry data references differ from source",
-              "pack": "items",
-              "id": "Fc6UfFNOnW80XMzi",
               "fieldPath": "system.description.value"
             }
           ]
