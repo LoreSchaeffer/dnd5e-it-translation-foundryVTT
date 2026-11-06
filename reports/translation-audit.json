@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 930,
+      "translated": 931,
       "missing": 77,
-      "partial": 1384,
+      "partial": 1383,
       "review": 213
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 8898,
-      "missing": 6762,
+      "translated": 8912,
+      "missing": 6748,
       "invariantFailures": 2394,
       "englishResiduals": 135,
       "imperialResiduals": 4
     },
-    "blockingIssues": 9275
+    "blockingIssues": 9261
   },
   "packs": [
     {
@@ -5317,9 +5317,9 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 326,
+          "translated": 327,
           "missing": 0,
-          "partial": 559,
+          "partial": 558,
           "review": 133
         },
         "folders": {
@@ -5331,8 +5331,8 @@
         },
         "fields": {
           "total": 2227,
-          "translated": 2171,
-          "missing": 56,
+          "translated": 2185,
+          "missing": 42,
           "invariantFailures": 1041,
           "englishResiduals": 46,
           "imperialResiduals": 2
@@ -8003,36 +8003,9 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "items",
-          "id": "Neh9udRZHj0Bg9EH",
-          "name": "Burnt Othur Fumes",
-          "fieldPath": "system.activities.dnd5eactivity000.name",
-          "sourcePath": "items/poison/burnt-othur-fumes.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "Neh9udRZHj0Bg9EH",
-          "name": "Burnt Othur Fumes",
-          "fieldPath": "system.activities.699G3YGOfe67nPbM.name",
-          "sourcePath": "items/poison/burnt-othur-fumes.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
           "id": "B018Yhz1M7Np8JCW",
           "name": "Crawler Mucus",
           "fieldPath": "system.description.value",
-          "sourcePath": "items/poison/crawler-mucus.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "B018Yhz1M7Np8JCW",
-          "name": "Crawler Mucus",
-          "fieldPath": "effects[nczzAQLDBNlAgWjq].name",
           "sourcePath": "items/poison/crawler-mucus.yml"
         },
         {
@@ -8060,15 +8033,6 @@
           "id": "nxGKQlAdf0TMUKNa",
           "name": "Malice",
           "fieldPath": "system.description.value",
-          "sourcePath": "items/poison/malice.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "nxGKQlAdf0TMUKNa",
-          "name": "Malice",
-          "fieldPath": "effects[F00Q1raXGiNoOKoB].name",
           "sourcePath": "items/poison/malice.yml"
         },
         {
@@ -8166,15 +8130,6 @@
           "sourcePath": "items/poison/torpor.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "BTBhiXNbSnkW8HP3",
-          "name": "Torpor",
-          "fieldPath": "effects[QnTGMuIGAsENzvHa].name",
-          "sourcePath": "items/poison/torpor.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -8264,15 +8219,6 @@
           "sourcePath": "items/potion/acid-vial.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "Sx5E6utixHdAbGNb",
-          "name": "Acid (vial)",
-          "fieldPath": "system.activities.6wCdPWZTzKh8mN0m.description.chatFlavor",
-          "sourcePath": "items/potion/acid-vial.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -8310,15 +8256,6 @@
           "id": "FvNOwWbh5FXyX4xe",
           "fieldPath": "system.description.value",
           "name": "Alchemist's Fire",
-          "sourcePath": "items/potion/alchemists-fire.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "FvNOwWbh5FXyX4xe",
-          "name": "Alchemist's Fire",
-          "fieldPath": "system.activities.fEkrHFEJKXhIwljC.description.chatFlavor",
           "sourcePath": "items/potion/alchemists-fire.yml"
         },
         {
@@ -8479,24 +8416,6 @@
           "id": "FIDyR0kZnxGy7bj8",
           "fieldPath": "system.description.value",
           "name": "Oil of Slipperiness",
-          "sourcePath": "items/potion/oil-of-slipperiness.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "FIDyR0kZnxGy7bj8",
-          "name": "Oil of Slipperiness",
-          "fieldPath": "system.activities.OMSMC85UR5All9Vz.description.value",
-          "sourcePath": "items/potion/oil-of-slipperiness.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "FIDyR0kZnxGy7bj8",
-          "name": "Oil of Slipperiness",
-          "fieldPath": "system.activities.OCcBVLFoBjsgBp2r.description.value",
           "sourcePath": "items/potion/oil-of-slipperiness.yml"
         },
         {
@@ -9877,15 +9796,6 @@
           "id": "VmcgAIsRCyrjBguC",
           "fieldPath": "system.description.value",
           "name": "Restorative Ointment",
-          "sourcePath": "items/potion/restorative-ointment.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "VmcgAIsRCyrjBguC",
-          "name": "Restorative Ointment",
-          "fieldPath": "system.activities.gRkokZZM4WWwqjEu.description.value",
           "sourcePath": "items/potion/restorative-ointment.yml"
         },
         {
@@ -12601,15 +12511,6 @@
           "sourcePath": "items/wand/wand-of-binding.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "7jEKkA9qbwJ3IuCb",
-          "name": "Wand of Binding",
-          "fieldPath": "system.activities.zlPilAc3Tg3RVZyG.description.value",
-          "sourcePath": "items/wand/wand-of-binding.yml"
-        },
-        {
           "code": "html-attributes",
           "severity": "blocking",
           "message": "HTML attributes differ from source",
@@ -12677,15 +12578,6 @@
           "id": "EJFql4aNWHHJSxT9",
           "fieldPath": "system.description.value",
           "name": "Wand of Fear",
-          "sourcePath": "items/wand/wand-of-fear.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "EJFql4aNWHHJSxT9",
-          "name": "Wand of Fear",
-          "fieldPath": "system.activities.zj1bSgRYmMvM3xaO.description.value",
           "sourcePath": "items/wand/wand-of-fear.yml"
         },
         {
@@ -14292,24 +14184,6 @@
           "fieldPath": "system.description.value",
           "name": "Halberd",
           "sourcePath": "items/weapon/halberd.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "wGDDt17DpBcXPuUD",
-          "name": "Hammer of Thunderbolts",
-          "fieldPath": "system.activities.dnd5eactivity100.description.chatFlavor",
-          "sourcePath": "items/weapon/hammer-of-thunderbolts.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "wGDDt17DpBcXPuUD",
-          "name": "Hammer of Thunderbolts",
-          "fieldPath": "system.activities.raoOPd1C5wdDhOed.description.chatFlavor",
-          "sourcePath": "items/weapon/hammer-of-thunderbolts.yml"
         },
         {
           "code": "html-tag-sequence",

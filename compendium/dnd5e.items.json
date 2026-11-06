@@ -76,7 +76,14 @@
     },
     "Acid (vial)": {
       "name": "Acido (fiala)",
-      "description": "<div title=\"Page 148\"><div><div><p>Con un'azione, il personaggio può spruzzare il contenuto di questa fiala su una creatura situata entro 1,5 metri da lui o lanciarla fino a 6 metri di distanza (la fiala si frantumerà all'impatto). In ogni caso, il personaggio effettua un attacco a distanza contro una creatura o un oggetto, considerando l'acido come un'arma improvvisata. Se la fiala d'acido colpisce il bersaglio, quest'ultimo subisce 2d6 danni da acido.</p></div></div></div>"
+      "description": "<div title=\"Page 148\"><div><div><p>Con un'azione, il personaggio può spruzzare il contenuto di questa fiala su una creatura situata entro 1,5 metri da lui o lanciarla fino a 6 metri di distanza (la fiala si frantumerà all'impatto). In ogni caso, il personaggio effettua un attacco a distanza contro una creatura o un oggetto, considerando l'acido come un'arma improvvisata. Se la fiala d'acido colpisce il bersaglio, quest'ultimo subisce 2d6 danni da acido.</p></div></div></div>",
+      "activities": {
+        "6wCdPWZTzKh8mN0m": {
+          "description": {
+            "chatFlavor": "arma improvvisata"
+          }
+        }
+      }
     },
     "Adamantine Breastplate": {
       "name": "Corazza di Piastre Adamantina",
@@ -122,6 +129,13 @@
       "unidentified": {
         "name": "Fiala Non Identificata",
         "description": "<p>Una fiala di fluido appiccicoso e adesivo.</p>"
+      },
+      "activities": {
+        "fEkrHFEJKXhIwljC": {
+          "description": {
+            "chatFlavor": "arma improvvisata"
+          }
+        }
       }
     },
     "Alchemist's Supplies": {
@@ -1491,13 +1505,19 @@
       },
       "activities": {
         "dnd5eactivity100": {
-          "name": "Rovina dei Giganti (con Critico)"
+          "name": "Rovina dei Giganti (con Critico)",
+          "description": {
+            "chatFlavor": "Un gigante deve superare il tiro salvezza o morire"
+          }
         },
         "HUaufCvw2ISsEtbL": {
           "name": "Scaglia Martello"
         },
         "raoOPd1C5wdDhOed": {
-          "name": "Rombo di Tuono"
+          "name": "Rombo di Tuono",
+          "description": {
+            "chatFlavor": "Supera il tiro salvezza o rimane stordito"
+          }
         }
       }
     },
@@ -2416,10 +2436,16 @@
       "description": "<p><em>Questo unguento nero appiccicoso è spesso e pesante nel contenitore, ma scorre rapidamente quando viene versato.</em></p><div title=\"Page 26\"><div><div><p>L’olio può coprire una creatura di taglia Media o inferiore, insieme a tutto l’equipaggiamento che indossa o trasporta (è necessaria un’ulteriore fiala per ogni categoria di taglia sopra la Media). Applicare l’olio richiede 10 minuti. La creatura ottiene poi il beneficio dell’incantesimo libertà di movimento per 8 ore.<br>In alternativa, con un’azione si può versare l’olio sul terreno, duplicando per 8 ore l’effetto dell’incantesimo <strong>Unto</strong> su quell’area.</p></div></div></div>",
       "activities": {
         "OMSMC85UR5All9Vz": {
-          "name": "Applica Olio"
+          "name": "Applica Olio",
+          "description": {
+            "value": "<p>L'olio può ricoprire una creatura di taglia Media o inferiore, assieme all'equipaggiamento che indossa e trasporta (è richiesta una fiala aggiuntiva per ogni categoria di taglia superiore alla Media). Applicare l'olio richiede [[lookup @labels.activation activity=OMSMC85UR5All9Vz]]. La creatura influenzata ottiene poi l'effetto di un incantesimo @UUID[Compendium.dnd5e.spells.Item.da0a1t2FqaTjRZGT]{Libertà di Movimento} per [[lookup @labels.duration activity=OMSMC85UR5All9Vz]].</p>"
+          }
         },
         "OCcBVLFoBjsgBp2r": {
-          "name": "Versa l'Olio"
+          "name": "Versa l'Olio",
+          "description": {
+            "value": "<p>Come azione, questo olio può essere versato sul terreno, dove ricopre un quadrato con lato di 3 metri, duplicando in quell'area l'effetto dell'incantesimo @UUID[Compendium.dnd5e.spells.Item.etgcR9wqmrhyZ0tx]{Grasso} per 8 ore.</p>"
+          }
         }
       },
       "effects": {
@@ -3291,7 +3317,10 @@
       "description": "<p><em>Oggetto meraviglioso</em></p><p>Questo vasetto di vetro del diametro di 7,5 cm contiene 1d4 + 1 dosi di una densa mistura dal vago odore di aloe. Il vasetto e il suo contenuto pesano 250 grammi.</p><p>Usando un'azione &egrave; possibile inghiottire una dose di unguento o spalmarsela sulla pelle. La creatura che la riceve recupera 2d8 + 2 punti ferita, cessa di essere avvelenata ed &egrave; curata da ogni malattia.</p><p><em>Nota di Foundry: le 5 cariche rispecchiano il massimo numero di dosi possibili. </em><em>Allo stesso modo, il prezzo di 600 mo &egrave; calcolato su 120 mo per dose. Regolare entrambi come richiesto</em><em>.</em></p>",
       "activities": {
         "gRkokZZM4WWwqjEu": {
-          "name": "Applica Unguento"
+          "name": "Applica Unguento",
+          "description": {
+            "value": "<p>Come azione, una dose dell'unguento può essere ingerita o applicata sulla pelle. La creatura che la riceve recupera [[/healing activity=gRkokZZM4WWwqjEu]], cessa di essere &amp;reference[poisoned apply=false] e guarisce da qualsiasi malattia.</p>"
+          }
         }
       },
       "unidentified": {
@@ -4505,7 +4534,10 @@
       "description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">(Richiede sintonia con un incantatore)</em></p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Questa bacchetta possiede 7 cariche per le proprietà seguenti. Recupera 1d6 + 1 cariche spese ogni giorno all'alba. Se il personaggio spende l'ultima carica della bacchetta, tira un d20. Con un risultato di 1, la bacchetta si sbriciola in cenere ed è distrutta.</p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><strong style=\"box-sizing: border-box; user-select: text;\">Incantesimi</strong>. Finché il personaggio impugna la bacchetta, può usare un’azione e spendere alcune cariche per lanciare uno degli incantesimi seguenti (CD 17 del tiro salvezza): @Compendium[dnd5e.spells.l9Ju5KE7bbn3WpTm]{Blocca Mostri} (5 cariche) o @Compendium[dnd5e.spells.3Lo9boi7P2ro6QV4]{Blocca Persone} (2 cariche).</p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><strong style=\"box-sizing: border-box; user-select: text;\">Fuga Assistita</strong>. Finché il personaggio impugna la bacchetta, può usare la sua reazione per spendere 1 carica e ottenere vantaggio a un tiro salvezza che effettua per evitare di diventare paralizzato o trattenuto; in alternativa, può spendere 1 carica e ottenere vantaggio a una qualsiasi prova effettuata per sfuggire a una lotta.</p>",
       "activities": {
         "zlPilAc3Tg3RVZyG": {
-          "name": "Fuga Assistita"
+          "name": "Fuga Assistita",
+          "description": {
+            "value": "<p>Finché impugni la bacchetta, puoi usare la tua reazione per spendere 1 carica e ottenere vantaggio a un tiro salvezza effettuato per evitare di essere &amp;reference[paralyzed apply=false] o &amp;reference[restrained apply=false]; in alternativa, puoi spendere 1 carica e ottenere vantaggio a qualsiasi prova effettuata per sfuggire a una &amp;reference[grappled apply=false]{Lotta}.</p>"
+          }
         }
       },
       "unidentified": {
@@ -4529,7 +4561,10 @@
       "description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><em style=\"box-sizing: border-box; user-select: text;\">(Richiede sintonia)</em></p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Questa bacchetta possiede 7 cariche per le proprietà seguenti. Recupera 1d6 + 1 cariche spese ogni giorno all'alba. Se il personaggio spende l’ultima carica della bacchetta, tira un d20. Con un risultato di 1, la bacchetta si sbriciola in cenere ed è distrutta.</p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><strong>Comando</strong>. Finché il personaggio impugna la bacchetta, può usare un’azione e spendere 1 carica per comandare a un’altra creatura di fuggire o di supplicare, come se avesse lanciato l’incantesimo @Compendium[dnd5e.spells.arzCrMRgcNiQuh43]{Comando} (CD 15 del tiro salvezza).</p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><strong>Cono di Paura</strong>. Finché il personaggio impugna la bacchetta, può usare un’azione e spendere 2 cariche per proiettare dalla punta della bacchetta un cono di 18 metri di luce ambrata. Ogni creatura entro il cono deve superare un tiro salvezza su Saggezza con CD 15, altrimenti diventa spaventata dal personaggio per 1 minuto. Finché è spaventata in questo modo, una creatura deve usare i suoi turni per tentare di allontanarsi il più possibile dal personaggio e non può muoversi volontariamente per avvicinarsi a meno di 9 metri da lui. La creatura spaventata non può nemmeno effettuare reazioni. Può soltanto usare l’azione di Scatto o tentare di sfuggire a quegli effetti che le impedirebbero di muoversi. Se la creatura non ha alcun luogo dove andare, può usare l’azione di Schivata. La creatura può ripetere il tiro salvezza alla fine di ogni suo turno e, se lo supera, l’effetto per lei termina.</p>",
       "activities": {
         "zj1bSgRYmMvM3xaO": {
-          "name": "Cono di Paura"
+          "name": "Cono di Paura",
+          "description": {
+            "value": "<p>Finché impugni la bacchetta, puoi usare un'azione per spendere 2 cariche e fare in modo che la punta emetta un [[lookup @labels.description.template activity=zj1bSgRYmMvM3xaO]] di luce ambrata. Ogni creatura nel cono deve superare un tiro salvezza [[/save activity=zj1bSgRYmMvM3xaO]], altrimenti diventa &amp;reference[frightened] da te per [[lookup @labels.duration activity=zj1bSgRYmMvM3xaO]]. Finché è spaventata in questo modo, una creatura deve impiegare i propri turni per cercare di allontanarsi il più possibile da te e non può muoversi volontariamente in uno spazio entro 9 metri da te. Non può inoltre effettuare reazioni. Come azione, può usare soltanto l'azione &amp;reference[Dash] o cercare di sfuggire a un effetto che le impedisce di muoversi. Se non ha alcun luogo verso cui muoversi, può usare l'azione &amp;reference[Dodge]. Alla fine di ogni suo turno, la creatura può ripetere il tiro salvezza; se lo supera, l'effetto termina su di essa.</p>"
+          }
         }
       },
       "effects": {
@@ -5087,15 +5122,33 @@
     },
     "Neh9udRZHj0Bg9EH": {
       "_id": "Neh9udRZHj0Bg9EH",
-      "name": "Vapori di Othur Bruciato"
+      "name": "Vapori di Othur Bruciato",
+      "activities": {
+        "dnd5eactivity000": {
+          "name": "Tiro Salvezza (Iniziale)"
+        },
+        "699G3YGOfe67nPbM": {
+          "name": "Tiro Salvezza (Successivo)"
+        }
+      }
     },
     "B018Yhz1M7Np8JCW": {
       "_id": "B018Yhz1M7Np8JCW",
-      "name": "Muco di Verme Strisciante"
+      "name": "Muco di Verme Strisciante",
+      "effects": {
+        "nczzAQLDBNlAgWjq": {
+          "name": "Avvelenato e Paralizzato"
+        }
+      }
     },
     "nxGKQlAdf0TMUKNa": {
       "_id": "nxGKQlAdf0TMUKNa",
-      "name": "Malizia"
+      "name": "Malizia",
+      "effects": {
+        "F00Q1raXGiNoOKoB": {
+          "name": "Avvelenato e Accecato"
+        }
+      }
     },
     "9YyfarjYlV1QXvGi": {
       "_id": "9YyfarjYlV1QXvGi",
@@ -5111,7 +5164,12 @@
     },
     "BTBhiXNbSnkW8HP3": {
       "_id": "BTBhiXNbSnkW8HP3",
-      "name": "Torpore"
+      "name": "Torpore",
+      "effects": {
+        "QnTGMuIGAsENzvHa": {
+          "name": "Avvelenato e Incapacitato"
+        }
+      }
     },
     "tJC6SG4kAO2Vt4Qd": {
       "_id": "tJC6SG4kAO2Vt4Qd",
