@@ -20,6 +20,15 @@ Hooks.once("init", () => {
 import "./scripts/section-parser.js";
 import "./scripts/statblock-parser.js";
 import "./scripts/dnd-journal-styles.js";
+import {
+  applyActorMetricConversion,
+  applyItemMetricConversion,
+  applySceneMetricConversion,
+  convertMovement,
+  convertRange,
+  feetToMetres,
+  poundsToKilograms
+} from "./scripts/metric-conversion.mjs";
 
 const DELAY = 800;
 const FADE = 550;
@@ -191,13 +200,6 @@ function getTipoCompleto(actor) {
   return `${tipo} (${subsTradotti.join(", ")})`;
 }
 
-function roundToTwoDecimals(num) {
-  return Math.round((Number(num) + Number.EPSILON) * 100) / 100;
-}
-function lbToKg(lb) { if(!lb) return lb; return roundToTwoDecimals(Number(lb) / 2); }
-function footsToMeters(ft) { if(!ft) return ft; return roundToTwoDecimals(Number(ft) * 0.3); }
-function milesToMeters(mi) { if(!mi) return mi; return roundToTwoDecimals(Number(mi) * 1.5); }
-
 function convertEnabled() {
   return game.settings.get("dnd5e-it-translation", "convert");
 }
@@ -343,45 +345,15 @@ Hooks.once('init', () => {
 Hooks.once('init', () => {
   if (typeof Babele !== 'undefined') {
     Babele.get().registerConverters({
-      "weight": (value) => convertEnabled() ? lbToKg(value) : value,
-      "range": (range) => {
-        if (!convertEnabled() || !range) return range;
-        if (range.units === "ft") {
-          return foundry.utils.mergeObject(range, {
-            value: footsToMeters(range.value),
-            long: footsToMeters(range.long),
-            units: "m"
-          });
-        }
-        if (range.units === "mi") {
-          return foundry.utils.mergeObject(range, {
-            value: footsToMeters(range.value),
-            long: footsToMeters(range.long),
-            units: "m"
-          });
-        }
-        return range;
-      },
-      "movement": (movement) => {
-        if (!convertEnabled()) return movement;
-        let convert = (v) => v;
-        let units = movement.units;
-        if (units === 'ft') { convert = footsToMeters; units = "m"; }
-        if (units === 'ml') { convert = milesToMeters; units = "m"; }
-        return foundry.utils.mergeObject(movement, {
-          burrow: convert(movement.burrow),
-          climb: convert(movement.climb),
-          fly: convert(movement.fly),
-          swim: convert(movement.swim),
-          walk: convert(movement.walk),
-          units: units
-        });
-      },
+      "weight": (value) => convertEnabled() ? poundsToKilograms(value) : value,
+      "range": (range) => convertEnabled() ? convertRange(range) : range,
+      "movement": (movement) => convertEnabled() ? convertMovement(movement) : movement,
       "token": (token) => {
-        return foundry.utils.mergeObject(token, {
-          dimSight: footsToMeters(token.dimSight),
-          brightSight: footsToMeters(token.brightSight)
-        });
+        if (!convertEnabled() || !token) return token;
+        const converted = { ...token };
+        if (Object.hasOwn(token, "dimSight")) converted.dimSight = feetToMetres(token.dimSight);
+        if (Object.hasOwn(token, "brightSight")) converted.brightSight = feetToMetres(token.brightSight);
+        return converted;
       }
     });
   }
@@ -390,54 +362,18 @@ Hooks.once('init', () => {
 Hooks.once('ready', () => { setEncumbranceData(); });
 
 // Conversione automatica nuove scene
-Hooks.on('createScene', (scene) => {
-  if (convertEnabled() && game.settings.get("dnd5e-it-translation", "convertScenes")) {
-    scene.update({ grid: { units: "m", distance: 1.5 } });
-  }
+Hooks.on('createScene', async (scene) => {
+  if (!convertEnabled()) return;
+  if (!game.settings.get("dnd5e-it-translation", "convertScenes")) return;
+
+  await applySceneMetricConversion(scene);
 });
 
 // Conversione automatica nuovi attori
 Hooks.on('createActor', async (actor) => {
   if (!convertEnabled()) return;
   if (!game.settings.get("dnd5e-it-translation", "convertActors")) return;
-  if (actor.getFlag("babele", "translated")) return;
-  if (actor.getFlag("dnd5e-it-translation", "converted")) return;
-
-  let movement = actor.system.attributes.movement;
-  let token = actor.prototypeToken;
-  let weight = actor.system.traits?.weight;
-  let senses = actor.system.attributes.senses;
-
-  if (movement.units === "ft") {
-    await actor.update({
-      prototypeToken: {
-        dimSight: footsToMeters(token.dimSight),
-        brightSight: footsToMeters(token.brightSight)
-      },
-      system: {
-        attributes: {
-          movement: {
-            burrow: footsToMeters(movement.burrow),
-            climb: footsToMeters(movement.climb),
-            fly: footsToMeters(movement.fly),
-            swim: footsToMeters(movement.swim),
-            walk: footsToMeters(movement.walk),
-            units: 'm'
-          },
-          senses: {
-            darkvision: footsToMeters(senses.darkvision),
-            blindsight: footsToMeters(senses.blindsight),
-            tremorsense: footsToMeters(senses.tremorsense),
-            truesight: footsToMeters(senses.truesight)
-          }
-        },
-        traits: {
-          weight: lbToKg(weight)
-        }
-      }
-    });
-    await actor.setFlag("dnd5e-it-translation", "converted", true);
-  }
+  await applyActorMetricConversion(actor);
 });
 
 // Conversione automatica nuovi incantesimi
@@ -445,38 +381,7 @@ Hooks.on('createItem', async (item) => {
   if (!convertEnabled()) return;
   if (!game.settings.get("dnd5e-it-translation", "convertItems")) return;
   if (item.type !== "spell") return;
-  if (item.getFlag("dnd5e-it-translation", "converted")) return;
-
-  let updates = {};
-  let changed = false;
-
-  // Range
-  let range = item.system.range;
-  if (range?.units === "ft") {
-    updates["system.range.value"] = footsToMeters(range.value);
-    updates["system.range.units"] = "m";
-    changed = true;
-  }
-  if (range?.units === "mi") {
-    updates["system.range.value"] = milesToMeters(range.value);
-    updates["system.range.units"] = "km";
-    changed = true;
-  }
-
-  // Target template
-  let template = item.system?.target?.template;
-  if (template?.size && template.size > 0) {
-    if (!template.units || template.units === "ft" || template.size > 15) {
-      updates["system.target.template.size"] = footsToMeters(template.size);
-      updates["system.target.template.units"] = "m";
-      changed = true;
-    }
-  }
-
-  if (changed) {
-    await item.update(updates);
-    await item.setFlag("dnd5e-it-translation", "converted", true);
-  }
+  await applyItemMetricConversion(item);
 });
 
 // Ordinamento alfabetico delle competenze
