@@ -1,0 +1,101 @@
+{
+  "version": "1.0.0",
+  "entries": [
+    {"english":"Strength","italian":"Forza","category":"abilities","gender":"feminine","plural":"Forze","usage":"Nome della caratteristica; mai tradurre l'enum str.","source":"PHB IT 2014 p. 173","status":"verified"},
+    {"english":"Dexterity","italian":"Destrezza","category":"abilities","gender":"feminine","plural":"Destrezze","usage":"Nome della caratteristica; mai tradurre l'enum dex.","source":"PHB IT 2014 p. 173","status":"verified"},
+    {"english":"Constitution","italian":"Costituzione","category":"abilities","gender":"feminine","plural":"Costituzioni","usage":"Nome della caratteristica; mai tradurre l'enum con.","source":"PHB IT 2014 p. 173","status":"verified"},
+    {"english":"Intelligence","italian":"Intelligenza","category":"abilities","gender":"feminine","plural":"Intelligenze","usage":"Nome della caratteristica; mai tradurre l'enum int.","source":"PHB IT 2014 p. 173","status":"verified"},
+    {"english":"Wisdom","italian":"Saggezza","category":"abilities","gender":"feminine","plural":"Saggezze","usage":"Nome della caratteristica; mai tradurre l'enum wis.","source":"PHB IT 2014 p. 173","status":"verified"},
+    {"english":"Charisma","italian":"Carisma","category":"abilities","gender":"masculine","plural":"Carismi","usage":"Nome della caratteristica; mai tradurre l'enum cha.","source":"PHB IT 2014 p. 173","status":"verified"},
+
+    {"english":"Athletics","italian":"Atletica","category":"skills","gender":"feminine","plural":"Atletiche","usage":"Abilità associata a Forza.","source":"PHB IT 2014 p. 195","status":"verified"},
+    {"english":"Acrobatics","italian":"Acrobazia","category":"skills","gender":"feminine","plural":"Acrobazie","usage":"Abilità associata a Destrezza.","source":"PHB IT 2014 p. 195","status":"verified"},
+    {"english":"Investigation","italian":"Indagare","category":"skills","gender":"invariable","plural":"Indagare","usage":"Usare la forma ufficiale come nome dell'abilità.","source":"PHB IT 2014 p. 5","status":"verified"},
+    {"english":"Perception","italian":"Percezione","category":"skills","gender":"feminine","plural":"Percezioni","usage":"Abilità associata a Saggezza; distinguere dalla Percezione passiva.","source":"PHB IT 2014 p. 192","status":"verified"},
+    {"english":"Intimidation","italian":"Intimidire","category":"skills","gender":"invariable","plural":"Intimidire","usage":"Usare la forma ufficiale come nome dell'abilità.","source":"PHB IT 2014 p. 179","status":"verified"},
+    {"english":"Persuasion","italian":"Persuasione","category":"skills","gender":"feminine","plural":"Persuasioni","usage":"Abilità associata a Carisma.","source":"PHB IT 2014 p. 179","status":"verified"},
+    {"english":"Saving Throw","italian":"Tiro Salvezza","category":"saving-throws","gender":"masculine","plural":"Tiri Salvezza","usage":"Mai usare 'tiro di salvezza' nel testo canonico.","source":"PHB IT 2014 p. 179","status":"verified"},
+
+    {"english":"Blinded","italian":"Accecato","category":"conditions","gender":"variable","plural":"Accecati","usage":"Concordare genere e numero con la creatura.","source":"PHB IT 2014 p. 290","status":"verified"},
+    {"english":"Charmed","italian":"Affascinato","category":"conditions","gender":"variable","plural":"Affascinati","usage":"Concordare genere e numero con la creatura.","source":"PHB IT 2014 p. 290","status":"verified"},
+    {"english":"Deafened","italian":"Assordato","category":"conditions","gender":"variable","plural":"Assordati","usage":"Concordare genere e numero con la creatura.","source":"PHB IT 2014 p. 290","status":"verified"},
+    {"english":"Frightened","italian":"Spaventato","category":"conditions","gender":"variable","plural":"Spaventati","usage":"Concordare genere e numero con la creatura.","source":"PHB IT 2014 p. 290, illustrazione","status":"verified"},
+    {"english":"Grappled","italian":"Afferrato","category":"conditions","gender":"variable","plural":"Afferrati","usage":"Non confondere con l'azione di lotta.","source":"PHB IT 2014 pp. 195, 290","status":"verified"},
+    {"english":"Poisoned","italian":"Avvelenato","category":"conditions","gender":"variable","plural":"Avvelenati","usage":"Concordare genere e numero con la creatura.","source":"PHB IT 2014 p. 290","status":"verified"},
+    {"english":"Incapacitated","italian":"Incapacitato","category":"conditions","gender":"variable","plural":"Incapacitati","usage":"Termine di condizione; non sostituire con sinonimi narrativi.","source":"Italian module corpus; PHB visual verification pending","status":"proposed"},
+    {"english":"Invisible","italian":"Invisibile","category":"conditions","gender":"invariable","plural":"Invisibili","usage":"Termine di condizione; distinguere da non visto.","source":"PHB IT 2014 p. 290 introduction","status":"verified"},
+    {"english":"Petrified","italian":"Pietrificato","category":"conditions","gender":"variable","plural":"Pietrificati","usage":"Concordare genere e numero con la creatura.","source":"PHB IT 2014 p. 290, illustrazione","status":"verified"},
+    {"english":"Prone","italian":"Prono","category":"conditions","gender":"variable","plural":"Proni","usage":"Usare come condizione, non come descrizione generica.","source":"Italian module corpus; PHB visual verification pending","status":"proposed"},
+    {"english":"Restrained","italian":"Trattenuto","category":"conditions","gender":"variable","plural":"Trattenuti","usage":"Termine provvisorio da confermare sul manuale.","source":"Italian module corpus","status":"review"},
+    {"english":"Stunned","italian":"Stordito","category":"conditions","gender":"variable","plural":"Storditi","usage":"Concordare genere e numero con la creatura.","source":"Italian module corpus; PHB visual verification pending","status":"proposed"},
+
+    {"english":"Aberration","italian":"Aberrazione","category":"creature-types","gender":"feminine","plural":"Aberrazioni","usage":"Tipo di creatura visibile; enum aberration immutabile.","source":"Italian module corpus","status":"proposed"},
+    {"english":"Beast","italian":"Bestia","category":"creature-types","gender":"feminine","plural":"Bestie","usage":"Tipo di creatura visibile; enum beast immutabile.","source":"Italian module corpus","status":"proposed"},
+    {"english":"Celestial","italian":"Celestiale","category":"creature-types","gender":"invariable","plural":"Celestiali","usage":"Tipo di creatura visibile; enum celestial immutabile.","source":"Italian module corpus","status":"proposed"},
+    {"english":"Construct","italian":"Costrutto","category":"creature-types","gender":"masculine","plural":"Costrutti","usage":"Tipo di creatura visibile; enum construct immutabile.","source":"Italian module corpus","status":"proposed"},
+    {"english":"Dragon","italian":"Drago","category":"creature-types","gender":"masculine","plural":"Draghi","usage":"Tipo di creatura visibile; enum dragon immutabile.","source":"Italian module corpus","status":"proposed"},
+    {"english":"Undead","italian":"Non Morto","category":"creature-types","gender":"variable","plural":"Non Morti","usage":"Come tipo di creatura usare due parole e mai tradurre l'enum undead.","source":"Italian module corpus","status":"proposed"},
+
+    {"english":"Tiny","italian":"Minuscola","category":"sizes","gender":"feminine","plural":"Minuscole","usage":"Concordare con 'creatura'; enum tiny immutabile.","source":"Italian module corpus","status":"proposed"},
+    {"english":"Small","italian":"Piccola","category":"sizes","gender":"feminine","plural":"Piccole","usage":"Concordare con 'creatura'; enum sm immutabile.","source":"PHB IT 2014 p. 192","status":"verified"},
+    {"english":"Medium","italian":"Media","category":"sizes","gender":"feminine","plural":"Medie","usage":"Concordare con 'creatura'; enum med immutabile.","source":"PHB IT 2014 p. 192","status":"verified"},
+    {"english":"Large","italian":"Grande","category":"sizes","gender":"invariable","plural":"Grandi","usage":"Concordare con 'creatura'; enum lg immutabile.","source":"PHB IT 2014 p. 192","status":"verified"},
+    {"english":"Huge","italian":"Enorme","category":"sizes","gender":"invariable","plural":"Enormi","usage":"Concordare con 'creatura'; enum huge immutabile.","source":"Italian module corpus","status":"proposed"},
+    {"english":"Gargantuan","italian":"Mastodontica","category":"sizes","gender":"feminine","plural":"Mastodontiche","usage":"Concordare con 'creatura'; enum grg immutabile.","source":"PHB IT 2014 p. 192","status":"verified"},
+
+    {"english":"Lawful Good","italian":"Legale Buono","category":"alignments","gender":"masculine","plural":"Legali Buoni","usage":"Allineamento; conservare l'enum tecnico.","source":"Italian module corpus","status":"proposed"},
+    {"english":"Neutral Good","italian":"Neutrale Buono","category":"alignments","gender":"masculine","plural":"Neutrali Buoni","usage":"Allineamento; conservare l'enum tecnico.","source":"Italian module corpus","status":"proposed"},
+    {"english":"Chaotic Good","italian":"Caotico Buono","category":"alignments","gender":"masculine","plural":"Caotici Buoni","usage":"Allineamento; conservare l'enum tecnico.","source":"Italian module corpus","status":"proposed"},
+    {"english":"Unaligned","italian":"Senza Allineamento","category":"alignments","gender":"invariable","plural":"Senza Allineamento","usage":"Per creature prive di allineamento morale.","source":"Italian module corpus","status":"proposed"},
+
+    {"english":"Abjuration","italian":"Abiurazione","category":"magic-schools","gender":"feminine","plural":"Abiurazioni","usage":"Scuola di magia; enum abj immutabile.","source":"Italian module corpus","status":"proposed"},
+    {"english":"Conjuration","italian":"Evocazione","category":"magic-schools","gender":"feminine","plural":"Evocazioni","usage":"Scuola di magia; enum con immutabile.","source":"Italian module corpus","status":"proposed"},
+    {"english":"Divination","italian":"Divinazione","category":"magic-schools","gender":"feminine","plural":"Divinazioni","usage":"Scuola di magia; enum div immutabile.","source":"Italian module corpus","status":"proposed"},
+    {"english":"Evocation","italian":"Invocazione","category":"magic-schools","gender":"feminine","plural":"Invocazioni","usage":"Scuola di magia; non confondere con Conjuration.","source":"Italian module corpus","status":"review"},
+    {"english":"Illusion","italian":"Illusione","category":"magic-schools","gender":"feminine","plural":"Illusioni","usage":"Scuola di magia; enum ill immutabile.","source":"Italian module corpus","status":"proposed"},
+
+    {"english":"Acid Damage","italian":"Danni da Acido","category":"damage-types","gender":"masculine","plural":"Danni da Acido","usage":"Usare al plurale nella formula 'subisce danni'.", "source":"Italian module corpus","status":"proposed"},
+    {"english":"Bludgeoning Damage","italian":"Danni Contundenti","category":"damage-types","gender":"masculine","plural":"Danni Contundenti","usage":"Tipo di danno; enum bludgeoning immutabile.","source":"PHB IT 2014 p. 195","status":"verified"},
+    {"english":"Fire Damage","italian":"Danni da Fuoco","category":"damage-types","gender":"masculine","plural":"Danni da Fuoco","usage":"Tipo di danno; enum fire immutabile.","source":"Italian module corpus","status":"proposed"},
+    {"english":"Piercing Damage","italian":"Danni Perforanti","category":"damage-types","gender":"masculine","plural":"Danni Perforanti","usage":"Tipo di danno; enum piercing immutabile.","source":"Italian module corpus","status":"proposed"},
+    {"english":"Slashing Damage","italian":"Danni Taglienti","category":"damage-types","gender":"masculine","plural":"Danni Taglienti","usage":"Tipo di danno; enum slashing immutabile.","source":"Italian module corpus","status":"proposed"},
+    {"english":"Poison Damage","italian":"Danni da Veleno","category":"damage-types","gender":"masculine","plural":"Danni da Veleno","usage":"Tipo di danno; non confondere con la condizione Avvelenato.","source":"Italian module corpus","status":"proposed"},
+
+    {"english":"Action","italian":"Azione","category":"actions-reactions","gender":"feminine","plural":"Azioni","usage":"Termine meccanico; minuscolo nella prosa, maiuscolo nei titoli.","source":"PHB IT 2014 p. 192","status":"verified"},
+    {"english":"Bonus Action","italian":"Azione Bonus","category":"actions-reactions","gender":"feminine","plural":"Azioni Bonus","usage":"Non usare 'azione aggiuntiva'.", "source":"PHB IT 2014 pp. 195, 202","status":"verified"},
+    {"english":"Reaction","italian":"Reazione","category":"actions-reactions","gender":"feminine","plural":"Reazioni","usage":"Termine meccanico; preservare frequenza e innesco.","source":"PHB IT 2014 p. 202","status":"verified"},
+    {"english":"Opportunity Attack","italian":"Attacco di Opportunità","category":"actions-reactions","gender":"masculine","plural":"Attacchi di Opportunità","usage":"Usare il singolare per un singolo attacco.","source":"PHB IT 2014 p. 195","status":"verified"},
+    {"english":"Disengage","italian":"Disimpegno","category":"actions-reactions","gender":"masculine","plural":"Disimpegni","usage":"Nome dell'azione; nel testo 'azione di Disimpegno'.", "source":"PHB IT 2014 p. 192","status":"verified"},
+    {"english":"Ready","italian":"Prepararsi","category":"actions-reactions","gender":"invariable","plural":"Prepararsi","usage":"Nome ufficiale dell'azione nel PHB.","source":"PHB IT 2014 p. 192","status":"verified"},
+
+    {"english":"Verbal Component","italian":"Componente Verbale","category":"spell-components","gender":"feminine","plural":"Componenti Verbali","usage":"Abbreviazione tecnica V immutabile.","source":"Italian module corpus; PHB chapter 10","status":"proposed"},
+    {"english":"Somatic Component","italian":"Componente Somatica","category":"spell-components","gender":"feminine","plural":"Componenti Somatiche","usage":"Abbreviazione tecnica S immutabile.","source":"Italian module corpus; PHB chapter 10","status":"proposed"},
+    {"english":"Material Component","italian":"Componente Materiale","category":"spell-components","gender":"feminine","plural":"Componenti Materiali","usage":"Abbreviazione tecnica M immutabile; tradurre il materiale visibile.","source":"Italian module corpus; PHB chapter 10","status":"proposed"},
+
+    {"english":"Armor","italian":"Armatura","category":"equipment","gender":"feminine","plural":"Armature","usage":"Categoria generica; mantenere i nomi specifici canonici.","source":"PHB IT 2014 index, p. 3","status":"verified"},
+    {"english":"Shield","italian":"Scudo","category":"equipment","gender":"masculine","plural":"Scudi","usage":"Oggetto difensivo; distinguere dall'incantesimo Scudo.","source":"PHB IT 2014 index, p. 3","status":"verified"},
+    {"english":"Weapon","italian":"Arma","category":"equipment","gender":"feminine","plural":"Armi","usage":"Categoria generica; enum weapon immutabile.","source":"PHB IT 2014 index, p. 3","status":"verified"},
+    {"english":"Longbow","italian":"Arco Lungo","category":"equipment","gender":"masculine","plural":"Archi Lunghi","usage":"Nome dell'arma; usa gittata normale e lunga.","source":"PHB IT 2014 p. 195","status":"verified"},
+
+    {"english":"Extra Attack","italian":"Attacco Extra","category":"class-features","gender":"masculine","plural":"Attacchi Extra","usage":"Nome del privilegio; non tradurre l'identificatore interno.","source":"PHB IT 2014 p. 192","status":"verified"},
+    {"english":"Spellcasting","italian":"Incantesimi","category":"class-features","gender":"masculine","plural":"Incantesimi","usage":"Nome di privilegio da verificare per singola classe.","source":"Italian module corpus","status":"review"},
+    {"english":"Proficiency Bonus","italian":"Bonus di Competenza","category":"class-features","gender":"masculine","plural":"Bonus di Competenza","usage":"Termine meccanico invariabile al plurale.","source":"PHB IT 2014 p. 173","status":"verified"},
+
+    {"english":"Ability Check","italian":"Prova di Caratteristica","category":"combat","gender":"feminine","plural":"Prove di Caratteristica","usage":"Usare quando la regola indica una prova basata su una caratteristica.","source":"PHB IT 2014 pp. 173-174","status":"verified"},
+    {"english":"Attack Roll","italian":"Tiro per Colpire","category":"combat","gender":"masculine","plural":"Tiri per Colpire","usage":"Non usare 'tiro d'attacco'.", "source":"PHB IT 2014 p. 173","status":"verified"},
+    {"english":"Melee Attack","italian":"Attacco in Mischia","category":"combat","gender":"masculine","plural":"Attacchi in Mischia","usage":"Usare per attacchi entro portata.","source":"PHB IT 2014 p. 195","status":"verified"},
+    {"english":"Ranged Attack","italian":"Attacco a Distanza","category":"combat","gender":"masculine","plural":"Attacchi a Distanza","usage":"Usare per attacchi soggetti a gittata.","source":"PHB IT 2014 p. 195","status":"verified"},
+    {"english":"Reach","italian":"Portata","category":"combat","gender":"feminine","plural":"Portate","usage":"Distanza entro cui un attacco in mischia può colpire.","source":"PHB IT 2014 p. 195","status":"verified"},
+    {"english":"Range","italian":"Gittata","category":"combat","gender":"feminine","plural":"Gittate","usage":"Distinguere gittata normale e gittata lunga.","source":"PHB IT 2014 pp. 192, 195, 202","status":"verified"},
+
+    {"english":"Advantage","italian":"Vantaggio","category":"effects","gender":"masculine","plural":"Vantaggi","usage":"Non sommare istanze multiple; conservare la regola sorgente.","source":"PHB IT 2014 p. 173","status":"verified"},
+    {"english":"Disadvantage","italian":"Svantaggio","category":"effects","gender":"masculine","plural":"Svantaggi","usage":"Non sommare istanze multiple; conservare la regola sorgente.","source":"PHB IT 2014 p. 173","status":"verified"},
+    {"english":"Effect","italian":"Effetto","category":"effects","gender":"masculine","plural":"Effetti","usage":"Tradurre solo nomi e descrizioni visibili, mai chiavi/mode/value meccanici.","source":"PHB IT 2014 p. 290","status":"verified"},
+    {"english":"Concentration","italian":"Concentrazione","category":"effects","gender":"feminine","plural":"Concentrazioni","usage":"Termine degli incantesimi; preservare durata e CD.","source":"PHB IT 2014 p. 202","status":"verified"},
+
+    {"english":"Foot","italian":"Metro","category":"units","gender":"masculine","plural":"Metri","usage":"Conversione proporzionale: 1 ft = 0,3 m; per griglia 5 ft = 1,5 m.","source":"PHB IT 2014 p. 192; project metric convention","status":"verified"},
+    {"english":"Mile","italian":"Chilometro","category":"units","gender":"masculine","plural":"Chilometri","usage":"Conversione di gioco: 1 mile = 1,5 km.","source":"Project metric convention; manual verification pending","status":"proposed"},
+    {"english":"Pound","italian":"Chilogrammo","category":"units","gender":"masculine","plural":"Chilogrammi","usage":"Conversione di gioco: 1 lb = 0,5 kg.","source":"Project metric convention","status":"verified"},
+    {"english":"Grid Square","italian":"Quadretto","category":"units","gender":"masculine","plural":"Quadretti","usage":"Ogni quadretto standard rappresenta 1,5 metri.","source":"PHB IT 2014 p. 192","status":"verified"}
+  ]
+}
