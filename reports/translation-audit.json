@@ -3,10 +3,10 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1685,
+      "translated": 1688,
       "missing": 69,
-      "partial": 637,
-      "review": 111
+      "partial": 634,
+      "review": 109
     },
     "folders": {
       "total": 120,
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 1118,
-      "englishResiduals": 113,
+      "invariantFailures": 1109,
+      "englishResiduals": 111,
       "imperialResiduals": 2
     },
-    "blockingIssues": 7316
+    "blockingIssues": 7305
   },
   "packs": [
     {
@@ -5317,10 +5317,10 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 797,
+          "translated": 800,
           "missing": 0,
-          "partial": 88,
-          "review": 41
+          "partial": 85,
+          "review": 39
         },
         "folders": {
           "total": 17,
@@ -5333,8 +5333,8 @@
           "total": 2227,
           "translated": 2227,
           "missing": 0,
-          "invariantFailures": 171,
-          "englishResiduals": 41,
+          "invariantFailures": 162,
+          "englishResiduals": 39,
           "imperialResiduals": 2
         }
       },
@@ -5418,118 +5418,6 @@
           "fieldPath": "system.description.value",
           "name": "Robe of Useful Items",
           "sourcePath": "items/equipment/robe-of-useful-items.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "AweD4kpKGM7Ilu3n",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Regeneration",
-          "sourcePath": "items/ring/ring-of-regeneration.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "AweD4kpKGM7Ilu3n",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Regeneration",
-          "sourcePath": "items/ring/ring-of-regeneration.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "items",
-          "id": "AweD4kpKGM7Ilu3n",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Regeneration",
-          "sourcePath": "items/ring/ring-of-regeneration.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "(Richiede sintonia) Finché il personaggio indossa questo anello, recupera 1d6 punti ferita ogni 10 minuti, purché possieda almeno 1 punto ferita. Se il personaggio perde una parte del corpo, l’anello fa ricrescere la parte mancante e la fa tornare alla piena funzionalità dopo 1d6 + 1 giorni, purché il personaggio conservi almeno 1 punto ferita in tutto questo periodo di tempo. Foundry note: you can use the Other Formula to calculate the days needed to regrow a body part if required.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "AweD4kpKGM7Ilu3n",
-          "name": "Ring of Regeneration",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/ring/ring-of-regeneration.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "etA2SBgWwduCLgLT",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Shooting Stars",
-          "sourcePath": "items/ring/ring-of-shooting-stars.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "etA2SBgWwduCLgLT",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Shooting Stars",
-          "sourcePath": "items/ring/ring-of-shooting-stars.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "items",
-          "id": "etA2SBgWwduCLgLT",
-          "fieldPath": "system.description.value",
-          "name": "Ring of Shooting Stars",
-          "sourcePath": "items/ring/ring-of-shooting-stars.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "qw05Om9XWqTMoio2",
-          "fieldPath": "system.description.value",
-          "name": "Ring of the Ram",
-          "sourcePath": "items/ring/ring-of-the-ram.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "qw05Om9XWqTMoio2",
-          "fieldPath": "system.description.value",
-          "name": "Ring of the Ram",
-          "sourcePath": "items/ring/ring-of-the-ram.yml"
-        },
-        {
-          "code": "foundry-formulas",
-          "severity": "blocking",
-          "message": "Foundry formulas differ from source",
-          "pack": "items",
-          "id": "qw05Om9XWqTMoio2",
-          "fieldPath": "system.description.value",
-          "name": "Ring of the Ram",
-          "sourcePath": "items/ring/ring-of-the-ram.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "(Richiede sintonia) Questo anello possiede 3 cariche e recupera 1d3 cariche spese ogni giorno all’alba. Finché il personaggio indossa questo anello, può usare un’azione per spendere da 1 a 3 cariche e attaccare una creatura situata entro 18 metri da lui e che egli sia in grado di vedere. L’anello produce una testa d’ariete spettrale ed effettua il suo tiro per colpire con un bonus di +7. Se l'attacco va a segno, per ogni carica spesa, il bersaglio subisce 2d10 danni da forza e viene spinto di 1,5 metri più lontano dal personaggio. In alternativa, il personaggio può usare un’azione per spendere da 1 a 3 cariche dell’anello e tentare di rompere un oggetto situato entro 18 metri da lui, che egli sia in grado di vedere e che non sia indossato o trasportato. L’anello effettua una prova di Forza con un bonus di +5 per ogni carica che il personaggio spende. **Foundry note: the Other Formula is set to calculate 1d20 +5&nbsp; for one charge expended to make the Strength check. Please +5 per any extra charge as required.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "items",
-          "id": "qw05Om9XWqTMoio2",
-          "name": "Ring of the Ram",
-          "fieldPath": "system.description.value",
-          "sourcePath": "items/ring/ring-of-the-ram.yml"
         },
         {
           "code": "html-tag-sequence",

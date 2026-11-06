@@ -3231,6 +3231,22 @@
         },
         {
           "pack": "items",
+          "id": "AweD4kpKGM7Ilu3n",
+          "name": "Ring of Regeneration",
+          "sourcePath": "items/ring/ring-of-regeneration.yml",
+          "lookupKey": "Ring of Regeneration",
+          "matchedLookupKey": "Ring of Regeneration"
+        },
+        {
+          "pack": "items",
+          "id": "etA2SBgWwduCLgLT",
+          "name": "Ring of Shooting Stars",
+          "sourcePath": "items/ring/ring-of-shooting-stars.yml",
+          "lookupKey": "Ring of Shooting Stars",
+          "matchedLookupKey": "Ring of Shooting Stars"
+        },
+        {
+          "pack": "items",
           "id": "9cIlRtKDtDXQtElf",
           "name": "Ring of Spell Storing",
           "sourcePath": "items/ring/ring-of-spell-storing.yml",
@@ -3260,6 +3276,14 @@
           "sourcePath": "items/ring/ring-of-telekinesis.yml",
           "lookupKey": "Ring of Telekinesis",
           "matchedLookupKey": "Ring of Telekinesis"
+        },
+        {
+          "pack": "items",
+          "id": "qw05Om9XWqTMoio2",
+          "name": "Ring of the Ram",
+          "sourcePath": "items/ring/ring-of-the-ram.yml",
+          "lookupKey": "Ring of the Ram",
+          "matchedLookupKey": "Ring of the Ram"
         },
         {
           "pack": "items",
@@ -6770,111 +6794,6 @@
               "message": "Foundry formulas differ from source",
               "pack": "items",
               "id": "2ksm2KXCY3vBHTAx",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "AweD4kpKGM7Ilu3n",
-          "name": "Ring of Regeneration",
-          "sourcePath": "items/ring/ring-of-regeneration.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Ring of Regeneration",
-          "matchedLookupKey": "Ring of Regeneration",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "AweD4kpKGM7Ilu3n",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "AweD4kpKGM7Ilu3n",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "AweD4kpKGM7Ilu3n",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "etA2SBgWwduCLgLT",
-          "name": "Ring of Shooting Stars",
-          "sourcePath": "items/ring/ring-of-shooting-stars.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Ring of Shooting Stars",
-          "matchedLookupKey": "Ring of Shooting Stars",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "etA2SBgWwduCLgLT",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "etA2SBgWwduCLgLT",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "items",
-              "id": "etA2SBgWwduCLgLT",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "qw05Om9XWqTMoio2",
-          "name": "Ring of the Ram",
-          "sourcePath": "items/ring/ring-of-the-ram.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Ring of the Ram",
-          "matchedLookupKey": "Ring of the Ram",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "qw05Om9XWqTMoio2",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "qw05Om9XWqTMoio2",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-formulas",
-              "severity": "blocking",
-              "message": "Foundry formulas differ from source",
-              "pack": "items",
-              "id": "qw05Om9XWqTMoio2",
               "fieldPath": "system.description.value"
             }
           ]
