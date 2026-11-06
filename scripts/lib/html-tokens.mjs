@@ -127,5 +127,5 @@ export function scanHtml(text) {
   }
   if (stack.length) errors.push(`Unclosed HTML tags: ${stack.join(", ")}`);
 
-  return { tokens, errors };
+  return { tokens, rawTokens, errors };
 }

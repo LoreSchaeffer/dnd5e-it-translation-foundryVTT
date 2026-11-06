@@ -1,5 +1,6 @@
 import { translationForField } from "./coverage.mjs";
 import { compareInvariants } from "./invariants.mjs";
+import { scanHtml } from "./html-tokens.mjs";
 import { walkVisibleFields } from "./visible-fields.mjs";
 
 function isPresent(value) {
@@ -16,10 +17,83 @@ function queueItem(record, details = {}) {
   };
 }
 
+function translationPathForField(record, fieldPath) {
+  if (fieldPath === "name") return ["name"];
+  if (fieldPath === "system.description.value" || fieldPath === "description") return ["description"];
+  if (fieldPath === "system.description.chat") return ["chat"];
+  if (fieldPath === "system.materials.value") return ["materials"];
+  if (fieldPath === "system.requirements") return ["requirements"];
+
+  const advancement = fieldPath.match(/^system\.advancement\[([^\]]+)\]\.(.+)$/);
+  if (advancement) return ["advancement", advancement[1], ...advancement[2].split(".")];
+  return null;
+}
+
+function setPath(object, path, value) {
+  let target = object;
+  for (const key of path.slice(0, -1)) target = target[key] ??= {};
+  target[path.at(-1)] = value;
+}
+
 function sorted(records) {
   return [...records].sort((left, right) =>
     left.sourcePath.localeCompare(right.sourcePath) || left.id.localeCompare(right.id)
   );
+}
+
+function replaceSequential(text, matches, replacements) {
+  let cursor = 0;
+  let output = "";
+  for (let index = 0; index < matches.length; index += 1) {
+    const position = text.indexOf(matches[index], cursor);
+    if (position < 0) return null;
+    output += text.slice(cursor, position) + replacements[index];
+    cursor = position + matches[index].length;
+  }
+  return output + text.slice(cursor);
+}
+
+function replacePattern(source, translation, expression, replacement) {
+  const sourceMatches = [...source.matchAll(expression)];
+  const translatedMatches = [...translation.matchAll(expression)];
+  if (sourceMatches.length !== translatedMatches.length) return null;
+  return replaceSequential(
+    translation,
+    translatedMatches.map(match => match[0]),
+    sourceMatches.map((match, index) => replacement(match, translatedMatches[index]))
+  );
+}
+
+export function rebaseInvariantTokens(source, translation) {
+  const sourceHtml = scanHtml(source);
+  const translatedHtml = scanHtml(translation);
+  const sourceShape = sourceHtml.tokens.map(({ kind, name, selfClosing }) => ({ kind, name, selfClosing }));
+  const translatedShape = translatedHtml.tokens.map(({ kind, name, selfClosing }) => ({ kind, name, selfClosing }));
+  if (sourceHtml.errors.length || translatedHtml.errors.length || JSON.stringify(sourceShape) !== JSON.stringify(translatedShape)) {
+    return null;
+  }
+
+  let rebased = replaceSequential(translation, translatedHtml.rawTokens, sourceHtml.rawTokens);
+  if (rebased === null) return null;
+
+  const reference = /@(UUID|Compendium|Embed|Check|Save|Damage|Template|Condition)\[([^\]]*)\](?:\{([^{}]*)\})?/gi;
+  rebased = replacePattern(source, rebased, reference, (sourceMatch, translatedMatch) => {
+    const label = translatedMatch[3] ?? sourceMatch[3];
+    return `@${sourceMatch[1]}[${sourceMatch[2]}]${label === undefined ? "" : `{${label}}`}`;
+  });
+  if (rebased === null) return null;
+
+  for (const expression of [
+    /\[\[[\s\S]*?\]\]/g,
+    /\{\{\{?[\s\S]*?\}\}\}?/g,
+    /\$\{[^{}]*\}/g,
+    /\b\d+d\d+(?:\s*[+\-*/]\s*(?:@[A-Za-z_][\w.]*|\d+(?:\.\d+)?))*/gi
+  ]) {
+    rebased = replacePattern(source, rebased, expression, sourceMatch => sourceMatch[0]);
+    if (rebased === null) return null;
+  }
+
+  return compareInvariants(source, rebased).length ? null : rebased;
 }
 
 export function planSynchronization({ sourceRecords, translationRecords }) {
@@ -58,16 +132,20 @@ export function planSynchronization({ sourceRecords, translationRecords }) {
 
     const missing = [];
     const diagnostics = [];
+    const repairs = [];
     for (const field of fields) {
       const translatedValue = translationForField(record, field, candidate.data);
       if (!isPresent(translatedValue)) {
         missing.push(field.fieldPath);
         continue;
       }
-      diagnostics.push(...compareInvariants(field, String(translatedValue)).map(item => ({
-        ...item,
-        fieldPath: field.fieldPath
-      })));
+      const fieldDiagnostics = compareInvariants(field, String(translatedValue));
+      if (fieldDiagnostics.length) {
+        const translationPath = translationPathForField(record, field.fieldPath);
+        const rebased = translationPath ? rebaseInvariantTokens(field.value, String(translatedValue)) : null;
+        if (rebased !== null) repairs.push({ fieldPath: field.fieldPath, translationPath, value: rebased });
+        else diagnostics.push(...fieldDiagnostics.map(item => ({ ...item, fieldPath: field.fieldPath })));
+      }
     }
 
     if (diagnostics.length) {
@@ -75,7 +153,8 @@ export function planSynchronization({ sourceRecords, translationRecords }) {
         reason: "invariant-failure",
         lookupKey: record.name,
         matchedLookupKey: candidate.lookupKey,
-        diagnostics
+        diagnostics,
+        ...(repairs.length ? { repairs } : {})
       }));
       continue;
     }
@@ -85,7 +164,8 @@ export function planSynchronization({ sourceRecords, translationRecords }) {
         reason: "missing-visible-fields",
         lookupKey: record.name,
         matchedLookupKey: candidate.lookupKey,
-        fieldPaths: missing
+        fieldPaths: missing,
+        ...(repairs.length ? { repairs } : {})
       }));
       continue;
     }
@@ -93,7 +173,8 @@ export function planSynchronization({ sourceRecords, translationRecords }) {
     plan.safe.push(queueItem(record, {
       lookupKey: record.name,
       matchedLookupKey: candidate.lookupKey,
-      ...(candidate.lookupKey !== record.name ? { renameFrom: candidate.lookupKey } : {})
+      ...(candidate.lookupKey !== record.name ? { renameFrom: candidate.lookupKey } : {}),
+      ...(repairs.length ? { repairs } : {})
     }));
   }
 
@@ -109,6 +190,13 @@ export function applySynchronization(document, plan) {
     if (!Object.hasOwn(output.entries, item.renameFrom)) continue;
     output.entries[item.lookupKey] = output.entries[item.renameFrom];
     delete output.entries[item.renameFrom];
+  }
+
+
+  for (const item of [...plan.safe, ...plan.needsTranslation, ...plan.manualReview]) {
+    const entry = output.entries[item.lookupKey] ?? output.entries[item.renameFrom];
+    if (!entry) continue;
+    for (const repair of item.repairs ?? []) setPath(entry, repair.translationPath, repair.value);
   }
 
   return output;

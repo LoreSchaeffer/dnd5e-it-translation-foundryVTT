@@ -46,7 +46,9 @@ export async function runSynchronization(options) {
     const translationRecords = hasTranslation ? await loadBabelePack(translationPath) : [];
     const plan = planSynchronization({ sourceRecords, translationRecords });
 
-    const hasSafeChanges = plan.safe.some(item => item.renameFrom && item.renameFrom !== item.lookupKey);
+    const hasSafeChanges = [...plan.safe, ...plan.needsTranslation, ...plan.manualReview].some(item =>
+      (item.renameFrom && item.renameFrom !== item.lookupKey) || item.repairs?.length
+    );
     if (options.apply && hasSafeChanges) {
       const applied = applySynchronization(translationDocument, plan);
       await writeFile(translationPath, `${JSON.stringify(applied, null, 2)}\n`);

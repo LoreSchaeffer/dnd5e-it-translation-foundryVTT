@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
-import { applySynchronization, planSynchronization } from "../scripts/lib/synchronizer.mjs";
+import { applySynchronization, planSynchronization, rebaseInvariantTokens } from "../scripts/lib/synchronizer.mjs";
 
 function source(id, name, description = "<p>Source text.</p>") {
   return {
@@ -98,6 +98,28 @@ test("routes unalignable markup or changed Foundry targets to manual review", ()
   assert.ok(plan.manualReview[0].diagnostics.some(item => item.code === "foundry-references"));
 });
 
+test("plans and applies a conservative invariant repair for compatible legacy prose", () => {
+  const record = source(
+    "item1",
+    "Flame",
+    '<p class="rule">@UUID[Compendium.dnd5e.items.Item.abc]{Flame}</p>'
+  );
+  const translated = translation("Flame", {
+    name: "Fiamma",
+    description: '<p style="color:red">@Compendium[dnd5e.items.old]{Fiamma}</p>'
+  });
+  const plan = planSynchronization({ sourceRecords: [record], translationRecords: [translated] });
+
+  assert.equal(plan.safe.length, 1);
+  assert.deepEqual(plan.safe[0].repairs, [{
+    fieldPath: "system.description.value",
+    translationPath: ["description"],
+    value: '<p class="rule">@UUID[Compendium.dnd5e.items.Item.abc]{Fiamma}</p>'
+  }]);
+  const applied = applySynchronization({ label: "Pilot", entries: { Flame: translated.data } }, plan);
+  assert.equal(applied.entries.Flame.description, plan.safe[0].repairs[0].value);
+});
+
 test("applySynchronization performs safe renames without mutating the input document", () => {
   const document = {
     label: "Pilot",
@@ -117,4 +139,18 @@ test("applySynchronization performs safe renames without mutating the input docu
   assert.equal(applied.entries["Old Source Name"], undefined);
   assert.deepEqual(applied.entries["New Source Name"], snapshot.entries["Old Source Name"]);
   assert.deepEqual(applied.folders, snapshot.folders);
+});
+
+test("rebaseInvariantTokens restores source HTML and mechanics while retaining Italian labels", () => {
+  const source = '<p class="rule">Use @UUID[Compendium.dnd5e.items.Item.abc]{Sword} and roll [[1d20 + @mod]].</p>';
+  const legacy = '<p style="color:red">Usa @Compendium[dnd5e.items.old]{Spada} e tira [[1d20 + 2]].</p>';
+
+  assert.equal(
+    rebaseInvariantTokens(source, legacy),
+    '<p class="rule">Usa @UUID[Compendium.dnd5e.items.Item.abc]{Spada} e tira [[1d20 + @mod]].</p>'
+  );
+});
+
+test("rebaseInvariantTokens refuses incompatible HTML shape", () => {
+  assert.equal(rebaseInvariantTokens("<p><strong>Rule</strong></p>", "<p>Regola</p>"), null);
 });

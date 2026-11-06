@@ -3,7 +3,7 @@ import path from "node:path";
 import test from "node:test";
 
 import { loadBabelePack } from "../scripts/lib/babele-inventory.mjs";
-import { auditPack, buildReport, hasBlockingFailures, renderMarkdownReport } from "../scripts/lib/coverage.mjs";
+import { auditPack, buildReport, hasBlockingFailures, renderMarkdownReport, translationForField } from "../scripts/lib/coverage.mjs";
 import { isAllowed } from "../scripts/lib/allowlist.mjs";
 import { detectResiduals } from "../scripts/lib/residuals.mjs";
 import { loadSourcePack } from "../scripts/lib/source-inventory.mjs";
@@ -47,6 +47,31 @@ test("detectResiduals flags unchanged English prose and imperial measurements", 
   assert.ok(issues.some(issue => issue.code === "unchanged-english"));
   assert.ok(issues.some(issue => issue.code === "english-residual"));
   assert.ok(issues.some(issue => issue.code === "imperial-unit"));
+});
+
+test("detectResiduals does not treat the Italian preposition in as inches", () => {
+  const issues = detectResiduals({
+    source: "You live in a temple.",
+    translation: "Vivi in un tempio.",
+    context: { pack: "backgrounds", id: "italian-in", fieldPath: "description" },
+    allowlist: []
+  });
+
+  assert.equal(issues.some(item => item.code === "imperial-unit"), false);
+});
+
+test("translationForField resolves stable IDs in structured advancement arrays", () => {
+  const record = {
+    data: {
+      system: {
+        advancement: [{ _id: "grant1", title: "Feature" }]
+      }
+    }
+  };
+  const field = { fieldPath: "system.advancement[grant1].title" };
+  const translation = { advancement: { grant1: { title: "Privilegio" } } };
+
+  assert.equal(translationForField(record, field, translation), "Privilegio");
 });
 
 test("scoped allowlist permits an approved proper name but not the same value elsewhere", () => {

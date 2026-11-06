@@ -34,7 +34,12 @@ export function translationForField(sourceRecord, field, translation) {
   if (fieldPath === "system.description.chat") return translation?.chat;
   if (fieldPath === "system.materials.value") return translation?.materials;
 
-  let match = fieldPath.match(/^pages\[([^\]]+)\]\.(.+)$/);
+  let match = fieldPath.match(/^system\.advancement\[([^\]]+)\]\.(.+)$/);
+  if (match) {
+    return translateNestedField(translation?.advancement?.[match[1]], match[2]);
+  }
+
+  match = fieldPath.match(/^pages\[([^\]]+)\]\.(.+)$/);
   if (match) {
     const page = byId(sourceRecord.data.pages, match[1]);
     const translatedPage = translation?.pages?.[page?.name] ?? translation?.pages?.[match[1]];

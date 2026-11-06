@@ -1,7 +1,7 @@
 import { isAllowed } from "./allowlist.mjs";
 
 const ENGLISH_SIGNAL = /\b(?:the|and|you|your|this|that|these|those|with|within|must|target|creature|spell|attack|damage|saving throw|feet|foot|miles?|pounds?|inches?)\b/i;
-const IMPERIAL_UNIT = /\b(?:\d+(?:[.,]\d+)?\s*)?(?:feet|foot|ft\.?|miles?|mi\.?|pounds?|lbs?\.?|inches?|in\.?)\b/i;
+const IMPERIAL_UNIT = /(?:\b(?:\d+(?:[.,]\d+)?\s*)?(?:feet|foot|miles?|pounds?|inches?)\b|\b\d+(?:[.,]\d+)?\s*(?:ft\.?|mi\.?|lbs?\.?|in\.?)\b)/i;
 
 function visibleText(value) {
   return value
