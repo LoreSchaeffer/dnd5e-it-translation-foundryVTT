@@ -756,7 +756,8 @@
       "description": "<p>L'incantatore crea una mano scheletrica e spettrale nello spazio di una creatura entro gittata, effettuando un attacco a distanza con questo incantesimo contro quella creatura per colpirla con un flusso di gelo sepolcrale. Se viene colpito, il bersaglio subisce 1d8 danni necrotici e non può recuperare punti ferita fino all'inizio del turno successivo dell'incantatore. Fino ad allora, la mano si avvinghia al bersaglio.</p><p>Se l'incantatore colpisce un bersaglio non morto, quel bersaglio subisce anche svantaggio ai suoi tiri per colpire contro l'incantatore fino alla fine del turno successivo di quest'ultimo.</p><p>I danni di questo incantesimo aumentano di 1d8 quando l'incantatore arriva al 5° livello (2d8), 11° livello (3d8) e 17° livello (4d8).</p>",
       "effects": {
         "6Hdp1jf98UcJrEkD": {
-          "name": "Tocco Gelido"
+          "name": "Tocco Gelido",
+          "description": "<p>Non puoi recuperare punti ferita fino all'inizio del turno successivo dell'incantatore.</p>"
         }
       },
       "activities": {
@@ -1613,7 +1614,10 @@
           "name": "Comanda Creatura"
         },
         "gTWT6EVmsdlCKci4": {
-          "name": "Assumi il Controllo Diretto"
+          "name": "Assumi il Controllo Diretto",
+          "description": {
+            "value": "<p>Assumi il controllo totale e preciso del bersaglio. Fino alla fine del tuo turno successivo, la creatura effettua soltanto le azioni che scegli e non fa nulla che tu non le consenta di fare. Durante questo periodo puoi inoltre fare in modo che la creatura usi una reazione, ma ciò richiede che anche tu usi la tua reazione.</p>"
+          }
         }
       },
       "effects": {
@@ -1967,7 +1971,8 @@
       "materials": "Una manciata di sfere di argilla, cristallo, vetro o minerali",
       "effects": {
         "flpBCg1pgZchf5Hz": {
-          "name": "Regressione Mentale"
+          "name": "Regressione Mentale",
+          "description": "<p>I tuoi punteggi di Intelligenza e Carisma diventano 1. Non puoi lanciare incantesimi, attivare oggetti magici, comprendere linguaggi o comunicare in modo intelligibile. Puoi tuttavia riconoscere i tuoi amici, seguirli e perfino proteggerli.</p><p>Al termine di ogni periodo di 30 giorni, puoi ripetere il tiro salvezza contro questo incantesimo. Se superi il tiro salvezza, l'incantesimo termina.</p><p>L'incantesimo può essere terminato anche da @UUID[Compendium.dnd5e.spells.Item.WzvJ7G3cqvIubsLk]{Ristorare Superiore}, @UUID[Compendium.dnd5e.spells.Item.qcYitWoSMTnKkzM1]{Guarigione} o @UUID[Compendium.dnd5e.spells.Item.3okM6Gn63zzEULkz]{Desiderio}.</p>"
         }
       },
       "activities": {
@@ -2272,7 +2277,8 @@
       "materials": "una piuma di colibrì",
       "effects": {
         "UTG8MneezBrTcBGo": {
-          "name": "Previsione"
+          "name": "Previsione",
+          "description": "<p>Hai ricevuto una capacità limitata di vedere nell'immediato futuro. Per la durata non puoi essere &amp;reference[surprise]{Sorpreso} e disponi di vantaggio ai tiri per colpire, alle prove di caratteristica e ai tiri salvezza. Inoltre, per la durata, le altre creature dispongono di svantaggio ai tiri per colpire contro di te.</p><p>Questo incantesimo termina immediatamente se l'incantatore lo lancia di nuovo prima che la sua durata termini.</p>"
         }
       },
       "activities": {
@@ -2333,7 +2339,10 @@
           "name": "Lancia"
         },
         "lFO5S0pA2P2d5GpZ": {
-          "name": "Evoca Creatura"
+          "name": "Evoca Creatura",
+          "description": {
+            "value": "<p>Puoi pronunciare il nome di una creatura specifica (uno pseudonimo, un titolo o un soprannome non funziona). Se quella creatura si trova su un piano diverso dal tuo, il portale si apre nelle sue immediate vicinanze e la trascina attraverso di esso fino allo spazio libero più vicino sul tuo lato del portale. Non ottieni alcun potere speciale sulla creatura, che è libera di agire come il DM ritiene appropriato. Potrebbe andarsene, Attaccarti o aiutarti.</p>"
+          }
         }
       }
     },
@@ -3271,7 +3280,8 @@
       },
       "effects": {
         "od0XuYES3kvwhFct": {
-          "name": "Esiliato nel Labirinto"
+          "name": "Esiliato nel Labirinto",
+          "description": "<p>Sei stato esiliato in un semipiano labirintico. Rimani lì per la durata o finché non fuggi dal labirinto.</p><p>Puoi usare la tua azione per tentare di fuggire. Quando lo fai, effettua una prova [[/check 20 int]]. Se la superi, fuggi e l'incantesimo termina (un @UUID[Compendium.dnd5e.monsters.Actor.pOPQU4UnR27zA0jf]{Minotauro} o un demone goristro supera automaticamente la prova).</p><p>Quando l'incantesimo termina, ricompari nello spazio che hai lasciato o, se quello spazio è occupato, nello spazio libero più vicino.</p>"
         }
       }
     },
@@ -3672,7 +3682,8 @@
       "description": "<p data-parsoid=\"{&quot;dsr&quot;:[0,30,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,30,2,2]}\">Ammaliamento di 8° livello</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[31,135,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[31,63,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[32,55,3,3]}\">Tempo di lancio:&nbsp;</strong>1 azione</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[64,88,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[65,80,3,3]}\">Gittata:&nbsp;</strong>18 metri</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[89,109,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[90,108,3,3]}\">Componenti:&nbsp;</strong>V</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[110,135,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[111,125,3,3]}\">Durata:&nbsp;</strong>Istantanea</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[136,417,0,0]}\">L'incantatore pronuncia una parola del potere che può&nbsp;sopraffare la mente di una creatura entro gittata e che&nbsp;egli sia in grado di vedere, lasciandola in uno stato&nbsp;confusionale. Se il bersaglio possiede 150 punti ferita o&nbsp;meno, è stordito. Altrimenti, l'incantesimo non ha effetto.</p>\n<p>&nbsp;</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[419,566,0,0]}\">Il bersaglio stordito deve effettuare un tiro salvezza su Costituzione alla fine di ogni suo turno. Se lo supera, l'effetto di stordimento termina.</p>",
       "effects": {
         "XUk41wJR26neJaic": {
-          "name": "Parola del Potere Stordire"
+          "name": "Parola del Potere Stordire",
+          "description": "<p>Sei &amp;reference[Stunned apply=false]. Devi effettuare un tiro salvezza su Costituzione alla fine di ogni tuo turno. Se lo superi, questo effetto stordente termina.</p>"
         }
       },
       "activities": {
@@ -4006,7 +4017,8 @@
       },
       "effects": {
         "ZlBjKmRbz1cyezIt": {
-          "name": "Raffreddato"
+          "name": "Raffreddato",
+          "description": "<p>La tua velocità è ridotta di 3 metri fino all'inizio del turno successivo dell'incantatore.</p>"
         }
       }
     },
@@ -4382,7 +4394,8 @@
       "description": "<p data-parsoid=\"{&quot;dsr&quot;:[0,29,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,29,2,2]}\">Trucchetto di Invocazione</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[30,137,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[30,62,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[31,54,3,3]}\">Tempo di lancio:&nbsp;</strong>1 azione</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[63,87,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[64,79,3,3]}\">Gittata:&nbsp;</strong>Contatto</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[88,111,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[89,107,3,3]}\">Componenti:&nbsp;</strong>V, S</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[112,137,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[113,127,3,3]}\">Durata:&nbsp;</strong>Istantanea</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[138,259,0,0]}\">Un fulmine si sprigiona dalla mano dell'incantatore per trasmettere una scarica folgorante a una creatura da lui toccata.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[261,349,0,0]}\">L'incantatore effettua un attacco in mischia con questo incantesimo contro il bersaglio.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[351,439,0,0]}\">Se il bersaglio indossa un'armatura fatta di metallo l'incantatore dispone di vantaggio.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[441,567,0,0]}\">Se colpisce, il bersaglio subisce 1d8 danni da fulmine e non può effettuare reazioni fino all'inizio del suo turno successivo.</p>\n<p>&nbsp;</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[569,703,0,0]}\">I danni di questo incantesimo aumentano di 1d8 quando l'incantatore arriva al 5° livello (2d8), 11° livello (3d8) e 17° livello (4d8).</p>",
       "effects": {
         "nmcuBi3UW1cZJqut": {
-          "name": "Stretta Folgorante"
+          "name": "Stretta Folgorante",
+          "description": "<p>Non puoi effettuare reazioni fino all'inizio del tuo turno successivo.</p>"
         }
       },
       "activities": {
@@ -4701,7 +4714,8 @@
       "materials": "Fuoco e un pezzo di pietra solare",
       "effects": {
         "iQg9je7HHoF6q8fr": {
-          "name": "Cecità da Esplosione Solare"
+          "name": "Cecità da Esplosione Solare",
+          "description": "<p>Sei &amp;reference[blinded apply=false] per 1 minuto. Puoi effettuare un altro tiro salvezza su Costituzione alla fine di ogni tuo turno. Se lo superi, non sei più accecato.</p>"
         }
       }
     },
@@ -4838,7 +4852,10 @@
           "name": "Lancia"
         },
         "FRz2LntLdKnrnVvH": {
-          "name": "Danni da Incidente"
+          "name": "Danni da Incidente",
+          "description": {
+            "value": "<p>La magia imprevedibile dell'incantesimo produce un viaggio difficile. Ogni creatura che si teletrasporta (o l'oggetto bersaglio) subisce 3d10 danni da forza e il DM tira di nuovo sulla tabella per determinare dove arrivate (possono verificarsi più incidenti, ciascuno dei quali infligge danni).</p>"
+          }
         }
       }
     },
@@ -4979,7 +4996,8 @@
       "description": "<p>Allunghi la mano e punti il dito verso un bersaglio a gittata. La tua magia ti conferisce una breve comprensione delle difese del bersaglio. Durante il tuo prossimo turno, purch&eacute; questo incantesimo non sia terminato, ottieni vantaggio al primo tiro per colpire contro quel bersaglio.</p>",
       "effects": {
         "9R2Z2PZW9U03QFhW": {
-          "name": "Colpo Accurato"
+          "name": "Colpo Accurato",
+          "description": "<p>L'incantatore dispone di vantaggio al primo tiro per colpire che effettua contro di te.</p>"
         }
       },
       "activities": {
@@ -5018,7 +5036,8 @@
       "description": "<p>Scateni una serie di insulti avvolti da una subdola malia contro una creatura a gittata e che puoi vedere. Se il bersaglio ti pu&ograve; udire (sebbene non &egrave; necessario che ti comprenda), deve superare un tiro salvezza su Saggezza o subire 1d4 danni psichici e avere svantaggio al prossimo tiro per colpire che effettuer&agrave; prima del termine del suo prossimo turno.</p><p>Il danno dell&rsquo;incantesimo aumenta di 1d4 quando raggiungi il 5&deg; livello (2d4), 11&deg; livello (3d4) e 17&deg; livello (4d4).</p>",
       "effects": {
         "imsGW3YRra9KF6iK": {
-          "name": "Beffa Crudele"
+          "name": "Beffa Crudele",
+          "description": "<p>Disponi di svantaggio al prossimo tiro per colpire che effettui prima della fine del tuo turno successivo.</p>"
         }
       },
       "activities": {
@@ -5185,7 +5204,8 @@
       "description": "<p data-parsoid=\"{&quot;dsr&quot;:[0,27,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,27,2,2]}\">Illusione di 9&deg; livello</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[28,156,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[28,60,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[29,51,3,3]}\">Tempo di lancio:</strong>&nbsp;1 azione</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[61,85,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[62,76,3,3]}\">Gittata:</strong>&nbsp;36 metri</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[86,109,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[87,104,3,3]}\">Componenti:</strong>&nbsp;V, S</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[110,156,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[111,124,3,3]}\">Durata:</strong>&nbsp;Concentrazione, fino a 1 minuto</li>\n</ul>\n<p>&nbsp;</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[157,889,0,0]}\">Traendo dalle paure pi&ugrave; profonde di un gruppo di creature, l'incantatore manifesta nelle loro menti delle entit&agrave; illusorie visibili soltanto ad esse. Ogni creatura all'interno di una sfera con raggio di 9 metri centrata in un punto entro gittata a scelta dell'incantatore, deve effettuare un tiro salvezza Saggezza. Se lo fallisce, una creatura diventa spaventata per la durata dell'incantesimo. L'illusione risveglia le paure pi&ugrave; profonde della creatura, manifestando i suoi peggiori incubi come un'implacabile minaccia. All'inizio di ogni turno della creatura spaventata, essa deve superare un tiro salvezza Saggezza oppure subire 4d10 danni psichici. Se il tiro salvezza viene superato, l'incantesimo termina per quella creatura.</p>",
       "effects": {
         "YQNznF5HERSuMOj6": {
-          "name": "Fatale"
+          "name": "Fatale",
+          "description": "<p>Sei &amp;reference[frightened apply=false] per la durata. L'illusione fa leva sulle tue paure più profonde, manifestando i tuoi peggiori incubi come una minaccia implacabile.</p><p>Alla fine di ogni tuo turno devi superare un tiro salvezza su Saggezza, altrimenti subisci 4d10 danni psichici. Se lo superi, l'incantesimo termina per te.</p>"
         }
       },
       "activities": {

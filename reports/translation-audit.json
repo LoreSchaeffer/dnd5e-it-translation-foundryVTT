@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1071,
+      "translated": 1077,
       "missing": 69,
-      "partial": 1251,
+      "partial": 1245,
       "review": 213
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 9500,
-      "missing": 6160,
+      "translated": 9514,
+      "missing": 6146,
       "invariantFailures": 2394,
       "englishResiduals": 135,
       "imperialResiduals": 4
     },
-    "blockingIssues": 8717
+    "blockingIssues": 8703
   },
   "packs": [
     {
@@ -76741,9 +76741,9 @@
       "summary": {
         "documents": {
           "total": 320,
-          "translated": 134,
+          "translated": 140,
           "missing": 0,
-          "partial": 186,
+          "partial": 180,
           "review": 10
         },
         "folders": {
@@ -76755,8 +76755,8 @@
         },
         "fields": {
           "total": 2007,
-          "translated": 1993,
-          "missing": 14,
+          "translated": 2007,
+          "missing": 0,
           "invariantFailures": 406,
           "englishResiduals": 17,
           "imperialResiduals": 2
@@ -80170,15 +80170,6 @@
           "sourcePath": "spells/7th-level/teleport.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "L4J89JXqbKs6puEV",
-          "name": "Teleport",
-          "fieldPath": "system.activities.FRz2LntLdKnrnVvH.description.value",
-          "sourcePath": "spells/7th-level/teleport.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -80240,15 +80231,6 @@
           "sourcePath": "spells/8th-level/control-weather.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "eEpy1ONlXumKS1mp",
-          "name": "Dominate Monster",
-          "fieldPath": "system.activities.gTWT6EVmsdlCKci4.description.value",
-          "sourcePath": "spells/8th-level/dominate-monster.yml"
-        },
-        {
           "code": "html-attributes",
           "severity": "blocking",
           "message": "HTML attributes differ from source",
@@ -80299,15 +80281,6 @@
           "sourcePath": "spells/8th-level/feeblemind.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "hYCrN82dMJFuJODB",
-          "name": "Feeblemind",
-          "fieldPath": "effects[flpBCg1pgZchf5Hz].description",
-          "sourcePath": "spells/8th-level/feeblemind.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -80385,15 +80358,6 @@
           "id": "clwv2PWOcT822hlr",
           "fieldPath": "system.description.value",
           "name": "Maze",
-          "sourcePath": "spells/8th-level/maze.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "clwv2PWOcT822hlr",
-          "name": "Maze",
-          "fieldPath": "effects[od0XuYES3kvwhFct].description",
           "sourcePath": "spells/8th-level/maze.yml"
         },
         {
@@ -80447,15 +80411,6 @@
           "sourcePath": "spells/8th-level/power-word-stun.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "35j2QIMmIk6aEdxj",
-          "name": "Power Word Stun",
-          "fieldPath": "effects[XUk41wJR26neJaic].description",
-          "sourcePath": "spells/8th-level/power-word-stun.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -80474,33 +80429,6 @@
           "fieldPath": "system.description.value",
           "name": "Sunburst",
           "sourcePath": "spells/8th-level/sunburst.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "hzK7FQya0BDjSmLE",
-          "name": "Sunburst",
-          "fieldPath": "effects[iQg9je7HHoF6q8fr].description",
-          "sourcePath": "spells/8th-level/sunburst.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "6HEEhLdJz32TL4Js",
-          "name": "Foresight",
-          "fieldPath": "effects[UTG8MneezBrTcBGo].description",
-          "sourcePath": "spells/9th-level/foresight.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "XbwGq5kDJNvAxNXV",
-          "name": "Gate",
-          "fieldPath": "system.activities.lFO5S0pA2P2d5GpZ.description.value",
-          "sourcePath": "spells/9th-level/gate.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -80775,15 +80703,6 @@
           "sourcePath": "spells/9th-level/weird.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "Wl2vtJ4hCt2tpWfR",
-          "name": "Weird",
-          "fieldPath": "effects[YQNznF5HERSuMOj6].description",
-          "sourcePath": "spells/9th-level/weird.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -80814,15 +80733,6 @@
           "sourcePath": "spells/9th-level/wish.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "vrN18tbTw7io5MWd",
-          "name": "Chill Touch",
-          "fieldPath": "effects[6Hdp1jf98UcJrEkD].description",
-          "sourcePath": "spells/cantrip/chill-touch.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -81003,15 +80913,6 @@
           "sourcePath": "spells/cantrip/ray-of-frost.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "ctW81uiX56xZR2c5",
-          "name": "Ray of Frost",
-          "fieldPath": "effects[ZlBjKmRbz1cyezIt].description",
-          "sourcePath": "spells/cantrip/ray-of-frost.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -81092,15 +80993,6 @@
           "sourcePath": "spells/cantrip/shocking-grasp.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "XvbiNhNqXXIFisIy",
-          "name": "Shocking Grasp",
-          "fieldPath": "effects[nmcuBi3UW1cZJqut].description",
-          "sourcePath": "spells/cantrip/shocking-grasp.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -81139,24 +81031,6 @@
           "fieldPath": "system.description.value",
           "name": "Thaumaturgy",
           "sourcePath": "spells/cantrip/thaumaturgy.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "mGGlcLdggHwcL7MG",
-          "name": "True Strike",
-          "fieldPath": "effects[9R2Z2PZW9U03QFhW].description",
-          "sourcePath": "spells/cantrip/true-strike.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "spells",
-          "id": "cdrYKaFi98YWaBMw",
-          "name": "Vicious Mockery",
-          "fieldPath": "effects[imsGW3YRra9KF6iK].description",
-          "sourcePath": "spells/cantrip/vicious-mockery.yml"
         }
       ]
     },
