@@ -8,6 +8,17 @@
     "requirements": {
       "path": "data.requirements",
       "converter": "classRequirements"
+    },
+    "activities": {
+      "path": "system.activities",
+      "converter": "structured",
+      "cardinality": "many",
+      "container": "object",
+      "key": "_id",
+      "mapping": {
+        "name": "name",
+        "chatFlavor": "description.chatFlavor"
+      }
     }
   },
   "folders": {
@@ -292,7 +303,16 @@
     },
     "Font of Magic": {
       "name": "Fonte di Magia",
-      "description": "<p>Al 2° livello, attingi a una profonda sorgente di magia&nbsp;nascosta dentro di te. Questa fonte è rappresentata dai&nbsp;&nbsp;punti stregoneria, che ti permettono di creare una&nbsp;grande varietà di effetti magici.&nbsp;</p><p><strong>Punti Stregoneria</strong></p><p>Hai 2 punti stregoneria, e ne ottieni di più quando&nbsp;raggiungi i livelli più alti, come mostrato nella colonna&nbsp;Punti Stregoneria della tabella Lo Stregone. Non potrai&nbsp;mai avere più punti stregoneria di quanti mostrati per il&nbsp;tuo livello sulla tabella. Recuperi tutti i punti stregoneria&nbsp;spesi al termine di un riposo lungo.</p><h4><strong>Lancio Flessibile</strong></h4><p>Puoi usare i tuoi punti stregoneria per ottenere ulteriori slot incantesimo, o sacrificare gli slot incantesimo per&nbsp;ottenere ulteriori punti stregoneria. Impari altri modi di&nbsp;usare i tuoi punti stregoneria quando raggiungi i livelli&nbsp;più alti.&nbsp;</p><p><strong>Creare Slot Incantesimo</strong> [Creating Spell Slots]. Con&nbsp;un’azione bonus durante il tuo turno, puoi trasformare i&nbsp;punti stregoneria non spesi in uno slot incantesimo. La&nbsp;tabella Creare Slot Incantesimo mostra il costo della&nbsp;creazione di uno slot incantesimo di uno specifico&nbsp;livello. Non puoi creare slot incantesimo di livello&nbsp;superiore al 5°. &nbsp;</p><p>Lo slot incantesimo così creato svanisce al termine di&nbsp;un riposo lungo.&nbsp;</p><table style=\"height: 169px;\"><thead><tr style=\"height: 29px;\"><th style=\"text-align: center; height: 29px; width: 165px;\"><p><strong>Lvl. dello Slot Incantesimo</strong></p></th><th style=\"text-align: center; height: 29px; width: 198px;\"><p><strong>Costo in Punti Stregoneria</strong></p></th></tr></thead><tbody><tr style=\"height: 28px;\"><td style=\"text-align: center; height: 28px; width: 165px;\"><p>1°</p></td><td style=\"text-align: center; height: 28px; width: 198px;\"><p>2</p></td></tr><tr style=\"height: 28px;\"><td style=\"text-align: center; height: 28px; width: 165px;\"><p>2°</p></td><td style=\"text-align: center; height: 28px; width: 198px;\"><p>3</p></td></tr><tr style=\"height: 28px;\"><td style=\"text-align: center; height: 28px; width: 165px;\"><p>3°</p></td><td style=\"text-align: center; height: 28px; width: 198px;\"><p>5</p></td></tr><tr style=\"height: 28px;\"><td style=\"text-align: center; height: 28px; width: 165px;\"><p>4°</p></td><td style=\"text-align: center; height: 28px; width: 198px;\"><p>6</p></td></tr><tr style=\"height: 28px;\"><td style=\"text-align: center; height: 28px; width: 165px;\"><p>5°</p></td><td style=\"text-align: center; height: 28px; width: 198px;\"><p>7</p></td></tr></tbody></table><p><strong>Convertire uno Slot Incantesimo in Punti Stregoneria</strong> [Converting a Spell Slot to Sorcery Points]. Con un’azione bonus durante il tuo turno, puoi spendere uno slot incantesimo e ottenere un numero di punti stregoneria pari al suo livello.</p>"
+      "description": "<p>Al 2° livello, attingi a una profonda sorgente di magia dentro di te. Questa sorgente è rappresentata dai punti stregoneria, che ti consentono di creare una varietà di effetti magici.</p><h5>Punti Stregoneria</h5><p>Disponi di 2 punti stregoneria e ne ottieni altri quando raggiungi livelli superiori. Il tuo livello da stregone equivale al numero di punti stregoneria che possiedi: uno stregone di 4° livello ha 4 punti stregoneria e uno stregone di 16° livello ne ha 16. Non puoi mai avere più punti stregoneria di quanti ne consenta il tuo livello.  Recuperi tutti i punti stregoneria spesi quando completi un riposo lungo.</p><h5>Lancio Flessibile</h5><p>Puoi usare i punti stregoneria per ottenere slot incantesimo aggiuntivi, oppure sacrificare slot incantesimo per ottenere altri punti stregoneria. Apprendi altri modi di usare i punti stregoneria quando raggiungi livelli superiori.</p><p><em><strong>Creare Slot Incantesimo</strong>.</em> Puoi trasformare punti stregoneria non spesi in uno slot incantesimo come azione bonus durante il tuo turno. La tabella Creare Slot Incantesimo mostra il costo necessario per creare uno slot incantesimo di un determinato livello. Non puoi creare slot incantesimo di livello superiore al 5°.</p><p>Qualsiasi slot incantesimo creato con questo privilegio svanisce quando completi un riposo lungo.</p><table><caption>Creare Slot Incantesimo</caption><thead><tr><td><strong>Livello dello Slot Incantesimo</strong></td><td><strong>Costo in Punti Stregoneria</strong></td></tr></thead><tbody><tr><td>1°</td><td>2</td></tr><tr><td>2°</td><td>3</td></tr><tr><td>3°</td><td>5</td></tr><tr><td>4°</td><td>6</td></tr><tr><td>5°</td><td>7</td></tr></tbody></table><p><em><strong>Convertire uno Slot Incantesimo in Punti Stregoneria</strong>. </em>Come azione bonus durante il tuo turno, puoi spendere uno slot incantesimo e ottenere un numero di punti stregoneria pari al livello dello slot.</p><section class=\"secret foundry-note\" id=\"secret-6nrlbnZxIbKqf5Ul\"><p><strong>Nota di Foundry</strong></p><p>Usa questo privilegio per tenere traccia di tutti i diversi impieghi dei punti stregoneria dello stregone.</p></section>",
+      "requirements": "Stregone 2",
+      "activities": {
+        "EHLXN6WrPpxg0pRN": {
+          "name": "Recupera Slot Incantesimo"
+        },
+        "72ZtIT83h5t5iHHC": {
+          "name": "Recupera Punti Stregoneria"
+        }
+      }
     },
     "Frenzy": {
       "name": "Frenesia",

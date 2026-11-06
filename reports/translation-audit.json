@@ -3,10 +3,10 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 200,
-      "missing": 439,
-      "partial": 1752,
-      "review": 217
+      "translated": 228,
+      "missing": 427,
+      "partial": 1736,
+      "review": 216
     },
     "folders": {
       "total": 120,
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 4058,
-      "missing": 11602,
-      "invariantFailures": 2764,
-      "englishResiduals": 135,
+      "translated": 4134,
+      "missing": 11526,
+      "invariantFailures": 2753,
+      "englishResiduals": 134,
       "imperialResiduals": 4
     },
-    "blockingIssues": 13570
+    "blockingIssues": 13518
   },
   "packs": [
     {
@@ -87,10 +87,10 @@
       "summary": {
         "documents": {
           "total": 235,
-          "translated": 0,
+          "translated": 1,
           "missing": 65,
-          "partial": 170,
-          "review": 1
+          "partial": 169,
+          "review": 0
         },
         "folders": {
           "total": 40,
@@ -101,10 +101,10 @@
         },
         "fields": {
           "total": 731,
-          "translated": 312,
-          "missing": 419,
-          "invariantFailures": 144,
-          "englishResiduals": 1,
+          "translated": 315,
+          "missing": 416,
+          "invariantFailures": 142,
+          "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
@@ -3357,64 +3357,6 @@
           "id": "Qb391hakCfmH4w8p",
           "name": "Twinned Spell",
           "sourcePath": "classfeatures/sorcerer/metamagic/twinned-spell.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "classfeatures",
-          "id": "LBKChJY5n02Afhnq",
-          "fieldPath": "system.description.value",
-          "name": "Font of Magic",
-          "sourcePath": "classfeatures/sorcerer/sorcerer-features/font-of-magic.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "classfeatures",
-          "id": "LBKChJY5n02Afhnq",
-          "fieldPath": "system.description.value",
-          "name": "Font of Magic",
-          "sourcePath": "classfeatures/sorcerer/sorcerer-features/font-of-magic.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "Al 2° livello, attingi a una profonda sorgente di magia&nbsp;nascosta dentro di te. Questa fonte è rappresentata dai&nbsp;&nbsp;punti stregoneria, che ti permettono di creare una&nbsp;grande varietà di effetti magici.&nbsp; Punti Stregoneria Hai 2 punti stregoneria, e ne ottieni di più quando&nbsp;raggiungi i livelli più alti, come mostrato nella colonna&nbsp;Punti Stregoneria della tabella Lo Stregone. Non potrai&nbsp;mai avere più punti stregoneria di quanti mostrati per il&nbsp;tuo livello sulla tabella. Recuperi tutti i punti stregoneria&nbsp;spesi al termine di un riposo lungo. Lancio Flessibile Puoi usare i tuoi punti stregoneria per ottenere ulteriori slot incantesimo, o sacrificare gli slot incantesimo per&nbsp;ottenere ulteriori punti stregoneria. Impari altri modi di&nbsp;usare i tuoi punti stregoneria quando raggiungi i livelli&nbsp;più alti.&nbsp; Creare Slot Incantesimo [Creating Spell Slots]. Con&nbsp;un’azione bonus durante il tuo turno, puoi trasformare i&nbsp;punti stregoneria non spesi in uno slot incantesimo. La&nbsp;tabella Creare Slot Incantesimo mostra il costo della&nbsp;creazione di uno slot incantesimo di uno specifico&nbsp;livello. Non puoi creare slot incantesimo di livello&nbsp;superiore al 5°. &nbsp; Lo slot incantesimo così creato svanisce al termine di&nbsp;un riposo lungo.&nbsp; Lvl. dello Slot Incantesimo Costo in Punti Stregoneria 1° 2 2° 3 3° 5 4° 6 5° 7 Convertire uno Slot Incantesimo in Punti Stregoneria [Converting a Spell Slot to Sorcery Points]. Con un’azione bonus durante il tuo turno, puoi spendere uno slot incantesimo e ottenere un numero di punti stregoneria pari al suo livello.",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "classfeatures",
-          "id": "LBKChJY5n02Afhnq",
-          "name": "Font of Magic",
-          "fieldPath": "system.description.value",
-          "sourcePath": "classfeatures/sorcerer/sorcerer-features/font-of-magic.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "classfeatures",
-          "id": "LBKChJY5n02Afhnq",
-          "name": "Font of Magic",
-          "fieldPath": "system.requirements",
-          "sourcePath": "classfeatures/sorcerer/sorcerer-features/font-of-magic.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "classfeatures",
-          "id": "LBKChJY5n02Afhnq",
-          "name": "Font of Magic",
-          "fieldPath": "system.activities.EHLXN6WrPpxg0pRN.name",
-          "sourcePath": "classfeatures/sorcerer/sorcerer-features/font-of-magic.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "classfeatures",
-          "id": "LBKChJY5n02Afhnq",
-          "name": "Font of Magic",
-          "fieldPath": "system.activities.72ZtIT83h5t5iHHC.name",
-          "sourcePath": "classfeatures/sorcerer/sorcerer-features/font-of-magic.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -104819,9 +104761,9 @@
       "summary": {
         "documents": {
           "total": 35,
-          "translated": 0,
-          "missing": 12,
-          "partial": 23,
+          "translated": 27,
+          "missing": 0,
+          "partial": 8,
           "review": 0
         },
         "folders": {
@@ -104833,94 +104775,14 @@
         },
         "fields": {
           "total": 145,
-          "translated": 46,
-          "missing": 99,
-          "invariantFailures": 26,
+          "translated": 119,
+          "missing": 26,
+          "invariantFailures": 17,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "races",
-          "id": "NnSZlrsHCFeH3cCq",
-          "name": "Black Breath Weapon",
-          "sourcePath": "races/dragonborn/dragonborn-features/black-breath-weapon.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "races",
-          "id": "KVgvW5yhKcmQUanz",
-          "name": "Blue Breath Weapon",
-          "sourcePath": "races/dragonborn/dragonborn-features/blue-breath-weapon.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "races",
-          "id": "JrUcwLR2aQC09iUM",
-          "name": "Brass Breath Weapon",
-          "sourcePath": "races/dragonborn/dragonborn-features/brass-breath-weapon.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "races",
-          "id": "pJzMSk9qYywYy65w",
-          "name": "Bronze Breath Weapon",
-          "sourcePath": "races/dragonborn/dragonborn-features/bronze-breath-weapon.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "races",
-          "id": "bFpLM0N3uTeHLdzu",
-          "name": "Copper Breath Weapon",
-          "sourcePath": "races/dragonborn/dragonborn-features/copper-breath-weapon.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "races",
-          "id": "YPQQBZAuRiSwuBfh",
-          "name": "Gold Breath Weapon",
-          "sourcePath": "races/dragonborn/dragonborn-features/gold-breath-weapon.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "races",
-          "id": "lXIxndsBaQglHBtO",
-          "name": "Green Breath Weapon",
-          "sourcePath": "races/dragonborn/dragonborn-features/green-breath-weapon.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "races",
-          "id": "kB61JPKQrDBbSNU7",
-          "name": "Red Breath Weapon",
-          "sourcePath": "races/dragonborn/dragonborn-features/red-breath-weapon.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "races",
-          "id": "pAYTdRGftNr8AitK",
-          "name": "Silver Breath Weapon",
-          "sourcePath": "races/dragonborn/dragonborn-features/silver-breath-weapon.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "races",
-          "id": "KL7wx9Q8XNJQir0k",
-          "name": "White Breath Weapon",
-          "sourcePath": "races/dragonborn/dragonborn-features/white-breath-weapon.yml"
-        },
         {
           "code": "html-tag-sequence",
           "severity": "blocking",
@@ -104987,41 +104849,6 @@
           "sourcePath": "races/dragonborn/dragonborn.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "races",
-          "id": "ufysTkqet2Ctmtyi",
-          "name": "Dwarven Resilience",
-          "fieldPath": "system.requirements",
-          "sourcePath": "races/dwarf/dwarf-features/dwarven-resilience.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "races",
-          "id": "G7hkETvAYFLSLIVW",
-          "name": "Dwarven Toughness",
-          "sourcePath": "races/dwarf/dwarf-features/dwarven-toughness.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "races",
-          "id": "mQPZDRbUhgYTbXKa",
-          "name": "Stonecunning",
-          "fieldPath": "system.requirements",
-          "sourcePath": "races/dwarf/dwarf-features/stonecunning.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "races",
-          "id": "mQPZDRbUhgYTbXKa",
-          "name": "Stonecunning",
-          "fieldPath": "system.activities.nwTutalWcjDp3gUk.name",
-          "sourcePath": "races/dwarf/dwarf-features/stonecunning.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -105067,24 +104894,6 @@
           "name": "Hill Dwarf",
           "fieldPath": "system.advancement.J0UGmCyMy6thWDeU.title",
           "sourcePath": "races/dwarf/hill-dwarf.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "races",
-          "id": "cnTbpPPeGW7vGjOV",
-          "name": "Fey Ancestry",
-          "fieldPath": "system.requirements",
-          "sourcePath": "races/elf/elf-features/fey-ancestry.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "races",
-          "id": "4v2PiBrAbqDizdSJ",
-          "name": "Trance",
-          "fieldPath": "system.requirements",
-          "sourcePath": "races/elf/elf-features/trance.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -105199,71 +105008,6 @@
           "sourcePath": "races/elf/high-elf.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "races",
-          "id": "OQA1sHxKnSJq01dL",
-          "name": "Artificer's Lore",
-          "fieldPath": "system.requirements",
-          "sourcePath": "races/gnome/gnome-features/artificers-lore.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "races",
-          "id": "OQA1sHxKnSJq01dL",
-          "name": "Artificer's Lore",
-          "fieldPath": "system.activities.o81tGftFd5PQZM7I.name",
-          "sourcePath": "races/gnome/gnome-features/artificers-lore.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "races",
-          "id": "EHhr9umJ5kxJFCQH",
-          "name": "Gnome Cunning",
-          "fieldPath": "system.requirements",
-          "sourcePath": "races/gnome/gnome-features/gnome-cunning.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "races",
-          "id": "koRPOLtj8XAFMwnW",
-          "fieldPath": "system.description.value",
-          "name": "Tinker",
-          "sourcePath": "races/gnome/gnome-features/tinker.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "races",
-          "id": "koRPOLtj8XAFMwnW",
-          "fieldPath": "system.description.value",
-          "name": "Tinker",
-          "sourcePath": "races/gnome/gnome-features/tinker.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "races",
-          "id": "koRPOLtj8XAFMwnW",
-          "name": "Tinker",
-          "fieldPath": "system.requirements",
-          "sourcePath": "races/gnome/gnome-features/tinker.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "races",
-          "id": "koRPOLtj8XAFMwnW",
-          "name": "Tinker",
-          "fieldPath": "system.activities.dnd5eactivity000.name",
-          "sourcePath": "races/gnome/gnome-features/tinker.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -105300,115 +105044,6 @@
           "name": "Rock Gnome",
           "fieldPath": "system.advancement[3iZH8gdahsVwLPbQ].title",
           "sourcePath": "races/gnome/rock-gnome.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "races",
-          "id": "7Yoo9hG0hfPSmBoC",
-          "name": "Brave",
-          "fieldPath": "system.requirements",
-          "sourcePath": "races/halfling/halfling-features/brave.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "races",
-          "id": "PqxZgcJzp1VVgP8t",
-          "name": "Halfling Nimbleness",
-          "fieldPath": "system.requirements",
-          "sourcePath": "races/halfling/halfling-features/halfling-nimbleness.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "races",
-          "id": "PqxZgcJzp1VVgP8t",
-          "name": "Halfling Nimbleness",
-          "fieldPath": "effects[8oJGOvksocvoVzVE].name",
-          "sourcePath": "races/halfling/halfling-features/halfling-nimbleness.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "races",
-          "id": "PqxZgcJzp1VVgP8t",
-          "name": "Halfling Nimbleness",
-          "fieldPath": "effects[8oJGOvksocvoVzVE].description",
-          "sourcePath": "races/halfling/halfling-features/halfling-nimbleness.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "races",
-          "id": "LOMdcNAGWh5xpfm4",
-          "fieldPath": "system.description.value",
-          "name": "Lucky",
-          "sourcePath": "races/halfling/halfling-features/lucky.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "races",
-          "id": "LOMdcNAGWh5xpfm4",
-          "fieldPath": "system.description.value",
-          "name": "Lucky",
-          "sourcePath": "races/halfling/halfling-features/lucky.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "races",
-          "id": "LOMdcNAGWh5xpfm4",
-          "name": "Lucky",
-          "fieldPath": "system.requirements",
-          "sourcePath": "races/halfling/halfling-features/lucky.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "races",
-          "id": "LOMdcNAGWh5xpfm4",
-          "name": "Lucky",
-          "fieldPath": "effects[uG46N3C6WoFQmW0W].name",
-          "sourcePath": "races/halfling/halfling-features/lucky.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "races",
-          "id": "LOMdcNAGWh5xpfm4",
-          "name": "Lucky",
-          "fieldPath": "effects[uG46N3C6WoFQmW0W].description",
-          "sourcePath": "races/halfling/halfling-features/lucky.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "races",
-          "id": "GWPjKFeIthBBeCFJ",
-          "name": "Naturally Stealthy",
-          "fieldPath": "system.requirements",
-          "sourcePath": "races/halfling/halfling-features/naturally-stealthy.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "races",
-          "id": "GWPjKFeIthBBeCFJ",
-          "name": "Naturally Stealthy",
-          "fieldPath": "system.activities.moMqvNCYkZDv6RMP.name",
-          "sourcePath": "races/halfling/halfling-features/naturally-stealthy.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "races",
-          "id": "ZgYBjYYfiUstQD6f",
-          "name": "Lightfoot Halfling",
-          "sourcePath": "races/halfling/lightfoot-halfling.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -105476,110 +105111,6 @@
           "name": "Half-Orc",
           "fieldPath": "system.advancement[aRv9Ec4xJCyrFMpY].title",
           "sourcePath": "races/orc/half-orc.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "races",
-          "id": "97c8i9Z28thvZuA8",
-          "name": "Relentless Endurance",
-          "fieldPath": "system.requirements",
-          "sourcePath": "races/orc/orc-features/relentless-endurance.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "races",
-          "id": "0kUsT4sMUOr5FcoX",
-          "fieldPath": "system.description.value",
-          "name": "Savage Attacks",
-          "sourcePath": "races/orc/orc-features/savage-attacks.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "races",
-          "id": "0kUsT4sMUOr5FcoX",
-          "fieldPath": "system.description.value",
-          "name": "Savage Attacks",
-          "sourcePath": "races/orc/orc-features/savage-attacks.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "races",
-          "id": "0kUsT4sMUOr5FcoX",
-          "name": "Savage Attacks",
-          "fieldPath": "system.requirements",
-          "sourcePath": "races/orc/orc-features/savage-attacks.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "races",
-          "id": "0kUsT4sMUOr5FcoX",
-          "name": "Savage Attacks",
-          "fieldPath": "effects[HGtTN5utBdoMs37f].name",
-          "sourcePath": "races/orc/orc-features/savage-attacks.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "races",
-          "id": "0kUsT4sMUOr5FcoX",
-          "name": "Savage Attacks",
-          "fieldPath": "effects[HGtTN5utBdoMs37f].description",
-          "sourcePath": "races/orc/orc-features/savage-attacks.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "races",
-          "id": "q71Pe1F8RRtEJt8Q",
-          "name": "Hellish Resistance",
-          "fieldPath": "system.requirements",
-          "sourcePath": "races/tiefling/tiefling-features/hellish-resistance.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "races",
-          "id": "wJc88B8OP1y1xzMw",
-          "fieldPath": "system.description.value",
-          "name": "Infernal Legacy",
-          "sourcePath": "races/tiefling/tiefling-features/infernal-legacy.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "races",
-          "id": "wJc88B8OP1y1xzMw",
-          "fieldPath": "system.description.value",
-          "name": "Infernal Legacy",
-          "sourcePath": "races/tiefling/tiefling-features/infernal-legacy.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "races",
-          "id": "wJc88B8OP1y1xzMw",
-          "fieldPath": "system.description.value",
-          "name": "Infernal Legacy",
-          "sourcePath": "races/tiefling/tiefling-features/infernal-legacy.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "races",
-          "id": "wJc88B8OP1y1xzMw",
-          "name": "Infernal Legacy",
-          "fieldPath": "system.requirements",
-          "sourcePath": "races/tiefling/tiefling-features/infernal-legacy.yml"
         },
         {
           "code": "html-tag-sequence",

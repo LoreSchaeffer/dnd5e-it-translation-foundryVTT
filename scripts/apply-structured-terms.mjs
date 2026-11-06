@@ -23,6 +23,7 @@ function argumentsOf(argv) {
     else if (argv[index] === "--pack") options.packs = argv[++index].split(",").filter(Boolean);
     else if (argv[index] === "--phrases") options.phrasesPath = argv[++index];
     else if (argv[index] === "--descriptions") options.descriptionsPath = argv[++index];
+    else if (argv[index] === "--descriptions-only") options.descriptionsOnly = true;
     else throw new Error(`Unknown argument: ${argv[index]}`);
   }
   if (!options.packs?.length) throw new Error("--pack is required");
@@ -42,17 +43,19 @@ async function main() {
     const targetPath = path.join(paths.compendiumRoot, `dnd5e.${pack}.json`);
     const document = JSON.parse(await readFile(targetPath, "utf8"));
     const missing = [];
-    document.mapping = { ...(document.mapping ?? {}), advancement: ADVANCEMENT_MAPPING };
+    if (!args.descriptionsOnly) document.mapping = { ...(document.mapping ?? {}), advancement: ADVANCEMENT_MAPPING };
 
     for (const record of sourceRecords.filter(item => item.kind === "document")) {
       const entry = document.entries?.[record.name];
       if (!entry) {
-        missing.push({ name: record.name, reason: "missing-entry" });
+        if (!args.descriptionsOnly || descriptions[pack]?.[record.name]) missing.push({ name: record.name, reason: "missing-entry" });
         continue;
       }
-      const result = applyStructuredTermsToDocument(record.data, entry, phrases);
-      document.entries[record.name] = result.translation;
-      missing.push(...result.missing.map(item => ({ name: record.name, ...item })));
+      if (!args.descriptionsOnly) {
+        const result = applyStructuredTermsToDocument(record.data, entry, phrases);
+        document.entries[record.name] = result.translation;
+        missing.push(...result.missing.map(item => ({ name: record.name, ...item })));
+      }
 
       const description = descriptions[pack]?.[record.name];
       if (description) {

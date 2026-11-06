@@ -84,6 +84,12 @@ test("translationForField resolves stable IDs in structured advancement arrays",
   assert.equal(translationForField(record, field, translation), "Privilegio");
 });
 
+test("translationForField resolves Active Effect prose by stable ID", () => {
+  const record = { data: { effects: [{ _id: "effect1", name: "Lucky", description: "Rule" }] } };
+  const translation = { effects: { effect1: { name: "Fortunato", description: "Regola" } } };
+  assert.equal(translationForField(record, { fieldPath: "effects[effect1].description" }, translation), "Regola");
+});
+
 test("scoped allowlist permits an approved proper name but not the same value elsewhere", () => {
   const allowlist = [{
     kind: "unchanged-english",

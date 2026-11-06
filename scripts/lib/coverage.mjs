@@ -72,6 +72,13 @@ export function translationForField(sourceRecord, field, translation) {
     return translateNestedField(translatedActivity, match[2]);
   }
 
+  match = fieldPath.match(/^effects\[([^\]]+)\]\.(.+)$/);
+  if (match) {
+    const effect = byId(sourceRecord.data.effects, match[1]);
+    const translatedEffect = translation?.effects?.[effect?.name] ?? translation?.effects?.[match[1]];
+    return translateNestedField(translatedEffect, match[2]);
+  }
+
   return translateNestedField(translation, fieldPath);
 }
 
