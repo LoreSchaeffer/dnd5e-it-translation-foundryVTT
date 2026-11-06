@@ -12,12 +12,12 @@
 | monsters | 337 | 2 | 5 | 330 | 15 | 4810 | 5045 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
 | rules | 20 | 1 | 3 | 16 | 0 | 738 | 695 |
-| spells | 320 | 246 | 0 | 74 | 0 | 0 | 192 |
+| spells | 320 | 255 | 0 | 65 | 0 | 0 | 170 |
 | subclasses | 12 | 12 | 0 | 0 | 0 | 0 | 0 |
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 8470
+Total blocking issues: 8448
 
 ## Issues
 
@@ -8304,22 +8304,14 @@ Total blocking issues: 8470
 - **html-attributes** `spells:eS7XnnApoxRxYXPs:system.description.value`
 - **html-tag-sequence** `spells:arzCrMRgcNiQuh43:system.description.value`
 - **html-attributes** `spells:arzCrMRgcNiQuh43:system.description.value`
-- **html-tag-sequence** `spells:8MICCMeOXT3aJUy9:system.description.value`
-- **html-attributes** `spells:8MICCMeOXT3aJUy9:system.description.value`
-- **html-tag-sequence** `spells:8MICCMeOXT3aJUy9:effects[YNlbHxIwut5swF2d].description`
-- **html-attributes** `spells:8MICCMeOXT3aJUy9:effects[YNlbHxIwut5swF2d].description`
 - **html-tag-sequence** `spells:JGT5bNqu9REL7Fuz:system.description.value`
 - **html-attributes** `spells:JGT5bNqu9REL7Fuz:system.description.value`
 - **foundry-reference-count** `spells:JGT5bNqu9REL7Fuz:system.description.value`
 - **html-tag-sequence** `spells:0xmXiPiuYws1OGcX:system.description.value`
 - **html-attributes** `spells:0xmXiPiuYws1OGcX:system.description.value`
-- **html-tag-sequence** `spells:B0pnIcc52O6G8hi8:system.description.value`
-- **html-attributes** `spells:B0pnIcc52O6G8hi8:system.description.value`
 - **html-tag-sequence** `spells:z1mx84ONwkXKUZd7:system.description.value`
 - **html-attributes** `spells:z1mx84ONwkXKUZd7:system.description.value`
 - **foundry-references** `spells:z1mx84ONwkXKUZd7:system.description.value`
-- **html-tag-sequence** `spells:WTbOQBsarsL1LuXJ:system.description.value`
-- **html-attributes** `spells:WTbOQBsarsL1LuXJ:system.description.value`
 - **html-tag-sequence** `spells:8RTDOt80u8aBv9qx:system.description.value`
 - **html-attributes** `spells:8RTDOt80u8aBv9qx:system.description.value`
 - **foundry-formulas** `spells:8RTDOt80u8aBv9qx:system.description.value`
@@ -8328,8 +8320,6 @@ Total blocking issues: 8470
 - **foundry-references** `spells:RvEqsD89Zvd5yex4:system.description.value`
 - **html-tag-sequence** `spells:4v2H3hHb3Ph9XLNd:system.description.value`
 - **html-attributes** `spells:4v2H3hHb3Ph9XLNd:system.description.value`
-- **html-tag-sequence** `spells:zwGsAv6kmwzYGhh3:system.description.value`
-- **html-attributes** `spells:zwGsAv6kmwzYGhh3:system.description.value`
 - **html-tag-sequence** `spells:KrM3oHVv13RAALrS:system.description.value`
 - **html-attributes** `spells:KrM3oHVv13RAALrS:system.description.value`
 - **foundry-references** `spells:KrM3oHVv13RAALrS:system.description.value`
@@ -8343,8 +8333,6 @@ Total blocking issues: 8470
 - **html-tag-sequence** `spells:X4c8xCkmF8U9HUMz:system.description.value`
 - **html-attributes** `spells:X4c8xCkmF8U9HUMz:system.description.value`
 - **foundry-formulas** `spells:X4c8xCkmF8U9HUMz:system.description.value`
-- **html-tag-sequence** `spells:ODhLKBxLnvvLOnw1:system.description.value`
-- **html-attributes** `spells:ODhLKBxLnvvLOnw1:system.description.value`
 - **html-tag-sequence** `spells:JbxsYXxSOTZbf9I0:system.description.value`
 - **html-attributes** `spells:JbxsYXxSOTZbf9I0:system.description.value`
 - **foundry-formulas** `spells:JbxsYXxSOTZbf9I0:system.description.value`
@@ -8357,8 +8345,6 @@ Total blocking issues: 8470
 - **html-attributes** `spells:pB7XVYwdGNcUG935:system.description.value`
 - **html-tag-sequence** `spells:y8A4HfTwd93ypdEz:system.description.value`
 - **html-attributes** `spells:y8A4HfTwd93ypdEz:system.description.value`
-- **html-tag-sequence** `spells:34ddoYIrnOZ2GFYi:system.description.value`
-- **html-attributes** `spells:34ddoYIrnOZ2GFYi:system.description.value`
 - **foundry-reference-count** `spells:aU62xVUBYkAQWIHv:system.description.value`
 - **html-tag-sequence** `spells:wpx42mtoZ5BmXRs1:system.description.value`
 - **html-attributes** `spells:wpx42mtoZ5BmXRs1:system.description.value`
@@ -8451,18 +8437,12 @@ Total blocking issues: 8470
 - **foundry-reference-count** `spells:J6Jpw5XzB5aTeqnz:system.description.value`
 - **html-tag-sequence** `spells:eGMhwmuleAM46C6L:system.description.value`
 - **html-attributes** `spells:eGMhwmuleAM46C6L:system.description.value`
-- **html-tag-sequence** `spells:9kGrFXnLiRg3Xnbo:system.description.value`
-- **html-attributes** `spells:9kGrFXnLiRg3Xnbo:system.description.value`
-- **foundry-formulas** `spells:9kGrFXnLiRg3Xnbo:system.description.value`
 - **html-tag-sequence** `spells:B2kbmgbA2WQR00kx:system.description.value`
 - **html-attributes** `spells:B2kbmgbA2WQR00kx:system.description.value`
 - **foundry-inline-rolls** `spells:B2kbmgbA2WQR00kx:system.description.value`
 - **foundry-data-references** `spells:B2kbmgbA2WQR00kx:system.description.value`
 - **html-tag-sequence** `spells:L4J89JXqbKs6puEV:system.description.value`
 - **html-attributes** `spells:L4J89JXqbKs6puEV:system.description.value`
-- **html-tag-sequence** `spells:Eon0jzGzQRNluTPQ:system.description.value`
-- **html-attributes** `spells:Eon0jzGzQRNluTPQ:system.description.value`
-- **foundry-reference-count** `spells:Eon0jzGzQRNluTPQ:system.description.value`
 - **html-tag-sequence** `spells:ZPd73HtKF3At11jh:system.description.value`
 - **html-attributes** `spells:ZPd73HtKF3At11jh:system.description.value`
 - **html-attributes** `spells:x5JNBSyIBBZsjcGT:system.description.value`
@@ -8479,8 +8459,6 @@ Total blocking issues: 8470
 - **html-tag-sequence** `spells:ZVnL9L8v1KC9TBF4:system.description.value`
 - **html-attributes** `spells:ZVnL9L8v1KC9TBF4:system.description.value`
 - **foundry-reference-count** `spells:ZVnL9L8v1KC9TBF4:system.description.value`
-- **html-tag-sequence** `spells:Y6oItIuhOJZ0i0FC:system.description.value`
-- **html-attributes** `spells:Y6oItIuhOJZ0i0FC:system.description.value`
 - **html-tag-sequence** `spells:jmfu8zj4zjjzUbeh:system.description.value`
 - **html-attributes** `spells:jmfu8zj4zjjzUbeh:system.description.value`
 - **foundry-reference-count** `spells:jmfu8zj4zjjzUbeh:system.description.value`

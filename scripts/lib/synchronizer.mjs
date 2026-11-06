@@ -93,10 +93,24 @@ function unwrapSingleLegacyDiv(text) {
 function stripLegacySpellHeader(text) {
   const value = text.trim();
   const match = value.match(/^(<p\b[^>]*>\s*<em\b[^>]*>[\s\S]*?<\/em>\s*<\/p>)((?:\s*<ul\b[^>]*>[\s\S]*?<\/ul>){1,4})/i);
-  if (!match) return text;
-  const items = [...match[2].matchAll(/<li\b[^>]*>[\s\S]*?<\/li>/gi)];
-  if (items.length !== 4 || !items.every(item => /<strong\b[^>]*>[\s\S]*?<\/strong>/i.test(item[0]))) return text;
-  return value.slice(match[0].length).trim();
+  if (match) {
+    const items = [...match[2].matchAll(/<li\b[^>]*>[\s\S]*?<\/li>/gi)];
+    if (items.length === 4 && items.every(item => /<strong\b[^>]*>[\s\S]*?<\/strong>/i.test(item[0]))) {
+      return value.slice(match[0].length).trim();
+    }
+  }
+
+  const plain = value.match(/^(<p\b[^>]*>([^<]*)<\/p>)\s*(<ul\b[^>]*>[\s\S]*?<\/ul>)/i);
+  if (!plain || !/livello/i.test(plain[2])) return text;
+  const items = [...plain[3].matchAll(/<li\b[^>]*>([\s\S]*?)<\/li>/gi)];
+  const labels = items.map(item => item[1].replace(/<[^>]*>/g, "").replace(/&nbsp;/gi, " ").trim());
+  if (labels.length !== 4 || ![
+    /^Tempo di lancio:/i,
+    /^Gittata:/i,
+    /^Componenti:/i,
+    /^Durata:/i
+  ].every((pattern, index) => pattern.test(labels[index]))) return text;
+  return value.slice(plain[0].length).trim();
 }
 
 function dropEmptySpacerParagraphs(source, translation) {
@@ -107,10 +121,19 @@ function dropEmptySpacerParagraphs(source, translation) {
 }
 
 function dropDuplicatedFormattingPunctuation(translation) {
-  return translation.replace(
+  const withoutDuplicates = translation.replace(
     /([.!?])(<\/(?:strong|em)>)\s*<(strong|em)\b[^>]*>\s*\1\s*<\/\3>/gi,
     "$1$2"
   );
+  return withoutDuplicates.replace(
+    /<(strong|em)\b([^>]*)>([\s\S]*?)<\/\1>\s*<\1\b[^>]*>\s*([.!?])\s*<\/\1>/gi,
+    (_match, tag, attributes, inner, punctuation) => `<${tag}${attributes}>${inner}${punctuation}</${tag}>`
+  );
+}
+
+function dropLegacyBreaks(source, translation) {
+  if (/<br\b/i.test(source)) return translation;
+  return translation.replace(/\s*<br\b[^>]*>\s*/gi, " ");
 }
 
 function reshapeLegacyParagraphs(source, translation) {
@@ -259,6 +282,7 @@ function reshapeReferenceChoiceList(source, translation, referenceLabels) {
 export function rebaseInvariantTokens(source, translation, { referenceLabels } = {}) {
   translation = translation.replace(/^\s*<p\b[^>]*>\s*Prerequisito:[\s\S]*?<\/p>\s*/i, "");
   translation = dropDuplicatedFormattingPunctuation(translation);
+  translation = dropLegacyBreaks(source, translation);
   translation = dropEmptySpacerParagraphs(source, translation);
   translation = stripLegacySpellHeader(translation);
   const choiceList = reshapeReferenceChoiceList(source, translation, referenceLabels);
