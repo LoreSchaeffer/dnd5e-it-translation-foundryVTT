@@ -1,0 +1,28 @@
+name: Sample Hero
+type: character
+img: icons/svg/mystery-man.svg
+system:
+  details:
+    biography:
+      value: <p>Raised in a distant village.</p>
+    alignment: Neutral Good
+  attributes:
+    hp:
+      value: 10
+items:
+  - name: Embedded Sword
+    type: weapon
+    system:
+      description:
+        value: <p>A well-balanced blade.</p>
+      damage:
+        base:
+          number: 1
+          denomination: 8
+    _id: embedded00000001
+prototypeToken:
+  name: Sample Hero
+  texture:
+    src: icons/svg/mystery-man.svg
+_id: actor00000000001
+

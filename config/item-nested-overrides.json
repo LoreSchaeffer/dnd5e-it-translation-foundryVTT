@@ -1,0 +1,40 @@
+{
+  "items": {
+    "Neh9udRZHj0Bg9EH": {
+      "system.activities.dnd5eactivity000.name": "Tiro Salvezza (Iniziale)",
+      "system.activities.699G3YGOfe67nPbM.name": "Tiro Salvezza (Successivo)"
+    },
+    "B018Yhz1M7Np8JCW": {
+      "effects[nczzAQLDBNlAgWjq].name": "Avvelenato e Paralizzato"
+    },
+    "nxGKQlAdf0TMUKNa": {
+      "effects[F00Q1raXGiNoOKoB].name": "Avvelenato e Accecato"
+    },
+    "BTBhiXNbSnkW8HP3": {
+      "effects[QnTGMuIGAsENzvHa].name": "Avvelenato e Incapacitato"
+    },
+    "Sx5E6utixHdAbGNb": {
+      "system.activities.6wCdPWZTzKh8mN0m.description.chatFlavor": "arma improvvisata"
+    },
+    "FvNOwWbh5FXyX4xe": {
+      "system.activities.fEkrHFEJKXhIwljC.description.chatFlavor": "arma improvvisata"
+    },
+    "FIDyR0kZnxGy7bj8": {
+      "system.activities.OMSMC85UR5All9Vz.description.value": "<p>L'olio può ricoprire una creatura di taglia Media o inferiore, assieme all'equipaggiamento che indossa e trasporta (è richiesta una fiala aggiuntiva per ogni categoria di taglia superiore alla Media). Applicare l'olio richiede [[lookup @labels.activation activity=OMSMC85UR5All9Vz]]. La creatura influenzata ottiene poi l'effetto di un incantesimo @UUID[Compendium.dnd5e.spells.Item.da0a1t2FqaTjRZGT]{Libertà di Movimento} per [[lookup @labels.duration activity=OMSMC85UR5All9Vz]].</p>",
+      "system.activities.OCcBVLFoBjsgBp2r.description.value": "<p>Come azione, questo olio può essere versato sul terreno, dove ricopre un quadrato con lato di 3 metri, duplicando in quell'area l'effetto dell'incantesimo @UUID[Compendium.dnd5e.spells.Item.etgcR9wqmrhyZ0tx]{Grasso} per 8 ore.</p>"
+    },
+    "VmcgAIsRCyrjBguC": {
+      "system.activities.gRkokZZM4WWwqjEu.description.value": "<p>Come azione, una dose dell'unguento può essere ingerita o applicata sulla pelle. La creatura che la riceve recupera [[/healing activity=gRkokZZM4WWwqjEu]], cessa di essere &amp;reference[poisoned apply=false] e guarisce da qualsiasi malattia.</p>"
+    },
+    "7jEKkA9qbwJ3IuCb": {
+      "system.activities.zlPilAc3Tg3RVZyG.description.value": "<p>Finché impugni la bacchetta, puoi usare la tua reazione per spendere 1 carica e ottenere vantaggio a un tiro salvezza effettuato per evitare di essere &amp;reference[paralyzed apply=false] o &amp;reference[restrained apply=false]; in alternativa, puoi spendere 1 carica e ottenere vantaggio a qualsiasi prova effettuata per sfuggire a una &amp;reference[grappled apply=false]{Lotta}.</p>"
+    },
+    "EJFql4aNWHHJSxT9": {
+      "system.activities.zj1bSgRYmMvM3xaO.description.value": "<p>Finché impugni la bacchetta, puoi usare un'azione per spendere 2 cariche e fare in modo che la punta emetta un [[lookup @labels.description.template activity=zj1bSgRYmMvM3xaO]] di luce ambrata. Ogni creatura nel cono deve superare un tiro salvezza [[/save activity=zj1bSgRYmMvM3xaO]], altrimenti diventa &amp;reference[frightened] da te per [[lookup @labels.duration activity=zj1bSgRYmMvM3xaO]]. Finché è spaventata in questo modo, una creatura deve impiegare i propri turni per cercare di allontanarsi il più possibile da te e non può muoversi volontariamente in uno spazio entro 9 metri da te. Non può inoltre effettuare reazioni. Come azione, può usare soltanto l'azione &amp;reference[Dash] o cercare di sfuggire a un effetto che le impedisce di muoversi. Se non ha alcun luogo verso cui muoversi, può usare l'azione &amp;reference[Dodge]. Alla fine di ogni suo turno, la creatura può ripetere il tiro salvezza; se lo supera, l'effetto termina su di essa.</p>"
+    },
+    "wGDDt17DpBcXPuUD": {
+      "system.activities.dnd5eactivity100.description.chatFlavor": "Un gigante deve superare il tiro salvezza o morire",
+      "system.activities.raoOPd1C5wdDhOed.description.chatFlavor": "Supera il tiro salvezza o rimane stordito"
+    }
+  }
+}

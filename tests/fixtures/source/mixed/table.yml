@@ -1,0 +1,16 @@
+name: Sample Outcomes
+description: <p>Roll once.</p>
+results:
+  - type: text
+    range:
+      - 1
+      - 1
+    text: A silver key
+    _id: result0000000001
+  - type: document
+    documentUuid: Compendium.dnd5e.items.Item.item000000000001
+    text: ''
+    _id: result0000000002
+formula: 1d2
+_id: table00000000001
+
