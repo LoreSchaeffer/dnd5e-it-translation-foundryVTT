@@ -7,7 +7,7 @@
 | classfeatures | 235 | 235 | 0 | 0 | 0 | 0 | 0 |
 | effects | 214 | 214 | 0 | 0 | 0 | 0 | 0 |
 | heroes | 12 | 0 | 0 | 12 | 0 | 466 | 561 |
-| items | 885 | 858 | 0 | 27 | 0 | 0 | 144 |
+| items | 885 | 868 | 0 | 17 | 0 | 0 | 112 |
 | monsterfeatures | 252 | 0 | 61 | 191 | 0 | 132 | 753 |
 | monsters | 337 | 2 | 5 | 330 | 15 | 4810 | 5045 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
@@ -17,7 +17,7 @@
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 7198
+Total blocking issues: 7166
 
 ## Issues
 
@@ -631,9 +631,6 @@ Total blocking issues: 7198
 - **foundry-reference-count** `items:qVuZznv0MnIjDU70:system.description.value`
 - **foundry-inline-rolls** `items:qVuZznv0MnIjDU70:system.description.value`
 - **foundry-formulas** `items:qVuZznv0MnIjDU70:system.description.value`
-- **html-tag-sequence** `items:tWJLHIL6ZIZUez9k:system.description.value`
-- **html-attributes** `items:tWJLHIL6ZIZUez9k:system.description.value`
-- **foundry-inline-rolls** `items:tWJLHIL6ZIZUez9k:system.description.value`
 - **html-tag-sequence** `items:lTfo6OVvAY2iJ4oq:system.description.value`
 - **html-attributes** `items:lTfo6OVvAY2iJ4oq:system.description.value`
 - **foundry-reference-count** `items:lTfo6OVvAY2iJ4oq:system.description.value`
@@ -646,38 +643,9 @@ Total blocking issues: 7198
 - **html-attributes** `items:46ikeR4RrSim6DsN:system.description.value`
 - **foundry-inline-rolls** `items:46ikeR4RrSim6DsN:system.description.value`
 - **foundry-data-references** `items:46ikeR4RrSim6DsN:system.description.value`
-- **html-tag-sequence** `items:FeouSUPUlUhfgeRp:system.description.value`
-- **html-attributes** `items:FeouSUPUlUhfgeRp:system.description.value`
-- **foundry-reference-count** `items:FeouSUPUlUhfgeRp:system.description.value`
-- **html-tag-sequence** `items:lsiR1hVfISlC5YoB:system.description.value`
-- **html-attributes** `items:lsiR1hVfISlC5YoB:system.description.value`
-- **foundry-references** `items:lsiR1hVfISlC5YoB:system.description.value`
-- **html-tag-sequence** `items:xEtBeZjJnkDXojQM:system.description.value`
-- **html-attributes** `items:xEtBeZjJnkDXojQM:system.description.value`
-- **foundry-references** `items:xEtBeZjJnkDXojQM:system.description.value`
-- **html-tag-sequence** `items:WLVQJVpCWiPkCAtZ:system.description.value`
-- **html-attributes** `items:WLVQJVpCWiPkCAtZ:system.description.value`
-- **foundry-references** `items:WLVQJVpCWiPkCAtZ:system.description.value`
-- **html-tag-sequence** `items:eM5gEe4SEOvA2Y9t:system.description.value`
-- **html-attributes** `items:eM5gEe4SEOvA2Y9t:system.description.value`
-- **foundry-references** `items:eM5gEe4SEOvA2Y9t:system.description.value`
-- **foundry-formulas** `items:eM5gEe4SEOvA2Y9t:system.description.value`
-- **html-tag-sequence** `items:URun3vYrXKJJdAJe:system.description.value`
-- **html-attributes** `items:URun3vYrXKJJdAJe:system.description.value`
-- **foundry-inline-rolls** `items:URun3vYrXKJJdAJe:system.description.value`
-- **foundry-formulas** `items:URun3vYrXKJJdAJe:system.description.value`
-- **html-tag-sequence** `items:bod1dKzbAkAm21Ho:system.description.value`
-- **html-attributes** `items:bod1dKzbAkAm21Ho:system.description.value`
-- **foundry-references** `items:bod1dKzbAkAm21Ho:system.description.value`
 - **html-tag-sequence** `items:l3V7V8VCXpmAAysQ:system.description.value`
 - **html-attributes** `items:l3V7V8VCXpmAAysQ:system.description.value`
 - **foundry-references** `items:l3V7V8VCXpmAAysQ:system.description.value`
-- **html-tag-sequence** `items:caEn3ixCUFBnHTx6:system.description.value`
-- **html-attributes** `items:caEn3ixCUFBnHTx6:system.description.value`
-- **foundry-references** `items:caEn3ixCUFBnHTx6:system.description.value`
-- **html-tag-sequence** `items:uHL99JKLUpTKAbz8:system.description.value`
-- **html-attributes** `items:uHL99JKLUpTKAbz8:system.description.value`
-- **foundry-inline-rolls** `items:uHL99JKLUpTKAbz8:system.description.value`
 - **extra-entry** `items:Amulet of Proof Against Detection and Location`
 - **extra-entry** `items:Arrows`
 - **extra-entry** `items:Boots of Springing and Striding`

@@ -4399,6 +4399,14 @@
         },
         {
           "pack": "items",
+          "id": "tWJLHIL6ZIZUez9k",
+          "name": "Manacles",
+          "sourcePath": "items/trinket/manacles.yml",
+          "lookupKey": "Manacles",
+          "matchedLookupKey": "Manacles"
+        },
+        {
+          "pack": "items",
           "id": "BjyTJn9oGvURWKJR",
           "name": "Manual of Bodily Health",
           "sourcePath": "items/trinket/manual-of-bodily-health.yml",
@@ -6391,6 +6399,62 @@
         },
         {
           "pack": "items",
+          "id": "FeouSUPUlUhfgeRp",
+          "name": "Staff of Charming",
+          "sourcePath": "items/weapon/staff-of-charming.yml",
+          "lookupKey": "Staff of Charming",
+          "matchedLookupKey": "Staff of Charming"
+        },
+        {
+          "pack": "items",
+          "id": "lsiR1hVfISlC5YoB",
+          "name": "Staff of Fire",
+          "sourcePath": "items/weapon/staff-of-fire.yml",
+          "lookupKey": "Staff of Fire",
+          "matchedLookupKey": "Staff of Fire"
+        },
+        {
+          "pack": "items",
+          "id": "xEtBeZjJnkDXojQM",
+          "name": "Staff of Frost",
+          "sourcePath": "items/weapon/staff-of-frost.yml",
+          "lookupKey": "Staff of Frost",
+          "matchedLookupKey": "Staff of Frost"
+        },
+        {
+          "pack": "items",
+          "id": "WLVQJVpCWiPkCAtZ",
+          "name": "Staff of Healing",
+          "sourcePath": "items/weapon/staff-of-healing.yml",
+          "lookupKey": "Staff of Healing",
+          "matchedLookupKey": "Staff of Healing"
+        },
+        {
+          "pack": "items",
+          "id": "eM5gEe4SEOvA2Y9t",
+          "name": "Staff of Power",
+          "sourcePath": "items/weapon/staff-of-power.yml",
+          "lookupKey": "Staff of Power",
+          "matchedLookupKey": "Staff of Power"
+        },
+        {
+          "pack": "items",
+          "id": "URun3vYrXKJJdAJe",
+          "name": "Staff of Striking",
+          "sourcePath": "items/weapon/staff-of-striking.yml",
+          "lookupKey": "Staff of Striking",
+          "matchedLookupKey": "Staff of Striking"
+        },
+        {
+          "pack": "items",
+          "id": "bod1dKzbAkAm21Ho",
+          "name": "Staff of Swarming Insects",
+          "sourcePath": "items/weapon/staff-of-swarming-insects.yml",
+          "lookupKey": "Staff of Swarming Insects",
+          "matchedLookupKey": "Staff of Swarming Insects"
+        },
+        {
+          "pack": "items",
           "id": "MOeFq5MLAQzVQC7z",
           "name": "Staff of the Python",
           "sourcePath": "items/weapon/staff-of-the-python.yml",
@@ -6399,11 +6463,27 @@
         },
         {
           "pack": "items",
+          "id": "caEn3ixCUFBnHTx6",
+          "name": "Staff of the Woodlands",
+          "sourcePath": "items/weapon/staff-of-the-woodlands.yml",
+          "lookupKey": "Staff of the Woodlands",
+          "matchedLookupKey": "Staff of the Woodlands"
+        },
+        {
+          "pack": "items",
           "id": "F6v3Q7dz1SlpLTMf",
           "name": "Staff of Thunder and Lightning",
           "sourcePath": "items/weapon/staff-of-thunder-and-lightning.yml",
           "lookupKey": "Staff of Thunder and Lightning",
           "matchedLookupKey": "Staff of Thunder and Lightning"
+        },
+        {
+          "pack": "items",
+          "id": "uHL99JKLUpTKAbz8",
+          "name": "Staff of Withering",
+          "sourcePath": "items/weapon/staff-of-withering.yml",
+          "lookupKey": "Staff of Withering",
+          "matchedLookupKey": "Staff of Withering"
         },
         {
           "pack": "items",
@@ -7409,41 +7489,6 @@
         },
         {
           "pack": "items",
-          "id": "tWJLHIL6ZIZUez9k",
-          "name": "Manacles",
-          "sourcePath": "items/trinket/manacles.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Manacles",
-          "matchedLookupKey": "Manacles",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "tWJLHIL6ZIZUez9k",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "tWJLHIL6ZIZUez9k",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "tWJLHIL6ZIZUez9k",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
           "id": "lTfo6OVvAY2iJ4oq",
           "name": "Silver Horn of Valhalla",
           "sourcePath": "items/trinket/silver-horn-of-valhalla.yml",
@@ -7573,267 +7618,6 @@
         },
         {
           "pack": "items",
-          "id": "FeouSUPUlUhfgeRp",
-          "name": "Staff of Charming",
-          "sourcePath": "items/weapon/staff-of-charming.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Staff of Charming",
-          "matchedLookupKey": "Staff of Charming",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "FeouSUPUlUhfgeRp",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "FeouSUPUlUhfgeRp",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "items",
-              "id": "FeouSUPUlUhfgeRp",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "lsiR1hVfISlC5YoB",
-          "name": "Staff of Fire",
-          "sourcePath": "items/weapon/staff-of-fire.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Staff of Fire",
-          "matchedLookupKey": "Staff of Fire",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "lsiR1hVfISlC5YoB",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "lsiR1hVfISlC5YoB",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-references",
-              "severity": "blocking",
-              "message": "Foundry reference targets or order differ from source",
-              "pack": "items",
-              "id": "lsiR1hVfISlC5YoB",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "xEtBeZjJnkDXojQM",
-          "name": "Staff of Frost",
-          "sourcePath": "items/weapon/staff-of-frost.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Staff of Frost",
-          "matchedLookupKey": "Staff of Frost",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "xEtBeZjJnkDXojQM",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "xEtBeZjJnkDXojQM",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-references",
-              "severity": "blocking",
-              "message": "Foundry reference targets or order differ from source",
-              "pack": "items",
-              "id": "xEtBeZjJnkDXojQM",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "WLVQJVpCWiPkCAtZ",
-          "name": "Staff of Healing",
-          "sourcePath": "items/weapon/staff-of-healing.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Staff of Healing",
-          "matchedLookupKey": "Staff of Healing",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "WLVQJVpCWiPkCAtZ",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "WLVQJVpCWiPkCAtZ",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-references",
-              "severity": "blocking",
-              "message": "Foundry reference targets or order differ from source",
-              "pack": "items",
-              "id": "WLVQJVpCWiPkCAtZ",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "eM5gEe4SEOvA2Y9t",
-          "name": "Staff of Power",
-          "sourcePath": "items/weapon/staff-of-power.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Staff of Power",
-          "matchedLookupKey": "Staff of Power",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "eM5gEe4SEOvA2Y9t",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "eM5gEe4SEOvA2Y9t",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-references",
-              "severity": "blocking",
-              "message": "Foundry reference targets or order differ from source",
-              "pack": "items",
-              "id": "eM5gEe4SEOvA2Y9t",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-formulas",
-              "severity": "blocking",
-              "message": "Foundry formulas differ from source",
-              "pack": "items",
-              "id": "eM5gEe4SEOvA2Y9t",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "URun3vYrXKJJdAJe",
-          "name": "Staff of Striking",
-          "sourcePath": "items/weapon/staff-of-striking.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Staff of Striking",
-          "matchedLookupKey": "Staff of Striking",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "URun3vYrXKJJdAJe",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "URun3vYrXKJJdAJe",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "URun3vYrXKJJdAJe",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-formulas",
-              "severity": "blocking",
-              "message": "Foundry formulas differ from source",
-              "pack": "items",
-              "id": "URun3vYrXKJJdAJe",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "bod1dKzbAkAm21Ho",
-          "name": "Staff of Swarming Insects",
-          "sourcePath": "items/weapon/staff-of-swarming-insects.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Staff of Swarming Insects",
-          "matchedLookupKey": "Staff of Swarming Insects",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "bod1dKzbAkAm21Ho",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "bod1dKzbAkAm21Ho",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-references",
-              "severity": "blocking",
-              "message": "Foundry reference targets or order differ from source",
-              "pack": "items",
-              "id": "bod1dKzbAkAm21Ho",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
           "id": "l3V7V8VCXpmAAysQ",
           "name": "Staff of the Magi",
           "sourcePath": "items/weapon/staff-of-the-magi.yml",
@@ -7863,76 +7647,6 @@
               "message": "Foundry reference targets or order differ from source",
               "pack": "items",
               "id": "l3V7V8VCXpmAAysQ",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "caEn3ixCUFBnHTx6",
-          "name": "Staff of the Woodlands",
-          "sourcePath": "items/weapon/staff-of-the-woodlands.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Staff of the Woodlands",
-          "matchedLookupKey": "Staff of the Woodlands",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "caEn3ixCUFBnHTx6",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "caEn3ixCUFBnHTx6",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-references",
-              "severity": "blocking",
-              "message": "Foundry reference targets or order differ from source",
-              "pack": "items",
-              "id": "caEn3ixCUFBnHTx6",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "uHL99JKLUpTKAbz8",
-          "name": "Staff of Withering",
-          "sourcePath": "items/weapon/staff-of-withering.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Staff of Withering",
-          "matchedLookupKey": "Staff of Withering",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "uHL99JKLUpTKAbz8",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "uHL99JKLUpTKAbz8",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "uHL99JKLUpTKAbz8",
               "fieldPath": "system.description.value"
             }
           ]
