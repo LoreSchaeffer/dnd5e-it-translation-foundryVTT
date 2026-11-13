@@ -15983,7 +15983,10 @@
           "name": "Pungiglione",
           "activities": {
             "ilzrXBsQAHEBhR5H": {
-              "name": "Tiro Salvezza contro il Veleno"
+              "name": "Tiro Salvezza contro il Veleno",
+              "description": {
+                "value": "<p>Il bersaglio deve effettuare un tiro salvezza [[/save]], subendo [[/damage average activity=ilzrXBsQAHEBhR5H]] danni se lo fallisce, oppure la metà di quei danni se lo supera. Se i danni da veleno riducono il bersaglio a 0 punti ferita, il bersaglio è stabile ma &amp;reference[poisoned] per [[lookup @labels.duration activity=ilzrXBsQAHEBhR5H]], anche dopo avere recuperato punti ferita, ed è &amp;reference[paralyzed] finché è avvelenato in questo modo.</p>"
+              }
             }
           },
           "effects": {
@@ -15992,7 +15995,8 @@
               "description": "<p>Sei &amp;reference[stable] ma &amp;reference[poisoned apply=false] per la durata, anche dopo avere recuperato punti ferita. Finché sei avvelenato in questo modo, sei anche &amp;reference[paralyzed apply=false].</p>"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio deve effettuare un tiro salvezza su Costituzione.</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio deve effettuare un tiro salvezza su Costituzione.</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il bersaglio deve effettuare un tiro salvezza [[/save]], subendo [[/damage average activity=ilzrXBsQAHEBhR5H]] danni se lo fallisce, oppure la metà di quei danni se lo supera. Se i danni da veleno riducono il bersaglio a 0 punti ferita, il bersaglio è stabile ma &amp;reference[poisoned] per [[lookup @labels.duration activity=ilzrXBsQAHEBhR5H]], anche dopo avere recuperato punti ferita, ed è &amp;reference[paralyzed] finché è avvelenato in questo modo.</p>"
         }
       }
     },
