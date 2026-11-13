@@ -9,7 +9,7 @@
 | heroes | 12 | 12 | 0 | 0 | 0 | 0 | 0 |
 | items | 885 | 885 | 0 | 0 | 0 | 0 | 48 |
 | monsterfeatures | 252 | 252 | 0 | 0 | 0 | 0 | 0 |
-| monsters | 337 | 118 | 0 | 219 | 0 | 715 | 715 |
+| monsters | 337 | 120 | 0 | 217 | 0 | 709 | 709 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
 | rules | 20 | 1 | 3 | 16 | 0 | 738 | 695 |
 | spells | 320 | 320 | 0 | 0 | 0 | 0 | 0 |
@@ -17,7 +17,7 @@
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 1458
+Total blocking issues: 1452
 
 ## Issues
 
@@ -69,9 +69,6 @@ Total blocking issues: 1458
 - **extra-entry** `items:Ferri dello Zefiro`
 - **extra-entry** `items:Unarmed Strike (Monk)`
 - **extra-entry** `items:Enterteiner's Pack`
-- **missing-field** `monsters:8aCTKP5qaBPFOqxM:items[L0k8pFgKxxEEMEOY].system.description.value`
-- **missing-field** `monsters:8aCTKP5qaBPFOqxM:items[L0k8pFgKxxEEMEOY].system.description.chat`
-- **missing-field** `monsters:8aCTKP5qaBPFOqxM:items[L0k8pFgKxxEEMEOY].effects[WEbg10jI9BHhBTU7].description`
 - **missing-field** `monsters:jLPhaBnMtAbB5dp1:items[ZHBbc5K4n6sU17rC].system.description.value`
 - **missing-field** `monsters:jLPhaBnMtAbB5dp1:items[AxlrZ7HMHoj6zgo5].system.description.value`
 - **missing-field** `monsters:55PkbskG5iBZGrgR:items[slVyUWagsSZ5CXSh].system.description.value`
@@ -82,9 +79,6 @@ Total blocking issues: 1458
 - **missing-field** `monsters:Hn8FFLEzscgT7azz:items[8EvqvqLumOBhrjeD].system.activities.RQqJ9wFgglGmzsYF.description.value`
 - **missing-field** `monsters:AOJvmk1IchxNxQzP:items[7qDtYuaBNQ3zOnBC].system.description.value`
 - **missing-field** `monsters:AOJvmk1IchxNxQzP:items[7qDtYuaBNQ3zOnBC].effects[ha7mLJgRXVjMDnBj].description`
-- **missing-field** `monsters:3YwmvDupMwycWNCO:items[YSeYSzU3P0FooGIw].system.description.value`
-- **missing-field** `monsters:3YwmvDupMwycWNCO:items[u7eurp95tuW3tYGl].system.description.value`
-- **missing-field** `monsters:3YwmvDupMwycWNCO:items[u7eurp95tuW3tYGl].system.description.chat`
 - **missing-field** `monsters:hQt3qIahnB1Odb40:items[xSzDPptifNbKyf5N].system.description.value`
 - **missing-field** `monsters:hQt3qIahnB1Odb40:items[xSzDPptifNbKyf5N].system.description.chat`
 - **missing-field** `monsters:hQt3qIahnB1Odb40:items[jDA6wujGF6L3tPBM].system.description.value`

@@ -2224,9 +2224,12 @@
           "name": "Morso",
           "effects": {
             "WEbg10jI9BHhBTU7": {
-              "name": "Afferrato dal Morso"
+              "name": "Afferrato dal Morso",
+              "description": "<p>Sei &amp;reference[grappled apply=false] (CD 12 per sfuggire). Finché sei afferrato in questo modo, sei anche &amp;reference[restrained apply=false].</p>"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il bersaglio è &amp;Reference[grappled] (CD 12 per sfuggire). Finché questa lotta non termina, il bersaglio è &amp;Reference[restrained] e il [[lookup @name lowercase]]{mostro} non può [[lookup @item.name lowercase]] un altro bersaglio.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. In caso di successo, il bersaglio è &amp;reference[grappled]. Finché questa lotta non termina, il bersaglio è &amp;reference[restrained] e il [[lookup @name]]{mostro} non può [[lookup @item.name lowercase]] un altro bersaglio.</p>"
         },
         "vuDMChx74s6CMCab": {
           "name": "Trattenere il Respiro",
@@ -2248,10 +2251,13 @@
           "description": "<p>Il [[lookup @name lowercase]]{mostro} può trattenere il respiro per 30 minuti.</p>"
         },
         "YSeYSzU3P0FooGIw": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua due attacchi: uno con il proprio [[/item .u7eurp95tuW3tYGl]]{morso} e uno con la propria [[/item .VkCVMF2SvsuYWWYg]]{coda}.</p>"
         },
         "u7eurp95tuW3tYGl": {
-          "name": "Morso"
+          "name": "Morso",
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il bersaglio è &amp;Reference[grappled] (CD 16 per sfuggire). Finché questa lotta non termina, il bersaglio è trattenuto e il coccodrillo non può mordere un altro bersaglio.</p>",
+          "chat": "<p>Il Coccodrillo Gigante attacca con il proprio Morso. In caso di successo, il bersaglio è afferrato. Finché questa lotta non termina, il bersaglio è trattenuto e il coccodrillo non può mordere un altro bersaglio.</p>"
         },
         "VkCVMF2SvsuYWWYg": {
           "name": "Coda",

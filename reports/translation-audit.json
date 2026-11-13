@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2153,
+      "translated": 2155,
       "missing": 3,
-      "partial": 235,
+      "partial": 233,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14207,
-      "missing": 1453,
+      "translated": 14213,
+      "missing": 1447,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1458
+    "blockingIssues": 1452
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 118,
+          "translated": 120,
           "missing": 0,
-          "partial": 219,
+          "partial": 217,
           "review": 0
         },
         "folders": {
@@ -578,41 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6391,
-          "missing": 715,
+          "translated": 6397,
+          "missing": 709,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "8aCTKP5qaBPFOqxM",
-          "name": "Crocodile",
-          "fieldPath": "items[L0k8pFgKxxEEMEOY].system.description.value",
-          "sourcePath": "monsters/beast/crocodile.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "8aCTKP5qaBPFOqxM",
-          "name": "Crocodile",
-          "fieldPath": "items[L0k8pFgKxxEEMEOY].system.description.chat",
-          "sourcePath": "monsters/beast/crocodile.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "8aCTKP5qaBPFOqxM",
-          "name": "Crocodile",
-          "fieldPath": "items[L0k8pFgKxxEEMEOY].effects[WEbg10jI9BHhBTU7].description",
-          "sourcePath": "monsters/beast/crocodile.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
@@ -702,33 +675,6 @@
           "name": "Giant Crab",
           "fieldPath": "items[7qDtYuaBNQ3zOnBC].effects[ha7mLJgRXVjMDnBj].description",
           "sourcePath": "monsters/beast/giant-crab.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "3YwmvDupMwycWNCO",
-          "name": "Giant Crocodile",
-          "fieldPath": "items[YSeYSzU3P0FooGIw].system.description.value",
-          "sourcePath": "monsters/beast/giant-crocodile.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "3YwmvDupMwycWNCO",
-          "name": "Giant Crocodile",
-          "fieldPath": "items[u7eurp95tuW3tYGl].system.description.value",
-          "sourcePath": "monsters/beast/giant-crocodile.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "3YwmvDupMwycWNCO",
-          "name": "Giant Crocodile",
-          "fieldPath": "items[u7eurp95tuW3tYGl].system.description.chat",
-          "sourcePath": "monsters/beast/giant-crocodile.yml"
         },
         {
           "code": "missing-field",
