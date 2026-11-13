@@ -95,6 +95,24 @@ test("translationForField resolves stable IDs in structured advancement arrays",
   assert.equal(translationForField(record, field, translation), "Privilegio");
 });
 
+test("translationForField resolves an advancement nested inside an Actor embedded item", () => {
+  const record = {
+    data: {
+      items: [{
+        _id: "item1",
+        name: "Class",
+        system: { advancement: [{ _id: "grant1", title: "Feature" }] }
+      }]
+    }
+  };
+  const field = { fieldPath: "items[item1].system.advancement[grant1].title" };
+  const translation = {
+    items: { item1: { advancement: { grant1: { title: "Privilegio" } } } }
+  };
+
+  assert.equal(translationForField(record, field, translation), "Privilegio");
+});
+
 test("translationForField accepts legacy range strings for TableResult descriptions", () => {
   const sourceRecord = {
     data: {

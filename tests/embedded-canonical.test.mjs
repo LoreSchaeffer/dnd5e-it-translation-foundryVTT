@@ -1,0 +1,148 @@
+import assert from "node:assert/strict";
+import test from "node:test";
+
+import { buildCanonicalEmbeddedOverrides } from "../scripts/lib/embedded-canonical.mjs";
+
+function canonicalRecord() {
+  return {
+    kind: "document",
+    pack: "items",
+    id: "canonical1",
+    name: "Torch",
+    sourcePath: "items/torch.yml",
+    documentType: "Item",
+    data: {
+      _id: "canonical1",
+      name: "Torch",
+      system: { description: { value: '<p class="rule">Burns brightly.</p>' } }
+    }
+  };
+}
+
+function actorRecord(description = '<p class="rule">Burns brightly.</p>', referenceKey = "compendiumSource") {
+  const embedded = {
+    _id: "embedded1",
+    name: "Torch",
+    system: { description: { value: description } },
+    _stats: {},
+    flags: { dnd5e: {} }
+  };
+  if (referenceKey === "compendiumSource") {
+    embedded._stats.compendiumSource = "Compendium.dnd5e.items.Item.canonical1";
+  } else {
+    embedded.flags.dnd5e.sourceId = "Compendium.dnd5e.items.Item.canonical1";
+  }
+  return {
+    kind: "document",
+    pack: "heroes",
+    id: "actor1",
+    name: "Hero",
+    sourcePath: "heroes/hero.yml",
+    documentType: "Actor",
+    data: { _id: "actor1", name: "Hero", items: [embedded] }
+  };
+}
+
+const canonicalTranslation = {
+  kind: "entry",
+  pack: "items",
+  lookupKey: "Torch",
+  data: {
+    name: "Torcia",
+    description: '<p class="rule">Brucia intensamente.</p>'
+  }
+};
+
+test("copies validated canonical visible fields into an exactly matching embedded item", () => {
+  const canonicalByUuid = new Map([
+    ["Compendium.dnd5e.items.Item.canonical1", {
+      sourceRecord: canonicalRecord(),
+      translationRecord: canonicalTranslation
+    }]
+  ]);
+
+  assert.deepEqual(buildCanonicalEmbeddedOverrides({
+    actorRecord: actorRecord(),
+    canonicalByUuid
+  }), {
+    "items[embedded1].name": "Torcia",
+    "items[embedded1].system.description.value": '<p class="rule">Brucia intensamente.</p>'
+  });
+});
+
+test("does not overwrite a modified embedded field with unrelated canonical prose", () => {
+  const canonicalByUuid = new Map([
+    ["Compendium.dnd5e.items.Item.canonical1", {
+      sourceRecord: canonicalRecord(),
+      translationRecord: canonicalTranslation
+    }]
+  ]);
+
+  assert.deepEqual(buildCanonicalEmbeddedOverrides({
+    actorRecord: actorRecord("<p>Actor-specific rule.</p>"),
+    canonicalByUuid
+  }), {
+    "items[embedded1].name": "Torcia"
+  });
+});
+
+test("uses the dnd5e sourceId when compendiumSource is absent", () => {
+  const canonicalByUuid = new Map([
+    ["Compendium.dnd5e.items.Item.canonical1", {
+      sourceRecord: canonicalRecord(),
+      translationRecord: canonicalTranslation
+    }]
+  ]);
+
+  const overrides = buildCanonicalEmbeddedOverrides({
+    actorRecord: actorRecord('<p class="rule">Burns brightly.</p>', "sourceId"),
+    canonicalByUuid
+  });
+  assert.equal(overrides["items[embedded1].name"], "Torcia");
+});
+
+test("maps a canonical advancement translation when the embedded advancement ID was regenerated", () => {
+  const sourceRecord = canonicalRecord();
+  sourceRecord.data.system.advancement = [{
+    _id: "canonicalAdvancement",
+    title: "Hit Points"
+  }];
+  const translationRecord = structuredClone(canonicalTranslation);
+  translationRecord.data.advancement = {
+    canonicalAdvancement: { title: "Punti Ferita" }
+  };
+  const actor = actorRecord();
+  actor.data.items[0].system.advancement = [{
+    _id: "embeddedAdvancement",
+    title: "Hit Points"
+  }];
+  const canonicalByUuid = new Map([
+    ["Compendium.dnd5e.items.Item.canonical1", { sourceRecord, translationRecord }]
+  ]);
+
+  const overrides = buildCanonicalEmbeddedOverrides({ actorRecord: actor, canonicalByUuid });
+  assert.equal(
+    overrides["items[embedded1].system.advancement[embeddedAdvancement].title"],
+    "Punti Ferita"
+  );
+});
+
+test("uses an exact unique canonical name when an embedded item has no source reference", () => {
+  const actor = actorRecord();
+  actor.data.items[0]._stats = {};
+  actor.data.items[0].flags = {};
+  const canonicalByName = new Map([
+    ["Torch", { sourceRecord: canonicalRecord(), translationRecord: canonicalTranslation }]
+  ]);
+
+  const overrides = buildCanonicalEmbeddedOverrides({
+    actorRecord: actor,
+    canonicalByUuid: new Map(),
+    canonicalByName
+  });
+  assert.equal(overrides["items[embedded1].name"], "Torcia");
+  assert.equal(
+    overrides["items[embedded1].system.description.value"],
+    '<p class="rule">Brucia intensamente.</p>'
+  );
+});

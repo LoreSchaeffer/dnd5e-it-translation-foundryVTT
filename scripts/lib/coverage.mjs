@@ -16,7 +16,8 @@ function byId(values, id) {
 }
 
 function getPath(value, pathText) {
-  return pathText.split(".").reduce((current, key) => current?.[key], value);
+  const segments = pathText.match(/[^.[\]]+/g) ?? [];
+  return segments.reduce((current, key) => current?.[key], value);
 }
 
 function translateNestedField(translation, rest) {

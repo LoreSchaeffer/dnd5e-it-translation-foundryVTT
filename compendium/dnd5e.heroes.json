@@ -91,12 +91,25 @@
             },
             "8k7cukgzwwl67h6c": {
               "title": "Dominio Divino"
+            },
+            "PrfXQ3yQP9js943H": {
+              "title": "Aumento dei Punteggi di Caratteristica"
+            },
+            "FLozwaTlMVqZKbaN": {
+              "title": "Aumento dei Punteggi di Caratteristica"
+            },
+            "yplB3bqCjEXkNAAq": {
+              "title": "Aumento dei Punteggi di Caratteristica"
+            },
+            "LoImJ16J7Sn1HXi2": {
+              "title": "Aumento dei Punteggi di Caratteristica"
             }
           }
         },
         "sYPnCIXmh7C72RMi": {
           "description": "<p>Un chierico &egrave; un tramite del potere divino, e come tale &egrave; in grado di lanciare incantesimi da chierico.</p>\n<h5>Trucchetti</h5>\n<p>Al 1&deg; livello, un chierico conosce tre trucchetti a sua scelta tratti dalla lista degli incantesimi da chierico. Apprende ulteriori trucchetti da chierico a sua scelta ai livelli successivi, come indicato dalla colonna \"Trucchetti Conosciuti\" nella tabella \"Chierico\".</p>\n<h5>Preparare e Lanciare Incantesimi</h5>\n<p>La tabella \"Chierico\" indica quanti slot incantesimo possiede un chierico per lanciare i suoi incantesimi di 1&deg; livello e di livello superiore. Per lanciare uno di questi incantesimi, il chierico deve spendere uno slot incantesimo di livello pari o superiore al livello dell'incantesimo. Il chierico recupera tutti gli slot incantesimo spesi quando completa un riposo lungo.</p>\n<p>Il chierico prepara la lista degli incantesimi da chierico disponibili da lanciare scegliendoli dalla lista degli incantesimi da chierico. Quando lo fa, deve scegliere un numero di incantesimi da chierico pari al suo modificatore di Saggezza+ il suo livello da chierico (fino a un minimo di un incantesimo). Gli incantesimi devono essere di un livello di cui il chierico possiede degli slot incantesimo.</p>\n<p>Per esempio, un chierico di 3&deg; livello possiede quattro slot incantesimo di 1&deg; livello e due slot incantesimo di 2&deg; livello. Con Saggezza pari a 16, la lista dei suoi incantesimi preparati pu&ograve; includere sei incantesimi di 1&deg; o 2&deg; livello, in qualsiasi combinazione. Se prepara l'incantesimo di 1&deg; livello cura ferite, potr&agrave; lanciarlo usando uno slot incantesimo di 1&deg; livello o di 2&deg; livello. Il lancio di quell'incantesimo non rimuove quell'incantesimo dalla lis1a di incantesimi preparati.</p>\n<p>Il chierico pu&ograve; cambiare la lista dei suoi incantesimi preparati quando completa un riposo lungo. Per preparare una nuova lista di incantesimi da chierico &egrave; necessario un certo ammontare di tempo da trascorrere in preghiera e meditazione: almeno 1 minuto per livello di incantesimo per ogni incantesimo nella sua lista.</p>\n<h5>Caratteristica Da Incantatore</h5>\n<p>Saggezza &egrave; la caratteristica da incantatore usata per gli incantesimi da chierico. Il potere degli incantesimi di un chierico deriva dalla sua devozione nei confronti della divinit&agrave;. Un chierico usa Saggezza ogni volta che un incantesimo fa riferimento alla sua caratteristica da incantatore. Usa inoltre il suo modificatore di Saggezza per definire la CD del tiro salvezza di un incantesimo da chierico da lui lanciato e quando effettua un tiro per colpire con un incantesimo.</p>\n<p><strong>CD del tiro salvezza dell'incantesimo</strong>&nbsp;= 8 + il bonus di competenza del chierico + il modificatore di Saggezza del chierico</p>\n<p><strong>Modificatore di attacco dell'incantesimo</strong>&nbsp;= il bonus di competenza del chierico + il modificatore di Saggezza del chierico</p>\n<h5>Celebrare Rituali</h5>\n<p>Un chierico pu&ograve; lanciare qualsiasi incantesimo da chierico a lui conosciuto come rituale se quell'incantesimo possiede il descrittore rituale.</p>\n<h5>Focus Da Incantatore</h5>\n<p>Un chierico pu&ograve; usare un simbolo sacro (vedi @UUID[Compendium.dnd5e.rules.JournalEntry.BYFd9hiJGo9L5aOM.JournalEntryPage.AjavRU4yPfI9hfaI]{Equipaggiamento d'Avventura}) come focus da incantatore per i suoi incantesimi da chierico.</p>",
-          "requirements": "Chierico 1"
+          "requirements": "Chierico 1",
+          "name": "Incantesimi (Chierico)"
         },
         "tUGnDwsGjGCMrxKX": {
           "name": "Dominio Divino",
@@ -139,7 +152,7 @@
         },
         "I4IpztlEmyuCZXPm": {
           "name": "Acciarino e Pietra Focaia",
-          "description": "<p>&nbsp;</p><div title=\"Page 148\"><div><div><p>Un piccolo contenitore usato per accendere il fuoco, che contiene acciarino, pietra focaia e materiale combustibile (solitamente stracci essiccati e bagnati d'olio).</p><p>Per accendere una torcia (o qualsiasi altra cosa che faccia uso di abbondante combustibile scoperto) usando acciarino e pietra focaia è richiesta un'azione. Per accendere un fuoco di qualsiasi altro tipo è richiesto 1 minuto.&nbsp;</p></div></div></div><p>&nbsp;</p>"
+          "description": "<p>Un piccolo contenitore usato per accendere il fuoco, che contiene acciarino, pietra focaia e materiale combustibile (solitamente stracci essiccati e bagnati d'olio). Per accendere una torcia (o qualsiasi altra cosa che faccia uso di abbondante combustibile scoperto) usando acciarino e pietra focaia è richiesta un'azione. Per accendere un fuoco di qualsiasi altro tipo è richiesto 1 minuto.</p>\n<p> </p>"
         },
         "VIRpMXIVAZvNtAkn": {
           "name": "Otre",
@@ -178,7 +191,13 @@
           "description": "<p>Uno zaino può contenere 0,03 metri cubi/15 chili&nbsp;di attrezzatura. Puoi anche allacciare oggetti, come un lenzuolo o una bobina di corda, all'esterno di uno zaino.</p>"
         },
         "nnVoqKcxlTu9bRfL": {
-          "name": "Corda di Canapa (15 metri)"
+          "name": "Corda di Canapa (15 m)",
+          "description": "<p>Una corda, che sia fatta di canapa o di seta, possiede 2 punti ferita e può essere spezzata con una prova di Forza con CD 17.</p>",
+          "activities": {
+            "dnd5eactivity000": {
+              "name": "Esplosione"
+            }
+          }
         },
         "b4NGPmLUcMECcA3O": {
           "name": "Quadrelli da Balestra",
@@ -194,7 +213,7 @@
         },
         "hutWJTfurJjNbSpG": {
           "name": "Balestra Leggera",
-          "description": "<p>Una piccola balestra con un manico di legno e una corda tesa in grado di sparare un singolo dardo che pu&ograve; perforare anche armature pesanti a distanza ravvicinata.</p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><strong style=\"box-sizing: border-box; user-select: text;\">Leggera.</strong>&nbsp;Un'arma leggera è piccola e facile da maneggiare, cosa che ne fa un'arma ideale da usare per combattere con due armi. Vedi le regole relative a combattere con due armi nel capitolo 9.</p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><strong style=\"box-sizing: border-box; user-select: text;\">A due mani.</strong>&nbsp;Questa arma richiede di essere impugnata a due mani quando il personaggio la usa per attaccare.</p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><strong style=\"box-sizing: border-box; user-select: text;\">Munizioni</strong>. Un personaggio può effettuare un attacco a distanza usando un'arma dotata della proprietà munizioni solo se possiede delle munizioni da lanciare. Ogni volta che attacca con l'arma, consuma una delle sue munizioni. Estrarre la munizione da una faretra, una custodia o un altro contenitore è considerato parte dell'attacco (il personaggio avrà bisogno di una mano libera per caricare un'arma a una mano). Alla fine della battaglia, il personaggio può recuperare metà delle munizioni consumate impiegando un minuto a setacciare il campo di battaglia.</p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Se il personaggio usa un'arma dotata della proprietà munizioni per effettuare un attacco in mischia, considera quell'arma come un'arma improvvisata (vedi \"Armi Improvvisate\", sotto). Una fionda deve essere caricata per inflìggere danni quando viene usata in questo modo.</p>"
+          "description": "<p>Una piccola balestra con un fusto di legno e una corda tesa, capace di scagliare un singolo dardo in grado di perforare persino un'armatura pesante a distanza ravvicinata.</p>"
         },
         "l3rWWzexDhcuyJO1": {
           "name": "Veste Sacra",
@@ -218,7 +237,7 @@
         },
         "7LUJHpWpCzfMZI3D": {
           "name": "Benedizione",
-          "description": "<p>L'incantatore benedice fino a tre creature a sua scelta entro gittata. Ogni volta che un bersaglio effettua un tiro per colpire o un tiro salvezza prima che l'incantesimo termini può tirare un d4 e aggiungere il numero ottenuto al tiro per colpire o al tiro salvezza.</p><p><strong> Ai Livelli Superiori.</strong> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, può bersagliare una creatura aggiuntiva per ogni slot superiore al l°.</p>",
+          "description": "<p>L'incantatore benedice fino a tre creature a sua scelta entro gittata. Ogni volta che un bersaglio effettua un tiro per colpire o un tiro salvezza prima che l'incantesimo termini, può tirare 1d4 e aggiungere il numero ottenuto al tiro per colpire o al tiro salvezza.</p><p><strong>Ai Livelli Superiori.</strong> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, può bersagliare una creatura aggiuntiva per ogni livello dello slot superiore al 1°.</p>",
           "materials": "Uno spruzzo di acqua santa",
           "effects": {
             "8rP3gwmXVTgZqYZE": {
@@ -228,7 +247,7 @@
         },
         "9FrgmKwWCYPhlZ5w": {
           "name": "Anatema",
-          "description": "<p>L'incantatore sceglie fino a tre creature entro gittata e che egli sia in grado di vedere, che dovranno effettuare un tiro salvezza su Carisma. Se una creatura fallisce il suo tiro salvezza, ogni volta che effettua un tiro per colpire o un tiro salvezza prima che l'incantesimo termini deve tirare un d4 e sottrarre il numero ottenuto dal tiro per colpire o dal tiro salvezza.</p><p><strong>Ai livelli Superiori.</strong><strong>.</strong> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, può bersagliare una creatura aggiuntiva per ogni slot di livello superiore al I°.</p>",
+          "description": "<p>L'incantatore sceglie fino a tre creature entro gittata e che egli sia in grado di vedere, che dovranno effettuare un tiro salvezza su Carisma. Se una creatura fallisce il suo tiro salvezza, ogni volta che effettua un tiro per colpire o un tiro salvezza prima che l'incantesimo termini deve tirare un d4 e sottrarre il numero ottenuto dal tiro per colpire o dal tiro salvezza.</p><p><strong>Ai livelli Superiori.</strong> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, può bersagliare una creatura aggiuntiva per ogni slot di livello superiore al I°.</p>",
           "materials": "(una goccia di sangue)",
           "effects": {
             "potjmpJPeUA1U4oe": {
@@ -238,7 +257,7 @@
         },
         "BgMUGYECwuw8Ku7Z": {
           "name": "Purificare Cibo e Acqua",
-          "description": "<p data-parsoid=\"{&quot;dsr&quot;:[0,41,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,41,2,2]}\">Trasmutazione di 1° livello (rituale)</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[42,148,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[42,74,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[43,65,3,3]}\">Tempo di lancio:</strong>&nbsp;1 azione</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[75,98,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[76,90,3,3]}\">Gittata:</strong>&nbsp;3 metri</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[99,122,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[100,117,3,3]}\">Componenti:</strong>&nbsp;V, S</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[123,148,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[124,137,3,3]}\">Durata:</strong> Istantanea</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[149,338,0,0]}\">Tutti i cibi e le bevande non magici entro una sfera del raggio di 1,5 m centrata su un punto a scelta dell'incantatore entro gittata sono purificati e liberati dai veleni e dalle malattie.</p>"
+          "description": "<p>Tutti i cibi e le bevande non magici entro una sfera del raggio di 1,5 m centrata su un punto a scelta dell'incantatore entro gittata sono purificati e liberati dai veleni e dalle malattie.</p>"
         },
         "5yH69xkqge3u7to7": {
           "name": "Taumaturgia"
@@ -268,7 +287,7 @@
         },
         "d56v9vczAXEgMhCY": {
           "name": "Scudo della Fede",
-          "description": "<p data-parsoid=\"{&quot;dsr&quot;:[0,29,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,29,2,2]}\">Abiurazione di 1° livello</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[30,248,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[30,68,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[31,54,3,3]}\">Tempo di lancio:&nbsp;</strong>1 azione bonus</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[69,93,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[70,85,3,3]}\">Gittata:&nbsp;</strong>18 metri</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[94,200,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[95,113,3,3]}\">Componenti:&nbsp;</strong>V, S, M (una piccola pergamena su cui sia stato scritto un frammento di un testo sacro)</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[201,248,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[202,216,3,3]}\">Durata:&nbsp;</strong>Concentrazione, fino a 10 minuti</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[0,29,0,0]}\">&nbsp;</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[249,427,0,0]}\">Un campo di energia scintillante si materializza attorno a una creatura scelta dall'incantatore entro gittata, conferendole un bonus di +2 alla CA per la durata dell'incantesimo.</p>",
+          "description": "\n<p>Un campo di energia scintillante si materializza attorno a una creatura scelta dall'incantatore entro gittata, conferendole un bonus di +2 alla CA per la durata dell'incantesimo.</p>",
           "materials": "una piccola pergamena su cui sia stato scritto un frammento di un testo sacro",
           "effects": {
             "FKDbXBUs6VJlf8ZY": {
@@ -278,7 +297,7 @@
         },
         "oTVKQSbPDSaAvYXx": {
           "name": "Infliggi Ferite",
-          "description": "<p data-parsoid=\"{&quot;dsr&quot;:[0,29,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,29,2,2]}\">Necromanzia di 1° livello</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[30,134,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[30,62,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[31,54,3,3]}\">Tempo di lancio:&nbsp;</strong>1 azione</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[63,84,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[64,79,3,3]}\">Gittata:&nbsp;</strong>Tocco</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[85,108,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[86,104,3,3]}\">Componenti:&nbsp;</strong>V, S</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[109,134,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[110,124,3,3]}\">Durata:&nbsp;</strong>Istantaneo</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[135,292,0,0]}\">Effettua un attacco incantesimo corpo a corpo contro una creatura che puoi&nbsp;raggiungere. In caso di successo, il bersaglio subisce un danno necrotico di 3d10.</p>\n<p>&nbsp;</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[294,469,0,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[294,321,3,3]}\">Ai Livelli Superiori.</strong> Quando lanci questa magia usando uno slot incantesimo di 2° livello o superiore, il danno aumenta di 1d10 per ogni livello di slot superiore al 1°.</p>"
+          "description": "<p>Effettua un attacco incantesimo corpo a corpo contro una creatura che puoi&nbsp;raggiungere. In caso di successo, il bersaglio subisce un danno necrotico di 3d10.</p>\n\n<p><strong>Ai Livelli Superiori.</strong> Quando lanci questa magia usando uno slot incantesimo di 2° livello o superiore, il danno aumenta di 1d10 per ogni livello di slot superiore al 1°.</p>"
         },
         "P97npemu7j70IZAQ": {
           "name": "Fiamma Sacra"
@@ -348,6 +367,18 @@
             },
             "p9otj81aosxpn6wn": {
               "title": "Circolo Druidico"
+            },
+            "2T62G1BtLjN7m0D9": {
+              "title": "Aumento dei Punteggi di Caratteristica"
+            },
+            "uXaQWuJioxGLKVfy": {
+              "title": "Aumento dei Punteggi di Caratteristica"
+            },
+            "GiktwdfAHfCAEXzm": {
+              "title": "Aumento dei Punteggi di Caratteristica"
+            },
+            "9QF2H24Ez8ZdH42N": {
+              "title": "Aumento dei Punteggi di Caratteristica"
             }
           }
         },
@@ -358,11 +389,12 @@
         },
         "CICEvmF4z3OxHSU4": {
           "description": "<p>Un druido attinge all'essenza divina della natura stessa e pu&ograve; lanciare incantesimi che modellano tale essenza in base alla sua volont&agrave;.</p>\n<h5>Trucchetti</h5>\n<p>Al 1&deg; livello, un druido conosce tre trucchetti a sua scelta tratti dalla lista degli incantesimi da druido. Apprende ulteriori trucchetti da druido a sua scelta ai livelli successivi, come indicato dalla colonna \"Trucchetti Conosciuti\" nella tabella \"Druido\".</p>\n<h5>Preparare e Lanciare Incantesimi</h5>\n<p>La tabella \"Druido\" indica quanti slot incantesimo possiede un druido per lanciare i suoi incantesimi di 1&deg; livello e di livello superiore. Per lanciare uno di questi incantesimi, il druido deve spendere uno slot incantesimo di livello pari o superiore al livello dell'incantesimo. Il druido recupera tutti gli slot incantesimo spesi quando completa un riposo lungo.</p>\n<p>Il druido prepara la lista degli incantesimi da druido disponibili da lanciare scegliendoli dalla lista degli incantesimi da druido. Quando lo fa, deve scegliere un numero di incantesimi da druido pari al suo modificatore di Saggezza+ il suo livello da druido (fino a un minimo di un incantesimo). Gli incantesimi devono essere di un livello di cui il druido possiede degli slot incantesimo.</p>\n<p>Per esempio, un druido di 3&deg; livello possiede quattro slot incantesimo di 1&deg; livello e due slot incantesimo di 2&deg; livello. Con Saggezza pari a 16, la lista dei suoi incantesimi preparati pu&ograve; includere sei incantesimi di 1&deg; o 2&deg; livello, in qualsiasi combinazione. Se prepara l'incantesimo di 1&deg; livello cura ferite, potr&agrave; lanciarlo usando uno slot incantesimo di 1&deg; livello o di 2&deg; livello. Il lancio di quell'incantesimo non rimuove quell'incantesimo dalla lis1a di incantesimi preparati.</p>\n<p>Il druido pu&ograve; cambiare la lista dei suoi incantesimi preparati quando completa un riposo lungo. Per preparare una nuova lista di incantesimi da druido &egrave; necessario un certo ammontare di tempo da trascorrere in preghiera e meditazione: almeno 1 minuto per livello di incantesimo per ogni incantesimo nella sua lista.</p>\n<h5>Caratteristica da Incantatore</h5>\n<p>Saggezza &egrave; la caratteristica da incantatore usata per gli incantesimi da druido. Il potere dei suoi incantesimi deriva dalla sua devozione e dalla sua sintonia con la natura. Un druido usa Saggezza ogni volta che un incantesimo fa riferimento alla sua caratteristica da incantatore. Usa inoltre il suo modificatore di Saggezza per definire la CD del tiro salvezza di un incantesimo da druido da lui lanciato e quando effettua un tiro per colpire con un incantesimo.</p>\n<p><strong>CD del tiro salvezza dell'incantesimo</strong>&nbsp;= 8 + il bonus di competenza del druido + il modificatore di Saggezza del druido</p>\n<p><strong>Modificatore di attacco dell'incantesimo</strong>&nbsp;= il bonus di competenza del druido + il modificatore di Saggezza del druido</p>\n<h5>Celebrare Rituali</h5>\n<p>Un druido pu&ograve; lanciare qualsiasi incantesimo da druido a lui conosciuto come rituale se quell'incantesimo possiede il descrittore rituale.</p>\n<h5>Focus Da Incantatore</h5>\n<p>Un druido pu&ograve; usare uno focus druidico (vedi @UUID[Compendium.dnd5e.rules.JournalEntry.BYFd9hiJGo9L5aOM.JournalEntryPage.AjavRU4yPfI9hfaI]{Equipaggiamento d'Avventura}) come focus da incantatore per i suoi incantesimi da druido.</p>",
-          "requirements": "Druido 1"
+          "requirements": "Druido 1",
+          "name": "Incantesimi (Druido)"
         },
         "ZritJCgD0JK3D9mt": {
           "name": "Acciarino e Pietra Focaia",
-          "description": "<p>&nbsp;</p><div title=\"Page 148\"><div><div><p>Un piccolo contenitore usato per accendere il fuoco, che contiene acciarino, pietra focaia e materiale combustibile (solitamente stracci essiccati e bagnati d'olio).</p><p>Per accendere una torcia (o qualsiasi altra cosa che faccia uso di abbondante combustibile scoperto) usando acciarino e pietra focaia è richiesta un'azione. Per accendere un fuoco di qualsiasi altro tipo è richiesto 1 minuto.&nbsp;</p></div></div></div><p>&nbsp;</p>"
+          "description": "<p>Un piccolo contenitore usato per accendere il fuoco, che contiene acciarino, pietra focaia e materiale combustibile (solitamente stracci essiccati e bagnati d'olio). Per accendere una torcia (o qualsiasi altra cosa che faccia uso di abbondante combustibile scoperto) usando acciarino e pietra focaia è richiesta un'azione. Per accendere un fuoco di qualsiasi altro tipo è richiesto 1 minuto.</p>\n<p> </p>"
         },
         "c1OKgyDQrJBUYua2": {
           "name": "Otre",
@@ -377,7 +409,8 @@
           "description": "<p>Un lenzuolo per riscaldarti di notte.</p>"
         },
         "MbaS2ogYI1KbtKLw": {
-          "description": "<p>Questa custodia cilindrica in pelle può contenere fino a dieci fogli di carta arrotolati o cinque fogli di pergamena arrotolati.ent.</p>"
+          "description": "<p>Questa custodia cilindrica in pelle può contenere fino a dieci fogli di carta arrotolati o cinque fogli di pergamena arrotolati.ent.</p>",
+          "name": "Custodia per Pergamene"
         },
         "h2fbeacwQuIMSOau": {
           "name": "Abito, Comune",
@@ -396,7 +429,13 @@
           "description": "<p>Uno zaino può contenere 0,03 metri cubi/15 chili&nbsp;di attrezzatura. Puoi anche allacciare oggetti, come un lenzuolo o una bobina di corda, all'esterno di uno zaino.</p>"
         },
         "9jqgCD0tSdwm68DS": {
-          "name": "Corda di Canapa (15 metri)"
+          "name": "Corda di Canapa (15 m)",
+          "description": "<p>Una corda, che sia fatta di canapa o di seta, possiede 2 punti ferita e può essere spezzata con una prova di Forza con CD 17.</p>",
+          "activities": {
+            "dnd5eactivity000": {
+              "name": "Esplosione"
+            }
+          }
         },
         "v6gFAs077yQiyRoA": {
           "name": "Kit da Pranzo",
@@ -408,7 +447,7 @@
         },
         "mzogRoFZkIMPl0Hc": {
           "name": "Bastone Ferrato",
-          "description": "<p><em>Un fusto di legno avvolto da una robusta impugnatura rende un robusto bastone da passeggio un'arma altamente funzionale.</em></p><div title=\"Page 3\"><div><div><p><strong>Versatile</strong>. Quest&rsquo;arma può essere usata con una o due mani. Accanto alla proprietà appare un valore di danno tra parentesi: il danno che l&rsquo;arma infligge quando viene usata con due mani per effettuare un attacco da mischia.</p></div></div></div>"
+          "description": "<p>Una spessa asta di legno avvolta da una robusta impugnatura costituisce un'arma estremamente funzionale, oltre che un solido bastone da passeggio.</p>"
         },
         "5Y7HeEypCimIIzX3": {
           "name": "Borsa da Erborista",
@@ -433,11 +472,12 @@
         },
         "XQeADFDsyQNyHaf8": {
           "name": "Purificare Cibo e Acqua",
-          "description": "<p data-parsoid=\"{&quot;dsr&quot;:[0,41,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,41,2,2]}\">Trasmutazione di 1° livello (rituale)</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[42,148,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[42,74,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[43,65,3,3]}\">Tempo di lancio:</strong>&nbsp;1 azione</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[75,98,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[76,90,3,3]}\">Gittata:</strong>&nbsp;3 metri</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[99,122,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[100,117,3,3]}\">Componenti:</strong>&nbsp;V, S</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[123,148,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[124,137,3,3]}\">Durata:</strong> Istantanea</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[149,338,0,0]}\">Tutti i cibi e le bevande non magici entro una sfera del raggio di 1,5 m centrata su un punto a scelta dell'incantatore entro gittata sono purificati e liberati dai veleni e dalle malattie.</p>"
+          "description": "<p>Tutti i cibi e le bevande non magici entro una sfera del raggio di 1,5 m centrata su un punto a scelta dell'incantatore entro gittata sono purificati e liberati dai veleni e dalle malattie.</p>"
         },
         "J1hVbuherz2tiGT6": {
           "name": "Bacche Benefiche",
-          "description": "<p>Fino a dieci bacche compaiono in mano all'incantatore e sono pervase di magia per la durata dell'incantesimo. Una creatura può usare la sua azione per mangiare una bacca. Mangiare una bacca ripristina 1 punto ferita e la bacca fornisce nutrimento sufficiente a sfamare una creatura per un giorno.</p><p>Le bacche perdono il loro potere se non vengono mangiate entro 24 ore dal lancio di questo incantesimo.</p>"
+          "description": "<p>Fino a dieci bacche compaiono in mano all'incantatore e sono pervase di magia per la durata dell'incantesimo. Una creatura può usare la sua azione per mangiare una bacca. Mangiare una bacca ripristina 1 punto ferita e la bacca fornisce nutrimento sufficiente a sfamare una creatura per un giorno.</p><p>Le bacche perdono il loro potere se non vengono mangiate entro 24 ore dal lancio di questo incantesimo.</p>",
+          "materials": "un rametto di vischio"
         },
         "jKqkRj3coiQM4R63": {
           "name": "Artificio Druidico",
@@ -445,17 +485,25 @@
         },
         "0ScXCaYzzyhWZttx": {
           "name": "Randello Incantato",
-          "description": "<p data-parsoid=\"{&quot;dsr&quot;:[0,31,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,31,2,2]}\">Trucchetto di Trasmutazione</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[32,217,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[32,70,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[33,56,3,3]}\">Tempo di lancio:&nbsp;</strong>1 azione bonus</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[71,95,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[72,87,3,3]}\">Gittata:&nbsp;</strong>Contatto</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[96,193,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[97,115,3,3]}\">Componenti:&nbsp;</strong>V, S, M (vischio, una foglia di trifoglio, e un randello o un bastone ferrato)</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[194,217,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[195,209,3,3]}\">Durata:&nbsp;</strong>1 minuto</li>\n</ul>\n<p>&nbsp;</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[218,708,0,0]}\">Il legno di un randello o di un bastone ferrato impugnato dall'incantatore è pervaso dal potere della natura. Per la durata dell’incantesimo, l'incantatore può usare la sua caratteristica da incantatore anziché la Forza per i tiri per colpire e i tiri per i danni effettuati negli attacchi in mischia usando quell'arma; inoltre, i danni dell’arma diventano un d8. L’arma diventa magica, se già non lo era. L’incantesimo termina se l'incantatore lo lancia di nuovo o se lascia andare l’arma.</p>",
+          "description": "\n<p>Il legno di un randello o di un bastone ferrato impugnato dall'incantatore è pervaso dal potere della natura. Per la durata dell’incantesimo, l'incantatore può usare la sua caratteristica da incantatore anziché la Forza per i tiri per colpire e i tiri per i danni effettuati negli attacchi in mischia usando quell'arma; inoltre, i danni dell’arma diventano un d8. L’arma diventa magica, se già non lo era. L’incantesimo termina se l'incantatore lo lancia di nuovo o se lascia andare l’arma.</p>",
           "materials": "Vischio, una foglia di trifoglio, e un randello o un bastone ferrato",
           "effects": {
             "QPsqj6jfS0iXSrTs": {
               "name": "Randello Incantato"
             }
+          },
+          "activities": {
+            "dnd5eactivity000": {
+              "name": "Permea Arma"
+            },
+            "ONVab5lmTqJwwMBC": {
+              "name": "Attacco con Incantesimo"
+            }
           }
         },
         "r62jsF9Z2GyeuG9v": {
           "name": "Onda Tonante",
-          "description": "<p data-parsoid=\"{&quot;dsr&quot;:[0,29,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,29,2,2]}\">Invocazione di 1° livello</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[30,172,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[30,62,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[31,54,3,3]}\">Tempo di lancio:&nbsp;</strong>1 azione</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[63,122,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[64,79,3,3]}\">Gittata:&nbsp;</strong>Incantatore (cubo con spigolo di 4,5 metri)</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[123,146,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[124,142,3,3]}\">Componenti:&nbsp;</strong>V, S</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[147,172,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[148,162,3,3]}\">Durata:&nbsp;</strong>Istantanea</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[173,230,0,0]}\">Un'ondata di energia tonante si propaga dall'incantatore.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[232,739,0,0]}\">Ogni creatura entro un cubo con spigolo di 4,5 metri originato dall'incantatore deve effettuare un tiro salvezza su Costituzione. Se lo fallisce, subisce 2d8 danni da tuono e viene spinta di 3 metri più lontana dall'incantatore, mentre se lo supera, subisce soltanto la metà di quei danni e non viene spinta. Inoltre, gli oggetti non fissati e completamente situati all'interno dell'area di effetto vengono automaticamente spinti 3 metri più lontani dall'incantatore a seguito dell'effetto dell'incantesimo.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[741,815,0,0]}\">L'incantesimo emette un rombo tonante udibile fino a 90 metri di distanza.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[0,29,0,0]}\">&nbsp;</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[817,1018,0,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[817,844,3,3]}\">Ai Livelli Superiori.</strong>&nbsp;Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o<br data-parsoid=\"{&quot;stx&quot;:&quot;html&quot;,&quot;selfClose&quot;:true,&quot;dsr&quot;:[935,941,6,0]}\">superiore, i danni aumentano di 1d8 per ogni slot di livello superiore al 1°.</p>"
+          "description": "<p>Un'ondata di energia tonante si propaga dall'incantatore. Ogni creatura entro un cubo con spigolo di 4,5 metri originato dall'incantatore deve effettuare un tiro salvezza su Costituzione. Se lo fallisce, subisce 2d8 danni da tuono e viene spinta di 3 metri più lontana dall'incantatore, mentre se lo supera, subisce soltanto la metà di quei danni e non viene spinta. Inoltre, gli oggetti non fissati e completamente situati all'interno dell'area di effetto vengono automaticamente spinti 3 metri più lontani dall'incantatore a seguito dell'effetto dell'incantesimo.</p><p>L'incantesimo emette un rombo tonante udibile fino a 90 metri di distanza.</p><p><strong>Ai Livelli Superiori.</strong>&nbsp;Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, i danni aumentano di 1d8 per ogni slot di livello superiore al 1°.</p>"
         },
         "JYb389GcFpBYDUzE": {
           "name": "Saltare",
@@ -467,11 +515,11 @@
         },
         "pF8dim6Hn9X9cSH3": {
           "name": "Parlare con gli Animali",
-          "description": "<p data-parsoid=\"{&quot;dsr&quot;:[0,39,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,39,2,2]}\">Divinazione di 1° livello (rituale)</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[40,149,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[40,72,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[41,64,3,3]}\">Tempo di lancio:&nbsp;</strong>1 azione</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[73,100,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[74,89,3,3]}\">Gittata:&nbsp;</strong>Incantatore</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[101,124,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[102,120,3,3]}\">Componenti:&nbsp;</strong>V, S</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[125,149,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[126,140,3,3]}\">Durata:&nbsp;</strong>10 minuti</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[150,274,0,0]}\">L'incantatore ottiene la capacità di comprendere le bestie e comunicare verbalmente con loro per la durata dell'incantesimo.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[276,559,0,0]}\">Le conoscenze e la consapevolezza di molte bestie sono limitate alla loro intelligenza, ma l'incantatore può apprendere da loro quanto meno alcune informazioni sui luoghi o sui mostri nelle vicinanze, o su ciò che esse sono in grado di percepire o hanno percepito nell'ultimo giorno.</p>\n<p>&nbsp;</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[561,661,0,0]}\">L'incantatore potrebbe anche persuadere una bestia a fargli un piccolo favore, a discrezione del DM.</p>"
+          "description": "<p>L'incantatore ottiene la capacità di comprendere le bestie e comunicare verbalmente con loro per la durata dell'incantesimo. Le conoscenze e la consapevolezza di molte bestie sono limitate alla loro intelligenza, ma l'incantatore può apprendere da loro quanto meno alcune informazioni sui luoghi o sui mostri nelle vicinanze, o su ciò che esse sono in grado di percepire o hanno percepito nell'ultimo giorno. L'incantatore potrebbe anche persuadere una bestia a fargli un piccolo favore, a discrezione del DM.</p>"
         },
         "uwHgS93Wg63hDJzV": {
           "name": "Charme su Persone",
-          "description": "<p>L'incantatore tenta di affascinare un umanoide entro gittata e che egli sia in grado di vedere. L'umanoide deve effettuare un tiro salvezza su Saggezza e dispone di vantaggio se l'incantatore o i suoi compagni stanno combattendo contro di lui. Se lo fallisce, è affascinato dall'incantatore finché l'incantesimo non termina o finché l'incantatore o i suoi compagni non lo danneggiano in qualche modo. La creatura affascinata considera l'incantatore una figura conosciuta e amichevole. Quando l'incantesimo termina, la creatura capirà di essere stata affascinata dall'incantatore.</p>",
+          "description": "<p>L'incantatore tenta di affascinare un umanoide che può vedere entro gittata. Il bersaglio deve effettuare un tiro salvezza su Saggezza e dispone di vantaggio se l'incantatore o i suoi compagni lo stanno combattendo. Se fallisce il tiro salvezza, è &amp;Reference[charmed] dall'incantatore finché l'incantesimo non termina o finché l'incantatore o i suoi compagni non gli fanno del male. La creatura affascinata considera l'incantatore una conoscenza amichevole. Quando l'incantesimo termina, la creatura sa di essere stata affascinata dall'incantatore.</p><p><strong>Ai Livelli Superiori.</strong> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, può bersagliare una creatura aggiuntiva per ogni livello dello slot superiore al 1°. Le creature devono trovarsi entro 9 metri l'una dall'altra quando vengono bersagliate.</p>",
           "effects": {
             "1QhUB3231btaCO0b": {
               "name": "Charme su Persone"
@@ -521,7 +569,8 @@
           }
         },
         "9t0oaZailMjUceoS": {
-          "requirements": "Elfo, Mezzelfo"
+          "requirements": "Elfo, Mezzelfo",
+          "name": "Retaggio fatato"
         },
         "fDxJHhma7nbuVE9c": {
           "name": "Bardo",
@@ -569,12 +618,31 @@
             },
             "wjdgb3r8pyeix83o": {
               "title": "Collegio Bardico"
+            },
+            "cwu9uhmtcKhqli8W": {
+              "title": "Maestria"
+            },
+            "O2cVH7Y5kNfoUyLg": {
+              "title": "Maestria"
+            },
+            "sbzvEEntzYcE5JfN": {
+              "title": "Aumento dei Punteggi di Caratteristica"
+            },
+            "adpq4VPJ5oVt8m06": {
+              "title": "Aumento dei Punteggi di Caratteristica"
+            },
+            "jl333Hy4RIPs6J9p": {
+              "title": "Aumento dei Punteggi di Caratteristica"
+            },
+            "Eweg6iXNJ6qIC6rY": {
+              "title": "Aumento dei Punteggi di Caratteristica"
             }
           }
         },
         "FdUaY1D9UanTIzoS": {
           "description": "<p>Un bardo ha imparato a districare e rimodellare la trama della realt&agrave; in armonia con i suoi desideri tramite la musica. I suoi incantesimi fanno parte del suo vasto repertorio come magie che il bardo pu&ograve; mettere in sintonia con le situazioni pi&ugrave; disparate.</p>\n<h5>Trucchetti</h5>\n<p>Un bardo conosce due trucchetti a sua scelta tratti dalla lista degli incantesimi da bardo. Apprende ulteriori trucchetti da bardo a sua scelta ai livelli successivi, come indicato dalla colonna \"Trucchetti Conosciuti\" nella tabella \"Bardo\".</p>\n<h5>Slot Incantesimo</h5>\n<p>La tabella \"Bardo\" indica quanti slot incantesimo possiede un bardo per lanciare i suoi incantesimi di r livello e di livello superiore. Per lanciare uno di questi incantesimi, il bardo deve spendere uno slot incantesimo di livello pari o superiore al livello dell'incantesimo. Il bardo recupera tutti gli slot incantesimo spesi quando completa un riposo lungo.</p>\n<p>Per esempio, se un bardo conosce l'incantesimo di 1&deg; livello cura ferite e possiede uno slot incantesimo di 1&deg; livello e uno slot incantesimo di 2&deg; livello, pu&ograve; lanciare cura ferite usando uno qualsiasi dei due slot.</p>\n<h5>Incantesimi Conosciuti di 1&deg; Livello e di Livello Superiore</h5>\n<p>Un bardo conosce quattro incantesimi di I\" livello a sua scelta dalla lista degli incantesimi da bardo.</p>\n<p>La colonna \"Incantesimi Conosciuti\" nella tabella \"Bardo\" indica quando un bardo impara altri incantesimi da bardo a sua scelta. Ognuno di questi incantesimi deve appartenere a un livello di cui il bardo possiede degli slot incantesimo, come indicato nella tabella. Per esempio, quando un bardo arriva al 3&deg; livello, pu&ograve; imparare un nuovo incantesimo di 1&deg; o di 2&deg; livello.</p>\n<p>Inoltre, quando un bardo acquisisce un livello, pu&ograve; scegliere un incantesimo da bardo che conosce e sostituirlo con un altro incantesimo della lista degli incantesimi da bardo; anche il nuovo incantesimo deve essere di un livello di cui il bardo possiede degli slot incantesimo.</p>\n<h5>Caratteristica Da Incantatore</h5>\n<p>Carisma &egrave; la caratteristica da incantatore per gli incantesimi da bardo. La magia di un bardo fluisce dal cuore e dall'anima che egli riversa in ogni esibizione della sua musica o della sua oratoria. Un bardo usa Carisma ogni volta che un incantesimo fa riferimento alla sua caratteristica da incantatore. Usa inoltre il suo modificatore di Carisma per definire la CD del tiro salvezza di un incantesimo da bardo da lui lanciato e quando effettua un tiro per colpire con un incantesimo.</p>\n<p><strong>CD del tiro salvezza dell'incantesimo</strong>&nbsp;= 8 + il bonus di competenza del bardo + il modificatore di Carisma del bardo</p>\n<p><strong>Modificatore di attacco dell'incantesimo</strong>&nbsp;= il bonus di competenza del bardo + il modificatore di Carisma del bardo</p>\n<h5>Celebrare Rituali</h5>\n<p>Un bardo pu&ograve; lanciare qualsiasi incantesimo da bardo a lui conosciuto come rituale se quell'incantesimo possiede il descrittore rituale.</p>\n<h5>Focus Da Incantatore</h5>\n<p>Un bardo pu&ograve; usare uno strumento musicale (vedi @UUID[Compendium.dnd5e.rules.JournalEntry.BYFd9hiJGo9L5aOM.JournalEntryPage.AjavRU4yPfI9hfaI]{Equipaggiamento d'Avventura}) come focus da incantatore per i suoi incantesimi da bardo.</p>",
-          "requirements": "Bardo 1"
+          "requirements": "Bardo 1",
+          "name": "Incantesimi (Bardo)"
         },
         "sA9bxQRvP9wS18fr": {
           "name": "Ispirazione Bardica",
@@ -626,8 +694,8 @@
           "description": "<p>Uno zaino può contenere 0,03 metri cubi/15 chili&nbsp;di attrezzatura. Puoi anche allacciare oggetti, come un lenzuolo o una bobina di corda, all'esterno di uno zaino.</p>"
         },
         "CtVyWJa9mhJv7tgC": {
-          "name": "Trucchi per il Camuffamento",
-          "description": "<p>Questa borsa di cosmetici, tinture per capelli e piccoli accessori consente a chi la usa di alterare il proprio aspetto fisico. La competenza in questi trucchi permette a un personaggio di aggiungere il proprio bonus di competenza a ogni prova di caratteristica che effettua per camuffare visivamente qualcuno.</p>"
+          "name": "Kit per Camuffarsi",
+          "description": "<p>Questa borsa di cosmetici, tinture per capelli e piccoli accessori ti permette di creare camuffamenti che cambiano il tuo aspetto fisico. La competenza in questo kit ti permette di aggiungere il tuo bonus di competenza a qualsiasi prova di caratteristica effettuata per creare un camuffamento visivo.</p>"
         },
         "W26SJwfU9NQD8asV": {
           "name": "Profumo",
@@ -639,7 +707,7 @@
         },
         "tgeQ5j3TT9WrZXXy": {
           "name": "Stocco",
-          "description": "<p>Una sottile lama in metallo a trazione, leggera ma di lunga portata progettata per attacchi rapidi per colpire punti deboli nelle difese nemiche con rapidità fulminea.</p><div title=\"Page 146\"><div><div><p><strong>Accurata</strong>. Quando un personaggio effettua un attacco con un'arma accurata, può scegliere se usare il modificatore di Forza o di Destrezza per il tiro per colpire e il tiro per i danni. Deve usare lo stesso modificatore per entrambi i tiri.&nbsp;</p></div></div></div><p>&nbsp;</p>"
+          "description": "<p>Una sottile lama metallica resistente alla trazione, leggera ma dalla notevole lunghezza, progettata per sferrare rapidi affondi e colpire con fulminea velocità i punti deboli delle difese nemiche.</p>"
         },
         "jm5MASDmYMMtWwRg": {
           "name": "Inchiostro (boccetta da 30 gr.)",
@@ -671,11 +739,11 @@
         },
         "8faguw7IxAd4ZdRb": {
           "name": "Mano Magica",
-          "description": "<p data-parsoid=\"{&quot;dsr&quot;:[0,28,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,28,2,2]}\">Trucchetto di Evocazione</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[29,62,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[29,62,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[31,54,3,3]}\">Tempo di lancio:&nbsp;</strong>1 azione</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[64,88,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[64,88,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[66,80,3,3]}\">Gittata:</strong>&nbsp;9 metri</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[90,114,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[90,114,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[92,110,3,3]}\">Componenti:&nbsp;</strong>V, S</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[116,140,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[116,140,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[118,132,3,3]}\">Durata:&nbsp;</strong>1 minuto</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[141,391,0,0]}\">Una mano spettrale e fluttuante appare nel punto scelto all'interno del raggio. La mano dura per la durata o fino a quando non la scartate come azione. La mano svanisce se è mai più di 9 metri di distanza da te o se lanci di nuovo questo incantesimo.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[393,686,0,0]}\">Puoi usare la tua azione per controllare la mano. Puoi usare la mano per manipolare un oggetto, aprire una porta o un contenitore sbloccato, riporre o recuperare un oggetto da un contenitore aperto o versare il contenuto da una fiala. Puoi muovere la mano fino a 9 metri ogni volta che la usi.</p>\n<p>&nbsp;</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[688,769,0,0]}\">La mano non può attaccare, attivare oggetti magici o trasportare più di 10 chili.</p>"
+          "description": "<p>Una mano spettrale e fluttuante appare nel punto scelto all'interno del raggio. La mano dura per la durata o fino a quando non la scartate come azione. La mano svanisce se è mai più di 9 metri di distanza da te o se lanci di nuovo questo incantesimo.</p>\n<p>Puoi usare la tua azione per controllare la mano. Puoi usare la mano per manipolare un oggetto, aprire una porta o un contenitore sbloccato, riporre o recuperare un oggetto da un contenitore aperto o versare il contenuto da una fiala. Puoi muovere la mano fino a 9 metri ogni volta che la usi.</p>\n\n<p>La mano non può attaccare, attivare oggetti magici o trasportare più di 10 chili.</p>"
         },
         "PCcIZTkaRF749Y4z": {
           "name": "Charme su Persone",
-          "description": "<p>L'incantatore tenta di affascinare un umanoide entro gittata e che egli sia in grado di vedere. L'umanoide deve effettuare un tiro salvezza su Saggezza e dispone di vantaggio se l'incantatore o i suoi compagni stanno combattendo contro di lui. Se lo fallisce, è affascinato dall'incantatore finché l'incantesimo non termina o finché l'incantatore o i suoi compagni non lo danneggiano in qualche modo. La creatura affascinata considera l'incantatore una figura conosciuta e amichevole. Quando l'incantesimo termina, la creatura capirà di essere stata affascinata dall'incantatore.</p>",
+          "description": "<p>L'incantatore tenta di affascinare un umanoide che può vedere entro gittata. Il bersaglio deve effettuare un tiro salvezza su Saggezza e dispone di vantaggio se l'incantatore o i suoi compagni lo stanno combattendo. Se fallisce il tiro salvezza, è &amp;Reference[charmed] dall'incantatore finché l'incantesimo non termina o finché l'incantatore o i suoi compagni non gli fanno del male. La creatura affascinata considera l'incantatore una conoscenza amichevole. Quando l'incantesimo termina, la creatura sa di essere stata affascinata dall'incantatore.</p><p><strong>Ai Livelli Superiori.</strong> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, può bersagliare una creatura aggiuntiva per ogni livello dello slot superiore al 1°. Le creature devono trovarsi entro 9 metri l'una dall'altra quando vengono bersagliate.</p>",
           "effects": {
             "1QhUB3231btaCO0b": {
               "name": "Charme su Persone"
@@ -760,6 +828,18 @@
             },
             "n22j60yn24fqr3sy": {
               "title": "Giuramento Sacro"
+            },
+            "ASKyHbSBAKRIU6i3": {
+              "title": "Aumento dei Punteggi di Caratteristica"
+            },
+            "iBK2dJf2hwv9vOBI": {
+              "title": "Aumento dei Punteggi di Caratteristica"
+            },
+            "BI8DBqJZY8O9orOX": {
+              "title": "Aumento dei Punteggi di Caratteristica"
+            },
+            "hKEbRRkEEfvA3ydq": {
+              "title": "Aumento dei Punteggi di Caratteristica"
             }
           }
         },
@@ -780,11 +860,11 @@
         },
         "O8zxaD0RfSdc0hE9": {
           "name": "Spada Lunga",
-          "description": "<p>Una lunga lama dritta progettata per tagliare i nemici, la spada lunga è un'arma altamente versatile che può anche essere impugnata con due mani per colpi più punitivi.</p><div title=\"Page 3\"><div><div><p><strong>Versatile</strong>. Quest’arma può essere usata con una o due mani. Accanto alla proprietà appare un valore di danno tra parentesi: il danno che l’arma infligge quando viene usata con due mani per effettuare un attacco da mischia.</p></div></div></div>"
+          "description": "<p>Una lunga lama diritta progettata per fendere i nemici, la spada lunga è un'arma estremamente versatile che può anche essere impugnata a due mani per sferrare colpi più devastanti.</p>"
         },
         "dLZZeF4GdmnVzMPU": {
           "name": "Acciarino e Pietra Focaia",
-          "description": "<p>&nbsp;</p><div title=\"Page 148\"><div><div><p>Un piccolo contenitore usato per accendere il fuoco, che contiene acciarino, pietra focaia e materiale combustibile (solitamente stracci essiccati e bagnati d'olio).</p><p>Per accendere una torcia (o qualsiasi altra cosa che faccia uso di abbondante combustibile scoperto) usando acciarino e pietra focaia è richiesta un'azione. Per accendere un fuoco di qualsiasi altro tipo è richiesto 1 minuto.&nbsp;</p></div></div></div><p>&nbsp;</p>"
+          "description": "<p>Un piccolo contenitore usato per accendere il fuoco, che contiene acciarino, pietra focaia e materiale combustibile (solitamente stracci essiccati e bagnati d'olio). Per accendere una torcia (o qualsiasi altra cosa che faccia uso di abbondante combustibile scoperto) usando acciarino e pietra focaia è richiesta un'azione. Per accendere un fuoco di qualsiasi altro tipo è richiesto 1 minuto.</p>\n<p> </p>"
         },
         "efhXrQbirl8VZyB4": {
           "name": "Otre",
@@ -804,7 +884,7 @@
         },
         "G9505KmrMSHBWf8g": {
           "name": "Giavellotto",
-          "description": "<p>Questa lancia leggera e flessibile è progettata per il lancio, ma è abbastanza versatile da poter essere usata anche in combattimento corpo a corpo.</p><div title=\"Page 3\"><div><div><p><strong>Da Lancio.</strong> Se un’arma ha la proprietà da lancio, puoi lanciarla per effettuare un attacco a distanza. Se l’arma è un’arma da mischia, usa lo stesso modificatore di caratteristica per il tiro per colpire e danno che useresti per un attacco da mischia con quell’arma. Ad esempio, se lanci un’accetta, usa la tua Forza, ma se lanci un pugnale, puoi usare la Forza o la Destrezza, dato che il pugnale ha la proprietà Precisione.</p></div></div></div>"
+          "description": "<p>Questa lancia leggera e flessibile è progettata per essere scagliata, ma è abbastanza versatile da poter essere usata anche nel combattimento in mischia.</p>"
         },
         "ywNBNpv1C7BCgkex": {
           "name": "Zaino",
@@ -812,10 +892,16 @@
         },
         "d4CmvW8R3FAjbWKu": {
           "name": "Strumenti da Fabbro",
-          "description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Questi strumenti speciali includono gli oggetti necessari per praticare un'arte o un mestiere. La tabella contiene alcuni esempi dei tipi di strumenti più ricorrenti, ognuno dei quali fornisce<br style=\"box-sizing: border-box; user-select: text;\">gli oggetti relativi a un singolo tipo di artigianato.</p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">La competenza in un set di strumenti da artigiano consente a un personaggio di aggiungere il proprio bonus di competenza a ogni prova di caratteristica effettuata usando gli strumenti del suo mestiere. Ogni tipo di strumenti da artigiano richiede una competenza separata.&nbsp;</p>"
+          "description": "<p>Questi strumenti speciali includono gli oggetti necessari per praticare un'arte o un mestiere. La tabella contiene alcuni esempi dei tipi di strumenti più ricorrenti, ognuno dei quali fornisce gli oggetti relativi a un singolo tipo di artigianato.</p><p>La competenza in un set di strumenti da artigiano consente a un personaggio di aggiungere il proprio bonus di competenza a ogni prova di caratteristica effettuata usando gli strumenti del suo mestiere. Ogni tipo di strumenti da artigiano richiede una competenza separata.&nbsp;</p>"
         },
         "jPU066t1jdacJtqh": {
-          "name": "Corda di Canapa (15 metri)"
+          "name": "Corda di Canapa (15 m)",
+          "description": "<p>Una corda, che sia fatta di canapa o di seta, possiede 2 punti ferita e può essere spezzata con una prova di Forza con CD 17.</p>",
+          "activities": {
+            "dnd5eactivity000": {
+              "name": "Esplosione"
+            }
+          }
         },
         "9GZ9g4sWxCBmDAOQ": {
           "name": "Kit da Pranzo",
@@ -843,10 +929,13 @@
           }
         },
         "yKdzupRNhbtpQNyd": {
-          "name": "Fortunato"
+          "name": "Fortunato",
+          "requirements": "Halfling"
         },
         "pu50e2QGn8RAy1iw": {
-          "description": "<p>Hai vantaggio sui tiri salvezza contro l’essere spaventato.</p>"
+          "description": "<p>Hai vantaggio sui tiri salvezza contro l’essere spaventato.</p>",
+          "name": "Coraggioso",
+          "requirements": "Halfling"
         },
         "cKdkwiXbwp1VVT9a": {
           "name": "Furtività Innata",
@@ -922,7 +1011,7 @@
         },
         "kn942lwC0HOAr3sK": {
           "name": "Acciarino e Pietra Focaia",
-          "description": "<p>&nbsp;</p><div title=\"Page 148\"><div><div><p>Un piccolo contenitore usato per accendere il fuoco, che contiene acciarino, pietra focaia e materiale combustibile (solitamente stracci essiccati e bagnati d'olio).</p><p>Per accendere una torcia (o qualsiasi altra cosa che faccia uso di abbondante combustibile scoperto) usando acciarino e pietra focaia è richiesta un'azione. Per accendere un fuoco di qualsiasi altro tipo è richiesto 1 minuto.&nbsp;</p></div></div></div><p>&nbsp;</p>"
+          "description": "<p>Un piccolo contenitore usato per accendere il fuoco, che contiene acciarino, pietra focaia e materiale combustibile (solitamente stracci essiccati e bagnati d'olio). Per accendere una torcia (o qualsiasi altra cosa che faccia uso di abbondante combustibile scoperto) usando acciarino e pietra focaia è richiesta un'azione. Per accendere un fuoco di qualsiasi altro tipo è richiesto 1 minuto.</p>\n<p> </p>"
         },
         "RXzyzw1tx9VAbayv": {
           "name": "Otre",
@@ -930,7 +1019,7 @@
         },
         "glDE9NU9RrYAKuFp": {
           "name": "Ascia Bipenne",
-          "description": "<p>Questa enorme ascia è composta da due lame a doppia mezzaluna montate su entrambi i lati di un lungo manico. Progettata per essere maneggiata con due mani e dividere i nemici in due.</p><p><strong>Pesante.</strong> Le creature piccole subiscono svantaggio ai tiri per colpire con le armi pesanti. La taglia e la stazza di un'arma pesante sono eccessive affinché una creatura Piccola possa usarla con efficacia.</p><p><strong>Two-Handed.</strong> Questa arma richiede di essere impugnata a due mani quando il personaggio la usa per attaccare.</p>"
+          "description": "<p>Questa enorme ascia presenta due lame gemelle a mezzaluna montate sui lati opposti di una lunga asta chiodata. È concepita per essere impugnata a due mani e fendere in due i nemici.</p>"
         },
         "YWdXAdfWM7lju1JW": {
           "name": "Torcia",
@@ -946,14 +1035,20 @@
         },
         "VhXDOC3DfXopry1c": {
           "name": "Giavellotto",
-          "description": "<p>Questa lancia leggera e flessibile è progettata per il lancio, ma è abbastanza versatile da poter essere usata anche in combattimento corpo a corpo.</p><div title=\"Page 3\"><div><div><p><strong>Da Lancio.</strong> Se un’arma ha la proprietà da lancio, puoi lanciarla per effettuare un attacco a distanza. Se l’arma è un’arma da mischia, usa lo stesso modificatore di caratteristica per il tiro per colpire e danno che useresti per un attacco da mischia con quell’arma. Ad esempio, se lanci un’accetta, usa la tua Forza, ma se lanci un pugnale, puoi usare la Forza o la Destrezza, dato che il pugnale ha la proprietà Precisione.</p></div></div></div>"
+          "description": "<p>Questa lancia leggera e flessibile è progettata per essere scagliata, ma è abbastanza versatile da poter essere usata anche nel combattimento in mischia.</p>"
         },
         "1j8AQoiqnkA2FjZA": {
           "name": "Zaino",
           "description": "<p>Uno zaino può contenere 0,03 metri cubi/15 chili&nbsp;di attrezzatura. Puoi anche allacciare oggetti, come un lenzuolo o una bobina di corda, all'esterno di uno zaino.</p>"
         },
         "LJHqe7VEIN8D1Rcu": {
-          "name": "Corda di Canapa (15 metri)"
+          "name": "Corda di Canapa (15 m)",
+          "description": "<p>Una corda, che sia fatta di canapa o di seta, possiede 2 punti ferita e può essere spezzata con una prova di Forza con CD 17.</p>",
+          "activities": {
+            "dnd5eactivity000": {
+              "name": "Esplosione"
+            }
+          }
         },
         "I640Jkga30Wx25Gp": {
           "name": "Kit da Pranzo",
@@ -961,7 +1056,12 @@
         },
         "jQGlvMSTD0lkqzYR": {
           "name": "Ascia",
-          "description": "<p>Questa ascia con una mano è leggera ed equilibrata per il lancio ed utile anche nel combattimento in mischia.</p><div class=\"page\" title=\"Page 147\"><div class=\"layoutArea\"><div class=\"column\"><p><strong>Lancio</strong><span style=\"font-size: 9.000000pt; font-family: 'Arial'; font-weight: bold; font-style: italic;\">. </span>Se un'arma possiede la proprietà da lancio, il personaggio può lanciarla per effettuare un attacco a distanza. Se l'arma è un'arma da mischia, il personaggio applica al tiro per colpire e al tiro per i danni lo stesso modificatore di caratteristica che userebbe per un attacco in mischia effettuato con quell'arma. Per esempio, se lancia un'ascia, usa la sua Forza, ma se lancia un pugnale può usare la sua Forza o la sua Destrezza, dal momento che il pugnale possiede la proprietà accurata.</p><p><strong>Leggera</strong>. Un'arma leggera è piccola e facile da maneggiare, cosa che ne fa un'arma ideale da usare per combattere con due armi. Vedi le regole relative a combattere con due armi nel capitolo 9.</p></div></div></div>"
+          "description": "<p>Quest'ascia a una mano è leggera e bilanciata per il lancio, pur rimanendo efficace nel combattimento in mischia.</p>"
+        },
+        "Pu3BoEwS3aMhhKsA": {
+          "name": "Agilità halfling",
+          "description": "<p>Puoi muoverti attraverso lo spazio di qualsiasi creatura di taglia superiore alla tua.</p>",
+          "requirements": "Halfling"
         }
       }
     },
@@ -985,14 +1085,17 @@
             "VUUQMvAtL25wj3vD": {
               "title": "Eredità Infernale"
             }
-          }
+          },
+          "name": "Tiefling"
         },
         "exSIz1TyfxviYAkK": {
           "name": "Resistenza Infernale",
-          "description": "<p>Un tiefling dispone di resistenza ai danni da fuoco.</p>"
+          "description": "<p>Un tiefling dispone di resistenza ai danni da fuoco.</p>",
+          "requirements": "Tiefling"
         },
         "cY4aXe5XplmPTCQg": {
-          "name": "Eredità Infernale"
+          "name": "Eredità Infernale",
+          "requirements": "Tiefling"
         },
         "xL28YI8mIoQ9z3xH": {
           "name": "Stregone",
@@ -1024,12 +1127,25 @@
             },
             "f06tge0vsvdhb0sw": {
               "title": "Origine Stregonesca"
+            },
+            "zSlKyZ0rzKcd78Cq": {
+              "title": "Aumento dei Punteggi di Caratteristica"
+            },
+            "Psp6dqmMqww0D44O": {
+              "title": "Aumento dei Punteggi di Caratteristica"
+            },
+            "9qahHg5ZfS8bWkjD": {
+              "title": "Aumento dei Punteggi di Caratteristica"
+            },
+            "QYpSCG2AmMi8taC1": {
+              "title": "Aumento dei Punteggi di Caratteristica"
             }
           }
         },
         "e9lH7ahP8CU0uAg6": {
           "description": "<p>Un evento nel passato dello stregone o nella vita di un suo parente o antenato ha lasciato su di lui un segno indelebile, infondendogli una fonte di magia arcana. &Egrave; questa fonte di magia, qualunque sia la sua origine, ad alimentare i suoi incantesimi.</p>\n<h5>Trucchetti</h5>\n<p>Al 1&deg; livello, uno stregone conosce quattro trucchetti a sua scelta tratti dalla lista degli incantesimi da stregone. Apprende ulteriori trucchetti da stregone a sua scelta ai livelli successivi, come indicato dalla colonna \"Trucchetti Conosciuti\" nella tabella \"Stregone\".</p>\n<h5>Slot Incantesimo</h5>\n<p>La tabella \"Stregone\" indica quanti slot incantesimo possiede uno stregone per lanciare i suoi incantesimi di l' livello e di livello superiore. Per lanciare uno di questi incantesimi, lo stregone deve spendere uno slot incantesimo di livello pari o superiore al livello dell'incantesimo. Lo stregone recupera tutti gli slot incantesimo spesi quando completa un riposo lungo.</p>\n<p>Per esempio, se uno stregone conosce l'incantesimo di 1&deg; livello mani brucianti e possiede uno slot incantesimo di 1&deg; livello e uno slot incantesimo di 2&deg; livello, pu&ograve; lanciare mani brucianti usando uno qualsiasi dei due slot.</p>\n<h5>Incantesimi Conosciuti di 1&deg; Livello e di Livello Superiore</h5>\n<p>Uno stregone conosce due incantesimi di 1&deg; livello a sua scelta dalla lista degli incantesimi da stregone.</p>\n<p>La colonna \"Incantesimi Conosciuti\" nella tabella \"Stregone\" indica quando uno stregone impara altri incantesimi da stregone a sua scelta. Ognuno di questi incantesimi deve appartenere a un livello di cui lo stregone possiede degli slot incantesimo, come indicato dalla tabella. Per esempio, quando uno stregone arriva al 3&deg; livello, pu&ograve; imparare un nuovo incantesimo di 1&deg; o di 2&deg; livello.</p>\n<p>Inoltre, quando uno stregone acquisisce un livello, pu&ograve; scegliere un incantesimo da stregone che conosce e sostituirlo con un altro incantesimo della lista degli incantesimi da stregone; anche il nuovo incantesimo deve essere di un livello di cui lo stregone possiede degli slot incantesimo.</p>\n<h5>Caratteristica Da Incantatore</h5>\n<p>Carisma &egrave; la caratteristica da incantatore per gli incantesimi da stregone, dal momento che il potere magico di uno stregone dipende dall'intens&igrave;t&agrave; con cui egli riesce a proiettare la sua volont&agrave; nel mondo esterno. Uno stregone usa Carisma ogni volta che un incantesimo fa riferimento alla sua caratteristica da incantatore. Usa inoltre il suo modificatore di Carisma per definire la CD del tiro salvezza di un incantesimo da stregone da lui lanciato e quando effettua un tiro per colpire con un incantesimo.</p>\n<p><strong>CD del tiro salvezza dell'incantesimo</strong>= 8 + il bonus di competenza dello stregone + il modificatore di Carisma dello stregone</p>\n<p><strong>Modificatore di attacco dell'incantesimo</strong>= il bonus di competenza dello stregone + il modificatore di Carisma dello stregone</p>\n<h5>Spellcasting Focus</h5>\n<p>Un stregone pu&ograve; usare un focus arcano come focus da incantatore per i suoi incantesimi da stregone</p>",
-          "requirements": "Stregone 1"
+          "requirements": "Stregone 1",
+          "name": "Incantesimi (Stregone)"
         },
         "Na1MedxNSLf4CJAK": {
           "name": "Origine Stregonesca",
@@ -1075,7 +1191,7 @@
         },
         "B3UCVVumF5HePaaL": {
           "name": "Acciarino e Pietra Focaia",
-          "description": "<p>&nbsp;</p><div title=\"Page 148\"><div><div><p>Un piccolo contenitore usato per accendere il fuoco, che contiene acciarino, pietra focaia e materiale combustibile (solitamente stracci essiccati e bagnati d'olio).</p><p>Per accendere una torcia (o qualsiasi altra cosa che faccia uso di abbondante combustibile scoperto) usando acciarino e pietra focaia è richiesta un'azione. Per accendere un fuoco di qualsiasi altro tipo è richiesto 1 minuto.&nbsp;</p></div></div></div><p>&nbsp;</p>"
+          "description": "<p>Un piccolo contenitore usato per accendere il fuoco, che contiene acciarino, pietra focaia e materiale combustibile (solitamente stracci essiccati e bagnati d'olio). Per accendere una torcia (o qualsiasi altra cosa che faccia uso di abbondante combustibile scoperto) usando acciarino e pietra focaia è richiesta un'azione. Per accendere un fuoco di qualsiasi altro tipo è richiesto 1 minuto.</p>\n<p> </p>"
         },
         "27wWLXm4kjSdXcEl": {
           "name": "Otre",
@@ -1122,7 +1238,13 @@
           "description": "<p>Uno zaino può contenere 0,03 metri cubi/15 chili&nbsp;di attrezzatura. Puoi anche allacciare oggetti, come un lenzuolo o una bobina di corda, all'esterno di uno zaino.</p>"
         },
         "NueX3DdBm2HqT76c": {
-          "name": "Corda di Canapa (15 metri)"
+          "name": "Corda di Canapa (15 m)",
+          "description": "<p>Una corda, che sia fatta di canapa o di seta, possiede 2 punti ferita e può essere spezzata con una prova di Forza con CD 17.</p>",
+          "activities": {
+            "dnd5eactivity000": {
+              "name": "Esplosione"
+            }
+          }
         },
         "OUSbKJnaQq6LNF4C": {
           "name": "Inchiostro (boccetta da 30 gr.)",
@@ -1138,11 +1260,11 @@
         },
         "x9m2Rw5mZbupgKPq": {
           "name": "Bastone Ferrato",
-          "description": "<p><em>Un fusto di legno avvolto da una robusta impugnatura rende un robusto bastone da passeggio un'arma altamente funzionale.</em></p><div title=\"Page 3\"><div><div><p><strong>Versatile</strong>. Quest&rsquo;arma può essere usata con una o due mani. Accanto alla proprietà appare un valore di danno tra parentesi: il danno che l&rsquo;arma infligge quando viene usata con due mani per effettuare un attacco da mischia.</p></div></div></div>"
+          "description": "<p>Una spessa asta di legno avvolta da una robusta impugnatura costituisce un'arma estremamente funzionale, oltre che un solido bastone da passeggio.</p>"
         },
         "97D9k533t6YnAoRY": {
           "name": "Globo",
-          "description": "<p>Questo talismano sferico funge da focus per da Incantatore, aiutando il praticante a canalizzare energie arcane, primarie o divine.</p>\n<p><strong>Focus da Incantatore.</strong>An arcane focus is a special item designed to channel the power of arcane spells. Un mago, uno stregone o un warlock può usare questo oggetto come focus da incantatore, usandolo al posto di qualsiasi componente materiale che non elenca un costo.</p>"
+          "description": "<p>Questo talismano sferico funge da focus da incantatore, aiutando chi lo usa a incanalare energie arcane, primordiali o divine.</p>\n<p><strong>Focus da Incantatore. </strong>Un focus arcano è un oggetto speciale progettato per incanalare il potere degli incantesimi arcani. Uno stregone, un warlock o un mago può usare un oggetto simile come focus da incantatore, al posto di qualsiasi componente materiale per cui non sia indicato un costo.</p>"
         },
         "qHQNgvJmuP9l3iPA": {
           "name": "Mani Brucianti",
@@ -1161,17 +1283,17 @@
         },
         "dr1Uc7vpDN3hYzrm": {
           "name": "Messaggio",
-          "description": "<p data-parsoid=\"{&quot;dsr&quot;:[0,31,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,31,2,2]}\">Trucchetto di Trasmutazione</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[32,65,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[32,65,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[34,57,3,3]}\">Tempo di lancio:&nbsp;</strong>1 azione</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[67,92,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[67,92,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[69,84,3,3]}\">Gittata:&nbsp;</strong>36 metri</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[94,155,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[94,155,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[96,114,3,3]}\">Componenti:&nbsp;</strong>V, S, M (un frammento di un filo di rame)</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[157,180,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[157,180,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[159,173,3,3]}\">Durata:&nbsp;</strong>1 round</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[181,396,0,0]}\">L'incantatore punta l'indice verso una creatura entro gittata e sussurra un messaggio, il bersaglio (e soltanto il bersaglio) sente il messaggio e può rispondere con un sussurro che soltanto l'incantatore può udire.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[398,546,0,0]}\">L'incantatore può lanciare questo incantesimo attraverso gli oggetti solidi, se ha familiarità con il bersaglio e sa che si trova oltre la barriera.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[548,680,0,0]}\">Il silenzio magico, 30 cm di pietra, 2,5 cm di metallo comune, una sottile lamina di piombo o 90 cm di legno bloccano l'incantesimo.</p>\n<p>&nbsp;</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[682,817,0,0]}\">l'incantesimo non deve necessariamente seguire una linea retta e può svilupparsi liberamente oltre gli angoli e attraverso le aperture.</p>",
+          "description": "<p>L'incantatore punta l'indice verso una creatura entro gittata e sussurra un messaggio, il bersaglio (e soltanto il bersaglio) sente il messaggio e può rispondere con un sussurro che soltanto l'incantatore può udire.</p><p>L'incantatore può lanciare questo incantesimo attraverso gli oggetti solidi, se ha familiarità con il bersaglio e sa che si trova oltre la barriera. Il silenzio magico, 30 cm di pietra, 2,5 cm di metallo comune, una sottile lamina di piombo o 90 cm di legno bloccano l'incantesimo. l'incantesimo non deve necessariamente seguire una linea retta e può svilupparsi liberamente oltre gli angoli e attraverso le aperture.</p>",
           "materials": "un frammento di un filo di rame"
         },
         "cGF1e2k1MrCAPui5": {
           "name": "Riparare",
-          "description": "<p data-parsoid=\"{&quot;dsr&quot;:[0,31,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,31,2,2]}\">Trucchetto di Trasmutazione</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[32,157,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[32,64,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[33,56,3,3]}\">Tempo di lancio:&nbsp;</strong>1 minuto</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[65,89,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[66,81,3,3]}\">Gittata:&nbsp;</strong>Contatto</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[90,131,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[91,109,3,3]}\">Componenti:&nbsp;</strong>V, S, M (due calamite)</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[132,157,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[133,147,3,3]}\">Durata:&nbsp;</strong>Istantanea</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[158,367,0,0]}\">Questo incantesimo ripara una singola crepa o uno squarcio in un oggetto toccato dall'incantatore, come l'anello spezzato di una catena, due met&agrave; di una chiave spezzata, un mantello strappato o un otre forato.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[369,519,0,0]}\">Fintanto che la crepa o lo squarcio non &egrave; pi&ugrave; grande di 30 cm in ogni dimensione, l'incantatore lo ripara senza lasciare traccia del danno precedente.</p>\n<p>&nbsp;</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[521,657,0,0]}\">Questo incantesimo pu&ograve; fisicamente riparare un oggetto magico o un costrutto, ma non pu&ograve; ripristinare la magia in un oggetto del genere.</p>",
+          "description": "<p>Questo incantesimo ripara una singola crepa o uno squarcio in un oggetto toccato dall'incantatore, come l'anello spezzato di una catena, due met&agrave; di una chiave spezzata, un mantello strappato o un otre forato. Fintanto che la crepa o lo squarcio non &egrave; pi&ugrave; grande di 30 cm in ogni dimensione, l'incantatore lo ripara senza lasciare traccia del danno precedente.</p><p>Questo incantesimo pu&ograve; fisicamente riparare un oggetto magico o un costrutto, ma non pu&ograve; ripristinare la magia in un oggetto del genere.</p>",
           "materials": "Due calamite"
         },
         "KkTW5WHbmwInMvyL": {
           "name": "Illusione Minore",
-          "description": "<p data-parsoid=\"{&quot;dsr&quot;:[0,27,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,27,2,2]}\">Trucchetto di Illusione</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[28,152,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[28,60,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[29,52,3,3]}\">Tempo di lancio:&nbsp;</strong>1 azione</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[61,84,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[62,77,3,3]}\">Gittata:&nbsp;</strong>9 metri</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[85,128,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[86,104,3,3]}\">Componenti:&nbsp;</strong>S, M (un ciuffo di lana)</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[129,152,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[130,144,3,3]}\">Durata:&nbsp;</strong>1 minuto</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[153,266,0,0]}\">L'incantatore crea un suono o un'immagine di un oggetto entro gittata che permane per la durata dell'incantesimo.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[268,379,0,0]}\">L'illusione termina anche se l'incantatore la interrompe con un'azione o se lancia questo incantesimo di nuovo.</p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[380,634,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[380,634,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[381,418,3,3]}\">Se l'incantatore crea un suono,</strong>&nbsp;il suo volume può variare da un sussurro a un urlo. Può trattarsi della voce dell'incantatore, della voce di qualcun altro, del ruggito di un leone, di un rullo di tamburi o di un qualsiasi altro suono a sua scelta.</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[635,802,0,0]}\">Il suono può echeggiare ininterrottamente per tutta la durata, oppure l'incantatore può emettere suoni più discreti in momenti diversi prima che l'incantesimo termini.</p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[803,1011,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[803,1011,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[804,856,3,3]}\">Se l'incantatore crea l'immagine di un oggetto</strong>&nbsp;(come per esempio una sedia, una serie di impronte nel fango o uno scrigno), quell'oggetto non deve essere più grande di un cubo con spigolo di 1,5 metri.</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[1012,1096,0,0]}\">L'immagine non può emettere suoni, luci, odori o qualsiasi altro effetto sensoriale.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1098,1211,0,0]}\">Un'interazione fisica con l'immagine rivela che si tratta di un'illusione, in quanto gli oggetti la attraversano.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1213,1440,0,0]}\">Se una creatura usa la sua azione per esaminare il suono o l'immagine, può determinare che si tratta di un'illusione se effettua con successo una prova di Intelligenza (Indagare) contro la CD del tiro salvezza dell'incantesimo.</p>\n<p>&nbsp;</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[1442,1537,0,0]}\">Se una creatura discerne l'illusione per ciò che è, l'illusione si attenua per quella creatura.</p>",
+          "description": "<p>L'incantatore crea un suono o l'immagine di un oggetto entro gittata che permane per la durata. L'illusione termina anche se l'incantatore la congeda con un'azione o lancia di nuovo questo incantesimo.</p><p>Se crea un suono, il volume può variare da un sussurro a un urlo. Può trattarsi della voce dell'incantatore, della voce di qualcun altro, del ruggito di un leone, di un rullo di tamburi o di qualsiasi altro suono a sua scelta. Il suono continua ininterrotto per tutta la durata, oppure l'incantatore può produrre suoni distinti in momenti diversi prima che l'incantesimo termini.</p><p>Se crea l'immagine di un oggetto, come una sedia, impronte fangose o un piccolo forziere, l'oggetto non può essere più grande di un cubo con spigolo di 1,5 metri. L'immagine non può produrre suoni, luci, odori o altri effetti sensoriali. Un'interazione fisica con l'immagine rivela che si tratta di un'illusione, poiché gli oggetti possono attraversarla.</p><p>Se una creatura usa la propria azione per esaminare il suono o l'immagine, può determinare che si tratta di un'illusione superando una prova di Intelligenza (Indagare) contro la CD del tiro salvezza dell'incantesimo dell'incantatore. Se una creatura discerne l'illusione per ciò che è, l'illusione diventa tenue per quella creatura.</p>",
           "materials": "un ciuffo di lana"
         }
       }
@@ -1191,10 +1313,13 @@
           }
         },
         "FtOM4QiOW5MwgcS3": {
-          "name": "Fortunato"
+          "name": "Fortunato",
+          "requirements": "Halfling"
         },
         "nmmihiqphHjoE8dl": {
-          "description": "<p>Hai vantaggio sui tiri salvezza contro l’essere spaventato.</p>"
+          "description": "<p>Hai vantaggio sui tiri salvezza contro l’essere spaventato.</p>",
+          "name": "Coraggioso",
+          "requirements": "Halfling"
         },
         "AArhiOrSkaQUnCZS": {
           "name": "Furtività Innata",
@@ -1258,6 +1383,18 @@
             },
             "0awj2yq115ev9u9o": {
               "title": "Tradizione Monastica"
+            },
+            "ofNSUhSHKhhDuPSR": {
+              "title": "Aumento dei Punteggi di Caratteristica"
+            },
+            "s3t9o57hP6iUHirr": {
+              "title": "Aumento dei Punteggi di Caratteristica"
+            },
+            "O24MWOKc1ImsKaml": {
+              "title": "Aumento dei Punteggi di Caratteristica"
+            },
+            "xdqWoLtgO3uyl3nJ": {
+              "title": "Aumento dei Punteggi di Caratteristica"
             }
           }
         },
@@ -1282,7 +1419,7 @@
         },
         "DDnxRCeYUhXstWU8": {
           "name": "Acciarino e Pietra Focaia",
-          "description": "<p>&nbsp;</p><div title=\"Page 148\"><div><div><p>Un piccolo contenitore usato per accendere il fuoco, che contiene acciarino, pietra focaia e materiale combustibile (solitamente stracci essiccati e bagnati d'olio).</p><p>Per accendere una torcia (o qualsiasi altra cosa che faccia uso di abbondante combustibile scoperto) usando acciarino e pietra focaia è richiesta un'azione. Per accendere un fuoco di qualsiasi altro tipo è richiesto 1 minuto.&nbsp;</p></div></div></div><p>&nbsp;</p>"
+          "description": "<p>Un piccolo contenitore usato per accendere il fuoco, che contiene acciarino, pietra focaia e materiale combustibile (solitamente stracci essiccati e bagnati d'olio). Per accendere una torcia (o qualsiasi altra cosa che faccia uso di abbondante combustibile scoperto) usando acciarino e pietra focaia è richiesta un'azione. Per accendere un fuoco di qualsiasi altro tipo è richiesto 1 minuto.</p>\n<p> </p>"
         },
         "5skKSSB4ShHbKoc8": {
           "name": "Otre",
@@ -1298,7 +1435,7 @@
         },
         "WeKJI3gPUAU52WAX": {
           "name": "Dardo",
-          "description": "<p>Un strumento composto da un piccola asta di legno e piume incrociate con una punta affilata di legno o metallo. Le freccette possono essere lanciate con forza sufficiente per forare la pelle.</p><div title=\"Page 3\"><div><div><p><strong>Da Lancio (gittata 9/36).</strong> Se un’arma ha la proprietà da lancio, puoi lanciarla per effettuare un attacco a distanza. Se l’arma è un’arma da mischia, usa lo stesso modificatore di caratteristica per il tiro per colpire e danno che useresti per un attacco da mischia con quell’arma. Ad esempio, se lanci un’accetta, usa la tua Forza, ma se lanci un pugnale, puoi usare la Forza o la Destrezza, dato che il pugnale ha la proprietà Precisione.</p><div title=\"Page 3\"><div><div><p><strong>Precisione</strong>. Quando attacchi con un’arma di precisione, usi a tua scelta il modificatore di Forza o Destrezza per i tiri per colpire e danno. Devi usare lo stesso modificatore per entrambi i tiri.</p></div></div></div></div></div></div>"
+          "description": "<p>Un piccolo oggetto da lancio, costruito con una corta asta di legno, piume incrociate e una punta affilata di legno o metallo. I dardi possono essere scagliati con forza sufficiente a perforare la pelle.</p>"
         },
         "1F73YcUHbZMgePAD": {
           "name": "Abito, Comune",
@@ -1317,7 +1454,8 @@
           "description": "<p>L'utilizzo di un piede di porco conferisce vantaggio alle prove di Forza in cui è possibile usare il piede di porco per fare leva.</p>"
         },
         "g7U3OAXVcoI4lwzf": {
-          "name": "Colpo Senz'Armi"
+          "name": "Colpo Senz'Armi",
+          "description": "<p>Un pugno, un calcio, una testata o un altro colpo violento simile (nessuno dei quali conta come arma). Se colpisce, un colpo senz'armi infligge danni contundenti pari a 1 + il tuo modificatore di Forza. Sei competente nei tuoi colpi senz'armi.</p>"
         },
         "WcROGD590imVj9qp": {
           "name": "Zaino",
@@ -1328,11 +1466,17 @@
           "description": "<p>Un picco di metallo usatp per l'arrampicata.</p>"
         },
         "irCoxLHje0eA6Qmu": {
-          "name": "Corda di Canapa (15 metri)"
+          "name": "Corda di Canapa (15 m)",
+          "description": "<p>Una corda, che sia fatta di canapa o di seta, possiede 2 punti ferita e può essere spezzata con una prova di Forza con CD 17.</p>",
+          "activities": {
+            "dnd5eactivity000": {
+              "name": "Esplosione"
+            }
+          }
         },
         "GfKuJYLFfw00oW9R": {
           "name": "Reliquario",
-          "description": "<p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Una piccola scatola o un altro contenitore che contiene un frammento di una preziosa reliquia, un santo o un'altra figura storica che ha dedicato la propria vita a percorrere il cammino di un vero credente. Una divinità fornisce al portatore di questo manufatto la capacità di invocare il suo potere e, nel farlo, diffondere ancora di più la fede.</p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><span style=\"box-sizing: border-box; user-select: text;\"><strong style=\"box-sizing: border-box; user-select: text; margin-top: 0px;\">Focus da Incantatore</strong><span style=\"box-sizing: border-box; user-select: text;\">. Un chierico o un paladino può usare un simbolo sacro come focus da incantatore</span>. Per usare il simbolo in questo modo, l'incantatore deve tenerlo in mano, indossarlo visibilmente o portarlo su uno scudo.</span></p>"
+          "description": "<p>Una piccola scatola o un altro contenitore che contiene un frammento di una preziosa reliquia, un santo o un'altra figura storica che ha dedicato la propria vita a percorrere il cammino di un vero credente. Una divinità fornisce al portatore di questo manufatto la capacità di invocare il suo potere e, nel farlo, diffondere ancora di più la fede.</p><p><strong>Focus da Incantatore</strong>. Un chierico o un paladino può usare un simbolo sacro come focus da incantatore. Per usare il simbolo in questo modo, l'incantatore deve tenerlo in mano, indossarlo visibilmente o portarlo su uno scudo.</p>"
         },
         "NsNcJBUG5ajbk7sG": {
           "name": "Veste Sacra",
@@ -1345,6 +1489,11 @@
         "GYyovoNdU66nxOlX": {
           "name": "Spada Corta",
           "description": "<p>Una lama di medie dimensioni con una robusta elsa e un manico rivestito in pelle. Un'arma versatile che compensa in versatilità ciò che le manca in gittata.</p>"
+        },
+        "cWrETHzCRs1Ueqd3": {
+          "name": "Agilità halfling",
+          "description": "<p>Puoi muoverti attraverso lo spazio di qualsiasi creatura di taglia superiore alla tua.</p>",
+          "requirements": "Halfling"
         }
       }
     },
@@ -1372,11 +1521,13 @@
           }
         },
         "ANwFFbqeIEm4eVPq": {
-          "requirements": "Elfo, Mezzelfo"
+          "requirements": "Elfo, Mezzelfo",
+          "name": "Retaggio fatato"
         },
         "474ipDv33anADoyN": {
           "description": "<p>Gli elfi non hanno bisogno di dormire. Meditano invece profondamente, restando semicoscienti, per 4 ore al giorno. (In Comune, questa meditazione si chiama \"trance\".) Durante la meditazione possono sognare in un certo senso: questi sogni sono esercizi mentali divenuti riflessi dopo anni di pratica. Dopo aver riposato in questo modo, ottieni gli stessi benefici che un umano riceve da 8 ore di sonno.</p>",
-          "requirements": "Elfo"
+          "requirements": "Elfo",
+          "name": "Trance"
         },
         "Fqh00slzQuYGC27H": {
           "description": "<p>Come ranger, ottieni i seguenti privilegi di classe.</p><h3>Punti Ferita</h3><p><strong>Dadi Vita:</strong> 1d10 per livello da ranger<br /><strong>Punti Ferita al 1° Livello:</strong> 10 + il tuo modificatore di Costituzione<br /><strong>Punti Ferita ai Livelli Superiori:</strong> 1d10 (o 6) + il tuo modificatore di Costituzione per ogni livello da ranger dopo il 1°</p><h3>Competenze</h3><p><strong>Armature:</strong> Armature leggere, armature medie, scudi<br /><strong>Armi:</strong> Armi semplici, armi da guerra<br /><strong>Strumenti:</strong> Nessuno<br /><strong>Tiri Salvezza:</strong> Forza, Destrezza<br /><strong>Abilità:</strong> Scegline tre tra Addestrare Animali, Atletica, Intuizione, Indagare, Natura, Percezione, Furtività e Sopravvivenza</p><h1>Avanzamento del Ranger</h1><table><thead><tr><td>Livello</td><td>Bonus di Competenza</td><td>Privilegi</td></tr></thead><tbody><tr><td>1°</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.4Vpj9vCOB37GtXk6]{Nemico Prescelto}, @UUID[Compendium.dnd5e.classfeatures.Item.8fbZt2Qh7ZttwIan]{Esploratore Nato}</td></tr><tr><td>2°</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.nJA3ISVmyj3uPRVM]{Stile di Combattimento}, @UUID[Compendium.dnd5e.classfeatures.Item.u6xV3Ki3TXRrD7zg]{Incantesimi}</td></tr><tr><td>3°</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.1dJHU48yNqn3lcfx]{Archetipo del Ranger}, @UUID[Compendium.dnd5e.classfeatures.Item.kaHcUGiwi8AtfZIm]{Consapevolezza Primordiale}</td></tr><tr><td>4°</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Aumento dei Punteggi di Caratteristica}</td></tr><tr><td>5°</td><td>+3</td><td>Slot Incantesimo di 2° Livello, @UUID[Compendium.dnd5e.classfeatures.Item.XogoBnFWmCAHXppo]{Attacco Extra}</td></tr><tr><td>6°</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.4Vpj9vCOB37GtXk6]{Nemico Prescelto +1}, @UUID[Compendium.dnd5e.classfeatures.Item.8fbZt2Qh7ZttwIan]{Miglioramenti di Esploratore Nato}</td></tr><tr><td>7°</td><td>+3</td><td>Privilegio dell'Archetipo del Ranger</td></tr><tr><td>8°</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Aumento dei Punteggi di Caratteristica}, @UUID[Compendium.dnd5e.classfeatures.Item.C5fzaOBc6HxyOWRn]{Passo sul Territorio}</td></tr><tr><td>9°</td><td>+4</td><td>Slot Incantesimo di 3° Livello</td></tr><tr><td>10°</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.8fbZt2Qh7ZttwIan]{Miglioramento di Esploratore Nato}, @UUID[Compendium.dnd5e.classfeatures.Item.r0unvWK0lPsDthDx]{Nascondersi in Piena Vista}</td></tr><tr><td>11°</td><td>+4</td><td>Privilegio dell'Archetipo del Ranger</td></tr><tr><td>12°</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Aumento dei Punteggi di Caratteristica}</td></tr><tr><td>13°</td><td>+5</td><td>Slot Incantesimo di 4° Livello</td></tr><tr><td>14°</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.4Vpj9vCOB37GtXk6]{Nemico Prescelto +1}, @UUID[Compendium.dnd5e.classfeatures.Item.DhU2dWCNnX78TstR]{Svanire}</td></tr><tr><td>15°</td><td>+5</td><td>Privilegio dell'Archetipo del Ranger</td></tr><tr><td>16°</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Aumento dei Punteggi di Caratteristica}</td></tr><tr><td>17°</td><td>+6</td><td>Slot Incantesimo di 5° Livello</td></tr><tr><td>18°</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.QBVmY56RMQuh6C8h]{Sensi Ferini}</td></tr><tr><td>19°</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Aumento dei Punteggi di Caratteristica}</td></tr><tr><td>20°</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.3CaP1vFHVR8LgHjx]{Sterminatore di Nemici}</td></tr></tbody></table><h1>Archetipi del Ranger</h1><p>Il Cacciatore è un'espressione classica dell'ideale del ranger.</p><p>@UUID[Compendium.dnd5e.subclasses.Item.uqd2q6WjVfcsaaGb]{Cacciatore}</p>",
@@ -1417,8 +1568,24 @@
             },
             "FYvhuTSScSJTfYBM": {
               "title": "Incantesimi Conosciuti"
+            },
+            "bWqpb3Malvjjk8a6": {
+              "title": "Aumento dei Punteggi di Caratteristica"
+            },
+            "Dr4RKCdMxlKWoHHV": {
+              "title": "Aumento dei Punteggi di Caratteristica"
+            },
+            "zDIECkwBeV96xABF": {
+              "title": "Aumento dei Punteggi di Caratteristica"
+            },
+            "5VCLK1OCRzEZxMy3": {
+              "title": "Aumento dei Punteggi di Caratteristica"
+            },
+            "gb53865sgbtx8xr2": {
+              "title": "Archetipo del Ranger"
             }
-          }
+          },
+          "name": "Ranger"
         },
         "rhBykvSHTUxMYa6r": {
           "name": "Nemico Prescelto",
@@ -1432,7 +1599,7 @@
         },
         "bepau0IMDduTaWso": {
           "name": "Acciarino e Pietra Focaia",
-          "description": "<p>&nbsp;</p><div title=\"Page 148\"><div><div><p>Un piccolo contenitore usato per accendere il fuoco, che contiene acciarino, pietra focaia e materiale combustibile (solitamente stracci essiccati e bagnati d'olio).</p><p>Per accendere una torcia (o qualsiasi altra cosa che faccia uso di abbondante combustibile scoperto) usando acciarino e pietra focaia è richiesta un'azione. Per accendere un fuoco di qualsiasi altro tipo è richiesto 1 minuto.&nbsp;</p></div></div></div><p>&nbsp;</p>"
+          "description": "<p>Un piccolo contenitore usato per accendere il fuoco, che contiene acciarino, pietra focaia e materiale combustibile (solitamente stracci essiccati e bagnati d'olio). Per accendere una torcia (o qualsiasi altra cosa che faccia uso di abbondante combustibile scoperto) usando acciarino e pietra focaia è richiesta un'azione. Per accendere un fuoco di qualsiasi altro tipo è richiesto 1 minuto.</p>\n<p> </p>"
         },
         "7BxO9VNvgGsoNAlA": {
           "name": "Otre",
@@ -1463,7 +1630,13 @@
           "description": "<p>Uno zaino può contenere 0,03 metri cubi/15 chili&nbsp;di attrezzatura. Puoi anche allacciare oggetti, come un lenzuolo o una bobina di corda, all'esterno di uno zaino.</p>"
         },
         "yV1Azp4RmVg38nuD": {
-          "name": "Corda di Canapa (15 metri)"
+          "name": "Corda di Canapa (15 m)",
+          "description": "<p>Una corda, che sia fatta di canapa o di seta, possiede 2 punti ferita e può essere spezzata con una prova di Forza con CD 17.</p>",
+          "activities": {
+            "dnd5eactivity000": {
+              "name": "Esplosione"
+            }
+          }
         },
         "ptmMOlC1oMBw8dQ2": {
           "name": "Kit da Pranzo",
@@ -1479,7 +1652,11 @@
         },
         "A3OE0kR3uxAhNjTz": {
           "name": "Prestidigitazione",
-          "description": "<p data-parsoid=\"{&quot;dsr&quot;:[0,31,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,31,2,2]}\">Trucchetto di Trasmutazione</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[32,139,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[32,64,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[33,54,3,3]}\">Tempo di lancio</strong>:&nbsp;1 azione</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[65,87,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[66,78,3,3]}\">Raggio</strong>:&nbsp;3 metri</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[88,111,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[89,105,3,3]}\">Componenti</strong>:&nbsp;V, S</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[112,139,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[113,125,3,3]}\">Durata</strong>: Fino a 1 ora</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[140,296,0,0]}\">Questo incantesimo è un trucco magico che gli incantatori novizi usano per fare pratica. L'incantatore crea uno degli effetti magici seguenti entro gittata:</p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[297,962,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[297,445,1,0]}\">Crea un effetto sensoriale innocuo e istantaneo, come una pioggia di scintille, una folata di vento, una tenue melodia musicale o uno strano odore.</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[446,532,1,0]}\">Accende o spegne istantaneamente una candela, una torcia o un piccolo fuoco da campo.</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[533,625,1,0]}\">Pulisce o sporca istantaneamente un oggetto non più grande di un cubo con spigolo di 30 cm.</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[626,740,1,0]}\">Riscalda, raffredda o condisce materiale non vivente del volume massimo di un cubo di spigolo di 30 cm per 1 ora.</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[741,837,1,0]}\">Fa comparire un colore, un piccolo segno o un simbolo su un oggetto o una superficie per 1 ora.</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[838,962,1,0]}\">Crea un ninnolo non magico o un'immagine illusoria che può stare nella sua mano e che permane fino alla fine del suo turno.</li>\n</ul>\n<p>&nbsp;</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[963,1151,0,0]}\">Se l'incantatore lancia questo incantesimo più volte può tenere attivi fino a tre dei suoi effetti non istantanei contemporaneamente, e può congedare ognuno di questi effetti con un'azione.</p>"
+          "description": "<p>Questo incantesimo è un trucco magico che gli incantatori novizi usano per fare pratica. L'incantatore crea uno degli effetti magici seguenti entro gittata:</p>\n<ul>\n<li>Crea un effetto sensoriale innocuo e istantaneo, come una pioggia di scintille, una folata di vento, una tenue melodia musicale o uno strano odore.</li>\n<li>Accende o spegne istantaneamente una candela, una torcia o un piccolo fuoco da campo.</li>\n<li>Pulisce o sporca istantaneamente un oggetto non più grande di un cubo con spigolo di 30 cm.</li>\n<li>Riscalda, raffredda o condisce materiale non vivente del volume massimo di un cubo di spigolo di 30 cm per 1 ora.</li>\n<li>Fa comparire un colore, un piccolo segno o un simbolo su un oggetto o una superficie per 1 ora.</li>\n<li>Crea un ninnolo non magico o un'immagine illusoria che può stare nella sua mano e che permane fino alla fine del suo turno.</li>\n</ul>\n\n<p>Se l'incantatore lancia questo incantesimo più volte può tenere attivi fino a tre dei suoi effetti non istantanei contemporaneamente, e può congedare ognuno di questi effetti con un'azione.</p>"
+        },
+        "G0JTk8XzOAcYnBFE": {
+          "name": "Freccia",
+          "description": "<p>Munizione standard usata con archi di ogni tipo. Queste normali frecce sono composte da aste lisce di legno, impennaggio di piume d'oca e punte metalliche martellate.</p>"
         }
       }
     },
@@ -1533,6 +1710,18 @@
             },
             "aqampk2fc5jk5jqh": {
               "title": "Archetipo Marziale"
+            },
+            "rvfuW71lYEeJW7HS": {
+              "title": "Aumento dei Punteggi di Caratteristica"
+            },
+            "g49SXigwmpaZW0Hm": {
+              "title": "Aumento dei Punteggi di Caratteristica"
+            },
+            "gXVE2mfohi6iErff": {
+              "title": "Aumento dei Punteggi di Caratteristica"
+            },
+            "GdBOLIPXmNSWRSmO": {
+              "title": "Aumento dei Punteggi di Caratteristica"
             }
           }
         },
@@ -1558,7 +1747,7 @@
         },
         "gta26ORvqC323k3r": {
           "name": "Spada Lunga",
-          "description": "<p>Una lunga lama dritta progettata per tagliare i nemici, la spada lunga è un'arma altamente versatile che può anche essere impugnata con due mani per colpi più punitivi.</p><div title=\"Page 3\"><div><div><p><strong>Versatile</strong>. Quest’arma può essere usata con una o due mani. Accanto alla proprietà appare un valore di danno tra parentesi: il danno che l’arma infligge quando viene usata con due mani per effettuare un attacco da mischia.</p></div></div></div>"
+          "description": "<p>Una lunga lama diritta progettata per fendere i nemici, la spada lunga è un'arma estremamente versatile che può anche essere impugnata a due mani per sferrare colpi più devastanti.</p>"
         },
         "7Wo9Qcdhwbyq9bsq": {
           "name": "Martello",
@@ -1566,7 +1755,7 @@
         },
         "ARtFVyx8fqe5XvpN": {
           "name": "Acciarino e Pietra Focaia",
-          "description": "<p>&nbsp;</p><div title=\"Page 148\"><div><div><p>Un piccolo contenitore usato per accendere il fuoco, che contiene acciarino, pietra focaia e materiale combustibile (solitamente stracci essiccati e bagnati d'olio).</p><p>Per accendere una torcia (o qualsiasi altra cosa che faccia uso di abbondante combustibile scoperto) usando acciarino e pietra focaia è richiesta un'azione. Per accendere un fuoco di qualsiasi altro tipo è richiesto 1 minuto.&nbsp;</p></div></div></div><p>&nbsp;</p>"
+          "description": "<p>Un piccolo contenitore usato per accendere il fuoco, che contiene acciarino, pietra focaia e materiale combustibile (solitamente stracci essiccati e bagnati d'olio). Per accendere una torcia (o qualsiasi altra cosa che faccia uso di abbondante combustibile scoperto) usando acciarino e pietra focaia è richiesta un'azione. Per accendere un fuoco di qualsiasi altro tipo è richiesto 1 minuto.</p>\n<p> </p>"
         },
         "4c3saZuHGHXb8Qlg": {
           "name": "Otre",
@@ -1609,7 +1798,13 @@
           "description": "<p>Un picco di metallo usatp per l'arrampicata.</p>"
         },
         "UVMJHgIbTxTR0HcP": {
-          "name": "Corda di Canapa (15 metri)"
+          "name": "Corda di Canapa (15 m)",
+          "description": "<p>Una corda, che sia fatta di canapa o di seta, possiede 2 punti ferita e può essere spezzata con una prova di Forza con CD 17.</p>",
+          "activities": {
+            "dnd5eactivity000": {
+              "name": "Esplosione"
+            }
+          }
         },
         "VTK7cdWAzOYl9fon": {
           "name": "Kit da Pranzo",
@@ -1621,7 +1816,7 @@
         },
         "rEwBQ75m41HeBYOs": {
           "name": "Ascia",
-          "description": "<p>Questa ascia con una mano è leggera ed equilibrata per il lancio ed utile anche nel combattimento in mischia.</p><div class=\"page\" title=\"Page 147\"><div class=\"layoutArea\"><div class=\"column\"><p><strong>Lancio</strong><span style=\"font-size: 9.000000pt; font-family: 'Arial'; font-weight: bold; font-style: italic;\">. </span>Se un'arma possiede la proprietà da lancio, il personaggio può lanciarla per effettuare un attacco a distanza. Se l'arma è un'arma da mischia, il personaggio applica al tiro per colpire e al tiro per i danni lo stesso modificatore di caratteristica che userebbe per un attacco in mischia effettuato con quell'arma. Per esempio, se lancia un'ascia, usa la sua Forza, ma se lancia un pugnale può usare la sua Forza o la sua Destrezza, dal momento che il pugnale possiede la proprietà accurata.</p><p><strong>Leggera</strong>. Un'arma leggera è piccola e facile da maneggiare, cosa che ne fa un'arma ideale da usare per combattere con due armi. Vedi le regole relative a combattere con due armi nel capitolo 9.</p></div></div></div>"
+          "description": "<p>Quest'ascia a una mano è leggera e bilanciata per il lancio, pur rimanendo efficace nel combattimento in mischia.</p>"
         },
         "yz7DxhEVWUzdQKm7": {
           "name": "Cotta di Maglia",
@@ -1630,6 +1825,10 @@
         "u69KONMFqydKuk1H": {
           "name": "Scudo",
           "description": "<p>Uno scudo è realizzato in legno o metallo ed è portato in una mano. Il possesso di uno scudo aumenta la tua Classe di armatura di 2. Puoi beneficiare di un solo scudo alla volta.</p>"
+        },
+        "1TqythtyZfsOOGeJ": {
+          "name": "Freccia",
+          "description": "<p>Munizione standard usata con archi di ogni tipo. Queste normali frecce sono composte da aste lisce di legno, impennaggio di piume d'oca e punte metalliche martellate.</p>"
         }
       }
     },
@@ -1649,7 +1848,8 @@
         },
         "0NoJXoWjNGa10THB": {
           "description": "<p>Hai vantaggio ai tiri salvezza contro il veleno e resistenza ai danni da veleno.</p>",
-          "requirements": "Nano"
+          "requirements": "Nano",
+          "name": "Resilienza nanica"
         },
         "TaFYgu6nyZIXcUN3": {
           "name": "Esperto minatore",
@@ -1701,12 +1901,31 @@
             },
             "n0yoxbkyz32yd942": {
               "title": "Archetipo Ladresco"
+            },
+            "TDHYngxGqDHllgzw": {
+              "title": "Maestria"
+            },
+            "Iozyk39gsM4Kecex": {
+              "title": "Maestria"
+            },
+            "smghqQkObY4OOg30": {
+              "title": "Aumento dei Punteggi di Caratteristica"
+            },
+            "WFAAUfKJA9QR46Bw": {
+              "title": "Aumento dei Punteggi di Caratteristica"
+            },
+            "ahuQ3gMqz6sCza0m": {
+              "title": "Aumento dei Punteggi di Caratteristica"
+            },
+            "iVq9vmwTow7KielM": {
+              "title": "Aumento dei Punteggi di Caratteristica"
             }
           }
         },
         "HV4tjQ4I0YwofteT": {
           "description": "<p>Al 1&deg; livello, un ladro sceglie due tra le sue competenze nelle abilit&agrave;, oppure una sua competenza in una abilit&agrave; e la competenza negli arnesi da scasso. Il suo bonus di competenza raddoppia per ogni prova di caratteristica effettuata usando una delle competenze scelte.</p><p>Al 6&deg; livello, il ladro sceglie altre due tra le sue competenze (nelle abilit&agrave; o negli arnesi da scasso) che ottengono questo beneficio.</p>",
-          "requirements": "Ladro 1"
+          "requirements": "Ladro 1",
+          "name": "Maestria (Ladro)"
         },
         "Hn3bI5L2gaHMLNb3": {
           "name": "Attacco Furtivo",
@@ -1728,7 +1947,7 @@
         },
         "t6h7cvBg8HdaCSef": {
           "name": "Acciarino e Pietra Focaia",
-          "description": "<p>&nbsp;</p><div title=\"Page 148\"><div><div><p>Un piccolo contenitore usato per accendere il fuoco, che contiene acciarino, pietra focaia e materiale combustibile (solitamente stracci essiccati e bagnati d'olio).</p><p>Per accendere una torcia (o qualsiasi altra cosa che faccia uso di abbondante combustibile scoperto) usando acciarino e pietra focaia è richiesta un'azione. Per accendere un fuoco di qualsiasi altro tipo è richiesto 1 minuto.&nbsp;</p></div></div></div><p>&nbsp;</p>"
+          "description": "<p>Un piccolo contenitore usato per accendere il fuoco, che contiene acciarino, pietra focaia e materiale combustibile (solitamente stracci essiccati e bagnati d'olio). Per accendere una torcia (o qualsiasi altra cosa che faccia uso di abbondante combustibile scoperto) usando acciarino e pietra focaia è richiesta un'azione. Per accendere un fuoco di qualsiasi altro tipo è richiesto 1 minuto.</p>\n<p> </p>"
         },
         "w7eDAc3dWCR4irTc": {
           "name": "Otre",
@@ -1764,7 +1983,7 @@
         },
         "df7IpmSKg7P9gt9J": {
           "name": "Arco Corto",
-          "description": "<p>Questo arco a due mani è un pò più piccolo della variante tradizionale, rendendolo adatto per attacchi rapidi mentre si è in movimento o montato a cavallo.</p><div title=\"Page 3\"><div><div><p><strong>A Due Mani</strong>. Quest’arma richiede l’uso di due mani per attaccare, ma non per reggerla.</p></div></div></div><div class=\"page\" title=\"Page 3\"><div class=\"layoutArea\"><div class=\"column\"><p><strong>Munizioni</strong>. Puoi usare un’arma che ha la proprietà munizioni per effettuare un attacco a distanza solo se hai le munizioni da impiegare con quell’arma. Ogni volta che attacchi con quell’arma, spendi una munizione. Estrarre le munizioni dalla faretra, scatola o altro contenitore fa parte dell’attacco. Al termine della battaglia, puoi recuperare metà delle munizioni spese, impiegando un minuto a cercare sul campo di battaglia. Ricaricare un’arma a una mano richiede una mano libera.<span style=\"font-size: 9.000000pt; font-family: 'Arial';\"><br></span></p></div></div></div>"
+          "description": "<p>Questo arco a due mani è leggermente più piccolo del tradizionale arco lungo, caratteristica che lo rende adatto agli attacchi rapidi mentre ci si muove o si cavalca.</p>"
         },
         "rF8gwzNSeMCBNCzG": {
           "name": "Zaino",
@@ -1775,11 +1994,17 @@
           "description": "<p>Un picco di metallo usatp per l'arrampicata.</p>"
         },
         "V4sidnhoWmGe9ZPi": {
-          "name": "Corda di Canapa (15 metri)"
+          "name": "Corda di Canapa (15 m)",
+          "description": "<p>Una corda, che sia fatta di canapa o di seta, possiede 2 punti ferita e può essere spezzata con una prova di Forza con CD 17.</p>",
+          "activities": {
+            "dnd5eactivity000": {
+              "name": "Esplosione"
+            }
+          }
         },
         "HhZKGBhG6S7og4i0": {
           "name": "Stocco",
-          "description": "<p>Una sottile lama in metallo a trazione, leggera ma di lunga portata progettata per attacchi rapidi per colpire punti deboli nelle difese nemiche con rapidità fulminea.</p><div title=\"Page 146\"><div><div><p><strong>Accurata</strong>. Quando un personaggio effettua un attacco con un'arma accurata, può scegliere se usare il modificatore di Forza o di Destrezza per il tiro per colpire e il tiro per i danni. Deve usare lo stesso modificatore per entrambi i tiri.&nbsp;</p></div></div></div><p>&nbsp;</p>"
+          "description": "<p>Una sottile lama metallica resistente alla trazione, leggera ma dalla notevole lunghezza, progettata per sferrare rapidi affondi e colpire con fulminea velocità i punti deboli delle difese nemiche.</p>"
         },
         "NQd6oHPeFT7ZYL85": {
           "name": "Kit da Pranzo",
@@ -1792,6 +2017,10 @@
         "FLSNmB3LnQqys43M": {
           "name": "Arnesi da Scasso",
           "description": "<p>Questo set di arnesi include una piccola lima, una serie di passepartout, uno specchietto montato su una maniglia di metallo, un paio di forbicine e un paio di pinze. La competenza in questo oggetto consente a un personaggio di aggiungere il proprio bonus di competenza a ogni prova di caratteristica effettuata per disattivare trappole o scassinare serrature.</p>"
+        },
+        "yLUvPaR9SEEQMeJ2": {
+          "name": "Freccia",
+          "description": "<p>Munizione standard usata con archi di ogni tipo. Queste normali frecce sono composte da aste lisce di legno, impennaggio di piume d'oca e punte metalliche martellate.</p>"
         }
       }
     },
@@ -1810,7 +2039,8 @@
           }
         },
         "Tdogp6mS8Fnea1Th": {
-          "requirements": "Elfo, Mezzelfo"
+          "requirements": "Elfo, Mezzelfo",
+          "name": "Retaggio fatato"
         },
         "C9WQGiLT2XDJCjeS": {
           "description": "<p>Come warlock, ottieni i seguenti privilegi di classe.</p><h3>Punti Ferita</h3><p><strong>Dadi Vita:</strong> 1d8 per livello da warlock<br /><strong>Punti Ferita al 1° Livello:</strong> 8 + il tuo modificatore di Costituzione<br /><strong>Punti Ferita ai Livelli Superiori:</strong> 1d8 (o 5) + il tuo modificatore di Costituzione per ogni livello da warlock dopo il 1°</p><h3>Competenze</h3><p><strong>Armature:</strong> Armature leggere<br /><strong>Armi:</strong> Armi semplici<br /><strong>Strumenti:</strong> Nessuno<br /><strong>Tiri Salvezza:</strong> Saggezza, Carisma<br /><strong>Abilità:</strong> Scegline due tra Arcano, Inganno, Storia, Intimidire, Indagare, Natura e Religione</p><h1>Avanzamento del Warlock</h1><table border=\"0\"><thead><tr><td>Livello</td><td>Bonus di Competenza</td><td>Privilegi</td><td>Suppliche Conosciute</td></tr></thead><tbody><tr><td>1°</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.jTXHaK0vvT5DV3uO]{Patrono Ultraterreno}, @UUID[Compendium.dnd5e.classfeatures.Item.x6IJZwr6f0SGral7]{Magia del Patto}</td><td>̶</td></tr><tr><td>2°</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.8MlxM2nEfE3Q0EVk]{Suppliche Occulte}</td><td>2</td></tr><tr><td>3°</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.QwgfIpCN8VWfoUtX]{Dono del Patto}</td><td>2</td></tr><tr><td>4°</td><td>+2</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Aumento dei Punteggi di Caratteristica}</td><td>2</td></tr><tr><td>5°</td><td>+3</td><td>Incantesimi di 3° Livello, +1 Supplica</td><td>3</td></tr><tr><td>6°</td><td>+3</td><td>Privilegio del Patrono Ultraterreno</td><td>3</td></tr><tr><td>7°</td><td>+3</td><td>Incantesimi di 4° Livello, +1 Supplica</td><td>4</td></tr><tr><td>8°</td><td>+3</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Aumento dei Punteggi di Caratteristica}</td><td>4</td></tr><tr><td>9°</td><td>+4</td><td>Incantesimi di 5° Livello, +1 Supplica</td><td>5</td></tr><tr><td>10°</td><td>+4</td><td>Privilegio del Patrono Ultraterreno</td><td>5</td></tr><tr><td>11°</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.zB77V8BcCJvWVxck]{Arcanum Mistico (Incantesimo di 6° Livello)}</td><td>5</td></tr><tr><td>12°</td><td>+4</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Aumento dei Punteggi di Caratteristica}, +1 Supplica</td><td>6</td></tr><tr><td>13°</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.zB77V8BcCJvWVxck]{Arcanum Mistico (Incantesimo di 7° Livello)}</td><td>6</td></tr><tr><td>14°</td><td>+5</td><td>Privilegio del Patrono Ultraterreno</td><td>6</td></tr><tr><td>15°</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.zB77V8BcCJvWVxck]{Arcanum Mistico (Incantesimo di 8° Livello)}, +1 Supplica</td><td>7</td></tr><tr><td>16°</td><td>+5</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Aumento dei Punteggi di Caratteristica}</td><td>7</td></tr><tr><td>17°</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.zB77V8BcCJvWVxck]{Arcanum Mistico (Incantesimo di 9° Livello)}</td><td>7</td></tr><tr><td>18°</td><td>+6</td><td>+1 Supplica</td><td>8</td></tr><tr><td>19°</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.s0Cc2zcX0JzIgam5]{Aumento dei Punteggi di Caratteristica}</td><td>8</td></tr><tr><td>20°</td><td>+6</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.0C04rwyvoknvFYiy]{Maestro dell'Occulto}</td><td>8</td></tr></tbody></table><div class=\"sidebar-block\"><h4>Il Tuo Dono del Patto</h4><p>Ogni opzione del Dono del Patto produce una creatura speciale o un oggetto che riflette la natura del tuo patrono.</p><p><em><strong>Patto della Catena. </strong></em>Il tuo famiglio è più astuto di un famiglio comune. La sua forma predefinita può riflettere il tuo patrono, con imp e quasit legati all'Immondo.</p><p><em><strong>Patto della Lama. </strong></em>Se servi l'Immondo, la tua arma potrebbe essere un'ascia di metallo nero ornata da fiamme decorative.</p><p><em><strong>Patto del Tomo. </strong></em>Il tuo Libro delle Ombre potrebbe essere un pesante volume rilegato in pelle di demone e borchiato di ferro, contenente incantesimi di evocazione e una grande quantità di conoscenze proibite sulle regioni sinistre del cosmo, un dono dell'Immondo.</p></div><h1>Patroni Ultraterreni</h1><p>Gli esseri che fungono da patroni dei warlock sono potenti abitanti di altri piani di esistenza: non dei, ma esseri dal potere quasi divino. Patroni diversi concedono ai loro warlock accesso a poteri e suppliche differenti e, in cambio, si aspettano favori importanti.</p><p>Alcuni patroni collezionano warlock, elargendo conoscenze mistiche con relativa libertà o vantandosi della propria capacità di vincolare i mortali alla loro volontà. Altri concedono il proprio potere solo con riluttanza e potrebbero stringere un patto con un unico warlock. I warlock al servizio dello stesso patrono possono considerarsi alleati, fratelli o rivali.</p><p>@UUID[Compendium.dnd5e.subclasses.Item.WPFVBg589uI8iOMH]{L'Immondo}</p>",
@@ -1864,8 +2094,21 @@
             },
             "vibumq2vxjl9tmk4": {
               "title": "Patrono Ultraterreno"
+            },
+            "9tW2ZcVYgy8c3ucN": {
+              "title": "Aumento dei Punteggi di Caratteristica"
+            },
+            "QH0eaxybQeeDjRan": {
+              "title": "Aumento dei Punteggi di Caratteristica"
+            },
+            "Gz5OR2HizUVLjnrv": {
+              "title": "Aumento dei Punteggi di Caratteristica"
+            },
+            "lx0PINdjgWtIMbQU": {
+              "title": "Aumento dei Punteggi di Caratteristica"
             }
-          }
+          },
+          "name": "Warlock"
         },
         "HNkO4u8EYXCrOWii": {
           "name": "Patrono Ultraterreno",
@@ -1911,7 +2154,7 @@
         },
         "DMZ8rrm0Fk6Vvohm": {
           "name": "Acciarino e Pietra Focaia",
-          "description": "<p>&nbsp;</p><div title=\"Page 148\"><div><div><p>Un piccolo contenitore usato per accendere il fuoco, che contiene acciarino, pietra focaia e materiale combustibile (solitamente stracci essiccati e bagnati d'olio).</p><p>Per accendere una torcia (o qualsiasi altra cosa che faccia uso di abbondante combustibile scoperto) usando acciarino e pietra focaia è richiesta un'azione. Per accendere un fuoco di qualsiasi altro tipo è richiesto 1 minuto.&nbsp;</p></div></div></div><p>&nbsp;</p>"
+          "description": "<p>Un piccolo contenitore usato per accendere il fuoco, che contiene acciarino, pietra focaia e materiale combustibile (solitamente stracci essiccati e bagnati d'olio). Per accendere una torcia (o qualsiasi altra cosa che faccia uso di abbondante combustibile scoperto) usando acciarino e pietra focaia è richiesta un'azione. Per accendere un fuoco di qualsiasi altro tipo è richiesto 1 minuto.</p>\n<p> </p>"
         },
         "1WoJ4E2N3rkDLOxr": {
           "name": "Otre",
@@ -1950,7 +2193,13 @@
           "description": "<p>Uno zaino può contenere 0,03 metri cubi/15 chili&nbsp;di attrezzatura. Puoi anche allacciare oggetti, come un lenzuolo o una bobina di corda, all'esterno di uno zaino.</p>"
         },
         "xuXH5lpQihUTH89r": {
-          "name": "Corda di Canapa (15 metri)"
+          "name": "Corda di Canapa (15 m)",
+          "description": "<p>Una corda, che sia fatta di canapa o di seta, possiede 2 punti ferita e può essere spezzata con una prova di Forza con CD 17.</p>",
+          "activities": {
+            "dnd5eactivity000": {
+              "name": "Esplosione"
+            }
+          }
         },
         "6L8kQtf84FtnSOLf": {
           "name": "Quadrelli da Balestra",
@@ -1966,7 +2215,7 @@
         },
         "bOhHMNROgdaYr9vI": {
           "name": "Balestra Leggera",
-          "description": "<p>Una piccola balestra con un manico di legno e una corda tesa in grado di sparare un singolo dardo che pu&ograve; perforare anche armature pesanti a distanza ravvicinata.</p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><strong style=\"box-sizing: border-box; user-select: text;\">Leggera.</strong>&nbsp;Un'arma leggera è piccola e facile da maneggiare, cosa che ne fa un'arma ideale da usare per combattere con due armi. Vedi le regole relative a combattere con due armi nel capitolo 9.</p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><strong style=\"box-sizing: border-box; user-select: text;\">A due mani.</strong>&nbsp;Questa arma richiede di essere impugnata a due mani quando il personaggio la usa per attaccare.</p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\"><strong style=\"box-sizing: border-box; user-select: text;\">Munizioni</strong>. Un personaggio può effettuare un attacco a distanza usando un'arma dotata della proprietà munizioni solo se possiede delle munizioni da lanciare. Ogni volta che attacca con l'arma, consuma una delle sue munizioni. Estrarre la munizione da una faretra, una custodia o un altro contenitore è considerato parte dell'attacco (il personaggio avrà bisogno di una mano libera per caricare un'arma a una mano). Alla fine della battaglia, il personaggio può recuperare metà delle munizioni consumate impiegando un minuto a setacciare il campo di battaglia.</p><p style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">Se il personaggio usa un'arma dotata della proprietà munizioni per effettuare un attacco in mischia, considera quell'arma come un'arma improvvisata (vedi \"Armi Improvvisate\", sotto). Una fionda deve essere caricata per inflìggere danni quando viene usata in questo modo.</p>"
+          "description": "<p>Una piccola balestra con un fusto di legno e una corda tesa, capace di scagliare un singolo dardo in grado di perforare persino un'armatura pesante a distanza ravvicinata.</p>"
         },
         "izX26lwJr25QtPmF": {
           "name": "Borsa per Componenti",
@@ -2013,7 +2262,8 @@
         },
         "rOHL1eSwwfo4Q4Mw": {
           "description": "<p>Hai vantaggio a tutti i tiri salvezza di Intelligenza, Saggezza e Carisma contro la magia.</p>",
-          "requirements": "Gnomo"
+          "requirements": "Gnomo",
+          "name": "Astuzia gnomesca"
         },
         "d3oMVcQqmvqU4rYT": {
           "name": "Conoscenze dell'Artefice",
@@ -2044,19 +2294,33 @@
               "title": "Privilegi"
             },
             "jvTZfjedDhMCVGEn": {
-              "hint": "Scegli due incantesimi da mago di 3° livello nel tuo libro degli incantesimi come incantesimi distintivi."
+              "hint": "Scegli due incantesimi da mago di 3° livello nel tuo libro degli incantesimi come incantesimi distintivi.",
+              "title": "Incantesimi Distintivi"
             },
             "r4NBaBhA20gUjJ56": {
               "title": "Trucchetti Conosciuti"
             },
             "yfvhv74yw5zdz640": {
               "title": "Tradizione Arcana"
+            },
+            "cqHTAJF9gyolaBBq": {
+              "title": "Aumento dei Punteggi di Caratteristica"
+            },
+            "lQO8njk1wKmUwP1N": {
+              "title": "Aumento dei Punteggi di Caratteristica"
+            },
+            "cyEtKa5tG1NFuknx": {
+              "title": "Aumento dei Punteggi di Caratteristica"
+            },
+            "ZSeVTprbNjLOwWzX": {
+              "title": "Aumento dei Punteggi di Caratteristica"
             }
           }
         },
         "4WVhXsAxPHVYGEHa": {
           "description": "<p>Un mago &egrave; uno studioso di magia arcana: possiede un libro degli incantesimi in cui sono contenuti gli incantesimi che costituiscono le prime scintille del suo futuro potere.</p>\n<h5>Trucchetti</h5>\n<p>Al 1&deg; livello, un mago conosce tre trucchetti a sua scelta dalla lista degli incantesimi da mago. Apprende ulteriori trucchetti da mago a sua scelta ai livelli successivi, come indicato dalla colonna \"Trucchetti Conosciuti\" nella tabella \"Mago\".</p>\n<h5>Libro Degli Incantesimi</h5>\n<p>Al 1&deg; Livello, un mago possiede un libro degli incantesimi che contiene sei incantesimi da mago di 1&deg; livello a sua scelta. Questo libro degli incantesimi contiene tutti gli incantesimi da mago conosciuti dal personaggio, ad eccezione dei suoi trucchetti, che sono impressi direttamente nella sua mente.</p>\n<h5>Preparare e Lanciare Incantesimi</h5>\n<p>La tabella \"Mago\" indica quanti slot incantesimo possiede un mago per lanciare i suoi incantesimi di 1&deg; livello e di livello superiore. Per lanciare uno di questi incantesimi, il mago deve spendere uno slot incantesimo di livello pari o superiore al livello dell'incantesimo. Il mago recupera tutti gli slot incantesimo spesi quando completa un riposo lungo.</p>\n<p>Il mago prepara la lista degli incantesimi da mago disponibili da lanciare scegliendoli dalla lista degli incantesimi da mago. Quando lo fa, deve scegliere un numero di incantesimi da mago dal suo libro degli incantesimi pari al suo modificatore di Intelligenza+ il suo livello da mago (fino a un minimo di un incantesimo). Gli incantesimi devono essere di un livello di cui il mago possiede degli slot incantesimo.</p>\n<p>Per esempio, un mago di 3&deg; livello possiede quattro slot incantesimo di 1&deg; livello e due slot incantesimo di 2&deg; livello. Con Intelligenza pari a 16, la lista dei suoi incantesimi preparati pu&ograve; includere sei incantesimi di 1&deg; o 2&deg; livello, in qualsiasi combinazione, scelti dal suo libro degli incantesimi. Se prepara l'incantesimo di 1&deg; livello dardo incantato, potr&agrave; lanciarlo usando uno slot incantesimo di 1&deg; livello o di 2&deg; livello. Il lancio di quell'incantesimo non rimuove quell'incantesimo dalla lista di incantesimi preparati.</p>\n<p>Il mago pu&ograve; cambiare la lista dei suoi incantesimi preparati quando completa un riposo lungo. Per preparare una nuova lista di incantesimi da mago &egrave; necessario un certo ammontare di tempo da trascorrere studiando il libro degli incantesimi e memorizzando le formule e i gesti necessari per lanciare l'incantesimo: almeno 1 minuto per livello di incantesimo per ogni incantesimo nella sua lista.</p>\n<h5>Caratteristica Da Incantatore</h5>\n<p>Intelligenza &egrave; la caratteristica da incantatore usata per gli incantesimi da mago, dal momento che egli impara i suoi incantesimi tramite lo studio costante e la memorizzazione. Un mago usa Intelligenza ogni volta che un incantesimo fa riferimento alla sua caratteristica da incantatore. Usa inoltre il suo modil&igrave;catore di Intelligenza per definire la CD del tiro salvezza di un incantesimo da mago da lui lanciato e quando effettua un tiro per colpire con un incantesimo.</p>\n<p><strong>CD del tiro salvezza dell'incantesimo</strong>&nbsp;= 8 + il bonus di competenza del mago + il modificatore di Intelligenza del mago</p>\n<p><strong>Modificatore di attacco dell'incantesimo</strong>&nbsp;= il bonus di competenza del mago + il modificatore di Intelligenza del mago</p>\n<h5>Celebrare Rituali</h5>\n<p>Un mago pu&ograve; lanciare un incantesimo da mago come rituale se quell'incantesimo possiede il descrittore rituale. Non &egrave; necessario che abbia preparato quell'incantesimo.</p>\n<h5>Focus Da Incantatore</h5>\n<p>Un mago pu&ograve; usare un focus arcano come focus da incantatore per i suoi incantesimi da mago.</p>\n<h5>Imparare Incantesimi di 1&deg; Livello e di Livello Superiore</h5>\n<p>Ogni volta che il personaggio acquisisce un livello da mago, pu&ograve; aggiungere gratuitamente due incantesimi da mago a sua scelta al suo libro degli incantesimi. Ognuno di questi incantesimi deve essere di un livello di cui il mago possiede degli slot incantesimo, come indicato nella tabella \"Mago\". Nel corso delle sue avventure potrebbe trovare altri incantesimi da aggiungere al suo libro (vedi il riquadro \"Il Libro degli Incantesimi del Mago\").</p>",
-          "requirements": "Mago 1"
+          "requirements": "Mago 1",
+          "name": "Incantesimi (Mago)"
         },
         "XdHNGZEzeUffTKQT": {
           "name": "Recupero Arcano",
@@ -2072,7 +2336,7 @@
         },
         "5wyx7z5cxsMerha7": {
           "name": "Acciarino e Pietra Focaia",
-          "description": "<p>&nbsp;</p><div title=\"Page 148\"><div><div><p>Un piccolo contenitore usato per accendere il fuoco, che contiene acciarino, pietra focaia e materiale combustibile (solitamente stracci essiccati e bagnati d'olio).</p><p>Per accendere una torcia (o qualsiasi altra cosa che faccia uso di abbondante combustibile scoperto) usando acciarino e pietra focaia è richiesta un'azione. Per accendere un fuoco di qualsiasi altro tipo è richiesto 1 minuto.&nbsp;</p></div></div></div><p>&nbsp;</p>"
+          "description": "<p>Un piccolo contenitore usato per accendere il fuoco, che contiene acciarino, pietra focaia e materiale combustibile (solitamente stracci essiccati e bagnati d'olio). Per accendere una torcia (o qualsiasi altra cosa che faccia uso di abbondante combustibile scoperto) usando acciarino e pietra focaia è richiesta un'azione. Per accendere un fuoco di qualsiasi altro tipo è richiesto 1 minuto.</p>\n<p> </p>"
         },
         "8RwQgNOULLp5FUZU": {
           "name": "Otre",
@@ -2123,7 +2387,13 @@
           "description": "<p>Un libro degli incantesimi, essenziale per i maghi, èun tomo rilegato in cuoio e composto da 100 pagine pergamenate vuote su cui annotare gli incantesimi.&nbsp;</p>\n<p> </p>"
         },
         "rlCl6ZpmfzjiEUcB": {
-          "name": "Corda di Canapa (15 metri)"
+          "name": "Corda di Canapa (15 m)",
+          "description": "<p>Una corda, che sia fatta di canapa o di seta, possiede 2 punti ferita e può essere spezzata con una prova di Forza con CD 17.</p>",
+          "activities": {
+            "dnd5eactivity000": {
+              "name": "Esplosione"
+            }
+          }
         },
         "UhRaZPqD1obqIOUn": {
           "name": "Inchiostro (boccetta da 30 gr.)",
@@ -2139,11 +2409,11 @@
         },
         "WmTpVLcSdZVoDrWA": {
           "name": "Bastone Ferrato",
-          "description": "<p><em>Un fusto di legno avvolto da una robusta impugnatura rende un robusto bastone da passeggio un'arma altamente funzionale.</em></p><div title=\"Page 3\"><div><div><p><strong>Versatile</strong>. Quest&rsquo;arma può essere usata con una o due mani. Accanto alla proprietà appare un valore di danno tra parentesi: il danno che l&rsquo;arma infligge quando viene usata con due mani per effettuare un attacco da mischia.</p></div></div></div>"
+          "description": "<p>Una spessa asta di legno avvolta da una robusta impugnatura costituisce un'arma estremamente funzionale, oltre che un solido bastone da passeggio.</p>"
         },
         "CY5DepK0fPEZlqob": {
           "name": "Dardo Incantato",
-          "description": "<p data-parsoid=\"{&quot;dsr&quot;:[0,29,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,29,2,2]}\">Invocazione di 1° livello</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[30,137,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[30,62,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[31,54,3,3]}\">Tempo di lancio:&nbsp;</strong>1 azione</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[63,87,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[64,79,3,3]}\">Gittata:&nbsp;</strong>36 metri</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[88,111,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[89,107,3,3]}\">Componenti:&nbsp;</strong>V, S</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[112,137,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[113,127,3,3]}\">Durata:&nbsp;</strong>Istantanea</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[138,191,0,0]}\">L'incantatore crea tre dardi lucenti di forza magica.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[193,307,0,0]}\">Ogni dardo colpisce una creatura scelta dall'incantatore, situata entro gittata e che egli sia in grado di vedere.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[309,365,0,0]}\">Un dardo infligge 1d4+1 danni da forza al suo bersaglio.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[367,483,0,0]}\">Tutti i dardi colpiscono simultaneamente e l'incantatore può dirigerli per colpire una sola creatura o più creature.</p>\n<p>&nbsp;</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[485,695,0,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[485,513,3,3]}\">Ai Livelli Superiori.&nbsp;</strong>Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, l'incantesimo crea un dardo aggiuntivo per ogni slot di livello superiore al 1°.</p>"
+          "description": "<p>L'incantatore crea tre dardi lucenti di forza magica. Ogni dardo colpisce una creatura scelta dall'incantatore, situata entro gittata e che egli sia in grado di vedere. Un dardo infligge 1d4 + 1 danni da forza al suo bersaglio. Tutti i dardi colpiscono simultaneamente e l'incantatore può dirigerli per colpire una sola creatura o più creature.</p><p><strong>Ai Livelli Superiori.&nbsp;</strong>Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, l'incantesimo crea un dardo aggiuntivo per ogni slot di livello superiore al 1°.</p>"
         },
         "M654WxRzK4iKr8hP": {
           "name": "Allarme",
@@ -2170,7 +2440,16 @@
         },
         "PtJ6TyvPsRo0y1nq": {
           "name": "Trova Famiglio",
-          "materials": "carbone, incenso ed erbe del valore di 10 mo da bruciare in un braciere d'ottone"
+          "materials": "carbone, incenso ed erbe del valore di 10 mo da bruciare in un braciere d'ottone",
+          "activities": {
+            "dnd5eactivity000": {
+              "profiles": {
+                "kaiiJrnUWOqlQHt3": {
+                  "name": "Pesci"
+                }
+              }
+            }
+          }
         },
         "iXY1MRCzK0cZ14Kg": {
           "name": "Sonno",
@@ -2183,7 +2462,7 @@
         },
         "lv88l3uAjrLKRZG0": {
           "name": "Mano Magica",
-          "description": "<p data-parsoid=\"{&quot;dsr&quot;:[0,28,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,28,2,2]}\">Trucchetto di Evocazione</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[29,62,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[29,62,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[31,54,3,3]}\">Tempo di lancio:&nbsp;</strong>1 azione</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[64,88,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[64,88,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[66,80,3,3]}\">Gittata:</strong>&nbsp;9 metri</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[90,114,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[90,114,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[92,110,3,3]}\">Componenti:&nbsp;</strong>V, S</li>\n</ul>\n<ul data-parsoid=\"{&quot;dsr&quot;:[116,140,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[116,140,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[118,132,3,3]}\">Durata:&nbsp;</strong>1 minuto</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[141,391,0,0]}\">Una mano spettrale e fluttuante appare nel punto scelto all'interno del raggio. La mano dura per la durata o fino a quando non la scartate come azione. La mano svanisce se è mai più di 9 metri di distanza da te o se lanci di nuovo questo incantesimo.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[393,686,0,0]}\">Puoi usare la tua azione per controllare la mano. Puoi usare la mano per manipolare un oggetto, aprire una porta o un contenitore sbloccato, riporre o recuperare un oggetto da un contenitore aperto o versare il contenuto da una fiala. Puoi muovere la mano fino a 9 metri ogni volta che la usi.</p>\n<p>&nbsp;</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[688,769,0,0]}\">La mano non può attaccare, attivare oggetti magici o trasportare più di 10 chili.</p>"
+          "description": "<p>Una mano spettrale e fluttuante appare nel punto scelto all'interno del raggio. La mano dura per la durata o fino a quando non la scartate come azione. La mano svanisce se è mai più di 9 metri di distanza da te o se lanci di nuovo questo incantesimo.</p>\n<p>Puoi usare la tua azione per controllare la mano. Puoi usare la mano per manipolare un oggetto, aprire una porta o un contenitore sbloccato, riporre o recuperare un oggetto da un contenitore aperto o versare il contenuto da una fiala. Puoi muovere la mano fino a 9 metri ogni volta che la usi.</p>\n\n<p>La mano non può attaccare, attivare oggetti magici o trasportare più di 10 chili.</p>"
         },
         "KswTUmrH37e6GsUI": {
           "name": "Scudo",
