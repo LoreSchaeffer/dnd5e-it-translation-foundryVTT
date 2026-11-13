@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2188,
+      "translated": 2189,
       "missing": 3,
-      "partial": 200,
+      "partial": 199,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14291,
-      "missing": 1369,
+      "translated": 14292,
+      "missing": 1368,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1374
+    "blockingIssues": 1373
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 153,
+          "translated": 154,
           "missing": 0,
-          "partial": 184,
+          "partial": 183,
           "review": 0
         },
         "folders": {
@@ -578,23 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6475,
-          "missing": 631,
+          "translated": 6476,
+          "missing": 630,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "KC4tYOolARhajP18",
-          "name": "Swarm of Centipedes",
-          "fieldPath": "items[s7CTyI6W91Yjb5Hi].system.description.value",
-          "sourcePath": "monsters/beast/swarm-of-centipedes.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
