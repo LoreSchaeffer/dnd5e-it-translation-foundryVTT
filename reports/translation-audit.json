@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2132,
+      "translated": 2133,
       "missing": 3,
-      "partial": 256,
+      "partial": 255,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14099,
-      "missing": 1561,
+      "translated": 14108,
+      "missing": 1552,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1566
+    "blockingIssues": 1557
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 97,
+          "translated": 98,
           "missing": 0,
-          "partial": 240,
+          "partial": 239,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6283,
-          "missing": 823,
+          "translated": 6292,
+          "missing": 814,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -3384,87 +3384,6 @@
           "name": "Magma Mephit",
           "fieldPath": "items[iXhbFt7gCj3FBM2r].system.description.chat",
           "sourcePath": "monsters/elemental/magma-mephit.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "8MD1vRBTcgSXXk3u",
-          "name": "Magmin",
-          "fieldPath": "items[0xdLfPJEHYwh8MIT].system.description.value",
-          "sourcePath": "monsters/elemental/magmin.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "8MD1vRBTcgSXXk3u",
-          "name": "Magmin",
-          "fieldPath": "items[0xdLfPJEHYwh8MIT].system.description.chat",
-          "sourcePath": "monsters/elemental/magmin.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "8MD1vRBTcgSXXk3u",
-          "name": "Magmin",
-          "fieldPath": "items[rlA41r2MlaqmVjvf].system.description.value",
-          "sourcePath": "monsters/elemental/magmin.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "8MD1vRBTcgSXXk3u",
-          "name": "Magmin",
-          "fieldPath": "items[rlA41r2MlaqmVjvf].effects[JmovxBTPt2lOxVUC].description",
-          "sourcePath": "monsters/elemental/magmin.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "8MD1vRBTcgSXXk3u",
-          "name": "Magmin",
-          "fieldPath": "items[rlA41r2MlaqmVjvf].effects[Mu9xm262V8kL7QPt].description",
-          "sourcePath": "monsters/elemental/magmin.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "8MD1vRBTcgSXXk3u",
-          "name": "Magmin",
-          "fieldPath": "items[th3hfRWQ3PT9f3Gs].system.description.value",
-          "sourcePath": "monsters/elemental/magmin.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "8MD1vRBTcgSXXk3u",
-          "name": "Magmin",
-          "fieldPath": "items[th3hfRWQ3PT9f3Gs].system.description.chat",
-          "sourcePath": "monsters/elemental/magmin.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "8MD1vRBTcgSXXk3u",
-          "name": "Magmin",
-          "fieldPath": "items[th3hfRWQ3PT9f3Gs].system.activities.OuZcepCj3KXR6GNq.description.value",
-          "sourcePath": "monsters/elemental/magmin.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "8MD1vRBTcgSXXk3u",
-          "name": "Magmin",
-          "fieldPath": "items[th3hfRWQ3PT9f3Gs].effects[7lyAOWMBqtXvPMQ3].description",
-          "sourcePath": "monsters/elemental/magmin.yml"
         },
         {
           "code": "missing-field",

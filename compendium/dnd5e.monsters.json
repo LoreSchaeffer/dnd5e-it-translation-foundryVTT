@@ -10110,36 +10110,47 @@
             "A8WwxhIVtPyXk0DI": {
               "name": "Esplodere"
             }
-          }
+          },
+          "description": "<p>Quando il [[lookup @name]]{mostro} muore, esplode in una fiammata di fuoco e magma. Ogni creatura entro [[lookup @target.template.size activity=A8WwxhIVtPyXk0DI]] metri da esso deve effettuare un tiro salvezza [[/save]]; se lo fallisce subisce [[/damage average]] danni, mentre se lo supera subisce la metà di quei danni. Gli oggetti infiammabili nell'area che non siano indossati o trasportati prendono fuoco.</p>",
+          "chat": "<p>Quando il [[lookup @name]]{mostro} muore, esplode in una fiammata di fuoco e magma. Ogni creatura entro [[lookup @target.template.size activity=A8WwxhIVtPyXk0DI]] metri da esso deve effettuare un tiro salvezza su Destrezza. Gli oggetti infiammabili nell'area che non siano indossati o trasportati prendono fuoco.</p>"
         },
         "rlA41r2MlaqmVjvf": {
           "name": "Illuminazione Fiammeggiante",
           "effects": {
             "Mu9xm262V8kL7QPt": {
-              "name": "Illuminazione Fiammeggiante"
+              "name": "Illuminazione Fiammeggiante",
+              "description": "<p>Ti sei dato fuoco. Mentre sei in fiamme, proietti &amp;reference[bright light] entro un raggio di 3 metri e &amp;reference[dim light] per ulteriori 3 metri.</p>"
             },
             "JmovxBTPt2lOxVUC": {
-              "name": "In Fiamme"
+              "name": "In Fiamme",
+              "description": "<p>Ti sei dato fuoco.</p>"
             }
           },
           "activities": {
             "y0nBhuvbLEpW7yZg": {
               "name": "Darsi Fuoco"
             }
-          }
+          },
+          "description": "<p>Come azione bonus, il [[lookup @name lowercase]]{mostro} può darsi fuoco o spegnere le proprie fiamme. Mentre è in fiamme, il magmin proietta &amp;reference[bright light] entro un raggio di 3 metri e &amp;reference[dim light] per ulteriori 3 metri.</p>"
         },
         "th3hfRWQ3PT9f3Gs": {
           "name": "Tocco",
           "activities": {
             "OuZcepCj3KXR6GNq": {
-              "name": "Danni da Bruciatura a Inizio Turno"
+              "name": "Danni da Bruciatura a Inizio Turno",
+              "description": {
+                "value": "<p>Finché una creatura non effettua un'azione per spegnere il fuoco, il bersaglio subisce [[/damage average activity=OuZcepCj3KXR6GNq]] danni alla fine di ciascuno dei propri turni.</p>"
+              }
             }
           },
           "effects": {
             "7lyAOWMBqtXvPMQ3": {
-              "name": "A Fuoco"
+              "name": "A Fuoco",
+              "description": "<p>Sei in fiamme. Finché qualcuno non effettua un'azione per spegnere il fuoco, subisci [[/damage average 1d6 fire]] danni all'inizio di ciascuno dei tuoi turni.</p>"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio è una creatura o un oggetto infiammabile, prende fuoco. Finché una creatura non effettua un'azione per spegnere il fuoco, il bersaglio subisce [[/damage average activity=OuZcepCj3KXR6GNq]] danni alla fine di ciascuno dei propri turni.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Se il bersaglio è una creatura o un oggetto infiammabile, prende fuoco. Finché un bersaglio non effettua un'azione per spegnere il fuoco, il bersaglio subisce <em>danni</em> da fuoco alla fine di ciascuno dei propri turni.</p>"
         }
       },
       "details": {
