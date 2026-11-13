@@ -9,7 +9,7 @@
 | heroes | 12 | 12 | 0 | 0 | 0 | 0 | 0 |
 | items | 885 | 885 | 0 | 0 | 0 | 0 | 48 |
 | monsterfeatures | 252 | 252 | 0 | 0 | 0 | 0 | 0 |
-| monsters | 337 | 105 | 0 | 232 | 0 | 754 | 754 |
+| monsters | 337 | 106 | 0 | 231 | 0 | 746 | 746 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
 | rules | 20 | 1 | 3 | 16 | 0 | 738 | 695 |
 | spells | 320 | 320 | 0 | 0 | 0 | 0 | 0 |
@@ -17,7 +17,7 @@
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 1497
+Total blocking issues: 1489
 
 ## Issues
 
@@ -213,14 +213,6 @@ Total blocking issues: 1497
 - **missing-field** `monsters:XEByBLeOkDgL3mrr:items[OVikYmSdHliAG2YD].system.description.value`
 - **missing-field** `monsters:eORmAXuV5v3nWsQL:items[jlZrv208u9gYyh7I].system.description.value`
 - **missing-field** `monsters:eORmAXuV5v3nWsQL:items[vUqKQJ1GGWbKg6cX].system.description.chat`
-- **missing-field** `monsters:YOqhbf8WsX0jH9Fu:items[vEEJei0CNaNbfQ2w].system.description.value`
-- **missing-field** `monsters:YOqhbf8WsX0jH9Fu:items[vEEJei0CNaNbfQ2w].system.activities.aKCXvq5B0g2Ted3T.description.value`
-- **missing-field** `monsters:YOqhbf8WsX0jH9Fu:items[GOADsI5dGE3ah0Vi].system.description.value`
-- **missing-field** `monsters:YOqhbf8WsX0jH9Fu:items[GOADsI5dGE3ah0Vi].system.description.chat`
-- **missing-field** `monsters:YOqhbf8WsX0jH9Fu:items[GOADsI5dGE3ah0Vi].effects[og1tIiODyKE8SowO].description`
-- **missing-field** `monsters:YOqhbf8WsX0jH9Fu:items[K5xMZVNv8m2Pw87E].system.description.value`
-- **missing-field** `monsters:YOqhbf8WsX0jH9Fu:items[K5xMZVNv8m2Pw87E].effects[unEhkqnbSJYtXAU4].description`
-- **missing-field** `monsters:YOqhbf8WsX0jH9Fu:items[hftXBQthz8jMjFTs].system.description.value`
 - **missing-field** `monsters:Hm4o2FgPZsdbXjLq:items[Ee9WvQyqy1lRYtuj].system.description.value`
 - **missing-field** `monsters:Hm4o2FgPZsdbXjLq:items[Ee9WvQyqy1lRYtuj].system.description.chat`
 - **missing-field** `monsters:Hm4o2FgPZsdbXjLq:items[Ee9WvQyqy1lRYtuj].effects[dCrLkxXwD3UyiD55].description`

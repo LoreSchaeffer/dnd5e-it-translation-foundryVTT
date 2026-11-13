@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2140,
+      "translated": 2141,
       "missing": 3,
-      "partial": 248,
+      "partial": 247,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14168,
-      "missing": 1492,
+      "translated": 14176,
+      "missing": 1484,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1497
+    "blockingIssues": 1489
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 105,
+          "translated": 106,
           "missing": 0,
-          "partial": 232,
+          "partial": 231,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6352,
-          "missing": 754,
+          "translated": 6360,
+          "missing": 746,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -1881,78 +1881,6 @@
           "name": "Animated Armor",
           "fieldPath": "items[vUqKQJ1GGWbKg6cX].system.description.chat",
           "sourcePath": "monsters/construct/animated-armor.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "YOqhbf8WsX0jH9Fu",
-          "name": "Clay Golem",
-          "fieldPath": "items[vEEJei0CNaNbfQ2w].system.description.value",
-          "sourcePath": "monsters/construct/clay-golem.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "YOqhbf8WsX0jH9Fu",
-          "name": "Clay Golem",
-          "fieldPath": "items[vEEJei0CNaNbfQ2w].system.activities.aKCXvq5B0g2Ted3T.description.value",
-          "sourcePath": "monsters/construct/clay-golem.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "YOqhbf8WsX0jH9Fu",
-          "name": "Clay Golem",
-          "fieldPath": "items[GOADsI5dGE3ah0Vi].system.description.value",
-          "sourcePath": "monsters/construct/clay-golem.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "YOqhbf8WsX0jH9Fu",
-          "name": "Clay Golem",
-          "fieldPath": "items[GOADsI5dGE3ah0Vi].system.description.chat",
-          "sourcePath": "monsters/construct/clay-golem.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "YOqhbf8WsX0jH9Fu",
-          "name": "Clay Golem",
-          "fieldPath": "items[GOADsI5dGE3ah0Vi].effects[og1tIiODyKE8SowO].description",
-          "sourcePath": "monsters/construct/clay-golem.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "YOqhbf8WsX0jH9Fu",
-          "name": "Clay Golem",
-          "fieldPath": "items[K5xMZVNv8m2Pw87E].system.description.value",
-          "sourcePath": "monsters/construct/clay-golem.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "YOqhbf8WsX0jH9Fu",
-          "name": "Clay Golem",
-          "fieldPath": "items[K5xMZVNv8m2Pw87E].effects[unEhkqnbSJYtXAU4].description",
-          "sourcePath": "monsters/construct/clay-golem.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "YOqhbf8WsX0jH9Fu",
-          "name": "Clay Golem",
-          "fieldPath": "items[hftXBQthz8jMjFTs].system.description.value",
-          "sourcePath": "monsters/construct/clay-golem.yml"
         },
         {
           "code": "missing-field",

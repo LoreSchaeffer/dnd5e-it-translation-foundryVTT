@@ -8374,14 +8374,17 @@
           "name": "Velocità",
           "effects": {
             "og1tIiODyKE8SowO": {
-              "name": "Accelerato"
+              "name": "Accelerato",
+              "description": "<p>Fino alla fine del tuo turno successivo, ottieni magicamente un bonus di +2 alla CA, disponi di vantaggio ai tiri salvezza su Destrezza e puoi usare il tuo attacco con lo Schianto come azione bonus.</p>"
             }
           },
           "activities": {
             "0LU54uMl4stHZOQd": {
               "name": "Accelerare Se Stesso"
             }
-          }
+          },
+          "description": "<p>Fino alla fine del proprio turno successivo, la [[lookup @name lowercase]]{creatura} ottiene magicamente un bonus di +2 alla CA, dispone di vantaggio ai tiri salvezza su Destrezza e può usare il proprio attacco @UUID[Compendium.dnd5e.monsters.Actor.YOqhbf8WsX0jH9Fu.Item.vEEJei0CNaNbfQ2w]{Schianto} come azione bonus.</p>",
+          "chat": "<p>Fino alla fine del proprio turno successivo, il golem ottiene magicamente un bonus di +2 alla CA, dispone di vantaggio ai tiri salvezza su Destrezza e può usare il proprio attacco con lo schianto come azione bonus.</p>"
         },
         "91uPF10lBpn5EOhn": {
           "name": "Resistenza Magica",
@@ -8401,7 +8404,8 @@
             "KqGcNJprXjCSYI7R": {
               "name": "Recuperare Punti Ferita"
             }
-          }
+          },
+          "description": "<p>Ogni volta che il [[lookup @name lowercase]]{mostro} subisce danni da acido, non subisce alcun danno e recupera invece un numero di punti ferita pari ai danni da acido inflitti.</p>"
         },
         "g0R4u7liRAurxB04": {
           "name": "Multiattacco",
@@ -8422,19 +8426,25 @@
           },
           "effects": {
             "unEhkqnbSJYtXAU4": {
-              "name": "Berserk"
+              "name": "Berserk",
+              "description": "<p>Sei entrato in berserk. In ciascuno dei tuoi turni mentre sei berserk, attacchi la creatura più vicina che sei in grado di vedere. Se nessuna creatura è abbastanza vicina da poterla raggiungere e attaccare, attacchi un oggetto, dando la precedenza a un oggetto più piccolo di te. Una volta entrato in berserk, continui a esserlo finché non vieni distrutto o recuperi tutti i tuoi punti ferita.</p>"
             }
           },
-          "chat": "<p>Il golem entra in berserk. In ciascun proprio turno finché è berserk, attacca la creatura più vicina che sia in grado di vedere. Se nessuna creatura è abbastanza vicina da poterla raggiungere e attaccare, il golem attacca un oggetto, dando la precedenza a un oggetto più piccolo di lui.</p>"
+          "chat": "<p>Il golem entra in berserk. In ciascun proprio turno finché è berserk, attacca la creatura più vicina che sia in grado di vedere. Se nessuna creatura è abbastanza vicina da poterla raggiungere e attaccare, il golem attacca un oggetto, dando la precedenza a un oggetto più piccolo di lui.</p>",
+          "description": "<p>Ogni volta che il [[lookup @name lowercase]]{mostro} inizia il proprio turno con 60 punti ferita o meno, tira un [[/r d6]]. Con un risultato di 6, il [[lookup @name lowercase]]{mostro} entra in berserk. In ciascuno dei propri turni mentre è berserk, il [[lookup @name lowercase]]{mostro} attacca la creatura più vicina che sia in grado di vedere. Se nessuna creatura è abbastanza vicina da poterla raggiungere e attaccare, il [[lookup @name lowercase]]{mostro} attacca un oggetto, dando la precedenza a un oggetto più piccolo di sé. Una volta entrato in berserk, il [[lookup @name lowercase]]{mostro} continua a esserlo finché non viene distrutto o recupera tutti i propri punti ferita.</p>"
         },
         "vEEJei0CNaNbfQ2w": {
           "name": "Schianto",
           "activities": {
             "aKCXvq5B0g2Ted3T": {
-              "name": "Tiro Salvezza contro la Riduzione dei Punti Ferita"
+              "name": "Tiro Salvezza contro la Riduzione dei Punti Ferita",
+              "description": {
+                "value": "<p>Se il bersaglio è una creatura, deve superare un tiro salvezza [[/save]], altrimenti i suoi punti ferita massimi sono ridotti di un ammontare pari ai danni subiti. Il bersaglio muore se questo attacco riduce a 0 i suoi punti ferita massimi. La riduzione permane finché non viene rimossa dall'incantesimo @UUID[Compendium.dnd5e.spells.Item.WzvJ7G3cqvIubsLk]{Ristorare Superiore} o da un'altra magia.</p>"
+              }
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Se il bersaglio è una creatura, deve effettuare un tiro salvezza su Costituzione.</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Se il bersaglio è una creatura, deve effettuare un tiro salvezza su Costituzione.</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio è una creatura, deve superare un tiro salvezza [[/save]], altrimenti i suoi punti ferita massimi sono ridotti di un ammontare pari ai danni subiti. Il bersaglio muore se questo attacco riduce a 0 i suoi punti ferita massimi. La riduzione permane finché non viene rimossa dall'incantesimo @UUID[Compendium.dnd5e.spells.Item.WzvJ7G3cqvIubsLk]{Ristorare Superiore} o da un'altra magia.</p>"
         }
       },
       "details": {
