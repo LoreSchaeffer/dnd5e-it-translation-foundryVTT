@@ -96,11 +96,14 @@ function matchingFields(sourceFields, embeddedFields) {
   });
 }
 
-function matchingCandidate({ actorRecord, embedded, canonicalByUuid, canonicalByName }) {
+function matchingCandidate({ actorRecord, embedded, canonicalByUuid, canonicalById, canonicalByName }) {
   const embeddedFields = walkVisibleFields(embeddedRecord(actorRecord, embedded));
   const candidates = referencesFor(embedded)
     .map(reference => canonicalByUuid.get(reference))
     .filter(Boolean);
+  if (!candidates.length && canonicalById?.has(embedded._id)) {
+    candidates.push(canonicalById.get(embedded._id));
+  }
   if (!candidates.length && canonicalByName?.has(embedded.name)) {
     candidates.push(canonicalByName.get(embedded.name));
   }
@@ -113,11 +116,11 @@ function matchingCandidate({ actorRecord, embedded, canonicalByUuid, canonicalBy
   return best;
 }
 
-export function buildCanonicalEmbeddedOverrides({ actorRecord, canonicalByUuid, canonicalByName = new Map() }) {
+export function buildCanonicalEmbeddedOverrides({ actorRecord, canonicalByUuid, canonicalById = new Map(), canonicalByName = new Map() }) {
   const overrides = {};
   for (const embedded of actorRecord.data.items ?? []) {
     if (!embedded?._id) continue;
-    const candidate = matchingCandidate({ actorRecord, embedded, canonicalByUuid, canonicalByName });
+    const candidate = matchingCandidate({ actorRecord, embedded, canonicalByUuid, canonicalById, canonicalByName });
     if (!candidate) continue;
 
     for (const { embeddedField, sourceFields } of candidate.matching) {

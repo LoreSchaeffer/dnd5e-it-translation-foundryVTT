@@ -241,3 +241,24 @@ test("uses an exact unique canonical name when an embedded item has no source re
     '<p class="rule">Brucia intensamente.</p>'
   );
 });
+
+test("uses an exact unique canonical document ID when source references are absent", () => {
+  const actor = actorRecord();
+  actor.data.items[0]._id = "canonical1";
+  actor.data.items[0]._stats = {};
+  actor.data.items[0].flags = {};
+  const canonicalById = new Map([
+    ["canonical1", { sourceRecord: canonicalRecord(), translationRecord: canonicalTranslation }]
+  ]);
+
+  const overrides = buildCanonicalEmbeddedOverrides({
+    actorRecord: actor,
+    canonicalByUuid: new Map(),
+    canonicalById
+  });
+  assert.equal(overrides["items[canonical1].name"], "Torcia");
+  assert.equal(
+    overrides["items[canonical1].system.description.value"],
+    '<p class="rule">Brucia intensamente.</p>'
+  );
+});

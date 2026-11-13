@@ -30,6 +30,7 @@ async function exists(filePath) {
 
 async function buildCanonicalIndex(paths, excludedPack) {
   const canonicalByUuid = new Map();
+  const candidatesById = new Map();
   const candidatesByName = new Map();
   for (const pack of IN_SCOPE_PACKS) {
     if (pack === excludedPack) continue;
@@ -45,15 +46,21 @@ async function buildCanonicalIndex(paths, excludedPack) {
       if (!translationRecord) continue;
       const candidate = { sourceRecord, translationRecord };
       canonicalByUuid.set(`Compendium.dnd5e.${pack}.Item.${sourceRecord.id}`, candidate);
+      const identified = candidatesById.get(sourceRecord.id) ?? [];
+      identified.push(candidate);
+      candidatesById.set(sourceRecord.id, identified);
       const named = candidatesByName.get(sourceRecord.name) ?? [];
       named.push(candidate);
       candidatesByName.set(sourceRecord.name, named);
     }
   }
+  const canonicalById = new Map(
+    [...candidatesById].filter(([, candidates]) => candidates.length === 1).map(([id, candidates]) => [id, candidates[0]])
+  );
   const canonicalByName = new Map(
     [...candidatesByName].filter(([, candidates]) => candidates.length === 1).map(([name, candidates]) => [name, candidates[0]])
   );
-  return { canonicalByUuid, canonicalByName };
+  return { canonicalByUuid, canonicalById, canonicalByName };
 }
 
 async function main() {
@@ -65,7 +72,7 @@ async function main() {
   const document = JSON.parse(await readFile(targetPath, "utf8"));
   const records = (await loadSourcePack(path.join(paths.sourcePacksRoot, args.pack)))
     .filter(record => record.kind === "document" && record.documentType === "Actor");
-  const { canonicalByUuid, canonicalByName } = await buildCanonicalIndex(paths, args.pack);
+  const { canonicalByUuid, canonicalById, canonicalByName } = await buildCanonicalIndex(paths, args.pack);
   const nameCounts = new Map();
   for (const record of records) nameCounts.set(record.name, (nameCounts.get(record.name) ?? 0) + 1);
   const duplicateNames = new Set([...nameCounts].filter(([, count]) => count > 1).map(([name]) => name));
@@ -78,7 +85,7 @@ async function main() {
       report.actors.push({ id: record.id, name: record.name, fields: 0, reason: "missing-translation-entry" });
       continue;
     }
-    const overrides = buildCanonicalEmbeddedOverrides({ actorRecord: record, canonicalByUuid, canonicalByName });
+    const overrides = buildCanonicalEmbeddedOverrides({ actorRecord: record, canonicalByUuid, canonicalById, canonicalByName });
     const fields = Object.keys(overrides).length;
     if (args.apply && fields) document.entries[key] = applyFieldOverrides(entry, overrides);
     report.actors.push({ id: record.id, name: record.name, fields });
