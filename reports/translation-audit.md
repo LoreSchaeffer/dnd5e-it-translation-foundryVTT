@@ -9,7 +9,7 @@
 | heroes | 12 | 12 | 0 | 0 | 0 | 0 | 0 |
 | items | 885 | 885 | 0 | 0 | 0 | 0 | 48 |
 | monsterfeatures | 252 | 252 | 0 | 0 | 0 | 0 | 0 |
-| monsters | 337 | 80 | 0 | 257 | 0 | 1025 | 1025 |
+| monsters | 337 | 81 | 0 | 256 | 0 | 1007 | 1007 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
 | rules | 20 | 1 | 3 | 16 | 0 | 738 | 695 |
 | spells | 320 | 320 | 0 | 0 | 0 | 0 | 0 |
@@ -17,7 +17,7 @@
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 1768
+Total blocking issues: 1750
 
 ## Issues
 
@@ -1065,24 +1065,6 @@ Total blocking issues: 1768
 - **missing-field** `monsters:zpaZb7I8alY32vWV:items[Q9tHfkUiN6f1sguc].system.description.value`
 - **missing-field** `monsters:zpaZb7I8alY32vWV:items[wzRyhY2I1U0ytB7D].system.description.value`
 - **missing-field** `monsters:zpaZb7I8alY32vWV:items[lLAigtCvoIuj0TM9].system.description.value`
-- **missing-field** `monsters:DDO9lDCDtNHkfShP:items[BqG5guVa93LaOAn1].system.description.value`
-- **missing-field** `monsters:DDO9lDCDtNHkfShP:items[BqG5guVa93LaOAn1].system.description.chat`
-- **missing-field** `monsters:DDO9lDCDtNHkfShP:items[pVlKFunmE2qxO0pe].system.description.value`
-- **missing-field** `monsters:DDO9lDCDtNHkfShP:items[siO3h9XOkgPVi78F].system.description.value`
-- **missing-field** `monsters:DDO9lDCDtNHkfShP:items[jYBYvv9EF1UnOvqZ].system.description.value`
-- **missing-field** `monsters:DDO9lDCDtNHkfShP:items[jYBYvv9EF1UnOvqZ].effects[v9TyI7sPX0W8vaOA].description`
-- **missing-field** `monsters:DDO9lDCDtNHkfShP:items[uqHuj7Pjf2sjny21].system.description.value`
-- **missing-field** `monsters:DDO9lDCDtNHkfShP:items[uqHuj7Pjf2sjny21].system.description.chat`
-- **missing-field** `monsters:DDO9lDCDtNHkfShP:items[RHezeN7HzNf2oKYP].system.description.value`
-- **missing-field** `monsters:DDO9lDCDtNHkfShP:items[RHezeN7HzNf2oKYP].system.description.chat`
-- **missing-field** `monsters:DDO9lDCDtNHkfShP:items[RHezeN7HzNf2oKYP].effects[ybKYbruo2zldUDBj].description`
-- **missing-field** `monsters:DDO9lDCDtNHkfShP:items[c9z4o0fkxq37v8KY].system.description.value`
-- **missing-field** `monsters:DDO9lDCDtNHkfShP:items[c9z4o0fkxq37v8KY].system.description.chat`
-- **missing-field** `monsters:DDO9lDCDtNHkfShP:items[c9z4o0fkxq37v8KY].system.activities.MEMqdbvq8fIu4T89.description.value`
-- **missing-field** `monsters:DDO9lDCDtNHkfShP:items[o4v4mHxP82HTbIOX].system.description.value`
-- **missing-field** `monsters:DDO9lDCDtNHkfShP:items[pW4iNTQphTJ3litv].system.description.value`
-- **missing-field** `monsters:DDO9lDCDtNHkfShP:items[IlrCCTK8b6DmtjB2].system.description.value`
-- **missing-field** `monsters:DDO9lDCDtNHkfShP:items[8Lluz633dVXNjygE].system.description.value`
 - **missing-field** `monsters:rbyp54px2D0ql4QK:items[fKIUImfcNk0pU2HN].system.description.value`
 - **missing-field** `monsters:rbyp54px2D0ql4QK:items[NX8cqG6aZMns8wvY].system.description.value`
 - **missing-field** `monsters:rbyp54px2D0ql4QK:items[NX8cqG6aZMns8wvY].system.activities.oIaGncKFmwOakdyM.description.value`

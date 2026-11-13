@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2115,
+      "translated": 2116,
       "missing": 3,
-      "partial": 273,
+      "partial": 272,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 13897,
-      "missing": 1763,
+      "translated": 13915,
+      "missing": 1745,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1768
+    "blockingIssues": 1750
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 80,
+          "translated": 81,
           "missing": 0,
-          "partial": 257,
+          "partial": 256,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6081,
-          "missing": 1025,
+          "translated": 6099,
+          "missing": 1007,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -9549,168 +9549,6 @@
           "name": "Vampire Spawn",
           "fieldPath": "items[lLAigtCvoIuj0TM9].system.description.value",
           "sourcePath": "monsters/undead/vampire-spawn.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "DDO9lDCDtNHkfShP",
-          "name": "Vampire",
-          "fieldPath": "items[BqG5guVa93LaOAn1].system.description.value",
-          "sourcePath": "monsters/undead/vampire.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "DDO9lDCDtNHkfShP",
-          "name": "Vampire",
-          "fieldPath": "items[BqG5guVa93LaOAn1].system.description.chat",
-          "sourcePath": "monsters/undead/vampire.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "DDO9lDCDtNHkfShP",
-          "name": "Vampire",
-          "fieldPath": "items[pVlKFunmE2qxO0pe].system.description.value",
-          "sourcePath": "monsters/undead/vampire.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "DDO9lDCDtNHkfShP",
-          "name": "Vampire",
-          "fieldPath": "items[siO3h9XOkgPVi78F].system.description.value",
-          "sourcePath": "monsters/undead/vampire.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "DDO9lDCDtNHkfShP",
-          "name": "Vampire",
-          "fieldPath": "items[jYBYvv9EF1UnOvqZ].system.description.value",
-          "sourcePath": "monsters/undead/vampire.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "DDO9lDCDtNHkfShP",
-          "name": "Vampire",
-          "fieldPath": "items[jYBYvv9EF1UnOvqZ].effects[v9TyI7sPX0W8vaOA].description",
-          "sourcePath": "monsters/undead/vampire.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "DDO9lDCDtNHkfShP",
-          "name": "Vampire",
-          "fieldPath": "items[uqHuj7Pjf2sjny21].system.description.value",
-          "sourcePath": "monsters/undead/vampire.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "DDO9lDCDtNHkfShP",
-          "name": "Vampire",
-          "fieldPath": "items[uqHuj7Pjf2sjny21].system.description.chat",
-          "sourcePath": "monsters/undead/vampire.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "DDO9lDCDtNHkfShP",
-          "name": "Vampire",
-          "fieldPath": "items[RHezeN7HzNf2oKYP].system.description.value",
-          "sourcePath": "monsters/undead/vampire.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "DDO9lDCDtNHkfShP",
-          "name": "Vampire",
-          "fieldPath": "items[RHezeN7HzNf2oKYP].system.description.chat",
-          "sourcePath": "monsters/undead/vampire.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "DDO9lDCDtNHkfShP",
-          "name": "Vampire",
-          "fieldPath": "items[RHezeN7HzNf2oKYP].effects[ybKYbruo2zldUDBj].description",
-          "sourcePath": "monsters/undead/vampire.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "DDO9lDCDtNHkfShP",
-          "name": "Vampire",
-          "fieldPath": "items[c9z4o0fkxq37v8KY].system.description.value",
-          "sourcePath": "monsters/undead/vampire.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "DDO9lDCDtNHkfShP",
-          "name": "Vampire",
-          "fieldPath": "items[c9z4o0fkxq37v8KY].system.description.chat",
-          "sourcePath": "monsters/undead/vampire.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "DDO9lDCDtNHkfShP",
-          "name": "Vampire",
-          "fieldPath": "items[c9z4o0fkxq37v8KY].system.activities.MEMqdbvq8fIu4T89.description.value",
-          "sourcePath": "monsters/undead/vampire.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "DDO9lDCDtNHkfShP",
-          "name": "Vampire",
-          "fieldPath": "items[o4v4mHxP82HTbIOX].system.description.value",
-          "sourcePath": "monsters/undead/vampire.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "DDO9lDCDtNHkfShP",
-          "name": "Vampire",
-          "fieldPath": "items[pW4iNTQphTJ3litv].system.description.value",
-          "sourcePath": "monsters/undead/vampire.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "DDO9lDCDtNHkfShP",
-          "name": "Vampire",
-          "fieldPath": "items[IlrCCTK8b6DmtjB2].system.description.value",
-          "sourcePath": "monsters/undead/vampire.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "DDO9lDCDtNHkfShP",
-          "name": "Vampire",
-          "fieldPath": "items[8Lluz633dVXNjygE].system.description.value",
-          "sourcePath": "monsters/undead/vampire.yml"
         },
         {
           "code": "missing-field",
