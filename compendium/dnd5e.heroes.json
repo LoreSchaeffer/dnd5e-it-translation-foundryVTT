@@ -1055,11 +1055,13 @@
             "hv2bcANK5jEJZaAb": {
               "hint": "Gli halfling sono alti in media circa 0,9 m e pesano circa 18 kg. La tua taglia è Piccola."
             }
-          }
+          },
+          "description": "<p>Il tuo personaggio halfling possiede alcuni tratti in comune con tutti gli altri halfling.</p><p><em><strong>Aumento dei Punteggi di Caratteristica.</strong></em> Il tuo punteggio di Destrezza aumenta di 2.</p><p><em><strong>Età.</strong></em> Un halfling raggiunge l'età adulta a 20 anni e generalmente vive fino alla metà del suo secondo secolo.</p><p><em><strong>Allineamento.</strong></em> La maggior parte degli halfling è legale buona. Di norma sono creature di buon cuore e gentili, detestano vedere gli altri soffrire e non tollerano l'oppressione. Sono anche molto ordinati e tradizionalisti e fanno grande affidamento sul sostegno della loro comunità e sul conforto delle loro antiche usanze.</p><p><em><strong>Taglia.</strong></em> Gli halfling sono alti in media circa 90 centimetri e pesano circa 20 kg. La tua taglia è Piccola.</p><p><em><strong>Velocità.</strong></em> La tua velocità base sul terreno è di 7,5 metri.</p><p><em><strong>Fortunato.</strong></em> Quando ottieni un 1 al tiro del d20 per un tiro per colpire, una prova di caratteristica o un tiro salvezza, puoi ripetere il tiro del dado e devi usare il nuovo risultato.</p><p><em><strong>Coraggioso.</strong></em> Disponi di vantaggio ai tiri salvezza contro la condizione spaventato.</p><p><em><strong>Agilità Halfling.</strong></em> Puoi muoverti attraverso lo spazio di qualsiasi creatura di una taglia superiore alla tua.</p><p><em><strong>Linguaggi.</strong></em> Sai parlare, leggere e scrivere in Comune e Halfling. Il linguaggio Halfling non è segreto, ma gli halfling sono restii a condividerlo con gli altri. Scrivono molto poco, quindi non possiedono un ricco patrimonio letterario. La loro tradizione orale, tuttavia, è molto solida. Quasi tutti gli halfling parlano il Comune per conversare con gli abitanti delle terre in cui vivono o che attraversano nei loro viaggi.</p><h5>Piedelesto</h5><p>Come halfling piedelesto, puoi facilmente sottrarti all'attenzione altrui, usando perfino le altre persone come copertura. Tendi a essere affabile e ad andare d'accordo con gli altri.</p><p>I piedelesti sono più inclini alla brama di viaggiare rispetto agli altri halfling e spesso vivono accanto ad altre razze o conducono una vita nomade.</p><p><em><strong>Aumento dei Punteggi di Caratteristica.</strong></em> Il tuo punteggio di Carisma aumenta di 1.</p><p><em><strong>Furtività Innata.</strong></em> Puoi tentare di nasconderti anche quando sei oscurato soltanto da una creatura di almeno una taglia superiore alla tua.</p>"
         },
         "yKdzupRNhbtpQNyd": {
           "name": "Fortunato",
-          "requirements": "Halfling"
+          "requirements": "Halfling",
+          "description": "<p>Quando ottieni un 1 al tiro del d20 per un tiro per colpire, una prova di caratteristica o un tiro salvezza, puoi ripetere il tiro del dado e devi usare il nuovo risultato.</p><section class=\"secret foundry-note\" id=\"secret-S04TPyvUh05Dz0Ng\"><p><strong>Nota di Foundry</strong></p><p>Questa proprietà può essere abilitata sulla scheda del personaggio nella configurazione dei Tratti Speciali della scheda Attributi.</p></section>"
         },
         "pu50e2QGn8RAy1iw": {
           "description": "<p>Hai vantaggio sui tiri salvezza contro l’essere spaventato.</p>",
@@ -1068,7 +1070,8 @@
         },
         "cKdkwiXbwp1VVT9a": {
           "name": "Furtività Innata",
-          "requirements": "Halfling Piedelesto"
+          "requirements": "Halfling Piedelesto",
+          "description": "<p>Puoi tentare di nasconderti anche quando sei oscurato soltanto da una creatura di almeno una taglia superiore alla tua.</p>"
         },
         "8q7gahMalAbKTx4Y": {
           "name": "Barbaro",
@@ -1193,7 +1196,8 @@
           "requirements": "Halfling"
         },
         "XIVdS0HZI5lOG5bx": {
-          "name": "Giustiziere"
+          "name": "Giustiziere",
+          "description": "<ul><li><strong>Competenze nelle Abilità:</strong> Intuizione, Indagare, Percezione</li><li><strong>Equipaggiamento:</strong> Dotazione da esploratore, 2 mo</li></ul>"
         }
       },
       "details": {

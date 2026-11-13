@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1777,
+      "translated": 1778,
       "missing": 69,
-      "partial": 545,
+      "partial": 544,
       "review": 69
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 10024,
-      "missing": 5636,
+      "translated": 10028,
+      "missing": 5632,
       "invariantFailures": 853,
       "englishResiduals": 71,
       "imperialResiduals": 0
     },
-    "blockingIssues": 6497
+    "blockingIssues": 6493
   },
   "packs": [
     {
@@ -143,9 +143,9 @@
       "summary": {
         "documents": {
           "total": 12,
-          "translated": 4,
+          "translated": 5,
           "missing": 0,
-          "partial": 8,
+          "partial": 7,
           "review": 0
         },
         "folders": {
@@ -157,50 +157,14 @@
         },
         "fields": {
           "total": 1165,
-          "translated": 1132,
-          "missing": 33,
+          "translated": 1136,
+          "missing": 29,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "irWonyO6ZLh47sN7",
-          "name": "Merric (Halfling Barbarian)",
-          "fieldPath": "items[XIVdS0HZI5lOG5bx].system.description.value",
-          "sourcePath": "heroes/merric-halfling-barbarian.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "irWonyO6ZLh47sN7",
-          "name": "Merric (Halfling Barbarian)",
-          "fieldPath": "items[RGZjddjd3HbR39wD].system.description.value",
-          "sourcePath": "heroes/merric-halfling-barbarian.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "irWonyO6ZLh47sN7",
-          "name": "Merric (Halfling Barbarian)",
-          "fieldPath": "items[yKdzupRNhbtpQNyd].system.description.value",
-          "sourcePath": "heroes/merric-halfling-barbarian.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "irWonyO6ZLh47sN7",
-          "name": "Merric (Halfling Barbarian)",
-          "fieldPath": "items[cKdkwiXbwp1VVT9a].system.description.value",
-          "sourcePath": "heroes/merric-halfling-barbarian.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
