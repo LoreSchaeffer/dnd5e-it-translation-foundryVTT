@@ -14118,10 +14118,14 @@
           "name": "Morso",
           "activities": {
             "S1TZRRMFWCsEQWHy": {
-              "name": "Tiro Salvezza contro il Veleno"
+              "name": "Tiro Salvezza contro il Veleno",
+              "description": {
+                "value": "<p>Il bersaglio deve effettuare un tiro salvezza [[/save]], subendo [[/damage average activity=S1TZRRMFWCsEQWHy]] danni se lo fallisce, oppure la metà di quei danni se lo supera.</p>"
+              }
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio deve effettuare un tiro salvezza su Costituzione.</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio deve effettuare un tiro salvezza su Costituzione.</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il bersaglio deve effettuare un tiro salvezza [[/save]], subendo [[/damage average activity=S1TZRRMFWCsEQWHy]] danni se lo fallisce, oppure la metà di quei danni se lo supera.</p>"
         }
       },
       "details": {

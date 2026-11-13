@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2163,
+      "translated": 2164,
       "missing": 3,
-      "partial": 225,
+      "partial": 224,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14235,
-      "missing": 1425,
+      "translated": 14237,
+      "missing": 1423,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1430
+    "blockingIssues": 1428
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 128,
+          "translated": 129,
           "missing": 0,
-          "partial": 209,
+          "partial": 208,
           "review": 0
         },
         "folders": {
@@ -578,32 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6419,
-          "missing": 687,
+          "translated": 6421,
+          "missing": 685,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ZW39DE2zI3TXVYC9",
-          "name": "Giant Poisonous Snake",
-          "fieldPath": "items[GlOJaYXJFUP0Hd80].system.description.value",
-          "sourcePath": "monsters/beast/giant-poisonous-snake.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ZW39DE2zI3TXVYC9",
-          "name": "Giant Poisonous Snake",
-          "fieldPath": "items[GlOJaYXJFUP0Hd80].system.activities.S1TZRRMFWCsEQWHy.description.value",
-          "sourcePath": "monsters/beast/giant-poisonous-snake.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
