@@ -13225,7 +13225,8 @@
               "name": "Tiro Salvezza contro la Carica"
             }
           },
-          "chat": "<p>Se il cinghiale si muove di almeno 6 m in linea retta verso un bersaglio e poi lo colpisce con un attacco di zanna nello stesso turno, il bersaglio subisce <em>danni taglienti</em> extra. Se il bersaglio è una creatura, deve effettuare un tiro salvezza su <strong>Forza</strong>, altrimenti cade a terra prono.</p>"
+          "chat": "<p>Se il cinghiale si muove di almeno 6 m in linea retta verso un bersaglio e poi lo colpisce con un attacco di zanna nello stesso turno, il bersaglio subisce <em>danni taglienti</em> extra. Se il bersaglio è una creatura, deve effettuare un tiro salvezza su <strong>Forza</strong>, altrimenti cade a terra prono.</p>",
+          "description": "<p>Se il [[lookup @name lowercase]]{mostro} si muove di almeno 6 metri in linea retta verso un bersaglio e poi lo colpisce con un attacco di @UUID[Compendium.dnd5e.monsters.Actor.SBCe2BSa6opTS5M4.Item.uFv78t6CwySS1gio]{incornata} nello stesso turno, il bersaglio subisce [[/damage average]] danni extra.</p><p>Se il bersaglio è una creatura, deve superare un tiro salvezza [[/save]] o cadere &amp;Reference[prone].</p>"
         },
         "uFv78t6CwySS1gio": {
           "name": "Incornata",

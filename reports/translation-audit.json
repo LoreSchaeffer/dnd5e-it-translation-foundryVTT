@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2182,
+      "translated": 2183,
       "missing": 3,
-      "partial": 206,
+      "partial": 205,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14279,
-      "missing": 1381,
+      "translated": 14280,
+      "missing": 1380,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1386
+    "blockingIssues": 1385
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 147,
+          "translated": 148,
           "missing": 0,
-          "partial": 190,
+          "partial": 189,
           "review": 0
         },
         "folders": {
@@ -578,23 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6463,
-          "missing": 643,
+          "translated": 6464,
+          "missing": 642,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "SBCe2BSa6opTS5M4",
-          "name": "Rhinoceros",
-          "fieldPath": "items[vVxV62ZM3EEkz4KX].system.description.value",
-          "sourcePath": "monsters/beast/rhinoceros.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
