@@ -15155,13 +15155,16 @@
               "description": "<p>Ti sei trasformato nella tua vera forma, che è umanoide.</p>"
             },
             "VZawf4dtCwePtOVj": {
-              "name": "Forma Ibrida"
+              "name": "Forma Ibrida",
+              "description": "<p>Ti sei trasformato nella tua forma ibrida, un ibrido tigre-umanoide.</p>"
             },
             "ccSXFTdE7hqm9aaX": {
-              "name": "Forma di Tigre"
+              "name": "Forma di Tigre",
+              "description": "<p>Ti sei trasformato nella tua forma di tigre.</p>"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} può usare la propria azione per trasformarsi o tornare alla sua vera forma.</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} può usare la propria azione per trasformarsi o tornare alla sua vera forma.</p>",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} può usare la propria azione per trasformarsi in un ibrido tigre-umanoide o in una tigre, oppure per tornare alla propria forma autentica, che è umanoide.</p><p>Le sue statistiche, a eccezione della taglia, sono le stesse in ogni forma. L'equipaggiamento che indossa o trasporta non viene trasformato. Se muore, torna alla propria forma autentica.</p>"
         },
         "jW4qHQ761qRLeWM8": {
           "effects": {
@@ -15175,11 +15178,14 @@
             "nYBic2ohsKRdFIMK": {
               "name": "Tiro Salvezza contro il Balzo"
             }
-          }
+          },
+          "description": "<p>Se il [[lookup @name lowercase]]{mostro} si muove di almeno 4,5 metri in linea retta verso una creatura e poi la colpisce con un attacco con [[/item .HPmjVRKpG08bgohb]]{Artiglio} nello stesso turno, quel bersaglio deve superare un tiro salvezza [[/save]], altrimenti cade &amp;Reference[prone]. Se il bersaglio è prono, il [[lookup @name lowercase]]{mostro} può effettuare un attacco con [[/item .FOkSL18gU0Sli5ZA]]{Morso} contro di esso come azione bonus.</p>",
+          "chat": "<p>Se il [[lookup @name]]{mostro} si muove di almeno 4,5 metri in linea retta verso una creatura e poi la colpisce con un attacco con l'Artiglio nello stesso turno, quel bersaglio deve effettuare un tiro salvezza su Forza, altrimenti cade &amp;reference[prone].</p>"
         },
         "SmUCt79LtakgTJoa": {
           "requirements": "Forma Umanoide o Ibrida",
-          "name": "Multiattacco (Solo in Forma Umanoide o Ibrida)"
+          "name": "Multiattacco (Solo in Forma Umanoide o Ibrida)",
+          "description": "<p>In forma umanoide, il [[lookup @name lowercase]]{mostro} effettua due attacchi con la [[/item .vtnEGCOptmp2bcqG]]{scimitarra} o due attacchi con l'[[/item .onmNGMiE4AyvYxDQ]]{arco lungo}.</p><p>In forma ibrida, può attaccare come un umanoide o effettuare due attacchi con l'[[/item .HPmjVRKpG08bgohb]]{artiglio}.</p>"
         },
         "2iPYXoxM2ZReuhSL": {
           "name": "Udito e Olfatto Acuti",
@@ -15197,7 +15203,8 @@
           },
           "effects": {
             "9AM2lvhRgSUciyvg": {
-              "name": "Licantropia della Tigre Mannara"
+              "name": "Licantropia della Tigre Mannara",
+              "description": "<p>Sei stato maledetto dalla licantropia della tigre mannara.</p>"
             }
           },
           "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio Morso. Se il bersaglio è un umanoide, deve effettuare un tiro salvezza su Costituzione.</p>",
@@ -15210,11 +15217,13 @@
         },
         "vtnEGCOptmp2bcqG": {
           "name": "Scimitarra (Solo in Forma Umanoide o Ibrida)",
-          "description": "<p>[[/attack extended]]. [[/damage extended]].</p>"
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con la propria Scimitarra.</p>"
         },
         "onmNGMiE4AyvYxDQ": {
           "name": "Arco Lungo (Solo in Forma Umanoide o Ibrida)",
-          "description": "<p>[[/attack extended]]. [[/damage extended]].</p>"
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio Arco Lungo.</p>"
         }
       },
       "details": {
