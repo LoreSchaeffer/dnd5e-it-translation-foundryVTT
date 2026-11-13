@@ -6,7 +6,7 @@
 | classes | 12 | 12 | 0 | 0 | 0 | 0 | 0 |
 | classfeatures | 235 | 235 | 0 | 0 | 0 | 0 | 0 |
 | effects | 214 | 214 | 0 | 0 | 0 | 0 | 0 |
-| heroes | 12 | 9 | 0 | 3 | 0 | 17 | 17 |
+| heroes | 12 | 10 | 0 | 2 | 0 | 15 | 15 |
 | items | 885 | 885 | 0 | 0 | 0 | 0 | 48 |
 | monsterfeatures | 252 | 0 | 61 | 191 | 0 | 132 | 753 |
 | monsters | 337 | 2 | 5 | 330 | 15 | 4733 | 4968 |
@@ -17,12 +17,10 @@
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 6481
+Total blocking issues: 6479
 
 ## Issues
 
-- **missing-field** `heroes:bzlxBO5km3zCQA8G:items[kLWeji1tfubIJvfT].system.description.value`
-- **missing-field** `heroes:bzlxBO5km3zCQA8G:items[NvLVKDjXT1tPk6r4].system.description.value`
 - **missing-field** `heroes:Jw8DeuPjt1qpusdB:items[8uFLMKLwRO7Y5Xl2].system.description.value`
 - **missing-field** `heroes:Jw8DeuPjt1qpusdB:items[HXPw0uc6V7RW9aUv].system.description.value`
 - **missing-field** `heroes:Jw8DeuPjt1qpusdB:items[Tdogp6mS8Fnea1Th].system.description.value`

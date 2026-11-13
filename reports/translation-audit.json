@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1782,
+      "translated": 1783,
       "missing": 69,
-      "partial": 540,
+      "partial": 539,
       "review": 69
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 10040,
-      "missing": 5620,
+      "translated": 10042,
+      "missing": 5618,
       "invariantFailures": 853,
       "englishResiduals": 71,
       "imperialResiduals": 0
     },
-    "blockingIssues": 6481
+    "blockingIssues": 6479
   },
   "packs": [
     {
@@ -143,9 +143,9 @@
       "summary": {
         "documents": {
           "total": 12,
-          "translated": 9,
+          "translated": 10,
           "missing": 0,
-          "partial": 3,
+          "partial": 2,
           "review": 0
         },
         "folders": {
@@ -157,32 +157,14 @@
         },
         "fields": {
           "total": 1165,
-          "translated": 1148,
-          "missing": 17,
+          "translated": 1150,
+          "missing": 15,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "bzlxBO5km3zCQA8G",
-          "name": "Riswynn (Dwarf Rogue)",
-          "fieldPath": "items[kLWeji1tfubIJvfT].system.description.value",
-          "sourcePath": "heroes/riswynn-dwarf-rogue.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "bzlxBO5km3zCQA8G",
-          "name": "Riswynn (Dwarf Rogue)",
-          "fieldPath": "items[NvLVKDjXT1tPk6r4].system.description.value",
-          "sourcePath": "heroes/riswynn-dwarf-rogue.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
