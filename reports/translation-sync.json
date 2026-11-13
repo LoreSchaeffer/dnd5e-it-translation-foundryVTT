@@ -6583,6 +6583,14 @@
         },
         {
           "pack": "items",
+          "id": "l3V7V8VCXpmAAysQ",
+          "name": "Staff of the Magi",
+          "sourcePath": "items/weapon/staff-of-the-magi.yml",
+          "lookupKey": "Staff of the Magi",
+          "matchedLookupKey": "Staff of the Magi"
+        },
+        {
+          "pack": "items",
           "id": "MOeFq5MLAQzVQC7z",
           "name": "Staff of the Python",
           "sourcePath": "items/weapon/staff-of-the-python.yml",
@@ -7079,43 +7087,7 @@
         }
       ],
       "needsTranslation": [],
-      "manualReview": [
-        {
-          "pack": "items",
-          "id": "l3V7V8VCXpmAAysQ",
-          "name": "Staff of the Magi",
-          "sourcePath": "items/weapon/staff-of-the-magi.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Staff of the Magi",
-          "matchedLookupKey": "Staff of the Magi",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "l3V7V8VCXpmAAysQ",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "l3V7V8VCXpmAAysQ",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-references",
-              "severity": "blocking",
-              "message": "Foundry reference targets or order differ from source",
-              "pack": "items",
-              "id": "l3V7V8VCXpmAAysQ",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        }
-      ]
+      "manualReview": []
     }
   ]
 }

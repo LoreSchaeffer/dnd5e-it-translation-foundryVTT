@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1772,
+      "translated": 1773,
       "missing": 69,
-      "partial": 550,
+      "partial": 549,
       "review": 70
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 950,
+      "invariantFailures": 947,
       "englishResiduals": 72,
       "imperialResiduals": 0
     },
-    "blockingIssues": 7105
+    "blockingIssues": 7102
   },
   "packs": [
     {
@@ -5317,9 +5317,9 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 884,
+          "translated": 885,
           "missing": 0,
-          "partial": 1,
+          "partial": 0,
           "review": 0
         },
         "folders": {
@@ -5333,42 +5333,12 @@
           "total": 2227,
           "translated": 2227,
           "missing": 0,
-          "invariantFailures": 3,
+          "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "l3V7V8VCXpmAAysQ",
-          "fieldPath": "system.description.value",
-          "name": "Staff of the Magi",
-          "sourcePath": "items/weapon/staff-of-the-magi.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "l3V7V8VCXpmAAysQ",
-          "fieldPath": "system.description.value",
-          "name": "Staff of the Magi",
-          "sourcePath": "items/weapon/staff-of-the-magi.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "l3V7V8VCXpmAAysQ",
-          "fieldPath": "system.description.value",
-          "name": "Staff of the Magi",
-          "sourcePath": "items/weapon/staff-of-the-magi.yml"
-        },
         {
           "code": "extra-entry",
           "severity": "blocking",

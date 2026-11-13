@@ -7,7 +7,7 @@
 | classfeatures | 235 | 235 | 0 | 0 | 0 | 0 | 0 |
 | effects | 214 | 214 | 0 | 0 | 0 | 0 | 0 |
 | heroes | 12 | 0 | 0 | 12 | 0 | 466 | 561 |
-| items | 885 | 884 | 0 | 1 | 0 | 0 | 51 |
+| items | 885 | 885 | 0 | 0 | 0 | 0 | 48 |
 | monsterfeatures | 252 | 0 | 61 | 191 | 0 | 132 | 753 |
 | monsters | 337 | 2 | 5 | 330 | 15 | 4810 | 5045 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
@@ -17,7 +17,7 @@
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 7105
+Total blocking issues: 7102
 
 ## Issues
 
@@ -582,9 +582,6 @@ Total blocking issues: 7105
 - **missing-field** `heroes:4Jsv5vYaJ1atUEDV:items[KswTUmrH37e6GsUI].system.description.value`
 - **missing-field** `heroes:4Jsv5vYaJ1atUEDV:items[KswTUmrH37e6GsUI].effects[6pbotGIvqQkraPva].name`
 - **missing-field** `heroes:4Jsv5vYaJ1atUEDV:items[KswTUmrH37e6GsUI].effects[6pbotGIvqQkraPva].description`
-- **html-tag-sequence** `items:l3V7V8VCXpmAAysQ:system.description.value`
-- **html-attributes** `items:l3V7V8VCXpmAAysQ:system.description.value`
-- **foundry-references** `items:l3V7V8VCXpmAAysQ:system.description.value`
 - **extra-entry** `items:Amulet of Proof Against Detection and Location`
 - **extra-entry** `items:Arrows`
 - **extra-entry** `items:Boots of Springing and Striding`
