@@ -446,7 +446,7 @@
     },
     "Legendary Actions": {
       "name": "Azioni Leggendarie",
-      "description": "<p>L'&lt;creature&gt; può effettuare 3 azioni leggendarie, scelte tra le opzioni sottostanti. Può usare solo un’opzione di azione leggendaria alla volta e solo alla fine del turno di un'altra creatura. All'inizio del proprio turno, &lt;creature&gt; recupera le azioni leggendarie spese.</p>"
+      "description": "<section class=\"secret\">\n<p>Il [[lookup @name lowercase]]{mostro} può effettuare 3 azioni leggendarie. Può usare una sola opzione di azione leggendaria alla volta e soltanto alla fine del turno di un'altra creatura. Il [[lookup @name lowercase]]{mostro} recupera le azioni leggendarie spese all'inizio del proprio turno.</p>\n</section>\n<p>Il [[lookup @name lowercase]]{mostro} può effettuare 3 azioni leggendarie.</p>"
     },
     "Legendary Resistance": {
       "name": "Resistenza Leggendaria",
@@ -459,27 +459,27 @@
     },
     "Light Sensitivity": {
       "name": "Sensibilità alla Luce del Sole",
-      "description": "<p>Finché è esposto alla luce del sole, &lt;creature&gt; subisce svantaggio ai tiri per colpire, oltre che alle prove di Saggezza (Percezione) basate sulla vista.</p>"
+      "description": "<p>Finché si trova in luce intensa, il [[lookup @name lowercase]]{mostro} subisce<strong> svantaggio </strong>ai tiri per colpire e alle prove di Saggezza (Percezione) basate sulla vista.</p>"
     },
     "Lightning Absorption": {
       "name": "Assorbimento del Fulmine",
-      "description": "<p>Ogni volta che il &lt;creature&gt; è soggetto a danni da fulmine, non subisce danni e recupera invece un numero di punti ferita pari ai danni da fulmine inflitti.</p>"
+      "description": "<p>Ogni volta che il [[lookup @name lowercase]]{mostro} è soggetto a <strong><em>danni da fulmine</em></strong>, non subisce alcun danno e recupera invece un numero di<strong> punti ferita</strong> pari ai <strong><em>danni da fulmine</em> inflitti</strong>.</p>"
     },
     "Lightning Breath": {
       "name": "Soffio di Fulmini",
-      "description": "<p>La &lt;creature&gt; esala fulmini in una <strong>linea di 9 metri</strong> larga <strong>1,5 metri</strong>. Ogni creatura su quella linea deve effettuare un <strong>tiro salvezza su Destrezza con CD 12</strong>, subendo <strong>22 ([[/r 4d10]]) danni da fulmine</strong> se lo fallisce, o la metà dei danni se lo supera.</p>"
+      "description": "<section class=\"secret\"><p>Il [[lookup @details.type.config.label lowercase]]{mostro} esala fulmini in una linea lunga 27 metri e larga 1,5 m. Ogni creatura su quella linea deve effettuare un tiro salvezza su <strong>Destrezza con CD 19</strong>; se lo fallisce, subisce <strong>66 (12d10) danni <em>da fulmine</em></strong>, mentre se lo supera subisce la metà di quei danni.</p><p></p></section><p>Il [[lookup @details.type.config.label lowercase]]{mostro} esala fulmini in una linea lunga 27 metri e larga 1,5 m. Ogni creatura su quella linea deve effettuare un tiro salvezza su <strong>Destrezza</strong>.</p>"
     },
     "Limited Telepathy": {
       "name": "Telepatia Limitata",
-      "description": "<p>&lt;creature&gt; può trasmettere telepaticamente idee, emozioni e immagini semplici a qualsiasi creatura situata entro 36 metri da lui e che sia in grado di comprendere un linguaggio.</p>"
+      "description": "<p>Il [[lookup @name lowercase]]{mostro} può trasmettere magicamente messaggi e immagini semplici a qualsiasi creatura entro <strong>36 m</strong> da lui che possa comprendere un linguaggio. Questa forma di telepatia non consente alla creatura ricevente di rispondere telepaticamente.</p>"
     },
     "Luring Song": {
       "name": "Canto Seducente",
-      "description": "<p>&lt;creature&gt; intona una melodia magica. Ogni umanoide e gigante situato entro 90 metri da &lt;creature&gt; e che sia in grado di udire il canto deve superare un tiro salvezza su Saggezza con CD 11, altrimenti è affascinato finché il canto non termina. &lt;creature&gt; deve effettuare un’azione bonus nei suoi turni successivi per continuare a cantare, ma può smettere di cantare in qualsiasi momento. Se &lt;creature&gt; è incapacitata, il canto termina. Finché è affascinato dal &lt;creature&gt;, un bersaglio è incapacitato e ignora i canti delle altre arpie. Se il bersaglio affascinato si trova a più di 1,5 metri di distanza dal &lt;creature&gt;, esso deve muoversi nel proprio turno verso &lt;creature&gt; seguendo il percorso più diretto e cercando di giungere entro 1,5 metri, il bersaglio non evita gli attacchi di opportunità, ma prima di muoversi su un terreno pericoloso (come per esempio un lago di lava o una fossa) e qualora subisca danni da una fonte diversa dal &lt;creature&gt;, può ripetere il tiro salvezza. Un bersaglio affascinato può ripetere il tiro salvezza alla fine di ogni suo turno. Se lo supera, l’effetto per lui termina. Un bersaglio che supera il tiro salvezza è immune al canto di questa &lt;creature&gt; per le 24 ore successive.</p>"
+      "description": "<section class=\"secret\">\n<p>Il [[lookup @name lowercase]]{mostro} intona una melodia magica. Ogni umanoide e gigante entro 90 m dal [[lookup @name lowercase]]{mostro} che può udire il canto deve superare un tiro salvezza su <strong>Saggezza con CD 11</strong>, altrimenti è affascinato finché il canto non termina. Il [[lookup @name lowercase]]{mostro} deve usare un'azione bonus nei propri turni successivi per continuare a cantare. Può smettere di cantare in qualsiasi momento. Il canto termina se il [[lookup @name lowercase]]{mostro} è incapacitato.</p><p>Finché è affascinato dal [[lookup @name lowercase]]{mostro}, un bersaglio è incapacitato e ignora i canti delle altre arpie. Se il bersaglio affascinato si trova a più di 1,5 metri dal [[lookup @name lowercase]]{mostro}, nel proprio turno deve muoversi verso il [[lookup @name lowercase]]{mostro} seguendo il percorso più diretto, cercando di arrivare entro 1,5 metri. Non evita gli attacchi di opportunità, ma prima di muoversi su un terreno pericoloso, come lava o una fossa, e ogni volta che subisce danni da una fonte diversa dal [[lookup @name lowercase]]{mostro}, il bersaglio può ripetere il tiro salvezza. Un bersaglio affascinato può ripetere il tiro salvezza anche alla fine di ciascun proprio turno. Se lo supera, l'effetto su di lui termina.</p><p>Un bersaglio che supera il tiro salvezza è immune al canto di questo [[lookup @name lowercase]]{mostro} per le 24 ore successive.</p>\n</section>\n<p>Il [[lookup @name lowercase]]{mostro} intona una melodia magica. Ogni umanoide e gigante entro 90 m dal [[lookup @name lowercase]]{mostro} che può udire il canto deve effettuare un tiro salvezza su <strong>Saggezza</strong>. Una creatura può ripetere il tiro salvezza anche alla fine di ciascun proprio turno.</p>"
     },
     "Magic Resistance": {
       "name": "Resistenza Magica",
-      "description": "<p>Il &lt;creature&gt; dispone di vantaggio ai tiri salvezza contro incantesimi e altri effetti magici.</p>"
+      "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di<strong> vantaggio </strong>ai tiri salvezza contro incantesimi e altri effetti magici.</p>"
     },
     "Magic Weapons": {
       "name": "Armi Magiche",
@@ -487,11 +487,11 @@
     },
     "Martial Advantage": {
       "name": "Vantaggio Marziale",
-      "description": "<p>Una volta per turno, &lt;creature&gt; può infliggere 7&nbsp;<strong>([[/r 2d6]])</strong> danni extra a una creatura che colpisce con un attacco con arma, se quella creatura si trova entro 1,5 metri da un alleato dell' &lt;creature&gt; che non sia Incapacitato.</p>"
+      "description": "<section class=\"secret\"><p>Una volta per turno, il [[lookup @name lowercase]]{mostro} può infliggere 7 (2d6) danni extra a una creatura che colpisce con un attacco con arma se quella creatura si trova entro 1,5 m da un alleato del [[lookup @name lowercase]]{mostro} che non sia incapacitato.</p><p></p></section><p>Una volta per turno, il [[lookup @name lowercase]]{mostro} può infliggere danni extra a una creatura che colpisce con un attacco con arma se quella creatura si trova entro 1,5 m da un alleato del [[lookup @name lowercase]]{mostro} che non sia incapacitato.</p>"
     },
     "Moan": {
       "name": "Gemito",
-      "description": "<p>Ogni creatura entro 18 metri dal &lt;creature&gt; che possa sentire il suo gemito e che non sia un'aberrazione deve superare un tiro salvezza su Saggezza con CD 13, altrimenti è spaventata fino alla fine del turno successivo del &lt;creature&gt;. Se la creatura supera il tiro salvezza, è immune al gemito del &lt;creature&gt;&nbsp;per le 24 ore successive.</p>"
+      "description": "<section class=\"secret\"><p>Ogni creatura entro 18 metri dal [[lookup @name lowercase]]{mostro} che può udire il suo gemito e che non sia un [[lookup @details.type.config.label lowercase]]{mostro} deve superare un tiro salvezza su <strong>Saggezza con CD 13</strong>, altrimenti diventa spaventata fino alla fine del turno successivo del [[lookup @name lowercase]]{mostro}. </p><p>Se una creatura supera il tiro salvezza, è immune al gemito del [[lookup @name lowercase]]{mostro} per le 24 ore successive.</p></section><p>Ogni creatura entro 18 metri dal [[lookup @name lowercase]]{mostro} che può udire il suo gemito e che non sia un [[lookup @details.type.config.label lowercase]]{mostro} deve effettuare un tiro salvezza su <strong>Saggezza</strong>.</p>"
     },
     "Multiattack": {
       "name": "Multiattacco",
@@ -733,7 +733,7 @@
     },
     "Mimicry": {
       "name": "Imitare",
-      "description": "<p>Il &lt;creature&gt; può imitare qualsiasi suono abbia sentito, incluse le voci. Una creatura che sente il suono può capire che si tratta di un’imitazione effettuando con successo una prova di Saggezza (Intuizione) con CD 14.</p>"
+      "description": "<section class=\"secret\">\n<p>Il [[lookup @name lowercase]]{mostro} può imitare versi di animali e voci umanoidi. Una creatura che ode i suoni può riconoscerli come imitazioni superando una <strong>prova di Saggezza (Intuizione) con CD 14</strong>.</p>\n</section>\n<p>Il [[lookup @name lowercase]]{mostro} può imitare versi di animali e voci umanoidi. Una creatura che ode i suoni può riconoscerli come imitazioni superando una prova di Saggezza (Intuizione).</p>"
     },
     "Tail": {
       "name": "Coda",
