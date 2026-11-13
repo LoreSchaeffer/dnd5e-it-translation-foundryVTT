@@ -207,7 +207,8 @@
       },
       "items": {
         "Q90HYHsZp8MD2iv2": {
-          "name": "Falso Aspetto"
+          "name": "Falso Aspetto",
+          "description": "<p>Finché il [[lookup @name lowercase]]{mostro} rimane immobile, è indistinguibile da un normale albero.</p>"
         },
         "WEesSpitzLnaCknL": {
           "name": "Schianto",
@@ -748,7 +749,8 @@
             "hZlZMpOIJOexfrmA": {
               "name": "Dissolto"
             }
-          }
+          },
+          "chat": "<p>L'armatura è incapacitata finché si trova nell'area di un campo antimagia.</p>"
         },
         "Kwed9PPaTkZYr8Jh": {
           "name": "Falso Aspetto",
@@ -989,7 +991,9 @@
           "description": "<p>Una creatura che tocca il [[lookup @name lowercase]]{mostro} o lo colpisce con un attacco in mischia mentre si trova entro 1,5 metri da esso subisce [[/damage average]] danni.</p>"
         },
         "WRygAnkpMeaqiw70": {
-          "name": "Armi Surriscaldate"
+          "name": "Armi Surriscaldate",
+          "description": "<p>Quando il [[lookup @name lowercase]]{mostro} colpisce con un'arma da mischia di metallo, infligge 3 (1d6) danni da fuoco extra (inclusi nell'attacco).</p>",
+          "chat": "<p>Quando il [[lookup @name]]{mostro} colpisce con un'arma da mischia di metallo, infligge danni da fuoco extra (inclusi nell'attacco).</p>"
         },
         "oPddwb4BScCEDanp": {
           "name": "Illuminazione",
@@ -997,7 +1001,8 @@
         },
         "YvzdCGQeCV1XOcUt": {
           "name": "Martello da Guerra",
-          "chat": "<section></section><p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
+          "chat": "<section></section><p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]], oppure [[/damage average attackMode=twoHanded]] se usata a due mani per effettuare un attacco in mischia.</p>"
         }
       },
       "details": {
@@ -1185,7 +1190,10 @@
           "name": "Inghiottire",
           "activities": {
             "JiBTCgEtAZs60k7R": {
-              "name": "Danni da Digestione a Inizio Turno"
+              "name": "Danni da Digestione a Inizio Turno",
+              "description": {
+                "value": "<p>Una creatura inghiottita subisce [[/damage average activity=JiBTCgEtAZs60k7R]] danni all'inizio di ciascun turno del [[lookup @name lowercase]]{mostro}.</p>"
+              }
             },
             "CfImu0j0eosWKdUO": {
               "name": "Inghiottire Creatura"
@@ -1230,7 +1238,8 @@
           "description": "<p>All’inizio del suo turno, il [[lookup @name lowercase]]{monster} può ottenere vantaggio a tutti i tiri per colpire con le armi da mischia che effettua in quel turno, ma i tiri per colpire contro di lui dispongono di vantaggio fino all'inizio del suo turno successivo.</p>",
           "effects": {
             "WqXUqzRbXoMjF2MJ": {
-              "name": "Avventato"
+              "name": "Avventato",
+              "description": "<p>I tiri per colpire contro di esso dispongono di vantaggio fino all'inizio del suo turno successivo.</p>"
             },
             "mc0qfRRq1rZXrJbi": {
               "name": "Avventato"
@@ -1315,7 +1324,8 @@
         },
         "xwZYlJUYOv2J044p": {
           "name": "Giavellotto",
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]] in mischia oppure [[/damage 1d6 + 2 piercing average]] a distanza.</p>"
         },
         "0ZKRgrkQppv6MYIq": {
           "name": "Morning Star",
@@ -1619,7 +1629,8 @@
           "chat": "<p>Il [[lookup @name lowercase]]{mostro} aggiunge 2 alla propria CA contro un attacco in mischia che altrimenti lo colpirebbe.</p>"
         },
         "Wrwg1LB1KnCQHuuH": {
-          "name": "Coraggioso"
+          "name": "Coraggioso",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di vantaggio ai tiri salvezza contro la condizione &amp;reference[Frightened apply=false].</p>"
         }
       },
       "details": {
@@ -2041,7 +2052,10 @@
           "name": "Zanne (Solo in Forma di Cinghiale o Ibrida)",
           "activities": {
             "ysQCwP14cafjjzVo": {
-              "name": "Tiro Salvezza contro la Maledizione"
+              "name": "Tiro Salvezza contro la Maledizione",
+              "description": {
+                "value": "<p>Se il bersaglio è un umanoide, deve superare un tiro salvezza [[/save]], altrimenti viene maledetto dalla licantropia del cinghiale mannaro.</p>"
+              }
             }
           },
           "effects": {
@@ -2139,7 +2153,8 @@
               "name": "Tiro Salvezza contro Prono"
             }
           },
-          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio è una creatura, deve superare un tiro salvezza [[/save]], altrimenti cade &amp;Reference[prone].</p>"
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio è una creatura, deve superare un tiro salvezza [[/save]], altrimenti cade &amp;Reference[prone].</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Se il bersaglio è una creatura, deve effettuare un tiro salvezza su Forza.</p>"
         }
       },
       "details": {
@@ -2608,7 +2623,8 @@
           }
         },
         "GFYzWSyeuW9O4a0I": {
-          "name": "Scagliare Fiamma"
+          "name": "Scagliare Fiamma",
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio è un oggetto infiammabile che non è indossato né trasportato, prende fuoco.</p>"
         }
       },
       "details": {
@@ -2886,7 +2902,8 @@
           "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
         },
         "syCZDlwGoyT1GvJv": {
-          "name": "Scagliare Fiamma"
+          "name": "Scagliare Fiamma",
+          "description": "<p>[[/attack extended]]. [[/damage extended]]. Se il bersaglio è un oggetto infiammabile che non è indossato né trasportato, prende fuoco.</p>"
         }
       },
       "details": {
@@ -2904,7 +2921,8 @@
           "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua tre attacchi con [[/item .DGP7lnAJT1cv8SA4]]{Scimitarra}.</p>"
         },
         "DGP7lnAJT1cv8SA4": {
-          "name": "Scimitarra"
+          "name": "Scimitarra",
+          "description": "<p>[[/attack extended]]. [[/damage extended]] (a scelta del djinni).</p>"
         },
         "gr4aC1723KRzCJ5z": {
           "materials": "acqua e sabbia per l'acqua, incenso bruciato per l'aria, zolfo e fosforo per il fuoco, argilla duttile per la terra",
@@ -4335,7 +4353,8 @@
           },
           "effects": {
             "P1rGrKiV7x2OMiN0": {
-              "name": "Soffio di Sonno"
+              "name": "Soffio di Sonno",
+              "description": "<p>Sei &amp;reference[unconcious apply=false] per 10 minuti. Questo effetto termina su di te quando subisci danni o quando qualcuno usa un'azione per svegliarti.</p>"
             }
           },
           "name": "Armi a Soffio",
@@ -4456,7 +4475,8 @@
           },
           "effects": {
             "P1rGrKiV7x2OMiN0": {
-              "name": "Soffio di Sonno"
+              "name": "Soffio di Sonno",
+              "description": "<p>Sei &amp;reference[unconcious apply=false] per 10 minuti. Questo effetto termina su di te quando subisci danni o quando qualcuno usa un'azione per svegliarti.</p>"
             }
           },
           "name": "Armi a Soffio",
@@ -6616,7 +6636,8 @@
             "MLHae1WTyr78IIqI": {
               "name": "Parzialmente Congelato"
             }
-          }
+          },
+          "chat": "<p>Se il [[lookup @name]]{mostro} subisce danni da freddo, si congela parzialmente.</p>"
         },
         "6AQXZ1FlO8qhnPTR": {
           "name": "Forma d'Acqua",
@@ -6859,7 +6880,8 @@
             "otGAUswMpsAM0sho": {
               "name": "Trattenuto dalla Ragnatela dell'Ettercap"
             }
-          }
+          },
+          "chat": "<p>Il bersaglio è trattenuto dalle ragnatele. Come azione, il bersaglio trattenuto può effettuare una prova di Forza e, se la supera, spezza le ragnatele.</p>"
         },
         "T8XMTiCIOQP4dYEp": {
           "name": "Artigli",
@@ -7244,28 +7266,36 @@
               "name": "Illuminazione Variabile"
             },
             "jJ8JBNbwQAA7NQTH": {
-              "name": "Illuminazione: 1,5 Metri"
+              "name": "Illuminazione: 1,5 Metri",
+              "description": "<p>Diffondi &amp;reference[bright light] entro un raggio di 1,5 metri e &amp;reference[dim light] per altri 1,5 metri.</p>"
             },
             "jsvurfLvY0q7oHU2": {
-              "name": "Illuminazione: 1,5 Metri"
+              "name": "Illuminazione: 1,5 Metri",
+              "description": "<p>Diffondi &amp;reference[bright light] entro un raggio di 1,5 metri e &amp;reference[dim light] per altri 1,5 metri.</p>"
             },
             "SIpiLsHnn2iUVXiU": {
-              "name": "Illuminazione: 3 Metri"
+              "name": "Illuminazione: 3 Metri",
+              "description": "<p>Diffondi &amp;reference[bright light] entro un raggio di 3 metri e &amp;reference[dim light] per altri 3 metri.</p>"
             },
             "4UjJusWALxH06fce": {
-              "name": "Illuminazione: 4,5 Metri"
+              "name": "Illuminazione: 4,5 Metri",
+              "description": "<p>Diffondi &amp;reference[bright light] entro un raggio di 4,5 metri e &amp;reference[dim light] per altri 4,5 metri.</p>"
             },
             "EqNg6ByHWtAPqYrU": {
-              "name": "Illuminazione: 6 Metri"
+              "name": "Illuminazione: 6 Metri",
+              "description": "<p>Diffondi &amp;reference[bright light] entro un raggio di 6 metri e &amp;reference[dim light] per altri 6 metri.</p>"
             },
             "STtJx4sNGSIuzJ98": {
-              "name": "Illuminazione: 3 Metri"
+              "name": "Illuminazione: 3 Metri",
+              "description": "<p>Diffondi &amp;reference[bright light] entro un raggio di 3 metri e &amp;reference[dim light] per altri 3 metri.</p>"
             },
             "nip3Iamy558qmNOV": {
-              "name": "Illuminazione: 4,5 Metri"
+              "name": "Illuminazione: 4,5 Metri",
+              "description": "<p>Diffondi &amp;reference[bright light] entro un raggio di 4,5 metri e &amp;reference[dim light] per altri 4,5 metri.</p>"
             },
             "RntAZbrBNUpTiqt2": {
-              "name": "Illuminazione: 6 Metri"
+              "name": "Illuminazione: 6 Metri",
+              "description": "<p>Diffondi &amp;reference[bright light] entro un raggio di 6 metri e &amp;reference[dim light] per altri 6 metri.</p>"
             }
           },
           "activities": {
@@ -7650,7 +7680,10 @@
           "name": "Roccia",
           "activities": {
             "GOn2YYbOxKVKqvwx": {
-              "name": "Tiro Salvezza contro Prono"
+              "name": "Tiro Salvezza contro Prono",
+              "description": {
+                "value": "<p>Se il bersaglio è una creatura, deve superare un tiro salvezza [[/save activity=GOn2YYbOxKVKqvwx]], altrimenti cade &amp;reference[prone].</p>"
+              }
             }
           },
           "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Se il bersaglio è una creatura, deve effettuare un tiro salvezza su Forza, altrimenti cade &amp;reference[prone].</p>"
@@ -7966,13 +7999,17 @@
           }
         },
         "YbB6EsBwNaEzVlxU": {
-          "name": "Coraggioso"
+          "name": "Coraggioso",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di vantaggio ai tiri salvezza contro la condizione &amp;reference[Frightened apply=false].</p>"
         },
         "GrUneCbXCYngdpjf": {
           "name": "Colpo di Scudo",
           "activities": {
             "VDPHQKbsOMivpqlG": {
-              "name": "Tiro Salvezza contro Prono"
+              "name": "Tiro Salvezza contro Prono",
+              "description": {
+                "value": "<p>Se il bersaglio è una creatura di taglia Media o inferiore, deve superare un tiro salvezza [[/save]], altrimenti cade &amp;Reference[prone].</p>"
+              }
             }
           }
         }
@@ -8004,7 +8041,8 @@
         },
         "lsZzJMqxUIjbczLM": {
           "name": "Lancia",
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]], oppure [[/damage average attackMode=twoHanded]] se usata a due mani per effettuare un attacco in mischia.</p>"
         },
         "2Squ8wLvm5nSzA8w": {
           "name": "Arco Lungo",
@@ -8177,7 +8215,10 @@
               "roll": {
                 "name": "Prova di Berserk"
               },
-              "name": "Entrare in Berserk"
+              "name": "Entrare in Berserk",
+              "description": {
+                "chatFlavor": "Con un risultato di 1, il [[lookup @name]]{mostro} entra in berserk."
+              }
             }
           },
           "effects": {
@@ -8255,7 +8296,10 @@
               "roll": {
                 "name": "Prova di Berserk"
               },
-              "name": "Entrare in Berserk"
+              "name": "Entrare in Berserk",
+              "description": {
+                "chatFlavor": "Con un risultato di 1, il [[lookup @name]]{mostro} entra in berserk."
+              }
             }
           },
           "effects": {
@@ -8517,7 +8561,8 @@
             "ha7mLJgRXVjMDnBj": {
               "name": "Afferrato dall'Artiglio"
             }
-          }
+          },
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio è &amp;reference[grappled].</p>"
         }
       },
       "details": {
@@ -8629,7 +8674,8 @@
         },
         "92uVNexE43Z8D18r": {
           "name": "Lancia",
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]] oppure [[/damage average attackMode=twoHanded]] danni se usata a due mani per effettuare un attacco in mischia.</p>"
         }
       },
       "details": {
@@ -8656,7 +8702,8 @@
             "b4GBDoRtEeiDCrDy": {
               "name": "Rigenerazione"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} recupera [[/healing]] all'inizio del proprio turno se possiede almeno 1 punto ferita.</p>"
         },
         "qbSL2A0uKuh2iER5": {
           "name": "Incantesimo Custodito",
@@ -8705,7 +8752,8 @@
         },
         "KO6Ez3XWFM4iH4zB": {
           "name": "Lancia",
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]], oppure [[/damage average attackMode=twoHanded]] danni se usata a due mani per effettuare un attacco in mischia.</p>"
         },
         "jwmEsvp6TGLCc8YS": {
           "name": "Tattiche del Branco",
@@ -9260,7 +9308,8 @@
       "name": "Lemure",
       "items": {
         "7gfe5c1qGIvai12V": {
-          "name": "Rigenerazione Infernale"
+          "name": "Rigenerazione Infernale",
+          "chat": "<p>Un lemure che muore nei Nove Inferi a volte torna in vita.</p>"
         },
         "Di9DB6UXL4OOVV0b": {
           "name": "Vista del Diavolo",
@@ -9751,7 +9800,10 @@
           "name": "Morso (Solo in Forma di Lupo o Ibrida)",
           "activities": {
             "BrwqAgBWISYdCwC1": {
-              "name": "Tiro Salvezza contro la Maledizione"
+              "name": "Tiro Salvezza contro la Maledizione",
+              "description": {
+                "value": "<p>Se il bersaglio è un umanoide, deve superare un tiro salvezza [[/save]], altrimenti viene maledetto dalla licantropia del lupo mannaro.</p>"
+              }
             }
           },
           "effects": {
@@ -9765,7 +9817,8 @@
           "name": "Multiattacco (Solo in Forma Umanoide o Ibrida)"
         },
         "TiKtAuqd6urQ45Ds": {
-          "name": "Lancia (Solo in Forma Umanoide)"
+          "name": "Lancia (Solo in Forma Umanoide)",
+          "description": "<p>[[/attack extended]]. [[/damage extended]], oppure [[/damage average attackMode=twoHanded]] se usata a due mani per effettuare un attacco in mischia.</p>"
         },
         "36H4LGNMMEYS1Irm": {
           "name": "Artigli (Solo in Forma Ibrida)",
@@ -10276,7 +10329,8 @@
       "items": {
         "sN28gnBGF2TVdd53": {
           "name": "Lancia",
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]], oppure [[/damage average attackMode=twoHanded]] danni se usata a due mani per effettuare un attacco in mischia.</p>"
         },
         "e6oIn0YWVkHwKVs8": {
           "name": "Anfibio",
@@ -10908,10 +10962,12 @@
           "name": "Sguardo Funesto",
           "effects": {
             "ebQZNdQTJtOhr7Lq": {
-              "name": "Sguardo Terrificante"
+              "name": "Sguardo Terrificante",
+              "description": "<p>Sei &amp;reference[frightened apply=false] fino alla fine del turno successivo della mummia.</p>"
             },
             "HaYWb6flfwYF7zHi": {
-              "name": "Sguardo Paralizzante"
+              "name": "Sguardo Paralizzante",
+              "description": "<p>Sei &amp;reference[frightened apply=false] e &amp;reference[paralyzed apply=false fino alla fine del turno successivo della mummia.</p>"
             }
           },
           "activities": {
@@ -10956,7 +11012,8 @@
             "Z2wqSwuJDKaRy2TA": {
               "name": "Tiro Salvezza contro il Veleno"
             }
-          }
+          },
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]{mostro}. Il bersaglio deve effettuare un tiro salvezza su Costituzione.</p>"
         },
         "kjmjY0zlE6IEiQVL": {
           "name": "Riparare",
@@ -11032,7 +11089,8 @@
                 "name": "Giorni alla Rinascita"
               }
             }
-          }
+          },
+          "chat": "<p>Se muore, il [[lookup @name]]{mostro} torna in vita dopo 1d6 giorni e recupera tutti i suoi punti ferita.</p>"
         },
         "wtPKdh22QAc93kgt": {
           "name": "Incantesimi"
@@ -11043,7 +11101,8 @@
             "xY71xP3CmurJqBCp": {
               "name": "Tiro Salvezza contro il Veleno"
             }
-          }
+          },
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]{mostro}. Il bersaglio deve effettuare un tiro salvezza su Costituzione.</p>"
         }
       },
       "details": {
@@ -11131,7 +11190,8 @@
                 "name": "Giorni alla Rinascita"
               }
             }
-          }
+          },
+          "chat": "<p>Se muore, il [[lookup @name]]{mostro} torna in vita dopo 1d6 giorni e recupera tutti i suoi punti ferita.</p>"
         },
         "Fla0ZsaY2HvXWqbR": {
           "name": "Incantesimi"
@@ -11360,7 +11420,8 @@
               "name": "Attacco (Piccolo / Medio)"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]], oppure [[/damage average activity=Rev09LWfUvsYkKwA]] danni in forma Piccola o Media.</p>"
         },
         "HiGvFK1bT8zkJA3r": {
           "name": "Incantesimi Innati"
@@ -11374,7 +11435,8 @@
             "2fundJLXw6s1SAnf": {
               "name": "Rigenerazione"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} recupera [[/healing]] all'inizio del proprio turno se possiede almeno 1 punto ferita.</p>"
         },
         "QGNzJqfTHnbhjzFN": {
           "name": "Cambiare Forma",
@@ -11564,7 +11626,10 @@
           "name": "Morso (Solo in Forma di Orso o Ibrida)",
           "activities": {
             "YChkeg9JtpbIvoMs": {
-              "name": "Tiro Salvezza contro la Maledizione"
+              "name": "Tiro Salvezza contro la Maledizione",
+              "description": {
+                "value": "<p>Se il bersaglio è un umanoide, deve superare un tiro salvezza [[/save]], altrimenti viene maledetto dalla licantropia dell'orso mannaro.</p>"
+              }
             }
           },
           "effects": {
@@ -11576,7 +11641,8 @@
         },
         "pEYcOjAF2fovrXRP": {
           "name": "Artiglio (Solo in Forma di Orso o Ibrida)",
-          "description": "<p>[[/attack extended]]. [[/damage extended]].</p>"
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio Artiglio.</p>"
         },
         "UeXfHUO5RZp72PIs": {
           "name": "Ascia Bipenne (Solo in Forma Umanoide o Ibrida)",
@@ -11809,7 +11875,8 @@
             "lr7JIeWZS6AxnAJG": {
               "name": "Scatto"
             }
-          }
+          },
+          "chat": "<p>Se il polpo si trova sott'acqua, una nube d'inchiostro [[lookup @labels.description.template activity=iuQ878Y9dLNBjNXU]] si diffonde tutt'attorno a esso.</p>"
         },
         "SLnyx0Ta2ksVM9QL": {
           "name": "Tentacoli",
@@ -11850,7 +11917,8 @@
             "lr7JIeWZS6AxnAJG": {
               "name": "Scatto"
             }
-          }
+          },
+          "chat": "<p>Se il polpo si trova sott'acqua, una nube d'inchiostro [[lookup @labels.description.template activity=iuQ878Y9dLNBjNXU]] si diffonde tutt'attorno a esso.</p>"
         },
         "NXi6iGOpnmUiczJA": {
           "name": "Tentacoli",
@@ -12077,7 +12145,10 @@
           "name": "Morso",
           "activities": {
             "3FbaxFQNuHI6AlSX": {
-              "name": "Recuperare Punti Ferita (Vampiro)"
+              "name": "Recuperare Punti Ferita (Vampiro)",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} recupera un numero di punti ferita pari ai danni necrotici subiti.</p>"
+              }
             },
             "OQqEseoTQUACafjS": {
               "name": "Risucchiare il Massimo dei Punti Ferita (Bersaglio)"
@@ -12094,7 +12165,8 @@
             "pGwOWm6umxeSdbMO": {
               "name": "Rigenerazione"
             }
-          }
+          },
+          "chat": "<p>Il [[lookup @name]]{mostro} recupera [[/healing]] all'inizio del proprio turno.</p>"
         },
         "lLAigtCvoIuj0TM9": {
           "name": "Debolezze dei Vampiri",
@@ -12398,7 +12470,8 @@
             "otGAUswMpsAM0sho": {
               "name": "Trattenuto dalla Ragnatela"
             }
-          }
+          },
+          "chat": "<p>Il bersaglio è trattenuto dalle ragnatele. Come azione, il bersaglio trattenuto può effettuare una prova di Forza e, se la supera, spezza le ragnatele.</p>"
         },
         "lT3msNb93MHuqBR7": {
           "name": "Movimenti del Ragno",
@@ -12644,7 +12717,8 @@
             "5YoZO3QgfMTcLhgh": {
               "name": "Inghiottito"
             }
-          }
+          },
+          "chat": "<p>Il Rospo Gigante attacca con Inghiottire.</p>"
         }
       },
       "details": {
@@ -12670,7 +12744,8 @@
               "name": "Danni da Contatto"
             }
           },
-          "description": "<p>Una creatura che tocca il [[lookup @name lowercase]]{mostro} o lo colpisce con un attacco in mischia mentre si trova entro 1,5 metri da esso subisce [[/damage average]] danni.</p>"
+          "description": "<p>Una creatura che tocca il [[lookup @name lowercase]]{mostro} o lo colpisce con un attacco in mischia mentre si trova entro 1,5 metri da esso subisce [[/damage average]] danni.</p>",
+          "chat": "<p>Una creatura che tocca il [[lookup @name]]{mostro} o lo colpisce con un attacco in mischia mentre si trova entro 1,5 metri da esso subisce danni da fuoco.</p>"
         },
         "NwgQC3ohxcI1L3GT": {
           "name": "Inghiottire",
@@ -12786,7 +12861,8 @@
             "5YoZO3QgfMTcLhgh": {
               "name": "Inghiottito"
             }
-          }
+          },
+          "chat": "<p>Il Rospo Gigante attacca con Inghiottire.</p>"
         }
       },
       "details": {
@@ -12934,7 +13010,8 @@
       "items": {
         "UqpaWsGVgiCMSZEw": {
           "name": "Lancia",
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]] oppure [[/damage average attackMode=twoHanded]] danni se usata a due mani.</p>"
         },
         "NSdAR332o65ZE3hC": {
           "name": "Morso",
@@ -12985,17 +13062,21 @@
               "name": "Danni da Contatto"
             }
           },
-          "description": "<p>Una creatura che tocca il [[lookup @name lowercase]]{mostro} o lo colpisce con un attacco in mischia mentre si trova entro 1,5 metri da esso subisce [[/damage average]] danni.</p>"
+          "description": "<p>Una creatura che tocca il [[lookup @name lowercase]]{mostro} o lo colpisce con un attacco in mischia mentre si trova entro 1,5 metri da esso subisce [[/damage average]] danni.</p>",
+          "chat": "<p>Una creatura che tocca il [[lookup @name]]{mostro} o lo colpisce con un attacco in mischia mentre si trova entro 1,5 metri da esso subisce danni da fuoco.</p>"
         },
         "H9TCRB3zfkFwk192": {
           "name": "Multiattacco"
         },
         "SKwOsrThcwqMXCZv": {
           "name": "Lancia",
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]] oppure [[/damage average attackMode=twoHanded]] se usata a due mani per effettuare un attacco in mischia.</p>"
         },
         "Fq7lbhjMFR5fwEFS": {
-          "name": "Armi Surriscaldate"
+          "name": "Armi Surriscaldate",
+          "description": "<p>Quando il [[lookup @name lowercase]]{mostro} colpisce con un'arma da mischia di metallo, infligge 3 (1d6) danni da fuoco extra (inclusi nell'attacco).</p>",
+          "chat": "<p>Quando il [[lookup @name]]{mostro} colpisce con un'arma da mischia di metallo, infligge danni da fuoco extra (inclusi nell'attacco).</p>"
         },
         "rvRy41yt9zowrAr1": {
           "name": "Coda",
@@ -13019,11 +13100,13 @@
       "items": {
         "bAm4BNi3o137SAmd": {
           "name": "Arco Corto",
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]]</p>"
         },
         "198fJNFbhjGeZ8UZ": {
           "name": "Spada Corta",
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]]</p>"
         },
         "vd2pvVVxaLhqrWqe": {
           "name": "Armatura di Cuoio",
@@ -13485,7 +13568,8 @@
             "abCwfrU3jtUWjeZ7": {
               "name": "Afferrato dall'Artiglio"
             }
-          }
+          },
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio è &amp;reference[grappled].</p>"
         },
         "q6uVUHWyzht5OpwV": {
           "name": "Pungiglione",
@@ -13781,10 +13865,12 @@
           "name": "Sguardo Funesto",
           "effects": {
             "ebQZNdQTJtOhr7Lq": {
-              "name": "Sguardo Terrificante"
+              "name": "Sguardo Terrificante",
+              "description": "<p>Sei &amp;reference[frightened apply=false] fino alla fine del turno successivo della mummia.</p>"
             },
             "HaYWb6flfwYF7zHi": {
-              "name": "Sguardo Paralizzante"
+              "name": "Sguardo Paralizzante",
+              "description": "<p>Sei &amp;reference[frightened apply=false] e &amp;reference[paralyzed apply=false fino alla fine del turno successivo della mummia.</p>"
             }
           },
           "activities": {
@@ -13794,7 +13880,8 @@
           }
         },
         "AEc5FXdpe3M7KHQI": {
-          "name": "Ringiovanimento"
+          "name": "Ringiovanimento",
+          "chat": "<p>Un signore delle mummie distrutto ottiene un nuovo corpo dopo 24 ore.</p>"
         },
         "FeMPdVmbrjP2L3CO": {
           "name": "Incantesimi"
@@ -13987,7 +14074,8 @@
             "hZlZMpOIJOexfrmA": {
               "name": "Dissolto"
             }
-          }
+          },
+          "chat": "<p>L'armatura è incapacitata finché si trova nell'area di un campo antimagia.</p>"
         }
       },
       "attributes": {
@@ -14336,7 +14424,8 @@
             "hZlZMpOIJOexfrmA": {
               "name": "Dissolto"
             }
-          }
+          },
+          "chat": "<p>L'armatura è incapacitata finché si trova nell'area di un campo antimagia.</p>"
         },
         "7p94WH1WPMhF1ZP9": {
           "name": "Soffocare",
@@ -14434,7 +14523,10 @@
           "name": "Inghiottire",
           "activities": {
             "JiBTCgEtAZs60k7R": {
-              "name": "Danni da Digestione a Inizio Turno"
+              "name": "Danni da Digestione a Inizio Turno",
+              "description": {
+                "value": "<p>Una creatura inghiottita subisce [[/damage average activity=JiBTCgEtAZs60k7R]] danni all'inizio di ciascun turno del [[lookup @name lowercase]]{mostro}.</p>"
+              }
             },
             "CfImu0j0eosWKdUO": {
               "name": "Inghiottire Creatura"
@@ -14579,7 +14671,8 @@
             "cW425UuJbXKMBAPa": {
               "name": "Tiro Salvezza contro Prono"
             }
-          }
+          },
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Se il bersaglio è una creatura, deve effettuare un tiro salvezza su Forza.</p>"
         }
       },
       "details": {
@@ -14705,7 +14798,10 @@
           "name": "Morso (Solo in Forma di Tigre o Ibrida)",
           "activities": {
             "GbqEwcKP1alZKGDl": {
-              "name": "Tiro Salvezza contro la Maledizione"
+              "name": "Tiro Salvezza contro la Maledizione",
+              "description": {
+                "value": "<p>Se il bersaglio è un umanoide, deve superare un tiro salvezza [[/save]], altrimenti viene maledetto dalla licantropia della tigre mannara.</p>"
+              }
             }
           },
           "effects": {
@@ -14717,7 +14813,8 @@
         },
         "HPmjVRKpG08bgohb": {
           "name": "Artiglio (Solo in Forma di Tigre o Ibrida)",
-          "description": "<p>[[/attack extended]]. [[/damage extended]].</p>"
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio Artiglio.</p>"
         },
         "vtnEGCOptmp2bcqG": {
           "name": "Scimitarra (Solo in Forma Umanoide o Ibrida)",
@@ -14847,7 +14944,10 @@
           "name": "Morso (Solo in Forma di Ratto o Ibrida)",
           "activities": {
             "yGLXyFBUSgjRMps1": {
-              "name": "Tiro Salvezza contro la Maledizione"
+              "name": "Tiro Salvezza contro la Maledizione",
+              "description": {
+                "value": "<p>Se il bersaglio è un umanoide, deve superare un tiro salvezza [[/save]], altrimenti viene maledetto dalla licantropia del topo mannaro.</p>"
+              }
             }
           },
           "effects": {
@@ -14892,7 +14992,8 @@
           }
         },
         "skQsBSPby8pLZSLI": {
-          "name": "Falso Aspetto"
+          "name": "Falso Aspetto",
+          "description": "<p>Finché il [[lookup @name lowercase]]{mostro} rimane immobile, è indistinguibile da un normale albero.</p>"
         },
         "BLz58sp79C2HvinU": {
           "name": "Multiattacco",
@@ -15156,7 +15257,8 @@
             "pGwOWm6umxeSdbMO": {
               "name": "Rigenerazione"
             }
-          }
+          },
+          "chat": "<p>Il [[lookup @name]]{mostro} recupera [[/healing]] all'inizio del proprio turno.</p>"
         },
         "8Lluz633dVXNjygE": {
           "name": "Debolezze dei Vampiri",
@@ -15174,7 +15276,8 @@
           "description": "<p>Il [[lookup @name lowercase]]{mostro} può scalare le superfici difficili, inclusi i soffitti a testa in giù, senza dover effettuare una prova di caratteristica.</p>"
         },
         "pVlKFunmE2qxO0pe": {
-          "name": "Fuga Nebbiosa"
+          "name": "Fuga Nebbiosa",
+          "chat": "<p>Un vampiro ucciso si trasforma in una nube di nebbia (come nel tratto Mutaforma) invece di cadere privo di sensi.</p>"
         },
         "RHezeN7HzNf2oKYP": {
           "name": "Charme",
@@ -15226,7 +15329,10 @@
               "name": "Risucchiare il Massimo dei Punti Ferita (Bersaglio)"
             },
             "ik3iBqS5tIhTkMN3": {
-              "name": "Recuperare Punti Ferita (Vampiro)"
+              "name": "Recuperare Punti Ferita (Vampiro)",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} recupera un numero di punti ferita pari ai danni necrotici subiti.</p>"
+              }
             },
             "AnVex0SffJQiWgSX": {
               "name": "Animare Progenie Vampirica"
@@ -15627,7 +15733,8 @@
             "nQHEt1QScDti5fhO": {
               "name": "Resistere"
             }
-          }
+          },
+          "chat": "<p>Se i danni riducono lo zombi a <strong>0 punti ferita</strong>, esso deve effettuare un tiro salvezza su <strong>Costituzione</strong>.</p>"
         },
         "Ed7XgnZu9qRs3qdn": {
           "name": "Schianto",
@@ -15656,7 +15763,8 @@
             "nQHEt1QScDti5fhO": {
               "name": "Resistere"
             }
-          }
+          },
+          "chat": "<p>Se i danni riducono lo zombi a <strong>0 punti ferita</strong>, esso deve effettuare un tiro salvezza su <strong>Costituzione</strong>.</p>"
         },
         "Gj35Y1i6Ph90Wn3R": {
           "name": "Morning Star",
@@ -15768,6 +15876,9 @@
       "details": {
         "type": {
           "custom": "Guardiano Spettrale"
+        },
+        "biography": {
+          "value": "<p>@Embed[Compendium.dnd5e.spells24.Item.phbsplGuardianof caption=false]</p>"
         }
       },
       "items": {
