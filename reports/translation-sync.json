@@ -3871,6 +3871,14 @@
         },
         {
           "pack": "items",
+          "id": "lSd5QHnIJbKvP1bh",
+          "name": "Apparatus of the Crab",
+          "sourcePath": "items/trinket/apparatus-of-the-crab.yml",
+          "lookupKey": "Apparatus of the Crab",
+          "matchedLookupKey": "Apparatus of the Crab"
+        },
+        {
+          "pack": "items",
           "id": "9Ifr8fGvJ1bArzOW",
           "name": "Bag of Tricks (Grey)",
           "sourcePath": "items/trinket/bag-of-tricks-grey.yml",
@@ -7056,33 +7064,6 @@
       ],
       "needsTranslation": [],
       "manualReview": [
-        {
-          "pack": "items",
-          "id": "lSd5QHnIJbKvP1bh",
-          "name": "Apparatus of the Crab",
-          "sourcePath": "items/trinket/apparatus-of-the-crab.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Apparatus of the Crab",
-          "matchedLookupKey": "Apparatus of the Crab",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "lSd5QHnIJbKvP1bh",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "lSd5QHnIJbKvP1bh",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
         {
           "pack": "items",
           "id": "F8QpasPjLrw2POzE",

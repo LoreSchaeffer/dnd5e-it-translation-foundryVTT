@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1769,
+      "translated": 1770,
       "missing": 69,
-      "partial": 553,
+      "partial": 552,
       "review": 70
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 961,
+      "invariantFailures": 959,
       "englishResiduals": 72,
       "imperialResiduals": 0
     },
-    "blockingIssues": 7116
+    "blockingIssues": 7114
   },
   "packs": [
     {
@@ -5317,9 +5317,9 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 881,
+          "translated": 882,
           "missing": 0,
-          "partial": 4,
+          "partial": 3,
           "review": 0
         },
         "folders": {
@@ -5333,32 +5333,12 @@
           "total": 2227,
           "translated": 2227,
           "missing": 0,
-          "invariantFailures": 14,
+          "invariantFailures": 12,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "lSd5QHnIJbKvP1bh",
-          "fieldPath": "system.description.value",
-          "name": "Apparatus of the Crab",
-          "sourcePath": "items/trinket/apparatus-of-the-crab.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "lSd5QHnIJbKvP1bh",
-          "fieldPath": "system.description.value",
-          "name": "Apparatus of the Crab",
-          "sourcePath": "items/trinket/apparatus-of-the-crab.yml"
-        },
         {
           "code": "html-tag-sequence",
           "severity": "blocking",
