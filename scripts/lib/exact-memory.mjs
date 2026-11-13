@@ -25,3 +25,11 @@ export function exactMissingOverrides(source, translation, memory) {
   }
   return overrides;
 }
+
+export function configuredMissingOverrides(source, translation, phrases) {
+  return exactMissingOverrides(source, translation, new Map(Object.entries(phrases)));
+}
+
+export function configuredFolderTranslation(sourceName, current, phrases) {
+  return current ?? phrases[sourceName];
+}

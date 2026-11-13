@@ -3,7 +3,7 @@ import path from "node:path";
 
 import { loadBabelePack } from "./lib/babele-inventory.mjs";
 import { IN_SCOPE_PACKS, resolvePaths } from "./lib/config.mjs";
-import { buildExactMemory, exactMissingOverrides } from "./lib/exact-memory.mjs";
+import { buildExactMemory, configuredFolderTranslation, configuredMissingOverrides, exactMissingOverrides } from "./lib/exact-memory.mjs";
 import { applyFieldOverrides, entryKeyForRecord } from "./lib/field-overrides.mjs";
 import { loadSourcePack } from "./lib/source-inventory.mjs";
 
@@ -16,6 +16,7 @@ function argumentsOf(argv) {
   for (let index = 0; index < argv.length; index += 1) {
     if (argv[index] === "--source") options.sourceRoot = argv[++index];
     else if (argv[index] === "--pack") options.packs = argv[++index].split(",").filter(Boolean);
+    else if (argv[index] === "--phrases") options.phrasesPath = argv[++index];
     else throw new Error(`Unknown argument: ${argv[index]}`);
   }
   if (!options.packs?.length) throw new Error("--pack is required");
@@ -49,6 +50,9 @@ async function main() {
     }
   }
   const memory = buildExactMemory(pairs);
+  const phrases = args.phrasesPath
+    ? JSON.parse(await readFile(path.resolve(args.phrasesPath), "utf8"))
+    : {};
   const folderMemory = new Map([...folderCandidates].filter(([, values]) => values.size === 1).map(([key, values]) => [key, [...values][0]]));
 
   for (const pack of args.packs) {
@@ -63,7 +67,10 @@ async function main() {
     let fields = 0;
     for (const record of source.filter(item => item.kind === "document")) {
       const translated = byKey.get(record.id) ?? byKey.get(record.name);
-      const overrides = exactMissingOverrides(record, translated?.data ?? {}, memory);
+      const overrides = {
+        ...exactMissingOverrides(record, translated?.data ?? {}, memory),
+        ...configuredMissingOverrides(record, translated?.data ?? {}, phrases)
+      };
       if (!Object.keys(overrides).length) continue;
       const key = entryKeyForRecord(document.entries, record, duplicates);
       document.entries[key] ??= key === record.id ? { _id: record.id } : {};
@@ -72,7 +79,7 @@ async function main() {
     }
     for (const folder of source.filter(item => item.kind === "folder")) {
       if (document.folders[folder.name] || document.folders[folder.id]) continue;
-      const translated = folderMemory.get(folder.name);
+      const translated = configuredFolderTranslation(folder.name, folderMemory.get(folder.name), phrases);
       if (translated) document.folders[folder.name] = translated;
     }
     await writeFile(targetPath, `${JSON.stringify(document, null, 2)}\n`);

@@ -82,6 +82,14 @@
           "name": "Cura Ferite",
           "description": "<p>Una creatura toccata dall'incantatore recupera un numero di punti ferita pari a 1d8 + il modificatore di caratteristica da incantatore. Questo incantesimo non ha effetto sui costrutti o sui non morti.</p>\n<p><strong>Ai Livelli Superiori.</strong>&nbsp;Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, la guarigione aumenta di 1d8 per ogni slot di livello superiore al 1°.</p>"
         }
+      },
+      "details": {
+        "alignment": "Qualsiasi"
+      },
+      "traits": {
+        "languages": {
+          "custom": "Un linguaggio qualsiasi (solitamente Comune)"
+        }
       }
     },
     "Aboleth": {
@@ -121,6 +129,12 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "Legale Malvagio"
+      },
+      "prototypeToken": {
+        "name": "Aboleth"
       }
     },
     "Awakened Tree": {
@@ -131,6 +145,14 @@
       "items": {
         "Q90HYHsZp8MD2iv2": {
           "name": "Falso Aspetto"
+        }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
+      },
+      "traits": {
+        "languages": {
+          "custom": "un linguaggio conosciuto dal proprio creatore"
         }
       }
     },
@@ -146,6 +168,9 @@
         "FneLrX10GhkE2o4E": {
           "name": "Zoccoli"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Giant Elk": {
@@ -159,6 +184,14 @@
         },
         "jDA6wujGF6L3tPBM": {
           "name": "Zoccoli"
+        }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
+      },
+      "traits": {
+        "languages": {
+          "custom": "Alce Gigante; comprende Comune, Elfico e Silvano ma non può parlarli"
         }
       }
     },
@@ -177,6 +210,14 @@
         "KPLltVyVr3KqVNVD": {
           "name": "Amorfo"
         }
+      },
+      "attributes": {
+        "senses": {
+          "special": "Cieco oltre questo raggio"
+        }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Androsphinx": {
@@ -282,6 +323,14 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "Legale Neutrale"
+      },
+      "traits": {
+        "languages": {
+          "custom": "Sfinge"
+        }
       }
     },
     "Ankheg": {
@@ -293,12 +342,21 @@
         "XZwZexkrBLOzLo1Q": {
           "name": "Spruzzo Acido"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
+      },
+      "prototypeToken": {
+        "name": "Ankheg"
       }
     },
     "Eagle": {
       "name": "Aquila",
       "prototypeToken": {
         "name": "Aquila"
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Giant Eagle": {
@@ -313,6 +371,11 @@
       },
       "details": {
         "alignment": "Neutrale Buono"
+      },
+      "traits": {
+        "languages": {
+          "custom": "Aquila Gigante; Comune e Auran (comprende ma non può parlare)"
+        }
       }
     },
     "Archmage": {
@@ -458,6 +521,14 @@
         "3TiWhGLJV51EudMG": {
           "name": "Resistenza Magica"
         }
+      },
+      "traits": {
+        "dr": {
+          "custom": "danni da incantesimi"
+        },
+        "languages": {
+          "custom": "(Sei linguaggi qualsiasi)"
+        }
       }
     },
     "Animated Armor": {
@@ -476,6 +547,14 @@
         "bdRuWKCO8gXQPu16": {
           "name": "Multiattacco"
         }
+      },
+      "attributes": {
+        "senses": {
+          "special": "Cieco oltre questo raggio"
+        }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Harpy": {
@@ -493,6 +572,9 @@
         "QeobH0xuWk2yWmsb": {
           "name": "Canto Seducente"
         }
+      },
+      "details": {
+        "alignment": "Caotico Malvagio"
       }
     },
     "Assassin": {
@@ -520,6 +602,14 @@
         "rNQK7okIBNZ2zDvD": {
           "name": "Balestra Leggera"
         }
+      },
+      "details": {
+        "alignment": "Qualsiasi non buono"
+      },
+      "traits": {
+        "languages": {
+          "custom": "due linguaggi qualsiasi"
+        }
       }
     },
     "Avatar of Death": {
@@ -545,6 +635,11 @@
       },
       "details": {
         "alignment": "Neutrale Malvagio"
+      },
+      "traits": {
+        "languages": {
+          "custom": "Tutti i linguaggi conosciuti dal proprio evocatore"
+        }
       }
     },
     "Vulture": {
@@ -556,6 +651,9 @@
         "5hyn6HEAudmysSqs": {
           "name": "Tattiche del Branco"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Giant Vulture": {
@@ -573,6 +671,11 @@
       },
       "details": {
         "alignment": "Neutrale Malvagio"
+      },
+      "traits": {
+        "languages": {
+          "custom": "Comprende il Comune ma non può parlare"
+        }
       }
     },
     "Azer": {
@@ -594,6 +697,12 @@
         "YvzdCGQeCV1XOcUt": {
           "name": "Martello da Guerra"
         }
+      },
+      "details": {
+        "alignment": "Legale Neutrale"
+      },
+      "prototypeToken": {
+        "name": "Azer"
       }
     },
     "Baboon": {
@@ -608,6 +717,9 @@
         "EXVZptAEHLscbODF": {
           "name": "Morso"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Balor": {
@@ -637,6 +749,12 @@
         "FWSzSLqeIDq7meXC": {
           "name": "Aura di Fuoco"
         }
+      },
+      "details": {
+        "alignment": "Caotico Malvagio"
+      },
+      "prototypeToken": {
+        "name": "Balor"
       }
     },
     "Bandit": {
@@ -655,6 +773,14 @@
           "name": "Armatura di Cuoio",
           "description": "<p>Il corpetto e le protezioni delle spalle di questa armatura sono fatte di cuoio indurito dopo essere stato bollito nell’olio. Il resto dell’armatura è composto di materiali più morbidi e flessibili.</p>"
         }
+      },
+      "details": {
+        "alignment": "Qualsiasi non legale"
+      },
+      "traits": {
+        "languages": {
+          "custom": "un linguaggio qualsiasi (solitamente Comune)"
+        }
       }
     },
     "Basilisk": {
@@ -669,12 +795,18 @@
         "atyoFYgU32nJ9kPK": {
           "name": "Morso"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Axe Beak": {
       "name": "Beccoaguzzo",
       "prototypeToken": {
         "name": "Beccoaguzzo"
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Behir": {
@@ -700,6 +832,9 @@
       },
       "details": {
         "alignment": "Neutrale Malvagio"
+      },
+      "prototypeToken": {
+        "name": "Behir"
       }
     },
     "Berserker": {
@@ -724,6 +859,17 @@
         "RrHhFZOd6QT75V3W": {
           "name": "Ascia Bipenne"
         }
+      },
+      "details": {
+        "alignment": "Qualsiasi caotico"
+      },
+      "traits": {
+        "languages": {
+          "custom": "un linguaggio qualsiasi (solitamente Comune)"
+        }
+      },
+      "prototypeToken": {
+        "name": "Berserker"
       }
     },
     "Shrieker": {
@@ -738,6 +884,14 @@
         "NAyTy2HfzqvHtjRh": {
           "name": "Falso Aspetto"
         }
+      },
+      "attributes": {
+        "senses": {
+          "special": "Cieco oltre questo raggio"
+        }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Bugbear": {
@@ -764,6 +918,12 @@
         "0ZKRgrkQppv6MYIq": {
           "name": "Morning Star"
         }
+      },
+      "details": {
+        "alignment": "Caotico Malvagio"
+      },
+      "prototypeToken": {
+        "name": "Bugbear"
       }
     },
     "Bulette": {
@@ -778,6 +938,12 @@
         "Keg9oouX6Vbl9tms": {
           "name": "Balzo Letale"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
+      },
+      "prototypeToken": {
+        "name": "Bulette"
       }
     },
     "Invisible Stalker": {
@@ -803,6 +969,11 @@
       },
       "details": {
         "alignment": "Neutrale"
+      },
+      "traits": {
+        "languages": {
+          "custom": "comprende il Comune ma non lo parla"
+        }
       }
     },
     "Camel": {
@@ -814,6 +985,9 @@
         "XY89jRSGIvqLmLmw": {
           "name": "Morso"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Death Dog": {
@@ -856,6 +1030,11 @@
       },
       "details": {
         "alignment": "Legale Buono"
+      },
+      "traits": {
+        "languages": {
+          "custom": "Cane Intermittente; comprende il Silvano ma non può parlarlo"
+        }
       }
     },
     "Bandit Captain": {
@@ -880,6 +1059,14 @@
         "VAwElWvqJg63fWL2": {
           "name": "Parata"
         }
+      },
+      "details": {
+        "alignment": "Qualsiasi allineamento non legale"
+      },
+      "traits": {
+        "languages": {
+          "custom": "due linguaggi qualsiasi"
+        }
       }
     },
     "Goat": {
@@ -894,6 +1081,9 @@
         "63bem1EXQCR1tEhl": {
           "name": "Ben Piantato"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Giant Goat": {
@@ -908,6 +1098,9 @@
         "ZL9z3WPrZFreDTuY": {
           "name": "Carica"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Knight": {
@@ -940,6 +1133,14 @@
         "FbpxIEzUNTLk7pYO": {
           "name": "Parata"
         }
+      },
+      "details": {
+        "alignment": "Qualsiasi Allineamento"
+      },
+      "traits": {
+        "languages": {
+          "custom": "un linguaggio qualsiasi (solitamente Comune)"
+        }
       }
     },
     "Warhorse": {
@@ -954,6 +1155,9 @@
         "7MiLYgDyM2Rm3nEb": {
           "name": "Zoccoli"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Draft Horse": {
@@ -965,6 +1169,9 @@
         "dJyouOu3yDwHTXEX": {
           "name": "Zoccoli"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Nightmare": {
@@ -988,6 +1195,11 @@
       },
       "details": {
         "alignment": "Neutrale Malvagio"
+      },
+      "traits": {
+        "languages": {
+          "custom": "comprende Abissale, Comune e Infernale ma non può parlare"
+        }
       }
     },
     "Riding Horse": {
@@ -999,12 +1211,18 @@
         "CwpmLFcikAet169F": {
           "name": "Zoccoli"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Sea Horse": {
       "name": "Cavalluccio Marino",
       "prototypeToken": {
         "name": "Cavalluccio Marino"
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Giant Sea Horse": {
@@ -1016,6 +1234,9 @@
         "MB7KUNGnxz6mw1J5": {
           "name": "Carica"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Centaur": {
@@ -1053,6 +1274,14 @@
         "cfgn9yboSN7jIsDC": {
           "name": "Falso Aspetto"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
+      },
+      "traits": {
+        "languages": {
+          "custom": "un linguaggio conosciuto dal proprio creatore"
+        }
       }
     },
     "Chimera": {
@@ -1072,6 +1301,17 @@
         "sAkv9mnK6l5nXmcz": {
           "name": "Multiattacco"
         }
+      },
+      "details": {
+        "alignment": "Caotico Malvagio"
+      },
+      "traits": {
+        "languages": {
+          "custom": "Comprende il Draconico ma non può parlare"
+        }
+      },
+      "prototypeToken": {
+        "name": "Chimera"
       }
     },
     "Chuul": {
@@ -1089,6 +1329,17 @@
         "XUzROtGqVZS61Ofm": {
           "name": "Tentacoli"
         }
+      },
+      "details": {
+        "alignment": "Caotico Malvagio"
+      },
+      "traits": {
+        "languages": {
+          "custom": "Comprende il Gergo delle Profondità ma non può parlare"
+        }
+      },
+      "prototypeToken": {
+        "name": "Chuul"
       }
     },
     "Boar": {
@@ -1103,6 +1354,9 @@
         "U66PTM15QvmkenvW": {
           "name": "Implacabile"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Giant Boar": {
@@ -1117,6 +1371,9 @@
         "byaGAd7ILpgsQ7Un": {
           "name": "Implacabile"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Wereboar": {
@@ -1134,6 +1391,11 @@
       },
       "details": {
         "alignment": "Neutrale Malvagio"
+      },
+      "traits": {
+        "languages": {
+          "custom": "(non può parlare in forma di cinghiale)"
+        }
       }
     },
     "Kobold": {
@@ -1154,6 +1416,9 @@
         "lerO3O0PsIcIBxDq": {
           "name": "Sensibilità alla Luce Solare"
         }
+      },
+      "details": {
+        "alignment": "Legale Malvagio"
       }
     },
     "Crocodile": {
@@ -1168,6 +1433,9 @@
         "vuDMChx74s6CMCab": {
           "name": "Trattenere il Respiro"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Giant Crocodile": {
@@ -1185,6 +1453,9 @@
         "u7eurp95tuW3tYGl": {
           "name": "Morso"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Cockatrice": {
@@ -1198,6 +1469,12 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
+      },
+      "prototypeToken": {
+        "name": "Cockatrice"
       }
     },
     "Raven": {
@@ -1209,6 +1486,9 @@
         "nDvgtu7NSNCrREAv": {
           "name": "Imitare"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Couatl": {
@@ -1295,6 +1575,9 @@
       },
       "details": {
         "alignment": "Legale Buono"
+      },
+      "prototypeToken": {
+        "name": "Couatl"
       }
     },
     "Gelatinous Cube": {
@@ -1312,6 +1595,14 @@
         "6PuULfBzy5vpBSFI": {
           "name": "Avviluppare"
         }
+      },
+      "attributes": {
+        "senses": {
+          "special": "Cieco oltre questo raggio"
+        }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Cultist": {
@@ -1330,6 +1621,14 @@
         "FQU02Jwlmdhzp34R": {
           "name": "Devozione Oscura"
         }
+      },
+      "details": {
+        "alignment": "Qualsiasi allineamento non buono"
+      },
+      "traits": {
+        "languages": {
+          "custom": "un linguaggio qualsiasi (solitamente Comune)"
+        }
       }
     },
     "Shambling Mound": {
@@ -1347,6 +1646,14 @@
         "N42BQALoCmeYphD1": {
           "name": "Avviluppare"
         }
+      },
+      "attributes": {
+        "senses": {
+          "special": "Cieco oltre questo raggio"
+        }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Deer": {
@@ -1358,6 +1665,9 @@
         "EyXnPvAdgwKZz6LT": {
           "name": "Morso"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Deva": {
@@ -1401,6 +1711,9 @@
       },
       "details": {
         "alignment": "Legale Buono"
+      },
+      "prototypeToken": {
+        "name": "Deva"
       }
     },
     "Bearded Devil": {
@@ -1424,6 +1737,9 @@
         "jfFJ5cnUOGIrUTY4": {
           "name": "Vista del Diavolo"
         }
+      },
+      "details": {
+        "alignment": "Legale Malvagio"
       }
     },
     "Horned Devil": {
@@ -1441,6 +1757,9 @@
         "IJGBvJg6lrJhY1mv": {
           "name": "Vista del Diavolo"
         }
+      },
+      "details": {
+        "alignment": "Legale Malvagio"
       }
     },
     "Bone Devil": {
@@ -1458,6 +1777,9 @@
         "XTbjimpPqg4YV2QD": {
           "name": "Vista del Diavolo"
         }
+      },
+      "details": {
+        "alignment": "Legale Malvagio"
       }
     },
     "Ice Devil": {
@@ -1481,6 +1803,9 @@
         "i6GFKFUS8gJQQ849": {
           "name": "Vista del Diavolo"
         }
+      },
+      "details": {
+        "alignment": "Legale Malvagio"
       }
     },
     "Pit Fiend": {
@@ -1533,6 +1858,9 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "Legale Malvagio"
       }
     },
     "Chain Devil": {
@@ -1561,6 +1889,9 @@
         "0dnRBTCLiRB6hXRE": {
           "name": "Vista del Diavolo"
         }
+      },
+      "details": {
+        "alignment": "Legale Malvagio"
       }
     },
     "Barbed Devil": {
@@ -1581,6 +1912,9 @@
         "Mr0XAAdAlLKQU5on": {
           "name": "Vista del Diavolo"
         }
+      },
+      "details": {
+        "alignment": "Legale Malvagio"
       }
     },
     "Djinni": {
@@ -1655,6 +1989,9 @@
       },
       "details": {
         "alignment": "Caotico Buono"
+      },
+      "prototypeToken": {
+        "name": "Djinni"
       }
     },
     "Weasel": {
@@ -1666,6 +2003,9 @@
         "qQmFFG5fOGkUEeu2": {
           "name": "Morso"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Giant Weasel": {
@@ -1677,6 +2017,9 @@
         "BrbVh5Sx3clXLHIi": {
           "name": "Morso"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Doppelganger": {
@@ -1705,6 +2048,9 @@
       },
       "details": {
         "alignment": "Neutrale"
+      },
+      "prototypeToken": {
+        "name": "Doppelganger"
       }
     },
     "Adult Blue Dracolich": {
@@ -1747,6 +2093,9 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "Caotico Malvagio"
       }
     },
     "Ancient White Dragon": {
@@ -1786,6 +2135,9 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "Caotico Malvagio"
       }
     },
     "White Dragon Wyrmling": {
@@ -1805,6 +2157,9 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "Caotico Malvagio"
       }
     },
     "Young White Dragon": {
@@ -1830,6 +2185,9 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "Caotico Malvagio"
       }
     },
     "Adult Blue Dragon": {
@@ -1866,6 +2224,9 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "Legale Malvagio"
       }
     },
     "Ancient Blue Dragon": {
@@ -1902,6 +2263,9 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "Legale Malvagio"
       }
     },
     "Blue Dragon Wyrmling": {
@@ -1921,6 +2285,9 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "Legale Malvagio"
       }
     },
     "Young Blue Dragon": {
@@ -1943,6 +2310,9 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "Legale Malvagio"
       }
     },
     "Adult Silver Dragon": {
@@ -2775,6 +3145,9 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "Caotico Malvagio"
       }
     },
     "Ancient Black Dragon": {
@@ -2814,6 +3187,9 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "Caotico Malvagio"
       }
     },
     "Black Dragon Wyrmling": {
@@ -2836,6 +3212,9 @@
         "ysyx12MLFCQpD3NA": {
           "name": "Anfibio"
         }
+      },
+      "details": {
+        "alignment": "Caotico Malvagio"
       }
     },
     "Young Black Dragon": {
@@ -2861,6 +3240,9 @@
         "TMquJwGqWpgp9SJd": {
           "name": "Morso"
         }
+      },
+      "details": {
+        "alignment": "Caotico Malvagio"
       }
     },
     "Adult Red Dragon": {
@@ -2897,6 +3279,9 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "Caotico Malvagio"
       }
     },
     "Ancient Red Dragon": {
@@ -2933,6 +3318,9 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "Caotico Malvagio"
       }
     },
     "Red Dragon Wyrmling": {
@@ -2952,6 +3340,9 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "Caotico Malvagio"
       }
     },
     "Young Red Dragon": {
@@ -2974,6 +3365,9 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "Caotico Malvagio"
       }
     },
     "Adult Green Dragon": {
@@ -3013,6 +3407,9 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "Legale Malvagio"
       }
     },
     "Ancient Green Dragon": {
@@ -3052,6 +3449,9 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "Legale Malvagio"
       }
     },
     "Green Dragon Wyrmling": {
@@ -3074,6 +3474,9 @@
         "NKSFy0qwS1M30Mb4": {
           "name": "Anfibio"
         }
+      },
+      "details": {
+        "alignment": "Legale Malvagio"
       }
     },
     "Young Green Dragon": {
@@ -3099,6 +3502,9 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "Legale Malvagio"
       }
     },
     "Dretch": {
@@ -3113,6 +3519,17 @@
         "JVbj7KABKYi3Z8U3": {
           "name": "Nube Fetida"
         }
+      },
+      "details": {
+        "alignment": "Caotico Malvagio"
+      },
+      "traits": {
+        "languages": {
+          "custom": "Telepatia 18 m (funziona soltanto con creature che comprendono l'Abissale)"
+        }
+      },
+      "prototypeToken": {
+        "name": "Dretch"
       }
     },
     "Dryad": {
@@ -3217,6 +3634,12 @@
         "utDSjYtAdPyR8rKZ": {
           "name": "Sensibilità alla Luce Solare"
         }
+      },
+      "details": {
+        "alignment": "Caotico Malvagio"
+      },
+      "prototypeToken": {
+        "name": "Drider"
       }
     },
     "Drow": {
@@ -3258,6 +3681,9 @@
       },
       "details": {
         "alignment": "Neutrale Malvagio"
+      },
+      "prototypeToken": {
+        "name": "Drow"
       }
     },
     "Druid": {
@@ -3335,6 +3761,14 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "qualsiasi allineamento"
+      },
+      "traits": {
+        "languages": {
+          "custom": "due linguaggi qualsiasi"
+        }
       }
     },
     "Duergar": {
@@ -3381,6 +3815,12 @@
         "b3DMmZTTUvs2c2qK": {
           "name": "Sensibilità alla Luce Solare"
         }
+      },
+      "details": {
+        "alignment": "Legale Malvagio"
+      },
+      "prototypeToken": {
+        "name": "Duergar"
       }
     },
     "Efreeti": {
@@ -3434,6 +3874,12 @@
         "Fr77Z90cITQsMV3N": {
           "name": "Morte Elementale"
         }
+      },
+      "details": {
+        "alignment": "Legale Malvagio"
+      },
+      "prototypeToken": {
+        "name": "Efreeti"
       }
     },
     "Elephant": {
@@ -3445,6 +3891,9 @@
         "AxlrZ7HMHoj6zgo5": {
           "name": "Carica Travolgente"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Fire Elemental": {
@@ -3576,6 +4025,9 @@
         "BeB04w7ftFRDaMQ6": {
           "name": "Armi Infernali"
         }
+      },
+      "details": {
+        "alignment": "Legale Malvagio"
       }
     },
     "Scout": {
@@ -3596,6 +4048,14 @@
         },
         "E2fYrhLigMeVH09l": {
           "name": "Arco Lungo"
+        }
+      },
+      "details": {
+        "alignment": "Qualsiasi Allineamento"
+      },
+      "traits": {
+        "languages": {
+          "custom": "un linguaggio qualsiasi (solitamente Comune)"
         }
       }
     },
@@ -3624,6 +4084,9 @@
       },
       "details": {
         "alignment": "Neutrale Malvagio"
+      },
+      "prototypeToken": {
+        "name": "Ettercap"
       }
     },
     "Ettin": {
@@ -3645,12 +4108,21 @@
         "hon1LZGigQRl2jBn": {
           "name": "Due Teste"
         }
+      },
+      "details": {
+        "alignment": "Caotico Malvagio"
+      },
+      "prototypeToken": {
+        "name": "Ettin"
       }
     },
     "Hawk": {
       "name": "Falco",
       "prototypeToken": {
         "name": "Falco"
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Blood Hawk": {
@@ -3662,6 +4134,9 @@
         "Pv2BNg5mSrUY6U1g": {
           "name": "Tattiche del Branco"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Cult Fanatic": {
@@ -3715,6 +4190,14 @@
           "name": "Arma Spirituale",
           "description": "<p>L'incantatore crea entro gittata un'arma spettrale fluttuante che permane per la durata o finché non lancia di nuovo questo incantesimo. Quando lancia l'incantesimo, può effettuare un attacco in mischia con questo incantesimo contro una creatura entro 1,5 metri dall'arma. Se colpisce, il bersaglio subisce danni da forza pari a 1d8 + il modificatore di caratteristica da incantatore.</p><p>Come azione bonus nel proprio turno, l'incantatore può muovere l'arma di un massimo di 6 metri e ripetere l'attacco contro una creatura entro 1,5 metri da essa.</p><p>L'arma può assumere qualsiasi forma scelta dall'incantatore. I chierici delle divinità associate a un'arma particolare, come San Cuthbert per la sua mazza e Thor per il suo martello, fanno sì che l'effetto dell'incantesimo somigli a quell'arma.</p><p><strong>Ai Livelli Superiori.</strong> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 3° livello o superiore, i danni aumentano di 1d8 per ogni due livelli dello slot superiori al 2°.</p>"
         }
+      },
+      "details": {
+        "alignment": "Qualsiasi non buono"
+      },
+      "traits": {
+        "languages": {
+          "custom": "un linguaggio qualsiasi (solitamente Comune)"
+        }
       }
     },
     "Ghost": {
@@ -3747,6 +4230,14 @@
               "name": "Movimento Incorporeo"
             }
           }
+        }
+      },
+      "details": {
+        "alignment": "Qualsiasi Allineamento"
+      },
+      "traits": {
+        "languages": {
+          "custom": "qualsiasi linguaggio conosciuto in vita"
         }
       }
     },
@@ -3800,6 +4291,14 @@
         "fZgfSlczUTtrCNEb": {
           "name": "Falso Aspetto"
         }
+      },
+      "attributes": {
+        "senses": {
+          "special": "Cieco oltre questo raggio"
+        }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Will-o'-Wisp": {
@@ -3842,6 +4341,14 @@
               "name": "Illuminazione Variabile"
             }
           }
+        }
+      },
+      "details": {
+        "alignment": "Caotico Malvagio"
+      },
+      "traits": {
+        "languages": {
+          "custom": "I linguaggi conosciuti in vita"
         }
       }
     },
@@ -3886,12 +4393,21 @@
         "A6GBvah75Y7fGjc5": {
           "name": "Morso"
         }
+      },
+      "details": {
+        "alignment": "Caotico Malvagio"
+      },
+      "prototypeToken": {
+        "name": "Gargoyle"
       }
     },
     "Cat": {
       "name": "Gatto",
       "prototypeToken": {
         "name": "Gatto"
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Ghast": {
@@ -3913,6 +4429,12 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "Caotico Malvagio"
+      },
+      "prototypeToken": {
+        "name": "Ghast"
       }
     },
     "Ghoul": {
@@ -3928,6 +4450,12 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "Caotico Malvagio"
+      },
+      "prototypeToken": {
+        "name": "Ghoul"
       }
     },
     "Fire Giant": {
@@ -3946,6 +4474,9 @@
         "c8b8jy3sM3Z8gxm0": {
           "name": "Spadone"
         }
+      },
+      "details": {
+        "alignment": "Legale Malvagio"
       }
     },
     "Frost Giant": {
@@ -3980,6 +4511,9 @@
         "250gOq5bpqIHb7rw": {
           "name": "Randello Pesante"
         }
+      },
+      "details": {
+        "alignment": "Caotico Malvagio"
       }
     },
     "Cloud Giant": {
@@ -4036,6 +4570,9 @@
         "Jr0CfxY8xuFT6hoa": {
           "name": "Morning Star"
         }
+      },
+      "details": {
+        "alignment": "Neutrale Buono Malvagio (50%) o Neutrale Malvagio (50%)"
       }
     },
     "Stone Giant": {
@@ -4216,6 +4753,14 @@
         "f8zut6gBBsfoAikg": {
           "name": "Imperscrutabile"
         }
+      },
+      "details": {
+        "alignment": "Legale Neutrale"
+      },
+      "traits": {
+        "languages": {
+          "custom": "Sfinge"
+        }
       }
     },
     "Glabrezu": {
@@ -4253,6 +4798,12 @@
         "2DLTpJUuKFmG7yoL": {
           "name": "Resistenza Magica"
         }
+      },
+      "details": {
+        "alignment": "Caotico Malvagio"
+      },
+      "prototypeToken": {
+        "name": "Glabrezu"
       }
     },
     "Gladiator": {
@@ -4282,6 +4833,14 @@
         "8MsAKETlPQapB6zn": {
           "name": "Parata"
         }
+      },
+      "details": {
+        "alignment": "Qualsiasi Allineamento"
+      },
+      "traits": {
+        "languages": {
+          "custom": "un linguaggio qualsiasi (solitamente Comune)"
+        }
       }
     },
     "Gnoll": {
@@ -4307,6 +4866,12 @@
         "TGAlVMJcaZCRp7TI": {
           "name": "Furia"
         }
+      },
+      "details": {
+        "alignment": "Caotico Malvagio"
+      },
+      "prototypeToken": {
+        "name": "Gnoll"
       }
     },
     "Deep Gnome": {
@@ -4382,6 +4947,9 @@
       },
       "details": {
         "alignment": "Neutrale Malvagio"
+      },
+      "prototypeToken": {
+        "name": "Goblin"
       }
     },
     "Clay Golem": {
@@ -4415,6 +4983,14 @@
         },
         "K5xMZVNv8m2Pw87E": {
           "name": "Berserk"
+        }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
+      },
+      "traits": {
+        "languages": {
+          "custom": "Comprende i linguaggi del proprio creatore ma non può parlare"
         }
       }
     },
@@ -4453,6 +5029,11 @@
       },
       "details": {
         "alignment": "Neutrale"
+      },
+      "traits": {
+        "languages": {
+          "custom": "comprende i linguaggi del proprio creatore ma non può parlare"
+        }
       }
     },
     "Iron Golem": {
@@ -4478,6 +5059,14 @@
         },
         "y2j6GWf1Ur3GRtYI": {
           "name": "Assorbimento del Fuoco"
+        }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
+      },
+      "traits": {
+        "languages": {
+          "custom": "comprende i linguaggi del proprio creatore ma non può parlare"
         }
       }
     },
@@ -4507,6 +5096,14 @@
         "cv0gdC9Q1bgidGpG": {
           "name": "Armi Magiche"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
+      },
+      "traits": {
+        "languages": {
+          "custom": "comprende i linguaggi del proprio creatore ma non può parlare"
+        }
       }
     },
     "Gorgon": {
@@ -4524,6 +5121,9 @@
         "O8oahxePfpHFYohz": {
           "name": "Zoccoli"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Ape": {
@@ -4535,6 +5135,9 @@
         "hbxC3Wg3H8cSIvM0": {
           "name": "Multiattacco"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Giant Ape": {
@@ -4546,6 +5149,9 @@
         "NOajNyilBv8JIEVp": {
           "name": "Multiattacco"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Crab": {
@@ -4557,6 +5163,9 @@
         "ciz8wAZjqxPnu5Pe": {
           "name": "Anfibio"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Giant Crab": {
@@ -4568,6 +5177,9 @@
         "JX4r7y8EtvEimwc3": {
           "name": "Anfibio"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Grick": {
@@ -4585,6 +5197,9 @@
       },
       "details": {
         "alignment": "Neutrale"
+      },
+      "prototypeToken": {
+        "name": "Grick"
       }
     },
     "Griffon": {
@@ -4596,6 +5211,9 @@
         "wF7eGWgo8AZNTcyg": {
           "name": "Multiattacco"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Grimlock": {
@@ -4610,6 +5228,14 @@
       },
       "details": {
         "alignment": "Neutrale Malvagio"
+      },
+      "attributes": {
+        "senses": {
+          "special": "3 m mentre è assordato (cieco oltre questo raggio)"
+        }
+      },
+      "prototypeToken": {
+        "name": "Grimlock"
       }
     },
     "Guard": {
@@ -4628,6 +5254,14 @@
         },
         "92uVNexE43Z8D18r": {
           "name": "Lancia"
+        }
+      },
+      "details": {
+        "alignment": "Qualsiasi Allineamento"
+      },
+      "traits": {
+        "languages": {
+          "custom": "un linguaggio qualsiasi (solitamente Comune)"
         }
       }
     },
@@ -4657,6 +5291,14 @@
         "EjeLsaCua7yjgxax": {
           "name": "Scudo"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
+      },
+      "traits": {
+        "languages": {
+          "custom": "comprende i comandi impartiti in qualsiasi linguaggio ma non può parlare"
+        }
       }
     },
     "Tribal Warrior": {
@@ -4675,6 +5317,14 @@
         "jwmEsvp6TGLCc8YS": {
           "name": "Tattiche del Branco"
         }
+      },
+      "details": {
+        "alignment": "qualsiasi allineamento"
+      },
+      "traits": {
+        "languages": {
+          "custom": "un linguaggio qualsiasi"
+        }
       }
     },
     "Owl": {
@@ -4686,6 +5336,9 @@
         "YhtTMVOFSgPGm71b": {
           "name": "Volo Sfuggente"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Giant Owl": {
@@ -4700,6 +5353,11 @@
       },
       "details": {
         "alignment": "Neutrale"
+      },
+      "traits": {
+        "languages": {
+          "custom": "Gufo Gigante; comprende Comune, Elfico e Silvano ma non può parlarli"
+        }
       }
     },
     "Hezrou": {
@@ -4717,6 +5375,12 @@
         "WiGntECF3M0m0GY5": {
           "name": "Resistenza Magica"
         }
+      },
+      "details": {
+        "alignment": "Caotico Malvagio"
+      },
+      "prototypeToken": {
+        "name": "Hezrou"
       }
     },
     "Hobgoblin": {
@@ -4739,6 +5403,12 @@
           "name": "Scudo",
           "description": "<p>Uno scudo è realizzato in legno o metallo ed è portato in una mano. Il possesso di uno scudo aumenta la tua Classe di armatura di 2. Puoi beneficiare di un solo scudo alla volta.</p>"
         }
+      },
+      "details": {
+        "alignment": "Legale Malvagio"
+      },
+      "prototypeToken": {
+        "name": "Hobgoblin"
       }
     },
     "Ice Mephit": {
@@ -4778,7 +5448,13 @@
           "name": "Trattenere il Respiro"
         },
         "fsAeJDaI0a6sBeFk": {
-          "name": "Teste Multiple"
+          "name": "Teste Multiple",
+          "effects": {
+            "jALTzc0GXXaDjFNQ": {
+              "name": "Testa dell'Idra",
+              "description": "<p>Possiedi una testa vivente. Muori se perdi tutte le tue teste.</p>"
+            }
+          }
         },
         "bE965DuMt1ReAulm": {
           "name": "Teste Reattive"
@@ -4791,6 +5467,31 @@
         },
         "fYE4f0Oa2I0MetId": {
           "name": "Morso"
+        }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
+      },
+      "effects": {
+        "3dYEatAuBib3c6FB": {
+          "name": "Testa dell'Idra",
+          "description": "<p>Possiedi una testa vivente. Muori se perdi tutte le tue teste.</p>"
+        },
+        "9CBlGehfEb970RQi": {
+          "name": "Testa dell'Idra",
+          "description": "<p>Possiedi una testa vivente. Muori se perdi tutte le tue teste.</p>"
+        },
+        "DrW5Xoq9GMgWz27O": {
+          "name": "Testa dell'Idra",
+          "description": "<p>Possiedi una testa vivente. Muori se perdi tutte le tue teste.</p>"
+        },
+        "KC8JCApAH9x0JxIL": {
+          "name": "Testa dell'Idra",
+          "description": "<p>Possiedi una testa vivente. Muori se perdi tutte le tue teste.</p>"
+        },
+        "UGQKqZq1BCUTPQOT": {
+          "name": "Testa dell'Idra",
+          "description": "<p>Possiedi una testa vivente. Muori se perdi tutte le tue teste.</p>"
         }
       }
     },
@@ -4806,6 +5507,9 @@
         "WvsqIAGixT9lFM61": {
           "name": "Tattiche del Branco"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Giant Hyena": {
@@ -4820,6 +5524,9 @@
         "X9XQ405Nx5lHP20E": {
           "name": "Morso"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Imp": {
@@ -4862,6 +5569,12 @@
         "mE8GYyYeV3dIxYMF": {
           "name": "Vista del Diavolo"
         }
+      },
+      "details": {
+        "alignment": "Legale Malvagio"
+      },
+      "prototypeToken": {
+        "name": "Imp"
       }
     },
     "Hippogriff": {
@@ -4873,6 +5586,9 @@
         "bUWbRbY7TpLSL1kO": {
           "name": "Multiattacco"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Kraken": {
@@ -4916,6 +5632,17 @@
         "e2EtrJsAPZ19WuE7": {
           "name": "Attacco con Tentacolo o Scagliare"
         }
+      },
+      "details": {
+        "alignment": "Caotico Malvagio"
+      },
+      "traits": {
+        "languages": {
+          "custom": "comprende Abissale, Celestiale, Infernale e Primordiale ma non può parlare"
+        }
+      },
+      "prototypeToken": {
+        "name": "Kraken"
       }
     },
     "Lamia": {
@@ -4964,6 +5691,12 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "Caotico Malvagio"
+      },
+      "prototypeToken": {
+        "name": "Lamia"
       }
     },
     "Lemure": {
@@ -4975,6 +5708,17 @@
         "Di9DB6UXL4OOVV0b": {
           "name": "Vista del Diavolo"
         }
+      },
+      "details": {
+        "alignment": "Legale Malvagio"
+      },
+      "traits": {
+        "languages": {
+          "custom": "Non può parlare"
+        }
+      },
+      "prototypeToken": {
+        "name": "Lemure"
       }
     },
     "Lion": {
@@ -4995,6 +5739,9 @@
         "3jkeGG7QcQI0bi6W": {
           "name": "Balzo"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Lich": {
@@ -5143,6 +5890,17 @@
         "stk9i3rPK7z99CDf": {
           "name": "Ringiovanimento"
         }
+      },
+      "details": {
+        "alignment": "Qualsiasi allineamento malvagio"
+      },
+      "traits": {
+        "languages": {
+          "custom": "altri 5 linguaggi"
+        }
+      },
+      "prototypeToken": {
+        "name": "Lich"
       }
     },
     "Lizardfolk": {
@@ -5167,6 +5925,9 @@
       },
       "details": {
         "alignment": "Neutrale"
+      },
+      "prototypeToken": {
+        "name": "Lucertoloide"
       }
     },
     "Lizard": {
@@ -5178,6 +5939,9 @@
         "AlO7NtMS64z0faPM": {
           "name": "Morso"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Giant Lizard": {
@@ -5189,6 +5953,9 @@
         "fLwfCY0GE5S7mMYv": {
           "name": "Morso"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Wolf": {
@@ -5203,6 +5970,9 @@
         "wuSyn1WGzdOHoRym": {
           "name": "Tattiche del Branco"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Dire Wolf": {
@@ -5217,6 +5987,9 @@
         "1F65EMViOLPak90j": {
           "name": "Morso"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Winter Wolf": {
@@ -5255,6 +6028,14 @@
       "items": {
         "2kHNI1T4gg879fDv": {
           "name": "Mutaforma"
+        }
+      },
+      "details": {
+        "alignment": "Caotico Malvagio"
+      },
+      "traits": {
+        "languages": {
+          "custom": "(non può parlare in forma di lupo)"
         }
       }
     },
@@ -5307,6 +6088,9 @@
       },
       "details": {
         "alignment": "Caotico Neutrale"
+      },
+      "prototypeToken": {
+        "name": "Magmin"
       }
     },
     "Mage": {
@@ -5396,6 +6180,14 @@
         "rG6fb3lkjuxqEaDd": {
           "name": "Pugnale"
         }
+      },
+      "details": {
+        "alignment": "Qualsiasi Allineamento"
+      },
+      "traits": {
+        "languages": {
+          "custom": "quattro linguaggi qualsiasi"
+        }
       }
     },
     "Thug": {
@@ -5420,6 +6212,14 @@
         "pzOJ9VdL4B8syEma": {
           "name": "Tattiche del Branco"
         }
+      },
+      "details": {
+        "alignment": "Qualsiasi allineamento non buono"
+      },
+      "traits": {
+        "languages": {
+          "custom": "un linguaggio qualsiasi (solitamente Comune)"
+        }
       }
     },
     "Mammoth": {
@@ -5431,6 +6231,9 @@
         "4LYRJH02EsSnZUNc": {
           "name": "Carica Travolgente"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Manticore": {
@@ -5448,6 +6251,9 @@
         "thSJXAlyfHGmVWN5": {
           "name": "Morso"
         }
+      },
+      "details": {
+        "alignment": "Legale Malvagio"
       }
     },
     "Cloaker": {
@@ -5508,6 +6314,9 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Marilith": {
@@ -5539,6 +6348,17 @@
         "rBHEI0gZnnv8h44g": {
           "name": "Reattivo"
         }
+      },
+      "details": {
+        "alignment": "Caotico Malvagio"
+      },
+      "traits": {
+        "languages": {
+          "custom": "Telepatia 36 m"
+        }
+      },
+      "prototypeToken": {
+        "name": "Marilith"
       }
     },
     "Merfolk": {
@@ -5567,6 +6387,9 @@
         "QLJgy1aF5ijBEp4K": {
           "name": "Morso"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Medusa": {
@@ -5584,6 +6407,12 @@
         "4U98oe3Qr28BGbzG": {
           "name": "Arco Lungo"
         }
+      },
+      "details": {
+        "alignment": "Legale Malvagio"
+      },
+      "prototypeToken": {
+        "name": "Medusa"
       }
     },
     "Sea Hag": {
@@ -5609,6 +6438,9 @@
         "mu6H0PnN6ZcY0JMl": {
           "name": "Anfibio"
         }
+      },
+      "details": {
+        "alignment": "Caotico Malvagio"
       }
     },
     "Night Hag": {
@@ -5722,6 +6554,14 @@
         "JVq3dfBRcON0kWKz": {
           "name": "Amorfo"
         }
+      },
+      "attributes": {
+        "senses": {
+          "special": "Cieco oltre questo raggio"
+        }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Steam Mephit": {
@@ -5783,6 +6623,12 @@
         "mlSE7NFjSHqjZcKO": {
           "name": "Anfibio"
         }
+      },
+      "details": {
+        "alignment": "Caotico Malvagio"
+      },
+      "prototypeToken": {
+        "name": "Merrow"
       }
     },
     "Half-Red Dragon Veteran": {
@@ -5815,6 +6661,9 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "Qualsiasi Allineamento"
       }
     },
     "Giant Centipede": {
@@ -5826,6 +6675,9 @@
         "8EvqvqLumOBhrjeD": {
           "name": "Morso"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Mimic": {
@@ -5843,6 +6695,9 @@
       },
       "details": {
         "alignment": "Neutrale"
+      },
+      "prototypeToken": {
+        "name": "Mimic"
       }
     },
     "Minotaur": {
@@ -5869,12 +6724,18 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "Caotico Malvagio"
       }
     },
     "Giant Fly": {
       "name": "Mosca Gigante",
       "prototypeToken": {
         "name": "Mosca Gigante"
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Mule": {
@@ -5892,6 +6753,9 @@
         "Ou2VI9ORGu2JnZqj": {
           "name": "Zoccoli"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Mummy": {
@@ -5915,6 +6779,14 @@
               "name": "Focalizza Sguardo"
             }
           }
+        }
+      },
+      "details": {
+        "alignment": "Legale Malvagio"
+      },
+      "traits": {
+        "languages": {
+          "custom": "i linguaggi conosciuti in vita"
         }
       }
     },
@@ -6058,6 +6930,9 @@
         "1tcNxiXDdUbfOovR": {
           "name": "Ringiovanimento"
         }
+      },
+      "details": {
+        "alignment": "Caotico Malvagio"
       }
     },
     "Nalfeshnee": {
@@ -6083,6 +6958,17 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "Caotico Malvagio"
+      },
+      "traits": {
+        "languages": {
+          "custom": "Telepatia 36 m"
+        }
+      },
+      "prototypeToken": {
+        "name": "Nalfeshnee"
       }
     },
     "Noble": {
@@ -6101,6 +6987,14 @@
         "gJ5Nl48TvnTHZarp": {
           "name": "Parata"
         }
+      },
+      "details": {
+        "alignment": "Qualsiasi Allineamento"
+      },
+      "traits": {
+        "languages": {
+          "custom": "due linguaggi qualsiasi"
+        }
       }
     },
     "Ogre": {
@@ -6116,6 +7010,12 @@
           "name": "Armatura di Pelle",
           "description": "<p>Un’armatura rozza composta di pelle e folta pelliccia. È indossata normalmente da tribù barbariche, umanoidi malvagi e altre popolazioni che non hanno accesso agli attrezzi e i materiali per costruire armature migliori.</p>"
         }
+      },
+      "details": {
+        "alignment": "Caotico Malvagio"
+      },
+      "prototypeToken": {
+        "name": "Ogre"
       }
     },
     "Shadow": {
@@ -6138,6 +7038,9 @@
         "x0kH7E7cx85DTWOh": {
           "name": "Sensibilità alla Luce Solare"
         }
+      },
+      "details": {
+        "alignment": "Caotico Malvagio"
       }
     },
     "Homunculus": {
@@ -6163,6 +7066,11 @@
       },
       "details": {
         "alignment": "Neutrale"
+      },
+      "traits": {
+        "languages": {
+          "custom": "Comprende i linguaggi del proprio creatore ma non può parlare"
+        }
       }
     },
     "Oni": {
@@ -6224,6 +7132,12 @@
         "TCJLfMzkArxZePFY": {
           "name": "Armi Magiche"
         }
+      },
+      "details": {
+        "alignment": "Legale Malvagio"
+      },
+      "prototypeToken": {
+        "name": "Oni"
       }
     },
     "Killer Whale": {
@@ -6246,6 +7160,9 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Orc": {
@@ -6268,6 +7185,9 @@
         "SrRZ2hBUcaXZiRab": {
           "name": "Giavellotto"
         }
+      },
+      "details": {
+        "alignment": "Caotico Malvagio"
       }
     },
     "Brown Bear": {
@@ -6282,6 +7202,9 @@
         "AVusgSNjauFD9XnU": {
           "name": "Multiattacco"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Werebear": {
@@ -6299,6 +7222,11 @@
       },
       "details": {
         "alignment": "Neutrale Buono"
+      },
+      "traits": {
+        "languages": {
+          "custom": "(non può parlare in forma di orso)"
+        }
       }
     },
     "Black Bear": {
@@ -6313,6 +7241,9 @@
         "8VdhUFhUE9m12piC": {
           "name": "Morso"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Polar Bear": {
@@ -6327,6 +7258,9 @@
         "c8cisRQ7Ki3qiXgL": {
           "name": "Morso"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Owlbear": {
@@ -6338,6 +7272,9 @@
         "R7Vx1RxO8OjXpzQd": {
           "name": "Multiattacco"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Otyugh": {
@@ -6368,6 +7305,14 @@
       },
       "details": {
         "alignment": "Neutrale"
+      },
+      "traits": {
+        "languages": {
+          "custom": "Otyugh"
+        }
+      },
+      "prototypeToken": {
+        "name": "Otyugh"
       }
     },
     "Panther": {
@@ -6382,6 +7327,9 @@
         "3lFDjIui9laz2qgt": {
           "name": "Balzo"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Pegasus": {
@@ -6396,6 +7344,11 @@
       },
       "details": {
         "alignment": "Caotico Buono"
+      },
+      "traits": {
+        "languages": {
+          "custom": "comprende Celestiale, Comune, Elfico e Silvano ma non può parlare"
+        }
       }
     },
     "Octopus": {
@@ -6416,6 +7369,9 @@
         "SLnyx0Ta2ksVM9QL": {
           "name": "Tentacoli"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Giant Octopus": {
@@ -6436,6 +7392,9 @@
         "NXi6iGOpnmUiczJA": {
           "name": "Tentacoli"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Bat": {
@@ -6455,6 +7414,9 @@
         "N05hdQhXPTOHipkJ": {
           "name": "Morso"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Giant Bat": {
@@ -6474,6 +7436,9 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Planetar": {
@@ -6538,6 +7503,9 @@
       },
       "details": {
         "alignment": "Legale Buono"
+      },
+      "prototypeToken": {
+        "name": "Planetar"
       }
     },
     "Plesiosaurus": {
@@ -6552,6 +7520,9 @@
         "PtGDikGuH6rHkITy": {
           "name": "Trattenere il Respiro"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Pony": {
@@ -6560,6 +7531,12 @@
         "bDVZoB8Y0b3nkveO": {
           "name": "Zoccoli"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
+      },
+      "prototypeToken": {
+        "name": "Pony"
       }
     },
     "Commoner": {
@@ -6570,6 +7547,14 @@
       "items": {
         "HwktDnB8qdr0BYGZ": {
           "name": "Randello"
+        }
+      },
+      "details": {
+        "alignment": "Qualsiasi"
+      },
+      "traits": {
+        "languages": {
+          "custom": "un linguaggio qualsiasi (solitamente Comune)"
         }
       }
     },
@@ -6602,6 +7587,11 @@
       },
       "details": {
         "alignment": "Neutrale Malvagio"
+      },
+      "traits": {
+        "languages": {
+          "custom": "i linguaggi conosciuti in vita"
+        }
       }
     },
     "Black Pudding": {
@@ -6622,6 +7612,14 @@
         "jF9rqlnLBWRoCnpK": {
           "name": "Scindersi"
         }
+      },
+      "attributes": {
+        "senses": {
+          "special": "Cieco oltre questo raggio"
+        }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Pseudodragon": {
@@ -6645,6 +7643,11 @@
       },
       "details": {
         "alignment": "Neutrale Buono"
+      },
+      "traits": {
+        "languages": {
+          "custom": "non può parlare"
+        }
       }
     },
     "Quasit": {
@@ -6670,6 +7673,12 @@
               "profiles": {
                 "p7SLorpuBrwc2IGY": {
                   "name": "Pipistrello"
+                },
+                "DPTp2z3B8UDGsbAQ": {
+                  "name": "Centopiede"
+                },
+                "1OR7BiWrDkYMiSLs": {
+                  "name": "Rospo"
                 }
               }
             }
@@ -6681,6 +7690,12 @@
         "BazHsWJucole1yk3": {
           "name": "Resistenza Magica"
         }
+      },
+      "details": {
+        "alignment": "Caotico Malvagio"
+      },
+      "prototypeToken": {
+        "name": "Quasit"
       }
     },
     "Quipper": {
@@ -6692,6 +7707,12 @@
         "0SJofXpPrHJsVXOy": {
           "name": "Morso"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
+      },
+      "prototypeToken": {
+        "name": "Quipper"
       }
     },
     "Spider": {
@@ -6713,6 +7734,9 @@
         "GQ8a63ou7VwIGrvv": {
           "name": "Andatura sulla Ragnatela"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Giant Spider": {
@@ -6737,6 +7761,9 @@
         "TfFmcNW4o6Ork9HS": {
           "name": "Andatura sulla Ragnatela"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Giant Wolf Spider": {
@@ -6758,6 +7785,9 @@
         "6LIe3MnWba41tnEG": {
           "name": "Andatura sulla Ragnatela"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Phase Spider": {
@@ -6779,6 +7809,9 @@
         "pnTjdoXNZUS406eW": {
           "name": "Andatura sulla Ragnatela"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Rakshasa": {
@@ -6847,6 +7880,17 @@
         "ChSnKd7pSLoN1Jeu": {
           "name": "Immunità Magica Limitata"
         }
+      },
+      "details": {
+        "alignment": "Legale Malvagio"
+      },
+      "traits": {
+        "dv": {
+          "custom": "Perforanti da armi magiche impugnate da creature buone"
+        }
+      },
+      "prototypeToken": {
+        "name": "Rakshasa"
       }
     },
     "Frog": {
@@ -6861,6 +7905,9 @@
         "aPDITZsJ4mjgo9zh": {
           "name": "Anfibio"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Giant Frog": {
@@ -6881,6 +7928,9 @@
         "9gLJgr3WzhykKRl9": {
           "name": "Inghiottire"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Remorhaz": {
@@ -6895,6 +7945,12 @@
         "NwgQC3ohxcI1L3GT": {
           "name": "Inghiottire"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
+      },
+      "prototypeToken": {
+        "name": "Remorhaz"
       }
     },
     "Rhinoceros": {
@@ -6906,6 +7962,9 @@
         "vVxV62ZM3EEkz4KX": {
           "name": "Carica"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Roc": {
@@ -6914,6 +7973,12 @@
         "s5X12Eygxcpzd9eM": {
           "name": "Multiattacco"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
+      },
+      "prototypeToken": {
+        "name": "Roc"
       }
     },
     "Giant Toad": {
@@ -6934,6 +7999,9 @@
         "6aBDwlIsxceFMXxL": {
           "name": "Inghiottire"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Rust Monster": {
@@ -6954,6 +8022,9 @@
         "yxwZ9AtLMKZ61sTz": {
           "name": "Antenne"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Priest": {
@@ -7012,6 +8083,14 @@
           "name": "Giaco di Maglia",
           "description": "<p>Composto di anelli metallici intrecciati tra di loro, un giaco di maglia viene indossato sopra strati di abiti o cuoio. Questo tipo di armatura offre una protezione modesta alla parte superiore del corpo, mentre il rumore degli anelli che strusciano fra di loro viene attutito dagli altri strati.</p>"
         }
+      },
+      "details": {
+        "alignment": "Qualsiasi Allineamento"
+      },
+      "traits": {
+        "languages": {
+          "custom": "due linguaggi qualsiasi"
+        }
       }
     },
     "Sahuagin": {
@@ -7035,6 +8114,17 @@
         "QJSOQXewtM4dM59t": {
           "name": "Anfibio Limitato"
         }
+      },
+      "details": {
+        "alignment": "Legale Malvagio"
+      },
+      "traits": {
+        "languages": {
+          "custom": "Sahuagin"
+        }
+      },
+      "prototypeToken": {
+        "name": "Sahuagin"
       }
     },
     "Salamander": {
@@ -7096,6 +8186,9 @@
         "t1I5Ss8xvBplViSy": {
           "name": "Illuminazione"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Skeleton": {
@@ -7110,6 +8203,14 @@
         "qXbbvudRpBoul3bH": {
           "name": "Spada Corta"
         }
+      },
+      "details": {
+        "alignment": "Legale Malvagio"
+      },
+      "traits": {
+        "languages": {
+          "custom": "Comprende tutti i linguaggi conosciuti in vita ma non può parlare"
+        }
       }
     },
     "Warhorse Skeleton": {
@@ -7121,6 +8222,9 @@
         "sIgV1p8nM1z4VZgY": {
           "name": "Zoccoli"
         }
+      },
+      "details": {
+        "alignment": "Legale Malvagio"
       }
     },
     "Minotaur Skeleton": {
@@ -7134,6 +8238,14 @@
         },
         "vJAkNKhTmRrz6Zoq": {
           "name": "Ascia Bipenne"
+        }
+      },
+      "details": {
+        "alignment": "Legale Malvagio"
+      },
+      "traits": {
+        "languages": {
+          "custom": "comprende ma non può parlare"
         }
       }
     },
@@ -7149,6 +8261,9 @@
         "N0jppeHsRmEzZqMp": {
           "name": "Tattiche del Branco"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Swarm of Ravens": {
@@ -7165,6 +8280,9 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Swarm of Insects": {
@@ -7181,6 +8299,9 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Swarm of Centipedes": {
@@ -7197,6 +8318,9 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Swarm of Bats": {
@@ -7221,6 +8345,9 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Swarm of Quippers": {
@@ -7240,6 +8367,9 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Swarm of Spiders": {
@@ -7265,6 +8395,9 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Swarm of Rats": {
@@ -7281,6 +8414,9 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Swarm of Beetles": {
@@ -7297,6 +8433,9 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Swarm of Poisonous Snakes": {
@@ -7313,6 +8452,9 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Swarm of Wasps": {
@@ -7329,12 +8471,18 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Scorpion": {
       "name": "Scorpione",
       "prototypeToken": {
         "name": "Scorpione"
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Giant Scorpion": {
@@ -7346,6 +8494,9 @@
         "wpqra38jsZPRAuov": {
           "name": "Multiattacco"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Hell Hound": {
@@ -7368,6 +8519,14 @@
         "H4DaD12Chkk5agFU": {
           "name": "Tattiche del Branco"
         }
+      },
+      "details": {
+        "alignment": "Legale Malvagio"
+      },
+      "traits": {
+        "languages": {
+          "custom": "comprende l'Infernale ma non può parlarlo"
+        }
       }
     },
     "Constrictor Snake": {
@@ -7379,6 +8538,9 @@
         "hZOM2L6WMmk8QOfO": {
           "name": "Morso"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Giant Constrictor Snake": {
@@ -7390,6 +8552,9 @@
         "qB9j7Epq7UVkGWzY": {
           "name": "Morso"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Poisonous Snake": {
@@ -7401,6 +8566,9 @@
         "obYv0JJqJiMTsoIF": {
           "name": "Morso"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Giant Poisonous Snake": {
@@ -7412,6 +8580,9 @@
         "GlOJaYXJFUP0Hd80": {
           "name": "Morso"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Flying Snake": {
@@ -7426,6 +8597,9 @@
         "ITtDDLuoOyJbDQpA": {
           "name": "Morso"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Mummy Lord": {
@@ -7526,6 +8700,14 @@
         "AEc5FXdpe3M7KHQI": {
           "name": "Ringiovanimento"
         }
+      },
+      "details": {
+        "alignment": "Legale Malvagio"
+      },
+      "traits": {
+        "languages": {
+          "custom": "i linguaggi conosciuti in vita"
+        }
       }
     },
     "Solar": {
@@ -7610,6 +8792,9 @@
       },
       "details": {
         "alignment": "Legale Buono"
+      },
+      "prototypeToken": {
+        "name": "Solar"
       }
     },
     "Flying Sword": {
@@ -7627,6 +8812,14 @@
         "C1O9SIIa9YwxZEjc": {
           "name": "Suscettibilità all'Anti-magia"
         }
+      },
+      "attributes": {
+        "senses": {
+          "special": "Cieco oltre questo raggio"
+        }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Specter": {
@@ -7645,6 +8838,14 @@
         },
         "3WwJUKXEtMQkARMv": {
           "name": "Sensibilità alla Luce Solare"
+        }
+      },
+      "details": {
+        "alignment": "Caotico Malvagio"
+      },
+      "traits": {
+        "languages": {
+          "custom": "Comprende tutti i linguaggi conosciuti in vita ma non può parlare"
         }
       }
     },
@@ -7673,6 +8874,14 @@
         },
         "jdlkJyxonR6N7bjE": {
           "name": "Attacco Furtivo"
+        }
+      },
+      "details": {
+        "alignment": "Qualsiasi Allineamento"
+      },
+      "traits": {
+        "languages": {
+          "custom": "due qualsiasi"
         }
       }
     },
@@ -7724,6 +8933,9 @@
         "Wo7XERIm3xygmhVH": {
           "name": "Frenesia di Sangue"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Giant Shark": {
@@ -7738,6 +8950,9 @@
         "piNE415TOqbqy2Hq": {
           "name": "Frenesia di Sangue"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Reef Shark": {
@@ -7752,10 +8967,19 @@
         "M0DPIoEsGINqZoyf": {
           "name": "Tattiche del Branco"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Stirge": {
-      "name": "Stirge"
+      "name": "Stirge",
+      "details": {
+        "alignment": "Senza Allineamento"
+      },
+      "prototypeToken": {
+        "name": "Stirge"
+      }
     },
     "Succubus/Incubus": {
       "name": "Succube/Incubo",
@@ -7785,6 +9009,9 @@
         "eb0O9cQ8N6lovLyI": {
           "name": "Bacio Prosciugante"
         }
+      },
+      "details": {
+        "alignment": "neutrale malvagio"
       }
     },
     "Rug of Smothering": {
@@ -7802,6 +9029,14 @@
         "gjJgPoevkUlW7qZ9": {
           "name": "Suscettibilità all'Anti-magia"
         }
+      },
+      "attributes": {
+        "senses": {
+          "special": "Cieco oltre questo raggio"
+        }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Tarrasque": {
@@ -7843,6 +9078,12 @@
         "JKnHbj3EFyloyYpd": {
           "name": "Inghiottire"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
+      },
+      "prototypeToken": {
+        "name": "Tarrasque"
       }
     },
     "Badger": {
@@ -7857,6 +9098,9 @@
         "siQuRYBFdjgVrKlA": {
           "name": "Morso"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Giant Badger": {
@@ -7871,6 +9115,9 @@
         "NTUVjYVsAjweAj1R": {
           "name": "Morso"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Dragon Turtle": {
@@ -7908,6 +9155,9 @@
         "YypXtXEL61FqWYOP": {
           "name": "Morso"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Saber-Toothed Tiger": {
@@ -7922,6 +9172,9 @@
         "9Ayx6ARdliy8D5lj": {
           "name": "Balzo"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Weretiger": {
@@ -7938,11 +9191,20 @@
             "xx5oDVvttzxBUXpQ": {
               "name": "Prono"
             }
-          }
+          },
+          "requirements": "Forma di Tigre o Ibrida"
+        },
+        "SmUCt79LtakgTJoa": {
+          "requirements": "Forma Umanoide o Ibrida"
         }
       },
       "details": {
         "alignment": "Neutrale"
+      },
+      "traits": {
+        "languages": {
+          "custom": "(non può parlare in forma di tigre)"
+        }
       }
     },
     "Tyrannosaurus Rex": {
@@ -7957,6 +9219,9 @@
         "Fi45qe2ncVZHNq43": {
           "name": "Multiattacco"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Rat": {
@@ -7968,6 +9233,9 @@
         "QpysqgoHq9LXsShc": {
           "name": "Morso"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Giant Rat": {
@@ -7982,6 +9250,9 @@
         "trVc1Q07JuCHdmMP": {
           "name": "Tattiche del Branco"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Wererat": {
@@ -7992,6 +9263,14 @@
       "items": {
         "PhdUmTsYUeWSSDNN": {
           "name": "Mutaforma"
+        }
+      },
+      "details": {
+        "alignment": "Legale Malvagio"
+      },
+      "traits": {
+        "languages": {
+          "custom": "(non può parlare in forma di ratto)"
         }
       }
     },
@@ -8013,6 +9292,9 @@
       },
       "details": {
         "alignment": "Caotico Buono"
+      },
+      "prototypeToken": {
+        "name": "Treant"
       }
     },
     "Triceratops": {
@@ -8024,6 +9306,9 @@
         "4jztSrWQNxc4q55u": {
           "name": "Carica Travolgente"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Troll": {
@@ -8043,6 +9328,12 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "Caotico Malvagio"
+      },
+      "prototypeToken": {
+        "name": "Troll"
       }
     },
     "Unicorn": {
@@ -8165,7 +9456,30 @@
           "name": "Charme"
         },
         "c9z4o0fkxq37v8KY": {
-          "name": "Figli della Notte"
+          "name": "Figli della Notte",
+          "activities": {
+            "MEMqdbvq8fIu4T89": {
+              "profiles": {
+                "7buSdyzaIOj5eyRm": {
+                  "name": "Sciami di Pipistrelli"
+                },
+                "kuHqC6m1KOdp9jQj": {
+                  "name": "Sciami di Ratti"
+                },
+                "9wtSg4F1y1U9LiJm": {
+                  "name": "Lupi"
+                }
+              }
+            }
+          }
+        }
+      },
+      "details": {
+        "alignment": "Legale Malvagio"
+      },
+      "traits": {
+        "languages": {
+          "custom": "i linguaggi conosciuti in vita"
         }
       }
     },
@@ -8184,12 +9498,18 @@
         "ZgUj67GknsWFnbAR": {
           "name": "Scavatore"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Giant Wasp": {
       "name": "Vespa Gigante",
       "prototypeToken": {
         "name": "Vespa Gigante"
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Veteran": {
@@ -8214,6 +9534,14 @@
         "6jQ7YUixkwBq2Fh8": {
           "name": "Balestra Pesante"
         }
+      },
+      "details": {
+        "alignment": "Qualsiasi Allineamento"
+      },
+      "traits": {
+        "languages": {
+          "custom": "un linguaggio qualsiasi (solitamente Comune)"
+        }
       }
     },
     "Wyvern": {
@@ -8228,6 +9556,9 @@
         "j1LTHxGLXWdnEbwq": {
           "name": "Morso"
         }
+      },
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     },
     "Vrock": {
@@ -8245,6 +9576,12 @@
         "lFkc4XAUH21VJuuU": {
           "name": "Resistenza Magica"
         }
+      },
+      "details": {
+        "alignment": "Caotico Malvagio"
+      },
+      "prototypeToken": {
+        "name": "Vrock"
       }
     },
     "Wight": {
@@ -8276,6 +9613,14 @@
       },
       "details": {
         "alignment": "Neutrale Malvagio"
+      },
+      "traits": {
+        "languages": {
+          "custom": "i linguaggi conosciuti in vita"
+        }
+      },
+      "prototypeToken": {
+        "name": "Wight"
       }
     },
     "Worg": {
@@ -8287,6 +9632,14 @@
       },
       "details": {
         "alignment": "Neutrale Malvagio"
+      },
+      "traits": {
+        "languages": {
+          "custom": "Worg"
+        }
+      },
+      "prototypeToken": {
+        "name": "Worg"
       }
     },
     "Wraith": {
@@ -8309,6 +9662,14 @@
       },
       "details": {
         "alignment": "Neutrale Malvagio"
+      },
+      "traits": {
+        "languages": {
+          "custom": "i linguaggi conosciuti in vita"
+        }
+      },
+      "prototypeToken": {
+        "name": "Wraith"
       }
     },
     "Xorn": {
@@ -8332,6 +9693,9 @@
       },
       "details": {
         "alignment": "Neutrale"
+      },
+      "prototypeToken": {
+        "name": "Xorn"
       }
     },
     "Zombie": {
@@ -8346,6 +9710,11 @@
       },
       "details": {
         "alignment": "Neutrale Malvagio"
+      },
+      "traits": {
+        "languages": {
+          "custom": "comprende i linguaggi conosciuti in vita ma non può parlare"
+        }
       }
     },
     "Ogre Zombie": {
@@ -8363,6 +9732,11 @@
       },
       "details": {
         "alignment": "Neutrale Malvagio"
+      },
+      "traits": {
+        "languages": {
+          "custom": "comprende Comune e Gigante ma non può parlare"
+        }
       }
     },
     "z0zvgcIugizwcuxJ": {
@@ -8379,6 +9753,13 @@
         "5YcJeJUiuLz3HuV0": {
           "name": "Tattiche del Branco"
         }
+      },
+      "name": "Ratto Gigante (Malato)",
+      "details": {
+        "alignment": "Senza Allineamento"
+      },
+      "prototypeToken": {
+        "name": "Ratto Gigante (Malato)"
       }
     },
     "tuHyePQ9GazMTyc0": {
@@ -8389,7 +9770,8 @@
       },
       "effects": {
         "VUI3PxyI4LH2J8tm": {
-          "name": "Invisibile"
+          "name": "Invisibile",
+          "description": "<ul><li>Una creatura invisibile è impossibile da vedere senza l'aiuto della magia o di un senso speciale. Ai fini del nascondersi, la creatura è pesantemente oscurata. La posizione della creatura può essere individuata da qualsiasi rumore produca o dalle tracce che lascia.</li><li>I tiri per colpire contro la creatura subiscono svantaggio e i tiri per colpire della creatura dispongono di vantaggio.</li></ul>"
         }
       }
     },
@@ -8402,19 +9784,28 @@
     },
     "Tac7eq0AXJco0nml": {
       "_id": "Tac7eq0AXJco0nml",
-      "name": "Spada di Mordenkainen"
+      "name": "Spada di Mordenkainen",
+      "prototypeToken": {
+        "name": "Spada di Mordenkainen"
+      }
     },
     "UrXp9O9N7DvdH9nL": {
       "_id": "UrXp9O9N7DvdH9nL",
       "prototypeToken": {
         "name": "Luci Danzanti"
-      }
+      },
+      "name": "Luci Danzanti (minuscolo)"
     },
     "CoRG225xaZf4ewLF": {
       "_id": "CoRG225xaZf4ewLF",
       "name": "Guardiano della Fede",
       "prototypeToken": {
         "name": "Guardiano della Fede"
+      },
+      "details": {
+        "type": {
+          "custom": "Guardiano Spettrale"
+        }
       }
     },
     "zwT2WjWo7cTm2631": {
@@ -8432,10 +9823,57 @@
       },
       "effects": {
         "huO2iAgLJJHGXWix": {
-          "name": "Invisibile"
+          "name": "Invisibile",
+          "description": "<ul><li>Una creatura invisibile è impossibile da vedere senza l'aiuto della magia o di un senso speciale. Ai fini del nascondersi, la creatura è pesantemente oscurata. La posizione della creatura può essere individuata da qualsiasi rumore produca o dalle tracce che lascia.</li><li>I tiri per colpire contro la creatura subiscono svantaggio e i tiri per colpire della creatura dispongono di vantaggio.</li></ul>"
         }
+      }
+    },
+    "abG4qRbHQzehlVYz": {
+      "_id": "abG4qRbHQzehlVYz",
+      "details": {
+        "alignment": "Senza Allineamento"
+      }
+    },
+    "cI49DUvHgcPFmnk3": {
+      "_id": "cI49DUvHgcPFmnk3",
+      "details": {
+        "alignment": "Senza Allineamento"
+      }
+    },
+    "BImoeCT97rI3nKmG": {
+      "_id": "BImoeCT97rI3nKmG",
+      "details": {
+        "alignment": "Senza Allineamento"
+      }
+    },
+    "nvTVjot7vdzWxMt7": {
+      "_id": "nvTVjot7vdzWxMt7",
+      "details": {
+        "alignment": "Senza Allineamento"
+      }
+    },
+    "oT08GcXHkvnKJTdA": {
+      "_id": "oT08GcXHkvnKJTdA",
+      "details": {
+        "alignment": "Senza Allineamento"
       }
     }
   },
-  "folders": {}
+  "folders": {
+    "Aberration": "Aberrazione",
+    "Beast": "Bestia",
+    "Celestial": "Celestiale",
+    "Construct": "Costrutto",
+    "Dragon": "Drago",
+    "Elemental": "Elementale",
+    "Fey": "Folletto",
+    "Fiend": "Immondo",
+    "Giant": "Gigante",
+    "Humanoid": "Umanoide",
+    "Monstrosity": "Mostruosità",
+    "Ooze": "Melma",
+    "Plant": "Vegetale",
+    "Summons": "Evocazioni",
+    "Undead": "Non Morto"
+  }
 }
