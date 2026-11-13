@@ -6,7 +6,7 @@
       "translated": 1773,
       "missing": 69,
       "partial": 549,
-      "review": 74
+      "review": 69
     },
     "folders": {
       "total": 120,
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 9919,
-      "missing": 5741,
+      "translated": 9985,
+      "missing": 5675,
       "invariantFailures": 853,
-      "englishResiduals": 83,
+      "englishResiduals": 71,
       "imperialResiduals": 0
     },
-    "blockingIssues": 6614
+    "blockingIssues": 6536
   },
   "packs": [
     {
@@ -146,7 +146,7 @@
           "translated": 0,
           "missing": 0,
           "partial": 12,
-          "review": 5
+          "review": 0
         },
         "folders": {
           "total": 0,
@@ -157,50 +157,14 @@
         },
         "fields": {
           "total": 1165,
-          "translated": 1027,
-          "missing": 138,
+          "translated": 1093,
+          "missing": 72,
           "invariantFailures": 0,
-          "englishResiduals": 12,
+          "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "kfzBL0q1Y7LgGs2x",
-          "name": "Akra (Dragonborn Cleric)",
-          "fieldPath": "system.details.biography.value",
-          "sourcePath": "heroes/akra-dragonborn-cleric.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "kfzBL0q1Y7LgGs2x",
-          "name": "Akra (Dragonborn Cleric)",
-          "fieldPath": "system.details.alignment",
-          "sourcePath": "heroes/akra-dragonborn-cleric.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "kfzBL0q1Y7LgGs2x",
-          "name": "Akra (Dragonborn Cleric)",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "heroes/akra-dragonborn-cleric.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "kfzBL0q1Y7LgGs2x",
-          "name": "Akra (Dragonborn Cleric)",
-          "fieldPath": "items[Ra2Z1ujre76weR0i].name",
-          "sourcePath": "heroes/akra-dragonborn-cleric.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
@@ -226,24 +190,6 @@
           "id": "kfzBL0q1Y7LgGs2x",
           "name": "Akra (Dragonborn Cleric)",
           "fieldPath": "items[eRfgJRQJdRPFSbf5].system.description.value",
-          "sourcePath": "heroes/akra-dragonborn-cleric.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "kfzBL0q1Y7LgGs2x",
-          "name": "Akra (Dragonborn Cleric)",
-          "fieldPath": "items[eRfgJRQJdRPFSbf5].system.advancement[QIrBmvSmNOTEJLWn].hint",
-          "sourcePath": "heroes/akra-dragonborn-cleric.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "kfzBL0q1Y7LgGs2x",
-          "name": "Akra (Dragonborn Cleric)",
-          "fieldPath": "items[vWo0CO4uYJ8XRnRi].name",
           "sourcePath": "heroes/akra-dragonborn-cleric.yml"
         },
         {
@@ -351,60 +297,6 @@
           "pack": "heroes",
           "id": "ZGDys30OS76uYaIO",
           "name": "Aoth (Human Druid)",
-          "fieldPath": "system.details.biography.value",
-          "sourcePath": "heroes/aoth-human-druid.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "ZGDys30OS76uYaIO",
-          "name": "Aoth (Human Druid)",
-          "fieldPath": "system.details.alignment",
-          "sourcePath": "heroes/aoth-human-druid.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "ZGDys30OS76uYaIO",
-          "name": "Aoth (Human Druid)",
-          "fieldPath": "system.traits.armorProf.custom",
-          "sourcePath": "heroes/aoth-human-druid.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "ZGDys30OS76uYaIO",
-          "name": "Aoth (Human Druid)",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "heroes/aoth-human-druid.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "ZGDys30OS76uYaIO",
-          "name": "Aoth (Human Druid)",
-          "fieldPath": "items[yZ0HzuMNz4aMWPYH].name",
-          "sourcePath": "heroes/aoth-human-druid.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "ZGDys30OS76uYaIO",
-          "name": "Aoth (Human Druid)",
-          "fieldPath": "items[lMobFB5hSFEGtkrq].name",
-          "sourcePath": "heroes/aoth-human-druid.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "ZGDys30OS76uYaIO",
-          "name": "Aoth (Human Druid)",
           "fieldPath": "items[lMobFB5hSFEGtkrq].system.description.value",
           "sourcePath": "heroes/aoth-human-druid.yml"
         },
@@ -495,61 +387,7 @@
           "pack": "heroes",
           "id": "xVmbM44RXyI2Eqq3",
           "name": "Beiro (Half-Elf Bard)",
-          "fieldPath": "system.details.biography.value",
-          "sourcePath": "heroes/beiro-half-elf-bard.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "xVmbM44RXyI2Eqq3",
-          "name": "Beiro (Half-Elf Bard)",
-          "fieldPath": "system.details.alignment",
-          "sourcePath": "heroes/beiro-half-elf-bard.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "xVmbM44RXyI2Eqq3",
-          "name": "Beiro (Half-Elf Bard)",
-          "fieldPath": "system.traits.ci.custom",
-          "sourcePath": "heroes/beiro-half-elf-bard.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "xVmbM44RXyI2Eqq3",
-          "name": "Beiro (Half-Elf Bard)",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "heroes/beiro-half-elf-bard.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "xVmbM44RXyI2Eqq3",
-          "name": "Beiro (Half-Elf Bard)",
-          "fieldPath": "items[iWdMYgNBkGiajzc4].name",
-          "sourcePath": "heroes/beiro-half-elf-bard.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "xVmbM44RXyI2Eqq3",
-          "name": "Beiro (Half-Elf Bard)",
           "fieldPath": "items[iWdMYgNBkGiajzc4].system.description.value",
-          "sourcePath": "heroes/beiro-half-elf-bard.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "xVmbM44RXyI2Eqq3",
-          "name": "Beiro (Half-Elf Bard)",
-          "fieldPath": "items[2Ejl2ovEUJg7swzL].name",
           "sourcePath": "heroes/beiro-half-elf-bard.yml"
         },
         {
@@ -567,15 +405,6 @@
           "pack": "heroes",
           "id": "xVmbM44RXyI2Eqq3",
           "name": "Beiro (Half-Elf Bard)",
-          "fieldPath": "items[6JFzrzKtJyhU12xi].name",
-          "sourcePath": "heroes/beiro-half-elf-bard.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "xVmbM44RXyI2Eqq3",
-          "name": "Beiro (Half-Elf Bard)",
           "fieldPath": "items[6JFzrzKtJyhU12xi].system.description.value",
           "sourcePath": "heroes/beiro-half-elf-bard.yml"
         },
@@ -585,25 +414,7 @@
           "pack": "heroes",
           "id": "xVmbM44RXyI2Eqq3",
           "name": "Beiro (Half-Elf Bard)",
-          "fieldPath": "items[pEDdh0i2HBhReeuU].name",
-          "sourcePath": "heroes/beiro-half-elf-bard.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "xVmbM44RXyI2Eqq3",
-          "name": "Beiro (Half-Elf Bard)",
           "fieldPath": "items[pEDdh0i2HBhReeuU].system.description.value",
-          "sourcePath": "heroes/beiro-half-elf-bard.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "xVmbM44RXyI2Eqq3",
-          "name": "Beiro (Half-Elf Bard)",
-          "fieldPath": "items[VgrH5nkz2SER0YhR].name",
           "sourcePath": "heroes/beiro-half-elf-bard.yml"
         },
         {
@@ -675,42 +486,6 @@
           "pack": "heroes",
           "id": "Dh1AA6w104V17V6w",
           "name": "Krusk (Half-Orc Paladin)",
-          "fieldPath": "system.details.biography.value",
-          "sourcePath": "heroes/krusk-half-orc-paladin.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "Dh1AA6w104V17V6w",
-          "name": "Krusk (Half-Orc Paladin)",
-          "fieldPath": "system.details.alignment",
-          "sourcePath": "heroes/krusk-half-orc-paladin.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "Dh1AA6w104V17V6w",
-          "name": "Krusk (Half-Orc Paladin)",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "heroes/krusk-half-orc-paladin.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "Dh1AA6w104V17V6w",
-          "name": "Krusk (Half-Orc Paladin)",
-          "fieldPath": "items[mmNOUJeTSbhakKbO].name",
-          "sourcePath": "heroes/krusk-half-orc-paladin.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "Dh1AA6w104V17V6w",
-          "name": "Krusk (Half-Orc Paladin)",
           "fieldPath": "items[mmNOUJeTSbhakKbO].system.description.value",
           "sourcePath": "heroes/krusk-half-orc-paladin.yml"
         },
@@ -720,25 +495,7 @@
           "pack": "heroes",
           "id": "Dh1AA6w104V17V6w",
           "name": "Krusk (Half-Orc Paladin)",
-          "fieldPath": "items[h9ta6MMHygQtSvhd].name",
-          "sourcePath": "heroes/krusk-half-orc-paladin.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "Dh1AA6w104V17V6w",
-          "name": "Krusk (Half-Orc Paladin)",
           "fieldPath": "items[h9ta6MMHygQtSvhd].system.description.value",
-          "sourcePath": "heroes/krusk-half-orc-paladin.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "Dh1AA6w104V17V6w",
-          "name": "Krusk (Half-Orc Paladin)",
-          "fieldPath": "items[gfQ9BWSZtm6WJyZr].name",
           "sourcePath": "heroes/krusk-half-orc-paladin.yml"
         },
         {
@@ -758,51 +515,6 @@
           "name": "Krusk (Half-Orc Paladin)",
           "fieldPath": "items[k1DGfhs1ZfnWZQaL].system.description.value",
           "sourcePath": "heroes/krusk-half-orc-paladin.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "irWonyO6ZLh47sN7",
-          "name": "Merric (Halfling Barbarian)",
-          "fieldPath": "system.details.biography.value",
-          "sourcePath": "heroes/merric-halfling-barbarian.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "irWonyO6ZLh47sN7",
-          "name": "Merric (Halfling Barbarian)",
-          "fieldPath": "system.details.alignment",
-          "sourcePath": "heroes/merric-halfling-barbarian.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "irWonyO6ZLh47sN7",
-          "name": "Merric (Halfling Barbarian)",
-          "fieldPath": "system.traits.ci.custom",
-          "sourcePath": "heroes/merric-halfling-barbarian.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "irWonyO6ZLh47sN7",
-          "name": "Merric (Halfling Barbarian)",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "heroes/merric-halfling-barbarian.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "irWonyO6ZLh47sN7",
-          "name": "Merric (Halfling Barbarian)",
-          "fieldPath": "items[XIVdS0HZI5lOG5bx].name",
-          "sourcePath": "heroes/merric-halfling-barbarian.yml"
         },
         {
           "code": "missing-field",
@@ -832,39 +544,6 @@
           "sourcePath": "heroes/merric-halfling-barbarian.yml"
         },
         {
-          "code": "unchanged-english",
-          "value": "Halfling",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "irWonyO6ZLh47sN7",
-          "name": "Merric (Halfling Barbarian)",
-          "fieldPath": "items[yKdzupRNhbtpQNyd].system.requirements",
-          "sourcePath": "heroes/merric-halfling-barbarian.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Halfling",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "irWonyO6ZLh47sN7",
-          "name": "Merric (Halfling Barbarian)",
-          "fieldPath": "items[pu50e2QGn8RAy1iw].system.requirements",
-          "sourcePath": "heroes/merric-halfling-barbarian.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Halfling",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "irWonyO6ZLh47sN7",
-          "name": "Merric (Halfling Barbarian)",
-          "fieldPath": "items[Pu3BoEwS3aMhhKsA].system.requirements",
-          "sourcePath": "heroes/merric-halfling-barbarian.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "heroes",
@@ -879,54 +558,7 @@
           "pack": "heroes",
           "id": "xT2C2Itv2XambDYp",
           "name": "Morthos (Tiefling Sorcerer)",
-          "fieldPath": "system.details.biography.value",
-          "sourcePath": "heroes/morthos-tiefling-sorcerer.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "xT2C2Itv2XambDYp",
-          "name": "Morthos (Tiefling Sorcerer)",
-          "fieldPath": "system.details.alignment",
-          "sourcePath": "heroes/morthos-tiefling-sorcerer.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "xT2C2Itv2XambDYp",
-          "name": "Morthos (Tiefling Sorcerer)",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "heroes/morthos-tiefling-sorcerer.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "xT2C2Itv2XambDYp",
-          "name": "Morthos (Tiefling Sorcerer)",
-          "fieldPath": "items[38phJIpUGf6pPv1e].name",
-          "sourcePath": "heroes/morthos-tiefling-sorcerer.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "xT2C2Itv2XambDYp",
-          "name": "Morthos (Tiefling Sorcerer)",
           "fieldPath": "items[38phJIpUGf6pPv1e].system.description.value",
-          "sourcePath": "heroes/morthos-tiefling-sorcerer.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Tiefling",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "xT2C2Itv2XambDYp",
-          "name": "Morthos (Tiefling Sorcerer)",
-          "fieldPath": "items[dXB7dmAyOHzDdKek].name",
           "sourcePath": "heroes/morthos-tiefling-sorcerer.yml"
         },
         {
@@ -939,34 +571,12 @@
           "sourcePath": "heroes/morthos-tiefling-sorcerer.yml"
         },
         {
-          "code": "unchanged-english",
-          "value": "Tiefling",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "xT2C2Itv2XambDYp",
-          "name": "Morthos (Tiefling Sorcerer)",
-          "fieldPath": "items[exSIz1TyfxviYAkK].system.requirements",
-          "sourcePath": "heroes/morthos-tiefling-sorcerer.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "heroes",
           "id": "xT2C2Itv2XambDYp",
           "name": "Morthos (Tiefling Sorcerer)",
           "fieldPath": "items[cY4aXe5XplmPTCQg].system.description.value",
-          "sourcePath": "heroes/morthos-tiefling-sorcerer.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Tiefling",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "xT2C2Itv2XambDYp",
-          "name": "Morthos (Tiefling Sorcerer)",
-          "fieldPath": "items[cY4aXe5XplmPTCQg].system.requirements",
           "sourcePath": "heroes/morthos-tiefling-sorcerer.yml"
         },
         {
@@ -977,51 +587,6 @@
           "name": "Morthos (Tiefling Sorcerer)",
           "fieldPath": "items[RI84w7ABSrbsvYus].system.description.value",
           "sourcePath": "heroes/morthos-tiefling-sorcerer.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "125qFnXvT9z0iOic",
-          "name": "Perrin (Halfling Monk)",
-          "fieldPath": "system.details.biography.value",
-          "sourcePath": "heroes/perrin-halfling-monk.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "125qFnXvT9z0iOic",
-          "name": "Perrin (Halfling Monk)",
-          "fieldPath": "system.details.alignment",
-          "sourcePath": "heroes/perrin-halfling-monk.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "125qFnXvT9z0iOic",
-          "name": "Perrin (Halfling Monk)",
-          "fieldPath": "system.traits.ci.custom",
-          "sourcePath": "heroes/perrin-halfling-monk.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "125qFnXvT9z0iOic",
-          "name": "Perrin (Halfling Monk)",
-          "fieldPath": "system.resources.primary.label",
-          "sourcePath": "heroes/perrin-halfling-monk.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "125qFnXvT9z0iOic",
-          "name": "Perrin (Halfling Monk)",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "heroes/perrin-halfling-monk.yml"
         },
         {
           "code": "missing-field",
@@ -1051,39 +616,6 @@
           "sourcePath": "heroes/perrin-halfling-monk.yml"
         },
         {
-          "code": "unchanged-english",
-          "value": "Halfling",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "125qFnXvT9z0iOic",
-          "name": "Perrin (Halfling Monk)",
-          "fieldPath": "items[FtOM4QiOW5MwgcS3].system.requirements",
-          "sourcePath": "heroes/perrin-halfling-monk.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Halfling",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "125qFnXvT9z0iOic",
-          "name": "Perrin (Halfling Monk)",
-          "fieldPath": "items[nmmihiqphHjoE8dl].system.requirements",
-          "sourcePath": "heroes/perrin-halfling-monk.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Halfling",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "125qFnXvT9z0iOic",
-          "name": "Perrin (Halfling Monk)",
-          "fieldPath": "items[cWrETHzCRs1Ueqd3].system.requirements",
-          "sourcePath": "heroes/perrin-halfling-monk.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "heroes",
@@ -1091,51 +623,6 @@
           "name": "Perrin (Halfling Monk)",
           "fieldPath": "items[AArhiOrSkaQUnCZS].system.description.value",
           "sourcePath": "heroes/perrin-halfling-monk.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "cYD0wRXLW4B17aoY",
-          "name": "Quillathe (Elf Ranger)",
-          "fieldPath": "system.details.biography.value",
-          "sourcePath": "heroes/quillathe-elf-ranger.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "cYD0wRXLW4B17aoY",
-          "name": "Quillathe (Elf Ranger)",
-          "fieldPath": "system.details.alignment",
-          "sourcePath": "heroes/quillathe-elf-ranger.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "cYD0wRXLW4B17aoY",
-          "name": "Quillathe (Elf Ranger)",
-          "fieldPath": "system.traits.ci.custom",
-          "sourcePath": "heroes/quillathe-elf-ranger.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "cYD0wRXLW4B17aoY",
-          "name": "Quillathe (Elf Ranger)",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "heroes/quillathe-elf-ranger.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "cYD0wRXLW4B17aoY",
-          "name": "Quillathe (Elf Ranger)",
-          "fieldPath": "items[I5EK9j7jV6mrXt7K].name",
-          "sourcePath": "heroes/quillathe-elf-ranger.yml"
         },
         {
           "code": "missing-field",
@@ -1161,75 +648,8 @@
           "pack": "heroes",
           "id": "cYD0wRXLW4B17aoY",
           "name": "Quillathe (Elf Ranger)",
-          "fieldPath": "items[Aw1q0cqOgyScbZkd].system.advancement[l1Pw82BvhrSkYiyF].hint",
-          "sourcePath": "heroes/quillathe-elf-ranger.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "cYD0wRXLW4B17aoY",
-          "name": "Quillathe (Elf Ranger)",
           "fieldPath": "items[ANwFFbqeIEm4eVPq].system.description.value",
           "sourcePath": "heroes/quillathe-elf-ranger.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Trance",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "cYD0wRXLW4B17aoY",
-          "name": "Quillathe (Elf Ranger)",
-          "fieldPath": "items[474ipDv33anADoyN].name",
-          "sourcePath": "heroes/quillathe-elf-ranger.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Ranger",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "cYD0wRXLW4B17aoY",
-          "name": "Quillathe (Elf Ranger)",
-          "fieldPath": "items[Fqh00slzQuYGC27H].name",
-          "sourcePath": "heroes/quillathe-elf-ranger.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "2Pdtnswo8Nj2nafY",
-          "name": "Randal (Human Fighter)",
-          "fieldPath": "system.details.biography.value",
-          "sourcePath": "heroes/randal-human-fighter.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "2Pdtnswo8Nj2nafY",
-          "name": "Randal (Human Fighter)",
-          "fieldPath": "system.details.alignment",
-          "sourcePath": "heroes/randal-human-fighter.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "2Pdtnswo8Nj2nafY",
-          "name": "Randal (Human Fighter)",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "heroes/randal-human-fighter.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "2Pdtnswo8Nj2nafY",
-          "name": "Randal (Human Fighter)",
-          "fieldPath": "items[iODPoFlvprdu59Ga].name",
-          "sourcePath": "heroes/randal-human-fighter.yml"
         },
         {
           "code": "missing-field",
@@ -1239,51 +659,6 @@
           "name": "Randal (Human Fighter)",
           "fieldPath": "items[iODPoFlvprdu59Ga].system.description.value",
           "sourcePath": "heroes/randal-human-fighter.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "2Pdtnswo8Nj2nafY",
-          "name": "Randal (Human Fighter)",
-          "fieldPath": "items[VFOCTtbEvjeUHo6B].name",
-          "sourcePath": "heroes/randal-human-fighter.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "bzlxBO5km3zCQA8G",
-          "name": "Riswynn (Dwarf Rogue)",
-          "fieldPath": "system.details.biography.value",
-          "sourcePath": "heroes/riswynn-dwarf-rogue.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "bzlxBO5km3zCQA8G",
-          "name": "Riswynn (Dwarf Rogue)",
-          "fieldPath": "system.details.alignment",
-          "sourcePath": "heroes/riswynn-dwarf-rogue.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "bzlxBO5km3zCQA8G",
-          "name": "Riswynn (Dwarf Rogue)",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "heroes/riswynn-dwarf-rogue.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "bzlxBO5km3zCQA8G",
-          "name": "Riswynn (Dwarf Rogue)",
-          "fieldPath": "items[kLWeji1tfubIJvfT].name",
-          "sourcePath": "heroes/riswynn-dwarf-rogue.yml"
         },
         {
           "code": "missing-field",
@@ -1302,60 +677,6 @@
           "name": "Riswynn (Dwarf Rogue)",
           "fieldPath": "items[NvLVKDjXT1tPk6r4].system.description.value",
           "sourcePath": "heroes/riswynn-dwarf-rogue.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "bzlxBO5km3zCQA8G",
-          "name": "Riswynn (Dwarf Rogue)",
-          "fieldPath": "items[NvLVKDjXT1tPk6r4].system.advancement[5zWGcz9uAerx3Dh5].title",
-          "sourcePath": "heroes/riswynn-dwarf-rogue.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "Jw8DeuPjt1qpusdB",
-          "name": "Sefris (Half-Elf Warlock)",
-          "fieldPath": "system.details.biography.value",
-          "sourcePath": "heroes/sefris-half-elf-warlock.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "Jw8DeuPjt1qpusdB",
-          "name": "Sefris (Half-Elf Warlock)",
-          "fieldPath": "system.details.alignment",
-          "sourcePath": "heroes/sefris-half-elf-warlock.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "Jw8DeuPjt1qpusdB",
-          "name": "Sefris (Half-Elf Warlock)",
-          "fieldPath": "system.traits.ci.custom",
-          "sourcePath": "heroes/sefris-half-elf-warlock.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "Jw8DeuPjt1qpusdB",
-          "name": "Sefris (Half-Elf Warlock)",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "heroes/sefris-half-elf-warlock.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "Jw8DeuPjt1qpusdB",
-          "name": "Sefris (Half-Elf Warlock)",
-          "fieldPath": "items[8uFLMKLwRO7Y5Xl2].name",
-          "sourcePath": "heroes/sefris-half-elf-warlock.yml"
         },
         {
           "code": "missing-field",
@@ -1385,17 +706,6 @@
           "sourcePath": "heroes/sefris-half-elf-warlock.yml"
         },
         {
-          "code": "unchanged-english",
-          "value": "Warlock",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "Jw8DeuPjt1qpusdB",
-          "name": "Sefris (Half-Elf Warlock)",
-          "fieldPath": "items[C9WQGiLT2XDJCjeS].name",
-          "sourcePath": "heroes/sefris-half-elf-warlock.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "heroes",
@@ -1410,43 +720,7 @@
           "pack": "heroes",
           "id": "4Jsv5vYaJ1atUEDV",
           "name": "Zanna (Gnome Wizard)",
-          "fieldPath": "system.details.biography.value",
-          "sourcePath": "heroes/zanna-gnome-wizard.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "4Jsv5vYaJ1atUEDV",
-          "name": "Zanna (Gnome Wizard)",
-          "fieldPath": "system.details.alignment",
-          "sourcePath": "heroes/zanna-gnome-wizard.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "4Jsv5vYaJ1atUEDV",
-          "name": "Zanna (Gnome Wizard)",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "heroes/zanna-gnome-wizard.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "4Jsv5vYaJ1atUEDV",
-          "name": "Zanna (Gnome Wizard)",
           "fieldPath": "items[5hEbhdZm1ozQ3B2g].system.description.value",
-          "sourcePath": "heroes/zanna-gnome-wizard.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "4Jsv5vYaJ1atUEDV",
-          "name": "Zanna (Gnome Wizard)",
-          "fieldPath": "items[Nt4QsuSYvhIwSoO5].name",
           "sourcePath": "heroes/zanna-gnome-wizard.yml"
         },
         {

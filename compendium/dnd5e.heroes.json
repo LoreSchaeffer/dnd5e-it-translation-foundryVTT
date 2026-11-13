@@ -32,6 +32,17 @@
     "token": {
       "path": "token",
       "converter": "token"
+    },
+    "activities": {
+      "path": "system.activities",
+      "converter": "structured",
+      "cardinality": "many",
+      "container": "keyed",
+      "key": "_id",
+      "mapping": {
+        "name": "name",
+        "chatFlavor": "description.chatFlavor"
+      }
     }
   },
   "entries": {
@@ -45,7 +56,8 @@
           "name": "Dragonide",
           "advancement": {
             "QIrBmvSmNOTEJLWn": {
-              "title": "Discendenza Draconica"
+              "title": "Discendenza Draconica",
+              "hint": "Possiedi una discendenza draconica. Scegli un tipo di drago dall'elenco. La tua arma a soffio e la tua resistenza ai danni sono determinate dal tipo di drago."
             },
             "rXLC7smebN2zPOBT": {
               "title": "Arma a Soffio"
@@ -59,7 +71,8 @@
           }
         },
         "vWo0CO4uYJ8XRnRi": {
-          "requirements": "Dragonide Bianco"
+          "requirements": "Dragonide Bianco",
+          "name": "Arma a Soffio - Bianco"
         },
         "PZNSd7pd1tmTdLmw": {
           "name": "Chierico",
@@ -316,14 +329,27 @@
         "iLKpfoGF7rGpvNWD": {
           "name": "Mazza",
           "description": "<p>Una pesante arma da sfondamento montata all'estremità di un bastone di metallo. La testa presenta punte e lame progettate per perforare l'armatura e frantumare le ossa sottostanti.</p>"
+        },
+        "Ra2Z1ujre76weR0i": {
+          "name": "Simbolo Sacro"
         }
+      },
+      "details": {
+        "biography": {
+          "value": "<p>Devota seguace della propria divinità e delle usanze della sua società, Akra si sente un po' fuori posto quando si avventura in terre straniere. Tuttavia, si sente in dovere di fare tutto ciò che è in suo potere per riportare la pace nella regione.</p>"
+        },
+        "alignment": "Legale Buono"
+      },
+      "prototypeToken": {
+        "name": "Akra"
       }
     },
     "Aoth (Human Druid)": {
       "name": "Aoth (Druido Umano)",
       "items": {
         "yZ0HzuMNz4aMWPYH": {
-          "description": "<p>Una piccola campanella da suonare.</p>"
+          "description": "<p>Una piccola campanella da suonare.</p>",
+          "name": "Focus Druidico: Campanaccio"
         },
         "FZiSrcZmUUelVbNW": {
           "name": "Umano",
@@ -551,7 +577,24 @@
         "CpeS14876LLibniH": {
           "name": "Cura Ferite",
           "description": "<p>Una creatura toccata dall'incantatore recupera un numero di punti ferita pari a 1d8 + il modificatore di caratteristica da incantatore. Questo incantesimo non ha effetto sui costrutti o sui non morti.</p>\n<p><strong>Ai Livelli Superiori.</strong>&nbsp;Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, la guarigione aumenta di 1d8 per ogni slot di livello superiore al 1°.</p>"
+        },
+        "lMobFB5hSFEGtkrq": {
+          "name": "Recluso"
         }
+      },
+      "details": {
+        "biography": {
+          "value": "<p>Aoth ha vissuto tra gli animali così a lungo che ora fatica a parlare il Comune. Quando il suo habitat naturale è stato messo in pericolo, ha deciso di unirsi a un gruppo di avventurieri per riportare l'equilibrio nella sua terra.</p>"
+        },
+        "alignment": "Neutrale Puro"
+      },
+      "traits": {
+        "armorProf": {
+          "custom": "(Niente metallo)"
+        }
+      },
+      "prototypeToken": {
+        "name": "Aoth"
       }
     },
     "Beiro (Half-Elf Bard)": {
@@ -752,7 +795,36 @@
         },
         "cUWYVymOvaTyeKFQ": {
           "name": "Eroismo"
+        },
+        "iWdMYgNBkGiajzc4": {
+          "name": "Strumento Musicale: Liuto"
+        },
+        "2Ejl2ovEUJg7swzL": {
+          "name": "Strumento Musicale: Flauto"
+        },
+        "6JFzrzKtJyhU12xi": {
+          "name": "Strumento Musicale: Tamburo"
+        },
+        "pEDdh0i2HBhReeuU": {
+          "name": "Lettera d'Amore"
+        },
+        "VgrH5nkz2SER0YhR": {
+          "name": "Musicista"
         }
+      },
+      "details": {
+        "biography": {
+          "value": "<p>Beiro era un celebre intrattenitore nella taverna locale, finché un giorno esaurì le storie da raccontare. Per rimediare, partì per vivere storie proprie, così da poterle raccontare un giorno nella sua taverna.</p>"
+        },
+        "alignment": "Caotico Neutrale"
+      },
+      "traits": {
+        "ci": {
+          "custom": "La magia non può addormentarti; vantaggio ai tiri salvezza contro la condizione affascinato"
+        }
+      },
+      "prototypeToken": {
+        "name": "Beiro"
       }
     },
     "Krusk (Half-Orc Paladin)": {
@@ -914,7 +986,25 @@
         "jTyfsfOKBhVQG2Tu": {
           "name": "Scudo",
           "description": "<p>Uno scudo è realizzato in legno o metallo ed è portato in una mano. Il possesso di uno scudo aumenta la tua Classe di armatura di 2. Puoi beneficiare di un solo scudo alla volta.</p>"
+        },
+        "mmNOUJeTSbhakKbO": {
+          "name": "Amuleto (Simbolo Sacro)"
+        },
+        "h9ta6MMHygQtSvhd": {
+          "name": "Lettera d'Amore"
+        },
+        "gfQ9BWSZtm6WJyZr": {
+          "name": "Campione Locale"
         }
+      },
+      "details": {
+        "biography": {
+          "value": "<p>Krusk percorre le terre portando giustizia a tutti e ha un solo obiettivo: distruggere il male ovunque si annidi.</p>"
+        },
+        "alignment": "Legale Buono"
+      },
+      "prototypeToken": {
+        "name": "Krusk"
       }
     },
     "Merric (Halfling Barbarian)": {
@@ -1062,7 +1152,24 @@
           "name": "Agilità halfling",
           "description": "<p>Puoi muoverti attraverso lo spazio di qualsiasi creatura di taglia superiore alla tua.</p>",
           "requirements": "Halfling"
+        },
+        "XIVdS0HZI5lOG5bx": {
+          "name": "Giustiziere"
         }
+      },
+      "details": {
+        "biography": {
+          "value": "<p>Merric un tempo era una giustiziera, guidata dal suo innato senso di giustizia di strada. Anche se la sua piccola statura può sembrare poca cosa in combattimento, compensa ampiamente con le sue violente esplosioni d'ira.</p>"
+        },
+        "alignment": "Caotico Buono"
+      },
+      "traits": {
+        "ci": {
+          "custom": "Vantaggio ai tiri salvezza contro la condizione spaventato"
+        }
+      },
+      "prototypeToken": {
+        "name": "Merric"
       }
     },
     "Morthos (Tiefling Sorcerer)": {
@@ -1295,7 +1402,19 @@
           "name": "Illusione Minore",
           "description": "<p>L'incantatore crea un suono o l'immagine di un oggetto entro gittata che permane per la durata. L'illusione termina anche se l'incantatore la congeda con un'azione o lancia di nuovo questo incantesimo.</p><p>Se crea un suono, il volume può variare da un sussurro a un urlo. Può trattarsi della voce dell'incantatore, della voce di qualcun altro, del ruggito di un leone, di un rullo di tamburi o di qualsiasi altro suono a sua scelta. Il suono continua ininterrotto per tutta la durata, oppure l'incantatore può produrre suoni distinti in momenti diversi prima che l'incantesimo termini.</p><p>Se crea l'immagine di un oggetto, come una sedia, impronte fangose o un piccolo forziere, l'oggetto non può essere più grande di un cubo con spigolo di 1,5 metri. L'immagine non può produrre suoni, luci, odori o altri effetti sensoriali. Un'interazione fisica con l'immagine rivela che si tratta di un'illusione, poiché gli oggetti possono attraversarla.</p><p>Se una creatura usa la propria azione per esaminare il suono o l'immagine, può determinare che si tratta di un'illusione superando una prova di Intelligenza (Indagare) contro la CD del tiro salvezza dell'incantesimo dell'incantatore. Se una creatura discerne l'illusione per ciò che è, l'illusione diventa tenue per quella creatura.</p>",
           "materials": "un ciuffo di lana"
+        },
+        "38phJIpUGf6pPv1e": {
+          "name": "Studioso"
         }
+      },
+      "details": {
+        "biography": {
+          "value": "<p>Le ricerche di Morthos sulla propria complessa discendenza draconica e infernale l'hanno condotta a una vita accademica, ma è presto diventato evidente che gli sciocchi al comando le nascondevano molti segreti.</p>"
+        },
+        "alignment": "Neutrale Malvagio"
+      },
+      "prototypeToken": {
+        "name": "Morthos"
       }
     },
     "Perrin (Halfling Monk)": {
@@ -1495,6 +1614,25 @@
           "description": "<p>Puoi muoverti attraverso lo spazio di qualsiasi creatura di taglia superiore alla tua.</p>",
           "requirements": "Halfling"
         }
+      },
+      "details": {
+        "biography": {
+          "value": "<p>Allievo devoto del monastero locale, Perrin ha ricevuto il compito di riportare l'equilibrio nelle terre circostanti.</p>"
+        },
+        "alignment": "Neutrale Puro"
+      },
+      "traits": {
+        "ci": {
+          "custom": "Vantaggio ai tiri salvezza contro la condizione spaventato"
+        }
+      },
+      "resources": {
+        "primary": {
+          "label": "Punti Ki"
+        }
+      },
+      "prototypeToken": {
+        "name": "Perrin"
       }
     },
     "Quillathe (Elf Ranger)": {
@@ -1507,7 +1645,8 @@
               "title": "Conferisci Oggetti"
             },
             "l1Pw82BvhrSkYiyF": {
-              "title": "Trucchetto"
+              "title": "Trucchetto",
+              "hint": "Conosci un trucchetto a tua scelta tratto dalla lista degli incantesimi da mago. Intelligenza è la tua caratteristica da incantatore per quel trucchetto."
             },
             "eqSwyWvm0gYgBzJJ": {
               "hint": "Gli elfi sono alti da meno di 1,5 m a più di 1,8 m e hanno corporature snelle. La tua taglia è Media."
@@ -1657,7 +1796,24 @@
         "G0JTk8XzOAcYnBFE": {
           "name": "Freccia",
           "description": "<p>Munizione standard usata con archi di ogni tipo. Queste normali frecce sono composte da aste lisce di legno, impennaggio di piume d'oca e punte metalliche martellate.</p>"
+        },
+        "I5EK9j7jV6mrXt7K": {
+          "name": "Cacciatore di Mostri"
         }
+      },
+      "details": {
+        "biography": {
+          "value": "<p>Quillathe elimina i mostri dai suoi boschi per passatempo, ma ora una nuova forza minaccia la sua terra e deve unirsi a degli avventurieri per sconfiggerla.</p>"
+        },
+        "alignment": "Caotico Neutrale"
+      },
+      "traits": {
+        "ci": {
+          "custom": "Sonno magico; vantaggio ai tiri salvezza contro la condizione affascinato"
+        }
+      },
+      "prototypeToken": {
+        "name": "Quillathe"
       }
     },
     "Randal (Human Fighter)": {
@@ -1674,7 +1830,8 @@
             "dNSrZePZHz2qwVpi": {
               "hint": "Gli umani variano molto in altezza e corporatura, da poco meno di 1,5 m a ben oltre 1,8 m. A prescindere dalla tua posizione in questo intervallo, la tua taglia è Media."
             }
-          }
+          },
+          "name": "Umano Variante"
         },
         "IMdfN9m0aSEgqbYt": {
           "name": "Guerriero",
@@ -1829,7 +1986,19 @@
         "1TqythtyZfsOOGeJ": {
           "name": "Freccia",
           "description": "<p>Munizione standard usata con archi di ogni tipo. Queste normali frecce sono composte da aste lisce di legno, impennaggio di piume d'oca e punte metalliche martellate.</p>"
+        },
+        "iODPoFlvprdu59Ga": {
+          "name": "Guardia"
         }
+      },
+      "details": {
+        "biography": {
+          "value": "<p>Randal si è fatto strada tra i ranghi della guardia della sua città natale, finché la vita cittadina non ha iniziato ad andargli stretta e si è messo in viaggio in cerca d'avventura.</p>"
+        },
+        "alignment": "Neutrale Buono"
+      },
+      "prototypeToken": {
+        "name": "Randal"
       }
     },
     "Riswynn (Dwarf Rogue)": {
@@ -1843,6 +2012,9 @@
             },
             "J0UGmCyMy6thWDeU": {
               "title": "Addestramento da Combattimento Nanico"
+            },
+            "5zWGcz9uAerx3Dh5": {
+              "title": "Resilienza Nanica"
             }
           }
         },
@@ -2021,7 +2193,19 @@
         "yLUvPaR9SEEQMeJ2": {
           "name": "Freccia",
           "description": "<p>Munizione standard usata con archi di ogni tipo. Queste normali frecce sono composte da aste lisce di legno, impennaggio di piume d'oca e punte metalliche martellate.</p>"
+        },
+        "kLWeji1tfubIJvfT": {
+          "name": "Burocrate"
         }
+      },
+      "details": {
+        "biography": {
+          "value": "<p>Un tempo stimata burocrate nelle sale naniche, Riswynn si è dilettata negli intrighi, ha imparato qualche trucco ed è finita nei guai con alcuni nobili. Ora vuole farsi un nome e riconquistare il proprio status sociale.</p>"
+        },
+        "alignment": "Neutrale Puro"
+      },
+      "prototypeToken": {
+        "name": "Riswynn"
       }
     },
     "Sefris (Half-Elf Warlock)": {
@@ -2239,7 +2423,24 @@
         "j7GBS18d2Sa6Q8kJ": {
           "name": "Tocco Gelido",
           "description": "<p>L'incantatore crea una mano scheletrica e spettrale nello spazio di una creatura entro gittata, effettuando un attacco a distanza con questo incantesimo contro quella creatura per colpirla con un flusso di gelo sepolcrale. Se viene colpito, il bersaglio subisce 1d8 danni necrotici e non può recuperare punti ferita fino all'inizio del turno successivo dell'incantatore. Fino ad allora, la mano si avvinghia al bersaglio.</p><p>Se l'incantatore colpisce un bersaglio non morto, quel bersaglio subisce anche svantaggio ai suoi tiri per colpire contro l'incantatore fino alla fine del turno successivo di quest'ultimo.</p><p>I danni di questo incantesimo aumentano di 1d8 quando l'incantatore arriva al 5° livello (2d8), 11° livello (3d8) e 17° livello (4d8).</p>"
+        },
+        "8uFLMKLwRO7Y5Xl2": {
+          "name": "Scassinatore"
         }
+      },
+      "details": {
+        "biography": {
+          "value": "<p>I borseggi commessi da Sefris da bambino si sono trasformati in piccoli furti e infine in colpi complessi, durante i quali usa l'oscuro legame con il suo immondo per agevolare le proprie imprese. È disposto a lavorare per chiunque possa offrirgli qualche moneta.</p>"
+        },
+        "alignment": "Caotico Neutrale"
+      },
+      "traits": {
+        "ci": {
+          "custom": "Sonno magico; vantaggio ai tiri salvezza contro la condizione affascinato"
+        }
+      },
+      "prototypeToken": {
+        "name": "Sefris"
       }
     },
     "Zanna (Gnome Wizard)": {
@@ -2471,7 +2672,19 @@
               "name": "Scudo"
             }
           }
+        },
+        "Nt4QsuSYvhIwSoO5": {
+          "name": "Studioso"
         }
+      },
+      "details": {
+        "biography": {
+          "value": "<p>Da sempre appassionata di congegni, Zanna è partita all'avventura per trovare altri incantesimi da aggiungere al proprio libro e, forse, un giorno crearne di suoi.</p>"
+        },
+        "alignment": "Caotico Buono"
+      },
+      "prototypeToken": {
+        "name": "Zanna"
       }
     }
   },
