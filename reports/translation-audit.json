@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1784,
+      "translated": 1785,
       "missing": 69,
-      "partial": 538,
+      "partial": 537,
       "review": 69
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 10046,
-      "missing": 5614,
+      "translated": 10057,
+      "missing": 5603,
       "invariantFailures": 853,
       "englishResiduals": 71,
       "imperialResiduals": 0
     },
-    "blockingIssues": 6475
+    "blockingIssues": 6464
   },
   "packs": [
     {
@@ -143,9 +143,9 @@
       "summary": {
         "documents": {
           "total": 12,
-          "translated": 11,
+          "translated": 12,
           "missing": 0,
-          "partial": 1,
+          "partial": 0,
           "review": 0
         },
         "folders": {
@@ -157,114 +157,14 @@
         },
         "fields": {
           "total": 1165,
-          "translated": 1154,
-          "missing": 11,
+          "translated": 1165,
+          "missing": 0,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
-      "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "4Jsv5vYaJ1atUEDV",
-          "name": "Zanna (Gnome Wizard)",
-          "fieldPath": "items[5hEbhdZm1ozQ3B2g].system.description.value",
-          "sourcePath": "heroes/zanna-gnome-wizard.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "4Jsv5vYaJ1atUEDV",
-          "name": "Zanna (Gnome Wizard)",
-          "fieldPath": "items[Nt4QsuSYvhIwSoO5].system.description.value",
-          "sourcePath": "heroes/zanna-gnome-wizard.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "4Jsv5vYaJ1atUEDV",
-          "name": "Zanna (Gnome Wizard)",
-          "fieldPath": "items[hTIYCYd5l9PjPNUO].system.description.value",
-          "sourcePath": "heroes/zanna-gnome-wizard.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "4Jsv5vYaJ1atUEDV",
-          "name": "Zanna (Gnome Wizard)",
-          "fieldPath": "items[LIy4OAHvmzzZBX3q].system.description.value",
-          "sourcePath": "heroes/zanna-gnome-wizard.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "4Jsv5vYaJ1atUEDV",
-          "name": "Zanna (Gnome Wizard)",
-          "fieldPath": "items[ADStL8U8T5R9akvp].system.description.value",
-          "sourcePath": "heroes/zanna-gnome-wizard.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "4Jsv5vYaJ1atUEDV",
-          "name": "Zanna (Gnome Wizard)",
-          "fieldPath": "items[NV64CG1QBOT4YyF1].effects[cfwMU7LuOJ619Lny].description",
-          "sourcePath": "heroes/zanna-gnome-wizard.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "4Jsv5vYaJ1atUEDV",
-          "name": "Zanna (Gnome Wizard)",
-          "fieldPath": "items[PtJ6TyvPsRo0y1nq].system.description.value",
-          "sourcePath": "heroes/zanna-gnome-wizard.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "4Jsv5vYaJ1atUEDV",
-          "name": "Zanna (Gnome Wizard)",
-          "fieldPath": "items[iXY1MRCzK0cZ14Kg].system.description.value",
-          "sourcePath": "heroes/zanna-gnome-wizard.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "4Jsv5vYaJ1atUEDV",
-          "name": "Zanna (Gnome Wizard)",
-          "fieldPath": "items[iXY1MRCzK0cZ14Kg].effects[MowBnXpRu2aG48i9].description",
-          "sourcePath": "heroes/zanna-gnome-wizard.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "4Jsv5vYaJ1atUEDV",
-          "name": "Zanna (Gnome Wizard)",
-          "fieldPath": "items[KswTUmrH37e6GsUI].system.description.value",
-          "sourcePath": "heroes/zanna-gnome-wizard.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "4Jsv5vYaJ1atUEDV",
-          "name": "Zanna (Gnome Wizard)",
-          "fieldPath": "items[KswTUmrH37e6GsUI].effects[6pbotGIvqQkraPva].description",
-          "sourcePath": "heroes/zanna-gnome-wizard.yml"
-        }
-      ]
+      "issues": []
     },
     {
       "pack": "items",

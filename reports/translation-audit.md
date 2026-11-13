@@ -6,7 +6,7 @@
 | classes | 12 | 12 | 0 | 0 | 0 | 0 | 0 |
 | classfeatures | 235 | 235 | 0 | 0 | 0 | 0 | 0 |
 | effects | 214 | 214 | 0 | 0 | 0 | 0 | 0 |
-| heroes | 12 | 11 | 0 | 1 | 0 | 11 | 11 |
+| heroes | 12 | 12 | 0 | 0 | 0 | 0 | 0 |
 | items | 885 | 885 | 0 | 0 | 0 | 0 | 48 |
 | monsterfeatures | 252 | 0 | 61 | 191 | 0 | 132 | 753 |
 | monsters | 337 | 2 | 5 | 330 | 15 | 4733 | 4968 |
@@ -17,21 +17,10 @@
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 6475
+Total blocking issues: 6464
 
 ## Issues
 
-- **missing-field** `heroes:4Jsv5vYaJ1atUEDV:items[5hEbhdZm1ozQ3B2g].system.description.value`
-- **missing-field** `heroes:4Jsv5vYaJ1atUEDV:items[Nt4QsuSYvhIwSoO5].system.description.value`
-- **missing-field** `heroes:4Jsv5vYaJ1atUEDV:items[hTIYCYd5l9PjPNUO].system.description.value`
-- **missing-field** `heroes:4Jsv5vYaJ1atUEDV:items[LIy4OAHvmzzZBX3q].system.description.value`
-- **missing-field** `heroes:4Jsv5vYaJ1atUEDV:items[ADStL8U8T5R9akvp].system.description.value`
-- **missing-field** `heroes:4Jsv5vYaJ1atUEDV:items[NV64CG1QBOT4YyF1].effects[cfwMU7LuOJ619Lny].description`
-- **missing-field** `heroes:4Jsv5vYaJ1atUEDV:items[PtJ6TyvPsRo0y1nq].system.description.value`
-- **missing-field** `heroes:4Jsv5vYaJ1atUEDV:items[iXY1MRCzK0cZ14Kg].system.description.value`
-- **missing-field** `heroes:4Jsv5vYaJ1atUEDV:items[iXY1MRCzK0cZ14Kg].effects[MowBnXpRu2aG48i9].description`
-- **missing-field** `heroes:4Jsv5vYaJ1atUEDV:items[KswTUmrH37e6GsUI].system.description.value`
-- **missing-field** `heroes:4Jsv5vYaJ1atUEDV:items[KswTUmrH37e6GsUI].effects[6pbotGIvqQkraPva].description`
 - **extra-entry** `items:Amulet of Proof Against Detection and Location`
 - **extra-entry** `items:Arrows`
 - **extra-entry** `items:Boots of Springing and Striding`
