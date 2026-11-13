@@ -684,43 +684,43 @@
     },
     "Split": {
       "name": "Scindersi",
-      "description": "<p>Quando un &lt;creature&gt; di taglia Media o superiore è soggetto a danni da fulmine o a danni taglienti, si scinde in due nuovi &lt;creature&gt; se possiede almeno 10 punti ferita. Ogni nuovo &lt;creature&gt; ha un ammontare di punti ferita pari alla metà del &lt;creature&gt; originale, arrotondando per difetto. I nuovi &lt;creature&gt; sono inferiori di una taglia rispetto al &lt;creature&gt; originale.</p>"
+      "description": "<section class=\"secret\">\n<p>Quando un [[lookup @name lowercase]]{mostro} di taglia Media o superiore è soggetto a danni da fulmine o <em>taglienti</em>, si divide in due nuovi [[lookup @name lowercase]]{mostri} se possiede almeno 10 punti ferita. Ogni nuovo [[lookup @name lowercase]]{mostro} possiede un numero di punti ferita pari a metà di quelli del [[lookup @name lowercase]]{mostro} originale, arrotondato per difetto. I nuovi [[lookup @name lowercase]]{mostri} sono di una taglia inferiore rispetto al budino originale.</p>\n</section>\n<p>Il [[lookup @name lowercase]]{mostro} si divide in due nuovi [[lookup @name lowercase]]{mostri}. I nuovi [[lookup @name lowercase]]{mostri} sono di una taglia inferiore rispetto al [[lookup @name lowercase]]{mostro} originale.</p>"
     },
     "Spores": {
       "name": "Spore",
-      "description": "<p>Il &lt;creature&gt; diffonde una nube di spore tossiche entro un raggio di 4,5 metri. Le spore si diffondono oltre gli angoli. Ogni creatura in quell'area deve superare un tiro salvezza su Costituzione con CD 14, altrimenti è Avvelenata. Finché è Avvelenato in questo modo, un bersaglio subisce <strong>5 ([[/r 1d10]]) </strong>danni da veleno all'inizio di ogni suo turno, ma può ripetere il tiro salvezza alla fine di ogni suo turno e, se lo supera, l’effetto per lui termina. Anche svuotando una fiala d'acqua santa sul bersaglio si pone termine all’effetto su di lui.</p><p>&nbsp;</p>"
+      "description": "<section class=\"secret\"><p>Una nube di spore tossiche del raggio di 4,5 metri si estende dal [[lookup @name lowercase]]{mostro}. Le spore si propagano oltre gli angoli. Ogni creatura in quell'area deve superare un tiro salvezza su <strong>Costituzione con CD 14</strong>, altrimenti diventa avvelenata. </p><p>Finché è avvelenato in questo modo, un bersaglio subisce <strong>5 (1d10) danni <em>da veleno</em></strong> all'inizio di ciascun proprio turno. Un bersaglio può ripetere il tiro salvezza alla fine di ciascun proprio turno e, se lo supera, l'effetto su di lui termina. Anche svuotare una fiala di acqua santa sul bersaglio pone termine all'effetto su di lui.</p></section><p>Una nube di spore tossiche del raggio di 4,5 metri si estende dal [[lookup @name lowercase]]{mostro}. Le spore si propagano oltre gli angoli. Ogni creatura in quell'area deve effettuare un tiro salvezza su <strong>Costituzione</strong>. Un bersaglio può ripetere il tiro salvezza alla fine di ciascun proprio turno e, se lo supera, l'effetto su di lui termina.</p>"
     },
     "Standing Leap": {
       "name": "Balzo da Fermo",
-      "description": "<p>Il &lt;creature&gt; può compiere un salto in lungo di un massimo di 9 metri e un salto in alto di un massimo di 4,5 metri, con o senza rincorsa.</p>"
+      "description": "<p>Il salto in lungo del [[lookup @name lowercase]]{mostro} arriva fino a <strong>9 m</strong> e il suo salto in alto fino a <strong>4,5 m</strong>, con o senza rincorsa.</p>"
     },
     "Steadfast": {
       "name": "Nervi Saldi",
-      "description": "<p>Il &lt;creature&gt; non può essere spaventato finché vede una creatura alleata entro 9 metri da sé.</p>"
+      "description": "<p>Il [[lookup @name lowercase]]{mostro} non può essere spaventato finché può vedere una creatura alleata <strong>entro 9 metri</strong> da lui.</p>"
     },
     "Steam Breath": {
       "name": "Soffio di Vapore",
-      "description": "<p>Il &lt;creature&gt; esala vapore rovente in un cono di 4,5 metri. Ogni creatura in quell'area deve effettuare un tiro salvezza su Destrezza con CD 10; se lo fallisce, subisce 4 (1d8) danni da fuoco, mentre se lo supera, subisce la metà di quei danni.</p><p>&nbsp;</p>"
+      "description": "<section class=\"secret\"><p>Il [[lookup @name lowercase]]{mostro} esala vapore rovente in un cono di 18 metri. Ogni creatura in quell'area deve effettuare un tiro salvezza su <strong>Costituzione con CD 18</strong>; se lo fallisce, subisce <strong>52 (15d6) danni <em>da fuoco</em></strong>, mentre se lo supera subisce la metà di quei danni.</p><p>Trovarsi sott'acqua non conferisce resistenza contro questi danni.</p></section><p>Il [[lookup @name lowercase]]{mostro} esala vapore rovente in un cono di 18 metri. Ogni creatura in quell'area deve effettuare un tiro salvezza su <strong>Costituzione</strong>.</p>"
     },
     "Stench": {
       "name": "Fetore",
-      "description": "<p>Ogni creatura che inizi il suo turno entro 1,5 metri dal &lt;creature&gt; deve superare un tiro salvezza su Costituzione con CD 10, altrimenti è avvelenata fino all'inizio del proprio turno successivo. Se supera il tiro salvezza, la creatura è immune al Fetore del &lt;creature&gt; per 24 ore.</p>"
+      "description": "<section class=\"secret\"><p>Ogni creatura che inizia il proprio turno entro <strong>1,5 m</strong> dal [[lookup @name lowercase]]{mostro} deve superare un <strong>tiro salvezza su Costituzione con CD 10</strong>, altrimenti è avvelenata fino all'inizio del proprio turno successivo. Se supera il tiro salvezza, la creatura è immune al Fetore del [[lookup @name lowercase]]{mostro} per 24 ore.</p></section><p>Ogni creatura che inizia il proprio turno entro <strong>1,5 m</strong> dal [[lookup @name lowercase]]{mostro} deve superare un tiro salvezza su Costituzione.</p>"
     },
     "Stone Camouflage": {
       "name": "Mimetismo nella Pietra",
-      "description": "<p>Il &lt;creature&gt; dispone di vantaggio alle prove di Destrezza (Furtività) effettuate per nascondersi nei terreni rocciosi.</p>"
+      "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di<strong> vantaggio </strong>alle prove di Destrezza (Furtività) effettuate per nascondersi su terreno roccioso.</p>"
     },
     "Stunning Screech": {
       "name": "Stridio Stordente",
-      "description": "<p>Il &lt;creature&gt; emette un orrendo stridio. Ogni creatura situata entro 6 metri da esso che sia in grado di udirlo e che non sia un demone deve superare un tiro salvezza su Costituzione con CD 14, altrimenti è stordita fino alla fine del turno successivo del &lt;creature&gt;.</p>"
+      "description": "<section class=\"secret\">\n<p>Il [[lookup @name lowercase]]{mostro} emette uno stridio orrendo. Ogni creatura entro 6 metri da lui che può udirlo e che non sia un [[lookup @details.type.config.label lowercase]]{mostro} deve superare un tiro salvezza su <strong>Costituzione con CD 14</strong>, altrimenti è stordita fino alla fine del turno successivo del [[lookup @name lowercase]]{mostro} .</p>\n</section>\n<p>Il [[lookup @name lowercase]]{mostro} emette uno stridio orrendo. Ogni creatura entro 6 metri da lui che può udirlo e che non sia un [[lookup @details.type.config.label lowercase]]{mostro} deve effettuare un tiro salvezza su <strong>Costituzione</strong>.</p>"
     },
     "Sunlight Weakness": {
       "name": "Debolezza alla Luce del Sole",
-      "description": "<p>Finché è esposta alla luce del sole, l'&lt;creature&gt; subisce svantaggio ai tiri per colpire, alle prove di caratteristica e ai tiri salvezza.</p>"
+      "description": "<p>Finché si trova alla luce del sole, il [[lookup @name lowercase]]{mostro} subisce<strong> svantaggio </strong>ai tiri per colpire, alle prove di caratteristica e ai tiri salvezza.</p>"
     },
     "Sure-Footed": {
       "name": "Ben Piantato",
-      "description": "<p>La &lt;creature&gt; dispone di vantaggio ai tiri salvezza su Forza e Destrezza effettuati contro gli effetti che la butterebbero a terra prona.</p>"
+      "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di<strong> vantaggio </strong>ai tiri salvezza su Forza e Destrezza effettuati contro gli effetti che lo farebbero cadere prono.</p>"
     },
     "Surprise Attack": {
       "name": "Attacco a Sorpresa",
