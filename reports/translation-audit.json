@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1778,
+      "translated": 1779,
       "missing": 69,
-      "partial": 544,
+      "partial": 543,
       "review": 69
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 10028,
-      "missing": 5632,
+      "translated": 10032,
+      "missing": 5628,
       "invariantFailures": 853,
       "englishResiduals": 71,
       "imperialResiduals": 0
     },
-    "blockingIssues": 6493
+    "blockingIssues": 6489
   },
   "packs": [
     {
@@ -143,9 +143,9 @@
       "summary": {
         "documents": {
           "total": 12,
-          "translated": 5,
+          "translated": 6,
           "missing": 0,
-          "partial": 7,
+          "partial": 6,
           "review": 0
         },
         "folders": {
@@ -157,50 +157,14 @@
         },
         "fields": {
           "total": 1165,
-          "translated": 1136,
-          "missing": 29,
+          "translated": 1140,
+          "missing": 25,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "xT2C2Itv2XambDYp",
-          "name": "Morthos (Tiefling Sorcerer)",
-          "fieldPath": "items[38phJIpUGf6pPv1e].system.description.value",
-          "sourcePath": "heroes/morthos-tiefling-sorcerer.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "xT2C2Itv2XambDYp",
-          "name": "Morthos (Tiefling Sorcerer)",
-          "fieldPath": "items[dXB7dmAyOHzDdKek].system.description.value",
-          "sourcePath": "heroes/morthos-tiefling-sorcerer.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "xT2C2Itv2XambDYp",
-          "name": "Morthos (Tiefling Sorcerer)",
-          "fieldPath": "items[cY4aXe5XplmPTCQg].system.description.value",
-          "sourcePath": "heroes/morthos-tiefling-sorcerer.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "xT2C2Itv2XambDYp",
-          "name": "Morthos (Tiefling Sorcerer)",
-          "fieldPath": "items[RI84w7ABSrbsvYus].system.description.value",
-          "sourcePath": "heroes/morthos-tiefling-sorcerer.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
