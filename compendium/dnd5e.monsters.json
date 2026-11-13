@@ -309,7 +309,8 @@
             "QTexJH8jSdxaIXP2": {
               "name": "Gelatine Piccole Divise"
             }
-          }
+          },
+          "chat": "<p>Il [[lookup @name]]{mostro} si divide in due nuovi [[lookup @name]]{mostri}. I nuovi [[lookup @name]]{mostri} sono di una taglia inferiore rispetto al [[lookup @name]]{mostro} originale.</p>"
         },
         "arNeEd7Vf8pEfQjh": {
           "name": "Movimenti del Ragno",
@@ -425,7 +426,8 @@
           "chat": "<p>Il [[lookup @name]]{mostro} può effettuare [[lookup @resources.legact.max]] azioni leggendarie.</p>"
         },
         "IZgoYn3Baw7MAZCT": {
-          "name": "Imperscrutabile"
+          "name": "Imperscrutabile",
+          "description": "<p>Il [[lookup @name monster]]{mostro} è immune a qualsiasi effetto che percepisca le sue emozioni o legga i suoi pensieri, nonché a qualsiasi incantesimo di divinazione che rifiuti. Le prove di Saggezza (Intuizione) effettuate per determinare le intenzioni o la sincerità del [[lookup @name monster]]{mostro} subiscono svantaggio.</p>"
         },
         "ez87kySQJgKUPT9L": {
           "name": "Ruggito",
@@ -747,7 +749,8 @@
           },
           "effects": {
             "hZlZMpOIJOexfrmA": {
-              "name": "Dissolto"
+              "name": "Dissolto",
+              "description": "<p>Sei stato reso &amp;reference[unconscious apply=false] dall'incantesimo @UUID[Compendium.dnd5e.spells.Item.15Fa6q1nH27XfbR8]{Dissolvi Magie} per 1 minuto.</p>"
             }
           },
           "chat": "<p>L'armatura è incapacitata finché si trova nell'area di un campo antimagia.</p>"
@@ -1308,7 +1311,8 @@
             "dnd5eactivity000": {
               "name": "Danni Bonus"
             }
-          }
+          },
+          "description": "<p>Se il [[lookup @name lowercase]]{mostro} &amp;reference[surprise]{sorprende} una creatura e la colpisce con un attacco durante il primo round di combattimento, il bersaglio subisce [[/damage average]] extra dall'attacco.</p>"
         },
         "BsMLwJ3gDd0jADY3": {
           "name": "Bruto",
@@ -1951,7 +1955,8 @@
             "UtbfE0oWqyvC06Yg": {
               "name": "Tiro Salvezza contro la Carica"
             }
-          }
+          },
+          "chat": "<p>Se il cinghiale si muove di almeno 6 m in linea retta verso un bersaglio e poi lo colpisce con un attacco di zanna nello stesso turno, il bersaglio subisce <em>danni taglienti</em> extra. Se il bersaglio è una creatura, deve effettuare un tiro salvezza su <strong>Forza</strong>, altrimenti cade a terra prono.</p>"
         },
         "U66PTM15QvmkenvW": {
           "name": "Implacabile",
@@ -1983,7 +1988,8 @@
             "EaYWLSdsIRp1jBBe": {
               "name": "Tiro Salvezza contro la Carica"
             }
-          }
+          },
+          "chat": "<p>Se il cinghiale si muove di almeno 6 m in linea retta verso un bersaglio e poi lo colpisce con un attacco di zanna nello stesso turno, il bersaglio subisce <em>danni taglienti</em> extra. Se il bersaglio è una creatura, deve effettuare un tiro salvezza su <strong>Forza</strong>, altrimenti cade a terra prono.</p>"
         },
         "byaGAd7ILpgsQ7Un": {
           "name": "Implacabile",
@@ -2062,7 +2068,8 @@
             "exfy4Vmz6RWGIauH": {
               "name": "Licantropia del Cinghiale Mannaro"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio è un umanoide, deve superare un tiro salvezza [[/save]], altrimenti viene maledetto dalla licantropia del cinghiale mannaro.</p>"
         },
         "dtdXnvp5cptFkGPu": {
           "name": "Maglio (Solo in Forma Umanoide o Ibrida)",
@@ -2413,7 +2420,8 @@
             "sHJKs30Lu6S4HwKs": {
               "name": "Recuperare Punti Ferita"
             }
-          }
+          },
+          "description": "<p>Ogni volta che il [[lookup @name lowercase]]{mostro} è soggetto a danni da fulmine, non subisce danni e recupera un numero di punti ferita pari ai danni da fulmine inflitti.</p>"
         },
         "2aGoBVVEF54VcC9d": {
           "name": "Multiattacco",
@@ -2488,7 +2496,8 @@
             "NU3xBsGu4WmvA8GV": {
               "name": "Curare Creatura"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} tocca un'altra creatura. Il bersaglio recupera magicamente [[/heal average]] ed è liberato da ogni maledizione, malattia, veleno, &amp;reference[blinded apply=false]{cecità} o &amp;reference[deafened apply=false]{sordità}.</p>"
         },
         "dhEmGtIDAZEBrsZ2": {
           "name": "Incantesimi Innati"
@@ -2577,7 +2586,8 @@
             "HUohD8uvaVqJpz1Q": {
               "name": "Veleno del Diavolo Barbuto"
             }
-          }
+          },
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio deve effettuare un tiro salvezza su Costituzione. Può ripetere il tiro salvezza alla fine di ciascun proprio turno e, se lo supera, l'effetto su di lui termina.</p>"
         }
       },
       "details": {
@@ -2624,7 +2634,8 @@
         },
         "GFYzWSyeuW9O4a0I": {
           "name": "Scagliare Fiamma",
-          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio è un oggetto infiammabile che non è indossato né trasportato, prende fuoco.</p>"
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio è un oggetto infiammabile che non è indossato né trasportato, prende fuoco.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Se il bersaglio è un oggetto infiammabile che non è indossato né trasportato, prende fuoco.</p>"
         }
       },
       "details": {
@@ -2903,7 +2914,8 @@
         },
         "syCZDlwGoyT1GvJv": {
           "name": "Scagliare Fiamma",
-          "description": "<p>[[/attack extended]]. [[/damage extended]]. Se il bersaglio è un oggetto infiammabile che non è indossato né trasportato, prende fuoco.</p>"
+          "description": "<p>[[/attack extended]]. [[/damage extended]]. Se il bersaglio è un oggetto infiammabile che non è indossato né trasportato, prende fuoco.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Se il bersaglio è un oggetto infiammabile che non è indossato né trasportato, prende fuoco.</p>"
         }
       },
       "details": {
@@ -3090,7 +3102,8 @@
             "dnd5eactivity000": {
               "name": "Danni Bonus"
             }
-          }
+          },
+          "description": "<p>Se il [[lookup @name lowercase]]{mostro} &amp;reference[surprise]{sorprende} una creatura e la colpisce con un attacco durante il primo round di combattimento, il bersaglio subisce [[/damage average]] extra dall'attacco.</p>"
         },
         "scZU8bs551DZRvgC": {
           "name": "Schianto",
@@ -3408,7 +3421,8 @@
               "name": "Esala Fulmine"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} espira un fulmine lungo una linea [[lookup @labels.description.template activity=GSQtl90Opu6WzZk4]]. Ogni creatura su quella linea deve effettuare un tiro salvezza su Destrezza.</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} espira un fulmine lungo una linea [[lookup @labels.description.template activity=GSQtl90Opu6WzZk4]]. Ogni creatura su quella linea deve effettuare un tiro salvezza su Destrezza.</p>",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} espira un fulmine lungo una linea [[lookup @labels.description.template activity=GSQtl90Opu6WzZk4]]. Ogni creatura su quella linea deve effettuare un tiro salvezza [[/save]]; se lo fallisce subisce [[/damage average]] danni, mentre se lo supera subisce la metà di quei danni.</p>"
         },
         "xWSOEwthNmDecfQ8": {
           "name": "Presenza Terrificante",
@@ -3505,7 +3519,8 @@
               "name": "Esala Fulmine"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} espira un fulmine lungo una linea [[lookup @labels.description.template activity=GSQtl90Opu6WzZk4]]. Ogni creatura su quella linea deve effettuare un tiro salvezza su Destrezza.</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} espira un fulmine lungo una linea [[lookup @labels.description.template activity=GSQtl90Opu6WzZk4]]. Ogni creatura su quella linea deve effettuare un tiro salvezza su Destrezza.</p>",
+          "description": "<p>Il drago espira un fulmine lungo una linea [[lookup @labels.description.template activity=GSQtl90Opu6WzZk4]]. Ogni creatura su quella linea deve effettuare un tiro salvezza [[/save]]; se lo fallisce subisce [[/damage average]] danni, mentre se lo supera subisce la metà di quei danni.</p>"
         },
         "HDGLlSq9suLd9DIn": {
           "name": "Presenza Terrificante",
@@ -3585,7 +3600,8 @@
               "name": "Esala Fulmine"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} espira un fulmine lungo una linea [[lookup @labels.description.template activity=GSQtl90Opu6WzZk4]]. Ogni creatura su quella linea deve effettuare un tiro salvezza su Destrezza.</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} espira un fulmine lungo una linea [[lookup @labels.description.template activity=GSQtl90Opu6WzZk4]]. Ogni creatura su quella linea deve effettuare un tiro salvezza su Destrezza.</p>",
+          "description": "<p>Il drago espira un fulmine lungo una linea [[lookup @labels.description.template activity=GSQtl90Opu6WzZk4]]. Ogni creatura su quella linea deve effettuare un tiro salvezza [[/save]]; se lo fallisce subisce [[/damage average]] danni, mentre se lo supera subisce la metà di quei danni.</p>"
         }
       },
       "details": {
@@ -3613,7 +3629,8 @@
               "name": "Esala Fulmine"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} espira un fulmine lungo una linea [[lookup @labels.description.template activity=GSQtl90Opu6WzZk4]]. Ogni creatura su quella linea deve effettuare un tiro salvezza su Destrezza.</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} espira un fulmine lungo una linea [[lookup @labels.description.template activity=GSQtl90Opu6WzZk4]]. Ogni creatura su quella linea deve effettuare un tiro salvezza su Destrezza.</p>",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} espira un fulmine lungo una linea [[lookup @labels.description.template activity=GSQtl90Opu6WzZk4]]. Ogni creatura su quella linea deve effettuare un tiro salvezza [[/save]]; se lo fallisce subisce [[/damage average]] danni, mentre se lo supera subisce la metà di quei danni.</p>"
         },
         "YSVencwrBzRdfm62": {
           "name": "Artiglio",
@@ -5483,7 +5500,9 @@
             "KkzK6MGHKa5GCAwQ": {
               "name": "Esala Acido"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} espira acido lungo una linea [[lookup @labels.description.template activity=KkzK6MGHKa5GCAwQ]]. Ogni creatura su quella linea deve effettuare un tiro salvezza [[/save]]; se lo fallisce subisce [[/damage average]] danni, mentre se lo supera subisce la metà di quei danni.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} espira acido lungo una linea [[lookup @labels.description.template activity=KkzK6MGHKa5GCAwQ]]. Ogni creatura su quella linea deve effettuare un tiro salvezza su Destrezza.</p>"
         },
         "dmLvn6VGNA20rMvC": {
           "name": "Morso",
@@ -5518,7 +5537,9 @@
             "KkzK6MGHKa5GCAwQ": {
               "name": "Esala Acido"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} espira acido lungo una linea [[lookup @labels.description.template activity=KkzK6MGHKa5GCAwQ]]. Ogni creatura su quella linea deve effettuare un tiro salvezza [[/save]]; se lo fallisce subisce [[/damage average]] danni, mentre se lo supera subisce la metà di quei danni.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} espira acido lungo una linea [[lookup @labels.description.template activity=KkzK6MGHKa5GCAwQ]]. Ogni creatura su quella linea deve effettuare un tiro salvezza su Destrezza.</p>"
         },
         "TMquJwGqWpgp9SJd": {
           "name": "Morso",
@@ -6237,7 +6258,8 @@
           "description": "<p>Finché si trova alla luce del sole, il [[lookup @name lowercase]]{mostro} subisce svantaggio ai tiri per colpire e alle prove di Saggezza (Percezione) basate sulla vista.</p>"
         },
         "ZloTCAgY29cSTZuv": {
-          "name": "Retaggio Fatato"
+          "name": "Retaggio Fatato",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di vantaggio ai tiri salvezza contro la condizione &amp;reference[charmed apply=false] e la magia non può far addormentare il [[lookup @name lowercase]]{mostro}.</p>"
         }
       },
       "details": {
@@ -6298,7 +6320,8 @@
           "description": "<p>Finché si trova alla luce del sole, il [[lookup @name lowercase]]{mostro} subisce svantaggio ai tiri per colpire e alle prove di Saggezza (Percezione) basate sulla vista.</p>"
         },
         "Jwx7Sfs5m3RDWckF": {
-          "name": "Retaggio Fatato"
+          "name": "Retaggio Fatato",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di vantaggio ai tiri salvezza contro la condizione &amp;reference[charmed apply=false] e la magia non può far addormentare il [[lookup @name lowercase]]{mostro}.</p>"
         }
       },
       "details": {
@@ -6541,7 +6564,8 @@
             "HfuVdPpbIXuiBaiB": {
               "name": "Tiro Salvezza contro il Calpestamento"
             }
-          }
+          },
+          "chat": "<p>Se il triceratopo si muove di almeno <strong>6 m</strong> in linea retta verso una creatura e poi la colpisce con un attacco di incornata nello stesso turno, il bersaglio deve superare un tiro salvezza su Forza.</p>"
         },
         "r6mBkCtL5j6Y6sBr": {
           "name": "Incornata",
@@ -7684,7 +7708,8 @@
               }
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Se il bersaglio è una creatura, deve effettuare un tiro salvezza su Forza, altrimenti cade &amp;reference[prone].</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Se il bersaglio è una creatura, deve effettuare un tiro salvezza su Forza, altrimenti cade &amp;reference[prone].</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio è una creatura, deve superare un tiro salvezza [[/save activity=GOn2YYbOxKVKqvwx]], altrimenti cade &amp;reference[prone].</p>"
         }
       },
       "details": {
@@ -7882,7 +7907,8 @@
           "description": "<p>Il [[lookup @name lowercase]]{mostro} lancia un incantesimo dalla propria lista di incantesimi preparati, usando normalmente uno slot incantesimo.</p>"
         },
         "f8zut6gBBsfoAikg": {
-          "name": "Imperscrutabile"
+          "name": "Imperscrutabile",
+          "description": "<p>Il [[lookup @name monster]]{mostro} è immune a qualsiasi effetto che percepisca le sue emozioni o legga i suoi pensieri, nonché a qualsiasi incantesimo di divinazione che rifiuti. Le prove di Saggezza (Intuizione) effettuate per determinare le intenzioni o la sincerità del [[lookup @name monster]]{mostro} subiscono svantaggio.</p>"
         },
         "kvyuqG5WztblcJXb": {
           "name": "Incantesimi"
@@ -8009,7 +8035,8 @@
                 "value": "<p>Se il bersaglio è una creatura di taglia Media o inferiore, deve superare un tiro salvezza [[/save]], altrimenti cade &amp;Reference[prone].</p>"
               }
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio è una creatura di taglia Media o inferiore, deve superare un tiro salvezza [[/save]], altrimenti cade &amp;Reference[prone].</p>"
         }
       },
       "details": {
@@ -8093,7 +8120,8 @@
             "yYJMmbs4vnoxnf8U": {
               "name": "Tiro Salvezza contro il Veleno"
             }
-          }
+          },
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio deve effettuare un tiro salvezza su Costituzione. Può ripetere il tiro salvezza alla fine di ciascun proprio turno e, se lo supera, l'effetto su di lui termina.</p>"
         },
         "aU62xVUBYkAQWIHv": {
           "name": "Anti-Individuazione",
@@ -8223,7 +8251,8 @@
             "unEhkqnbSJYtXAU4": {
               "name": "Berserk"
             }
-          }
+          },
+          "chat": "<p>Il golem entra in berserk. In ciascun proprio turno finché è berserk, attacca la creatura più vicina che sia in grado di vedere. Se nessuna creatura è abbastanza vicina da poterla raggiungere e attaccare, il golem attacca un oggetto, dando la precedenza a un oggetto più piccolo di lui.</p>"
         },
         "vEEJei0CNaNbfQ2w": {
           "name": "Schianto",
@@ -8281,7 +8310,8 @@
             "sHJKs30Lu6S4HwKs": {
               "name": "Recuperare Punti Ferita"
             }
-          }
+          },
+          "description": "<p>Ogni volta che il [[lookup @name lowercase]]{mostro} è soggetto a danni da fulmine, non subisce danni e recupera un numero di punti ferita pari ai danni da fulmine inflitti.</p>"
         },
         "saNeJhD61HGgts1B": {
           "name": "Forma Immutabile",
@@ -8304,7 +8334,8 @@
             "unEhkqnbSJYtXAU4": {
               "name": "Berserk"
             }
-          }
+          },
+          "chat": "<p>Il golem entra in berserk. In ciascun proprio turno finché è berserk, attacca la creatura più vicina che sia in grado di vedere. Se nessuna creatura è abbastanza vicina da poterla raggiungere e attaccare, il golem attacca un oggetto, dando la precedenza a un oggetto più piccolo di lui.</p>"
         },
         "mjn0iMGrjGTOn42w": {
           "name": "Schianto",
@@ -9810,7 +9841,8 @@
               "name": "Licantropia del Lupo Mannaro"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio Morso. Se il bersaglio è un umanoide, deve effettuare un tiro salvezza su Costituzione.</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio Morso. Se il bersaglio è un umanoide, deve effettuare un tiro salvezza su Costituzione.</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio è un umanoide, deve superare un tiro salvezza [[/save]], altrimenti viene maledetto dalla licantropia del lupo mannaro.</p>"
         },
         "abhGXKzA0XGprXED": {
           "name": "Multiattacco (Solo in Forma Umanoide o Ibrida)"
@@ -10620,7 +10652,8 @@
           "name": "Pseudopodo",
           "effects": {
             "SiRqKDm2qerReaj8": {
-              "name": "Armatura Corrosa"
+              "name": "Armatura Corrosa",
+              "description": "<p>Questa armatura è stata corrosa e subisce una penalità permanente e cumulativa di -1 alla CA che fornisce. L'armatura è distrutta se la penalità riduce la sua CA a 10.</p>"
             }
           }
         }
@@ -10974,7 +11007,8 @@
             "vBP1Ivo8gjkv4DVp": {
               "name": "Focalizza Sguardo"
             }
-          }
+          },
+          "chat": "<p>Il [[lookup @name]]{mostro} bersaglia [[lookup @labels.description.affects activity=vBP1Ivo8gjkv4DVp]] che sia in grado di vedere entro [[lookup @labels.description.range activity=vBP1Ivo8gjkv4DVp]] da sé. Se il bersaglio può vedere il [[lookup @name]]{mostro}, deve effettuare un tiro salvezza su Saggezza contro questa magia.</p>"
         },
         "ik1IkSZi4fpiGbB3": {
           "name": "Pugno Putrescente",
@@ -11090,7 +11124,8 @@
               }
             }
           },
-          "chat": "<p>Se muore, il [[lookup @name]]{mostro} torna in vita dopo 1d6 giorni e recupera tutti i suoi punti ferita.</p>"
+          "chat": "<p>Se muore, il [[lookup @name]]{mostro} torna in vita dopo 1d6 giorni e recupera tutti i suoi punti ferita.</p>",
+          "description": "<p>Se muore, il [[lookup @name lowercase]]{mostro} torna in vita dopo 1d6 giorni e recupera tutti i suoi punti ferita.</p><p>Soltanto un incantesimo @UUID[Compendium.dnd5e.spells.Item.3okM6Gn63zzEULkz]{Desiderio} può impedire il funzionamento di questo tratto.</p>"
         },
         "wtPKdh22QAc93kgt": {
           "name": "Incantesimi"
@@ -11191,7 +11226,8 @@
               }
             }
           },
-          "chat": "<p>Se muore, il [[lookup @name]]{mostro} torna in vita dopo 1d6 giorni e recupera tutti i suoi punti ferita.</p>"
+          "chat": "<p>Se muore, il [[lookup @name]]{mostro} torna in vita dopo 1d6 giorni e recupera tutti i suoi punti ferita.</p>",
+          "description": "<p>Se muore, il [[lookup @name lowercase]]{mostro} torna in vita dopo 1d6 giorni e recupera tutti i suoi punti ferita.</p><p>Soltanto un incantesimo @UUID[Compendium.dnd5e.spells.Item.3okM6Gn63zzEULkz]{Desiderio} può impedire il funzionamento di questo tratto.</p>"
         },
         "Fla0ZsaY2HvXWqbR": {
           "name": "Incantesimi"
@@ -11222,7 +11258,8 @@
             "ceqRWRMK1a37epib": {
               "name": "Riposizionarsi"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} si teletrasporta magicamente, assieme a ogni oggetto che indossa o trasporta, fino a [[lookup @labels.description.range activity=ceqRWRMK1a37epib]] in uno spazio libero che sia in grado di vedere.</p>"
         },
         "RFPDYIhkmBW2B47S": {
           "name": "Nembo di Orrore",
@@ -11637,7 +11674,8 @@
               "name": "Licantropia dell'Orso Mannaro"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio Morso. Se il bersaglio è un umanoide, deve effettuare un tiro salvezza su Costituzione.</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio Morso. Se il bersaglio è un umanoide, deve effettuare un tiro salvezza su Costituzione.</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio è un umanoide, deve superare un tiro salvezza [[/save]], altrimenti viene maledetto dalla licantropia dell'orso mannaro.</p>"
         },
         "pEYcOjAF2fovrXRP": {
           "name": "Artiglio (Solo in Forma di Orso o Ibrida)",
@@ -11884,7 +11922,8 @@
             "zKCI4XQ331POGNWl": {
               "name": "Afferrato dai Tentacoli"
             }
-          }
+          },
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio è &amp;reference[grappled]. Finché questa lotta non termina, il [[lookup @name lowercase]]{mostro} non può usare [[lookup @item.name lowercase]] su un altro bersaglio.</p>"
         },
         "7h1ktenu53lHYCxr": {
           "name": "Respirare Sott'Acqua",
@@ -11926,7 +11965,8 @@
             "zKCI4XQ331POGNWl": {
               "name": "Afferrato dai Tentacoli"
             }
-          }
+          },
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio è &amp;reference[grappled]. Finché questa lotta non termina, il [[lookup @name lowercase]]{mostro} non può usare [[lookup @item.name lowercase]] su un altro bersaglio.</p>"
         },
         "g0szA8e5Riqfj302": {
           "name": "Respirare Sott'Acqua",
@@ -12060,7 +12100,8 @@
           "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di vantaggio ai tiri salvezza contro incantesimi e altri effetti magici.</p>"
         },
         "sDvx0IybgYa8Q4WG": {
-          "name": "Armi Angeliche"
+          "name": "Armi Angeliche",
+          "chat": "<p>Gli attacchi con arma del planetar sono magici. Quando il planetar colpisce con un'arma, essa infligge <em>danni radiosi</em> extra (inclusi nell'attacco).</p>"
         },
         "2kBUlTLMlwq3KoUB": {
           "name": "Consapevolezza Divina",
@@ -12151,7 +12192,10 @@
               }
             },
             "OQqEseoTQUACafjS": {
-              "name": "Risucchiare il Massimo dei Punti Ferita (Bersaglio)"
+              "name": "Risucchiare il Massimo dei Punti Ferita (Bersaglio)",
+              "description": {
+                "value": "<p>Il massimo dei punti ferita del bersaglio è ridotto di un ammontare pari ai danni necrotici subiti. La riduzione permane finché il bersaglio non completa un riposo lungo. Il bersaglio muore se questo effetto riduce a 0 il suo massimo dei punti ferita.</p>"
+              }
             }
           },
           "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
@@ -12190,7 +12234,8 @@
               "name": "Afferrato dagli Artigli",
               "description": "<p>Sei &amp;reference[grappled apply=false] (CD 13 per sfuggire).</p>"
             }
-          }
+          },
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Invece di infliggere danni, il [[lookup @name]]{mostro} può &amp;reference[grapple] il bersaglio.</p>"
         }
       },
       "details": {
@@ -12247,13 +12292,15 @@
             "QTexJH8jSdxaIXP2": {
               "name": "Budini Piccoli Divisi"
             }
-          }
+          },
+          "chat": "<p>Il [[lookup @name]]{mostro} si divide in due nuovi [[lookup @name]]{mostri}. I nuovi [[lookup @name]]{mostri} sono di una taglia inferiore rispetto al [[lookup @name]]{mostro} originale.</p>"
         },
         "v6ZspnPr8G5hApkL": {
           "name": "Pseudopodo",
           "effects": {
             "4U4SIb01ypbc6lzv": {
-              "name": "Armatura Corrosa"
+              "name": "Armatura Corrosa",
+              "description": "<p>Questa armatura è stata corrosa e subisce una penalità permanente e cumulativa di -1 alla CA che fornisce. L'armatura è distrutta se la penalità riduce la sua CA a 10.</p>"
             }
           }
         }
@@ -12379,7 +12426,8 @@
             "lj4cHP3WVTg1ePKt": {
               "name": "Veleno del Quasit"
             }
-          }
+          },
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio deve effettuare un tiro salvezza su Costituzione. Può ripetere il tiro salvezza alla fine di ciascun proprio turno e, se lo supera, l'effetto su di lui termina.</p>"
         }
       },
       "details": {
@@ -12693,7 +12741,8 @@
           "description": "<p>La [[lookup @name lowercase]]{monster} può respirare in aria e acqua.</p>"
         },
         "9q7EEjZaHt58cSnA": {
-          "name": "Balzo da Fermo"
+          "name": "Balzo da Fermo",
+          "description": "<p>Il &amp;reference[long jump] del [[lookup @name lowercase]]{mostro} copre fino a 6 metri e il suo &amp;reference[high jump] fino a 3 metri, con o senza rincorsa.</p>"
         },
         "VtuDa7NZ5Be8auQv": {
           "name": "Morso",
@@ -12701,7 +12750,9 @@
             "V5XiiQPdCJUmbyLn": {
               "name": "Afferrato dal Morso"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il bersaglio è &amp;Reference[grappled] (CD 13 per sfuggire). Finché questa lotta non termina, il bersaglio è &amp;Reference[restrained] e il [[lookup @name lowercase]]{mostro} non può usare [[lookup @item.name lowercase]] contro un altro bersaglio.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio è &amp;reference[grappled]. Finché questa lotta non termina, il bersaglio è &amp;reference[restrained] e il [[lookup @name]]{mostro} non può usare [[lookup @item.name lowercase]]{mostro} contro un altro bersaglio.</p>"
         },
         "9gLJgr3WzhykKRl9": {
           "name": "Inghiottire",
@@ -12783,7 +12834,8 @@
             "UtbfE0oWqyvC06Yg": {
               "name": "Tiro Salvezza contro la Carica"
             }
-          }
+          },
+          "chat": "<p>Se il cinghiale si muove di almeno 6 m in linea retta verso un bersaglio e poi lo colpisce con un attacco di zanna nello stesso turno, il bersaglio subisce <em>danni taglienti</em> extra. Se il bersaglio è una creatura, deve effettuare un tiro salvezza su <strong>Forza</strong>, altrimenti cade a terra prono.</p>"
         },
         "uFv78t6CwySS1gio": {
           "name": "Incornata",
@@ -12838,14 +12890,17 @@
             "V5XiiQPdCJUmbyLn": {
               "name": "Afferrato dal Morso"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il bersaglio è &amp;Reference[grappled] (CD 13 per sfuggire). Finché questa lotta non termina, il bersaglio è &amp;Reference[restrained] e il [[lookup @name lowercase]]{mostro} non può usare [[lookup @item.name lowercase]] contro un altro bersaglio.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio è &amp;reference[grappled]. Finché questa lotta non termina, il bersaglio è &amp;reference[restrained] e il [[lookup @name]]{mostro} non può usare [[lookup @item.name lowercase]]{mostro} contro un altro bersaglio.</p>"
         },
         "pGmnW07WgwOs2vOG": {
           "name": "Anfibio",
           "description": "<p>La [[lookup @name lowercase]]{monster} può respirare in aria e acqua.</p>"
         },
         "EbpP4ZBLskKjOd2s": {
-          "name": "Balzo da Fermo"
+          "name": "Balzo da Fermo",
+          "description": "<p>Il &amp;reference[long jump] del [[lookup @name lowercase]]{mostro} copre fino a 6 metri e il suo &amp;reference[high jump] fino a 3 metri, con o senza rincorsa.</p>"
         },
         "6aBDwlIsxceFMXxL": {
           "name": "Inghiottire",
@@ -13877,7 +13932,8 @@
             "vBP1Ivo8gjkv4DVp": {
               "name": "Focalizza Sguardo"
             }
-          }
+          },
+          "chat": "<p>Il [[lookup @name]]{mostro} bersaglia [[lookup @labels.description.affects activity=vBP1Ivo8gjkv4DVp]] che sia in grado di vedere entro [[lookup @labels.description.range activity=vBP1Ivo8gjkv4DVp]] da sé. Se il bersaglio può vedere il [[lookup @name]]{mostro}, deve effettuare un tiro salvezza su Saggezza contro questa magia.</p>"
         },
         "AEc5FXdpe3M7KHQI": {
           "name": "Ringiovanimento",
@@ -13955,7 +14011,8 @@
             "ceqRWRMK1a37epib": {
               "name": "Riposizionarsi"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} si teletrasporta magicamente, assieme a ogni oggetto che indossa o trasporta, fino a [[lookup @labels.description.range activity=ceqRWRMK1a37epib]] in uno spazio libero che sia in grado di vedere.</p>"
         },
         "iXcyU8grGuxZbkYJ": {
           "effects": {
@@ -14017,7 +14074,8 @@
             "NU3xBsGu4WmvA8GV": {
               "name": "Curare Creatura"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} tocca un'altra creatura. Il bersaglio recupera magicamente [[/heal average]] ed è liberato da ogni maledizione, malattia, veleno, &amp;reference[blinded apply=false]{cecità} o &amp;reference[deafened apply=false]{sordità}.</p>"
         },
         "hvLibxV3shPORnBB": {
           "name": "Esplosione Rovente",
@@ -14032,7 +14090,8 @@
           "description": "<p>Il [[lookup @name lowercase]]{mostro} sa quando sente una menzogna.</p>"
         },
         "VAcvTNQf5hrdzQEh": {
-          "name": "Armi Angeliche"
+          "name": "Armi Angeliche",
+          "chat": "<p>Gli attacchi con arma del planetar sono magici. Quando il planetar colpisce con un'arma, essa infligge <em>danni radiosi</em> extra (inclusi nell'attacco).</p>"
         },
         "BSLTe0yfltAnguOT": {
           "name": "Arco Lungo Massacrante",
@@ -14072,7 +14131,8 @@
           },
           "effects": {
             "hZlZMpOIJOexfrmA": {
-              "name": "Dissolto"
+              "name": "Dissolto",
+              "description": "<p>Sei stato reso &amp;reference[unconscious apply=false] dall'incantesimo @UUID[Compendium.dnd5e.spells.Item.15Fa6q1nH27XfbR8]{Dissolvi Magie} per 1 minuto.</p>"
             }
           },
           "chat": "<p>L'armatura è incapacitata finché si trova nell'area di un campo antimagia.</p>"
@@ -14120,7 +14180,8 @@
               "name": "Tiro Salvezza contro il Risucchio del Massimo dei Punti Ferita"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio deve effettuare un tiro salvezza su Costituzione.</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio deve effettuare un tiro salvezza su Costituzione.</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il bersaglio deve superare un tiro salvezza [[/save]], altrimenti il suo massimo dei punti ferita è ridotto di un ammontare pari ai danni subiti. Questa riduzione permane finché il bersaglio non completa un riposo lungo. Il bersaglio muore se questo effetto riduce a 0 il suo massimo dei punti ferita.</p>"
         }
       },
       "details": {
@@ -14423,7 +14484,8 @@
           },
           "effects": {
             "hZlZMpOIJOexfrmA": {
-              "name": "Dissolto"
+              "name": "Dissolto",
+              "description": "<p>Sei stato reso &amp;reference[unconscious apply=false] dall'incantesimo @UUID[Compendium.dnd5e.spells.Item.15Fa6q1nH27XfbR8]{Dissolvi Magie} per 1 minuto.</p>"
             }
           },
           "chat": "<p>L'armatura è incapacitata finché si trova nell'area di un campo antimagia.</p>"
@@ -14810,7 +14872,8 @@
               "name": "Licantropia della Tigre Mannara"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio Morso. Se il bersaglio è un umanoide, deve effettuare un tiro salvezza su Costituzione.</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio Morso. Se il bersaglio è un umanoide, deve effettuare un tiro salvezza su Costituzione.</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio è un umanoide, deve superare un tiro salvezza [[/save]], altrimenti viene maledetto dalla licantropia della tigre mannara.</p>"
         },
         "HPmjVRKpG08bgohb": {
           "name": "Artiglio (Solo in Forma di Tigre o Ibrida)",
@@ -14956,7 +15019,8 @@
               "name": "Licantropia del Ratto Mannaro"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio Morso. Se il bersaglio è un umanoide, deve effettuare un tiro salvezza su Costituzione.</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio Morso. Se il bersaglio è un umanoide, deve effettuare un tiro salvezza su Costituzione.</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio è un umanoide, deve superare un tiro salvezza [[/save]], altrimenti viene maledetto dalla licantropia del topo mannaro.</p>"
         },
         "YJi7nfridP2LjdJs": {
           "name": "Balestra a Mano (Solo in Forma Umanoide o Ibrida)",
@@ -15034,7 +15098,8 @@
             "HfuVdPpbIXuiBaiB": {
               "name": "Tiro Salvezza contro il Calpestamento"
             }
-          }
+          },
+          "chat": "<p>Se il triceratopo si muove di almeno <strong>6 m</strong> in linea retta verso una creatura e poi la colpisce con un attacco di incornata nello stesso turno, il bersaglio deve superare un tiro salvezza su Forza.</p>"
         },
         "h5lGnMKW65NWIi2W": {
           "name": "Incornata",
@@ -15321,13 +15386,17 @@
             "v9TyI7sPX0W8vaOA": {
               "name": "Afferrato dal Colpo Senz'Armi"
             }
-          }
+          },
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Invece di infliggere danni, il [[lookup @name]]{mostro} può &amp;reference[grapple] il bersaglio.</p>"
         },
         "uqHuj7Pjf2sjny21": {
           "name": "Morso (Solo in Forma di Pipistrello o Vampiro)",
           "activities": {
             "gBAOkLKokkHXEVXH": {
-              "name": "Risucchiare il Massimo dei Punti Ferita (Bersaglio)"
+              "name": "Risucchiare il Massimo dei Punti Ferita (Bersaglio)",
+              "description": {
+                "value": "<p>Il massimo dei punti ferita del bersaglio è ridotto di un ammontare pari ai danni necrotici subiti. La riduzione permane finché il bersaglio non completa un riposo lungo. Il bersaglio muore se questo effetto riduce a 0 il suo massimo dei punti ferita.</p>"
+              }
             },
             "ik3iBqS5tIhTkMN3": {
               "name": "Recuperare Punti Ferita (Vampiro)",
@@ -15673,7 +15742,8 @@
               "name": "Tiro Salvezza contro il Risucchio del Massimo dei Punti Ferita"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio deve effettuare un tiro salvezza su Costituzione.</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio deve effettuare un tiro salvezza su Costituzione.</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il bersaglio deve superare un tiro salvezza [[/save]], altrimenti il suo massimo dei punti ferita è ridotto di un ammontare pari ai danni subiti. Questa riduzione permane finché il bersaglio non completa un riposo lungo. Il bersaglio muore se questo effetto riduce a 0 il suo massimo dei punti ferita.</p>"
         }
       },
       "details": {
@@ -15735,7 +15805,8 @@
               "name": "Resistere"
             }
           },
-          "chat": "<p>Se i danni riducono lo zombi a <strong>0 punti ferita</strong>, esso deve effettuare un tiro salvezza su <strong>Costituzione</strong>.</p>"
+          "chat": "<p>Se i danni riducono lo zombi a <strong>0 punti ferita</strong>, esso deve effettuare un tiro salvezza su <strong>Costituzione</strong>.</p>",
+          "description": "<p>Se i danni riducono il [[lookup @name lowercase]]{mostro} a 0 punti ferita, esso deve effettuare un tiro salvezza su Costituzione con CD pari a 5 + i danni subiti, a meno che i danni non siano radiosi o derivino da un colpo critico. Se lo supera, il [[lookup @name lowercase]]{mostro} scende invece a 1 punto ferita.</p>"
         },
         "Ed7XgnZu9qRs3qdn": {
           "name": "Schianto",
@@ -15765,7 +15836,8 @@
               "name": "Resistere"
             }
           },
-          "chat": "<p>Se i danni riducono lo zombi a <strong>0 punti ferita</strong>, esso deve effettuare un tiro salvezza su <strong>Costituzione</strong>.</p>"
+          "chat": "<p>Se i danni riducono lo zombi a <strong>0 punti ferita</strong>, esso deve effettuare un tiro salvezza su <strong>Costituzione</strong>.</p>",
+          "description": "<p>Se i danni riducono il [[lookup @name lowercase]]{mostro} a 0 punti ferita, esso deve effettuare un tiro salvezza su Costituzione con CD pari a 5 + i danni subiti, a meno che i danni non siano radiosi o derivino da un colpo critico. Se lo supera, il [[lookup @name lowercase]]{mostro} scende invece a 1 punto ferita.</p>"
         },
         "Gj35Y1i6Ph90Wn3R": {
           "name": "Morning Star",

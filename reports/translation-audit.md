@@ -9,7 +9,7 @@
 | heroes | 12 | 12 | 0 | 0 | 0 | 0 | 0 |
 | items | 885 | 885 | 0 | 0 | 0 | 0 | 48 |
 | monsterfeatures | 252 | 252 | 0 | 0 | 0 | 0 | 0 |
-| monsters | 337 | 72 | 0 | 265 | 0 | 1150 | 1150 |
+| monsters | 337 | 77 | 0 | 260 | 0 | 1082 | 1082 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
 | rules | 20 | 1 | 3 | 16 | 0 | 738 | 695 |
 | spells | 320 | 320 | 0 | 0 | 0 | 0 | 0 |
@@ -17,7 +17,7 @@
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 1893
+Total blocking issues: 1825
 
 ## Issues
 
@@ -127,7 +127,6 @@ Total blocking issues: 1893
 - **missing-field** `monsters:jcZblJ6lqtW0ePxe:items[O9otNESvCCUdwYhc].system.description.value`
 - **missing-field** `monsters:D5WjGwKskeUT8HXa:items[ZBWu2XGwEnsaVNsH].system.description.value`
 - **missing-field** `monsters:lZR4lhNmYSf89s4Q:items[TSmET06nE61H6HC2].system.description.value`
-- **missing-field** `monsters:lZR4lhNmYSf89s4Q:items[TSmET06nE61H6HC2].system.description.chat`
 - **missing-field** `monsters:lZR4lhNmYSf89s4Q:items[U66PTM15QvmkenvW].system.description.value`
 - **missing-field** `monsters:lZR4lhNmYSf89s4Q:items[U66PTM15QvmkenvW].system.description.chat`
 - **missing-field** `monsters:omcDpBoB69esCXeM:items[AVusgSNjauFD9XnU].system.description.value`
@@ -138,14 +137,12 @@ Total blocking issues: 1893
 - **missing-field** `monsters:8aCTKP5qaBPFOqxM:items[L0k8pFgKxxEEMEOY].effects[WEbg10jI9BHhBTU7].description`
 - **missing-field** `monsters:jLPhaBnMtAbB5dp1:items[ZHBbc5K4n6sU17rC].system.description.value`
 - **missing-field** `monsters:jLPhaBnMtAbB5dp1:items[AxlrZ7HMHoj6zgo5].system.description.value`
-- **missing-field** `monsters:jLPhaBnMtAbB5dp1:items[AxlrZ7HMHoj6zgo5].system.description.chat`
 - **missing-field** `monsters:55PkbskG5iBZGrgR:items[slVyUWagsSZ5CXSh].system.description.value`
 - **missing-field** `monsters:55PkbskG5iBZGrgR:items[slVyUWagsSZ5CXSh].system.description.chat`
 - **missing-field** `monsters:55PkbskG5iBZGrgR:items[FneLrX10GhkE2o4E].system.description.value`
 - **missing-field** `monsters:EZgiprHXA2D7Uyb3:items[3CnWEl3LzMTy99vo].system.description.value`
 - **missing-field** `monsters:cJGY1ZywUOo6heNR:items[1lGtRKKScQMq9K3R].system.description.value`
 - **missing-field** `monsters:SsuCaF2fIEoDdFA3:items[1ArcmRCn5G0t6sOo].system.description.value`
-- **missing-field** `monsters:SsuCaF2fIEoDdFA3:items[1ArcmRCn5G0t6sOo].system.description.chat`
 - **missing-field** `monsters:SsuCaF2fIEoDdFA3:items[byaGAd7ILpgsQ7Un].system.description.value`
 - **missing-field** `monsters:SsuCaF2fIEoDdFA3:items[byaGAd7ILpgsQ7Un].system.description.chat`
 - **missing-field** `monsters:Hn8FFLEzscgT7azz:items[8EvqvqLumOBhrjeD].system.description.value`
@@ -162,9 +159,6 @@ Total blocking issues: 1893
 - **missing-field** `monsters:hQt3qIahnB1Odb40:items[xSzDPptifNbKyf5N].system.description.value`
 - **missing-field** `monsters:hQt3qIahnB1Odb40:items[xSzDPptifNbKyf5N].system.description.chat`
 - **missing-field** `monsters:hQt3qIahnB1Odb40:items[jDA6wujGF6L3tPBM].system.description.value`
-- **missing-field** `monsters:kSAi2KRonL4G4JpO:items[9q7EEjZaHt58cSnA].system.description.value`
-- **missing-field** `monsters:kSAi2KRonL4G4JpO:items[VtuDa7NZ5Be8auQv].system.description.value`
-- **missing-field** `monsters:kSAi2KRonL4G4JpO:items[VtuDa7NZ5Be8auQv].system.description.chat`
 - **missing-field** `monsters:kSAi2KRonL4G4JpO:items[VtuDa7NZ5Be8auQv].effects[V5XiiQPdCJUmbyLn].description`
 - **missing-field** `monsters:kSAi2KRonL4G4JpO:items[9gLJgr3WzhykKRl9].system.description.value`
 - **missing-field** `monsters:kSAi2KRonL4G4JpO:items[9gLJgr3WzhykKRl9].effects[5YoZO3QgfMTcLhgh].description`
@@ -173,7 +167,6 @@ Total blocking issues: 1893
 - **missing-field** `monsters:aAqfEHPiVbhMwZ6j:items[QY2OI39oNi9VUuAY].system.description.value`
 - **missing-field** `monsters:p9Xnr820UAZBOIVN:items[GXCSitOBI6wjFQDq].system.description.value`
 - **missing-field** `monsters:p9Xnr820UAZBOIVN:items[NXi6iGOpnmUiczJA].system.description.value`
-- **missing-field** `monsters:p9Xnr820UAZBOIVN:items[NXi6iGOpnmUiczJA].system.description.chat`
 - **missing-field** `monsters:p9Xnr820UAZBOIVN:items[NXi6iGOpnmUiczJA].effects[zKCI4XQ331POGNWl].description`
 - **missing-field** `monsters:p9Xnr820UAZBOIVN:items[b2HxeZRj8hT3VrLc].system.description.value`
 - **missing-field** `monsters:ZW39DE2zI3TXVYC9:items[GlOJaYXJFUP0Hd80].system.description.value`
@@ -193,12 +186,9 @@ Total blocking issues: 1893
 - **missing-field** `monsters:v99wOosUJjUgcUNF:items[SuRAERXystPvC7Ci].system.activities.2AyYbFLKLbDLzP05.description.value`
 - **missing-field** `monsters:v99wOosUJjUgcUNF:items[g7e60AxXarlQ9xQC].system.description.value`
 - **missing-field** `monsters:v99wOosUJjUgcUNF:items[g7e60AxXarlQ9xQC].effects[otGAUswMpsAM0sho].description`
-- **missing-field** `monsters:Ixo5shumxy4I9qyD:items[lYSWskOMRCVLyWLZ].system.description.value`
-- **missing-field** `monsters:Ixo5shumxy4I9qyD:items[lYSWskOMRCVLyWLZ].system.description.chat`
 - **missing-field** `monsters:Ixo5shumxy4I9qyD:items[lYSWskOMRCVLyWLZ].effects[V5XiiQPdCJUmbyLn].description`
 - **missing-field** `monsters:Ixo5shumxy4I9qyD:items[6aBDwlIsxceFMXxL].system.description.value`
 - **missing-field** `monsters:Ixo5shumxy4I9qyD:items[6aBDwlIsxceFMXxL].effects[5YoZO3QgfMTcLhgh].description`
-- **missing-field** `monsters:Ixo5shumxy4I9qyD:items[EbpP4ZBLskKjOd2s].system.description.value`
 - **missing-field** `monsters:4ZlUHt4xmB7GdPfk:items[5kigRXx2FSlzVUWm].system.description.value`
 - **missing-field** `monsters:4tl0s2SnaLjkoDiI:items[L1TmhBXd2UrVxExn].system.description.value`
 - **missing-field** `monsters:4tl0s2SnaLjkoDiI:items[L1TmhBXd2UrVxExn].system.activities.ilzrXBsQAHEBhR5H.description.value`
@@ -214,7 +204,6 @@ Total blocking issues: 1893
 - **missing-field** `monsters:MiYRAIHwm9It1in8:items[Hx541foatcQiMSZj].system.description.value`
 - **missing-field** `monsters:YTpL2c3NO4sOn2UA:items[QLJgy1aF5ijBEp4K].system.description.chat`
 - **missing-field** `monsters:3UUNbGiG2Yf1ZPxM:items[SLnyx0Ta2ksVM9QL].system.description.value`
-- **missing-field** `monsters:3UUNbGiG2Yf1ZPxM:items[SLnyx0Ta2ksVM9QL].system.description.chat`
 - **missing-field** `monsters:3UUNbGiG2Yf1ZPxM:items[SLnyx0Ta2ksVM9QL].effects[zKCI4XQ331POGNWl].description`
 - **missing-field** `monsters:3UUNbGiG2Yf1ZPxM:items[TKztZERtXehbxu2q].system.description.value`
 - **missing-field** `monsters:3UUNbGiG2Yf1ZPxM:items[8qYBpaA8c3BuBujY].system.description.value`
@@ -225,7 +214,6 @@ Total blocking issues: 1893
 - **missing-field** `monsters:nkyCGJ9wXeAZkyyz:items[0SJofXpPrHJsVXOy].system.description.chat`
 - **missing-field** `monsters:LPdX5YLlwci0NDZx:items[nDvgtu7NSNCrREAv].system.description.value`
 - **missing-field** `monsters:SBCe2BSa6opTS5M4:items[vVxV62ZM3EEkz4KX].system.description.value`
-- **missing-field** `monsters:SBCe2BSa6opTS5M4:items[vVxV62ZM3EEkz4KX].system.description.chat`
 - **missing-field** `monsters:tYYoifu9teGLetVI:items[9Ayx6ARdliy8D5lj].system.description.value`
 - **missing-field** `monsters:tYYoifu9teGLetVI:items[9Ayx6ARdliy8D5lj].system.description.chat`
 - **missing-field** `monsters:Y0vxQVF7w2P38FK2:items[ltue5DUb1SZfphHE].system.description.value`
@@ -255,7 +243,6 @@ Total blocking issues: 1893
 - **missing-field** `monsters:FayqbnjBMszO6Pat:items[wklAUVakX97y0z2S].system.description.chat`
 - **missing-field** `monsters:e5IQxSJO7ySEDdSH:items[6UWSefP0BqnmYwAz].system.description.value`
 - **missing-field** `monsters:e5IQxSJO7ySEDdSH:items[4jztSrWQNxc4q55u].system.description.value`
-- **missing-field** `monsters:e5IQxSJO7ySEDdSH:items[4jztSrWQNxc4q55u].system.description.chat`
 - **missing-field** `monsters:HlddcPm4cWptj3ka:items[O8pEyHMhxCwROJ6O].system.description.value`
 - **missing-field** `monsters:HlddcPm4cWptj3ka:items[O8pEyHMhxCwROJ6O].system.description.chat`
 - **missing-field** `monsters:HlddcPm4cWptj3ka:items[Fi45qe2ncVZHNq43].system.description.value`
@@ -275,11 +262,9 @@ Total blocking issues: 1893
 - **missing-field** `monsters:m4H3hjamBNMH09S9:items[KRskTTMCEepXUPwU].system.description.value`
 - **missing-field** `monsters:m4H3hjamBNMH09S9:items[KRskTTMCEepXUPwU].system.description.chat`
 - **missing-field** `monsters:m4H3hjamBNMH09S9:items[3u5Rv7dQ2fIl1rbB].system.description.value`
-- **missing-field** `monsters:m4H3hjamBNMH09S9:items[Lx0nT1oq0bLjX1lx].system.description.value`
 - **missing-field** `monsters:m4H3hjamBNMH09S9:items[dhEmGtIDAZEBrsZ2].system.description.value`
 - **missing-field** `monsters:m4H3hjamBNMH09S9:items[P3T5BWT2TFHCxUkr].system.description.value`
 - **missing-field** `monsters:XEByBLeOkDgL3mrr:items[sDvx0IybgYa8Q4WG].system.description.value`
-- **missing-field** `monsters:XEByBLeOkDgL3mrr:items[sDvx0IybgYa8Q4WG].system.description.chat`
 - **missing-field** `monsters:XEByBLeOkDgL3mrr:items[9hrSczyYfl4fSrpZ].system.description.value`
 - **missing-field** `monsters:XEByBLeOkDgL3mrr:items[LyxrhwvzMW4YbiYE].system.description.value`
 - **missing-field** `monsters:XEByBLeOkDgL3mrr:items[VJz6sW3vOJcEL4IS].system.description.value`
@@ -292,7 +277,6 @@ Total blocking issues: 1893
 - **missing-field** `monsters:lOYt73eaJojBDxAV:items[hWnnOw9zwmvWvFT7].system.description.value`
 - **missing-field** `monsters:lOYt73eaJojBDxAV:items[BSLTe0yfltAnguOT].system.description.value`
 - **missing-field** `monsters:lOYt73eaJojBDxAV:items[BSLTe0yfltAnguOT].system.description.chat`
-- **missing-field** `monsters:lOYt73eaJojBDxAV:items[H4Qnl5aNwIuOiKvm].system.description.value`
 - **missing-field** `monsters:lOYt73eaJojBDxAV:items[hvLibxV3shPORnBB].system.description.value`
 - **missing-field** `monsters:lOYt73eaJojBDxAV:items[hvLibxV3shPORnBB].system.description.chat`
 - **missing-field** `monsters:lOYt73eaJojBDxAV:items[iXcyU8grGuxZbkYJ].system.description.value`
@@ -300,8 +284,6 @@ Total blocking issues: 1893
 - **missing-field** `monsters:lOYt73eaJojBDxAV:items[iXcyU8grGuxZbkYJ].effects[CPMieBYNggqmHRra].description`
 - **missing-field** `monsters:lOYt73eaJojBDxAV:items[dLJhxDfeyOsc3zsY].system.description.value`
 - **missing-field** `monsters:lOYt73eaJojBDxAV:items[VAcvTNQf5hrdzQEh].system.description.value`
-- **missing-field** `monsters:lOYt73eaJojBDxAV:items[VAcvTNQf5hrdzQEh].system.description.chat`
-- **missing-field** `monsters:lOYt73eaJojBDxAV:items[O6zdCvtOVpv2Fp4a].system.description.value`
 - **missing-field** `monsters:G9PENY6nw0xRxCJW:items[iWDQPwdffkW06c2Y].system.description.value`
 - **missing-field** `monsters:G9PENY6nw0xRxCJW:items[iWDQPwdffkW06c2Y].system.description.chat`
 - **missing-field** `monsters:G9PENY6nw0xRxCJW:items[8yPzMeXvBJC2POQK].system.description.value`
@@ -315,7 +297,6 @@ Total blocking issues: 1893
 - **missing-field** `monsters:G9PENY6nw0xRxCJW:items[gMrWeG8fMDPRFiVe].system.description.value`
 - **missing-field** `monsters:G9PENY6nw0xRxCJW:items[YGdeLev4E1XdB4fh].system.description.value`
 - **missing-field** `monsters:eORmAXuV5v3nWsQL:items[jlZrv208u9gYyh7I].system.description.value`
-- **missing-field** `monsters:eORmAXuV5v3nWsQL:items[jlZrv208u9gYyh7I].effects[hZlZMpOIJOexfrmA].description`
 - **missing-field** `monsters:eORmAXuV5v3nWsQL:items[vUqKQJ1GGWbKg6cX].system.description.chat`
 - **missing-field** `monsters:YOqhbf8WsX0jH9Fu:items[vEEJei0CNaNbfQ2w].system.description.value`
 - **missing-field** `monsters:YOqhbf8WsX0jH9Fu:items[vEEJei0CNaNbfQ2w].system.activities.aKCXvq5B0g2Ted3T.description.value`
@@ -323,21 +304,17 @@ Total blocking issues: 1893
 - **missing-field** `monsters:YOqhbf8WsX0jH9Fu:items[GOADsI5dGE3ah0Vi].system.description.chat`
 - **missing-field** `monsters:YOqhbf8WsX0jH9Fu:items[GOADsI5dGE3ah0Vi].effects[og1tIiODyKE8SowO].description`
 - **missing-field** `monsters:YOqhbf8WsX0jH9Fu:items[K5xMZVNv8m2Pw87E].system.description.value`
-- **missing-field** `monsters:YOqhbf8WsX0jH9Fu:items[K5xMZVNv8m2Pw87E].system.description.chat`
 - **missing-field** `monsters:YOqhbf8WsX0jH9Fu:items[K5xMZVNv8m2Pw87E].effects[unEhkqnbSJYtXAU4].description`
 - **missing-field** `monsters:YOqhbf8WsX0jH9Fu:items[hftXBQthz8jMjFTs].system.description.value`
 - **missing-field** `monsters:Hm4o2FgPZsdbXjLq:items[Ee9WvQyqy1lRYtuj].system.description.value`
 - **missing-field** `monsters:Hm4o2FgPZsdbXjLq:items[Ee9WvQyqy1lRYtuj].system.description.chat`
 - **missing-field** `monsters:Hm4o2FgPZsdbXjLq:items[Ee9WvQyqy1lRYtuj].effects[dCrLkxXwD3UyiD55].description`
 - **missing-field** `monsters:Hm4o2FgPZsdbXjLq:items[mjn0iMGrjGTOn42w].system.description.chat`
-- **missing-field** `monsters:Hm4o2FgPZsdbXjLq:items[MjPSsJkOhT9vW4Zf].system.description.value`
 - **missing-field** `monsters:Hm4o2FgPZsdbXjLq:items[SSHb3L6BEgIgfo8n].system.description.value`
-- **missing-field** `monsters:Hm4o2FgPZsdbXjLq:items[SSHb3L6BEgIgfo8n].system.description.chat`
 - **missing-field** `monsters:Hm4o2FgPZsdbXjLq:items[SSHb3L6BEgIgfo8n].effects[unEhkqnbSJYtXAU4].description`
 - **missing-field** `monsters:EqJUA3Z3181RSSFU:items[EY5bnNsvwwHGfCk1].system.description.value`
 - **missing-field** `monsters:EqJUA3Z3181RSSFU:items[D2cJQHQa8UQp99Wt].system.description.chat`
 - **missing-field** `monsters:EqJUA3Z3181RSSFU:items[C1O9SIIa9YwxZEjc].system.description.value`
-- **missing-field** `monsters:EqJUA3Z3181RSSFU:items[C1O9SIIa9YwxZEjc].effects[hZlZMpOIJOexfrmA].description`
 - **missing-field** `monsters:ZQTCZfTV9ZoTjNCU:items[1uXv78I9YByiz6rV].system.description.value`
 - **missing-field** `monsters:ZQTCZfTV9ZoTjNCU:items[1uXv78I9YByiz6rV].effects[PIAt10vJQExkwFbD].description`
 - **missing-field** `monsters:ZQTCZfTV9ZoTjNCU:items[1uXv78I9YByiz6rV].effects[l635qlEf6ays6UwQ].description`
@@ -350,7 +327,6 @@ Total blocking issues: 1893
 - **missing-field** `monsters:f6HaKROPIcBRmSd1:items[7p94WH1WPMhF1ZP9].system.description.chat`
 - **missing-field** `monsters:f6HaKROPIcBRmSd1:items[7p94WH1WPMhF1ZP9].effects[P1jrqFcV4WHLptEG].description`
 - **missing-field** `monsters:f6HaKROPIcBRmSd1:items[gjJgPoevkUlW7qZ9].system.description.value`
-- **missing-field** `monsters:f6HaKROPIcBRmSd1:items[gjJgPoevkUlW7qZ9].effects[hZlZMpOIJOexfrmA].description`
 - **missing-field** `monsters:z85EsGS2GVWj46qE:items[mJoNsESU5X2lBKqn].system.description.value`
 - **missing-field** `monsters:z85EsGS2GVWj46qE:items[mJoNsESU5X2lBKqn].system.description.chat`
 - **missing-field** `monsters:z85EsGS2GVWj46qE:items[vk0gd3buCPWGpyYF].system.description.chat`
@@ -364,7 +340,6 @@ Total blocking issues: 1893
 - **missing-field** `monsters:M4eX4Mu5IHCr3TMf:items[6bromElr0abqNXJL].system.description.chat`
 - **missing-field** `monsters:M4eX4Mu5IHCr3TMf:items[iXsGJD1VHeJYYSev].system.description.value`
 - **missing-field** `monsters:cGM3iVYTtCsYXjzO:items[kWquVg3QhBwODyz3].system.description.value`
-- **missing-field** `monsters:cGM3iVYTtCsYXjzO:items[tU4OoHX9Hwg3qGLM].system.description.value`
 - **missing-field** `monsters:cGM3iVYTtCsYXjzO:items[Bt6Lf5wZJLxdShut].system.description.value`
 - **missing-field** `monsters:7vswgicsiMfS4ZTS:items[MUTDiPrzhDqLYlKU].system.description.value`
 - **missing-field** `monsters:7vswgicsiMfS4ZTS:items[bylvyjev8yh0oVj6].system.description.value`
@@ -392,7 +367,6 @@ Total blocking issues: 1893
 - **missing-field** `monsters:qNdFhY3JOkCfhG3d:items[zDlCrWQVJgZFMfxY].system.description.chat`
 - **missing-field** `monsters:qNdFhY3JOkCfhG3d:items[GsOwOLsXgIjnSFSG].system.description.value`
 - **missing-field** `monsters:SNT0JNVSngUTsj4m:items[gbM7g0hyrF6MMYqR].system.description.value`
-- **missing-field** `monsters:SNT0JNVSngUTsj4m:items[8xjypoENrUXFuApX].system.description.value`
 - **missing-field** `monsters:SNT0JNVSngUTsj4m:items[6wOtUJpwxfAd7g5X].system.description.value`
 - **missing-field** `monsters:pAuiNDr7nvpsW9nG:items[IiNKOgZ3djF0mBXR].system.description.value`
 - **missing-field** `monsters:pAuiNDr7nvpsW9nG:items[o8kI0IWURJx3MaqK].system.description.value`
@@ -415,9 +389,6 @@ Total blocking issues: 1893
 - **missing-field** `monsters:gf9QbHdMAfvFtxcv:items[eBC65VcONbhbFHwI].system.description.value`
 - **missing-field** `monsters:aTITHYYxthuZBPBn:items[UGfL5qnzzi2y2pNj].system.description.value`
 - **missing-field** `monsters:aTITHYYxthuZBPBn:items[Fx66mIor2imnS9m9].system.description.value`
-- **missing-field** `monsters:IZMbiAHqQpzPo0CX:items[ABS9Om2RejM5wrRF].system.description.value`
-- **missing-field** `monsters:IZMbiAHqQpzPo0CX:items[ABS9Om2RejM5wrRF].system.description.chat`
-- **missing-field** `monsters:najtPRiHLR6buSWe:items[7LCUjJcHm3odI9C8].system.description.value`
 - **missing-field** `monsters:azCbLQt5LAYwTI7U:items[JmVLjWM4G6OOQxl4].system.description.value`
 - **missing-field** `monsters:azCbLQt5LAYwTI7U:items[JmVLjWM4G6OOQxl4].effects[P1rGrKiV7x2OMiN0].description`
 - **missing-field** `monsters:hY9ptpO5Xl2tfkcj:items[DogAlXwHCyvsBynk].system.description.value`
@@ -439,10 +410,7 @@ Total blocking issues: 1893
 - **missing-field** `monsters:7198siHjPJf8g0cG:items[HzLuzqlmtBSeSS4Q].system.description.value`
 - **missing-field** `monsters:7198siHjPJf8g0cG:items[HzLuzqlmtBSeSS4Q].system.activities.5R4V2td9o9mrejmz.description.value`
 - **missing-field** `monsters:bcapsJdIhY5WktpT:items[ApR7vtoU4ec7UulE].system.description.value`
-- **missing-field** `monsters:bcapsJdIhY5WktpT:items[RV4M3hdgqPgUlKip].system.description.value`
-- **missing-field** `monsters:bcapsJdIhY5WktpT:items[RV4M3hdgqPgUlKip].system.description.chat`
 - **missing-field** `monsters:mNijwXPMhwR7yYfc:items[dGVHjuCt6WhGx0sX].system.description.value`
-- **missing-field** `monsters:mNijwXPMhwR7yYfc:items[dDDGb8PVdU0irZz8].system.description.value`
 - **missing-field** `monsters:FzvZ6xl3U9GoL9ju:items[oyNvUJRyGRVF22t8].system.description.value`
 - **missing-field** `monsters:FzvZ6xl3U9GoL9ju:items[K9vktdgJkPWfYjwa].system.description.value`
 - **missing-field** `monsters:FzvZ6xl3U9GoL9ju:items[K9vktdgJkPWfYjwa].effects[P1rGrKiV7x2OMiN0].description`
@@ -574,10 +542,8 @@ Total blocking issues: 1893
 - **missing-field** `monsters:uZ8NrRenwYZ4qNf6:items[1oGgJQB1ItqyKoZ5].system.description.chat`
 - **missing-field** `monsters:sLdpiuaZF8lujJQy:items[8QaMc1baRrSlLFXN].system.description.value`
 - **missing-field** `monsters:sLdpiuaZF8lujJQy:items[JbDDt9MNYFyEbHsm].system.description.value`
-- **missing-field** `monsters:sLdpiuaZF8lujJQy:items[syCZDlwGoyT1GvJv].system.description.chat`
 - **missing-field** `monsters:9ggQBmAKXraOtz7S:items[PIggvpkBTTCDGOHp].system.description.value`
 - **missing-field** `monsters:9ggQBmAKXraOtz7S:items[ndwCjJFBLTujojCl].system.description.value`
-- **missing-field** `monsters:9ggQBmAKXraOtz7S:items[ndwCjJFBLTujojCl].system.description.chat`
 - **missing-field** `monsters:9ggQBmAKXraOtz7S:items[ndwCjJFBLTujojCl].system.activities.otXVZOYTWnkMPkxs.description.value`
 - **missing-field** `monsters:9ggQBmAKXraOtz7S:items[ndwCjJFBLTujojCl].effects[HUohD8uvaVqJpz1Q].description`
 - **missing-field** `monsters:9ggQBmAKXraOtz7S:items[RgZ4lGrNf9AaIyrG].system.description.value`
@@ -628,7 +594,6 @@ Total blocking issues: 1893
 - **missing-field** `monsters:MADGs8pWMVyyFOf1:items[VpvOoT7mbR0XNZiL].system.activities.orktvwSaLbcUnXgH.description.value`
 - **missing-field** `monsters:MADGs8pWMVyyFOf1:items[VpvOoT7mbR0XNZiL].effects[rkqCY7JoNgMp3P7H].description`
 - **missing-field** `monsters:MADGs8pWMVyyFOf1:items[9FAl5YGUTmt1RnEF].system.description.value`
-- **missing-field** `monsters:MADGs8pWMVyyFOf1:items[GFYzWSyeuW9O4a0I].system.description.chat`
 - **missing-field** `monsters:1zzRQps9jZdLZGqI:items[nCTze3rZpWcTeuYQ].system.description.value`
 - **missing-field** `monsters:1zzRQps9jZdLZGqI:items[nCTze3rZpWcTeuYQ].system.description.chat`
 - **missing-field** `monsters:1zzRQps9jZdLZGqI:items[nCTze3rZpWcTeuYQ].system.activities.qJljbNLNFhF1xbDV.description.value`
@@ -647,7 +612,6 @@ Total blocking issues: 1893
 - **missing-field** `monsters:rUg5JMnKNnZNBAq9:items[swlYyGYwkdNzuRkG].system.description.value`
 - **missing-field** `monsters:rUg5JMnKNnZNBAq9:items[RFPDYIhkmBW2B47S].system.description.value`
 - **missing-field** `monsters:rUg5JMnKNnZNBAq9:items[RFPDYIhkmBW2B47S].system.description.chat`
-- **missing-field** `monsters:rUg5JMnKNnZNBAq9:items[vzwfZvoOTxx0afIN].system.description.value`
 - **missing-field** `monsters:xvh2UOKv1bh03Gih:items[bUkTkdnQ3XbRcXkD].system.description.value`
 - **missing-field** `monsters:xvh2UOKv1bh03Gih:items[ftmaVOSJXvHPhraJ].system.description.value`
 - **missing-field** `monsters:xvh2UOKv1bh03Gih:items[0blKOND2AnsMsZa6].system.description.value`
@@ -669,7 +633,6 @@ Total blocking issues: 1893
 - **missing-field** `monsters:bwtkdzavdNHISgp4:items[MLfZqvhaJjB78YiT].system.description.value`
 - **missing-field** `monsters:bwtkdzavdNHISgp4:items[MLfZqvhaJjB78YiT].effects[dJA0IOGziAr9Onj9].description`
 - **missing-field** `monsters:bwtkdzavdNHISgp4:items[ae0OI3obJqa4AS7U].system.description.value`
-- **missing-field** `monsters:bwtkdzavdNHISgp4:items[ae0OI3obJqa4AS7U].system.description.chat`
 - **missing-field** `monsters:bwtkdzavdNHISgp4:items[ae0OI3obJqa4AS7U].effects[lj4cHP3WVTg1ePKt].description`
 - **missing-field** `monsters:bwtkdzavdNHISgp4:items[e8rpvJJVWCN4HU7I].system.description.value`
 - **missing-field** `monsters:bwtkdzavdNHISgp4:items[e8rpvJJVWCN4HU7I].system.description.chat`
@@ -704,7 +667,6 @@ Total blocking issues: 1893
 - **missing-field** `monsters:L1w8yBkInMscfJ3F:items[7YSwI62Budsr6HzO].system.description.value`
 - **missing-field** `monsters:L1w8yBkInMscfJ3F:items[8liUuXPhjNLKYMMx].system.description.chat`
 - **missing-field** `monsters:L1w8yBkInMscfJ3F:items[QGNzJqfTHnbhjzFN].system.description.value`
-- **missing-field** `monsters:SOin81NWijHRvXFK:items[eiNNUlTgJyVFcQkO].system.description.value`
 - **missing-field** `monsters:SOin81NWijHRvXFK:items[HxKKuoyc6AYGLsIX].system.description.value`
 - **missing-field** `monsters:SOin81NWijHRvXFK:items[HxKKuoyc6AYGLsIX].system.description.chat`
 - **missing-field** `monsters:68bAMIpe4jvDeR9G:items[2tzFjiAiXJLEpuCn].system.description.value`
@@ -732,7 +694,6 @@ Total blocking issues: 1893
 - **missing-field** `monsters:rb7OJt822wIO52qY:items[u3rhYD4gsxWEFbMc].system.description.value`
 - **missing-field** `monsters:rb7OJt822wIO52qY:items[VAwElWvqJg63fWL2].system.description.chat`
 - **missing-field** `monsters:kz1t6xeXVwODpYb2:items[Qzj9HKnvRGhYoggC].effects[mc0qfRRq1rZXrJbi].description`
-- **missing-field** `monsters:QtJairF0h18BRhEM:items[CgwJLpd3sHn21cUQ].system.description.value`
 - **missing-field** `monsters:tYfQIxCJT0WaaKmc:items[lSteE7vBmM70Jy3Z].system.description.value`
 - **missing-field** `monsters:tYfQIxCJT0WaaKmc:items[KRbUbk5AkQOabBhO].system.description.value`
 - **missing-field** `monsters:tYfQIxCJT0WaaKmc:items[KRbUbk5AkQOabBhO].system.description.chat`
@@ -740,9 +701,7 @@ Total blocking issues: 1893
 - **missing-field** `monsters:ZM1P6LoYSwMiIJN9:items[JCSej95QR8svWsYz].system.description.value`
 - **missing-field** `monsters:ZM1P6LoYSwMiIJN9:items[pnfC0DIa1eqXGjku].system.description.value`
 - **missing-field** `monsters:ZM1P6LoYSwMiIJN9:items[YuhirWYJsQfL6zo5].system.description.value`
-- **missing-field** `monsters:ZM1P6LoYSwMiIJN9:items[YuhirWYJsQfL6zo5].system.description.chat`
 - **missing-field** `monsters:ZM1P6LoYSwMiIJN9:items[YuhirWYJsQfL6zo5].system.activities.yYJMmbs4vnoxnf8U.description.value`
-- **missing-field** `monsters:1vaBSMUfOy6JPJ14:items[Jwx7Sfs5m3RDWckF].system.description.value`
 - **missing-field** `monsters:1vaBSMUfOy6JPJ14:items[A4OySWt5j3QXyAPW].system.description.value`
 - **missing-field** `monsters:1vaBSMUfOy6JPJ14:items[LqnhZjRtRqhLIFTm].system.description.value`
 - **missing-field** `monsters:1vaBSMUfOy6JPJ14:items[LqnhZjRtRqhLIFTm].system.activities.k2VWbxuUXUpfkpoz.description.value`
@@ -762,7 +721,6 @@ Total blocking issues: 1893
 - **missing-field** `monsters:iGBdQA3IuKsurcUy:items[CPYK1Z2mSHqxQQWl].system.description.value`
 - **missing-field** `monsters:iGBdQA3IuKsurcUy:items[BtZSR7u0sdDGP5LT].system.description.value`
 - **missing-field** `monsters:fsPruAIDOg4tVrgb:items[QuVUb9i809rjJWcL].system.description.value`
-- **missing-field** `monsters:fsPruAIDOg4tVrgb:items[GrUneCbXCYngdpjf].system.description.value`
 - **missing-field** `monsters:fsPruAIDOg4tVrgb:items[GrUneCbXCYngdpjf].system.description.chat`
 - **missing-field** `monsters:fsPruAIDOg4tVrgb:items[8MsAKETlPQapB6zn].system.description.value`
 - **missing-field** `monsters:fsPruAIDOg4tVrgb:items[8MsAKETlPQapB6zn].system.description.chat`
@@ -796,7 +754,6 @@ Total blocking issues: 1893
 - **missing-field** `monsters:oRBnO5OHoOZzlCOr:items[D8QWBbYLFAT7uIiz].effects[pxfLK99CLDftSacp].description`
 - **missing-field** `monsters:oRBnO5OHoOZzlCOr:items[D8QWBbYLFAT7uIiz].effects[eKaJxSA4EyQcGqsF].description`
 - **missing-field** `monsters:oRBnO5OHoOZzlCOr:items[COcc6eoG6ScS4wGz].system.description.value`
-- **missing-field** `monsters:oRBnO5OHoOZzlCOr:items[h9XO0f5Un3EhJqHm].system.description.value`
 - **missing-field** `monsters:oRBnO5OHoOZzlCOr:items[h9XO0f5Un3EhJqHm].effects[uzAKSq5gVCKvQgq9].description`
 - **missing-field** `monsters:oRBnO5OHoOZzlCOr:items[UeXfHUO5RZp72PIs].system.description.chat`
 - **missing-field** `monsters:J9hgSaZODGjrNl9B:items[TizBVS6hRuBa8JYY].system.description.value`
@@ -808,7 +765,6 @@ Total blocking issues: 1893
 - **missing-field** `monsters:J9hgSaZODGjrNl9B:items[zzskoOXzAiMDZfbc].system.description.chat`
 - **missing-field** `monsters:J9hgSaZODGjrNl9B:items[zzskoOXzAiMDZfbc].effects[nYH7cLPBIPGh4QgN].description`
 - **missing-field** `monsters:J9hgSaZODGjrNl9B:items[zzskoOXzAiMDZfbc].effects[UOg3RaPCbTbzfbK0].description`
-- **missing-field** `monsters:J9hgSaZODGjrNl9B:items[3TD2NpdjIDJxeLl9].system.description.value`
 - **missing-field** `monsters:J9hgSaZODGjrNl9B:items[3TD2NpdjIDJxeLl9].system.description.chat`
 - **missing-field** `monsters:J9hgSaZODGjrNl9B:items[3TD2NpdjIDJxeLl9].effects[exfy4Vmz6RWGIauH].description`
 - **missing-field** `monsters:J9hgSaZODGjrNl9B:items[dtdXnvp5cptFkGPu].system.description.chat`
@@ -816,7 +772,6 @@ Total blocking issues: 1893
 - **missing-field** `monsters:CrnUJhTbkdZjCZsH:items[PhdUmTsYUeWSSDNN].effects[yc01pea2fc1DSSns].description`
 - **missing-field** `monsters:CrnUJhTbkdZjCZsH:items[PhdUmTsYUeWSSDNN].effects[EwReSrmzBnSylMHv].description`
 - **missing-field** `monsters:CrnUJhTbkdZjCZsH:items[ykZaywAeuqtWHAqQ].system.description.value`
-- **missing-field** `monsters:CrnUJhTbkdZjCZsH:items[ldz0yUpzhV9Xlhss].system.description.value`
 - **missing-field** `monsters:CrnUJhTbkdZjCZsH:items[ldz0yUpzhV9Xlhss].effects[mHBemQYUogbgs5yj].description`
 - **missing-field** `monsters:CrnUJhTbkdZjCZsH:items[YJi7nfridP2LjdJs].system.description.chat`
 - **missing-field** `monsters:CrnUJhTbkdZjCZsH:items[wpyEts6pBAxoD0Gh].system.description.chat`
@@ -826,11 +781,9 @@ Total blocking issues: 1893
 - **missing-field** `monsters:zIr3NaNF0mWz5Ahq:items[jW4qHQ761qRLeWM8].system.description.value`
 - **missing-field** `monsters:zIr3NaNF0mWz5Ahq:items[jW4qHQ761qRLeWM8].system.description.chat`
 - **missing-field** `monsters:zIr3NaNF0mWz5Ahq:items[SmUCt79LtakgTJoa].system.description.value`
-- **missing-field** `monsters:zIr3NaNF0mWz5Ahq:items[FOkSL18gU0Sli5ZA].system.description.value`
 - **missing-field** `monsters:zIr3NaNF0mWz5Ahq:items[FOkSL18gU0Sli5ZA].effects[9AM2lvhRgSUciyvg].description`
 - **missing-field** `monsters:zIr3NaNF0mWz5Ahq:items[vtnEGCOptmp2bcqG].system.description.chat`
 - **missing-field** `monsters:zIr3NaNF0mWz5Ahq:items[onmNGMiE4AyvYxDQ].system.description.chat`
-- **missing-field** `monsters:7tRhrxuknTpHpYcA:items[tWfR8uJNnQxpXgDw].system.description.value`
 - **missing-field** `monsters:7tRhrxuknTpHpYcA:items[tWfR8uJNnQxpXgDw].effects[ALVeCJ1zSZMmfq3w].description`
 - **missing-field** `monsters:7tRhrxuknTpHpYcA:items[abhGXKzA0XGprXED].system.description.value`
 - **missing-field** `monsters:7tRhrxuknTpHpYcA:items[TiKtAuqd6urQ45Ds].system.description.chat`
@@ -838,7 +791,6 @@ Total blocking issues: 1893
 - **missing-field** `monsters:7tRhrxuknTpHpYcA:items[2kHNI1T4gg879fDv].system.description.value`
 - **missing-field** `monsters:7tRhrxuknTpHpYcA:items[2kHNI1T4gg879fDv].effects[PM833qdHNhYXS4Q6].description`
 - **missing-field** `monsters:7tRhrxuknTpHpYcA:items[2kHNI1T4gg879fDv].effects[yUtUCn3TPecpu4SI].description`
-- **missing-field** `monsters:nEC1BRwM8Lx9hLXW:items[IZgoYn3Baw7MAZCT].system.description.value`
 - **missing-field** `monsters:nEC1BRwM8Lx9hLXW:items[zXzGfPnSFJbfZ7oW].system.description.value`
 - **missing-field** `monsters:nEC1BRwM8Lx9hLXW:items[zXzGfPnSFJbfZ7oW].system.description.chat`
 - **missing-field** `monsters:nEC1BRwM8Lx9hLXW:items[gddHh6xWKLMmCT1J].system.description.value`
@@ -899,11 +851,9 @@ Total blocking issues: 1893
 - **missing-field** `monsters:mWbrPhcKOz6oLXMV:items[YIoB9xCKEcrrPRt9].effects[rYSIFsj2E3DFKsuN].description`
 - **missing-field** `monsters:mWbrPhcKOz6oLXMV:items[cG4WdhcrTZt6rxUi].system.description.value`
 - **missing-field** `monsters:mWbrPhcKOz6oLXMV:items[cG4WdhcrTZt6rxUi].system.description.chat`
-- **missing-field** `monsters:mWbrPhcKOz6oLXMV:items[hq6GWkSXkspcOLv3].system.description.value`
 - **missing-field** `monsters:1OQbxoZI5BtlB2ME:items[uRaC62ut3Hk63e7m].system.description.value`
 - **missing-field** `monsters:1OQbxoZI5BtlB2ME:items[ThVO3VFsGgg3GLc5].system.description.value`
 - **missing-field** `monsters:1OQbxoZI5BtlB2ME:items[CAxSzHWizrafT033].system.description.value`
-- **missing-field** `monsters:1OQbxoZI5BtlB2ME:items[ZloTCAgY29cSTZuv].system.description.value`
 - **missing-field** `monsters:aKt7vFAS1J0x3FQm:items[6eqd5bKL0SgwqRnm].system.description.value`
 - **missing-field** `monsters:aKt7vFAS1J0x3FQm:items[qpUx52QbFUCSPSln].system.description.value`
 - **missing-field** `monsters:aKt7vFAS1J0x3FQm:items[qpUx52QbFUCSPSln].system.description.chat`
@@ -917,7 +867,6 @@ Total blocking issues: 1893
 - **missing-field** `monsters:nZthq6WHLhcdu3te:items[5tEnGK28Rd4nHnwM].effects[tsQjwB2ka54p6YZ1].description`
 - **missing-field** `monsters:tFJX45zj3QDc3Zli:items[dw5lQaT8ySNuOVd4].system.description.value`
 - **missing-field** `monsters:h052EIIUmRwJum65:items[wF7eGWgo8AZNTcyg].system.description.value`
-- **missing-field** `monsters:8ExSFCar5Lbhdo7u:items[GkVxLIsamEXICEeT].system.description.value`
 - **missing-field** `monsters:8ExSFCar5Lbhdo7u:items[wtPKdh22QAc93kgt].system.description.value`
 - **missing-field** `monsters:8ExSFCar5Lbhdo7u:items[wtPKdh22QAc93kgt].system.description.chat`
 - **missing-field** `monsters:8ExSFCar5Lbhdo7u:items[hQFQz2LiNGpxcRvw].system.description.value`
@@ -927,7 +876,6 @@ Total blocking issues: 1893
 - **missing-field** `monsters:8ExSFCar5Lbhdo7u:items[da0a1t2FqaTjRZGT].system.description.value`
 - **missing-field** `monsters:6wbasdWWqtXeIAyD:items[kvyuqG5WztblcJXb].system.description.value`
 - **missing-field** `monsters:6wbasdWWqtXeIAyD:items[kvyuqG5WztblcJXb].system.description.chat`
-- **missing-field** `monsters:6wbasdWWqtXeIAyD:items[f8zut6gBBsfoAikg].system.description.value`
 - **missing-field** `monsters:6wbasdWWqtXeIAyD:items[dZvwgTh5Bex9FM0C].system.description.value`
 - **missing-field** `monsters:CqQ6pXQA5WXZNOm3:items[9efeESJpU7Zmfcyo].system.description.value`
 - **missing-field** `monsters:CqQ6pXQA5WXZNOm3:items[QeobH0xuWk2yWmsb].system.description.value`
@@ -1027,7 +975,6 @@ Total blocking issues: 1893
 - **missing-field** `monsters:BAT6ld8qJZetpycL:items[aap2fFb4b7uX3XAO].system.activities.q1kzQBmcMwK6GGVz.description.value`
 - **missing-field** `monsters:BAT6ld8qJZetpycL:items[Fla0ZsaY2HvXWqbR].system.description.value`
 - **missing-field** `monsters:BAT6ld8qJZetpycL:items[Fla0ZsaY2HvXWqbR].system.description.chat`
-- **missing-field** `monsters:BAT6ld8qJZetpycL:items[1tcNxiXDdUbfOovR].system.description.value`
 - **missing-field** `monsters:KCvt4FdOVJbuZ3T0:items[tE9TjxIMLnqDisjv].system.description.value`
 - **missing-field** `monsters:KCvt4FdOVJbuZ3T0:items[tE9TjxIMLnqDisjv].system.description.chat`
 - **missing-field** `monsters:KCvt4FdOVJbuZ3T0:items[tE9TjxIMLnqDisjv].system.activities.U1GLrVtWwHvia9Ou.description.chatFlavor`
@@ -1054,9 +1001,7 @@ Total blocking issues: 1893
 - **missing-field** `monsters:NwQpeeaMxAC3fRft:items[wvlDMuDDdk7peoPa].system.activities.HmpHoKqKU8OyiT1J.description.value`
 - **missing-field** `monsters:NwQpeeaMxAC3fRft:items[v6ZspnPr8G5hApkL].system.description.value`
 - **missing-field** `monsters:NwQpeeaMxAC3fRft:items[v6ZspnPr8G5hApkL].system.description.chat`
-- **missing-field** `monsters:NwQpeeaMxAC3fRft:items[v6ZspnPr8G5hApkL].effects[4U4SIb01ypbc6lzv].description`
 - **missing-field** `monsters:NwQpeeaMxAC3fRft:items[jF9rqlnLBWRoCnpK].system.description.value`
-- **missing-field** `monsters:NwQpeeaMxAC3fRft:items[jF9rqlnLBWRoCnpK].system.description.chat`
 - **missing-field** `monsters:NwQpeeaMxAC3fRft:items[jF9rqlnLBWRoCnpK].effects[WZn6kAQJRm0Cm6i9].description`
 - **missing-field** `monsters:NwQpeeaMxAC3fRft:items[jF9rqlnLBWRoCnpK].effects[QTexJH8jSdxaIXP2].description`
 - **missing-field** `monsters:3fzQVYQhXxCXRa2o:items[m8prrQUwqGwX6Jyk].system.description.value`
@@ -1073,13 +1018,10 @@ Total blocking issues: 1893
 - **missing-field** `monsters:fqbFYtbtkrL53FOC:items[KO4qRywgiEQ3F004].system.description.value`
 - **missing-field** `monsters:fqbFYtbtkrL53FOC:items[KO4qRywgiEQ3F004].system.description.chat`
 - **missing-field** `monsters:fqbFYtbtkrL53FOC:items[KO4qRywgiEQ3F004].system.activities.doxmMopUdGtorvDy.description.value`
-- **missing-field** `monsters:fqbFYtbtkrL53FOC:items[KO4qRywgiEQ3F004].effects[SiRqKDm2qerReaj8].description`
 - **missing-field** `monsters:xBhG7Dos3tkg9jWz:items[iruCpiLtSuIAoEm6].system.description.value`
-- **missing-field** `monsters:xBhG7Dos3tkg9jWz:items[iruCpiLtSuIAoEm6].system.description.chat`
 - **missing-field** `monsters:xBhG7Dos3tkg9jWz:items[iruCpiLtSuIAoEm6].effects[WZn6kAQJRm0Cm6i9].description`
 - **missing-field** `monsters:xBhG7Dos3tkg9jWz:items[iruCpiLtSuIAoEm6].effects[QTexJH8jSdxaIXP2].description`
 - **missing-field** `monsters:gaSTr7DFZJLmgI2J:items[cfgn9yboSN7jIsDC].system.description.value`
-- **missing-field** `monsters:gGeLeV411iQ5Yijs:items[gyAyLX9CJBbawmr3].system.description.value`
 - **missing-field** `monsters:gGeLeV411iQ5Yijs:items[2aGoBVVEF54VcC9d].system.description.value`
 - **missing-field** `monsters:gGeLeV411iQ5Yijs:items[N42BQALoCmeYphD1].system.description.value`
 - **missing-field** `monsters:gGeLeV411iQ5Yijs:items[N42BQALoCmeYphD1].system.description.chat`
@@ -1160,15 +1102,12 @@ Total blocking issues: 1893
 - **missing-field** `monsters:UFW8M3JHzHkxUEGM:items[5VmCO7pd2vpSCpq2].system.activities.aKkGG9wpEFZSfhFO.description.value`
 - **missing-field** `monsters:UFW8M3JHzHkxUEGM:items[5VmCO7pd2vpSCpq2].effects[UMVpr1Reg58yXSa1].description`
 - **missing-field** `monsters:UFW8M3JHzHkxUEGM:items[GSbdcVdjyBwAmgk9].system.description.value`
-- **missing-field** `monsters:UFW8M3JHzHkxUEGM:items[GSbdcVdjyBwAmgk9].system.description.chat`
 - **missing-field** `monsters:t8WYD7ak07X7xpx8:items[uGJpXeUbei6zXTd1].system.description.value`
 - **missing-field** `monsters:t8WYD7ak07X7xpx8:items[ik1IkSZi4fpiGbB3].system.description.value`
 - **missing-field** `monsters:t8WYD7ak07X7xpx8:items[ik1IkSZi4fpiGbB3].system.activities.aKkGG9wpEFZSfhFO.description.value`
 - **missing-field** `monsters:t8WYD7ak07X7xpx8:items[ik1IkSZi4fpiGbB3].effects[UMVpr1Reg58yXSa1].description`
 - **missing-field** `monsters:t8WYD7ak07X7xpx8:items[8Jju4CVZaIDab6Ju].system.description.value`
-- **missing-field** `monsters:t8WYD7ak07X7xpx8:items[8Jju4CVZaIDab6Ju].system.description.chat`
 - **missing-field** `monsters:RenLfmDT2XlbCF4x:items[Gj35Y1i6Ph90Wn3R].system.description.chat`
-- **missing-field** `monsters:RenLfmDT2XlbCF4x:items[lg6KGCPJOlcBygUH].system.description.value`
 - **missing-field** `monsters:QGcQYZbVl4bWzi4E:items[Xa0lRW8VhYHTAQT0].system.description.value`
 - **missing-field** `monsters:QGcQYZbVl4bWzi4E:items[Xa0lRW8VhYHTAQT0].system.description.chat`
 - **missing-field** `monsters:QGcQYZbVl4bWzi4E:items[2OUOBIN4TJDoL0sJ].system.description.value`
@@ -1178,11 +1117,8 @@ Total blocking issues: 1893
 - **missing-field** `monsters:QGcQYZbVl4bWzi4E:items[2OUOBIN4TJDoL0sJ].effects[prMenKNOqmzt0mYh].description`
 - **missing-field** `monsters:QGcQYZbVl4bWzi4E:items[2OUOBIN4TJDoL0sJ].effects[osUtf5cU3lZ4WwvN].description`
 - **missing-field** `monsters:QGcQYZbVl4bWzi4E:items[2OUOBIN4TJDoL0sJ].effects[hdtdpXtQxrwI3SdE].description`
-- **missing-field** `monsters:PuPo4H4Dcxigf0fY:items[3pysq4SciAXLDhuY].system.description.value`
 - **missing-field** `monsters:zpaZb7I8alY32vWV:items[HebvJc2NqYvdR79s].system.description.value`
-- **missing-field** `monsters:zpaZb7I8alY32vWV:items[HebvJc2NqYvdR79s].system.activities.OQqEseoTQUACafjS.description.value`
 - **missing-field** `monsters:zpaZb7I8alY32vWV:items[DY9MW3aTF5T5zhpo].system.description.value`
-- **missing-field** `monsters:zpaZb7I8alY32vWV:items[DY9MW3aTF5T5zhpo].system.description.chat`
 - **missing-field** `monsters:zpaZb7I8alY32vWV:items[Q9tHfkUiN6f1sguc].system.description.value`
 - **missing-field** `monsters:zpaZb7I8alY32vWV:items[wzRyhY2I1U0ytB7D].system.description.value`
 - **missing-field** `monsters:zpaZb7I8alY32vWV:items[lLAigtCvoIuj0TM9].system.description.value`
@@ -1191,11 +1127,9 @@ Total blocking issues: 1893
 - **missing-field** `monsters:DDO9lDCDtNHkfShP:items[pVlKFunmE2qxO0pe].system.description.value`
 - **missing-field** `monsters:DDO9lDCDtNHkfShP:items[siO3h9XOkgPVi78F].system.description.value`
 - **missing-field** `monsters:DDO9lDCDtNHkfShP:items[jYBYvv9EF1UnOvqZ].system.description.value`
-- **missing-field** `monsters:DDO9lDCDtNHkfShP:items[jYBYvv9EF1UnOvqZ].system.description.chat`
 - **missing-field** `monsters:DDO9lDCDtNHkfShP:items[jYBYvv9EF1UnOvqZ].effects[v9TyI7sPX0W8vaOA].description`
 - **missing-field** `monsters:DDO9lDCDtNHkfShP:items[uqHuj7Pjf2sjny21].system.description.value`
 - **missing-field** `monsters:DDO9lDCDtNHkfShP:items[uqHuj7Pjf2sjny21].system.description.chat`
-- **missing-field** `monsters:DDO9lDCDtNHkfShP:items[uqHuj7Pjf2sjny21].system.activities.gBAOkLKokkHXEVXH.description.value`
 - **missing-field** `monsters:DDO9lDCDtNHkfShP:items[RHezeN7HzNf2oKYP].system.description.value`
 - **missing-field** `monsters:DDO9lDCDtNHkfShP:items[RHezeN7HzNf2oKYP].system.description.chat`
 - **missing-field** `monsters:DDO9lDCDtNHkfShP:items[RHezeN7HzNf2oKYP].effects[ybKYbruo2zldUDBj].description`
@@ -1217,8 +1151,6 @@ Total blocking issues: 1893
 - **missing-field** `monsters:8KSVpQZyzius93ko:items[vJR81iEOZYNMuAdz].system.description.chat`
 - **missing-field** `monsters:8KSVpQZyzius93ko:items[vJR81iEOZYNMuAdz].effects[oKYNXo2rUnsBE5cB].description`
 - **missing-field** `monsters:ET4PEVEiNJLU4f7c:items[RADMbiPme1Hrfu8E].system.description.value`
-- **missing-field** `monsters:ET4PEVEiNJLU4f7c:items[xZPFtf2vCYraWXVe].system.description.value`
-- **missing-field** `monsters:NAISFPoNNgUCsEyW:items[RDeCoZRniQBNq0rX].system.description.value`
 - **missing-field** `rules:w7eitkpD7QQTB6j0:pages[ZOCWbO9IYvBf9WyR].name`
 - **missing-field** `rules:w7eitkpD7QQTB6j0:pages[ZOCWbO9IYvBf9WyR].text.content`
 - **missing-field** `rules:w7eitkpD7QQTB6j0:pages[0b8N4FymGGfbZGpJ].text.content`

@@ -74,6 +74,16 @@ test("stitches only fully known translated HTML segments", () => {
     ),
     {}
   );
+  assert.deepEqual(
+    exactMemory.segmentMissingOverrides(
+      record("e", "Technical", "<p>[[/attack extended]]. [[/damage extended]].</p><p>First rule.</p>"),
+      {},
+      memory
+    ),
+    {
+      "system.description.value": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Prima regola.</p>"
+    }
+  );
 });
 
 test("segment memory rejects ambiguity and changed Foundry mechanics", () => {

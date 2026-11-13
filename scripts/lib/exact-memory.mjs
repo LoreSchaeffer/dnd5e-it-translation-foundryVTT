@@ -27,6 +27,15 @@ function trimParts(text) {
   };
 }
 
+function isTechnicalOnlySegment(value) {
+  const visible = value
+    .replace(/\[\[[\s\S]*?\]\]/gu, "")
+    .replace(/@(UUID|Compendium|Embed|Check|Save|Damage|Template|Condition)\[[^\]]*\]/giu, "")
+    .replace(/@[A-Za-z_][\w.]*/gu, "")
+    .replace(/\b\d+d\d+(?:\s*[+\-*/×]\s*\d+(?:\.\d+)?)*/giu, "");
+  return !/[\p{L}\p{N}]/u.test(visible);
+}
+
 export function buildExactMemory(pairs) {
   const candidates = new Map();
   for (const { source, translation } of pairs) {
@@ -95,6 +104,10 @@ export function segmentMissingOverrides(source, translation, memory) {
       const parts = trimParts(segment.value);
       const value = memory.get(parts.value);
       if (value === undefined) {
+        if (isTechnicalOnlySegment(parts.value)) {
+          localized.push(segment.value);
+          continue;
+        }
         complete = false;
         break;
       }
