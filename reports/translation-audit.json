@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2161,
+      "translated": 2162,
       "missing": 3,
-      "partial": 227,
+      "partial": 226,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14228,
-      "missing": 1432,
+      "translated": 14231,
+      "missing": 1429,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1437
+    "blockingIssues": 1434
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 126,
+          "translated": 127,
           "missing": 0,
-          "partial": 211,
+          "partial": 210,
           "review": 0
         },
         "folders": {
@@ -578,41 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6412,
-          "missing": 694,
+          "translated": 6415,
+          "missing": 691,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "kSAi2KRonL4G4JpO",
-          "name": "Giant Frog",
-          "fieldPath": "items[VtuDa7NZ5Be8auQv].effects[V5XiiQPdCJUmbyLn].description",
-          "sourcePath": "monsters/beast/giant-frog.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "kSAi2KRonL4G4JpO",
-          "name": "Giant Frog",
-          "fieldPath": "items[9gLJgr3WzhykKRl9].system.description.value",
-          "sourcePath": "monsters/beast/giant-frog.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "kSAi2KRonL4G4JpO",
-          "name": "Giant Frog",
-          "fieldPath": "items[9gLJgr3WzhykKRl9].effects[5YoZO3QgfMTcLhgh].description",
-          "sourcePath": "monsters/beast/giant-frog.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
