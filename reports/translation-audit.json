@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1780,
+      "translated": 1781,
       "missing": 69,
-      "partial": 542,
+      "partial": 541,
       "review": 69
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 10036,
-      "missing": 5624,
+      "translated": 10039,
+      "missing": 5621,
       "invariantFailures": 853,
       "englishResiduals": 71,
       "imperialResiduals": 0
     },
-    "blockingIssues": 6485
+    "blockingIssues": 6482
   },
   "packs": [
     {
@@ -143,9 +143,9 @@
       "summary": {
         "documents": {
           "total": 12,
-          "translated": 7,
+          "translated": 8,
           "missing": 0,
-          "partial": 5,
+          "partial": 4,
           "review": 0
         },
         "folders": {
@@ -157,41 +157,14 @@
         },
         "fields": {
           "total": 1165,
-          "translated": 1144,
-          "missing": 21,
+          "translated": 1147,
+          "missing": 18,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "cYD0wRXLW4B17aoY",
-          "name": "Quillathe (Elf Ranger)",
-          "fieldPath": "items[I5EK9j7jV6mrXt7K].system.description.value",
-          "sourcePath": "heroes/quillathe-elf-ranger.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "cYD0wRXLW4B17aoY",
-          "name": "Quillathe (Elf Ranger)",
-          "fieldPath": "items[Aw1q0cqOgyScbZkd].system.description.value",
-          "sourcePath": "heroes/quillathe-elf-ranger.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "cYD0wRXLW4B17aoY",
-          "name": "Quillathe (Elf Ranger)",
-          "fieldPath": "items[ANwFFbqeIEm4eVPq].system.description.value",
-          "sourcePath": "heroes/quillathe-elf-ranger.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
