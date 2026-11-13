@@ -15311,13 +15311,17 @@
             "gedgxTsglJd93LKU": {
               "name": "Tiro Salvezza contro la Carica"
             }
-          }
+          },
+          "description": "<p>Se il [[lookup @name lowercase]]{mostro} si muove di almeno 6 metri in linea retta verso un bersaglio e poi lo colpisce con un attacco con il @UUID[Compendium.dnd5e.monsters.Actor.G9PENY6nw0xRxCJW.Item.ORrGdhTLKLTKK3BH]{Corno} nello stesso turno, il bersaglio subisce [[/damage average]] danni extra.</p><p>Se il bersaglio è una creatura, deve superare un tiro salvezza [[/save]], altrimenti cade &amp;reference[prone].</p>",
+          "chat": "<p>Se il [[lookup @name]]{mostro} si muove di almeno 6 metri in linea retta verso un bersaglio e poi lo colpisce con un attacco con il @UUID[Compendium.dnd5e.monsters.Actor.G9PENY6nw0xRxCJW.Item.ORrGdhTLKLTKK3BH]{Corno} nello stesso turno, il bersaglio subisce <em>danni perforanti extra</em>. Se il bersaglio è una creatura, deve effettuare un tiro salvezza su Forza, altrimenti cade &amp;reference[prone].</p>"
         },
         "8yPzMeXvBJC2POQK": {
-          "name": "Incantesimi Innati"
+          "name": "Incantesimi Innati",
+          "description": "<p>La caratteristica da incantatore innato dell'unicorno è Carisma (CD 14 del tiro salvezza degli incantesimi). L'unicorno può lanciare i seguenti incantesimi innati, senza richiedere componenti:</p>\n<p>A volontà: [[/item .Mzh95utKDPIrjiH8]]{individuazione del bene e del male}, [[/item .SbSvZKkJASyk8jKo]]{artificio druidico}, [[/item .pRMvmknwLf2tdMTj]]{passare senza tracce}</p>\n<p>1/giorno ciascuno: [[/item .3MYDjS6k9IYL0aTj]]{calmare emozioni}, [[/item .TkJ8Wtg1L7TZtspm]]{dissolvi il bene e il male}, [[/item .gMrWeG8fMDPRFiVe]]{intralciare}</p>"
         },
         "vnAmgF7ZkpmDIJSc": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua due attacchi: uno con gli [[/item .f7m44y4TqYYcunMj]]{Zoccoli} e uno con il [[/item .ORrGdhTLKLTKK3BH]]{Corno}.</p>"
         },
         "ORrGdhTLKLTKK3BH": {
           "name": "Corno",
@@ -15330,7 +15334,9 @@
             "8owft3XymVhz240J": {
               "name": "Riposizionarsi"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} teletrasporta magicamente se stesso e fino a [[lookup @labels.description.affects activity=8owft3XymVhz240J]] consenzienti che sia in grado di vedere entro 1,5 metri da sé, assieme a ogni oggetto che essi indossano o trasportano, fino a un luogo con cui l'unicorno abbia familiarità e distante non più di [[lookup @labels.description.range activity=8owft3XymVhz240J]].</p>",
+          "chat": "<section class=\"secret\"><p></p></section><p>L'unicorno teletrasporta magicamente se stesso e fino a tre creature consenzienti che sia in grado di vedere entro 1,5 m da sé, assieme a ogni oggetto che esse indossano o trasportano, fino a un luogo con cui l'unicorno abbia familiarità e distante non più di 1,5 km.</p>"
         },
         "Ps56FcAJxi2L3QdZ": {
           "name": "Scudo Scintillante",
@@ -15341,9 +15347,11 @@
           },
           "effects": {
             "LPhDTpvZjgjOi27R": {
-              "name": "Proteggere Creatura"
+              "name": "Proteggere Creatura",
+              "description": "<p>Un campo magico scintillante si è manifestato attorno a te. Ottieni un bonus di +2 alla CA fino alla fine del turno successivo dell'unicorno.</p>"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} crea un campo magico scintillante attorno a se stesso o a un'altra creatura che sia in grado di vedere entro [[lookup @labels.description.range activity=dnd5eactivity000]] da sé. Il bersaglio ottiene un bonus di +2 alla CA fino alla fine del turno successivo del [[lookup @name lowercase]]{mostro}.</p>"
         },
         "Plfy8GZ08uqupxe6": {
           "name": "Guarire Se Stesso",
@@ -15351,7 +15359,8 @@
             "VN605HgEhCu7vMa5": {
               "name": "Rimarginare Ferite"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} recupera magicamente [[/healing average]].</p>"
         },
         "Mzh95utKDPIrjiH8": {
           "name": "Individuazione del Bene e del Male",
@@ -15376,7 +15385,8 @@
           "description": "<p>L'incantatore è&nbsp;circondato da un alone di energia scintillante che lo protegge dai folletti, dai non morti e dalle creature originarie di un piano diverso dal Piano Materiale. Per la durata dell'incantesimo, i celestiali, gli elementali, i folletti, gli immondi e i non morti subiscono svantaggio ai tiri per colpire contro di lui.</p><p>L'incantatore può porre fine all'incantesimo usando una delle funzioni speciali seguenti.</p><p><strong>Congedo.</strong>&nbsp;Con la sua azione, l'incantatore effettua un attacco in mischia con questo incantesimo contro un celestiale, un elementale, un folletto, un immondo o un non morto entro la sua portata. Se lo colpisce, tenta di respingerlo sul suo piano di origine. La creatura deve superare un tiro salvezza su Carisma, altrimenti sarà ricacciata sul suo piano natio (se già non si trova laggiù). Se non si trovano sul loro piano di origine, i non morti sono inviati nella Coltre Oscura e i folletti nella Selva Fatata.</p><p>&nbsp; <strong>Spezzare Ammaliamento.</strong> Con la sua azione, l'incantatore tocca una creatura situata entro la sua portata che sia affascinata, spaventata o posseduta da un celestiale, un elementale, un folletto, un immondo o un non morto. La creatura toccata non è più affascinata, spaventata o posseduta da quella creatura.</p>"
         },
         "gMrWeG8fMDPRFiVe": {
-          "name": "Intralciare"
+          "name": "Intralciare",
+          "description": "<p>Erbacce e rampicanti afferranti spuntano dal terreno in un quadrato con lato di 6 metri che ha origine da un punto entro gittata. Per la durata dell'incantesimo, queste piante trasformano il terreno nell'area in terreno difficile.</p><p>Una creatura situata nell'area quando l'incantatore lancia l'incantesimo deve superare un tiro salvezza su Forza, altrimenti è trattenuta dalle piante intralcianti finché l'incantesimo non termina. Una creatura trattenuta dalle piante può usare la propria azione per effettuare una prova di Forza contro la CD del tiro salvezza dell'incantesimo. Se la supera, si libera.</p><p>Quando l'incantesimo termina, le piante evocate avvizziscono.</p>"
         },
         "RSGZ0vLWQuhODI9b": {
           "name": "Resistenza Magica",
@@ -15397,7 +15407,8 @@
             "NU3xBsGu4WmvA8GV": {
               "name": "Curare Creatura"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} tocca un'altra creatura. Il bersaglio recupera magicamente [[/heal average]]. Inoltre, il tocco rimuove tutte le malattie e neutralizza tutti i veleni che affliggono il bersaglio.</p>"
         },
         "f7m44y4TqYYcunMj": {
           "name": "Zoccoli",
@@ -15410,7 +15421,8 @@
             "MdDNojDK4vzgDsjU": {
               "name": "Colpire"
             }
-          }
+          },
+          "description": "<p>L'unicorno effettua un attacco con gli [[/item .f7m44y4TqYYcunMj]]{Zoccoli}.</p>"
         }
       },
       "details": {
