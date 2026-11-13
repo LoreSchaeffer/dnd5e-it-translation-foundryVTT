@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1776,
+      "translated": 1777,
       "missing": 69,
-      "partial": 546,
+      "partial": 545,
       "review": 69
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 10020,
-      "missing": 5640,
+      "translated": 10024,
+      "missing": 5636,
       "invariantFailures": 853,
       "englishResiduals": 71,
       "imperialResiduals": 0
     },
-    "blockingIssues": 6501
+    "blockingIssues": 6497
   },
   "packs": [
     {
@@ -143,9 +143,9 @@
       "summary": {
         "documents": {
           "total": 12,
-          "translated": 3,
+          "translated": 4,
           "missing": 0,
-          "partial": 9,
+          "partial": 8,
           "review": 0
         },
         "folders": {
@@ -157,50 +157,14 @@
         },
         "fields": {
           "total": 1165,
-          "translated": 1128,
-          "missing": 37,
+          "translated": 1132,
+          "missing": 33,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "Dh1AA6w104V17V6w",
-          "name": "Krusk (Half-Orc Paladin)",
-          "fieldPath": "items[mmNOUJeTSbhakKbO].system.description.value",
-          "sourcePath": "heroes/krusk-half-orc-paladin.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "Dh1AA6w104V17V6w",
-          "name": "Krusk (Half-Orc Paladin)",
-          "fieldPath": "items[h9ta6MMHygQtSvhd].system.description.value",
-          "sourcePath": "heroes/krusk-half-orc-paladin.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "Dh1AA6w104V17V6w",
-          "name": "Krusk (Half-Orc Paladin)",
-          "fieldPath": "items[gfQ9BWSZtm6WJyZr].system.description.value",
-          "sourcePath": "heroes/krusk-half-orc-paladin.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "Dh1AA6w104V17V6w",
-          "name": "Krusk (Half-Orc Paladin)",
-          "fieldPath": "items[k1DGfhs1ZfnWZQaL].system.description.value",
-          "sourcePath": "heroes/krusk-half-orc-paladin.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
