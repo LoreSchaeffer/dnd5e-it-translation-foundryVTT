@@ -14595,15 +14595,19 @@
       "name": "Tarrasque",
       "items": {
         "Eb4utmmDfdnqLOZV": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} può usare la propria [[/item .WGGtJeKC6RjDyMC2]]{Presenza Terrificante}. Poi effettua cinque attacchi: uno con il [[/item .suUr7bJqBqE7xk2F]]{Morso}, due con gli [[/item .7DRko62ztr6FjZLA]]{Artigli}, uno con le [[/item .E1RZdzEY2qnG2jLn]]{Corna} e uno con la [[/item .Lo4LU9FBxez1Nzqm]]{Coda}. Può usare [[/item .7ycN6rrAEJQP3ZOs]]{Inghiottire} al posto del Morso.</p>"
         },
         "suUr7bJqBqE7xk2F": {
           "name": "Morso",
           "effects": {
             "EohMSUbNUDuzkgNi": {
-              "name": "Afferrato dal Morso"
+              "name": "Afferrato dal Morso",
+              "description": "<p>Sei &amp;reference[grappled apply=false] (CD 20 per sfuggire). Finché sei afferrato in questo modo, sei anche &amp;reference[restrained apply=false].</p>"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio è una creatura, è &amp;reference[grappled] (CD 20 per sfuggire). Finché l'afferramento non termina, il bersaglio è &amp;reference[restrained] e il [[lookup @name lowercase]]{mostro} non può usare [[lookup @item.name lowercase]] su un altro bersaglio.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Se il bersaglio è una creatura, è &amp;reference[grappled]. Finché l'afferramento non termina, il bersaglio è &amp;reference[restrained] e il [[lookup @name]]{mostro} non può usare [[lookup @item.name lowercase]]{il morso} su un altro bersaglio.</p>"
         },
         "wJImDjEv5xKuE40N": {
           "name": "Resistenza Magica",
@@ -14634,9 +14638,14 @@
               "roll": {
                 "name": "Prova per Riflettere Incantesimo"
               },
-              "name": "Riflettere Incantesimo"
+              "name": "Riflettere Incantesimo",
+              "description": {
+                "chatFlavor": "Con un risultato di 6, l'incantesimo viene riflesso sull'incantatore."
+              }
             }
-          }
+          },
+          "description": "<p>Ogni volta che il [[lookup @name lowercase]]{mostro} è bersagliato da un incantesimo @UUID[Compendium.dnd5e.spells.Item.41JIhpDyM9Anm7cs]{Dardo Incantato}, da un incantesimo a linea o da un incantesimo che richiede un tiro per colpire a distanza, si tira un d6. Con un risultato da 1 a 5, il [[lookup @name lowercase]]{mostro} non è influenzato.</p><p>Con un risultato di 6, il [[lookup @name lowercase]]{mostro} non è influenzato e l'effetto viene riflesso sull'incantatore come se avesse avuto origine dal [[lookup @name lowercase]]{mostro}, rendendo l'incantatore il bersaglio.</p>",
+          "chat": "<p>Il tarrasque non è influenzato e l'effetto viene riflesso sull'incantatore come se avesse avuto origine dal tarrasque, rendendo l'incantatore il bersaglio.</p>"
         },
         "wqgAyjgICylYksGZ": {
           "name": "Masticare",
@@ -14644,13 +14653,15 @@
             "pk6BECQlfPbzUEV4": {
               "name": "Rosicchiare"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua un attacco con il [[/item .suUr7bJqBqE7xk2F]]{Morso} o usa [[/item .7ycN6rrAEJQP3ZOs]]{Inghiottire}.</p>"
         },
         "WGGtJeKC6RjDyMC2": {
           "name": "Presenza Terrificante",
           "effects": {
             "JG2uXIqEJlTnRHpq": {
-              "name": "Presenza Terrificante"
+              "name": "Presenza Terrificante",
+              "description": "<p>Sei &amp;reference[frightened apply=false] per 1 minuto.</p><p>Puoi ripetere il tiro salvezza alla fine di ciascun tuo turno e, se lo superi, l'effetto su di te termina. Se superi il tiro salvezza o se l'effetto su di te termina, sei immune alla Presenza Terrificante del tarrasque per le 24 ore successive.</p>"
             }
           },
           "activities": {
@@ -14658,7 +14669,8 @@
               "name": "Tiro Salvezza contro la Paura"
             }
           },
-          "chat": "<p>Ogni creatura a scelta del [[lookup @name]]{mostro} che si trovi entro [[lookup @labels.description.range activity=2VOmvThI0bGdUsMt]] dal [[lookup @name]]{mostro} e sia consapevole della sua presenza deve superare un tiro salvezza su Saggezza. Una creatura può ripetere il tiro salvezza alla fine di ciascun proprio turno.</p>"
+          "chat": "<p>Ogni creatura a scelta del [[lookup @name]]{mostro} che si trovi entro [[lookup @labels.description.range activity=2VOmvThI0bGdUsMt]] dal [[lookup @name]]{mostro} e sia consapevole della sua presenza deve superare un tiro salvezza su Saggezza. Una creatura può ripetere il tiro salvezza alla fine di ciascun proprio turno.</p>",
+          "description": "<p>Ogni creatura a scelta del [[lookup @name lowercase]]{mostro} che si trovi entro [[lookup @labels.description.range activity=2VOmvThI0bGdUsMt]] dal [[lookup @name lowercase]]{mostro} e sia consapevole della sua presenza deve superare un tiro salvezza [[/save]], altrimenti diventa &amp;Reference[frightened] per [[lookup @labels.duration activity=2VOmvThI0bGdUsMt]].</p><p>Una creatura può ripetere il tiro salvezza alla fine di ciascun proprio turno e, se lo supera, l'effetto su di lei termina. Se una creatura supera il tiro salvezza o se l'effetto su di lei termina, il [[lookup @name lowercase]]{mostro} non può più influenzarla con [[lookup @item.name]] per le 24 ore successive.</p>"
         },
         "JKnHbj3EFyloyYpd": {
           "name": "Inghiottire",
@@ -14673,15 +14685,20 @@
               "name": "Inghiottire Creatura"
             },
             "2pCVkETAYg7qALRu": {
-              "name": "Tiro Salvezza per Rigurgitare Creatura"
+              "name": "Tiro Salvezza per Rigurgitare Creatura",
+              "description": {
+                "value": "<p>Se il [[lookup @name lowercase]]{mostro} subisce 60 o più danni in un singolo turno dalla creatura inghiottita, il [[lookup @name lowercase]]{mostro} deve superare un tiro salvezza [[/save activity=2pCVkETAYg7qALRu]] alla fine di quel turno, altrimenti rigurgita la creatura, che cade prona in uno spazio entro 3 metri dal [[lookup @name lowercase]]{mostro}. Se il [[lookup @name lowercase]]{mostro} muore, una creatura inghiottita non è più trattenuta al suo interno e può uscire dal cadavere usando 9 metri di movimento, comparendo &amp;reference[prone].</p>"
+              }
             }
           },
           "effects": {
             "51z7ys99aMd1N9tG": {
-              "name": "Inghiottito"
+              "name": "Inghiottito",
+              "description": "<p>Sei stato inghiottito dal tarrasque. Sei &amp;reference[blinded apply=false], &amp;reference[restrained apply=false] e disponi di &amp;reference[total cover] contro gli attacchi e gli altri effetti provenienti dall'esterno del tarrasque.</p><p>Subisci inoltre [[/damage average 16d6 acid]] danni all'inizio di ciascun turno del tarrasque.</p><p>Se il tarrasque subisce 60 o più danni da te in un singolo turno, deve superare un tiro salvezza su Costituzione, altrimenti ti rigurgita, facendoti cadere &amp;reference[prone] in uno spazio entro 3 metri dal tarrasque. Se il tarrasque muore, non sei più trattenuto al suo interno e puoi uscire dal cadavere usando 9 metri di movimento, comparendo &amp;reference[prone].</p>"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua un attacco con il [[/item .suUr7bJqBqE7xk2F]]{Morso} contro un bersaglio di taglia Media o inferiore che sta &amp;reference[grappling]. Se l'attacco colpisce, il bersaglio viene anche inghiottito e l'afferramento termina. Finché è inghiottito, il bersaglio è &amp;reference[blinded] e &amp;reference[restrained], dispone di &amp;reference[total cover] contro gli attacchi e gli altri effetti provenienti dall'esterno del [[lookup @name lowercase]]{mostro} e subisce [[/damage average activity=JiBTCgEtAZs60k7R]] danni all'inizio di ciascun turno del [[lookup @name lowercase]]{mostro}. Un [[lookup @name lowercase]]{mostro} può avere soltanto una creatura inghiottita alla volta.</p><p>Se il [[lookup @name lowercase]]{mostro} subisce 30 o più danni in un singolo turno dalla creatura inghiottita, il [[lookup @name lowercase]]{mostro} deve superare un tiro salvezza [[/save activity=2pCVkETAYg7qALRu]] alla fine di quel turno, altrimenti rigurgita la creatura, che cade prona in uno spazio entro 3 metri dal [[lookup @name lowercase]]{mostro}. Se il [[lookup @name lowercase]]{mostro} muore, una creatura inghiottita non è più trattenuta al suo interno e può uscire dal cadavere usando 4,5 metri di movimento, comparendo &amp;reference[prone].</p>"
         },
         "7DRko62ztr6FjZLA": {
           "name": "Artiglio",
@@ -14697,10 +14714,14 @@
           "name": "Coda",
           "activities": {
             "AKfCvNpKbIMQvSUD": {
-              "name": "Tiro Salvezza contro Prono"
+              "name": "Tiro Salvezza contro Prono",
+              "description": {
+                "value": "<p>Se il bersaglio è una creatura, deve superare un tiro salvezza [[/save]], altrimenti cade &amp;reference[prone].</p>"
+              }
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Se il bersaglio è una creatura, deve effettuare un tiro salvezza su Forza, altrimenti cade &amp;reference[prone].</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Se il bersaglio è una creatura, deve effettuare un tiro salvezza su Forza, altrimenti cade &amp;reference[prone].</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio è una creatura, deve superare un tiro salvezza [[/save]], altrimenti cade &amp;reference[prone].</p>"
         },
         "XFNRU61XBt7FvXAM": {
           "name": "Attacco",
@@ -14708,7 +14729,8 @@
             "lUwUScKtK3LzoXmx": {
               "name": "Colpire"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua un attacco con l'[[/item .7DRko62ztr6FjZLA]]{Artiglio} o un attacco con la [[/item .Lo4LU9FBxez1Nzqm]]{Coda}.</p>"
         },
         "wYuyOwVFLle1u78H": {
           "name": "Movimento",
@@ -14716,7 +14738,8 @@
             "HNY4MIUjFzcj7q0B": {
               "name": "Riposizionarsi"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} si muove fino a metà della propria velocità.</p>"
         }
       },
       "details": {
