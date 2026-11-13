@@ -16,10 +16,14 @@ function embeddedRecord(actorRecord, embedded) {
 }
 
 function referencesFor(embedded) {
-  return [
+  const references = [
     embedded?._stats?.compendiumSource,
     embedded?.flags?.dnd5e?.sourceId
-  ].filter((value, index, values) => typeof value === "string" && value && values.indexOf(value) === index);
+  ].filter(value => typeof value === "string" && value);
+  return [...new Set(references.flatMap(value => {
+    const compact = value.match(/^(Compendium\.dnd5e\.[^.]+)\.([^.]+)$/u);
+    return compact ? [value, `${compact[1]}.Item.${compact[2]}`] : [value];
+  }))];
 }
 
 function fieldShape(fieldPath) {

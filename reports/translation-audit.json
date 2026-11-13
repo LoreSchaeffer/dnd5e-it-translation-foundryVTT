@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 13768,
-      "missing": 1892,
-      "invariantFailures": 8,
+      "translated": 13772,
+      "missing": 1888,
+      "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1906
+    "blockingIssues": 1893
   },
   "packs": [
     {
@@ -578,9 +578,9 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 5952,
-          "missing": 1154,
-          "invariantFailures": 8,
+          "translated": 5956,
+          "missing": 1150,
+          "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
@@ -3035,26 +3035,6 @@
           "sourcePath": "monsters/construct/homunculus.yml"
         },
         {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "monsters",
-          "id": "ZQTCZfTV9ZoTjNCU",
-          "fieldPath": "items[5bFYYcQnfN1KtOwr].system.description.value",
-          "name": "Homunculus",
-          "sourcePath": "monsters/construct/homunculus.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "monsters",
-          "id": "ZQTCZfTV9ZoTjNCU",
-          "fieldPath": "items[5bFYYcQnfN1KtOwr].system.description.value",
-          "name": "Homunculus",
-          "sourcePath": "monsters/construct/homunculus.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -3178,15 +3158,6 @@
           "id": "z85EsGS2GVWj46qE",
           "name": "Shield Guardian",
           "fieldPath": "items[qbSL2A0uKuh2iER5].system.description.value",
-          "sourcePath": "monsters/construct/shield-guardian.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "z85EsGS2GVWj46qE",
-          "name": "Shield Guardian",
-          "fieldPath": "items[EjeLsaCua7yjgxax].system.description.value",
           "sourcePath": "monsters/construct/shield-guardian.yml"
         },
         {
@@ -5778,15 +5749,6 @@
           "pack": "monsters",
           "id": "egsSDYbqoLCelb0J",
           "name": "Marilith",
-          "fieldPath": "items[EMJe4NIzUdNIQj9S].system.description.value",
-          "sourcePath": "monsters/fiend/marilith.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "egsSDYbqoLCelb0J",
-          "name": "Marilith",
           "fieldPath": "items[EMJe4NIzUdNIQj9S].system.description.chat",
           "sourcePath": "monsters/fiend/marilith.yml"
         },
@@ -6385,26 +6347,6 @@
           "sourcePath": "monsters/giant/storm-giant.yml"
         },
         {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "68bAMIpe4jvDeR9G",
-          "fieldPath": "items[13uVuBQP6VaiSPvC].system.description.value",
-          "name": "Storm Giant",
-          "sourcePath": "monsters/giant/storm-giant.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "68bAMIpe4jvDeR9G",
-          "fieldPath": "items[13uVuBQP6VaiSPvC].system.description.value",
-          "name": "Storm Giant",
-          "sourcePath": "monsters/giant/storm-giant.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -6510,26 +6452,6 @@
           "id": "B7lBOr1AahNZs4a6",
           "name": "Archmage",
           "fieldPath": "items[fVbCxFRaORalHB20].system.description.value",
-          "sourcePath": "monsters/humanoid/archmage.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "B7lBOr1AahNZs4a6",
-          "fieldPath": "items[L4J89JXqbKs6puEV].system.description.value",
-          "name": "Archmage",
-          "sourcePath": "monsters/humanoid/archmage.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "B7lBOr1AahNZs4a6",
-          "fieldPath": "items[L4J89JXqbKs6puEV].system.description.value",
-          "name": "Archmage",
           "sourcePath": "monsters/humanoid/archmage.yml"
         },
         {
@@ -7143,15 +7065,6 @@
           "name": "Scout",
           "fieldPath": "items[YO57HtdvpuGxJANB].system.description.value",
           "sourcePath": "monsters/humanoid/scout.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "13K3XK2A3wwxVKLD",
-          "name": "Spy",
-          "fieldPath": "items[93TfWPoMzBoaneMx].system.description.value",
-          "sourcePath": "monsters/humanoid/spy.yml"
         },
         {
           "code": "missing-field",
@@ -9296,26 +9209,6 @@
           "sourcePath": "monsters/monstrosity/spirit-naga.yml"
         },
         {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "BAT6ld8qJZetpycL",
-          "fieldPath": "items[13uVuBQP6VaiSPvC].system.description.value",
-          "name": "Spirit Naga",
-          "sourcePath": "monsters/monstrosity/spirit-naga.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "BAT6ld8qJZetpycL",
-          "fieldPath": "items[13uVuBQP6VaiSPvC].system.description.value",
-          "name": "Spirit Naga",
-          "sourcePath": "monsters/monstrosity/spirit-naga.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -10078,15 +9971,6 @@
           "id": "qoFEjfrANBdrCP6m",
           "name": "Ghost",
           "fieldPath": "items[tjrDz1IWVcjF7PMl].system.description.value",
-          "sourcePath": "monsters/undead/ghost.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "qoFEjfrANBdrCP6m",
-          "name": "Ghost",
-          "fieldPath": "items[WyxVuCp4iU10bA7m].system.description.value",
           "sourcePath": "monsters/undead/ghost.yml"
         },
         {
@@ -11051,13 +10935,6 @@
           "name": "Zombie",
           "fieldPath": "items[RDeCoZRniQBNq0rX].system.description.value",
           "sourcePath": "monsters/undead/zombie.yml"
-        },
-        {
-          "code": "extra-entry",
-          "severity": "blocking",
-          "pack": "monsters",
-          "name": "Adult Blue Dracolich",
-          "sourcePath": "dnd5e.monsters.json"
         }
       ]
     },

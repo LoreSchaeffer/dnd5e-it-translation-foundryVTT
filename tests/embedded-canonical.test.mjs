@@ -178,6 +178,24 @@ test("uses the dnd5e sourceId when compendiumSource is absent", () => {
   assert.equal(overrides["items[embedded1].name"], "Torcia");
 });
 
+test("resolves compact dnd5e compendiumSource references used by legacy actors", () => {
+  const actor = actorRecord();
+  actor.data.items[0]._stats.compendiumSource = "Compendium.dnd5e.items.canonical1";
+  const canonicalByUuid = new Map([
+    ["Compendium.dnd5e.items.Item.canonical1", {
+      sourceRecord: canonicalRecord(),
+      translationRecord: canonicalTranslation
+    }]
+  ]);
+
+  const overrides = buildCanonicalEmbeddedOverrides({ actorRecord: actor, canonicalByUuid });
+  assert.equal(overrides["items[embedded1].name"], "Torcia");
+  assert.equal(
+    overrides["items[embedded1].system.description.value"],
+    '<p class="rule">Brucia intensamente.</p>'
+  );
+});
+
 test("maps a canonical advancement translation when the embedded advancement ID was regenerated", () => {
   const sourceRecord = canonicalRecord();
   sourceRecord.data.system.advancement = [{
