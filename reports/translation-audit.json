@@ -3,8 +3,8 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1883,
-      "missing": 19,
+      "translated": 1894,
+      "missing": 8,
       "partial": 489,
       "review": 71
     },
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 10184,
-      "missing": 5476,
+      "translated": 10206,
+      "missing": 5454,
       "invariantFailures": 589,
       "englishResiduals": 73,
       "imperialResiduals": 0
     },
-    "blockingIssues": 6128
+    "blockingIssues": 6117
   },
   "packs": [
     {
@@ -536,8 +536,8 @@
       "summary": {
         "documents": {
           "total": 252,
-          "translated": 98,
-          "missing": 11,
+          "translated": 109,
+          "missing": 0,
           "partial": 143,
           "review": 3
         },
@@ -550,8 +550,8 @@
         },
         "fields": {
           "total": 515,
-          "translated": 486,
-          "missing": 29,
+          "translated": 508,
+          "missing": 7,
           "invariantFailures": 549,
           "englishResiduals": 3,
           "imperialResiduals": 0
@@ -5547,30 +5547,6 @@
           "sourcePath": "monsterfeatures/swarm.yml"
         },
         {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "Kx011zSOyhqEumH5",
-          "name": "Tail Swipe (Legendary)",
-          "sourcePath": "monsterfeatures/tail-swipe-legendary.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "czKwBo1qw5O2gCNy",
-          "name": "Tentacle Attack or Fling",
-          "sourcePath": "monsterfeatures/tentacle-attack-or-fling.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "y18y37F8ppFLGuLb",
-          "name": "Tentacle Disease",
-          "sourcePath": "monsterfeatures/tentacle-disease.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -5609,22 +5585,6 @@
           "fieldPath": "system.description.value",
           "name": "Tentacle Slam",
           "sourcePath": "monsterfeatures/tentacle-slam.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "nKpLMXS9E10TSGhU",
-          "name": "Tentacles",
-          "sourcePath": "monsterfeatures/tentacles.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "WtQHjfWuFrsYEns3",
-          "name": "Third Roar",
-          "sourcePath": "monsterfeatures/third-roar.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -5747,30 +5707,6 @@
           "sourcePath": "monsterfeatures/treasure-sense.yml"
         },
         {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "3mrPXaxalJxpxVrv",
-          "name": "Tunneler",
-          "sourcePath": "monsterfeatures/tunneler.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "oi1sikVSw463lQlp",
-          "name": "Turn Defiance",
-          "sourcePath": "monsterfeatures/turn-defiance.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "ARWpuy82jh0daSDa",
-          "name": "Turn Immunity",
-          "sourcePath": "monsterfeatures/turn-immunity.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -5849,22 +5785,6 @@
           "fieldPath": "system.description.value",
           "name": "Two-Headed",
           "sourcePath": "monsterfeatures/two-headed.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "gWpp0N06HvS937Go",
-          "name": "Two Heads",
-          "sourcePath": "monsterfeatures/two-heads.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "9W2baYpS2ahNYhjb",
-          "name": "Unarmed Strike (Legendary)",
-          "sourcePath": "monsterfeatures/unarmed-strike-legendary.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -6025,14 +5945,6 @@
           "fieldPath": "system.description.value",
           "name": "Vampire Weaknesses",
           "sourcePath": "monsterfeatures/vampire-weaknesses.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "iQGaWIinmYFPRF94",
-          "name": "Variable Illumination",
-          "sourcePath": "monsterfeatures/variable-illumination.yml"
         },
         {
           "code": "missing-field",
