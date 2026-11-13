@@ -15617,7 +15617,8 @@
               "name": "Tiro Salvezza contro il Calpestamento"
             }
           },
-          "chat": "<p>Se il triceratopo si muove di almeno <strong>6 m</strong> in linea retta verso una creatura e poi la colpisce con un attacco di incornata nello stesso turno, il bersaglio deve superare un tiro salvezza su Forza.</p>"
+          "chat": "<p>Se il triceratopo si muove di almeno <strong>6 m</strong> in linea retta verso una creatura e poi la colpisce con un attacco di incornata nello stesso turno, il bersaglio deve superare un tiro salvezza su Forza.</p>",
+          "description": "<p>Se il [[lookup @name lowercase]]{mostro} si muove di almeno 6 metri in linea retta verso una creatura e poi la colpisce con un attacco di @UUID[Compendium.dnd5e.monsters.Actor.e5IQxSJO7ySEDdSH.Item.h5lGnMKW65NWIi2W]{incornata} nello stesso turno, quel bersaglio deve superare un tiro salvezza [[/save]] o cadere &amp;Reference[prone]. Se il bersaglio è prono, il [[lookup @name lowercase]]{mostro} può effettuare un attacco con [[/item .6UWSefP0BqnmYwAz]]{calpestare} contro di esso come azione bonus.</p>"
         },
         "h5lGnMKW65NWIi2W": {
           "name": "Incornata",
@@ -15626,7 +15627,8 @@
         },
         "6UWSefP0BqnmYwAz": {
           "name": "Calpestare",
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>",
+          "description": "<p><em>Attacco con Arma da Mischia:</em> [[/attack]], portata 1,5 m, una creatura prona. Colpito: [[/damage average]] danni.</p>"
         }
       },
       "details": {

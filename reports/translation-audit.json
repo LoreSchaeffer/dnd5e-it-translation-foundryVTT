@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2195,
+      "translated": 2196,
       "missing": 3,
-      "partial": 193,
+      "partial": 192,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14307,
-      "missing": 1353,
+      "translated": 14309,
+      "missing": 1351,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1358
+    "blockingIssues": 1356
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 160,
+          "translated": 161,
           "missing": 0,
-          "partial": 177,
+          "partial": 176,
           "review": 0
         },
         "folders": {
@@ -578,32 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6491,
-          "missing": 615,
+          "translated": 6493,
+          "missing": 613,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "e5IQxSJO7ySEDdSH",
-          "name": "Triceratops",
-          "fieldPath": "items[6UWSefP0BqnmYwAz].system.description.value",
-          "sourcePath": "monsters/beast/triceratops.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "e5IQxSJO7ySEDdSH",
-          "name": "Triceratops",
-          "fieldPath": "items[4jztSrWQNxc4q55u].system.description.value",
-          "sourcePath": "monsters/beast/triceratops.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
