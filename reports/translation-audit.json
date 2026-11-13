@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2181,
+      "translated": 2182,
       "missing": 3,
-      "partial": 207,
+      "partial": 206,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14278,
-      "missing": 1382,
+      "translated": 14279,
+      "missing": 1381,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1387
+    "blockingIssues": 1386
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 146,
+          "translated": 147,
           "missing": 0,
-          "partial": 191,
+          "partial": 190,
           "review": 0
         },
         "folders": {
@@ -578,23 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6462,
-          "missing": 644,
+          "translated": 6463,
+          "missing": 643,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "LPdX5YLlwci0NDZx",
-          "name": "Raven",
-          "fieldPath": "items[nDvgtu7NSNCrREAv].system.description.value",
-          "sourcePath": "monsters/beast/raven.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
