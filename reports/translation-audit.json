@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1774,
+      "translated": 1775,
       "missing": 69,
-      "partial": 548,
+      "partial": 547,
       "review": 69
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 9999,
-      "missing": 5661,
+      "translated": 10009,
+      "missing": 5651,
       "invariantFailures": 853,
       "englishResiduals": 71,
       "imperialResiduals": 0
     },
-    "blockingIssues": 6522
+    "blockingIssues": 6512
   },
   "packs": [
     {
@@ -143,9 +143,9 @@
       "summary": {
         "documents": {
           "total": 12,
-          "translated": 1,
+          "translated": 2,
           "missing": 0,
-          "partial": 11,
+          "partial": 10,
           "review": 0
         },
         "folders": {
@@ -157,104 +157,14 @@
         },
         "fields": {
           "total": 1165,
-          "translated": 1107,
-          "missing": 58,
+          "translated": 1117,
+          "missing": 48,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "ZGDys30OS76uYaIO",
-          "name": "Aoth (Human Druid)",
-          "fieldPath": "items[lMobFB5hSFEGtkrq].system.description.value",
-          "sourcePath": "heroes/aoth-human-druid.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "ZGDys30OS76uYaIO",
-          "name": "Aoth (Human Druid)",
-          "fieldPath": "items[6EvDsPPXqWANhUSU].system.description.value",
-          "sourcePath": "heroes/aoth-human-druid.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "ZGDys30OS76uYaIO",
-          "name": "Aoth (Human Druid)",
-          "fieldPath": "items[JYb389GcFpBYDUzE].system.description.value",
-          "sourcePath": "heroes/aoth-human-druid.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "ZGDys30OS76uYaIO",
-          "name": "Aoth (Human Druid)",
-          "fieldPath": "items[Un2798EJAL0t2PRC].system.description.value",
-          "sourcePath": "heroes/aoth-human-druid.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "ZGDys30OS76uYaIO",
-          "name": "Aoth (Human Druid)",
-          "fieldPath": "items[uwHgS93Wg63hDJzV].effects[1QhUB3231btaCO0b].description",
-          "sourcePath": "heroes/aoth-human-druid.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "ZGDys30OS76uYaIO",
-          "name": "Aoth (Human Druid)",
-          "fieldPath": "items[C20uvzZFjawarxYJ].system.description.value",
-          "sourcePath": "heroes/aoth-human-druid.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "ZGDys30OS76uYaIO",
-          "name": "Aoth (Human Druid)",
-          "fieldPath": "items[C20uvzZFjawarxYJ].effects[fO14IutGR3Hrepun].description",
-          "sourcePath": "heroes/aoth-human-druid.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "ZGDys30OS76uYaIO",
-          "name": "Aoth (Human Druid)",
-          "fieldPath": "items[TigHbrTaikkuXdw2].system.description.value",
-          "sourcePath": "heroes/aoth-human-druid.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "ZGDys30OS76uYaIO",
-          "name": "Aoth (Human Druid)",
-          "fieldPath": "items[UgL3DNv2bdncIr1j].system.description.value",
-          "sourcePath": "heroes/aoth-human-druid.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "ZGDys30OS76uYaIO",
-          "name": "Aoth (Human Druid)",
-          "fieldPath": "items[UgMmOm1OP4CPaeGS].system.description.value",
-          "sourcePath": "heroes/aoth-human-druid.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",

@@ -6,7 +6,7 @@
 | classes | 12 | 12 | 0 | 0 | 0 | 0 | 0 |
 | classfeatures | 235 | 235 | 0 | 0 | 0 | 0 | 0 |
 | effects | 214 | 214 | 0 | 0 | 0 | 0 | 0 |
-| heroes | 12 | 1 | 0 | 11 | 0 | 58 | 58 |
+| heroes | 12 | 2 | 0 | 10 | 0 | 48 | 48 |
 | items | 885 | 885 | 0 | 0 | 0 | 0 | 48 |
 | monsterfeatures | 252 | 0 | 61 | 191 | 0 | 132 | 753 |
 | monsters | 337 | 2 | 5 | 330 | 15 | 4733 | 4968 |
@@ -17,20 +17,10 @@
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 6522
+Total blocking issues: 6512
 
 ## Issues
 
-- **missing-field** `heroes:ZGDys30OS76uYaIO:items[lMobFB5hSFEGtkrq].system.description.value`
-- **missing-field** `heroes:ZGDys30OS76uYaIO:items[6EvDsPPXqWANhUSU].system.description.value`
-- **missing-field** `heroes:ZGDys30OS76uYaIO:items[JYb389GcFpBYDUzE].system.description.value`
-- **missing-field** `heroes:ZGDys30OS76uYaIO:items[Un2798EJAL0t2PRC].system.description.value`
-- **missing-field** `heroes:ZGDys30OS76uYaIO:items[uwHgS93Wg63hDJzV].effects[1QhUB3231btaCO0b].description`
-- **missing-field** `heroes:ZGDys30OS76uYaIO:items[C20uvzZFjawarxYJ].system.description.value`
-- **missing-field** `heroes:ZGDys30OS76uYaIO:items[C20uvzZFjawarxYJ].effects[fO14IutGR3Hrepun].description`
-- **missing-field** `heroes:ZGDys30OS76uYaIO:items[TigHbrTaikkuXdw2].system.description.value`
-- **missing-field** `heroes:ZGDys30OS76uYaIO:items[UgL3DNv2bdncIr1j].system.description.value`
-- **missing-field** `heroes:ZGDys30OS76uYaIO:items[UgMmOm1OP4CPaeGS].system.description.value`
 - **missing-field** `heroes:xVmbM44RXyI2Eqq3:items[iWdMYgNBkGiajzc4].system.description.value`
 - **missing-field** `heroes:xVmbM44RXyI2Eqq3:items[2Ejl2ovEUJg7swzL].system.description.value`
 - **missing-field** `heroes:xVmbM44RXyI2Eqq3:items[6JFzrzKtJyhU12xi].system.description.value`
