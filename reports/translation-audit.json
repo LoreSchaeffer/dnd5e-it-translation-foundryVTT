@@ -3,8 +3,8 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1863,
-      "missing": 39,
+      "translated": 1873,
+      "missing": 29,
       "partial": 489,
       "review": 71
     },
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 10144,
-      "missing": 5516,
+      "translated": 10164,
+      "missing": 5496,
       "invariantFailures": 589,
       "englishResiduals": 73,
       "imperialResiduals": 0
     },
-    "blockingIssues": 6148
+    "blockingIssues": 6138
   },
   "packs": [
     {
@@ -536,8 +536,8 @@
       "summary": {
         "documents": {
           "total": 252,
-          "translated": 78,
-          "missing": 31,
+          "translated": 88,
+          "missing": 21,
           "partial": 143,
           "review": 3
         },
@@ -550,8 +550,8 @@
         },
         "fields": {
           "total": 515,
-          "translated": 446,
-          "missing": 69,
+          "translated": 466,
+          "missing": 49,
           "invariantFailures": 549,
           "englishResiduals": 3,
           "imperialResiduals": 0
@@ -3349,14 +3349,6 @@
           "sourcePath": "monsterfeatures/keen-senses.yml"
         },
         {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "P0DMM1rgpoiBodDT",
-          "name": "Lair Actions",
-          "sourcePath": "monsterfeatures/lair-actions.yml"
-        },
-        {
           "code": "foundry-inline-rolls",
           "severity": "blocking",
           "message": "Foundry inline rolls differ from source",
@@ -3556,30 +3548,6 @@
           "sourcePath": "monsterfeatures/lightning-breath.yml"
         },
         {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "gM767AhU36B6LUGU",
-          "name": "Lightning Storm",
-          "sourcePath": "monsterfeatures/lightning-storm.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "boO7LJ0RRinoWHyT",
-          "name": "Limited Amphibiousness",
-          "sourcePath": "monsterfeatures/limited-amphibiousness.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "MBOiQSnMr02wUpEN",
-          "name": "Limited Magic Immunity",
-          "sourcePath": "monsterfeatures/limited-magic-immunity.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -3780,14 +3748,6 @@
           "sourcePath": "monsterfeatures/mimicry.yml"
         },
         {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "hMC7XCkDbzVMZ0QG",
-          "name": "Misty Escape",
-          "sourcePath": "monsterfeatures/misty-escape.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -3826,22 +3786,6 @@
           "fieldPath": "system.description.value",
           "name": "Moan",
           "sourcePath": "monsterfeatures/moan.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "FzbCXXFlZVpcea4t",
-          "name": "Move (legendary)",
-          "sourcePath": "monsterfeatures/move-legendary.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "HMOOZRxolMmv91xm",
-          "name": "Mucous Cloud",
-          "sourcePath": "monsterfeatures/mucous-cloud.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -4254,22 +4198,6 @@
           "sourcePath": "monsterfeatures/pounce.yml"
         },
         {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "iDem2vV36tRkZUx0",
-          "name": "Probing Telepathy",
-          "sourcePath": "monsterfeatures/probing-telepathy.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "OejKD6LitlURecxp",
-          "name": "Psychic Drain",
-          "sourcePath": "monsterfeatures/psychic-drain.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -4308,14 +4236,6 @@
           "fieldPath": "system.description.value",
           "name": "Rampage",
           "sourcePath": "monsterfeatures/rampage.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "lhTQJsLKYUZT2gV5",
-          "name": "Reactive",
-          "sourcePath": "monsterfeatures/reactive.yml"
         },
         {
           "code": "html-tag-sequence",
