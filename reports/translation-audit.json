@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2162,
+      "translated": 2163,
       "missing": 3,
-      "partial": 226,
+      "partial": 225,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14231,
-      "missing": 1429,
+      "translated": 14235,
+      "missing": 1425,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1434
+    "blockingIssues": 1430
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 127,
+          "translated": 128,
           "missing": 0,
-          "partial": 210,
+          "partial": 209,
           "review": 0
         },
         "folders": {
@@ -578,50 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6415,
-          "missing": 691,
+          "translated": 6419,
+          "missing": 687,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "p9Xnr820UAZBOIVN",
-          "name": "Giant Octopus",
-          "fieldPath": "items[GXCSitOBI6wjFQDq].system.description.value",
-          "sourcePath": "monsters/beast/giant-octopus.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "p9Xnr820UAZBOIVN",
-          "name": "Giant Octopus",
-          "fieldPath": "items[NXi6iGOpnmUiczJA].system.description.value",
-          "sourcePath": "monsters/beast/giant-octopus.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "p9Xnr820UAZBOIVN",
-          "name": "Giant Octopus",
-          "fieldPath": "items[NXi6iGOpnmUiczJA].effects[zKCI4XQ331POGNWl].description",
-          "sourcePath": "monsters/beast/giant-octopus.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "p9Xnr820UAZBOIVN",
-          "name": "Giant Octopus",
-          "fieldPath": "items[b2HxeZRj8hT3VrLc].system.description.value",
-          "sourcePath": "monsters/beast/giant-octopus.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
