@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2071,
+      "translated": 2092,
       "missing": 3,
-      "partial": 317,
+      "partial": 296,
       "review": 68
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 13455,
-      "missing": 2205,
+      "translated": 13653,
+      "missing": 2007,
       "invariantFailures": 8,
       "englishResiduals": 139,
       "imperialResiduals": 0
     },
-    "blockingIssues": 2355
+    "blockingIssues": 2157
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 36,
+          "translated": 57,
           "missing": 0,
-          "partial": 301,
+          "partial": 280,
           "review": 67
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 5639,
-          "missing": 1467,
+          "translated": 5837,
+          "missing": 1269,
           "invariantFailures": 8,
           "englishResiduals": 136,
           "imperialResiduals": 0
@@ -754,15 +754,6 @@
           "id": "P6qC8jB3pnEH0tIE",
           "name": "Chuul",
           "fieldPath": "items[7lnXqe8AnWhtnQh7].system.description.chat",
-          "sourcePath": "monsters/aberration/chuul.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "P6qC8jB3pnEH0tIE",
-          "name": "Chuul",
-          "fieldPath": "items[7lnXqe8AnWhtnQh7].effects[T41SFU26kz9FJtPA].description",
           "sourcePath": "monsters/aberration/chuul.yml"
         },
         {
@@ -1155,15 +1146,6 @@
           "pack": "monsters",
           "id": "jcZblJ6lqtW0ePxe",
           "name": "Otyugh",
-          "fieldPath": "items[BPYsBEkmZMcGYZDh].effects[cbXYY9JllPk8clTC].description",
-          "sourcePath": "monsters/aberration/otyugh.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "jcZblJ6lqtW0ePxe",
-          "name": "Otyugh",
           "fieldPath": "items[9d1ZhvT1vIJsNnN1].system.description.value",
           "sourcePath": "monsters/aberration/otyugh.yml"
         },
@@ -1202,15 +1184,6 @@
           "name": "Ape",
           "fieldPath": "items[hbxC3Wg3H8cSIvM0].system.description.value",
           "sourcePath": "monsters/beast/ape.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "qav2dvMIUiMQCCsy",
-          "name": "Bat",
-          "fieldPath": "items[v8ZgPkoPpY00qBN2].system.description.value",
-          "sourcePath": "monsters/beast/bat.yml"
         },
         {
           "code": "missing-field",
@@ -1288,15 +1261,6 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
-          "id": "UTuKdTah1DKfPwWe",
-          "name": "Constrictor Snake",
-          "fieldPath": "items[haXdYCAfGXo0iVqC].effects[ZHHKsrqnIkhEqvom].description",
-          "sourcePath": "monsters/beast/constrictor-snake.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
           "id": "8aCTKP5qaBPFOqxM",
           "name": "Crocodile",
           "fieldPath": "items[L0k8pFgKxxEEMEOY].system.description.value",
@@ -1319,24 +1283,6 @@
           "name": "Crocodile",
           "fieldPath": "items[L0k8pFgKxxEEMEOY].effects[WEbg10jI9BHhBTU7].description",
           "sourcePath": "monsters/beast/crocodile.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "8aCTKP5qaBPFOqxM",
-          "name": "Crocodile",
-          "fieldPath": "items[vuDMChx74s6CMCab].system.description.value",
-          "sourcePath": "monsters/beast/crocodile.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "EYiQZ3rFL25fEJY5",
-          "name": "Dire Wolf",
-          "fieldPath": "items[1F65EMViOLPak90j].system.activities.3lI4GEtZEEPgehgy.description.value",
-          "sourcePath": "monsters/beast/dire-wolf.yml"
         },
         {
           "code": "missing-field",
@@ -1396,15 +1342,6 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
-          "id": "SMfgOsfPgf6rb01k",
-          "name": "Flying Snake",
-          "fieldPath": "items[5d7uD5cYAPtlPrWh].system.description.value",
-          "sourcePath": "monsters/beast/flying-snake.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
           "id": "EZgiprHXA2D7Uyb3",
           "name": "Frog",
           "fieldPath": "items[3CnWEl3LzMTy99vo].system.description.value",
@@ -1427,15 +1364,6 @@
           "name": "Giant Badger",
           "fieldPath": "items[1lGtRKKScQMq9K3R].system.description.value",
           "sourcePath": "monsters/beast/giant-badger.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "SoK7l5zJQKxTVgLL",
-          "name": "Giant Bat",
-          "fieldPath": "items[BXK2Csiwc52nD9il].system.description.value",
-          "sourcePath": "monsters/beast/giant-bat.yml"
         },
         {
           "code": "missing-field",
@@ -1522,15 +1450,6 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
-          "id": "NpvwE1feOHyEqAbP",
-          "name": "Giant Constrictor Snake",
-          "fieldPath": "items[3FIKn37A037kPgzc].effects[otpYrYVhGMP5ZAUo].description",
-          "sourcePath": "monsters/beast/giant-constrictor-snake.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
           "id": "AOJvmk1IchxNxQzP",
           "name": "Giant Crab",
           "fieldPath": "items[7qDtYuaBNQ3zOnBC].system.description.value",
@@ -1553,15 +1472,6 @@
           "name": "Giant Crab",
           "fieldPath": "items[7qDtYuaBNQ3zOnBC].effects[ha7mLJgRXVjMDnBj].description",
           "sourcePath": "monsters/beast/giant-crab.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "3YwmvDupMwycWNCO",
-          "name": "Giant Crocodile",
-          "fieldPath": "items[Mgvz3Hm49kujtR0M].system.description.value",
-          "sourcePath": "monsters/beast/giant-crocodile.yml"
         },
         {
           "code": "missing-field",
@@ -1639,15 +1549,6 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
-          "id": "Z0GiAv3bJxTjUfjM",
-          "name": "Giant Fire Beetle",
-          "fieldPath": "items[t1I5Ss8xvBplViSy].system.description.value",
-          "sourcePath": "monsters/beast/giant-fire-beetle.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
           "id": "kSAi2KRonL4G4JpO",
           "name": "Giant Frog",
           "fieldPath": "items[9q7EEjZaHt58cSnA].system.description.value",
@@ -1713,15 +1614,6 @@
           "pack": "monsters",
           "id": "rjqk7ToMD8sGr3n4",
           "name": "Giant Goat",
-          "fieldPath": "items[uldD4x1nRCSSbgeV].system.description.value",
-          "sourcePath": "monsters/beast/giant-goat.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "rjqk7ToMD8sGr3n4",
-          "name": "Giant Goat",
           "fieldPath": "items[ZL9z3WPrZFreDTuY].system.description.value",
           "sourcePath": "monsters/beast/giant-goat.yml"
         },
@@ -1742,15 +1634,6 @@
           "name": "Giant Hyena",
           "fieldPath": "items[QY2OI39oNi9VUuAY].system.description.value",
           "sourcePath": "monsters/beast/giant-hyena.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "p9Xnr820UAZBOIVN",
-          "name": "Giant Octopus",
-          "fieldPath": "items[9cPAcwvRIHmJq53Y].system.description.value",
-          "sourcePath": "monsters/beast/giant-octopus.yml"
         },
         {
           "code": "missing-field",
@@ -1805,24 +1688,6 @@
           "name": "Giant Octopus",
           "fieldPath": "items[b2HxeZRj8hT3VrLc].system.description.chat",
           "sourcePath": "monsters/beast/giant-octopus.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "VVXly3ue0i3YgGrB",
-          "name": "Giant Owl",
-          "fieldPath": "items[kB6hOBhmgXQZHfYz].system.description.value",
-          "sourcePath": "monsters/beast/giant-owl.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "VVXly3ue0i3YgGrB",
-          "name": "Giant Owl",
-          "fieldPath": "items[hfjrmCsemIUdRA0d].system.description.value",
-          "sourcePath": "monsters/beast/giant-owl.yml"
         },
         {
           "code": "missing-field",
@@ -1940,15 +1805,6 @@
           "name": "Giant Sea Horse",
           "fieldPath": "items[MB7KUNGnxz6mw1J5].system.description.chat",
           "sourcePath": "monsters/beast/giant-sea-horse.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "MWlwLlKXh8jUUxOL",
-          "name": "Giant Shark",
-          "fieldPath": "items[piNE415TOqbqy2Hq].system.description.value",
-          "sourcePath": "monsters/beast/giant-shark.yml"
         },
         {
           "code": "missing-field",
@@ -2080,15 +1936,6 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
-          "id": "4ZlUHt4xmB7GdPfk",
-          "name": "Giant Vulture",
-          "fieldPath": "items[Pr5zVAoP8aOlP9Km].system.description.value",
-          "sourcePath": "monsters/beast/giant-vulture.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
           "id": "4tl0s2SnaLjkoDiI",
           "name": "Giant Wasp",
           "fieldPath": "items[L1TmhBXd2UrVxExn].system.description.value",
@@ -2138,42 +1985,6 @@
           "name": "Goat",
           "fieldPath": "items[fmILoB0arLdodNGB].system.description.chat",
           "sourcePath": "monsters/beast/goat.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "y8sRU8Ks2lcrGsaf",
-          "name": "Goat",
-          "fieldPath": "items[63bem1EXQCR1tEhl].system.description.value",
-          "sourcePath": "monsters/beast/goat.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "siBUEAj4UVdaiH6p",
-          "name": "Hunter Shark",
-          "fieldPath": "items[Wo7XERIm3xygmhVH].system.description.value",
-          "sourcePath": "monsters/beast/hunter-shark.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ciLSItjCpwT7nMmk",
-          "name": "Killer Whale",
-          "fieldPath": "items[Hwa4dcQdXAi1vk7z].system.description.value",
-          "sourcePath": "monsters/beast/killer-whale.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ciLSItjCpwT7nMmk",
-          "name": "Killer Whale",
-          "fieldPath": "items[7CmK8Pk25sVdsBHV].system.description.value",
-          "sourcePath": "monsters/beast/killer-whale.yml"
         },
         {
           "code": "missing-field",
@@ -2242,15 +2053,6 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
-          "id": "Vk7uHVkJ5b26gaTh",
-          "name": "Mule",
-          "fieldPath": "items[PWqvlPCG9P9edPYi].system.description.value",
-          "sourcePath": "monsters/beast/mule.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
           "id": "3UUNbGiG2Yf1ZPxM",
           "name": "Octopus",
           "fieldPath": "items[SLnyx0Ta2ksVM9QL].system.description.value",
@@ -2289,15 +2091,6 @@
           "pack": "monsters",
           "id": "3UUNbGiG2Yf1ZPxM",
           "name": "Octopus",
-          "fieldPath": "items[ODM4yi5BKpC4Hohw].system.description.value",
-          "sourcePath": "monsters/beast/octopus.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "3UUNbGiG2Yf1ZPxM",
-          "name": "Octopus",
           "fieldPath": "items[8qYBpaA8c3BuBujY].system.description.value",
           "sourcePath": "monsters/beast/octopus.yml"
         },
@@ -2309,24 +2102,6 @@
           "name": "Octopus",
           "fieldPath": "items[8qYBpaA8c3BuBujY].system.description.chat",
           "sourcePath": "monsters/beast/octopus.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "d0prpsGSAorDadec",
-          "name": "Owl",
-          "fieldPath": "items[9H6ylAxHKFhsfqno].system.description.value",
-          "sourcePath": "monsters/beast/owl.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "d0prpsGSAorDadec",
-          "name": "Owl",
-          "fieldPath": "items[YhtTMVOFSgPGm71b].system.description.value",
-          "sourcePath": "monsters/beast/owl.yml"
         },
         {
           "code": "missing-field",
@@ -2345,15 +2120,6 @@
           "name": "Panther",
           "fieldPath": "items[3lFDjIui9laz2qgt].system.description.chat",
           "sourcePath": "monsters/beast/panther.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "4OeZZguYgJcsZoM9",
-          "name": "Plesiosaurus",
-          "fieldPath": "items[PtGDikGuH6rHkITy].system.description.value",
-          "sourcePath": "monsters/beast/plesiosaurus.yml"
         },
         {
           "code": "missing-field",
@@ -2415,15 +2181,6 @@
           "id": "nkyCGJ9wXeAZkyyz",
           "name": "Quipper",
           "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/beast/quipper.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "nkyCGJ9wXeAZkyyz",
-          "name": "Quipper",
-          "fieldPath": "items[jFoGi81ljGK27zpX].system.description.value",
           "sourcePath": "monsters/beast/quipper.yml"
         },
         {
@@ -2587,28 +2344,10 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
-          "id": "dZZFmG8LiBlgWi76",
-          "name": "Swarm of Beetles",
-          "fieldPath": "items[Gs8ogQ4hFgKgcTOq].system.description.value",
-          "sourcePath": "monsters/beast/swarm-of-beetles.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
           "id": "KC4tYOolARhajP18",
           "name": "Swarm of Centipedes",
           "fieldPath": "items[s7CTyI6W91Yjb5Hi].system.description.value",
           "sourcePath": "monsters/beast/swarm-of-centipedes.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "S0zDrv6lbnwWaz9E",
-          "name": "Swarm of Insects",
-          "fieldPath": "items[27NdQnzrrLHOUgVt].system.description.value",
-          "sourcePath": "monsters/beast/swarm-of-insects.yml"
         },
         {
           "code": "missing-field",
@@ -2695,27 +2434,9 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
-          "id": "8ihbbjkaOFTPbI73",
-          "name": "Swarm of Rats",
-          "fieldPath": "items[cXA3xWzI18h5Xkuz].system.description.value",
-          "sourcePath": "monsters/beast/swarm-of-rats.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
           "id": "g40zN6xMye6bSS94",
           "name": "Swarm of Ravens",
           "fieldPath": "items[3BY2xHy6UfIJR49c].system.description.value",
-          "sourcePath": "monsters/beast/swarm-of-ravens.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "g40zN6xMye6bSS94",
-          "name": "Swarm of Ravens",
-          "fieldPath": "items[vZTh33xj9YxDSz6k].system.description.value",
           "sourcePath": "monsters/beast/swarm-of-ravens.yml"
         },
         {
@@ -2744,24 +2465,6 @@
           "name": "Swarm of Spiders",
           "fieldPath": "items[48KjgWw0OHpQ1t99].system.description.value",
           "sourcePath": "monsters/beast/swarm-of-spiders.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "4udpeEneFSZK9NTB",
-          "name": "Swarm of Spiders",
-          "fieldPath": "items[TcymrkJnWf22YDtq].system.description.value",
-          "sourcePath": "monsters/beast/swarm-of-spiders.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "YUaprnengdFDNG8P",
-          "name": "Swarm of Wasps",
-          "fieldPath": "items[i4idYezLA5dIHKUV].system.description.value",
-          "sourcePath": "monsters/beast/swarm-of-wasps.yml"
         },
         {
           "code": "missing-field",
@@ -2832,26 +2535,8 @@
           "pack": "monsters",
           "id": "HlddcPm4cWptj3ka",
           "name": "Tyrannosaurus Rex",
-          "fieldPath": "items[O8pEyHMhxCwROJ6O].effects[mLobEEbuzt5pWhs4].description",
-          "sourcePath": "monsters/beast/tyrannosaurus-rex.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "HlddcPm4cWptj3ka",
-          "name": "Tyrannosaurus Rex",
           "fieldPath": "items[Fi45qe2ncVZHNq43].system.description.value",
           "sourcePath": "monsters/beast/tyrannosaurus-rex.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "fkJ8Z8zi2JtlcHh9",
-          "name": "Vulture",
-          "fieldPath": "items[oFwDpNHu44o0BRx1].system.description.value",
-          "sourcePath": "monsters/beast/vulture.yml"
         },
         {
           "code": "missing-field",
@@ -2870,15 +2555,6 @@
           "name": "Warhorse",
           "fieldPath": "items[1KyNbDtLLrcA5lj0].system.description.chat",
           "sourcePath": "monsters/beast/warhorse.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "yawTeS8u2FCfzzZH",
-          "name": "Wolf",
-          "fieldPath": "items[MuH5aMoKOyZanrFf].system.activities.3lI4GEtZEEPgehgy.description.value",
-          "sourcePath": "monsters/beast/wolf.yml"
         },
         {
           "code": "unchanged-english",
@@ -3839,15 +3515,6 @@
           "pack": "monsters",
           "id": "h98AuPfomEPcCibP",
           "name": "Iron Golem",
-          "fieldPath": "items[UupAbZ0Pu4j3vLLg].system.description.value",
-          "sourcePath": "monsters/construct/iron-golem.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "h98AuPfomEPcCibP",
-          "name": "Iron Golem",
           "fieldPath": "items[x44GisqrxHYC5fov].system.description.value",
           "sourcePath": "monsters/construct/iron-golem.yml"
         },
@@ -4100,15 +3767,6 @@
           "pack": "monsters",
           "id": "cGM3iVYTtCsYXjzO",
           "name": "Adult Blue Dragon",
-          "fieldPath": "items[tU4OoHX9Hwg3qGLM].system.description.chat",
-          "sourcePath": "monsters/dragon/adult-blue-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "cGM3iVYTtCsYXjzO",
-          "name": "Adult Blue Dragon",
           "fieldPath": "items[Bt6Lf5wZJLxdShut].system.description.value",
           "sourcePath": "monsters/dragon/adult-blue-dragon.yml"
         },
@@ -4128,24 +3786,6 @@
           "id": "7vswgicsiMfS4ZTS",
           "name": "Adult Brass Dragon",
           "fieldPath": "items[bylvyjev8yh0oVj6].system.description.value",
-          "sourcePath": "monsters/dragon/adult-brass-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "7vswgicsiMfS4ZTS",
-          "name": "Adult Brass Dragon",
-          "fieldPath": "items[bylvyjev8yh0oVj6].system.activities.NBdXGRF1vahbq4p8.description.value",
-          "sourcePath": "monsters/dragon/adult-brass-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "7vswgicsiMfS4ZTS",
-          "name": "Adult Brass Dragon",
-          "fieldPath": "items[bylvyjev8yh0oVj6].system.activities.O02zuaLvAqtmgutQ.description.value",
           "sourcePath": "monsters/dragon/adult-brass-dragon.yml"
         },
         {
@@ -4190,24 +3830,6 @@
           "pack": "monsters",
           "id": "VCuG0Z3MrO8kfDU0",
           "name": "Adult Bronze Dragon",
-          "fieldPath": "items[2a60l0GqXGN8lx4R].system.activities.w2CftR6CLr5PZ7zY.description.value",
-          "sourcePath": "monsters/dragon/adult-bronze-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "VCuG0Z3MrO8kfDU0",
-          "name": "Adult Bronze Dragon",
-          "fieldPath": "items[2a60l0GqXGN8lx4R].system.activities.YElWYv6C5UfhAu48.description.value",
-          "sourcePath": "monsters/dragon/adult-bronze-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "VCuG0Z3MrO8kfDU0",
-          "name": "Adult Bronze Dragon",
           "fieldPath": "items[c6O0wQM6Ad7tDiKv].system.description.value",
           "sourcePath": "monsters/dragon/adult-bronze-dragon.yml"
         },
@@ -4227,33 +3849,6 @@
           "id": "irz834sqAxRihtSG",
           "name": "Adult Copper Dragon",
           "fieldPath": "items[HsJrAS1hqUisyq9J].system.description.value",
-          "sourcePath": "monsters/dragon/adult-copper-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "irz834sqAxRihtSG",
-          "name": "Adult Copper Dragon",
-          "fieldPath": "items[HsJrAS1hqUisyq9J].system.activities.zTWpuajI6meBb52D.description.value",
-          "sourcePath": "monsters/dragon/adult-copper-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "irz834sqAxRihtSG",
-          "name": "Adult Copper Dragon",
-          "fieldPath": "items[HsJrAS1hqUisyq9J].system.activities.CkPMajPOZWWj3gl0.description.value",
-          "sourcePath": "monsters/dragon/adult-copper-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "irz834sqAxRihtSG",
-          "name": "Adult Copper Dragon",
-          "fieldPath": "items[HsJrAS1hqUisyq9J].effects[5E6iveIba4rYeUbc].description",
           "sourcePath": "monsters/dragon/adult-copper-dragon.yml"
         },
         {
@@ -4289,33 +3884,6 @@
           "pack": "monsters",
           "id": "MO382D2sxtAIuUC5",
           "name": "Adult Gold Dragon",
-          "fieldPath": "items[yAA3vcH0THsoKJfy].system.activities.o8fOmWWIqCYwGu3C.description.value",
-          "sourcePath": "monsters/dragon/adult-gold-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "MO382D2sxtAIuUC5",
-          "name": "Adult Gold Dragon",
-          "fieldPath": "items[yAA3vcH0THsoKJfy].system.activities.J4QhEMZOdsyIy2D6.description.value",
-          "sourcePath": "monsters/dragon/adult-gold-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "MO382D2sxtAIuUC5",
-          "name": "Adult Gold Dragon",
-          "fieldPath": "items[yAA3vcH0THsoKJfy].effects[a5q0M5lHMSOhKxFi].description",
-          "sourcePath": "monsters/dragon/adult-gold-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "MO382D2sxtAIuUC5",
-          "name": "Adult Gold Dragon",
           "fieldPath": "items[jzJmvFRU5XvaTiSc].system.description.value",
           "sourcePath": "monsters/dragon/adult-gold-dragon.yml"
         },
@@ -4334,24 +3902,6 @@
           "pack": "monsters",
           "id": "GP8JMSDugRxuLOD2",
           "name": "Adult Green Dragon",
-          "fieldPath": "items[a3xDshs0j4FSNSo8].system.description.value",
-          "sourcePath": "monsters/dragon/adult-green-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "GP8JMSDugRxuLOD2",
-          "name": "Adult Green Dragon",
-          "fieldPath": "items[a3xDshs0j4FSNSo8].system.description.chat",
-          "sourcePath": "monsters/dragon/adult-green-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "GP8JMSDugRxuLOD2",
-          "name": "Adult Green Dragon",
           "fieldPath": "items[KaEnVBhnIhVarfHb].system.description.value",
           "sourcePath": "monsters/dragon/adult-green-dragon.yml"
         },
@@ -4362,24 +3912,6 @@
           "id": "ZyIBOoZZD0nDaO2s",
           "name": "Adult Red Dragon",
           "fieldPath": "items[nF4ZHYj37UstHCUT].system.description.value",
-          "sourcePath": "monsters/dragon/adult-red-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ZyIBOoZZD0nDaO2s",
-          "name": "Adult Red Dragon",
-          "fieldPath": "items[Ux5JGRZ4jABEO0K9].system.description.value",
-          "sourcePath": "monsters/dragon/adult-red-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ZyIBOoZZD0nDaO2s",
-          "name": "Adult Red Dragon",
-          "fieldPath": "items[Ux5JGRZ4jABEO0K9].system.description.chat",
           "sourcePath": "monsters/dragon/adult-red-dragon.yml"
         },
         {
@@ -4415,33 +3947,6 @@
           "pack": "monsters",
           "id": "geM2F7HvVGhtk3h4",
           "name": "Adult Silver Dragon",
-          "fieldPath": "items[zyGeyMoiSCtULHw6].system.activities.U5F5qe2Hu0r0yHmk.description.value",
-          "sourcePath": "monsters/dragon/adult-silver-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "geM2F7HvVGhtk3h4",
-          "name": "Adult Silver Dragon",
-          "fieldPath": "items[zyGeyMoiSCtULHw6].system.activities.9gMvqjbgKK42uyzr.description.value",
-          "sourcePath": "monsters/dragon/adult-silver-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "geM2F7HvVGhtk3h4",
-          "name": "Adult Silver Dragon",
-          "fieldPath": "items[zyGeyMoiSCtULHw6].effects[yYbmtst3L1jGwwbF].description",
-          "sourcePath": "monsters/dragon/adult-silver-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "geM2F7HvVGhtk3h4",
-          "name": "Adult Silver Dragon",
           "fieldPath": "items[w953qJLkouOiob82].system.description.value",
           "sourcePath": "monsters/dragon/adult-silver-dragon.yml"
         },
@@ -4452,33 +3957,6 @@
           "id": "3uIursokd3KdZrW3",
           "name": "Adult White Dragon",
           "fieldPath": "items[QAzUtpWvNd9ptDjZ].system.description.value",
-          "sourcePath": "monsters/dragon/adult-white-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "3uIursokd3KdZrW3",
-          "name": "Adult White Dragon",
-          "fieldPath": "items[xlZuzbYZtDVFGyVz].system.description.value",
-          "sourcePath": "monsters/dragon/adult-white-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "3uIursokd3KdZrW3",
-          "name": "Adult White Dragon",
-          "fieldPath": "items[BvB2dSi53xjWSnaF].system.description.value",
-          "sourcePath": "monsters/dragon/adult-white-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "3uIursokd3KdZrW3",
-          "name": "Adult White Dragon",
-          "fieldPath": "items[BvB2dSi53xjWSnaF].system.description.chat",
           "sourcePath": "monsters/dragon/adult-white-dragon.yml"
         },
         {
@@ -4550,15 +4028,6 @@
           "pack": "monsters",
           "id": "SNT0JNVSngUTsj4m",
           "name": "Ancient Blue Dragon",
-          "fieldPath": "items[8xjypoENrUXFuApX].system.description.chat",
-          "sourcePath": "monsters/dragon/ancient-blue-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "SNT0JNVSngUTsj4m",
-          "name": "Ancient Blue Dragon",
           "fieldPath": "items[6wOtUJpwxfAd7g5X].system.description.value",
           "sourcePath": "monsters/dragon/ancient-blue-dragon.yml"
         },
@@ -4578,24 +4047,6 @@
           "id": "pAuiNDr7nvpsW9nG",
           "name": "Ancient Brass Dragon",
           "fieldPath": "items[o8kI0IWURJx3MaqK].system.description.value",
-          "sourcePath": "monsters/dragon/ancient-brass-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "pAuiNDr7nvpsW9nG",
-          "name": "Ancient Brass Dragon",
-          "fieldPath": "items[o8kI0IWURJx3MaqK].system.activities.NBdXGRF1vahbq4p8.description.value",
-          "sourcePath": "monsters/dragon/ancient-brass-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "pAuiNDr7nvpsW9nG",
-          "name": "Ancient Brass Dragon",
-          "fieldPath": "items[o8kI0IWURJx3MaqK].system.activities.O02zuaLvAqtmgutQ.description.value",
           "sourcePath": "monsters/dragon/ancient-brass-dragon.yml"
         },
         {
@@ -4640,24 +4091,6 @@
           "pack": "monsters",
           "id": "35Y64PEFFdvQS0ra",
           "name": "Ancient Bronze Dragon",
-          "fieldPath": "items[fquJJiKubd6XKMXP].system.activities.w2CftR6CLr5PZ7zY.description.value",
-          "sourcePath": "monsters/dragon/ancient-bronze-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "35Y64PEFFdvQS0ra",
-          "name": "Ancient Bronze Dragon",
-          "fieldPath": "items[fquJJiKubd6XKMXP].system.activities.YElWYv6C5UfhAu48.description.value",
-          "sourcePath": "monsters/dragon/ancient-bronze-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "35Y64PEFFdvQS0ra",
-          "name": "Ancient Bronze Dragon",
           "fieldPath": "items[hRzHiaEGCGpfC1cj].system.description.value",
           "sourcePath": "monsters/dragon/ancient-bronze-dragon.yml"
         },
@@ -4677,33 +4110,6 @@
           "id": "u0FWdplSOMTXGnN1",
           "name": "Ancient Copper Dragon",
           "fieldPath": "items[A9Cya4gGBfMB0WCr].system.description.value",
-          "sourcePath": "monsters/dragon/ancient-copper-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "u0FWdplSOMTXGnN1",
-          "name": "Ancient Copper Dragon",
-          "fieldPath": "items[A9Cya4gGBfMB0WCr].system.activities.zTWpuajI6meBb52D.description.value",
-          "sourcePath": "monsters/dragon/ancient-copper-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "u0FWdplSOMTXGnN1",
-          "name": "Ancient Copper Dragon",
-          "fieldPath": "items[A9Cya4gGBfMB0WCr].system.activities.CkPMajPOZWWj3gl0.description.value",
-          "sourcePath": "monsters/dragon/ancient-copper-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "u0FWdplSOMTXGnN1",
-          "name": "Ancient Copper Dragon",
-          "fieldPath": "items[A9Cya4gGBfMB0WCr].effects[5E6iveIba4rYeUbc].description",
           "sourcePath": "monsters/dragon/ancient-copper-dragon.yml"
         },
         {
@@ -4746,54 +4152,9 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
-          "id": "ckOF3vQrnjFnZIDU",
-          "name": "Ancient Gold Dragon",
-          "fieldPath": "items[rkt5Li8O6ix5LCKf].system.activities.o8fOmWWIqCYwGu3C.description.value",
-          "sourcePath": "monsters/dragon/ancient-gold-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ckOF3vQrnjFnZIDU",
-          "name": "Ancient Gold Dragon",
-          "fieldPath": "items[rkt5Li8O6ix5LCKf].system.activities.J4QhEMZOdsyIy2D6.description.value",
-          "sourcePath": "monsters/dragon/ancient-gold-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ckOF3vQrnjFnZIDU",
-          "name": "Ancient Gold Dragon",
-          "fieldPath": "items[rkt5Li8O6ix5LCKf].effects[a5q0M5lHMSOhKxFi].description",
-          "sourcePath": "monsters/dragon/ancient-gold-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
           "id": "zjqjcRWKDMc59Tnx",
           "name": "Ancient Green Dragon",
           "fieldPath": "items[lQLxY76Q2g6iB9UT].system.description.value",
-          "sourcePath": "monsters/dragon/ancient-green-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "zjqjcRWKDMc59Tnx",
-          "name": "Ancient Green Dragon",
-          "fieldPath": "items[24ASM5lkwXZkQtEC].system.description.value",
-          "sourcePath": "monsters/dragon/ancient-green-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "zjqjcRWKDMc59Tnx",
-          "name": "Ancient Green Dragon",
-          "fieldPath": "items[24ASM5lkwXZkQtEC].system.description.chat",
           "sourcePath": "monsters/dragon/ancient-green-dragon.yml"
         },
         {
@@ -4812,24 +4173,6 @@
           "id": "vFeFRlF2FOgf2HIL",
           "name": "Ancient Red Dragon",
           "fieldPath": "items[Whn4pPAB1YSnvocN].system.description.value",
-          "sourcePath": "monsters/dragon/ancient-red-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "vFeFRlF2FOgf2HIL",
-          "name": "Ancient Red Dragon",
-          "fieldPath": "items[YNcRo7g6odnkv8XG].system.description.value",
-          "sourcePath": "monsters/dragon/ancient-red-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "vFeFRlF2FOgf2HIL",
-          "name": "Ancient Red Dragon",
-          "fieldPath": "items[YNcRo7g6odnkv8XG].system.description.chat",
           "sourcePath": "monsters/dragon/ancient-red-dragon.yml"
         },
         {
@@ -4872,33 +4215,6 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
-          "id": "gf9QbHdMAfvFtxcv",
-          "name": "Ancient Silver Dragon",
-          "fieldPath": "items[eBC65VcONbhbFHwI].system.activities.U5F5qe2Hu0r0yHmk.description.value",
-          "sourcePath": "monsters/dragon/ancient-silver-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "gf9QbHdMAfvFtxcv",
-          "name": "Ancient Silver Dragon",
-          "fieldPath": "items[eBC65VcONbhbFHwI].system.activities.9gMvqjbgKK42uyzr.description.value",
-          "sourcePath": "monsters/dragon/ancient-silver-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "gf9QbHdMAfvFtxcv",
-          "name": "Ancient Silver Dragon",
-          "fieldPath": "items[eBC65VcONbhbFHwI].effects[yYbmtst3L1jGwwbF].description",
-          "sourcePath": "monsters/dragon/ancient-silver-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
           "id": "aTITHYYxthuZBPBn",
           "name": "Ancient White Dragon",
           "fieldPath": "items[UGfL5qnzzi2y2pNj].system.description.value",
@@ -4910,34 +4226,7 @@
           "pack": "monsters",
           "id": "aTITHYYxthuZBPBn",
           "name": "Ancient White Dragon",
-          "fieldPath": "items[imkVNL6yWfO8SvHL].system.description.value",
-          "sourcePath": "monsters/dragon/ancient-white-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "aTITHYYxthuZBPBn",
-          "name": "Ancient White Dragon",
           "fieldPath": "items[Fx66mIor2imnS9m9].system.description.value",
-          "sourcePath": "monsters/dragon/ancient-white-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "aTITHYYxthuZBPBn",
-          "name": "Ancient White Dragon",
-          "fieldPath": "items[B6x6ELPZ0slZPuXN].system.description.value",
-          "sourcePath": "monsters/dragon/ancient-white-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "aTITHYYxthuZBPBn",
-          "name": "Ancient White Dragon",
-          "fieldPath": "items[B6x6ELPZ0slZPuXN].system.description.chat",
           "sourcePath": "monsters/dragon/ancient-white-dragon.yml"
         },
         {
@@ -4971,36 +4260,9 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
-          "id": "najtPRiHLR6buSWe",
-          "name": "Blue Dragon Wyrmling",
-          "fieldPath": "items[7LCUjJcHm3odI9C8].system.description.chat",
-          "sourcePath": "monsters/dragon/blue-dragon-wyrmling.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
           "id": "azCbLQt5LAYwTI7U",
           "name": "Brass Dragon Wyrmling",
           "fieldPath": "items[JmVLjWM4G6OOQxl4].system.description.value",
-          "sourcePath": "monsters/dragon/brass-dragon-wyrmling.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "azCbLQt5LAYwTI7U",
-          "name": "Brass Dragon Wyrmling",
-          "fieldPath": "items[JmVLjWM4G6OOQxl4].system.activities.NBdXGRF1vahbq4p8.description.value",
-          "sourcePath": "monsters/dragon/brass-dragon-wyrmling.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "azCbLQt5LAYwTI7U",
-          "name": "Brass Dragon Wyrmling",
-          "fieldPath": "items[JmVLjWM4G6OOQxl4].system.activities.O02zuaLvAqtmgutQ.description.value",
           "sourcePath": "monsters/dragon/brass-dragon-wyrmling.yml"
         },
         {
@@ -5025,54 +4287,9 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
-          "id": "hY9ptpO5Xl2tfkcj",
-          "name": "Bronze Dragon Wyrmling",
-          "fieldPath": "items[DogAlXwHCyvsBynk].system.activities.w2CftR6CLr5PZ7zY.description.value",
-          "sourcePath": "monsters/dragon/bronze-dragon-wyrmling.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "hY9ptpO5Xl2tfkcj",
-          "name": "Bronze Dragon Wyrmling",
-          "fieldPath": "items[DogAlXwHCyvsBynk].system.activities.YElWYv6C5UfhAu48.description.value",
-          "sourcePath": "monsters/dragon/bronze-dragon-wyrmling.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
           "id": "AyvniEKtyroOe83p",
           "name": "Copper Dragon Wyrmling",
           "fieldPath": "items[XuuhDCc4RQcZOXUL].system.description.value",
-          "sourcePath": "monsters/dragon/copper-dragon-wyrmling.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "AyvniEKtyroOe83p",
-          "name": "Copper Dragon Wyrmling",
-          "fieldPath": "items[XuuhDCc4RQcZOXUL].system.activities.zTWpuajI6meBb52D.description.value",
-          "sourcePath": "monsters/dragon/copper-dragon-wyrmling.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "AyvniEKtyroOe83p",
-          "name": "Copper Dragon Wyrmling",
-          "fieldPath": "items[XuuhDCc4RQcZOXUL].system.activities.CkPMajPOZWWj3gl0.description.value",
-          "sourcePath": "monsters/dragon/copper-dragon-wyrmling.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "AyvniEKtyroOe83p",
-          "name": "Copper Dragon Wyrmling",
-          "fieldPath": "items[XuuhDCc4RQcZOXUL].effects[5E6iveIba4rYeUbc].description",
           "sourcePath": "monsters/dragon/copper-dragon-wyrmling.yml"
         },
         {
@@ -5142,51 +4359,6 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
-          "id": "naSoHU9KbkgeNIwB",
-          "name": "Gold Dragon Wyrmling",
-          "fieldPath": "items[5vCVx0zwz1FKIvTX].system.activities.o8fOmWWIqCYwGu3C.description.value",
-          "sourcePath": "monsters/dragon/gold-dragon-wyrmling.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "naSoHU9KbkgeNIwB",
-          "name": "Gold Dragon Wyrmling",
-          "fieldPath": "items[5vCVx0zwz1FKIvTX].system.activities.J4QhEMZOdsyIy2D6.description.value",
-          "sourcePath": "monsters/dragon/gold-dragon-wyrmling.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "naSoHU9KbkgeNIwB",
-          "name": "Gold Dragon Wyrmling",
-          "fieldPath": "items[5vCVx0zwz1FKIvTX].effects[a5q0M5lHMSOhKxFi].description",
-          "sourcePath": "monsters/dragon/gold-dragon-wyrmling.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "KH6ZrUiUOKQCOlRH",
-          "name": "Green Dragon Wyrmling",
-          "fieldPath": "items[pFFlq9KvfXzAxhU8].system.description.value",
-          "sourcePath": "monsters/dragon/green-dragon-wyrmling.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "KH6ZrUiUOKQCOlRH",
-          "name": "Green Dragon Wyrmling",
-          "fieldPath": "items[pFFlq9KvfXzAxhU8].system.description.chat",
-          "sourcePath": "monsters/dragon/green-dragon-wyrmling.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
           "id": "fkCNtbvPOMd7mipF",
           "name": "Pseudodragon",
           "fieldPath": "items[heZCHSZEeLLiweK7].system.description.value",
@@ -5241,73 +4413,10 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
-          "id": "zgWkII3VoE4AHCND",
-          "name": "Red Dragon Wyrmling",
-          "fieldPath": "items[KVIjYSLZoYmdFwzS].system.description.value",
-          "sourcePath": "monsters/dragon/red-dragon-wyrmling.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "zgWkII3VoE4AHCND",
-          "name": "Red Dragon Wyrmling",
-          "fieldPath": "items[KVIjYSLZoYmdFwzS].system.description.chat",
-          "sourcePath": "monsters/dragon/red-dragon-wyrmling.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
           "id": "J1QVPd8POvcPaqx4",
           "name": "Silver Dragon Wyrmling",
           "fieldPath": "items[ENcwNUKxDAqH6V9l].system.description.value",
           "sourcePath": "monsters/dragon/silver-dragon-wyrmling.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "J1QVPd8POvcPaqx4",
-          "name": "Silver Dragon Wyrmling",
-          "fieldPath": "items[ENcwNUKxDAqH6V9l].system.activities.U5F5qe2Hu0r0yHmk.description.value",
-          "sourcePath": "monsters/dragon/silver-dragon-wyrmling.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "J1QVPd8POvcPaqx4",
-          "name": "Silver Dragon Wyrmling",
-          "fieldPath": "items[ENcwNUKxDAqH6V9l].system.activities.9gMvqjbgKK42uyzr.description.value",
-          "sourcePath": "monsters/dragon/silver-dragon-wyrmling.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "J1QVPd8POvcPaqx4",
-          "name": "Silver Dragon Wyrmling",
-          "fieldPath": "items[ENcwNUKxDAqH6V9l].effects[yYbmtst3L1jGwwbF].description",
-          "sourcePath": "monsters/dragon/silver-dragon-wyrmling.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "vc2TAgIuq4yInjbf",
-          "name": "White Dragon Wyrmling",
-          "fieldPath": "items[8ZXdgzpI6WytT63w].system.description.value",
-          "sourcePath": "monsters/dragon/white-dragon-wyrmling.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "vc2TAgIuq4yInjbf",
-          "name": "White Dragon Wyrmling",
-          "fieldPath": "items[8ZXdgzpI6WytT63w].system.description.chat",
-          "sourcePath": "monsters/dragon/white-dragon-wyrmling.yml"
         },
         {
           "code": "missing-field",
@@ -5385,15 +4494,6 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
-          "id": "mNijwXPMhwR7yYfc",
-          "name": "Young Blue Dragon",
-          "fieldPath": "items[dDDGb8PVdU0irZz8].system.description.chat",
-          "sourcePath": "monsters/dragon/young-blue-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
           "id": "FzvZ6xl3U9GoL9ju",
           "name": "Young Brass Dragon",
           "fieldPath": "items[oyNvUJRyGRVF22t8].system.description.value",
@@ -5406,24 +4506,6 @@
           "id": "FzvZ6xl3U9GoL9ju",
           "name": "Young Brass Dragon",
           "fieldPath": "items[K9vktdgJkPWfYjwa].system.description.value",
-          "sourcePath": "monsters/dragon/young-brass-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "FzvZ6xl3U9GoL9ju",
-          "name": "Young Brass Dragon",
-          "fieldPath": "items[K9vktdgJkPWfYjwa].system.activities.NBdXGRF1vahbq4p8.description.value",
-          "sourcePath": "monsters/dragon/young-brass-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "FzvZ6xl3U9GoL9ju",
-          "name": "Young Brass Dragon",
-          "fieldPath": "items[K9vktdgJkPWfYjwa].system.activities.O02zuaLvAqtmgutQ.description.value",
           "sourcePath": "monsters/dragon/young-brass-dragon.yml"
         },
         {
@@ -5457,24 +4539,6 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
-          "id": "NmQLj0zv4FmfuSan",
-          "name": "Young Bronze Dragon",
-          "fieldPath": "items[nRygf5tL7Jm91beK].system.activities.w2CftR6CLr5PZ7zY.description.value",
-          "sourcePath": "monsters/dragon/young-bronze-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "NmQLj0zv4FmfuSan",
-          "name": "Young Bronze Dragon",
-          "fieldPath": "items[nRygf5tL7Jm91beK].system.activities.YElWYv6C5UfhAu48.description.value",
-          "sourcePath": "monsters/dragon/young-bronze-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
           "id": "qW8cBwg7ghCA4Cw6",
           "name": "Young Copper Dragon",
           "fieldPath": "items[kk9fXkx19bCD5Qqv].system.description.value",
@@ -5487,33 +4551,6 @@
           "id": "qW8cBwg7ghCA4Cw6",
           "name": "Young Copper Dragon",
           "fieldPath": "items[3oecwwSby4Of0PrD].system.description.value",
-          "sourcePath": "monsters/dragon/young-copper-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "qW8cBwg7ghCA4Cw6",
-          "name": "Young Copper Dragon",
-          "fieldPath": "items[3oecwwSby4Of0PrD].system.activities.zTWpuajI6meBb52D.description.value",
-          "sourcePath": "monsters/dragon/young-copper-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "qW8cBwg7ghCA4Cw6",
-          "name": "Young Copper Dragon",
-          "fieldPath": "items[3oecwwSby4Of0PrD].system.activities.CkPMajPOZWWj3gl0.description.value",
-          "sourcePath": "monsters/dragon/young-copper-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "qW8cBwg7ghCA4Cw6",
-          "name": "Young Copper Dragon",
-          "fieldPath": "items[3oecwwSby4Of0PrD].effects[5E6iveIba4rYeUbc].description",
           "sourcePath": "monsters/dragon/young-copper-dragon.yml"
         },
         {
@@ -5538,54 +4575,9 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
-          "id": "QSytPah5WKoFJ1zt",
-          "name": "Young Gold Dragon",
-          "fieldPath": "items[VnIBkSFvqaQrq10M].system.activities.o8fOmWWIqCYwGu3C.description.value",
-          "sourcePath": "monsters/dragon/young-gold-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "QSytPah5WKoFJ1zt",
-          "name": "Young Gold Dragon",
-          "fieldPath": "items[VnIBkSFvqaQrq10M].system.activities.J4QhEMZOdsyIy2D6.description.value",
-          "sourcePath": "monsters/dragon/young-gold-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "QSytPah5WKoFJ1zt",
-          "name": "Young Gold Dragon",
-          "fieldPath": "items[VnIBkSFvqaQrq10M].effects[a5q0M5lHMSOhKxFi].description",
-          "sourcePath": "monsters/dragon/young-gold-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
           "id": "85ahD1jEo9B3POaQ",
           "name": "Young Green Dragon",
           "fieldPath": "items[Ux1Gv0S29JzRaD27].system.description.value",
-          "sourcePath": "monsters/dragon/young-green-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "85ahD1jEo9B3POaQ",
-          "name": "Young Green Dragon",
-          "fieldPath": "items[y0ah5CNeERfDAyP9].system.description.value",
-          "sourcePath": "monsters/dragon/young-green-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "85ahD1jEo9B3POaQ",
-          "name": "Young Green Dragon",
-          "fieldPath": "items[y0ah5CNeERfDAyP9].system.description.chat",
           "sourcePath": "monsters/dragon/young-green-dragon.yml"
         },
         {
@@ -5610,24 +4602,6 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
-          "id": "qrasJNDC7SGj7xzG",
-          "name": "Young Red Dragon",
-          "fieldPath": "items[zapwzE9ylLBsufXf].system.description.value",
-          "sourcePath": "monsters/dragon/young-red-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "qrasJNDC7SGj7xzG",
-          "name": "Young Red Dragon",
-          "fieldPath": "items[zapwzE9ylLBsufXf].system.description.chat",
-          "sourcePath": "monsters/dragon/young-red-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
           "id": "eykRfV85DQJoCkmc",
           "name": "Young Silver Dragon",
           "fieldPath": "items[dAoWnethMNHwPNDJ].system.description.value",
@@ -5640,33 +4614,6 @@
           "id": "eykRfV85DQJoCkmc",
           "name": "Young Silver Dragon",
           "fieldPath": "items[zwKc0TIAiEv0BNvl].system.description.value",
-          "sourcePath": "monsters/dragon/young-silver-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "eykRfV85DQJoCkmc",
-          "name": "Young Silver Dragon",
-          "fieldPath": "items[zwKc0TIAiEv0BNvl].system.activities.U5F5qe2Hu0r0yHmk.description.value",
-          "sourcePath": "monsters/dragon/young-silver-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "eykRfV85DQJoCkmc",
-          "name": "Young Silver Dragon",
-          "fieldPath": "items[zwKc0TIAiEv0BNvl].system.activities.9gMvqjbgKK42uyzr.description.value",
-          "sourcePath": "monsters/dragon/young-silver-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "eykRfV85DQJoCkmc",
-          "name": "Young Silver Dragon",
-          "fieldPath": "items[zwKc0TIAiEv0BNvl].effects[yYbmtst3L1jGwwbF].description",
           "sourcePath": "monsters/dragon/young-silver-dragon.yml"
         },
         {
@@ -5693,53 +4640,8 @@
           "pack": "monsters",
           "id": "u1UQfHutP5eEKkjM",
           "name": "Young White Dragon",
-          "fieldPath": "items[g2nJbBJ06mRtxEy0].system.description.value",
-          "sourcePath": "monsters/dragon/young-white-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "u1UQfHutP5eEKkjM",
-          "name": "Young White Dragon",
           "fieldPath": "items[lRFwKaRqhFY4xNhJ].system.description.value",
           "sourcePath": "monsters/dragon/young-white-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "u1UQfHutP5eEKkjM",
-          "name": "Young White Dragon",
-          "fieldPath": "items[K38ku0AFxbQfZwXL].system.description.value",
-          "sourcePath": "monsters/dragon/young-white-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "u1UQfHutP5eEKkjM",
-          "name": "Young White Dragon",
-          "fieldPath": "items[K38ku0AFxbQfZwXL].system.description.chat",
-          "sourcePath": "monsters/dragon/young-white-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "banHjKDMCegbUwYE",
-          "name": "Air Elemental",
-          "fieldPath": "items[8FHVwYBJY7dxIv9D].system.description.value",
-          "sourcePath": "monsters/elemental/air-elemental.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "banHjKDMCegbUwYE",
-          "name": "Air Elemental",
-          "fieldPath": "items[8FHVwYBJY7dxIv9D].effects[vpfm0NeYtG6CcTKD].description",
-          "sourcePath": "monsters/elemental/air-elemental.yml"
         },
         {
           "code": "missing-field",
@@ -5796,15 +4698,6 @@
           "pack": "monsters",
           "id": "IiEDPMWqBlzkggYD",
           "name": "Azer",
-          "fieldPath": "items[P0pbiook7Q79UYqQ].system.description.value",
-          "sourcePath": "monsters/elemental/azer.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "IiEDPMWqBlzkggYD",
-          "name": "Azer",
           "fieldPath": "items[WRygAnkpMeaqiw70].system.description.value",
           "sourcePath": "monsters/elemental/azer.yml"
         },
@@ -5815,15 +4708,6 @@
           "id": "IiEDPMWqBlzkggYD",
           "name": "Azer",
           "fieldPath": "items[WRygAnkpMeaqiw70].system.description.chat",
-          "sourcePath": "monsters/elemental/azer.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "IiEDPMWqBlzkggYD",
-          "name": "Azer",
-          "fieldPath": "items[oPddwb4BScCEDanp].system.description.value",
           "sourcePath": "monsters/elemental/azer.yml"
         },
         {
@@ -5971,15 +4855,6 @@
           "pack": "monsters",
           "id": "BUCfQ7ihaXX75Vai",
           "name": "Dust Mephit",
-          "fieldPath": "items[v3i1DaUS4Bkc8Ser].effects[wXabuU5S24Jh5Hu7].description",
-          "sourcePath": "monsters/elemental/dust-mephit.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "BUCfQ7ihaXX75Vai",
-          "name": "Dust Mephit",
           "fieldPath": "items[muKb2wMq6khBe1yH].system.description.value",
           "sourcePath": "monsters/elemental/dust-mephit.yml"
         },
@@ -6005,15 +4880,6 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
-          "id": "BUCfQ7ihaXX75Vai",
-          "name": "Dust Mephit",
-          "fieldPath": "items[RTpPc5fs27dBqDuj].effects[lEgTG8ExKmOG0sIW].description",
-          "sourcePath": "monsters/elemental/dust-mephit.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
           "id": "sApYLZj9PTZ40wJr",
           "name": "Earth Elemental",
           "fieldPath": "items[Ctnlm397G5vkwWA4].system.description.value",
@@ -6026,15 +4892,6 @@
           "id": "sApYLZj9PTZ40wJr",
           "name": "Earth Elemental",
           "fieldPath": "items[A8nxS57cG2yZpu1m].system.description.value",
-          "sourcePath": "monsters/elemental/earth-elemental.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "sApYLZj9PTZ40wJr",
-          "name": "Earth Elemental",
-          "fieldPath": "items[k8x76Y7EMOOH2VM0].system.description.value",
           "sourcePath": "monsters/elemental/earth-elemental.yml"
         },
         {
@@ -6119,15 +4976,6 @@
           "pack": "monsters",
           "id": "8SMQl75HLjhuSeau",
           "name": "Fire Elemental",
-          "fieldPath": "items[yud1cnEVQ9KxbmWc].effects[JaPKJu7WX0QierHn].description",
-          "sourcePath": "monsters/elemental/fire-elemental.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "8SMQl75HLjhuSeau",
-          "name": "Fire Elemental",
           "fieldPath": "items[yud1cnEVQ9KxbmWc].effects[PoqGwdVp6MQTpIOh].description",
           "sourcePath": "monsters/elemental/fire-elemental.yml"
         },
@@ -6183,15 +5031,6 @@
           "id": "8SMQl75HLjhuSeau",
           "name": "Fire Elemental",
           "fieldPath": "items[fdt2FIirmBRCpRBm].system.activities.dFEUCLc4Cmb2DETC.description.value",
-          "sourcePath": "monsters/elemental/fire-elemental.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "8SMQl75HLjhuSeau",
-          "name": "Fire Elemental",
-          "fieldPath": "items[fdt2FIirmBRCpRBm].effects[kMWp6sv06eOgiQ5W].description",
           "sourcePath": "monsters/elemental/fire-elemental.yml"
         },
         {
@@ -6496,15 +5335,6 @@
           "pack": "monsters",
           "id": "yVNPVJIBpQ2Mp3Xa",
           "name": "Salamander",
-          "fieldPath": "items[2n8ByeQNl7QkjNVA].system.description.value",
-          "sourcePath": "monsters/elemental/salamander.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "yVNPVJIBpQ2Mp3Xa",
-          "name": "Salamander",
           "fieldPath": "items[2n8ByeQNl7QkjNVA].system.description.chat",
           "sourcePath": "monsters/elemental/salamander.yml"
         },
@@ -6533,15 +5363,6 @@
           "id": "yVNPVJIBpQ2Mp3Xa",
           "name": "Salamander",
           "fieldPath": "items[rvRy41yt9zowrAr1].system.description.chat",
-          "sourcePath": "monsters/elemental/salamander.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "yVNPVJIBpQ2Mp3Xa",
-          "name": "Salamander",
-          "fieldPath": "items[rvRy41yt9zowrAr1].effects[hEwZP7oYnc1IS0fZ].description",
           "sourcePath": "monsters/elemental/salamander.yml"
         },
         {
@@ -6649,24 +5470,6 @@
           "pack": "monsters",
           "id": "namJz755U1EhvEJa",
           "name": "Water Elemental",
-          "fieldPath": "items[6AQXZ1FlO8qhnPTR].system.description.value",
-          "sourcePath": "monsters/elemental/water-elemental.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "namJz755U1EhvEJa",
-          "name": "Water Elemental",
-          "fieldPath": "items[6AQXZ1FlO8qhnPTR].effects[5X6BAIpB87THEIZe].description",
-          "sourcePath": "monsters/elemental/water-elemental.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "namJz755U1EhvEJa",
-          "name": "Water Elemental",
           "fieldPath": "items[9saHudPLoj6va2em].system.description.value",
           "sourcePath": "monsters/elemental/water-elemental.yml"
         },
@@ -6735,15 +5538,6 @@
           "id": "2MZNHeOZweXAYbv1",
           "name": "Xorn",
           "fieldPath": "items[kRGZU8eMwOBt3kVd].system.description.value",
-          "sourcePath": "monsters/elemental/xorn.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "2MZNHeOZweXAYbv1",
-          "name": "Xorn",
-          "fieldPath": "items[ryNcNrIgtkYHRKWj].system.description.value",
           "sourcePath": "monsters/elemental/xorn.yml"
         },
         {
@@ -6987,15 +5781,6 @@
           "id": "MUpBNDoJEr09bLaO",
           "name": "Sprite",
           "fieldPath": "items[YN8cO9SCNOIFJcmw].system.activities.vMfBrhdjnxaKy0Wn.description.value",
-          "sourcePath": "monsters/fey/sprite.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "MUpBNDoJEr09bLaO",
-          "name": "Sprite",
-          "fieldPath": "items[YN8cO9SCNOIFJcmw].effects[ncfr9hbuEu2mr5kI].description",
           "sourcePath": "monsters/fey/sprite.yml"
         },
         {
@@ -7556,15 +6341,6 @@
           "sourcePath": "monsters/fiend/erinyes.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "3o2rQBqpzjIHmrBW",
-          "name": "Erinyes",
-          "fieldPath": "items[QPblx5JLbidICNT5].system.description.chat",
-          "sourcePath": "monsters/fiend/erinyes.yml"
-        },
-        {
           "code": "unchanged-english",
           "value": "Glabrezu",
           "message": "Visible translation is identical to the English source",
@@ -7696,15 +6472,6 @@
           "id": "ec3lhsNv1ZRu7Qaq",
           "name": "Hezrou",
           "fieldPath": "items[0EcUwWcmWzFuiJyg].system.description.chat",
-          "sourcePath": "monsters/fiend/hezrou.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ec3lhsNv1ZRu7Qaq",
-          "name": "Hezrou",
-          "fieldPath": "items[0EcUwWcmWzFuiJyg].effects[8m7q66OJYEBYu2DB].description",
           "sourcePath": "monsters/fiend/hezrou.yml"
         },
         {
@@ -7879,15 +6646,6 @@
           "pack": "monsters",
           "id": "dLQiESMsfsXijD5c",
           "name": "Imp",
-          "fieldPath": "items[ABjkKWIBbRYp2fy5].system.description.chat",
-          "sourcePath": "monsters/fiend/imp.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "dLQiESMsfsXijD5c",
-          "name": "Imp",
           "fieldPath": "items[ABjkKWIBbRYp2fy5].effects[dJA0IOGziAr9Onj9].description",
           "sourcePath": "monsters/fiend/imp.yml"
         },
@@ -8008,15 +6766,6 @@
           "sourcePath": "monsters/fiend/marilith.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "egsSDYbqoLCelb0J",
-          "name": "Marilith",
-          "fieldPath": "items[lS2o3QOZ2lxKyi0L].system.description.chat",
-          "sourcePath": "monsters/fiend/marilith.yml"
-        },
-        {
           "code": "unchanged-english",
           "value": "Nalfeshnee",
           "message": "Visible translation is identical to the English source",
@@ -8098,15 +6847,6 @@
           "pack": "monsters",
           "id": "xvh2UOKv1bh03Gih",
           "name": "Night Hag",
-          "fieldPath": "items[9Gf1hal94HjuAHMN].system.description.value",
-          "sourcePath": "monsters/fiend/night-hag.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "xvh2UOKv1bh03Gih",
-          "name": "Night Hag",
           "fieldPath": "items[ftmaVOSJXvHPhraJ].system.description.value",
           "sourcePath": "monsters/fiend/night-hag.yml"
         },
@@ -8153,15 +6893,6 @@
           "id": "5SgVGhQBswgWRwsF",
           "name": "Nightmare",
           "fieldPath": "items[ez0lp4uo2fLOc5Yf].effects[MNgx8MPcSucyc8VN].description",
-          "sourcePath": "monsters/fiend/nightmare.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "5SgVGhQBswgWRwsF",
-          "name": "Nightmare",
-          "fieldPath": "items[YXCQq6M3IGaLDz2M].system.description.value",
           "sourcePath": "monsters/fiend/nightmare.yml"
         },
         {
@@ -8292,15 +7023,6 @@
           "id": "bwtkdzavdNHISgp4",
           "name": "Quasit",
           "fieldPath": "items[MLfZqvhaJjB78YiT].system.description.value",
-          "sourcePath": "monsters/fiend/quasit.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "bwtkdzavdNHISgp4",
-          "name": "Quasit",
-          "fieldPath": "items[MLfZqvhaJjB78YiT].system.description.chat",
           "sourcePath": "monsters/fiend/quasit.yml"
         },
         {
@@ -8858,15 +7580,6 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
-          "id": "SOin81NWijHRvXFK",
-          "name": "Stone Giant",
-          "fieldPath": "items[e4p65TbhzdVU810V].system.description.value",
-          "sourcePath": "monsters/giant/stone-giant.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
           "id": "68bAMIpe4jvDeR9G",
           "name": "Storm Giant",
           "fieldPath": "items[2tzFjiAiXJLEpuCn].system.description.value",
@@ -9252,15 +7965,6 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
-          "id": "tYfQIxCJT0WaaKmc",
-          "name": "Cult Fanatic",
-          "fieldPath": "items[WfqCnxOUS8aXxd7O].system.description.value",
-          "sourcePath": "monsters/humanoid/cult-fanatic.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
           "id": "qkLNA1lKMMJpxuWg",
           "name": "Cultist",
           "fieldPath": "items[FQU02Jwlmdhzp34R].system.description.value",
@@ -9309,24 +8013,6 @@
           "id": "ZM1P6LoYSwMiIJN9",
           "name": "Deep Gnome",
           "fieldPath": "items[YuhirWYJsQfL6zo5].system.activities.yYJMmbs4vnoxnf8U.description.value",
-          "sourcePath": "monsters/humanoid/deep-gnome.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ZM1P6LoYSwMiIJN9",
-          "name": "Deep Gnome",
-          "fieldPath": "items[YuhirWYJsQfL6zo5].effects[QjIZgOv27bdE0Zuu].description",
-          "sourcePath": "monsters/humanoid/deep-gnome.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ZM1P6LoYSwMiIJN9",
-          "name": "Deep Gnome",
-          "fieldPath": "items[lYjhcBIYyCekV7nD].system.description.value",
           "sourcePath": "monsters/humanoid/deep-gnome.yml"
         },
         {
@@ -9385,15 +8071,6 @@
           "id": "1vaBSMUfOy6JPJ14",
           "name": "Drow",
           "fieldPath": "items[LqnhZjRtRqhLIFTm].system.activities.k2VWbxuUXUpfkpoz.description.value",
-          "sourcePath": "monsters/humanoid/drow.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "1vaBSMUfOy6JPJ14",
-          "name": "Drow",
-          "fieldPath": "items[LqnhZjRtRqhLIFTm].effects[yjNxc3DxFYNIUZ7n].description",
           "sourcePath": "monsters/humanoid/drow.yml"
         },
         {
@@ -9722,15 +8399,6 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
-          "id": "GpeQYtlo8oGvGlkM",
-          "name": "Grimlock",
-          "fieldPath": "items[VxPre1G0W6fDh5VL].system.description.value",
-          "sourcePath": "monsters/humanoid/grimlock.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
           "id": "E9CvDPDg5dFEpVjS",
           "name": "Guard",
           "fieldPath": "items[92uVNexE43Z8D18r].system.description.value",
@@ -9743,24 +8411,6 @@
           "id": "5TmstVMURpVtmNR3",
           "name": "Half-Red Dragon Veteran",
           "fieldPath": "items[MTqXmkJOXkp4bFMQ].system.description.value",
-          "sourcePath": "monsters/humanoid/half-red-dragon-veteran.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "5TmstVMURpVtmNR3",
-          "name": "Half-Red Dragon Veteran",
-          "fieldPath": "items[OGek5mWlQ9KSAuqj].system.description.value",
-          "sourcePath": "monsters/humanoid/half-red-dragon-veteran.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "5TmstVMURpVtmNR3",
-          "name": "Half-Red Dragon Veteran",
-          "fieldPath": "items[OGek5mWlQ9KSAuqj].system.description.chat",
           "sourcePath": "monsters/humanoid/half-red-dragon-veteran.yml"
         },
         {
@@ -9809,15 +8459,6 @@
           "pack": "monsters",
           "id": "D5UqYD1EnTrJaMTO",
           "name": "Knight",
-          "fieldPath": "items[46b7R0DbKIsxvWcv].system.description.value",
-          "sourcePath": "monsters/humanoid/knight.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "D5UqYD1EnTrJaMTO",
-          "name": "Knight",
           "fieldPath": "items[FK0ZF8egty0u713z].system.description.value",
           "sourcePath": "monsters/humanoid/knight.yml"
         },
@@ -9840,15 +8481,6 @@
           "sourcePath": "monsters/humanoid/knight.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "D5UqYD1EnTrJaMTO",
-          "name": "Knight",
-          "fieldPath": "items[FbpxIEzUNTLk7pYO].system.description.chat",
-          "sourcePath": "monsters/humanoid/knight.yml"
-        },
-        {
           "code": "unchanged-english",
           "value": "Lizardfolk",
           "message": "Visible translation is identical to the English source",
@@ -9857,15 +8489,6 @@
           "id": "57DofLgRQx16ARoc",
           "name": "Lizardfolk",
           "fieldPath": "name",
-          "sourcePath": "monsters/humanoid/lizardfolk.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "57DofLgRQx16ARoc",
-          "name": "Lizardfolk",
-          "fieldPath": "items[14epJr1iwk3pnPVs].system.description.value",
           "sourcePath": "monsters/humanoid/lizardfolk.yml"
         },
         {
@@ -9912,15 +8535,6 @@
           "name": "Merfolk",
           "fieldPath": "items[sN28gnBGF2TVdd53].system.description.value",
           "sourcePath": "monsters/humanoid/merfolk.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "GlaCGcgIP6YjBjGc",
-          "name": "Noble",
-          "fieldPath": "items[gJ5Nl48TvnTHZarp].system.description.chat",
-          "sourcePath": "monsters/humanoid/noble.yml"
         },
         {
           "code": "missing-field",
@@ -10051,15 +8665,6 @@
           "pack": "monsters",
           "id": "lyNBFmJdbh4NLRzz",
           "name": "Sahuagin",
-          "fieldPath": "items[7CEYhqOfXEDkrLDx].system.description.value",
-          "sourcePath": "monsters/humanoid/sahuagin.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "lyNBFmJdbh4NLRzz",
-          "name": "Sahuagin",
           "fieldPath": "items[QJSOQXewtM4dM59t].system.description.value",
           "sourcePath": "monsters/humanoid/sahuagin.yml"
         },
@@ -10141,24 +8746,6 @@
           "pack": "monsters",
           "id": "oRBnO5OHoOZzlCOr",
           "name": "Werebear",
-          "fieldPath": "items[D8QWBbYLFAT7uIiz].system.description.chat",
-          "sourcePath": "monsters/humanoid/werebear.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "oRBnO5OHoOZzlCOr",
-          "name": "Werebear",
-          "fieldPath": "items[D8QWBbYLFAT7uIiz].effects[cOUQA2zcqWXsrHZP].description",
-          "sourcePath": "monsters/humanoid/werebear.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "oRBnO5OHoOZzlCOr",
-          "name": "Werebear",
           "fieldPath": "items[D8QWBbYLFAT7uIiz].effects[pxfLK99CLDftSacp].description",
           "sourcePath": "monsters/humanoid/werebear.yml"
         },
@@ -10187,15 +8774,6 @@
           "id": "oRBnO5OHoOZzlCOr",
           "name": "Werebear",
           "fieldPath": "items[h9XO0f5Un3EhJqHm].system.description.value",
-          "sourcePath": "monsters/humanoid/werebear.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "oRBnO5OHoOZzlCOr",
-          "name": "Werebear",
-          "fieldPath": "items[h9XO0f5Un3EhJqHm].system.description.chat",
           "sourcePath": "monsters/humanoid/werebear.yml"
         },
         {
@@ -10303,15 +8881,6 @@
           "pack": "monsters",
           "id": "J9hgSaZODGjrNl9B",
           "name": "Wereboar",
-          "fieldPath": "items[zzskoOXzAiMDZfbc].effects[K4vjNxNcAsqLpwOb].description",
-          "sourcePath": "monsters/humanoid/wereboar.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "J9hgSaZODGjrNl9B",
-          "name": "Wereboar",
           "fieldPath": "items[zzskoOXzAiMDZfbc].effects[nYH7cLPBIPGh4QgN].description",
           "sourcePath": "monsters/humanoid/wereboar.yml"
         },
@@ -10384,24 +8953,6 @@
           "pack": "monsters",
           "id": "CrnUJhTbkdZjCZsH",
           "name": "Wererat",
-          "fieldPath": "items[PhdUmTsYUeWSSDNN].system.description.chat",
-          "sourcePath": "monsters/humanoid/wererat.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "CrnUJhTbkdZjCZsH",
-          "name": "Wererat",
-          "fieldPath": "items[PhdUmTsYUeWSSDNN].effects[qmqGUOYBjP4rSWNU].description",
-          "sourcePath": "monsters/humanoid/wererat.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "CrnUJhTbkdZjCZsH",
-          "name": "Wererat",
           "fieldPath": "items[PhdUmTsYUeWSSDNN].effects[yc01pea2fc1DSSns].description",
           "sourcePath": "monsters/humanoid/wererat.yml"
         },
@@ -10430,15 +8981,6 @@
           "id": "CrnUJhTbkdZjCZsH",
           "name": "Wererat",
           "fieldPath": "items[ldz0yUpzhV9Xlhss].system.description.value",
-          "sourcePath": "monsters/humanoid/wererat.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "CrnUJhTbkdZjCZsH",
-          "name": "Wererat",
-          "fieldPath": "items[ldz0yUpzhV9Xlhss].system.description.chat",
           "sourcePath": "monsters/humanoid/wererat.yml"
         },
         {
@@ -10484,24 +9026,6 @@
           "id": "zIr3NaNF0mWz5Ahq",
           "name": "Weretiger",
           "fieldPath": "items[EjU9p4Wh1U2wsnFK].system.description.value",
-          "sourcePath": "monsters/humanoid/weretiger.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "zIr3NaNF0mWz5Ahq",
-          "name": "Weretiger",
-          "fieldPath": "items[EjU9p4Wh1U2wsnFK].system.description.chat",
-          "sourcePath": "monsters/humanoid/weretiger.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "zIr3NaNF0mWz5Ahq",
-          "name": "Weretiger",
-          "fieldPath": "items[EjU9p4Wh1U2wsnFK].effects[8E3ebjn8NLGzDZTp].description",
           "sourcePath": "monsters/humanoid/weretiger.yml"
         },
         {
@@ -10564,15 +9088,6 @@
           "pack": "monsters",
           "id": "zIr3NaNF0mWz5Ahq",
           "name": "Weretiger",
-          "fieldPath": "items[FOkSL18gU0Sli5ZA].system.description.chat",
-          "sourcePath": "monsters/humanoid/weretiger.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "zIr3NaNF0mWz5Ahq",
-          "name": "Weretiger",
           "fieldPath": "items[FOkSL18gU0Sli5ZA].system.activities.GbqEwcKP1alZKGDl.description.value",
           "sourcePath": "monsters/humanoid/weretiger.yml"
         },
@@ -10619,15 +9134,6 @@
           "id": "7tRhrxuknTpHpYcA",
           "name": "Werewolf",
           "fieldPath": "items[tWfR8uJNnQxpXgDw].system.description.value",
-          "sourcePath": "monsters/humanoid/werewolf.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "7tRhrxuknTpHpYcA",
-          "name": "Werewolf",
-          "fieldPath": "items[tWfR8uJNnQxpXgDw].system.description.chat",
           "sourcePath": "monsters/humanoid/werewolf.yml"
         },
         {
@@ -10691,24 +9197,6 @@
           "id": "7tRhrxuknTpHpYcA",
           "name": "Werewolf",
           "fieldPath": "items[2kHNI1T4gg879fDv].system.description.value",
-          "sourcePath": "monsters/humanoid/werewolf.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "7tRhrxuknTpHpYcA",
-          "name": "Werewolf",
-          "fieldPath": "items[2kHNI1T4gg879fDv].system.description.chat",
-          "sourcePath": "monsters/humanoid/werewolf.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "7tRhrxuknTpHpYcA",
-          "name": "Werewolf",
-          "fieldPath": "items[2kHNI1T4gg879fDv].effects[wobMCqAriIDoX5zV].description",
           "sourcePath": "monsters/humanoid/werewolf.yml"
         },
         {
@@ -10825,15 +9313,6 @@
           "pack": "monsters",
           "id": "nEC1BRwM8Lx9hLXW",
           "name": "Androsphinx",
-          "fieldPath": "items[ez87kySQJgKUPT9L].effects[QGykY23zVVKEmOse].description",
-          "sourcePath": "monsters/monstrosity/androsphinx.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "nEC1BRwM8Lx9hLXW",
-          "name": "Androsphinx",
           "fieldPath": "items[fZY6aMo87z2iSl9Q].system.description.value",
           "sourcePath": "monsters/monstrosity/androsphinx.yml"
         },
@@ -10910,15 +9389,6 @@
           "pack": "monsters",
           "id": "Wcsjbl25uiUsyQwn",
           "name": "Ankheg",
-          "fieldPath": "items[mGamlcdui038L6gU].effects[lOkOoFpPHlDtyhFX].description",
-          "sourcePath": "monsters/monstrosity/ankheg.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "Wcsjbl25uiUsyQwn",
-          "name": "Ankheg",
           "fieldPath": "items[XZwZexkrBLOzLo1Q].system.description.value",
           "sourcePath": "monsters/monstrosity/ankheg.yml"
         },
@@ -10956,15 +9426,6 @@
           "id": "hqj2yXtgwt64v3Lj",
           "name": "Basilisk",
           "fieldPath": "items[bKBPawscKpixPeO0].effects[dlT1Vtz6YqV7Qf5I].description",
-          "sourcePath": "monsters/monstrosity/basilisk.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "hqj2yXtgwt64v3Lj",
-          "name": "Basilisk",
-          "fieldPath": "items[bKBPawscKpixPeO0].effects[jfTDhRJiQGf8oyXJ].description",
           "sourcePath": "monsters/monstrosity/basilisk.yml"
         },
         {
@@ -11014,15 +9475,6 @@
           "id": "x47ZnpHfYl0ptDM9",
           "name": "Behir",
           "fieldPath": "items[GCUh42hMUnKtxx8j].system.description.chat",
-          "sourcePath": "monsters/monstrosity/behir.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "x47ZnpHfYl0ptDM9",
-          "name": "Behir",
-          "fieldPath": "items[GCUh42hMUnKtxx8j].effects[vbYNliPPUlwihn64].description",
           "sourcePath": "monsters/monstrosity/behir.yml"
         },
         {
@@ -11434,15 +9886,6 @@
           "pack": "monsters",
           "id": "mWbrPhcKOz6oLXMV",
           "name": "Doppelganger",
-          "fieldPath": "items[Sr7ZTAYd1TQ6Nfto].system.description.value",
-          "sourcePath": "monsters/monstrosity/doppelganger.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "mWbrPhcKOz6oLXMV",
-          "name": "Doppelganger",
           "fieldPath": "items[YIoB9xCKEcrrPRt9].system.description.value",
           "sourcePath": "monsters/monstrosity/doppelganger.yml"
         },
@@ -11613,15 +10056,6 @@
           "pack": "monsters",
           "id": "aKt7vFAS1J0x3FQm",
           "name": "Ettercap",
-          "fieldPath": "items[qpUx52QbFUCSPSln].effects[MCK6rCVeevB937hL].description",
-          "sourcePath": "monsters/monstrosity/ettercap.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "aKt7vFAS1J0x3FQm",
-          "name": "Ettercap",
           "fieldPath": "items[W9YaQ2zrCYR6sjNk].system.description.value",
           "sourcePath": "monsters/monstrosity/ettercap.yml"
         },
@@ -11689,15 +10123,6 @@
           "sourcePath": "monsters/monstrosity/gorgon.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "nZthq6WHLhcdu3te",
-          "name": "Gorgon",
-          "fieldPath": "items[5tEnGK28Rd4nHnwM].effects[PtowAW8SWftie1x8].description",
-          "sourcePath": "monsters/monstrosity/gorgon.yml"
-        },
-        {
           "code": "unchanged-english",
           "value": "Grick",
           "message": "Visible translation is identical to the English source",
@@ -11726,15 +10151,6 @@
           "id": "tFJX45zj3QDc3Zli",
           "name": "Grick",
           "fieldPath": "items[dw5lQaT8ySNuOVd4].system.description.value",
-          "sourcePath": "monsters/monstrosity/grick.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "tFJX45zj3QDc3Zli",
-          "name": "Grick",
-          "fieldPath": "items[GZoCoZEY1RqP2mAU].system.description.value",
           "sourcePath": "monsters/monstrosity/grick.yml"
         },
         {
@@ -11950,15 +10366,6 @@
           "pack": "monsters",
           "id": "K4vsSlHqbBAHUDHY",
           "name": "Hydra",
-          "fieldPath": "items[xr59rWl3oCOLdQBQ].system.description.value",
-          "sourcePath": "monsters/monstrosity/hydra.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "K4vsSlHqbBAHUDHY",
-          "name": "Hydra",
           "fieldPath": "items[fsAeJDaI0a6sBeFk].system.description.value",
           "sourcePath": "monsters/monstrosity/hydra.yml"
         },
@@ -12045,15 +10452,6 @@
           "id": "kVg37NlPcACAzjCT",
           "name": "Kraken",
           "fieldPath": "items[uxrpcslS4BkraMVB].system.description.chat",
-          "sourcePath": "monsters/monstrosity/kraken.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "kVg37NlPcACAzjCT",
-          "name": "Kraken",
-          "fieldPath": "items[1oNtSpRA4XS3L6to].system.description.value",
           "sourcePath": "monsters/monstrosity/kraken.yml"
         },
         {
@@ -12358,15 +10756,6 @@
           "pack": "monsters",
           "id": "eiifqZwYGi71r2Yl",
           "name": "Medusa",
-          "fieldPath": "items[KmzlUGMXUhY2HubE].effects[Nc19TcGMlbwrwBeq].description",
-          "sourcePath": "monsters/monstrosity/medusa.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "eiifqZwYGi71r2Yl",
-          "name": "Medusa",
           "fieldPath": "items[KmzlUGMXUhY2HubE].effects[X227DPzcMe3z6bic].description",
           "sourcePath": "monsters/monstrosity/medusa.yml"
         },
@@ -12562,15 +10951,6 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
-          "id": "zY3W5MG7FjssENf6",
-          "name": "Owlbear",
-          "fieldPath": "items[rVaJjvWKEqUsN6dE].system.description.value",
-          "sourcePath": "monsters/monstrosity/owlbear.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
           "id": "llSG0Hi4eGlRlQ4o",
           "name": "Phase Spider",
           "fieldPath": "items[2HPk5TdUTeEhD2eG].system.description.value",
@@ -12695,24 +11075,6 @@
           "id": "VBzqw2rOUvTuNOPI",
           "name": "Remorhaz",
           "fieldPath": "items[Qcgc4zckQ7c1Ky8t].system.description.chat",
-          "sourcePath": "monsters/monstrosity/remorhaz.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "VBzqw2rOUvTuNOPI",
-          "name": "Remorhaz",
-          "fieldPath": "items[Qcgc4zckQ7c1Ky8t].effects[1AjFX4WSAMPeLQAv].description",
-          "sourcePath": "monsters/monstrosity/remorhaz.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "VBzqw2rOUvTuNOPI",
-          "name": "Remorhaz",
-          "fieldPath": "items[usmJdksgWhPnjq94].system.description.value",
           "sourcePath": "monsters/monstrosity/remorhaz.yml"
         },
         {
@@ -12924,15 +11286,6 @@
           "id": "WJsxqbHU28D64lWT",
           "name": "Rust Monster",
           "fieldPath": "items[dobpPU4kb00zSkQt].system.activities.PsM9SwftLALFBbUf.description.value",
-          "sourcePath": "monsters/monstrosity/rust-monster.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "WJsxqbHU28D64lWT",
-          "name": "Rust Monster",
-          "fieldPath": "items[dobpPU4kb00zSkQt].effects[iqyGcqOolg6tFCwC].description",
           "sourcePath": "monsters/monstrosity/rust-monster.yml"
         },
         {
@@ -13244,15 +11597,6 @@
           "pack": "monsters",
           "id": "yGTh874etxUckmAf",
           "name": "Winter Wolf",
-          "fieldPath": "items[5PmQuifZGbPWxAYz].system.activities.oq81aFnARhfla3iq.description.value",
-          "sourcePath": "monsters/monstrosity/winter-wolf.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "yGTh874etxUckmAf",
-          "name": "Winter Wolf",
           "fieldPath": "items[Rj3oSInoQMIfHrPc].system.description.value",
           "sourcePath": "monsters/monstrosity/winter-wolf.yml"
         },
@@ -13311,15 +11655,6 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
-          "id": "VBkp2rGQKvMcCOus",
-          "name": "Worg",
-          "fieldPath": "items[UnONIXYgZcE3Jya0].system.activities.yhYrSgDIeJSGLADU.description.value",
-          "sourcePath": "monsters/monstrosity/worg.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
           "id": "NwQpeeaMxAC3fRft",
           "name": "Black Pudding",
           "fieldPath": "items[wvlDMuDDdk7peoPa].system.description.value",
@@ -13341,15 +11676,6 @@
           "id": "NwQpeeaMxAC3fRft",
           "name": "Black Pudding",
           "fieldPath": "items[wvlDMuDDdk7peoPa].system.activities.HmpHoKqKU8OyiT1J.description.value",
-          "sourcePath": "monsters/ooze/black-pudding.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "NwQpeeaMxAC3fRft",
-          "name": "Black Pudding",
-          "fieldPath": "items[wvlDMuDDdk7peoPa].effects[dodLAz6LZ0KlsabM].description",
           "sourcePath": "monsters/ooze/black-pudding.yml"
         },
         {
@@ -13511,15 +11837,6 @@
           "pack": "monsters",
           "id": "fqbFYtbtkrL53FOC",
           "name": "Gray Ooze",
-          "fieldPath": "items[uSay5J2sf9zXsabi].effects[Khdj386syEL9V9OA].description",
-          "sourcePath": "monsters/ooze/gray-ooze.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "fqbFYtbtkrL53FOC",
-          "name": "Gray Ooze",
           "fieldPath": "items[NDZ02JVZWMbzRGGJ].system.description.value",
           "sourcePath": "monsters/ooze/gray-ooze.yml"
         },
@@ -13629,15 +11946,6 @@
           "id": "gGeLeV411iQ5Yijs",
           "name": "Shambling Mound",
           "fieldPath": "items[2aGoBVVEF54VcC9d].system.description.value",
-          "sourcePath": "monsters/plant/shambling-mound.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "gGeLeV411iQ5Yijs",
-          "name": "Shambling Mound",
-          "fieldPath": "items[2aGoBVVEF54VcC9d].effects[ZaH1rUSmIUaDhWHX].description",
           "sourcePath": "monsters/plant/shambling-mound.yml"
         },
         {
@@ -13774,15 +12082,6 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
-          "id": "NB6wUgVqeOQtsQKu",
-          "name": "Treant",
-          "fieldPath": "items[RMsSkfIx97Hnqf37].system.description.value",
-          "sourcePath": "monsters/plant/treant.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
           "id": "7EmUVycEASn7SFL0",
           "name": "Violet Fungus",
           "fieldPath": "items[OEx9iy4HDipiYsPt].system.description.chat",
@@ -13873,27 +12172,9 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
-          "id": "abG4qRbHQzehlVYz",
-          "name": "Huge Animated Object",
-          "fieldPath": "system.details.biography.value",
-          "sourcePath": "monsters/summons/huge-animated-object.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
           "id": "cI49DUvHgcPFmnk3",
           "name": "Large Animated Object",
           "fieldPath": "name",
-          "sourcePath": "monsters/summons/large-animated-object.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "cI49DUvHgcPFmnk3",
-          "name": "Large Animated Object",
-          "fieldPath": "system.details.biography.value",
           "sourcePath": "monsters/summons/large-animated-object.yml"
         },
         {
@@ -13909,15 +12190,6 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
-          "id": "BImoeCT97rI3nKmG",
-          "name": "Medium Animated Object",
-          "fieldPath": "system.details.biography.value",
-          "sourcePath": "monsters/summons/medium-animated-object.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
           "id": "nvTVjot7vdzWxMt7",
           "name": "Small Animated Object",
           "fieldPath": "name",
@@ -13927,27 +12199,9 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
-          "id": "nvTVjot7vdzWxMt7",
-          "name": "Small Animated Object",
-          "fieldPath": "system.details.biography.value",
-          "sourcePath": "monsters/summons/small-animated-object.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
           "id": "oT08GcXHkvnKJTdA",
           "name": "Tiny Animated Object",
           "fieldPath": "name",
-          "sourcePath": "monsters/summons/tiny-animated-object.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "oT08GcXHkvnKJTdA",
-          "name": "Tiny Animated Object",
-          "fieldPath": "system.details.biography.value",
           "sourcePath": "monsters/summons/tiny-animated-object.yml"
         },
         {
@@ -14006,15 +12260,6 @@
           "id": "IyIybE5t2adMEVUM",
           "name": "Ghast",
           "fieldPath": "items[gBiHo206x7uGoySO].system.description.chat",
-          "sourcePath": "monsters/undead/ghast.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "IyIybE5t2adMEVUM",
-          "name": "Ghast",
-          "fieldPath": "items[gBiHo206x7uGoySO].effects[OVBiaD85V1M70hc7].description",
           "sourcePath": "monsters/undead/ghast.yml"
         },
         {
@@ -14096,15 +12341,6 @@
           "id": "qoFEjfrANBdrCP6m",
           "name": "Ghost",
           "fieldPath": "items[lOzkFHeXCdO2FB9X].system.description.chat",
-          "sourcePath": "monsters/undead/ghost.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "qoFEjfrANBdrCP6m",
-          "name": "Ghost",
-          "fieldPath": "items[lOzkFHeXCdO2FB9X].effects[TJfxWRiNLIW3idZ6].description",
           "sourcePath": "monsters/undead/ghost.yml"
         },
         {
@@ -14257,15 +12493,6 @@
           "id": "bfh29vIEoGzI240e",
           "name": "Lich",
           "fieldPath": "items[Uox2GEp5GMXOOXOc].system.description.chat",
-          "sourcePath": "monsters/undead/lich.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "bfh29vIEoGzI240e",
-          "name": "Lich",
-          "fieldPath": "items[Uox2GEp5GMXOOXOc].effects[OoRXaVihtPj1cUov].description",
           "sourcePath": "monsters/undead/lich.yml"
         },
         {
@@ -14851,15 +13078,6 @@
           "id": "zpaZb7I8alY32vWV",
           "name": "Vampire Spawn",
           "fieldPath": "items[DY9MW3aTF5T5zhpo].system.description.chat",
-          "sourcePath": "monsters/undead/vampire-spawn.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "zpaZb7I8alY32vWV",
-          "name": "Vampire Spawn",
-          "fieldPath": "items[DY9MW3aTF5T5zhpo].effects[9sL6bRKvzI5YIGLV].description",
           "sourcePath": "monsters/undead/vampire-spawn.yml"
         },
         {

@@ -443,7 +443,8 @@
               "name": "Secondo Ruggito della Sfinge"
             },
             "QGykY23zVVKEmOse": {
-              "name": "Primo Ruggito della Sfinge"
+              "name": "Primo Ruggito della Sfinge",
+              "description": "<p>Sei &amp;reference[frightened apply=false] per la durata.</p><p>Puoi ripetere il tiro salvezza alla fine di ciascun tuo turno e, se lo superi, l'effetto su di te termina.</p>"
             }
           }
         },
@@ -489,7 +490,8 @@
           "name": "Morso",
           "effects": {
             "lOkOoFpPHlDtyhFX": {
-              "name": "Afferrato dal Morso"
+              "name": "Afferrato dal Morso",
+              "description": "<p>Sei &amp;reference[grappled apply=false] (CD 13 per sfuggire).</p>"
             }
           }
         },
@@ -917,7 +919,8 @@
           "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di vantaggio a un tiro per colpire contro una creatura se almeno uno degli alleati del [[lookup @name lowercase]]{mostro} si trova entro 1,5 metri dalla creatura e non è &amp;reference[incapacitated apply=false].</p>"
         },
         "oFwDpNHu44o0BRx1": {
-          "name": "Vista e Olfatto Acuti"
+          "name": "Vista e Olfatto Acuti",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di vantaggio alle prove di Saggezza (Percezione) basate sulla vista o sull'olfatto.</p>"
         },
         "MnAKUayu6jCzzRsS": {
           "name": "Becco",
@@ -953,7 +956,8 @@
           "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
         },
         "Pr5zVAoP8aOlP9Km": {
-          "name": "Vista e Olfatto Acuti"
+          "name": "Vista e Olfatto Acuti",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di vantaggio alle prove di Saggezza (Percezione) basate sulla vista o sull'olfatto.</p>"
         }
       },
       "details": {
@@ -978,13 +982,15 @@
             "dnd5eactivity000": {
               "name": "Danni da Contatto"
             }
-          }
+          },
+          "description": "<p>Una creatura che tocca il [[lookup @name lowercase]]{mostro} o lo colpisce con un attacco in mischia mentre si trova entro 1,5 metri da esso subisce [[/damage average]] danni.</p>"
         },
         "WRygAnkpMeaqiw70": {
           "name": "Armi Surriscaldate"
         },
         "oPddwb4BScCEDanp": {
-          "name": "Illuminazione"
+          "name": "Illuminazione",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} diffonde &amp;reference[bright light] entro un raggio di 3 metri e &amp;reference[dim light] per altri 3 metri.</p>"
         },
         "YvzdCGQeCV1XOcUt": {
           "name": "Martello da Guerra"
@@ -1121,7 +1127,8 @@
               "name": "Pietrificazione in Corso"
             },
             "jfTDhRJiQGf8oyXJ": {
-              "name": "Completamente Pietrificato"
+              "name": "Completamente Pietrificato",
+              "description": "<p>Sei &amp;reference[petrified apply=false] finché non vieni liberato dall'incantesimo @UUID[Compendium.dnd5e.spells.Item.WzvJ7G3cqvIubsLk]{ristorare superiore} o da un'altra magia.</p>"
             }
           }
         },
@@ -1194,7 +1201,8 @@
           "name": "Stritolare",
           "effects": {
             "vbYNliPPUlwihn64": {
-              "name": "Stritolato"
+              "name": "Stritolato",
+              "description": "<p>Sei &amp;reference[grappled apply=false] (CD 16 per sfuggire). Finché sei afferrato in questo modo, sei anche &amp;reference[restrained apply=false].</p>"
             }
           }
         }
@@ -1516,7 +1524,8 @@
           }
         },
         "63bem1EXQCR1tEhl": {
-          "name": "Ben Piantato"
+          "name": "Ben Piantato",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di vantaggio ai tiri salvezza su Forza e Destrezza contro gli effetti che potrebbero farlo cadere &amp;reference[prone apply=false].</p>"
         },
         "I3ioyE4CVHPLGGy7": {
           "name": "Corna",
@@ -1535,7 +1544,8 @@
       },
       "items": {
         "uldD4x1nRCSSbgeV": {
-          "name": "Ben Piantato"
+          "name": "Ben Piantato",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di vantaggio ai tiri salvezza su Forza e Destrezza contro gli effetti che potrebbero farlo cadere &amp;reference[prone apply=false].</p>"
         },
         "ZL9z3WPrZFreDTuY": {
           "name": "Carica",
@@ -1566,7 +1576,8 @@
           "description": "<p>Quest’armatura consiste di piastre di metallo sagomate a incastro che coprono l’intero corpo. Un’armatura di piastre comprende guanti, stivali di cuoio pesanti, un elmo con visiera, e uno spesso strato di imbottitura sotto l’armatura. Fibbie e lacci distribuiscono il peso dell’armatura su tutto il corpo.</p>"
         },
         "46b7R0DbKIsxvWcv": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua due attacchi in mischia.</p>"
         },
         "iPLa96izrYFiVtaO": {
           "name": "Spadone",
@@ -1598,7 +1609,8 @@
               "name": "Parare l'Attacco"
             }
           },
-          "description": "<p>Il [[lookup @name lowercase]]{monster} aggiunge 2 alla sua CA contro un attacco in mischia che lo colpirebbe. Per farlo, il [[lookup @name lowercase]]{monster} deve vedere l’attaccante e deve impugnare un'arma da mischia.</p>"
+          "description": "<p>Il [[lookup @name lowercase]]{monster} aggiunge 2 alla sua CA contro un attacco in mischia che lo colpirebbe. Per farlo, il [[lookup @name lowercase]]{monster} deve vedere l’attaccante e deve impugnare un'arma da mischia.</p>",
+          "chat": "<p>Il [[lookup @name lowercase]]{mostro} aggiunge 2 alla propria CA contro un attacco in mischia che altrimenti lo colpirebbe.</p>"
         },
         "Wrwg1LB1KnCQHuuH": {
           "name": "Coraggioso"
@@ -1674,7 +1686,8 @@
           "description": "<p>Il [[lookup @name lowercase]]{mostro} può conferire resistenza ai <em>danni da fuoco</em> a chiunque lo cavalchi.</p>"
         },
         "YXCQq6M3IGaLDz2M": {
-          "name": "Illuminazione"
+          "name": "Illuminazione",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} diffonde &amp;reference[bright light] entro un raggio di 3 metri e &amp;reference[dim light] per altri 3 metri.</p>"
         },
         "XtK73VCT1s8abvjs": {
           "name": "Passo Etereo",
@@ -1891,7 +1904,8 @@
           "name": "Chela",
           "effects": {
             "T41SFU26kz9FJtPA": {
-              "name": "Afferrato dalla Chela"
+              "name": "Afferrato dalla Chela",
+              "description": "<p>Sei &amp;reference[grappled apply=false] (CD 14 per sfuggire).</p>"
             }
           }
         }
@@ -1995,7 +2009,8 @@
           },
           "effects": {
             "K4vjNxNcAsqLpwOb": {
-              "name": "Vera Forma"
+              "name": "Vera Forma",
+              "description": "<p>Ti sei trasformato nella tua vera forma, che è umanoide.</p>"
             },
             "nYH7cLPBIPGh4QgN": {
               "name": "Forma Ibrida"
@@ -2087,7 +2102,8 @@
           }
         },
         "vuDMChx74s6CMCab": {
-          "name": "Trattenere il Respiro"
+          "name": "Trattenere il Respiro",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} può trattenere il respiro per 15 minuti.</p>"
         }
       },
       "details": {
@@ -2101,7 +2117,8 @@
       },
       "items": {
         "Mgvz3Hm49kujtR0M": {
-          "name": "Trattenere il Respiro"
+          "name": "Trattenere il Respiro",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} può trattenere il respiro per 30 minuti.</p>"
         },
         "YSeYSzU3P0FooGIw": {
           "name": "Multiattacco"
@@ -2381,7 +2398,8 @@
           "name": "Multiattacco",
           "effects": {
             "ZaH1rUSmIUaDhWHX": {
-              "name": "Afferrato dallo Schianto"
+              "name": "Afferrato dallo Schianto",
+              "description": "<p>Sei &amp;reference[grappled apply=false] (CD 14 per sfuggire).</p>"
             }
           }
         },
@@ -3017,7 +3035,8 @@
           "name": "Imboscata"
         },
         "Sr7ZTAYd1TQ6Nfto": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua due attacchi in mischia.</p>"
         },
         "YIoB9xCKEcrrPRt9": {
           "name": "Lettura del Pensiero",
@@ -3079,7 +3098,8 @@
           "name": "Multiattacco"
         },
         "xlZuzbYZtDVFGyVz": {
-          "name": "Camminare sul Ghiaccio"
+          "name": "Camminare sul Ghiaccio",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} può muoversi e scalare superfici ghiacciate senza dover effettuare una prova di caratteristica. Inoltre, il &amp;reference[difficult terrain] composto da ghiaccio o neve non gli costa movimento extra.</p>"
         },
         "BvB2dSi53xjWSnaF": {
           "name": "Soffio di Freddo",
@@ -3087,7 +3107,9 @@
             "UF4fJlhyYiLM7XeM": {
               "name": "Esala Gelo"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} espira una raffica di grandine gelida in un'area [[lookup @labels.description.template activity=UF4fJlhyYiLM7XeM]]. Ogni creatura in quell'area deve effettuare un tiro salvezza [[/save]]; se lo fallisce subisce [[/damage average]] danni, mentre se lo supera subisce la metà di quei danni.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} espira una raffica di grandine gelida in un'area [[lookup @labels.description.template activity=UF4fJlhyYiLM7XeM]]. Ogni creatura in quell'area deve effettuare un tiro salvezza su Costituzione.</p>"
         },
         "loP59tfIHunnBXVU": {
           "name": "Resistenza Leggendaria",
@@ -3192,7 +3214,8 @@
           "chat": "<p>Il [[lookup @name]]{mostro} può effettuare [[lookup @resources.legact.max]] azioni leggendarie.</p>"
         },
         "imkVNL6yWfO8SvHL": {
-          "name": "Camminare sul Ghiaccio"
+          "name": "Camminare sul Ghiaccio",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} può muoversi e scalare superfici ghiacciate senza dover effettuare una prova di caratteristica. Inoltre, il &amp;reference[difficult terrain] composto da ghiaccio o neve non gli costa movimento extra.</p>"
         },
         "B6x6ELPZ0slZPuXN": {
           "name": "Soffio di Freddo",
@@ -3200,7 +3223,9 @@
             "UF4fJlhyYiLM7XeM": {
               "name": "Esala Gelo"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} espira una raffica di grandine gelida in un'area [[lookup @labels.description.template activity=UF4fJlhyYiLM7XeM]]. Ogni creatura in quell'area deve effettuare un tiro salvezza [[/save]]; se lo fallisce subisce [[/damage average]] danni, mentre se lo supera subisce la metà di quei danni.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} espira una raffica di grandine gelida in un'area [[lookup @labels.description.template activity=UF4fJlhyYiLM7XeM]]. Ogni creatura in quell'area deve effettuare un tiro salvezza su Costituzione.</p>"
         },
         "DeqgPZF8smOMxmVH": {
           "name": "Presenza Terrificante",
@@ -3279,7 +3304,9 @@
             "UF4fJlhyYiLM7XeM": {
               "name": "Esala Gelo"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} espira una raffica di grandine gelida in un'area [[lookup @labels.description.template activity=UF4fJlhyYiLM7XeM]]. Ogni creatura in quell'area deve effettuare un tiro salvezza [[/save]]; se lo fallisce subisce [[/damage average]] danni, mentre se lo supera subisce la metà di quei danni.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} espira una raffica di grandine gelida in un'area [[lookup @labels.description.template activity=UF4fJlhyYiLM7XeM]]. Ogni creatura in quell'area deve effettuare un tiro salvezza su Costituzione.</p>"
         }
       },
       "details": {
@@ -3298,7 +3325,8 @@
           "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
         },
         "g2nJbBJ06mRtxEy0": {
-          "name": "Camminare sul Ghiaccio"
+          "name": "Camminare sul Ghiaccio",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} può muoversi e scalare superfici ghiacciate senza dover effettuare una prova di caratteristica. Inoltre, il &amp;reference[difficult terrain] composto da ghiaccio o neve non gli costa movimento extra.</p>"
         },
         "lRFwKaRqhFY4xNhJ": {
           "name": "Multiattacco"
@@ -3309,7 +3337,9 @@
             "UF4fJlhyYiLM7XeM": {
               "name": "Esala Gelo"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} espira una raffica di grandine gelida in un'area [[lookup @labels.description.template activity=UF4fJlhyYiLM7XeM]]. Ogni creatura in quell'area deve effettuare un tiro salvezza [[/save]]; se lo fallisce subisce [[/damage average]] danni, mentre se lo supera subisce la metà di quei danni.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} espira una raffica di grandine gelida in un'area [[lookup @labels.description.template activity=UF4fJlhyYiLM7XeM]]. Ogni creatura in quell'area deve effettuare un tiro salvezza su Costituzione.</p>"
         },
         "d9xXEIYNNQjIMGF8": {
           "name": "Artiglio",
@@ -3355,7 +3385,8 @@
             "GSQtl90Opu6WzZk4": {
               "name": "Esala Fulmine"
             }
-          }
+          },
+          "chat": "<p>Il [[lookup @name]]{mostro} espira un fulmine lungo una linea [[lookup @labels.description.template activity=GSQtl90Opu6WzZk4]]. Ogni creatura su quella linea deve effettuare un tiro salvezza su Destrezza.</p>"
         },
         "xWSOEwthNmDecfQ8": {
           "name": "Presenza Terrificante",
@@ -3451,7 +3482,8 @@
             "GSQtl90Opu6WzZk4": {
               "name": "Esala Fulmine"
             }
-          }
+          },
+          "chat": "<p>Il [[lookup @name]]{mostro} espira un fulmine lungo una linea [[lookup @labels.description.template activity=GSQtl90Opu6WzZk4]]. Ogni creatura su quella linea deve effettuare un tiro salvezza su Destrezza.</p>"
         },
         "HDGLlSq9suLd9DIn": {
           "name": "Presenza Terrificante",
@@ -3530,7 +3562,8 @@
             "GSQtl90Opu6WzZk4": {
               "name": "Esala Fulmine"
             }
-          }
+          },
+          "chat": "<p>Il [[lookup @name]]{mostro} espira un fulmine lungo una linea [[lookup @labels.description.template activity=GSQtl90Opu6WzZk4]]. Ogni creatura su quella linea deve effettuare un tiro salvezza su Destrezza.</p>"
         }
       },
       "details": {
@@ -3557,7 +3590,8 @@
             "GSQtl90Opu6WzZk4": {
               "name": "Esala Fulmine"
             }
-          }
+          },
+          "chat": "<p>Il [[lookup @name]]{mostro} espira un fulmine lungo una linea [[lookup @labels.description.template activity=GSQtl90Opu6WzZk4]]. Ogni creatura su quella linea deve effettuare un tiro salvezza su Destrezza.</p>"
         },
         "YSVencwrBzRdfm62": {
           "name": "Artiglio",
@@ -3610,15 +3644,22 @@
         "zyGeyMoiSCtULHw6": {
           "activities": {
             "U5F5qe2Hu0r0yHmk": {
-              "name": "Soffio di Freddo"
+              "name": "Soffio di Freddo",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} espira un'esplosione gelida in un'area [[lookup @labels.description.labels activity=9gMvqjbgKK42uyzr]]. Ogni creatura in quell'area deve effettuare un tiro salvezza [[/save activity=U5F5qe2Hu0r0yHmk]]; se lo fallisce subisce [[/damage average activity=U5F5qe2Hu0r0yHmk]] danni, mentre se lo supera subisce la metà di quei danni.</p>"
+              }
             },
             "9gMvqjbgKK42uyzr": {
-              "name": "Soffio Paralizzante"
+              "name": "Soffio Paralizzante",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} espira gas paralizzante in un'area [[lookup @labels.description.template activity=9gMvqjbgKK42uyzr]]. Ogni creatura in quell'area deve superare un tiro salvezza [[/save activity=9gMvqjbgKK42uyzr]], altrimenti rimane paralizzata per [[lookup @labels.duration activity=9gMvqjbgKK42uyzr]]. Una creatura può ripetere il tiro salvezza alla fine di ciascun proprio turno e, se lo supera, l'effetto su di lei termina.</p>"
+              }
             }
           },
           "effects": {
             "yYbmtst3L1jGwwbF": {
-              "name": "Soffio Paralizzante"
+              "name": "Soffio Paralizzante",
+              "description": "<p>Sei &amp;reference[paralyzed apply=false] per 1 minuto. Puoi ripetere il tiro salvezza alla fine di ciascun tuo turno e, se lo superi, l'effetto su di te termina.</p>"
             }
           },
           "name": "Armi a Soffio",
@@ -3725,15 +3766,22 @@
         "eBC65VcONbhbFHwI": {
           "activities": {
             "U5F5qe2Hu0r0yHmk": {
-              "name": "Soffio di Freddo"
+              "name": "Soffio di Freddo",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} espira un'esplosione gelida in un'area [[lookup @labels.description.labels activity=9gMvqjbgKK42uyzr]]. Ogni creatura in quell'area deve effettuare un tiro salvezza [[/save activity=U5F5qe2Hu0r0yHmk]]; se lo fallisce subisce [[/damage average activity=U5F5qe2Hu0r0yHmk]] danni, mentre se lo supera subisce la metà di quei danni.</p>"
+              }
             },
             "9gMvqjbgKK42uyzr": {
-              "name": "Soffio Paralizzante"
+              "name": "Soffio Paralizzante",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} espira gas paralizzante in un'area [[lookup @labels.description.template activity=9gMvqjbgKK42uyzr]]. Ogni creatura in quell'area deve superare un tiro salvezza [[/save activity=9gMvqjbgKK42uyzr]], altrimenti rimane paralizzata per [[lookup @labels.duration activity=9gMvqjbgKK42uyzr]]. Una creatura può ripetere il tiro salvezza alla fine di ciascun proprio turno e, se lo supera, l'effetto su di lei termina.</p>"
+              }
             }
           },
           "effects": {
             "yYbmtst3L1jGwwbF": {
-              "name": "Soffio Paralizzante"
+              "name": "Soffio Paralizzante",
+              "description": "<p>Sei &amp;reference[paralyzed apply=false] per 1 minuto. Puoi ripetere il tiro salvezza alla fine di ciascun tuo turno e, se lo superi, l'effetto su di te termina.</p>"
             }
           },
           "name": "Armi a Soffio",
@@ -3813,15 +3861,22 @@
         "ENcwNUKxDAqH6V9l": {
           "activities": {
             "U5F5qe2Hu0r0yHmk": {
-              "name": "Soffio di Freddo"
+              "name": "Soffio di Freddo",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} espira un'esplosione gelida in un'area [[lookup @labels.description.labels activity=9gMvqjbgKK42uyzr]]. Ogni creatura in quell'area deve effettuare un tiro salvezza [[/save activity=U5F5qe2Hu0r0yHmk]]; se lo fallisce subisce [[/damage average activity=U5F5qe2Hu0r0yHmk]] danni, mentre se lo supera subisce la metà di quei danni.</p>"
+              }
             },
             "9gMvqjbgKK42uyzr": {
-              "name": "Soffio Paralizzante"
+              "name": "Soffio Paralizzante",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} espira gas paralizzante in un'area [[lookup @labels.description.template activity=9gMvqjbgKK42uyzr]]. Ogni creatura in quell'area deve superare un tiro salvezza [[/save activity=9gMvqjbgKK42uyzr]], altrimenti rimane paralizzata per [[lookup @labels.duration activity=9gMvqjbgKK42uyzr]]. Una creatura può ripetere il tiro salvezza alla fine di ciascun proprio turno e, se lo supera, l'effetto su di lei termina.</p>"
+              }
             }
           },
           "effects": {
             "yYbmtst3L1jGwwbF": {
-              "name": "Soffio Paralizzante"
+              "name": "Soffio Paralizzante",
+              "description": "<p>Sei &amp;reference[paralyzed apply=false] per 1 minuto. Puoi ripetere il tiro salvezza alla fine di ciascun tuo turno e, se lo superi, l'effetto su di te termina.</p>"
             }
           },
           "name": "Armi a Soffio",
@@ -3849,15 +3904,22 @@
         "zwKc0TIAiEv0BNvl": {
           "activities": {
             "U5F5qe2Hu0r0yHmk": {
-              "name": "Soffio di Freddo"
+              "name": "Soffio di Freddo",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} espira un'esplosione gelida in un'area [[lookup @labels.description.labels activity=9gMvqjbgKK42uyzr]]. Ogni creatura in quell'area deve effettuare un tiro salvezza [[/save activity=U5F5qe2Hu0r0yHmk]]; se lo fallisce subisce [[/damage average activity=U5F5qe2Hu0r0yHmk]] danni, mentre se lo supera subisce la metà di quei danni.</p>"
+              }
             },
             "9gMvqjbgKK42uyzr": {
-              "name": "Soffio Paralizzante"
+              "name": "Soffio Paralizzante",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} espira gas paralizzante in un'area [[lookup @labels.description.template activity=9gMvqjbgKK42uyzr]]. Ogni creatura in quell'area deve superare un tiro salvezza [[/save activity=9gMvqjbgKK42uyzr]], altrimenti rimane paralizzata per [[lookup @labels.duration activity=9gMvqjbgKK42uyzr]]. Una creatura può ripetere il tiro salvezza alla fine di ciascun proprio turno e, se lo supera, l'effetto su di lei termina.</p>"
+              }
             }
           },
           "effects": {
             "yYbmtst3L1jGwwbF": {
-              "name": "Soffio Paralizzante"
+              "name": "Soffio Paralizzante",
+              "description": "<p>Sei &amp;reference[paralyzed apply=false] per 1 minuto. Puoi ripetere il tiro salvezza alla fine di ciascun tuo turno e, se lo superi, l'effetto su di te termina.</p>"
             }
           },
           "name": "Armi a Soffio",
@@ -3918,16 +3980,23 @@
         "yAA3vcH0THsoKJfy": {
           "activities": {
             "o8fOmWWIqCYwGu3C": {
-              "name": "Soffio di Fuoco"
+              "name": "Soffio di Fuoco",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} espira gas in un'area [[lookup @labels.description.template activity=J4QhEMZOdsyIy2D6]]. Ogni creatura in quell'area deve superare un tiro salvezza [[/save activity=J4QhEMZOdsyIy2D6]], altrimenti subisce svantaggio ai tiri per colpire basati su Forza, alle prove di Forza e ai tiri salvezza su Forza per 1 minuto. Una creatura può ripetere il tiro salvezza alla fine di ciascun proprio turno e, se lo supera, l'effetto su di lei termina.</p>"
+              }
             },
             "J4QhEMZOdsyIy2D6": {
-              "name": "Soffio Indebolente"
+              "name": "Soffio Indebolente",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} espira gas in un'area [[lookup @labels.description.template activity=J4QhEMZOdsyIy2D6]]. Ogni creatura in quell'area deve superare un tiro salvezza [[/save activity=J4QhEMZOdsyIy2D6]], altrimenti subisce svantaggio ai tiri per colpire basati su Forza, alle prove di Forza e ai tiri salvezza su Forza per [[lookup @labels.duration activity=J4QhEMZOdsyIy2D6]]. Una creatura può ripetere il tiro salvezza alla fine di ciascun proprio turno e, se lo supera, l'effetto su di lei termina.</p>"
+              }
             }
           },
           "name": "Armi a Soffio",
           "effects": {
             "a5q0M5lHMSOhKxFi": {
-              "name": "Indebolito"
+              "name": "Indebolito",
+              "description": "<p>Sei indebolito. Finché sei indebolito, subisci svantaggio ai tiri per colpire basati su Forza, alle prove di Forza e ai tiri salvezza su Forza per 1 minuto. Puoi ripetere il tiro salvezza alla fine di ciascun tuo turno e, se lo superi, l'effetto su di te termina.</p>"
             }
           },
           "chat": "<p>Il [[lookup @name]]{mostro} inspira!</p>"
@@ -4027,16 +4096,23 @@
         "rkt5Li8O6ix5LCKf": {
           "activities": {
             "o8fOmWWIqCYwGu3C": {
-              "name": "Soffio di Fuoco"
+              "name": "Soffio di Fuoco",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} espira gas in un'area [[lookup @labels.description.template activity=J4QhEMZOdsyIy2D6]]. Ogni creatura in quell'area deve superare un tiro salvezza [[/save activity=J4QhEMZOdsyIy2D6]], altrimenti subisce svantaggio ai tiri per colpire basati su Forza, alle prove di Forza e ai tiri salvezza su Forza per 1 minuto. Una creatura può ripetere il tiro salvezza alla fine di ciascun proprio turno e, se lo supera, l'effetto su di lei termina.</p>"
+              }
             },
             "J4QhEMZOdsyIy2D6": {
-              "name": "Soffio Indebolente"
+              "name": "Soffio Indebolente",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} espira gas in un'area [[lookup @labels.description.template activity=J4QhEMZOdsyIy2D6]]. Ogni creatura in quell'area deve superare un tiro salvezza [[/save activity=J4QhEMZOdsyIy2D6]], altrimenti subisce svantaggio ai tiri per colpire basati su Forza, alle prove di Forza e ai tiri salvezza su Forza per [[lookup @labels.duration activity=J4QhEMZOdsyIy2D6]]. Una creatura può ripetere il tiro salvezza alla fine di ciascun proprio turno e, se lo supera, l'effetto su di lei termina.</p>"
+              }
             }
           },
           "name": "Armi a Soffio",
           "effects": {
             "a5q0M5lHMSOhKxFi": {
-              "name": "Indebolito"
+              "name": "Indebolito",
+              "description": "<p>Sei indebolito. Finché sei indebolito, subisci svantaggio ai tiri per colpire basati su Forza, alle prove di Forza e ai tiri salvezza su Forza per 1 minuto. Puoi ripetere il tiro salvezza alla fine di ciascun tuo turno e, se lo superi, l'effetto su di te termina.</p>"
             }
           },
           "chat": "<p>Il [[lookup @name]]{mostro} inspira!</p>"
@@ -4125,16 +4201,23 @@
         "5vCVx0zwz1FKIvTX": {
           "activities": {
             "o8fOmWWIqCYwGu3C": {
-              "name": "Soffio di Fuoco"
+              "name": "Soffio di Fuoco",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} espira gas in un'area [[lookup @labels.description.template activity=J4QhEMZOdsyIy2D6]]. Ogni creatura in quell'area deve superare un tiro salvezza [[/save activity=J4QhEMZOdsyIy2D6]], altrimenti subisce svantaggio ai tiri per colpire basati su Forza, alle prove di Forza e ai tiri salvezza su Forza per 1 minuto. Una creatura può ripetere il tiro salvezza alla fine di ciascun proprio turno e, se lo supera, l'effetto su di lei termina.</p>"
+              }
             },
             "J4QhEMZOdsyIy2D6": {
-              "name": "Soffio Indebolente"
+              "name": "Soffio Indebolente",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} espira gas in un'area [[lookup @labels.description.template activity=J4QhEMZOdsyIy2D6]]. Ogni creatura in quell'area deve superare un tiro salvezza [[/save activity=J4QhEMZOdsyIy2D6]], altrimenti subisce svantaggio ai tiri per colpire basati su Forza, alle prove di Forza e ai tiri salvezza su Forza per [[lookup @labels.duration activity=J4QhEMZOdsyIy2D6]]. Una creatura può ripetere il tiro salvezza alla fine di ciascun proprio turno e, se lo supera, l'effetto su di lei termina.</p>"
+              }
             }
           },
           "name": "Armi a Soffio",
           "effects": {
             "a5q0M5lHMSOhKxFi": {
-              "name": "Indebolito"
+              "name": "Indebolito",
+              "description": "<p>Sei indebolito. Finché sei indebolito, subisci svantaggio ai tiri per colpire basati su Forza, alle prove di Forza e ai tiri salvezza su Forza per 1 minuto. Puoi ripetere il tiro salvezza alla fine di ciascun tuo turno e, se lo superi, l'effetto su di te termina.</p>"
             }
           },
           "chat": "<p>Il [[lookup @name]]{mostro} inspira!</p>"
@@ -4165,16 +4248,23 @@
         "VnIBkSFvqaQrq10M": {
           "activities": {
             "o8fOmWWIqCYwGu3C": {
-              "name": "Soffio di Fuoco"
+              "name": "Soffio di Fuoco",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} espira gas in un'area [[lookup @labels.description.template activity=J4QhEMZOdsyIy2D6]]. Ogni creatura in quell'area deve superare un tiro salvezza [[/save activity=J4QhEMZOdsyIy2D6]], altrimenti subisce svantaggio ai tiri per colpire basati su Forza, alle prove di Forza e ai tiri salvezza su Forza per 1 minuto. Una creatura può ripetere il tiro salvezza alla fine di ciascun proprio turno e, se lo supera, l'effetto su di lei termina.</p>"
+              }
             },
             "J4QhEMZOdsyIy2D6": {
-              "name": "Soffio Indebolente"
+              "name": "Soffio Indebolente",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} espira gas in un'area [[lookup @labels.description.template activity=J4QhEMZOdsyIy2D6]]. Ogni creatura in quell'area deve superare un tiro salvezza [[/save activity=J4QhEMZOdsyIy2D6]], altrimenti subisce svantaggio ai tiri per colpire basati su Forza, alle prove di Forza e ai tiri salvezza su Forza per [[lookup @labels.duration activity=J4QhEMZOdsyIy2D6]]. Una creatura può ripetere il tiro salvezza alla fine di ciascun proprio turno e, se lo supera, l'effetto su di lei termina.</p>"
+              }
             }
           },
           "name": "Armi a Soffio",
           "effects": {
             "a5q0M5lHMSOhKxFi": {
-              "name": "Indebolito"
+              "name": "Indebolito",
+              "description": "<p>Sei indebolito. Finché sei indebolito, subisci svantaggio ai tiri per colpire basati su Forza, alle prove di Forza e ai tiri salvezza su Forza per 1 minuto. Puoi ripetere il tiro salvezza alla fine di ciascun tuo turno e, se lo superi, l'effetto su di te termina.</p>"
             }
           },
           "chat": "<p>Il [[lookup @name]]{mostro} inspira!</p>"
@@ -4224,10 +4314,16 @@
         "bylvyjev8yh0oVj6": {
           "activities": {
             "NBdXGRF1vahbq4p8": {
-              "name": "Soffio di Fuoco"
+              "name": "Soffio di Fuoco",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} espira fuoco lungo una linea [[lookup @labels.description.template activity=NBdXGRF1vahbq4p8]]. Ogni creatura su quella linea deve effettuare un tiro salvezza [[/save activity=NBdXGRF1vahbq4p8]]; se lo fallisce subisce [[/damage average activity=NBdXGRF1vahbq4p8]] danni, mentre se lo supera subisce la metà di quei danni.</p>"
+              }
             },
             "O02zuaLvAqtmgutQ": {
-              "name": "Soffio di Sonno"
+              "name": "Soffio di Sonno",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} espira gas soporifero in un'area [[lookup @labels.description.template activity=O02zuaLvAqtmgutQ]]. Ogni creatura in quell'area deve superare un tiro salvezza [[/save activity=O02zuaLvAqtmgutQ]], altrimenti cade &amp;Reference[unconscious] per [[lookup @labels.duration activity=O02zuaLvAqtmgutQ]]. Questo effetto termina su una creatura se essa subisce danni o se qualcuno usa un'azione per svegliarla.</p>"
+              }
             }
           },
           "effects": {
@@ -4339,10 +4435,16 @@
         "o8kI0IWURJx3MaqK": {
           "activities": {
             "NBdXGRF1vahbq4p8": {
-              "name": "Soffio di Fuoco"
+              "name": "Soffio di Fuoco",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} espira fuoco lungo una linea [[lookup @labels.description.template activity=NBdXGRF1vahbq4p8]]. Ogni creatura su quella linea deve effettuare un tiro salvezza [[/save activity=NBdXGRF1vahbq4p8]]; se lo fallisce subisce [[/damage average activity=NBdXGRF1vahbq4p8]] danni, mentre se lo supera subisce la metà di quei danni.</p>"
+              }
             },
             "O02zuaLvAqtmgutQ": {
-              "name": "Soffio di Sonno"
+              "name": "Soffio di Sonno",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} espira gas soporifero in un'area [[lookup @labels.description.template activity=O02zuaLvAqtmgutQ]]. Ogni creatura in quell'area deve superare un tiro salvezza [[/save activity=O02zuaLvAqtmgutQ]], altrimenti cade &amp;Reference[unconscious] per [[lookup @labels.duration activity=O02zuaLvAqtmgutQ]]. Questo effetto termina su una creatura se essa subisce danni o se qualcuno usa un'azione per svegliarla.</p>"
+              }
             }
           },
           "effects": {
@@ -4427,10 +4529,16 @@
         "JmVLjWM4G6OOQxl4": {
           "activities": {
             "NBdXGRF1vahbq4p8": {
-              "name": "Soffio di Fuoco"
+              "name": "Soffio di Fuoco",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} espira fuoco lungo una linea [[lookup @labels.description.template activity=NBdXGRF1vahbq4p8]]. Ogni creatura su quella linea deve effettuare un tiro salvezza [[/save activity=NBdXGRF1vahbq4p8]]; se lo fallisce subisce [[/damage average activity=NBdXGRF1vahbq4p8]] danni, mentre se lo supera subisce la metà di quei danni.</p>"
+              }
             },
             "O02zuaLvAqtmgutQ": {
-              "name": "Soffio di Sonno"
+              "name": "Soffio di Sonno",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} espira gas soporifero in un'area [[lookup @labels.description.template activity=O02zuaLvAqtmgutQ]]. Ogni creatura in quell'area deve superare un tiro salvezza [[/save activity=O02zuaLvAqtmgutQ]], altrimenti cade &amp;Reference[unconscious] per [[lookup @labels.duration activity=O02zuaLvAqtmgutQ]]. Questo effetto termina su una creatura se essa subisce danni o se qualcuno usa un'azione per svegliarla.</p>"
+              }
             }
           },
           "effects": {
@@ -4463,10 +4571,16 @@
         "K9vktdgJkPWfYjwa": {
           "activities": {
             "NBdXGRF1vahbq4p8": {
-              "name": "Soffio di Fuoco"
+              "name": "Soffio di Fuoco",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} espira fuoco lungo una linea [[lookup @labels.description.template activity=NBdXGRF1vahbq4p8]]. Ogni creatura su quella linea deve effettuare un tiro salvezza [[/save activity=NBdXGRF1vahbq4p8]]; se lo fallisce subisce [[/damage average activity=NBdXGRF1vahbq4p8]] danni, mentre se lo supera subisce la metà di quei danni.</p>"
+              }
             },
             "O02zuaLvAqtmgutQ": {
-              "name": "Soffio di Sonno"
+              "name": "Soffio di Sonno",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} espira gas soporifero in un'area [[lookup @labels.description.template activity=O02zuaLvAqtmgutQ]]. Ogni creatura in quell'area deve superare un tiro salvezza [[/save activity=O02zuaLvAqtmgutQ]], altrimenti cade &amp;Reference[unconscious] per [[lookup @labels.duration activity=O02zuaLvAqtmgutQ]]. Questo effetto termina su una creatura se essa subisce danni o se qualcuno usa un'azione per svegliarla.</p>"
+              }
             }
           },
           "effects": {
@@ -4532,10 +4646,16 @@
         "2a60l0GqXGN8lx4R": {
           "activities": {
             "w2CftR6CLr5PZ7zY": {
-              "name": "Soffio di Fulmini"
+              "name": "Soffio di Fulmini",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} espira un fulmine lungo una linea [[lookup @labels.description.template activity=w2CftR6CLr5PZ7zY]]. Ogni creatura su quella linea deve effettuare un tiro salvezza [[/save activity=w2CftR6CLr5PZ7zY]]; se lo fallisce subisce [[/damage average activity=w2CftR6CLr5PZ7zY]] danni, mentre se lo supera subisce la metà di quei danni.</p>"
+              }
             },
             "YElWYv6C5UfhAu48": {
-              "name": "Soffio Respingente"
+              "name": "Soffio Respingente",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} espira energia repulsiva in un'area [[lookup @labels.description.template activity=YElWYv6C5UfhAu48]]. Ogni creatura in quell'area deve superare un tiro salvezza [[/save activity=YElWYv6C5UfhAu48]]. Se lo fallisce, viene spinta di 18 metri allontanandosi dal [[lookup @name lowercase]]{mostro}.</p>"
+              }
             }
           },
           "name": "Armi a Soffio",
@@ -4646,10 +4766,16 @@
         "fquJJiKubd6XKMXP": {
           "activities": {
             "w2CftR6CLr5PZ7zY": {
-              "name": "Soffio di Fulmini"
+              "name": "Soffio di Fulmini",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} espira un fulmine lungo una linea [[lookup @labels.description.template activity=w2CftR6CLr5PZ7zY]]. Ogni creatura su quella linea deve effettuare un tiro salvezza [[/save activity=w2CftR6CLr5PZ7zY]]; se lo fallisce subisce [[/damage average activity=w2CftR6CLr5PZ7zY]] danni, mentre se lo supera subisce la metà di quei danni.</p>"
+              }
             },
             "YElWYv6C5UfhAu48": {
-              "name": "Soffio Respingente"
+              "name": "Soffio Respingente",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} espira energia repulsiva in un'area [[lookup @labels.description.template activity=YElWYv6C5UfhAu48]]. Ogni creatura in quell'area deve superare un tiro salvezza [[/save activity=YElWYv6C5UfhAu48]]. Se lo fallisce, viene spinta di 18 metri allontanandosi dal [[lookup @name lowercase]]{mostro}.</p>"
+              }
             }
           },
           "name": "Armi a Soffio",
@@ -4729,10 +4855,16 @@
         "DogAlXwHCyvsBynk": {
           "activities": {
             "w2CftR6CLr5PZ7zY": {
-              "name": "Soffio di Fulmini"
+              "name": "Soffio di Fulmini",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} espira un fulmine lungo una linea [[lookup @labels.description.template activity=w2CftR6CLr5PZ7zY]]. Ogni creatura su quella linea deve effettuare un tiro salvezza [[/save activity=w2CftR6CLr5PZ7zY]]; se lo fallisce subisce [[/damage average activity=w2CftR6CLr5PZ7zY]] danni, mentre se lo supera subisce la metà di quei danni.</p>"
+              }
             },
             "YElWYv6C5UfhAu48": {
-              "name": "Soffio Respingente"
+              "name": "Soffio Respingente",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} espira energia repulsiva in un'area [[lookup @labels.description.template activity=YElWYv6C5UfhAu48]]. Ogni creatura in quell'area deve superare un tiro salvezza [[/save activity=YElWYv6C5UfhAu48]]. Se lo fallisce, viene spinta di 18 metri allontanandosi dal [[lookup @name lowercase]]{mostro}.</p>"
+              }
             }
           },
           "name": "Armi a Soffio",
@@ -4764,10 +4896,16 @@
         "nRygf5tL7Jm91beK": {
           "activities": {
             "w2CftR6CLr5PZ7zY": {
-              "name": "Soffio di Fulmini"
+              "name": "Soffio di Fulmini",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} espira un fulmine lungo una linea [[lookup @labels.description.template activity=w2CftR6CLr5PZ7zY]]. Ogni creatura su quella linea deve effettuare un tiro salvezza [[/save activity=w2CftR6CLr5PZ7zY]]; se lo fallisce subisce [[/damage average activity=w2CftR6CLr5PZ7zY]] danni, mentre se lo supera subisce la metà di quei danni.</p>"
+              }
             },
             "YElWYv6C5UfhAu48": {
-              "name": "Soffio Respingente"
+              "name": "Soffio Respingente",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} espira energia repulsiva in un'area [[lookup @labels.description.template activity=YElWYv6C5UfhAu48]]. Ogni creatura in quell'area deve superare un tiro salvezza [[/save activity=YElWYv6C5UfhAu48]]. Se lo fallisce, viene spinta di 18 metri allontanandosi dal [[lookup @name lowercase]]{mostro}.</p>"
+              }
             }
           },
           "name": "Armi a Soffio",
@@ -4804,16 +4942,23 @@
         "HsJrAS1hqUisyq9J": {
           "activities": {
             "zTWpuajI6meBb52D": {
-              "name": "Soffio di Acido"
+              "name": "Soffio di Acido",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} espira acido lungo una linea [[lookup @labels.description.template activity=zTWpuajI6meBb52D]]. Ogni creatura su quella linea deve effettuare un tiro salvezza [[/save activity=zTWpuajI6meBb52D]]; se lo fallisce subisce [[/damage average activity=zTWpuajI6meBb52D]] danni, mentre se lo supera subisce la metà di quei danni.</p>"
+              }
             },
             "CkPMajPOZWWj3gl0": {
-              "name": "Soffio Rallentante"
+              "name": "Soffio Rallentante",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} espira gas in un'area [[lookup @labels.description.template activity=zTWpuajI6meBb52D]]. Ogni creatura in quell'area deve superare un tiro salvezza [[/save activity=CkPMajPOZWWj3gl0]]. Se lo fallisce, non può usare reazioni, la sua velocità è dimezzata e non può effettuare più di un attacco nel proprio turno. Inoltre, nel proprio turno può usare un'azione o un'azione bonus, ma non entrambe. Questi effetti durano per [[lookup @labels.duration activity=CkPMajPOZWWj3gl0]]. La creatura può ripetere il tiro salvezza alla fine di ciascun proprio turno e, se lo supera, l'effetto su di lei termina.</p>"
+              }
             }
           },
           "name": "Armi a Soffio",
           "effects": {
             "5E6iveIba4rYeUbc": {
-              "name": "Rallentato"
+              "name": "Rallentato",
+              "description": "<p>Sei rallentato. Finché sei rallentato, non puoi usare reazioni, la tua velocità è dimezzata e non puoi effettuare più di un attacco nel tuo turno. Inoltre, nel tuo turno puoi usare un'azione o un'azione bonus, ma non entrambe.</p><p>Questi effetti durano 1 minuto. Puoi ripetere il tiro salvezza alla fine di ciascun tuo turno e, se lo superi, l'effetto su di te termina.</p>"
             }
           },
           "chat": "<p>Il [[lookup @name]]{mostro} inspira!</p>"
@@ -4909,16 +5054,23 @@
         "A9Cya4gGBfMB0WCr": {
           "activities": {
             "zTWpuajI6meBb52D": {
-              "name": "Soffio di Acido"
+              "name": "Soffio di Acido",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} espira acido lungo una linea [[lookup @labels.description.template activity=zTWpuajI6meBb52D]]. Ogni creatura su quella linea deve effettuare un tiro salvezza [[/save activity=zTWpuajI6meBb52D]]; se lo fallisce subisce [[/damage average activity=zTWpuajI6meBb52D]] danni, mentre se lo supera subisce la metà di quei danni.</p>"
+              }
             },
             "CkPMajPOZWWj3gl0": {
-              "name": "Soffio Rallentante"
+              "name": "Soffio Rallentante",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} espira gas in un'area [[lookup @labels.description.template activity=zTWpuajI6meBb52D]]. Ogni creatura in quell'area deve superare un tiro salvezza [[/save activity=CkPMajPOZWWj3gl0]]. Se lo fallisce, non può usare reazioni, la sua velocità è dimezzata e non può effettuare più di un attacco nel proprio turno. Inoltre, nel proprio turno può usare un'azione o un'azione bonus, ma non entrambe. Questi effetti durano per [[lookup @labels.duration activity=CkPMajPOZWWj3gl0]]. La creatura può ripetere il tiro salvezza alla fine di ciascun proprio turno e, se lo supera, l'effetto su di lei termina.</p>"
+              }
             }
           },
           "name": "Armi a Soffio",
           "effects": {
             "5E6iveIba4rYeUbc": {
-              "name": "Rallentato"
+              "name": "Rallentato",
+              "description": "<p>Sei rallentato. Finché sei rallentato, non puoi usare reazioni, la tua velocità è dimezzata e non puoi effettuare più di un attacco nel tuo turno. Inoltre, nel tuo turno puoi usare un'azione o un'azione bonus, ma non entrambe.</p><p>Questi effetti durano 1 minuto. Puoi ripetere il tiro salvezza alla fine di ciascun tuo turno e, se lo superi, l'effetto su di te termina.</p>"
             }
           },
           "chat": "<p>Il [[lookup @name]]{mostro} inspira!</p>"
@@ -5021,16 +5173,23 @@
         "XuuhDCc4RQcZOXUL": {
           "activities": {
             "zTWpuajI6meBb52D": {
-              "name": "Soffio di Acido"
+              "name": "Soffio di Acido",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} espira acido lungo una linea [[lookup @labels.description.template activity=zTWpuajI6meBb52D]]. Ogni creatura su quella linea deve effettuare un tiro salvezza [[/save activity=zTWpuajI6meBb52D]]; se lo fallisce subisce [[/damage average activity=zTWpuajI6meBb52D]] danni, mentre se lo supera subisce la metà di quei danni.</p>"
+              }
             },
             "CkPMajPOZWWj3gl0": {
-              "name": "Soffio Rallentante"
+              "name": "Soffio Rallentante",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} espira gas in un'area [[lookup @labels.description.template activity=zTWpuajI6meBb52D]]. Ogni creatura in quell'area deve superare un tiro salvezza [[/save activity=CkPMajPOZWWj3gl0]]. Se lo fallisce, non può usare reazioni, la sua velocità è dimezzata e non può effettuare più di un attacco nel proprio turno. Inoltre, nel proprio turno può usare un'azione o un'azione bonus, ma non entrambe. Questi effetti durano per [[lookup @labels.duration activity=CkPMajPOZWWj3gl0]]. La creatura può ripetere il tiro salvezza alla fine di ciascun proprio turno e, se lo supera, l'effetto su di lei termina.</p>"
+              }
             }
           },
           "name": "Armi a Soffio",
           "effects": {
             "5E6iveIba4rYeUbc": {
-              "name": "Rallentato"
+              "name": "Rallentato",
+              "description": "<p>Sei rallentato. Finché sei rallentato, non puoi usare reazioni, la tua velocità è dimezzata e non puoi effettuare più di un attacco nel tuo turno. Inoltre, nel tuo turno puoi usare un'azione o un'azione bonus, ma non entrambe.</p><p>Questi effetti durano 1 minuto. Puoi ripetere il tiro salvezza alla fine di ciascun tuo turno e, se lo superi, l'effetto su di te termina.</p>"
             }
           },
           "chat": "<p>Il [[lookup @name]]{mostro} inspira!</p>"
@@ -5057,16 +5216,23 @@
         "3oecwwSby4Of0PrD": {
           "activities": {
             "zTWpuajI6meBb52D": {
-              "name": "Soffio di Acido"
+              "name": "Soffio di Acido",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} espira acido lungo una linea [[lookup @labels.description.template activity=zTWpuajI6meBb52D]]. Ogni creatura su quella linea deve effettuare un tiro salvezza [[/save activity=zTWpuajI6meBb52D]]; se lo fallisce subisce [[/damage average activity=zTWpuajI6meBb52D]] danni, mentre se lo supera subisce la metà di quei danni.</p>"
+              }
             },
             "CkPMajPOZWWj3gl0": {
-              "name": "Soffio Rallentante"
+              "name": "Soffio Rallentante",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} espira gas in un'area [[lookup @labels.description.template activity=zTWpuajI6meBb52D]]. Ogni creatura in quell'area deve superare un tiro salvezza [[/save activity=CkPMajPOZWWj3gl0]]. Se lo fallisce, non può usare reazioni, la sua velocità è dimezzata e non può effettuare più di un attacco nel proprio turno. Inoltre, nel proprio turno può usare un'azione o un'azione bonus, ma non entrambe. Questi effetti durano per [[lookup @labels.duration activity=CkPMajPOZWWj3gl0]]. La creatura può ripetere il tiro salvezza alla fine di ciascun proprio turno e, se lo supera, l'effetto su di lei termina.</p>"
+              }
             }
           },
           "name": "Armi a Soffio",
           "effects": {
             "5E6iveIba4rYeUbc": {
-              "name": "Rallentato"
+              "name": "Rallentato",
+              "description": "<p>Sei rallentato. Finché sei rallentato, non puoi usare reazioni, la tua velocità è dimezzata e non puoi effettuare più di un attacco nel tuo turno. Inoltre, nel tuo turno puoi usare un'azione o un'azione bonus, ma non entrambe.</p><p>Questi effetti durano 1 minuto. Puoi ripetere il tiro salvezza alla fine di ciascun tuo turno e, se lo superi, l'effetto su di te termina.</p>"
             }
           },
           "chat": "<p>Il [[lookup @name]]{mostro} inspira!</p>"
@@ -5379,7 +5545,9 @@
             "dN04D22jj4eo1ERu": {
               "name": "Esala Fuoco"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} espira fuoco in un'area [[lookup @labels.description.template activity=dN04D22jj4eo1ERu]]. Ogni creatura in quell'area deve effettuare un tiro salvezza [[/save]]; se lo fallisce subisce [[/damage average]] danni, mentre se lo supera subisce la metà di quei danni.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} espira fuoco in un'area [[lookup @labels.description.template activity=dN04D22jj4eo1ERu]]. Ogni creatura in quell'area deve effettuare un tiro salvezza su Destrezza.</p>"
         },
         "ySrfqC410pMPhqpH": {
           "name": "Presenza Terrificante",
@@ -5475,7 +5643,9 @@
             "dN04D22jj4eo1ERu": {
               "name": "Esala Fuoco"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} espira fuoco in un'area [[lookup @labels.description.template activity=dN04D22jj4eo1ERu]]. Ogni creatura in quell'area deve effettuare un tiro salvezza [[/save]]; se lo fallisce subisce [[/damage average]] danni, mentre se lo supera subisce la metà di quei danni.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} espira fuoco in un'area [[lookup @labels.description.template activity=dN04D22jj4eo1ERu]]. Ogni creatura in quell'area deve effettuare un tiro salvezza su Destrezza.</p>"
         },
         "NMJFBWWE31eRqrxX": {
           "name": "Presenza Terrificante",
@@ -5554,7 +5724,9 @@
             "dN04D22jj4eo1ERu": {
               "name": "Esala Fuoco"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} espira fuoco in un'area [[lookup @labels.description.template activity=dN04D22jj4eo1ERu]]. Ogni creatura in quell'area deve effettuare un tiro salvezza [[/save]]; se lo fallisce subisce [[/damage average]] danni, mentre se lo supera subisce la metà di quei danni.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} espira fuoco in un'area [[lookup @labels.description.template activity=dN04D22jj4eo1ERu]]. Ogni creatura in quell'area deve effettuare un tiro salvezza su Destrezza.</p>"
         }
       },
       "details": {
@@ -5581,7 +5753,9 @@
             "dN04D22jj4eo1ERu": {
               "name": "Esala Fuoco"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} espira fuoco in un'area [[lookup @labels.description.template activity=dN04D22jj4eo1ERu]]. Ogni creatura in quell'area deve effettuare un tiro salvezza [[/save]]; se lo fallisce subisce [[/damage average]] danni, mentre se lo supera subisce la metà di quei danni.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} espira fuoco in un'area [[lookup @labels.description.template activity=dN04D22jj4eo1ERu]]. Ogni creatura in quell'area deve effettuare un tiro salvezza su Destrezza.</p>"
         },
         "3UHmbpT3v3FTlplI": {
           "name": "Artiglio",
@@ -5613,7 +5787,9 @@
             "MiNhGAqISi8NVtZa": {
               "name": "Esala Veleno"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} espira gas velenoso in un'area [[lookup @labels.description.template activity=MiNhGAqISi8NVtZa]]. Ogni creatura in quell'area deve effettuare un tiro salvezza [[/save]]; se lo fallisce subisce [[/damage average]] danni, mentre se lo supera subisce la metà di quei danni.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} espira gas velenoso in un'area [[lookup @labels.description.template activity=MiNhGAqISi8NVtZa]]. Ogni creatura in quell'area deve effettuare un tiro salvezza su Costituzione.</p>"
         },
         "GulXNndFdgIGNF5f": {
           "name": "Anfibio",
@@ -5731,7 +5907,9 @@
             "MiNhGAqISi8NVtZa": {
               "name": "Esala Veleno"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} espira gas velenoso in un'area [[lookup @labels.description.template activity=MiNhGAqISi8NVtZa]]. Ogni creatura in quell'area deve effettuare un tiro salvezza [[/save]]; se lo fallisce subisce [[/damage average]] danni, mentre se lo supera subisce la metà di quei danni.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} espira gas velenoso in un'area [[lookup @labels.description.template activity=MiNhGAqISi8NVtZa]]. Ogni creatura in quell'area deve effettuare un tiro salvezza su Costituzione.</p>"
         },
         "CowO8pcqsA4xwGf7": {
           "name": "Presenza Terrificante",
@@ -5805,7 +5983,9 @@
             "MiNhGAqISi8NVtZa": {
               "name": "Esala Veleno"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} espira gas velenoso in un'area [[lookup @labels.description.template activity=MiNhGAqISi8NVtZa]]. Ogni creatura in quell'area deve effettuare un tiro salvezza [[/save]]; se lo fallisce subisce [[/damage average]] danni, mentre se lo supera subisce la metà di quei danni.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} espira gas velenoso in un'area [[lookup @labels.description.template activity=MiNhGAqISi8NVtZa]]. Ogni creatura in quell'area deve effettuare un tiro salvezza su Costituzione.</p>"
         },
         "zii9P95YmeE6b4km": {
           "name": "Morso",
@@ -5845,7 +6025,9 @@
             "MiNhGAqISi8NVtZa": {
               "name": "Esala Veleno"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} espira gas velenoso in un'area [[lookup @labels.description.template activity=MiNhGAqISi8NVtZa]]. Ogni creatura in quell'area deve effettuare un tiro salvezza [[/save]]; se lo fallisce subisce [[/damage average]] danni, mentre se lo supera subisce la metà di quei danni.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} espira gas velenoso in un'area [[lookup @labels.description.template activity=MiNhGAqISi8NVtZa]]. Ogni creatura in quell'area deve effettuare un tiro salvezza su Costituzione.</p>"
         },
         "WvvHslcDhMq7MD1s": {
           "name": "Artiglio",
@@ -6056,7 +6238,8 @@
           "name": "Balestra a Mano",
           "effects": {
             "yjNxc3DxFYNIUZ7n": {
-              "name": "Veleno Drow"
+              "name": "Veleno Drow",
+              "description": "<p>Sei &amp;reference[poisoned apply=false] per la durata.</p>"
             },
             "WhpwrXwRiHSvIXXZ": {
               "name": "Veleno Drow Potente"
@@ -6363,7 +6546,8 @@
               "name": "Forma di Fuoco"
             },
             "JaPKJu7WX0QierHn": {
-              "name": "Incendiato"
+              "name": "Incendiato",
+              "description": "<p>Sei in fiamme. Finché qualcuno non usa un'azione per spegnere il fuoco, subisci [[/damage average 1d10 fire]] danni all'inizio di ciascun tuo turno.</p>"
             }
           },
           "activities": {
@@ -6398,7 +6582,8 @@
           },
           "effects": {
             "kMWp6sv06eOgiQ5W": {
-              "name": "Incendiato"
+              "name": "Incendiato",
+              "description": "<p>Sei in fiamme. Finché qualcuno non usa un'azione per spegnere il fuoco, subisci [[/damage average 1d10 fire]] danni all'inizio di ciascun tuo turno.</p>"
             }
           }
         }
@@ -6430,9 +6615,11 @@
           "name": "Forma d'Acqua",
           "effects": {
             "5X6BAIpB87THEIZe": {
-              "name": "Forma d'Acqua"
+              "name": "Forma d'Acqua",
+              "description": "<p>Puoi entrare nello spazio di una creatura ostile e fermarti al suo interno. Puoi attraversare uno spazio largo appena 2,5 cm senza &amp;reference[squeezing]{stringerti}.</p>"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} può entrare nello spazio di una creatura ostile e fermarsi al suo interno. Può attraversare uno spazio largo appena 2,5 cm senza &amp;reference[squeezing]{stringersi}.</p>"
         },
         "9saHudPLoj6va2em": {
           "name": "Multiattacco"
@@ -6476,9 +6663,11 @@
           "name": "Forma d'Aria",
           "effects": {
             "vpfm0NeYtG6CcTKD": {
-              "name": "Forma d'Aria"
+              "name": "Forma d'Aria",
+              "description": "<p>Puoi entrare nello spazio di una creatura ostile e fermarti al suo interno. Puoi attraversare uno spazio largo appena 2,5 cm senza &amp;reference[squeezing]{stringerti}.</p>"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} può entrare nello spazio di una creatura ostile e fermarsi al suo interno. Può attraversare uno spazio largo appena 2,5 cm senza &amp;reference[squeezing]{stringersi}.</p>"
         },
         "IyR3c30mCbL8VMCo": {
           "name": "Multiattacco"
@@ -6520,7 +6709,8 @@
           "name": "Multiattacco"
         },
         "k8x76Y7EMOOH2VM0": {
-          "name": "Mostro da Assedio"
+          "name": "Mostro da Assedio",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} infligge danni doppi agli oggetti e alle strutture.</p>"
         },
         "2AD5aTLMPDmQFhGZ": {
           "name": "Schianto",
@@ -6574,7 +6764,8 @@
             "5RUe1bRJr64laA0l": {
               "name": "Parare l'Attacco"
             }
-          }
+          },
+          "chat": "<p>Il [[lookup @name]]{mostro} aggiunge 5 alla propria CA contro un attacco in mischia che altrimenti lo colpirebbe.</p>"
         },
         "BeB04w7ftFRDaMQ6": {
           "name": "Armi Infernali"
@@ -6636,7 +6827,8 @@
           },
           "effects": {
             "MCK6rCVeevB937hL": {
-              "name": "Veleno dell'Ettercap"
+              "name": "Veleno dell'Ettercap",
+              "description": "<p>Sei &amp;reference[poisoned apply=false] per la durata.</p><p>Puoi ripetere il tiro salvezza alla fine di ciascun tuo turno e, se lo superi, l'effetto su di te termina.</p>"
             }
           }
         },
@@ -6762,7 +6954,8 @@
           "name": "Devozione Oscura"
         },
         "WfqCnxOUS8aXxd7O": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua due attacchi in mischia.</p>"
         },
         "zTX7ZTUkqUMSbGII": {
           "name": "Pugnale",
@@ -6843,7 +7036,8 @@
           },
           "effects": {
             "TJfxWRiNLIW3idZ6": {
-              "name": "Terrorizzato"
+              "name": "Terrorizzato",
+              "description": "<p>Sei &amp;reference[frightened apply=false] per la durata.</p><p>Puoi ripetere il tiro salvezza alla fine di ciascun tuo turno e, se lo superi, l'effetto su di te termina.</p>"
             },
             "YpGPsEF1EFARwjc1": {
               "name": "Invecchiamento Indotto dalla Paura"
@@ -7194,7 +7388,8 @@
           },
           "effects": {
             "OVBiaD85V1M70hc7": {
-              "name": "Avvelenamento da Fetore"
+              "name": "Avvelenamento da Fetore",
+              "description": "<p>Sei &amp;reference[poisoned apply=false] fino all'inizio del tuo turno successivo.</p>"
             }
           }
         },
@@ -7431,7 +7626,8 @@
           }
         },
         "e4p65TbhzdVU810V": {
-          "name": "Mimetismo nella Pietra"
+          "name": "Mimetismo nella Pietra",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di vantaggio alle prove di Destrezza (Furtività) effettuate per &amp;reference[hide] su terreno roccioso.</p>"
         },
         "eiNNUlTgJyVFcQkO": {
           "name": "Roccia",
@@ -7833,7 +8029,8 @@
         "YuhirWYJsQfL6zo5": {
           "effects": {
             "QjIZgOv27bdE0Zuu": {
-              "name": "Avvelenato"
+              "name": "Avvelenato",
+              "description": "<p>Sei &amp;reference[poisoned apply=false] per la durata.</p><p>Puoi ripetere il tiro salvezza alla fine di ciascun tuo turno e, se lo superi, l'effetto su di te termina.</p>"
             }
           },
           "name": "Dardo Avvelenato",
@@ -7861,7 +8058,8 @@
           "description": "<p>L'incantatore assume un aspetto diverso (che include i suoi abiti, armatura, armi e altri oggetti personali presenti sulla sua persona) per la durata dell'incantesimo o finché egli non usa la sua azione per terminarlo. Può apparire 30 cm più alto o più basso e apparire magro, grasso o di corporatura normale. Non può cambiare il suo tipo di corpo, quindi deve adottare una forma che usi la stessa disposizione basilare degli arti. Entro questi limiti, la natura dell'illusione dipende da lui.</p><p>I cambiamenti apportati da questo incantesimo non passano il vaglio di un'ispezione fisica. Per esempio, se l'incantatore usa questo incantesimo per aggiungere un cappello in testa, gli oggetti passerebbero attraverso il cappello e chiunque tocchi l'incantatore non sentirebbe nulla o toccherebbe la testa e i capelli dell'incantatore. Se l'incantatore usa questo incantesimo per apparire più magro rispetto alla realtà, quando qualcuno protende la mano per toccarlo, urta l'incantatore quando la sua mano è apparentemente ancora a mezz'aria.</p><p>Per capire che l'incantatore è camuffato, una creatura può usare la sua azione per ispezionare il suo aspetto e deve superare una prova di Intelligenza (Indagare) contro la CD del tiro salvezza dell'incantesimo.</p>"
         },
         "lYjhcBIYyCekV7nD": {
-          "name": "Mimetismo nella Pietra"
+          "name": "Mimetismo nella Pietra",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di vantaggio alle prove di Destrezza (Furtività) effettuate per &amp;reference[hide] su terreno roccioso.</p>"
         },
         "JCSej95QR8svWsYz": {
           "name": "Astuzia Gnomesca"
@@ -8066,7 +8264,8 @@
       },
       "items": {
         "UupAbZ0Pu4j3vLLg": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua due attacchi in mischia.</p>"
         },
         "x44GisqrxHYC5fov": {
           "name": "Soffio di Veleno",
@@ -8190,7 +8389,8 @@
               "name": "Pietrificazione in Corso"
             },
             "PtowAW8SWftie1x8": {
-              "name": "Completamente Pietrificato"
+              "name": "Completamente Pietrificato",
+              "description": "<p>Sei &amp;reference[petrified apply=false] finché non vieni liberato dall'incantesimo @UUID[Compendium.dnd5e.spells.Item.WzvJ7G3cqvIubsLk]{ristorare superiore} o da un'altra magia.</p>"
             }
           }
         },
@@ -8307,7 +8507,8 @@
           "name": "Multiattacco"
         },
         "GZoCoZEY1RqP2mAU": {
-          "name": "Mimetismo nella Pietra"
+          "name": "Mimetismo nella Pietra",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di vantaggio alle prove di Destrezza (Furtività) effettuate per &amp;reference[hide] su terreno roccioso.</p>"
         },
         "tkVlxJxg4LBVJvuX": {
           "name": "Tentacoli",
@@ -8363,7 +8564,8 @@
           "description": "<p>La [[lookup @name lowercase]]{monster} non può usare la sua vista cieca finché è Assordato e non è in grado di fiutare.</p>"
         },
         "VxPre1G0W6fDh5VL": {
-          "name": "Mimetismo nella Pietra"
+          "name": "Mimetismo nella Pietra",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di vantaggio alle prove di Destrezza (Furtività) effettuate per &amp;reference[hide] su terreno roccioso.</p>"
         },
         "aEWZXCiyNusgb3Ro": {
           "name": "Randello d'Osso Chiodato",
@@ -8501,10 +8703,12 @@
       },
       "items": {
         "YhtTMVOFSgPGm71b": {
-          "name": "Volo Sfuggente"
+          "name": "Volo Sfuggente",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} non provoca &amp;reference[opportunity attacks] quando vola fuori dalla portata di un nemico.</p>"
         },
         "9H6ylAxHKFhsfqno": {
-          "name": "Udito e Vista Acuti"
+          "name": "Udito e Vista Acuti",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di vantaggio alle prove di Saggezza (Percezione) basate sull'udito o sulla vista.</p>"
         },
         "c3NnWQRHnaBpqtbe": {
           "name": "Artigli",
@@ -8523,7 +8727,8 @@
       },
       "items": {
         "kB6hOBhmgXQZHfYz": {
-          "name": "Volo Sfuggente"
+          "name": "Volo Sfuggente",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} non provoca &amp;reference[opportunity attacks] quando vola fuori dalla portata di un nemico.</p>"
         },
         "6jw1NtpZQXIesO4Y": {
           "name": "Artigli",
@@ -8531,7 +8736,8 @@
           "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
         },
         "hfjrmCsemIUdRA0d": {
-          "name": "Udito e Vista Acuti"
+          "name": "Udito e Vista Acuti",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di vantaggio alle prove di Saggezza (Percezione) basate sull'udito o sulla vista.</p>"
         }
       },
       "details": {
@@ -8555,7 +8761,8 @@
           },
           "effects": {
             "8m7q66OJYEBYu2DB": {
-              "name": "Avvelenamento da Fetore"
+              "name": "Avvelenamento da Fetore",
+              "description": "<p>Sei &amp;reference[poisoned apply=false] fino all'inizio del tuo turno successivo.</p>"
             }
           }
         },
@@ -8670,7 +8877,8 @@
       },
       "items": {
         "xr59rWl3oCOLdQBQ": {
-          "name": "Trattenere il Respiro"
+          "name": "Trattenere il Respiro",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} può trattenere il respiro per 1 ora.</p>"
         },
         "fsAeJDaI0a6sBeFk": {
           "name": "Teste Multiple",
@@ -8804,7 +9012,8 @@
             "CaKaGslGFsgCW6kV": {
               "name": "Diventa Invisibile"
             }
-          }
+          },
+          "chat": "<p>Il [[lookup @name]]{mostro} diventa magicamente &amp;reference[invisible]. Ogni oggetto che il [[lookup @name]]{mostro} indossa o trasporta diventa invisibile assieme a esso.</p>"
         },
         "4fV0Bx98jhEx562G": {
           "name": "Resistenza Magica",
@@ -8861,7 +9070,8 @@
           "name": "Libertà di Movimento"
         },
         "1oNtSpRA4XS3L6to": {
-          "name": "Mostro da Assedio"
+          "name": "Mostro da Assedio",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} infligge danni doppi agli oggetti e alle strutture.</p>"
         },
         "j4xzhdYjtz2migUE": {
           "name": "Multiattacco"
@@ -9112,7 +9322,8 @@
           "name": "Sguardo Terrificante",
           "effects": {
             "OoRXaVihtPj1cUov": {
-              "name": "Sguardo Terrificante"
+              "name": "Sguardo Terrificante",
+              "description": "<p>Sei &amp;reference[frightened apply=false] per la durata.</p><p>Puoi ripetere il tiro salvezza alla fine di ciascun tuo turno e, se lo superi, l'effetto su di te termina.</p>"
             }
           },
           "activities": {
@@ -9302,7 +9513,8 @@
       "name": "Lizardfolk",
       "items": {
         "14epJr1iwk3pnPVs": {
-          "name": "Trattenere il Respiro"
+          "name": "Trattenere il Respiro",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} può trattenere il respiro per 15 minuti.</p>"
         },
         "s88qLjZemkFRnB8Y": {
           "name": "Multiattacco"
@@ -9381,7 +9593,10 @@
           "name": "Morso",
           "activities": {
             "3lI4GEtZEEPgehgy": {
-              "name": "Tiro Salvezza contro Prono"
+              "name": "Tiro Salvezza contro Prono",
+              "description": {
+                "value": "<p>Se il bersaglio è una creatura, deve superare un tiro salvezza [[/save]], altrimenti cade &amp;Reference[prone].</p>"
+              }
             }
           },
           "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio è una creatura, deve superare un tiro salvezza [[/save]], altrimenti cade &amp;Reference[prone].</p>",
@@ -9414,7 +9629,10 @@
           "name": "Morso",
           "activities": {
             "3lI4GEtZEEPgehgy": {
-              "name": "Tiro Salvezza contro Prono"
+              "name": "Tiro Salvezza contro Prono",
+              "description": {
+                "value": "<p>Se il bersaglio è una creatura, deve superare un tiro salvezza [[/save]], altrimenti cade &amp;Reference[prone].</p>"
+              }
             }
           },
           "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio è una creatura, deve superare un tiro salvezza [[/save]], altrimenti cade &amp;Reference[prone].</p>",
@@ -9447,7 +9665,10 @@
           "name": "Morso",
           "activities": {
             "oq81aFnARhfla3iq": {
-              "name": "Tiro Salvezza contro Prono"
+              "name": "Tiro Salvezza contro Prono",
+              "description": {
+                "value": "<p>Se il bersaglio è una creatura, deve superare un tiro salvezza [[/save]], altrimenti cade &amp;Reference[prone].</p>"
+              }
             }
           },
           "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio è una creatura, deve superare un tiro salvezza [[/save]], altrimenti cade &amp;Reference[prone].</p>",
@@ -9489,7 +9710,8 @@
           },
           "effects": {
             "wobMCqAriIDoX5zV": {
-              "name": "Vera Forma"
+              "name": "Vera Forma",
+              "description": "<p>Ti sei trasformato nella tua vera forma, che è umanoide.</p>"
             },
             "PM833qdHNhYXS4Q6": {
               "name": "Forma Ibrida"
@@ -9497,7 +9719,8 @@
             "yUtUCn3TPecpu4SI": {
               "name": "Forma di Lupo"
             }
-          }
+          },
+          "chat": "<p>Il [[lookup @name]]{mostro} può usare la propria azione per trasformarsi o tornare alla sua vera forma.</p>"
         },
         "tWfR8uJNnQxpXgDw": {
           "name": "Morso (Solo in Forma di Lupo o Ibrida)",
@@ -9510,7 +9733,8 @@
             "ALVeCJ1zSZMmfq3w": {
               "name": "Licantropia del Lupo Mannaro"
             }
-          }
+          },
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio Morso. Se il bersaglio è un umanoide, deve effettuare un tiro salvezza su Costituzione.</p>"
         },
         "abhGXKzA0XGprXED": {
           "name": "Multiattacco (Solo in Forma Umanoide o Ibrida)"
@@ -9987,7 +10211,8 @@
             "5RUe1bRJr64laA0l": {
               "name": "Parare l'Attacco"
             }
-          }
+          },
+          "chat": "<p>Il [[lookup @name]]{mostro} aggiunge 5 alla propria CA contro un attacco in mischia che altrimenti lo colpirebbe.</p>"
         },
         "bbSTKf4I6P8WpLkz": {
           "name": "Armi Magiche",
@@ -10067,7 +10292,8 @@
           },
           "effects": {
             "Nc19TcGMlbwrwBeq": {
-              "name": "Completamente Pietrificato"
+              "name": "Completamente Pietrificato",
+              "description": "<p>Sei &amp;reference[petrified apply=false] finché non vieni liberato dall'incantesimo @UUID[Compendium.dnd5e.spells.Item.WzvJ7G3cqvIubsLk]{ristorare superiore} o da un'altra magia.</p>"
             },
             "X227DPzcMe3z6bic": {
               "name": "Pietrificazione in Corso"
@@ -10207,7 +10433,8 @@
           "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di vantaggio ai tiri salvezza contro incantesimi e altri effetti magici.</p>"
         },
         "9Gf1hal94HjuAHMN": {
-          "name": "Spostamento Planare (solo se stesso)"
+          "name": "Spostamento Planare (solo se stesso)",
+          "description": "<p>L'incantatore e un massimo di otto creature consenzienti che si tengono per mano formando un cerchio vengono trasportati su un piano di esistenza diverso. L'incantatore può indicare una destinazione in termini generali, come la Città d'Ottone sul Piano Elementale del Fuoco o il palazzo di Dispater sul secondo livello dei Nove Inferi, e appare in quel luogo o nelle sue vicinanze. Se, per esempio, tenta di raggiungere la Città d'Ottone, potrebbe arrivare nella sua Via dell'Acciaio, davanti alla sua Porta delle Ceneri o in un punto da cui osserva la città al di là del Mare di Fuoco, a discrezione del DM.</p><p>In alternativa, se l'incantatore conosce la sequenza dei simboli di un cerchio di teletrasporto su un altro piano di esistenza, questo incantesimo può condurlo a quel cerchio. Se il cerchio di teletrasporto è troppo piccolo per contenere tutte le creature trasportate, esse appaiono negli spazi liberi più vicini al cerchio.</p><p>L'incantatore può usare questo incantesimo per bandire una creatura non consenziente su un altro piano. Sceglie una creatura entro la propria portata ed effettua contro di essa un attacco con incantesimo in mischia. Se colpisce, la creatura deve effettuare un tiro salvezza su Carisma. Se lo fallisce, viene trasportata in un punto casuale del piano di esistenza specificato dall'incantatore. Una creatura trasportata in questo modo deve trovare autonomamente il modo di tornare sull'attuale piano di esistenza dell'incantatore.</p>"
         },
         "Um3cK4i4ZQSTqodb": {
           "name": "Artigli (Solo in Forma di Megera)",
@@ -10297,7 +10524,8 @@
           },
           "effects": {
             "Khdj386syEL9V9OA": {
-              "name": "Arma Corrosa"
+              "name": "Arma Corrosa",
+              "description": "<p>Quest'arma è stata corrosa e subisce una penalità permanente e cumulativa di -1 ai tiri per i danni. Se la penalità scende a -5, l'arma è distrutta.</p>"
             }
           }
         },
@@ -10380,7 +10608,8 @@
           },
           "effects": {
             "wXabuU5S24Jh5Hu7": {
-              "name": "Accecato dalla Polvere"
+              "name": "Accecato dalla Polvere",
+              "description": "<p>Sei &amp;reference[blinded apply=false] per la durata.</p><p>Puoi ripetere il tiro salvezza alla fine di ciascun tuo turno e, se lo superi, l'effetto su di te termina.</p>"
             }
           }
         },
@@ -10396,7 +10625,8 @@
           },
           "effects": {
             "lEgTG8ExKmOG0sIW": {
-              "name": "Accecato dalla Polvere"
+              "name": "Accecato dalla Polvere",
+              "description": "<p>Sei &amp;reference[blinded apply=false] per la durata.</p><p>Puoi ripetere il tiro salvezza alla fine di ciascun tuo turno e, se lo superi, l'effetto su di te termina.</p>"
             }
           }
         },
@@ -10480,7 +10710,9 @@
             "dN04D22jj4eo1ERu": {
               "name": "Esala Fuoco"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} espira fuoco in un'area [[lookup @labels.description.template activity=dN04D22jj4eo1ERu]]. Ogni creatura in quell'area deve effettuare un tiro salvezza [[/save]]; se lo fallisce subisce [[/damage average]] danni, mentre se lo supera subisce la metà di quei danni.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} espira fuoco in un'area [[lookup @labels.description.template activity=dN04D22jj4eo1ERu]]. Ogni creatura in quell'area deve effettuare un tiro salvezza su Destrezza.</p>"
         }
       },
       "details": {
@@ -10624,7 +10856,8 @@
           "description": "<p>La [[lookup @name lowercase]]{monster} è considerata un animale Grande al fine di determinare la sua capacità di trasporto.</p>"
         },
         "PWqvlPCG9P9edPYi": {
-          "name": "Ben Piantato"
+          "name": "Ben Piantato",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di vantaggio ai tiri salvezza su Forza e Destrezza contro gli effetti che potrebbero farlo cadere &amp;reference[prone apply=false].</p>"
         },
         "Ou2VI9ORGu2JnZqj": {
           "name": "Zoccoli",
@@ -10958,7 +11191,8 @@
               "name": "Parare l'Attacco"
             }
           },
-          "description": "<p>Il [[lookup @name lowercase]]{monster} aggiunge 2 alla sua CA contro un attacco in mischia che lo colpirebbe. Per farlo, il [[lookup @name lowercase]]{monster} deve vedere l’attaccante e deve impugnare un'arma da mischia.</p>"
+          "description": "<p>Il [[lookup @name lowercase]]{monster} aggiunge 2 alla sua CA contro un attacco in mischia che lo colpirebbe. Per farlo, il [[lookup @name lowercase]]{monster} deve vedere l’attaccante e deve impugnare un'arma da mischia.</p>",
+          "chat": "<p>Il [[lookup @name lowercase]]{mostro} aggiunge 2 alla propria CA contro un attacco in mischia che altrimenti lo colpirebbe.</p>"
         }
       },
       "details": {
@@ -11176,7 +11410,8 @@
       },
       "items": {
         "Hwa4dcQdXAi1vk7z": {
-          "name": "Trattenere il Respiro"
+          "name": "Trattenere il Respiro",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} può trattenere il respiro per 30 minuti.</p>"
         },
         "2JDxekOVx1NSUwuP": {
           "name": "Morso",
@@ -11194,7 +11429,8 @@
           "description": "<p>L'[[lookup @name lowercase]]{monster} non può usare la sua vista cieca se è assordato.</p>"
         },
         "7CmK8Pk25sVdsBHV": {
-          "name": "Udito Acuto"
+          "name": "Udito Acuto",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di vantaggio alle prove di Saggezza (Percezione) basate sull'udito.</p>"
         }
       },
       "details": {
@@ -11278,7 +11514,8 @@
           },
           "effects": {
             "cOUQA2zcqWXsrHZP": {
-              "name": "Vera Forma"
+              "name": "Vera Forma",
+              "description": "<p>Ti sei trasformato nella tua vera forma, che è umanoide.</p>"
             },
             "pxfLK99CLDftSacp": {
               "name": "Forma Ibrida"
@@ -11286,7 +11523,8 @@
             "eKaJxSA4EyQcGqsF": {
               "name": "Forma di Orso"
             }
-          }
+          },
+          "chat": "<p>Il [[lookup @name]]{mostro} può usare la propria azione per trasformarsi o tornare alla sua vera forma.</p>"
         },
         "COcc6eoG6ScS4wGz": {
           "name": "Multiattacco"
@@ -11306,7 +11544,8 @@
             "uzAKSq5gVCKvQgq9": {
               "name": "Licantropia dell'Orso Mannaro"
             }
-          }
+          },
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio Morso. Se il bersaglio è un umanoide, deve effettuare un tiro salvezza su Costituzione.</p>"
         },
         "pEYcOjAF2fovrXRP": {
           "name": "Artiglio (Solo in Forma di Orso o Ibrida)",
@@ -11402,7 +11641,8 @@
           "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
         },
         "rVaJjvWKEqUsN6dE": {
-          "name": "Vista e Olfatto Acuti"
+          "name": "Vista e Olfatto Acuti",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di vantaggio alle prove di Saggezza (Percezione) basate sulla vista o sull'olfatto.</p>"
         }
       },
       "details": {
@@ -11448,7 +11688,8 @@
           "name": "Tentacolo",
           "effects": {
             "cbXYY9JllPk8clTC": {
-              "name": "Afferrato dal Tentacolo"
+              "name": "Afferrato dal Tentacolo",
+              "description": "<p>Sei &amp;reference[grappled apply=false] (CD 13 per sfuggire).</p>"
             }
           }
         }
@@ -11529,7 +11770,8 @@
           "name": "Trattenere il Respiro"
         },
         "ODM4yi5BKpC4Hohw": {
-          "name": "Mimetismo Acquatico"
+          "name": "Mimetismo Acquatico",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di vantaggio alle prove di Destrezza (Furtività) effettuate sott'acqua.</p>"
         },
         "8qYBpaA8c3BuBujY": {
           "name": "Nube di Inchiostro",
@@ -11566,7 +11808,8 @@
       },
       "items": {
         "9cPAcwvRIHmJq53Y": {
-          "name": "Mimetismo Acquatico"
+          "name": "Mimetismo Acquatico",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di vantaggio alle prove di Destrezza (Furtività) effettuate sott'acqua.</p>"
         },
         "GXCSitOBI6wjFQDq": {
           "name": "Trattenere il Respiro"
@@ -11621,7 +11864,8 @@
           "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
         },
         "v8ZgPkoPpY00qBN2": {
-          "name": "Udito Acuto"
+          "name": "Udito Acuto",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di vantaggio alle prove di Saggezza (Percezione) basate sull'udito.</p>"
         }
       },
       "details": {
@@ -11650,7 +11894,8 @@
           "description": "<p>L'[[lookup @name lowercase]]{monster} non può usare la sua vista cieca se è assordato.</p>"
         },
         "BXK2Csiwc52nD9il": {
-          "name": "Udito Acuto"
+          "name": "Udito Acuto",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di vantaggio alle prove di Saggezza (Percezione) basate sull'udito.</p>"
         }
       },
       "details": {
@@ -11750,7 +11995,8 @@
           "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
         },
         "PtGDikGuH6rHkITy": {
-          "name": "Trattenere il Respiro"
+          "name": "Trattenere il Respiro",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} può trattenere il respiro per 1 ora.</p>"
         }
       },
       "details": {
@@ -11842,7 +12088,8 @@
           "name": "Artigli",
           "effects": {
             "9sL6bRKvzI5YIGLV": {
-              "name": "Afferrato dagli Artigli"
+              "name": "Afferrato dagli Artigli",
+              "description": "<p>Sei &amp;reference[grappled apply=false] (CD 13 per sfuggire).</p>"
             }
           }
         }
@@ -11875,7 +12122,8 @@
           },
           "effects": {
             "dodLAz6LZ0KlsabM": {
-              "name": "Arma Corrosa"
+              "name": "Arma Corrosa",
+              "description": "<p>Quest'arma è stata corrosa e subisce una penalità permanente e cumulativa di -1 ai tiri per i danni. Se la penalità scende a -5, l'arma è distrutta.</p>"
             }
           }
         },
@@ -11982,7 +12230,8 @@
             "CaKaGslGFsgCW6kV": {
               "name": "Diventa Invisibile"
             }
-          }
+          },
+          "chat": "<p>Il [[lookup @name]]{mostro} diventa magicamente &amp;reference[invisible]. Ogni oggetto che il [[lookup @name]]{mostro} indossa o trasporta diventa invisibile assieme a esso.</p>"
         },
         "e8rpvJJVWCN4HU7I": {
           "name": "Mutaforma",
@@ -12045,7 +12294,8 @@
       "name": "Quipper",
       "items": {
         "jFoGi81ljGK27zpX": {
-          "name": "Frenesia di Sangue"
+          "name": "Frenesia di Sangue",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di vantaggio ai tiri per colpire in mischia contro qualsiasi creatura a cui non rimangano tutti i suoi punti ferita.</p>"
         },
         "0SJofXpPrHJsVXOy": {
           "name": "Morso",
@@ -12380,7 +12630,8 @@
           "name": "Morso",
           "effects": {
             "1AjFX4WSAMPeLQAv": {
-              "name": "Afferrato dal Morso"
+              "name": "Afferrato dal Morso",
+              "description": "<p>Sei &amp;reference[grappled apply=false] (CD 17 per sfuggire). Finché sei afferrato in questo modo, sei anche &amp;reference[restrained apply=false].</p>"
             }
           }
         },
@@ -12390,7 +12641,8 @@
             "kT8O1nYNeEvZcf4s": {
               "name": "Danni da Contatto"
             }
-          }
+          },
+          "description": "<p>Una creatura che tocca il [[lookup @name lowercase]]{mostro} o lo colpisce con un attacco in mischia mentre si trova entro 1,5 metri da esso subisce [[/damage average]] danni.</p>"
         },
         "NwgQC3ohxcI1L3GT": {
           "name": "Inghiottire",
@@ -12531,7 +12783,8 @@
           },
           "effects": {
             "iqyGcqOolg6tFCwC": {
-              "name": "Arma Corrosa"
+              "name": "Arma Corrosa",
+              "description": "<p>Quest'arma è stata corrosa e subisce una penalità permanente e cumulativa di -1 ai tiri per i danni. Se la penalità scende a -5, l'arma è distrutta.</p>"
             }
           }
         },
@@ -12667,7 +12920,8 @@
           "name": "Telepatia con gli Squali"
         },
         "7CEYhqOfXEDkrLDx": {
-          "name": "Frenesia di Sangue"
+          "name": "Frenesia di Sangue",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di vantaggio ai tiri per colpire in mischia contro qualsiasi creatura a cui non rimangano tutti i suoi punti ferita.</p>"
         },
         "QJSOQXewtM4dM59t": {
           "name": "Anfibio Limitato"
@@ -12702,7 +12956,8 @@
             "8xylZIW1hvRj5kB4": {
               "name": "Danni da Contatto"
             }
-          }
+          },
+          "description": "<p>Una creatura che tocca il [[lookup @name lowercase]]{mostro} o lo colpisce con un attacco in mischia mentre si trova entro 1,5 metri da esso subisce [[/damage average]] danni.</p>"
         },
         "H9TCRB3zfkFwk192": {
           "name": "Multiattacco"
@@ -12718,7 +12973,8 @@
           "name": "Coda",
           "effects": {
             "hEwZP7oYnc1IS0fZ": {
-              "name": "Afferrato dalla Coda"
+              "name": "Afferrato dalla Coda",
+              "description": "<p>Sei &amp;reference[grappled apply=false] (CD 14 per sfuggire). Finché sei afferrato in questo modo, sei anche &amp;reference[restrained apply=false].</p>"
             }
           }
         }
@@ -12771,7 +13027,8 @@
           "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
         },
         "t1I5Ss8xvBplViSy": {
-          "name": "Illuminazione"
+          "name": "Illuminazione",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} diffonde &amp;reference[bright light] entro un raggio di 3 metri e &amp;reference[dim light] per altri 3 metri.</p>"
         }
       },
       "details": {
@@ -12895,7 +13152,8 @@
         },
         "vZTh33xj9YxDSz6k": {
           "name": "Becchi",
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con una raffica di [[lookup @item.name]].</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con una raffica di [[lookup @item.name]].</p>",
+          "description": "<p>Attacco con Arma da Mischia: [[/attack]], 0 m, una creatura nello spazio dello [[lookup @name lowercase]]{sciame}. Colpito: [[/damage 2d6 piercing average]] danni, oppure [[/damage 1d6 piercing average]] danni se allo [[lookup @name lowercase]]{sciame} rimane metà dei punti ferita o meno.</p>"
         }
       },
       "details": {
@@ -12920,7 +13178,8 @@
         },
         "27NdQnzrrLHOUgVt": {
           "name": "Morsi",
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con una raffica di [[lookup @item.name]].</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con una raffica di [[lookup @item.name]].</p>",
+          "description": "<p>Attacco con Arma da Mischia: [[/attack]], 0 m, una creatura nello spazio dello [[lookup @name lowercase]]{sciame}. Colpito: [[/damage 4d4 piercing average]] danni, oppure [[/damage 2d4 piercing average]] danni se allo [[lookup @name lowercase]]{sciame} rimane metà dei punti ferita o meno.</p>"
         }
       },
       "details": {
@@ -13051,7 +13310,8 @@
         },
         "TcymrkJnWf22YDtq": {
           "name": "Morsi",
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con una raffica di [[lookup @item.name]].</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con una raffica di [[lookup @item.name]].</p>",
+          "description": "<p>Attacco con Arma da Mischia: [[/attack]], 0 m, una creatura nello spazio dello [[lookup @name lowercase]]{sciame}. Colpito: [[/damage 4d4 piercing average]] danni, oppure [[/damage 2d4 piercing average]] danni se allo [[lookup @name lowercase]]{sciame} rimane metà dei punti ferita o meno.</p>"
         }
       },
       "details": {
@@ -13078,7 +13338,8 @@
         },
         "cXA3xWzI18h5Xkuz": {
           "name": "Morsi",
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con una raffica di [[lookup @item.name]].</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con una raffica di [[lookup @item.name]].</p>",
+          "description": "<p>Attacco con Arma da Mischia: [[/attack]], 0 m, una creatura nello spazio dello [[lookup @name lowercase]]{sciame}. Colpito: [[/damage 2d6 piercing average]] danni, oppure [[/damage 1d6 piercing average]] danni se allo [[lookup @name lowercase]]{sciame} rimane metà dei punti ferita o meno.</p>"
         }
       },
       "details": {
@@ -13103,7 +13364,8 @@
         },
         "Gs8ogQ4hFgKgcTOq": {
           "name": "Morsi",
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con una raffica di [[lookup @item.name]].</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con una raffica di [[lookup @item.name]].</p>",
+          "description": "<p>Attacco con Arma da Mischia: [[/attack]], 0 m, una creatura nello spazio dello [[lookup @name lowercase]]{sciame}. Colpito: [[/damage 4d4 piercing average]] danni, oppure [[/damage 2d4 piercing average]] danni se allo [[lookup @name lowercase]]{sciame} rimane metà dei punti ferita o meno.</p>"
         }
       },
       "details": {
@@ -13157,7 +13419,8 @@
         },
         "i4idYezLA5dIHKUV": {
           "name": "Morsi",
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con una raffica di [[lookup @item.name]].</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con una raffica di [[lookup @item.name]].</p>",
+          "description": "<p>Attacco con Arma da Mischia: [[/attack]], 0 m, una creatura nello spazio dello [[lookup @name lowercase]]{sciame}. Colpito: [[/damage 4d4 piercing average]] danni, oppure [[/damage 2d4 piercing average]] danni se allo [[lookup @name lowercase]]{sciame} rimane metà dei punti ferita o meno.</p>"
         }
       },
       "details": {
@@ -13261,7 +13524,8 @@
           "name": "Stritolare",
           "effects": {
             "ZHHKsrqnIkhEqvom": {
-              "name": "Stritolato"
+              "name": "Stritolato",
+              "description": "<p>Sei &amp;reference[grappled apply=false] (CD 14 per sfuggire). Finché sei afferrato in questo modo, sei anche &amp;reference[restrained apply=false].</p>"
             }
           }
         }
@@ -13285,7 +13549,8 @@
           "name": "Stritolare",
           "effects": {
             "otpYrYVhGMP5ZAUo": {
-              "name": "Stritolato"
+              "name": "Stritolato",
+              "description": "<p>Sei &amp;reference[grappled apply=false] (CD 16 per sfuggire). Finché sei afferrato in questo modo, sei anche &amp;reference[restrained apply=false].</p>"
             }
           }
         }
@@ -13341,7 +13606,8 @@
       },
       "items": {
         "5d7uD5cYAPtlPrWh": {
-          "name": "Volo Sfuggente"
+          "name": "Volo Sfuggente",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} non provoca &amp;reference[opportunity attacks] quando vola fuori dalla portata di un nemico.</p>"
         },
         "ITtDDLuoOyJbDQpA": {
           "name": "Morso",
@@ -13814,7 +14080,8 @@
           "name": "Arco Corto",
           "effects": {
             "ncfr9hbuEu2mr5kI": {
-              "name": "Veleno dello Sprite"
+              "name": "Veleno dello Sprite",
+              "description": "<p>Sei &amp;reference[poisoned apply=false] per la durata.</p>"
             },
             "pw6HjjLVGg9RII4U": {
               "name": "Veleno Soporifero dello Sprite"
@@ -13865,7 +14132,8 @@
           "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
         },
         "Wo7XERIm3xygmhVH": {
-          "name": "Frenesia di Sangue"
+          "name": "Frenesia di Sangue",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di vantaggio ai tiri per colpire in mischia contro qualsiasi creatura a cui non rimangano tutti i suoi punti ferita.</p>"
         },
         "liuMeGwxdpdeCAJK": {
           "name": "Respirare Sott'Acqua",
@@ -13888,7 +14156,8 @@
           "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
         },
         "piNE415TOqbqy2Hq": {
-          "name": "Frenesia di Sangue"
+          "name": "Frenesia di Sangue",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di vantaggio ai tiri per colpire in mischia contro qualsiasi creatura a cui non rimangano tutti i suoi punti ferita.</p>"
         },
         "x1zPo4GHKSoPJc2j": {
           "name": "Respirare Sott'Acqua",
@@ -14369,7 +14638,8 @@
           },
           "effects": {
             "8E3ebjn8NLGzDZTp": {
-              "name": "Vera Forma"
+              "name": "Vera Forma",
+              "description": "<p>Ti sei trasformato nella tua vera forma, che è umanoide.</p>"
             },
             "VZawf4dtCwePtOVj": {
               "name": "Forma Ibrida"
@@ -14377,7 +14647,8 @@
             "ccSXFTdE7hqm9aaX": {
               "name": "Forma di Tigre"
             }
-          }
+          },
+          "chat": "<p>Il [[lookup @name]]{mostro} può usare la propria azione per trasformarsi o tornare alla sua vera forma.</p>"
         },
         "jW4qHQ761qRLeWM8": {
           "effects": {
@@ -14412,7 +14683,8 @@
             "9AM2lvhRgSUciyvg": {
               "name": "Licantropia della Tigre Mannara"
             }
-          }
+          },
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio Morso. Se il bersaglio è un umanoide, deve effettuare un tiro salvezza su Costituzione.</p>"
         },
         "HPmjVRKpG08bgohb": {
           "name": "Artiglio (Solo in Forma di Tigre o Ibrida)",
@@ -14446,7 +14718,8 @@
           "name": "Morso",
           "effects": {
             "mLobEEbuzt5pWhs4": {
-              "name": "Afferrato dal Morso"
+              "name": "Afferrato dal Morso",
+              "description": "<p>Sei &amp;reference[grappled apply=false] (CD 17 per sfuggire). Finché sei afferrato in questo modo, sei anche &amp;reference[restrained apply=false].</p>"
             }
           }
         },
@@ -14522,7 +14795,8 @@
           },
           "effects": {
             "qmqGUOYBjP4rSWNU": {
-              "name": "Vera Forma"
+              "name": "Vera Forma",
+              "description": "<p>Ti sei trasformato nella tua vera forma, che è umanoide.</p>"
             },
             "yc01pea2fc1DSSns": {
               "name": "Forma Ibrida"
@@ -14530,7 +14804,8 @@
             "EwReSrmzBnSylMHv": {
               "name": "Forma di Ratto"
             }
-          }
+          },
+          "chat": "<p>Il [[lookup @name]]{mostro} può usare la propria azione per trasformarsi o tornare alla sua vera forma.</p>"
         },
         "UwlU9Zhwf94gPX0n": {
           "name": "Olfatto Acuto",
@@ -14550,7 +14825,8 @@
             "mHBemQYUogbgs5yj": {
               "name": "Licantropia del Ratto Mannaro"
             }
-          }
+          },
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio Morso. Se il bersaglio è un umanoide, deve effettuare un tiro salvezza su Costituzione.</p>"
         },
         "YJi7nfridP2LjdJs": {
           "name": "Balestra a Mano (Solo in Forma Umanoide o Ibrida)",
@@ -14593,7 +14869,8 @@
           "name": "Multiattacco"
         },
         "RMsSkfIx97Hnqf37": {
-          "name": "Mostro da Assedio"
+          "name": "Mostro da Assedio",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} infligge danni doppi agli oggetti e alle strutture.</p>"
         },
         "eTROJriR9B5abIZy": {
           "name": "Roccia",
@@ -15194,7 +15471,10 @@
           "name": "Morso",
           "activities": {
             "yhYrSgDIeJSGLADU": {
-              "name": "Tiro Salvezza contro Prono"
+              "name": "Tiro Salvezza contro Prono",
+              "description": {
+                "value": "<p>Se il bersaglio è una creatura, deve superare un tiro salvezza [[/save]], altrimenti cade &amp;Reference[prone].</p>"
+              }
             }
           },
           "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio è una creatura, deve superare un tiro salvezza [[/save]], altrimenti cade &amp;Reference[prone].</p>"
@@ -15284,7 +15564,8 @@
           "name": "Multiattacco"
         },
         "ryNcNrIgtkYHRKWj": {
-          "name": "Mimetismo nella Pietra"
+          "name": "Mimetismo nella Pietra",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di vantaggio alle prove di Destrezza (Furtività) effettuate per &amp;reference[hide] su terreno roccioso.</p>"
         },
         "x6Hd2pSXy7TDwgjR": {
           "name": "Percezione dei Tesori"
@@ -15491,7 +15772,10 @@
     "abG4qRbHQzehlVYz": {
       "_id": "abG4qRbHQzehlVYz",
       "details": {
-        "alignment": "Senza Allineamento"
+        "alignment": "Senza Allineamento",
+        "biography": {
+          "value": "<p>@Embed[Compendium.dnd5e.spells.Item.ATo0Eb63TDtnu6iA caption=false]</p>"
+        }
       },
       "items": {
         "SF18BbwN2VUM5DDM": {
@@ -15516,7 +15800,10 @@
     "cI49DUvHgcPFmnk3": {
       "_id": "cI49DUvHgcPFmnk3",
       "details": {
-        "alignment": "Senza Allineamento"
+        "alignment": "Senza Allineamento",
+        "biography": {
+          "value": "<p>@Embed[Compendium.dnd5e.spells.Item.ATo0Eb63TDtnu6iA caption=false]</p>"
+        }
       },
       "items": {
         "FLWX9WZ8ivPDtfM5": {
@@ -15541,7 +15828,10 @@
     "BImoeCT97rI3nKmG": {
       "_id": "BImoeCT97rI3nKmG",
       "details": {
-        "alignment": "Senza Allineamento"
+        "alignment": "Senza Allineamento",
+        "biography": {
+          "value": "<p>@Embed[Compendium.dnd5e.spells.Item.ATo0Eb63TDtnu6iA caption=false]</p>"
+        }
       },
       "items": {
         "a8EE8Eut9dDM0BE4": {
@@ -15566,7 +15856,10 @@
     "nvTVjot7vdzWxMt7": {
       "_id": "nvTVjot7vdzWxMt7",
       "details": {
-        "alignment": "Senza Allineamento"
+        "alignment": "Senza Allineamento",
+        "biography": {
+          "value": "<p>@Embed[Compendium.dnd5e.spells.Item.ATo0Eb63TDtnu6iA caption=false]</p>"
+        }
       },
       "items": {
         "V61PoRxEOp2EYehO": {
@@ -15591,7 +15884,10 @@
     "oT08GcXHkvnKJTdA": {
       "_id": "oT08GcXHkvnKJTdA",
       "details": {
-        "alignment": "Senza Allineamento"
+        "alignment": "Senza Allineamento",
+        "biography": {
+          "value": "<p>@Embed[Compendium.dnd5e.spells.Item.ATo0Eb63TDtnu6iA caption=false]</p>"
+        }
       },
       "items": {
         "PNzpo05K0eIY8XKq": {
