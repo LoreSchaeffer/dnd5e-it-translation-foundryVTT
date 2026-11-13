@@ -9,7 +9,7 @@
 | heroes | 12 | 12 | 0 | 0 | 0 | 0 | 0 |
 | items | 885 | 885 | 0 | 0 | 0 | 0 | 48 |
 | monsterfeatures | 252 | 252 | 0 | 0 | 0 | 0 | 0 |
-| monsters | 337 | 99 | 0 | 238 | 0 | 805 | 805 |
+| monsters | 337 | 100 | 0 | 237 | 0 | 796 | 796 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
 | rules | 20 | 1 | 3 | 16 | 0 | 738 | 695 |
 | spells | 320 | 320 | 0 | 0 | 0 | 0 | 0 |
@@ -17,7 +17,7 @@
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 1548
+Total blocking issues: 1539
 
 ## Issues
 
@@ -749,15 +749,6 @@ Total blocking issues: 1548
 - **missing-field** `monsters:p980augbCIdpK9ZX:items[XMiiDwLIMYWFqxyv].system.description.value`
 - **missing-field** `monsters:p980augbCIdpK9ZX:items[XMiiDwLIMYWFqxyv].system.description.chat`
 - **missing-field** `monsters:p980augbCIdpK9ZX:items[XMiiDwLIMYWFqxyv].effects[Od8t9xIH6JmByqGr].description`
-- **missing-field** `monsters:qZyLwdx7lj5d1wfD:items[rnluQsu6p0n6s70W].system.description.value`
-- **missing-field** `monsters:qZyLwdx7lj5d1wfD:items[hQLj7Zzuva4M9KzH].system.description.value`
-- **missing-field** `monsters:qZyLwdx7lj5d1wfD:items[hQLj7Zzuva4M9KzH].system.description.chat`
-- **missing-field** `monsters:qZyLwdx7lj5d1wfD:items[bTiw89tDx64zTqDk].system.description.value`
-- **missing-field** `monsters:qZyLwdx7lj5d1wfD:items[bTiw89tDx64zTqDk].system.description.chat`
-- **missing-field** `monsters:qZyLwdx7lj5d1wfD:items[bTiw89tDx64zTqDk].effects[kywQ7FbB1Ho6Zc1w].description`
-- **missing-field** `monsters:qZyLwdx7lj5d1wfD:items[iGuyFLbKazqPCcXY].system.description.value`
-- **missing-field** `monsters:qZyLwdx7lj5d1wfD:items[iGuyFLbKazqPCcXY].system.description.chat`
-- **missing-field** `monsters:qZyLwdx7lj5d1wfD:items[fyF8vQbuvkuLKmKf].system.description.value`
 - **missing-field** `monsters:WJsxqbHU28D64lWT:items[IPdRnqMb4ZjhHAm4].system.description.value`
 - **missing-field** `monsters:WJsxqbHU28D64lWT:items[dobpPU4kb00zSkQt].system.description.value`
 - **missing-field** `monsters:WJsxqbHU28D64lWT:items[dobpPU4kb00zSkQt].system.description.chat`

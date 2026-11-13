@@ -7490,7 +7490,8 @@
       },
       "items": {
         "rnluQsu6p0n6s70W": {
-          "name": "Falso Aspetto"
+          "name": "Falso Aspetto",
+          "description": "<p>Finché il [[lookup @name monster]]{mostro} rimane immobile, è indistinguibile da una normale formazione di caverna, come una stalagmite.</p>"
         },
         "hQLj7Zzuva4M9KzH": {
           "name": "Tentacoli Afferranti",
@@ -7498,7 +7499,9 @@
             "tmKWsSAfWOtSqU7h": {
               "name": "Prova per Spezzare il Viticcio"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} può avere fino a sei viticci alla volta. Ogni viticcio può essere attaccato (CA 20; 10 punti ferita; immunità ai danni da veleno e psichici).</p><p>Distruggere un viticcio non infligge danni al [[lookup @name lowercase]]{mostro}, che può estroflettere un viticcio sostitutivo nel proprio turno successivo. Un viticcio può essere spezzato anche se una creatura effettua un'azione e supera una prova [[/check]] contro di esso.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} può avere fino a sei viticci alla volta. Ogni viticcio può essere attaccato. Un viticcio può essere spezzato anche se una creatura effettua un'azione e supera una prova di Forza contro di esso.</p>"
         },
         "mBRjMwEitGrPDm5I": {
           "name": "Morso",
@@ -7511,10 +7514,13 @@
             "dnd5eactivity000": {
               "name": "Trascinare la Preda"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} trascina ogni creatura da esso &amp;reference[grappled apply=false] fino a 7,5 metri in linea retta verso di sé.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} trascina ogni creatura da esso &amp;reference[grappled apply=false] fino a 7,5 metri in linea retta verso di sé.</p>"
         },
         "fyF8vQbuvkuLKmKf": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua quattro attacchi con i propri [[/item .bTiw89tDx64zTqDk]]{viticci}, usa [[/item .iGuyFLbKazqPCcXY]]{Riavvolgere} ed effettua un attacco con il proprio [[/item .mBRjMwEitGrPDm5I]]{morso}.</p>"
         },
         "hSRGuvhA1vkf4mLW": {
           "name": "Movimenti del Ragno",
@@ -7524,9 +7530,12 @@
           "name": "Viticcio",
           "effects": {
             "kywQ7FbB1Ho6Zc1w": {
-              "name": "Afferrato dal Viticcio"
+              "name": "Afferrato dal Viticcio",
+              "description": "<p>Sei &amp;reference[grappled apply=false] (CD 15 per liberarti). Finché sei afferrato in questo modo, sei anche &amp;reference[restrained apply=false] e disponi di svantaggio alle prove e ai tiri salvezza su Forza.</p><p>Questo viticcio può essere attaccato (CA 20; PF 10; immunità ai danni da veleno e psichici). Distruggere un viticcio non infligge danni al fustigatore. Un viticcio può essere spezzato anche se una creatura effettua un'azione e supera una prova [[/check 15 str]].</p>"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. <em>Colpito:</em> Il bersaglio è &amp;Reference[grappled] (CD 15 per liberarsi). Finché questa condizione di afferrato non termina, il bersaglio è &amp;Reference[restrained] e dispone di svantaggio alle prove di Forza e ai tiri salvezza su Forza, e il [[lookup @name lowercase]]{mostro} non può usare lo stesso [[lookup @item.name]] contro un altro bersaglio.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio è &amp;reference[grappled]. Finché questa condizione di afferrato non termina, il bersaglio è &amp;reference[restrained] e dispone di svantaggio alle prove di Forza e ai tiri salvezza su Forza.</p>"
         }
       },
       "details": {
