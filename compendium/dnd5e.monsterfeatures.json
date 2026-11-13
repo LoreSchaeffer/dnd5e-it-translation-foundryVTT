@@ -134,10 +134,6 @@
       "name": "Carica",
       "description": "<section class=\"secret\">\n<p>Se il [[lookup @name lowercase]]{mostro} si muove di almeno 6 m in linea retta verso un bersaglio e poi lo colpisce con un attacco con zanna nello stesso turno, il bersaglio subisce <strong>3 (1d6) danni <em>taglienti</em></strong> extra.</p><p>Se il bersaglio è una creatura, deve superare un tiro salvezza su <strong>Forza con CD 11</strong>, altrimenti cade prono.</p>\n</section>\n<p>Se il [[lookup @name lowercase]]{mostro} si muove di almeno 6 m in linea retta verso un bersaglio e poi lo colpisce con un attacco con zanna nello stesso turno, il bersaglio subisce danni <em>taglienti</em> extra. Se il bersaglio è una creatura, deve effettuare un tiro salvezza su <strong>Forza</strong>, altrimenti cade prono.</p>"
     },
-    "Claws": {
-      "name": "Artigli",
-      "description": "<p>Attacco generico con Artigli. Completare i dettagli.</p>"
-    },
     "Cold Breath": {
       "name": "Soffio di Freddo",
       "description": "<section class=\"secret\">\n<p>**Soffio Gelido.** Il [[lookup @details.type.config.label lowercase]]{mostro} esala una folata gelida in un cono di 18 metri. Ogni creatura in quell'area deve effettuare un tiro salvezza su <strong>Costituzione con CD 20</strong>; se lo fallisce, subisce <strong>58 (13d8) danni <em>da freddo</em></strong>, mentre se lo supera subisce la metà di quei danni.</p>\n</section>\n<p>Il [[lookup @details.type.config.label lowercase]]{mostro} esala una folata gelida in un cono di 18 metri. Ogni creatura in quell'area deve effettuare un tiro salvezza su <strong>Costituzione</strong>.</p>"
@@ -145,10 +141,6 @@
     "Confer Fire Resistance": {
       "name": "Conferire Resistenza al Fuoco",
       "description": "<p>Il [[lookup @name lowercase]]{mostro} può conferire resistenza ai <em>danni da fuoco</em> a chiunque lo cavalchi.</p>"
-    },
-    "Constrict": {
-      "name": "Stritolare",
-      "description": "<p>Il bersaglio è afferrato (<strong>CD 14 per sfuggire</strong>). Finché la Creatura afferra il bersaglio, quest’ultimo è trattenuto e la Creatura <strong>non può stritolare un altro bersaglio.</strong></p>"
     },
     "Consume Life": {
       "name": "Assorbire Vita",
@@ -182,10 +174,6 @@
       "name": "Aura di Oscurità",
       "description": "<section class=\"secret\">\n<p>Un'oscurità magica del raggio di 4,5 metri si estende dal [[lookup @name lowercase]]{mostro}, si muove con lui e si propaga oltre gli angoli. L'oscurità dura finché il [[lookup @name lowercase]]{mostro} mantiene la concentrazione, fino a 10 minuti (come se si concentrasse su un incantesimo).</p><p>La scurovisione non può penetrare questa oscurità e nessuna luce naturale può illuminarla. Se una qualsiasi parte dell'oscurità si sovrappone a un'area di luce creata da un incantesimo di 2° livello o inferiore, l'incantesimo che ha creato la luce viene dissolto.</p>\n</section>\n<p>Un'oscurità magica del raggio di 4,5 metri si estende dal [[lookup @name lowercase]]{mostro}, si muove con lui e si propaga oltre gli angoli. La scurovisione non può penetrare questa oscurità e nessuna luce naturale può illuminarla.</p>"
     },
-    "Deadly Leap": {
-      "name": "Balzo Letale",
-      "description": "<p>Se la Creatura salta di almeno 4,5 metri come parte del suo movimento, poi può usare questa azione per atterrare in piedi in uno spazio che contenga una o più creature oltre a lui. Ognuna di queste creature deve effettuare un tiro salvezza su Forza o Destrezza con CD 16 (a scelta del bersaglio); se lo fallisce, viene buttata a terra prona e subisce 14 (3d6 + 4) danni contundenti più 14 (3d6 + 4) danni taglienti. Se invece lo supera, subisce la metà di quei danni, non è buttata a terra prona e viene spinta di 1,5 metri fuori dallo spazio della Creatura fino a uno spazio libero a scelta della creatura. Se non c'è alcuno spazio libero entro gittata, la creatura cade invece a terra prona nello spazio della Creatura.</p>"
-    },
     "Whirlwind of Sand": {
       "name": "Turbine di Sabbia",
       "description": "<p>Il [[lookup @name lowercase]]{mostro} si trasforma magicamente in un vortice di sabbia, si muove fino a 18 metri e torna alla propria forma normale. Mentre è in forma di vortice, il [[lookup @name lowercase]]{mostro} è immune a tutti i danni e non può essere afferrato, pietrificato, fatto cadere prono, trattenuto o stordito. L'equipaggiamento indossato o trasportato dal [[lookup @name lowercase]]{mostro} rimane in suo possesso.</p>"
@@ -205,10 +193,6 @@
     "Death Glare": {
       "name": "Sguardo Mortale",
       "description": "<section class=\"secret\">\n<p>Il [[lookup @name lowercase]]{mostro} bersaglia una creatura spaventata che può vedere entro 9 metri da lei. Se il bersaglio può vedere il [[lookup @name lowercase]]{mostro}, deve superare un tiro salvezza su <strong>Saggezza con CD 11</strong> contro questa magia, altrimenti scende a 0 punti ferita.</p><p></p>\n</section>\n<p>Il [[lookup @name lowercase]]{mostro} bersaglia una creatura spaventata che può vedere entro 9 metri da lei. Se il bersaglio può vedere il [[lookup @name lowercase]]{mostro}, deve effettuare un tiro salvezza su <strong>Saggezza</strong> contro questa magia.</p>"
-    },
-    "Devil's Sight": {
-      "name": "Vista del Diavolo",
-      "description": "<p>L'oscurità magica non ostacola la scurovisione del &lt;creature&gt;.</p>"
     },
     "Disrupt Life": {
       "name": "Distruggere Vita",
@@ -294,10 +278,6 @@
     "Fire Form": {
       "name": "Forma di Fuoco",
       "description": "<section class=\"secret\"><p>Il [[lookup @details.type.config.label lowercase]]{mostro} può attraversare uno spazio stretto fino a 2,5 centimetri senza doversi stringere. Una creatura che tocca il [[lookup @details.type.config.label lowercase]]{mostro} o lo colpisce con un attacco in mischia mentre si trova entro 1,5 m da lui subisce <strong>5 (1d10) danni <em>da fuoco</em></strong>. </p><p>Inoltre, il [[lookup @details.type.config.label lowercase]]{mostro} può entrare nello spazio di una creatura ostile e fermarvisi. La prima volta che entra nello spazio di una creatura in un turno, quella creatura subisce <strong>5 (1d10) danni <em>da fuoco</em></strong> e prende fuoco; finché qualcuno non usa un'azione per spegnere le fiamme, la creatura subisce <strong>5 (1d10) danni <em>da fuoco</em></strong> all'inizio di ciascun proprio turno.</p></section><p>Una creatura che tocca il [[lookup @details.type.config.label lowercase]]{mostro} o lo colpisce con un attacco in mischia mentre si trova entro 1,5 m da lui subisce <em>danni da fuoco</em>. Inoltre, il [[lookup @details.type.config.label lowercase]]{mostro} può entrare nello spazio di una creatura ostile e fermarvisi. La prima volta che entra nello spazio di una creatura in un turno, quella creatura subisce <em>danni da fuoco</em> e prende fuoco; finché qualcuno non usa un'azione per spegnere le fiamme, la creatura subisce <em>danni da fuoco</em> all'inizio di ciascun proprio turno.</p>"
-    },
-    "Fists": {
-      "name": "Pugni",
-      "description": "<p>Attacco con pugni generico.</p>"
     },
     "Flyby": {
       "name": "Volo Sfuggente",
@@ -411,30 +391,6 @@
     "Iron Scent": {
       "name": "Fiutare il Ferro",
       "description": "<p>La [[lookup @name lowercase]]{monster} può individuare tramite l'olfatto la posizione del metallo ferroso entro <strong>9 metri</strong> da essa.</p>"
-    },
-    "Keen Hearing": {
-      "name": "Udito Acuto",
-      "description": "<p>L’&lt;creature&gt; dispone di vantaggio alle prove di Saggezza (Percezione) basate sull’udito.</p>"
-    },
-    "Keen Hearing and Sight": {
-      "name": "Vista e Udito Acuti",
-      "description": "<p>Il &lt;creature&gt; dispone di vantaggio alle prove di Saggezza (Percezione) basate sulla vista o sull'udito.</p>"
-    },
-    "Keen Hearing and Smell": {
-      "name": "Olfatto e Udito Acuti",
-      "description": "<p>Il &lt;creature&gt; dispone di vantaggio alle prove di Saggezza (Percezione) basate sull'udito o sull'olfatto.</p>"
-    },
-    "Keen Sight": {
-      "name": "Vista Acuta",
-      "description": "<p>L’&lt;creature&gt; dispone di vantaggio alle prove di Saggezza (Percezione) basate sulla vista.</p>"
-    },
-    "Keen Sight and Smell": {
-      "name": "Olfatto e Vista Acuti",
-      "description": "<p>L'&lt;creature&gt; dispone di vantaggio alle prove di Saggezza (Percezione) basate sull'olfatto o sulla vista.</p>"
-    },
-    "Keen Smell": {
-      "name": "Olfatto Acuto",
-      "description": "<p>Il &lt;creature&gt; dispone di vantaggio alle prove di Saggezza (Percezione) basate sull'olfatto</p>"
     },
     "Labyrinthine Recall": {
       "name": "Ricordo Labirintico",
@@ -554,10 +510,6 @@
       "name": "Balzo",
       "description": "<section class=\"secret\">\n<p>Se il [[lookup @name lowercase]]{mostro} si muove di almeno <strong>6 m</strong> in linea retta verso una creatura e poi la colpisce con un attacco con artiglio nello stesso turno, quel bersaglio deve superare un <strong>tiro salvezza su Forza con CD 13</strong>, altrimenti cade prono.</p><p>Se il bersaglio è prono, il [[lookup @name lowercase]]{mostro} può effettuare contro di lui un attacco con morso come azione bonus.</p>\n</section>\n<p>Se il [[lookup @name lowercase]]{mostro} si muove di almeno <strong>6 m</strong> in linea retta verso una creatura e poi la colpisce con un attacco con artiglio nello stesso turno, quel bersaglio deve effettuare un tiro salvezza su <strong>Forza</strong>.</p>"
     },
-    "Pseudopod": {
-      "name": "Pseudopodo",
-      "description": "<p>La &lt;creatura&gt; si estende con un allungato pseudopodo di impetuosa melma.</p>"
-    },
     "Rampage": {
       "name": "Furia",
       "description": "<p>Quando il [[lookup @name lowercase]]{mostro} riduce una creatura a <strong>0 punti ferita</strong> con un attacco in mischia nel proprio turno, il [[lookup @name lowercase]]{mostro} può usare un'azione bonus per muoversi fino a metà della propria velocità ed effettuare un attacco con morso.</p>"
@@ -581,10 +533,6 @@
     "Regeneration": {
       "name": "Rigenerazione",
       "description": "<section class=\"secret\"><p>Il [[lookup @name lowercase]]{mostro} recupera <strong>10 punti ferita</strong> all'inizio del proprio turno se possiede almeno <strong>1 punto ferita</strong>.</p></section><p>Il [[lookup @name lowercase]]{mostro} recupera <strong>10 punti ferita</strong> all'inizio del proprio turno.</p>"
-    },
-    "Rejuvination": {
-      "name": "Ringiovanimento",
-      "description": "<p>&lt;descrivere le condizioni in cui la creatura ritorna&gt;</p>"
     },
     "Relentless": {
       "name": "Implacabile",
@@ -634,10 +582,6 @@
       "name": "Scudo Scintillante",
       "description": "<p>L'[[lookup @name lowercase]]{monster} crea un campo magico scintillante attorno a sé o a un'altra creatura situata entro 18 metri da lui e che esso sia in grado di vedere. Il bersaglio ottiene un bonus di +2 alla CA fino alla fine del turno successivo dell'[[lookup @name lowercase]]{monster}.</p>"
     },
-    "Shock": {
-      "name": "Folgore",
-      "description": "<p>Il &lt;creature&gt; scarica un impulso di energia elettrica attraverso il tuo corpo.</p>"
-    },
     "Shriek": {
       "name": "Stridio",
       "description": "<section class=\"secret\"><p>Quando una luce intensa o una creatura si trova entro 9 metri dal [[lookup @name lowercase]]{mostro}, questo emette uno stridio udibile entro 90 metri da lui. Il [[lookup @name lowercase]]{mostro} continua a stridere finché la fonte del disturbo non esce dalla gittata e per 1d4 turni del [[lookup @name lowercase]]{mostro} successivi</p><p></p></section><p>Quando una luce intensa o una creatura si trova entro 9 metri dal [[lookup @name lowercase]]{mostro}, questo emette uno stridio udibile entro 90 metri da lui. </p>"
@@ -665,10 +609,6 @@
     "Speak with Beasts and Plants": {
       "name": "Parlare con le Bestie e i Vegetali",
       "description": "<p>La [[lookup @name lowercase]]{monster} può comunicare con le bestie e i vegetali come se condividesse con loro un linguaggio.</p>"
-    },
-    "Spell Immunity": {
-      "name": "Immunità agli Incantesimi",
-      "description": "<p>L'&lt;creature&gt; è immune a tre incantesimi scelti dal suo creatore. Le immunità tipiche includono fulmine, palla di fuoco e riscaldare il metallo.</p>"
     },
     "Spell Storing": {
       "name": "Incantesimo Custodito",
@@ -735,17 +675,9 @@
       "name": "Imitare",
       "description": "<section class=\"secret\">\n<p>Il [[lookup @name lowercase]]{mostro} può imitare versi di animali e voci umanoidi. Una creatura che ode i suoni può riconoscerli come imitazioni superando una <strong>prova di Saggezza (Intuizione) con CD 14</strong>.</p>\n</section>\n<p>Il [[lookup @name lowercase]]{mostro} può imitare versi di animali e voci umanoidi. Una creatura che ode i suoni può riconoscerli come imitazioni superando una prova di Saggezza (Intuizione).</p>"
     },
-    "Tail": {
-      "name": "Coda",
-      "description": "<p>Attacco generico di coda, sostituire con la descrizione specifica del &lt;creature&gt;.</p>"
-    },
     "Tail Spike Regrowth": {
       "name": "Ricrescita degli Aculei Caudali",
       "description": "<p>La [[lookup @name lowercase]]{monster} possiede &lt;#&gt; aculei caudali. Quelli usati ricrescono quando la [[lookup @name lowercase]]{monster} completa un riposo lungo.</p>"
-    },
-    "Talons": {
-      "name": "Speroni",
-      "description": "<p>Attacco generico con gli Speroni, sostituire con la descrizione specifica del &lt;creature&gt;.</p>"
     },
     "Telepathic Bond": {
       "name": "Legame Telepatico",
@@ -778,10 +710,6 @@
     "Turn Resistance": {
       "name": "Resistenza allo Scacciare",
       "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di<strong> vantaggio </strong>ai tiri salvezza contro qualsiasi effetto che scacci i non morti.</p>"
-    },
-    "Turning Defiance": {
-      "name": "Scacciare Contrastato",
-      "description": "<p>Il &lt;creature&gt; e ogni ghoul entro 9 metri da esso dispongono di vantaggio ai tiri salvezza contro gli effetti che scacciano i non morti.</p>"
     },
     "Two-Headed": {
       "name": "Due Teste",

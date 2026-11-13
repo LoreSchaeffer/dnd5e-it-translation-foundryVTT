@@ -8,7 +8,7 @@
 | effects | 214 | 214 | 0 | 0 | 0 | 0 | 0 |
 | heroes | 12 | 12 | 0 | 0 | 0 | 0 | 0 |
 | items | 885 | 885 | 0 | 0 | 0 | 0 | 48 |
-| monsterfeatures | 252 | 252 | 0 | 0 | 0 | 0 | 18 |
+| monsterfeatures | 252 | 252 | 0 | 0 | 0 | 0 | 0 |
 | monsters | 337 | 2 | 5 | 330 | 15 | 4709 | 4797 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
 | rules | 20 | 1 | 3 | 16 | 0 | 738 | 695 |
@@ -17,7 +17,7 @@
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 5558
+Total blocking issues: 5540
 
 ## Issues
 
@@ -69,24 +69,6 @@ Total blocking issues: 5558
 - **extra-entry** `items:Ferri dello Zefiro`
 - **extra-entry** `items:Unarmed Strike (Monk)`
 - **extra-entry** `items:Enterteiner's Pack`
-- **extra-entry** `monsterfeatures:Claws`
-- **extra-entry** `monsterfeatures:Constrict`
-- **extra-entry** `monsterfeatures:Deadly Leap`
-- **extra-entry** `monsterfeatures:Devil's Sight`
-- **extra-entry** `monsterfeatures:Fists`
-- **extra-entry** `monsterfeatures:Keen Hearing`
-- **extra-entry** `monsterfeatures:Keen Hearing and Sight`
-- **extra-entry** `monsterfeatures:Keen Hearing and Smell`
-- **extra-entry** `monsterfeatures:Keen Sight`
-- **extra-entry** `monsterfeatures:Keen Sight and Smell`
-- **extra-entry** `monsterfeatures:Keen Smell`
-- **extra-entry** `monsterfeatures:Pseudopod`
-- **extra-entry** `monsterfeatures:Rejuvination`
-- **extra-entry** `monsterfeatures:Shock`
-- **extra-entry** `monsterfeatures:Spell Immunity`
-- **extra-entry** `monsterfeatures:Tail`
-- **extra-entry** `monsterfeatures:Talons`
-- **extra-entry** `monsterfeatures:Turning Defiance`
 - **missing-folder** `monsters:cHmylff3tHTzhvyb`
 - **missing-folder** `monsters:g8DmtGW2tiBpzCMk`
 - **missing-folder** `monsters:pCy5ieJezFRCg9A0`
