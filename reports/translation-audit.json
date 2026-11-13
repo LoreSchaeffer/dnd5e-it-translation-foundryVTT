@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1763,
+      "translated": 1764,
       "missing": 69,
-      "partial": 559,
+      "partial": 558,
       "review": 70
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 982,
+      "invariantFailures": 979,
       "englishResiduals": 72,
       "imperialResiduals": 0
     },
-    "blockingIssues": 7137
+    "blockingIssues": 7134
   },
   "packs": [
     {
@@ -5317,9 +5317,9 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 875,
+          "translated": 876,
           "missing": 0,
-          "partial": 10,
+          "partial": 9,
           "review": 0
         },
         "folders": {
@@ -5333,7 +5333,7 @@
           "total": 2227,
           "translated": 2227,
           "missing": 0,
-          "invariantFailures": 35,
+          "invariantFailures": 32,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
@@ -5438,36 +5438,6 @@
           "fieldPath": "system.description.value",
           "name": "Rod of Absorption",
           "sourcePath": "items/rod/rod-of-absorption.yml"
-        },
-        {
-          "code": "html-balance",
-          "severity": "blocking",
-          "message": "Closing tag </tr> does not match <tbody>; Closing tag </tr> does not match <table>; Closing tag </tbody> does not match <div>; Closing tag </table> does not match <none>; Closing tag </div> does not match <none>",
-          "pack": "items",
-          "id": "TZggpdbOYqOCG7mY",
-          "fieldPath": "system.description.value",
-          "name": "Alchemy Jug",
-          "sourcePath": "items/trinket/alchemy-jug.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "TZggpdbOYqOCG7mY",
-          "fieldPath": "system.description.value",
-          "name": "Alchemy Jug",
-          "sourcePath": "items/trinket/alchemy-jug.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "TZggpdbOYqOCG7mY",
-          "fieldPath": "system.description.value",
-          "name": "Alchemy Jug",
-          "sourcePath": "items/trinket/alchemy-jug.yml"
         },
         {
           "code": "html-tag-sequence",
