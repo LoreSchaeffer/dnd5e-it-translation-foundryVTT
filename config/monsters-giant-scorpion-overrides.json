@@ -1,0 +1,12 @@
+{
+  "monsters": {
+    "GxgIVRX5GbVTifiF": {
+      "items[wpqra38jsZPRAuov].system.description.value": "<p>Il [[lookup @name lowercase]]{mostro} effettua tre attacchi: due con i propri [[/item .OJ2b64O3e1nni21W]]{artigli} e uno con il proprio [[/item .q6uVUHWyzht5OpwV]]{pungiglione}.</p>",
+      "items[OJ2b64O3e1nni21W].system.description.value": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il bersaglio è &amp;Reference[grappled] (CD 12 per sfuggire). Il [[lookup @name lowercase]]{mostro} ha due [[lookup @item.name lowercase]]i, ognuno dei quali può afferrare un solo bersaglio.</p>",
+      "items[OJ2b64O3e1nni21W].effects[abCwfrU3jtUWjeZ7].description": "<p>Sei &amp;reference[grappled apply=false] (CD 12 per sfuggire).</p>",
+      "items[q6uVUHWyzht5OpwV].system.description.value": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il bersaglio deve effettuare un tiro salvezza [[/save]], subendo [[/damage average activity=GR0Tw9glqMrDk8Uh]] danni se lo fallisce, oppure la metà di quei danni se lo supera.</p>",
+      "items[q6uVUHWyzht5OpwV].system.description.chat": "<p>Lo Scorpione Gigante attacca con il proprio Pungiglione. Il bersaglio deve effettuare un tiro salvezza su <strong>Costituzione</strong>.</p>",
+      "items[q6uVUHWyzht5OpwV].system.activities.GR0Tw9glqMrDk8Uh.description.value": "<p>Il bersaglio deve effettuare un tiro salvezza [[/save]], subendo [[/damage average activity=GR0Tw9glqMrDk8Uh]] danni se lo fallisce, oppure la metà di quei danni se lo supera.</p>"
+    }
+  }
+}

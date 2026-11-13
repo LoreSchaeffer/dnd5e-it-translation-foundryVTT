@@ -13973,24 +13973,32 @@
       },
       "items": {
         "wpqra38jsZPRAuov": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua tre attacchi: due con i propri [[/item .OJ2b64O3e1nni21W]]{artigli} e uno con il proprio [[/item .q6uVUHWyzht5OpwV]]{pungiglione}.</p>"
         },
         "OJ2b64O3e1nni21W": {
           "name": "Artiglio",
           "effects": {
             "abCwfrU3jtUWjeZ7": {
-              "name": "Afferrato dall'Artiglio"
+              "name": "Afferrato dall'Artiglio",
+              "description": "<p>Sei &amp;reference[grappled apply=false] (CD 12 per sfuggire).</p>"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio è &amp;reference[grappled].</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio è &amp;reference[grappled].</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il bersaglio è &amp;Reference[grappled] (CD 12 per sfuggire). Il [[lookup @name lowercase]]{mostro} ha due [[lookup @item.name lowercase]]i, ognuno dei quali può afferrare un solo bersaglio.</p>"
         },
         "q6uVUHWyzht5OpwV": {
           "name": "Pungiglione",
           "activities": {
             "GR0Tw9glqMrDk8Uh": {
-              "name": "Tiro Salvezza contro il Veleno"
+              "name": "Tiro Salvezza contro il Veleno",
+              "description": {
+                "value": "<p>Il bersaglio deve effettuare un tiro salvezza [[/save]], subendo [[/damage average activity=GR0Tw9glqMrDk8Uh]] danni se lo fallisce, oppure la metà di quei danni se lo supera.</p>"
+              }
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il bersaglio deve effettuare un tiro salvezza [[/save]], subendo [[/damage average activity=GR0Tw9glqMrDk8Uh]] danni se lo fallisce, oppure la metà di quei danni se lo supera.</p>",
+          "chat": "<p>Lo Scorpione Gigante attacca con il proprio Pungiglione. Il bersaglio deve effettuare un tiro salvezza su <strong>Costituzione</strong>.</p>"
         }
       },
       "details": {

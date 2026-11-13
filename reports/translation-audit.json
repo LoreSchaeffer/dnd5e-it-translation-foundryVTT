@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2165,
+      "translated": 2166,
       "missing": 3,
-      "partial": 223,
+      "partial": 222,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14239,
-      "missing": 1421,
+      "translated": 14245,
+      "missing": 1415,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1426
+    "blockingIssues": 1420
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 130,
+          "translated": 131,
           "missing": 0,
-          "partial": 207,
+          "partial": 206,
           "review": 0
         },
         "folders": {
@@ -578,68 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6423,
-          "missing": 683,
+          "translated": 6429,
+          "missing": 677,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "GxgIVRX5GbVTifiF",
-          "name": "Giant Scorpion",
-          "fieldPath": "items[wpqra38jsZPRAuov].system.description.value",
-          "sourcePath": "monsters/beast/giant-scorpion.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "GxgIVRX5GbVTifiF",
-          "name": "Giant Scorpion",
-          "fieldPath": "items[OJ2b64O3e1nni21W].system.description.value",
-          "sourcePath": "monsters/beast/giant-scorpion.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "GxgIVRX5GbVTifiF",
-          "name": "Giant Scorpion",
-          "fieldPath": "items[OJ2b64O3e1nni21W].effects[abCwfrU3jtUWjeZ7].description",
-          "sourcePath": "monsters/beast/giant-scorpion.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "GxgIVRX5GbVTifiF",
-          "name": "Giant Scorpion",
-          "fieldPath": "items[q6uVUHWyzht5OpwV].system.description.value",
-          "sourcePath": "monsters/beast/giant-scorpion.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "GxgIVRX5GbVTifiF",
-          "name": "Giant Scorpion",
-          "fieldPath": "items[q6uVUHWyzht5OpwV].system.description.chat",
-          "sourcePath": "monsters/beast/giant-scorpion.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "GxgIVRX5GbVTifiF",
-          "name": "Giant Scorpion",
-          "fieldPath": "items[q6uVUHWyzht5OpwV].system.activities.GR0Tw9glqMrDk8Uh.description.value",
-          "sourcePath": "monsters/beast/giant-scorpion.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
