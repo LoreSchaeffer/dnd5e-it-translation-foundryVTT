@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1781,
+      "translated": 1782,
       "missing": 69,
-      "partial": 541,
+      "partial": 540,
       "review": 69
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 10039,
-      "missing": 5621,
+      "translated": 10040,
+      "missing": 5620,
       "invariantFailures": 853,
       "englishResiduals": 71,
       "imperialResiduals": 0
     },
-    "blockingIssues": 6482
+    "blockingIssues": 6481
   },
   "packs": [
     {
@@ -143,9 +143,9 @@
       "summary": {
         "documents": {
           "total": 12,
-          "translated": 8,
+          "translated": 9,
           "missing": 0,
-          "partial": 4,
+          "partial": 3,
           "review": 0
         },
         "folders": {
@@ -157,23 +157,14 @@
         },
         "fields": {
           "total": 1165,
-          "translated": 1147,
-          "missing": 18,
+          "translated": 1148,
+          "missing": 17,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "2Pdtnswo8Nj2nafY",
-          "name": "Randal (Human Fighter)",
-          "fieldPath": "items[iODPoFlvprdu59Ga].system.description.value",
-          "sourcePath": "heroes/randal-human-fighter.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
