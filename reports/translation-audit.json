@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1894,
+      "translated": 1901,
       "missing": 8,
-      "partial": 489,
+      "partial": 482,
       "review": 71
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 10206,
-      "missing": 5454,
-      "invariantFailures": 589,
+      "translated": 10213,
+      "missing": 5447,
+      "invariantFailures": 585,
       "englishResiduals": 73,
       "imperialResiduals": 0
     },
-    "blockingIssues": 6117
+    "blockingIssues": 6106
   },
   "packs": [
     {
@@ -536,9 +536,9 @@
       "summary": {
         "documents": {
           "total": 252,
-          "translated": 109,
+          "translated": 116,
           "missing": 0,
-          "partial": 143,
+          "partial": 136,
           "review": 3
         },
         "folders": {
@@ -550,9 +550,9 @@
         },
         "fields": {
           "total": 515,
-          "translated": 508,
-          "missing": 7,
-          "invariantFailures": 549,
+          "translated": 515,
+          "missing": 0,
+          "invariantFailures": 545,
           "englishResiduals": 3,
           "imperialResiduals": 0
         }
@@ -2460,15 +2460,6 @@
           "sourcePath": "monsterfeatures/fire-form.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "Ouvju0Y3SoYb5EMR",
-          "name": "Flying Sword",
-          "fieldPath": "system.description.value",
-          "sourcePath": "monsterfeatures/flying-sword.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -3340,15 +3331,6 @@
           "sourcePath": "monsterfeatures/invisible-passage.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "JnLN0Rz60WHXk2Fr",
-          "name": "Keen Senses",
-          "fieldPath": "system.description.value",
-          "sourcePath": "monsterfeatures/keen-senses.yml"
-        },
-        {
           "code": "foundry-inline-rolls",
           "severity": "blocking",
           "message": "Foundry inline rolls differ from source",
@@ -3407,15 +3389,6 @@
           "fieldPath": "system.description.value",
           "name": "Legendary Actions",
           "sourcePath": "monsterfeatures/legendary-actions.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "J1NxNTJ2qi05iAFF",
-          "name": "Legendary Resistance",
-          "fieldPath": "system.activities.dnd5eactivity000.name",
-          "sourcePath": "monsterfeatures/legendary-resistance.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -4728,15 +4701,6 @@
           "sourcePath": "monsterfeatures/shark-telepathy.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "yHcr3vlkmtInELj2",
-          "name": "Shield",
-          "fieldPath": "system.description.value",
-          "sourcePath": "monsterfeatures/shield.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -5502,55 +5466,6 @@
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
           "pack": "monsterfeatures",
-          "id": "eL3OJmc4FuetizKO",
-          "fieldPath": "system.description.value",
-          "name": "Swarm",
-          "sourcePath": "monsterfeatures/swarm.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsterfeatures",
-          "id": "eL3OJmc4FuetizKO",
-          "fieldPath": "system.description.value",
-          "name": "Swarm",
-          "sourcePath": "monsterfeatures/swarm.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "monsterfeatures",
-          "id": "eL3OJmc4FuetizKO",
-          "fieldPath": "system.description.value",
-          "name": "Swarm",
-          "sourcePath": "monsterfeatures/swarm.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "monsterfeatures",
-          "id": "eL3OJmc4FuetizKO",
-          "fieldPath": "system.description.value",
-          "name": "Swarm",
-          "sourcePath": "monsterfeatures/swarm.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "eL3OJmc4FuetizKO",
-          "name": "Swarm",
-          "fieldPath": "system.requirements",
-          "sourcePath": "monsterfeatures/swarm.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsterfeatures",
           "id": "QiM1nbPzbLzKnfmP",
           "fieldPath": "system.description.value",
           "name": "Tentacle Slam",
@@ -5947,15 +5862,6 @@
           "sourcePath": "monsterfeatures/vampire-weaknesses.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "Kwt8YDIBHg6JO2v2",
-          "name": "Wall of Ice",
-          "fieldPath": "system.description.value",
-          "sourcePath": "monsterfeatures/wall-of-ice.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -6034,15 +5940,6 @@
           "fieldPath": "system.description.value",
           "name": "Weakening Breath",
           "sourcePath": "monsterfeatures/weakening-breath.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "i8WDjw4J1gJWQmqG",
-          "name": "Web",
-          "fieldPath": "system.description.value",
-          "sourcePath": "monsterfeatures/web.yml"
         },
         {
           "code": "html-tag-sequence",
