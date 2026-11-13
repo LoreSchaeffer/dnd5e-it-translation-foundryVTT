@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2151,
+      "translated": 2153,
       "missing": 3,
-      "partial": 237,
+      "partial": 235,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14203,
-      "missing": 1457,
+      "translated": 14207,
+      "missing": 1453,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1462
+    "blockingIssues": 1458
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 116,
+          "translated": 118,
           "missing": 0,
-          "partial": 221,
+          "partial": 219,
           "review": 0
         },
         "folders": {
@@ -578,32 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6387,
-          "missing": 719,
+          "translated": 6391,
+          "missing": 715,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "UTuKdTah1DKfPwWe",
-          "name": "Constrictor Snake",
-          "fieldPath": "items[haXdYCAfGXo0iVqC].system.description.value",
-          "sourcePath": "monsters/beast/constrictor-snake.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "UTuKdTah1DKfPwWe",
-          "name": "Constrictor Snake",
-          "fieldPath": "items[haXdYCAfGXo0iVqC].system.description.chat",
-          "sourcePath": "monsters/beast/constrictor-snake.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
@@ -702,24 +684,6 @@
           "name": "Giant Centipede",
           "fieldPath": "items[8EvqvqLumOBhrjeD].system.activities.RQqJ9wFgglGmzsYF.description.value",
           "sourcePath": "monsters/beast/giant-centipede.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "NpvwE1feOHyEqAbP",
-          "name": "Giant Constrictor Snake",
-          "fieldPath": "items[3FIKn37A037kPgzc].system.description.value",
-          "sourcePath": "monsters/beast/giant-constrictor-snake.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "NpvwE1feOHyEqAbP",
-          "name": "Giant Constrictor Snake",
-          "fieldPath": "items[3FIKn37A037kPgzc].system.description.chat",
-          "sourcePath": "monsters/beast/giant-constrictor-snake.yml"
         },
         {
           "code": "missing-field",

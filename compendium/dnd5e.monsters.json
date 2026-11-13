@@ -14022,7 +14022,9 @@
               "name": "Stritolato",
               "description": "<p>Sei &amp;reference[grappled apply=false] (CD 14 per sfuggire). Finché sei afferrato in questo modo, sei anche &amp;reference[restrained apply=false].</p>"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il bersaglio è &amp;Reference[grappled] (CD 14 per sfuggire). Finché questa lotta non termina, la creatura è &amp;reference[restrained] e il [[lookup @name lowercase]]{mostro} non può [[lookup @item.name lowercase]] un altro bersaglio.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio è &amp;reference[grappled]. Finché questa lotta non termina, la creatura è &amp;reference[restrained] e il [[lookup @name]]{mostro} non può [[lookup @item.name lowercase]] un altro bersaglio.</p>"
         }
       },
       "details": {
@@ -14047,7 +14049,9 @@
               "name": "Stritolato",
               "description": "<p>Sei &amp;reference[grappled apply=false] (CD 16 per sfuggire). Finché sei afferrato in questo modo, sei anche &amp;reference[restrained apply=false].</p>"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il bersaglio è &amp;Reference[grappled] (CD 16 per sfuggire). Finché questa lotta non termina, la creatura è &amp;reference[restrained] e [[lookup @name lowercase]] non può [[lookup @item.name lowercase]] un altro bersaglio.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio è &amp;reference[grappled]. Finché questa lotta non termina, la creatura è &amp;reference[restrained] e il [[lookup @name]]{mostro} non può [[lookup @item.name]] un altro bersaglio.</p>"
         }
       },
       "details": {

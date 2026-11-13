@@ -9,7 +9,7 @@
 | heroes | 12 | 12 | 0 | 0 | 0 | 0 | 0 |
 | items | 885 | 885 | 0 | 0 | 0 | 0 | 48 |
 | monsterfeatures | 252 | 252 | 0 | 0 | 0 | 0 | 0 |
-| monsters | 337 | 116 | 0 | 221 | 0 | 719 | 719 |
+| monsters | 337 | 118 | 0 | 219 | 0 | 715 | 715 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
 | rules | 20 | 1 | 3 | 16 | 0 | 738 | 695 |
 | spells | 320 | 320 | 0 | 0 | 0 | 0 | 0 |
@@ -17,7 +17,7 @@
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 1462
+Total blocking issues: 1458
 
 ## Issues
 
@@ -69,8 +69,6 @@ Total blocking issues: 1462
 - **extra-entry** `items:Ferri dello Zefiro`
 - **extra-entry** `items:Unarmed Strike (Monk)`
 - **extra-entry** `items:Enterteiner's Pack`
-- **missing-field** `monsters:UTuKdTah1DKfPwWe:items[haXdYCAfGXo0iVqC].system.description.value`
-- **missing-field** `monsters:UTuKdTah1DKfPwWe:items[haXdYCAfGXo0iVqC].system.description.chat`
 - **missing-field** `monsters:8aCTKP5qaBPFOqxM:items[L0k8pFgKxxEEMEOY].system.description.value`
 - **missing-field** `monsters:8aCTKP5qaBPFOqxM:items[L0k8pFgKxxEEMEOY].system.description.chat`
 - **missing-field** `monsters:8aCTKP5qaBPFOqxM:items[L0k8pFgKxxEEMEOY].effects[WEbg10jI9BHhBTU7].description`
@@ -82,8 +80,6 @@ Total blocking issues: 1462
 - **missing-field** `monsters:Hn8FFLEzscgT7azz:items[8EvqvqLumOBhrjeD].system.description.value`
 - **missing-field** `monsters:Hn8FFLEzscgT7azz:items[8EvqvqLumOBhrjeD].system.description.chat`
 - **missing-field** `monsters:Hn8FFLEzscgT7azz:items[8EvqvqLumOBhrjeD].system.activities.RQqJ9wFgglGmzsYF.description.value`
-- **missing-field** `monsters:NpvwE1feOHyEqAbP:items[3FIKn37A037kPgzc].system.description.value`
-- **missing-field** `monsters:NpvwE1feOHyEqAbP:items[3FIKn37A037kPgzc].system.description.chat`
 - **missing-field** `monsters:AOJvmk1IchxNxQzP:items[7qDtYuaBNQ3zOnBC].system.description.value`
 - **missing-field** `monsters:AOJvmk1IchxNxQzP:items[7qDtYuaBNQ3zOnBC].effects[ha7mLJgRXVjMDnBj].description`
 - **missing-field** `monsters:3YwmvDupMwycWNCO:items[YSeYSzU3P0FooGIw].system.description.value`
