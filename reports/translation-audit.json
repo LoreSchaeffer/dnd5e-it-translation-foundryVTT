@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2124,
+      "translated": 2125,
       "missing": 3,
-      "partial": 264,
+      "partial": 263,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14020,
-      "missing": 1640,
+      "translated": 14031,
+      "missing": 1629,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1645
+    "blockingIssues": 1634
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 89,
+          "translated": 90,
           "missing": 0,
-          "partial": 248,
+          "partial": 247,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6204,
-          "missing": 902,
+          "translated": 6215,
+          "missing": 891,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -1845,105 +1845,6 @@
           "name": "Warhorse",
           "fieldPath": "items[1KyNbDtLLrcA5lj0].system.description.chat",
           "sourcePath": "monsters/beast/warhorse.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ZaP1H91t4FzbRqR5",
-          "name": "Couatl",
-          "fieldPath": "items[7M1OrMoMMTCEKxta].system.description.value",
-          "sourcePath": "monsters/celestial/couatl.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ZaP1H91t4FzbRqR5",
-          "name": "Couatl",
-          "fieldPath": "items[7M1OrMoMMTCEKxta].system.activities.1trjsBLTzZmRMDbU.description.value",
-          "sourcePath": "monsters/celestial/couatl.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ZaP1H91t4FzbRqR5",
-          "name": "Couatl",
-          "fieldPath": "items[7M1OrMoMMTCEKxta].effects[GLxzcYW1p5BO6Tdt].description",
-          "sourcePath": "monsters/celestial/couatl.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ZaP1H91t4FzbRqR5",
-          "name": "Couatl",
-          "fieldPath": "items[8LkzioyaScFxfst7].system.description.value",
-          "sourcePath": "monsters/celestial/couatl.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ZaP1H91t4FzbRqR5",
-          "name": "Couatl",
-          "fieldPath": "items[8LkzioyaScFxfst7].system.description.chat",
-          "sourcePath": "monsters/celestial/couatl.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ZaP1H91t4FzbRqR5",
-          "name": "Couatl",
-          "fieldPath": "items[8LkzioyaScFxfst7].effects[FZJBl40Eo8O6xoxA].description",
-          "sourcePath": "monsters/celestial/couatl.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ZaP1H91t4FzbRqR5",
-          "name": "Couatl",
-          "fieldPath": "items[iw2q07K1D0X01DZO].system.description.value",
-          "sourcePath": "monsters/celestial/couatl.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ZaP1H91t4FzbRqR5",
-          "name": "Couatl",
-          "fieldPath": "items[J40yeoOnwpvtVpHt].system.description.value",
-          "sourcePath": "monsters/celestial/couatl.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ZaP1H91t4FzbRqR5",
-          "name": "Couatl",
-          "fieldPath": "items[kSPRpeIx3w3nihrF].system.description.value",
-          "sourcePath": "monsters/celestial/couatl.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ZaP1H91t4FzbRqR5",
-          "name": "Couatl",
-          "fieldPath": "items[WzvJ7G3cqvIubsLk].system.description.value",
-          "sourcePath": "monsters/celestial/couatl.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ZaP1H91t4FzbRqR5",
-          "name": "Couatl",
-          "fieldPath": "items[fVbCxFRaORalHB20].system.description.value",
-          "sourcePath": "monsters/celestial/couatl.yml"
         },
         {
           "code": "missing-field",
