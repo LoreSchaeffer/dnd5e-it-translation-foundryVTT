@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2175,
+      "translated": 2176,
       "missing": 3,
-      "partial": 213,
+      "partial": 212,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14268,
-      "missing": 1392,
+      "translated": 14269,
+      "missing": 1391,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1397
+    "blockingIssues": 1396
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 140,
+          "translated": 141,
           "missing": 0,
-          "partial": 197,
+          "partial": 196,
           "review": 0
         },
         "folders": {
@@ -578,23 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6452,
-          "missing": 654,
+          "translated": 6453,
+          "missing": 653,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "YTpL2c3NO4sOn2UA",
-          "name": "Mastiff",
-          "fieldPath": "items[QLJgy1aF5ijBEp4K].system.description.chat",
-          "sourcePath": "monsters/beast/mastiff.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
