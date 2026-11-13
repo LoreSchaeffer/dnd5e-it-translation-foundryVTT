@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2200,
+      "translated": 2201,
       "missing": 3,
-      "partial": 188,
+      "partial": 187,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14326,
-      "missing": 1334,
+      "translated": 14328,
+      "missing": 1332,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1339
+    "blockingIssues": 1337
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 165,
+          "translated": 166,
           "missing": 0,
-          "partial": 172,
+          "partial": 171,
           "review": 0
         },
         "folders": {
@@ -578,32 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6510,
-          "missing": 596,
+          "translated": 6512,
+          "missing": 594,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "eORmAXuV5v3nWsQL",
-          "name": "Animated Armor",
-          "fieldPath": "items[jlZrv208u9gYyh7I].system.description.value",
-          "sourcePath": "monsters/construct/animated-armor.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "eORmAXuV5v3nWsQL",
-          "name": "Animated Armor",
-          "fieldPath": "items[vUqKQJ1GGWbKg6cX].system.description.chat",
-          "sourcePath": "monsters/construct/animated-armor.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
