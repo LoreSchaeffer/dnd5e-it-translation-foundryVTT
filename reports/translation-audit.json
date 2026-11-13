@@ -3,8 +3,8 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1843,
-      "missing": 59,
+      "translated": 1853,
+      "missing": 49,
       "partial": 489,
       "review": 71
     },
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 10101,
-      "missing": 5559,
+      "translated": 10123,
+      "missing": 5537,
       "invariantFailures": 589,
       "englishResiduals": 73,
       "imperialResiduals": 0
     },
-    "blockingIssues": 6168
+    "blockingIssues": 6158
   },
   "packs": [
     {
@@ -536,8 +536,8 @@
       "summary": {
         "documents": {
           "total": 252,
-          "translated": 58,
-          "missing": 51,
+          "translated": 68,
+          "missing": 41,
           "partial": 143,
           "review": 3
         },
@@ -550,8 +550,8 @@
         },
         "fields": {
           "total": 515,
-          "translated": 403,
-          "missing": 112,
+          "translated": 425,
+          "missing": 90,
           "invariantFailures": 549,
           "englishResiduals": 3,
           "imperialResiduals": 0
@@ -1950,30 +1950,6 @@
           "sourcePath": "monsterfeatures/death-glare.yml"
         },
         {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "EmlE1a0rhucK2UT1",
-          "name": "Death Throes",
-          "sourcePath": "monsterfeatures/death-throes.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "NmWSgqxpYfhrvQKq",
-          "name": "Detect (Legendary)",
-          "sourcePath": "monsterfeatures/detect-legendary.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "UjbgbOnd6ltjagZm",
-          "name": "Devil Sight",
-          "sourcePath": "monsterfeatures/devil-sight.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -2014,14 +1990,6 @@
           "sourcePath": "monsterfeatures/disrupt-life.yml"
         },
         {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "lOJK48AtlIcfYPPB",
-          "name": "Divine Awareness",
-          "sourcePath": "monsterfeatures/divine-awareness.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -2060,14 +2028,6 @@
           "fieldPath": "system.description.value",
           "name": "Divine Eminence",
           "sourcePath": "monsterfeatures/divine-eminence.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "iq0J225DCbHYU2hU",
-          "name": "Draining Kiss",
-          "sourcePath": "monsterfeatures/draining-kiss.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -2140,14 +2100,6 @@
           "sourcePath": "monsterfeatures/duergar-resilience.yml"
         },
         {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "WbaKH3NLA3mvylfM",
-          "name": "Elemental Demise",
-          "sourcePath": "monsterfeatures/elemental-demise.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -2186,14 +2138,6 @@
           "fieldPath": "system.description.value",
           "name": "Engulf",
           "sourcePath": "monsterfeatures/engulf.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "gbcy9MyUF06iUC88",
-          "name": "Enslave",
-          "sourcePath": "monsterfeatures/enslave.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -2306,14 +2250,6 @@
           "sourcePath": "monsterfeatures/faultless-tracker.yml"
         },
         {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "MLVEyA7VcWu9uXqV",
-          "name": "Fear Aura",
-          "sourcePath": "monsterfeatures/fear-aura.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -2432,22 +2368,6 @@
           "fieldPath": "system.description.value",
           "name": "Fey Charm",
           "sourcePath": "monsterfeatures/fey-charm.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "UH57LTsTGDxl2oS6",
-          "name": "Fire Absorption",
-          "sourcePath": "monsterfeatures/fire-absorption.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "LJTY3nl1cp9go4eT",
-          "name": "Fire Aura",
-          "sourcePath": "monsterfeatures/fire-aura.yml"
         },
         {
           "code": "html-tag-sequence",
