@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2129,
+      "translated": 2130,
       "missing": 3,
-      "partial": 259,
+      "partial": 258,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14071,
-      "missing": 1589,
+      "translated": 14081,
+      "missing": 1579,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1594
+    "blockingIssues": 1584
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 94,
+          "translated": 95,
           "missing": 0,
-          "partial": 243,
+          "partial": 242,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6255,
-          "missing": 851,
+          "translated": 6265,
+          "missing": 841,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -4725,96 +4725,6 @@
           "name": "Rakshasa",
           "fieldPath": "items[pHBLWUN5VKEjSBh6].effects[YiUixfCTC5JZGAZm].description",
           "sourcePath": "monsters/fiend/rakshasa.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "VmdyZDjqAc8vdncY",
-          "name": "Succubus/Incubus",
-          "fieldPath": "items[P3P1EukfOip32dtd].system.description.value",
-          "sourcePath": "monsters/fiend/succubus-incubus.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "VmdyZDjqAc8vdncY",
-          "name": "Succubus/Incubus",
-          "fieldPath": "items[ZVMVqd01HraMcenH].system.description.value",
-          "sourcePath": "monsters/fiend/succubus-incubus.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "VmdyZDjqAc8vdncY",
-          "name": "Succubus/Incubus",
-          "fieldPath": "items[ZVMVqd01HraMcenH].system.description.chat",
-          "sourcePath": "monsters/fiend/succubus-incubus.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "VmdyZDjqAc8vdncY",
-          "name": "Succubus/Incubus",
-          "fieldPath": "items[oSlFzVMu0fdEfYt1].system.description.chat",
-          "sourcePath": "monsters/fiend/succubus-incubus.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "VmdyZDjqAc8vdncY",
-          "name": "Succubus/Incubus",
-          "fieldPath": "items[2bFCfFfjRNmhyE8A].system.description.value",
-          "sourcePath": "monsters/fiend/succubus-incubus.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "VmdyZDjqAc8vdncY",
-          "name": "Succubus/Incubus",
-          "fieldPath": "items[2bFCfFfjRNmhyE8A].system.description.chat",
-          "sourcePath": "monsters/fiend/succubus-incubus.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "VmdyZDjqAc8vdncY",
-          "name": "Succubus/Incubus",
-          "fieldPath": "items[2bFCfFfjRNmhyE8A].effects[iuVbm8rd6UWg36yg].description",
-          "sourcePath": "monsters/fiend/succubus-incubus.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "VmdyZDjqAc8vdncY",
-          "name": "Succubus/Incubus",
-          "fieldPath": "items[eb0O9cQ8N6lovLyI].system.description.value",
-          "sourcePath": "monsters/fiend/succubus-incubus.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "VmdyZDjqAc8vdncY",
-          "name": "Succubus/Incubus",
-          "fieldPath": "items[eb0O9cQ8N6lovLyI].system.description.chat",
-          "sourcePath": "monsters/fiend/succubus-incubus.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "VmdyZDjqAc8vdncY",
-          "name": "Succubus/Incubus",
-          "fieldPath": "items[s1s5asgUorljP7SV].system.description.value",
-          "sourcePath": "monsters/fiend/succubus-incubus.yml"
         },
         {
           "code": "missing-field",
