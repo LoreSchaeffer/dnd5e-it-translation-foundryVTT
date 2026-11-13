@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2118,
+      "translated": 2119,
       "missing": 3,
-      "partial": 270,
+      "partial": 269,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 13947,
-      "missing": 1713,
+      "translated": 13960,
+      "missing": 1700,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1718
+    "blockingIssues": 1705
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 83,
+          "translated": 84,
           "missing": 0,
-          "partial": 254,
+          "partial": 253,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6131,
-          "missing": 975,
+          "translated": 6144,
+          "missing": 962,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -747,123 +747,6 @@
           "name": "Chuul",
           "fieldPath": "items[03oy1y5rwobZdg46].system.description.value",
           "sourcePath": "monsters/aberration/chuul.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "8pX2JhWUpTNNRBVx",
-          "name": "Gibbering Mouther",
-          "fieldPath": "items[yxlzyXTpsEf4QiI9].system.description.value",
-          "sourcePath": "monsters/aberration/gibbering-mouther.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "8pX2JhWUpTNNRBVx",
-          "name": "Gibbering Mouther",
-          "fieldPath": "items[yxlzyXTpsEf4QiI9].system.description.chat",
-          "sourcePath": "monsters/aberration/gibbering-mouther.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "8pX2JhWUpTNNRBVx",
-          "name": "Gibbering Mouther",
-          "fieldPath": "items[yxlzyXTpsEf4QiI9].effects[tWfryffXSDg4s5ly].description",
-          "sourcePath": "monsters/aberration/gibbering-mouther.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "8pX2JhWUpTNNRBVx",
-          "name": "Gibbering Mouther",
-          "fieldPath": "items[SzwWnAgr25vDeHKu].system.description.value",
-          "sourcePath": "monsters/aberration/gibbering-mouther.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "8pX2JhWUpTNNRBVx",
-          "name": "Gibbering Mouther",
-          "fieldPath": "items[SzwWnAgr25vDeHKu].system.description.chat",
-          "sourcePath": "monsters/aberration/gibbering-mouther.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "8pX2JhWUpTNNRBVx",
-          "name": "Gibbering Mouther",
-          "fieldPath": "items[SzwWnAgr25vDeHKu].effects[b4b8BkY0x6cpXGKU].description",
-          "sourcePath": "monsters/aberration/gibbering-mouther.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "8pX2JhWUpTNNRBVx",
-          "name": "Gibbering Mouther",
-          "fieldPath": "items[qlBBeTku9uoaEv8G].system.description.value",
-          "sourcePath": "monsters/aberration/gibbering-mouther.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "8pX2JhWUpTNNRBVx",
-          "name": "Gibbering Mouther",
-          "fieldPath": "items[lfUDtJ8hdeULQzqa].system.description.value",
-          "sourcePath": "monsters/aberration/gibbering-mouther.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "8pX2JhWUpTNNRBVx",
-          "name": "Gibbering Mouther",
-          "fieldPath": "items[lfUDtJ8hdeULQzqa].system.description.chat",
-          "sourcePath": "monsters/aberration/gibbering-mouther.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "8pX2JhWUpTNNRBVx",
-          "name": "Gibbering Mouther",
-          "fieldPath": "items[lfUDtJ8hdeULQzqa].system.activities.e1l3VXsl2AfHvE4g.description.value",
-          "sourcePath": "monsters/aberration/gibbering-mouther.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "8pX2JhWUpTNNRBVx",
-          "name": "Gibbering Mouther",
-          "fieldPath": "items[KQRvDGowc6ihejLu].system.description.value",
-          "sourcePath": "monsters/aberration/gibbering-mouther.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "8pX2JhWUpTNNRBVx",
-          "name": "Gibbering Mouther",
-          "fieldPath": "items[KQRvDGowc6ihejLu].system.description.chat",
-          "sourcePath": "monsters/aberration/gibbering-mouther.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "8pX2JhWUpTNNRBVx",
-          "name": "Gibbering Mouther",
-          "fieldPath": "items[KQRvDGowc6ihejLu].effects[mYKrzvh1Pfu5WIPh].description",
-          "sourcePath": "monsters/aberration/gibbering-mouther.yml"
         },
         {
           "code": "missing-field",

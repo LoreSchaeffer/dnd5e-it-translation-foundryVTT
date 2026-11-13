@@ -7162,46 +7162,61 @@
           "name": "Terreno Aberrante",
           "effects": {
             "tWfryffXSDg4s5ly": {
-              "name": "Terreno Aberrante"
+              "name": "Terreno Aberrante",
+              "description": "<p>La tua velocità di movimento è ridotta a 0 fino all'inizio del tuo turno successivo.</p>"
             }
-          }
+          },
+          "description": "<p>Il terreno entro [[lookup @labels.description.template activity=uNtJ0Zvj5SXxoaNm]] attorno al [[lookup @name lowercase]]{mostro} assume una consistenza pastosa ed è &amp;reference[difficult terrain]. Ogni creatura che inizia il proprio turno in quell'area deve superare un tiro salvezza [[/save]], altrimenti la sua velocità è ridotta a 0 fino all'inizio del suo turno successivo.</p>",
+          "chat": "<p>Il terreno entro [[lookup @labels.description.template activity=uNtJ0Zvj5SXxoaNm]] attorno al [[lookup @name]]{mostro} assume una consistenza pastosa ed è &amp;reference[difficult terrain]. Effettua un tiro salvezza su Forza.</p>"
         },
         "SzwWnAgr25vDeHKu": {
           "name": "Gorgogliare",
           "effects": {
             "b4b8BkY0x6cpXGKU": {
-              "name": "Gorgogliare"
+              "name": "Gorgogliare",
+              "description": "<p>Non puoi effettuare reazioni fino all'inizio del tuo turno successivo e devi tirare [[/r d8]] per determinare cosa fai durante il turno.</p><p>Con un risultato da 1 a 4, non fai nulla. Con un risultato di 5 o 6, non effettui azioni o azioni bonus e usi tutto il tuo movimento per muoverti in una direzione determinata casualmente. Con un risultato di 7 o 8, effettui un attacco in mischia contro una creatura determinata casualmente entro la tua portata, oppure non fai nulla se non puoi effettuare un tale attacco.</p>"
             }
           },
           "activities": {
             "w3NYs2he8RDgzzdo": {
               "name": "Tiro Salvezza contro il Farfugliare"
             }
-          }
+          },
+          "description": "<p>La fauce farfuglia in modo incoerente finché può vedere una creatura e non è &amp;reference[incapacitated apply=false]. Ogni creatura che inizia il proprio turno entro 6 metri dal [[lookup @name lowercase]]{mostro} e che sia in grado di udire il farfugliare deve superare un tiro salvezza [[/save]]. Se lo fallisce, non può effettuare reazioni fino all'inizio del proprio turno successivo e tira [[/r d8]] per determinare cosa fa durante il turno.</p><p>Con un risultato da 1 a 4, la creatura non fa nulla. Con un risultato di 5 o 6, non effettua azioni o azioni bonus e usa tutto il proprio movimento per muoversi in una direzione determinata casualmente. Con un risultato di 7 o 8, effettua un attacco in mischia contro una creatura determinata casualmente entro la propria portata, oppure non fa nulla se non può effettuare un tale attacco.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} farfuglia in modo incoerente finché può vedere una creatura. Ogni creatura che inizia il proprio turno entro 6 metri dal [[lookup @name]]{mostro} e che sia in grado di udire il farfugliare deve superare un tiro salvezza su Saggezza.</p>"
         },
         "qlBBeTku9uoaEv8G": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua un attacco con i [[/item .lfUDtJ8hdeULQzqa]]{Morsi} e, se può, usa il proprio [[/item .KQRvDGowc6ihejLu]]{Sputo Accecante}.</p>"
         },
         "KQRvDGowc6ihejLu": {
           "name": "Sputo Accecante",
           "effects": {
             "mYKrzvh1Pfu5WIPh": {
-              "name": "Sputo Accecante"
+              "name": "Sputo Accecante",
+              "description": "<p>Sei &amp;reference[blinded apply=false] fino alla fine del turno successivo della fauce gorgogliante.</p>"
             }
           },
           "activities": {
             "lIu1LNYAMT8FLBjR": {
               "name": "Sputare Globo Chimico"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} sputa un globo chimico verso un punto che sia in grado di vedere entro [[lookup @labels.description.range activity=lIu1LNYAMT8FLBjR]] da sé. All'impatto, il globo esplode in un lampo di luce accecante. Ogni creatura entro 1,5 metri dal lampo deve superare un tiro salvezza [[/save]], altrimenti è &amp;reference[blinded apply=false] fino alla fine del turno successivo della fauce.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} sputa un globo chimico verso un punto che sia in grado di vedere entro [[lookup @labels.description.range activity=lIu1LNYAMT8FLBjR]] da sé. All'impatto, il globo esplode in un lampo di luce accecante. Ogni creatura entro 1,5 metri dal lampo deve effettuare un tiro salvezza su Destrezza.</p>"
         },
         "lfUDtJ8hdeULQzqa": {
           "name": "Morsi",
           "activities": {
             "e1l3VXsl2AfHvE4g": {
-              "name": "Tiro Salvezza contro Prono"
+              "name": "Tiro Salvezza contro Prono",
+              "description": {
+                "value": "<p>Se il bersaglio è di taglia Media o inferiore, deve superare un tiro salvezza [[/save]], altrimenti cade &amp;reference[prone]. Se il bersaglio viene ucciso da questi danni, viene assorbito dal [[lookup @name lowercase]]{mostro}.</p>"
+              }
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio è di taglia Media o inferiore, deve superare un tiro salvezza [[/save]], altrimenti cade &amp;reference[prone]. Se il bersaglio viene ucciso da questi danni, viene assorbito dal [[lookup @name lowercase]]{mostro}.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Se il bersaglio è di taglia Media o inferiore, deve effettuare un tiro salvezza su Forza, altrimenti cade &amp;reference[prone].</p>"
         }
       },
       "details": {
