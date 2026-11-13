@@ -3927,6 +3927,14 @@
         },
         {
           "pack": "items",
+          "id": "ZoUVmRA3HfAK2eZy",
+          "name": "Candle of Invocation",
+          "sourcePath": "items/trinket/candle-of-invocation.yml",
+          "lookupKey": "Candle of Invocation",
+          "matchedLookupKey": "Candle of Invocation"
+        },
+        {
+          "pack": "items",
           "id": "0NoBBP3MMkvJlwZY",
           "name": "Candle",
           "sourcePath": "items/trinket/candle.yml",
@@ -4364,6 +4372,14 @@
           "sourcePath": "items/trinket/iron-bands-of-binding.yml",
           "lookupKey": "Iron Bands of Binding",
           "matchedLookupKey": "Iron Bands of Binding"
+        },
+        {
+          "pack": "items",
+          "id": "lvLrkAR7k8DS7J3W",
+          "name": "Iron Flask",
+          "sourcePath": "items/trinket/iron-flask.yml",
+          "lookupKey": "Iron Flask",
+          "matchedLookupKey": "Iron Flask"
         },
         {
           "pack": "items",
@@ -7290,41 +7306,6 @@
         },
         {
           "pack": "items",
-          "id": "ZoUVmRA3HfAK2eZy",
-          "name": "Candle of Invocation",
-          "sourcePath": "items/trinket/candle-of-invocation.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Candle of Invocation",
-          "matchedLookupKey": "Candle of Invocation",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "ZoUVmRA3HfAK2eZy",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "ZoUVmRA3HfAK2eZy",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "items",
-              "id": "ZoUVmRA3HfAK2eZy",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
           "id": "Wk7EOYoY3b2tgGoS",
           "name": "Deck of Illusions",
           "sourcePath": "items/trinket/deck-of-illusions.yml",
@@ -7405,41 +7386,6 @@
               "message": "Foundry formulas differ from source",
               "pack": "items",
               "id": "oSarKEU8x1AupB6z",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "lvLrkAR7k8DS7J3W",
-          "name": "Iron Flask",
-          "sourcePath": "items/trinket/iron-flask.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Iron Flask",
-          "matchedLookupKey": "Iron Flask",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "lvLrkAR7k8DS7J3W",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "lvLrkAR7k8DS7J3W",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "items",
-              "id": "lvLrkAR7k8DS7J3W",
               "fieldPath": "system.description.value"
             }
           ]
