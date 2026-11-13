@@ -13826,7 +13826,8 @@
       },
       "items": {
         "WB7rPC56Z4FEHaKA": {
-          "name": "Frenesia di Sangue"
+          "name": "Frenesia di Sangue",
+          "description": "<p>Il [[lookup @name lowercase]]{sciame} dispone di vantaggio ai tiri per colpire in mischia contro qualsiasi creatura che non possieda tutti i propri punti ferita.</p>"
         },
         "FeN10wU0c42U59Dh": {
           "name": "Sciame",
@@ -13835,14 +13836,17 @@
               "name": "Sciame",
               "description": "<p>Puoi occupare gli spazi delle altre creature e viceversa. Non puoi recuperare punti ferita né ottenere punti ferita temporanei.</p>"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{sciame} può occupare lo spazio di un'altra creatura e viceversa, e il [[lookup @name lowercase]]{sciame} può attraversare qualsiasi apertura sufficientemente grande da lasciar passare un quipper Minuscolo. Lo sciame non può recuperare punti ferita né ottenere punti ferita temporanei.</p>"
         },
         "m2mBjg0pdApVXYt2": {
-          "name": "Respirare Sott'Acqua"
+          "name": "Respirare Sott'Acqua",
+          "description": "<p>Il [[lookup @name lowercase]]{sciame} può respirare soltanto sott'acqua.</p>"
         },
         "PdGiMUPADDnERJDp": {
           "name": "Morsi",
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con una raffica di [[lookup @item.name]].</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con una raffica di [[lookup @item.name]].</p>",
+          "description": "<p>Attacco con Arma da Mischia: [[/attack]], 0 m, una creatura nello spazio del [[lookup @name lowercase]]{sciame}. Colpito: [[/damage 4d6 piercing average]] danni, oppure [[/damage 2d6 piercing average]] danni se il [[lookup @name lowercase]]{sciame} possiede metà dei propri punti ferita o meno.</p>"
         }
       },
       "details": {
