@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2189,
+      "translated": 2190,
       "missing": 3,
-      "partial": 199,
+      "partial": 198,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14292,
-      "missing": 1368,
+      "translated": 14295,
+      "missing": 1365,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1373
+    "blockingIssues": 1370
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 154,
+          "translated": 155,
           "missing": 0,
-          "partial": 183,
+          "partial": 182,
           "review": 0
         },
         "folders": {
@@ -578,41 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6476,
-          "missing": 630,
+          "translated": 6479,
+          "missing": 627,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "XfQMBoTh892XSnCX",
-          "name": "Swarm of Poisonous Snakes",
-          "fieldPath": "items[3AcB7xK7KYfSfp3a].system.description.value",
-          "sourcePath": "monsters/beast/swarm-of-poisonous-snakes.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "XfQMBoTh892XSnCX",
-          "name": "Swarm of Poisonous Snakes",
-          "fieldPath": "items[kKbhCrzlZVEtrrgz].system.description.value",
-          "sourcePath": "monsters/beast/swarm-of-poisonous-snakes.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "XfQMBoTh892XSnCX",
-          "name": "Swarm of Poisonous Snakes",
-          "fieldPath": "items[kKbhCrzlZVEtrrgz].system.activities.tT3v0krnAO2hA0hs.description.value",
-          "sourcePath": "monsters/beast/swarm-of-poisonous-snakes.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
