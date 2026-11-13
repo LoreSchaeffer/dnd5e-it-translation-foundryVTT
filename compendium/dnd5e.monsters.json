@@ -14606,11 +14606,13 @@
       },
       "items": {
         "EY5bnNsvwwHGfCk1": {
-          "name": "Falso Aspetto"
+          "name": "Falso Aspetto",
+          "description": "<p>Finché il [[lookup @name lowercase]]{mostro} rimane immobile e non sta volando, è indistinguibile da una normale spada.</p>"
         },
         "D2cJQHQa8UQp99Wt": {
           "name": "Spada Lunga",
-          "description": "<p>[[/attack extended]]. [[/damage extended]].</p>"
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca!</p>"
         },
         "C1O9SIIa9YwxZEjc": {
           "name": "Suscettibilità all'Anti-magia",
@@ -14625,7 +14627,8 @@
               "description": "<p>Sei stato reso &amp;reference[unconscious apply=false] dall'incantesimo @UUID[Compendium.dnd5e.spells.Item.15Fa6q1nH27XfbR8]{Dissolvi Magie} per 1 minuto.</p>"
             }
           },
-          "chat": "<p>L'armatura è incapacitata finché si trova nell'area di un campo antimagia.</p>"
+          "chat": "<p>L'armatura è incapacitata finché si trova nell'area di un campo antimagia.</p>",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} è &amp;reference[incapacitated apply=false] mentre si trova nell'area di un @UUID[Compendium.dnd5e.spells.Item.Eon0jzGzQRNluTPQ]{Campo Anti-Magia}. Se viene bersagliato da @UUID[Compendium.dnd5e.spells.Item.15Fa6q1nH27XfbR8]{Dissolvi Magie}, il [[lookup @name lowercase]]{mostro} deve superare un tiro salvezza su Costituzione contro la CD del tiro salvezza degli incantesimi dell'incantatore o cadere &amp;reference[unconscious] per 1 minuto.</p>"
         }
       },
       "attributes": {

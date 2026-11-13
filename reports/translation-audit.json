@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2202,
+      "translated": 2203,
       "missing": 3,
-      "partial": 186,
+      "partial": 185,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14334,
-      "missing": 1326,
+      "translated": 14337,
+      "missing": 1323,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1331
+    "blockingIssues": 1328
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 167,
+          "translated": 168,
           "missing": 0,
-          "partial": 170,
+          "partial": 169,
           "review": 0
         },
         "folders": {
@@ -578,41 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6518,
-          "missing": 588,
+          "translated": 6521,
+          "missing": 585,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "EqJUA3Z3181RSSFU",
-          "name": "Flying Sword",
-          "fieldPath": "items[EY5bnNsvwwHGfCk1].system.description.value",
-          "sourcePath": "monsters/construct/flying-sword.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "EqJUA3Z3181RSSFU",
-          "name": "Flying Sword",
-          "fieldPath": "items[D2cJQHQa8UQp99Wt].system.description.chat",
-          "sourcePath": "monsters/construct/flying-sword.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "EqJUA3Z3181RSSFU",
-          "name": "Flying Sword",
-          "fieldPath": "items[C1O9SIIa9YwxZEjc].system.description.value",
-          "sourcePath": "monsters/construct/flying-sword.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
