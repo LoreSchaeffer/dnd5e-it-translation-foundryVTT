@@ -14099,12 +14099,18 @@
               "name": "Ammaliare"
             },
             "ujLBXc1uZjAXxSCX": {
-              "name": "Comandare la Spada"
+              "name": "Comandare la Spada",
+              "description": {
+                "value": "<p>Se il [[lookup @name lowercase]]{mostro} è in grado di vedere la spada, il [[lookup @name lowercase]]{mostro} può comandarle mentalmente con un'azione bonus di volare fino a 15 metri e di effettuare un attacco contro un bersaglio oppure tornare nelle mani del [[lookup @name lowercase]]{mostro}.</p>"
+              }
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} lascia andare il proprio spadone, che fluttua magicamente in uno spazio libero entro 1,5 metri da lui. Se il [[lookup @name lowercase]]{mostro} è in grado di vedere la spada, il [[lookup @name lowercase]]{mostro} può comandarle mentalmente con un'azione bonus di volare fino a 15 metri e di effettuare un attacco contro un bersaglio oppure tornare nelle mani del [[lookup @name lowercase]]{mostro}. Se la spada fluttuante è bersagliata da un effetto, si considera che il [[lookup @name lowercase]]{mostro} la stia impugnando. La spada fluttuante cade se il [[lookup @name lowercase]]{mostro} muore.</p><section id=\"secret-lQcPEreSKHWmYNO7\" class=\"secret\"><p>Nota di Foundry</p><p>Ammalia lo spadone del [[lookup @name lowercase]]{mostro} usando l'attività di questo tratto, conferendogli un'attività <em><strong>\"Comandare la Spada\"</strong></em> utilizzabile come azione bonus.</p></section>",
+          "chat": "<p>Il solar lascia andare il proprio spadone, che fluttua magicamente in uno spazio libero entro <strong>1,5 m</strong> da lui. Se la spada fluttuante è bersagliata da un effetto, si considera che il solar la stia impugnando. </p>"
         },
         "hWnnOw9zwmvWvFT7": {
-          "name": "Incantesimi Innati"
+          "name": "Incantesimi Innati",
+          "description": "<p>La caratteristica da incantatore del solar è Carisma (CD 25 del tiro salvezza degli incantesimi). Il solar può lanciare i seguenti incantesimi innati, senza richiedere componenti materiali:</p>\n<p><strong>A volontà:</strong> [[/item .Mzh95utKDPIrjiH8]]{individuazione del bene e del male}, [[/item .1N8dDMMgZ1h1YJ3B]]{invisibilità} (solo su se stesso)</p>\n<p><strong>3/giorno ciascuno:</strong> [[/item .dLJhxDfeyOsc3zsY]]{barriera di lame}, [[/item .TkJ8Wtg1L7TZtspm]]{dissolvi il bene e il male}, [[/item .jhhT9PsHy5A7EojO]]{resurrezione}</p>\n<p><strong>1/giorno ciascuno:</strong> [[/item .d54VDyFulD9xxY7J]]{comunione}, [[/item .ZPd73HtKF3At11jh]]{controllare tempo atmosferico}</p>"
         },
         "H0o9gjKN8xSdBHdB": {
           "name": "Multiattacco",
@@ -14127,7 +14133,8 @@
         "iXcyU8grGuxZbkYJ": {
           "effects": {
             "CPMieBYNggqmHRra": {
-              "name": "Accecato"
+              "name": "Accecato",
+              "description": "<p>Il bersaglio è accecato finché una magia come l'incantesimo <em>ristorare inferiore</em> non rimuove la cecità.</p><p>Sei &amp;reference[blinded apply=false] finché una magia come l'incantesimo @UUID[Compendium.dnd5e.spells.Item.F0GsG0SJzsIOacwV]{Ristorare Inferiore} non rimuove la cecità.</p>"
             }
           },
           "name": "Sguardo Accecante",
@@ -14135,7 +14142,9 @@
             "fOKbYw2p3tXhOyn2": {
               "name": "Accecare Creatura"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} bersaglia [[lookup @labels.description.affects activity=fOKbYw2p3tXhOyn2]] che sia in grado di vedere entro [[lookup @labels.description.range activity=fOKbYw2p3tXhOyn2]] da sé. Se il bersaglio può vederlo, deve superare un tiro salvezza [[/save]], altrimenti è &amp;Reference[blinded apply=false] finché una magia come l'incantesimo @UUID[Compendium.dnd5e.spells.Item.F0GsG0SJzsIOacwV]{Ristorare Inferiore} non rimuove la cecità.</p>",
+          "chat": "<p>Il solar bersaglia una creatura che sia in grado di vedere entro 9 metri da sé. Se il bersaglio può vederlo, deve superare un tiro salvezza su Costituzione, altrimenti è accecato.</p>"
         },
         "Mzh95utKDPIrjiH8": {
           "name": "Individuazione del Bene e del Male",
@@ -14147,7 +14156,8 @@
           "description": "<p>Una creatura toccata dall'incantatore diventa invisibile finché l'incantesimo non termina. Anche tutto ciò che il bersaglio indossa o trasporta diventa invisibile finché rimane sulla sua persona. L'incantesimo termina per un bersaglio quando quel bersaglio attacca o lancia un incantesimo.</p><p><strong>Ai Livelli Superiori.&nbsp;</strong>Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 3° livello o superiore, può bersagliare una creatura aggiuntiva per ogni slot di livello superiore al 2°.</p>"
         },
         "dLJhxDfeyOsc3zsY": {
-          "name": "Barriera di Lame"
+          "name": "Barriera di Lame",
+          "description": "<p>L'incantatore crea un muro verticale di lame turbinanti e affilate come rasoi, fatte di energia magica. Il muro compare entro gittata e permane per la durata dell'incantesimo. L'incantatore può creare un muro rettilineo lungo fino a 30 metri, alto 6 metri e spesso 1,5 metri, oppure un muro circolare del diametro massimo di 18 metri, alto 6 metri e spesso 1,5 metri. Il muro fornisce tre quarti di copertura alle creature dietro di esso e il suo spazio è terreno difficile.</p><p>Quando una creatura entra nell'area del muro per la prima volta in un turno o vi inizia il proprio turno, deve effettuare un tiro salvezza su Destrezza. Se lo fallisce subisce 6d10 danni taglienti, mentre se lo supera subisce la metà di quei danni.</p>"
         },
         "TkJ8Wtg1L7TZtspm": {
           "name": "Dissolvi il Bene e il Male",
@@ -14193,7 +14203,9 @@
             "QE8HFlW0jsWaWwdx": {
               "name": "Emettere Energia Divina"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} emette energia divina e magica. Ogni creatura a sua scelta entro [[lookup @labels.description.template activity=QE8HFlW0jsWaWwdx]] deve effettuare un tiro salvezza [[/save]]; se lo fallisce subisce [[/damage average]] danni, mentre se lo supera subisce la metà di quei danni.</p>",
+          "chat": "<p>Il solar emette energia divina e magica. Ogni creatura a sua scelta entro [[lookup @labels.description.template activity=QE8HFlW0jsWaWwdx]] deve effettuare un tiro salvezza su Destrezza.</p>"
         },
         "WjycsIAlfnBDg9ec": {
           "name": "Consapevolezza Divina",
@@ -14201,7 +14213,8 @@
         },
         "VAcvTNQf5hrdzQEh": {
           "name": "Armi Angeliche",
-          "chat": "<p>Gli attacchi con arma del planetar sono magici. Quando il planetar colpisce con un'arma, essa infligge <em>danni radiosi</em> extra (inclusi nell'attacco).</p>"
+          "chat": "<p>Gli attacchi con arma del planetar sono magici. Quando il planetar colpisce con un'arma, essa infligge <em>danni radiosi</em> extra (inclusi nell'attacco).</p>",
+          "description": "<p>Gli attacchi con arma del [[lookup @name lowercase]]{mostro} sono magici. Quando il [[lookup @name lowercase]]{mostro} colpisce con un'arma, essa infligge 6d8 danni radiosi extra (inclusi nell'attacco).</p>"
         },
         "BSLTe0yfltAnguOT": {
           "name": "Arco Lungo Massacrante",
@@ -14209,7 +14222,9 @@
             "blWZmE4vpDahgbOb": {
               "name": "Tiro Salvezza contro il Massacro"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio è una creatura che possiede 100 punti ferita o meno, deve superare un tiro salvezza [[/save]], altrimenti muore.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Se il bersaglio è una creatura che possiede 100 punti ferita o meno, deve effettuare un tiro salvezza su Costituzione.</p>"
         }
       },
       "details": {

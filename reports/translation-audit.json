@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2119,
+      "translated": 2120,
       "missing": 3,
-      "partial": 269,
+      "partial": 268,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 13960,
-      "missing": 1700,
+      "translated": 13973,
+      "missing": 1687,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1705
+    "blockingIssues": 1692
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 84,
+          "translated": 85,
           "missing": 0,
-          "partial": 253,
+          "partial": 252,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6144,
-          "missing": 962,
+          "translated": 6157,
+          "missing": 949,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -2151,123 +2151,6 @@
           "name": "Planetar",
           "fieldPath": "items[OVikYmSdHliAG2YD].system.description.value",
           "sourcePath": "monsters/celestial/planetar.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "lOYt73eaJojBDxAV",
-          "name": "Solar",
-          "fieldPath": "items[N5YFwsrzGuUFrblp].system.description.value",
-          "sourcePath": "monsters/celestial/solar.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "lOYt73eaJojBDxAV",
-          "name": "Solar",
-          "fieldPath": "items[N5YFwsrzGuUFrblp].system.description.chat",
-          "sourcePath": "monsters/celestial/solar.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "lOYt73eaJojBDxAV",
-          "name": "Solar",
-          "fieldPath": "items[N5YFwsrzGuUFrblp].system.activities.ujLBXc1uZjAXxSCX.description.value",
-          "sourcePath": "monsters/celestial/solar.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "lOYt73eaJojBDxAV",
-          "name": "Solar",
-          "fieldPath": "items[hWnnOw9zwmvWvFT7].system.description.value",
-          "sourcePath": "monsters/celestial/solar.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "lOYt73eaJojBDxAV",
-          "name": "Solar",
-          "fieldPath": "items[BSLTe0yfltAnguOT].system.description.value",
-          "sourcePath": "monsters/celestial/solar.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "lOYt73eaJojBDxAV",
-          "name": "Solar",
-          "fieldPath": "items[BSLTe0yfltAnguOT].system.description.chat",
-          "sourcePath": "monsters/celestial/solar.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "lOYt73eaJojBDxAV",
-          "name": "Solar",
-          "fieldPath": "items[hvLibxV3shPORnBB].system.description.value",
-          "sourcePath": "monsters/celestial/solar.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "lOYt73eaJojBDxAV",
-          "name": "Solar",
-          "fieldPath": "items[hvLibxV3shPORnBB].system.description.chat",
-          "sourcePath": "monsters/celestial/solar.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "lOYt73eaJojBDxAV",
-          "name": "Solar",
-          "fieldPath": "items[iXcyU8grGuxZbkYJ].system.description.value",
-          "sourcePath": "monsters/celestial/solar.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "lOYt73eaJojBDxAV",
-          "name": "Solar",
-          "fieldPath": "items[iXcyU8grGuxZbkYJ].system.description.chat",
-          "sourcePath": "monsters/celestial/solar.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "lOYt73eaJojBDxAV",
-          "name": "Solar",
-          "fieldPath": "items[iXcyU8grGuxZbkYJ].effects[CPMieBYNggqmHRra].description",
-          "sourcePath": "monsters/celestial/solar.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "lOYt73eaJojBDxAV",
-          "name": "Solar",
-          "fieldPath": "items[dLJhxDfeyOsc3zsY].system.description.value",
-          "sourcePath": "monsters/celestial/solar.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "lOYt73eaJojBDxAV",
-          "name": "Solar",
-          "fieldPath": "items[VAcvTNQf5hrdzQEh].system.description.value",
-          "sourcePath": "monsters/celestial/solar.yml"
         },
         {
           "code": "missing-field",
