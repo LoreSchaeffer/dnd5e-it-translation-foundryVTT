@@ -63,11 +63,11 @@
     },
     "Aversion of Fire": {
       "name": "Avversione al Fuoco",
-      "description": "<p>Se la &lt;creature&gt; subisce danni da fuoco, subisce svantaggio ai tiri per colpire e alle prove di caratteristica fino alla fine del suo turno successivo.</p>"
+      "description": "<section class=\"secret\">\n<p>Se il [[lookup @name lowercase]]{mostro} subisce <strong><em>danni da fuoco</em></strong>, subisce<strong> svantaggio </strong>ai tiri per colpire e alle prove di caratteristica fino alla fine del proprio turno successivo.</p>\n</section>\n<p>Se il [[lookup @name lowercase]]{mostro} subisce <strong><em>danni da fuoco</em></strong>, subisce<strong> svantaggio </strong>ad alcuni tiri.</p>"
     },
     "Barbed Hide": {
       "name": "Pelle Uncinata",
-      "description": "<p>All'inizio di ogni suo turno, la &lt;creature&gt; infligge 5 (1d10) danni perforanti a ogni creatura con cui lotta.</p>"
+      "description": "<p>All'inizio di ogni proprio turno, il [[lookup @name lowercase]]{mostro} infligge <strong>5 (1d10) danni <em>perforanti</em></strong> a ogni creatura che lo sta afferrando.</p>"
     },
     "Beast of Burden": {
       "name": "Bestia da Soma",
@@ -80,15 +80,15 @@
     },
     "Berserk": {
       "name": "Berserk",
-      "description": "<p>Ogni volta che la &lt;creature&gt; inizia il suo turno con 60 punti ferita o meno, si tira un d6. Con un risultato di 6 la &lt;creature&gt; entra in uno stato di berserk. A ogni suo turno, finché è in berserk, la &lt;creature&gt; attacca la creatura più vicina che è in grado di vedere. Se non c'è una creatura abbastanza vicina per muoversi e attaccarla, la &lt;creature&gt; attacca un oggetto, prediligendo un oggetto più piccolo di lui. Una volta che il golem è in berserk, continua a farlo finché non viene distrutto o non recupera tutti i suoi punti ferita.&nbsp;</p>"
+      "description": "<section class=\"secret\">\n<p>Ogni volta che il [[lookup @name lowercase]]{mostro} inizia il proprio turno con <strong>60 punti ferita</strong> o meno, tira un d6. Con un risultato di 6, il [[lookup @name lowercase]]{mostro} entra in berserk. In ognuno dei propri turni mentre è in berserk, il [[lookup @name lowercase]]{mostro} attacca la creatura più vicina che può vedere.</p><p>Se nessuna creatura è abbastanza vicina da poterla raggiungere e attaccare, il [[lookup @name lowercase]]{mostro} attacca un oggetto, preferendone uno più piccolo di lui. Una volta entrato in berserk, il [[lookup @name lowercase]]{mostro} continua a esserlo finché non viene distrutto o non recupera tutti i propri<strong> punti ferita</strong>.</p>\n</section>\n<p>Il [[lookup @name lowercase]]{mostro} entra in berserk. In ognuno dei propri turni mentre è in berserk, il [[lookup @name lowercase]]{mostro} attacca la creatura più vicina che può vedere. Se nessuna creatura è abbastanza vicina da poterla raggiungere e attaccare, il [[lookup @name lowercase]]{mostro} attacca un oggetto, preferendone uno più piccolo di lui.</p>"
     },
     "Bite": {
       "name": "Morso",
-      "description": "<p>Un generico segnaposto per un attacco effettuato con un morso.</p>"
+      "description": "<section class=\"secret\">\n<p>Attacco con Arma da Mischia: +11 al tiro per colpire, portata 3 m, un bersaglio. Colpito: 17 (2d10 + 6) danni perforanti.</p>\n</section>\n<p>Il [[lookup @name lowercase]]{mostro} attacca con il proprio Morso.</p>"
     },
     "Blasphemous Word": {
       "name": "Parola Blasfema",
-      "description": "<p>La &lt;creature&gt; pronuncia una parola blasfema. Ogni creatura che non sia un non morto, che sia situata entro <strong>3 metri</strong> dalla &lt;creature&gt; e che possa sentire l'enunciazione magica deve superare un <strong>tiro salvezza su Costituzione con CD 16</strong>, altrimenti è stordita fino alla fine del turno successivo della &lt;creature&gt;.</p>"
+      "description": "<section class=\"secret\">\n<p>Il [[lookup @name lowercase]]{mostro} pronuncia una parola blasfema. Ogni creatura non-[[lookup @details.type.config.label lowercase]]{mostro} entro 3 metri dal [[lookup @name lowercase]]{mostro} che può udire l'enunciazione magica deve superare un tiro salvezza su <strong>Costituzione con CD 16</strong>, altrimenti è stordita fino alla fine del turno successivo del [[lookup @name lowercase]]{mostro}.</p>\n</section>\n<p>Il [[lookup @name lowercase]]{mostro} pronuncia una parola blasfema. Ogni creatura non-[[lookup @details.type.config.label lowercase]]{mostro} entro 3 metri dal [[lookup @name lowercase]]{mostro} che può udire l'enunciazione magica deve effettuare un tiro salvezza su <strong>Costituzione</strong>.</p>"
     },
     "Blind Senses": {
       "name": "Percezione Cieca",
@@ -96,23 +96,23 @@
     },
     "Blinding Breath": {
       "name": "Soffio Accecante",
-      "description": "<p>La &lt;creature&gt; esala polvere accecante in un cono di <strong>4,5 metri</strong>. Ogni creatura in quell'area deve superare un<strong> tiro salvezza su Destrezza con CD 10</strong>, altrimenti è accecata per 1 minuto. Una creatura può ripetere il <strong>tiro salvezza&nbsp;</strong>alla fine di ogni suo turno e, se lo supera, l'effetto per lei termina.</p>"
+      "description": "<section class=\"secret\">\n<p>Il [[lookup @name lowercase]]{mostro} esala polvere accecante in un cono di 4,5 metri.</p><p>Ogni creatura in quell'area deve superare un tiro salvezza su <strong>Destrezza con CD 10</strong>, altrimenti è accecata per 1 minuto. Una creatura può ripetere il tiro salvezza alla fine di ogni proprio turno e, se lo supera, l'effetto su di lei termina.</p>\n</section>\n<p>Il [[lookup @name lowercase]]{mostro} esala polvere accecante in un cono di 4,5 metri. Ogni creatura in quell'area deve effettuare un tiro salvezza su <strong>Destrezza</strong>. Una creatura può ripetere il tiro salvezza alla fine di ogni proprio turno.</p>"
     },
     "Blinding Dust": {
       "name": "Polvere Accecante",
-      "description": "<p>Una nube di polvere e sabbia accecante si solleva magicamente turbinando attorno al signore delle mummie. Ogni creatura entro <strong>1,5 metri </strong>dal &lt;creature&gt; deve superare un <strong>tiro salvezza su Costituzione con CD 16</strong>, altrimenti è Accecata fino alla fine del proprio turno successivo.</p>"
+      "description": "<section class=\"secret\">\n<p>Polvere e sabbia accecanti turbinano magicamente attorno al [[lookup @name lowercase]]{mostro}. Ogni creatura entro 1,5 metri dal [[lookup @name lowercase]]{mostro} deve superare un tiro salvezza su <strong>Costituzione con CD 16</strong>, altrimenti è accecata fino alla fine del turno successivo della creatura.</p>\n</section>\n<p>Polvere e sabbia accecanti turbinano magicamente attorno al [[lookup @name lowercase]]{mostro}. Ogni creatura entro 1,5 metri dal [[lookup @name lowercase]]{mostro} deve effettuare un tiro salvezza su <strong>Costituzione</strong>.</p>"
     },
     "Blinding Spittle": {
       "name": "Sputo Accecante",
-      "description": "<p>La&nbsp; &lt;creature&gt; sputa un globo chimico in un punto situato entro <strong>4,5 metri</strong> da lui e che sia in grado di vedere. Il globo esplode in un lampo di luce accecante all'impatto. Ogni creatura entro<strong> 1,5 metri </strong>dal lampo deve superare un<strong> tiro salvezza su Destrezza con CD 13, </strong>altrimenti diventa Accecata fino alla fine del turno successivo della &lt;creature&gt;.</p>"
+      "description": "<section class=\"secret\">\n<p>Il [[lookup @name lowercase]]{mostro} sputa un globo chimico verso un punto che può vedere entro 4,5 metri. Il globo esplode all'impatto in un lampo di luce accecante.</p><p>Ogni creatura entro 1,5 metri dal lampo deve superare un tiro salvezza su <strong>Destrezza con CD 13</strong>, altrimenti è accecata fino alla fine del turno successivo del [[lookup @name lowercase]]{mostro}.</p>\n</section>\n<p>Il [[lookup @name lowercase]]{mostro} sputa un globo chimico verso un punto che può vedere entro 4,5 metri. Il globo esplode all'impatto in un lampo di luce accecante. Ogni creatura entro 1,5 metri dal lampo deve effettuare un tiro salvezza su <strong>Destrezza</strong>.</p>"
     },
     "Blood Frenzy": {
       "name": "Frenesia di Sangue",
-      "description": "<p>La &lt;creature&gt; dispone di vantaggio ai tiri per colpire in mischia contro ogni creatura che non possieda tutti i suoi punti ferita.</p>"
+      "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di<strong> vantaggio </strong>ai tiri per colpire in mischia contro qualsiasi creatura che non possieda tutti i propri<strong> punti ferita</strong>.</p>"
     },
     "Bound": {
       "name": "Vincolato",
-      "description": "<p>Il &lt;creature&gt; è vincolato magicamente a un amuleto. Finché il guardiano e il suo amuleto si trovano sullo stesso piano di esistenza, il portatore dell'amuleto può chiamare telepaticamente il &lt;creature&gt; affinché viaggi fino a lui; e il &lt;creature&gt; conosce la distanza e la direzione in cui si trova l'amuleto. Se il &lt;creature&gt; si trova entro <strong>18 metri&nbsp;</strong>dal portatore dell'amuleto, metà dei danni (arrotondati per eccesso) che il portatore subisce viene trasferita al &lt;creature&gt;.</p>"
+      "description": "<section class=\"secret\">\n<p>Il [[lookup @name lowercase]]{mostro} è vincolato magicamente a un amuleto. Finché il [[lookup @name lowercase]]{mostro} e il suo amuleto si trovano sullo stesso piano di esistenza, chi indossa l'amuleto può richiamare telepaticamente il [[lookup @name lowercase]]{mostro} affinché lo raggiunga e il [[lookup @name lowercase]]{mostro} conosce la distanza e la direzione dell'amuleto.</p><p>Se il [[lookup @name lowercase]]{mostro} si trova <strong>entro 18 metri</strong> da chi indossa l'amuleto, metà di tutti i danni subiti da quest'ultimo (arrotondati per eccesso) viene trasferita al [[lookup @name lowercase]]{mostro}.</p>\n</section>\n<p>Il [[lookup @name lowercase]]{mostro} è vincolato magicamente a un amuleto.</p>"
     },
     "Brave": {
       "name": "Impavido",
