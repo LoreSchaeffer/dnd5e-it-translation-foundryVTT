@@ -10231,27 +10231,33 @@
           "name": "Morso",
           "activities": {
             "0Zv56HDjDfhQsQp6": {
-              "name": "Prova per Staccare il Cloaker"
+              "name": "Prova per Staccare il Manto Assassino"
             }
           },
           "effects": {
             "WEZ63n8dEExdKdTp": {
-              "name": "Cloaker Attaccato"
+              "name": "Manto Assassino Attaccato",
+              "description": "<p>Un manto assassino si è attaccato a te. Finché rimane attaccato, sei &amp;reference[blinded apply=false] e non puoi &amp;Reference[suffocation apply=false]{Respirare}.</p><p>Tu o un'altra creatura potete usare un'azione per staccare il manto assassino superando una prova [[/check 16 str]].</p>"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage extended]], e se il bersaglio è di taglia Grande o inferiore, il manto assassino si attacca ad esso.</p><p>Se il [[lookup @name lowercase]]{mostro} dispone di vantaggio contro il bersaglio, il [[lookup @name lowercase]]{mostro} si attacca alla testa del bersaglio, che diventa &amp;Reference[blinded] e non può &amp;Reference[suffocation apply=false]{Respirare} finché il [[lookup @name lowercase]]{mostro} rimane attaccato. Finché è attaccato, il [[lookup @name lowercase]]{mostro} può effettuare questo attacco soltanto contro il bersaglio e dispone di vantaggio al tiro per colpire. Il [[lookup @name lowercase]]{mostro} può staccarsi spendendo 1,5 metri del proprio movimento. Una creatura, incluso il bersaglio, può usare la propria azione per staccare il manto assassino superando una prova [[/check]].</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Una creatura, incluso il bersaglio, può usare la propria azione per staccare il [[lookup @name]]{mostro} superando una prova di Forza.</p>"
         },
         "Dfy6ujJALd2FPxNy": {
           "name": "Trasferire Danni",
           "description": "<p>Finché è attaccato a una creatura, il [[lookup @name lowercase]]{mostro} subisce solo metà dei danni che gli vengono inflitti (arrotondati per difetto) e quella creatura subisce l'altra metà.</p>"
         },
         "i7LEQhKLh7yPIldc": {
-          "name": "Falso Aspetto"
+          "name": "Falso Aspetto",
+          "description": "<p>Finché il [[lookup @name lowercase]]{mostro} rimane immobile senza esporre il proprio lato inferiore, è indistinguibile da un mantello di cuoio scuro.</p>"
         },
         "DxtSFI4LS6w1gzQP": {
-          "name": "Sensibilità alla Luce del Sole"
+          "name": "Sensibilità alla Luce del Sole",
+          "description": "<p>Quando si trova in un'area di &amp;reference[bright light], il [[lookup @name lowercase]]{mostro} dispone di svantaggio ai tiri per colpire e alle prove di Saggezza (Percezione) basate sulla vista.</p>"
         },
         "E76WCem1q8Dt8qkE": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il manto assassino effettua due attacchi: uno con il [[/item .afXMbT7smRaCJbhc]]{Morso} e uno con la [[/item .ZRvdvg8n7pQdJ1Mj]]{Coda}.</p>"
         },
         "Jiua0A8CFeKc7Zun": {
           "name": "Gemito",
@@ -10262,9 +10268,12 @@
           },
           "effects": {
             "C7Rb6zylLfziFr96": {
-              "name": "Gemito Spaventoso"
+              "name": "Gemito Spaventoso",
+              "description": "<p>Sei &amp;reference[frightened apply=false] fino alla fine del turno successivo del manto assassino.</p>"
             }
-          }
+          },
+          "description": "<p>Ogni creatura entro 18 metri dal [[lookup @name lowercase]]{mostro} che sia in grado di udire il suo gemito e che non sia un'aberrazione deve superare un tiro salvezza [[/save]], altrimenti diventa &amp;Reference[frightened] fino alla fine del turno successivo del [[lookup @name lowercase]]{mostro}. Se una creatura supera il tiro salvezza, il [[lookup @name lowercase]]{mostro} non può più influenzarla con [[lookup @item.name]] per le 24 ore successive.</p>",
+          "chat": "<p>Ogni creatura entro 18 metri dal [[lookup @name]]{mostro} che sia in grado di udire il suo [[lookup @item.name lowercase]] e che non sia un'aberrazione deve effettuare un tiro salvezza su Saggezza.</p>"
         },
         "UYqrfrW4pmBsmtiQ": {
           "name": "Allucinazioni",
@@ -10276,20 +10285,28 @@
               "name": "Prova per Colpire il Duplicato",
               "roll": {
                 "name": "Bersaglio dell'Attacco"
+              },
+              "description": {
+                "value": "<p>Ogni volta che una creatura bersaglia il [[lookup @name lowercase]]{mostro} con un attacco o un incantesimo dannoso mentre rimane almeno un duplicato, quella creatura tira casualmente per determinare se bersaglia il manto assassino o uno dei duplicati. Una creatura non è influenzata da questo effetto magico se non può vedere o se si affida a sensi diversi dalla vista.</p><p>Un duplicato possiede la CA del [[lookup @name lowercase]]{mostro} e usa i suoi tiri salvezza. Se un attacco colpisce un duplicato o se un duplicato fallisce un tiro salvezza contro un effetto che infligge danni, il duplicato scompare.</p><h4>Numero Attuale di Fantasmi: [[lookup @flags.world.cloaker-phantasms]]{0}</h4>",
+                "chatFlavor": "Con un risultato di 1, viene colpito il vero [[lookup @name lowercase]]{mostro}. Con un risultato di 0, viene colpito un duplicato."
               }
             }
           },
           "effects": {
             "J8AVrH7fDphpeAgl": {
-              "name": "Fantasma 1"
+              "name": "Fantasma 1",
+              "description": "<p>Un duplicato illusorio imita le tue azioni, cambiando posizione in modo che sia impossibile seguirti. Se entri in un'area di &amp;reference[bright light], il duplicato scompare.</p><p>Ogni volta che una creatura ti bersaglia con un attacco o un incantesimo dannoso mentre questo duplicato rimane, quella creatura tira casualmente per determinare se bersaglia te o uno dei tuoi duplicati. Una creatura non è influenzata da questo effetto magico se non può vedere o se si affida a sensi diversi dalla vista.</p><p>Un duplicato possiede la tua CA e usa i tuoi tiri salvezza. Se un attacco colpisce un duplicato o se un duplicato fallisce un tiro salvezza contro un effetto che infligge danni, il duplicato scompare.</p>"
             },
             "gvdmi4GxqQUyDAak": {
-              "name": "Fantasma 2"
+              "name": "Fantasma 2",
+              "description": "<p>Un duplicato illusorio imita le tue azioni, cambiando posizione in modo che sia impossibile seguirti. Se entri in un'area di &amp;reference[bright light], il duplicato scompare.</p><p>Ogni volta che una creatura ti bersaglia con un attacco o un incantesimo dannoso mentre questo duplicato rimane, quella creatura tira casualmente per determinare se bersaglia te o uno dei tuoi duplicati. Una creatura non è influenzata da questo effetto magico se non può vedere o se si affida a sensi diversi dalla vista.</p><p>Un duplicato possiede la tua CA e usa i tuoi tiri salvezza. Se un attacco colpisce un duplicato o se un duplicato fallisce un tiro salvezza contro un effetto che infligge danni, il duplicato scompare.</p>"
             },
             "GhPa8httnSE0Tx3g": {
-              "name": "Fantasma 3"
+              "name": "Fantasma 3",
+              "description": "<p>Un duplicato illusorio imita le tue azioni, cambiando posizione in modo che sia impossibile seguirti. Se entri in un'area di &amp;reference[bright light], il duplicato scompare.</p><p>Ogni volta che una creatura ti bersaglia con un attacco o un incantesimo dannoso mentre questo duplicato rimane, quella creatura tira casualmente per determinare se bersaglia te o uno dei tuoi duplicati. Una creatura non è influenzata da questo effetto magico se non può vedere o se si affida a sensi diversi dalla vista.</p><p>Un duplicato possiede la tua CA e usa i tuoi tiri salvezza. Se un attacco colpisce un duplicato o se un duplicato fallisce un tiro salvezza contro un effetto che infligge danni, il duplicato scompare.</p>"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} crea magicamente tre duplicati illusori di se stesso se non si trova in un'area di &amp;reference[bright light]. I duplicati si muovono assieme a lui e ne imitano le azioni, cambiando posizione in modo che sia impossibile capire quale [[lookup @name lowercase]]{mostro} sia quello reale. Se il [[lookup @name lowercase]]{mostro} entra in un'area di luce intensa, i duplicati scompaiono.</p><p>Ogni volta che una creatura bersaglia il [[lookup @name lowercase]]{mostro} con un attacco o un incantesimo dannoso mentre rimane almeno un duplicato, quella creatura tira casualmente per determinare se bersaglia il manto assassino o uno dei duplicati. Una creatura non è influenzata da questo effetto magico se non può vedere o se si affida a sensi diversi dalla vista.</p><p>Un duplicato possiede la CA del [[lookup @name lowercase]]{mostro} e usa i suoi tiri salvezza. Se un attacco colpisce un duplicato o se un duplicato fallisce un tiro salvezza contro un effetto che infligge danni, il duplicato scompare.</p>"
         },
         "ZRvdvg8n7pQdJ1Mj": {
           "name": "Coda",

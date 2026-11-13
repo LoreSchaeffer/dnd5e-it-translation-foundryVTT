@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2117,
+      "translated": 2118,
       "missing": 3,
-      "partial": 271,
+      "partial": 270,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 13932,
-      "missing": 1728,
+      "translated": 13947,
+      "missing": 1713,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1733
+    "blockingIssues": 1718
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 82,
+          "translated": 83,
           "missing": 0,
-          "partial": 255,
+          "partial": 254,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6116,
-          "missing": 990,
+          "translated": 6131,
+          "missing": 975,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -747,141 +747,6 @@
           "name": "Chuul",
           "fieldPath": "items[03oy1y5rwobZdg46].system.description.value",
           "sourcePath": "monsters/aberration/chuul.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "HPUO3weiwRQnql0d",
-          "name": "Cloaker",
-          "fieldPath": "items[afXMbT7smRaCJbhc].system.description.value",
-          "sourcePath": "monsters/aberration/cloaker.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "HPUO3weiwRQnql0d",
-          "name": "Cloaker",
-          "fieldPath": "items[afXMbT7smRaCJbhc].system.description.chat",
-          "sourcePath": "monsters/aberration/cloaker.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "HPUO3weiwRQnql0d",
-          "name": "Cloaker",
-          "fieldPath": "items[afXMbT7smRaCJbhc].effects[WEZ63n8dEExdKdTp].description",
-          "sourcePath": "monsters/aberration/cloaker.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "HPUO3weiwRQnql0d",
-          "name": "Cloaker",
-          "fieldPath": "items[i7LEQhKLh7yPIldc].system.description.value",
-          "sourcePath": "monsters/aberration/cloaker.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "HPUO3weiwRQnql0d",
-          "name": "Cloaker",
-          "fieldPath": "items[DxtSFI4LS6w1gzQP].system.description.value",
-          "sourcePath": "monsters/aberration/cloaker.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "HPUO3weiwRQnql0d",
-          "name": "Cloaker",
-          "fieldPath": "items[E76WCem1q8Dt8qkE].system.description.value",
-          "sourcePath": "monsters/aberration/cloaker.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "HPUO3weiwRQnql0d",
-          "name": "Cloaker",
-          "fieldPath": "items[Jiua0A8CFeKc7Zun].system.description.value",
-          "sourcePath": "monsters/aberration/cloaker.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "HPUO3weiwRQnql0d",
-          "name": "Cloaker",
-          "fieldPath": "items[Jiua0A8CFeKc7Zun].system.description.chat",
-          "sourcePath": "monsters/aberration/cloaker.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "HPUO3weiwRQnql0d",
-          "name": "Cloaker",
-          "fieldPath": "items[Jiua0A8CFeKc7Zun].effects[C7Rb6zylLfziFr96].description",
-          "sourcePath": "monsters/aberration/cloaker.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "HPUO3weiwRQnql0d",
-          "name": "Cloaker",
-          "fieldPath": "items[UYqrfrW4pmBsmtiQ].system.description.value",
-          "sourcePath": "monsters/aberration/cloaker.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "HPUO3weiwRQnql0d",
-          "name": "Cloaker",
-          "fieldPath": "items[UYqrfrW4pmBsmtiQ].system.activities.LSGV6WUSvL33MR2E.description.value",
-          "sourcePath": "monsters/aberration/cloaker.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "HPUO3weiwRQnql0d",
-          "name": "Cloaker",
-          "fieldPath": "items[UYqrfrW4pmBsmtiQ].system.activities.LSGV6WUSvL33MR2E.description.chatFlavor",
-          "sourcePath": "monsters/aberration/cloaker.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "HPUO3weiwRQnql0d",
-          "name": "Cloaker",
-          "fieldPath": "items[UYqrfrW4pmBsmtiQ].effects[J8AVrH7fDphpeAgl].description",
-          "sourcePath": "monsters/aberration/cloaker.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "HPUO3weiwRQnql0d",
-          "name": "Cloaker",
-          "fieldPath": "items[UYqrfrW4pmBsmtiQ].effects[gvdmi4GxqQUyDAak].description",
-          "sourcePath": "monsters/aberration/cloaker.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "HPUO3weiwRQnql0d",
-          "name": "Cloaker",
-          "fieldPath": "items[UYqrfrW4pmBsmtiQ].effects[GhPa8httnSE0Tx3g].description",
-          "sourcePath": "monsters/aberration/cloaker.yml"
         },
         {
           "code": "missing-field",
