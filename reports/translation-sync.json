@@ -3343,6 +3343,14 @@
         },
         {
           "pack": "items",
+          "id": "6pjaQzbtxQTuQ4RW",
+          "name": "Rod of Absorption",
+          "sourcePath": "items/rod/rod-of-absorption.yml",
+          "lookupKey": "Rod of Absorption",
+          "matchedLookupKey": "Rod of Absorption"
+        },
+        {
+          "pack": "items",
           "id": "Do3qeSHtBjUsmfvz",
           "name": "Rod of Alertness",
           "sourcePath": "items/rod/rod-of-alertness.yml",
@@ -7098,33 +7106,6 @@
               "message": "Foundry formulas differ from source",
               "pack": "items",
               "id": "2ksm2KXCY3vBHTAx",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "6pjaQzbtxQTuQ4RW",
-          "name": "Rod of Absorption",
-          "sourcePath": "items/rod/rod-of-absorption.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Rod of Absorption",
-          "matchedLookupKey": "Rod of Absorption",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "6pjaQzbtxQTuQ4RW",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "6pjaQzbtxQTuQ4RW",
               "fieldPath": "system.description.value"
             }
           ]

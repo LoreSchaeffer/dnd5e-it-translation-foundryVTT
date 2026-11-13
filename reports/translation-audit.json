@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1764,
+      "translated": 1765,
       "missing": 69,
-      "partial": 558,
+      "partial": 557,
       "review": 70
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 979,
+      "invariantFailures": 977,
       "englishResiduals": 72,
       "imperialResiduals": 0
     },
-    "blockingIssues": 7134
+    "blockingIssues": 7132
   },
   "packs": [
     {
@@ -5317,9 +5317,9 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 876,
+          "translated": 877,
           "missing": 0,
-          "partial": 9,
+          "partial": 8,
           "review": 0
         },
         "folders": {
@@ -5333,7 +5333,7 @@
           "total": 2227,
           "translated": 2227,
           "missing": 0,
-          "invariantFailures": 32,
+          "invariantFailures": 30,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
@@ -5418,26 +5418,6 @@
           "fieldPath": "system.description.value",
           "name": "Robe of Useful Items",
           "sourcePath": "items/equipment/robe-of-useful-items.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "6pjaQzbtxQTuQ4RW",
-          "fieldPath": "system.description.value",
-          "name": "Rod of Absorption",
-          "sourcePath": "items/rod/rod-of-absorption.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "6pjaQzbtxQTuQ4RW",
-          "fieldPath": "system.description.value",
-          "name": "Rod of Absorption",
-          "sourcePath": "items/rod/rod-of-absorption.yml"
         },
         {
           "code": "html-tag-sequence",
