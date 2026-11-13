@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2198,
+      "translated": 2199,
       "missing": 3,
-      "partial": 190,
+      "partial": 189,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14314,
-      "missing": 1346,
+      "translated": 14319,
+      "missing": 1341,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1351
+    "blockingIssues": 1346
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 163,
+          "translated": 164,
           "missing": 0,
-          "partial": 174,
+          "partial": 173,
           "review": 0
         },
         "folders": {
@@ -578,59 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6498,
-          "missing": 608,
+          "translated": 6503,
+          "missing": 603,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "m4H3hjamBNMH09S9",
-          "name": "Deva",
-          "fieldPath": "items[KRskTTMCEepXUPwU].system.description.value",
-          "sourcePath": "monsters/celestial/deva.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "m4H3hjamBNMH09S9",
-          "name": "Deva",
-          "fieldPath": "items[KRskTTMCEepXUPwU].system.description.chat",
-          "sourcePath": "monsters/celestial/deva.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "m4H3hjamBNMH09S9",
-          "name": "Deva",
-          "fieldPath": "items[3u5Rv7dQ2fIl1rbB].system.description.value",
-          "sourcePath": "monsters/celestial/deva.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "m4H3hjamBNMH09S9",
-          "name": "Deva",
-          "fieldPath": "items[dhEmGtIDAZEBrsZ2].system.description.value",
-          "sourcePath": "monsters/celestial/deva.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "m4H3hjamBNMH09S9",
-          "name": "Deva",
-          "fieldPath": "items[P3T5BWT2TFHCxUkr].system.description.value",
-          "sourcePath": "monsters/celestial/deva.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",

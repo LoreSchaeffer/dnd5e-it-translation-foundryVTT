@@ -2623,7 +2623,8 @@
             "0PJVaYDkIymHBms7": {
               "name": "Trasformare l'Aspetto"
             }
-          }
+          },
+          "description": "<p>Il deva si trasforma magicamente in un umanoide o in una bestia con un grado di sfida pari o inferiore al proprio, oppure ritorna alla sua vera forma. Se muore, ritorna alla sua vera forma. Ogni oggetto che indossa o trasporta viene assorbito dalla nuova forma o è indossato da essa (a scelta del deva).</p><p>In una nuova forma, il deva conserva le proprie statistiche di gioco e la capacità di parlare, ma la sua CA, le modalità di movimento, la Forza, la Destrezza e i sensi speciali vengono sostituiti da quelli della nuova forma; inoltre ottiene tutte le statistiche e capacità possedute dalla nuova forma ma di cui è privo (eccetto i privilegi di classe, le azioni leggendarie e le azioni di tana).</p>"
         },
         "Lx0nT1oq0bLjX1lx": {
           "name": "Tocco Guaritore",
@@ -2635,10 +2636,12 @@
           "description": "<p>Il [[lookup @name lowercase]]{mostro} tocca un'altra creatura. Il bersaglio recupera magicamente [[/heal average]] ed è liberato da ogni maledizione, malattia, veleno, &amp;reference[blinded apply=false]{cecità} o &amp;reference[deafened apply=false]{sordità}.</p>"
         },
         "dhEmGtIDAZEBrsZ2": {
-          "name": "Incantesimi Innati"
+          "name": "Incantesimi Innati",
+          "description": "<p>La caratteristica da incantatore del deva è Carisma (CD del tiro salvezza degli incantesimi 17). Il deva può lanciare innatamente gli incantesimi seguenti, che richiedono soltanto componenti verbali:</p>\n<p><strong>A volontà:</strong> [[/item .Mzh95utKDPIrjiH8]]{individuazione del bene e del male}</p>\n<p><strong>1/giorno ciascuno</strong>: [[/item .d54VDyFulD9xxY7J]]{comunione}, [[/item .AGFMPAmuzwWO6Dfz]]{rianimare morti}</p>"
         },
         "P3T5BWT2TFHCxUkr": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il deva effettua due attacchi [[/item .qADu4OS68yINJCnZ]]{in mischia}.</p>"
         },
         "qADu4OS68yINJCnZ": {
           "name": "Mazza",
@@ -2664,7 +2667,9 @@
           "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di vantaggio ai tiri salvezza contro incantesimi e altri effetti magici.</p>"
         },
         "KRskTTMCEepXUPwU": {
-          "name": "Armi Angeliche"
+          "name": "Armi Angeliche",
+          "description": "<p>Gli attacchi con arma del [[lookup @name lowercase]]{mostro} sono magici. Quando il deva colpisce con un'arma, l'arma infligge 4d8 danni radiosi extra (inclusi nell'attacco).</p>",
+          "chat": "<p>Gli attacchi con arma del deva sono magici. Quando il deva colpisce con un'arma, l'arma infligge <em>danni radiosi</em> extra (inclusi nell'attacco).</p>"
         }
       },
       "details": {
