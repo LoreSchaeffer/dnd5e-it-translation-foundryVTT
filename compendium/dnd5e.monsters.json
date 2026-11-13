@@ -92,6 +92,19 @@
         },
         "lcr4sScJtejZDwKa": {
           "name": "Azioni Leggendarie"
+        },
+        "Wpa7li8EJJJ7W3kA": {
+          "name": "Schiavizzare"
+        },
+        "SCTJPlV2KrhVflgI": {
+          "name": "Risucchio Psichico"
+        },
+        "dZWUNgKiLNxVg983": {
+          "name": "Nube di Muco"
+        },
+        "R5sQYgehDyPiDyyE": {
+          "name": "Telepatia Indagatrice",
+          "description": "<p>Se una creatura comunica telepaticamente con il [[lookup @name lowercase]]{mostro}, il [[lookup @name lowercase]]{mostro} apprende i desideri più profondi della creatura, purché il [[lookup @name lowercase]]{mostro} possa vederla.</p>"
         }
       }
     },
@@ -114,6 +127,9 @@
       "items": {
         "slVyUWagsSZ5CXSh": {
           "name": "Carica"
+        },
+        "FneLrX10GhkE2o4E": {
+          "name": "Zoccoli"
         }
       }
     },
@@ -125,6 +141,9 @@
       "items": {
         "xSzDPptifNbKyf5N": {
           "name": "Carica"
+        },
+        "jDA6wujGF6L3tPBM": {
+          "name": "Zoccoli"
         }
       }
     },
@@ -218,6 +237,18 @@
         },
         "pHPuDo1dD0B3phuF": {
           "name": "Azioni Leggendarie"
+        },
+        "IZgoYn3Baw7MAZCT": {
+          "name": "Imperscrutabile"
+        },
+        "ez87kySQJgKUPT9L": {
+          "name": "Ruggito"
+        },
+        "fZY6aMo87z2iSl9Q": {
+          "name": "Attacco con Artiglio"
+        },
+        "COSA7NBYXiWccqNu": {
+          "name": "Lanciare un Incantesimo"
         }
       }
     },
@@ -404,7 +435,7 @@
         },
         "Kwed9PPaTkZYr8Jh": {
           "name": "Falso Aspetto",
-          "description": "<p><span style=\"color: #111111;\">Finché l'</span><span style=\"color: #111111;\">&lt;creature&gt; </span><span style=\"color: #111111;\">rimane immobile, non è distinguibile da un'</span><span style=\"color: #111111;\">&lt;oggetto comune&gt;</span><span style=\"color: #111111;\">&nbsp;normale.</span></p><p>&nbsp;</p>"
+          "description": "<p>Finché l'[[lookup @name lowercase]]{monster} rimane immobile, non è distinguibile da un'&lt;oggetto comune&gt;&nbsp;normale.</p>"
         },
         "bdRuWKCO8gXQPu16": {
           "name": "Multiattacco"
@@ -468,6 +499,12 @@
               "name": "Movimento Incorporeo"
             }
           }
+        },
+        "1rEzqo8fiLbeFE07": {
+          "name": "Immunità allo Scacciare"
+        },
+        "d7ERliHkrcvQAF1X": {
+          "name": "Falce Mietitrice"
         }
       }
     },
@@ -551,6 +588,12 @@
         },
         "VLlNW1PkgzpXgBKr": {
           "name": "Armi Magiche"
+        },
+        "nzkZgDrDq0RwWUao": {
+          "name": "Agonia Mortale"
+        },
+        "FWSzSLqeIDq7meXC": {
+          "name": "Aura di Fuoco"
         }
       }
     },
@@ -608,6 +651,9 @@
               "name": "Esala Fulmine"
             }
           }
+        },
+        "0QJeW80m89X0RLNz": {
+          "name": "Inghiottire"
         }
       }
     },
@@ -620,7 +666,7 @@
         },
         "Qzj9HKnvRGhYoggC": {
           "name": "Avventato",
-          "description": "<p>All’inizio del suo turno, il &lt;creature&gt; può ottenere vantaggio a tutti i tiri per colpire con le armi da mischia che effettua in quel turno, ma i tiri per colpire contro di lui dispongono di vantaggio fino all'inizio del suo turno successivo.</p>",
+          "description": "<p>All’inizio del suo turno, il [[lookup @name lowercase]]{monster} può ottenere vantaggio a tutti i tiri per colpire con le armi da mischia che effettua in quel turno, ma i tiri per colpire contro di lui dispongono di vantaggio fino all'inizio del suo turno successivo.</p>",
           "effects": {
             "WqXUqzRbXoMjF2MJ": {
               "name": "Avventato"
@@ -657,7 +703,7 @@
         },
         "BsMLwJ3gDd0jADY3": {
           "name": "Bruto",
-          "description": "<p>Quando la &lt;creature&gt; colpisce con un'arma da mischia, l'attacco infligge un dado extra del tipo di danno dell'arma (già incluso nelle statistiche sottostanti).</p>"
+          "description": "<p>Quando la [[lookup @name lowercase]]{monster} colpisce con un'arma da mischia, l'attacco infligge un dado extra del tipo di danno dell'arma (già incluso nelle statistiche sottostanti).</p>"
         },
         "SvFPSD4QGfNEvB0c": {
           "name": "Armatura di Pelle",
@@ -683,6 +729,9 @@
         },
         "xCDWUdpsC9XrGyHN": {
           "name": "Balzo da Fermo"
+        },
+        "Keg9oouX6Vbl9tms": {
+          "name": "Balzo Letale"
         }
       }
     },
@@ -842,6 +891,9 @@
       "items": {
         "1KyNbDtLLrcA5lj0": {
           "name": "Carica Travolgente"
+        },
+        "7MiLYgDyM2Rm3nEb": {
+          "name": "Zoccoli"
         }
       }
     },
@@ -849,6 +901,11 @@
       "name": "Cavallo da Tiro",
       "prototypeToken": {
         "name": "Cavallo da Tiro"
+      },
+      "items": {
+        "dJyouOu3yDwHTXEX": {
+          "name": "Zoccoli"
+        }
       }
     },
     "Nightmare": {
@@ -865,6 +922,9 @@
         },
         "XtK73VCT1s8abvjs": {
           "name": "Passo Etereo"
+        },
+        "lzv29dS3tAUUuVlI": {
+          "name": "Zoccoli"
         }
       }
     },
@@ -872,6 +932,11 @@
       "name": "Cavallo da Sella",
       "prototypeToken": {
         "name": "Cavallo da Sella"
+      },
+      "items": {
+        "CwpmLFcikAet169F": {
+          "name": "Zoccoli"
+        }
       }
     },
     "Sea Horse": {
@@ -908,6 +973,9 @@
         },
         "4R48w4DH2CqCpmED": {
           "name": "Carica"
+        },
+        "ICbiLFrPjwIfA1Nj": {
+          "name": "Zoccoli"
         }
       }
     },
@@ -952,6 +1020,9 @@
         },
         "muIprvwkxlLF6dM3": {
           "name": "Anfibio"
+        },
+        "XUzROtGqVZS61Ofm": {
+          "name": "Tentacoli"
         }
       }
     },
@@ -1011,6 +1082,9 @@
         },
         "OG5bKtmV8q0TboJc": {
           "name": "Tattiche del Branco"
+        },
+        "lerO3O0PsIcIBxDq": {
+          "name": "Sensibilità alla Luce Solare"
         }
       }
     },
@@ -1242,6 +1316,9 @@
         },
         "8cxU9buY71FJm2E2": {
           "name": "Resistenza Magica"
+        },
+        "KRskTTMCEepXUPwU": {
+          "name": "Armi Angeliche"
         }
       }
     },
@@ -1262,6 +1339,9 @@
         },
         "DrCGu7cY5WhWioFT": {
           "name": "Resistenza Magica"
+        },
+        "jfFJ5cnUOGIrUTY4": {
+          "name": "Vista del Diavolo"
         }
       }
     },
@@ -1276,6 +1356,9 @@
         },
         "ubrf4QuSocHDw9w2": {
           "name": "Resistenza Magica"
+        },
+        "IJGBvJg6lrJhY1mv": {
+          "name": "Vista del Diavolo"
         }
       }
     },
@@ -1290,6 +1373,9 @@
         },
         "MAYv8xZJTlYFAK8s": {
           "name": "Resistenza Magica"
+        },
+        "XTbjimpPqg4YV2QD": {
+          "name": "Vista del Diavolo"
         }
       }
     },
@@ -1310,6 +1396,9 @@
         },
         "xQcDItxuubU3H6Cr": {
           "name": "Resistenza Magica"
+        },
+        "i6GFKFUS8gJQQ849": {
+          "name": "Vista del Diavolo"
         }
       }
     },
@@ -1354,6 +1443,9 @@
         },
         "xyT7cWc2NsSDZyYn": {
           "name": "Armi Magiche"
+        },
+        "wkqjn4bqhPIUUo7k": {
+          "name": "Aura di Paura"
         }
       }
     },
@@ -1379,6 +1471,9 @@
         },
         "xhP680WoDGbC2RlS": {
           "name": "Resistenza Magica"
+        },
+        "0dnRBTCLiRB6hXRE": {
+          "name": "Vista del Diavolo"
         }
       }
     },
@@ -1396,6 +1491,9 @@
         },
         "DWuLaCrJVsysrgNB": {
           "name": "Resistenza Magica"
+        },
+        "Mr0XAAdAlLKQU5on": {
+          "name": "Vista del Diavolo"
         }
       }
     },
@@ -1460,6 +1558,13 @@
         "J6Jpw5XzB5aTeqnz": {
           "name": "Spostamento Planare",
           "materials": "una bacchetta di metallo biforcuta armonizzata al piano di destinazione da 250 mo"
+        },
+        "fL3AlIo9kQ591fz5": {
+          "name": "Morte Elementale",
+          "description": "<p>Se il [[lookup @name lowercase]]{mostro} muore, il suo corpo si disintegra in una brezza tiepida, lasciando dietro di sé soltanto l'equipaggiamento che il [[lookup @name lowercase]]{mostro} indossava o trasportava.</p>"
+        },
+        "nE7YNnVM7srBcdfl": {
+          "name": "Creare Turbine"
         }
       }
     },
@@ -1536,6 +1641,9 @@
         },
         "0S3XhpXG7dTpH3gQ": {
           "name": "Azioni Leggendarie"
+        },
+        "vln3DAK5YQJNWMty": {
+          "name": "Presenza Terrificante"
         }
       }
     },
@@ -1567,6 +1675,9 @@
               "name": "Esala Gelo"
             }
           }
+        },
+        "DeqgPZF8smOMxmVH": {
+          "name": "Presenza Terrificante"
         }
       }
     },
@@ -1639,6 +1750,9 @@
               "name": "Esala Fulmine"
             }
           }
+        },
+        "xWSOEwthNmDecfQ8": {
+          "name": "Presenza Terrificante"
         }
       }
     },
@@ -1667,6 +1781,9 @@
               "name": "Esala Fulmine"
             }
           }
+        },
+        "HDGLlSq9suLd9DIn": {
+          "name": "Presenza Terrificante"
         }
       }
     },
@@ -1745,7 +1862,11 @@
             "yYbmtst3L1jGwwbF": {
               "name": "Soffio Paralizzante"
             }
-          }
+          },
+          "name": "Armi a Soffio"
+        },
+        "6CFNRWnWv0IY4aJC": {
+          "name": "Presenza Terrificante"
         }
       }
     },
@@ -1783,7 +1904,11 @@
             "yYbmtst3L1jGwwbF": {
               "name": "Soffio Paralizzante"
             }
-          }
+          },
+          "name": "Armi a Soffio"
+        },
+        "mkEH0cxZiY4KL8Hq": {
+          "name": "Presenza Terrificante"
         }
       }
     },
@@ -1809,7 +1934,8 @@
             "yYbmtst3L1jGwwbF": {
               "name": "Soffio Paralizzante"
             }
-          }
+          },
+          "name": "Armi a Soffio"
         }
       }
     },
@@ -1838,7 +1964,8 @@
             "yYbmtst3L1jGwwbF": {
               "name": "Soffio Paralizzante"
             }
-          }
+          },
+          "name": "Armi a Soffio"
         }
       }
     },
@@ -1874,7 +2001,11 @@
             "J4QhEMZOdsyIy2D6": {
               "name": "Soffio Indebolente"
             }
-          }
+          },
+          "name": "Armi a Soffio"
+        },
+        "W6aNcnRIymq6cl2M": {
+          "name": "Presenza Terrificante"
         }
       }
     },
@@ -1907,10 +2038,14 @@
             "J4QhEMZOdsyIy2D6": {
               "name": "Soffio Indebolente"
             }
-          }
+          },
+          "name": "Armi a Soffio"
         },
         "8Q24x67dK90knBLu": {
           "name": "Cambiare Forma"
+        },
+        "EIQHfjph1Viay95e": {
+          "name": "Presenza Terrificante"
         }
       }
     },
@@ -1931,7 +2066,8 @@
             "J4QhEMZOdsyIy2D6": {
               "name": "Soffio Indebolente"
             }
-          }
+          },
+          "name": "Armi a Soffio"
         },
         "KlIuOYFx8OUMjbZU": {
           "name": "Anfibio"
@@ -1958,7 +2094,8 @@
             "J4QhEMZOdsyIy2D6": {
               "name": "Soffio Indebolente"
             }
-          }
+          },
+          "name": "Armi a Soffio"
         },
         "A02zFTe8hrM8vUXI": {
           "name": "Anfibio"
@@ -1996,7 +2133,11 @@
             "P1rGrKiV7x2OMiN0": {
               "name": "Soffio di Sonno"
             }
-          }
+          },
+          "name": "Armi a Soffio"
+        },
+        "XyhdTtNxXj219dlP": {
+          "name": "Presenza Terrificante"
         }
       }
     },
@@ -2034,7 +2175,11 @@
             "P1rGrKiV7x2OMiN0": {
               "name": "Soffio di Sonno"
             }
-          }
+          },
+          "name": "Armi a Soffio"
+        },
+        "aK8gzRFcKnL7yzcH": {
+          "name": "Presenza Terrificante"
         }
       }
     },
@@ -2060,7 +2205,8 @@
             "P1rGrKiV7x2OMiN0": {
               "name": "Soffio di Sonno"
             }
-          }
+          },
+          "name": "Armi a Soffio"
         }
       }
     },
@@ -2089,7 +2235,8 @@
             "P1rGrKiV7x2OMiN0": {
               "name": "Soffio di Sonno"
             }
-          }
+          },
+          "name": "Armi a Soffio"
         }
       }
     },
@@ -2125,7 +2272,11 @@
             "YElWYv6C5UfhAu48": {
               "name": "Soffio Respingente"
             }
-          }
+          },
+          "name": "Armi a Soffio"
+        },
+        "P4bK8qQ7SlmtJi6F": {
+          "name": "Presenza Terrificante"
         }
       }
     },
@@ -2161,7 +2312,11 @@
             "YElWYv6C5UfhAu48": {
               "name": "Soffio Respingente"
             }
-          }
+          },
+          "name": "Armi a Soffio"
+        },
+        "pZcXLBLl3Unn9etS": {
+          "name": "Presenza Terrificante"
         }
       }
     },
@@ -2182,7 +2337,8 @@
             "YElWYv6C5UfhAu48": {
               "name": "Soffio Respingente"
             }
-          }
+          },
+          "name": "Armi a Soffio"
         },
         "HhVw9jFpoaxhcvrn": {
           "name": "Anfibio"
@@ -2209,7 +2365,8 @@
             "YElWYv6C5UfhAu48": {
               "name": "Soffio Respingente"
             }
-          }
+          },
+          "name": "Armi a Soffio"
         },
         "z1P0RbYFfEJX8DNL": {
           "name": "Anfibio"
@@ -2236,13 +2393,17 @@
             "CkPMajPOZWWj3gl0": {
               "name": "Soffio Rallentante"
             }
-          }
+          },
+          "name": "Armi a Soffio"
         },
         "R4O5JcEVUa2e4Ccg": {
           "name": "Azioni Leggendarie"
         },
         "ZTiDsxMhrruvvKQ6": {
           "name": "Resistenza Leggendaria"
+        },
+        "kBBFeaEBaGACIQ1b": {
+          "name": "Presenza Terrificante"
         }
       }
     },
@@ -2266,7 +2427,8 @@
             "CkPMajPOZWWj3gl0": {
               "name": "Soffio Rallentante"
             }
-          }
+          },
+          "name": "Armi a Soffio"
         },
         "d7cYSxr8w2VZkBrf": {
           "name": "Cambiare Forma"
@@ -2276,6 +2438,9 @@
         },
         "IZK4PMn9zx7Ddwoo": {
           "name": "Resistenza Leggendaria"
+        },
+        "t7C48MOTONNfLBUV": {
+          "name": "Presenza Terrificante"
         }
       }
     },
@@ -2296,7 +2461,8 @@
             "CkPMajPOZWWj3gl0": {
               "name": "Soffio Rallentante"
             }
-          }
+          },
+          "name": "Armi a Soffio"
         }
       }
     },
@@ -2320,7 +2486,8 @@
             "CkPMajPOZWWj3gl0": {
               "name": "Soffio Rallentante"
             }
-          }
+          },
+          "name": "Armi a Soffio"
         }
       }
     },
@@ -2352,6 +2519,9 @@
         },
         "hXswroxnO4Vgg6KJ": {
           "name": "Anfibio"
+        },
+        "A3azHlbNcHLRgogu": {
+          "name": "Presenza Terrificante"
         }
       }
     },
@@ -2383,6 +2553,9 @@
         },
         "ys3uLiJgfbw9PwGb": {
           "name": "Azioni Leggendarie"
+        },
+        "jlrnZ2xIJO0YxtRP": {
+          "name": "Presenza Terrificante"
         }
       }
     },
@@ -2458,6 +2631,9 @@
               "name": "Esala Fuoco"
             }
           }
+        },
+        "ySrfqC410pMPhqpH": {
+          "name": "Presenza Terrificante"
         }
       }
     },
@@ -2486,6 +2662,9 @@
               "name": "Esala Fuoco"
             }
           }
+        },
+        "NMJFBWWE31eRqrxX": {
+          "name": "Presenza Terrificante"
         }
       }
     },
@@ -2558,6 +2737,9 @@
         },
         "UtMWS1CAYJSIPS3n": {
           "name": "Azioni Leggendarie"
+        },
+        "ebLmzTCe2tSvj7KR": {
+          "name": "Presenza Terrificante"
         }
       }
     },
@@ -2589,6 +2771,9 @@
               "name": "Esala Veleno"
             }
           }
+        },
+        "CowO8pcqsA4xwGf7": {
+          "name": "Presenza Terrificante"
         }
       }
     },
@@ -2747,6 +2932,9 @@
         },
         "pGPhMpmW6Ib83Dyi": {
           "name": "Andatura sulla Ragnatela"
+        },
+        "utDSjYtAdPyR8rKZ": {
+          "name": "Sensibilità alla Luce Solare"
         }
       }
     },
@@ -2776,6 +2964,9 @@
         "CAxSzHWizrafT033": {
           "name": "Luci Danzanti",
           "materials": "Un frammento di fosforo, di legno di faggio o una lucciola"
+        },
+        "Up2YzkDn0uBKQj6K": {
+          "name": "Sensibilità alla Luce Solare"
         }
       }
     },
@@ -2880,6 +3071,9 @@
         },
         "BtZSR7u0sdDGP5LT": {
           "name": "Giavellotto"
+        },
+        "b3DMmZTTUvs2c2qK": {
+          "name": "Sensibilità alla Luce Solare"
         }
       }
     },
@@ -2930,6 +3124,9 @@
           "name": "Muro di Fuoco",
           "description": "<p>L'incantatore crea un muro di fuoco su una superficie solida situata entro gittata. Il muro può essere lungo fino a 18 metri, alto 6 metri e spesso 30 cm, oppure può essere un muro circolare del diametro massimo di 6 metri, alto 6 metri e spesso 30 cm. Il muro è opaco e permane per la durata dell'incantesimo.</p><p>Quando il muro appare, ogni creatura entro la sua area deve effettuare un tiro salvezza su Destrezza. Se lo fallisce, subisce 5d8 danni da fuoco, mentre se lo supera, subisce soltanto la metà di quei danni.</p><p>Un lato del muro, scelto dall'incantatore al momento del lancio di questo incantesimo, infligge 5d8 danni da fuoco a ogni creatura che termina il suo turno entro 3 metri da quel lato o all'interno del muro. Una creatura subisce gli stessi danni quando entra nel muro per la prima volta in un turno o vi termina il proprio turno. L'altro lato del muro non infligge danni.</p><p><strong>Ai Livelli Superiori.</strong> Quando L'incantatore lancia questo incantesimo usando uno slot incantesimo di 5° livello o superiore, i danni aumentano di 1d8 per ogni slot di livello superiore al 4°.</p>",
           "materials": "un frammento di fosforo"
+        },
+        "Fr77Z90cITQsMV3N": {
+          "name": "Morte Elementale"
         }
       }
     },
@@ -3057,6 +3254,9 @@
         },
         "QPblx5JLbidICNT5": {
           "name": "Parata"
+        },
+        "BeB04w7ftFRDaMQ6": {
+          "name": "Armi Infernali"
         }
       }
     },
@@ -3098,7 +3298,7 @@
         },
         "ge9uzaqWrdMPogPT": {
           "name": "Percezione della Ragnatela",
-          "description": "<p>Finché è in contatto con una ragnatela, l'&lt;creature&gt; conosce l’ubicazione esatta di ogni altra creatura a contatto con la stessa ragnatela.</p>"
+          "description": "<p>Finché è in contatto con una ragnatela, l'[[lookup @name lowercase]]{monster} conosce l’ubicazione esatta di ogni altra creatura a contatto con la stessa ragnatela.</p>"
         },
         "W9YaQ2zrCYR6sjNk": {
           "name": "Ragnatela"
@@ -3110,7 +3310,7 @@
       "items": {
         "0NvLts9eWaCvcOOn": {
           "name": "Sempre Sveglio",
-          "description": "<p>Quando una delle due teste dell’&lt;creature&gt; dorme, l'altra testa è sveglia.</p>"
+          "description": "<p>Quando una delle due teste dell’[[lookup @name lowercase]]{monster} dorme, l'altra testa è sveglia.</p>"
         },
         "FcbmWHMk3H4MGdxy": {
           "name": "Multiattacco"
@@ -3120,6 +3320,9 @@
         },
         "5ri5zr7IJKsaZNF7": {
           "name": "Morning Star"
+        },
+        "hon1LZGigQRl2jBn": {
+          "name": "Due Teste"
         }
       }
     },
@@ -3295,6 +3498,9 @@
               "name": "Movimento Incorporeo"
             }
           }
+        },
+        "3Sr6MrVgbTGw66Aa": {
+          "name": "Illuminazione Variabile"
         }
       }
     },
@@ -3352,6 +3558,9 @@
         },
         "nSgLkorv2oln5BIt": {
           "name": "Morso"
+        },
+        "WjqNhFTYP9w4gGHd": {
+          "name": "Resistenza allo Scacciare"
         }
       }
     },
@@ -3622,6 +3831,15 @@
         },
         "dZvwgTh5Bex9FM0C": {
           "name": "Teletrasporto"
+        },
+        "7ttJw5cEHPyb5ETl": {
+          "name": "Attacco con Artiglio"
+        },
+        "V0O6My4SjXUmirH6": {
+          "name": "Lanciare un Incantesimo"
+        },
+        "f8zut6gBBsfoAikg": {
+          "name": "Imperscrutabile"
         }
       }
     },
@@ -3683,7 +3901,7 @@
         },
         "nShJCK9revnk72zj": {
           "name": "Bruto",
-          "description": "<p>Quando la &lt;creature&gt; colpisce con un'arma da mischia, l'attacco infligge un dado extra del tipo di danno dell'arma (già incluso nelle statistiche sottostanti).</p>"
+          "description": "<p>Quando la [[lookup @name lowercase]]{monster} colpisce con un'arma da mischia, l'attacco infligge un dado extra del tipo di danno dell'arma (già incluso nelle statistiche sottostanti).</p>"
         },
         "8MsAKETlPQapB6zn": {
           "name": "Parata"
@@ -3867,6 +4085,9 @@
         },
         "VaP12qLKWB1XwlFQ": {
           "name": "Armi Magiche"
+        },
+        "y2j6GWf1Ur3GRtYI": {
+          "name": "Assorbimento del Fuoco"
         }
       }
     },
@@ -3909,6 +4130,9 @@
         },
         "5tEnGK28Rd4nHnwM": {
           "name": "Soffio Pietrificante"
+        },
+        "O8oahxePfpHFYohz": {
+          "name": "Zoccoli"
         }
       }
     },
@@ -3964,6 +4188,9 @@
         },
         "GZoCoZEY1RqP2mAU": {
           "name": "Mimetismo nella Pietra"
+        },
+        "tkVlxJxg4LBVJvuX": {
+          "name": "Tentacoli"
         }
       }
     },
@@ -4133,6 +4360,9 @@
         "IBJmWjzbQGu7M4UX": {
           "name": "Nube di Nebbia",
           "description": "<p>L'incantatore crea una sfera di nebbia del raggio di 6 metri centrata su un punto entro gittata. La sfera si diffonde oltre gli angoli e la sua area risulta pesantemente oscurata. La nebbia permane per la durata dell'incantesimo o finché un vento moderato o superiore (almeno 15 km all'ora) non la disperde. &nbsp;</p><p><strong>Ai Livelli Superiori.&nbsp;</strong>Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, il raggio della sfera di nebbia aumenta di 6 metri per ogni slot di livello superiore al 1°.</p>"
+        },
+        "1mD9NcCf8ZMQtsrU": {
+          "name": "Soffio Gelido"
         }
       }
     },
@@ -4221,6 +4451,9 @@
         },
         "4fV0Bx98jhEx562G": {
           "name": "Resistenza Magica"
+        },
+        "mE8GYyYeV3dIxYMF": {
+          "name": "Vista del Diavolo"
         }
       }
     },
@@ -4255,7 +4488,8 @@
             "dnd5eactivity000": {
               "name": "Invocare il Fulmine"
             }
-          }
+          },
+          "name": "Tempesta di Fulmini"
         },
         "K0T5NDyi2n8Yt8Ts": {
           "name": "Nube di Inchiostro"
@@ -4265,6 +4499,15 @@
         },
         "i2Ck12oznqdwTHzl": {
           "name": "Azioni Leggendarie"
+        },
+        "bwwyMBn4QwiNd4SM": {
+          "name": "Scagliare"
+        },
+        "wVCkpBj5omvdfaMm": {
+          "name": "Tempesta di Fulmini"
+        },
+        "e2EtrJsAPZ19WuE7": {
+          "name": "Attacco con Tentacolo o Scagliare"
         }
       }
     },
@@ -4305,11 +4548,22 @@
         },
         "JQyigMNPiDnGI18b": {
           "name": "Costrizione"
+        },
+        "cd8MN5gJkmUn1RTE": {
+          "name": "Tocco Inebriante"
         }
       }
     },
     "Lemure": {
-      "name": "Lemure"
+      "name": "Lemure",
+      "items": {
+        "7gfe5c1qGIvai12V": {
+          "name": "Rigenerazione Infernale"
+        },
+        "Di9DB6UXL4OOVV0b": {
+          "name": "Vista del Diavolo"
+        }
+      }
     },
     "Lion": {
       "name": "Leone",
@@ -4467,6 +4721,9 @@
         },
         "mjnqHMqovluIet1r": {
           "name": "Resistenza Leggendaria"
+        },
+        "stk9i3rPK7z99CDf": {
+          "name": "Ringiovanimento"
         }
       }
     },
@@ -4772,7 +5029,7 @@
         },
         "Dfy6ujJALd2FPxNy": {
           "name": "Trasferire Danni",
-          "description": "<p>Finché è avvinghiato a una creatura, la Creatura subisce solo metà dei danni che gli vengono inflitti (arrotondati per difetto) e quella creatura subisce l'altra metà.</p>"
+          "description": "<p>Finché è attaccato a una creatura, il [[lookup @name lowercase]]{mostro} subisce solo metà dei danni che gli vengono inflitti (arrotondati per difetto) e quella creatura subisce l'altra metà.</p>"
         },
         "i7LEQhKLh7yPIldc": {
           "name": "Falso Aspetto"
@@ -4843,6 +5100,9 @@
         },
         "UnrtjJToJnn6qgVC": {
           "name": "Resistenza Magica"
+        },
+        "rBHEI0gZnnv8h44g": {
+          "name": "Reattivo"
         }
       }
     },
@@ -5134,7 +5394,7 @@
         },
         "ySBloqdCK5BJN5K6": {
           "name": "Avventato",
-          "description": "<p>All’inizio del suo turno, il &lt;creature&gt; può ottenere vantaggio a tutti i tiri per colpire con le armi da mischia che effettua in quel turno, ma i tiri per colpire contro di lui dispongono di vantaggio fino all'inizio del suo turno successivo.</p>",
+          "description": "<p>All’inizio del suo turno, il [[lookup @name lowercase]]{monster} può ottenere vantaggio a tutti i tiri per colpire con le armi da mischia che effettua in quel turno, ma i tiri per colpire contro di lui dispongono di vantaggio fino all'inizio del suo turno successivo.</p>",
           "effects": {
             "mc0qfRRq1rZXrJbi": {
               "name": "Avventato"
@@ -5160,6 +5420,9 @@
         },
         "PWqvlPCG9P9edPYi": {
           "name": "Ben Piantato"
+        },
+        "Ou2VI9ORGu2JnZqj": {
+          "name": "Zoccoli"
         }
       }
     },
@@ -5247,6 +5510,9 @@
         "XzkJpE6XpZfKjODD": {
           "name": "Visione del Vero",
           "materials": "un unguento per gli occhi del costo di 25 mo, ricavato da polvere di funghi, zolfo e grasso, che l'incantesimo consuma"
+        },
+        "GkVxLIsamEXICEeT": {
+          "name": "Ringiovanimento"
         }
       }
     },
@@ -5311,6 +5577,9 @@
         },
         "91Sw6vOIaO7U8DvM": {
           "name": "Dominare Persone"
+        },
+        "1tcNxiXDdUbfOovR": {
+          "name": "Ringiovanimento"
         }
       }
     },
@@ -5328,6 +5597,9 @@
         },
         "vzwfZvoOTxx0afIN": {
           "name": "Teletrasporto"
+        },
+        "RFPDYIhkmBW2B47S": {
+          "name": "Nembo di Orrore"
         }
       }
     },
@@ -5380,6 +5652,9 @@
               "name": "Nascondersi"
             }
           }
+        },
+        "x0kH7E7cx85DTWOh": {
+          "name": "Sensibilità alla Luce Solare"
         }
       }
     },
@@ -5492,7 +5767,7 @@
         },
         "Go8ESMzuWcYaFcqE": {
           "name": "Aggressivo",
-          "description": "<p>Come azione bonus, la &lt;creature&gt; può muoversi fino alla sua velocità verso una creatura ostile che essa sia in grado di vedere.&nbsp;</p><p>&nbsp;</p>"
+          "description": "<p>Come azione bonus, la [[lookup @name lowercase]]{monster} può muoversi fino alla sua velocità verso una creatura ostile che essa sia in grado di vedere.&nbsp;</p>"
         },
         "bGmBlXrvTBQgPMBJ": {
           "name": "Ascia Bipenne"
@@ -5604,6 +5879,11 @@
       "name": "Pegaso",
       "prototypeToken": {
         "name": "Pegaso"
+      },
+      "items": {
+        "1HxBbZFsegOJ0cgu": {
+          "name": "Zoccoli"
+        }
       }
     },
     "Octopus": {
@@ -5620,6 +5900,9 @@
         },
         "8qYBpaA8c3BuBujY": {
           "name": "Nube di Inchiostro"
+        },
+        "SLnyx0Ta2ksVM9QL": {
+          "name": "Tentacoli"
         }
       }
     },
@@ -5637,6 +5920,9 @@
         },
         "b2HxeZRj8hT3VrLc": {
           "name": "Nube di Inchiostro"
+        },
+        "NXi6iGOpnmUiczJA": {
+          "name": "Tentacoli"
         }
       }
     },
@@ -5730,6 +6016,12 @@
         },
         "XQnt0izxeEvDYmiH": {
           "name": "Resistenza Magica"
+        },
+        "sDvx0IybgYa8Q4WG": {
+          "name": "Armi Angeliche"
+        },
+        "2kBUlTLMlwq3KoUB": {
+          "name": "Consapevolezza Divina"
         }
       }
     },
@@ -5748,7 +6040,12 @@
       }
     },
     "Pony": {
-      "name": "Pony"
+      "name": "Pony",
+      "items": {
+        "bDVZoB8Y0b3nkveO": {
+          "name": "Zoccoli"
+        }
+      }
     },
     "Commoner": {
       "name": "Popolano",
@@ -5885,7 +6182,7 @@
         },
         "JxuVwnSxsKwGVL0x": {
           "name": "Percezione della Ragnatela",
-          "description": "<p>Finché è in contatto con una ragnatela, l'&lt;creature&gt; conosce l’ubicazione esatta di ogni altra creatura a contatto con la stessa ragnatela.</p>"
+          "description": "<p>Finché è in contatto con una ragnatela, l'[[lookup @name lowercase]]{monster} conosce l’ubicazione esatta di ogni altra creatura a contatto con la stessa ragnatela.</p>"
         },
         "GQ8a63ou7VwIGrvv": {
           "name": "Andatura sulla Ragnatela"
@@ -5909,7 +6206,7 @@
         },
         "4fRM7hOMRhcVIgRb": {
           "name": "Percezione della Ragnatela",
-          "description": "<p>Finché è in contatto con una ragnatela, l'&lt;creature&gt; conosce l’ubicazione esatta di ogni altra creatura a contatto con la stessa ragnatela.</p>"
+          "description": "<p>Finché è in contatto con una ragnatela, l'[[lookup @name lowercase]]{monster} conosce l’ubicazione esatta di ogni altra creatura a contatto con la stessa ragnatela.</p>"
         },
         "TfFmcNW4o6Ork9HS": {
           "name": "Andatura sulla Ragnatela"
@@ -5930,7 +6227,7 @@
         },
         "vHeSfiNn44ojDRwf": {
           "name": "Percezione della Ragnatela",
-          "description": "<p>Finché è in contatto con una ragnatela, l'&lt;creature&gt; conosce l’ubicazione esatta di ogni altra creatura a contatto con la stessa ragnatela.</p>"
+          "description": "<p>Finché è in contatto con una ragnatela, l'[[lookup @name lowercase]]{monster} conosce l’ubicazione esatta di ogni altra creatura a contatto con la stessa ragnatela.</p>"
         },
         "6LIe3MnWba41tnEG": {
           "name": "Andatura sulla Ragnatela"
@@ -5945,7 +6242,7 @@
       "items": {
         "LKJEecvimhbb9hhg": {
           "name": "Transizione Eterea",
-          "description": "<p>Come azione bonus, il &lt;creature&gt; può spostarsi magicamente dal Piano Materiale al Piano Etereo o viceversa.</p>"
+          "description": "<p>Come azione bonus, il [[lookup @name lowercase]]{monster} può spostarsi magicamente dal Piano Materiale al Piano Etereo o viceversa.</p>"
         },
         "2HPk5TdUTeEhD2eG": {
           "name": "Morso"
@@ -6020,6 +6317,9 @@
         "XzkJpE6XpZfKjODD": {
           "name": "Visione del Vero",
           "materials": "un unguento per gli occhi del costo di 25 mo, ricavato da polvere di funghi, zolfo e grasso, che l'incantesimo consuma"
+        },
+        "ChSnKd7pSLoN1Jeu": {
+          "name": "Immunità Magica Limitata"
         }
       }
     },
@@ -6051,6 +6351,9 @@
         },
         "VtuDa7NZ5Be8auQv": {
           "name": "Morso"
+        },
+        "9gLJgr3WzhykKRl9": {
+          "name": "Inghiottire"
         }
       }
     },
@@ -6062,6 +6365,9 @@
         },
         "usmJdksgWhPnjq94": {
           "name": "Corpo Surriscaldato"
+        },
+        "NwgQC3ohxcI1L3GT": {
+          "name": "Inghiottire"
         }
       }
     },
@@ -6098,6 +6404,9 @@
         },
         "EbpP4ZBLskKjOd2s": {
           "name": "Balzo da Fermo"
+        },
+        "6aBDwlIsxceFMXxL": {
+          "name": "Inghiottire"
         }
       }
     },
@@ -6192,6 +6501,9 @@
         },
         "7CEYhqOfXEDkrLDx": {
           "name": "Frenesia di Sangue"
+        },
+        "QJSOQXewtM4dM59t": {
+          "name": "Anfibio Limitato"
         }
       }
     },
@@ -6268,6 +6580,11 @@
       "name": "Scheletro Cavallo da Guerra",
       "prototypeToken": {
         "name": "Scheletro Cavallo da Guerra"
+      },
+      "items": {
+        "sIgV1p8nM1z4VZgY": {
+          "name": "Zoccoli"
+        }
       }
     },
     "Minotaur Skeleton": {
@@ -6662,6 +6979,9 @@
               "name": "Sguardo Terrificante"
             }
           }
+        },
+        "AEc5FXdpe3M7KHQI": {
+          "name": "Ringiovanimento"
         }
       }
     },
@@ -6693,7 +7013,8 @@
             "CPMieBYNggqmHRra": {
               "name": "Accecato"
             }
-          }
+          },
+          "name": "Sguardo Accecante"
         },
         "Mzh95utKDPIrjiH8": {
           "name": "Individuazione del Bene e del Male",
@@ -6733,6 +7054,15 @@
         },
         "O6zdCvtOVpv2Fp4a": {
           "name": "Tocco Guaritore"
+        },
+        "hvLibxV3shPORnBB": {
+          "name": "Esplosione Rovente"
+        },
+        "WjycsIAlfnBDg9ec": {
+          "name": "Consapevolezza Divina"
+        },
+        "VAcvTNQf5hrdzQEh": {
+          "name": "Armi Angeliche"
         }
       }
     },
@@ -6766,6 +7096,9 @@
               "name": "Movimento Incorporeo"
             }
           }
+        },
+        "3WwJUKXEtMQkARMv": {
+          "name": "Sensibilità alla Luce Solare"
         }
       }
     },
@@ -6884,7 +7217,8 @@
             "iuVbm8rd6UWg36yg": {
               "name": "Affascinato"
             }
-          }
+          },
+          "name": "Charme"
         },
         "s1s5asgUorljP7SV": {
           "name": "Forma Eterea",
@@ -6893,6 +7227,9 @@
               "name": "Forma Eterea"
             }
           }
+        },
+        "eb0O9cQ8N6lovLyI": {
+          "name": "Bacio Prosciugante"
         }
       }
     },
@@ -6933,7 +7270,19 @@
         },
         "dBODhEZk3BnyTZwy": {
           "name": "Mostro da Assedio",
-          "description": "<p>Il &lt;creature&gt; infligge danni doppi agli oggetti e alle strutture.</p>"
+          "description": "<p>Il [[lookup @details.type.config.label lowercase]]{monster} infligge danni doppi agli oggetti e alle strutture.</p>"
+        },
+        "tE9TjxIMLnqDisjv": {
+          "name": "Carapace Riflettente"
+        },
+        "wqgAyjgICylYksGZ": {
+          "name": "Masticare"
+        },
+        "WGGtJeKC6RjDyMC2": {
+          "name": "Presenza Terrificante"
+        },
+        "JKnHbj3EFyloyYpd": {
+          "name": "Inghiottire"
         }
       }
     },
@@ -7189,6 +7538,12 @@
         },
         "YGdeLev4E1XdB4fh": {
           "name": "Tocco Guaritore"
+        },
+        "f7m44y4TqYYcunMj": {
+          "name": "Zoccoli"
+        },
+        "UNbcqlW8Siek0Fpm": {
+          "name": "Zoccoli"
         }
       }
     },
@@ -7231,6 +7586,15 @@
         },
         "aINTvQHERB5bGZEK": {
           "name": "Movimenti del Ragno"
+        },
+        "pVlKFunmE2qxO0pe": {
+          "name": "Fuga Nebbiosa"
+        },
+        "RHezeN7HzNf2oKYP": {
+          "name": "Charme"
+        },
+        "c9z4o0fkxq37v8KY": {
+          "name": "Figli della Notte"
         }
       }
     },
@@ -7245,6 +7609,9 @@
         },
         "dlzFJ5UjbMAfJ6Sb": {
           "name": "Morso"
+        },
+        "ZgUj67GknsWFnbAR": {
+          "name": "Scavatore"
         }
       }
     },
@@ -7324,6 +7691,9 @@
         },
         "WZ3XGh48UoyAvBhS": {
           "name": "Spada Lunga"
+        },
+        "6fVu7XdsLkwtzHrs": {
+          "name": "Sensibilità alla Luce Solare"
         }
       }
     },
@@ -7348,6 +7718,9 @@
               "name": "Movimento Incorporeo"
             }
           }
+        },
+        "6ptySzeP45liCkZe": {
+          "name": "Sensibilità alla Luce Solare"
         }
       }
     },
