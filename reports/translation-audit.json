@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2155,
+      "translated": 2156,
       "missing": 3,
-      "partial": 233,
+      "partial": 232,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14213,
-      "missing": 1447,
+      "translated": 14215,
+      "missing": 1445,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1452
+    "blockingIssues": 1450
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 120,
+          "translated": 121,
           "missing": 0,
-          "partial": 217,
+          "partial": 216,
           "review": 0
         },
         "folders": {
@@ -578,32 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6397,
-          "missing": 709,
+          "translated": 6399,
+          "missing": 707,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "jLPhaBnMtAbB5dp1",
-          "name": "Elephant",
-          "fieldPath": "items[ZHBbc5K4n6sU17rC].system.description.value",
-          "sourcePath": "monsters/beast/elephant.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "jLPhaBnMtAbB5dp1",
-          "name": "Elephant",
-          "fieldPath": "items[AxlrZ7HMHoj6zgo5].system.description.value",
-          "sourcePath": "monsters/beast/elephant.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
