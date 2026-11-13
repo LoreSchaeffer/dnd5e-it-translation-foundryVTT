@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2113,
+      "translated": 2114,
       "missing": 3,
-      "partial": 275,
+      "partial": 274,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 13860,
-      "missing": 1800,
+      "translated": 13879,
+      "missing": 1781,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1805
+    "blockingIssues": 1786
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 78,
+          "translated": 79,
           "missing": 0,
-          "partial": 259,
+          "partial": 258,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6044,
-          "missing": 1062,
+          "translated": 6063,
+          "missing": 1043,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -9351,177 +9351,6 @@
           "name": "Ghoul",
           "fieldPath": "items[ArxzPC3rsBztgUvI].system.activities.eUhLoDYzWkXnIKKj.description.value",
           "sourcePath": "monsters/undead/ghoul.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "bfh29vIEoGzI240e",
-          "name": "Lich",
-          "fieldPath": "items[6PwbK4d0W11LsEkf].system.description.value",
-          "sourcePath": "monsters/undead/lich.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "bfh29vIEoGzI240e",
-          "name": "Lich",
-          "fieldPath": "items[dJLqLsCek3uxbzuX].system.description.value",
-          "sourcePath": "monsters/undead/lich.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "bfh29vIEoGzI240e",
-          "name": "Lich",
-          "fieldPath": "items[Uox2GEp5GMXOOXOc].system.description.value",
-          "sourcePath": "monsters/undead/lich.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "bfh29vIEoGzI240e",
-          "name": "Lich",
-          "fieldPath": "items[Uox2GEp5GMXOOXOc].system.description.chat",
-          "sourcePath": "monsters/undead/lich.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "bfh29vIEoGzI240e",
-          "name": "Lich",
-          "fieldPath": "items[sXU9KTYnmgi08EQw].system.description.value",
-          "sourcePath": "monsters/undead/lich.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "bfh29vIEoGzI240e",
-          "name": "Lich",
-          "fieldPath": "items[sXU9KTYnmgi08EQw].system.description.chat",
-          "sourcePath": "monsters/undead/lich.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "bfh29vIEoGzI240e",
-          "name": "Lich",
-          "fieldPath": "items[stk9i3rPK7z99CDf].system.description.value",
-          "sourcePath": "monsters/undead/lich.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "bfh29vIEoGzI240e",
-          "name": "Lich",
-          "fieldPath": "items[stk9i3rPK7z99CDf].system.description.chat",
-          "sourcePath": "monsters/undead/lich.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "bfh29vIEoGzI240e",
-          "name": "Lich",
-          "fieldPath": "items[stk9i3rPK7z99CDf].system.activities.x8VXBEpLp3UmZ29h.description.value",
-          "sourcePath": "monsters/undead/lich.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "bfh29vIEoGzI240e",
-          "name": "Lich",
-          "fieldPath": "items[UMoMhboTLq75ZJW8].system.description.value",
-          "sourcePath": "monsters/undead/lich.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "bfh29vIEoGzI240e",
-          "name": "Lich",
-          "fieldPath": "items[UMoMhboTLq75ZJW8].system.description.chat",
-          "sourcePath": "monsters/undead/lich.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "bfh29vIEoGzI240e",
-          "name": "Lich",
-          "fieldPath": "items[KDSrdpdFPDKnh80y].system.description.value",
-          "sourcePath": "monsters/undead/lich.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "bfh29vIEoGzI240e",
-          "name": "Lich",
-          "fieldPath": "items[KDSrdpdFPDKnh80y].system.description.chat",
-          "sourcePath": "monsters/undead/lich.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "bfh29vIEoGzI240e",
-          "name": "Lich",
-          "fieldPath": "items[KDSrdpdFPDKnh80y].system.activities.ViiNmmo2Hd9uvmFG.description.value",
-          "sourcePath": "monsters/undead/lich.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "bfh29vIEoGzI240e",
-          "name": "Lich",
-          "fieldPath": "items[KDSrdpdFPDKnh80y].effects[I8KIU1orhkqFoUPt].description",
-          "sourcePath": "monsters/undead/lich.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "bfh29vIEoGzI240e",
-          "name": "Lich",
-          "fieldPath": "items[Rry67emsoMMjvQQz].system.description.value",
-          "sourcePath": "monsters/undead/lich.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "bfh29vIEoGzI240e",
-          "name": "Lich",
-          "fieldPath": "items[X4c8xCkmF8U9HUMz].system.description.value",
-          "sourcePath": "monsters/undead/lich.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "bfh29vIEoGzI240e",
-          "name": "Lich",
-          "fieldPath": "items[LkvI11Uue774QBKZ].system.description.value",
-          "sourcePath": "monsters/undead/lich.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "bfh29vIEoGzI240e",
-          "name": "Lich",
-          "fieldPath": "items[fVbCxFRaORalHB20].system.description.value",
-          "sourcePath": "monsters/undead/lich.yml"
         },
         {
           "code": "missing-field",

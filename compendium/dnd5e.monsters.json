@@ -9447,7 +9447,8 @@
             "kblmZb7jFASyLh6M": {
               "name": "Lanciare Trucchetto"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} lancia un trucchetto.</p>"
         },
         "dJLqLsCek3uxbzuX": {
           "name": "Tocco Paralizzante",
@@ -9455,7 +9456,8 @@
             "wiJYafGEAptJZwUd": {
               "name": "Colpire"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} usa il proprio [[/item .KDSrdpdFPDKnh80y]]{Tocco Paralizzante}.</p>"
         },
         "Uox2GEp5GMXOOXOc": {
           "name": "Sguardo Terrificante",
@@ -9469,7 +9471,9 @@
             "wmTdXl8uA71bwJeN": {
               "name": "Tiro Salvezza contro la Paura"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} fissa lo sguardo su [[lookup @labels.description.affects activity=wmTdXl8uA71bwJeN]] che sia in grado di vedere entro [[lookup @labels.description.range activity=wmTdXl8uA71bwJeN]] da sé. Il bersaglio deve superare un tiro salvezza [[/save activity=wmTdXl8uA71bwJeN]] contro questa magia, altrimenti diventa &amp;reference[frightened] per [[lookup @labels.duration activity=wmTdXl8uA71bwJeN]]. Il bersaglio spaventato può ripetere il tiro salvezza alla fine di ciascun proprio turno e, se lo supera, l'effetto su di lui termina. Se un bersaglio supera il tiro salvezza o se l'effetto su di lui termina, il [[lookup @name lowercase]]{mostro} non può più influenzarlo con [[lookup @item.name]] per le 24 ore successive.</p>",
+          "chat": "<p>Il lich fissa lo sguardo su una creatura che sia in grado di vedere entro 3 metri da sé. Il bersaglio deve effettuare un tiro salvezza su <strong>Saggezza</strong>.</p>"
         },
         "sXU9KTYnmgi08EQw": {
           "name": "Distruggere Vita",
@@ -9477,23 +9481,32 @@
             "Ro8ltLqMQLl16Qey": {
               "name": "Tiro Salvezza contro Interrompere Vita"
             }
-          }
+          },
+          "description": "<p>Ogni creatura non morta entro [[lookup @target.template.size activity=Ro8ltLqMQLl16Qey]] metri dal [[lookup @name lowercase]]{mostro} deve effettuare un tiro salvezza [[/save]] contro questa magia; se lo fallisce subisce [[/damage average]] danni, mentre se lo supera subisce la metà di quei danni.</p>",
+          "chat": "<p>Ogni creatura non morta entro [[lookup @target.template.size activity=Ro8ltLqMQLl16Qey]] metri dal [[lookup @name]]{mostro} deve effettuare un tiro salvezza su Costituzione contro questa magia.</p>"
         },
         "KDSrdpdFPDKnh80y": {
           "name": "Tocco Paralizzante",
           "effects": {
             "I8KIU1orhkqFoUPt": {
-              "name": "Paralisi"
+              "name": "Paralisi",
+              "description": "<p>Sei &amp;reference[paralyzed apply=false] per la durata.</p><p>Puoi ripetere il tiro salvezza alla fine di ciascun tuo turno e, se lo superi, l'effetto su di te termina.</p>"
             }
           },
           "activities": {
             "ViiNmmo2Hd9uvmFG": {
-              "name": "Tiro Salvezza contro la Paralisi"
+              "name": "Tiro Salvezza contro la Paralisi",
+              "description": {
+                "value": "<p>Il bersaglio deve superare un tiro salvezza [[/save activity=ViiNmmo2Hd9uvmFG]], altrimenti è &amp;Reference[paralyzed] per [[lookup @labels.duration activity=ViiNmmo2Hd9uvmFG]]. Il bersaglio può ripetere il tiro salvezza alla fine di ciascun proprio turno e, se lo supera, l'effetto su di lui termina.</p>"
+              }
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il bersaglio deve superare un tiro salvezza [[/save activity=ViiNmmo2Hd9uvmFG]], altrimenti è &amp;Reference[paralyzed] per [[lookup @labels.duration activity=ViiNmmo2Hd9uvmFG]]. Il bersaglio può ripetere il tiro salvezza alla fine di ciascun proprio turno e, se lo supera, l'effetto su di lui termina.</p>",
+          "chat": "<p>Il [[lookup @name lowercase]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio deve effettuare un tiro salvezza su Costituzione. Può ripetere il tiro salvezza alla fine di ciascun proprio turno e, se lo supera, l'effetto su di lui termina.</p>"
         },
         "Rry67emsoMMjvQQz": {
-          "name": "Resistenza allo Scacciare"
+          "name": "Resistenza allo Scacciare",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di vantaggio ai tiri salvezza contro qualsiasi effetto che scacci i non morti.</p>"
         },
         "Utk1OQRwYkMkFRD3": {
           "name": "Mano Magica",
@@ -9544,7 +9557,8 @@
           "description": "<p>Una creatura toccata dall'incantatore diventa invisibile finché l'incantesimo non termina. Anche tutto ciò che il bersaglio indossa o trasporta diventa invisibile finché rimane sulla sua persona. L'incantesimo termina per un bersaglio quando quel bersaglio attacca o lancia un incantesimo.</p><p><strong>Ai Livelli Superiori.&nbsp;</strong>Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 3° livello o superiore, può bersagliare una creatura aggiuntiva per ogni slot di livello superiore al 2°.</p>"
         },
         "X4c8xCkmF8U9HUMz": {
-          "name": "Immagine Speculare"
+          "name": "Immagine Speculare",
+          "description": "<p>Tre duplicati illusori dell'incantatore compaiono nel suo spazio. Finché l'incantesimo non termina, i duplicati si muovono con lui e imitano le sue azioni, cambiando posizione in modo che sia impossibile individuare quale immagine sia reale. L'incantatore può usare la propria azione per congedare i duplicati illusori.</p>\n<p>Ogni volta che una creatura bersaglia l'incantatore con un attacco durante la durata dell'incantesimo, l'incantatore tira [[/r 1d20 # Mirror Image Check]] per determinare se l'attacco bersaglia invece uno dei suoi duplicati.</p>\n<p>Se possiede tre duplicati, deve ottenere 6 o più per spostare l'attacco su un duplicato. Con due duplicati deve ottenere 8 o più. Con un duplicato deve ottenere 11 o più.</p>\n<p>La CA di un duplicato è pari a 10 + il modificatore di Destrezza dell'incantatore. Se un attacco colpisce un duplicato, il duplicato è distrutto. Un duplicato può essere distrutto soltanto da un attacco che lo colpisce. Ignora tutti gli altri danni ed effetti. L'incantesimo termina quando tutti e tre i duplicati sono distrutti.</p>\n<p>Una creatura non è influenzata da questo incantesimo se non può vedere, se si affida a sensi diversi dalla vista, come la vista cieca, o se può percepire le illusioni come false, come tramite la vista pura.</p>"
         },
         "oyE5nVppa5mde5gT": {
           "name": "Animare Morti",
@@ -9573,11 +9587,13 @@
           "description": "<p>L'incantatore si teletrasporta dal suo luogo attuale a un qualsiasi altro punto entro gittata. Arriva esattamente nel punto desiderato, che può trattarsi di un luogo che è in grado di vedere o uno che è in grado di descrivere dichiarandone la distanza e la direzione, come per esempio \"60 metri in linea retta verso il basso\" o \"verso nordovest, a un'angolazione ascendente di 45 gradi per 90 metri\".</p><p>L'incantatore può portare con sé degli oggetti, purché il loro peso non superi quello che egli è in grado di trasportare. Può inoltre portare con sé una creatura consenziente di taglia pari o inferiore alla sua, che trasporti equipaggiamento che non superi la sua capacità di trasporto. La creatura deve trovarsi entro 1,5 metri dall'incantatore quando questi lancia l'incantesimo.</p><p>Se l'incantatore dovesse arrivare in un luogo già occupato da un oggetto o da una creatura, sia l'incantatore che ogni creatura che viaggia assieme a lui subiscono 4d6 danni da forza ciascuno e l'incantesimo di teletrasporto fallisce.</p>"
         },
         "LkvI11Uue774QBKZ": {
-          "name": "Nube Mortale"
+          "name": "Nube Mortale",
+          "description": "<p>L'incantatore crea una sfera di nebbia velenosa giallo-verde con raggio di 6 metri, centrata su un punto a sua scelta entro gittata. La nebbia si propaga oltre gli angoli. Permane per la durata o finché un vento forte non la disperde, ponendo termine all'incantesimo. La sua area è pesantemente oscurata.</p><p>Quando una creatura entra nell'area dell'incantesimo per la prima volta in un turno o vi inizia il proprio turno, deve effettuare un tiro salvezza su Costituzione. Se lo fallisce subisce 5d8 danni da veleno, mentre se lo supera subisce la metà di quei danni. Le creature sono influenzate anche se trattengono il respiro o non hanno bisogno di respirare.</p><p>All'inizio di ciascun turno dell'incantatore, la nebbia si allontana da lui di 3 metri, scorrendo lungo la superficie del terreno. Essendo più pesanti dell'aria, i vapori scendono al livello più basso del terreno, riversandosi anche nelle aperture.</p><p><strong>Ai Livelli Superiori. </strong>Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 6° livello o superiore, i danni aumentano di 1d8 per ogni livello dello slot oltre il 5°.</p>"
         },
         "fVbCxFRaORalHB20": {
           "name": "Scrutare",
-          "materials": "un focus del valore di almeno 1.000 mo, come una sfera di cristallo, uno specchio d'argento o un bacile pieno di acqua santa"
+          "materials": "un focus del valore di almeno 1.000 mo, come una sfera di cristallo, uno specchio d'argento o un bacile pieno di acqua santa",
+          "description": "<p>L'incantatore può vedere e udire una creatura specifica a sua scelta che si trovi sul suo stesso piano di esistenza. Il bersaglio deve effettuare un tiro salvezza su Saggezza, modificato in base a quanto bene l'incantatore conosce il bersaglio e al tipo di legame fisico che possiede con esso. Se un bersaglio sa che l'incantatore sta lanciando questo incantesimo, può scegliere di fallire volontariamente il tiro salvezza se desidera essere osservato.</p>\n<table border=\"1\">\n<tbody>\n<tr>\n<td><strong>Conoscenza</strong></td>\n<td><strong>Modificatore al Tiro Salvezza</strong></td>\n</tr>\n<tr>\n<td>Di seconda mano (l'incantatore ha sentito parlare del bersaglio)</td>\n<td>+5</td>\n</tr>\n<tr>\n<td>Diretta (l'incantatore ha incontrato il bersaglio)</td>\n<td>+0</td>\n</tr>\n<tr>\n<td>Familiare (l'incantatore conosce bene il bersaglio)</td>\n<td>-5</td>\n</tr>\n</tbody>\n</table>\n\n<table border=\"1\">\n<tbody>\n<tr>\n<td><strong>Legame</strong></td>\n<td><strong>Modificatore al Tiro Salvezza</strong></td>\n</tr>\n<tr>\n<td>Ritratto o immagine</td>\n<td>-2</td>\n</tr>\n<tr>\n<td>Oggetto posseduto o indumento</td>\n<td>-4</td>\n</tr>\n<tr>\n<td>Parte del corpo, ciocca di capelli, frammento d'unghia o simili</td>\n<td>-10</td>\n</tr>\n</tbody>\n</table>\n<p>Se supera il tiro salvezza, il bersaglio non è influenzato e l'incantatore non può usare di nuovo questo incantesimo contro di lui per 24 ore.</p><p>Se fallisce il tiro salvezza, l'incantesimo crea un sensore invisibile entro 3 metri dal bersaglio. L'incantatore può vedere e udire attraverso il sensore come se si trovasse sul posto. Il sensore si muove con il bersaglio, rimanendo entro 3 metri da esso per la Durata. Una creatura in grado di vedere gli Oggetti Invisibili vede il sensore come una sfera luminosa delle dimensioni approssimative di un pugno.</p><p>Invece di bersagliare una creatura, l'incantatore può scegliere come bersaglio dell'incantesimo un luogo che abbia già visto. In quel caso, il sensore compare in quel luogo e non si muove.</p>"
         },
         "HBHbOGKNVVprSlwn": {
           "name": "Disintegrazione",
@@ -9628,12 +9644,19 @@
           "name": "Ringiovanimento",
           "activities": {
             "x8VXBEpLp3UmZ29h": {
-              "name": "Ringiovanire"
+              "name": "Ringiovanire",
+              "description": {
+                "value": "<p>Se possiede un filatterio, un [[lookup @name lowercase]]{mostro} distrutto ottiene un nuovo corpo dopo 1d10 ([[1d10]]) giorni, recupera tutti i suoi punti ferita e torna attivo. Il nuovo corpo compare entro 1,5 metri dal filatterio.</p>"
+              }
             }
-          }
+          },
+          "description": "<p>Se possiede un filatterio, un [[lookup @name lowercase]]{mostro} distrutto ottiene un nuovo corpo dopo 1d10 giorni, recupera tutti i suoi punti ferita e torna attivo. Il nuovo corpo compare entro 1,5 metri dal filatterio.</p>",
+          "chat": "<p>Un [[lookup @name lowercase]]{mostro} distrutto ottiene un nuovo corpo dopo 1d10 giorni, recupera tutti i suoi punti ferita e torna attivo.</p>"
         },
         "UMoMhboTLq75ZJW8": {
-          "name": "Incantesimi"
+          "name": "Incantesimi",
+          "description": "<p>Il lich è un incantatore di 18° livello. La sua caratteristica da incantatore è Intelligenza (CD 20 del tiro salvezza degli incantesimi, +12 al tiro per colpire con gli attacchi con incantesimo). Il lich ha preparato i seguenti incantesimi da mago:</p><p>Trucchetti (a volontà): [[/item .Utk1OQRwYkMkFRD3]]{mano magica}, [[/item .udsLtG0BugXHR2JQ]]{prestidigitazione}, [[/item .ctW81uiX56xZR2c5]]{raggio di gelo}</p><p>1° livello (4 slot): [[/item .ghXTfe7sgCbgf1Q8]]{individuazione del magico}, [[/item .41JIhpDyM9Anm7cs]]{dardo incantato}, [[/item .z1mx84ONwkXKUZd7]]{scudo}, [[/item .WTbOQBsarsL1LuXJ]]{onda tonante}</p><p>2° livello (3 slot): [[/item .ppWAAEul0QHtm4er]]{individuazione dei pensieri}, [[/item .1N8dDMMgZ1h1YJ3B]]{invisibilità}, [[/item .4H6YgYdKgnX6ZQ8M]]{freccia acida}, [[/item .X4c8xCkmF8U9HUMz]]{immagine speculare}</p><p>3° livello (3 slot): [[/item .oyE5nVppa5mde5gT]]{animare morti}, [[/item .Ek45cBpVXvJdv1Qy]]{controincantesimo}, [[/item .15Fa6q1nH27XfbR8]]{dissolvi magie}, [[/item .ztgcdrWPshKRpFd0]]{palla di fuoco}</p><p>4° livello (3 slot): [[/item .pybg5MNc3lkerH4Y]]{inaridire}, [[/item .A4RsPuSvB9wFtz1j]]{porta dimensionale}</p><p>5° livello (3 slot): [[/item .LkvI11Uue774QBKZ]]{nube mortale}, [[/item .fVbCxFRaORalHB20]]{scrutare}</p><p>6° livello (1 slot): [[/item .HBHbOGKNVVprSlwn]]{disintegrazione}, [[/item .WmQpxfjZwF3MGUby]]{globo di invulnerabilità}</p><p>7° livello (1 slot): [[/item .HPvZm8YJO91k6Qdg]]{dito della morte}, [[/item .J6Jpw5XzB5aTeqnz]]{spostamento planare}</p><p>8° livello (1 slot): [[/item .eEpy1ONlXumKS1mp]]{dominare mostri}, [[/item .35j2QIMmIk6aEdxj]]{parola del potere stordire}</p><p>9° livello (1 slot): [[/item .dmvaMLFWFtv0qx0S]]{parola del potere uccidere}</p>",
+          "chat": "<p>Il lich è un incantatore. La sua caratteristica da incantatore è Intelligenza.</p>"
         }
       },
       "details": {
