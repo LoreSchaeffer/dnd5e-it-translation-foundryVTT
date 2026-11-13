@@ -166,6 +166,20 @@ test("scoped allowlist permits an approved proper name but not the same value el
   assert.equal(isAllowed({ code: "unchanged-english", value: "Melf" }, { pack: "monsters", id: "melf", fieldPath: "name" }, allowlist), false);
 });
 
+test("scoped allowlist accepts an explicit set of canonical unchanged values", () => {
+  const allowlist = [{
+    kind: "unchanged-english",
+    pack: "monsters",
+    fieldPath: "name",
+    values: ["Aboleth", "Couatl"],
+    reason: "Canonical creature names",
+    status: "verified"
+  }];
+  assert.equal(isAllowed({ code: "unchanged-english", value: "Aboleth" }, { pack: "monsters", fieldPath: "name" }, allowlist), true);
+  assert.equal(isAllowed({ code: "unchanged-english", value: "Dragon" }, { pack: "monsters", fieldPath: "name" }, allowlist), false);
+  assert.equal(isAllowed({ code: "unchanged-english", value: "Aboleth" }, { pack: "monsters", fieldPath: "prototypeToken.name" }, allowlist), false);
+});
+
 test("detectResiduals ignores technical Foundry targets, rolls, formulas, and placeholders", () => {
   const issues = detectResiduals({
     source: "<p>@UUID[Compendium.dnd5e.items.Item.abc]{Sword} [[1d20 + @mod]] {{actor.name}}</p>",

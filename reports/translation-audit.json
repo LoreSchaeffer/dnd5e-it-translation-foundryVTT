@@ -3,10 +3,10 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2103,
+      "translated": 2107,
       "missing": 3,
-      "partial": 285,
-      "review": 68
+      "partial": 281,
+      "review": 1
     },
     "folders": {
       "total": 120,
@@ -20,10 +20,10 @@
       "translated": 13768,
       "missing": 1892,
       "invariantFailures": 8,
-      "englishResiduals": 139,
+      "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 2042
+    "blockingIssues": 1906
   },
   "packs": [
     {
@@ -564,10 +564,10 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 68,
+          "translated": 72,
           "missing": 0,
-          "partial": 269,
-          "review": 67
+          "partial": 265,
+          "review": 0
         },
         "folders": {
           "total": 15,
@@ -581,33 +581,11 @@
           "translated": 5952,
           "missing": 1154,
           "invariantFailures": 8,
-          "englishResiduals": 136,
+          "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "unchanged-english",
-          "value": "Aboleth",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "shhHtE7b92PefCWB",
-          "name": "Aboleth",
-          "fieldPath": "name",
-          "sourcePath": "monsters/aberration/aboleth.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Aboleth",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "shhHtE7b92PefCWB",
-          "name": "Aboleth",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/aberration/aboleth.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
@@ -706,28 +684,6 @@
           "name": "Aboleth",
           "fieldPath": "items[5zfFkWqOMddCmxiR].system.description.value",
           "sourcePath": "monsters/aberration/aboleth.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Chuul",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "P6qC8jB3pnEH0tIE",
-          "name": "Chuul",
-          "fieldPath": "name",
-          "sourcePath": "monsters/aberration/chuul.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Chuul",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "P6qC8jB3pnEH0tIE",
-          "name": "Chuul",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/aberration/chuul.yml"
         },
         {
           "code": "missing-field",
@@ -1043,39 +999,6 @@
           "name": "Gibbering Mouther",
           "fieldPath": "items[KQRvDGowc6ihejLu].effects[mYKrzvh1Pfu5WIPh].description",
           "sourcePath": "monsters/aberration/gibbering-mouther.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Otyugh",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "jcZblJ6lqtW0ePxe",
-          "name": "Otyugh",
-          "fieldPath": "name",
-          "sourcePath": "monsters/aberration/otyugh.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Otyugh",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "jcZblJ6lqtW0ePxe",
-          "name": "Otyugh",
-          "fieldPath": "system.traits.languages.custom",
-          "sourcePath": "monsters/aberration/otyugh.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Otyugh",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "jcZblJ6lqtW0ePxe",
-          "name": "Otyugh",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/aberration/otyugh.yml"
         },
         {
           "code": "missing-field",
@@ -2041,50 +1964,6 @@
           "sourcePath": "monsters/beast/polar-bear.yml"
         },
         {
-          "code": "unchanged-english",
-          "value": "Pony",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "PHO4J98zK2p4KNyc",
-          "name": "Pony",
-          "fieldPath": "name",
-          "sourcePath": "monsters/beast/pony.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Pony",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "PHO4J98zK2p4KNyc",
-          "name": "Pony",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/beast/pony.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Quipper",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "nkyCGJ9wXeAZkyyz",
-          "name": "Quipper",
-          "fieldPath": "name",
-          "sourcePath": "monsters/beast/quipper.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Quipper",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "nkyCGJ9wXeAZkyyz",
-          "name": "Quipper",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/beast/quipper.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -2155,28 +2034,6 @@
           "name": "Spider",
           "fieldPath": "items[ysV0KgiPcJOYCdMh].system.description.value",
           "sourcePath": "monsters/beast/spider.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Stirge",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "gKRtiMNAjZiCVfwz",
-          "name": "Stirge",
-          "fieldPath": "name",
-          "sourcePath": "monsters/beast/stirge.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Stirge",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "gKRtiMNAjZiCVfwz",
-          "name": "Stirge",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/beast/stirge.yml"
         },
         {
           "code": "missing-field",
@@ -2458,28 +2315,6 @@
           "sourcePath": "monsters/beast/warhorse.yml"
         },
         {
-          "code": "unchanged-english",
-          "value": "Couatl",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ZaP1H91t4FzbRqR5",
-          "name": "Couatl",
-          "fieldPath": "name",
-          "sourcePath": "monsters/celestial/couatl.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Couatl",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ZaP1H91t4FzbRqR5",
-          "name": "Couatl",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/celestial/couatl.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -2579,28 +2414,6 @@
           "sourcePath": "monsters/celestial/couatl.yml"
         },
         {
-          "code": "unchanged-english",
-          "value": "Deva",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "m4H3hjamBNMH09S9",
-          "name": "Deva",
-          "fieldPath": "name",
-          "sourcePath": "monsters/celestial/deva.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Deva",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "m4H3hjamBNMH09S9",
-          "name": "Deva",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/celestial/deva.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -2653,28 +2466,6 @@
           "name": "Deva",
           "fieldPath": "items[P3T5BWT2TFHCxUkr].system.description.value",
           "sourcePath": "monsters/celestial/deva.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Planetar",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "XEByBLeOkDgL3mrr",
-          "name": "Planetar",
-          "fieldPath": "name",
-          "sourcePath": "monsters/celestial/planetar.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Planetar",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "XEByBLeOkDgL3mrr",
-          "name": "Planetar",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/celestial/planetar.yml"
         },
         {
           "code": "missing-field",
@@ -2747,28 +2538,6 @@
           "name": "Planetar",
           "fieldPath": "items[OVikYmSdHliAG2YD].system.description.value",
           "sourcePath": "monsters/celestial/planetar.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Solar",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "lOYt73eaJojBDxAV",
-          "name": "Solar",
-          "fieldPath": "name",
-          "sourcePath": "monsters/celestial/solar.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Solar",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "lOYt73eaJojBDxAV",
-          "name": "Solar",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/celestial/solar.yml"
         },
         {
           "code": "missing-field",
@@ -3095,17 +2864,6 @@
           "sourcePath": "monsters/construct/clay-golem.yml"
         },
         {
-          "code": "unchanged-english",
-          "value": "Berserk",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "YOqhbf8WsX0jH9Fu",
-          "name": "Clay Golem",
-          "fieldPath": "items[K5xMZVNv8m2Pw87E].name",
-          "sourcePath": "monsters/construct/clay-golem.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -3121,17 +2879,6 @@
           "id": "YOqhbf8WsX0jH9Fu",
           "name": "Clay Golem",
           "fieldPath": "items[K5xMZVNv8m2Pw87E].system.description.chat",
-          "sourcePath": "monsters/construct/clay-golem.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Berserk",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "YOqhbf8WsX0jH9Fu",
-          "name": "Clay Golem",
-          "fieldPath": "items[K5xMZVNv8m2Pw87E].effects[unEhkqnbSJYtXAU4].name",
           "sourcePath": "monsters/construct/clay-golem.yml"
         },
         {
@@ -3198,17 +2945,6 @@
           "sourcePath": "monsters/construct/flesh-golem.yml"
         },
         {
-          "code": "unchanged-english",
-          "value": "Berserk",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "Hm4o2FgPZsdbXjLq",
-          "name": "Flesh Golem",
-          "fieldPath": "items[SSHb3L6BEgIgfo8n].name",
-          "sourcePath": "monsters/construct/flesh-golem.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -3224,17 +2960,6 @@
           "id": "Hm4o2FgPZsdbXjLq",
           "name": "Flesh Golem",
           "fieldPath": "items[SSHb3L6BEgIgfo8n].system.description.chat",
-          "sourcePath": "monsters/construct/flesh-golem.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Berserk",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "Hm4o2FgPZsdbXjLq",
-          "name": "Flesh Golem",
-          "fieldPath": "items[SSHb3L6BEgIgfo8n].effects[unEhkqnbSJYtXAU4].name",
           "sourcePath": "monsters/construct/flesh-golem.yml"
         },
         {
@@ -4428,50 +4153,6 @@
           "sourcePath": "monsters/elemental/air-elemental.yml"
         },
         {
-          "code": "unchanged-english",
-          "value": "Azer",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "IiEDPMWqBlzkggYD",
-          "name": "Azer",
-          "fieldPath": "name",
-          "sourcePath": "monsters/elemental/azer.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Azer",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "IiEDPMWqBlzkggYD",
-          "name": "Azer",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/elemental/azer.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Djinni",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "5P1VGAZQwOilwZQf",
-          "name": "Djinni",
-          "fieldPath": "name",
-          "sourcePath": "monsters/elemental/djinni.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Djinni",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "5P1VGAZQwOilwZQf",
-          "name": "Djinni",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/elemental/djinni.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -4589,28 +4270,6 @@
           "sourcePath": "monsters/elemental/earth-elemental.yml"
         },
         {
-          "code": "unchanged-english",
-          "value": "Efreeti",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "LTomFUTBrkRi0Pj5",
-          "name": "Efreeti",
-          "fieldPath": "name",
-          "sourcePath": "monsters/elemental/efreeti.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Efreeti",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "LTomFUTBrkRi0Pj5",
-          "name": "Efreeti",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/elemental/efreeti.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -4726,28 +4385,6 @@
           "name": "Fire Elemental",
           "fieldPath": "items[fdt2FIirmBRCpRBm].system.activities.dFEUCLc4Cmb2DETC.description.value",
           "sourcePath": "monsters/elemental/fire-elemental.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Gargoyle",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "0m8QyDN52qw9zzOM",
-          "name": "Gargoyle",
-          "fieldPath": "name",
-          "sourcePath": "monsters/elemental/gargoyle.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Gargoyle",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "0m8QyDN52qw9zzOM",
-          "name": "Gargoyle",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/elemental/gargoyle.yml"
         },
         {
           "code": "missing-field",
@@ -4910,28 +4547,6 @@
           "name": "Magma Mephit",
           "fieldPath": "items[iXhbFt7gCj3FBM2r].system.description.chat",
           "sourcePath": "monsters/elemental/magma-mephit.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Magmin",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "8MD1vRBTcgSXXk3u",
-          "name": "Magmin",
-          "fieldPath": "name",
-          "sourcePath": "monsters/elemental/magmin.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Magmin",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "8MD1vRBTcgSXXk3u",
-          "name": "Magmin",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/elemental/magmin.yml"
         },
         {
           "code": "missing-field",
@@ -5139,28 +4754,6 @@
           "name": "Water Elemental",
           "fieldPath": "items[5XUFTldfE6mtRUfd].effects[2Z4OvQKGES6rtmRz].description",
           "sourcePath": "monsters/elemental/water-elemental.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Xorn",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "2MZNHeOZweXAYbv1",
-          "name": "Xorn",
-          "fieldPath": "name",
-          "sourcePath": "monsters/elemental/xorn.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Xorn",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "2MZNHeOZweXAYbv1",
-          "name": "Xorn",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/elemental/xorn.yml"
         },
         {
           "code": "missing-field",
@@ -5458,28 +5051,6 @@
           "name": "Sprite",
           "fieldPath": "items[qJHrH8Q3q1JB5xe5].system.description.chat",
           "sourcePath": "monsters/fey/sprite.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Balor",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "uZ8NrRenwYZ4qNf6",
-          "name": "Balor",
-          "fieldPath": "name",
-          "sourcePath": "monsters/fiend/balor.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Balor",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "uZ8NrRenwYZ4qNf6",
-          "name": "Balor",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/fiend/balor.yml"
         },
         {
           "code": "missing-field",
@@ -5824,28 +5395,6 @@
           "sourcePath": "monsters/fiend/chain-devil.yml"
         },
         {
-          "code": "unchanged-english",
-          "value": "Dretch",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "kz2fW9xb5CcvXLX4",
-          "name": "Dretch",
-          "fieldPath": "name",
-          "sourcePath": "monsters/fiend/dretch.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Dretch",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "kz2fW9xb5CcvXLX4",
-          "name": "Dretch",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/fiend/dretch.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -5954,28 +5503,6 @@
           "sourcePath": "monsters/fiend/erinyes.yml"
         },
         {
-          "code": "unchanged-english",
-          "value": "Glabrezu",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "OGPHF4sCVOAi87TU",
-          "name": "Glabrezu",
-          "fieldPath": "name",
-          "sourcePath": "monsters/fiend/glabrezu.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Glabrezu",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "OGPHF4sCVOAi87TU",
-          "name": "Glabrezu",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/fiend/glabrezu.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -6046,28 +5573,6 @@
           "name": "Hell Hound",
           "fieldPath": "items[gijcyepmnWeRu4HV].system.description.chat",
           "sourcePath": "monsters/fiend/hell-hound.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Hezrou",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ec3lhsNv1ZRu7Qaq",
-          "name": "Hezrou",
-          "fieldPath": "name",
-          "sourcePath": "monsters/fiend/hezrou.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Hezrou",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ec3lhsNv1ZRu7Qaq",
-          "name": "Hezrou",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/fiend/hezrou.yml"
         },
         {
           "code": "missing-field",
@@ -6187,28 +5692,6 @@
           "sourcePath": "monsters/fiend/ice-devil.yml"
         },
         {
-          "code": "unchanged-english",
-          "value": "Imp",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "dLQiESMsfsXijD5c",
-          "name": "Imp",
-          "fieldPath": "name",
-          "sourcePath": "monsters/fiend/imp.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Imp",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "dLQiESMsfsXijD5c",
-          "name": "Imp",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/fiend/imp.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -6254,28 +5737,6 @@
           "sourcePath": "monsters/fiend/imp.yml"
         },
         {
-          "code": "unchanged-english",
-          "value": "Lemure",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "tubcO7kaQ4w0soxS",
-          "name": "Lemure",
-          "fieldPath": "name",
-          "sourcePath": "monsters/fiend/lemure.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Lemure",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "tubcO7kaQ4w0soxS",
-          "name": "Lemure",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/fiend/lemure.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -6283,28 +5744,6 @@
           "name": "Lemure",
           "fieldPath": "items[7gfe5c1qGIvai12V].system.description.value",
           "sourcePath": "monsters/fiend/lemure.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Marilith",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "egsSDYbqoLCelb0J",
-          "name": "Marilith",
-          "fieldPath": "name",
-          "sourcePath": "monsters/fiend/marilith.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Marilith",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "egsSDYbqoLCelb0J",
-          "name": "Marilith",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/fiend/marilith.yml"
         },
         {
           "code": "missing-field",
@@ -6359,28 +5798,6 @@
           "name": "Marilith",
           "fieldPath": "items[lS2o3QOZ2lxKyi0L].system.description.value",
           "sourcePath": "monsters/fiend/marilith.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Nalfeshnee",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "rUg5JMnKNnZNBAq9",
-          "name": "Nalfeshnee",
-          "fieldPath": "name",
-          "sourcePath": "monsters/fiend/nalfeshnee.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Nalfeshnee",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "rUg5JMnKNnZNBAq9",
-          "name": "Nalfeshnee",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/fiend/nalfeshnee.yml"
         },
         {
           "code": "missing-field",
@@ -6581,28 +5998,6 @@
           "sourcePath": "monsters/fiend/pit-fiend.yml"
         },
         {
-          "code": "unchanged-english",
-          "value": "Quasit",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "bwtkdzavdNHISgp4",
-          "name": "Quasit",
-          "fieldPath": "name",
-          "sourcePath": "monsters/fiend/quasit.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Quasit",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "bwtkdzavdNHISgp4",
-          "name": "Quasit",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/fiend/quasit.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -6691,28 +6086,6 @@
           "name": "Quasit",
           "fieldPath": "items[1YhP86rTuRIXKFi2].effects[DiTStRlGa6CI65oe].description",
           "sourcePath": "monsters/fiend/quasit.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Rakshasa",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "qXzMsRTHEodqO8l2",
-          "name": "Rakshasa",
-          "fieldPath": "name",
-          "sourcePath": "monsters/fiend/rakshasa.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Rakshasa",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "qXzMsRTHEodqO8l2",
-          "name": "Rakshasa",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/fiend/rakshasa.yml"
         },
         {
           "code": "missing-field",
@@ -6850,28 +6223,6 @@
           "sourcePath": "monsters/fiend/succubus-incubus.yml"
         },
         {
-          "code": "unchanged-english",
-          "value": "Vrock",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "6oc29m5uzzzb0pk3",
-          "name": "Vrock",
-          "fieldPath": "name",
-          "sourcePath": "monsters/fiend/vrock.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Vrock",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "6oc29m5uzzzb0pk3",
-          "name": "Vrock",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/fiend/vrock.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -6935,28 +6286,6 @@
           "sourcePath": "monsters/giant/cloud-giant.yml"
         },
         {
-          "code": "unchanged-english",
-          "value": "Ettin",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "KLCkHep28HBfdsky",
-          "name": "Ettin",
-          "fieldPath": "name",
-          "sourcePath": "monsters/giant/ettin.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Ettin",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "KLCkHep28HBfdsky",
-          "name": "Ettin",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/giant/ettin.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -6973,50 +6302,6 @@
           "name": "Ettin",
           "fieldPath": "items[FcbmWHMk3H4MGdxy].system.description.value",
           "sourcePath": "monsters/giant/ettin.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Ogre",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "eIGowKTkEBC9gUzx",
-          "name": "Ogre",
-          "fieldPath": "name",
-          "sourcePath": "monsters/giant/ogre.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Ogre",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "eIGowKTkEBC9gUzx",
-          "name": "Ogre",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/giant/ogre.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Oni",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "L1w8yBkInMscfJ3F",
-          "name": "Oni",
-          "fieldPath": "name",
-          "sourcePath": "monsters/giant/oni.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Oni",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "L1w8yBkInMscfJ3F",
-          "name": "Oni",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/giant/oni.yml"
         },
         {
           "code": "missing-field",
@@ -7136,28 +6421,6 @@
           "name": "Storm Giant",
           "fieldPath": "items[0JPMyUkBeRw3elVe].system.description.chat",
           "sourcePath": "monsters/giant/storm-giant.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Troll",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ZHAFrnCwCz17dmLc",
-          "name": "Troll",
-          "fieldPath": "name",
-          "sourcePath": "monsters/giant/troll.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Troll",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ZHAFrnCwCz17dmLc",
-          "name": "Troll",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/giant/troll.yml"
         },
         {
           "code": "missing-field",
@@ -7360,28 +6623,6 @@
           "sourcePath": "monsters/humanoid/bandit-captain.yml"
         },
         {
-          "code": "unchanged-english",
-          "value": "Berserker",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "kz1t6xeXVwODpYb2",
-          "name": "Berserker",
-          "fieldPath": "name",
-          "sourcePath": "monsters/humanoid/berserker.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Berserker",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "kz1t6xeXVwODpYb2",
-          "name": "Berserker",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/humanoid/berserker.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -7389,28 +6630,6 @@
           "name": "Berserker",
           "fieldPath": "items[Qzj9HKnvRGhYoggC].effects[mc0qfRRq1rZXrJbi].description",
           "sourcePath": "monsters/humanoid/berserker.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Bugbear",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "QtJairF0h18BRhEM",
-          "name": "Bugbear",
-          "fieldPath": "name",
-          "sourcePath": "monsters/humanoid/bugbear.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Bugbear",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "QtJairF0h18BRhEM",
-          "name": "Bugbear",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/humanoid/bugbear.yml"
         },
         {
           "code": "missing-field",
@@ -7501,28 +6720,6 @@
           "name": "Deep Gnome",
           "fieldPath": "items[YuhirWYJsQfL6zo5].system.activities.yYJMmbs4vnoxnf8U.description.value",
           "sourcePath": "monsters/humanoid/deep-gnome.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Drow",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "1vaBSMUfOy6JPJ14",
-          "name": "Drow",
-          "fieldPath": "name",
-          "sourcePath": "monsters/humanoid/drow.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Drow",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "1vaBSMUfOy6JPJ14",
-          "name": "Drow",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/humanoid/drow.yml"
         },
         {
           "code": "missing-field",
@@ -7622,28 +6819,6 @@
           "name": "Druid",
           "fieldPath": "items[gMrWeG8fMDPRFiVe].system.description.value",
           "sourcePath": "monsters/humanoid/druid.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Duergar",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "iGBdQA3IuKsurcUy",
-          "name": "Duergar",
-          "fieldPath": "name",
-          "sourcePath": "monsters/humanoid/duergar.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Duergar",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "iGBdQA3IuKsurcUy",
-          "name": "Duergar",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/humanoid/duergar.yml"
         },
         {
           "code": "missing-field",
@@ -7763,28 +6938,6 @@
           "sourcePath": "monsters/humanoid/gladiator.yml"
         },
         {
-          "code": "unchanged-english",
-          "value": "Gnoll",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "R2GPY9BhRmmwZwkh",
-          "name": "Gnoll",
-          "fieldPath": "name",
-          "sourcePath": "monsters/humanoid/gnoll.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Gnoll",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "R2GPY9BhRmmwZwkh",
-          "name": "Gnoll",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/humanoid/gnoll.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -7792,28 +6945,6 @@
           "name": "Gnoll",
           "fieldPath": "items[TGAlVMJcaZCRp7TI].system.description.value",
           "sourcePath": "monsters/humanoid/gnoll.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Goblin",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "TjWQOgI3A4UAl7lC",
-          "name": "Goblin",
-          "fieldPath": "name",
-          "sourcePath": "monsters/humanoid/goblin.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Goblin",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "TjWQOgI3A4UAl7lC",
-          "name": "Goblin",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/humanoid/goblin.yml"
         },
         {
           "code": "missing-field",
@@ -7834,28 +6965,6 @@
           "sourcePath": "monsters/humanoid/goblin.yml"
         },
         {
-          "code": "unchanged-english",
-          "value": "Grimlock",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "GpeQYtlo8oGvGlkM",
-          "name": "Grimlock",
-          "fieldPath": "name",
-          "sourcePath": "monsters/humanoid/grimlock.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Grimlock",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "GpeQYtlo8oGvGlkM",
-          "name": "Grimlock",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/humanoid/grimlock.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -7863,28 +6972,6 @@
           "name": "Half-Red Dragon Veteran",
           "fieldPath": "items[MTqXmkJOXkp4bFMQ].system.description.value",
           "sourcePath": "monsters/humanoid/half-red-dragon-veteran.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Hobgoblin",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "6qnT52lZtZblgGw8",
-          "name": "Hobgoblin",
-          "fieldPath": "name",
-          "sourcePath": "monsters/humanoid/hobgoblin.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Hobgoblin",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "6qnT52lZtZblgGw8",
-          "name": "Hobgoblin",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/humanoid/hobgoblin.yml"
         },
         {
           "code": "missing-field",
@@ -7921,17 +7008,6 @@
           "name": "Knight",
           "fieldPath": "items[FK0ZF8egty0u713z].effects[vd2lrybGb5P1arPD].description",
           "sourcePath": "monsters/humanoid/knight.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Lizardfolk",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "57DofLgRQx16ARoc",
-          "name": "Lizardfolk",
-          "fieldPath": "name",
-          "sourcePath": "monsters/humanoid/lizardfolk.yml"
         },
         {
           "code": "missing-field",
@@ -8031,39 +7107,6 @@
           "name": "Priest",
           "fieldPath": "items[9LzZrzdWIZpjFIGV].effects[PgUQuuROJAyV6QEP].description",
           "sourcePath": "monsters/humanoid/priest.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Sahuagin",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "lyNBFmJdbh4NLRzz",
-          "name": "Sahuagin",
-          "fieldPath": "name",
-          "sourcePath": "monsters/humanoid/sahuagin.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Sahuagin",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "lyNBFmJdbh4NLRzz",
-          "name": "Sahuagin",
-          "fieldPath": "system.traits.languages.custom",
-          "sourcePath": "monsters/humanoid/sahuagin.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Sahuagin",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "lyNBFmJdbh4NLRzz",
-          "name": "Sahuagin",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/humanoid/sahuagin.yml"
         },
         {
           "code": "missing-field",
@@ -8669,28 +7712,6 @@
           "sourcePath": "monsters/monstrosity/androsphinx.yml"
         },
         {
-          "code": "unchanged-english",
-          "value": "Ankheg",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "Wcsjbl25uiUsyQwn",
-          "name": "Ankheg",
-          "fieldPath": "name",
-          "sourcePath": "monsters/monstrosity/ankheg.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Ankheg",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "Wcsjbl25uiUsyQwn",
-          "name": "Ankheg",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/monstrosity/ankheg.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -8752,28 +7773,6 @@
           "name": "Basilisk",
           "fieldPath": "items[bKBPawscKpixPeO0].effects[dlT1Vtz6YqV7Qf5I].description",
           "sourcePath": "monsters/monstrosity/basilisk.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Behir",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "x47ZnpHfYl0ptDM9",
-          "name": "Behir",
-          "fieldPath": "name",
-          "sourcePath": "monsters/monstrosity/behir.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Behir",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "x47ZnpHfYl0ptDM9",
-          "name": "Behir",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/monstrosity/behir.yml"
         },
         {
           "code": "missing-field",
@@ -8848,28 +7847,6 @@
           "sourcePath": "monsters/monstrosity/behir.yml"
         },
         {
-          "code": "unchanged-english",
-          "value": "Bulette",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "1ES45ODWg3pCrkzv",
-          "name": "Bulette",
-          "fieldPath": "name",
-          "sourcePath": "monsters/monstrosity/bulette.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Bulette",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "1ES45ODWg3pCrkzv",
-          "name": "Bulette",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/monstrosity/bulette.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -8924,28 +7901,6 @@
           "sourcePath": "monsters/monstrosity/centaur.yml"
         },
         {
-          "code": "unchanged-english",
-          "value": "Chimera",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "kr6r8bhSehACPfZ8",
-          "name": "Chimera",
-          "fieldPath": "name",
-          "sourcePath": "monsters/monstrosity/chimera.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Chimera",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "kr6r8bhSehACPfZ8",
-          "name": "Chimera",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/monstrosity/chimera.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -8971,28 +7926,6 @@
           "name": "Chimera",
           "fieldPath": "items[sAkv9mnK6l5nXmcz].system.description.value",
           "sourcePath": "monsters/monstrosity/chimera.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Cockatrice",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "EpYl7qifM5pq6W6B",
-          "name": "Cockatrice",
-          "fieldPath": "name",
-          "sourcePath": "monsters/monstrosity/cockatrice.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Cockatrice",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "EpYl7qifM5pq6W6B",
-          "name": "Cockatrice",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/monstrosity/cockatrice.yml"
         },
         {
           "code": "missing-field",
@@ -9157,28 +8090,6 @@
           "sourcePath": "monsters/monstrosity/death-dog.yml"
         },
         {
-          "code": "unchanged-english",
-          "value": "Doppelganger",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "mWbrPhcKOz6oLXMV",
-          "name": "Doppelganger",
-          "fieldPath": "name",
-          "sourcePath": "monsters/monstrosity/doppelganger.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Doppelganger",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "mWbrPhcKOz6oLXMV",
-          "name": "Doppelganger",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/monstrosity/doppelganger.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -9242,28 +8153,6 @@
           "sourcePath": "monsters/monstrosity/doppelganger.yml"
         },
         {
-          "code": "unchanged-english",
-          "value": "Drider",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "1OQbxoZI5BtlB2ME",
-          "name": "Drider",
-          "fieldPath": "name",
-          "sourcePath": "monsters/monstrosity/drider.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Drider",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "1OQbxoZI5BtlB2ME",
-          "name": "Drider",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/monstrosity/drider.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -9298,28 +8187,6 @@
           "name": "Drider",
           "fieldPath": "items[ZloTCAgY29cSTZuv].system.description.value",
           "sourcePath": "monsters/monstrosity/drider.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Ettercap",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "aKt7vFAS1J0x3FQm",
-          "name": "Ettercap",
-          "fieldPath": "name",
-          "sourcePath": "monsters/monstrosity/ettercap.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Ettercap",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "aKt7vFAS1J0x3FQm",
-          "name": "Ettercap",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/monstrosity/ettercap.yml"
         },
         {
           "code": "missing-field",
@@ -9419,28 +8286,6 @@
           "name": "Gorgon",
           "fieldPath": "items[5tEnGK28Rd4nHnwM].effects[tsQjwB2ka54p6YZ1].description",
           "sourcePath": "monsters/monstrosity/gorgon.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Grick",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "tFJX45zj3QDc3Zli",
-          "name": "Grick",
-          "fieldPath": "name",
-          "sourcePath": "monsters/monstrosity/grick.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Grick",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "tFJX45zj3QDc3Zli",
-          "name": "Grick",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/monstrosity/grick.yml"
         },
         {
           "code": "missing-field",
@@ -9668,28 +8513,6 @@
           "sourcePath": "monsters/monstrosity/hydra.yml"
         },
         {
-          "code": "unchanged-english",
-          "value": "Kraken",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "kVg37NlPcACAzjCT",
-          "name": "Kraken",
-          "fieldPath": "name",
-          "sourcePath": "monsters/monstrosity/kraken.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Kraken",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "kVg37NlPcACAzjCT",
-          "name": "Kraken",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/monstrosity/kraken.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -9870,28 +8693,6 @@
           "sourcePath": "monsters/monstrosity/kraken.yml"
         },
         {
-          "code": "unchanged-english",
-          "value": "Lamia",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "MnoL59nOOfYatAkQ",
-          "name": "Lamia",
-          "fieldPath": "name",
-          "sourcePath": "monsters/monstrosity/lamia.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Lamia",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "MnoL59nOOfYatAkQ",
-          "name": "Lamia",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/monstrosity/lamia.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -9964,28 +8765,6 @@
           "sourcePath": "monsters/monstrosity/manticore.yml"
         },
         {
-          "code": "unchanged-english",
-          "value": "Medusa",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "eiifqZwYGi71r2Yl",
-          "name": "Medusa",
-          "fieldPath": "name",
-          "sourcePath": "monsters/monstrosity/medusa.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Medusa",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "eiifqZwYGi71r2Yl",
-          "name": "Medusa",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/monstrosity/medusa.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -10022,28 +8801,6 @@
           "sourcePath": "monsters/monstrosity/medusa.yml"
         },
         {
-          "code": "unchanged-english",
-          "value": "Merrow",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "1cwfYaACm5F0l4y3",
-          "name": "Merrow",
-          "fieldPath": "name",
-          "sourcePath": "monsters/monstrosity/merrow.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Merrow",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "1cwfYaACm5F0l4y3",
-          "name": "Merrow",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/monstrosity/merrow.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -10069,28 +8826,6 @@
           "name": "Merrow",
           "fieldPath": "items[7XgQY1kwKPuoWX7t].system.description.chat",
           "sourcePath": "monsters/monstrosity/merrow.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Mimic",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "hx240PG5r5qpRet3",
-          "name": "Mimic",
-          "fieldPath": "name",
-          "sourcePath": "monsters/monstrosity/mimic.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Mimic",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "hx240PG5r5qpRet3",
-          "name": "Mimic",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/monstrosity/mimic.yml"
         },
         {
           "code": "missing-field",
@@ -10291,28 +9026,6 @@
           "sourcePath": "monsters/monstrosity/purple-worm.yml"
         },
         {
-          "code": "unchanged-english",
-          "value": "Remorhaz",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "VBzqw2rOUvTuNOPI",
-          "name": "Remorhaz",
-          "fieldPath": "name",
-          "sourcePath": "monsters/monstrosity/remorhaz.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Remorhaz",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "VBzqw2rOUvTuNOPI",
-          "name": "Remorhaz",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/monstrosity/remorhaz.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -10356,28 +9069,6 @@
           "name": "Remorhaz",
           "fieldPath": "items[NwgQC3ohxcI1L3GT].effects[5YoZO3QgfMTcLhgh].description",
           "sourcePath": "monsters/monstrosity/remorhaz.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Roc",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "p980augbCIdpK9ZX",
-          "name": "Roc",
-          "fieldPath": "name",
-          "sourcePath": "monsters/monstrosity/roc.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Roc",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "p980augbCIdpK9ZX",
-          "name": "Roc",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/monstrosity/roc.yml"
         },
         {
           "code": "missing-field",
@@ -10634,28 +9325,6 @@
           "sourcePath": "monsters/monstrosity/spirit-naga.yml"
         },
         {
-          "code": "unchanged-english",
-          "value": "Tarrasque",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "KCvt4FdOVJbuZ3T0",
-          "name": "Tarrasque",
-          "fieldPath": "name",
-          "sourcePath": "monsters/monstrosity/tarrasque.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Tarrasque",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "KCvt4FdOVJbuZ3T0",
-          "name": "Tarrasque",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/monstrosity/tarrasque.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -10834,39 +9503,6 @@
           "name": "Winter Wolf",
           "fieldPath": "items[Rj3oSInoQMIfHrPc].system.description.chat",
           "sourcePath": "monsters/monstrosity/winter-wolf.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Worg",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "VBkp2rGQKvMcCOus",
-          "name": "Worg",
-          "fieldPath": "name",
-          "sourcePath": "monsters/monstrosity/worg.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Worg",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "VBkp2rGQKvMcCOus",
-          "name": "Worg",
-          "fieldPath": "system.traits.languages.custom",
-          "sourcePath": "monsters/monstrosity/worg.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Worg",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "VBkp2rGQKvMcCOus",
-          "name": "Worg",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/monstrosity/worg.yml"
         },
         {
           "code": "missing-field",
@@ -11229,28 +9865,6 @@
           "sourcePath": "monsters/plant/shrieker.yml"
         },
         {
-          "code": "unchanged-english",
-          "value": "Treant",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "NB6wUgVqeOQtsQKu",
-          "name": "Treant",
-          "fieldPath": "name",
-          "sourcePath": "monsters/plant/treant.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Treant",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "NB6wUgVqeOQtsQKu",
-          "name": "Treant",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/plant/treant.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -11404,28 +10018,6 @@
           "sourcePath": "monsters/undead/avatar-of-death.yml"
         },
         {
-          "code": "unchanged-english",
-          "value": "Ghast",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "IyIybE5t2adMEVUM",
-          "name": "Ghast",
-          "fieldPath": "name",
-          "sourcePath": "monsters/undead/ghast.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Ghast",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "IyIybE5t2adMEVUM",
-          "name": "Ghast",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/undead/ghast.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -11552,28 +10144,6 @@
           "sourcePath": "monsters/undead/ghost.yml"
         },
         {
-          "code": "unchanged-english",
-          "value": "Ghoul",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "OBujQLLPSmlJiZnL",
-          "name": "Ghoul",
-          "fieldPath": "name",
-          "sourcePath": "monsters/undead/ghoul.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Ghoul",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "OBujQLLPSmlJiZnL",
-          "name": "Ghoul",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/undead/ghoul.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -11599,28 +10169,6 @@
           "name": "Ghoul",
           "fieldPath": "items[ArxzPC3rsBztgUvI].system.activities.eUhLoDYzWkXnIKKj.description.value",
           "sourcePath": "monsters/undead/ghoul.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Lich",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "bfh29vIEoGzI240e",
-          "name": "Lich",
-          "fieldPath": "name",
-          "sourcePath": "monsters/undead/lich.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Lich",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "bfh29vIEoGzI240e",
-          "name": "Lich",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/undead/lich.yml"
         },
         {
           "code": "missing-field",
@@ -12388,28 +10936,6 @@
           "sourcePath": "monsters/undead/vampire.yml"
         },
         {
-          "code": "unchanged-english",
-          "value": "Wight",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "rbyp54px2D0ql4QK",
-          "name": "Wight",
-          "fieldPath": "name",
-          "sourcePath": "monsters/undead/wight.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Wight",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "rbyp54px2D0ql4QK",
-          "name": "Wight",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/undead/wight.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -12498,28 +11024,6 @@
           "name": "Will-o'-Wisp",
           "fieldPath": "items[vJR81iEOZYNMuAdz].effects[oKYNXo2rUnsBE5cB].description",
           "sourcePath": "monsters/undead/will-o-wisp.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Wraith",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ET4PEVEiNJLU4f7c",
-          "name": "Wraith",
-          "fieldPath": "name",
-          "sourcePath": "monsters/undead/wraith.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Wraith",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ET4PEVEiNJLU4f7c",
-          "name": "Wraith",
-          "fieldPath": "prototypeToken.name",
-          "sourcePath": "monsters/undead/wraith.yml"
         },
         {
           "code": "missing-field",

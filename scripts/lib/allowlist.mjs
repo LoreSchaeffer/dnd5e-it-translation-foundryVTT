@@ -11,6 +11,9 @@ export function validateAllowlist(entries) {
     if (!VALID_STATUSES.has(entry.status)) {
       throw new Error(`Allowlist entry ${index} has invalid status ${entry.status}`);
     }
+    if (entry.values !== undefined && (!Array.isArray(entry.values) || !entry.values.length || entry.values.some(value => typeof value !== "string" || !value))) {
+      throw new Error(`Allowlist entry ${index} has invalid values`);
+    }
     return entry;
   });
 }
@@ -27,6 +30,7 @@ export function isAllowed(issue, context, allowlist) {
     if (entry.id && entry.id !== context.id) return false;
     if (entry.fieldPath && entry.fieldPath !== context.fieldPath) return false;
     if (entry.value !== undefined && entry.value !== issue.value) return false;
+    if (entry.values !== undefined && !entry.values.includes(issue.value)) return false;
     return true;
   });
 }

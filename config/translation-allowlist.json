@@ -210,6 +210,53 @@
       "value": "Berserk",
       "reason": "Berserk è il nome del tratto mantenuto nell'edizione italiana 2014.",
       "status": "verified"
+    },
+    {
+      "kind": "unchanged-english",
+      "pack": "monsters",
+      "fieldPath": "name",
+      "values": [
+        "Aboleth", "Ankheg", "Azer", "Balor", "Behir", "Berserker", "Bugbear", "Bulette", "Chimera", "Chuul",
+        "Cockatrice", "Couatl", "Deva", "Djinni", "Doppelganger", "Dretch", "Drider", "Drow", "Duergar", "Efreeti",
+        "Ettercap", "Ettin", "Gargoyle", "Ghast", "Ghoul", "Glabrezu", "Gnoll", "Goblin", "Grick", "Grimlock",
+        "Hezrou", "Hobgoblin", "Imp", "Kraken", "Lamia", "Lemure", "Lich", "Lizardfolk", "Magmin", "Marilith",
+        "Medusa", "Merrow", "Mimic", "Nalfeshnee", "Ogre", "Oni", "Otyugh", "Planetar", "Pony", "Quasit",
+        "Quipper", "Rakshasa", "Remorhaz", "Roc", "Sahuagin", "Solar", "Stirge", "Tarrasque", "Treant", "Troll",
+        "Vrock", "Wight", "Worg", "Wraith", "Xorn"
+      ],
+      "reason": "Nomi canonici delle creature invariati nell'edizione italiana 2014; lo scope è limitato al nome dell'Actor.",
+      "status": "verified"
+    },
+    {
+      "kind": "unchanged-english",
+      "pack": "monsters",
+      "fieldPath": "prototypeToken.name",
+      "values": [
+        "Aboleth", "Ankheg", "Azer", "Balor", "Behir", "Berserker", "Bugbear", "Bulette", "Chimera", "Chuul",
+        "Cockatrice", "Couatl", "Deva", "Djinni", "Doppelganger", "Dretch", "Drider", "Drow", "Duergar", "Efreeti",
+        "Ettercap", "Ettin", "Gargoyle", "Ghast", "Ghoul", "Glabrezu", "Gnoll", "Goblin", "Grick", "Grimlock",
+        "Hezrou", "Hobgoblin", "Imp", "Kraken", "Lamia", "Lemure", "Lich", "Magmin", "Marilith", "Medusa",
+        "Merrow", "Mimic", "Nalfeshnee", "Ogre", "Oni", "Otyugh", "Planetar", "Pony", "Quasit", "Quipper",
+        "Rakshasa", "Remorhaz", "Roc", "Sahuagin", "Solar", "Stirge", "Tarrasque", "Treant", "Troll", "Vrock",
+        "Wight", "Worg", "Wraith", "Xorn"
+      ],
+      "reason": "Il nome canonico del token deve coincidere con il nome canonico invariato della creatura.",
+      "status": "verified"
+    },
+    {
+      "kind": "unchanged-english",
+      "pack": "monsters",
+      "fieldPath": "system.traits.languages.custom",
+      "values": ["Otyugh", "Sahuagin", "Worg"],
+      "reason": "I linguaggi omonimi della specie conservano il nome canonico della creatura nell'edizione italiana 2014.",
+      "status": "verified"
+    },
+    {
+      "kind": "unchanged-english",
+      "pack": "monsters",
+      "value": "Berserk",
+      "reason": "Berserk è il nome canonico del tratto e del relativo effetto nell'edizione italiana 2014.",
+      "status": "verified"
     }
   ]
 }
