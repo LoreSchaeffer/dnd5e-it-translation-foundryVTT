@@ -3,8 +3,8 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1833,
-      "missing": 69,
+      "translated": 1843,
+      "missing": 59,
       "partial": 489,
       "review": 71
     },
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 10081,
-      "missing": 5579,
+      "translated": 10101,
+      "missing": 5559,
       "invariantFailures": 589,
       "englishResiduals": 73,
       "imperialResiduals": 0
     },
-    "blockingIssues": 6178
+    "blockingIssues": 6168
   },
   "packs": [
     {
@@ -536,8 +536,8 @@
       "summary": {
         "documents": {
           "total": 252,
-          "translated": 48,
-          "missing": 61,
+          "translated": 58,
+          "missing": 51,
           "partial": 143,
           "review": 3
         },
@@ -550,8 +550,8 @@
         },
         "fields": {
           "total": 515,
-          "translated": 383,
-          "missing": 132,
+          "translated": 403,
+          "missing": 112,
           "invariantFailures": 549,
           "englishResiduals": 3,
           "imperialResiduals": 0
@@ -797,14 +797,6 @@
           "fieldPath": "system.description.value",
           "name": "Ambusher",
           "sourcePath": "monsterfeatures/ambusher.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "cz1LUaiXG8GshgU9",
-          "name": "Angelic Weapons",
-          "sourcePath": "monsterfeatures/angelic-weapons.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -1268,14 +1260,6 @@
           "sourcePath": "monsterfeatures/blinding-dust.yml"
         },
         {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "8C6hkMXWLeymmJ5C",
-          "name": "Blinding Gaze",
-          "sourcePath": "monsterfeatures/blinding-gaze.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -1394,22 +1378,6 @@
           "fieldPath": "system.description.value",
           "name": "Bound",
           "sourcePath": "monsterfeatures/bound.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "KcUjvqIXZI3APp5a",
-          "name": "Breath Weapons",
-          "sourcePath": "monsterfeatures/breath-weapons.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "7HPC39yg8OYshJos",
-          "name": "Cast a Spell",
-          "sourcePath": "monsterfeatures/cast-a-spell.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -1520,38 +1488,6 @@
           "fieldPath": "system.description.value",
           "name": "Charge",
           "sourcePath": "monsterfeatures/charge.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "ykoo88OJOdfYH7mH",
-          "name": "Charm",
-          "sourcePath": "monsterfeatures/charm.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "dm2G9HupHZbZRvNm",
-          "name": "Children of the Night",
-          "sourcePath": "monsterfeatures/children-of-the-night.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "5rr8YdsGtL8WxEuE",
-          "name": "Chomp",
-          "sourcePath": "monsterfeatures/chomp.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "DPrO7eVVxiKD8QWD",
-          "name": "Claw Attack",
-          "sourcePath": "monsterfeatures/claw-attack.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -1804,14 +1740,6 @@
           "sourcePath": "monsterfeatures/create-specter.yml"
         },
         {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "1XeF2VMMPw7QYffo",
-          "name": "Create Whirlwind",
-          "sourcePath": "monsterfeatures/create-whirlwind.yml"
-        },
-        {
           "code": "foundry-inline-rolls",
           "severity": "blocking",
           "message": "Foundry inline rolls differ from source",
@@ -1930,14 +1858,6 @@
           "fieldPath": "system.description.value",
           "name": "Darkness Aura",
           "sourcePath": "monsterfeatures/darkness-aura.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "bG5Z45jj4wz0N3T6",
-          "name": "Deadly leap",
-          "sourcePath": "monsterfeatures/deadly-leap.yml"
         },
         {
           "code": "html-tag-sequence",

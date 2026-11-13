@@ -1,0 +1,44 @@
+{
+  "monsterfeatures": {
+    "cz1LUaiXG8GshgU9": {
+      "name": "Armi Angeliche",
+      "system.description.value": "<section class=\"secret\"><p>Gli attacchi con arma del [[lookup @name lowercase]]{mostro} sono magici. Quando il [[lookup @name lowercase]]{mostro} colpisce con un'arma, l'arma infligge <strong>4d8 danni <em>radianti</em> extra</strong> (inclusi nell'attacco).</p></section><p>Gli attacchi con arma del [[lookup @name lowercase]]{mostro} sono magici. Quando il [[lookup @name lowercase]]{mostro} colpisce con un'arma, l'arma infligge danni <em>radianti</em> extra (inclusi nell'attacco).</p>"
+    },
+    "8C6hkMXWLeymmJ5C": {
+      "name": "Sguardo Accecante",
+      "system.description.value": "<section class=\"secret\">Il [[lookup @name lowercase]]{mostro} bersaglia una creatura che può vedere entro 9 metri. Se il bersaglio può vederlo, deve superare un tiro salvezza su <strong>Costituzione con CD 15</strong>, altrimenti è accecato finché una magia come l'incantesimo ristorare inferiore non rimuove la cecità.\n</section>\n<p>Il [[lookup @name lowercase]]{mostro} bersaglia una creatura che può vedere entro 9 metri. Se il bersaglio può vederlo, deve superare un tiro salvezza su Costituzione, altrimenti è accecato.</p>"
+    },
+    "KcUjvqIXZI3APp5a": {
+      "name": "Armi a Soffio",
+      "system.description.value": "<section class=\"secret\">\n<p>(<strong>NOTA: QUESTO ELEMENTO DEVE ESSERE USATO SOLTANTO SE LA CREATURA POSSIEDE PIÙ DI UN TIPO DI ARMA A SOFFIO E CONTIENE LE CARICHE PER TALI ARMI A SOFFIO. DEVE ESSERE AGGIUNTA ANCHE OGNI SINGOLA ARMA A SOFFIO.</strong>)</p><p><br />Il [[lookup @details.type.config.label lowercase]]{mostro} usa una delle armi a soffio seguenti.</p><p>**Soffio di Fuoco.** Il [[lookup @details.type.config.label lowercase]]{mostro} esala fuoco in una linea lunga 18 metri e larga 1,5 metri. Ogni creatura su quella linea deve effettuare un tiro salvezza su <strong>Destrezza con CD 18</strong>; se lo fallisce, subisce <strong>45 (13d6) danni <em>da fuoco</em></strong>, mentre se lo supera subisce la metà di quei danni.</p><p>**Soffio Soporifero.** Il [[lookup @details.type.config.label lowercase]]{mostro} esala gas soporifero in un cono di 18 metri. Ogni creatura in quell'area deve superare un tiro salvezza su <strong>Costituzione con CD 18</strong>, altrimenti cade priva di sensi per 10 minuti. L'effetto termina su una creatura se questa subisce danni o se qualcuno usa un'azione per svegliarla.</p>\n</section>\n<p>Il [[lookup @details.type.config.label lowercase]]{mostro} inspira!</p>"
+    },
+    "7HPC39yg8OYshJos": {
+      "name": "Lanciare un Incantesimo",
+      "system.description.value": "<p>Il [[lookup @name lowercase]]{mostro} lancia un incantesimo dalla propria lista di incantesimi preparati, usando normalmente uno slot incantesimo.</p>"
+    },
+    "ykoo88OJOdfYH7mH": {
+      "name": "Charme",
+      "system.description.value": "<section class=\"secret\">\n<p>Un umanoide che il [[lookup @name lowercase]]{mostro} può vedere entro 9 metri deve effettuare un tiro salvezza su <strong>Saggezza</strong>, altrimenti è magicamente affascinato per 1 giorno. Il bersaglio affascinato obbedisce ai comandi verbali o telepatici del [[lookup @name lowercase]]{mostro}.</p><p>Se il bersaglio subisce danni o riceve un comando suicida, può ripetere il tiro salvezza e, se lo supera, l'effetto termina. Se il bersaglio supera il tiro salvezza contro l'effetto o se l'effetto su di lui termina, è immune allo Charme di questo [[lookup @name lowercase]]{mostro} per le 24 ore successive. Il [[lookup @name lowercase]]{mostro} può mantenere affascinato un solo bersaglio alla volta. Se ne affascina un altro, l'effetto sul bersaglio precedente termina.</p>\n</section>\n<p>Un umanoide che il [[lookup @name lowercase]]{mostro} può vedere entro 9 metri deve effettuare un tiro salvezza su <strong>Saggezza</strong>.</p>"
+    },
+    "dm2G9HupHZbZRvNm": {
+      "name": "Figli della Notte",
+      "system.description.value": "<section class=\"secret\"><p>Il [[lookup @name lowercase]]{mostro} richiama magicamente 2d4 sciami di pipistrelli o ratti, purché il sole non sia sorto. Quando si trova all'aperto, il [[lookup @name lowercase]]{mostro} può invece richiamare 3d6 lupi. </p><p>Le creature richiamate arrivano entro 1d4 round, agiscono come alleate del [[lookup @name lowercase]]{mostro} e obbediscono ai suoi comandi verbali. Le bestie rimangono per 1 ora, finché il [[lookup @name lowercase]]{mostro} non muore o finché il [[lookup @name lowercase]]{mostro} non le congeda con un'azione bonus.</p></section><p>Il [[lookup @name lowercase]]{mostro} richiama magicamente sciami di pipistrelli o ratti. Quando si trova all'aperto, il [[lookup @name lowercase]]{mostro} può invece richiamare dei lupi. </p>"
+    },
+    "5rr8YdsGtL8WxEuE": {
+      "name": "Masticare",
+      "system.description.value": "<p>Il [[lookup @name lowercase]]{mostro} effettua un attacco con il morso o usa Inghiottire.</p>"
+    },
+    "DPrO7eVVxiKD8QWD": {
+      "name": "Attacco con Artiglio",
+      "system.description.value": "<p>Il [[lookup @name lowercase]]{mostro} effettua un attacco con l'artiglio.</p>"
+    },
+    "1XeF2VMMPw7QYffo": {
+      "name": "Creare Turbine",
+      "system.description.value": "<section class=\"secret\">\n<p>Un cilindro di aria turbinante con raggio di 1,5 metri e alto 9 metri si forma magicamente in un punto che il [[lookup @name lowercase]]{mostro} può vedere entro 36 metri. Il turbine dura finché il [[lookup @name lowercase]]{mostro} mantiene la concentrazione (come se si concentrasse su un incantesimo).</p><p>Qualsiasi creatura diversa dal [[lookup @name lowercase]]{mostro} che entra nel turbine deve superare un tiro salvezza su <strong>Forza con CD 18</strong>, altrimenti è trattenuta dal turbine. Il [[lookup @name lowercase]]{mostro} può muovere il turbine fino a 18 metri con un'azione e le creature trattenute dal turbine si muovono assieme a esso. Il turbine termina se il [[lookup @name lowercase]]{mostro} lo perde di vista.</p><p>Una creatura può usare la propria azione per liberare una creatura trattenuta dal turbine, inclusa se stessa, superando una prova di Forza con CD 18. Se la prova ha successo, la creatura non è più trattenuta e si muove nello spazio più vicino all'esterno del turbine.</p>\n</section>\n<p>Un cilindro di aria turbinante con raggio di 1,5 metri e alto 9 metri si forma magicamente in un punto che il [[lookup @name lowercase]]{mostro} può vedere entro 36 metri. Qualsiasi creatura diversa dal [[lookup @name lowercase]]{mostro} che entra nel turbine deve effettuare un tiro salvezza su <strong>Forza</strong>, altrimenti è trattenuta dal turbine. Il [[lookup @name lowercase]]{mostro} può muovere il turbine fino a 18 metri con un'azione e le creature trattenute dal turbine si muovono assieme a esso. Una creatura può usare la propria azione per liberare una creatura trattenuta dal turbine, inclusa se stessa, superando una prova di Forza. Se la prova ha successo, la creatura non è più trattenuta e si muove nello spazio più vicino all'esterno del turbine.</p>"
+    },
+    "bG5Z45jj4wz0N3T6": {
+      "name": "Balzo Letale",
+      "system.description.value": "<section class=\"secret\">\n<p>Se il [[lookup @name lowercase]]{mostro} salta di almeno 4,5 metri come parte del proprio movimento, può poi usare questa azione per atterrare in piedi in uno spazio che contiene una o più altre creature.</p><p>Ognuna di tali creature deve superare un tiro salvezza su Forza o Destrezza con CD 16 (a scelta del bersaglio), altrimenti cade prona e subisce <strong>14 (3d6 + 4) danni <em>contundenti</em></strong> più <strong>14 (3d6 + 4) danni <em>taglienti</em></strong>. Se supera il tiro salvezza, la creatura subisce soltanto la metà dei danni, non cade prona e viene spinta di 1,5 metri fuori dallo spazio del [[lookup @name lowercase]]{mostro}, in uno spazio libero a scelta della creatura. Se non esiste alcuno spazio libero entro gittata, la creatura cade invece prona nello spazio del [[lookup @name lowercase]]{mostro}.</p>\n</section>\n<p>Se il [[lookup @name lowercase]]{mostro} salta di almeno 4,5 metri come parte del proprio movimento, può poi usare questa azione per atterrare in piedi in uno spazio che contiene una o più altre creature. Ognuna di tali creature deve effettuare un tiro salvezza su Forza o Destrezza (a scelta del bersaglio), altrimenti cade prona.</p>"
+    }
+  }
+}
