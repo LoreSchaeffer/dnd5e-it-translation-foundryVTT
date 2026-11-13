@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2092,
+      "translated": 2098,
       "missing": 3,
-      "partial": 296,
+      "partial": 290,
       "review": 68
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 13653,
-      "missing": 2007,
+      "translated": 13685,
+      "missing": 1975,
       "invariantFailures": 8,
       "englishResiduals": 139,
       "imperialResiduals": 0
     },
-    "blockingIssues": 2157
+    "blockingIssues": 2125
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 57,
+          "translated": 63,
           "missing": 0,
-          "partial": 280,
+          "partial": 274,
           "review": 67
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 5837,
-          "missing": 1269,
+          "translated": 5869,
+          "missing": 1237,
           "invariantFailures": 8,
           "englishResiduals": 136,
           "imperialResiduals": 0
@@ -633,15 +633,6 @@
           "id": "shhHtE7b92PefCWB",
           "name": "Aboleth",
           "fieldPath": "items[Wpa7li8EJJJ7W3kA].effects[T8WBBooYQiv2Xf0r].description",
-          "sourcePath": "monsters/aberration/aboleth.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "shhHtE7b92PefCWB",
-          "name": "Aboleth",
-          "fieldPath": "items[nb2rVHLawik6EjMJ].system.description.value",
           "sourcePath": "monsters/aberration/aboleth.yml"
         },
         {
@@ -1180,15 +1171,6 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
-          "id": "K5cKmPoFkpuOotis",
-          "name": "Ape",
-          "fieldPath": "items[hbxC3Wg3H8cSIvM0].system.description.value",
-          "sourcePath": "monsters/beast/ape.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
           "id": "D5WjGwKskeUT8HXa",
           "name": "Black Bear",
           "fieldPath": "items[ZBWu2XGwEnsaVNsH].system.description.value",
@@ -1346,15 +1328,6 @@
           "name": "Frog",
           "fieldPath": "items[3CnWEl3LzMTy99vo].system.description.value",
           "sourcePath": "monsters/beast/frog.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "8MuL8xisavJW9bnw",
-          "name": "Giant Ape",
-          "fieldPath": "items[NOajNyilBv8JIEVp].system.description.value",
-          "sourcePath": "monsters/beast/giant-ape.yml"
         },
         {
           "code": "missing-field",
@@ -2911,15 +2884,6 @@
           "pack": "monsters",
           "id": "lOYt73eaJojBDxAV",
           "name": "Solar",
-          "fieldPath": "items[H0o9gjKN8xSdBHdB].system.description.value",
-          "sourcePath": "monsters/celestial/solar.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "lOYt73eaJojBDxAV",
-          "name": "Solar",
           "fieldPath": "items[BSLTe0yfltAnguOT].system.description.value",
           "sourcePath": "monsters/celestial/solar.yml"
         },
@@ -3163,15 +3127,6 @@
           "pack": "monsters",
           "id": "eORmAXuV5v3nWsQL",
           "name": "Animated Armor",
-          "fieldPath": "items[bdRuWKCO8gXQPu16].system.description.value",
-          "sourcePath": "monsters/construct/animated-armor.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "eORmAXuV5v3nWsQL",
-          "name": "Animated Armor",
           "fieldPath": "items[vUqKQJ1GGWbKg6cX].system.description.chat",
           "sourcePath": "monsters/construct/animated-armor.yml"
         },
@@ -3291,15 +3246,6 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
-          "id": "YOqhbf8WsX0jH9Fu",
-          "name": "Clay Golem",
-          "fieldPath": "items[g0R4u7liRAurxB04].system.description.value",
-          "sourcePath": "monsters/construct/clay-golem.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
           "id": "Hm4o2FgPZsdbXjLq",
           "name": "Flesh Golem",
           "fieldPath": "items[Ee9WvQyqy1lRYtuj].system.description.value",
@@ -3321,15 +3267,6 @@
           "id": "Hm4o2FgPZsdbXjLq",
           "name": "Flesh Golem",
           "fieldPath": "items[Ee9WvQyqy1lRYtuj].effects[dCrLkxXwD3UyiD55].description",
-          "sourcePath": "monsters/construct/flesh-golem.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "Hm4o2FgPZsdbXjLq",
-          "name": "Flesh Golem",
-          "fieldPath": "items[mCNNxLGdzy54omRW].system.description.value",
           "sourcePath": "monsters/construct/flesh-golem.yml"
         },
         {
@@ -3650,26 +3587,8 @@
           "pack": "monsters",
           "id": "z85EsGS2GVWj46qE",
           "name": "Shield Guardian",
-          "fieldPath": "items[7R1cDGKMv0mdxaE7].system.description.value",
-          "sourcePath": "monsters/construct/shield-guardian.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "z85EsGS2GVWj46qE",
-          "name": "Shield Guardian",
           "fieldPath": "items[EjeLsaCua7yjgxax].system.description.value",
           "sourcePath": "monsters/construct/shield-guardian.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "z3gSIXHHWYaHjfBT",
-          "name": "Stone Golem",
-          "fieldPath": "items[Ym2CUTgDPucdmj1W].system.description.value",
-          "sourcePath": "monsters/construct/stone-golem.yml"
         },
         {
           "code": "missing-field",
@@ -4649,15 +4568,6 @@
           "pack": "monsters",
           "id": "banHjKDMCegbUwYE",
           "name": "Air Elemental",
-          "fieldPath": "items[IyR3c30mCbL8VMCo].system.description.value",
-          "sourcePath": "monsters/elemental/air-elemental.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "banHjKDMCegbUwYE",
-          "name": "Air Elemental",
           "fieldPath": "items[PVdWTEQBuiAglD7l].system.description.value",
           "sourcePath": "monsters/elemental/air-elemental.yml"
         },
@@ -4720,15 +4630,6 @@
           "sourcePath": "monsters/elemental/azer.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "IiEDPMWqBlzkggYD",
-          "name": "Azer",
-          "fieldPath": "items[YvzdCGQeCV1XOcUt].system.description.chat",
-          "sourcePath": "monsters/elemental/azer.yml"
-        },
-        {
           "code": "unchanged-english",
           "value": "Djinni",
           "message": "Visible translation is identical to the English source",
@@ -4757,15 +4658,6 @@
           "id": "5P1VGAZQwOilwZQf",
           "name": "Djinni",
           "fieldPath": "items[PvddSEYCJ3fSHEOr].system.description.value",
-          "sourcePath": "monsters/elemental/djinni.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "5P1VGAZQwOilwZQf",
-          "name": "Djinni",
-          "fieldPath": "items[Q7JcaZkLaYQq4CE5].system.description.value",
           "sourcePath": "monsters/elemental/djinni.yml"
         },
         {
@@ -4883,15 +4775,6 @@
           "id": "sApYLZj9PTZ40wJr",
           "name": "Earth Elemental",
           "fieldPath": "items[Ctnlm397G5vkwWA4].system.description.value",
-          "sourcePath": "monsters/elemental/earth-elemental.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "sApYLZj9PTZ40wJr",
-          "name": "Earth Elemental",
-          "fieldPath": "items[A8nxS57cG2yZpu1m].system.description.value",
           "sourcePath": "monsters/elemental/earth-elemental.yml"
         },
         {
@@ -5161,15 +5044,6 @@
           "id": "oDspGxRQFBhE74L2",
           "name": "Invisible Stalker",
           "fieldPath": "items[UR2TYdvh0VZzLKyO].effects[7AfkQufSSsgkE4MS].description",
-          "sourcePath": "monsters/elemental/invisible-stalker.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "oDspGxRQFBhE74L2",
-          "name": "Invisible Stalker",
-          "fieldPath": "items[bl0mrJpx4dqL9Ub8].system.description.value",
           "sourcePath": "monsters/elemental/invisible-stalker.yml"
         },
         {
@@ -6820,15 +6694,6 @@
           "pack": "monsters",
           "id": "rUg5JMnKNnZNBAq9",
           "name": "Nalfeshnee",
-          "fieldPath": "items[RFPDYIhkmBW2B47S].effects[8yRrVxNl9Ndvr6F8].description",
-          "sourcePath": "monsters/fiend/nalfeshnee.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "rUg5JMnKNnZNBAq9",
-          "name": "Nalfeshnee",
           "fieldPath": "items[vzwfZvoOTxx0afIN].system.description.value",
           "sourcePath": "monsters/fiend/nalfeshnee.yml"
         },
@@ -7152,15 +7017,6 @@
           "pack": "monsters",
           "id": "qXzMsRTHEodqO8l2",
           "name": "Rakshasa",
-          "fieldPath": "items[18NEVoD84KHDcWoG].system.description.value",
-          "sourcePath": "monsters/fiend/rakshasa.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "qXzMsRTHEodqO8l2",
-          "name": "Rakshasa",
           "fieldPath": "items[pHBLWUN5VKEjSBh6].system.description.value",
           "sourcePath": "monsters/fiend/rakshasa.yml"
         },
@@ -7358,15 +7214,6 @@
           "sourcePath": "monsters/giant/cloud-giant.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "Aw2wmqGIatxe2ImI",
-          "name": "Cloud Giant",
-          "fieldPath": "items[pH1i4SwsZRV3rq3v].system.description.value",
-          "sourcePath": "monsters/giant/cloud-giant.yml"
-        },
-        {
           "code": "unchanged-english",
           "value": "Ettin",
           "message": "Visible translation is identical to the English source",
@@ -7405,33 +7252,6 @@
           "name": "Ettin",
           "fieldPath": "items[FcbmWHMk3H4MGdxy].system.description.value",
           "sourcePath": "monsters/giant/ettin.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "45Z5kogZEhawX1Ey",
-          "name": "Fire Giant",
-          "fieldPath": "items[vgN2DlqQtt77mxKO].system.description.value",
-          "sourcePath": "monsters/giant/fire-giant.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "Buxe6dDK5Mw7kxe6",
-          "name": "Frost Giant",
-          "fieldPath": "items[i49lwJ84vB720EPW].system.description.value",
-          "sourcePath": "monsters/giant/frost-giant.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "9g4N9sjyh8Ql46to",
-          "name": "Hill Giant",
-          "fieldPath": "items[1k58ryEYEYijhYOb].system.description.value",
-          "sourcePath": "monsters/giant/hill-giant.yml"
         },
         {
           "code": "unchanged-english",
@@ -7530,15 +7350,6 @@
           "name": "Oni",
           "fieldPath": "items[QGNzJqfTHnbhjzFN].system.description.value",
           "sourcePath": "monsters/giant/oni.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "SOin81NWijHRvXFK",
-          "name": "Stone Giant",
-          "fieldPath": "items[W7aeXkpOJ1TwM0dq].system.description.value",
-          "sourcePath": "monsters/giant/stone-giant.yml"
         },
         {
           "code": "missing-field",
@@ -8708,15 +8519,6 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
-          "id": "Cy3A0rsNMPLZozam",
-          "name": "Thug",
-          "fieldPath": "items[cac4FpQc3XabBwTj].system.description.value",
-          "sourcePath": "monsters/humanoid/thug.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
           "id": "nREPw9g94Bsb9sIl",
           "name": "Tribal Warrior",
           "fieldPath": "items[KO6Ez3XWFM4iH4zB].system.description.value",
@@ -9313,15 +9115,6 @@
           "pack": "monsters",
           "id": "nEC1BRwM8Lx9hLXW",
           "name": "Androsphinx",
-          "fieldPath": "items[fZY6aMo87z2iSl9Q].system.description.value",
-          "sourcePath": "monsters/monstrosity/androsphinx.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "nEC1BRwM8Lx9hLXW",
-          "name": "Androsphinx",
           "fieldPath": "items[da0a1t2FqaTjRZGT].system.description.value",
           "sourcePath": "monsters/monstrosity/androsphinx.yml"
         },
@@ -9837,15 +9630,6 @@
           "pack": "monsters",
           "id": "PH78NBdvoaszAb61",
           "name": "Death Dog",
-          "fieldPath": "items[EHX3CeEnlmzwnnK5].system.description.value",
-          "sourcePath": "monsters/monstrosity/death-dog.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "PH78NBdvoaszAb61",
-          "name": "Death Dog",
           "fieldPath": "items[3wf78Pnmh9mmlj8p].system.description.value",
           "sourcePath": "monsters/monstrosity/death-dog.yml"
         },
@@ -10277,24 +10061,6 @@
           "id": "6wbasdWWqtXeIAyD",
           "name": "Gynosphinx",
           "fieldPath": "items[kvyuqG5WztblcJXb].system.description.chat",
-          "sourcePath": "monsters/monstrosity/gynosphinx.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "6wbasdWWqtXeIAyD",
-          "name": "Gynosphinx",
-          "fieldPath": "items[hVUH6pBt7hYD84ez].system.description.value",
-          "sourcePath": "monsters/monstrosity/gynosphinx.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "6wbasdWWqtXeIAyD",
-          "name": "Gynosphinx",
-          "fieldPath": "items[7ttJw5cEHPyb5ETl].system.description.value",
           "sourcePath": "monsters/monstrosity/gynosphinx.yml"
         },
         {
@@ -12073,27 +11839,9 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
-          "id": "NB6wUgVqeOQtsQKu",
-          "name": "Treant",
-          "fieldPath": "items[BLz58sp79C2HvinU].system.description.value",
-          "sourcePath": "monsters/plant/treant.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
           "id": "7EmUVycEASn7SFL0",
           "name": "Violet Fungus",
           "fieldPath": "items[OEx9iy4HDipiYsPt].system.description.chat",
-          "sourcePath": "monsters/plant/violet-fungus.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "7EmUVycEASn7SFL0",
-          "name": "Violet Fungus",
-          "fieldPath": "items[wjDktLNTUnueuX2X].system.description.value",
           "sourcePath": "monsters/plant/violet-fungus.yml"
         },
         {
@@ -12302,15 +12050,6 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
-          "id": "IyIybE5t2adMEVUM",
-          "name": "Ghast",
-          "fieldPath": "items[ricjyd1SKzeQ5gQE].effects[mY7AkNbYbelLX5pT].description",
-          "sourcePath": "monsters/undead/ghast.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
           "id": "qoFEjfrANBdrCP6m",
           "name": "Ghost",
           "fieldPath": "items[tjrDz1IWVcjF7PMl].system.description.value",
@@ -12426,15 +12165,6 @@
           "id": "OBujQLLPSmlJiZnL",
           "name": "Ghoul",
           "fieldPath": "items[ArxzPC3rsBztgUvI].system.activities.eUhLoDYzWkXnIKKj.description.value",
-          "sourcePath": "monsters/undead/ghoul.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "OBujQLLPSmlJiZnL",
-          "name": "Ghoul",
-          "fieldPath": "items[ArxzPC3rsBztgUvI].effects[ATi5lRucZ2E2Dgsd].description",
           "sourcePath": "monsters/undead/ghoul.yml"
         },
         {
@@ -13293,15 +13023,6 @@
           "pack": "monsters",
           "id": "DDO9lDCDtNHkfShP",
           "name": "Vampire",
-          "fieldPath": "items[rEmbKJQ6mpvnUPOO].system.description.value",
-          "sourcePath": "monsters/undead/vampire.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "DDO9lDCDtNHkfShP",
-          "name": "Vampire",
           "fieldPath": "items[pW4iNTQphTJ3litv].system.description.value",
           "sourcePath": "monsters/undead/vampire.yml"
         },
@@ -13545,15 +13266,6 @@
           "id": "ET4PEVEiNJLU4f7c",
           "name": "Wraith",
           "fieldPath": "items[RADMbiPme1Hrfu8E].system.description.value",
-          "sourcePath": "monsters/undead/wraith.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ET4PEVEiNJLU4f7c",
-          "name": "Wraith",
-          "fieldPath": "items[RADMbiPme1Hrfu8E].system.description.chat",
           "sourcePath": "monsters/undead/wraith.yml"
         },
         {

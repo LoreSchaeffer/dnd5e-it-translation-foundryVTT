@@ -3,8 +3,16 @@ import path from "node:path";
 
 import { loadBabelePack } from "./lib/babele-inventory.mjs";
 import { IN_SCOPE_PACKS, resolvePaths } from "./lib/config.mjs";
-import { buildExactMemory, configuredFolderTranslation, configuredMissingOverrides, exactMissingOverrides } from "./lib/exact-memory.mjs";
+import {
+  buildExactMemory,
+  buildExactSegmentMemory,
+  configuredFolderTranslation,
+  configuredMissingOverrides,
+  exactMissingOverrides,
+  segmentMissingOverrides
+} from "./lib/exact-memory.mjs";
 import { applyFieldOverrides, entryKeyForRecord } from "./lib/field-overrides.mjs";
+import { monsterPatternMissingOverrides } from "./lib/monster-patterns.mjs";
 import { loadSourcePack } from "./lib/source-inventory.mjs";
 
 async function exists(filePath) {
@@ -50,6 +58,7 @@ async function main() {
     }
   }
   const memory = buildExactMemory(pairs);
+  const segmentMemory = buildExactSegmentMemory(pairs);
   const phrases = args.phrasesPath
     ? JSON.parse(await readFile(path.resolve(args.phrasesPath), "utf8"))
     : {};
@@ -68,6 +77,8 @@ async function main() {
     for (const record of source.filter(item => item.kind === "document")) {
       const translated = byKey.get(record.id) ?? byKey.get(record.name);
       const overrides = {
+        ...(pack === "monsters" ? monsterPatternMissingOverrides(record, translated?.data ?? {}) : {}),
+        ...segmentMissingOverrides(record, translated?.data ?? {}, segmentMemory),
         ...exactMissingOverrides(record, translated?.data ?? {}, memory),
         ...configuredMissingOverrides(record, translated?.data ?? {}, phrases)
       };

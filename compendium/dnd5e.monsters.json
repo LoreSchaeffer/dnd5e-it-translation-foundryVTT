@@ -174,7 +174,8 @@
             "xbxszLunGICQBT4a": {
               "name": "Colpo di Coda"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua un attacco con [[/item .FwOZEwx7MPDq8Igu]]{Coda}.</p>"
         },
         "FwOZEwx7MPDq8Igu": {
           "name": "Coda",
@@ -454,7 +455,8 @@
             "dnd5eactivity000": {
               "name": "Colpire"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua un attacco con [[/item .yotsIj19d5spOVGb]]{Artigli}.</p>"
         },
         "COSA7NBYXiWccqNu": {
           "name": "Lanciare un Incantesimo",
@@ -753,7 +755,8 @@
           "description": "<p>Finché l'[[lookup @name lowercase]]{monster} rimane immobile, non è distinguibile da un'&lt;oggetto comune&gt;&nbsp;normale.</p>"
         },
         "bdRuWKCO8gXQPu16": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua due attacchi con [[/item .vUqKQJ1GGWbKg6cX]]{Mischia}.</p>"
         },
         "vUqKQJ1GGWbKg6cX": {
           "name": "Schianto",
@@ -993,7 +996,8 @@
           "description": "<p>Il [[lookup @name lowercase]]{mostro} diffonde &amp;reference[bright light] entro un raggio di 3 metri e &amp;reference[dim light] per altri 3 metri.</p>"
         },
         "YvzdCGQeCV1XOcUt": {
-          "name": "Martello da Guerra"
+          "name": "Martello da Guerra",
+          "chat": "<section></section><p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
         }
       },
       "details": {
@@ -1371,7 +1375,8 @@
           }
         },
         "bl0mrJpx4dqL9Ub8": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua due attacchi con [[/item .rpKiEPQVeOZTLwjf]]{Schianto}.</p>"
         },
         "rpKiEPQVeOZTLwjf": {
           "name": "Schianto",
@@ -1424,7 +1429,8 @@
           }
         },
         "EHX3CeEnlmzwnnK5": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua due attacchi con [[/item .TKV9mS1lvqMAyCaB]]{Morso}.</p>"
         },
         "3wf78Pnmh9mmlj8p": {
           "name": "Due Teste"
@@ -2894,7 +2900,8 @@
           "name": "Incantesimi Innati"
         },
         "Q7JcaZkLaYQq4CE5": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua tre attacchi con [[/item .DGP7lnAJT1cv8SA4]]{Scimitarra}.</p>"
         },
         "DGP7lnAJT1cv8SA4": {
           "name": "Scimitarra"
@@ -6670,7 +6677,8 @@
           "description": "<p>Il [[lookup @name lowercase]]{mostro} può entrare nello spazio di una creatura ostile e fermarsi al suo interno. Può attraversare uno spazio largo appena 2,5 cm senza &amp;reference[squeezing]{stringersi}.</p>"
         },
         "IyR3c30mCbL8VMCo": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua due attacchi con [[/item .qzLZFBO75loU77TZ]]{Schianto}.</p>"
         },
         "PVdWTEQBuiAglD7l": {
           "name": "Vortice",
@@ -6706,7 +6714,8 @@
           "name": "Scivolare nella Terra"
         },
         "A8nxS57cG2yZpu1m": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua due attacchi con [[/item .2AD5aTLMPDmQFhGZ]]{Schianto}.</p>"
         },
         "k8x76Y7EMOOH2VM0": {
           "name": "Mostro da Assedio",
@@ -7158,7 +7167,8 @@
                 "name": "Attacchi con Tocco Putrescente"
               }
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua 1d4 attacchi con [[/item .OEx9iy4HDipiYsPt]]{Tocco Putrescente}.</p>"
         },
         "fZgfSlczUTtrCNEb": {
           "name": "Falso Aspetto"
@@ -7404,7 +7414,8 @@
         "ricjyd1SKzeQ5gQE": {
           "effects": {
             "mY7AkNbYbelLX5pT": {
-              "name": "Paralisi"
+              "name": "Paralisi",
+              "description": "<p>Sei &amp;reference[paralyzed apply=false] per la durata.</p><p>Puoi ripetere il tiro salvezza alla fine di ciascun tuo turno e, se lo superi, l'effetto su di te termina.</p>"
             }
           },
           "name": "Artigli",
@@ -7433,7 +7444,8 @@
         "ArxzPC3rsBztgUvI": {
           "effects": {
             "ATi5lRucZ2E2Dgsd": {
-              "name": "Paralisi"
+              "name": "Paralisi",
+              "description": "<p>Sei &amp;reference[paralyzed apply=false] per la durata.</p><p>Puoi ripetere il tiro salvezza alla fine di ciascun tuo turno e, se lo superi, l'effetto su di te termina.</p>"
             }
           },
           "name": "Artigli",
@@ -7462,7 +7474,8 @@
           "description": "<p>Quest’armatura consiste di piastre di metallo sagomate a incastro che coprono l’intero corpo. Un’armatura di piastre comprende guanti, stivali di cuoio pesanti, un elmo con visiera, e uno spesso strato di imbottitura sotto l’armatura. Fibbie e lacci distribuiscono il peso dell’armatura su tutto il corpo.</p>"
         },
         "vgN2DlqQtt77mxKO": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua due attacchi con [[/item .c8b8jy3sM3Z8gxm0]]{Spadone}.</p>"
         },
         "c8b8jy3sM3Z8gxm0": {
           "name": "Spadone",
@@ -7495,7 +7508,8 @@
           "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
         },
         "i49lwJ84vB720EPW": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua due attacchi con [[/item .LVOGKiIm4UTD4fpj]]{Ascia Bipenne}.</p>"
         },
         "gCi538awNcOfcZf7": {
           "name": "Roccia",
@@ -7514,7 +7528,8 @@
       },
       "items": {
         "1k58ryEYEYijhYOb": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua due attacchi con [[/item .250gOq5bpqIHb7rw]]{Randello Pesante}.</p>"
         },
         "250gOq5bpqIHb7rw": {
           "name": "Randello Pesante",
@@ -7541,7 +7556,8 @@
           "name": "Incantesimi Innati"
         },
         "pH1i4SwsZRV3rq3v": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua due attacchi con [[/item .Jr0CfxY8xuFT6hoa]]{Stella del Mattino}.</p>"
         },
         "ghXTfe7sgCbgf1Q8": {
           "name": "Individuazione del Magico",
@@ -7615,7 +7631,8 @@
           "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
         },
         "W7aeXkpOJ1TwM0dq": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua due attacchi con [[/item .Tm2NY0eSI6InRcsa]]{Randello Pesante}.</p>"
         },
         "HxKKuoyc6AYGLsIX": {
           "name": "Afferrare Roccia",
@@ -7722,7 +7739,8 @@
       },
       "items": {
         "hVUH6pBt7hYD84ez": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua due attacchi con [[/item .gVFZXBtgx450yiH7]]{Artigli}.</p>"
         },
         "Utk1OQRwYkMkFRD3": {
           "name": "Mano Magica",
@@ -7820,7 +7838,8 @@
             "pN1kH4YLKQPIQElZ": {
               "name": "Colpire"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua un attacco con [[/item .gVFZXBtgx450yiH7]]{Artigli}.</p>"
         },
         "V0O6My4SjXUmirH6": {
           "name": "Lanciare un Incantesimo",
@@ -8148,7 +8167,8 @@
           }
         },
         "g0R4u7liRAurxB04": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua due attacchi con [[/item .vEEJei0CNaNbfQ2w]]{Schianto}.</p>"
         },
         "K5xMZVNv8m2Pw87E": {
           "name": "Berserk",
@@ -8205,7 +8225,8 @@
           }
         },
         "mCNNxLGdzy54omRW": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua due attacchi con [[/item .mjn0iMGrjGTOn42w]]{Schianto}.</p>"
         },
         "Et4wxxXo9aoxv3C8": {
           "name": "Resistenza Magica",
@@ -8322,7 +8343,8 @@
       },
       "items": {
         "Ym2CUTgDPucdmj1W": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua due attacchi con [[/item .DelAxHnRbNHC6OoV]]{Schianto}.</p>"
         },
         "9aTwUWuZQLhMxjcD": {
           "name": "Lentezza",
@@ -8416,7 +8438,8 @@
       },
       "items": {
         "hbxC3Wg3H8cSIvM0": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua due attacchi con [[/item .jxC1VNaCf2VXlD6C]]{Pugno}.</p>"
         },
         "jxC1VNaCf2VXlD6C": {
           "name": "Pugno",
@@ -8440,7 +8463,8 @@
       },
       "items": {
         "NOajNyilBv8JIEVp": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua due attacchi con [[/item .N86NeUNsfvruyJGq]]{Pugno}.</p>"
         },
         "N86NeUNsfvruyJGq": {
           "name": "Pugno",
@@ -8643,7 +8667,8 @@
           }
         },
         "7R1cDGKMv0mdxaE7": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua due attacchi con [[/item .r6GQ1TwNK7pinX0a]]{Pugno}.</p>"
         },
         "EjeLsaCua7yjgxax": {
           "name": "Scudo",
@@ -9966,7 +9991,8 @@
           "description": "<p>Il corpetto e le protezioni delle spalle di questa armatura sono fatte di cuoio indurito dopo essere stato bollito nell’olio. Il resto dell’armatura è composto di materiali più morbidi e flessibili.</p>"
         },
         "cac4FpQc3XabBwTj": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua due attacchi con [[/item .6gRu9IFFkvxesFfK]]{Mischia}.</p>"
         },
         "9INT7D1zulhfsok7": {
           "name": "Balestra Pesante",
@@ -11142,7 +11168,8 @@
           "name": "Nembo di Orrore",
           "effects": {
             "8yRrVxNl9Ndvr6F8": {
-              "name": "Nembo di Orrore"
+              "name": "Nembo di Orrore",
+              "description": "<p>Sei &amp;reference[frightened apply=false] per 1 minuto.</p><p>Puoi ripetere il tiro salvezza alla fine di ciascun tuo turno e, se lo superi, l'effetto su di te termina.</p>"
             }
           },
           "activities": {
@@ -12477,7 +12504,8 @@
           "name": "Incantesimi Innati"
         },
         "18NEVoD84KHDcWoG": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua due attacchi con [[/item .pHBLWUN5VKEjSBh6]]{Artigli}.</p>"
         },
         "ppWAAEul0QHtm4er": {
           "name": "Individuazione dei Pensieri",
@@ -13826,7 +13854,8 @@
           "name": "Incantesimi Innati"
         },
         "H0o9gjKN8xSdBHdB": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua due attacchi con [[/item .QssrfCioglFdfd8I]]{Spadone}.</p>"
         },
         "QssrfCioglFdfd8I": {
           "name": "Spadone",
@@ -14866,7 +14895,8 @@
           "name": "Falso Aspetto"
         },
         "BLz58sp79C2HvinU": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua due attacchi con [[/item .lisZZTaupqInGEi1]]{Schianto}.</p>"
         },
         "RMsSkfIx97Hnqf37": {
           "name": "Mostro da Assedio",
@@ -15095,7 +15125,8 @@
             "sk0ZwLBldThMcfPN": {
               "name": "Colpire"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua un [[/item .jYBYvv9EF1UnOvqZ]]{Colpo Senz'Armi}.</p>"
         },
         "pW4iNTQphTJ3litv": {
           "name": "Morso",
@@ -15505,7 +15536,8 @@
             "vNy9KUqUheOdKL27": {
               "name": "Animare Spettro"
             }
-          }
+          },
+          "chat": "<p>Lo spirito del bersaglio si anima come spettro nello spazio del suo cadavere o nello spazio libero più vicino.</p>"
         },
         "JChE5zlDJSnSvPzf": {
           "name": "Movimento Incorporeo",

@@ -47,3 +47,47 @@ test("configured folder translation preserves an existing value", () => {
   assert.equal(exactMemory.configuredFolderTranslation("Beast", "Bestie esistente", { Beast: "Bestia" }), "Bestie esistente");
   assert.equal(exactMemory.configuredFolderTranslation("Unknown", undefined, { Beast: "Bestia" }), undefined);
 });
+
+test("stitches only fully known translated HTML segments", () => {
+  assert.equal(typeof exactMemory.buildExactSegmentMemory, "function");
+  assert.equal(typeof exactMemory.segmentMissingOverrides, "function");
+  const first = record("a", "First", "<p>First rule.</p><p>Shared rule.</p>");
+  const second = record("b", "Second", "<p>Second rule.</p>");
+  const memory = exactMemory.buildExactSegmentMemory([
+    { source: first, translation: { name: "Primo", description: "<p>Prima regola.</p><p>Regola condivisa.</p>" } },
+    { source: second, translation: { name: "Secondo", description: "<p>Seconda regola.</p>" } }
+  ]);
+
+  assert.deepEqual(
+    exactMemory.segmentMissingOverrides(
+      record("c", "Combined", "<p>First rule.</p><p>Second rule.</p>"),
+      {},
+      memory
+    ),
+    { "system.description.value": "<p>Prima regola.</p><p>Seconda regola.</p>" }
+  );
+  assert.deepEqual(
+    exactMemory.segmentMissingOverrides(
+      record("d", "Partial", "<p>First rule.</p><p>Unknown rule.</p>"),
+      {},
+      memory
+    ),
+    {}
+  );
+});
+
+test("segment memory rejects ambiguity and changed Foundry mechanics", () => {
+  const source = record("a", "Breath", "<p>Take [[/damage 2d6 fire]] damage.</p>");
+  const conflicting = record("b", "Breath 2", "<p>Take [[/damage 2d6 fire]] damage.</p>");
+  const memory = exactMemory.buildExactSegmentMemory([
+    { source, translation: { name: "Soffio", description: "<p>Subisci [[/damage 2d6 fire]] danni.</p>" } },
+    { source: conflicting, translation: { name: "Soffio 2", description: "<p>Ricevi [[/damage 2d6 fire]] danni.</p>" } },
+    {
+      source: record("c", "Broken", "<p>Roll [[/save ability=dex]].</p>"),
+      translation: { name: "Rotto", description: "<p>Tira [[/save ability=con]].</p>" }
+    }
+  ]);
+
+  assert.equal(memory.has("Take [[/damage 2d6 fire]] damage."), false);
+  assert.equal(memory.has("Roll [[/save ability=dex]]."), false);
+});
