@@ -2103,6 +2103,14 @@
         },
         {
           "pack": "items",
+          "id": "1RwJWOAeyoideLKe",
+          "name": "Orb of Dragonkind",
+          "sourcePath": "items/equipment/orb-of-dragonkind.yml",
+          "lookupKey": "Orb of Dragonkind",
+          "matchedLookupKey": "Orb of Dragonkind"
+        },
+        {
+          "pack": "items",
           "id": "ecz2fVDyAg8YgJGe",
           "name": "Pack Saddle",
           "sourcePath": "items/equipment/pack-saddle.yml",
@@ -7040,41 +7048,6 @@
       ],
       "needsTranslation": [],
       "manualReview": [
-        {
-          "pack": "items",
-          "id": "1RwJWOAeyoideLKe",
-          "name": "Orb of Dragonkind",
-          "sourcePath": "items/equipment/orb-of-dragonkind.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Orb of Dragonkind",
-          "matchedLookupKey": "Orb of Dragonkind",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "1RwJWOAeyoideLKe",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "1RwJWOAeyoideLKe",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-references",
-              "severity": "blocking",
-              "message": "Foundry reference targets or order differ from source",
-              "pack": "items",
-              "id": "1RwJWOAeyoideLKe",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
         {
           "pack": "items",
           "id": "2ksm2KXCY3vBHTAx",
