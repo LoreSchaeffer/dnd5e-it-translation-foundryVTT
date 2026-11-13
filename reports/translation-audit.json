@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2178,
+      "translated": 2179,
       "missing": 3,
-      "partial": 210,
+      "partial": 209,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14275,
-      "missing": 1385,
+      "translated": 14276,
+      "missing": 1384,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1390
+    "blockingIssues": 1389
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 143,
+          "translated": 144,
           "missing": 0,
-          "partial": 194,
+          "partial": 193,
           "review": 0
         },
         "folders": {
@@ -578,23 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6459,
-          "missing": 647,
+          "translated": 6460,
+          "missing": 646,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "D5rwVIxmfFrdyyxT",
-          "name": "Poisonous Snake",
-          "fieldPath": "items[obYv0JJqJiMTsoIF].system.description.value",
-          "sourcePath": "monsters/beast/poisonous-snake.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
