@@ -53,10 +53,12 @@
         },
         "Bnn9Nzajixvow9xi": {
           "name": "Luce",
-          "materials": "una lucciola o del muschio fosforescente"
+          "materials": "una lucciola o del muschio fosforescente",
+          "description": "<p>Tocchi un oggetto che non sia più grande di 3 metri in alcuna dimensione. Finché l'incantesimo non termina, l'oggetto proietta luce intensa entro un raggio di 6 metri e luce fioca per altri 6 metri. La luce può essere del colore che preferisci. Coprire completamente l'oggetto con qualcosa di opaco blocca la luce. L'incantesimo termina se lo lanci di nuovo o lo interrompi con un'azione.</p><p>Se bersagli un oggetto impugnato o indossato da una creatura ostile, quella creatura deve superare un tiro salvezza su Destrezza per evitare l'incantesimo.</p>"
         },
         "n9pJzTDsAwQxJVRl": {
-          "name": "Fiamma Sacra"
+          "name": "Fiamma Sacra",
+          "description": "<p>Una luminosità simile a una fiamma scende su una creatura che puoi vedere entro gittata. Il bersaglio deve superare un tiro salvezza su Destrezza, altrimenti subisce 1d8 danni radiosi. Il bersaglio non ottiene alcun beneficio dalla copertura per questo tiro salvezza.</p><p>I danni dell'incantesimo aumentano di 1d8 quando raggiungi il 5° livello (2d8), l'11° livello (3d8) e il 17° livello (4d8).</p>"
         },
         "MUO1uYN7JR1hm4dR": {
           "name": "Taumaturgia"
@@ -73,7 +75,8 @@
         },
         "gvdA9nPuWLck4tBl": {
           "name": "Santuario",
-          "materials": "uno specchietto d'argento"
+          "materials": "uno specchietto d'argento",
+          "description": "<p>Proteggi dagli attacchi una creatura entro gittata. Finché l'incantesimo non termina, ogni creatura che bersaglia la creatura protetta con un attacco o un incantesimo nocivo deve prima effettuare un tiro salvezza su Saggezza. Se lo fallisce, deve scegliere un nuovo bersaglio o perdere l'attacco o l'incantesimo. Questo incantesimo non protegge la creatura dagli effetti ad area, come l'esplosione di una Palla di Fuoco.</p><p>Se la creatura protetta effettua un attacco o lancia un incantesimo che influenza una creatura nemica, questo incantesimo termina.</p>"
         },
         "uUWb1wZgtMou0TVP": {
           "name": "Cura Ferite",
@@ -100,11 +103,23 @@
           "name": "Risucchio Psichico"
         },
         "dZWUNgKiLNxVg983": {
-          "name": "Nube di Muco"
+          "name": "Nube di Muco",
+          "activities": {
+            "nX5qzCnfrU3bnnwJ": {
+              "name": "Tiro Salvezza contro Malattia"
+            }
+          }
         },
         "R5sQYgehDyPiDyyE": {
           "name": "Telepatia Indagatrice",
           "description": "<p>Se una creatura comunica telepaticamente con il [[lookup @name lowercase]]{mostro}, il [[lookup @name lowercase]]{mostro} apprende i desideri più profondi della creatura, purché il [[lookup @name lowercase]]{mostro} possa vederla.</p>"
+        },
+        "sgauK8Lyt8qxsxOH": {
+          "activities": {
+            "2AhbLrAoCDOfslUv": {
+              "name": "Tiro Salvezza contro Malattia"
+            }
+          }
         }
       }
     },
@@ -174,7 +189,8 @@
           "name": "Multiattacco"
         },
         "n9pJzTDsAwQxJVRl": {
-          "name": "Fiamma Sacra"
+          "name": "Fiamma Sacra",
+          "description": "<p>Una luminosità simile a una fiamma scende su una creatura che puoi vedere entro gittata. Il bersaglio deve superare un tiro salvezza su Destrezza, altrimenti subisce 1d8 danni radiosi. Il bersaglio non ottiene alcun beneficio dalla copertura per questo tiro salvezza.</p><p>I danni dell'incantesimo aumentano di 1d8 quando raggiungi il 5° livello (2d8), l'11° livello (3d8) e il 17° livello (4d8).</p>"
         },
         "8zT7njvqbpXs4Cel": {
           "name": "Salvare i Morenti"
@@ -242,13 +258,29 @@
           "name": "Imperscrutabile"
         },
         "ez87kySQJgKUPT9L": {
-          "name": "Ruggito"
+          "name": "Ruggito",
+          "activities": {
+            "YEy36H064rrzAAxY": {
+              "name": "Primo Ruggito"
+            },
+            "bw7Ol7mkkyDDH3LD": {
+              "name": "Secondo Ruggito"
+            },
+            "euc6EMlISPKQtmY5": {
+              "name": "Terzo Ruggito"
+            }
+          }
         },
         "fZY6aMo87z2iSl9Q": {
           "name": "Attacco con Artiglio"
         },
         "COSA7NBYXiWccqNu": {
-          "name": "Lanciare un Incantesimo"
+          "name": "Lanciare un Incantesimo",
+          "activities": {
+            "dnd5eactivity000": {
+              "name": "Lancia Incantesimo"
+            }
+          }
         }
       }
     },
@@ -278,6 +310,9 @@
         "QaRbm71tWEQzR4GK": {
           "name": "Multiattacco"
         }
+      },
+      "details": {
+        "alignment": "Neutrale Buono"
       }
     },
     "Archmage": {
@@ -295,7 +330,8 @@
         },
         "Bnn9Nzajixvow9xi": {
           "name": "Luce",
-          "materials": "una lucciola o del muschio fosforescente"
+          "materials": "una lucciola o del muschio fosforescente",
+          "description": "<p>Tocchi un oggetto che non sia più grande di 3 metri in alcuna dimensione. Finché l'incantesimo non termina, l'oggetto proietta luce intensa entro un raggio di 6 metri e luce fioca per altri 6 metri. La luce può essere del colore che preferisci. Coprire completamente l'oggetto con qualcosa di opaco blocca la luce. L'incantesimo termina se lo lanci di nuovo o lo interrompi con un'azione.</p><p>Se bersagli un oggetto impugnato o indossato da una creatura ostile, quella creatura deve superare un tiro salvezza su Destrezza per evitare l'incantesimo.</p>"
         },
         "Utk1OQRwYkMkFRD3": {
           "name": "Mano Magica",
@@ -506,6 +542,9 @@
         "d7ERliHkrcvQAF1X": {
           "name": "Falce Mietitrice"
         }
+      },
+      "details": {
+        "alignment": "Neutrale Malvagio"
       }
     },
     "Vulture": {
@@ -531,6 +570,9 @@
         "01lZFom0RUWOtUMF": {
           "name": "Tattiche del Branco"
         }
+      },
+      "details": {
+        "alignment": "Neutrale Malvagio"
       }
     },
     "Azer": {
@@ -655,6 +697,9 @@
         "0QJeW80m89X0RLNz": {
           "name": "Inghiottire"
         }
+      },
+      "details": {
+        "alignment": "Neutrale Malvagio"
       }
     },
     "Berserker": {
@@ -755,6 +800,9 @@
         "bl0mrJpx4dqL9Ub8": {
           "name": "Multiattacco"
         }
+      },
+      "details": {
+        "alignment": "Neutrale"
       }
     },
     "Camel": {
@@ -775,7 +823,12 @@
       },
       "items": {
         "TKV9mS1lvqMAyCaB": {
-          "name": "Morso"
+          "name": "Morso",
+          "activities": {
+            "7RkSJfzdID9Ccqmn": {
+              "name": "Tiro Salvezza contro Malattia"
+            }
+          }
         },
         "EHX3CeEnlmzwnnK5": {
           "name": "Multiattacco"
@@ -783,6 +836,9 @@
         "3wf78Pnmh9mmlj8p": {
           "name": "Due Teste"
         }
+      },
+      "details": {
+        "alignment": "Neutrale Malvagio"
       }
     },
     "Blink Dog": {
@@ -797,6 +853,9 @@
         "1IE8rHcJIihDWCda": {
           "name": "Teletrasporto"
         }
+      },
+      "details": {
+        "alignment": "Legale Buono"
       }
     },
     "Bandit Captain": {
@@ -926,6 +985,9 @@
         "lzv29dS3tAUUuVlI": {
           "name": "Zoccoli"
         }
+      },
+      "details": {
+        "alignment": "Neutrale Malvagio"
       }
     },
     "Riding Horse": {
@@ -977,6 +1039,9 @@
         "ICbiLFrPjwIfA1Nj": {
           "name": "Zoccoli"
         }
+      },
+      "details": {
+        "alignment": "Neutrale Buono"
       }
     },
     "Awakened Shrub": {
@@ -1066,6 +1131,9 @@
         "zzskoOXzAiMDZfbc": {
           "name": "Mutaforma"
         }
+      },
+      "details": {
+        "alignment": "Neutrale Malvagio"
       }
     },
     "Kobold": {
@@ -1123,7 +1191,12 @@
       "name": "Cockatrice",
       "items": {
         "gpxvIs8yjQ4awt4s": {
-          "name": "Morso"
+          "name": "Morso",
+          "activities": {
+            "Q4A4M8mrHIRdX3JM": {
+              "name": "Tiro Salvezza contro Pietrificazione"
+            }
+          }
         }
       }
     },
@@ -1189,7 +1262,8 @@
         },
         "gvdA9nPuWLck4tBl": {
           "name": "Santuario",
-          "materials": "uno specchietto d'argento"
+          "materials": "uno specchietto d'argento",
+          "description": "<p>Proteggi dagli attacchi una creatura entro gittata. Finché l'incantesimo non termina, ogni creatura che bersaglia la creatura protetta con un attacco o un incantesimo nocivo deve prima effettuare un tiro salvezza su Saggezza. Se lo fallisce, deve scegliere un nuovo bersaglio o perdere l'attacco o l'incantesimo. Questo incantesimo non protegge la creatura dagli effetti ad area, come l'esplosione di una Palla di Fuoco.</p><p>Se la creatura protetta effettua un attacco o lancia un incantesimo che influenza una creatura nemica, questo incantesimo termina.</p>"
         },
         "z1mx84ONwkXKUZd7": {
           "name": "Scudo",
@@ -1197,7 +1271,8 @@
             "6pbotGIvqQkraPva": {
               "name": "Scudo"
             }
-          }
+          },
+          "description": "<p>Una barriera invisibile di forza magica appare e ti protegge. Fino all'inizio del tuo turno successivo ottieni un bonus di +5 alla CA, incluso contro l'attacco innescante, e non subisci danni da dardo incantato.</p>"
         },
         "kSPRpeIx3w3nihrF": {
           "name": "Sogno",
@@ -1217,6 +1292,9 @@
         "KtxEQuB9SXybD09z": {
           "name": "Armi Magiche"
         }
+      },
+      "details": {
+        "alignment": "Legale Buono"
       }
     },
     "Gelatinous Cube": {
@@ -1320,6 +1398,9 @@
         "KRskTTMCEepXUPwU": {
           "name": "Armi Angeliche"
         }
+      },
+      "details": {
+        "alignment": "Legale Buono"
       }
     },
     "Bearded Devil": {
@@ -1445,7 +1526,12 @@
           "name": "Armi Magiche"
         },
         "wkqjn4bqhPIUUo7k": {
-          "name": "Aura di Paura"
+          "name": "Aura di Paura",
+          "effects": {
+            "7nIc5RnZTZ9Eocv8": {
+              "name": "Terrorizzato"
+            }
+          }
         }
       }
     },
@@ -1566,6 +1652,9 @@
         "nE7YNnVM7srBcdfl": {
           "name": "Creare Turbine"
         }
+      },
+      "details": {
+        "alignment": "Caotico Buono"
       }
     },
     "Weasel": {
@@ -1603,11 +1692,19 @@
           "name": "Lettura del Pensiero"
         },
         "cG4WdhcrTZt6rxUi": {
-          "name": "Mutaforma"
+          "name": "Mutaforma",
+          "activities": {
+            "5KkQshkuWVmkFHqv": {
+              "name": "Cambia Aspetto"
+            }
+          }
         },
         "hq6GWkSXkspcOLv3": {
           "name": "Attacco a Sorpresa"
         }
+      },
+      "details": {
+        "alignment": "Neutrale"
       }
     },
     "Adult Blue Dracolich": {
@@ -1643,7 +1740,12 @@
           "name": "Azioni Leggendarie"
         },
         "vln3DAK5YQJNWMty": {
-          "name": "Presenza Terrificante"
+          "name": "Presenza Terrificante",
+          "effects": {
+            "JG2uXIqEJlTnRHpq": {
+              "name": "Presenza Terrificante"
+            }
+          }
         }
       }
     },
@@ -1677,7 +1779,12 @@
           }
         },
         "DeqgPZF8smOMxmVH": {
-          "name": "Presenza Terrificante"
+          "name": "Presenza Terrificante",
+          "effects": {
+            "JG2uXIqEJlTnRHpq": {
+              "name": "Presenza Terrificante"
+            }
+          }
         }
       }
     },
@@ -1752,7 +1859,12 @@
           }
         },
         "xWSOEwthNmDecfQ8": {
-          "name": "Presenza Terrificante"
+          "name": "Presenza Terrificante",
+          "effects": {
+            "JG2uXIqEJlTnRHpq": {
+              "name": "Presenza Terrificante"
+            }
+          }
         }
       }
     },
@@ -1783,7 +1895,12 @@
           }
         },
         "HDGLlSq9suLd9DIn": {
-          "name": "Presenza Terrificante"
+          "name": "Presenza Terrificante",
+          "effects": {
+            "JG2uXIqEJlTnRHpq": {
+              "name": "Presenza Terrificante"
+            }
+          }
         }
       }
     },
@@ -1866,8 +1983,16 @@
           "name": "Armi a Soffio"
         },
         "6CFNRWnWv0IY4aJC": {
-          "name": "Presenza Terrificante"
+          "name": "Presenza Terrificante",
+          "effects": {
+            "JG2uXIqEJlTnRHpq": {
+              "name": "Presenza Terrificante"
+            }
+          }
         }
+      },
+      "details": {
+        "alignment": "Legale Buono"
       }
     },
     "Ancient Silver Dragon": {
@@ -1908,8 +2033,16 @@
           "name": "Armi a Soffio"
         },
         "mkEH0cxZiY4KL8Hq": {
-          "name": "Presenza Terrificante"
+          "name": "Presenza Terrificante",
+          "effects": {
+            "JG2uXIqEJlTnRHpq": {
+              "name": "Presenza Terrificante"
+            }
+          }
         }
+      },
+      "details": {
+        "alignment": "Legale Buono"
       }
     },
     "Silver Dragon Wyrmling": {
@@ -1937,6 +2070,9 @@
           },
           "name": "Armi a Soffio"
         }
+      },
+      "details": {
+        "alignment": "Legale Buono"
       }
     },
     "Young Silver Dragon": {
@@ -1967,6 +2103,9 @@
           },
           "name": "Armi a Soffio"
         }
+      },
+      "details": {
+        "alignment": "Legale Buono"
       }
     },
     "Adult Gold Dragon": {
@@ -2005,8 +2144,16 @@
           "name": "Armi a Soffio"
         },
         "W6aNcnRIymq6cl2M": {
-          "name": "Presenza Terrificante"
+          "name": "Presenza Terrificante",
+          "effects": {
+            "JG2uXIqEJlTnRHpq": {
+              "name": "Presenza Terrificante"
+            }
+          }
         }
+      },
+      "details": {
+        "alignment": "Legale Buono"
       }
     },
     "Ancient Gold Dragon": {
@@ -2045,8 +2192,16 @@
           "name": "Cambiare Forma"
         },
         "EIQHfjph1Viay95e": {
-          "name": "Presenza Terrificante"
+          "name": "Presenza Terrificante",
+          "effects": {
+            "JG2uXIqEJlTnRHpq": {
+              "name": "Presenza Terrificante"
+            }
+          }
         }
+      },
+      "details": {
+        "alignment": "Legale Buono"
       }
     },
     "Gold Dragon Wyrmling": {
@@ -2072,6 +2227,9 @@
         "KlIuOYFx8OUMjbZU": {
           "name": "Anfibio"
         }
+      },
+      "details": {
+        "alignment": "Legale Buono"
       }
     },
     "Young Gold Dragon": {
@@ -2100,6 +2258,9 @@
         "A02zFTe8hrM8vUXI": {
           "name": "Anfibio"
         }
+      },
+      "details": {
+        "alignment": "Legale Buono"
       }
     },
     "Adult Brass Dragon": {
@@ -2137,8 +2298,16 @@
           "name": "Armi a Soffio"
         },
         "XyhdTtNxXj219dlP": {
-          "name": "Presenza Terrificante"
+          "name": "Presenza Terrificante",
+          "effects": {
+            "JG2uXIqEJlTnRHpq": {
+              "name": "Presenza Terrificante"
+            }
+          }
         }
+      },
+      "details": {
+        "alignment": "Caotico Buono"
       }
     },
     "Ancient Brass Dragon": {
@@ -2179,8 +2348,16 @@
           "name": "Armi a Soffio"
         },
         "aK8gzRFcKnL7yzcH": {
-          "name": "Presenza Terrificante"
+          "name": "Presenza Terrificante",
+          "effects": {
+            "JG2uXIqEJlTnRHpq": {
+              "name": "Presenza Terrificante"
+            }
+          }
         }
+      },
+      "details": {
+        "alignment": "Caotico Buono"
       }
     },
     "Brass Dragon Wyrmling": {
@@ -2208,6 +2385,9 @@
           },
           "name": "Armi a Soffio"
         }
+      },
+      "details": {
+        "alignment": "Caotico Buono"
       }
     },
     "Young Brass Dragon": {
@@ -2238,6 +2418,9 @@
           },
           "name": "Armi a Soffio"
         }
+      },
+      "details": {
+        "alignment": "Caotico Buono"
       }
     },
     "Adult Bronze Dragon": {
@@ -2276,8 +2459,16 @@
           "name": "Armi a Soffio"
         },
         "P4bK8qQ7SlmtJi6F": {
-          "name": "Presenza Terrificante"
+          "name": "Presenza Terrificante",
+          "effects": {
+            "JG2uXIqEJlTnRHpq": {
+              "name": "Presenza Terrificante"
+            }
+          }
         }
+      },
+      "details": {
+        "alignment": "Legale Buono"
       }
     },
     "Ancient Bronze Dragon": {
@@ -2316,8 +2507,16 @@
           "name": "Armi a Soffio"
         },
         "pZcXLBLl3Unn9etS": {
-          "name": "Presenza Terrificante"
+          "name": "Presenza Terrificante",
+          "effects": {
+            "JG2uXIqEJlTnRHpq": {
+              "name": "Presenza Terrificante"
+            }
+          }
         }
+      },
+      "details": {
+        "alignment": "Legale Buono"
       }
     },
     "Bronze Dragon Wyrmling": {
@@ -2343,6 +2542,9 @@
         "HhVw9jFpoaxhcvrn": {
           "name": "Anfibio"
         }
+      },
+      "details": {
+        "alignment": "Legale Buono"
       }
     },
     "Young Bronze Dragon": {
@@ -2371,6 +2573,9 @@
         "z1P0RbYFfEJX8DNL": {
           "name": "Anfibio"
         }
+      },
+      "details": {
+        "alignment": "Legale Buono"
       }
     },
     "Adult Copper Dragon": {
@@ -2394,7 +2599,12 @@
               "name": "Soffio Rallentante"
             }
           },
-          "name": "Armi a Soffio"
+          "name": "Armi a Soffio",
+          "effects": {
+            "5E6iveIba4rYeUbc": {
+              "name": "Rallentato"
+            }
+          }
         },
         "R4O5JcEVUa2e4Ccg": {
           "name": "Azioni Leggendarie"
@@ -2403,8 +2613,16 @@
           "name": "Resistenza Leggendaria"
         },
         "kBBFeaEBaGACIQ1b": {
-          "name": "Presenza Terrificante"
+          "name": "Presenza Terrificante",
+          "effects": {
+            "JG2uXIqEJlTnRHpq": {
+              "name": "Presenza Terrificante"
+            }
+          }
         }
+      },
+      "details": {
+        "alignment": "Caotico Buono"
       }
     },
     "Ancient Copper Dragon": {
@@ -2428,7 +2646,12 @@
               "name": "Soffio Rallentante"
             }
           },
-          "name": "Armi a Soffio"
+          "name": "Armi a Soffio",
+          "effects": {
+            "5E6iveIba4rYeUbc": {
+              "name": "Rallentato"
+            }
+          }
         },
         "d7cYSxr8w2VZkBrf": {
           "name": "Cambiare Forma"
@@ -2440,8 +2663,16 @@
           "name": "Resistenza Leggendaria"
         },
         "t7C48MOTONNfLBUV": {
-          "name": "Presenza Terrificante"
+          "name": "Presenza Terrificante",
+          "effects": {
+            "JG2uXIqEJlTnRHpq": {
+              "name": "Presenza Terrificante"
+            }
+          }
         }
+      },
+      "details": {
+        "alignment": "Caotico Buono"
       }
     },
     "Copper Dragon Wyrmling": {
@@ -2462,8 +2693,16 @@
               "name": "Soffio Rallentante"
             }
           },
-          "name": "Armi a Soffio"
+          "name": "Armi a Soffio",
+          "effects": {
+            "5E6iveIba4rYeUbc": {
+              "name": "Rallentato"
+            }
+          }
         }
+      },
+      "details": {
+        "alignment": "Caotico Buono"
       }
     },
     "Young Copper Dragon": {
@@ -2487,8 +2726,16 @@
               "name": "Soffio Rallentante"
             }
           },
-          "name": "Armi a Soffio"
+          "name": "Armi a Soffio",
+          "effects": {
+            "5E6iveIba4rYeUbc": {
+              "name": "Rallentato"
+            }
+          }
         }
+      },
+      "details": {
+        "alignment": "Caotico Buono"
       }
     },
     "Adult Black Dragon": {
@@ -2521,7 +2768,12 @@
           "name": "Anfibio"
         },
         "A3azHlbNcHLRgogu": {
-          "name": "Presenza Terrificante"
+          "name": "Presenza Terrificante",
+          "effects": {
+            "JG2uXIqEJlTnRHpq": {
+              "name": "Presenza Terrificante"
+            }
+          }
         }
       }
     },
@@ -2555,7 +2807,12 @@
           "name": "Azioni Leggendarie"
         },
         "jlrnZ2xIJO0YxtRP": {
-          "name": "Presenza Terrificante"
+          "name": "Presenza Terrificante",
+          "effects": {
+            "JG2uXIqEJlTnRHpq": {
+              "name": "Presenza Terrificante"
+            }
+          }
         }
       }
     },
@@ -2633,7 +2890,12 @@
           }
         },
         "ySrfqC410pMPhqpH": {
-          "name": "Presenza Terrificante"
+          "name": "Presenza Terrificante",
+          "effects": {
+            "JG2uXIqEJlTnRHpq": {
+              "name": "Presenza Terrificante"
+            }
+          }
         }
       }
     },
@@ -2664,7 +2926,12 @@
           }
         },
         "NMJFBWWE31eRqrxX": {
-          "name": "Presenza Terrificante"
+          "name": "Presenza Terrificante",
+          "effects": {
+            "JG2uXIqEJlTnRHpq": {
+              "name": "Presenza Terrificante"
+            }
+          }
         }
       }
     },
@@ -2739,7 +3006,12 @@
           "name": "Azioni Leggendarie"
         },
         "ebLmzTCe2tSvj7KR": {
-          "name": "Presenza Terrificante"
+          "name": "Presenza Terrificante",
+          "effects": {
+            "JG2uXIqEJlTnRHpq": {
+              "name": "Presenza Terrificante"
+            }
+          }
         }
       }
     },
@@ -2773,7 +3045,12 @@
           }
         },
         "CowO8pcqsA4xwGf7": {
-          "name": "Presenza Terrificante"
+          "name": "Presenza Terrificante",
+          "effects": {
+            "JG2uXIqEJlTnRHpq": {
+              "name": "Presenza Terrificante"
+            }
+          }
         }
       }
     },
@@ -2896,6 +3173,9 @@
         "gK5fX5pMH745LgCa": {
           "name": "Resistenza Magica"
         }
+      },
+      "details": {
+        "alignment": "Neutrale"
       }
     },
     "Drider": {
@@ -2925,7 +3205,8 @@
           "materials": "pelo di pipistrello e una goccia di pece o un pezzo di carbone"
         },
         "nqBDWkVOfcGZt4YU": {
-          "name": "Luminescenza"
+          "name": "Luminescenza",
+          "description": "<p>Ogni oggetto in un cubo con spigolo di 6 metri entro gittata viene contornato da una luce blu, verde o viola (a tua scelta). Anche ogni creatura nell'area quando l'incantesimo viene lanciato viene contornata dalla luce, se fallisce un tiro salvezza su Destrezza. Per la durata, gli oggetti e le creature influenzate proiettano luce fioca entro un raggio di 3 metri.</p><p>Ogni tiro per colpire contro una creatura o un oggetto influenzato dispone di vantaggio se l'attaccante può vederlo, e la creatura o l'oggetto influenzato non può beneficiare dell'invisibilità.</p>"
         },
         "yIU4b1qZZevKoFLX": {
           "name": "Movimenti del Ragno"
@@ -2948,7 +3229,12 @@
           "name": "Spada Corta"
         },
         "LqnhZjRtRqhLIFTm": {
-          "name": "Balestra a Mano"
+          "name": "Balestra a Mano",
+          "effects": {
+            "yjNxc3DxFYNIUZ7n": {
+              "name": "Veleno Drow"
+            }
+          }
         },
         "S684g3gtaxOsMxME": {
           "name": "Giaco di Maglia",
@@ -2959,7 +3245,8 @@
           "materials": "pelo di pipistrello e una goccia di pece o un pezzo di carbone"
         },
         "nqBDWkVOfcGZt4YU": {
-          "name": "Luminescenza"
+          "name": "Luminescenza",
+          "description": "<p>Ogni oggetto in un cubo con spigolo di 6 metri entro gittata viene contornato da una luce blu, verde o viola (a tua scelta). Anche ogni creatura nell'area quando l'incantesimo viene lanciato viene contornata dalla luce, se fallisce un tiro salvezza su Destrezza. Per la durata, gli oggetti e le creature influenzate proiettano luce fioca entro un raggio di 3 metri.</p><p>Ogni tiro per colpire contro una creatura o un oggetto influenzato dispone di vantaggio se l'attaccante può vederlo, e la creatura o l'oggetto influenzato non può beneficiare dell'invisibilità.</p>"
         },
         "CAxSzHWizrafT033": {
           "name": "Luci Danzanti",
@@ -2968,6 +3255,9 @@
         "Up2YzkDn0uBKQj6K": {
           "name": "Sensibilità alla Luce Solare"
         }
+      },
+      "details": {
+        "alignment": "Neutrale Malvagio"
       }
     },
     "Druid": {
@@ -2981,6 +3271,11 @@
           "effects": {
             "siLjGctswI3gx3B2": {
               "name": "Randello Incantato"
+            }
+          },
+          "activities": {
+            "hQCHzLhxJpg6id19": {
+              "name": "Attacco con Incantesimo"
             }
           }
         },
@@ -2996,7 +3291,8 @@
         },
         "B0pnIcc52O6G8hi8": {
           "name": "Passo Veloce",
-          "materials": "Un pizzico di terriccio"
+          "materials": "Un pizzico di terriccio",
+          "description": "<p>Tocchi una creatura. La velocità del bersaglio aumenta di 3 metri finché l'incantesimo non termina.</p>"
         },
         "aL1F8fvYLtNzUbKu": {
           "name": "Parlare con gli Animali",
@@ -3056,13 +3352,23 @@
           "name": "Resilienza Duergar"
         },
         "gvmNtrdfZXCNiAY3": {
-          "name": "Ingrandire"
+          "name": "Ingrandire",
+          "effects": {
+            "ZhMWg9KVNLnrlJdW": {
+              "name": "Ingrandito"
+            }
+          }
         },
         "lUm5wbaBhfO54dlB": {
           "name": "Invisibilità",
           "effects": {
             "oHsiep5z6p95NNJ7": {
               "name": "Invisibile"
+            }
+          },
+          "activities": {
+            "1wj57M6m7yuqQhtN": {
+              "name": "Diventa Invisibile"
             }
           }
         },
@@ -3164,6 +3470,9 @@
         "PRiFJLZbvIt2nkTk": {
           "name": "Multiattacco"
         }
+      },
+      "details": {
+        "alignment": "Neutrale"
       }
     },
     "Water Elemental": {
@@ -3189,6 +3498,9 @@
         "5XUFTldfE6mtRUfd": {
           "name": "Sommergere"
         }
+      },
+      "details": {
+        "alignment": "Neutrale"
       }
     },
     "Air Elemental": {
@@ -3211,6 +3523,9 @@
         "PVdWTEQBuiAglD7l": {
           "name": "Vortice"
         }
+      },
+      "details": {
+        "alignment": "Neutrale"
       }
     },
     "Earth Elemental": {
@@ -3228,6 +3543,9 @@
         "k8x76Y7EMOOH2VM0": {
           "name": "Mostro da Assedio"
         }
+      },
+      "details": {
+        "alignment": "Neutrale"
       }
     },
     "Erinyes": {
@@ -3303,6 +3621,9 @@
         "W9YaQ2zrCYR6sjNk": {
           "name": "Ragnatela"
         }
+      },
+      "details": {
+        "alignment": "Neutrale Malvagio"
       }
     },
     "Ettin": {
@@ -3364,10 +3685,12 @@
         },
         "Bnn9Nzajixvow9xi": {
           "name": "Luce",
-          "materials": "una lucciola o del muschio fosforescente"
+          "materials": "una lucciola o del muschio fosforescente",
+          "description": "<p>Tocchi un oggetto che non sia più grande di 3 metri in alcuna dimensione. Finché l'incantesimo non termina, l'oggetto proietta luce intensa entro un raggio di 6 metri e luce fioca per altri 6 metri. La luce può essere del colore che preferisci. Coprire completamente l'oggetto con qualcosa di opaco blocca la luce. L'incantesimo termina se lo lanci di nuovo o lo interrompi con un'azione.</p><p>Se bersagli un oggetto impugnato o indossato da una creatura ostile, quella creatura deve superare un tiro salvezza su Destrezza per evitare l'incantesimo.</p>"
         },
         "n9pJzTDsAwQxJVRl": {
-          "name": "Fiamma Sacra"
+          "name": "Fiamma Sacra",
+          "description": "<p>Una luminosità simile a una fiamma scende su una creatura che puoi vedere entro gittata. Il bersaglio deve superare un tiro salvezza su Destrezza, altrimenti subisce 1d8 danni radiosi. Il bersaglio non ottiene alcun beneficio dalla copertura per questo tiro salvezza.</p><p>I danni dell'incantesimo aumentano di 1d8 quando raggiungi il 5° livello (2d8), l'11° livello (3d8) e il 17° livello (4d8).</p>"
         },
         "MUO1uYN7JR1hm4dR": {
           "name": "Taumaturgia"
@@ -3410,7 +3733,12 @@
           "name": "Volto Terrificante"
         },
         "UF0mfYsgI4ay6mzv": {
-          "name": "Possessione"
+          "name": "Possessione",
+          "activities": {
+            "WcBEt039Ueelll14": {
+              "name": "Possiedi Creatura"
+            }
+          }
         },
         "utXD2LZwh5ZRDhYM": {
           "name": "Movimento Incorporeo",
@@ -3455,6 +3783,9 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "Neutrale"
       }
     },
     "Violet Fungus": {
@@ -3489,6 +3820,11 @@
             "oKYNXo2rUnsBE5cB": {
               "name": "Invisibile"
             }
+          },
+          "activities": {
+            "dnd5eactivity000": {
+              "name": "Diventa Invisibile"
+            }
           }
         },
         "zgpJXJnt1PbGXf6u": {
@@ -3500,7 +3836,12 @@
           }
         },
         "3Sr6MrVgbTGw66Aa": {
-          "name": "Illuminazione Variabile"
+          "name": "Illuminazione Variabile",
+          "effects": {
+            "IMQTnGRIwwkAwn6T": {
+              "name": "Illuminazione Variabile"
+            }
+          }
         }
       }
     },
@@ -3528,6 +3869,9 @@
         "hSRGuvhA1vkf4mLW": {
           "name": "Movimenti del Ragno"
         }
+      },
+      "details": {
+        "alignment": "Neutrale Malvagio"
       }
     },
     "Gargoyle": {
@@ -3561,6 +3905,13 @@
         },
         "WjqNhFTYP9w4gGHd": {
           "name": "Resistenza allo Scacciare"
+        },
+        "ricjyd1SKzeQ5gQE": {
+          "effects": {
+            "mY7AkNbYbelLX5pT": {
+              "name": "Paralisi"
+            }
+          }
         }
       }
     },
@@ -3569,6 +3920,13 @@
       "items": {
         "E5cmqIqRIwyTkhgp": {
           "name": "Morso"
+        },
+        "ArxzPC3rsBztgUvI": {
+          "effects": {
+            "ATi5lRucZ2E2Dgsd": {
+              "name": "Paralisi"
+            }
+          }
         }
       }
     },
@@ -3605,6 +3963,9 @@
         "i49lwJ84vB720EPW": {
           "name": "Multiattacco"
         }
+      },
+      "details": {
+        "alignment": "Neutrale Malvagio"
       }
     },
     "Hill Giant": {
@@ -3643,7 +4004,8 @@
         },
         "Bnn9Nzajixvow9xi": {
           "name": "Luce",
-          "materials": "una lucciola o del muschio fosforescente"
+          "materials": "una lucciola o del muschio fosforescente",
+          "description": "<p>Tocchi un oggetto che non sia più grande di 3 metri in alcuna dimensione. Finché l'incantesimo non termina, l'oggetto proietta luce intensa entro un raggio di 6 metri e luce fioca per altri 6 metri. La luce può essere del colore che preferisci. Coprire completamente l'oggetto con qualcosa di opaco blocca la luce. L'incantesimo termina se lo lanci di nuovo o lo interrompi con un'azione.</p><p>Se bersagli un oggetto impugnato o indossato da una creatura ostile, quella creatura deve superare un tiro salvezza su Destrezza per evitare l'incantesimo.</p>"
         },
         "pub0OWVEB71XQx1n": {
           "name": "Caduta Morbida",
@@ -3694,6 +4056,9 @@
         "e4p65TbhzdVU810V": {
           "name": "Mimetismo nella Pietra"
         }
+      },
+      "details": {
+        "alignment": "Neutrale"
       }
     },
     "Storm Giant": {
@@ -3731,7 +4096,8 @@
         },
         "Bnn9Nzajixvow9xi": {
           "name": "Luce",
-          "materials": "una lucciola o del muschio fosforescente"
+          "materials": "una lucciola o del muschio fosforescente",
+          "description": "<p>Tocchi un oggetto che non sia più grande di 3 metri in alcuna dimensione. Finché l'incantesimo non termina, l'oggetto proietta luce intensa entro un raggio di 6 metri e luce fioca per altri 6 metri. La luce può essere del colore che preferisci. Coprire completamente l'oggetto con qualcosa di opaco blocca la luce. L'incantesimo termina se lo lanci di nuovo o lo interrompi con un'azione.</p><p>Se bersagli un oggetto impugnato o indossato da una creatura ostile, quella creatura deve superare un tiro salvezza su Destrezza per evitare l'incantesimo.</p>"
         },
         "ZPd73HtKF3At11jh": {
           "name": "Controllare Tempo Atmosferico",
@@ -3745,6 +4111,9 @@
         "cO04gKkMlOPTSz11": {
           "name": "Anfibio"
         }
+      },
+      "details": {
+        "alignment": "Caotico Buono"
       }
     },
     "Gynosphinx": {
@@ -3784,7 +4153,8 @@
             "6pbotGIvqQkraPva": {
               "name": "Scudo"
             }
-          }
+          },
+          "description": "<p>Una barriera invisibile di forza magica appare e ti protegge. Fino all'inizio del tuo turno successivo ottieni un bonus di +5 alla CA, incluso contro l'attacco innescante, e non subisci danni da dardo incantato.</p>"
         },
         "15Fa6q1nH27XfbR8": {
           "name": "Dissolvi Magie"
@@ -3836,7 +4206,12 @@
           "name": "Attacco con Artiglio"
         },
         "V0O6My4SjXUmirH6": {
-          "name": "Lanciare un Incantesimo"
+          "name": "Lanciare un Incantesimo",
+          "activities": {
+            "dnd5eactivity000": {
+              "name": "Lancia Incantesimo"
+            }
+          }
         },
         "f8zut6gBBsfoAikg": {
           "name": "Imperscrutabile"
@@ -3864,7 +4239,8 @@
           "name": "Dissolvi Magie"
         },
         "9hQXdMSmerkTsHDe": {
-          "name": "Confusione"
+          "name": "Confusione",
+          "materials": "tre gusci di noce."
         },
         "yfbK8gZqESlaoY5t": {
           "name": "Volare",
@@ -3973,6 +4349,9 @@
         "lYjhcBIYyCekV7nD": {
           "name": "Mimetismo nella Pietra"
         }
+      },
+      "details": {
+        "alignment": "Neutrale Buono"
       }
     },
     "Goblin": {
@@ -4000,6 +4379,9 @@
         "YqS3dsIlpWb2Q2UI": {
           "name": "Arco Corto"
         }
+      },
+      "details": {
+        "alignment": "Neutrale Malvagio"
       }
     },
     "Clay Golem": {
@@ -4009,7 +4391,12 @@
       },
       "items": {
         "GOADsI5dGE3ah0Vi": {
-          "name": "Velocità"
+          "name": "Velocità",
+          "effects": {
+            "og1tIiODyKE8SowO": {
+              "name": "Accelerato"
+            }
+          }
         },
         "91uPF10lBpn5EOhn": {
           "name": "Resistenza Magica"
@@ -4063,6 +4450,9 @@
         "SSHb3L6BEgIgfo8n": {
           "name": "Berserk"
         }
+      },
+      "details": {
+        "alignment": "Neutrale"
       }
     },
     "Iron Golem": {
@@ -4192,6 +4582,9 @@
         "tkVlxJxg4LBVJvuX": {
           "name": "Tentacoli"
         }
+      },
+      "details": {
+        "alignment": "Neutrale"
       }
     },
     "Griffon": {
@@ -4214,6 +4607,9 @@
         "VxPre1G0W6fDh5VL": {
           "name": "Mimetismo nella Pietra"
         }
+      },
+      "details": {
+        "alignment": "Neutrale Malvagio"
       }
     },
     "Guard": {
@@ -4301,6 +4697,9 @@
         "kB6hOBhmgXQZHfYz": {
           "name": "Volo Sfuggente"
         }
+      },
+      "details": {
+        "alignment": "Neutrale"
       }
     },
     "Hezrou": {
@@ -4364,6 +4763,9 @@
         "1mD9NcCf8ZMQtsrU": {
           "name": "Soffio Gelido"
         }
+      },
+      "details": {
+        "alignment": "Neutrale Malvagio"
       }
     },
     "Hydra": {
@@ -4446,6 +4848,11 @@
           "effects": {
             "dJA0IOGziAr9Onj9": {
               "name": "Invisibilità"
+            }
+          },
+          "activities": {
+            "CaKaGslGFsgCW6kV": {
+              "name": "Diventa Invisibile"
             }
           }
         },
@@ -4550,7 +4957,12 @@
           "name": "Costrizione"
         },
         "cd8MN5gJkmUn1RTE": {
-          "name": "Tocco Inebriante"
+          "name": "Tocco Inebriante",
+          "effects": {
+            "cVjGDRB3KuQQb9Tw": {
+              "name": "Tocco Inebriante"
+            }
+          }
         }
       }
     },
@@ -4606,7 +5018,12 @@
           "name": "Distruggere Vita"
         },
         "KDSrdpdFPDKnh80y": {
-          "name": "Tocco Paralizzante"
+          "name": "Tocco Paralizzante",
+          "effects": {
+            "I8KIU1orhkqFoUPt": {
+              "name": "Paralisi"
+            }
+          }
         },
         "Rry67emsoMMjvQQz": {
           "name": "Resistenza allo Scacciare"
@@ -4637,7 +5054,8 @@
             "6pbotGIvqQkraPva": {
               "name": "Scudo"
             }
-          }
+          },
+          "description": "<p>Una barriera invisibile di forza magica appare e ti protegge. Fino all'inizio del tuo turno successivo ottieni un bonus di +5 alla CA, incluso contro l'attacco innescante, e non subisci danni da dardo incantato.</p>"
         },
         "WTbOQBsarsL1LuXJ": {
           "name": "Onda Tonante",
@@ -4746,6 +5164,9 @@
           "name": "Scudo",
           "description": "<p>Uno scudo è realizzato in legno o metallo ed è portato in una mano. Il possesso di uno scudo aumenta la tua Classe di armatura di 2. Puoi beneficiare di un solo scudo alla volta.</p>"
         }
+      },
+      "details": {
+        "alignment": "Neutrale"
       }
     },
     "Lizard": {
@@ -4821,6 +5242,9 @@
         "v0aOv6xT8QnYWpdW": {
           "name": "Tattiche del Branco"
         }
+      },
+      "details": {
+        "alignment": "Neutrale Malvagio"
       }
     },
     "Werewolf": {
@@ -4861,6 +5285,9 @@
           "name": "Riscaldare il Metallo",
           "materials": "un pezzo di ferro e una fiamma"
         }
+      },
+      "details": {
+        "alignment": "Neutrale Malvagio"
       }
     },
     "Magmin": {
@@ -4877,6 +5304,9 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "Caotico Neutrale"
       }
     },
     "Mage": {
@@ -4891,7 +5321,8 @@
         },
         "Bnn9Nzajixvow9xi": {
           "name": "Luce",
-          "materials": "una lucciola o del muschio fosforescente"
+          "materials": "una lucciola o del muschio fosforescente",
+          "description": "<p>Tocchi un oggetto che non sia più grande di 3 metri in alcuna dimensione. Finché l'incantesimo non termina, l'oggetto proietta luce intensa entro un raggio di 6 metri e luce fioca per altri 6 metri. La luce può essere del colore che preferisci. Coprire completamente l'oggetto con qualcosa di opaco blocca la luce. L'incantesimo termina se lo lanci di nuovo o lo interrompi con un'azione.</p><p>Se bersagli un oggetto impugnato o indossato da una creatura ostile, quella creatura deve superare un tiro salvezza su Destrezza per evitare l'incantesimo.</p>"
         },
         "Utk1OQRwYkMkFRD3": {
           "name": "Mano Magica",
@@ -4925,7 +5356,8 @@
             "6pbotGIvqQkraPva": {
               "name": "Scudo"
             }
-          }
+          },
+          "description": "<p>Una barriera invisibile di forza magica appare e ti protegge. Fino all'inizio del tuo turno successivo ottieni un bonus di +5 alla CA, incluso contro l'attacco innescante, e non subisci danni da dardo incantato.</p>"
         },
         "wqfAVANuQonNBgnL": {
           "name": "Passo Velato",
@@ -5046,6 +5478,9 @@
         "UYqrfrW4pmBsmtiQ": {
           "name": "Allucinazioni"
         }
+      },
+      "details": {
+        "alignment": "Caotico Neutrale"
       }
     },
     "Darkmantle": {
@@ -5118,6 +5553,9 @@
         "e6oIn0YWVkHwKVs8": {
           "name": "Anfibio"
         }
+      },
+      "details": {
+        "alignment": "Neutrale"
       }
     },
     "Mastiff": {
@@ -5158,7 +5596,12 @@
           "name": "Aspetto Orripilante"
         },
         "7AGmP2dRLYmORUX7": {
-          "name": "Sguardo Mortale"
+          "name": "Sguardo Mortale",
+          "activities": {
+            "bkCJcO9MdO88ON0n": {
+              "name": "Focalizza Sguardo"
+            }
+          }
         },
         "8s0lGEYZGFEpwt12": {
           "name": "Aspetto Illusorio"
@@ -5178,7 +5621,12 @@
           "name": "Incantesimi Innati"
         },
         "ftmaVOSJXvHPhraJ": {
-          "name": "Cambiare Forma"
+          "name": "Cambiare Forma",
+          "activities": {
+            "CTYIMIlC30bYuq9I": {
+              "name": "Trasformati"
+            }
+          }
         },
         "0blKOND2AnsMsZa6": {
           "name": "Forma Eterea"
@@ -5205,6 +5653,9 @@
         "F9SUUafNFPf0hmqr": {
           "name": "Resistenza Magica"
         }
+      },
+      "details": {
+        "alignment": "Neutrale Malvagio"
       }
     },
     "Green Hag": {
@@ -5228,6 +5679,11 @@
             "M15UoRAnmUX21B5N": {
               "name": "Passaggio Invisibile"
             }
+          },
+          "activities": {
+            "dnd5eactivity000": {
+              "name": "Diventa Invisibile"
+            }
           }
         },
         "CAxSzHWizrafT033": {
@@ -5246,6 +5702,9 @@
         "v7WLd38u9z94vJXR": {
           "name": "Anfibio"
         }
+      },
+      "details": {
+        "alignment": "Neutrale Malvagio"
       }
     },
     "Gray Ooze": {
@@ -5283,6 +5742,9 @@
         "UDUnlfPsOAbq2RSE": {
           "name": "Sfocatura"
         }
+      },
+      "details": {
+        "alignment": "Neutrale Malvagio"
       }
     },
     "Dust Mephit": {
@@ -5304,6 +5766,9 @@
           "name": "Sonno",
           "materials": "un pizzico di sabbia finissima, petali di rosa o un grillo"
         }
+      },
+      "details": {
+        "alignment": "Neutrale Malvagio"
       }
     },
     "Merrow": {
@@ -5375,6 +5840,9 @@
         "HgNW3DcqMvGVXO7s": {
           "name": "Morso"
         }
+      },
+      "details": {
+        "alignment": "Neutrale"
       }
     },
     "Minotaur": {
@@ -5441,6 +5909,11 @@
             "ebQZNdQTJtOhr7Lq": {
               "name": "Sguardo Terrificante"
             }
+          },
+          "activities": {
+            "vBP1Ivo8gjkv4DVp": {
+              "name": "Focalizza Sguardo"
+            }
           }
         }
       }
@@ -5460,7 +5933,8 @@
           "materials": "Due calamite"
         },
         "n9pJzTDsAwQxJVRl": {
-          "name": "Fiamma Sacra"
+          "name": "Fiamma Sacra",
+          "description": "<p>Una luminosità simile a una fiamma scende su una creatura che puoi vedere entro gittata. Il bersaglio deve superare un tiro salvezza su Destrezza, altrimenti subisce 1d8 danni radiosi. Il bersaglio non ottiene alcun beneficio dalla copertura per questo tiro salvezza.</p><p>I danni dell'incantesimo aumentano di 1d8 quando raggiungi il 5° livello (2d8), l'11° livello (3d8) e il 17° livello (4d8).</p>"
         },
         "MUO1uYN7JR1hm4dR": {
           "name": "Taumaturgia"
@@ -5514,6 +5988,9 @@
         "GkVxLIsamEXICEeT": {
           "name": "Ringiovanimento"
         }
+      },
+      "details": {
+        "alignment": "Legale Buono"
       }
     },
     "Spirit Naga": {
@@ -5599,7 +6076,12 @@
           "name": "Teletrasporto"
         },
         "RFPDYIhkmBW2B47S": {
-          "name": "Nembo di Orrore"
+          "name": "Nembo di Orrore",
+          "effects": {
+            "8yRrVxNl9Ndvr6F8": {
+              "name": "Nembo di Orrore"
+            }
+          }
         }
       }
     },
@@ -5669,12 +6151,18 @@
           "effects": {
             "PIAt10vJQExkwFbD": {
               "name": "Avvelenato"
+            },
+            "l635qlEf6ays6UwQ": {
+              "name": "Avvelenato e Privo di Sensi"
             }
           }
         },
         "5bFYYcQnfN1KtOwr": {
           "description": "<p>Finché l'&lt;creature&gt; si trova sullo stesso piano di esistenza del suo padrone, può trasmettere magicamente ciò che percepisce al suo padrone e i due possono comunicare telepaticamente.</p>"
         }
+      },
+      "details": {
+        "alignment": "Neutrale"
       }
     },
     "Oni": {
@@ -5702,7 +6190,12 @@
           }
         },
         "QGNzJqfTHnbhjzFN": {
-          "name": "Cambiare Forma"
+          "name": "Cambiare Forma",
+          "activities": {
+            "GHwuUudZqOR9Jep5": {
+              "name": "Trasformati"
+            }
+          }
         },
         "S7VbUetIfVT7B6Eq": {
           "name": "Oscurità",
@@ -5803,6 +6296,9 @@
         "COcc6eoG6ScS4wGz": {
           "name": "Multiattacco"
         }
+      },
+      "details": {
+        "alignment": "Neutrale Buono"
       }
     },
     "Black Bear": {
@@ -5851,7 +6347,17 @@
           "name": "Telepatia Limitata"
         },
         "CCawltKiVU4Mup9i": {
-          "name": "Morso"
+          "name": "Morso",
+          "activities": {
+            "kry4D7LOVXNmiINV": {
+              "name": "Tiro Salvezza contro Malattia"
+            }
+          },
+          "effects": {
+            "y08IDhSebGn0B6ab": {
+              "name": "Tiro Salvezza contro Malattia"
+            }
+          }
         },
         "9d1ZhvT1vIJsNnN1": {
           "name": "Schianto con Tentacolo"
@@ -5859,6 +6365,9 @@
         "O9otNESvCCUdwYhc": {
           "name": "Multiattacco"
         }
+      },
+      "details": {
+        "alignment": "Neutrale"
       }
     },
     "Panther": {
@@ -5884,6 +6393,9 @@
         "1HxBbZFsegOJ0cgu": {
           "name": "Zoccoli"
         }
+      },
+      "details": {
+        "alignment": "Caotico Buono"
       }
     },
     "Octopus": {
@@ -6023,6 +6535,9 @@
         "2kBUlTLMlwq3KoUB": {
           "name": "Consapevolezza Divina"
         }
+      },
+      "details": {
+        "alignment": "Legale Buono"
       }
     },
     "Plesiosaurus": {
@@ -6084,6 +6599,9 @@
         "5yLwUhN95b3XXY4J": {
           "name": "Movimenti del Ragno"
         }
+      },
+      "details": {
+        "alignment": "Neutrale Malvagio"
       }
     },
     "Black Pudding": {
@@ -6124,6 +6642,9 @@
         "l942VLThscFdstX8": {
           "name": "Resistenza Magica"
         }
+      },
+      "details": {
+        "alignment": "Neutrale Buono"
       }
     },
     "Quasit": {
@@ -6134,6 +6655,11 @@
           "effects": {
             "dJA0IOGziAr9Onj9": {
               "name": "Invisibilità"
+            }
+          },
+          "activities": {
+            "CaKaGslGFsgCW6kV": {
+              "name": "Diventa Invisibile"
             }
           }
         },
@@ -6443,17 +6969,20 @@
           "name": "Mazza"
         },
         "n9pJzTDsAwQxJVRl": {
-          "name": "Fiamma Sacra"
+          "name": "Fiamma Sacra",
+          "description": "<p>Una luminosità simile a una fiamma scende su una creatura che puoi vedere entro gittata. Il bersaglio deve superare un tiro salvezza su Destrezza, altrimenti subisce 1d8 danni radiosi. Il bersaglio non ottiene alcun beneficio dalla copertura per questo tiro salvezza.</p><p>I danni dell'incantesimo aumentano di 1d8 quando raggiungi il 5° livello (2d8), l'11° livello (3d8) e il 17° livello (4d8).</p>"
         },
         "MUO1uYN7JR1hm4dR": {
           "name": "Taumaturgia"
         },
         "7buEm5KhI5lP8m1z": {
-          "name": "Dardo Tracciante"
+          "name": "Dardo Tracciante",
+          "description": "<p>Un lampo di luce sfreccia verso una creatura a tua scelta entro gittata. Effettua un attacco a distanza con incantesimo contro il bersaglio. Se colpisci, il bersaglio subisce 4d6 danni radiosi e il successivo tiro per colpire effettuato contro di lui prima della fine del tuo turno successivo dispone di vantaggio, grazie alla mistica luce fioca che fino ad allora scintilla sul bersaglio.</p><p><strong>Ai Livelli Superiori.</strong> Quando lanci questo incantesimo usando uno slot incantesimo di 2° livello o superiore, i danni aumentano di 1d6 per ogni livello dello slot superiore al 1°.</p>"
         },
         "gvdA9nPuWLck4tBl": {
           "name": "Santuario",
-          "materials": "uno specchietto d'argento"
+          "materials": "uno specchietto d'argento",
+          "description": "<p>Proteggi dagli attacchi una creatura entro gittata. Finché l'incantesimo non termina, ogni creatura che bersaglia la creatura protetta con un attacco o un incantesimo nocivo deve prima effettuare un tiro salvezza su Saggezza. Se lo fallisce, deve scegliere un nuovo bersaglio o perdere l'attacco o l'incantesimo. Questo incantesimo non protegge la creatura dagli effetti ad area, come l'esplosione di una Palla di Fuoco.</p><p>Se la creatura protetta effettua un attacco o lancia un incantesimo che influenza una creatura nemica, questo incantesimo termina.</p>"
         },
         "F0GsG0SJzsIOacwV": {
           "name": "Ristorare Inferiore"
@@ -6472,7 +7001,8 @@
         },
         "Bnn9Nzajixvow9xi": {
           "name": "Luce",
-          "materials": "una lucciola o del muschio fosforescente"
+          "materials": "una lucciola o del muschio fosforescente",
+          "description": "<p>Tocchi un oggetto che non sia più grande di 3 metri in alcuna dimensione. Finché l'incantesimo non termina, l'oggetto proietta luce intensa entro un raggio di 6 metri e luce fioca per altri 6 metri. La luce può essere del colore che preferisci. Coprire completamente l'oggetto con qualcosa di opaco blocca la luce. L'incantesimo termina se lo lanci di nuovo o lo interrompi con un'azione.</p><p>Se bersagli un oggetto impugnato o indossato da una creatura ostile, quella creatura deve superare un tiro salvezza su Destrezza per evitare l'incantesimo.</p>"
         },
         "uUWb1wZgtMou0TVP": {
           "name": "Cura Ferite",
@@ -6525,6 +7055,9 @@
         "Fq7lbhjMFR5fwEFS": {
           "name": "Armi Surriscaldate"
         }
+      },
+      "details": {
+        "alignment": "Neutrale Malvagio"
       }
     },
     "Satyr": {
@@ -6546,6 +7079,9 @@
         "Wo0UWMSUsVVfavZT": {
           "name": "Resistenza Magica"
         }
+      },
+      "details": {
+        "alignment": "Caotico Neutrale"
       }
     },
     "Giant Fire Beetle": {
@@ -6914,7 +7450,8 @@
           "name": "Turbine di Sabbia"
         },
         "n9pJzTDsAwQxJVRl": {
-          "name": "Fiamma Sacra"
+          "name": "Fiamma Sacra",
+          "description": "<p>Una luminosità simile a una fiamma scende su una creatura che puoi vedere entro gittata. Il bersaglio deve superare un tiro salvezza su Destrezza, altrimenti subisce 1d8 danni radiosi. Il bersaglio non ottiene alcun beneficio dalla copertura per questo tiro salvezza.</p><p>I danni dell'incantesimo aumentano di 1d8 quando raggiungi il 5° livello (2d8), l'11° livello (3d8) e il 17° livello (4d8).</p>"
         },
         "MUO1uYN7JR1hm4dR": {
           "name": "Taumaturgia"
@@ -6923,7 +7460,8 @@
           "name": "Comando"
         },
         "7buEm5KhI5lP8m1z": {
-          "name": "Dardo Tracciante"
+          "name": "Dardo Tracciante",
+          "description": "<p>Un lampo di luce sfreccia verso una creatura a tua scelta entro gittata. Effettua un attacco a distanza con incantesimo contro il bersaglio. Se colpisci, il bersaglio subisce 4d6 danni radiosi e il successivo tiro per colpire effettuato contro di lui prima della fine del tuo turno successivo dispone di vantaggio, grazie alla mistica luce fioca che fino ad allora scintilla sul bersaglio.</p><p><strong>Ai Livelli Superiori.</strong> Quando lanci questo incantesimo usando uno slot incantesimo di 2° livello o superiore, i danni aumentano di 1d6 per ogni livello dello slot superiore al 1°.</p>"
         },
         "jZ6JNykRtdQ90MOo": {
           "name": "Scudo della Fede",
@@ -6977,6 +7515,11 @@
           "effects": {
             "ebQZNdQTJtOhr7Lq": {
               "name": "Sguardo Terrificante"
+            }
+          },
+          "activities": {
+            "vBP1Ivo8gjkv4DVp": {
+              "name": "Focalizza Sguardo"
             }
           }
         },
@@ -7064,6 +7607,9 @@
         "VAcvTNQf5hrdzQEh": {
           "name": "Armi Angeliche"
         }
+      },
+      "details": {
+        "alignment": "Legale Buono"
       }
     },
     "Flying Sword": {
@@ -7151,11 +7697,19 @@
             "woi3Je0nZ2KaHaJq": {
               "name": "Invisibilità"
             }
+          },
+          "activities": {
+            "KoAbPzGOJ6vf7w7p": {
+              "name": "Diventa Invisibile"
+            }
           }
         },
         "qJHrH8Q3q1JB5xe5": {
           "name": "Vista del Cuore"
         }
+      },
+      "details": {
+        "alignment": "Neutrale Buono"
       }
     },
     "Hunter Shark": {
@@ -7279,7 +7833,12 @@
           "name": "Masticare"
         },
         "WGGtJeKC6RjDyMC2": {
-          "name": "Presenza Terrificante"
+          "name": "Presenza Terrificante",
+          "effects": {
+            "JG2uXIqEJlTnRHpq": {
+              "name": "Presenza Terrificante"
+            }
+          }
         },
         "JKnHbj3EFyloyYpd": {
           "name": "Inghiottire"
@@ -7332,6 +7891,9 @@
         "kz0dD5J9FQTTryWp": {
           "name": "Anfibio"
         }
+      },
+      "details": {
+        "alignment": "Neutrale"
       }
     },
     "Tiger": {
@@ -7378,6 +7940,9 @@
             }
           }
         }
+      },
+      "details": {
+        "alignment": "Neutrale"
       }
     },
     "Tyrannosaurus Rex": {
@@ -7445,6 +8010,9 @@
         "RMsSkfIx97Hnqf37": {
           "name": "Mostro da Assedio"
         }
+      },
+      "details": {
+        "alignment": "Caotico Buono"
       }
     },
     "Triceratops": {
@@ -7545,6 +8113,9 @@
         "UNbcqlW8Siek0Fpm": {
           "name": "Zoccoli"
         }
+      },
+      "details": {
+        "alignment": "Legale Buono"
       }
     },
     "Vampire": {
@@ -7694,7 +8265,17 @@
         },
         "6fVu7XdsLkwtzHrs": {
           "name": "Sensibilità alla Luce Solare"
+        },
+        "NX8cqG6aZMns8wvY": {
+          "activities": {
+            "oIaGncKFmwOakdyM": {
+              "name": "Rianima Zombie"
+            }
+          }
         }
+      },
+      "details": {
+        "alignment": "Neutrale Malvagio"
       }
     },
     "Worg": {
@@ -7703,6 +8284,9 @@
         "UnONIXYgZcE3Jya0": {
           "name": "Morso"
         }
+      },
+      "details": {
+        "alignment": "Neutrale Malvagio"
       }
     },
     "Wraith": {
@@ -7722,6 +8306,9 @@
         "6ptySzeP45liCkZe": {
           "name": "Sensibilità alla Luce Solare"
         }
+      },
+      "details": {
+        "alignment": "Neutrale Malvagio"
       }
     },
     "Xorn": {
@@ -7742,6 +8329,9 @@
         "x6Hd2pSXy7TDwgjR": {
           "name": "Percezione dei Tesori"
         }
+      },
+      "details": {
+        "alignment": "Neutrale"
       }
     },
     "Zombie": {
@@ -7753,6 +8343,9 @@
         "RDeCoZRniQBNq0rX": {
           "name": "Tempra dei Non Morti"
         }
+      },
+      "details": {
+        "alignment": "Neutrale Malvagio"
       }
     },
     "Ogre Zombie": {
@@ -7767,13 +8360,21 @@
         "Gj35Y1i6Ph90Wn3R": {
           "name": "Morning Star"
         }
+      },
+      "details": {
+        "alignment": "Neutrale Malvagio"
       }
     },
     "z0zvgcIugizwcuxJ": {
       "_id": "z0zvgcIugizwcuxJ",
       "items": {
         "52m3BQ2wpXvT0jOM": {
-          "name": "Morso"
+          "name": "Morso",
+          "activities": {
+            "bJKKk7008Mp0Bq4F": {
+              "name": "Tiro Salvezza contro Malattia"
+            }
+          }
         },
         "5YcJeJUiuLz3HuV0": {
           "name": "Tattiche del Branco"
