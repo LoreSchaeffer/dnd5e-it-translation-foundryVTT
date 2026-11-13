@@ -3879,6 +3879,14 @@
         },
         {
           "pack": "items",
+          "id": "F8QpasPjLrw2POzE",
+          "name": "Bag of Beans",
+          "sourcePath": "items/trinket/bag-of-beans.yml",
+          "lookupKey": "Bag of Beans",
+          "matchedLookupKey": "Bag of Beans"
+        },
+        {
+          "pack": "items",
           "id": "9Ifr8fGvJ1bArzOW",
           "name": "Bag of Tricks (Grey)",
           "sourcePath": "items/trinket/bag-of-tricks-grey.yml",
@@ -7064,57 +7072,6 @@
       ],
       "needsTranslation": [],
       "manualReview": [
-        {
-          "pack": "items",
-          "id": "F8QpasPjLrw2POzE",
-          "name": "Bag of Beans",
-          "sourcePath": "items/trinket/bag-of-beans.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Bag of Beans",
-          "matchedLookupKey": "Bag of Beans",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "F8QpasPjLrw2POzE",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "F8QpasPjLrw2POzE",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "items",
-              "id": "F8QpasPjLrw2POzE",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "F8QpasPjLrw2POzE",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-formulas",
-              "severity": "blocking",
-              "message": "Foundry formulas differ from source",
-              "pack": "items",
-              "id": "F8QpasPjLrw2POzE",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
         {
           "pack": "items",
           "id": "oSarKEU8x1AupB6z",

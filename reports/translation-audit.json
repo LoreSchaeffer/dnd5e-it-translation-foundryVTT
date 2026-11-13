@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1770,
+      "translated": 1771,
       "missing": 69,
-      "partial": 552,
+      "partial": 551,
       "review": 70
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 959,
+      "invariantFailures": 954,
       "englishResiduals": 72,
       "imperialResiduals": 0
     },
-    "blockingIssues": 7114
+    "blockingIssues": 7109
   },
   "packs": [
     {
@@ -5317,9 +5317,9 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 882,
+          "translated": 883,
           "missing": 0,
-          "partial": 3,
+          "partial": 2,
           "review": 0
         },
         "folders": {
@@ -5333,62 +5333,12 @@
           "total": 2227,
           "translated": 2227,
           "missing": 0,
-          "invariantFailures": 12,
+          "invariantFailures": 7,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "F8QpasPjLrw2POzE",
-          "fieldPath": "system.description.value",
-          "name": "Bag of Beans",
-          "sourcePath": "items/trinket/bag-of-beans.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "F8QpasPjLrw2POzE",
-          "fieldPath": "system.description.value",
-          "name": "Bag of Beans",
-          "sourcePath": "items/trinket/bag-of-beans.yml"
-        },
-        {
-          "code": "foundry-reference-count",
-          "severity": "blocking",
-          "message": "Foundry reference count differs from source",
-          "pack": "items",
-          "id": "F8QpasPjLrw2POzE",
-          "fieldPath": "system.description.value",
-          "name": "Bag of Beans",
-          "sourcePath": "items/trinket/bag-of-beans.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "items",
-          "id": "F8QpasPjLrw2POzE",
-          "fieldPath": "system.description.value",
-          "name": "Bag of Beans",
-          "sourcePath": "items/trinket/bag-of-beans.yml"
-        },
-        {
-          "code": "foundry-formulas",
-          "severity": "blocking",
-          "message": "Foundry formulas differ from source",
-          "pack": "items",
-          "id": "F8QpasPjLrw2POzE",
-          "fieldPath": "system.description.value",
-          "name": "Bag of Beans",
-          "sourcePath": "items/trinket/bag-of-beans.yml"
-        },
         {
           "code": "html-tag-sequence",
           "severity": "blocking",
