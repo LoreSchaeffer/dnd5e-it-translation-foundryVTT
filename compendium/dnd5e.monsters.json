@@ -13859,9 +13859,12 @@
           },
           "effects": {
             "Tp6TMb0fLRqIiZVc": {
-              "name": "Polvere e Sabbia Accecanti"
+              "name": "Polvere e Sabbia Accecanti",
+              "description": "<p>Sei &amp;reference[blinded apply=false] fino alla fine del tuo turno successivo.</p>"
             }
-          }
+          },
+          "description": "<p>Polvere e sabbia accecanti turbinano magicamente attorno al [[lookup @name lowercase]]{mostro}. Ogni creatura entro [[lookup @target.template.size activity=zlgs7Urb6F9nnlIA]] metri dal [[lookup @name lowercase]]{mostro} deve superare un tiro salvezza [[/save]], altrimenti è &amp;reference[blinded] fino alla fine del turno successivo della creatura.</p>",
+          "chat": "<p>Polvere e sabbia accecanti turbinano magicamente attorno al [[lookup @name]]{mostro}. Ogni creatura entro [[lookup @target.template.size activity=zlgs7Urb6F9nnlIA]] metri dal [[lookup @name]]{mostro} deve effettuare un tiro salvezza su Costituzione.</p>"
         },
         "3PBv68cIzTlrzcYe": {
           "name": "Parola Blasfema",
@@ -13872,9 +13875,12 @@
           },
           "effects": {
             "GP4BRO0eAZKrm1Ws": {
-              "name": "Stordimento Blasfemo"
+              "name": "Stordimento Blasfemo",
+              "description": "<p>Sei &amp;reference[stunned apply=false] fino alla fine del turno successivo del signore delle mummie.</p>"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercse]]{mostro} pronuncia una parola blasfema. Ogni creatura che non sia un non morto entro [[lookup @target.template.size activity=UR3pJCZj7UbuHzg2]] metri dal [[lookup @name lowercase]]{mostro} e che sia in grado di udire l'enunciazione magica deve superare un tiro salvezza [[/save]], altrimenti è &amp;reference[stunned] fino alla fine del turno successivo del [[lookup @name lowercase]]{mostro}.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} pronuncia una parola blasfema. Ogni creatura che non sia un non morto entro [[lookup @target.template.size activity=UR3pJCZj7UbuHzg2]] metri dal [[lookup @name]]{mostro} e che sia in grado di udire l'enunciazione magica deve effettuare un tiro salvezza su Costituzione.</p>"
         },
         "sjY1jcYS6PdmZYKH": {
           "name": "Incanalare Energia Negativa",
@@ -13885,12 +13891,15 @@
           },
           "effects": {
             "cJyglbnvY9IuBGMU": {
-              "name": "Energie Negative Scatenate"
+              "name": "Energie Negative Scatenate",
+              "description": "<p>Non puoi recuperare punti ferita fino alla fine del turno successivo del signore delle mummie.</p>"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} scatena magicamente energia negativa. Le creature entro [[lookup @target.template.size activity=9ewBziURGwIvgPUb]] metri dal [[lookup @name lowercase]]{mostro}, incluse quelle dietro le barriere e oltre gli angoli, non possono recuperare punti ferita fino alla fine del turno successivo del [[lookup @name lowercase]]{mostro}.</p>"
         },
         "xZSeAPj02NKne0AK": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} può usare il proprio [[/item .GSbdcVdjyBwAmgk9]]{Sguardo Terrificante} ed effettua un attacco con il proprio [[/item .5VmCO7pd2vpSCpq2]]{Pugno Putrescente}.</p>"
         },
         "o7UvUGPaF9cnGcQi": {
           "name": "Turbine di Sabbia",
@@ -13959,7 +13968,8 @@
         },
         "OVikYmSdHliAG2YD": {
           "name": "Piaga degli Insetti",
-          "materials": "alcuni granelli di zucchero, alcuni chicchi di grano e un pezzetto di grasso animale"
+          "materials": "alcuni granelli di zucchero, alcuni chicchi di grano e un pezzetto di grasso animale",
+          "description": "<p>Uno sciame di locuste fameliche riempie una sfera del raggio di 6 metri centrata su un punto a scelta dell'incantatore entro gittata. La sfera si diffonde oltre gli angoli, permane per la durata dell'incantesimo e la sua area è leggermente oscurata. L'area della sfera è considerata terreno difficile.</p><p>Quando la sfera compare, ogni creatura al suo interno deve effettuare un tiro salvezza su Costituzione. Se lo fallisce, subisce 4d10 danni perforanti, mentre se lo supera subisce soltanto la metà di quei danni. Una creatura deve effettuare questo tiro salvezza anche quando entra nell'area dell'incantesimo per la prima volta in un turno o vi termina il proprio turno.</p><p><strong>Ai Livelli Superiori.</strong> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 6° livello o superiore, i danni aumentano di 1d10 per ogni livello dello slot oltre il 5°.</p>"
         },
         "tMH6Ivn4GmE1naMj": {
           "name": "Ferire",
@@ -13991,14 +14001,18 @@
               "name": "Focalizza Sguardo"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} bersaglia [[lookup @labels.description.affects activity=vBP1Ivo8gjkv4DVp]] che sia in grado di vedere entro [[lookup @labels.description.range activity=vBP1Ivo8gjkv4DVp]] da sé. Se il bersaglio può vedere il [[lookup @name]]{mostro}, deve effettuare un tiro salvezza su Saggezza contro questa magia.</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} bersaglia [[lookup @labels.description.affects activity=vBP1Ivo8gjkv4DVp]] che sia in grado di vedere entro [[lookup @labels.description.range activity=vBP1Ivo8gjkv4DVp]] da sé. Se il bersaglio può vedere il [[lookup @name]]{mostro}, deve effettuare un tiro salvezza su Saggezza contro questa magia.</p>",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} bersaglia [[lookup @labels.description.affects activity=vBP1Ivo8gjkv4DVp]] che sia in grado di vedere entro [[lookup @labels.description.range activity=vBP1Ivo8gjkv4DVp]] da sé. Se il bersaglio può vedere il [[lookup @name lowercase]]{mostro}, deve superare un tiro salvezza [[/save]] contro questa magia, altrimenti diventa &amp;reference[frightened] fino alla fine del turno successivo del [[lookup @name lowercase]]{mostro}.</p><p>Se il bersaglio fallisce il tiro salvezza di 5 o più, è anche &amp;reference[paralyzed] per la stessa durata. Un bersaglio che supera il tiro salvezza è immune allo [[lookup @item.name]] di tutti i [[lookup @name lowercase]]{mostri} per le 24 ore successive.</p>"
         },
         "AEc5FXdpe3M7KHQI": {
           "name": "Ringiovanimento",
-          "chat": "<p>Un signore delle mummie distrutto ottiene un nuovo corpo dopo 24 ore.</p>"
+          "chat": "<p>Un signore delle mummie distrutto ottiene un nuovo corpo dopo 24 ore.</p>",
+          "description": "<p>Un [[lookup @name lowercase]]{mostro} distrutto ottiene un nuovo corpo dopo 24 ore se il suo cuore è intatto, recuperando tutti i suoi punti ferita e tornando attivo. Il nuovo corpo compare entro 1,5 metri dal cuore del [[lookup @name lowercase]]{mostro}.</p>"
         },
         "FeMPdVmbrjP2L3CO": {
-          "name": "Incantesimi"
+          "name": "Incantesimi",
+          "description": "<p>Il signore delle mummie è un incantatore di 10° livello. La sua caratteristica da incantatore è Saggezza (CD 17 del tiro salvezza degli incantesimi, +9 al tiro per colpire degli attacchi con incantesimo). Il signore delle mummie ha preparato i seguenti incantesimi da chierico:</p><p>Trucchetti (a volontà): [[/item .n9pJzTDsAwQxJVRl]]{fiamma sacra}, [[/item .MUO1uYN7JR1hm4dR]]{taumaturgia}</p><p>1° livello (4 slot): [[/item .arzCrMRgcNiQuh43]]{comando}, [[/item .7buEm5KhI5lP8m1z]]{dardo tracciante}, [[/item .jZ6JNykRtdQ90MOo]]{scudo della fede}</p><p>2° livello (3 slot): [[/item .3Lo9boi7P2ro6QV4]]{blocca persone}, [[/item .5VhqFROQYjr1P9lp]]{silenzio}, [[/item .JbxsYXxSOTZbf9I0]]{arma spirituale}</p><p>3° livello (3 slot): [[/item .oyE5nVppa5mde5gT]]{animare morti}, [[/item .15Fa6q1nH27XfbR8]]{dissolvi magie}</p><p>4° livello (3 slot): [[/item .XqzXSKNR75ZdYTA9]]{divinazione}, [[/item .TgHsuhNasPbhu8MO]]{guardiano della fede}</p><p>5° livello (2 slot): [[/item .CjIq8Ed7bu3vVwT1]]{contagio}, [[/item .OVikYmSdHliAG2YD]]{piaga degli insetti}</p><p>6° livello (1 slot): [[/item .tMH6Ivn4GmE1naMj]]{ferire}</p>",
+          "chat": "<p>Il signore delle mummie è un incantatore. La sua caratteristica da incantatore è Saggezza.</p>"
         },
         "MVq9wNMasHT5Cr1J": {
           "name": "Attacco",
@@ -14006,21 +14020,27 @@
             "RDdWD0VWUqslOXJm": {
               "name": "Colpire"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua un attacco con il proprio [[/item .5VmCO7pd2vpSCpq2]]{Pugno Putrescente} o usa il proprio [[/item .GSbdcVdjyBwAmgk9]]{Sguardo Terrificante}.</p>"
         },
         "5VmCO7pd2vpSCpq2": {
           "name": "Pugno Putrescente",
           "activities": {
             "aKkGG9wpEFZSfhFO": {
-              "name": "Tiro Salvezza contro la Maledizione"
+              "name": "Tiro Salvezza contro la Maledizione",
+              "description": {
+                "value": "<p>Se il bersaglio è una creatura, deve superare un tiro salvezza [[/save]], altrimenti viene maledetto dal marciume della mummia. Il bersaglio maledetto non può recuperare punti ferita e il suo massimo dei punti ferita diminuisce di 10 (3d6) ogni 24 ore trascorse. Se la maledizione riduce a 0 il massimo dei punti ferita del bersaglio, il bersaglio muore e il suo corpo si riduce in polvere. La maledizione dura finché non viene rimossa dall'incantesimo @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{Rimuovi Maledizione} o da un'altra magia.</p>"
+              }
             }
           },
           "effects": {
             "UMVpr1Reg58yXSa1": {
-              "name": "Putrefazione della Mummia"
+              "name": "Putrefazione della Mummia",
+              "description": "<p>Sei maledetto. Finché sei maledetto, non puoi recuperare punti ferita e il tuo massimo dei punti ferita si riduce di [[/damage maximum 3d6 average]]{10 (3d6)} ogni 24 ore trascorse.</p><p>Se la maledizione riduce a 0 il massimo dei punti ferita del bersaglio, il bersaglio muore e il suo corpo si riduce in polvere. La maledizione dura finché non viene rimossa dall'incantesimo @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{Rimuovi Maledizione} o da un'altra magia.</p>"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Se il bersaglio è una creatura, deve effettuare un tiro salvezza su Costituzione.</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Se il bersaglio è una creatura, deve effettuare un tiro salvezza su Costituzione.</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio è una creatura, deve superare un tiro salvezza [[/save]], altrimenti viene maledetto dal marciume della mummia. Il bersaglio maledetto non può recuperare punti ferita e il suo massimo dei punti ferita diminuisce di 10 (3d6) ogni 24 ore trascorse. Se la maledizione riduce a 0 il massimo dei punti ferita del bersaglio, il bersaglio muore e il suo corpo si riduce in polvere. La maledizione dura finché non viene rimossa dall'incantesimo @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{Rimuovi Maledizione} o da un'altra magia.</p>"
         }
       },
       "details": {
