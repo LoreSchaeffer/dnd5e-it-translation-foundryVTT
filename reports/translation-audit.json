@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2197,
+      "translated": 2198,
       "missing": 3,
-      "partial": 191,
+      "partial": 190,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14312,
-      "missing": 1348,
+      "translated": 14314,
+      "missing": 1346,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1353
+    "blockingIssues": 1351
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 162,
+          "translated": 163,
           "missing": 0,
-          "partial": 175,
+          "partial": 174,
           "review": 0
         },
         "folders": {
@@ -578,32 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6496,
-          "missing": 610,
+          "translated": 6498,
+          "missing": 608,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "T1xZTDCGuvMBSq8d",
-          "name": "Warhorse",
-          "fieldPath": "items[1KyNbDtLLrcA5lj0].system.description.value",
-          "sourcePath": "monsters/beast/warhorse.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "T1xZTDCGuvMBSq8d",
-          "name": "Warhorse",
-          "fieldPath": "items[1KyNbDtLLrcA5lj0].system.description.chat",
-          "sourcePath": "monsters/beast/warhorse.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
