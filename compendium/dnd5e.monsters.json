@@ -1079,14 +1079,17 @@
       "name": "Balor",
       "items": {
         "qzphlErr2D2mRpxT": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua due attacchi: uno con la [[/item .6ZAh5TkiXwQMUfDB]]{Spada Lunga} e uno con la [[/item .1oGgJQB1ItqyKoZ5]]{Frusta}.</p>"
         },
         "mw93amZDA4ctKqvQ": {
-          "name": "Teletrasporto"
+          "name": "Teletrasporto",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} si teletrasporta magicamente, assieme a ogni oggetto che indossa o trasporta, fino a [[lookup @labels.description.range activity=dnd5eactivity000]] di distanza in uno spazio libero che sia in grado di vedere.</p>"
         },
         "6ZAh5TkiXwQMUfDB": {
           "name": "Spada Lunga",
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il [[lookup @name lowercase]]{mostro} mette a segno un colpo critico, tira i dadi di danno tre volte anziché due.</p>"
         },
         "1oGgJQB1ItqyKoZ5": {
           "name": "Frusta",
@@ -1094,7 +1097,9 @@
             "LEKd2jRukXVvtSPG": {
               "name": "Tiro Salvezza contro il Trascinamento"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage extended]]. Il bersaglio deve superare un tiro salvezza [[/save]], altrimenti viene trascinato fino a 7,5 metri verso il [[lookup @name lowercase]]{mostro}.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio deve effettuare un tiro salvezza su Forza.</p>"
         },
         "z6qrm9EZiEH500K2": {
           "name": "Resistenza Magica",
@@ -1110,18 +1115,25 @@
             "bft8Mf1FKyyIxwb8": {
               "name": "Esplodere"
             }
-          }
+          },
+          "description": "<p>Quando il [[lookup @name lowercase]]{mostro} muore, esplode e ogni creatura entro 9 metri da esso deve effettuare un tiro salvezza [[/save]]; se lo fallisce subisce [[/damage average]] danni, mentre se lo supera subisce la metà di quei danni.</p><p>L'esplosione incendia gli oggetti infiammabili nell'area che non siano indossati o trasportati e distrugge le armi del [[lookup @name lowercase]]{mostro}.</p>",
+          "chat": "<p>Quando il balor muore, esplode e ogni creatura entro 9 metri da esso deve effettuare un tiro salvezza su <strong>Destrezza</strong>. L'esplosione incendia gli oggetti infiammabili nell'area che non siano indossati o trasportati e distrugge le armi del balor.</p>"
         },
         "FWSzSLqeIDq7meXC": {
           "name": "Aura di Fuoco",
           "activities": {
             "t0DzL3PUekMarxZX": {
-              "name": "Danni a Inizio Turno"
+              "name": "Danni a Inizio Turno",
+              "description": {
+                "value": "<p>All'inizio di ciascun turno del [[lookup @name lowercase]]{mostro}, ogni creatura entro [[lookup @labels.description.range activity=t0DzL3PUekMarxZX]] da esso subisce [[/damage average activity=t0DzL3PUekMarxZX]] danni e gli oggetti infiammabili nell'aura che non siano indossati o trasportati prendono fuoco.</p>"
+              }
             },
             "QoYDB21VZPDbFEuo": {
               "name": "Danni da Contatto"
             }
-          }
+          },
+          "description": "<p>All'inizio di ciascun turno del [[lookup @name lowercase]]{mostro}, ogni creatura entro [[lookup @labels.description.range activity=t0DzL3PUekMarxZX]] da esso subisce [[/damage average]] danni e gli oggetti infiammabili nell'aura che non siano indossati o trasportati prendono fuoco.</p><p>Una creatura che tocca il [[lookup @name lowercase]]{mostro} o lo colpisce con un attacco in mischia mentre si trova entro [[lookup @labels.description.range activity=QoYDB21VZPDbFEuo]] da esso subisce [[/damage average activity=QoYDB21VZPDbFEuo]] danni.</p>",
+          "chat": "<p>All'inizio di ciascun turno del balor, ogni creatura entro 1,5 metri da esso subisce <em>danni da fuoco</em> e gli oggetti infiammabili nell'aura che non siano indossati o trasportati prendono fuoco. Una creatura che tocca il balor o lo colpisce con un attacco in mischia mentre si trova entro 1,5 metri da esso subisce <em>danni da fuoco</em>.</p>"
         }
       },
       "details": {
