@@ -1,0 +1,13 @@
+{
+  "monsters": {
+    "P6qC8jB3pnEH0tIE": {
+      "items[7lnXqe8AnWhtnQh7].system.description.value": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il bersaglio è &amp;Reference[grappled] (CD 14 per sfuggire) se è una creatura di taglia Grande o inferiore e il [[lookup @name lowercase]]{mostro} non ha già afferrato altre due creature.</p>",
+      "items[7lnXqe8AnWhtnQh7].system.description.chat": "<p>Il [[lookup @name]]{mostro} attacca con la sua [[lookup @item.name]]. Il bersaglio è &amp;reference[grappled] se è una creatura di taglia Grande o inferiore.</p>",
+      "items[XUzROtGqVZS61Ofm].system.description.value": "<p>Una creatura &amp;reference[grappled apply=false] dal [[lookup @name lowercase]]{mostro} deve superare un tiro salvezza [[/save]] o essere &amp;Reference[poisoned] per [[lookup @labels.duration activity=BrAr9lF8TvsDoyxu]]. Finché questo veleno non termina, il bersaglio è &amp;Reference[paralyzed]. Il bersaglio può ripetere il tiro salvezza alla fine di ciascuno dei suoi turni, terminando l'effetto su di sé in caso di successo.</p>",
+      "items[XUzROtGqVZS61Ofm].system.description.chat": "<p>Una creatura afferrata dal chuul deve effettuare un tiro salvezza su <strong>Costituzione</strong>. Il bersaglio può ripetere il tiro salvezza alla fine di ciascuno dei suoi turni, terminando l'effetto su di sé in caso di successo.</p>",
+      "items[XUzROtGqVZS61Ofm].effects[qingRxadtuIDPDLb].description": "<p>Sei &amp;reference[poisoned apply=false]. Finché sei avvelenato in questo modo, sei anche &amp;reference[paralyzed apply=false]. Puoi ripetere il tiro salvezza alla fine di ciascuno dei tuoi turni, terminando l'effetto su di te in caso di successo.</p>",
+      "items[OtOJ4eSobUE30d2S].system.description.value": "<p>Il chuul effettua due attacchi con [[/item .7lnXqe8AnWhtnQh7]]{chela}. Se il chuul sta afferrando una creatura, può anche usare una volta i suoi [[/item .XUzROtGqVZS61Ofm]]{tentacoli}.</p>",
+      "items[03oy1y5rwobZdg46].system.description.value": "<p>Il [[lookup @name lowercase]]{mostro} percepisce a volontà la magia entro 36 metri da sé. Questo tratto funziona altrimenti come l'incantesimo @UUID[Compendium.dnd5e.spells.Item.ghXTfe7sgCbgf1Q8]{Individuazione del Magico}, ma non è di per sé magico.</p>"
+    }
+  }
+}

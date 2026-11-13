@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2142,
+      "translated": 2143,
       "missing": 3,
-      "partial": 246,
+      "partial": 245,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14184,
-      "missing": 1476,
+      "translated": 14191,
+      "missing": 1469,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1481
+    "blockingIssues": 1474
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 107,
+          "translated": 108,
           "missing": 0,
-          "partial": 230,
+          "partial": 229,
           "review": 0
         },
         "folders": {
@@ -578,77 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6368,
-          "missing": 738,
+          "translated": 6375,
+          "missing": 731,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "P6qC8jB3pnEH0tIE",
-          "name": "Chuul",
-          "fieldPath": "items[7lnXqe8AnWhtnQh7].system.description.value",
-          "sourcePath": "monsters/aberration/chuul.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "P6qC8jB3pnEH0tIE",
-          "name": "Chuul",
-          "fieldPath": "items[7lnXqe8AnWhtnQh7].system.description.chat",
-          "sourcePath": "monsters/aberration/chuul.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "P6qC8jB3pnEH0tIE",
-          "name": "Chuul",
-          "fieldPath": "items[XUzROtGqVZS61Ofm].system.description.value",
-          "sourcePath": "monsters/aberration/chuul.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "P6qC8jB3pnEH0tIE",
-          "name": "Chuul",
-          "fieldPath": "items[XUzROtGqVZS61Ofm].system.description.chat",
-          "sourcePath": "monsters/aberration/chuul.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "P6qC8jB3pnEH0tIE",
-          "name": "Chuul",
-          "fieldPath": "items[XUzROtGqVZS61Ofm].effects[qingRxadtuIDPDLb].description",
-          "sourcePath": "monsters/aberration/chuul.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "P6qC8jB3pnEH0tIE",
-          "name": "Chuul",
-          "fieldPath": "items[OtOJ4eSobUE30d2S].system.description.value",
-          "sourcePath": "monsters/aberration/chuul.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "P6qC8jB3pnEH0tIE",
-          "name": "Chuul",
-          "fieldPath": "items[03oy1y5rwobZdg46].system.description.value",
-          "sourcePath": "monsters/aberration/chuul.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
