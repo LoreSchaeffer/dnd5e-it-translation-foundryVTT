@@ -9,7 +9,7 @@
 | heroes | 12 | 12 | 0 | 0 | 0 | 0 | 0 |
 | items | 885 | 885 | 0 | 0 | 0 | 0 | 48 |
 | monsterfeatures | 252 | 252 | 0 | 0 | 0 | 0 | 0 |
-| monsters | 337 | 93 | 0 | 244 | 0 | 861 | 861 |
+| monsters | 337 | 94 | 0 | 243 | 0 | 851 | 851 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
 | rules | 20 | 1 | 3 | 16 | 0 | 738 | 695 |
 | spells | 320 | 320 | 0 | 0 | 0 | 0 | 0 |
@@ -17,7 +17,7 @@
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 1604
+Total blocking issues: 1594
 
 ## Issues
 
@@ -515,16 +515,6 @@ Total blocking issues: 1604
 - **missing-field** `monsters:xvh2UOKv1bh03Gih:items[tYZggJHgAbixP5rs].system.description.chat`
 - **missing-field** `monsters:5SgVGhQBswgWRwsF:items[ez0lp4uo2fLOc5Yf].effects[MNgx8MPcSucyc8VN].description`
 - **missing-field** `monsters:5SgVGhQBswgWRwsF:items[XtK73VCT1s8abvjs].system.description.value`
-- **missing-field** `monsters:RCv5y7iWlfNxkinx:items[wkqjn4bqhPIUUo7k].system.description.value`
-- **missing-field** `monsters:RCv5y7iWlfNxkinx:items[wkqjn4bqhPIUUo7k].system.description.chat`
-- **missing-field** `monsters:RCv5y7iWlfNxkinx:items[wkqjn4bqhPIUUo7k].effects[7nIc5RnZTZ9Eocv8].description`
-- **missing-field** `monsters:RCv5y7iWlfNxkinx:items[2Wh1GHIIzBfCm8md].system.description.value`
-- **missing-field** `monsters:RCv5y7iWlfNxkinx:items[BFv56pkQ54pdTkYM].system.description.value`
-- **missing-field** `monsters:RCv5y7iWlfNxkinx:items[GjIQl7UOQUtsrj2v].system.description.value`
-- **missing-field** `monsters:RCv5y7iWlfNxkinx:items[GjIQl7UOQUtsrj2v].system.description.chat`
-- **missing-field** `monsters:RCv5y7iWlfNxkinx:items[GjIQl7UOQUtsrj2v].system.activities.t62QSFrpupkF6Qav.description.value`
-- **missing-field** `monsters:RCv5y7iWlfNxkinx:items[GjIQl7UOQUtsrj2v].system.activities.JtAxEJ6yXykPXhDf.description.value`
-- **missing-field** `monsters:RCv5y7iWlfNxkinx:items[GjIQl7UOQUtsrj2v].effects[lezzp3EJSn2vM7mL].description`
 - **missing-field** `monsters:bwtkdzavdNHISgp4:items[MLfZqvhaJjB78YiT].system.description.value`
 - **missing-field** `monsters:bwtkdzavdNHISgp4:items[MLfZqvhaJjB78YiT].effects[dJA0IOGziAr9Onj9].description`
 - **missing-field** `monsters:bwtkdzavdNHISgp4:items[ae0OI3obJqa4AS7U].system.description.value`

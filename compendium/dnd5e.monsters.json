@@ -2817,26 +2817,37 @@
       },
       "items": {
         "2Wh1GHIIzBfCm8md": {
-          "name": "Incantesimi Innati"
+          "name": "Incantesimi Innati",
+          "description": "<p>La caratteristica da incantatore innato del [[lookup @name lowercase]]{mostro} è Carisma (CD 21 del tiro salvezza degli incantesimi). Il [[lookup @name lowercase]]{mostro} può lanciare innatamente i seguenti incantesimi, senza richiedere componenti materiali:</p><p><strong>A volontà:</strong> [[/item .ghXTfe7sgCbgf1Q8]]{individuazione del magico}, [[/item .ztgcdrWPshKRpFd0]]{palla di fuoco}</p><p><strong>3/giorno ciascuno:</strong> [[/item .l9Ju5KE7bbn3WpTm]]{blocca mostri}, [[/item .X3DrXgxjwI2dvkD6]]{muro di fuoco}</p>"
         },
         "BFv56pkQ54pdTkYM": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua quattro attacchi: uno con il proprio [[/item .GjIQl7UOQUtsrj2v]]{morso}, uno con il proprio [[/item .RkuPEGbAXHhxfNWJ]]{artiglio}, uno con la propria [[/item .gpjBebqxqbQA35st]]{mazza} e uno con la propria [[/item .Gh1DbMpJiaTlTwWp]]{coda}.</p>"
         },
         "GjIQl7UOQUtsrj2v": {
           "name": "Morso",
           "activities": {
             "t62QSFrpupkF6Qav": {
-              "name": "Tiro Salvezza contro il Veleno"
+              "name": "Tiro Salvezza contro il Veleno",
+              "description": {
+                "value": "<p>Il bersaglio deve superare un tiro salvezza [[/save]], altrimenti diventa avvelenato. Mentre è avvelenato in questo modo, il bersaglio non può recuperare punti ferita e subisce [[/damage average activity=JtAxEJ6yXykPXhDf]] danni all'inizio di ciascuno dei propri turni. Il bersaglio avvelenato può ripetere il tiro salvezza alla fine di ciascuno dei propri turni e, se lo supera, l'effetto su di esso termina.</p>"
+              }
             },
             "JtAxEJ6yXykPXhDf": {
-              "name": "Danni da Veleno a Inizio Turno"
+              "name": "Danni da Veleno a Inizio Turno",
+              "description": {
+                "value": "<p>Il bersaglio subisce [[/damage average activity=JtAxEJ6yXykPXhDf]] danni all'inizio di ciascuno dei propri turni. Il bersaglio avvelenato può ripetere il tiro salvezza alla fine di ciascuno dei propri turni e, se lo supera, l'effetto su di esso termina.</p>"
+              }
             }
           },
           "effects": {
             "lezzp3EJSn2vM7mL": {
-              "name": "Veleno dell'Immondo della Fossa"
+              "name": "Veleno dell'Immondo della Fossa",
+              "description": "<p>Sei &amp;reference[poisoned apply=false]. Mentre sei avvelenato in questo modo, non puoi recuperare punti ferita e subisci [[/damage 6d6 poison average]] danni all'inizio di ciascuno dei tuoi turni.</p><p>Puoi ripetere il tiro salvezza alla fine di ciascuno dei tuoi turni e, se lo superi, l'effetto su di te termina.</p>"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il bersaglio deve superare un tiro salvezza [[/save]], altrimenti diventa &amp;reference[poisoned]. Mentre è avvelenato in questo modo, il bersaglio non può recuperare punti ferita e subisce [[/damage average activity=JtAxEJ6yXykPXhDf]] danni all'inizio di ciascuno dei propri turni. Il bersaglio avvelenato può ripetere il tiro salvezza alla fine di ciascuno dei propri turni e, se lo supera, l'effetto su di esso termina.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio deve superare un tiro salvezza su Costituzione, altrimenti diventa &amp;reference[poisoned]. Il bersaglio può ripetere il tiro salvezza alla fine di ciascuno dei propri turni e, se lo supera, l'effetto su di esso termina.</p>"
         },
         "gpjBebqxqbQA35st": {
           "name": "Mazza",
@@ -2874,14 +2885,17 @@
           "name": "Aura di Paura",
           "effects": {
             "7nIc5RnZTZ9Eocv8": {
-              "name": "Terrorizzato"
+              "name": "Terrorizzato",
+              "description": "<p>Sei &amp;reference[frightened apply=false] fino all'inizio del tuo turno successivo.</p>"
             }
           },
           "activities": {
             "2EPr5relqpSLmasf": {
               "name": "Tiro Salvezza contro la Paura"
             }
-          }
+          },
+          "description": "<p>Ogni creatura ostile al [[lookup @name lowercase]]{mostro} che inizia il proprio turno entro [[lookup @labels.description.range activity=2EPr5relqpSLmasf]] dal [[lookup @name lowercase]]{mostro} deve effettuare un tiro salvezza [[/save]], a meno che il [[lookup @name lowercase]]{mostro} non sia &amp;reference[incapacitated apply=false]. Se fallisce il tiro salvezza, la creatura è &amp;Reference[frightened] fino all'inizio del proprio turno successivo. Se supera il tiro salvezza, il [[lookup @name lowercase]]{mostro} non può influenzare la creatura con la propria [[lookup @item.name]] per le 24 ore successive.</p>",
+          "chat": "<p>Ogni creatura ostile al [[lookup @name]]{mostro} che inizia il proprio turno entro [[lookup @labels.description.range activity=2EPr5relqpSLmasf]] dal [[lookup @name]]{mostro} deve effettuare un tiro salvezza su Saggezza.</p>"
         },
         "RkuPEGbAXHhxfNWJ": {
           "name": "Artiglio",
