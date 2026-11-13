@@ -353,7 +353,8 @@
       },
       "items": {
         "gddHh6xWKLMmCT1J": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>La sfinge effettua due attacchi con gli [[/item .yotsIj19d5spOVGb]]{Artigli}.</p>"
         },
         "n9pJzTDsAwQxJVRl": {
           "name": "Fiamma Sacra",
@@ -403,7 +404,8 @@
         },
         "da0a1t2FqaTjRZGT": {
           "name": "Libertà di Movimento",
-          "materials": "una cinghia di cuoio legata attorno al braccio o a un'appendice simile"
+          "materials": "una cinghia di cuoio legata attorno al braccio o a un'appendice simile",
+          "description": "<p>L'incantatore tocca una creatura consenziente. Per la durata dell'incantesimo, il movimento del bersaglio non è influenzato dal terreno difficile e gli incantesimi e gli altri effetti magici non possono ridurre la velocità del bersaglio né renderlo paralizzato o trattenuto.</p><p>Il bersaglio può inoltre spendere 1,5 metri di movimento per sfuggire automaticamente alle costrizioni non magiche, come un paio di manette o una creatura che lo ha afferrato. Infine, trovarsi sott'acqua non impone penalità al movimento o agli attacchi del bersaglio.</p>"
         },
         "5e1xTohkzqFqbYH4": {
           "name": "Colpo Infuocato",
@@ -412,7 +414,8 @@
         },
         "WzvJ7G3cqvIubsLk": {
           "name": "Ristorare Superiore",
-          "materials": "polvere di diamante del valore di almeno 100 mo, che l'incantatore consuma"
+          "materials": "polvere di diamante del valore di almeno 100 mo, che l'incantatore consuma",
+          "description": "<p>L'incantatore infonde energia positiva in una creatura che tocca per annullare un effetto debilitante. Può ridurre di uno il livello di indebolimento del bersaglio oppure terminare uno degli effetti seguenti sul bersaglio:</p>\n<ul>\n<li>Un effetto che ha affascinato o pietrificato il bersaglio</li>\n<li>Una maledizione, inclusa la sintonia del bersaglio con un oggetto magico maledetto</li>\n<li>Una qualsiasi riduzione a uno dei punteggi di caratteristica del bersaglio</li>\n<li>Un effetto che riduce il massimo dei punti ferita del bersaglio</li>\n</ul>"
         },
         "mgFqi0ev8f7Ut19y": {
           "name": "Banchetto degli Eroi",
@@ -429,7 +432,8 @@
             "nfaYtrEmylWmLluh": {
               "name": "Riposizionarsi"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} si teletrasporta magicamente, assieme a ogni oggetto che indossa o trasporta, fino a [[lookup @labels.description.range activity=nfaYtrEmylWmLluh]] di distanza in uno spazio libero che sia in grado di vedere.</p>"
         },
         "pHPuDo1dD0B3phuF": {
           "name": "Azioni Leggendarie",
@@ -444,24 +448,36 @@
           "name": "Ruggito",
           "activities": {
             "YEy36H064rrzAAxY": {
-              "name": "Primo Ruggito"
+              "name": "Primo Ruggito",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} emette un ruggito magico. Ogni volta che ruggisce prima di completare un riposo lungo, il ruggito è più forte e produce un effetto diverso, come descritto di seguito. Ogni creatura entro 150 metri dal [[lookup @name lowercase]]{mostro} che sia in grado di udire il ruggito deve effettuare un tiro salvezza.</p><h4><strong>Primo Ruggito</strong></h4><p>Ogni creatura che fallisce un tiro salvezza [[/save activity=YEy36H064rrzAAxY]] è &amp;Reference[frightened] per [[lookup @labels.duration activity=YEy36H064rrzAAxY]]. Una creatura spaventata può ripetere il tiro salvezza alla fine di ciascun proprio turno e, se lo supera, l'effetto su di lei termina.</p>"
+              }
             },
             "bw7Ol7mkkyDDH3LD": {
-              "name": "Secondo Ruggito"
+              "name": "Secondo Ruggito",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} emette un ruggito magico. Ogni volta che ruggisce prima di completare un riposo lungo, il ruggito è più forte e produce un effetto diverso, come descritto di seguito. Ogni creatura entro [[lookup @target.template.size activity=YEy36H064rrzAAxY]] metri dal [[lookup @name lowercase]]{mostro} che sia in grado di udire il ruggito deve effettuare un tiro salvezza.</p><h4>Secondo Ruggito</h4><p>Ogni creatura che fallisce un tiro salvezza [[/save activity=bw7Ol7mkkyDDH3LD]] è &amp;Reference[deafened] e &amp;reference[frightened] per [[lookup @labels.duration activity=bw7Ol7mkkyDDH3LD]]. Una creatura spaventata è &amp;Reference[paralyzed] e può ripetere il tiro salvezza alla fine di ciascun proprio turno e, se lo supera, l'effetto su di lei termina.</p>"
+              }
             },
             "euc6EMlISPKQtmY5": {
-              "name": "Terzo Ruggito"
+              "name": "Terzo Ruggito",
+              "description": {
+                "value": "<p>Ogni creatura effettua un tiro salvezza [[/save activity=euc6EMlISPKQtmY5]]. Se lo fallisce, subisce [[/damage average activity=euc6EMlISPKQtmY5]] danni e cade &amp;Reference[prone]{prona}. Se lo supera, subisce la metà di quei danni e non cade prona.</p>"
+              }
             }
           },
           "effects": {
             "zFYAB0S0YmMO1C8D": {
-              "name": "Secondo Ruggito della Sfinge"
+              "name": "Secondo Ruggito della Sfinge",
+              "description": "<p>Sei &amp;reference[deafened apply=false] e &amp;reference[frightened apply=false] per la durata. Finché sei spaventato, sei anche &amp;reference[paralyzed apply=false].</p><p>Puoi ripetere il tiro salvezza alla fine di ciascun tuo turno e, se lo superi, l'effetto su di te termina.</p>"
             },
             "QGykY23zVVKEmOse": {
               "name": "Primo Ruggito della Sfinge",
               "description": "<p>Sei &amp;reference[frightened apply=false] per la durata.</p><p>Puoi ripetere il tiro salvezza alla fine di ciascun tuo turno e, se lo superi, l'effetto su di te termina.</p>"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} emette un ruggito magico. Ogni volta che ruggisce prima di completare un riposo lungo, il ruggito è più forte e produce un effetto diverso, come descritto di seguito. Ogni creatura entro [[lookup @target.template.size activity=YEy36H064rrzAAxY]] metri dal [[lookup @name lowercase]]{mostro} che sia in grado di udire il ruggito deve effettuare un tiro salvezza.</p><p><strong>Primo Ruggito.</strong> Ogni creatura che fallisce un tiro salvezza [[/save activity=YEy36H064rrzAAxY]] è &amp;Reference[frightened] per [[lookup @labels.duration activity=YEy36H064rrzAAxY]]. Una creatura spaventata può ripetere il tiro salvezza alla fine di ciascun proprio turno e, se lo supera, l'effetto su di lei termina.</p><p><strong>Secondo Ruggito.</strong> Ogni creatura che fallisce un tiro salvezza [[/save activity=bw7Ol7mkkyDDH3LD]] è &amp;Reference[deafened] e &amp;reference[frightened] per [[lookup @labels.duration activity=bw7Ol7mkkyDDH3LD]]. Una creatura spaventata è &amp;Reference[paralyzed] e può ripetere il tiro salvezza alla fine di ciascun proprio turno e, se lo supera, l'effetto su di lei termina.</p><p><strong>Terzo Ruggito.</strong> Ogni creatura effettua un tiro salvezza [[/save activity=euc6EMlISPKQtmY5]]. Se lo fallisce, subisce [[/damage average activity=euc6EMlISPKQtmY5]] danni e cade &amp;Reference[prone]{prona}. Se lo supera, subisce la metà di quei danni e non cade prona.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} emette un ruggito magico. Ogni volta che ruggisce prima di completare un riposo lungo, il ruggito è più forte e produce un effetto diverso. Ogni creatura entro [[lookup @target.template.size activity=YEy36H064rrzAAxY]] metri dal [[lookup @name]]{mostro} che sia in grado di udire il ruggito deve effettuare un tiro salvezza.</p>"
         },
         "fZY6aMo87z2iSl9Q": {
           "name": "Attacco con Artiglio",
@@ -482,7 +498,9 @@
           "description": "<p>Il [[lookup @name lowercase]]{mostro} lancia un incantesimo dalla propria lista di incantesimi preparati, usando normalmente uno slot incantesimo.</p>"
         },
         "zXzGfPnSFJbfZ7oW": {
-          "name": "Incantesimi"
+          "name": "Incantesimi",
+          "description": "<p>La sfinge è un incantatore di 12° livello. La sua caratteristica da incantatore è Saggezza (CD 18 del tiro salvezza degli incantesimi, +10 al tiro per colpire degli attacchi con incantesimo). Non richiede componenti materiali per lanciare i propri incantesimi. La sfinge ha preparato i seguenti incantesimi da chierico:</p><p>Trucchetti (a volontà): [[/item .n9pJzTDsAwQxJVRl]]{fiamma sacra}, [[/item .8zT7njvqbpXs4Cel]]{salvare i morenti}, [[/item .MUO1uYN7JR1hm4dR]]{taumaturgia}</p><p>1° livello (4 slot): [[/item .arzCrMRgcNiQuh43]]{comando}, [[/item .Mzh95utKDPIrjiH8]]{individuazione del bene e del male}, [[/item .ghXTfe7sgCbgf1Q8]]{individuazione del magico}</p><p>2° livello (3 slot): [[/item .F0GsG0SJzsIOacwV]]{ristorare inferiore}, [[/item .CylBa7jR8DSbo8Z3]]{zona di verità}</p><p>3° livello (3 slot): [[/item .15Fa6q1nH27XfbR8]]{dissolvi magie}, [[/item .gopnZvS0c2jD5FP8]]{linguaggi}</p><p>4° livello (3 slot): [[/item .pxpb2eOB6bv4phAf]]{esilio}, [[/item .da0a1t2FqaTjRZGT]]{libertà di movimento}</p><p>5° livello (2 slot): [[/item .5e1xTohkzqFqbYH4]]{colpo infuocato}, [[/item .WzvJ7G3cqvIubsLk]]{ristorare superiore}</p><p>6° livello (1 slot): [[/item .mgFqi0ev8f7Ut19y]]{banchetto degli eroi}</p>",
+          "chat": "<p>La sfinge è un incantatore. La sua caratteristica da incantatore è Saggezza.</p>"
         },
         "yotsIj19d5spOVGb": {
           "name": "Artiglio",

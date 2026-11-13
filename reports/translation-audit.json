@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2121,
+      "translated": 2122,
       "missing": 3,
-      "partial": 267,
+      "partial": 266,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 13985,
-      "missing": 1675,
+      "translated": 13997,
+      "missing": 1663,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1680
+    "blockingIssues": 1668
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 86,
+          "translated": 87,
           "missing": 0,
-          "partial": 251,
+          "partial": 250,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6169,
-          "missing": 937,
+          "translated": 6181,
+          "missing": 925,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -6606,114 +6606,6 @@
           "name": "Werewolf",
           "fieldPath": "items[2kHNI1T4gg879fDv].effects[yUtUCn3TPecpu4SI].description",
           "sourcePath": "monsters/humanoid/werewolf.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "nEC1BRwM8Lx9hLXW",
-          "name": "Androsphinx",
-          "fieldPath": "items[zXzGfPnSFJbfZ7oW].system.description.value",
-          "sourcePath": "monsters/monstrosity/androsphinx.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "nEC1BRwM8Lx9hLXW",
-          "name": "Androsphinx",
-          "fieldPath": "items[zXzGfPnSFJbfZ7oW].system.description.chat",
-          "sourcePath": "monsters/monstrosity/androsphinx.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "nEC1BRwM8Lx9hLXW",
-          "name": "Androsphinx",
-          "fieldPath": "items[gddHh6xWKLMmCT1J].system.description.value",
-          "sourcePath": "monsters/monstrosity/androsphinx.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "nEC1BRwM8Lx9hLXW",
-          "name": "Androsphinx",
-          "fieldPath": "items[ez87kySQJgKUPT9L].system.description.value",
-          "sourcePath": "monsters/monstrosity/androsphinx.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "nEC1BRwM8Lx9hLXW",
-          "name": "Androsphinx",
-          "fieldPath": "items[ez87kySQJgKUPT9L].system.description.chat",
-          "sourcePath": "monsters/monstrosity/androsphinx.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "nEC1BRwM8Lx9hLXW",
-          "name": "Androsphinx",
-          "fieldPath": "items[ez87kySQJgKUPT9L].system.activities.YEy36H064rrzAAxY.description.value",
-          "sourcePath": "monsters/monstrosity/androsphinx.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "nEC1BRwM8Lx9hLXW",
-          "name": "Androsphinx",
-          "fieldPath": "items[ez87kySQJgKUPT9L].system.activities.bw7Ol7mkkyDDH3LD.description.value",
-          "sourcePath": "monsters/monstrosity/androsphinx.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "nEC1BRwM8Lx9hLXW",
-          "name": "Androsphinx",
-          "fieldPath": "items[ez87kySQJgKUPT9L].system.activities.euc6EMlISPKQtmY5.description.value",
-          "sourcePath": "monsters/monstrosity/androsphinx.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "nEC1BRwM8Lx9hLXW",
-          "name": "Androsphinx",
-          "fieldPath": "items[ez87kySQJgKUPT9L].effects[zFYAB0S0YmMO1C8D].description",
-          "sourcePath": "monsters/monstrosity/androsphinx.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "nEC1BRwM8Lx9hLXW",
-          "name": "Androsphinx",
-          "fieldPath": "items[da0a1t2FqaTjRZGT].system.description.value",
-          "sourcePath": "monsters/monstrosity/androsphinx.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "nEC1BRwM8Lx9hLXW",
-          "name": "Androsphinx",
-          "fieldPath": "items[WzvJ7G3cqvIubsLk].system.description.value",
-          "sourcePath": "monsters/monstrosity/androsphinx.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "nEC1BRwM8Lx9hLXW",
-          "name": "Androsphinx",
-          "fieldPath": "items[zlcpHG8JZGvViCqm].system.description.value",
-          "sourcePath": "monsters/monstrosity/androsphinx.yml"
         },
         {
           "code": "missing-field",
