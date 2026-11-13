@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2168,
+      "translated": 2169,
       "missing": 3,
-      "partial": 220,
+      "partial": 219,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14252,
-      "missing": 1408,
+      "translated": 14255,
+      "missing": 1405,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1413
+    "blockingIssues": 1410
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 133,
+          "translated": 134,
           "missing": 0,
-          "partial": 204,
+          "partial": 203,
           "review": 0
         },
         "folders": {
@@ -578,41 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6436,
-          "missing": 670,
+          "translated": 6439,
+          "missing": 667,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "Ixo5shumxy4I9qyD",
-          "name": "Giant Toad",
-          "fieldPath": "items[lYSWskOMRCVLyWLZ].effects[V5XiiQPdCJUmbyLn].description",
-          "sourcePath": "monsters/beast/giant-toad.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "Ixo5shumxy4I9qyD",
-          "name": "Giant Toad",
-          "fieldPath": "items[6aBDwlIsxceFMXxL].system.description.value",
-          "sourcePath": "monsters/beast/giant-toad.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "Ixo5shumxy4I9qyD",
-          "name": "Giant Toad",
-          "fieldPath": "items[6aBDwlIsxceFMXxL].effects[5YoZO3QgfMTcLhgh].description",
-          "sourcePath": "monsters/beast/giant-toad.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",

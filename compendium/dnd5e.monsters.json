@@ -13255,7 +13255,8 @@
           "name": "Morso",
           "effects": {
             "V5XiiQPdCJUmbyLn": {
-              "name": "Afferrato dal Morso"
+              "name": "Afferrato dal Morso",
+              "description": "<p>Sei &amp;reference[grappled apply=false] (CD 13 per sfuggire). Finché sei afferrato in questo modo, sei anche &amp;reference[restrained apply=false].</p>"
             }
           },
           "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il bersaglio è &amp;Reference[grappled] (CD 13 per sfuggire). Finché questa lotta non termina, il bersaglio è &amp;Reference[restrained] e il [[lookup @name lowercase]]{mostro} non può usare [[lookup @item.name lowercase]] contro un altro bersaglio.</p>",
@@ -13281,10 +13282,12 @@
           },
           "effects": {
             "5YoZO3QgfMTcLhgh": {
-              "name": "Inghiottito"
+              "name": "Inghiottito",
+              "description": "<p>Sei stato inghiottito dal rospo gigante. Sei &amp;reference[blinded apply=false], &amp;reference[restrained apply=false] e disponi di &amp;reference[total cover] contro gli attacchi e gli altri effetti provenienti dall'esterno del rospo gigante.</p><p>Subisci inoltre [[/damage average 3d6 acid]] danni all'inizio di ciascun turno del rospo gigante.</p>"
             }
           },
-          "chat": "<p>Il Rospo Gigante attacca con Inghiottire.</p>"
+          "chat": "<p>Il Rospo Gigante attacca con Inghiottire.</p>",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua un attacco con [[/item .lYSWskOMRCVLyWLZ]]{Morso} contro un bersaglio di taglia Media o inferiore che sta &amp;reference[grappling]. Se l'attacco colpisce, il bersaglio viene inghiottito e la lotta termina.</p><p>Il bersaglio inghiottito è &amp;reference[blinded] e &amp;reference[restrained], dispone di &amp;reference[total cover] contro gli attacchi e gli altri effetti provenienti dall'esterno del [[lookup @name lowercase]]{mostro} e subisce [[/damage average activity=hjeShYMsNTvN1QF9]] danni all'inizio di ciascun turno del [[lookup @name lowercase]]{mostro}. Il [[lookup @name lowercase]]{mostro} può avere un solo bersaglio inghiottito alla volta. Se il [[lookup @name lowercase]]{mostro} muore, una creatura inghiottita non è più trattenuta da esso e può sfuggire dal cadavere usando 1,5 metri di movimento, uscendone &amp;reference[prone].</p>"
         }
       },
       "details": {
