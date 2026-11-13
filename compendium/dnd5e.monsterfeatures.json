@@ -724,7 +724,7 @@
     },
     "Surprise Attack": {
       "name": "Attacco a Sorpresa",
-      "description": "<p>Se il &lt;creature&gt; sorprende una creatura e la colpisce con un attacco durante il primo round di combattimento, il bersaglio subisce&nbsp;<strong>10 ([[/r 3d6]])</strong>&nbsp;danni extra dall'attacco.</p>"
+      "description": "<p>Se il [[lookup @name lowercase]]{mostro} sorprende una creatura e la colpisce con un attacco durante il primo round di combattimento, il bersaglio subisce 7 (2d6) danni extra dall'attacco.</p>"
     },
     "Swarm": {
       "name": "Sciame",
@@ -757,19 +757,19 @@
     },
     "Tentacle Slam": {
       "name": "Schianto con Tentacolo",
-      "description": "<p>L’&lt;creature&gt; schianta tra loro o contro una superficie solida le creature che ha afferrato. Ogni creatura deve superare un tiro salvezza su Costituzione con CD 14, altrimenti subisce 10 (2d6 + 3) danni contundenti ed è stordita fino alla fine del turno successivo dell’&lt;creature&gt;. Se supera il tiro salvezza, il bersaglio subisce la metà dei danni contundenti e non è stordito.</p><p>&nbsp;</p>"
+      "description": "<section class=\"secret\"><p>Il [[lookup @name lowercase]]{mostro} schianta tra loro o contro una superficie solida le creature da lui afferrate. Ogni creatura deve superare un tiro salvezza su <strong>Costituzione con CD 14</strong>, altrimenti subisce <strong>10 (2d6 + 3) danni <em>contundenti</em></strong> ed è stordita fino alla fine del turno successivo del [[lookup @name lowercase]]{mostro}. </p><p>Se supera il tiro salvezza, il bersaglio subisce la metà dei <em>danni contundenti</em> e non è stordito.</p></section><p>Il [[lookup @name lowercase]]{mostro} schianta tra loro o contro una superficie solida le creature da lui afferrate. Ogni creatura deve effettuare un tiro salvezza su <strong>Costituzione</strong>.</p>"
     },
     "Trampling Charge": {
       "name": "Carica Travolgente",
-      "description": "<p>Se l'&lt;creature&gt; si muove di almeno 6 metri in linea retta verso una creatura e poi la colpisce con un attacco con le zanne nello stesso turno, quel bersaglio deve superare un tiro salvezza su Forza con CD 12, altrimenti cade a terra prono. Se il bersaglio è prono, l’&lt;creature&gt; può effettuare un attacco per calpestare contro di esso come azione bonus.</p><p>&nbsp;</p>"
+      "description": "<section class=\"secret\">\n<p>Se il [[lookup @name lowercase]]{mostro} si muove di almeno <strong>6 m</strong> in linea retta verso una creatura e poi la colpisce con un attacco con incornata nello stesso turno, quel bersaglio deve superare un <strong>tiro salvezza su Forza con CD 12</strong>, altrimenti cade prono. Se il bersaglio è prono, il [[lookup @name lowercase]]{mostro} può effettuare contro di lui un attacco con zoccolo come azione bonus.</p>\n</section>\n<p>Se il [[lookup @name lowercase]]{mostro} si muove di almeno <strong>6 m</strong> in linea retta verso una creatura e poi la colpisce con un attacco con incornata nello stesso turno, quel bersaglio deve superare un tiro salvezza su Forza.</p>"
     },
     "Transparent": {
       "name": "Trasparente",
-      "description": "<p>Anche quando il &lt;creature&gt; è in piena vista, è necessario effettuare con successo una prova di Saggezza (Percezione) con CD 15 per avvistare un &lt;creature&gt; che non si è mosso o non ha attaccato. Una creatura che cerca di entrare nello spazio del &lt;creature&gt; senza essere consapevole della sua presenza è sorpresa dal &lt;creature&gt;.</p>"
+      "description": "<section class=\"secret\">\n<p>Anche quando il [[lookup @name lowercase]]{mostro} è in piena vista, è necessario superare una <strong>prova di Saggezza (Percezione) con CD 15</strong> per avvistare un [[lookup @name lowercase]]{mostro} che non si sia né mosso né abbia attaccato. Una creatura che tenta di entrare nello spazio del [[lookup @name lowercase]]{mostro} senza essere consapevole del [[lookup @name lowercase]]{mostro} viene sorpresa dal [[lookup @name lowercase]]{mostro}.</p>\n</section>\n<p>Anche quando il [[lookup @name lowercase]]{mostro} è in piena vista, è necessario superare una prova di Saggezza (Percezione) per avvistare un [[lookup @name lowercase]]{mostro} che non si sia né mosso né abbia attaccato. Una creatura che tenta di entrare nello spazio del [[lookup @name lowercase]]{mostro} senza essere consapevole del cubo viene sorpresa dal [[lookup @name lowercase]]{mostro}.</p>"
     },
     "Treasure Sense": {
       "name": "Percezione dei Tesori",
-      "description": "<p>Lo &lt;creature&gt; può individuare, tramite l'olfatto, l'ubicazione precisa di metalli e pietre preziose, come monete o gemme, entro 18 metri da lui.</p>"
+      "description": "<p>Il [[lookup @name lowercase]]{mostro} può individuare tramite l'olfatto la posizione precisa di metalli e pietre preziose, come monete e gemme, entro <strong>18 m</strong> da lui.</p>"
     },
     "Tree Stride": {
       "name": "Passo Arboreo",
@@ -777,7 +777,7 @@
     },
     "Turn Resistance": {
       "name": "Resistenza allo Scacciare",
-      "description": "<p>Il &lt;creature&gt; dispone di vantaggio ai tiri salvezza contro qualsiasi effetto che scaccia i non morti.</p>"
+      "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di<strong> vantaggio </strong>ai tiri salvezza contro qualsiasi effetto che scacci i non morti.</p>"
     },
     "Turning Defiance": {
       "name": "Scacciare Contrastato",
@@ -785,20 +785,20 @@
     },
     "Two-Headed": {
       "name": "Due Teste",
-      "description": "<p>Il &lt;creature&gt; dispone di vantaggio alle prove di Saggezza (Percezione) e ai tiri salvezza contro le condizioni di accecato, affascinato, assordato, privo di sensi, spaventato e stordito.</p>"
+      "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di<strong> vantaggio </strong>alle prove di Saggezza (Percezione) e ai tiri salvezza contro l'essere accecato, affascinato, assordato, spaventato, stordito o privo di sensi.</p>"
     },
     "Undead Fortitude": {
       "name": "Tempra dei Non Morti",
-      "description": "<p>Se i danni riducono lo &lt;creature&gt; a 0 punti ferita, esso deve effettuare un tiro salvezza su Costituzione con una CD pari a 5 + i danni subiti, a meno che non si tratti di danni radiosi o di un colpo critico. Se ha successo, lo &lt;creature&gt; scende invece a 1 punto ferita.</p><p>&nbsp;</p>"
+      "description": "<section class=\"secret\">\n<p>Se i danni riducono il [[lookup @name lowercase]]{mostro} a <strong>0 punti ferita</strong>, deve effettuare un tiro salvezza su <strong>Costituzione</strong> con CD pari a 5 + i danni subiti, a meno che non si tratti di danni radiosi o di un colpo critico. Se lo supera, il [[lookup @name lowercase]]{mostro} scende invece a <strong>1 punto ferita</strong>.</p>\n</section>\n<p>Se i danni riducono il [[lookup @name lowercase]]{mostro} a <strong>0 punti ferita</strong>, deve effettuare un tiro salvezza su <strong>Costituzione</strong>.</p>"
     },
     "Underwater Camouflage": {
       "name": "Mimetismo Acquatico",
-      "description": "<p>La &lt;creature&gt; dispone di vantaggio alle prove di Destrezza (Furtività) effettuate finché si trova sott'acqua</p>",
+      "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di<strong> vantaggio </strong>alle prove di Destrezza (Furtività) effettuate sott'acqua.</p>",
       "requirements": "Piovra"
     },
     "Unnerving Mask": {
       "name": "Maschera Snervante",
-      "description": "<p>Quando una creatura che il &lt;creature&gt; è in grado di vedere inizia il proprio turno entro 9 metri dal &lt;creature&gt;, quest’ultimo può creare un’illusione che lo fa apparire come una persona scomparsa cara alla creatura o come un suo acerrimo nemico. Se la creatura può vedere il &lt;creature&gt;, deve superare un tiro salvezza su Saggezza con CD 14, altrimenti è spaventata fino alla fine del proprio turno.</p>"
+      "description": "<section class=\"secret\">\n<p>Quando una creatura che il [[lookup @details.type.config.label lowercase]]{mostro} può vedere inizia il proprio turno entro 9 metri dal [[lookup @details.type.config.label lowercase]]{mostro}, il [[lookup @details.type.config.label lowercase]]{mostro} può creare l'illusione di avere l'aspetto di una persona cara defunta o di un acerrimo nemico della creatura. Se la creatura può vedere il [[lookup @details.type.config.label lowercase]]{mostro}, deve superare un <strong> tiro salvezza su Saggezza con CD 14</strong>, altrimenti è spaventata fino alla fine del proprio turno.</p>\n</section>\n<p>Il [[lookup @details.type.config.label lowercase]]{mostro} può creare l'illusione di avere l'aspetto di una persona cara defunta o di un acerrimo nemico della creatura. Effettua un tiro salvezza su <strong>Saggezza</strong>.</p>"
     },
     "Vampire Weaknesses": {
       "name": "Debolezze dei Vampiri",
