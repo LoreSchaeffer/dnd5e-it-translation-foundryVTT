@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1756,
+      "translated": 1757,
       "missing": 69,
-      "partial": 566,
+      "partial": 565,
       "review": 70
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 1011,
+      "invariantFailures": 1008,
       "englishResiduals": 72,
       "imperialResiduals": 0
     },
-    "blockingIssues": 7166
+    "blockingIssues": 7163
   },
   "packs": [
     {
@@ -5317,9 +5317,9 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 868,
+          "translated": 869,
           "missing": 0,
-          "partial": 17,
+          "partial": 16,
           "review": 0
         },
         "folders": {
@@ -5333,7 +5333,7 @@
           "total": 2227,
           "translated": 2227,
           "missing": 0,
-          "invariantFailures": 64,
+          "invariantFailures": 61,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
@@ -5878,36 +5878,6 @@
           "fieldPath": "system.description.value",
           "name": "Silver Horn of Valhalla",
           "sourcePath": "items/trinket/silver-horn-of-valhalla.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "zJ5LhDvTxYKzPIx4",
-          "fieldPath": "system.description.value",
-          "name": "Sovereign Glue",
-          "sourcePath": "items/trinket/sovereign-glue.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "zJ5LhDvTxYKzPIx4",
-          "fieldPath": "system.description.value",
-          "name": "Sovereign Glue",
-          "sourcePath": "items/trinket/sovereign-glue.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "zJ5LhDvTxYKzPIx4",
-          "fieldPath": "system.description.value",
-          "name": "Sovereign Glue",
-          "sourcePath": "items/trinket/sovereign-glue.yml"
         },
         {
           "code": "html-tag-sequence",

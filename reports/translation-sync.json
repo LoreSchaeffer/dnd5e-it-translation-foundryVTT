@@ -4551,6 +4551,14 @@
         },
         {
           "pack": "items",
+          "id": "zJ5LhDvTxYKzPIx4",
+          "name": "Sovereign Glue",
+          "sourcePath": "items/trinket/sovereign-glue.yml",
+          "lookupKey": "Sovereign Glue",
+          "matchedLookupKey": "Sovereign Glue"
+        },
+        {
+          "pack": "items",
           "id": "2YNqk5zm9jDTvd7q",
           "name": "Sphere of Annihilation",
           "sourcePath": "items/trinket/sphere-of-annihilation.yml",
@@ -7534,41 +7542,6 @@
               "message": "Foundry formulas differ from source",
               "pack": "items",
               "id": "lTfo6OVvAY2iJ4oq",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "zJ5LhDvTxYKzPIx4",
-          "name": "Sovereign Glue",
-          "sourcePath": "items/trinket/sovereign-glue.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Sovereign Glue",
-          "matchedLookupKey": "Sovereign Glue",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "zJ5LhDvTxYKzPIx4",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "zJ5LhDvTxYKzPIx4",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-references",
-              "severity": "blocking",
-              "message": "Foundry reference targets or order differ from source",
-              "pack": "items",
-              "id": "zJ5LhDvTxYKzPIx4",
               "fieldPath": "system.description.value"
             }
           ]
