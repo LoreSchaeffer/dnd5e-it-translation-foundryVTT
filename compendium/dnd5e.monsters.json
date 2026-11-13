@@ -2038,7 +2038,8 @@
               "name": "Tiro Salvezza contro la Carica"
             }
           },
-          "chat": "<p>Se il cinghiale si muove di almeno 6 m in linea retta verso un bersaglio e poi lo colpisce con un attacco di zanna nello stesso turno, il bersaglio subisce <em>danni taglienti</em> extra. Se il bersaglio è una creatura, deve effettuare un tiro salvezza su <strong>Forza</strong>, altrimenti cade a terra prono.</p>"
+          "chat": "<p>Se il cinghiale si muove di almeno 6 m in linea retta verso un bersaglio e poi lo colpisce con un attacco di zanna nello stesso turno, il bersaglio subisce <em>danni taglienti</em> extra. Se il bersaglio è una creatura, deve effettuare un tiro salvezza su <strong>Forza</strong>, altrimenti cade a terra prono.</p>",
+          "description": "<p>Se il [[lookup @name lowercase]]{mostro} si muove di almeno 6 metri in linea retta verso un bersaglio e poi lo colpisce con un attacco di @UUID[Compendium.dnd5e.monsters.Actor.lZR4lhNmYSf89s4Q.Item.ypnf9maxKh66ucMe]{zanna} nello stesso turno, il bersaglio subisce [[/damage average]] danni extra.</p><p>Se il bersaglio è una creatura, deve superare un tiro salvezza [[/save]] o cadere &amp;Reference[prone].</p>"
         },
         "U66PTM15QvmkenvW": {
           "name": "Implacabile",
@@ -2046,7 +2047,9 @@
             "dnd5eactivity000": {
               "name": "Perseverare"
             }
-          }
+          },
+          "description": "<p>Se il [[lookup @name lowercase]]{mostro} subisce 7 danni o meno che lo ridurrebbero a 0 punti ferita, viene invece ridotto a 1 punto ferita.</p>",
+          "chat": "<p>Se il [[lookup @name]]{mostro} subisce danni che lo ridurrebbero a 0 punti ferita, viene invece ridotto a 1 punto ferita.</p>"
         },
         "ypnf9maxKh66ucMe": {
           "name": "Zanna",
@@ -2071,7 +2074,8 @@
               "name": "Tiro Salvezza contro la Carica"
             }
           },
-          "chat": "<p>Se il cinghiale si muove di almeno 6 m in linea retta verso un bersaglio e poi lo colpisce con un attacco di zanna nello stesso turno, il bersaglio subisce <em>danni taglienti</em> extra. Se il bersaglio è una creatura, deve effettuare un tiro salvezza su <strong>Forza</strong>, altrimenti cade a terra prono.</p>"
+          "chat": "<p>Se il cinghiale si muove di almeno 6 m in linea retta verso un bersaglio e poi lo colpisce con un attacco di zanna nello stesso turno, il bersaglio subisce <em>danni taglienti</em> extra. Se il bersaglio è una creatura, deve effettuare un tiro salvezza su <strong>Forza</strong>, altrimenti cade a terra prono.</p>",
+          "description": "<p>Se il [[lookup @name lowercase]]{mostro} si muove di almeno 6 metri in linea retta verso un bersaglio e poi lo colpisce con un attacco di @UUID[Compendium.dnd5e.monsters.Actor.SsuCaF2fIEoDdFA3.Item.zHwaxxXcDz8AE8Bj]{zanna} nello stesso turno, il bersaglio subisce [[/damage average]] danni extra.</p><p>Se il bersaglio è una creatura, deve superare un tiro salvezza [[/save]] o cadere &amp;Reference[prone].</p>"
         },
         "byaGAd7ILpgsQ7Un": {
           "name": "Implacabile",
@@ -2079,7 +2083,9 @@
             "wfHnvLJypQGwNIb7": {
               "name": "Perseverare"
             }
-          }
+          },
+          "description": "<p>Se il [[lookup @name lowercase]]{mostro} subisce 10 danni o meno che lo ridurrebbero a 0 punti ferita, viene invece ridotto a 1 punto ferita.</p>",
+          "chat": "<p>Se il cinghiale subisce danni che lo ridurrebbero a <strong>0 punti ferita</strong>, viene invece ridotto a <strong>1 punto ferita</strong>.</p>"
         },
         "zHwaxxXcDz8AE8Bj": {
           "name": "Zanna",

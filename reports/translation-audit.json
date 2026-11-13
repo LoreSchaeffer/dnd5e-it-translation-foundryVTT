@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2149,
+      "translated": 2151,
       "missing": 3,
-      "partial": 239,
+      "partial": 237,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14197,
-      "missing": 1463,
+      "translated": 14203,
+      "missing": 1457,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1468
+    "blockingIssues": 1462
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 114,
+          "translated": 116,
           "missing": 0,
-          "partial": 223,
+          "partial": 221,
           "review": 0
         },
         "folders": {
@@ -578,41 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6381,
-          "missing": 725,
+          "translated": 6387,
+          "missing": 719,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "lZR4lhNmYSf89s4Q",
-          "name": "Boar",
-          "fieldPath": "items[TSmET06nE61H6HC2].system.description.value",
-          "sourcePath": "monsters/beast/boar.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "lZR4lhNmYSf89s4Q",
-          "name": "Boar",
-          "fieldPath": "items[U66PTM15QvmkenvW].system.description.value",
-          "sourcePath": "monsters/beast/boar.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "lZR4lhNmYSf89s4Q",
-          "name": "Boar",
-          "fieldPath": "items[U66PTM15QvmkenvW].system.description.chat",
-          "sourcePath": "monsters/beast/boar.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
@@ -702,33 +675,6 @@
           "name": "Elk",
           "fieldPath": "items[FneLrX10GhkE2o4E].system.description.value",
           "sourcePath": "monsters/beast/elk.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "SsuCaF2fIEoDdFA3",
-          "name": "Giant Boar",
-          "fieldPath": "items[1ArcmRCn5G0t6sOo].system.description.value",
-          "sourcePath": "monsters/beast/giant-boar.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "SsuCaF2fIEoDdFA3",
-          "name": "Giant Boar",
-          "fieldPath": "items[byaGAd7ILpgsQ7Un].system.description.value",
-          "sourcePath": "monsters/beast/giant-boar.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "SsuCaF2fIEoDdFA3",
-          "name": "Giant Boar",
-          "fieldPath": "items[byaGAd7ILpgsQ7Un].system.description.chat",
-          "sourcePath": "monsters/beast/giant-boar.yml"
         },
         {
           "code": "missing-field",
