@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2173,
+      "translated": 2174,
       "missing": 3,
-      "partial": 215,
+      "partial": 214,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14262,
-      "missing": 1398,
+      "translated": 14265,
+      "missing": 1395,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1403
+    "blockingIssues": 1400
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 138,
+          "translated": 139,
           "missing": 0,
-          "partial": 199,
+          "partial": 198,
           "review": 0
         },
         "folders": {
@@ -578,41 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6446,
-          "missing": 660,
+          "translated": 6449,
+          "missing": 657,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "hjhERRzafCiFFVLA",
-          "name": "Lion",
-          "fieldPath": "items[3dmAdKAVc8JqLgIj].system.description.value",
-          "sourcePath": "monsters/beast/lion.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "hjhERRzafCiFFVLA",
-          "name": "Lion",
-          "fieldPath": "items[3jkeGG7QcQI0bi6W].system.description.value",
-          "sourcePath": "monsters/beast/lion.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "hjhERRzafCiFFVLA",
-          "name": "Lion",
-          "fieldPath": "items[3jkeGG7QcQI0bi6W].system.description.chat",
-          "sourcePath": "monsters/beast/lion.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",

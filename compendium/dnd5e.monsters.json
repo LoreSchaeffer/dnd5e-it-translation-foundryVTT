@@ -9615,7 +9615,8 @@
       },
       "items": {
         "3dmAdKAVc8JqLgIj": {
-          "name": "Balzo in Corsa"
+          "name": "Balzo in Corsa",
+          "description": "<p>Con una rincorsa di 3 metri, il [[lookup @name lowercase]]{mostro} può effettuare un &amp;reference[long jump] fino a 7,5 metri.</p>"
         },
         "gKj1TlVfDhLp5WIk": {
           "name": "Morso",
@@ -9632,7 +9633,9 @@
             "8dIa5DwJPOAhNkpx": {
               "name": "Tiro Salvezza contro il Balzo"
             }
-          }
+          },
+          "description": "<p>Se il [[lookup @name lowercase]]{mostro} si muove di almeno 6 metri in linea retta verso una creatura e poi la colpisce con un attacco di @UUID[Compendium.dnd5e.monsters.Actor.hjhERRzafCiFFVLA.Item.CHIayoaCAZj0GBkM]{artiglio} nello stesso turno, quel bersaglio deve superare un tiro salvezza [[/save]] o cadere &amp;Reference[prone].</p><p>Se il bersaglio è prono, il [[lookup @name lowercase]]{mostro} può effettuare un attacco con [[/item .gKj1TlVfDhLp5WIk]]{morso} contro di esso come azione bonus.</p>",
+          "chat": "<p>Se il [[lookup @name]]{mostro} si muove di almeno 6 metri in linea retta verso una creatura e poi la colpisce con un attacco di @UUID[Compendium.dnd5e.monsters.Actor.hjhERRzafCiFFVLA.Item.CHIayoaCAZj0GBkM]{Artiglio} nello stesso turno, quel bersaglio deve effettuare un tiro salvezza su Forza.</p>"
         },
         "CHIayoaCAZj0GBkM": {
           "name": "Artiglio",
