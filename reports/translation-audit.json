@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2179,
+      "translated": 2180,
       "missing": 3,
-      "partial": 209,
+      "partial": 208,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14276,
-      "missing": 1384,
+      "translated": 14277,
+      "missing": 1383,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1389
+    "blockingIssues": 1388
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 144,
+          "translated": 145,
           "missing": 0,
-          "partial": 193,
+          "partial": 192,
           "review": 0
         },
         "folders": {
@@ -578,23 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6460,
-          "missing": 646,
+          "translated": 6461,
+          "missing": 645,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "hb6pjvdCNYmLLp8V",
-          "name": "Polar Bear",
-          "fieldPath": "items[hJyurwicMrRIt2TC].system.description.value",
-          "sourcePath": "monsters/beast/polar-bear.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
