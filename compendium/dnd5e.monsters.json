@@ -8511,14 +8511,17 @@
           "name": "Avversione al Fuoco",
           "effects": {
             "dCrLkxXwD3UyiD55": {
-              "name": "Avversione al Fuoco"
+              "name": "Avversione al Fuoco",
+              "description": "<p>Disponi di svantaggio ai tiri per colpire e alle prove di caratteristica fino alla fine del tuo turno successivo.</p>"
             }
           },
           "activities": {
             "fnXr5wvfMuSNczkZ": {
               "name": "Vacillare per il Fuoco"
             }
-          }
+          },
+          "description": "<p>Se il [[lookup @name lowercase]]{mostro} subisce danni da fuoco, dispone di svantaggio ai tiri per colpire e alle prove di caratteristica fino alla fine del proprio turno successivo.</p>",
+          "chat": "<p>Se il golem subisce <strong><em>danni da fuoco</em></strong>, dispone di<strong> svantaggio </strong>ad alcuni tiri.</p>"
         },
         "mCNNxLGdzy54omRW": {
           "name": "Multiattacco",
@@ -8560,14 +8563,17 @@
           },
           "effects": {
             "unEhkqnbSJYtXAU4": {
-              "name": "Berserk"
+              "name": "Berserk",
+              "description": "<p>Sei entrato in berserk. In ciascun tuo turno finché sei berserk, attacchi la creatura più vicina che sei in grado di vedere. Se nessuna creatura è abbastanza vicina da poterla raggiungere e attaccare, attacchi un oggetto, dando la precedenza a un oggetto più piccolo di te. Una volta entrato in berserk, rimani in questo stato finché non vieni distrutto o non recuperi tutti i tuoi punti ferita.</p>"
             }
           },
-          "chat": "<p>Il golem entra in berserk. In ciascun proprio turno finché è berserk, attacca la creatura più vicina che sia in grado di vedere. Se nessuna creatura è abbastanza vicina da poterla raggiungere e attaccare, il golem attacca un oggetto, dando la precedenza a un oggetto più piccolo di lui.</p>"
+          "chat": "<p>Il golem entra in berserk. In ciascun proprio turno finché è berserk, attacca la creatura più vicina che sia in grado di vedere. Se nessuna creatura è abbastanza vicina da poterla raggiungere e attaccare, il golem attacca un oggetto, dando la precedenza a un oggetto più piccolo di lui.</p>",
+          "description": "<p>Ogni volta che il [[lookup @name lowercase]]{mostro} inizia il proprio turno con 60 punti ferita o meno, tira [[/r d6]]. Con un risultato di 6, il [[lookup @name lowercase]]{mostro} entra in berserk. In ciascun proprio turno finché è berserk, il [[lookup @name lowercase]]{mostro} attacca la creatura più vicina che sia in grado di vedere. Se nessuna creatura è abbastanza vicina da poterla raggiungere e attaccare, il [[lookup @name lowercase]]{mostro} attacca un oggetto, dando la precedenza a un oggetto più piccolo di lui. Una volta entrato in berserk, il [[lookup @name lowercase]]{mostro} rimane in questo stato finché non viene distrutto o non recupera tutti i propri punti ferita.</p>"
         },
         "mjn0iMGrjGTOn42w": {
           "name": "Schianto",
-          "description": "<p>[[/attack extended]]. [[/damage extended]].</p>"
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p>",
+          "chat": "<p>Il Golem di Carne attacca con il proprio Schianto.</p>"
         }
       },
       "details": {

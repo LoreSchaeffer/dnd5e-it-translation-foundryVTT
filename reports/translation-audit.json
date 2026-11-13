@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2201,
+      "translated": 2202,
       "missing": 3,
-      "partial": 187,
+      "partial": 186,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14328,
-      "missing": 1332,
+      "translated": 14334,
+      "missing": 1326,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1337
+    "blockingIssues": 1331
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 166,
+          "translated": 167,
           "missing": 0,
-          "partial": 171,
+          "partial": 170,
           "review": 0
         },
         "folders": {
@@ -578,68 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6512,
-          "missing": 594,
+          "translated": 6518,
+          "missing": 588,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "Hm4o2FgPZsdbXjLq",
-          "name": "Flesh Golem",
-          "fieldPath": "items[Ee9WvQyqy1lRYtuj].system.description.value",
-          "sourcePath": "monsters/construct/flesh-golem.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "Hm4o2FgPZsdbXjLq",
-          "name": "Flesh Golem",
-          "fieldPath": "items[Ee9WvQyqy1lRYtuj].system.description.chat",
-          "sourcePath": "monsters/construct/flesh-golem.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "Hm4o2FgPZsdbXjLq",
-          "name": "Flesh Golem",
-          "fieldPath": "items[Ee9WvQyqy1lRYtuj].effects[dCrLkxXwD3UyiD55].description",
-          "sourcePath": "monsters/construct/flesh-golem.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "Hm4o2FgPZsdbXjLq",
-          "name": "Flesh Golem",
-          "fieldPath": "items[mjn0iMGrjGTOn42w].system.description.chat",
-          "sourcePath": "monsters/construct/flesh-golem.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "Hm4o2FgPZsdbXjLq",
-          "name": "Flesh Golem",
-          "fieldPath": "items[SSHb3L6BEgIgfo8n].system.description.value",
-          "sourcePath": "monsters/construct/flesh-golem.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "Hm4o2FgPZsdbXjLq",
-          "name": "Flesh Golem",
-          "fieldPath": "items[SSHb3L6BEgIgfo8n].effects[unEhkqnbSJYtXAU4].description",
-          "sourcePath": "monsters/construct/flesh-golem.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
