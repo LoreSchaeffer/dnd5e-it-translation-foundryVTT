@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2183,
+      "translated": 2184,
       "missing": 3,
-      "partial": 205,
+      "partial": 204,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14280,
-      "missing": 1380,
+      "translated": 14282,
+      "missing": 1378,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1385
+    "blockingIssues": 1383
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 148,
+          "translated": 149,
           "missing": 0,
-          "partial": 189,
+          "partial": 188,
           "review": 0
         },
         "folders": {
@@ -578,32 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6464,
-          "missing": 642,
+          "translated": 6466,
+          "missing": 640,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "tYYoifu9teGLetVI",
-          "name": "Saber-Toothed Tiger",
-          "fieldPath": "items[9Ayx6ARdliy8D5lj].system.description.value",
-          "sourcePath": "monsters/beast/saber-toothed-tiger.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "tYYoifu9teGLetVI",
-          "name": "Saber-Toothed Tiger",
-          "fieldPath": "items[9Ayx6ARdliy8D5lj].system.description.chat",
-          "sourcePath": "monsters/beast/saber-toothed-tiger.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
