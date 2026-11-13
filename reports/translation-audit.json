@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1771,
+      "translated": 1772,
       "missing": 69,
-      "partial": 551,
+      "partial": 550,
       "review": 70
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 954,
+      "invariantFailures": 950,
       "englishResiduals": 72,
       "imperialResiduals": 0
     },
-    "blockingIssues": 7109
+    "blockingIssues": 7105
   },
   "packs": [
     {
@@ -5317,9 +5317,9 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 883,
+          "translated": 884,
           "missing": 0,
-          "partial": 2,
+          "partial": 1,
           "review": 0
         },
         "folders": {
@@ -5333,52 +5333,12 @@
           "total": 2227,
           "translated": 2227,
           "missing": 0,
-          "invariantFailures": 7,
+          "invariantFailures": 3,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "oSarKEU8x1AupB6z",
-          "fieldPath": "system.description.value",
-          "name": "Deck of Many Things",
-          "sourcePath": "items/trinket/deck-of-many-things.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "oSarKEU8x1AupB6z",
-          "fieldPath": "system.description.value",
-          "name": "Deck of Many Things",
-          "sourcePath": "items/trinket/deck-of-many-things.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "oSarKEU8x1AupB6z",
-          "fieldPath": "system.description.value",
-          "name": "Deck of Many Things",
-          "sourcePath": "items/trinket/deck-of-many-things.yml"
-        },
-        {
-          "code": "foundry-formulas",
-          "severity": "blocking",
-          "message": "Foundry formulas differ from source",
-          "pack": "items",
-          "id": "oSarKEU8x1AupB6z",
-          "fieldPath": "system.description.value",
-          "name": "Deck of Many Things",
-          "sourcePath": "items/trinket/deck-of-many-things.yml"
-        },
         {
           "code": "html-tag-sequence",
           "severity": "blocking",

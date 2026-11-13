@@ -4135,6 +4135,14 @@
         },
         {
           "pack": "items",
+          "id": "oSarKEU8x1AupB6z",
+          "name": "Deck of Many Things",
+          "sourcePath": "items/trinket/deck-of-many-things.yml",
+          "lookupKey": "Deck of Many Things",
+          "matchedLookupKey": "Deck of Many Things"
+        },
+        {
+          "pack": "items",
           "id": "wGKykLRS8UqChNXI",
           "name": "Dimensional Shackles",
           "sourcePath": "items/trinket/dimensional-shackles.yml",
@@ -7072,49 +7080,6 @@
       ],
       "needsTranslation": [],
       "manualReview": [
-        {
-          "pack": "items",
-          "id": "oSarKEU8x1AupB6z",
-          "name": "Deck of Many Things",
-          "sourcePath": "items/trinket/deck-of-many-things.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Deck of Many Things",
-          "matchedLookupKey": "Deck of Many Things",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "oSarKEU8x1AupB6z",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "oSarKEU8x1AupB6z",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-references",
-              "severity": "blocking",
-              "message": "Foundry reference targets or order differ from source",
-              "pack": "items",
-              "id": "oSarKEU8x1AupB6z",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-formulas",
-              "severity": "blocking",
-              "message": "Foundry formulas differ from source",
-              "pack": "items",
-              "id": "oSarKEU8x1AupB6z",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
         {
           "pack": "items",
           "id": "l3V7V8VCXpmAAysQ",
