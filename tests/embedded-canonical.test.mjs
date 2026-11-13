@@ -86,6 +86,28 @@ test("does not overwrite a modified embedded field with unrelated canonical pros
   });
 });
 
+test("reuses a canonical translation across the legacy Higher Levels heading variant", () => {
+  const sourceRecord = canonicalRecord();
+  sourceRecord.data.system.description.value =
+    "<p>Core rule.</p><p><strong>At Higher Levels.</strong> Extended rule.</p>";
+  const translationRecord = structuredClone(canonicalTranslation);
+  translationRecord.data.description =
+    "<p>Regola base.</p><p><strong>Ai Livelli Superiori.</strong> Regola estesa.</p>";
+  const actor = actorRecord(
+    "<p>Core rule.</p><p><strong>Higher Levels.</strong> Extended rule.</p>"
+  );
+  const canonicalByUuid = new Map([
+    ["Compendium.dnd5e.items.Item.canonical1", { sourceRecord, translationRecord }]
+  ]);
+
+  const overrides = buildCanonicalEmbeddedOverrides({ actorRecord: actor, canonicalByUuid });
+
+  assert.equal(
+    overrides["items[embedded1].system.description.value"],
+    "<p>Regola base.</p><p><strong>Ai Livelli Superiori.</strong> Regola estesa.</p>"
+  );
+});
+
 test("uses the dnd5e sourceId when compendiumSource is absent", () => {
   const canonicalByUuid = new Map([
     ["Compendium.dnd5e.items.Item.canonical1", {

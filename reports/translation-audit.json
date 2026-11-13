@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 13329,
-      "missing": 2331,
+      "translated": 13336,
+      "missing": 2324,
       "invariantFailures": 8,
       "englishResiduals": 139,
       "imperialResiduals": 0
     },
-    "blockingIssues": 2481
+    "blockingIssues": 2474
   },
   "packs": [
     {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 5513,
-          "missing": 1593,
+          "translated": 5520,
+          "missing": 1586,
           "invariantFailures": 8,
           "englishResiduals": 136,
           "imperialResiduals": 0
@@ -6595,15 +6595,6 @@
           "sourcePath": "monsters/elemental/magma-mephit.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "oJCOB9X2BPsBkWW5",
-          "name": "Magma Mephit",
-          "fieldPath": "items[2yHXEcrRbadZDr5M].system.description.value",
-          "sourcePath": "monsters/elemental/magma-mephit.yml"
-        },
-        {
           "code": "unchanged-english",
           "value": "Magmin",
           "message": "Visible translation is identical to the English source",
@@ -7872,15 +7863,6 @@
           "id": "OGPHF4sCVOAi87TU",
           "name": "Glabrezu",
           "fieldPath": "items[S7VbUetIfVT7B6Eq].system.description.value",
-          "sourcePath": "monsters/fiend/glabrezu.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "OGPHF4sCVOAi87TU",
-          "name": "Glabrezu",
-          "fieldPath": "items[15Fa6q1nH27XfbR8].system.description.value",
           "sourcePath": "monsters/fiend/glabrezu.yml"
         },
         {
@@ -10589,15 +10571,6 @@
           "sourcePath": "monsters/humanoid/priest.yml"
         },
         {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "PVD5wRdyO7iCJPs1",
-          "name": "Priest",
-          "fieldPath": "items[15Fa6q1nH27XfbR8].system.description.value",
-          "sourcePath": "monsters/humanoid/priest.yml"
-        },
-        {
           "code": "unchanged-english",
           "value": "Sahuagin",
           "message": "Visible translation is identical to the English source",
@@ -11492,15 +11465,6 @@
           "id": "nEC1BRwM8Lx9hLXW",
           "name": "Androsphinx",
           "fieldPath": "items[F0GsG0SJzsIOacwV].system.description.value",
-          "sourcePath": "monsters/monstrosity/androsphinx.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "nEC1BRwM8Lx9hLXW",
-          "name": "Androsphinx",
-          "fieldPath": "items[15Fa6q1nH27XfbR8].system.description.value",
           "sourcePath": "monsters/monstrosity/androsphinx.yml"
         },
         {
@@ -12662,15 +12626,6 @@
           "id": "6wbasdWWqtXeIAyD",
           "name": "Gynosphinx",
           "fieldPath": "items[V0O6My4SjXUmirH6].system.description.value",
-          "sourcePath": "monsters/monstrosity/gynosphinx.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "6wbasdWWqtXeIAyD",
-          "name": "Gynosphinx",
-          "fieldPath": "items[15Fa6q1nH27XfbR8].system.description.value",
           "sourcePath": "monsters/monstrosity/gynosphinx.yml"
         },
         {
@@ -15354,15 +15309,6 @@
           "pack": "monsters",
           "id": "bfh29vIEoGzI240e",
           "name": "Lich",
-          "fieldPath": "items[15Fa6q1nH27XfbR8].system.description.value",
-          "sourcePath": "monsters/undead/lich.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "bfh29vIEoGzI240e",
-          "name": "Lich",
           "fieldPath": "items[LkvI11Uue774QBKZ].system.description.value",
           "sourcePath": "monsters/undead/lich.yml"
         },
@@ -15625,15 +15571,6 @@
           "id": "UFW8M3JHzHkxUEGM",
           "name": "Mummy Lord",
           "fieldPath": "items[oyE5nVppa5mde5gT].system.description.value",
-          "sourcePath": "monsters/undead/mummy-lord.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "UFW8M3JHzHkxUEGM",
-          "name": "Mummy Lord",
-          "fieldPath": "items[15Fa6q1nH27XfbR8].system.description.value",
           "sourcePath": "monsters/undead/mummy-lord.yml"
         },
         {

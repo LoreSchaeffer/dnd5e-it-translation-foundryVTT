@@ -27,14 +27,28 @@ function fieldShape(fieldPath) {
     .replace(/\[[^\]]+\]/g, "[]");
 }
 
+function normalizeKnownLegacyProse(value) {
+  return typeof value === "string"
+    ? value.replace(/(<strong>)At Higher Levels\.(<\/strong>)/g, "$1Higher Levels.$2")
+    : value;
+}
+
+function equivalentSourceValue(canonicalValue, embeddedValue) {
+  return canonicalValue === embeddedValue
+    || normalizeKnownLegacyProse(canonicalValue) === normalizeKnownLegacyProse(embeddedValue);
+}
+
 function matchingFields(sourceFields, embeddedFields) {
   const sourceByPath = new Map(sourceFields.map(field => [field.fieldPath, field]));
   return embeddedFields.flatMap(embeddedField => {
     const direct = sourceByPath.get(embeddedField.fieldPath);
-    if (direct?.value === embeddedField.value) return [{ embeddedField, sourceFields: [direct] }];
+    if (direct && equivalentSourceValue(direct.value, embeddedField.value)) {
+      return [{ embeddedField, sourceFields: [direct] }];
+    }
     const shape = fieldShape(embeddedField.fieldPath);
     const candidates = sourceFields.filter(sourceField =>
-      sourceField.value === embeddedField.value && fieldShape(sourceField.fieldPath) === shape
+      equivalentSourceValue(sourceField.value, embeddedField.value)
+      && fieldShape(sourceField.fieldPath) === shape
     );
     return candidates.length ? [{ embeddedField, sourceFields: candidates }] : [];
   });
@@ -73,6 +87,7 @@ export function buildCanonicalEmbeddedOverrides({ actorRecord, canonicalByUuid, 
         );
         if (typeof translatedValue !== "string" || !translatedValue) return [];
         if (compareInvariants(sourceField, translatedValue).length) return [];
+        if (compareInvariants(embeddedField, translatedValue).length) return [];
         return [translatedValue];
       });
       const uniqueValues = [...new Set(translatedValues)];
