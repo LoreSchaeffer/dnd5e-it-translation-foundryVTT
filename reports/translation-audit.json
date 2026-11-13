@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2143,
+      "translated": 2149,
       "missing": 3,
-      "partial": 245,
+      "partial": 239,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14191,
-      "missing": 1469,
+      "translated": 14197,
+      "missing": 1463,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1474
+    "blockingIssues": 1468
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 108,
+          "translated": 114,
           "missing": 0,
-          "partial": 229,
+          "partial": 223,
           "review": 0
         },
         "folders": {
@@ -578,23 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6375,
-          "missing": 731,
+          "translated": 6381,
+          "missing": 725,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "D5WjGwKskeUT8HXa",
-          "name": "Black Bear",
-          "fieldPath": "items[ZBWu2XGwEnsaVNsH].system.description.value",
-          "sourcePath": "monsters/beast/black-bear.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
@@ -621,15 +612,6 @@
           "name": "Boar",
           "fieldPath": "items[U66PTM15QvmkenvW].system.description.chat",
           "sourcePath": "monsters/beast/boar.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "omcDpBoB69esCXeM",
-          "name": "Brown Bear",
-          "fieldPath": "items[AVusgSNjauFD9XnU].system.description.value",
-          "sourcePath": "monsters/beast/brown-bear.yml"
         },
         {
           "code": "missing-field",
@@ -720,24 +702,6 @@
           "name": "Elk",
           "fieldPath": "items[FneLrX10GhkE2o4E].system.description.value",
           "sourcePath": "monsters/beast/elk.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "EZgiprHXA2D7Uyb3",
-          "name": "Frog",
-          "fieldPath": "items[3CnWEl3LzMTy99vo].system.description.value",
-          "sourcePath": "monsters/beast/frog.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "cJGY1ZywUOo6heNR",
-          "name": "Giant Badger",
-          "fieldPath": "items[1lGtRKKScQMq9K3R].system.description.value",
-          "sourcePath": "monsters/beast/giant-badger.yml"
         },
         {
           "code": "missing-field",
@@ -860,15 +824,6 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
-          "id": "9bHoR8k5D2DKHaF3",
-          "name": "Giant Eagle",
-          "fieldPath": "items[QaRbm71tWEQzR4GK].system.description.value",
-          "sourcePath": "monsters/beast/giant-eagle.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
           "id": "hQt3qIahnB1Odb40",
           "name": "Giant Elk",
           "fieldPath": "items[xSzDPptifNbKyf5N].system.description.value",
@@ -936,15 +891,6 @@
           "name": "Giant Goat",
           "fieldPath": "items[ZL9z3WPrZFreDTuY].system.description.chat",
           "sourcePath": "monsters/beast/giant-goat.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "aAqfEHPiVbhMwZ6j",
-          "name": "Giant Hyena",
-          "fieldPath": "items[QY2OI39oNi9VUuAY].system.description.value",
-          "sourcePath": "monsters/beast/giant-hyena.yml"
         },
         {
           "code": "missing-field",
