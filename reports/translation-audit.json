@@ -3,8 +3,8 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1873,
-      "missing": 29,
+      "translated": 1883,
+      "missing": 19,
       "partial": 489,
       "review": 71
     },
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 10164,
-      "missing": 5496,
+      "translated": 10184,
+      "missing": 5476,
       "invariantFailures": 589,
       "englishResiduals": 73,
       "imperialResiduals": 0
     },
-    "blockingIssues": 6138
+    "blockingIssues": 6128
   },
   "packs": [
     {
@@ -536,8 +536,8 @@
       "summary": {
         "documents": {
           "total": 252,
-          "translated": 88,
-          "missing": 21,
+          "translated": 98,
+          "missing": 11,
           "partial": 143,
           "review": 3
         },
@@ -550,8 +550,8 @@
         },
         "fields": {
           "total": 515,
-          "translated": 466,
-          "missing": 49,
+          "translated": 486,
+          "missing": 29,
           "invariantFailures": 549,
           "englishResiduals": 3,
           "imperialResiduals": 0
@@ -4278,22 +4278,6 @@
           "sourcePath": "monsterfeatures/read-thoughts.yml"
         },
         {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "of2dTSnPwmhR52O7",
-          "name": "Reaping Scythe",
-          "sourcePath": "monsterfeatures/reaping-scythe.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "PLBui1FCQuSlEqyI",
-          "name": "Reflective Carapace",
-          "sourcePath": "monsterfeatures/reflective-carapace.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -4332,22 +4316,6 @@
           "fieldPath": "system.description.value",
           "name": "Regeneration",
           "sourcePath": "monsterfeatures/regeneration.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "L7myj23X3PFPUNh6",
-          "name": "Regional Effects",
-          "sourcePath": "monsterfeatures/regional-effects.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "JcfHlAcfwSWnt7Ud",
-          "name": "Rejuvenation",
-          "sourcePath": "monsterfeatures/rejuvenation.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -4428,14 +4396,6 @@
           "fieldPath": "system.description.value",
           "name": "Repulsion Breath",
           "sourcePath": "monsterfeatures/repulsion-breath.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "QCNJD2GuOZSTT4Wt",
-          "name": "Roar",
-          "sourcePath": "monsterfeatures/roar.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -4596,22 +4556,6 @@
           "fieldPath": "system.description.value",
           "name": "Scare",
           "sourcePath": "monsterfeatures/scare.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "5OYruoI92fxTOLts",
-          "name": "Searing Burst",
-          "sourcePath": "monsterfeatures/searing-burst.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "lWnUAwBPfJf9WupM",
-          "name": "Second Roar",
-          "sourcePath": "monsterfeatures/second-roar.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -5384,14 +5328,6 @@
           "sourcePath": "monsterfeatures/stone-camouflage.yml"
         },
         {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "BDnjS1sQi2pdARh8",
-          "name": "Stone Golem - Slow",
-          "sourcePath": "monsterfeatures/stone-golem-slow.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -5430,14 +5366,6 @@
           "fieldPath": "system.description.value",
           "name": "Stunning Screech",
           "sourcePath": "monsterfeatures/stunning-screech.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "F14aW2Ke3I5ZtSg4",
-          "name": "Sunlight Sensitivity",
-          "sourcePath": "monsterfeatures/sunlight-sensitivity.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -5568,14 +5496,6 @@
           "fieldPath": "system.description.value",
           "name": "Surprise Attack",
           "sourcePath": "monsterfeatures/surprise-attack.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "aH5ncM30tP8tPQ24",
-          "name": "Swallow",
-          "sourcePath": "monsterfeatures/swallow.yml"
         },
         {
           "code": "html-tag-sequence",

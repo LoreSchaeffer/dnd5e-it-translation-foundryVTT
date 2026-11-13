@@ -1059,6 +1059,56 @@
       "_id": "lhTQJsLKYUZT2gV5",
       "name": "Reattivo",
       "description": "<p>Il [[lookup @name lowercase]]{mostro} può effettuare una reazione in ogni turno di combattimento.</p>"
+    },
+    "of2dTSnPwmhR52O7": {
+      "_id": "of2dTSnPwmhR52O7",
+      "name": "Falce Mietitrice",
+      "description": "<section class=\"secret\">\n<p>Il [[lookup @name lowercase]]{mostro} fa passare la propria falce spettrale attraverso una creatura entro 1,5 metri da lui, infliggendo <strong>7 (1d8 + 3) danni <em>taglienti</em></strong> più <strong>4 (1d8) danni <em>necrotici</em></strong>.</p>\n</section>\n<p>Il [[lookup @name lowercase]]{mostro} fa passare la propria falce spettrale attraverso una creatura entro 1,5 metri da lui.</p>"
+    },
+    "PLBui1FCQuSlEqyI": {
+      "_id": "PLBui1FCQuSlEqyI",
+      "name": "Carapace Riflettente",
+      "description": "<section class=\"secret\"><p>Ogni volta che il [[lookup @name lowercase]]{mostro} è bersagliato da un incantesimo dardo incantato, da un incantesimo a linea o da un incantesimo che richiede un tiro per colpire a distanza, tira un d6. Con un risultato da 1 a 5, il [[lookup @name lowercase]]{mostro} non è influenzato.</p><p>Con un risultato di 6, il [[lookup @name lowercase]]{mostro} non è influenzato e l'effetto viene riflesso contro l'incantatore come se avesse avuto origine dal [[lookup @name lowercase]]{mostro}, rendendo l'incantatore il bersaglio.</p></section><p>Il [[lookup @name lowercase]]{mostro} non è influenzato e l'effetto viene riflesso contro l'incantatore come se avesse avuto origine dal [[lookup @name lowercase]]{mostro}, rendendo l'incantatore il bersaglio.</p>"
+    },
+    "L7myj23X3PFPUNh6": {
+      "_id": "L7myj23X3PFPUNh6",
+      "name": "Effetti Regionali",
+      "description": "<p>La semplice presenza di una creatura leggendaria può produrre effetti strani e meravigliosi sull'ambiente circostante. Quando la creatura leggendaria muore, gli effetti regionali terminano bruscamente o si dissolvono nel tempo.</p>"
+    },
+    "JcfHlAcfwSWnt7Ud": {
+      "_id": "JcfHlAcfwSWnt7Ud",
+      "name": "Ringiovanimento",
+      "description": "<section class=\"secret\">\n<p>Se muore, il [[lookup @name lowercase]]{mostro} torna in vita dopo 1d6 giorni e recupera tutti i suoi<strong> punti ferita</strong>.</p><p>Soltanto un incantesimo desiderio può impedire il funzionamento di questo tratto.</p>\n</section>\n<p>Se muore, il [[lookup @name lowercase]]{mostro} torna in vita dopo 1d6 giorni e recupera tutti i suoi<strong> punti ferita</strong>.</p>"
+    },
+    "QCNJD2GuOZSTT4Wt": {
+      "_id": "QCNJD2GuOZSTT4Wt",
+      "name": "Ruggito",
+      "description": "<section class=\"secret\">\n<p>Il [[lookup @name lowercase]]{mostro} emette un ruggito magico. Ogni volta che ruggisce prima di completare un riposo lungo, il ruggito è più forte e produce un effetto diverso, come descritto di seguito. Ogni creatura entro 150 metri dal [[lookup @name lowercase]]{mostro} che può udire il ruggito deve effettuare un tiro salvezza.</p><p>**Primo Ruggito.** Ogni creatura che fallisce un tiro salvezza su <strong>Saggezza con CD 18</strong> è spaventata per 1 minuto. Una creatura spaventata può ripetere il tiro salvezza alla fine di ogni suo turno e, se lo supera, l'effetto su di lei termina.</p><p>**Secondo Ruggito.** Ogni creatura che fallisce un tiro salvezza su <strong>Saggezza con CD 18</strong> è assordata e spaventata per 1 minuto. Una creatura spaventata è paralizzata e può ripetere il tiro salvezza alla fine di ogni suo turno e, se lo supera, l'effetto su di lei termina.</p><p>**Terzo Ruggito.** Ogni creatura effettua un tiro salvezza su <strong>Costituzione con CD 18</strong>. Se lo fallisce, una creatura subisce 44 (8d10) danni da tuono e cade prona. Se lo supera, la creatura subisce la metà dei danni e non cade prona.</p>\n</section>\n<p>Il [[lookup @name lowercase]]{mostro} emette un ruggito magico. Ogni volta che ruggisce prima di completare un riposo lungo, il ruggito è più forte e produce un effetto diverso. Ogni creatura entro 150 metri dal [[lookup @name lowercase]]{mostro} che può udire il ruggito deve effettuare un tiro salvezza.</p>"
+    },
+    "5OYruoI92fxTOLts": {
+      "_id": "5OYruoI92fxTOLts",
+      "name": "Esplosione Rovente",
+      "description": "<section class=\"secret\">Il [[lookup @name lowercase]]{mostro} emette energia divina e magica. Ogni creatura a sua scelta entro un raggio di 3 metri deve effettuare un tiro salvezza su <strong>Destrezza con CD 23</strong>; se lo fallisce, subisce <strong>14 (4d6) danni <em>da fuoco</em></strong> più <strong>14 (4d6) danni <em>radianti</em></strong>, mentre se lo supera subisce la metà di quei danni.</section>\n<p>Il [[lookup @name lowercase]]{mostro} emette energia divina e magica. Ogni creatura a sua scelta entro un raggio di 3 metri deve effettuare un tiro salvezza su <strong>Destrezza</strong>.</p>"
+    },
+    "lWnUAwBPfJf9WupM": {
+      "_id": "lWnUAwBPfJf9WupM",
+      "name": "Secondo Ruggito",
+      "description": "<p>Ogni creatura che fallisce un tiro salvezza su <strong>Saggezza con CD 18</strong> è assordata e spaventata per 1 minuto. Una creatura spaventata è paralizzata e può ripetere il tiro salvezza alla fine di ogni suo turno e, se lo supera, l'effetto su di lei termina.</p>"
+    },
+    "BDnjS1sQi2pdARh8": {
+      "_id": "BDnjS1sQi2pdARh8",
+      "name": "Golem di Pietra - Lentezza",
+      "description": "<section class=\"secret\">\n<p>Il [[lookup @name lowercase]]{mostro} bersaglia una o più creature che può vedere entro 3 metri. Ogni bersaglio deve effettuare un tiro salvezza su <strong>Saggezza con CD 17</strong> contro questa magia.</p><p>Se fallisce il tiro salvezza, un bersaglio non può effettuare reazioni, la sua velocità è dimezzata e non può effettuare più di un attacco nel proprio turno. Inoltre, nel proprio turno il bersaglio può effettuare un'azione o un'azione bonus, ma non entrambe. Questi effetti durano 1 minuto. Un bersaglio può ripetere il tiro salvezza alla fine di ogni suo turno e, se lo supera, l'effetto su di lui termina.</p>\n</section>\n<p>Il [[lookup @name lowercase]]{mostro} bersaglia una o più creature che può vedere entro 3 metri. Ogni bersaglio deve effettuare un tiro salvezza su <strong>Saggezza</strong> contro questa magia. Un bersaglio può ripetere il tiro salvezza alla fine di ogni suo turno e, se lo supera, l'effetto su di lui termina.</p>"
+    },
+    "F14aW2Ke3I5ZtSg4": {
+      "_id": "F14aW2Ke3I5ZtSg4",
+      "name": "Sensibilità alla Luce Solare",
+      "description": "<p>Quando si trova alla luce del sole, il [[lookup @name lowercase]]{mostro} subisce<strong> svantaggio </strong>ai tiri per colpire e alle prove di Saggezza (Percezione) basate sulla vista.</p>"
+    },
+    "aH5ncM30tP8tPQ24": {
+      "_id": "aH5ncM30tP8tPQ24",
+      "name": "Inghiottire",
+      "description": "<section class=\"secret\">\n<p>Il [[lookup @name lowercase]]{mostro} effettua un attacco con il morso contro un <strong>bersaglio di taglia Media o inferiore che sta afferrando</strong>. Se l'attacco colpisce, il bersaglio viene anche inghiottito e la lotta termina. Finché è inghiottito, il bersaglio è accecato e trattenuto, dispone di copertura totale contro gli attacchi e gli altri effetti all'esterno del [[lookup @name lowercase]]{mostro} e subisce <strong>21 (6d6) danni <em>da acido</em></strong> all'inizio di ogni turno del [[lookup @name lowercase]]{mostro}. Un [[lookup @name lowercase]]{mostro} può avere una sola creatura inghiottita alla volta.</p><p>Se il [[lookup @name lowercase]]{mostro} subisce 30 o più danni in un singolo turno dalla creatura inghiottita, il [[lookup @name lowercase]]{mostro} deve superare un tiro salvezza su <strong>Costituzione con CD 14</strong> alla fine di quel turno, altrimenti rigurgita la creatura, che cade prona in uno spazio entro 3 metri dal [[lookup @name lowercase]]{mostro}. Se il [[lookup @name lowercase]]{mostro} muore, una creatura inghiottita non è più trattenuta da lui e può sfuggire dal cadavere usando 4,5 metri di movimento, uscendo prona.</p>\n</section>\n<p>Il [[lookup @name lowercase]]{mostro} attacca usando Inghiottire.</p>"
     }
   },
   "folders": {},
