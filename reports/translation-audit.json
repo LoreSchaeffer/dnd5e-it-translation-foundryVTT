@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2185,
+      "translated": 2186,
       "missing": 3,
-      "partial": 203,
+      "partial": 202,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14283,
-      "missing": 1377,
+      "translated": 14284,
+      "missing": 1376,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1382
+    "blockingIssues": 1381
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 150,
+          "translated": 151,
           "missing": 0,
-          "partial": 187,
+          "partial": 186,
           "review": 0
         },
         "folders": {
@@ -578,23 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6467,
-          "missing": 639,
+          "translated": 6468,
+          "missing": 638,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "28gU50HtG8Kp7uIz",
-          "name": "Spider",
-          "fieldPath": "items[ysV0KgiPcJOYCdMh].system.description.value",
-          "sourcePath": "monsters/beast/spider.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
