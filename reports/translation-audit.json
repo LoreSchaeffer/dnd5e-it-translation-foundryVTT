@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2174,
+      "translated": 2175,
       "missing": 3,
-      "partial": 214,
+      "partial": 213,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14265,
-      "missing": 1395,
+      "translated": 14268,
+      "missing": 1392,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1400
+    "blockingIssues": 1397
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 139,
+          "translated": 140,
           "missing": 0,
-          "partial": 198,
+          "partial": 197,
           "review": 0
         },
         "folders": {
@@ -578,41 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6449,
-          "missing": 657,
+          "translated": 6452,
+          "missing": 654,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "MiYRAIHwm9It1in8",
-          "name": "Mammoth",
-          "fieldPath": "items[4LYRJH02EsSnZUNc].system.description.value",
-          "sourcePath": "monsters/beast/mammoth.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "MiYRAIHwm9It1in8",
-          "name": "Mammoth",
-          "fieldPath": "items[4LYRJH02EsSnZUNc].system.description.chat",
-          "sourcePath": "monsters/beast/mammoth.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "MiYRAIHwm9It1in8",
-          "name": "Mammoth",
-          "fieldPath": "items[Hx541foatcQiMSZj].system.description.value",
-          "sourcePath": "monsters/beast/mammoth.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
