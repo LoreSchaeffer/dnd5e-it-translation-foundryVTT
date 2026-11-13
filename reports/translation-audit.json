@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2192,
+      "translated": 2193,
       "missing": 3,
-      "partial": 196,
+      "partial": 195,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14301,
-      "missing": 1359,
+      "translated": 14302,
+      "missing": 1358,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1364
+    "blockingIssues": 1363
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 157,
+          "translated": 158,
           "missing": 0,
-          "partial": 180,
+          "partial": 179,
           "review": 0
         },
         "folders": {
@@ -578,23 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6485,
-          "missing": 621,
+          "translated": 6486,
+          "missing": 620,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "g40zN6xMye6bSS94",
-          "name": "Swarm of Ravens",
-          "fieldPath": "items[3BY2xHy6UfIJR49c].system.description.value",
-          "sourcePath": "monsters/beast/swarm-of-ravens.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
