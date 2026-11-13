@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2156,
+      "translated": 2159,
       "missing": 3,
-      "partial": 232,
+      "partial": 229,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14215,
-      "missing": 1445,
+      "translated": 14223,
+      "missing": 1437,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1450
+    "blockingIssues": 1442
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 121,
+          "translated": 124,
           "missing": 0,
-          "partial": 216,
+          "partial": 213,
           "review": 0
         },
         "folders": {
@@ -578,41 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6399,
-          "missing": 707,
+          "translated": 6407,
+          "missing": 699,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "55PkbskG5iBZGrgR",
-          "name": "Elk",
-          "fieldPath": "items[slVyUWagsSZ5CXSh].system.description.value",
-          "sourcePath": "monsters/beast/elk.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "55PkbskG5iBZGrgR",
-          "name": "Elk",
-          "fieldPath": "items[slVyUWagsSZ5CXSh].system.description.chat",
-          "sourcePath": "monsters/beast/elk.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "55PkbskG5iBZGrgR",
-          "name": "Elk",
-          "fieldPath": "items[FneLrX10GhkE2o4E].system.description.value",
-          "sourcePath": "monsters/beast/elk.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
@@ -662,33 +635,6 @@
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
-          "id": "hQt3qIahnB1Odb40",
-          "name": "Giant Elk",
-          "fieldPath": "items[xSzDPptifNbKyf5N].system.description.value",
-          "sourcePath": "monsters/beast/giant-elk.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "hQt3qIahnB1Odb40",
-          "name": "Giant Elk",
-          "fieldPath": "items[xSzDPptifNbKyf5N].system.description.chat",
-          "sourcePath": "monsters/beast/giant-elk.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "hQt3qIahnB1Odb40",
-          "name": "Giant Elk",
-          "fieldPath": "items[jDA6wujGF6L3tPBM].system.description.value",
-          "sourcePath": "monsters/beast/giant-elk.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
           "id": "kSAi2KRonL4G4JpO",
           "name": "Giant Frog",
           "fieldPath": "items[VtuDa7NZ5Be8auQv].effects[V5XiiQPdCJUmbyLn].description",
@@ -711,24 +657,6 @@
           "name": "Giant Frog",
           "fieldPath": "items[9gLJgr3WzhykKRl9].effects[5YoZO3QgfMTcLhgh].description",
           "sourcePath": "monsters/beast/giant-frog.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "rjqk7ToMD8sGr3n4",
-          "name": "Giant Goat",
-          "fieldPath": "items[ZL9z3WPrZFreDTuY].system.description.value",
-          "sourcePath": "monsters/beast/giant-goat.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "rjqk7ToMD8sGr3n4",
-          "name": "Giant Goat",
-          "fieldPath": "items[ZL9z3WPrZFreDTuY].system.description.chat",
-          "sourcePath": "monsters/beast/giant-goat.yml"
         },
         {
           "code": "missing-field",

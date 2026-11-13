@@ -259,11 +259,14 @@
             "fPD1c1XD3r0nkApC": {
               "name": "Tiro Salvezza contro la Carica"
             }
-          }
+          },
+          "description": "<p>Se il [[lookup @name lowercase]]{mostro} si muove di almeno 6 metri in linea retta verso un bersaglio e poi lo colpisce con un attacco di @UUID[Compendium.dnd5e.monsters.Actor.55PkbskG5iBZGrgR.Item.05Vs3AiPgtQkX84S]{corna} nello stesso turno, il bersaglio subisce [[/damage average]] danni extra.</p><p>Se il bersaglio è una creatura, deve superare un tiro salvezza [[/save]] o cadere &amp;Reference[prone].</p>",
+          "chat": "<p>Se il [[lookup @name]]{mostro} si muove di almeno 6 metri in linea retta verso un bersaglio e poi lo colpisce con un attacco di Corna nello stesso turno, il bersaglio subisce danni extra. Se il bersaglio è una creatura, deve effettuare un tiro salvezza su Forza o cadere &amp;reference[prone].</p>"
         },
         "FneLrX10GhkE2o4E": {
           "name": "Zoccoli",
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>",
+          "description": "<p><em>Attacco con Arma da Mischia:</em> [[/attack]], portata 1,5 m, una creatura prona. <em>Colpito:</em> [[/damage average]] danni.</p>"
         },
         "05Vs3AiPgtQkX84S": {
           "name": "Corna",
@@ -287,11 +290,14 @@
             "W9TNqXLbWHMFwCqW": {
               "name": "Tiro Salvezza contro la Carica"
             }
-          }
+          },
+          "description": "<p>Se il [[lookup @name lowercase]]{mostro} si muove di almeno 6 metri in linea retta verso un bersaglio e poi lo colpisce con un attacco di @UUID[Compendium.dnd5e.monsters.Actor.hQt3qIahnB1Odb40.Item.epOt7fzXcBz9Hf0i]{corna} nello stesso turno, il bersaglio subisce [[/damage average]] danni extra.</p><p>Se il bersaglio è una creatura, deve superare un tiro salvezza [[/save]] o cadere &amp;reference[prone].</p>",
+          "chat": "<p>Se il [[lookup @name]]{mostro} si muove di almeno 6 metri in linea retta verso un bersaglio e poi lo colpisce con un attacco di @UUID[Compendium.dnd5e.monsters.Actor.hQt3qIahnB1Odb40.Item.epOt7fzXcBz9Hf0i]{Corna} nello stesso turno, il bersaglio subisce danni extra. Se il bersaglio è una creatura, deve effettuare un tiro salvezza su Forza o cadere &amp;reference[prone].</p>"
         },
         "jDA6wujGF6L3tPBM": {
           "name": "Zoccoli",
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>",
+          "description": "<p><em>Attacco con Arma da Mischia:</em> [[/attack]], 1,5 m, una creatura prona. <em>Colpito:</em> [[/damage average]]<em> </em>danni.</p>"
         },
         "epOt7fzXcBz9Hf0i": {
           "name": "Corna",
@@ -1648,7 +1654,9 @@
             "aGOFjtHDhyyGrI2a": {
               "name": "Tiro Salvezza contro la Carica"
             }
-          }
+          },
+          "description": "<p>Se il [[lookup @name lowercase]]{mostro} si muove di almeno 6 metri in linea retta verso un bersaglio e poi lo colpisce con un attacco di @UUID[Compendium.dnd5e.monsters.Actor.rjqk7ToMD8sGr3n4.Item.t8cKnWGtgVCfhW5v]{corna} nello stesso turno, il bersaglio subisce [[/damage average]] danni extra.</p><p>Se il bersaglio è una creatura, deve superare un tiro salvezza [[/save]] o cadere &amp;Reference[prone].</p>",
+          "chat": "<p>Se il [[lookup @name]]{mostro} si muove di almeno 6 metri in linea retta verso un bersaglio e poi lo colpisce con un attacco di @UUID[Compendium.dnd5e.monsters.Actor.rjqk7ToMD8sGr3n4.Item.t8cKnWGtgVCfhW5v]{Corna} nello stesso turno, il bersaglio subisce danni contundenti extra. Se il bersaglio è una creatura, deve effettuare un tiro salvezza su Forza o cadere &amp;reference[prone].</p>"
         },
         "t8cKnWGtgVCfhW5v": {
           "name": "Corna",
