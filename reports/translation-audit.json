@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2164,
+      "translated": 2165,
       "missing": 3,
-      "partial": 224,
+      "partial": 223,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14237,
-      "missing": 1423,
+      "translated": 14239,
+      "missing": 1421,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1428
+    "blockingIssues": 1426
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 129,
+          "translated": 130,
           "missing": 0,
-          "partial": 208,
+          "partial": 207,
           "review": 0
         },
         "folders": {
@@ -578,32 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6421,
-          "missing": 685,
+          "translated": 6423,
+          "missing": 683,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "z0zvgcIugizwcuxJ",
-          "name": "Giant Rat (Diseased)",
-          "fieldPath": "items[52m3BQ2wpXvT0jOM].system.description.value",
-          "sourcePath": "monsters/beast/giant-rat-diseased.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "z0zvgcIugizwcuxJ",
-          "name": "Giant Rat (Diseased)",
-          "fieldPath": "items[52m3BQ2wpXvT0jOM].effects[COgSIiCug8IT8AV9].description",
-          "sourcePath": "monsters/beast/giant-rat-diseased.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",

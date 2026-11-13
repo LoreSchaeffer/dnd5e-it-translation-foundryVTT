@@ -16341,10 +16341,12 @@
           },
           "effects": {
             "COgSIiCug8IT8AV9": {
-              "name": "Peste del Ratto Gigante"
+              "name": "Peste del Ratto Gigante",
+              "description": "<p>Sei malato. Finché la malattia non viene curata, non puoi recuperare punti ferita se non con mezzi magici e il tuo massimo dei punti ferita diminuisce di [[/damage average maximum 1d6]]{3 (1d6)} ogni 24 ore. Se il tuo massimo dei punti ferita scende a 0 a causa di questa malattia, muori.</p>"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Se il bersaglio è una creatura, deve effettuare un tiro salvezza su Costituzione.</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Se il bersaglio è una creatura, deve effettuare un tiro salvezza su Costituzione.</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio è una creatura, deve superare un tiro salvezza [[/save]] o contrarre una malattia. Finché la malattia non viene curata, il bersaglio non può recuperare punti ferita se non con mezzi magici e il suo massimo dei punti ferita diminuisce di 3 (1d6) ogni 24 ore. Se il massimo dei punti ferita del bersaglio scende a 0 a causa di questa malattia, il bersaglio muore.</p>"
         },
         "5YcJeJUiuLz3HuV0": {
           "name": "Tattiche del Branco",
