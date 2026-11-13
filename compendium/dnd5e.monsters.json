@@ -1238,7 +1238,8 @@
       "name": "Behir",
       "items": {
         "LzR8BLFWMmqI6gTl": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il behir effettua due attacchi: uno con il proprio [[/item .4fNbTxkAFYHxDdJX]]{morso} e uno per [[/item .GCUh42hMUnKtxx8j]]{stritolare}.</p>"
         },
         "4fNbTxkAFYHxDdJX": {
           "name": "Morso",
@@ -1251,7 +1252,9 @@
             "iG0MT0sZv95VBmZK": {
               "name": "Esala Fulmine"
             }
-          }
+          },
+          "description": "<p>Il behir esala una [[lookup @labels.description.template activity=iG0MT0sZv95VBmZK]] di fulmini. Ogni creatura nella linea deve effettuare un tiro salvezza [[/save]]; se lo fallisce subisce [[/damage average]]<em> danni</em>, mentre se lo supera subisce la metà di quei danni.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} esala una [[lookup @labels.description.template activity=iG0MT0sZv95VBmZK]] di fulmini. Ogni creatura nella linea deve effettuare un tiro salvezza su Destrezza.</p>"
         },
         "0QJeW80m89X0RLNz": {
           "name": "Inghiottire",
@@ -1266,15 +1269,20 @@
               "name": "Inghiottire Creatura"
             },
             "2pCVkETAYg7qALRu": {
-              "name": "Tiro Salvezza per Rigurgitare Creatura"
+              "name": "Tiro Salvezza per Rigurgitare Creatura",
+              "description": {
+                "value": "<p>Se il [[lookup @name lowercase]]{mostro} subisce 30 o più danni in un singolo turno dalla creatura inghiottita, il [[lookup @name lowercase]]{mostro} deve superare un tiro salvezza [[/save activity=2pCVkETAYg7qALRu]] alla fine di quel turno, altrimenti rigurgita la creatura, che cade prona in uno spazio entro 3 metri dal [[lookup @name lowercase]]{mostro}. Se il [[lookup @name lowercase]]{mostro} muore, una creatura inghiottita non è più trattenuta al suo interno e può sfuggire dal cadavere usando 4,5 metri di movimento, uscendo &amp;reference[prone].</p>"
+              }
             }
           },
           "effects": {
             "51z7ys99aMd1N9tG": {
-              "name": "Inghiottito"
+              "name": "Inghiottito",
+              "description": "<p>Sei stato inghiottito dal behir. Sei &amp;reference[blinded apply=false], &amp;reference[restrained apply=false] e disponi di &amp;reference[total cover] contro gli attacchi e gli altri effetti provenienti dall'esterno del behir.</p><p>Subisci inoltre [[/damage average 6d6 acid]] danni all'inizio di ciascun turno del behir.</p><p>Se il behir subisce 30 o più danni in un singolo turno da te, deve superare un tiro salvezza su Costituzione, altrimenti ti rigurgita, facendoti cadere &amp;reference[prone] in uno spazio entro 3 metri dal behir. Se il behir muore, non sei più trattenuto al suo interno e puoi sfuggire dal cadavere usando 4,5 metri di movimento, uscendo &amp;reference[prone].</p>"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua un attacco con [[/item .4fNbTxkAFYHxDdJX]]{Morso} contro un bersaglio di taglia Media o inferiore che sta &amp;reference[grappling]. Se l'attacco colpisce, il bersaglio viene anche inghiottito e la condizione di afferrato termina. Finché è inghiottito, il bersaglio è &amp;reference[blinded] e &amp;reference[restrained], dispone di &amp;reference[total cover] contro gli attacchi e gli altri effetti provenienti dall'esterno del [[lookup @name lowercase]]{mostro} e subisce [[/damage average activity=JiBTCgEtAZs60k7R]] danni all'inizio di ciascun turno del [[lookup @name lowercase]]{mostro}. Un [[lookup @name lowercase]]{mostro} può avere una sola creatura inghiottita alla volta.</p><p>Se il [[lookup @name lowercase]]{mostro} subisce 30 o più danni in un singolo turno dalla creatura inghiottita, il [[lookup @name lowercase]]{mostro} deve superare un tiro salvezza [[/save activity=2pCVkETAYg7qALRu]] alla fine di quel turno, altrimenti rigurgita la creatura, che cade prona in uno spazio entro 3 metri dal [[lookup @name lowercase]]{mostro}. Se il [[lookup @name lowercase]]{mostro} muore, una creatura inghiottita non è più trattenuta al suo interno e può sfuggire dal cadavere usando 4,5 metri di movimento, uscendo &amp;reference[prone].</p>"
         },
         "GCUh42hMUnKtxx8j": {
           "name": "Stritolare",
@@ -1283,7 +1291,9 @@
               "name": "Stritolato",
               "description": "<p>Sei &amp;reference[grappled apply=false] (CD 16 per sfuggire). Finché sei afferrato in questo modo, sei anche &amp;reference[restrained apply=false].</p>"
             }
-          }
+          },
+          "description": "<p><em>Attacco con Arma da Mischia:</em> [[/attack]], portata 1,5 m, una creatura di taglia Grande o inferiore. [[/damage extended]].</p><p>Il bersaglio è &amp;Reference[grappled] (CD 16 per liberarsi) se il [[lookup @name lowercase]]{mostro} non sta già stritolando una creatura, ed è &amp;reference[restrained] finché questa condizione di afferrato non termina.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio è &amp;reference[grappled] se il [[lookup @name]]{mostro} non sta già stritolando una creatura, ed è &amp;reference[restrained] finché questa condizione di afferrato non termina.</p>"
         }
       },
       "details": {

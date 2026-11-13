@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2138,
+      "translated": 2139,
       "missing": 3,
-      "partial": 250,
+      "partial": 249,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14152,
-      "missing": 1508,
+      "translated": 14160,
+      "missing": 1500,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1513
+    "blockingIssues": 1505
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 103,
+          "translated": 104,
           "missing": 0,
-          "partial": 234,
+          "partial": 233,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6336,
-          "missing": 770,
+          "translated": 6344,
+          "missing": 762,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -5436,78 +5436,6 @@
           "name": "Basilisk",
           "fieldPath": "items[bKBPawscKpixPeO0].effects[dlT1Vtz6YqV7Qf5I].description",
           "sourcePath": "monsters/monstrosity/basilisk.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "x47ZnpHfYl0ptDM9",
-          "name": "Behir",
-          "fieldPath": "items[LzR8BLFWMmqI6gTl].system.description.value",
-          "sourcePath": "monsters/monstrosity/behir.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "x47ZnpHfYl0ptDM9",
-          "name": "Behir",
-          "fieldPath": "items[GCUh42hMUnKtxx8j].system.description.value",
-          "sourcePath": "monsters/monstrosity/behir.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "x47ZnpHfYl0ptDM9",
-          "name": "Behir",
-          "fieldPath": "items[GCUh42hMUnKtxx8j].system.description.chat",
-          "sourcePath": "monsters/monstrosity/behir.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "x47ZnpHfYl0ptDM9",
-          "name": "Behir",
-          "fieldPath": "items[gjce4R2feN2UH0YE].system.description.value",
-          "sourcePath": "monsters/monstrosity/behir.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "x47ZnpHfYl0ptDM9",
-          "name": "Behir",
-          "fieldPath": "items[gjce4R2feN2UH0YE].system.description.chat",
-          "sourcePath": "monsters/monstrosity/behir.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "x47ZnpHfYl0ptDM9",
-          "name": "Behir",
-          "fieldPath": "items[0QJeW80m89X0RLNz].system.description.value",
-          "sourcePath": "monsters/monstrosity/behir.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "x47ZnpHfYl0ptDM9",
-          "name": "Behir",
-          "fieldPath": "items[0QJeW80m89X0RLNz].system.activities.2pCVkETAYg7qALRu.description.value",
-          "sourcePath": "monsters/monstrosity/behir.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "x47ZnpHfYl0ptDM9",
-          "name": "Behir",
-          "fieldPath": "items[0QJeW80m89X0RLNz].effects[51z7ys99aMd1N9tG].description",
-          "sourcePath": "monsters/monstrosity/behir.yml"
         },
         {
           "code": "missing-field",
