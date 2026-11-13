@@ -11928,7 +11928,8 @@
       "name": "Otyugh",
       "items": {
         "z8zfieQSSbMtBNQz": {
-          "name": "Telepatia Limitata"
+          "name": "Telepatia Limitata",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} può trasmettere magicamente semplici messaggi e immagini a qualsiasi creatura entro 36 metri da sé che sia in grado di comprendere un linguaggio. Questa forma di telepatia non consente alla creatura ricevente di rispondere telepaticamente.</p>"
         },
         "CCawltKiVU4Mup9i": {
           "name": "Morso",
@@ -11939,9 +11940,12 @@
           },
           "effects": {
             "y08IDhSebGn0B6ab": {
-              "name": "Tiro Salvezza contro Malattia"
+              "name": "Tiro Salvezza contro Malattia",
+              "description": "<p>Sei malato. Finché la malattia non viene curata, sei anche &amp;reference[poisoned apply=false].</p><p>Ogni 24 ore trascorse, devi ripetere il tiro salvezza; se lo fallisci, il tuo massimo dei punti ferita si riduce di [[/damage maximum 1d10]]{5 (1d10)}. Se lo superi, la malattia viene curata.</p><p>Muori se la malattia riduce a 0 il tuo massimo dei punti ferita. Questa riduzione del tuo massimo dei punti ferita permane finché la malattia non viene curata.</p>"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio è una creatura, deve superare un tiro salvezza [[/save]] contro la malattia, altrimenti è &amp;Reference[poisoned] finché la malattia non viene curata. Ogni 24 ore trascorse, il bersaglio deve ripetere il tiro salvezza; se lo fallisce, il suo massimo dei punti ferita si riduce di [[/damage maximum 1d10]]{5 (1d10)}. Se lo supera, la malattia viene curata. Il bersaglio muore se la malattia riduce a 0 il suo massimo dei punti ferita. Questa riduzione del massimo dei punti ferita del bersaglio permane finché la malattia non viene curata.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio deve poi effettuare un tiro salvezza su Costituzione.</p>"
         },
         "9d1ZhvT1vIJsNnN1": {
           "name": "Schianto con Tentacolo",
@@ -11952,12 +11956,16 @@
           },
           "effects": {
             "obI7Dl3IiLP5Zhwq": {
-              "name": "Stordimento da Schianto"
+              "name": "Stordimento da Schianto",
+              "description": "<p>Sei &amp;reference[stunned apply=false] fino all'inizio del turno successivo dell'otyugh.</p>"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} schianta le creature da esso &amp;reference[grappled apply=false] l'una contro l'altra o contro una superficie solida. Ogni creatura deve superare un tiro salvezza [[/save]], altrimenti subisce [[/damage average]] danni ed è &amp;Reference[stunned apply=false] fino alla fine del turno successivo del [[lookup @name lowercse]]{mostro}.</p><p>Se supera il tiro salvezza, il bersaglio subisce la metà dei danni contundenti e non è stordito.</p>",
+          "chat": "<p>Il [[lookup @name lowercase]]{mostro} schianta le creature da esso &amp;reference[grappled apply=false] l'una contro l'altra o contro una superficie solida. Ogni creatura deve effettuare un tiro salvezza su Costituzione.</p>"
         },
         "O9otNESvCCUdwYhc": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>L'otyugh effettua tre attacchi: uno con il [[/item .CCawltKiVU4Mup9i]]{Morso} e due con i [[/item .BPYsBEkmZMcGYZDh]]{Tentacoli}.</p>"
         },
         "BPYsBEkmZMcGYZDh": {
           "name": "Tentacolo",
@@ -11966,7 +11974,9 @@
               "name": "Afferrato dal Tentacolo",
               "description": "<p>Sei &amp;reference[grappled apply=false] (CD 13 per sfuggire).</p>"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio è di taglia Media o inferiore, è &amp;Reference[grappled apply=false] (CD 13 per sfuggire) e &amp;Reference[restrained apply=false] finché l'afferramento non termina. Il [[lookup @name lowercse]]{mostro} possiede due [[lookup @item.name lowercase]], ognuno dei quali può afferrare un bersaglio.</p>",
+          "chat": "<p>L'otyugh attacca con il proprio Tentacolo. Se il bersaglio è di taglia Media o inferiore, è afferrato e trattenuto finché l'afferramento non termina. L'otyugh possiede due tentacoli, ognuno dei quali può afferrare un bersaglio.</p>"
         }
       },
       "details": {
