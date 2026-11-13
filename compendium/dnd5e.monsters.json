@@ -13791,7 +13791,8 @@
               "name": "Sciame",
               "description": "<p>Puoi occupare gli spazi delle altre creature e viceversa. Non puoi recuperare punti ferita né ottenere punti ferita temporanei.</p>"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{sciame} può occupare lo spazio di un'altra creatura e viceversa, e il [[lookup @name lowercase]]{sciame} può attraversare qualsiasi apertura sufficientemente grande da lasciar passare un pipistrello Minuscolo. Lo sciame non può recuperare punti ferita né ottenere punti ferita temporanei.</p>"
         },
         "FqRwxHqTceLq5rDG": {
           "name": "Senso Radar",
@@ -13800,14 +13801,17 @@
               "name": "Senso Radar",
               "description": "<p>Non puoi usare la tua &amp;reference[blindsight] mentre sei &amp;reference[deafened apply=false].</p>"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{sciame} non può usare la propria &amp;reference[blindsight] mentre è &amp;reference[deafened apply=false].</p>"
         },
         "0NpX1YUDTXjgIm23": {
           "name": "Morsi",
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con una raffica di [[lookup @item.name]].</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con una raffica di [[lookup @item.name]].</p>",
+          "description": "<p>Attacco con Arma da Mischia: [[/attack]], 0 m, una creatura nello spazio del [[lookup @name lowercase]]{sciame}. Colpito: [[/damage 2d4 piercing average]] danni, oppure [[/damage 1d4 piercing average]] danni se il [[lookup @name lowercase]]{sciame} possiede metà dei propri punti ferita o meno.</p>"
         },
         "ttrGsuHxLfCo9kAT": {
-          "name": "Udito Acuto"
+          "name": "Udito Acuto",
+          "description": "<p>Il [[lookup @name lowercase]]{sciame} dispone di vantaggio alle prove di Saggezza (Percezione) basate sull'udito.</p>"
         }
       },
       "details": {

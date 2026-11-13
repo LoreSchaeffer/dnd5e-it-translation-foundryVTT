@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2187,
+      "translated": 2188,
       "missing": 3,
-      "partial": 201,
+      "partial": 200,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14287,
-      "missing": 1373,
+      "translated": 14291,
+      "missing": 1369,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1378
+    "blockingIssues": 1374
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 152,
+          "translated": 153,
           "missing": 0,
-          "partial": 185,
+          "partial": 184,
           "review": 0
         },
         "folders": {
@@ -578,50 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6471,
-          "missing": 635,
+          "translated": 6475,
+          "missing": 631,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "PcZ0QjIG6bHpffp9",
-          "name": "Swarm of Bats",
-          "fieldPath": "items[0NpX1YUDTXjgIm23].system.description.value",
-          "sourcePath": "monsters/beast/swarm-of-bats.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "PcZ0QjIG6bHpffp9",
-          "name": "Swarm of Bats",
-          "fieldPath": "items[cBVltbg8hNBBuTZ7].system.description.value",
-          "sourcePath": "monsters/beast/swarm-of-bats.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "PcZ0QjIG6bHpffp9",
-          "name": "Swarm of Bats",
-          "fieldPath": "items[FqRwxHqTceLq5rDG].system.description.value",
-          "sourcePath": "monsters/beast/swarm-of-bats.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "PcZ0QjIG6bHpffp9",
-          "name": "Swarm of Bats",
-          "fieldPath": "items[ttrGsuHxLfCo9kAT].system.description.value",
-          "sourcePath": "monsters/beast/swarm-of-bats.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
