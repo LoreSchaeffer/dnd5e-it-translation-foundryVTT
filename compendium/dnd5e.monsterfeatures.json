@@ -23,11 +23,11 @@
     },
     "Aggressive": {
       "name": "Aggressivo",
-      "description": "<p>Come azione bonus, la &lt;creature&gt; può muoversi fino alla sua velocità verso una creatura ostile che essa sia in grado di vedere.&nbsp;</p><p>&nbsp;</p>"
+      "description": "<p>Come azione bonus, la [[lookup @name lowercase]]{monster} può muoversi fino alla sua velocità verso una creatura ostile che essa sia in grado di vedere.&nbsp;</p>"
     },
     "Air Form": {
       "name": "Forma d'Aria",
-      "description": "<p>La &lt;creature&gt; può entrare nello spazio di una creatura ostile e fermarvisi. Può muoversi attraverso uno spazio stretto fino a 2,5 centimetri senza doversi stringere.&nbsp;</p><p>&nbsp;</p>"
+      "description": "<p>La [[lookup @details.type.config.label lowercase]]{monster} può entrare nello spazio di una creatura ostile e fermarvisi. Può muoversi attraverso uno spazio stretto fino a 2,5 centimetri senza doversi stringere.&nbsp;</p>"
     },
     "Ambusher": {
       "name": "Imboscata",
@@ -35,11 +35,11 @@
     },
     "Amorphous": {
       "name": "Amorfo",
-      "description": "<p>La &lt;creature&gt; può muoversi attraverso uno spazio stretto fino a 2,5 centimetri senza doversi stringere.</p>"
+      "description": "<p>La [[lookup @name lowercase]]{monster} può muoversi attraverso uno spazio stretto fino a 2,5 centimetri senza doversi stringere.</p>"
     },
     "Amphibious": {
       "name": "Anfibio",
-      "description": "<p>La &lt;creature&gt; può respirare in aria e acqua.</p>"
+      "description": "<p>La [[lookup @name lowercase]]{monster} può respirare in aria e acqua.</p>"
     },
     "Animate Chains": {
       "name": "Catene Animate",
@@ -59,7 +59,7 @@
     },
     "Assassinate": {
       "name": "Assassinare",
-      "description": "<p>Durante il suo primo turno, la &lt;creature&gt; dispone di vantaggio ai tiri per colpire contro ogni creatura che non abbia ancora effettuato un turno. Ogni colpo che la &lt;creature&gt; mette a segno contro una creatura sorpresa è considerato un colpo critico.&nbsp;</p>"
+      "description": "<p>Durante il suo primo turno, la [[lookup @name lowercase]]{monster} dispone di vantaggio ai tiri per colpire contro ogni creatura che non abbia ancora effettuato un turno. Ogni colpo che la [[lookup @name lowercase]]{monster} mette a segno contro una creatura sorpresa è considerato un colpo critico.&nbsp;</p>"
     },
     "Aversion of Fire": {
       "name": "Avversione al Fuoco",
@@ -71,7 +71,7 @@
     },
     "Beast of Burden": {
       "name": "Bestia da Soma",
-      "description": "<p>La &lt;creature&gt; è considerata un animale Grande al fine di determinare la sua capacità di trasporto.</p><p>&nbsp;</p>",
+      "description": "<p>La [[lookup @name lowercase]]{monster} è considerata un animale Grande al fine di determinare la sua capacità di trasporto.</p>",
       "effects": {
         "VW9jjwa34EHjrXBB": {
           "name": "Bestia da Soma"
@@ -92,7 +92,7 @@
     },
     "Blind Senses": {
       "name": "Percezione Cieca",
-      "description": "<p>La &lt;creature&gt; non può usare la sua vista cieca finché è Assordato e non è in grado di fiutare.</p>"
+      "description": "<p>La [[lookup @name lowercase]]{monster} non può usare la sua vista cieca finché è Assordato e non è in grado di fiutare.</p>"
     },
     "Blinding Breath": {
       "name": "Soffio Accecante",
@@ -116,11 +116,11 @@
     },
     "Brave": {
       "name": "Impavido",
-      "description": "<p>La &lt;creature&gt; dispone di vantaggio ai tiri salvezza contro la condizione di Spaventato.</p>"
+      "description": "<p>La [[lookup @name lowercase]]{monster} dispone di vantaggio ai tiri salvezza contro la condizione di Spaventato.</p>"
     },
     "Brute": {
       "name": "Bruto",
-      "description": "<p>Quando la &lt;creature&gt; colpisce con un'arma da mischia, l'attacco infligge un dado extra del tipo di danno dell'arma (già incluso nelle statistiche sottostanti).</p>"
+      "description": "<p>Quando la [[lookup @name lowercase]]{monster} colpisce con un'arma da mischia, l'attacco infligge un dado extra del tipo di danno dell'arma (già incluso nelle statistiche sottostanti).</p>"
     },
     "Change Shape": {
       "name": "Cambiare Forma",
@@ -232,11 +232,11 @@
     },
     "Earth Glide": {
       "name": "Scivolare nella Terra",
-      "description": "<p>L'&lt;creature&gt; può scavare attraverso la terra e la pietra non magiche e non lavorate. Quando lo fa, l'&lt;creature&gt; non disturba il materiale attraverso cui si muove.</p>"
+      "description": "<p>L'[[lookup @details.type.config.label lowercase]]{monster} può scavare attraverso la terra e la pietra non magiche e non lavorate. Quando lo fa, l'[[lookup @details.type.config.label lowercase]]{monster} non disturba il materiale attraverso cui si muove.</p>"
     },
     "Echolocation": {
       "name": "Senso Radar",
-      "description": "<p>L'&lt;creature&gt; non può usare la sua vista cieca se è assordato.</p><p>&nbsp;</p>",
+      "description": "<p>L'[[lookup @name lowercase]]{monster} non può usare la sua vista cieca se è assordato.</p>",
       "requirements": "Pipistrello"
     },
     "Engulf": {
@@ -245,15 +245,15 @@
     },
     "Enlarge": {
       "name": "Ingrandire",
-      "description": "<p>Per 1 minuto, la taglia del &lt;creature&gt; aumenta magicamente, assieme a ogni oggetto che indossa o trasporta. Finché è ingrandito, il &lt;creature&gt; è Grande, raddoppia i suoi dadi per i danni degli attacchi con arma basati sulla Forza (già inclusi negli attacchi) e dispone di vantaggio alle prove di Forza e ai tiri salvezza su Forza. Se il &lt;creature&gt; non ha spazio a sufficienza per diventare Grande, raggiunge la massima taglia possibile nello spazio disponibile.</p>"
+      "description": "<p>Per 1 minuto, la taglia del [[lookup @name lowercase]]{monster} aumenta magicamente, assieme a ogni oggetto che indossa o trasporta. Finché è ingrandito, il [[lookup @name lowercase]]{monster} è Grande, raddoppia i suoi dadi per i danni degli attacchi con arma basati sulla Forza (già inclusi negli attacchi) e dispone di vantaggio alle prove di Forza e ai tiri salvezza su Forza. Se il [[lookup @name lowercase]]{monster} non ha spazio a sufficienza per diventare Grande, raggiunge la massima taglia possibile nello spazio disponibile.</p>"
     },
     "Ephemeral": {
       "name": "Effimero",
-      "description": "<p>Il &lt;creature&gt; non può indossare o trasportare niente.</p>"
+      "description": "<p>Il [[lookup @name lowercase]]{monster} non può indossare o trasportare niente.</p>"
     },
     "Ethereal Jaunt": {
       "name": "Transizione Eterea",
-      "description": "<p>Come azione bonus, il &lt;creature&gt; può spostarsi magicamente dal Piano Materiale al Piano Etereo o viceversa.</p>"
+      "description": "<p>Come azione bonus, il [[lookup @name lowercase]]{monster} può spostarsi magicamente dal Piano Materiale al Piano Etereo o viceversa.</p>"
     },
     "Ethereal Sight": {
       "name": "Vista Eterea",
@@ -261,11 +261,11 @@
     },
     "Ethereal Stride": {
       "name": "Passo Etereo",
-      "description": "<p>Il &lt;creature&gt; e un massimo di tre creature consenzienti situate entro 1,5 metri da esso passano magicamente dal Piano Materiale al Piano Etereo o viceversa.</p>"
+      "description": "<p>Il [[lookup @name lowercase]]{monster} e un massimo di tre creature consenzienti situate entro 1,5 metri da esso passano magicamente dal Piano Materiale al Piano Etereo o viceversa.</p>"
     },
     "Etherealness": {
       "name": "Forma Eterea",
-      "description": "<p>Il &lt;creature&gt; entra nel Piano Etereo dal Piano Materiale o viceversa. È visibile sul Piano Materiale finché si trova sul Confine Etereo e viceversa, ma non può influenzare o essere influenzato da nulla sull’altro piano.</p>"
+      "description": "<p>Il [[lookup @name lowercase]]{monster} entra nel Piano Etereo dal Piano Materiale o viceversa. È visibile sul Piano Materiale finché si trova sul Confine Etereo e viceversa, ma non può influenzare o essere influenzato da nulla sull’altro piano.</p>"
     },
     "Evasion": {
       "name": "Elusione",
@@ -273,7 +273,7 @@
     },
     "False Appearance": {
       "name": "Falso Aspetto",
-      "description": "<p><span style=\"color: #111111;\">Finché l'</span><span style=\"color: #111111;\">&lt;creature&gt; </span><span style=\"color: #111111;\">rimane immobile, non è distinguibile da un'</span><span style=\"color: #111111;\">&lt;oggetto comune&gt;</span><span style=\"color: #111111;\">&nbsp;normale.</span></p><p>&nbsp;</p>"
+      "description": "<p>Finché l'[[lookup @name lowercase]]{monster} rimane immobile, non è distinguibile da un'&lt;oggetto comune&gt;&nbsp;normale.</p>"
     },
     "Fetid Cloud": {
       "name": "Nube Fetida",
@@ -301,7 +301,7 @@
     },
     "Flyby": {
       "name": "Volo Sfuggente",
-      "description": "<p>Il &lt;creature&gt; non provoca un attacco di opportunità quando esce volando dalla portata di un nemico.</p>",
+      "description": "<p>Il [[lookup @name lowercase]]{monster} non provoca un attacco di opportunità quando esce volando dalla portata di un nemico.</p>",
       "requirements": "Gufo"
     },
     "Freedom of Movement": {
@@ -342,7 +342,7 @@
     },
     "Healing Touch": {
       "name": "Tocco Guaritore",
-      "description": "<p>L'&lt;creature&gt; tocca un'altra creatura con il corno. Il bersaglio recupera magicamente 11 (2d8 + 2) punti ferita. Inoltre, il tocco rimuove tutte le malattie e neutralizza tutti i veleni che affliggono il bersaglio</p>"
+      "description": "<p>L'[[lookup @name lowercase]]{monster} tocca un'altra creatura con il corno. Il bersaglio recupera magicamente 11 (4d8 + 2) punti ferita. Inoltre, il tocco rimuove tutte le malattie e neutralizza tutti i veleni che affliggono il bersaglio</p>"
     },
     "Heart Sight": {
       "name": "Vista del Cuore",
@@ -370,7 +370,7 @@
     },
     "Ice Walk": {
       "name": "Camminare sul Ghiaccio",
-      "description": "<p>Il &lt;creature&gt; può muoversi sulle superfici di ghiaccio e scalarle senza bisogno di effettuare una prova di caratteristica. Inoltre, il terreno difficile costituito da ghiaccio o neve non gli costa alcun movimento aggiuntivo.</p>"
+      "description": "<p>Il [[lookup @details.type.config.label lowercase]]{monster} può muoversi sulle superfici di ghiaccio e scalarle senza bisogno di effettuare una prova di caratteristica. Inoltre, il terreno difficile costituito da ghiaccio o neve non gli costa alcun movimento aggiuntivo.</p>"
     },
     "Ignited Illumination": {
       "name": "Illuminazione Fiammeggiante",
@@ -378,15 +378,15 @@
     },
     "Illumination": {
       "name": "Illuminazione",
-      "description": "<p>Il &lt;creature&gt; proietta luce intensa in un raggio di 3 metri e luce fioca per 3 metri aggiuntivi.</p>"
+      "description": "<p>Il [[lookup @name lowercase]]{monster} proietta luce intensa in un raggio di 3 metri e luce fioca per 3 metri aggiuntivi.</p>"
     },
     "Illusory Appearance": {
       "name": "Aspetto Illusorio",
-      "description": "<p>La &lt;creature&gt; avvolge se stessa e tutto ciò che indossa o trasporta in un'illusione magica che la fa apparire come un'altra creatura di taglia e di forma umanoide simile alla sua. L’illusione termina se la &lt;creature&gt; usa un'azione bonus per terminarla o se muore. I cambiamenti apportati da questo effetto non reggono a un’ispezione fisica. Per esempio, la &lt;creature&gt; potrebbe apparire dotata di una pelle liscia, ma chi la toccasse sentirebbe che la sua pelle è aspra e ruvida. Sotto ogni altro aspetto, una creatura deve usare un’azione per ispezionare l’illusione e superare una prova di Intelligenza (Indagare) con CD 20 per capire che la &lt;creature&gt; è camuffata.</p>"
+      "description": "<p>La [[lookup @name lowercase]]{monster} avvolge se stessa e tutto ciò che indossa o trasporta in un'illusione magica che la fa apparire come un'altra creatura di taglia e di forma umanoide simile alla sua. L’illusione termina se la [[lookup @name lowercase]]{monster} usa un'azione bonus per terminarla o se muore.</p><p>I cambiamenti apportati da questo effetto non reggono a un’ispezione fisica. Per esempio, la [[lookup @name lowercase]]{monster} potrebbe apparire dotata di una pelle liscia, ma chi la toccasse sentirebbe che la sua pelle è aspra e ruvida. Sotto ogni altro aspetto, una creatura deve usare un’azione per ispezionare l’illusione e superare una prova di Intelligenza (Indagare) con CD 20 per capire che la [[lookup @name lowercase]]{monster} è camuffata.</p>"
     },
     "Immutable Form": {
       "name": "Forma Immutabile",
-      "description": "<p>Il &lt;creature&gt; è immune a qualsiasi incantesimo o effetto che tenti di alterare la sua forma.</p>"
+      "description": "<p>Il [[lookup @name lowercase]]{monster} è immune a qualsiasi incantesimo o effetto che tenti di alterare la sua forma.</p>"
     },
     "Incorporeal Movement": {
       "name": "Movimento Incorporeo",
@@ -410,7 +410,7 @@
     },
     "Iron Scent": {
       "name": "Fiutare il Ferro",
-      "description": "<p>La &lt;creature&gt; può individuare tramite l'olfatto la posizione del metallo ferroso entro <strong>9 metri</strong> da essa.</p>"
+      "description": "<p>La [[lookup @name lowercase]]{monster} può individuare tramite l'olfatto la posizione del metallo ferroso entro <strong>9 metri</strong> da essa.</p>"
     },
     "Keen Hearing": {
       "name": "Udito Acuto",
@@ -438,7 +438,7 @@
     },
     "Labyrinthine Recall": {
       "name": "Ricordo Labirintico",
-      "description": "<p>Il &lt;creature&gt; è in grado di ricordarsi alla perfezione qualsiasi tragitto che abbia già percorso.</p>"
+      "description": "<p>Il [[lookup @name lowercase]]{monster} è in grado di ricordarsi alla perfezione qualsiasi tragitto che abbia già percorso.</p>"
     },
     "Leadership": {
       "name": "Autorità",
@@ -450,7 +450,7 @@
     },
     "Legendary Resistance": {
       "name": "Resistenza Leggendaria",
-      "description": "<p>Se &lt;creature&gt; fallisce un tiro salvezza, può scegliere invece di superarlo.</p>"
+      "description": "<p>Se [[lookup @details.type.config.label lowercase]]{monster} fallisce un tiro salvezza, può scegliere invece di superarlo.</p>"
     },
     "Light Sensitivity": {
       "name": "Sensibilità alla Luce del Sole",
@@ -478,7 +478,7 @@
     },
     "Magic Weapons": {
       "name": "Armi Magiche",
-      "description": "<p>Gli attacchi con arma della &lt;creature&gt; sono magici.</p>"
+      "description": "<p>Gli attacchi con arma della [[lookup @name lowercase]]{monster} sono magici.</p>"
     },
     "Martial Advantage": {
       "name": "Vantaggio Marziale",
@@ -490,7 +490,7 @@
     },
     "Multiattack": {
       "name": "Multiattacco",
-      "description": "<p>Quando &lt;creature&gt; fa un'azione di attacco, attacca &lt;#&gt; usando &lt;details&gt;.</p>"
+      "description": "<p>Quando [[lookup @name lowercase]]{monster} fa un'azione di attacco, attacca &lt;#&gt; usando &lt;details&gt;.</p>"
     },
     "Multiple Heads": {
       "name": "Teste Multiple",
@@ -502,7 +502,7 @@
     },
     "Nimble Escape": {
       "name": "Fuga Agile",
-      "description": "<p>Il &lt;creature&gt; può effettuare l’azione di Disimpegno o Nascondersi come azione bonus a ogni suo turno.</p>"
+      "description": "<p>Il [[lookup @name lowercase]]{monster} può effettuare l’azione di Disimpegno o Nascondersi come azione bonus a ogni suo turno.</p>"
     },
     "Ooze Cube": {
       "name": "Cubo di Melma",
@@ -519,11 +519,11 @@
     },
     "Paralyzing Touch": {
       "name": "Tocco Paralizzante",
-      "description": "<p>Il &lt;creature&gt; usa il suo Tocco Paralizzante.</p>"
+      "description": "<p>Il [[lookup @name lowercase]]{monster} usa il suo Tocco Paralizzante.</p>"
     },
     "Parry": {
       "name": "Parata",
-      "description": "<p>Il &lt;creature&gt; aggiunge 2 alla sua CA contro un attacco in mischia che lo colpirebbe. Per farlo, il &lt;creature&gt; deve vedere l’attaccante e deve impugnare un'arma da mischia.</p>"
+      "description": "<p>Il [[lookup @name lowercase]]{monster} aggiunge 2 alla sua CA contro un attacco in mischia che lo colpirebbe. Per farlo, il [[lookup @name lowercase]]{monster} deve vedere l’attaccante e deve impugnare un'arma da mischia.</p>"
     },
     "Petrifying Breath": {
       "name": "Soffio Pietrificante",
@@ -535,7 +535,7 @@
     },
     "Phantasms": {
       "name": "Allucinazioni",
-      "description": "<p>Il &lt;creature&gt; crea magicamente tre duplicati illusori di se stesso se non è esposto alla luce intensa. I duplicati si muovono assieme a lui e imitano le sue azioni, scambiandosi di posizione in modo che sia impossibile capire quale &lt;creature&gt; sia quello vero. Se il &lt;creature&gt; si trova in un'area di luce intensa, i duplicati scompaiono. Ogni volta che una creatura bersaglia il &lt;creature&gt; con un attacco o un incantesimo dannoso finché permane un duplicato, quella creatura effettua un tiro casuale per determinare se bersaglia il &lt;creature&gt; o uno dei suoi duplicati. Una creatura non è influenzata da questo effetto magico se non può vedere o se si affida a sensi diversi dalla vista. Un duplicato possiede la CA del &lt;creature&gt; e usa i suoi tiri salvezza. Se un attacco colpisce un duplicato o se un duplicato fallisce un tiro salvezza contro un effetto che infligge danni, quel duplicato scompare.</p><p>&nbsp;</p>"
+      "description": "<p>Il [[lookup @name lowercase]]{monster} crea magicamente tre duplicati illusori di se stesso se non è esposto alla luce intensa. I duplicati si muovono assieme a lui e imitano le sue azioni, scambiandosi di posizione in modo che sia impossibile capire quale [[lookup @name lowercase]]{monster} sia quello vero. Se il [[lookup @name lowercase]]{monster} si trova in un'area di luce intensa, i duplicati scompaiono.</p><p>Ogni volta che una creatura bersaglia il [[lookup @name lowercase]]{monster} con un attacco o un incantesimo dannoso finché permane un duplicato, quella creatura effettua un tiro casuale per determinare se bersaglia il [[lookup @name lowercase]]{monster} o uno dei suoi duplicati. Una creatura non è influenzata da questo effetto magico se non può vedere o se si affida a sensi diversi dalla vista.</p><p>Un duplicato possiede la CA del [[lookup @name lowercase]]{monster} e usa i suoi tiri salvezza. Se un attacco colpisce un duplicato o se un duplicato fallisce un tiro salvezza contro un effetto che infligge danni, quel duplicato scompare.</p>"
     },
     "Poison Breath": {
       "name": "Soffio di Veleno",
@@ -559,7 +559,7 @@
     },
     "Reactive Heads": {
       "name": "Teste Reattive",
-      "description": "<p>Per ogni testa che l'&lt;creature&gt; possiede oltre la prima, riceve una reazione extra che può essere usata soltanto per gli attacchi di opportunità.</p>"
+      "description": "<p>Per ogni testa che l'[[lookup @name lowercase]]{monster} possiede oltre la prima, riceve una reazione extra che può essere usata soltanto per gli attacchi di opportunità.</p>"
     },
     "Read Thoughts": {
       "name": "Lettura del Pensiero",
@@ -567,11 +567,11 @@
     },
     "Reckless": {
       "name": "Avventato",
-      "description": "<p>All’inizio del suo turno, il &lt;creature&gt; può ottenere vantaggio a tutti i tiri per colpire con le armi da mischia che effettua in quel turno, ma i tiri per colpire contro di lui dispongono di vantaggio fino all'inizio del suo turno successivo.</p>"
+      "description": "<p>All’inizio del suo turno, il [[lookup @name lowercase]]{monster} può ottenere vantaggio a tutti i tiri per colpire con le armi da mischia che effettua in quel turno, ma i tiri per colpire contro di lui dispongono di vantaggio fino all'inizio del suo turno successivo.</p>"
     },
     "Reel": {
       "name": "Riavvolgere",
-      "description": "<p>Il &lt;creature&gt; tira verso di sé ogni creatura che ha afferrato per un massimo di 7,5 metri.</p>"
+      "description": "<p>Il [[lookup @name lowercase]]{monster} tira verso di sé ogni creatura che ha afferrato per un massimo di 7,5 metri.</p>"
     },
     "Regeneration": {
       "name": "Rigenerazione",
@@ -623,11 +623,11 @@
     },
     "Shielded Mind": {
       "name": "Mente Schermata",
-      "description": "<p>Il &lt;creature&gt; è immune agli scrutamenti e a qualsiasi effetto che possa percepire le sue emozioni, leggere i suoi pensieri o individuare la sua posizione.</p>"
+      "description": "<p>Il [[lookup @name lowercase]]{monster} è immune agli scrutamenti e a qualsiasi effetto che possa percepire le sue emozioni, leggere i suoi pensieri o individuare la sua posizione.</p>"
     },
     "Shimmering Shield": {
       "name": "Scudo Scintillante",
-      "description": "<p>L'&lt;creature&gt; crea un campo magico scintillante attorno a sé o a un'altra creatura situata entro 18 metri da lui e che esso sia in grado di vedere. Il bersaglio ottiene un bonus di +2 alla CA fino alla fine del turno successivo dell'&lt;creature&gt;.</p>"
+      "description": "<p>L'[[lookup @name lowercase]]{monster} crea un campo magico scintillante attorno a sé o a un'altra creatura situata entro 18 metri da lui e che esso sia in grado di vedere. Il bersaglio ottiene un bonus di +2 alla CA fino alla fine del turno successivo dell'[[lookup @name lowercase]]{monster}.</p>"
     },
     "Shock": {
       "name": "Folgore",
@@ -639,7 +639,7 @@
     },
     "Siege Monster": {
       "name": "Mostro da Assedio",
-      "description": "<p>Il &lt;creature&gt; infligge danni doppi agli oggetti e alle strutture.</p>"
+      "description": "<p>Il [[lookup @details.type.config.label lowercase]]{monster} infligge danni doppi agli oggetti e alle strutture.</p>"
     },
     "Sleep Breath": {
       "name": "Soffio di Sonno",
@@ -659,7 +659,7 @@
     },
     "Speak with Beasts and Plants": {
       "name": "Parlare con le Bestie e i Vegetali",
-      "description": "<p>La &lt;creature&gt; può comunicare con le bestie e i vegetali come se condividesse con loro un linguaggio.</p>"
+      "description": "<p>La [[lookup @name lowercase]]{monster} può comunicare con le bestie e i vegetali come se condividesse con loro un linguaggio.</p>"
     },
     "Spell Immunity": {
       "name": "Immunità agli Incantesimi",
@@ -675,7 +675,7 @@
     },
     "Spider Climb": {
       "name": "Movimenti del Ragno",
-      "description": "<p>Il &lt;creature&gt; può scalare le superfici difficili, inclusi i soffitti, lungo i quali si muove a testa in giù, senza effettuare una prova di caratteristica.</p>"
+      "description": "<p>Il [[lookup @name lowercase]]{monster} può scalare le superfici difficili, inclusi i soffitti, lungo i quali si muove a testa in giù, senza effettuare una prova di caratteristica.</p>"
     },
     "Split": {
       "name": "Scindersi",
@@ -735,7 +735,7 @@
     },
     "Tail Spike Regrowth": {
       "name": "Ricrescita degli Aculei Caudali",
-      "description": "<p>La &lt;creature&gt; possiede &lt;#&gt; aculei caudali. Quelli usati ricrescono quando la &lt;creature&gt; completa un riposo lungo.</p>"
+      "description": "<p>La [[lookup @name lowercase]]{monster} possiede &lt;#&gt; aculei caudali. Quelli usati ricrescono quando la [[lookup @name lowercase]]{monster} completa un riposo lungo.</p>"
     },
     "Talons": {
       "name": "Speroni",
@@ -743,11 +743,11 @@
     },
     "Telepathic Bond": {
       "name": "Legame Telepatico",
-      "description": "<p>Finché l'&lt;creature&gt; si trova sullo stesso piano di esistenza del suo padrone, può trasmettere magicamente ciò che percepisce al suo padrone e i due possono comunicare telepaticamente.</p>"
+      "description": "<p>Finché l'[[lookup @name lowercase]]{monster} si trova sullo stesso piano di esistenza del suo padrone, può trasmettere magicamente ciò che percepisce al suo padrone e i due possono comunicare telepaticamente.</p>"
     },
     "Teleport": {
       "name": "Teletrasporto",
-      "description": "<p>La &lt;creature&gt; si teletrasporta magicamente, assieme a ogni oggetto che indossa o trasporta, in uno spazio libero situato entro 12 metri da lei e che essa sia in grado di vedere.</p>"
+      "description": "<p>La [[lookup @name lowercase]]{monster} si teletrasporta magicamente, assieme a ogni oggetto che indossa o trasporta, in uno spazio libero situato entro 12 metri da lei e che essa sia in grado di vedere.</p>"
     },
     "Tentacle Slam": {
       "name": "Schianto con Tentacolo",
@@ -767,7 +767,7 @@
     },
     "Tree Stride": {
       "name": "Passo Arboreo",
-      "description": "<p>Per una volta nel suo turno, la &lt;creature&gt; può usare 3 metri del suo movimento per entrare magicamente in un albero vivente entro la sua portata e uscire da un secondo albero vivente situato entro 18 metri dal primo, comparendo in uno spazio libero entro 1,5 metri dal secondo albero. Entrambi gli alberi devono essere di taglia Grande o superiore.</p><p>&nbsp;</p>"
+      "description": "<p>Per una volta nel suo turno, la [[lookup @name lowercase]]{monster} può usare 3 metri del suo movimento per entrare magicamente in un albero vivente entro la sua portata e uscire da un secondo albero vivente situato entro 18 metri dal primo, comparendo in uno spazio libero entro 1,5 metri dal secondo albero. Entrambi gli alberi devono essere di taglia Grande o superiore.</p>"
     },
     "Turn Resistance": {
       "name": "Resistenza allo Scacciare",
@@ -800,16 +800,16 @@
     },
     "Wakeful": {
       "name": "Sempre Sveglio",
-      "description": "<p>Quando una delle due teste dell’&lt;creature&gt; dorme, l'altra testa è sveglia.</p>"
+      "description": "<p>Quando una delle due teste dell’[[lookup @name lowercase]]{monster} dorme, l'altra testa è sveglia.</p>"
     },
     "Water Breathing": {
       "name": "Respirare Sott'Acqua",
-      "description": "<p>La &lt;creature&gt; può respirare soltanto sott’acqua</p>",
+      "description": "<p>La [[lookup @name lowercase]]{monster} può respirare soltanto sott’acqua</p>",
       "requirements": "Piovra"
     },
     "Water Form": {
       "name": "Forma d'Acqua",
-      "description": "<p>L'&lt;creature&gt; può entrare nello spazio di una creatura ostile e fermarvisi. Può muoversi attraverso uno spazio stretto fino a 2,5 centimetri senza doversi stringere.</p>"
+      "description": "<p>L'[[lookup @details.type.config.label lowercase]]{monster} può entrare nello spazio di una creatura ostile e fermarvisi. Può muoversi attraverso uno spazio stretto fino a 2,5 centimetri senza doversi stringere.</p>"
     },
     "Water Susceptibility": {
       "name": "Suscettibilità all'Acqua",
@@ -821,11 +821,11 @@
     },
     "Web Sense": {
       "name": "Percezione della Ragnatela",
-      "description": "<p>Finché è in contatto con una ragnatela, l'&lt;creature&gt; conosce l’ubicazione esatta di ogni altra creatura a contatto con la stessa ragnatela.</p>"
+      "description": "<p>Finché è in contatto con una ragnatela, l'[[lookup @name lowercase]]{monster} conosce l’ubicazione esatta di ogni altra creatura a contatto con la stessa ragnatela.</p>"
     },
     "Web Walker": {
       "name": "Andatura sulla Ragnatela",
-      "description": "<p>L'&lt;creature&gt; ignora le restrizioni di movimento causate dalle ragnatele.</p>"
+      "description": "<p>L'[[lookup @name lowercase]]{monster} ignora le restrizioni di movimento causate dalle ragnatele.</p>"
     },
     "Ouvju0Y3SoYb5EMR": {
       "_id": "Ouvju0Y3SoYb5EMR",

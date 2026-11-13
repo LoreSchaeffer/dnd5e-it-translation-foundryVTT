@@ -150,6 +150,17 @@ function dropLegacyPresentationSpans(source, translation) {
   return translation.replace(/<\/?span\b[^>]*>/gi, "");
 }
 
+function restoreLegacyLookupPlaceholders(source, translation) {
+  const sourceLookups = [...source.matchAll(/\[\[lookup\s+[^\]]+\]\]\{monster\}/gi)];
+  const legacyPlaceholders = [...translation.matchAll(/&lt;(?:la\s+)?creatur[ae]&gt;/gi)];
+  if (!sourceLookups.length || sourceLookups.length !== legacyPlaceholders.length) return translation;
+  return replaceSequential(
+    translation,
+    legacyPlaceholders.map(match => match[0]),
+    sourceLookups.map(match => match[0])
+  ) ?? translation;
+}
+
 function reshapeLegacyParagraphs(source, translation) {
   const paragraph = /<p\b[^>]*>[\s\S]*?<\/p>/gi;
   const sourceParagraphs = [...source.matchAll(paragraph)];
@@ -297,6 +308,7 @@ function reshapeReferenceChoiceList(source, translation, referenceLabels) {
 
 export function rebaseInvariantTokens(source, translation, { referenceLabels } = {}) {
   translation = translation.replace(/^\s*<p\b[^>]*>\s*Prerequisito:[\s\S]*?<\/p>\s*/i, "");
+  translation = restoreLegacyLookupPlaceholders(source, translation);
   translation = dropDuplicatedFormattingPunctuation(translation);
   translation = dropLegacyBreaks(source, translation);
   translation = dropLegacyPresentationSpans(source, translation);

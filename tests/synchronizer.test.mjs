@@ -339,6 +339,26 @@ test("rebaseInvariantTokens rebuilds a source choice list with translated stable
   );
 });
 
+test("rebaseInvariantTokens restores source lookup tokens from one legacy creature placeholder", () => {
+  const source = "<p>the [[lookup @name lowercase]]{monster} can breathe air and water.</p>";
+  const legacy = "<p>La &lt;creature&gt; può respirare in aria e acqua.</p>";
+
+  assert.equal(
+    rebaseInvariantTokens(source, legacy),
+    "<p>La [[lookup @name lowercase]]{monster} può respirare in aria e acqua.</p>"
+  );
+});
+
+test("rebaseInvariantTokens recognizes inflected legacy creature placeholders", () => {
+  const source = "<p>the [[lookup @name lowercase]]{monster} follows the [[lookup @name lowercase]]{monster}.</p>";
+  const legacy = "<p>La &lt;creatura&gt; segue &lt;la creature&gt;.</p>";
+
+  assert.equal(
+    rebaseInvariantTokens(source, legacy),
+    "<p>La [[lookup @name lowercase]]{monster} segue [[lookup @name lowercase]]{monster}.</p>"
+  );
+});
+
 test("planSynchronization repairs embedded item descriptions by stable ID", () => {
   const actor = {
     kind: "document", pack: "pilot", id: "actor1", name: "Hero", sourcePath: "hero.yml",
