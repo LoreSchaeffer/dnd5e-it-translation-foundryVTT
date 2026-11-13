@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2191,
+      "translated": 2192,
       "missing": 3,
-      "partial": 197,
+      "partial": 196,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14299,
-      "missing": 1361,
+      "translated": 14301,
+      "missing": 1359,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1366
+    "blockingIssues": 1364
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 156,
+          "translated": 157,
           "missing": 0,
-          "partial": 181,
+          "partial": 180,
           "review": 0
         },
         "folders": {
@@ -578,32 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6483,
-          "missing": 623,
+          "translated": 6485,
+          "missing": 621,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "8ihbbjkaOFTPbI73",
-          "name": "Swarm of Rats",
-          "fieldPath": "items[Si8lfk9fRATz0F52].system.description.value",
-          "sourcePath": "monsters/beast/swarm-of-rats.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "8ihbbjkaOFTPbI73",
-          "name": "Swarm of Rats",
-          "fieldPath": "items[NMsvwZlDQHhaANsu].system.description.value",
-          "sourcePath": "monsters/beast/swarm-of-rats.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
