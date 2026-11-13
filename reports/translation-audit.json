@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2031,
+      "translated": 2037,
       "missing": 8,
-      "partial": 352,
+      "partial": 346,
       "review": 68
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 10213,
       "missing": 5447,
-      "invariantFailures": 62,
+      "invariantFailures": 40,
       "englishResiduals": 70,
       "imperialResiduals": 0
     },
-    "blockingIssues": 5580
+    "blockingIssues": 5558
   },
   "packs": [
     {
@@ -536,9 +536,9 @@
       "summary": {
         "documents": {
           "total": 252,
-          "translated": 246,
+          "translated": 252,
           "missing": 0,
-          "partial": 6,
+          "partial": 0,
           "review": 0
         },
         "folders": {
@@ -552,232 +552,12 @@
           "total": 515,
           "translated": 515,
           "missing": 0,
-          "invariantFailures": 22,
+          "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsterfeatures",
-          "id": "Ervkb8H99e2Beiae",
-          "fieldPath": "system.description.value",
-          "name": "Vampire Weaknesses",
-          "sourcePath": "monsterfeatures/vampire-weaknesses.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsterfeatures",
-          "id": "Ervkb8H99e2Beiae",
-          "fieldPath": "system.description.value",
-          "name": "Vampire Weaknesses",
-          "sourcePath": "monsterfeatures/vampire-weaknesses.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "monsterfeatures",
-          "id": "Ervkb8H99e2Beiae",
-          "fieldPath": "system.description.value",
-          "name": "Vampire Weaknesses",
-          "sourcePath": "monsterfeatures/vampire-weaknesses.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "monsterfeatures",
-          "id": "Ervkb8H99e2Beiae",
-          "fieldPath": "system.description.value",
-          "name": "Vampire Weaknesses",
-          "sourcePath": "monsterfeatures/vampire-weaknesses.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsterfeatures",
-          "id": "5V7SCABXvIbnk2Zn",
-          "fieldPath": "system.description.value",
-          "name": "Water Susceptibility",
-          "sourcePath": "monsterfeatures/water-susceptibility.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsterfeatures",
-          "id": "5V7SCABXvIbnk2Zn",
-          "fieldPath": "system.description.value",
-          "name": "Water Susceptibility",
-          "sourcePath": "monsterfeatures/water-susceptibility.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "monsterfeatures",
-          "id": "5V7SCABXvIbnk2Zn",
-          "fieldPath": "system.description.value",
-          "name": "Water Susceptibility",
-          "sourcePath": "monsterfeatures/water-susceptibility.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "monsterfeatures",
-          "id": "5V7SCABXvIbnk2Zn",
-          "fieldPath": "system.description.value",
-          "name": "Water Susceptibility",
-          "sourcePath": "monsterfeatures/water-susceptibility.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsterfeatures",
-          "id": "IHh6n8uZBGqyRfZz",
-          "fieldPath": "system.description.value",
-          "name": "Weakening Breath",
-          "sourcePath": "monsterfeatures/weakening-breath.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsterfeatures",
-          "id": "IHh6n8uZBGqyRfZz",
-          "fieldPath": "system.description.value",
-          "name": "Weakening Breath",
-          "sourcePath": "monsterfeatures/weakening-breath.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "monsterfeatures",
-          "id": "IHh6n8uZBGqyRfZz",
-          "fieldPath": "system.description.value",
-          "name": "Weakening Breath",
-          "sourcePath": "monsterfeatures/weakening-breath.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "monsterfeatures",
-          "id": "IHh6n8uZBGqyRfZz",
-          "fieldPath": "system.description.value",
-          "name": "Weakening Breath",
-          "sourcePath": "monsterfeatures/weakening-breath.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsterfeatures",
-          "id": "sMgKJtbCLNSX7V80",
-          "fieldPath": "system.description.value",
-          "name": "Whelm",
-          "sourcePath": "monsterfeatures/whelm.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsterfeatures",
-          "id": "sMgKJtbCLNSX7V80",
-          "fieldPath": "system.description.value",
-          "name": "Whelm",
-          "sourcePath": "monsterfeatures/whelm.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "monsterfeatures",
-          "id": "sMgKJtbCLNSX7V80",
-          "fieldPath": "system.description.value",
-          "name": "Whelm",
-          "sourcePath": "monsterfeatures/whelm.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "monsterfeatures",
-          "id": "sMgKJtbCLNSX7V80",
-          "fieldPath": "system.description.value",
-          "name": "Whelm",
-          "sourcePath": "monsterfeatures/whelm.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "monsterfeatures",
-          "id": "X96xsQjIolyHtV91",
-          "fieldPath": "system.description.value",
-          "name": "Whirlwind of Sand",
-          "sourcePath": "monsterfeatures/whirlwind-of-sand.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "monsterfeatures",
-          "id": "X96xsQjIolyHtV91",
-          "fieldPath": "system.description.value",
-          "name": "Whirlwind of Sand",
-          "sourcePath": "monsterfeatures/whirlwind-of-sand.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsterfeatures",
-          "id": "ocmSrMY2NX3e43uN",
-          "fieldPath": "system.description.value",
-          "name": "Whirlwind",
-          "sourcePath": "monsterfeatures/whirlwind.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsterfeatures",
-          "id": "ocmSrMY2NX3e43uN",
-          "fieldPath": "system.description.value",
-          "name": "Whirlwind",
-          "sourcePath": "monsterfeatures/whirlwind.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "monsterfeatures",
-          "id": "ocmSrMY2NX3e43uN",
-          "fieldPath": "system.description.value",
-          "name": "Whirlwind",
-          "sourcePath": "monsterfeatures/whirlwind.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "monsterfeatures",
-          "id": "ocmSrMY2NX3e43uN",
-          "fieldPath": "system.description.value",
-          "name": "Whirlwind",
-          "sourcePath": "monsterfeatures/whirlwind.yml"
-        },
         {
           "code": "extra-entry",
           "severity": "blocking",
