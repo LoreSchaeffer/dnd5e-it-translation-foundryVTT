@@ -6,7 +6,7 @@
       "translated": 1785,
       "missing": 69,
       "partial": 537,
-      "review": 69
+      "review": 71
     },
     "folders": {
       "total": 120,
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 10057,
-      "missing": 5603,
-      "invariantFailures": 853,
-      "englishResiduals": 71,
+      "translated": 10081,
+      "missing": 5579,
+      "invariantFailures": 704,
+      "englishResiduals": 73,
       "imperialResiduals": 0
     },
-    "blockingIssues": 6464
+    "blockingIssues": 6293
   },
   "packs": [
     {
@@ -7918,7 +7918,7 @@
           "translated": 2,
           "missing": 5,
           "partial": 330,
-          "review": 65
+          "review": 67
         },
         "folders": {
           "total": 15,
@@ -7929,10 +7929,10 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 2373,
-          "missing": 4733,
-          "invariantFailures": 189,
-          "englishResiduals": 65,
+          "translated": 2397,
+          "missing": 4709,
+          "invariantFailures": 40,
+          "englishResiduals": 67,
           "imperialResiduals": 0
         }
       },
@@ -15973,16 +15973,6 @@
           "sourcePath": "monsters/celestial/couatl.yml"
         },
         {
-          "code": "foundry-formulas",
-          "severity": "blocking",
-          "message": "Foundry formulas differ from source",
-          "pack": "monsters",
-          "id": "ZaP1H91t4FzbRqR5",
-          "fieldPath": "items[8dzaICjGy6mTUaUr].system.description.value",
-          "name": "Couatl",
-          "sourcePath": "monsters/celestial/couatl.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -16180,26 +16170,6 @@
           "id": "m4H3hjamBNMH09S9",
           "name": "Deva",
           "fieldPath": "items[qADu4OS68yINJCnZ].system.description.chat",
-          "sourcePath": "monsters/celestial/deva.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "m4H3hjamBNMH09S9",
-          "fieldPath": "items[AGFMPAmuzwWO6Dfz].system.description.value",
-          "name": "Deva",
-          "sourcePath": "monsters/celestial/deva.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "m4H3hjamBNMH09S9",
-          "fieldPath": "items[AGFMPAmuzwWO6Dfz].system.description.value",
-          "name": "Deva",
           "sourcePath": "monsters/celestial/deva.yml"
         },
         {
@@ -16427,46 +16397,6 @@
           "id": "XEByBLeOkDgL3mrr",
           "name": "Planetar",
           "fieldPath": "items[TkJ8Wtg1L7TZtspm].system.description.value",
-          "sourcePath": "monsters/celestial/planetar.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "XEByBLeOkDgL3mrr",
-          "fieldPath": "items[AGFMPAmuzwWO6Dfz].system.description.value",
-          "name": "Planetar",
-          "sourcePath": "monsters/celestial/planetar.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "XEByBLeOkDgL3mrr",
-          "fieldPath": "items[AGFMPAmuzwWO6Dfz].system.description.value",
-          "name": "Planetar",
-          "sourcePath": "monsters/celestial/planetar.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "XEByBLeOkDgL3mrr",
-          "fieldPath": "items[ZPd73HtKF3At11jh].system.description.value",
-          "name": "Planetar",
-          "sourcePath": "monsters/celestial/planetar.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "XEByBLeOkDgL3mrr",
-          "fieldPath": "items[ZPd73HtKF3At11jh].system.description.value",
-          "name": "Planetar",
           "sourcePath": "monsters/celestial/planetar.yml"
         },
         {
@@ -16757,55 +16687,6 @@
           "id": "lOYt73eaJojBDxAV",
           "name": "Solar",
           "fieldPath": "items[TkJ8Wtg1L7TZtspm].system.description.value",
-          "sourcePath": "monsters/celestial/solar.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "lOYt73eaJojBDxAV",
-          "fieldPath": "items[jhhT9PsHy5A7EojO].system.description.value",
-          "name": "Solar",
-          "sourcePath": "monsters/celestial/solar.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "lOYt73eaJojBDxAV",
-          "fieldPath": "items[jhhT9PsHy5A7EojO].system.description.value",
-          "name": "Solar",
-          "sourcePath": "monsters/celestial/solar.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "lOYt73eaJojBDxAV",
-          "name": "Solar",
-          "fieldPath": "items[jhhT9PsHy5A7EojO].system.materials.value",
-          "sourcePath": "monsters/celestial/solar.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "lOYt73eaJojBDxAV",
-          "fieldPath": "items[ZPd73HtKF3At11jh].system.description.value",
-          "name": "Solar",
-          "sourcePath": "monsters/celestial/solar.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "lOYt73eaJojBDxAV",
-          "fieldPath": "items[ZPd73HtKF3At11jh].system.description.value",
-          "name": "Solar",
           "sourcePath": "monsters/celestial/solar.yml"
         },
         {
@@ -17103,26 +16984,6 @@
           "id": "G9PENY6nw0xRxCJW",
           "name": "Unicorn",
           "fieldPath": "items[Plfy8GZ08uqupxe6].system.activities.VN605HgEhCu7vMa5.name",
-          "sourcePath": "monsters/celestial/unicorn.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "G9PENY6nw0xRxCJW",
-          "fieldPath": "items[pRMvmknwLf2tdMTj].system.description.value",
-          "name": "Unicorn",
-          "sourcePath": "monsters/celestial/unicorn.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "G9PENY6nw0xRxCJW",
-          "fieldPath": "items[pRMvmknwLf2tdMTj].system.description.value",
-          "name": "Unicorn",
           "sourcePath": "monsters/celestial/unicorn.yml"
         },
         {
@@ -17463,7 +17324,9 @@
           "sourcePath": "monsters/construct/clay-golem.yml"
         },
         {
-          "code": "missing-field",
+          "code": "unchanged-english",
+          "value": "Berserk",
+          "message": "Visible translation is identical to the English source",
           "severity": "blocking",
           "pack": "monsters",
           "id": "YOqhbf8WsX0jH9Fu",
@@ -17715,7 +17578,9 @@
           "sourcePath": "monsters/construct/flesh-golem.yml"
         },
         {
-          "code": "missing-field",
+          "code": "unchanged-english",
+          "value": "Berserk",
+          "message": "Visible translation is identical to the English source",
           "severity": "blocking",
           "pack": "monsters",
           "id": "Hm4o2FgPZsdbXjLq",
@@ -18488,15 +18353,6 @@
           "id": "z3gSIXHHWYaHjfBT",
           "name": "Stone Golem",
           "fieldPath": "items[9aTwUWuZQLhMxjcD].system.activities.o1gVWezg9dluEi5a.name",
-          "sourcePath": "monsters/construct/stone-golem.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "z3gSIXHHWYaHjfBT",
-          "name": "Stone Golem",
-          "fieldPath": "items[9aTwUWuZQLhMxjcD].effects[E14ZO6j7HbYWlbEf].name",
           "sourcePath": "monsters/construct/stone-golem.yml"
         },
         {
@@ -27873,72 +27729,12 @@
           "sourcePath": "monsters/elemental/djinni.yml"
         },
         {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "5P1VGAZQwOilwZQf",
-          "fieldPath": "items[WTbOQBsarsL1LuXJ].system.description.value",
-          "name": "Djinni",
-          "sourcePath": "monsters/elemental/djinni.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "5P1VGAZQwOilwZQf",
-          "fieldPath": "items[WTbOQBsarsL1LuXJ].system.description.value",
-          "name": "Djinni",
-          "sourcePath": "monsters/elemental/djinni.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "5P1VGAZQwOilwZQf",
-          "fieldPath": "items[gopnZvS0c2jD5FP8].system.description.value",
-          "name": "Djinni",
-          "sourcePath": "monsters/elemental/djinni.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "5P1VGAZQwOilwZQf",
-          "fieldPath": "items[gopnZvS0c2jD5FP8].system.description.value",
-          "name": "Djinni",
-          "sourcePath": "monsters/elemental/djinni.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
           "id": "5P1VGAZQwOilwZQf",
           "name": "Djinni",
           "fieldPath": "items[8PJAsHmbu6UgDHC0].system.description.value",
-          "sourcePath": "monsters/elemental/djinni.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "5P1VGAZQwOilwZQf",
-          "fieldPath": "items[lnaGnxMzpYnbw1uU].system.description.value",
-          "name": "Djinni",
-          "sourcePath": "monsters/elemental/djinni.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "5P1VGAZQwOilwZQf",
-          "fieldPath": "items[lnaGnxMzpYnbw1uU].system.description.value",
-          "name": "Djinni",
           "sourcePath": "monsters/elemental/djinni.yml"
         },
         {
@@ -27956,45 +27752,7 @@
           "pack": "monsters",
           "id": "5P1VGAZQwOilwZQf",
           "name": "Djinni",
-          "fieldPath": "items[2IWiZAJtOGDoKjiz].system.materials.value",
-          "sourcePath": "monsters/elemental/djinni.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "5P1VGAZQwOilwZQf",
-          "name": "Djinni",
           "fieldPath": "items[1N8dDMMgZ1h1YJ3B].system.description.value",
-          "sourcePath": "monsters/elemental/djinni.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "5P1VGAZQwOilwZQf",
-          "fieldPath": "items[nslx2nT3p4lNkmdp].system.description.value",
-          "name": "Djinni",
-          "sourcePath": "monsters/elemental/djinni.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "5P1VGAZQwOilwZQf",
-          "fieldPath": "items[nslx2nT3p4lNkmdp].system.description.value",
-          "name": "Djinni",
-          "sourcePath": "monsters/elemental/djinni.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "5P1VGAZQwOilwZQf",
-          "name": "Djinni",
-          "fieldPath": "items[nslx2nT3p4lNkmdp].system.materials.value",
           "sourcePath": "monsters/elemental/djinni.yml"
         },
         {
@@ -28342,26 +28100,6 @@
           "sourcePath": "monsters/elemental/efreeti.yml"
         },
         {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "LTomFUTBrkRi0Pj5",
-          "fieldPath": "items[gopnZvS0c2jD5FP8].system.description.value",
-          "name": "Efreeti",
-          "sourcePath": "monsters/elemental/efreeti.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "LTomFUTBrkRi0Pj5",
-          "fieldPath": "items[gopnZvS0c2jD5FP8].system.description.value",
-          "name": "Efreeti",
-          "sourcePath": "monsters/elemental/efreeti.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -28376,45 +28114,7 @@
           "pack": "monsters",
           "id": "LTomFUTBrkRi0Pj5",
           "name": "Efreeti",
-          "fieldPath": "items[2IWiZAJtOGDoKjiz].system.materials.value",
-          "sourcePath": "monsters/elemental/efreeti.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "LTomFUTBrkRi0Pj5",
-          "name": "Efreeti",
           "fieldPath": "items[1N8dDMMgZ1h1YJ3B].system.description.value",
-          "sourcePath": "monsters/elemental/efreeti.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "LTomFUTBrkRi0Pj5",
-          "fieldPath": "items[nslx2nT3p4lNkmdp].system.description.value",
-          "name": "Efreeti",
-          "sourcePath": "monsters/elemental/efreeti.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "LTomFUTBrkRi0Pj5",
-          "fieldPath": "items[nslx2nT3p4lNkmdp].system.description.value",
-          "name": "Efreeti",
-          "sourcePath": "monsters/elemental/efreeti.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "LTomFUTBrkRi0Pj5",
-          "name": "Efreeti",
-          "fieldPath": "items[nslx2nT3p4lNkmdp].system.materials.value",
           "sourcePath": "monsters/elemental/efreeti.yml"
         },
         {
@@ -28424,26 +28124,6 @@
           "id": "LTomFUTBrkRi0Pj5",
           "name": "Efreeti",
           "fieldPath": "items[J6Jpw5XzB5aTeqnz].system.description.value",
-          "sourcePath": "monsters/elemental/efreeti.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "LTomFUTBrkRi0Pj5",
-          "fieldPath": "items[X3DrXgxjwI2dvkD6].system.description.value",
-          "name": "Efreeti",
-          "sourcePath": "monsters/elemental/efreeti.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "LTomFUTBrkRi0Pj5",
-          "fieldPath": "items[X3DrXgxjwI2dvkD6].system.description.value",
-          "name": "Efreeti",
           "sourcePath": "monsters/elemental/efreeti.yml"
         },
         {
@@ -29898,55 +29578,6 @@
           "pack": "monsters",
           "id": "KOHVWl5RU9XBR8Jb",
           "name": "Dryad",
-          "fieldPath": "items[Qf6CAZkc7ms4ZY3e].system.materials.value",
-          "sourcePath": "monsters/fey/dryad.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "KOHVWl5RU9XBR8Jb",
-          "fieldPath": "items[pRMvmknwLf2tdMTj].system.description.value",
-          "name": "Dryad",
-          "sourcePath": "monsters/fey/dryad.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "KOHVWl5RU9XBR8Jb",
-          "fieldPath": "items[pRMvmknwLf2tdMTj].system.description.value",
-          "name": "Dryad",
-          "sourcePath": "monsters/fey/dryad.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "KOHVWl5RU9XBR8Jb",
-          "fieldPath": "items[VzgFzcmocr1X1cp4].system.description.value",
-          "name": "Dryad",
-          "sourcePath": "monsters/fey/dryad.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "KOHVWl5RU9XBR8Jb",
-          "fieldPath": "items[VzgFzcmocr1X1cp4].system.description.value",
-          "name": "Dryad",
-          "sourcePath": "monsters/fey/dryad.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "KOHVWl5RU9XBR8Jb",
-          "name": "Dryad",
           "fieldPath": "items[gK5fX5pMH745LgCa].system.description.value",
           "sourcePath": "monsters/fey/dryad.yml"
         },
@@ -30083,26 +29714,6 @@
           "id": "saq6WM959pKHuaqP",
           "name": "Green Hag",
           "fieldPath": "items[CAxSzHWizrafT033].system.description.value",
-          "sourcePath": "monsters/fey/green-hag.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "saq6WM959pKHuaqP",
-          "fieldPath": "items[oIzA2MEHwxhtQneU].system.description.value",
-          "name": "Green Hag",
-          "sourcePath": "monsters/fey/green-hag.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "saq6WM959pKHuaqP",
-          "fieldPath": "items[oIzA2MEHwxhtQneU].system.description.value",
-          "name": "Green Hag",
           "sourcePath": "monsters/fey/green-hag.yml"
         },
         {
@@ -33110,56 +32721,6 @@
           "sourcePath": "monsters/fiend/night-hag.yml"
         },
         {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "xvh2UOKv1bh03Gih",
-          "fieldPath": "items[41JIhpDyM9Anm7cs].system.description.value",
-          "name": "Night Hag",
-          "sourcePath": "monsters/fiend/night-hag.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "xvh2UOKv1bh03Gih",
-          "fieldPath": "items[41JIhpDyM9Anm7cs].system.description.value",
-          "name": "Night Hag",
-          "sourcePath": "monsters/fiend/night-hag.yml"
-        },
-        {
-          "code": "foundry-formulas",
-          "severity": "blocking",
-          "message": "Foundry formulas differ from source",
-          "pack": "monsters",
-          "id": "xvh2UOKv1bh03Gih",
-          "fieldPath": "items[41JIhpDyM9Anm7cs].system.description.value",
-          "name": "Night Hag",
-          "sourcePath": "monsters/fiend/night-hag.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "xvh2UOKv1bh03Gih",
-          "fieldPath": "items[ODhLKBxLnvvLOnw1].system.description.value",
-          "name": "Night Hag",
-          "sourcePath": "monsters/fiend/night-hag.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "xvh2UOKv1bh03Gih",
-          "fieldPath": "items[ODhLKBxLnvvLOnw1].system.description.value",
-          "name": "Night Hag",
-          "sourcePath": "monsters/fiend/night-hag.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -33516,36 +33077,7 @@
           "pack": "monsters",
           "id": "RCv5y7iWlfNxkinx",
           "name": "Pit Fiend",
-          "fieldPath": "items[ztgcdrWPshKRpFd0].system.materials.value",
-          "sourcePath": "monsters/fiend/pit-fiend.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "RCv5y7iWlfNxkinx",
-          "name": "Pit Fiend",
           "fieldPath": "items[l9Ju5KE7bbn3WpTm].system.description.value",
-          "sourcePath": "monsters/fiend/pit-fiend.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "RCv5y7iWlfNxkinx",
-          "fieldPath": "items[X3DrXgxjwI2dvkD6].system.description.value",
-          "name": "Pit Fiend",
-          "sourcePath": "monsters/fiend/pit-fiend.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "RCv5y7iWlfNxkinx",
-          "fieldPath": "items[X3DrXgxjwI2dvkD6].system.description.value",
-          "name": "Pit Fiend",
           "sourcePath": "monsters/fiend/pit-fiend.yml"
         },
         {
@@ -33904,46 +33436,6 @@
           "sourcePath": "monsters/fiend/rakshasa.yml"
         },
         {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "qXzMsRTHEodqO8l2",
-          "fieldPath": "items[Utk1OQRwYkMkFRD3].system.description.value",
-          "name": "Rakshasa",
-          "sourcePath": "monsters/fiend/rakshasa.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "qXzMsRTHEodqO8l2",
-          "fieldPath": "items[Utk1OQRwYkMkFRD3].system.description.value",
-          "name": "Rakshasa",
-          "sourcePath": "monsters/fiend/rakshasa.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "qXzMsRTHEodqO8l2",
-          "fieldPath": "items[oIzA2MEHwxhtQneU].system.description.value",
-          "name": "Rakshasa",
-          "sourcePath": "monsters/fiend/rakshasa.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "qXzMsRTHEodqO8l2",
-          "fieldPath": "items[oIzA2MEHwxhtQneU].system.description.value",
-          "name": "Rakshasa",
-          "sourcePath": "monsters/fiend/rakshasa.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -33959,35 +33451,6 @@
           "id": "qXzMsRTHEodqO8l2",
           "name": "Rakshasa",
           "fieldPath": "items[1N8dDMMgZ1h1YJ3B].system.description.value",
-          "sourcePath": "monsters/fiend/rakshasa.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "qXzMsRTHEodqO8l2",
-          "fieldPath": "items[nslx2nT3p4lNkmdp].system.description.value",
-          "name": "Rakshasa",
-          "sourcePath": "monsters/fiend/rakshasa.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "qXzMsRTHEodqO8l2",
-          "fieldPath": "items[nslx2nT3p4lNkmdp].system.description.value",
-          "name": "Rakshasa",
-          "sourcePath": "monsters/fiend/rakshasa.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "qXzMsRTHEodqO8l2",
-          "name": "Rakshasa",
-          "fieldPath": "items[nslx2nT3p4lNkmdp].system.materials.value",
           "sourcePath": "monsters/fiend/rakshasa.yml"
         },
         {
@@ -34430,15 +33893,6 @@
           "pack": "monsters",
           "id": "Aw2wmqGIatxe2ImI",
           "name": "Cloud Giant",
-          "fieldPath": "items[Jr0CfxY8xuFT6hoa].name",
-          "sourcePath": "monsters/giant/cloud-giant.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "Aw2wmqGIatxe2ImI",
-          "name": "Cloud Giant",
           "fieldPath": "items[Jr0CfxY8xuFT6hoa].system.description.value",
           "sourcePath": "monsters/giant/cloud-giant.yml"
         },
@@ -34488,26 +33942,6 @@
           "sourcePath": "monsters/giant/cloud-giant.yml"
         },
         {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "Aw2wmqGIatxe2ImI",
-          "fieldPath": "items[wqfAVANuQonNBgnL].system.description.value",
-          "name": "Cloud Giant",
-          "sourcePath": "monsters/giant/cloud-giant.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "Aw2wmqGIatxe2ImI",
-          "fieldPath": "items[wqfAVANuQonNBgnL].system.description.value",
-          "name": "Cloud Giant",
-          "sourcePath": "monsters/giant/cloud-giant.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -34517,41 +33951,12 @@
           "sourcePath": "monsters/giant/cloud-giant.yml"
         },
         {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "Aw2wmqGIatxe2ImI",
-          "fieldPath": "items[ZPd73HtKF3At11jh].system.description.value",
-          "name": "Cloud Giant",
-          "sourcePath": "monsters/giant/cloud-giant.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "Aw2wmqGIatxe2ImI",
-          "fieldPath": "items[ZPd73HtKF3At11jh].system.description.value",
-          "name": "Cloud Giant",
-          "sourcePath": "monsters/giant/cloud-giant.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
           "id": "Aw2wmqGIatxe2ImI",
           "name": "Cloud Giant",
           "fieldPath": "items[2IWiZAJtOGDoKjiz].system.description.value",
-          "sourcePath": "monsters/giant/cloud-giant.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "Aw2wmqGIatxe2ImI",
-          "name": "Cloud Giant",
-          "fieldPath": "items[2IWiZAJtOGDoKjiz].system.materials.value",
           "sourcePath": "monsters/giant/cloud-giant.yml"
         },
         {
@@ -34664,15 +34069,6 @@
           "id": "KLCkHep28HBfdsky",
           "name": "Ettin",
           "fieldPath": "items[T1QQrbvnvnM73eIe].system.description.chat",
-          "sourcePath": "monsters/giant/ettin.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "KLCkHep28HBfdsky",
-          "name": "Ettin",
-          "fieldPath": "items[5ri5zr7IJKsaZNF7].name",
           "sourcePath": "monsters/giant/ettin.yml"
         },
         {
@@ -35144,15 +34540,6 @@
           "pack": "monsters",
           "id": "L1w8yBkInMscfJ3F",
           "name": "Oni",
-          "fieldPath": "items[2IWiZAJtOGDoKjiz].system.materials.value",
-          "sourcePath": "monsters/giant/oni.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "L1w8yBkInMscfJ3F",
-          "name": "Oni",
           "fieldPath": "items[KhwiSi9fwVfUPtku].system.description.value",
           "sourcePath": "monsters/giant/oni.yml"
         },
@@ -35355,52 +34742,12 @@
           "sourcePath": "monsters/giant/storm-giant.yml"
         },
         {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "68bAMIpe4jvDeR9G",
-          "fieldPath": "items[MRxldJd6C4bsBo3O].system.description.value",
-          "name": "Storm Giant",
-          "sourcePath": "monsters/giant/storm-giant.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "68bAMIpe4jvDeR9G",
-          "fieldPath": "items[MRxldJd6C4bsBo3O].system.description.value",
-          "name": "Storm Giant",
-          "sourcePath": "monsters/giant/storm-giant.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
           "id": "68bAMIpe4jvDeR9G",
           "name": "Storm Giant",
           "fieldPath": "items[Bnn9Nzajixvow9xi].system.description.value",
-          "sourcePath": "monsters/giant/storm-giant.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "68bAMIpe4jvDeR9G",
-          "fieldPath": "items[ZPd73HtKF3At11jh].system.description.value",
-          "name": "Storm Giant",
-          "sourcePath": "monsters/giant/storm-giant.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "68bAMIpe4jvDeR9G",
-          "fieldPath": "items[ZPd73HtKF3At11jh].system.description.value",
-          "name": "Storm Giant",
           "sourcePath": "monsters/giant/storm-giant.yml"
         },
         {
@@ -35687,16 +35034,6 @@
           "sourcePath": "monsters/humanoid/acolyte.yml"
         },
         {
-          "code": "foundry-formulas",
-          "severity": "blocking",
-          "message": "Foundry formulas differ from source",
-          "pack": "monsters",
-          "id": "CHEUjiYrVM9X0vIT",
-          "fieldPath": "items[8dzaICjGy6mTUaUr].system.description.value",
-          "name": "Acolyte",
-          "sourcePath": "monsters/humanoid/acolyte.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -35778,162 +35115,12 @@
           "sourcePath": "monsters/humanoid/archmage.yml"
         },
         {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "B7lBOr1AahNZs4a6",
-          "fieldPath": "items[Utk1OQRwYkMkFRD3].system.description.value",
-          "name": "Archmage",
-          "sourcePath": "monsters/humanoid/archmage.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "B7lBOr1AahNZs4a6",
-          "fieldPath": "items[Utk1OQRwYkMkFRD3].system.description.value",
-          "name": "Archmage",
-          "sourcePath": "monsters/humanoid/archmage.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "B7lBOr1AahNZs4a6",
-          "fieldPath": "items[udsLtG0BugXHR2JQ].system.description.value",
-          "name": "Archmage",
-          "sourcePath": "monsters/humanoid/archmage.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "B7lBOr1AahNZs4a6",
-          "fieldPath": "items[udsLtG0BugXHR2JQ].system.description.value",
-          "name": "Archmage",
-          "sourcePath": "monsters/humanoid/archmage.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "B7lBOr1AahNZs4a6",
-          "fieldPath": "items[XvbiNhNqXXIFisIy].system.description.value",
-          "name": "Archmage",
-          "sourcePath": "monsters/humanoid/archmage.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "B7lBOr1AahNZs4a6",
-          "fieldPath": "items[XvbiNhNqXXIFisIy].system.description.value",
-          "name": "Archmage",
-          "sourcePath": "monsters/humanoid/archmage.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "B7lBOr1AahNZs4a6",
-          "fieldPath": "items[3OZnNhunvRtPOQmH].system.description.value",
-          "name": "Archmage",
-          "sourcePath": "monsters/humanoid/archmage.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "B7lBOr1AahNZs4a6",
-          "fieldPath": "items[3OZnNhunvRtPOQmH].system.description.value",
-          "name": "Archmage",
-          "sourcePath": "monsters/humanoid/archmage.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "B7lBOr1AahNZs4a6",
-          "fieldPath": "items[41JIhpDyM9Anm7cs].system.description.value",
-          "name": "Archmage",
-          "sourcePath": "monsters/humanoid/archmage.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "B7lBOr1AahNZs4a6",
-          "fieldPath": "items[41JIhpDyM9Anm7cs].system.description.value",
-          "name": "Archmage",
-          "sourcePath": "monsters/humanoid/archmage.yml"
-        },
-        {
-          "code": "foundry-formulas",
-          "severity": "blocking",
-          "message": "Foundry formulas differ from source",
-          "pack": "monsters",
-          "id": "B7lBOr1AahNZs4a6",
-          "fieldPath": "items[41JIhpDyM9Anm7cs].system.description.value",
-          "name": "Archmage",
-          "sourcePath": "monsters/humanoid/archmage.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
           "id": "B7lBOr1AahNZs4a6",
           "name": "Archmage",
           "fieldPath": "items[X4c8xCkmF8U9HUMz].system.description.value",
-          "sourcePath": "monsters/humanoid/archmage.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "B7lBOr1AahNZs4a6",
-          "fieldPath": "items[wqfAVANuQonNBgnL].system.description.value",
-          "name": "Archmage",
-          "sourcePath": "monsters/humanoid/archmage.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "B7lBOr1AahNZs4a6",
-          "fieldPath": "items[wqfAVANuQonNBgnL].system.description.value",
-          "name": "Archmage",
-          "sourcePath": "monsters/humanoid/archmage.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "B7lBOr1AahNZs4a6",
-          "fieldPath": "items[IyikgTEOTv701jgQ].system.description.value",
-          "name": "Archmage",
-          "sourcePath": "monsters/humanoid/archmage.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "B7lBOr1AahNZs4a6",
-          "fieldPath": "items[IyikgTEOTv701jgQ].system.description.value",
-          "name": "Archmage",
           "sourcePath": "monsters/humanoid/archmage.yml"
         },
         {
@@ -35952,44 +35139,6 @@
           "id": "B7lBOr1AahNZs4a6",
           "name": "Archmage",
           "fieldPath": "items[avD5XUtkBPQQR97c].system.description.value",
-          "sourcePath": "monsters/humanoid/archmage.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "B7lBOr1AahNZs4a6",
-          "name": "Archmage",
-          "fieldPath": "items[avD5XUtkBPQQR97c].effects[lVKx8swB08jm6IFE].name",
-          "sourcePath": "monsters/humanoid/archmage.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "B7lBOr1AahNZs4a6",
-          "name": "Archmage",
-          "fieldPath": "items[avD5XUtkBPQQR97c].effects[UUXwEKSPX4nYfDzo].name",
-          "sourcePath": "monsters/humanoid/archmage.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "B7lBOr1AahNZs4a6",
-          "fieldPath": "items[ReMbjfeOKoSj3O79].system.description.value",
-          "name": "Archmage",
-          "sourcePath": "monsters/humanoid/archmage.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "B7lBOr1AahNZs4a6",
-          "fieldPath": "items[ReMbjfeOKoSj3O79].system.description.value",
-          "name": "Archmage",
           "sourcePath": "monsters/humanoid/archmage.yml"
         },
         {
@@ -36501,15 +35650,6 @@
           "pack": "monsters",
           "id": "QtJairF0h18BRhEM",
           "name": "Bugbear",
-          "fieldPath": "items[0ZKRgrkQppv6MYIq].name",
-          "sourcePath": "monsters/humanoid/bugbear.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "QtJairF0h18BRhEM",
-          "name": "Bugbear",
           "fieldPath": "items[0ZKRgrkQppv6MYIq].system.description.value",
           "sourcePath": "monsters/humanoid/bugbear.yml"
         },
@@ -36732,82 +35872,12 @@
           "sourcePath": "monsters/humanoid/cult-fanatic.yml"
         },
         {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "tYfQIxCJT0WaaKmc",
-          "fieldPath": "items[ksaaTxIbKx2sJfia].system.description.value",
-          "name": "Cult Fanatic",
-          "sourcePath": "monsters/humanoid/cult-fanatic.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "tYfQIxCJT0WaaKmc",
-          "fieldPath": "items[ksaaTxIbKx2sJfia].system.description.value",
-          "name": "Cult Fanatic",
-          "sourcePath": "monsters/humanoid/cult-fanatic.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "tYfQIxCJT0WaaKmc",
-          "fieldPath": "items[jZ6JNykRtdQ90MOo].system.description.value",
-          "name": "Cult Fanatic",
-          "sourcePath": "monsters/humanoid/cult-fanatic.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "tYfQIxCJT0WaaKmc",
-          "fieldPath": "items[jZ6JNykRtdQ90MOo].system.description.value",
-          "name": "Cult Fanatic",
-          "sourcePath": "monsters/humanoid/cult-fanatic.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
           "id": "tYfQIxCJT0WaaKmc",
           "name": "Cult Fanatic",
           "fieldPath": "items[3Lo9boi7P2ro6QV4].system.description.value",
-          "sourcePath": "monsters/humanoid/cult-fanatic.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "tYfQIxCJT0WaaKmc",
-          "fieldPath": "items[JbxsYXxSOTZbf9I0].system.description.value",
-          "name": "Cult Fanatic",
-          "sourcePath": "monsters/humanoid/cult-fanatic.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "tYfQIxCJT0WaaKmc",
-          "fieldPath": "items[JbxsYXxSOTZbf9I0].system.description.value",
-          "name": "Cult Fanatic",
-          "sourcePath": "monsters/humanoid/cult-fanatic.yml"
-        },
-        {
-          "code": "foundry-formulas",
-          "severity": "blocking",
-          "message": "Foundry formulas differ from source",
-          "pack": "monsters",
-          "id": "tYfQIxCJT0WaaKmc",
-          "fieldPath": "items[JbxsYXxSOTZbf9I0].system.description.value",
-          "name": "Cult Fanatic",
           "sourcePath": "monsters/humanoid/cult-fanatic.yml"
         },
         {
@@ -37287,84 +36357,6 @@
           "id": "K15Yl8JmB5iPircc",
           "name": "Druid",
           "fieldPath": "items[B0pnIcc52O6G8hi8].system.description.value",
-          "sourcePath": "monsters/humanoid/druid.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "K15Yl8JmB5iPircc",
-          "fieldPath": "items[aL1F8fvYLtNzUbKu].system.description.value",
-          "name": "Druid",
-          "sourcePath": "monsters/humanoid/druid.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "K15Yl8JmB5iPircc",
-          "fieldPath": "items[aL1F8fvYLtNzUbKu].system.description.value",
-          "name": "Druid",
-          "sourcePath": "monsters/humanoid/druid.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "K15Yl8JmB5iPircc",
-          "fieldPath": "items[WTbOQBsarsL1LuXJ].system.description.value",
-          "name": "Druid",
-          "sourcePath": "monsters/humanoid/druid.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "K15Yl8JmB5iPircc",
-          "fieldPath": "items[WTbOQBsarsL1LuXJ].system.description.value",
-          "name": "Druid",
-          "sourcePath": "monsters/humanoid/druid.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "K15Yl8JmB5iPircc",
-          "fieldPath": "items[udSiVp4nSrGBSvG1].system.description.value",
-          "name": "Druid",
-          "sourcePath": "monsters/humanoid/druid.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "K15Yl8JmB5iPircc",
-          "fieldPath": "items[udSiVp4nSrGBSvG1].system.description.value",
-          "name": "Druid",
-          "sourcePath": "monsters/humanoid/druid.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "K15Yl8JmB5iPircc",
-          "name": "Druid",
-          "fieldPath": "items[udSiVp4nSrGBSvG1].system.activities.dnd5eactivity000.name",
-          "sourcePath": "monsters/humanoid/druid.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "K15Yl8JmB5iPircc",
-          "name": "Druid",
-          "fieldPath": "items[udSiVp4nSrGBSvG1].system.activities.ONVab5lmTqJwwMBC.name",
           "sourcePath": "monsters/humanoid/druid.yml"
         },
         {
@@ -38588,76 +37580,6 @@
           "sourcePath": "monsters/humanoid/mage.yml"
         },
         {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "mQnsXanewsPiV7QE",
-          "fieldPath": "items[Utk1OQRwYkMkFRD3].system.description.value",
-          "name": "Mage",
-          "sourcePath": "monsters/humanoid/mage.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "mQnsXanewsPiV7QE",
-          "fieldPath": "items[Utk1OQRwYkMkFRD3].system.description.value",
-          "name": "Mage",
-          "sourcePath": "monsters/humanoid/mage.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "mQnsXanewsPiV7QE",
-          "fieldPath": "items[udsLtG0BugXHR2JQ].system.description.value",
-          "name": "Mage",
-          "sourcePath": "monsters/humanoid/mage.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "mQnsXanewsPiV7QE",
-          "fieldPath": "items[udsLtG0BugXHR2JQ].system.description.value",
-          "name": "Mage",
-          "sourcePath": "monsters/humanoid/mage.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "mQnsXanewsPiV7QE",
-          "fieldPath": "items[41JIhpDyM9Anm7cs].system.description.value",
-          "name": "Mage",
-          "sourcePath": "monsters/humanoid/mage.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "mQnsXanewsPiV7QE",
-          "fieldPath": "items[41JIhpDyM9Anm7cs].system.description.value",
-          "name": "Mage",
-          "sourcePath": "monsters/humanoid/mage.yml"
-        },
-        {
-          "code": "foundry-formulas",
-          "severity": "blocking",
-          "message": "Foundry formulas differ from source",
-          "pack": "monsters",
-          "id": "mQnsXanewsPiV7QE",
-          "fieldPath": "items[41JIhpDyM9Anm7cs].system.description.value",
-          "name": "Mage",
-          "sourcePath": "monsters/humanoid/mage.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -38667,41 +37589,12 @@
           "sourcePath": "monsters/humanoid/mage.yml"
         },
         {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "mQnsXanewsPiV7QE",
-          "fieldPath": "items[wqfAVANuQonNBgnL].system.description.value",
-          "name": "Mage",
-          "sourcePath": "monsters/humanoid/mage.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "mQnsXanewsPiV7QE",
-          "fieldPath": "items[wqfAVANuQonNBgnL].system.description.value",
-          "name": "Mage",
-          "sourcePath": "monsters/humanoid/mage.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
           "id": "mQnsXanewsPiV7QE",
           "name": "Mage",
           "fieldPath": "items[zMAWdyc8UVb37BK4].system.description.value",
-          "sourcePath": "monsters/humanoid/mage.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "mQnsXanewsPiV7QE",
-          "name": "Mage",
-          "fieldPath": "items[ztgcdrWPshKRpFd0].system.materials.value",
           "sourcePath": "monsters/humanoid/mage.yml"
         },
         {
@@ -39123,62 +38016,12 @@
           "sourcePath": "monsters/humanoid/priest.yml"
         },
         {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "PVD5wRdyO7iCJPs1",
-          "fieldPath": "items[JbxsYXxSOTZbf9I0].system.description.value",
-          "name": "Priest",
-          "sourcePath": "monsters/humanoid/priest.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "PVD5wRdyO7iCJPs1",
-          "fieldPath": "items[JbxsYXxSOTZbf9I0].system.description.value",
-          "name": "Priest",
-          "sourcePath": "monsters/humanoid/priest.yml"
-        },
-        {
-          "code": "foundry-formulas",
-          "severity": "blocking",
-          "message": "Foundry formulas differ from source",
-          "pack": "monsters",
-          "id": "PVD5wRdyO7iCJPs1",
-          "fieldPath": "items[JbxsYXxSOTZbf9I0].system.description.value",
-          "name": "Priest",
-          "sourcePath": "monsters/humanoid/priest.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
           "id": "PVD5wRdyO7iCJPs1",
           "name": "Priest",
           "fieldPath": "items[15Fa6q1nH27XfbR8].system.description.value",
-          "sourcePath": "monsters/humanoid/priest.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "PVD5wRdyO7iCJPs1",
-          "fieldPath": "items[uCud2s4TjMfjiXUb].system.description.value",
-          "name": "Priest",
-          "sourcePath": "monsters/humanoid/priest.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "PVD5wRdyO7iCJPs1",
-          "fieldPath": "items[uCud2s4TjMfjiXUb].system.description.value",
-          "name": "Priest",
           "sourcePath": "monsters/humanoid/priest.yml"
         },
         {
@@ -41389,52 +40232,12 @@
           "sourcePath": "monsters/monstrosity/androsphinx.yml"
         },
         {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "nEC1BRwM8Lx9hLXW",
-          "fieldPath": "items[CylBa7jR8DSbo8Z3].system.description.value",
-          "name": "Androsphinx",
-          "sourcePath": "monsters/monstrosity/androsphinx.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "nEC1BRwM8Lx9hLXW",
-          "fieldPath": "items[CylBa7jR8DSbo8Z3].system.description.value",
-          "name": "Androsphinx",
-          "sourcePath": "monsters/monstrosity/androsphinx.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
           "id": "nEC1BRwM8Lx9hLXW",
           "name": "Androsphinx",
           "fieldPath": "items[15Fa6q1nH27XfbR8].system.description.value",
-          "sourcePath": "monsters/monstrosity/androsphinx.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "nEC1BRwM8Lx9hLXW",
-          "fieldPath": "items[gopnZvS0c2jD5FP8].system.description.value",
-          "name": "Androsphinx",
-          "sourcePath": "monsters/monstrosity/androsphinx.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "nEC1BRwM8Lx9hLXW",
-          "fieldPath": "items[gopnZvS0c2jD5FP8].system.description.value",
-          "name": "Androsphinx",
           "sourcePath": "monsters/monstrosity/androsphinx.yml"
         },
         {
@@ -43600,26 +42403,6 @@
           "sourcePath": "monsters/monstrosity/guardian-naga.yml"
         },
         {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "8ExSFCar5Lbhdo7u",
-          "fieldPath": "items[kjmjY0zlE6IEiQVL].system.description.value",
-          "name": "Guardian Naga",
-          "sourcePath": "monsters/monstrosity/guardian-naga.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "8ExSFCar5Lbhdo7u",
-          "fieldPath": "items[kjmjY0zlE6IEiQVL].system.description.value",
-          "name": "Guardian Naga",
-          "sourcePath": "monsters/monstrosity/guardian-naga.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -43644,26 +42427,6 @@
           "id": "8ExSFCar5Lbhdo7u",
           "name": "Guardian Naga",
           "fieldPath": "items[arzCrMRgcNiQuh43].system.description.value",
-          "sourcePath": "monsters/monstrosity/guardian-naga.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "8ExSFCar5Lbhdo7u",
-          "fieldPath": "items[jZ6JNykRtdQ90MOo].system.description.value",
-          "name": "Guardian Naga",
-          "sourcePath": "monsters/monstrosity/guardian-naga.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "8ExSFCar5Lbhdo7u",
-          "fieldPath": "items[jZ6JNykRtdQ90MOo].system.description.value",
-          "name": "Guardian Naga",
           "sourcePath": "monsters/monstrosity/guardian-naga.yml"
         },
         {
@@ -43874,86 +42637,6 @@
           "sourcePath": "monsters/monstrosity/gynosphinx.yml"
         },
         {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "6wbasdWWqtXeIAyD",
-          "fieldPath": "items[Utk1OQRwYkMkFRD3].system.description.value",
-          "name": "Gynosphinx",
-          "sourcePath": "monsters/monstrosity/gynosphinx.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "6wbasdWWqtXeIAyD",
-          "fieldPath": "items[Utk1OQRwYkMkFRD3].system.description.value",
-          "name": "Gynosphinx",
-          "sourcePath": "monsters/monstrosity/gynosphinx.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "6wbasdWWqtXeIAyD",
-          "fieldPath": "items[oIzA2MEHwxhtQneU].system.description.value",
-          "name": "Gynosphinx",
-          "sourcePath": "monsters/monstrosity/gynosphinx.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "6wbasdWWqtXeIAyD",
-          "fieldPath": "items[oIzA2MEHwxhtQneU].system.description.value",
-          "name": "Gynosphinx",
-          "sourcePath": "monsters/monstrosity/gynosphinx.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "6wbasdWWqtXeIAyD",
-          "fieldPath": "items[udsLtG0BugXHR2JQ].system.description.value",
-          "name": "Gynosphinx",
-          "sourcePath": "monsters/monstrosity/gynosphinx.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "6wbasdWWqtXeIAyD",
-          "fieldPath": "items[udsLtG0BugXHR2JQ].system.description.value",
-          "name": "Gynosphinx",
-          "sourcePath": "monsters/monstrosity/gynosphinx.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "6wbasdWWqtXeIAyD",
-          "fieldPath": "items[3OZnNhunvRtPOQmH].system.description.value",
-          "name": "Gynosphinx",
-          "sourcePath": "monsters/monstrosity/gynosphinx.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "6wbasdWWqtXeIAyD",
-          "fieldPath": "items[3OZnNhunvRtPOQmH].system.description.value",
-          "name": "Gynosphinx",
-          "sourcePath": "monsters/monstrosity/gynosphinx.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -43981,72 +42664,12 @@
           "sourcePath": "monsters/monstrosity/gynosphinx.yml"
         },
         {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "6wbasdWWqtXeIAyD",
-          "fieldPath": "items[SleYkHovQ8NagmeV].system.description.value",
-          "name": "Gynosphinx",
-          "sourcePath": "monsters/monstrosity/gynosphinx.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "6wbasdWWqtXeIAyD",
-          "fieldPath": "items[SleYkHovQ8NagmeV].system.description.value",
-          "name": "Gynosphinx",
-          "sourcePath": "monsters/monstrosity/gynosphinx.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
           "id": "6wbasdWWqtXeIAyD",
           "name": "Gynosphinx",
           "fieldPath": "items[zMAWdyc8UVb37BK4].system.description.value",
-          "sourcePath": "monsters/monstrosity/gynosphinx.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "6wbasdWWqtXeIAyD",
-          "fieldPath": "items[XZhdgVK3cLoxNCQl].system.description.value",
-          "name": "Gynosphinx",
-          "sourcePath": "monsters/monstrosity/gynosphinx.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "6wbasdWWqtXeIAyD",
-          "fieldPath": "items[XZhdgVK3cLoxNCQl].system.description.value",
-          "name": "Gynosphinx",
-          "sourcePath": "monsters/monstrosity/gynosphinx.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "6wbasdWWqtXeIAyD",
-          "fieldPath": "items[gopnZvS0c2jD5FP8].system.description.value",
-          "name": "Gynosphinx",
-          "sourcePath": "monsters/monstrosity/gynosphinx.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "6wbasdWWqtXeIAyD",
-          "fieldPath": "items[gopnZvS0c2jD5FP8].system.description.value",
-          "name": "Gynosphinx",
           "sourcePath": "monsters/monstrosity/gynosphinx.yml"
         },
         {
@@ -45059,35 +43682,6 @@
           "id": "MnoL59nOOfYatAkQ",
           "name": "Lamia",
           "fieldPath": "items[cd8MN5gJkmUn1RTE].effects[cVjGDRB3KuQQb9Tw].description",
-          "sourcePath": "monsters/monstrosity/lamia.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "MnoL59nOOfYatAkQ",
-          "fieldPath": "items[nslx2nT3p4lNkmdp].system.description.value",
-          "name": "Lamia",
-          "sourcePath": "monsters/monstrosity/lamia.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "MnoL59nOOfYatAkQ",
-          "fieldPath": "items[nslx2nT3p4lNkmdp].system.description.value",
-          "name": "Lamia",
-          "sourcePath": "monsters/monstrosity/lamia.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "MnoL59nOOfYatAkQ",
-          "name": "Lamia",
-          "fieldPath": "items[nslx2nT3p4lNkmdp].system.materials.value",
           "sourcePath": "monsters/monstrosity/lamia.yml"
         },
         {
@@ -46833,66 +45427,6 @@
           "sourcePath": "monsters/monstrosity/spirit-naga.yml"
         },
         {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "BAT6ld8qJZetpycL",
-          "fieldPath": "items[Utk1OQRwYkMkFRD3].system.description.value",
-          "name": "Spirit Naga",
-          "sourcePath": "monsters/monstrosity/spirit-naga.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "BAT6ld8qJZetpycL",
-          "fieldPath": "items[Utk1OQRwYkMkFRD3].system.description.value",
-          "name": "Spirit Naga",
-          "sourcePath": "monsters/monstrosity/spirit-naga.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "BAT6ld8qJZetpycL",
-          "fieldPath": "items[oIzA2MEHwxhtQneU].system.description.value",
-          "name": "Spirit Naga",
-          "sourcePath": "monsters/monstrosity/spirit-naga.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "BAT6ld8qJZetpycL",
-          "fieldPath": "items[oIzA2MEHwxhtQneU].system.description.value",
-          "name": "Spirit Naga",
-          "sourcePath": "monsters/monstrosity/spirit-naga.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "BAT6ld8qJZetpycL",
-          "fieldPath": "items[ctW81uiX56xZR2c5].system.description.value",
-          "name": "Spirit Naga",
-          "sourcePath": "monsters/monstrosity/spirit-naga.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "BAT6ld8qJZetpycL",
-          "fieldPath": "items[ctW81uiX56xZR2c5].system.description.value",
-          "name": "Spirit Naga",
-          "sourcePath": "monsters/monstrosity/spirit-naga.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -46917,26 +45451,6 @@
           "id": "BAT6ld8qJZetpycL",
           "name": "Spirit Naga",
           "fieldPath": "items[3Lo9boi7P2ro6QV4].system.description.value",
-          "sourcePath": "monsters/monstrosity/spirit-naga.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "BAT6ld8qJZetpycL",
-          "fieldPath": "items[IyikgTEOTv701jgQ].system.description.value",
-          "name": "Spirit Naga",
-          "sourcePath": "monsters/monstrosity/spirit-naga.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "BAT6ld8qJZetpycL",
-          "fieldPath": "items[IyikgTEOTv701jgQ].system.description.value",
-          "name": "Spirit Naga",
           "sourcePath": "monsters/monstrosity/spirit-naga.yml"
         },
         {
@@ -50011,122 +48525,12 @@
           "sourcePath": "monsters/undead/lich.yml"
         },
         {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "bfh29vIEoGzI240e",
-          "fieldPath": "items[Utk1OQRwYkMkFRD3].system.description.value",
-          "name": "Lich",
-          "sourcePath": "monsters/undead/lich.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "bfh29vIEoGzI240e",
-          "fieldPath": "items[Utk1OQRwYkMkFRD3].system.description.value",
-          "name": "Lich",
-          "sourcePath": "monsters/undead/lich.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "bfh29vIEoGzI240e",
-          "fieldPath": "items[udsLtG0BugXHR2JQ].system.description.value",
-          "name": "Lich",
-          "sourcePath": "monsters/undead/lich.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "bfh29vIEoGzI240e",
-          "fieldPath": "items[udsLtG0BugXHR2JQ].system.description.value",
-          "name": "Lich",
-          "sourcePath": "monsters/undead/lich.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "bfh29vIEoGzI240e",
-          "fieldPath": "items[ctW81uiX56xZR2c5].system.description.value",
-          "name": "Lich",
-          "sourcePath": "monsters/undead/lich.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "bfh29vIEoGzI240e",
-          "fieldPath": "items[ctW81uiX56xZR2c5].system.description.value",
-          "name": "Lich",
-          "sourcePath": "monsters/undead/lich.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "bfh29vIEoGzI240e",
-          "fieldPath": "items[41JIhpDyM9Anm7cs].system.description.value",
-          "name": "Lich",
-          "sourcePath": "monsters/undead/lich.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "bfh29vIEoGzI240e",
-          "fieldPath": "items[41JIhpDyM9Anm7cs].system.description.value",
-          "name": "Lich",
-          "sourcePath": "monsters/undead/lich.yml"
-        },
-        {
-          "code": "foundry-formulas",
-          "severity": "blocking",
-          "message": "Foundry formulas differ from source",
-          "pack": "monsters",
-          "id": "bfh29vIEoGzI240e",
-          "fieldPath": "items[41JIhpDyM9Anm7cs].system.description.value",
-          "name": "Lich",
-          "sourcePath": "monsters/undead/lich.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
           "id": "bfh29vIEoGzI240e",
           "name": "Lich",
           "fieldPath": "items[z1mx84ONwkXKUZd7].system.description.value",
-          "sourcePath": "monsters/undead/lich.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "bfh29vIEoGzI240e",
-          "fieldPath": "items[WTbOQBsarsL1LuXJ].system.description.value",
-          "name": "Lich",
-          "sourcePath": "monsters/undead/lich.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "bfh29vIEoGzI240e",
-          "fieldPath": "items[WTbOQBsarsL1LuXJ].system.description.value",
-          "name": "Lich",
           "sourcePath": "monsters/undead/lich.yml"
         },
         {
@@ -50163,15 +48567,6 @@
           "id": "bfh29vIEoGzI240e",
           "name": "Lich",
           "fieldPath": "items[15Fa6q1nH27XfbR8].system.description.value",
-          "sourcePath": "monsters/undead/lich.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "bfh29vIEoGzI240e",
-          "name": "Lich",
-          "fieldPath": "items[ztgcdrWPshKRpFd0].system.materials.value",
           "sourcePath": "monsters/undead/lich.yml"
         },
         {
@@ -50226,26 +48621,6 @@
           "id": "bfh29vIEoGzI240e",
           "name": "Lich",
           "fieldPath": "items[eEpy1ONlXumKS1mp].system.description.value",
-          "sourcePath": "monsters/undead/lich.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "bfh29vIEoGzI240e",
-          "fieldPath": "items[dmvaMLFWFtv0qx0S].system.description.value",
-          "name": "Lich",
-          "sourcePath": "monsters/undead/lich.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "bfh29vIEoGzI240e",
-          "fieldPath": "items[dmvaMLFWFtv0qx0S].system.description.value",
-          "name": "Lich",
           "sourcePath": "monsters/undead/lich.yml"
         },
         {
@@ -50681,26 +49056,6 @@
           "sourcePath": "monsters/undead/mummy-lord.yml"
         },
         {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "UFW8M3JHzHkxUEGM",
-          "fieldPath": "items[jZ6JNykRtdQ90MOo].system.description.value",
-          "name": "Mummy Lord",
-          "sourcePath": "monsters/undead/mummy-lord.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "UFW8M3JHzHkxUEGM",
-          "fieldPath": "items[jZ6JNykRtdQ90MOo].system.description.value",
-          "name": "Mummy Lord",
-          "sourcePath": "monsters/undead/mummy-lord.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsters",
@@ -50716,36 +49071,6 @@
           "id": "UFW8M3JHzHkxUEGM",
           "name": "Mummy Lord",
           "fieldPath": "items[5VhqFROQYjr1P9lp].system.description.value",
-          "sourcePath": "monsters/undead/mummy-lord.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsters",
-          "id": "UFW8M3JHzHkxUEGM",
-          "fieldPath": "items[JbxsYXxSOTZbf9I0].system.description.value",
-          "name": "Mummy Lord",
-          "sourcePath": "monsters/undead/mummy-lord.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsters",
-          "id": "UFW8M3JHzHkxUEGM",
-          "fieldPath": "items[JbxsYXxSOTZbf9I0].system.description.value",
-          "name": "Mummy Lord",
-          "sourcePath": "monsters/undead/mummy-lord.yml"
-        },
-        {
-          "code": "foundry-formulas",
-          "severity": "blocking",
-          "message": "Foundry formulas differ from source",
-          "pack": "monsters",
-          "id": "UFW8M3JHzHkxUEGM",
-          "fieldPath": "items[JbxsYXxSOTZbf9I0].system.description.value",
-          "name": "Mummy Lord",
           "sourcePath": "monsters/undead/mummy-lord.yml"
         },
         {
@@ -51106,15 +49431,6 @@
           "id": "RenLfmDT2XlbCF4x",
           "name": "Ogre Zombie",
           "fieldPath": "system.traits.languages.custom",
-          "sourcePath": "monsters/undead/ogre-zombie.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "RenLfmDT2XlbCF4x",
-          "name": "Ogre Zombie",
-          "fieldPath": "items[Gj35Y1i6Ph90Wn3R].name",
           "sourcePath": "monsters/undead/ogre-zombie.yml"
         },
         {
