@@ -192,7 +192,7 @@
     },
     "Faultless Tracker": {
       "name": "Segugio Infallibile",
-      "description": "<p>L'evocatore indica una preda alla Creatura. La Creatura conosce la direzione e la distanza dalla sua preda fintanto che i due si trovano sullo stesso piano di esistenza. La Creatura conosce anche la posizione del suo evocatore.</p>"
+      "description": "<section class=\"secret\">\n<p>L'evocatore assegna una preda al [[lookup @name lowercase]]{mostro}. Il [[lookup @name lowercase]]{mostro} conosce la direzione e la distanza dalla propria preda finché entrambi si trovano sullo stesso piano di esistenza. Il [[lookup @name lowercase]]{mostro} conosce anche la posizione del proprio evocatore.</p>\n</section>\n<p>Il cacciatore conosce la direzione e la distanza dalla propria preda finché entrambi si trovano sullo stesso piano di esistenza.</p>"
     },
     "Whelm": {
       "name": "Sommergere",
@@ -257,7 +257,7 @@
     },
     "Ethereal Sight": {
       "name": "Vista Eterea",
-      "description": "<p>Il &lt;creature&gt; può vedere per 18 metri sul Piano Etereo quando si trova sul Piano Materiale e viceversa.</p>"
+      "description": "<p>Il [[lookup @name lowercase]]{mostro} può vedere per <strong>18 m</strong> nel Piano Etereo quando si trova sul Piano Materiale e viceversa.</p>"
     },
     "Ethereal Stride": {
       "name": "Passo Etereo",
@@ -269,7 +269,7 @@
     },
     "Evasion": {
       "name": "Elusione",
-      "description": "<p>Se l'&lt;creature&gt; è soggetto a un effetto che gli consente di effettuare un tiro salvezza su Destrezza per subire danni dimezzati, non subisce alcun danno se lo supera e solo metà dei danni se lo fallisce.</p><p>&nbsp;</p>"
+      "description": "<p>Se il [[lookup @name lowercase]]{mostro} è soggetto a un effetto che gli consente di effettuare un tiro salvezza su <strong>Destrezza</strong> per subire soltanto metà dei danni, il [[lookup @name lowercase]]{mostro} non subisce invece alcun danno se supera il tiro salvezza e soltanto metà dei danni se lo fallisce.</p>"
     },
     "False Appearance": {
       "name": "Falso Aspetto",
@@ -277,23 +277,23 @@
     },
     "Fetid Cloud": {
       "name": "Nube Fetida",
-      "description": "<p>Una nube di disgustoso gas verdastro si diffonde dal &lt;creature&gt; entro un raggio di 3 metri. Il gas si diffonde oltre gli angoli e la sua area è leggermente oscurata. Permane per 1 minuto o finché un forte vento non lo disperde. Ogni creatura che inizia il proprio turno in quell'area deve superare un tiro salvezza su Costituzione con CD 11, altrimenti è avvelenata fino all’inizio del proprio turno successivo. Finché è avvelenato in questo modo, il bersaglio può effettuare nel suo turno un’azione o un'azione bonus, ma non entrambe, e non può effettuare reazioni.</p>"
+      "description": "<section class=\"secret\">\n<p>Una nube di disgustoso gas verdastro del raggio di 3 metri si estende dal [[lookup @name lowercase]]{mostro}. Il gas si propaga oltre gli angoli e la sua area è leggermente oscurata. Dura 1 minuto o finché un vento forte non lo disperde.</p><p>Ogni creatura che inizia il proprio turno in quell'area deve superare un tiro salvezza su <strong>Costituzione con CD 11</strong>, altrimenti è avvelenata fino all'inizio del proprio turno successivo. Finché è avvelenato in questo modo, il bersaglio può effettuare nel proprio turno un'azione o un'azione bonus, ma non entrambe, e non può effettuare reazioni. 1 uso al giorno.</p>\n</section>\n<p>Una nube di disgustoso gas verdastro del raggio di 3 metri si estende dal [[lookup @name lowercase]]{mostro}. Il gas si propaga oltre gli angoli e la sua area è leggermente oscurata. Ogni creatura che inizia il proprio turno in quell'area deve effettuare un tiro salvezza su <strong>Costituzione</strong>.</p>"
     },
     "Fey Ancestry": {
       "name": "Retaggio Fatato",
-      "description": "<p>Il &lt;creature&gt; dispone di vantaggio ai tiri salvezza contro la condizione di affascinato e non può essere addormentato tramite la magia.</p>"
+      "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di<strong> vantaggio </strong>ai tiri salvezza contro l'essere affascinato e la magia non può addormentare il [[lookup @name lowercase]]{mostro}.</p>"
     },
     "Fey Charm": {
       "name": "Fascino Fatato",
-      "description": "<p>La &lt;creature&gt; bersaglia un umanoide o una bestia situata entro 9 metri da lei e che essa sia in grado di vedere. Se il bersaglio può vedere la &lt;creature&gt;, deve superare un tiro salvezza su Saggezza con CD 14, altrimenti è affascinato magicamente. La creatura affascinata considera la &lt;creature&gt; un alleato fidato da ascoltare e da proteggere. Anche se il bersaglio non è sotto il controllo della &lt;creature&gt;, interpreta le sue richieste o le sue azioni nel modo più favorevole possibile. Ogni volta che la &lt;creature&gt; o i suoi alleati fanno qualcosa di dannoso al bersaglio, quest’ultimo può ripetere il tiro salvezza e, se lo supera, l'effetto per lui termina. Altrimenti, l'effetto dura 24 ore o finché la &lt;creature&gt; non muore, non si trova su un piano di esistenza diverso da quello del bersaglio o non termina l’effetto con un'azione bonus. Se un bersaglio supera il tiro salvezza, è immune al Fascino Fatato della &lt;creature&gt; per le 24 ore successive. La &lt;creature&gt; può affascinare al massimo un umanoide e tre bestie contemporaneamente.</p>"
+      "description": "<section class=\"secret\">\n<p>Il [[lookup @name lowercase]]{mostro} bersaglia un umanoide o una bestia che può vedere entro 9 metri da lei. Se il bersaglio può vedere il [[lookup @name lowercase]]{mostro}, deve superare un tiro salvezza su <strong>Saggezza con CD 14</strong>, altrimenti viene affascinato magicamente.</p><p>La creatura affascinata considera il [[lookup @name lowercase]]{mostro} un'amica fidata da ascoltare e proteggere. Sebbene il bersaglio non sia sotto il controllo del [[lookup @name lowercase]]{mostro}, interpreta le richieste o le azioni del [[lookup @name lowercase]]{mostro} nel modo più favorevole possibile. Ogni volta che il [[lookup @name lowercase]]{mostro} o i suoi alleati fanno qualcosa di dannoso al bersaglio, quest'ultimo può ripetere il tiro salvezza e, se lo supera, l'effetto su di lui termina. Altrimenti, l'effetto dura 24 ore o finché il [[lookup @name lowercase]]{mostro} non muore, non si trova su un piano di esistenza diverso da quello del bersaglio o non termina l'effetto con un'azione bonus. Se un bersaglio supera il tiro salvezza, è immune al Fascino Fatato del [[lookup @name lowercase]]{mostro} per le 24 ore successive. Il [[lookup @name lowercase]]{mostro} non può avere più di un umanoide e fino a tre bestie affascinati contemporaneamente.</p>\n</section>\n<p>Il [[lookup @name lowercase]]{mostro} bersaglia un umanoide o una bestia che può vedere entro 9 metri da lei. Se il bersaglio può vedere il [[lookup @name lowercase]]{mostro}, deve effettuare un tiro salvezza su <strong>Saggezza</strong>. Ogni volta che il [[lookup @name lowercase]]{mostro} o i suoi alleati fanno qualcosa di dannoso al bersaglio, quest'ultimo può ripetere il tiro salvezza.</p>"
     },
     "Fire Breath": {
       "name": "Soffio di Fuoco",
-      "description": "<p>La &lt;creature&gt; esala fuoco in un cono di 4,5 metri. Ogni creatura in quell'area deve effettuare un tiro salvezza su Destrezza con CD 15; se lo fallisce, subisce 31 (7d8) danni da fuoco, mentre se lo supera, subisce la metà di quei danni.</p><p>&nbsp;</p>"
+      "description": "<section class=\"secret\">\n<p>**Soffio di Fuoco.** Il [[lookup @details.type.config.label lowercase]]{mostro} esala fuoco in una linea lunga 18 metri e larga 1,5 metri. Ogni creatura su quella linea deve effettuare un tiro salvezza su <strong>Destrezza con CD 18</strong>; se lo fallisce, subisce <strong>45 (13d6) danni <em>da fuoco</em></strong>, mentre se lo supera subisce la metà di quei danni.</p>\n</section>\n<p>Il [[lookup @details.type.config.label lowercase]]{mostro} esala fuoco in una linea lunga 18 metri e larga 1,5 metri. Ogni creatura su quella linea deve effettuare un tiro salvezza su <strong>Destrezza</strong>.</p>"
     },
     "Fire Form": {
       "name": "Forma di Fuoco",
-      "description": "<p>L'&lt;creature&gt; può muoversi attraverso uno spazio stretto fino a 2,5 centimetri senza doversi stringere. Una creatura che tocca l'&lt;creature&gt; o lo colpisce con un attacco in mischia mentre si trova entro 1,5 metri da esso subisce 5 (1d10) danni da fuoco. Inoltre, l'&lt;creature&gt; può entrare nello spazio di una creatura ostile e fermarvisi. La prima volta che entra nello spazio di una creatura in un turno, quella creatura subisce 5 (1d10) danni da fuoco e prende fuoco; finché qualcuno non usa un’azione per estinguere le fiamme, la creatura subisce 5 (1d10) danni da fuoco all'inizio di ogni suo turno.</p><p>&nbsp;</p>"
+      "description": "<section class=\"secret\"><p>Il [[lookup @details.type.config.label lowercase]]{mostro} può attraversare uno spazio stretto fino a 2,5 centimetri senza doversi stringere. Una creatura che tocca il [[lookup @details.type.config.label lowercase]]{mostro} o lo colpisce con un attacco in mischia mentre si trova entro 1,5 m da lui subisce <strong>5 (1d10) danni <em>da fuoco</em></strong>. </p><p>Inoltre, il [[lookup @details.type.config.label lowercase]]{mostro} può entrare nello spazio di una creatura ostile e fermarvisi. La prima volta che entra nello spazio di una creatura in un turno, quella creatura subisce <strong>5 (1d10) danni <em>da fuoco</em></strong> e prende fuoco; finché qualcuno non usa un'azione per spegnere le fiamme, la creatura subisce <strong>5 (1d10) danni <em>da fuoco</em></strong> all'inizio di ciascun proprio turno.</p></section><p>Una creatura che tocca il [[lookup @details.type.config.label lowercase]]{mostro} o lo colpisce con un attacco in mischia mentre si trova entro 1,5 m da lui subisce <em>danni da fuoco</em>. Inoltre, il [[lookup @details.type.config.label lowercase]]{mostro} può entrare nello spazio di una creatura ostile e fermarvisi. La prima volta che entra nello spazio di una creatura in un turno, quella creatura subisce <em>danni da fuoco</em> e prende fuoco; finché qualcuno non usa un'azione per spegnere le fiamme, la creatura subisce <em>danni da fuoco</em> all'inizio di ciascun proprio turno.</p>"
     },
     "Fists": {
       "name": "Pugni",
@@ -306,11 +306,11 @@
     },
     "Freedom of Movement": {
       "name": "Libertà di Movimento",
-      "description": "<p>Il &lt;creature&gt; ignora il terreno difficile e gli effetti magici non possono ridurre la sua velocità o renderlo trattenuto. Può spendere 1,5 metri di movimento per sfuggire dalle costrizioni non magiche o dalla condizione di afferrato</p>"
+      "description": "<section class=\"secret\"><p>Il [[lookup @name lowercase]]{mostro} ignora il terreno difficile e gli effetti magici non possono ridurre la sua velocità né renderlo trattenuto. Può spendere 1,5 metri di movimento per sfuggire a vincoli non magici o all'essere afferrato.</p></section><p>Il [[lookup @name lowercase]]{mostro} ignora il terreno difficile e gli effetti magici non possono ridurre la sua velocità né renderlo trattenuto. </p>"
     },
     "Freeze": {
       "name": "Congelamento",
-      "description": "<p>Se l'&lt;creature&gt; subisce danni da freddo, si congela parzialmente; la sua velocità è ridotta di 6 metri fino alla fine del suo turno successivo.</p>"
+      "description": "<section class=\"secret\"><p>Se il [[lookup @details.type.config.label lowercase]]{mostro} subisce <strong><em>danni da freddo</em></strong>, si congela parzialmente; la sua velocità è ridotta di <strong>6 m</strong> fino alla fine del proprio turno successivo.</p></section><p>Se il [[lookup @details.type.config.label lowercase]]{mostro} subisce <strong><em>danni da freddo</em></strong>, si congela parzialmente.</p>"
     },
     "Frightening Gaze": {
       "name": "Sguardo Terrificante",

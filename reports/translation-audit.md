@@ -8,7 +8,7 @@
 | effects | 214 | 214 | 0 | 0 | 0 | 0 | 0 |
 | heroes | 12 | 12 | 0 | 0 | 0 | 0 | 0 |
 | items | 885 | 885 | 0 | 0 | 0 | 0 | 48 |
-| monsterfeatures | 252 | 156 | 0 | 96 | 0 | 0 | 408 |
+| monsterfeatures | 252 | 166 | 0 | 86 | 0 | 0 | 368 |
 | monsters | 337 | 2 | 5 | 330 | 15 | 4709 | 4797 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
 | rules | 20 | 1 | 3 | 16 | 0 | 738 | 695 |
@@ -17,7 +17,7 @@
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 5948
+Total blocking issues: 5908
 
 ## Issues
 
@@ -69,46 +69,6 @@ Total blocking issues: 5948
 - **extra-entry** `items:Ferri dello Zefiro`
 - **extra-entry** `items:Unarmed Strike (Monk)`
 - **extra-entry** `items:Enterteiner's Pack`
-- **html-tag-sequence** `monsterfeatures:We6R4thWKYDRYlEc:system.description.value`
-- **html-attributes** `monsterfeatures:We6R4thWKYDRYlEc:system.description.value`
-- **foundry-inline-rolls** `monsterfeatures:We6R4thWKYDRYlEc:system.description.value`
-- **foundry-data-references** `monsterfeatures:We6R4thWKYDRYlEc:system.description.value`
-- **html-tag-sequence** `monsterfeatures:xOgrn5QXzSP4QN6V:system.description.value`
-- **foundry-inline-rolls** `monsterfeatures:xOgrn5QXzSP4QN6V:system.description.value`
-- **foundry-data-references** `monsterfeatures:xOgrn5QXzSP4QN6V:system.description.value`
-- **html-tag-sequence** `monsterfeatures:E8SiDA7Z3Ybd6wt0:system.description.value`
-- **html-attributes** `monsterfeatures:E8SiDA7Z3Ybd6wt0:system.description.value`
-- **foundry-inline-rolls** `monsterfeatures:E8SiDA7Z3Ybd6wt0:system.description.value`
-- **foundry-data-references** `monsterfeatures:E8SiDA7Z3Ybd6wt0:system.description.value`
-- **html-tag-sequence** `monsterfeatures:XwcFK21aM2BThgSk:system.description.value`
-- **html-attributes** `monsterfeatures:XwcFK21aM2BThgSk:system.description.value`
-- **foundry-inline-rolls** `monsterfeatures:XwcFK21aM2BThgSk:system.description.value`
-- **foundry-data-references** `monsterfeatures:XwcFK21aM2BThgSk:system.description.value`
-- **html-tag-sequence** `monsterfeatures:LvSBjRKoCAKaAnQy:system.description.value`
-- **html-attributes** `monsterfeatures:LvSBjRKoCAKaAnQy:system.description.value`
-- **foundry-inline-rolls** `monsterfeatures:LvSBjRKoCAKaAnQy:system.description.value`
-- **foundry-data-references** `monsterfeatures:LvSBjRKoCAKaAnQy:system.description.value`
-- **html-tag-sequence** `monsterfeatures:SGgVxdZbmsStfeGB:system.description.value`
-- **html-attributes** `monsterfeatures:SGgVxdZbmsStfeGB:system.description.value`
-- **foundry-inline-rolls** `monsterfeatures:SGgVxdZbmsStfeGB:system.description.value`
-- **foundry-data-references** `monsterfeatures:SGgVxdZbmsStfeGB:system.description.value`
-- **html-tag-sequence** `monsterfeatures:bGSW8IuWURWiWtxr:system.description.value`
-- **html-attributes** `monsterfeatures:bGSW8IuWURWiWtxr:system.description.value`
-- **foundry-inline-rolls** `monsterfeatures:bGSW8IuWURWiWtxr:system.description.value`
-- **foundry-formulas** `monsterfeatures:bGSW8IuWURWiWtxr:system.description.value`
-- **foundry-data-references** `monsterfeatures:bGSW8IuWURWiWtxr:system.description.value`
-- **html-tag-sequence** `monsterfeatures:0YuGSS8E8ElHLRyb:system.description.value`
-- **html-attributes** `monsterfeatures:0YuGSS8E8ElHLRyb:system.description.value`
-- **foundry-inline-rolls** `monsterfeatures:0YuGSS8E8ElHLRyb:system.description.value`
-- **foundry-data-references** `monsterfeatures:0YuGSS8E8ElHLRyb:system.description.value`
-- **html-tag-sequence** `monsterfeatures:fUMY4b9snsiKl30e:system.description.value`
-- **html-attributes** `monsterfeatures:fUMY4b9snsiKl30e:system.description.value`
-- **foundry-inline-rolls** `monsterfeatures:fUMY4b9snsiKl30e:system.description.value`
-- **foundry-data-references** `monsterfeatures:fUMY4b9snsiKl30e:system.description.value`
-- **html-tag-sequence** `monsterfeatures:m0FA3UM62hlTPVSA:system.description.value`
-- **html-attributes** `monsterfeatures:m0FA3UM62hlTPVSA:system.description.value`
-- **foundry-inline-rolls** `monsterfeatures:m0FA3UM62hlTPVSA:system.description.value`
-- **foundry-data-references** `monsterfeatures:m0FA3UM62hlTPVSA:system.description.value`
 - **html-tag-sequence** `monsterfeatures:cpnrDGQrqgPlSmwR:system.description.value`
 - **html-attributes** `monsterfeatures:cpnrDGQrqgPlSmwR:system.description.value`
 - **foundry-inline-rolls** `monsterfeatures:cpnrDGQrqgPlSmwR:system.description.value`
