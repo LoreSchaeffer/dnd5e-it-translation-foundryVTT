@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2169,
+      "translated": 2170,
       "missing": 3,
-      "partial": 219,
+      "partial": 218,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14255,
-      "missing": 1405,
+      "translated": 14256,
+      "missing": 1404,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1410
+    "blockingIssues": 1409
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 134,
+          "translated": 135,
           "missing": 0,
-          "partial": 203,
+          "partial": 202,
           "review": 0
         },
         "folders": {
@@ -578,23 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6439,
-          "missing": 667,
+          "translated": 6440,
+          "missing": 666,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "4ZlUHt4xmB7GdPfk",
-          "name": "Giant Vulture",
-          "fieldPath": "items[5kigRXx2FSlzVUWm].system.description.value",
-          "sourcePath": "monsters/beast/giant-vulture.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
