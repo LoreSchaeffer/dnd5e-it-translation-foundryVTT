@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2194,
+      "translated": 2195,
       "missing": 3,
-      "partial": 194,
+      "partial": 193,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14305,
-      "missing": 1355,
+      "translated": 14307,
+      "missing": 1353,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1360
+    "blockingIssues": 1358
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 159,
+          "translated": 160,
           "missing": 0,
-          "partial": 178,
+          "partial": 177,
           "review": 0
         },
         "folders": {
@@ -578,32 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6489,
-          "missing": 617,
+          "translated": 6491,
+          "missing": 615,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "FayqbnjBMszO6Pat",
-          "name": "Tiger",
-          "fieldPath": "items[wklAUVakX97y0z2S].system.description.value",
-          "sourcePath": "monsters/beast/tiger.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "FayqbnjBMszO6Pat",
-          "name": "Tiger",
-          "fieldPath": "items[wklAUVakX97y0z2S].system.description.chat",
-          "sourcePath": "monsters/beast/tiger.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",

@@ -15259,7 +15259,9 @@
             "8dIa5DwJPOAhNkpx": {
               "name": "Tiro Salvezza contro il Balzo"
             }
-          }
+          },
+          "description": "<p>Se il [[lookup @name lowercase]]{mostro} si muove di almeno 6 metri in linea retta verso una creatura e poi la colpisce con un attacco di @UUID[Compendium.dnd5e.monsters.Actor.FayqbnjBMszO6Pat.Item.7GCnVtakQo6iZyn7]{artiglio} nello stesso turno, quel bersaglio deve superare un tiro salvezza [[/save]] o cadere &amp;Reference[prone].</p><p>Se il bersaglio è prono, il [[lookup @name lowercase]]{mostro} può effettuare un attacco con [[/item .YypXtXEL61FqWYOP]]{morso} contro di esso come azione bonus.</p>",
+          "chat": "<p>Se il [[lookup @name]]{mostro} si muove di almeno 6 metri in linea retta verso una creatura e poi la colpisce con un attacco di @UUID[Compendium.dnd5e.monsters.Actor.FayqbnjBMszO6Pat.Item.7GCnVtakQo6iZyn7]{Artiglio} nello stesso turno, quel bersaglio deve effettuare un tiro salvezza su Forza.</p>"
         },
         "YypXtXEL61FqWYOP": {
           "name": "Morso",
