@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1775,
+      "translated": 1776,
       "missing": 69,
-      "partial": 547,
+      "partial": 546,
       "review": 69
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 10009,
-      "missing": 5651,
+      "translated": 10020,
+      "missing": 5640,
       "invariantFailures": 853,
       "englishResiduals": 71,
       "imperialResiduals": 0
     },
-    "blockingIssues": 6512
+    "blockingIssues": 6501
   },
   "packs": [
     {
@@ -143,9 +143,9 @@
       "summary": {
         "documents": {
           "total": 12,
-          "translated": 2,
+          "translated": 3,
           "missing": 0,
-          "partial": 10,
+          "partial": 9,
           "review": 0
         },
         "folders": {
@@ -157,113 +157,14 @@
         },
         "fields": {
           "total": 1165,
-          "translated": 1117,
-          "missing": 48,
+          "translated": 1128,
+          "missing": 37,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "xVmbM44RXyI2Eqq3",
-          "name": "Beiro (Half-Elf Bard)",
-          "fieldPath": "items[iWdMYgNBkGiajzc4].system.description.value",
-          "sourcePath": "heroes/beiro-half-elf-bard.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "xVmbM44RXyI2Eqq3",
-          "name": "Beiro (Half-Elf Bard)",
-          "fieldPath": "items[2Ejl2ovEUJg7swzL].system.description.value",
-          "sourcePath": "heroes/beiro-half-elf-bard.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "xVmbM44RXyI2Eqq3",
-          "name": "Beiro (Half-Elf Bard)",
-          "fieldPath": "items[6JFzrzKtJyhU12xi].system.description.value",
-          "sourcePath": "heroes/beiro-half-elf-bard.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "xVmbM44RXyI2Eqq3",
-          "name": "Beiro (Half-Elf Bard)",
-          "fieldPath": "items[pEDdh0i2HBhReeuU].system.description.value",
-          "sourcePath": "heroes/beiro-half-elf-bard.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "xVmbM44RXyI2Eqq3",
-          "name": "Beiro (Half-Elf Bard)",
-          "fieldPath": "items[VgrH5nkz2SER0YhR].system.description.value",
-          "sourcePath": "heroes/beiro-half-elf-bard.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "xVmbM44RXyI2Eqq3",
-          "name": "Beiro (Half-Elf Bard)",
-          "fieldPath": "items[Mmfz1ndrE8zwXsWT].system.description.value",
-          "sourcePath": "heroes/beiro-half-elf-bard.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "xVmbM44RXyI2Eqq3",
-          "name": "Beiro (Half-Elf Bard)",
-          "fieldPath": "items[9t0oaZailMjUceoS].system.description.value",
-          "sourcePath": "heroes/beiro-half-elf-bard.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "xVmbM44RXyI2Eqq3",
-          "name": "Beiro (Half-Elf Bard)",
-          "fieldPath": "items[h7pWllesEmSKRSJ6].system.description.value",
-          "sourcePath": "heroes/beiro-half-elf-bard.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "xVmbM44RXyI2Eqq3",
-          "name": "Beiro (Half-Elf Bard)",
-          "fieldPath": "items[CJGAifMCSi24SL5c].system.description.value",
-          "sourcePath": "heroes/beiro-half-elf-bard.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "xVmbM44RXyI2Eqq3",
-          "name": "Beiro (Half-Elf Bard)",
-          "fieldPath": "items[PCcIZTkaRF749Y4z].effects[1QhUB3231btaCO0b].description",
-          "sourcePath": "heroes/beiro-half-elf-bard.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "xVmbM44RXyI2Eqq3",
-          "name": "Beiro (Half-Elf Bard)",
-          "fieldPath": "items[cUWYVymOvaTyeKFQ].system.description.value",
-          "sourcePath": "heroes/beiro-half-elf-bard.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",

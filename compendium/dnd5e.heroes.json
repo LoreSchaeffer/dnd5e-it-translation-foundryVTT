@@ -633,11 +633,13 @@
             "CormRQZ5momyvS2I": {
               "title": "Versatilità nelle Abilità"
             }
-          }
+          },
+          "description": "<p>Il tuo personaggio mezzelfo possiede alcune qualità in comune con gli elfi e altre che sono proprie dei mezzelfi.</p><p><em><strong>Aumento dei Punteggi di Caratteristica.</strong></em> Il tuo punteggio di Carisma aumenta di 2 e altri due punteggi di caratteristica a tua scelta aumentano di 1.</p><p><em><strong>Età.</strong></em> I mezzelfi maturano allo stesso ritmo degli umani e raggiungono l'età adulta attorno ai 20 anni. Tuttavia, vivono molto più a lungo degli umani, spesso superando i 180 anni.</p><p><em><strong>Allineamento.</strong></em> I mezzelfi condividono l'indole caotica della loro eredità elfica. Apprezzano sia la libertà personale sia l'espressione creativa e non dimostrano né amore per i capi né desiderio di avere seguaci. Mal sopportano le regole, si risentono per le pretese altrui e a volte si dimostrano inaffidabili, o quantomeno imprevedibili.</p><p><em><strong>Taglia.</strong></em> I mezzelfi hanno all'incirca la stessa taglia degli umani e sono alti tra 1,5 e 1,8 metri. La tua taglia è Media.</p><p><em><strong>Velocità.</strong></em> La tua velocità base sul terreno è di 9 metri.</p><p><em><strong>Scurovisione.</strong></em> Grazie al tuo sangue elfico, possiedi una vista superiore nell'oscurità e in condizioni di luce fioca. Entro 18 metri da te puoi vedere in condizioni di luce fioca come se fossero luce intensa e nell'oscurità come se fosse luce fioca. Nell'oscurità non puoi distinguere i colori, ma soltanto tonalità di grigio.</p><p><em><strong>Retaggio Fatato.</strong></em> Disponi di vantaggio ai tiri salvezza contro la condizione affascinato e la magia non può addormentarti.</p><p><em><strong>Versatilità nelle Abilità.</strong></em> Ottieni competenza in due abilità a tua scelta.</p><p><em><strong>Linguaggi.</strong></em> Sai parlare, leggere e scrivere in Comune, Elfico e un linguaggio extra a tua scelta.</p>"
         },
         "9t0oaZailMjUceoS": {
           "requirements": "Elfo, Mezzelfo",
-          "name": "Retaggio fatato"
+          "name": "Retaggio fatato",
+          "description": "<p>Disponi di vantaggio ai tiri salvezza contro la condizione affascinato e la magia non può addormentarti.</p>"
         },
         "fDxJHhma7nbuVE9c": {
           "name": "Bardo",
@@ -798,11 +800,13 @@
         },
         "h7pWllesEmSKRSJ6": {
           "name": "Risata Incontenibile di Tasha",
-          "materials": "una manciata di briciole e una piuma da agitare in aria"
+          "materials": "una manciata di briciole e una piuma da agitare in aria",
+          "description": "<p>Una creatura a tua scelta che puoi vedere entro gittata percepisce ogni cosa come esilarante e scoppia in una risata irrefrenabile se questo incantesimo la influenza. Il bersaglio deve superare un tiro salvezza su Saggezza, altrimenti cade a terra prono, diventa Incapacitato e non è in grado di rialzarsi per la durata. Una creatura con un punteggio di Intelligenza pari o inferiore a 4 non è influenzata.</p><p>Alla fine di ogni suo turno e ogni volta che subisce danni, il bersaglio può effettuare un altro tiro salvezza su Saggezza. Il bersaglio dispone di vantaggio al tiro salvezza se questo è innescato dai danni. Se lo supera, l'incantesimo termina.</p>"
         },
         "CJGAifMCSi24SL5c": {
           "name": "Luce",
-          "materials": "una lucciola o del muschio fosforescente"
+          "materials": "una lucciola o del muschio fosforescente",
+          "description": "<p>Tocchi un oggetto che non sia più grande di 3 metri in alcuna dimensione. Finché l'incantesimo non termina, l'oggetto proietta luce intensa entro un raggio di 6 metri e luce fioca per altri 6 metri. La luce può essere del colore che preferisci. Coprire completamente l'oggetto con qualcosa di opaco blocca la luce. L'incantesimo termina se lo lanci di nuovo o lo interrompi con un'azione.</p><p>Se bersagli un oggetto impugnato o indossato da una creatura ostile, quella creatura deve superare un tiro salvezza su Destrezza per evitare l'incantesimo.</p>"
         },
         "8faguw7IxAd4ZdRb": {
           "name": "Mano Magica",
@@ -813,27 +817,34 @@
           "description": "<p>L'incantatore tenta di affascinare un umanoide che può vedere entro gittata. Il bersaglio deve effettuare un tiro salvezza su Saggezza e dispone di vantaggio se l'incantatore o i suoi compagni lo stanno combattendo. Se fallisce il tiro salvezza, è &amp;Reference[charmed] dall'incantatore finché l'incantesimo non termina o finché l'incantatore o i suoi compagni non gli fanno del male. La creatura affascinata considera l'incantatore una conoscenza amichevole. Quando l'incantesimo termina, la creatura sa di essere stata affascinata dall'incantatore.</p><p><strong>Ai Livelli Superiori.</strong> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, può bersagliare una creatura aggiuntiva per ogni livello dello slot superiore al 1°. Le creature devono trovarsi entro 9 metri l'una dall'altra quando vengono bersagliate.</p>",
           "effects": {
             "1QhUB3231btaCO0b": {
-              "name": "Charme su Persone"
+              "name": "Charme su Persone",
+              "description": "<p>Il bersaglio è Affascinato dall'incantatore finché l'incantesimo non termina. La creatura affascinata considera l'incantatore una conoscenza amichevole. Quando l'incantesimo termina, la creatura sa di essere stata affascinata.</p>"
             }
           }
         },
         "cUWYVymOvaTyeKFQ": {
-          "name": "Eroismo"
+          "name": "Eroismo",
+          "description": "<p>Una creatura consenziente toccata da te viene pervasa dal coraggio. Finché l'incantesimo non termina, la creatura è immune alla condizione Spaventato e ottiene un numero di Punti Ferita Temporanei pari al tuo modificatore di caratteristica da incantatore all'inizio di ogni suo turno. Quando l'incantesimo termina, il bersaglio perde tutti i punti ferita temporanei rimanenti conferiti da questo incantesimo.</p><p><strong>Ai Livelli Superiori.</strong> Quando lanci questo incantesimo usando uno slot incantesimo di 2° livello o superiore, puoi bersagliare una creatura aggiuntiva per ogni livello dello slot superiore al 1°.</p>"
         },
         "iWdMYgNBkGiajzc4": {
-          "name": "Strumento Musicale: Liuto"
+          "name": "Strumento Musicale: Liuto",
+          "description": "<p>Un liuto con cui suscitare stupore, meraviglia o paura nel pubblico.</p><p>Se possiedi competenza in un determinato strumento musicale, puoi aggiungere il tuo bonus di competenza a qualsiasi prova di caratteristica effettuata per suonare con quello strumento. Un bardo può usare uno strumento musicale come focus da incantatore. Ogni tipo di strumento musicale richiede una competenza separata. </p>"
         },
         "2Ejl2ovEUJg7swzL": {
-          "name": "Strumento Musicale: Flauto"
+          "name": "Strumento Musicale: Flauto",
+          "description": "<p>Un liuto con cui suscitare stupore, meraviglia o paura nel pubblico.</p><p>Se possiedi competenza in un determinato strumento musicale, puoi aggiungere il tuo bonus di competenza a qualsiasi prova di caratteristica effettuata per suonare con quello strumento. Un bardo può usare uno strumento musicale come focus da incantatore. Ogni tipo di strumento musicale richiede una competenza separata. </p>"
         },
         "6JFzrzKtJyhU12xi": {
-          "name": "Strumento Musicale: Tamburo"
+          "name": "Strumento Musicale: Tamburo",
+          "description": "<p>Un tamburo, di qualsiasi tipo, con cui suscitare stupore, meraviglia o paura nel pubblico.</p><p>Se possiedi competenza in un determinato strumento musicale, puoi aggiungere il tuo bonus di competenza a qualsiasi prova di caratteristica effettuata per suonare con quello strumento. Un bardo può usare uno strumento musicale come focus da incantatore. Ogni tipo di strumento musicale richiede una competenza separata. </p>"
         },
         "pEDdh0i2HBhReeuU": {
-          "name": "Lettera d'Amore"
+          "name": "Lettera d'Amore",
+          "description": "<p>Una lettera d'amore inviata da un ammiratore.</p>"
         },
         "VgrH5nkz2SER0YhR": {
-          "name": "Musicista"
+          "name": "Musicista",
+          "description": "<ul><li><strong>Competenze nelle Abilità:</strong> Acrobazia, Intrattenere</li><li><strong>Competenze negli Strumenti:</strong> Trucchi per il camuffamento, un tipo di strumento musicale</li><li><strong>Equipaggiamento:</strong> Uno strumento musicale, un messaggio da parte di un ammiratore e una borsa contenente 15 mo</li></ul>"
         }
       },
       "details": {
