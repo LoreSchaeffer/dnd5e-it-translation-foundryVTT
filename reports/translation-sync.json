@@ -3895,11 +3895,27 @@
         },
         {
           "pack": "items",
+          "id": "QYJyQCnIQeLiMrmJ",
+          "name": "Brass Horn of Valhalla",
+          "sourcePath": "items/trinket/brass-horn-of-valhalla.yml",
+          "lookupKey": "Brass Horn of Valhalla",
+          "matchedLookupKey": "Brass Horn of Valhalla"
+        },
+        {
+          "pack": "items",
           "id": "OcjcplcUWH07Kn9k",
           "name": "Brazier of Commanding Fire Elementals",
           "sourcePath": "items/trinket/brazier-of-commanding-fire-elementals.yml",
           "lookupKey": "Brazier of Commanding Fire Elementals",
           "matchedLookupKey": "Brazier of Commanding Fire Elementals"
+        },
+        {
+          "pack": "items",
+          "id": "sqcerAMszpe3hwyI",
+          "name": "Bronze Horn of Valhalla",
+          "sourcePath": "items/trinket/bronze-horn-of-valhalla.yml",
+          "lookupKey": "Bronze Horn of Valhalla",
+          "matchedLookupKey": "Bronze Horn of Valhalla"
         },
         {
           "pack": "items",
@@ -4383,6 +4399,14 @@
         },
         {
           "pack": "items",
+          "id": "qVuZznv0MnIjDU70",
+          "name": "Iron Horn of Valhalla",
+          "sourcePath": "items/trinket/iron-horn-of-valhalla.yml",
+          "lookupKey": "Iron Horn of Valhalla",
+          "matchedLookupKey": "Iron Horn of Valhalla"
+        },
+        {
+          "pack": "items",
           "id": "RiOeHR2qaYktz5Ys",
           "name": "Iron Spike",
           "sourcePath": "items/trinket/iron-spike.yml",
@@ -4564,6 +4588,14 @@
           "sourcePath": "items/trinket/silk-rope-50-ft.yml",
           "lookupKey": "Silk Rope (50 ft.)",
           "matchedLookupKey": "Silk Rope (50 ft.)"
+        },
+        {
+          "pack": "items",
+          "id": "lTfo6OVvAY2iJ4oq",
+          "name": "Silver Horn of Valhalla",
+          "sourcePath": "items/trinket/silver-horn-of-valhalla.yml",
+          "lookupKey": "Silver Horn of Valhalla",
+          "matchedLookupKey": "Silver Horn of Valhalla"
         },
         {
           "pack": "items",
@@ -7204,108 +7236,6 @@
         },
         {
           "pack": "items",
-          "id": "QYJyQCnIQeLiMrmJ",
-          "name": "Brass Horn of Valhalla",
-          "sourcePath": "items/trinket/brass-horn-of-valhalla.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Brass Horn of Valhalla",
-          "matchedLookupKey": "Brass Horn of Valhalla",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "QYJyQCnIQeLiMrmJ",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "QYJyQCnIQeLiMrmJ",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "items",
-              "id": "QYJyQCnIQeLiMrmJ",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "QYJyQCnIQeLiMrmJ",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-formulas",
-              "severity": "blocking",
-              "message": "Foundry formulas differ from source",
-              "pack": "items",
-              "id": "QYJyQCnIQeLiMrmJ",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "sqcerAMszpe3hwyI",
-          "name": "Bronze Horn of Valhalla",
-          "sourcePath": "items/trinket/bronze-horn-of-valhalla.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Bronze Horn of Valhalla",
-          "matchedLookupKey": "Bronze Horn of Valhalla",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "sqcerAMszpe3hwyI",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "sqcerAMszpe3hwyI",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "items",
-              "id": "sqcerAMszpe3hwyI",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "sqcerAMszpe3hwyI",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-formulas",
-              "severity": "blocking",
-              "message": "Foundry formulas differ from source",
-              "pack": "items",
-              "id": "sqcerAMszpe3hwyI",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
           "id": "Wk7EOYoY3b2tgGoS",
           "name": "Deck of Illusions",
           "sourcePath": "items/trinket/deck-of-illusions.yml",
@@ -7386,108 +7316,6 @@
               "message": "Foundry formulas differ from source",
               "pack": "items",
               "id": "oSarKEU8x1AupB6z",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "qVuZznv0MnIjDU70",
-          "name": "Iron Horn of Valhalla",
-          "sourcePath": "items/trinket/iron-horn-of-valhalla.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Iron Horn of Valhalla",
-          "matchedLookupKey": "Iron Horn of Valhalla",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "qVuZznv0MnIjDU70",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "qVuZznv0MnIjDU70",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "items",
-              "id": "qVuZznv0MnIjDU70",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "qVuZznv0MnIjDU70",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-formulas",
-              "severity": "blocking",
-              "message": "Foundry formulas differ from source",
-              "pack": "items",
-              "id": "qVuZznv0MnIjDU70",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "lTfo6OVvAY2iJ4oq",
-          "name": "Silver Horn of Valhalla",
-          "sourcePath": "items/trinket/silver-horn-of-valhalla.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Silver Horn of Valhalla",
-          "matchedLookupKey": "Silver Horn of Valhalla",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "lTfo6OVvAY2iJ4oq",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "lTfo6OVvAY2iJ4oq",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-reference-count",
-              "severity": "blocking",
-              "message": "Foundry reference count differs from source",
-              "pack": "items",
-              "id": "lTfo6OVvAY2iJ4oq",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "lTfo6OVvAY2iJ4oq",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-formulas",
-              "severity": "blocking",
-              "message": "Foundry formulas differ from source",
-              "pack": "items",
-              "id": "lTfo6OVvAY2iJ4oq",
               "fieldPath": "system.description.value"
             }
           ]
