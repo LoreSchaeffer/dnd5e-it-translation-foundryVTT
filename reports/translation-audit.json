@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2167,
+      "translated": 2168,
       "missing": 3,
-      "partial": 221,
+      "partial": 220,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14247,
-      "missing": 1413,
+      "translated": 14252,
+      "missing": 1408,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1418
+    "blockingIssues": 1413
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 132,
+          "translated": 133,
           "missing": 0,
-          "partial": 205,
+          "partial": 204,
           "review": 0
         },
         "folders": {
@@ -578,59 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6431,
-          "missing": 675,
+          "translated": 6436,
+          "missing": 670,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "v99wOosUJjUgcUNF",
-          "name": "Giant Spider",
-          "fieldPath": "items[SuRAERXystPvC7Ci].system.description.value",
-          "sourcePath": "monsters/beast/giant-spider.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "v99wOosUJjUgcUNF",
-          "name": "Giant Spider",
-          "fieldPath": "items[SuRAERXystPvC7Ci].system.description.chat",
-          "sourcePath": "monsters/beast/giant-spider.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "v99wOosUJjUgcUNF",
-          "name": "Giant Spider",
-          "fieldPath": "items[SuRAERXystPvC7Ci].system.activities.2AyYbFLKLbDLzP05.description.value",
-          "sourcePath": "monsters/beast/giant-spider.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "v99wOosUJjUgcUNF",
-          "name": "Giant Spider",
-          "fieldPath": "items[g7e60AxXarlQ9xQC].system.description.value",
-          "sourcePath": "monsters/beast/giant-spider.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "v99wOosUJjUgcUNF",
-          "name": "Giant Spider",
-          "fieldPath": "items[g7e60AxXarlQ9xQC].effects[otGAUswMpsAM0sho].description",
-          "sourcePath": "monsters/beast/giant-spider.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",

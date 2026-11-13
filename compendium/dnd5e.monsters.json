@@ -12858,7 +12858,10 @@
           "name": "Morso",
           "activities": {
             "2AyYbFLKLbDLzP05": {
-              "name": "Tiro Salvezza contro il Veleno"
+              "name": "Tiro Salvezza contro il Veleno",
+              "description": {
+                "value": "<p>Il bersaglio deve effettuare un tiro salvezza [[/save]], subendo [[/damage average activity=2AyYbFLKLbDLzP05]] danni se lo fallisce, oppure la metà di quei danni se lo supera. Se i danni da veleno riducono il bersaglio a 0 punti ferita, il bersaglio è &amp;reference[stable] ma &amp;reference[poisoned] per [[lookup @labels.duration activity=2AyYbFLKLbDLzP05]], anche dopo avere recuperato punti ferita, ed è &amp;reference[paralyzed] finché è avvelenato in questo modo.</p>"
+              }
             }
           },
           "effects": {
@@ -12866,16 +12869,20 @@
               "name": "Veleno Paralizzante Stabilizzante",
               "description": "<p>Sei &amp;reference[stable] ma &amp;reference[poisoned apply=false] per la durata, anche dopo avere recuperato punti ferita. Finché sei avvelenato in questo modo, sei anche &amp;reference[paralyzed apply=false].</p>"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il bersaglio deve effettuare un tiro salvezza [[/save]], subendo [[/damage average activity=2AyYbFLKLbDLzP05]] danni se lo fallisce, oppure la metà di quei danni se lo supera. Se i danni da veleno riducono il bersaglio a 0 punti ferita, il bersaglio è &amp;reference[stable] ma &amp;reference[poisoned] per [[lookup @labels.duration activity=2AyYbFLKLbDLzP05]], anche dopo avere recuperato punti ferita, ed è &amp;reference[paralyzed] finché è avvelenato in questo modo.</p>",
+          "chat": "<p>Il [[lookup @name lowercase]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio deve effettuare un tiro salvezza su Costituzione.</p>"
         },
         "g7e60AxXarlQ9xQC": {
           "name": "Ragnatela",
           "effects": {
             "otGAUswMpsAM0sho": {
-              "name": "Trattenuto dalla Ragnatela"
+              "name": "Trattenuto dalla Ragnatela",
+              "description": "<p>Sei &amp;reference[restrained apply=false] dalle ragnatele. Come azione, puoi effettuare una prova [[/check 12 str]], spezzando le ragnatele in caso di successo.</p><p>Le ragnatele possono anche essere attaccate e distrutte (CA 10; PF 5; vulnerabilità ai danni da fuoco; immunità ai danni contundenti, da veleno e psichici).</p>"
             }
           },
-          "chat": "<p>Il bersaglio è trattenuto dalle ragnatele. Come azione, il bersaglio trattenuto può effettuare una prova di Forza e, se la supera, spezza le ragnatele.</p>"
+          "chat": "<p>Il bersaglio è trattenuto dalle ragnatele. Come azione, il bersaglio trattenuto può effettuare una prova di Forza e, se la supera, spezza le ragnatele.</p>",
+          "description": "<p>[[/attack extended]]. <em>Colpito:</em> Il bersaglio è &amp;Reference[restrained] dalle ragnatele.</p><p>Come azione, il bersaglio trattenuto può effettuare una prova [[/check activity=aELnqvc37WaAm0IG]], spezzando le ragnatele in caso di successo. Le ragnatele possono anche essere attaccate e distrutte (CA 10; pf 5; vulnerabilità ai danni da fuoco; immunità ai danni contundenti, da veleno e psichici).</p>"
         },
         "lT3msNb93MHuqBR7": {
           "name": "Movimenti del Ragno",
