@@ -9,7 +9,7 @@
 | heroes | 12 | 12 | 0 | 0 | 0 | 0 | 0 |
 | items | 885 | 885 | 0 | 0 | 0 | 0 | 48 |
 | monsterfeatures | 252 | 252 | 0 | 0 | 0 | 0 | 0 |
-| monsters | 337 | 92 | 0 | 245 | 0 | 871 | 871 |
+| monsters | 337 | 93 | 0 | 244 | 0 | 861 | 861 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
 | rules | 20 | 1 | 3 | 16 | 0 | 738 | 695 |
 | spells | 320 | 320 | 0 | 0 | 0 | 0 | 0 |
@@ -17,7 +17,7 @@
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 1614
+Total blocking issues: 1604
 
 ## Issues
 
@@ -461,16 +461,6 @@ Total blocking issues: 1614
 - **missing-field** `monsters:AnseLn7HwuP97grf:items[iFHGL8wlqBtZAdHr].system.activities.b7w4pKSTyul1TqDh.description.value`
 - **missing-field** `monsters:AnseLn7HwuP97grf:items[iFHGL8wlqBtZAdHr].effects[lf9nh0D3xPK0k8b2].description`
 - **missing-field** `monsters:AnseLn7HwuP97grf:items[sC1dqjfFZKnDmhec].system.description.value`
-- **missing-field** `monsters:KtM6IV9I5l1MWUDk:items[9SWi4zPVGsMD5l2Y].system.description.value`
-- **missing-field** `monsters:KtM6IV9I5l1MWUDk:items[9SWi4zPVGsMD5l2Y].system.description.chat`
-- **missing-field** `monsters:KtM6IV9I5l1MWUDk:items[9SWi4zPVGsMD5l2Y].system.activities.D2oyIMFCCxoTivHb.description.value`
-- **missing-field** `monsters:KtM6IV9I5l1MWUDk:items[9SWi4zPVGsMD5l2Y].effects[87lmQ6FGjFrf8rs4].description`
-- **missing-field** `monsters:KtM6IV9I5l1MWUDk:items[c8fbl1Kc5O3GNTus].system.description.value`
-- **missing-field** `monsters:KtM6IV9I5l1MWUDk:items[c8fbl1Kc5O3GNTus].system.description.chat`
-- **missing-field** `monsters:KtM6IV9I5l1MWUDk:items[AGKUD82KJZaMKVRt].system.description.value`
-- **missing-field** `monsters:KtM6IV9I5l1MWUDk:items[B9KJpn20n0tG4xit].system.description.value`
-- **missing-field** `monsters:KtM6IV9I5l1MWUDk:items[B9KJpn20n0tG4xit].system.description.chat`
-- **missing-field** `monsters:KtM6IV9I5l1MWUDk:items[B9KJpn20n0tG4xit].effects[wVrlw8BsY4R0lWxu].description`
 - **missing-field** `monsters:kz2fW9xb5CcvXLX4:items[Ex0UN9pj0w7p4D9F].system.description.value`
 - **missing-field** `monsters:kz2fW9xb5CcvXLX4:items[JVbj7KABKYi3Z8U3].system.description.value`
 - **missing-field** `monsters:kz2fW9xb5CcvXLX4:items[JVbj7KABKYi3Z8U3].system.description.chat`

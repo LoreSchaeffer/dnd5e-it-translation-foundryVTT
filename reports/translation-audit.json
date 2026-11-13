@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2127,
+      "translated": 2128,
       "missing": 3,
-      "partial": 261,
+      "partial": 260,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14051,
-      "missing": 1609,
+      "translated": 14061,
+      "missing": 1599,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1614
+    "blockingIssues": 1604
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 92,
+          "translated": 93,
           "missing": 0,
-          "partial": 245,
+          "partial": 244,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6235,
-          "missing": 871,
+          "translated": 6245,
+          "missing": 861,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -4113,96 +4113,6 @@
           "name": "Bone Devil",
           "fieldPath": "items[sC1dqjfFZKnDmhec].system.description.value",
           "sourcePath": "monsters/fiend/bone-devil.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "KtM6IV9I5l1MWUDk",
-          "name": "Chain Devil",
-          "fieldPath": "items[9SWi4zPVGsMD5l2Y].system.description.value",
-          "sourcePath": "monsters/fiend/chain-devil.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "KtM6IV9I5l1MWUDk",
-          "name": "Chain Devil",
-          "fieldPath": "items[9SWi4zPVGsMD5l2Y].system.description.chat",
-          "sourcePath": "monsters/fiend/chain-devil.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "KtM6IV9I5l1MWUDk",
-          "name": "Chain Devil",
-          "fieldPath": "items[9SWi4zPVGsMD5l2Y].system.activities.D2oyIMFCCxoTivHb.description.value",
-          "sourcePath": "monsters/fiend/chain-devil.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "KtM6IV9I5l1MWUDk",
-          "name": "Chain Devil",
-          "fieldPath": "items[9SWi4zPVGsMD5l2Y].effects[87lmQ6FGjFrf8rs4].description",
-          "sourcePath": "monsters/fiend/chain-devil.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "KtM6IV9I5l1MWUDk",
-          "name": "Chain Devil",
-          "fieldPath": "items[c8fbl1Kc5O3GNTus].system.description.value",
-          "sourcePath": "monsters/fiend/chain-devil.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "KtM6IV9I5l1MWUDk",
-          "name": "Chain Devil",
-          "fieldPath": "items[c8fbl1Kc5O3GNTus].system.description.chat",
-          "sourcePath": "monsters/fiend/chain-devil.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "KtM6IV9I5l1MWUDk",
-          "name": "Chain Devil",
-          "fieldPath": "items[AGKUD82KJZaMKVRt].system.description.value",
-          "sourcePath": "monsters/fiend/chain-devil.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "KtM6IV9I5l1MWUDk",
-          "name": "Chain Devil",
-          "fieldPath": "items[B9KJpn20n0tG4xit].system.description.value",
-          "sourcePath": "monsters/fiend/chain-devil.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "KtM6IV9I5l1MWUDk",
-          "name": "Chain Devil",
-          "fieldPath": "items[B9KJpn20n0tG4xit].system.description.chat",
-          "sourcePath": "monsters/fiend/chain-devil.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "KtM6IV9I5l1MWUDk",
-          "name": "Chain Devil",
-          "fieldPath": "items[B9KJpn20n0tG4xit].effects[wVrlw8BsY4R0lWxu].description",
-          "sourcePath": "monsters/fiend/chain-devil.yml"
         },
         {
           "code": "missing-field",
