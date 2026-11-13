@@ -172,15 +172,15 @@
     },
     "Damage Transfer": {
       "name": "Trasferire Danni",
-      "description": "<p>Finché è avvinghiato a una creatura, la Creatura subisce solo metà dei danni che gli vengono inflitti (arrotondati per difetto) e quella creatura subisce l'altra metà.</p>"
+      "description": "<p>Finché è attaccato a una creatura, il [[lookup @name lowercase]]{mostro} subisce solo metà dei danni che gli vengono inflitti (arrotondati per difetto) e quella creatura subisce l'altra metà.</p>"
     },
     "Dark Devotion": {
       "name": "Devozione Oscura",
-      "description": "<p>La Creatura dispone di vantaggio ai tiri salvezza contro le condizioni di affascinato e spaventato.</p>"
+      "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di<strong> vantaggio </strong>ai tiri salvezza contro l'essere affascinato o spaventato.</p>"
     },
     "Darkness Aura": {
       "name": "Aura di Oscurità",
-      "description": "<p>Un'oscurità magica si estende dalla Creatura entro un raggio di <strong>4,5 metri</strong>, spostandosi assieme a lui e diffondendosi oltre gli angoli. L’oscurità permane fintanto che la Creatura mantiene la concentrazione (come se si concentrasse su un incantesimo) fino a un massimo di <strong>10 minuti</strong>. La scurovisione non riesce a penetrare questo tipo di oscurità e nessuna luce naturale può illuminarla. Se una qualsiasi parte di oscurità si sovrappone a un'area di luce creata da un incantesimo di 2° livello o inferiore, l'incantesimo che crea la luce è dissolto.</p>"
+      "description": "<section class=\"secret\">\n<p>Un'oscurità magica del raggio di 4,5 metri si estende dal [[lookup @name lowercase]]{mostro}, si muove con lui e si propaga oltre gli angoli. L'oscurità dura finché il [[lookup @name lowercase]]{mostro} mantiene la concentrazione, fino a 10 minuti (come se si concentrasse su un incantesimo).</p><p>La scurovisione non può penetrare questa oscurità e nessuna luce naturale può illuminarla. Se una qualsiasi parte dell'oscurità si sovrappone a un'area di luce creata da un incantesimo di 2° livello o inferiore, l'incantesimo che ha creato la luce viene dissolto.</p>\n</section>\n<p>Un'oscurità magica del raggio di 4,5 metri si estende dal [[lookup @name lowercase]]{mostro}, si muove con lui e si propaga oltre gli angoli. La scurovisione non può penetrare questa oscurità e nessuna luce naturale può illuminarla.</p>"
     },
     "Deadly Leap": {
       "name": "Balzo Letale",
@@ -200,11 +200,11 @@
     },
     "Death Burst": {
       "name": "Esplosione Mortale",
-      "description": "<p>Quando il &lt;creature&gt; muore, esplode in una deflagrazione di magma e lava. Ogni creatura situata entro 3 metri da esso deve effettuare un tiro salvezza su Destrezza con CD 11; se lo fallisce, subisce 7 (2d6) danni da fuoco, mentre se lo supera, subisce la metà di quei danni. Gli oggetti infiammabili non indossati o trasportati che si trovano in quell'area prendono fuoco.</p>"
+      "description": "<section class=\"secret\">\n<p>Quando il [[lookup @name lowercase]]{mostro} muore, esplode in una nube di polvere. Ogni creatura entro <strong>1,5 m</strong> da lui deve quindi superare un <strong>tiro salvezza su Costituzione con CD 10</strong>, altrimenti è accecata per <strong>1 minuto</strong>. Una creatura accecata può ripetere il tiro salvezza in ciascuno dei propri turni e, se lo supera, l'effetto su di lei termina.</p>\n</section>\n<p>Quando il [[lookup @name lowercase]]{mostro} muore, esplode in una nube di polvere. Ogni creatura entro <strong>1,5 m</strong> da lui deve effettuare un tiro salvezza su <strong>Costituzione</strong>.</p>"
     },
     "Death Glare": {
       "name": "Sguardo Mortale",
-      "description": "<p>La &lt;Creature&gt; bersaglia una creatura spaventata situata entro 9 metri da lei e che essa sia in grado di vedere. Se il bersaglio può vedere la &lt;Creature&gt;, deve superare un tiro salvezza su Saggezza con CD 11 contro questa magia, altrimenti scende a 0 punti ferita.</p><p>&nbsp;</p>"
+      "description": "<section class=\"secret\">\n<p>Il [[lookup @name lowercase]]{mostro} bersaglia una creatura spaventata che può vedere entro 9 metri da lei. Se il bersaglio può vedere il [[lookup @name lowercase]]{mostro}, deve superare un tiro salvezza su <strong>Saggezza con CD 11</strong> contro questa magia, altrimenti scende a 0 punti ferita.</p><p></p>\n</section>\n<p>Il [[lookup @name lowercase]]{mostro} bersaglia una creatura spaventata che può vedere entro 9 metri da lei. Se il bersaglio può vedere il [[lookup @name lowercase]]{mostro}, deve effettuare un tiro salvezza su <strong>Saggezza</strong> contro questa magia.</p>"
     },
     "Devil's Sight": {
       "name": "Vista del Diavolo",
@@ -212,11 +212,11 @@
     },
     "Disrupt Life": {
       "name": "Distruggere Vita",
-      "description": "<p>Ogni creatura che non sia un non morto e situata entro 6 metri dal &lt;creature&gt; deve effettuare un tiro salvezza su Costituzione con CD 18 contro questa magia; se lo fallisce, subisce 21 (6d6) danni necrotici, mentre se lo supera, subisce la metà di quei danni.</p>"
+      "description": "<section class=\"secret\">\n<p>Ogni creatura non-[[lookup @details.type.config.label lowercase]]{mostro} entro 6 metri dal [[lookup @name lowercase]]{mostro} deve effettuare un tiro salvezza su <strong>Costituzione con CD 18</strong> contro questa magia; se lo fallisce, subisce <strong>21 (6d6) danni <em>necrotici</em></strong>, mentre se lo supera subisce la metà di quei danni.</p>\n</section>\n<p>Ogni creatura non-[[lookup @details.type.config.label lowercase]]{mostro} entro 6 metri dal [[lookup @name lowercase]]{mostro} deve effettuare un tiro salvezza su <strong>Costituzione</strong> contro questa magia.</p>"
     },
     "Divine Eminence": {
       "name": "Eminenza Divina",
-      "description": "<p>Come azione bonus, il &lt;creature&gt; può spendere uno slot incantesimo per fare in modo che i suoi attacchi con un'arma da mischia infliggano magicamente 10 (3d6) danni radiosi extra a un bersaglio se lo colpiscono. Questo beneficio permane fino alla fine del turno. Se il &lt;creature&gt; spende uno slot incantesimo di livello pari o superiore al 2°, i danni extra aumentano di 1d6 per ogni livello oltre il 1°.</p>"
+      "description": "<section class=\"secret\"><p>Con un'azione bonus, il [[lookup @name lowercase]]{mostro} può spendere uno slot incantesimo affinché i suoi attacchi con armi da mischia infliggano magicamente <strong>10 (3d6) <em>danni radiosi</em></strong> extra a un bersaglio colpito. </p><p>Questo beneficio dura fino alla fine del turno. Se il [[lookup @name lowercase]]{mostro} spende uno slot incantesimo di 2° livello o superiore, i danni extra aumentano di 1d6 per ogni livello oltre il 1°.</p></section><p>Con un'azione bonus, il [[lookup @name lowercase]]{mostro} può spendere uno slot incantesimo affinché i suoi attacchi con armi da mischia infliggano magicamente <em>danni radiosi</em> extra a un bersaglio colpito.</p>"
     },
     "Whirlwind": {
       "name": "Vortice",
@@ -224,11 +224,11 @@
     },
     "Dreadful Glare": {
       "name": "Sguardo Funesto",
-      "description": "<p>La &lt;creature&gt; bersaglia una creatura situata entro 18 metri da lei e che essa sia in grado di vedere. Se il bersaglio può vedere la &lt;creature&gt;, deve superare un tiro salvezza su Saggezza con CD 11 contro questa magia, altrimenti è spaventato fino alla fine del turno successivo della &lt;creature&gt;. Se il bersaglio fallisce il tiro salvezza di 5 o più, è anche paralizzato per la stessa durata. Un bersaglio che supera il tiro salvezza è immune allo Sguardo Funesto di tutte le mummie (ma non a quello dei signori delle mummie) per le 24 ore successive.</p><p>&nbsp;</p>"
+      "description": "<section class=\"secret\">\n<p>Il [[lookup @name lowercase]]{mostro} bersaglia una creatura che può vedere entro 18 metri da lui. Se il bersaglio può vedere il [[lookup @name lowercase]]{mostro}, deve superare un tiro salvezza su <strong>Saggezza con CD 11</strong> contro questa magia, altrimenti diventa spaventato fino alla fine del turno successivo del [[lookup @name lowercase]]{mostro}.</p><p>Se il bersaglio fallisce il tiro salvezza di 5 o più, è anche paralizzato per la stessa durata. Un bersaglio che supera il tiro salvezza è immune allo Sguardo Funesto di tutte le mummie (ma non dei signori delle mummie) per le 24 ore successive.</p>\n</section>\n<p>Il [[lookup @name lowercase]]{mostro} bersaglia una creatura che può vedere entro 18 metri da lui. Se il bersaglio può vedere il [[lookup @name lowercase]]{mostro}, deve effettuare un tiro salvezza su <strong>Saggezza</strong> contro questa magia.</p>"
     },
     "Duergar Resilience": {
       "name": "Resilienza Duergar",
-      "description": "<p>Il &lt;creature&gt; dispone di vantaggio ai tiri salvezza contro veleno, incantesimi e illusioni, nonché per resistere alle condizioni di affascinato o paralizzato.</p><p>&nbsp;</p>"
+      "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di<strong> vantaggio </strong>ai tiri salvezza contro veleno, incantesimi e illusioni, nonché per resistere all'essere affascinato o paralizzato.</p>"
     },
     "Earth Glide": {
       "name": "Scivolare nella Terra",
@@ -241,7 +241,7 @@
     },
     "Engulf": {
       "name": "Avviluppare",
-      "description": "<p>Il &lt;creature&gt; si muove del massimo della sua velocità. Mentre lo fa, può entrare negli spazi delle creature di taglia Grande o inferiore. Ogni volta che il &lt;creature&gt; entra nello spazio di una creatura, quest'ultima deve effettuare un tiro salvezza su Destrezza con CD 12. Se lo supera, la creatura può scegliere di essere spinta di 1,5 metri indietro o lateralmente al &lt;creature&gt;. Una creatura che sceglie di non essere spinta subisce le conseguenze di un tiro salvezza fallito. In caso di tiro salvezza fallito, il cubo entra nello spazio della creatura e la creatura subisce 10 (3d6) danni da acido ed è avviluppata. La creatura avviluppata non può respirare, è trattenuta e subisce 21 (6d6) danni da acido all'inizio di ogni turno del cubo. Quando il &lt;creature&gt; si muove, la creatura avviluppata si muove assieme a lui. Una creatura avviluppata può tentare di sfuggire usando un'azione per effettuare una prova di Forza con CD 12. In caso di successo, la creatura sfugge ed entra in uno spazio a sua scelta entro 1,5 metri dal &lt;creature&gt;.</p>"
+      "description": "<section class=\"secret\">\n<p>Il [[lookup @name lowercase]]{mostro} si muove fino alla propria velocità. Durante questo movimento può entrare negli spazi delle creature di taglia Grande o inferiore. Ogni volta che il [[lookup @name lowercase]]{mostro} entra nello spazio di una creatura, quella creatura deve effettuare un tiro salvezza su <strong>Destrezza con CD 12</strong>. Se lo supera, la creatura può scegliere di essere spinta di 1,5 metri indietro o a lato del [[lookup @name lowercase]]{mostro}. Una creatura che sceglie di non essere spinta subisce le conseguenze di un tiro salvezza fallito.</p><p>Se fallisce il tiro salvezza, il [[lookup @name lowercase]]{mostro} entra nello spazio della creatura, che subisce <strong>10 (3d6) danni <em>da acido</em></strong> e viene avviluppata. La creatura avviluppata non può respirare, è trattenuta e subisce <strong>21 (6d6) danni <em>da acido</em></strong> all'inizio di ciascun turno del [[lookup @name lowercase]]{mostro}. Quando il [[lookup @name lowercase]]{mostro} si muove, la creatura avviluppata si muove con lui. Una creatura avviluppata può tentare di fuggire usando un'azione per effettuare una prova di Forza con CD 12. Se la supera, la creatura fugge ed entra in uno spazio a sua scelta entro 1,5 metri dal [[lookup @name lowercase]]{mostro}.</p>\n</section>\n<p>Ogni volta che il [[lookup @name lowercase]]{mostro} entra nello spazio di una creatura, quella creatura deve effettuare un tiro salvezza su <strong>Destrezza</strong>. Se lo supera, la creatura può scegliere di essere spinta di 1,5 metri indietro o a lato del [[lookup @name lowercase]]{mostro}. Una creatura che sceglie di non essere spinta subisce le conseguenze di un tiro salvezza fallito.</p>"
     },
     "Enlarge": {
       "name": "Ingrandire",
