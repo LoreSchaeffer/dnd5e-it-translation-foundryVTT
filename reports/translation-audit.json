@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2196,
+      "translated": 2197,
       "missing": 3,
-      "partial": 192,
+      "partial": 191,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14309,
-      "missing": 1351,
+      "translated": 14312,
+      "missing": 1348,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1356
+    "blockingIssues": 1353
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 161,
+          "translated": 162,
           "missing": 0,
-          "partial": 176,
+          "partial": 175,
           "review": 0
         },
         "folders": {
@@ -578,41 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6493,
-          "missing": 613,
+          "translated": 6496,
+          "missing": 610,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "HlddcPm4cWptj3ka",
-          "name": "Tyrannosaurus Rex",
-          "fieldPath": "items[O8pEyHMhxCwROJ6O].system.description.value",
-          "sourcePath": "monsters/beast/tyrannosaurus-rex.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "HlddcPm4cWptj3ka",
-          "name": "Tyrannosaurus Rex",
-          "fieldPath": "items[O8pEyHMhxCwROJ6O].system.description.chat",
-          "sourcePath": "monsters/beast/tyrannosaurus-rex.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "HlddcPm4cWptj3ka",
-          "name": "Tyrannosaurus Rex",
-          "fieldPath": "items[Fi45qe2ncVZHNq43].system.description.value",
-          "sourcePath": "monsters/beast/tyrannosaurus-rex.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",

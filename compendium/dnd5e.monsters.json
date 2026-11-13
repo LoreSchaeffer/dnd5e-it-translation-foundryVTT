@@ -15429,10 +15429,13 @@
               "name": "Afferrato dal Morso",
               "description": "<p>Sei &amp;reference[grappled apply=false] (CD 17 per sfuggire). Finché sei afferrato in questo modo, sei anche &amp;reference[restrained apply=false].</p>"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio è una creatura di taglia Media o inferiore, è &amp;Reference[grappled] (CD 17 per sfuggire). Finché questa lotta non termina, il bersaglio è &amp;Reference[restrained] e il tirannosauro non può mordere un altro bersaglio.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Se il bersaglio è una creatura di taglia Media o inferiore, è &amp;reference[grappled apply=false]. Finché questa lotta non termina, il bersaglio è &amp;reference[restrained] e il [[lookup @name]]{mostro} non può [[lookup @item.name lowercase]] un altro bersaglio.</p>"
         },
         "Fi45qe2ncVZHNq43": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua due attacchi: uno con il proprio [[/item .O8pEyHMhxCwROJ6O]]{morso} e uno con la propria [[/item .jw9SyNUWRzgHe37B]]{coda}. Non può effettuare entrambi gli attacchi contro lo stesso bersaglio.</p>"
         },
         "jw9SyNUWRzgHe37B": {
           "name": "Coda",
