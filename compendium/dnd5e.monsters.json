@@ -63,7 +63,8 @@
           "description": "<p>Una luminosità simile a una fiamma scende su una creatura che puoi vedere entro gittata. Il bersaglio deve superare un tiro salvezza su Destrezza, altrimenti subisce 1d8 danni radiosi. Il bersaglio non ottiene alcun beneficio dalla copertura per questo tiro salvezza.</p><p>I danni dell'incantesimo aumentano di 1d8 quando raggiungi il 5° livello (2d8), l'11° livello (3d8) e il 17° livello (4d8).</p>"
         },
         "MUO1uYN7JR1hm4dR": {
-          "name": "Taumaturgia"
+          "name": "Taumaturgia",
+          "description": "<p>L'incantatore genera una meraviglia minore, una manifestazione di potere soprannaturale. Può creare uno degli effetti magici seguenti entro gittata:</p>\n<ul>\n<li>La sua voce rimbomba con potenza tre volte superiore rispetto al normale per 1 minuto.</li>\n<li>L'incantatore fa in modo che una fiamma tremi, si intensifichi, si affievolisca o cambi colore per 1 minuto.</li>\n<li>L'incantatore genera un tremito innocuo sul terreno per 1 minuto.</li>\n<li>L'incantatore crea un suono istantaneo che abbia origine da un punto entro gittata a sua scelta, come un rombo di tuono, il verso di un corvo o un sinistro sussurro.</li>\n<li>L'incantatore fa in modo che una porta o una finestra non chiusa a chiave si spalanchi o si chiuda di colpo da sola.</li>\n<li>L'incantatore altera l'aspetto dei suoi occhi per 1 minuto.</li>\n</ul>\n\n<p>Se l'incantatore lancia questo incantesimo più volte, può mantenere attivi fino a tre dei suoi effetti da 1 minuto simultaneamente e può congedare uno di quegli effetti con un'azione.</p>"
         },
         "8dzaICjGy6mTUaUr": {
           "name": "Benedizione",
@@ -105,7 +106,7 @@
         },
         "SdlkEjYNERXh1yu3": {
           "name": "Anfibio",
-          "description": "<p>Il [[lookup @name lowercase]]{mostro} può respirare aria e acqua.</p>"
+          "description": "<p>La [[lookup @name lowercase]]{monster} può respirare in aria e acqua.</p>"
         },
         "lcr4sScJtejZDwKa": {
           "name": "Azioni Leggendarie",
@@ -347,7 +348,8 @@
           "name": "Salvare i Morenti"
         },
         "MUO1uYN7JR1hm4dR": {
-          "name": "Taumaturgia"
+          "name": "Taumaturgia",
+          "description": "<p>L'incantatore genera una meraviglia minore, una manifestazione di potere soprannaturale. Può creare uno degli effetti magici seguenti entro gittata:</p>\n<ul>\n<li>La sua voce rimbomba con potenza tre volte superiore rispetto al normale per 1 minuto.</li>\n<li>L'incantatore fa in modo che una fiamma tremi, si intensifichi, si affievolisca o cambi colore per 1 minuto.</li>\n<li>L'incantatore genera un tremito innocuo sul terreno per 1 minuto.</li>\n<li>L'incantatore crea un suono istantaneo che abbia origine da un punto entro gittata a sua scelta, come un rombo di tuono, il verso di un corvo o un sinistro sussurro.</li>\n<li>L'incantatore fa in modo che una porta o una finestra non chiusa a chiave si spalanchi o si chiuda di colpo da sola.</li>\n<li>L'incantatore altera l'aspetto dei suoi occhi per 1 minuto.</li>\n</ul>\n\n<p>Se l'incantatore lancia questo incantesimo più volte, può mantenere attivi fino a tre dei suoi effetti da 1 minuto simultaneamente e può congedare uno di quegli effetti con un'azione.</p>"
         },
         "arzCrMRgcNiQuh43": {
           "name": "Comando"
@@ -399,7 +401,7 @@
         },
         "FhfUU71G8WJDH4q4": {
           "name": "Armi Magiche",
-          "description": "<p>Gli attacchi con arma del [[lookup @name lowercase]]{mostro} sono magici.</p>"
+          "description": "<p>Gli attacchi con arma della [[lookup @name lowercase]]{monster} sono magici.</p>"
         },
         "zlcpHG8JZGvViCqm": {
           "name": "Teletrasporto",
@@ -453,7 +455,8 @@
             "dnd5eactivity000": {
               "name": "Lancia Incantesimo"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} lancia un incantesimo dalla propria lista di incantesimi preparati, usando normalmente uno slot incantesimo.</p>"
         },
         "zXzGfPnSFJbfZ7oW": {
           "name": "Incantesimi"
@@ -675,7 +678,8 @@
         },
         "WmQpxfjZwF3MGUby": {
           "name": "Globo di Invulnerabilità",
-          "materials": "una perla di vetro o cristallo che si frantuma al termine dell'incantesimo"
+          "materials": "una perla di vetro o cristallo che si frantuma al termine dell'incantesimo",
+          "description": "<p>Un immobile e&nbsp;tenuemente scintillante barriera prende forma in un raggio di 3 metri intorno all'incantatore e permane per la durata.</p><p>Qualsiasi incantesimo di 5&deg; livello o inferiore lanciato dall'esterno della barriera non pu&ograve; influenzare le creature od oggetti al suo interno, persino se l'incantesimo viene lanciato utilizzando uno slot incantesimo di livello superiore. Un incantesimo di questo tipo pu&ograve; prendere come bersaglio creature ed oggetti all'interno della barriera, ma l'incantesimo non ha alcun effetto su di essi. In maniera analoga, l'area all'interno della barriera viene esclusa dall'area d'effetto di quegli incantesimi. &nbsp;</p><p><strong>Ai Livelli Superiori.&nbsp;</strong>Quando l'incantatore lancia questo incantesimo utilizzando uno slot incantesimo di 7&deg; livello o superiore, la barriera blocca incantesimi di un livello superiore per ogni livello di slot superiore al 6&deg;.</p>"
         },
         "L4J89JXqbKs6puEV": {
           "name": "Teletrasporto",
@@ -685,7 +689,8 @@
           "name": "Vuoto Mentale"
         },
         "JYuRBwxpoFhXduvD": {
-          "name": "Fermare il Tempo"
+          "name": "Fermare il Tempo",
+          "description": "<p>L'incantatore ferma brevemente lo scorrere del tempo per chiunque eccetto se stesso. Il tempo non scorre per le altre creature, mentre l'incantatore guadagna 1d4 + 1 turni di seguito, durante i quali può effettuare azioni e muoversi&nbsp;come di consueto.</p><p>Questo incantesimo termina se una delle azioni che l'incantatore effettua durante questo periodo, o qualsiasi effetto che egli possa creare durante questo periodo, interessa una creatura diversa dall'incantatore od un oggetto indossato o portato da qualcuno diverso dall'incantatore. Inoltre, l'incantesimo termina se l'incantatore si sposta in un luogo a più di 300 metri dalla zona in cui è stato lanciato.</p>"
         },
         "1N8dDMMgZ1h1YJ3B": {
           "name": "Invisibilità",
@@ -870,7 +875,8 @@
           "chat": "<p>Il [[lookup @name]]{mostro} può muoversi attraverso altre creature e oggetti come se fossero &amp;reference[difficult terrain].</p>"
         },
         "1rEzqo8fiLbeFE07": {
-          "name": "Immunità allo Scacciare"
+          "name": "Immunità allo Scacciare",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} è immune ai privilegi che scacciano i non morti.</p>"
         },
         "d7ERliHkrcvQAF1X": {
           "name": "Falce Mietitrice",
@@ -1028,7 +1034,7 @@
         },
         "VLlNW1PkgzpXgBKr": {
           "name": "Armi Magiche",
-          "description": "<p>Gli attacchi con arma del [[lookup @name lowercase]]{mostro} sono magici.</p>"
+          "description": "<p>Gli attacchi con arma della [[lookup @name lowercase]]{monster} sono magici.</p>"
         },
         "nzkZgDrDq0RwWUao": {
           "name": "Agonia Mortale",
@@ -1472,7 +1478,8 @@
             "5RUe1bRJr64laA0l": {
               "name": "Parare l'Attacco"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{monster} aggiunge 2 alla sua CA contro un attacco in mischia che lo colpirebbe. Per farlo, il [[lookup @name lowercase]]{monster} deve vedere l’attaccante e deve impugnare un'arma da mischia.</p>"
         }
       },
       "details": {
@@ -1580,7 +1587,8 @@
             "5RUe1bRJr64laA0l": {
               "name": "Parare l'Attacco"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{monster} aggiunge 2 alla sua CA contro un attacco in mischia che lo colpirebbe. Per farlo, il [[lookup @name lowercase]]{monster} deve vedere l’attaccante e deve impugnare un'arma da mischia.</p>"
         },
         "Wrwg1LB1KnCQHuuH": {
           "name": "Coraggioso"
@@ -1652,7 +1660,8 @@
             "MNgx8MPcSucyc8VN": {
               "name": "Resistenza al Fuoco Conferita"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} può conferire resistenza ai <em>danni da fuoco</em> a chiunque lo cavalchi.</p>"
         },
         "YXCQq6M3IGaLDz2M": {
           "name": "Illuminazione"
@@ -1853,7 +1862,7 @@
         },
         "muIprvwkxlLF6dM3": {
           "name": "Anfibio",
-          "description": "<p>Il [[lookup @name lowercase]]{mostro} può respirare aria e acqua.</p>"
+          "description": "<p>La [[lookup @name lowercase]]{monster} può respirare in aria e acqua.</p>"
         },
         "XUzROtGqVZS61Ofm": {
           "name": "Tentacoli",
@@ -2174,7 +2183,8 @@
           "name": "Incantesimi Innati"
         },
         "MGh9IkfXNn7FmwL5": {
-          "name": "Mente Schermata"
+          "name": "Mente Schermata",
+          "description": "<p>Il [[lookup @name lowercase]]{monster} è immune agli scrutamenti e a qualsiasi effetto che possa percepire le sue emozioni, leggere i suoi pensieri o individuare la sua posizione.</p>"
         },
         "Mzh95utKDPIrjiH8": {
           "name": "Individuazione del Bene e del Male",
@@ -2241,7 +2251,7 @@
         },
         "KtxEQuB9SXybD09z": {
           "name": "Armi Magiche",
-          "description": "<p>Gli attacchi con arma del [[lookup @name lowercase]]{mostro} sono magici.</p>"
+          "description": "<p>Gli attacchi con arma della [[lookup @name lowercase]]{monster} sono magici.</p>"
         },
         "8LkzioyaScFxfst7": {
           "name": "Stritolare",
@@ -2717,7 +2727,7 @@
         },
         "xyT7cWc2NsSDZyYn": {
           "name": "Armi Magiche",
-          "description": "<p>Gli attacchi con arma del [[lookup @name lowercase]]{mostro} sono magici.</p>"
+          "description": "<p>Gli attacchi con arma della [[lookup @name lowercase]]{monster} sono magici.</p>"
         },
         "wkqjn4bqhPIUUo7k": {
           "name": "Aura di Paura",
@@ -3873,7 +3883,7 @@
         },
         "tcMcU8C97qfoFwNJ": {
           "name": "Anfibio",
-          "description": "<p>Il [[lookup @name lowercase]]{mostro} può respirare aria e acqua.</p>"
+          "description": "<p>La [[lookup @name lowercase]]{monster} può respirare in aria e acqua.</p>"
         },
         "sK2BoWjS3OuYVHTl": {
           "name": "Resistenza Leggendaria",
@@ -3982,7 +3992,7 @@
         },
         "rvfBnm5NdOYH4IrU": {
           "name": "Anfibio",
-          "description": "<p>Il [[lookup @name lowercase]]{mostro} può respirare aria e acqua.</p>"
+          "description": "<p>La [[lookup @name lowercase]]{monster} può respirare in aria e acqua.</p>"
         },
         "IinZa0G44HlZL1nq": {
           "name": "Resistenza Leggendaria",
@@ -4115,7 +4125,7 @@
         },
         "KlIuOYFx8OUMjbZU": {
           "name": "Anfibio",
-          "description": "<p>Il [[lookup @name lowercase]]{mostro} può respirare aria e acqua.</p>"
+          "description": "<p>La [[lookup @name lowercase]]{monster} può respirare in aria e acqua.</p>"
         }
       },
       "details": {
@@ -4155,7 +4165,7 @@
         },
         "A02zFTe8hrM8vUXI": {
           "name": "Anfibio",
-          "description": "<p>Il [[lookup @name lowercase]]{mostro} può respirare aria e acqua.</p>"
+          "description": "<p>La [[lookup @name lowercase]]{monster} può respirare in aria e acqua.</p>"
         },
         "qRuJSlOzJITBzcjv": {
           "name": "Artiglio",
@@ -4477,7 +4487,7 @@
         },
         "Wp5Zbgfex3XmySkq": {
           "name": "Anfibio",
-          "description": "<p>Il [[lookup @name lowercase]]{mostro} può respirare aria e acqua.</p>"
+          "description": "<p>La [[lookup @name lowercase]]{monster} può respirare in aria e acqua.</p>"
         },
         "Hwxcic6acJolHw9u": {
           "name": "Azioni Leggendarie",
@@ -4591,7 +4601,7 @@
         },
         "b5erIWKE9DQp2JPR": {
           "name": "Anfibio",
-          "description": "<p>Il [[lookup @name lowercase]]{mostro} può respirare aria e acqua.</p>"
+          "description": "<p>La [[lookup @name lowercase]]{monster} può respirare in aria e acqua.</p>"
         },
         "Kbap7Kabq2cGynt9": {
           "name": "Resistenza Leggendaria",
@@ -4714,7 +4724,7 @@
         },
         "HhVw9jFpoaxhcvrn": {
           "name": "Anfibio",
-          "description": "<p>Il [[lookup @name lowercase]]{mostro} può respirare aria e acqua.</p>"
+          "description": "<p>La [[lookup @name lowercase]]{monster} può respirare in aria e acqua.</p>"
         }
       },
       "details": {
@@ -4749,7 +4759,7 @@
         },
         "z1P0RbYFfEJX8DNL": {
           "name": "Anfibio",
-          "description": "<p>Il [[lookup @name lowercase]]{mostro} può respirare aria e acqua.</p>"
+          "description": "<p>La [[lookup @name lowercase]]{monster} può respirare in aria e acqua.</p>"
         },
         "LGFPSpA0pvVpj3cF": {
           "name": "Artiglio",
@@ -5093,7 +5103,7 @@
         },
         "hXswroxnO4Vgg6KJ": {
           "name": "Anfibio",
-          "description": "<p>Il [[lookup @name lowercase]]{mostro} può respirare aria e acqua.</p>"
+          "description": "<p>La [[lookup @name lowercase]]{monster} può respirare in aria e acqua.</p>"
         },
         "A3azHlbNcHLRgogu": {
           "name": "Presenza Terrificante",
@@ -5179,7 +5189,7 @@
         },
         "CBwTwMTYrbNXCdPG": {
           "name": "Anfibio",
-          "description": "<p>Il [[lookup @name lowercase]]{mostro} può respirare aria e acqua.</p>"
+          "description": "<p>La [[lookup @name lowercase]]{monster} può respirare in aria e acqua.</p>"
         },
         "QR8LYH2jgp7fI0MF": {
           "name": "Resistenza Leggendaria",
@@ -5276,7 +5286,7 @@
         },
         "ysyx12MLFCQpD3NA": {
           "name": "Anfibio",
-          "description": "<p>Il [[lookup @name lowercase]]{mostro} può respirare aria e acqua.</p>"
+          "description": "<p>La [[lookup @name lowercase]]{monster} può respirare in aria e acqua.</p>"
         }
       },
       "details": {
@@ -5294,7 +5304,7 @@
         },
         "6N9Y6JGPD6C1N4yL": {
           "name": "Anfibio",
-          "description": "<p>Il [[lookup @name lowercase]]{mostro} può respirare aria e acqua.</p>"
+          "description": "<p>La [[lookup @name lowercase]]{monster} può respirare in aria e acqua.</p>"
         },
         "RV4M3hdgqPgUlKip": {
           "name": "Soffio di Acido",
@@ -5591,7 +5601,7 @@
         },
         "GulXNndFdgIGNF5f": {
           "name": "Anfibio",
-          "description": "<p>Il [[lookup @name lowercase]]{mostro} può respirare aria e acqua.</p>"
+          "description": "<p>La [[lookup @name lowercase]]{monster} può respirare in aria e acqua.</p>"
         },
         "zsGdaiUrr69pvYWf": {
           "name": "Resistenza Leggendaria",
@@ -5683,7 +5693,7 @@
         },
         "ZznV7xb0PUnGP7vv": {
           "name": "Anfibio",
-          "description": "<p>Il [[lookup @name lowercase]]{mostro} può respirare aria e acqua.</p>"
+          "description": "<p>La [[lookup @name lowercase]]{monster} può respirare in aria e acqua.</p>"
         },
         "TBCkZRWkPiWO3Dtp": {
           "name": "Resistenza Leggendaria",
@@ -5788,7 +5798,7 @@
         },
         "NKSFy0qwS1M30Mb4": {
           "name": "Anfibio",
-          "description": "<p>Il [[lookup @name lowercase]]{mostro} può respirare aria e acqua.</p>"
+          "description": "<p>La [[lookup @name lowercase]]{monster} può respirare in aria e acqua.</p>"
         }
       },
       "details": {
@@ -5811,7 +5821,7 @@
         },
         "FhV1rSsYQlrAK7el": {
           "name": "Anfibio",
-          "description": "<p>Il [[lookup @name lowercase]]{mostro} può respirare aria e acqua.</p>"
+          "description": "<p>La [[lookup @name lowercase]]{monster} può respirare in aria e acqua.</p>"
         },
         "y0ah5CNeERfDAyP9": {
           "name": "Soffio di Veleno",
@@ -5886,7 +5896,8 @@
           "name": "Incantesimi Innati"
         },
         "beL4bLUcyTb1Sxgz": {
-          "name": "Parlare con le Bestie e i Vegetali"
+          "name": "Parlare con le Bestie e i Vegetali",
+          "description": "<p>La [[lookup @name lowercase]]{monster} può comunicare con le bestie e i vegetali come se condividesse con loro un linguaggio.</p>"
         },
         "DNPx6Myd5rHTGu4a": {
           "name": "Randello",
@@ -5996,7 +6007,7 @@
         },
         "pGPhMpmW6Ib83Dyi": {
           "name": "Andatura sulla Ragnatela",
-          "description": "<p>Il [[lookup @name lowercase]]{mostro} ignora le restrizioni al movimento causate dalle ragnatele.</p>"
+          "description": "<p>L'[[lookup @name lowercase]]{monster} ignora le restrizioni di movimento causate dalle ragnatele.</p>"
         },
         "utDSjYtAdPyR8rKZ": {
           "name": "Sensibilità alla Luce Solare",
@@ -6615,7 +6626,7 @@
         },
         "2XgqUsUs0WdoqvO2": {
           "name": "Andatura sulla Ragnatela",
-          "description": "<p>Il [[lookup @name lowercase]]{mostro} ignora le restrizioni al movimento causate dalle ragnatele.</p>"
+          "description": "<p>L'[[lookup @name lowercase]]{monster} ignora le restrizioni di movimento causate dalle ragnatele.</p>"
         },
         "ge9uzaqWrdMPogPT": {
           "name": "Percezione della Ragnatela",
@@ -6748,7 +6759,8 @@
           "description": "<p>Una luminosità simile a una fiamma scende su una creatura che puoi vedere entro gittata. Il bersaglio deve superare un tiro salvezza su Destrezza, altrimenti subisce 1d8 danni radiosi. Il bersaglio non ottiene alcun beneficio dalla copertura per questo tiro salvezza.</p><p>I danni dell'incantesimo aumentano di 1d8 quando raggiungi il 5° livello (2d8), l'11° livello (3d8) e il 17° livello (4d8).</p>"
         },
         "MUO1uYN7JR1hm4dR": {
-          "name": "Taumaturgia"
+          "name": "Taumaturgia",
+          "description": "<p>L'incantatore genera una meraviglia minore, una manifestazione di potere soprannaturale. Può creare uno degli effetti magici seguenti entro gittata:</p>\n<ul>\n<li>La sua voce rimbomba con potenza tre volte superiore rispetto al normale per 1 minuto.</li>\n<li>L'incantatore fa in modo che una fiamma tremi, si intensifichi, si affievolisca o cambi colore per 1 minuto.</li>\n<li>L'incantatore genera un tremito innocuo sul terreno per 1 minuto.</li>\n<li>L'incantatore crea un suono istantaneo che abbia origine da un punto entro gittata a sua scelta, come un rombo di tuono, il verso di un corvo o un sinistro sussurro.</li>\n<li>L'incantatore fa in modo che una porta o una finestra non chiusa a chiave si spalanchi o si chiuda di colpo da sola.</li>\n<li>L'incantatore altera l'aspetto dei suoi occhi per 1 minuto.</li>\n</ul>\n\n<p>Se l'incantatore lancia questo incantesimo più volte, può mantenere attivi fino a tre dei suoi effetti da 1 minuto simultaneamente e può congedare uno di quegli effetti con un'azione.</p>"
         },
         "arzCrMRgcNiQuh43": {
           "name": "Comando"
@@ -6967,7 +6979,8 @@
           }
         },
         "4wbSkOyE4ZqKLPQ6": {
-          "name": "Effimero"
+          "name": "Effimero",
+          "description": "<p>Il [[lookup @name lowercase]]{monster} non può indossare o trasportare niente.</p>"
         },
         "vJR81iEOZYNMuAdz": {
           "name": "Invisibilità",
@@ -7341,7 +7354,8 @@
           "description": "\n<p>L'incantatore è avvolto per un istante da una foschia argentata e si teletrasporta di un massimo di 9 metri fino a uno spazio libero che egli sia in grado di vedere.</p>"
         },
         "HQfd7jJyULIoGxrZ": {
-          "name": "Telecinesi"
+          "name": "Telecinesi",
+          "description": "<p>L'incantatore ottiene la capacità di spostare o manipolare le creature o gli oggetti con la forza del pensiero.</p><p><strong>Quando lancia l'incantesimo e come sua azione ogni round per la durata dell'incantesimo, può proiettare la sua volontà su una creatura o un oggetto situato entro gittata e che egli sia in grado di vedere, causando l'effetto appropriato sottostante.</strong>L'incantatore può influenzare lo stesso bersaglio round dopo round, oppure sceglierne uno nuovo in qualsiasi momento.</p><p>Se cambia bersaglio, il bersaglio precedente non è più influenzato dall'incantesimo</p><p><strong>Creatura.&nbsp;</strong>L'incantatore può tentare di muovere una creatura di taglia Enorme o inferiore, effettuando una prova di caratteristica con la propria caratteristica da incantatore contrapposta alla prova di Forza della creatura. Se vince la contesa, muove la creatura di un massimo di 9 metri in qualsiasi direzione, anche verticalmente, ma non oltre la gittata dell'incantesimo. Fino alla fine del turno successivo dell'incantatore, la creatura è trattenuta dalla morsa telecinetica. Una creatura sollevata verticalmente rimane sospesa a mezz'aria. Nei round successivi, l'incantatore può usare la sua azione per tentare di mantenere la sua morsa telecinetica sulla creatura ripetendo la contesa.</p><p>Oggetto.&nbsp;</p><p>L'incantatore può tentare di muovere un oggetto dal peso massimo di 500 kg. Se l'oggetto non è indossato o trasportato, l'incantatore può muoverlo automaticamente di un masimo di 9 metri in qualsiasi direzione, ma non oltre la gittata di questo incantesimo. Se l'oggetto è indossato o trasportato da una creatura, l'incantatore deve effettuare una prova di caratteristica con la sua caratteristica da incantatore contrapposta a una prova di Forza di quella creatura. Se vince la contesa, strappa l'oggetto a quella creatura e può muoverlo di un massimo di 9 metri in qualsiasi direzione, ma non oltre la gittata di questo incantesimo. L'incantatore può esercitare un controllo più preciso, come manipolare un semplice strumento, aprire una porta o un contenitore, riporre o prelevare un oggetto da un contenitore aperto o versare i contenuti di una fiala.</p>"
         },
         "ZPd73HtKF3At11jh": {
           "name": "Controllare Tempo Atmosferico",
@@ -7462,7 +7476,7 @@
         },
         "cO04gKkMlOPTSz11": {
           "name": "Anfibio",
-          "description": "<p>Il [[lookup @name lowercase]]{mostro} può respirare aria e acqua.</p>"
+          "description": "<p>La [[lookup @name lowercase]]{monster} può respirare in aria e acqua.</p>"
         },
         "bRdk2uZ6iTuNGUIL": {
           "name": "Roccia",
@@ -7562,7 +7576,7 @@
         },
         "GXLW4GChgXILafnu": {
           "name": "Armi Magiche",
-          "description": "<p>Gli attacchi con arma del [[lookup @name lowercase]]{mostro} sono magici.</p>"
+          "description": "<p>Gli attacchi con arma della [[lookup @name lowercase]]{monster} sono magici.</p>"
         },
         "h2uhsiqwMu8RnqpZ": {
           "name": "Azioni Leggendarie",
@@ -7591,7 +7605,8 @@
             "dnd5eactivity000": {
               "name": "Lancia Incantesimo"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} lancia un incantesimo dalla propria lista di incantesimi preparati, usando normalmente uno slot incantesimo.</p>"
         },
         "f8zut6gBBsfoAikg": {
           "name": "Imperscrutabile"
@@ -7886,11 +7901,12 @@
           "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di vantaggio ai tiri salvezza contro incantesimi e altri effetti magici.</p>"
         },
         "og0rfDmwPObM3ulb": {
-          "name": "Forma Immutabile"
+          "name": "Forma Immutabile",
+          "description": "<p>Il [[lookup @name lowercase]]{monster} è immune a qualsiasi incantesimo o effetto che tenti di alterare la sua forma.</p>"
         },
         "J1NgIuQWtR4G9JKd": {
           "name": "Armi Magiche",
-          "description": "<p>Gli attacchi con arma del [[lookup @name lowercase]]{mostro} sono magici.</p>"
+          "description": "<p>Gli attacchi con arma della [[lookup @name lowercase]]{monster} sono magici.</p>"
         },
         "hftXBQthz8jMjFTs": {
           "name": "Assorbimento dell'Acido",
@@ -7966,7 +7982,7 @@
         },
         "YxQj8rquUdekT7me": {
           "name": "Armi Magiche",
-          "description": "<p>Gli attacchi con arma del [[lookup @name lowercase]]{mostro} sono magici.</p>"
+          "description": "<p>Gli attacchi con arma della [[lookup @name lowercase]]{monster} sono magici.</p>"
         },
         "MjPSsJkOhT9vW4Zf": {
           "name": "Assorbimento del Fulmine",
@@ -7977,7 +7993,8 @@
           }
         },
         "saNeJhD61HGgts1B": {
-          "name": "Forma Immutabile"
+          "name": "Forma Immutabile",
+          "description": "<p>Il [[lookup @name lowercase]]{monster} è immune a qualsiasi incantesimo o effetto che tenti di alterare la sua forma.</p>"
         },
         "SSHb3L6BEgIgfo8n": {
           "name": "Berserk",
@@ -8027,7 +8044,8 @@
           }
         },
         "yjYIBPfeldB4GfPg": {
-          "name": "Forma Immutabile"
+          "name": "Forma Immutabile",
+          "description": "<p>Il [[lookup @name lowercase]]{monster} è immune a qualsiasi incantesimo o effetto che tenti di alterare la sua forma.</p>"
         },
         "411cXgDidE6riKWk": {
           "name": "Resistenza Magica",
@@ -8035,7 +8053,7 @@
         },
         "VaP12qLKWB1XwlFQ": {
           "name": "Armi Magiche",
-          "description": "<p>Gli attacchi con arma del [[lookup @name lowercase]]{mostro} sono magici.</p>"
+          "description": "<p>Gli attacchi con arma della [[lookup @name lowercase]]{monster} sono magici.</p>"
         },
         "y2j6GWf1Ur3GRtYI": {
           "name": "Assorbimento del Fuoco",
@@ -8088,7 +8106,8 @@
           }
         },
         "eIZ74cwM3wnLHNIX": {
-          "name": "Forma Immutabile"
+          "name": "Forma Immutabile",
+          "description": "<p>Il [[lookup @name lowercase]]{monster} è immune a qualsiasi incantesimo o effetto che tenti di alterare la sua forma.</p>"
         },
         "lBKifUL9fLuDREOx": {
           "name": "Resistenza Magica",
@@ -8096,7 +8115,7 @@
         },
         "cv0gdC9Q1bgidGpG": {
           "name": "Armi Magiche",
-          "description": "<p>Gli attacchi con arma del [[lookup @name lowercase]]{mostro} sono magici.</p>"
+          "description": "<p>Gli attacchi con arma della [[lookup @name lowercase]]{monster} sono magici.</p>"
         },
         "DelAxHnRbNHC6OoV": {
           "name": "Schianto",
@@ -8213,7 +8232,7 @@
       "items": {
         "ciz8wAZjqxPnu5Pe": {
           "name": "Anfibio",
-          "description": "<p>Il [[lookup @name lowercase]]{mostro} può respirare aria e acqua.</p>"
+          "description": "<p>La [[lookup @name lowercase]]{monster} può respirare in aria e acqua.</p>"
         },
         "gvfgesIscW0VALbY": {
           "name": "Artiglio",
@@ -8233,7 +8252,7 @@
       "items": {
         "JX4r7y8EtvEimwc3": {
           "name": "Anfibio",
-          "description": "<p>Il [[lookup @name lowercase]]{mostro} può respirare aria e acqua.</p>"
+          "description": "<p>La [[lookup @name lowercase]]{monster} può respirare in aria e acqua.</p>"
         },
         "7qDtYuaBNQ3zOnBC": {
           "name": "Artiglio",
@@ -8850,7 +8869,7 @@
         },
         "RUz9ZKreZFNasH0I": {
           "name": "Anfibio",
-          "description": "<p>Il [[lookup @name lowercase]]{mostro} può respirare aria e acqua.</p>"
+          "description": "<p>La [[lookup @name lowercase]]{monster} può respirare in aria e acqua.</p>"
         },
         "i2Ck12oznqdwTHzl": {
           "name": "Azioni Leggendarie",
@@ -9195,7 +9214,8 @@
         },
         "WmQpxfjZwF3MGUby": {
           "name": "Globo di Invulnerabilità",
-          "materials": "una perla di vetro o cristallo che si frantuma al termine dell'incantesimo"
+          "materials": "una perla di vetro o cristallo che si frantuma al termine dell'incantesimo",
+          "description": "<p>Un immobile e&nbsp;tenuemente scintillante barriera prende forma in un raggio di 3 metri intorno all'incantatore e permane per la durata.</p><p>Qualsiasi incantesimo di 5&deg; livello o inferiore lanciato dall'esterno della barriera non pu&ograve; influenzare le creature od oggetti al suo interno, persino se l'incantesimo viene lanciato utilizzando uno slot incantesimo di livello superiore. Un incantesimo di questo tipo pu&ograve; prendere come bersaglio creature ed oggetti all'interno della barriera, ma l'incantesimo non ha alcun effetto su di essi. In maniera analoga, l'area all'interno della barriera viene esclusa dall'area d'effetto di quegli incantesimi. &nbsp;</p><p><strong>Ai Livelli Superiori.&nbsp;</strong>Quando l'incantatore lancia questo incantesimo utilizzando uno slot incantesimo di 7&deg; livello o superiore, la barriera blocca incantesimi di un livello superiore per ogni livello di slot superiore al 6&deg;.</p>"
         },
         "kRUqLj1kgOPNQbV1": {
           "name": "Azioni Leggendarie",
@@ -9738,7 +9758,8 @@
       },
       "items": {
         "7GyypGVW1RhhbcqC": {
-          "name": "Ricrescita degli Aculei Caudali"
+          "name": "Ricrescita degli Aculei Caudali",
+          "description": "<p>La [[lookup @name lowercase]]{monster} possiede &lt;#&gt; aculei caudali. Quelli usati ricrescono quando la [[lookup @name lowercase]]{monster} completa un riposo lungo.</p>"
         },
         "Wr6BSqrXAJZu28sp": {
           "name": "Multiattacco"
@@ -9924,14 +9945,15 @@
         },
         "bbSTKf4I6P8WpLkz": {
           "name": "Armi Magiche",
-          "description": "<p>Gli attacchi con arma del [[lookup @name lowercase]]{mostro} sono magici.</p>"
+          "description": "<p>Gli attacchi con arma della [[lookup @name lowercase]]{monster} sono magici.</p>"
         },
         "UnrtjJToJnn6qgVC": {
           "name": "Resistenza Magica",
           "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di vantaggio ai tiri salvezza contro incantesimi e altri effetti magici.</p>"
         },
         "rBHEI0gZnnv8h44g": {
-          "name": "Reattivo"
+          "name": "Reattivo",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} può effettuare una reazione in ogni turno di combattimento.</p>"
         },
         "BoIambnHLbZXr85T": {
           "name": "Coda"
@@ -9961,7 +9983,7 @@
         },
         "e6oIn0YWVkHwKVs8": {
           "name": "Anfibio",
-          "description": "<p>Il [[lookup @name lowercase]]{mostro} può respirare aria e acqua.</p>"
+          "description": "<p>La [[lookup @name lowercase]]{monster} può respirare in aria e acqua.</p>"
         }
       },
       "details": {
@@ -10072,7 +10094,7 @@
         },
         "mu6H0PnN6ZcY0JMl": {
           "name": "Anfibio",
-          "description": "<p>Il [[lookup @name lowercase]]{mostro} può respirare aria e acqua.</p>"
+          "description": "<p>La [[lookup @name lowercase]]{monster} può respirare in aria e acqua.</p>"
         },
         "a75Ba80yp6Y28AJQ": {
           "name": "Artigli",
@@ -10201,7 +10223,7 @@
         },
         "v7WLd38u9z94vJXR": {
           "name": "Anfibio",
-          "description": "<p>Il [[lookup @name lowercase]]{mostro} può respirare aria e acqua.</p>"
+          "description": "<p>La [[lookup @name lowercase]]{monster} può respirare in aria e acqua.</p>"
         },
         "gtixTr9i63RtsSCv": {
           "name": "Artigli",
@@ -10356,7 +10378,7 @@
         },
         "mlSE7NFjSHqjZcKO": {
           "name": "Anfibio",
-          "description": "<p>Il [[lookup @name lowercase]]{mostro} può respirare aria e acqua.</p>"
+          "description": "<p>La [[lookup @name lowercase]]{monster} può respirare in aria e acqua.</p>"
         },
         "bbB0SMNW3l2SHEz5": {
           "name": "Artigli",
@@ -10500,7 +10522,8 @@
           }
         },
         "Fybno0bT1qZO1sSj": {
-          "name": "Ricordo Labirintico"
+          "name": "Ricordo Labirintico",
+          "description": "<p>Il [[lookup @name lowercase]]{monster} è in grado di ricordarsi alla perfezione qualsiasi tragitto che abbia già percorso.</p>"
         },
         "lZ5YdCcXmEDR6vhb": {
           "name": "Ascia Bipenne",
@@ -10547,7 +10570,8 @@
       },
       "items": {
         "nIYcqw8lbaWP1sSJ": {
-          "name": "Bestia da Soma"
+          "name": "Bestia da Soma",
+          "description": "<p>La [[lookup @name lowercase]]{monster} è considerata un animale Grande al fine di determinare la sua capacità di trasporto.</p>"
         },
         "PWqvlPCG9P9edPYi": {
           "name": "Ben Piantato"
@@ -10635,7 +10659,8 @@
           "description": "<p>Una luminosità simile a una fiamma scende su una creatura che puoi vedere entro gittata. Il bersaglio deve superare un tiro salvezza su Destrezza, altrimenti subisce 1d8 danni radiosi. Il bersaglio non ottiene alcun beneficio dalla copertura per questo tiro salvezza.</p><p>I danni dell'incantesimo aumentano di 1d8 quando raggiungi il 5° livello (2d8), l'11° livello (3d8) e il 17° livello (4d8).</p>"
         },
         "MUO1uYN7JR1hm4dR": {
-          "name": "Taumaturgia"
+          "name": "Taumaturgia",
+          "description": "<p>L'incantatore genera una meraviglia minore, una manifestazione di potere soprannaturale. Può creare uno degli effetti magici seguenti entro gittata:</p>\n<ul>\n<li>La sua voce rimbomba con potenza tre volte superiore rispetto al normale per 1 minuto.</li>\n<li>L'incantatore fa in modo che una fiamma tremi, si intensifichi, si affievolisca o cambi colore per 1 minuto.</li>\n<li>L'incantatore genera un tremito innocuo sul terreno per 1 minuto.</li>\n<li>L'incantatore crea un suono istantaneo che abbia origine da un punto entro gittata a sua scelta, come un rombo di tuono, il verso di un corvo o un sinistro sussurro.</li>\n<li>L'incantatore fa in modo che una porta o una finestra non chiusa a chiave si spalanchi o si chiuda di colpo da sola.</li>\n<li>L'incantatore altera l'aspetto dei suoi occhi per 1 minuto.</li>\n</ul>\n\n<p>Se l'incantatore lancia questo incantesimo più volte, può mantenere attivi fino a tre dei suoi effetti da 1 minuto simultaneamente e può congedare uno di quegli effetti con un'azione.</p>"
         },
         "arzCrMRgcNiQuh43": {
           "name": "Comando"
@@ -10871,7 +10896,8 @@
             "5RUe1bRJr64laA0l": {
               "name": "Parare l'Attacco"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{monster} aggiunge 2 alla sua CA contro un attacco in mischia che lo colpirebbe. Per farlo, il [[lookup @name lowercase]]{monster} deve vedere l’attaccante e deve impugnare un'arma da mischia.</p>"
         }
       },
       "details": {
@@ -11062,7 +11088,7 @@
         },
         "TCJLfMzkArxZePFY": {
           "name": "Armi Magiche",
-          "description": "<p>Gli attacchi con arma del [[lookup @name lowercase]]{mostro} sono magici.</p>"
+          "description": "<p>Gli attacchi con arma della [[lookup @name lowercase]]{monster} sono magici.</p>"
         },
         "q7J7PERrJb2vxtlt": {
           "name": "Artiglio (Solo in Forma di Oni)",
@@ -11627,7 +11653,8 @@
           "name": "Armi Angeliche"
         },
         "2kBUlTLMlwq3KoUB": {
-          "name": "Consapevolezza Divina"
+          "name": "Consapevolezza Divina",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} sa quando sente una menzogna.</p>"
         },
         "2C0408CEBtrZW8ji": {
           "name": "Invisibilità (solo se stesso)",
@@ -11990,7 +12017,7 @@
         },
         "GQ8a63ou7VwIGrvv": {
           "name": "Andatura sulla Ragnatela",
-          "description": "<p>Il [[lookup @name lowercase]]{mostro} ignora le restrizioni al movimento causate dalle ragnatele.</p>"
+          "description": "<p>L'[[lookup @name lowercase]]{monster} ignora le restrizioni di movimento causate dalle ragnatele.</p>"
         }
       },
       "details": {
@@ -12035,7 +12062,7 @@
         },
         "TfFmcNW4o6Ork9HS": {
           "name": "Andatura sulla Ragnatela",
-          "description": "<p>Il [[lookup @name lowercase]]{mostro} ignora le restrizioni al movimento causate dalle ragnatele.</p>"
+          "description": "<p>L'[[lookup @name lowercase]]{monster} ignora le restrizioni di movimento causate dalle ragnatele.</p>"
         }
       },
       "details": {
@@ -12073,7 +12100,7 @@
         },
         "6LIe3MnWba41tnEG": {
           "name": "Andatura sulla Ragnatela",
-          "description": "<p>Il [[lookup @name lowercase]]{mostro} ignora le restrizioni al movimento causate dalle ragnatele.</p>"
+          "description": "<p>L'[[lookup @name lowercase]]{monster} ignora le restrizioni di movimento causate dalle ragnatele.</p>"
         }
       },
       "details": {
@@ -12115,7 +12142,7 @@
         },
         "pnTjdoXNZUS406eW": {
           "name": "Andatura sulla Ragnatela",
-          "description": "<p>Il [[lookup @name lowercase]]{mostro} ignora le restrizioni al movimento causate dalle ragnatele.</p>"
+          "description": "<p>L'[[lookup @name lowercase]]{monster} ignora le restrizioni di movimento causate dalle ragnatele.</p>"
         }
       },
       "details": {
@@ -12221,7 +12248,7 @@
         },
         "aPDITZsJ4mjgo9zh": {
           "name": "Anfibio",
-          "description": "<p>Il [[lookup @name lowercase]]{mostro} può respirare aria e acqua.</p>"
+          "description": "<p>La [[lookup @name lowercase]]{monster} può respirare in aria e acqua.</p>"
         }
       },
       "details": {
@@ -12236,7 +12263,7 @@
       "items": {
         "Ycw51Yc97NIix4bm": {
           "name": "Anfibio",
-          "description": "<p>Il [[lookup @name lowercase]]{mostro} può respirare aria e acqua.</p>"
+          "description": "<p>La [[lookup @name lowercase]]{monster} può respirare in aria e acqua.</p>"
         },
         "9q7EEjZaHt58cSnA": {
           "name": "Balzo da Fermo"
@@ -12384,7 +12411,7 @@
         },
         "pGmnW07WgwOs2vOG": {
           "name": "Anfibio",
-          "description": "<p>Il [[lookup @name lowercase]]{mostro} può respirare aria e acqua.</p>"
+          "description": "<p>La [[lookup @name lowercase]]{monster} può respirare in aria e acqua.</p>"
         },
         "EbpP4ZBLskKjOd2s": {
           "name": "Balzo da Fermo"
@@ -12490,7 +12517,8 @@
           "description": "<p>Una luminosità simile a una fiamma scende su una creatura che puoi vedere entro gittata. Il bersaglio deve superare un tiro salvezza su Destrezza, altrimenti subisce 1d8 danni radiosi. Il bersaglio non ottiene alcun beneficio dalla copertura per questo tiro salvezza.</p><p>I danni dell'incantesimo aumentano di 1d8 quando raggiungi il 5° livello (2d8), l'11° livello (3d8) e il 17° livello (4d8).</p>"
         },
         "MUO1uYN7JR1hm4dR": {
-          "name": "Taumaturgia"
+          "name": "Taumaturgia",
+          "description": "<p>L'incantatore genera una meraviglia minore, una manifestazione di potere soprannaturale. Può creare uno degli effetti magici seguenti entro gittata:</p>\n<ul>\n<li>La sua voce rimbomba con potenza tre volte superiore rispetto al normale per 1 minuto.</li>\n<li>L'incantatore fa in modo che una fiamma tremi, si intensifichi, si affievolisca o cambi colore per 1 minuto.</li>\n<li>L'incantatore genera un tremito innocuo sul terreno per 1 minuto.</li>\n<li>L'incantatore crea un suono istantaneo che abbia origine da un punto entro gittata a sua scelta, come un rombo di tuono, il verso di un corvo o un sinistro sussurro.</li>\n<li>L'incantatore fa in modo che una porta o una finestra non chiusa a chiave si spalanchi o si chiuda di colpo da sola.</li>\n<li>L'incantatore altera l'aspetto dei suoi occhi per 1 minuto.</li>\n</ul>\n\n<p>Se l'incantatore lancia questo incantesimo più volte, può mantenere attivi fino a tre dei suoi effetti da 1 minuto simultaneamente e può congedare uno di quegli effetti con un'azione.</p>"
         },
         "7buEm5KhI5lP8m1z": {
           "name": "Dardo Tracciante",
@@ -13309,7 +13337,8 @@
           "description": "<p>Una luminosità simile a una fiamma scende su una creatura che puoi vedere entro gittata. Il bersaglio deve superare un tiro salvezza su Destrezza, altrimenti subisce 1d8 danni radiosi. Il bersaglio non ottiene alcun beneficio dalla copertura per questo tiro salvezza.</p><p>I danni dell'incantesimo aumentano di 1d8 quando raggiungi il 5° livello (2d8), l'11° livello (3d8) e il 17° livello (4d8).</p>"
         },
         "MUO1uYN7JR1hm4dR": {
-          "name": "Taumaturgia"
+          "name": "Taumaturgia",
+          "description": "<p>L'incantatore genera una meraviglia minore, una manifestazione di potere soprannaturale. Può creare uno degli effetti magici seguenti entro gittata:</p>\n<ul>\n<li>La sua voce rimbomba con potenza tre volte superiore rispetto al normale per 1 minuto.</li>\n<li>L'incantatore fa in modo che una fiamma tremi, si intensifichi, si affievolisca o cambi colore per 1 minuto.</li>\n<li>L'incantatore genera un tremito innocuo sul terreno per 1 minuto.</li>\n<li>L'incantatore crea un suono istantaneo che abbia origine da un punto entro gittata a sua scelta, come un rombo di tuono, il verso di un corvo o un sinistro sussurro.</li>\n<li>L'incantatore fa in modo che una porta o una finestra non chiusa a chiave si spalanchi o si chiuda di colpo da sola.</li>\n<li>L'incantatore altera l'aspetto dei suoi occhi per 1 minuto.</li>\n</ul>\n\n<p>Se l'incantatore lancia questo incantesimo più volte, può mantenere attivi fino a tre dei suoi effetti da 1 minuto simultaneamente e può congedare uno di quegli effetti con un'azione.</p>"
         },
         "arzCrMRgcNiQuh43": {
           "name": "Comando"
@@ -13348,7 +13377,8 @@
           "materials": "incenso e un'offerta sacrificale appropriata alla religione dell'incantatore, del valore complessivo di almeno 25 mo, che l'incantesimo consuma"
         },
         "TgHsuhNasPbhu8MO": {
-          "name": "Guardiano della Fede"
+          "name": "Guardiano della Fede",
+          "description": "<p>Un guardiano spettrale Grande compare e fluttua per la durata dell'incantesimo in uno spazio libero a scelta dell'incantatore situato entro gittata e che egli sia in grado di vedere. Il guardiano occupa quello spazio ed è sfocato, ad eccezione di una spada scintillante e uno scudo decorati con il simbolo della divinità dell'incantatore.</p><p>Ogni creatura ostile all'incantatore che si muova fino a uno spazio entro 3 metri dal guardiano per la prima volta in un turno deve superare un tiro salvezza su Destrezza. Se lo fallisce, subisce 20 danni radiosi, mentre se lo supera, subisce soltanto la metà di quei danni. &nbsp; Il guardiano svanisce quando ha inferto un totale di 60 danni.</p>"
         },
         "CjIq8Ed7bu3vVwT1": {
           "name": "Contagio"
@@ -13358,7 +13388,8 @@
           "materials": "alcuni granelli di zucchero, alcuni chicchi di grano e un pezzetto di grasso animale"
         },
         "tMH6Ivn4GmE1naMj": {
-          "name": "Ferire"
+          "name": "Ferire",
+          "description": "<p>L'incantatore rilascia una&nbsp;virulenta malattia contro una creatura che sia visibile ed entro gittata. Il bersaglio deve effettuare un tiro salvezza Costituzione. Se lo fallisce, subisce 14d6 danni necrotici oppure la metà di quel danno se lo supera. Il danno non può ridurre i punti ferita del bersaglio a meno di 1. &nbsp; Se il bersaglio fallisce il tiro salvezza, i suoi punti ferita massimi sono ridotti per 1 ora di un ammontare pari al danno necrotico subito. Qualsiasi effetto che rimuova una malattia permette ad una creatura di recuperare i punti ferita massimi normali prima che passi quel tempo.</p>"
         },
         "0kFyfGqZK7GzUNGv": {
           "name": "Resistenza Magica",
@@ -13531,7 +13562,8 @@
           }
         },
         "WjycsIAlfnBDg9ec": {
-          "name": "Consapevolezza Divina"
+          "name": "Consapevolezza Divina",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} sa quando sente una menzogna.</p>"
         },
         "VAcvTNQf5hrdzQEh": {
           "name": "Armi Angeliche"
@@ -14152,7 +14184,7 @@
         },
         "kz0dD5J9FQTTryWp": {
           "name": "Anfibio",
-          "description": "<p>Il [[lookup @name lowercase]]{mostro} può respirare aria e acqua.</p>"
+          "description": "<p>La [[lookup @name lowercase]]{monster} può respirare in aria e acqua.</p>"
         },
         "P4joxK4BwyYsPfJv": {
           "name": "Artiglio",
@@ -14644,7 +14676,7 @@
         },
         "AobEIVsjaSlaSRiD": {
           "name": "Armi Magiche",
-          "description": "<p>Gli attacchi con arma del [[lookup @name lowercase]]{mostro} sono magici.</p>"
+          "description": "<p>Gli attacchi con arma della [[lookup @name lowercase]]{monster} sono magici.</p>"
         },
         "6zUj0WyV0m7odlPl": {
           "name": "Azioni Leggendarie",
@@ -14854,7 +14886,8 @@
           }
         },
         "ZgUj67GknsWFnbAR": {
-          "name": "Scavatore"
+          "name": "Scavatore",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} può scavare attraverso la roccia solida a metà della propria velocità di scavare e lascia dietro di sé un tunnel del diametro di 3 metri.</p>"
         },
         "yOjkK3f9jt2fYu3M": {
           "name": "Pungiglione Caudale",

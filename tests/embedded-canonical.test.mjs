@@ -108,6 +108,26 @@ test("reuses a canonical translation across the legacy Higher Levels heading var
   );
 });
 
+test("reuses a canonical translation across case and nonbreaking-space-only legacy differences", () => {
+  const sourceRecord = canonicalRecord();
+  sourceRecord.data.system.description.value =
+    "<p>the torch remains lit for the duration.</p>";
+  const translationRecord = structuredClone(canonicalTranslation);
+  translationRecord.data.description =
+    "<p>la torcia rimane accesa per la durata.</p>";
+  const actor = actorRecord("<p>The torch remains lit for the Duration.\u00a0</p>");
+  const canonicalByUuid = new Map([
+    ["Compendium.dnd5e.items.Item.canonical1", { sourceRecord, translationRecord }]
+  ]);
+
+  const overrides = buildCanonicalEmbeddedOverrides({ actorRecord: actor, canonicalByUuid });
+
+  assert.equal(
+    overrides["items[embedded1].system.description.value"],
+    "<p>la torcia rimane accesa per la durata.</p>"
+  );
+});
+
 test("uses the dnd5e sourceId when compendiumSource is absent", () => {
   const canonicalByUuid = new Map([
     ["Compendium.dnd5e.items.Item.canonical1", {

@@ -29,7 +29,14 @@ function fieldShape(fieldPath) {
 
 function normalizeKnownLegacyProse(value) {
   return typeof value === "string"
-    ? value.replace(/(<strong>)At Higher Levels\.(<\/strong>)/g, "$1Higher Levels.$2")
+    ? value
+      .replace(/\u00a0/g, " ")
+      .replace(/(<strong>)At Higher Levels\.(<\/strong>)/gi, "$1Higher Levels.$2")
+      .replace(/\s+/g, " ")
+      .replace(/>\s+/g, ">")
+      .replace(/\s+</g, "<")
+      .trim()
+      .toLowerCase()
     : value;
 }
 
