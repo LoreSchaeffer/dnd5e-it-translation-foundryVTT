@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1783,
+      "translated": 1784,
       "missing": 69,
-      "partial": 539,
+      "partial": 538,
       "review": 69
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 10042,
-      "missing": 5618,
+      "translated": 10046,
+      "missing": 5614,
       "invariantFailures": 853,
       "englishResiduals": 71,
       "imperialResiduals": 0
     },
-    "blockingIssues": 6479
+    "blockingIssues": 6475
   },
   "packs": [
     {
@@ -143,9 +143,9 @@
       "summary": {
         "documents": {
           "total": 12,
-          "translated": 10,
+          "translated": 11,
           "missing": 0,
-          "partial": 2,
+          "partial": 1,
           "review": 0
         },
         "folders": {
@@ -157,50 +157,14 @@
         },
         "fields": {
           "total": 1165,
-          "translated": 1150,
-          "missing": 15,
+          "translated": 1154,
+          "missing": 11,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "Jw8DeuPjt1qpusdB",
-          "name": "Sefris (Half-Elf Warlock)",
-          "fieldPath": "items[8uFLMKLwRO7Y5Xl2].system.description.value",
-          "sourcePath": "heroes/sefris-half-elf-warlock.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "Jw8DeuPjt1qpusdB",
-          "name": "Sefris (Half-Elf Warlock)",
-          "fieldPath": "items[HXPw0uc6V7RW9aUv].system.description.value",
-          "sourcePath": "heroes/sefris-half-elf-warlock.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "Jw8DeuPjt1qpusdB",
-          "name": "Sefris (Half-Elf Warlock)",
-          "fieldPath": "items[Tdogp6mS8Fnea1Th].system.description.value",
-          "sourcePath": "heroes/sefris-half-elf-warlock.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "Jw8DeuPjt1qpusdB",
-          "name": "Sefris (Half-Elf Warlock)",
-          "fieldPath": "items[vIPAhNx55Fthm9R3].system.description.value",
-          "sourcePath": "heroes/sefris-half-elf-warlock.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
