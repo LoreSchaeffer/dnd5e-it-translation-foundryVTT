@@ -12596,7 +12596,8 @@
           "name": "Invisibilità",
           "effects": {
             "dJA0IOGziAr9Onj9": {
-              "name": "Invisibilità"
+              "name": "Invisibilità",
+              "description": "<p>Sei &amp;reference[invisible] finché non attacchi o usi @UUID[Compendium.dnd5e.monsters.Actor.bwtkdzavdNHISgp4.Item.1YhP86rTuRIXKFi2]{Spaventare}, oppure finché la tua concentrazione non termina (come se ti stessi concentrando su un incantesimo). Anche l'equipaggiamento che indossi o trasporti è invisibile.</p>"
             }
           },
           "activities": {
@@ -12604,7 +12605,8 @@
               "name": "Diventa Invisibile"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} diventa magicamente &amp;reference[invisible]. Ogni oggetto che il [[lookup @name]]{mostro} indossa o trasporta diventa invisibile assieme a esso.</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} diventa magicamente &amp;reference[invisible]. Ogni oggetto che il [[lookup @name]]{mostro} indossa o trasporta diventa invisibile assieme a esso.</p>",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} diventa magicamente &amp;reference[invisible] finché non attacca o usa @UUID[Compendium.dnd5e.monsters.Actor.bwtkdzavdNHISgp4.Item.1YhP86rTuRIXKFi2]{Spaventare}, oppure finché la sua concentrazione non termina (come se si stesse concentrando su un incantesimo). Anche l'equipaggiamento indossato o trasportato dal [[lookup @name lowercase]]{mostro} diventa invisibile assieme a esso.</p>"
         },
         "e8rpvJJVWCN4HU7I": {
           "name": "Mutaforma",
@@ -12623,7 +12625,9 @@
               },
               "name": "Mutare Forma"
             }
-          }
+          },
+          "description": "<p>Il quasit può usare la propria azione per trasformarsi in una bestia simile a un pipistrello (velocità 3 m, volare 12 m), un centopiede (12 m, scalare 12 m) o un rospo (12 m, nuotare 12 m), oppure per tornare alla propria forma autentica. Le sue statistiche sono le stesse in ogni forma, a eccezione delle modifiche alla velocità indicate.</p><p>L'equipaggiamento che indossa o trasporta non viene trasformato. Se muore, torna alla propria forma autentica.</p>",
+          "chat": "<p>Il quasit può usare la propria azione per <strong>trasformarsi</strong> in una bestia o per tornare alla propria forma autentica.</p>"
         },
         "1YhP86rTuRIXKFi2": {
           "name": "Spaventare",
@@ -12634,9 +12638,12 @@
           },
           "effects": {
             "DiTStRlGa6CI65oe": {
-              "name": "Impaurito"
+              "name": "Impaurito",
+              "description": "<p>Sei &amp;reference[frightened apply=false].</p><p>Puoi ripetere il tiro salvezza alla fine di ciascuno dei tuoi turni, con svantaggio se il quasit si trova nella tua linea di vista, e se lo superi l'effetto su di te termina.</p>"
             }
-          }
+          },
+          "description": "<p>Una creatura a scelta del [[lookup @name lowercase]]{mostro} entro [[lookup @labels.description.range activity=zQ8s6ZTP8J2d98cR]] da esso deve superare un tiro salvezza [[/save]], altrimenti è &amp;Reference[frightened] per [[lookup @labels.duration activity=zQ8s6ZTP8J2d98cR]].</p><p>Il bersaglio può ripetere il tiro salvezza alla fine di ciascuno dei propri turni, con svantaggio se il [[lookup @name lowercase]]{mostro} si trova nella sua linea di vista, e se lo supera l'effetto su di esso termina.</p>",
+          "chat": "<p>Una creatura a scelta del quasit entro 6 metri da esso deve effettuare un tiro salvezza su <strong>Saggezza</strong>. Il bersaglio può ripetere il tiro salvezza alla fine di ciascuno dei propri turni, con svantaggio se il quasit si trova nella sua linea di vista, e se lo supera l'effetto su di esso termina.</p>"
         },
         "BazHsWJucole1yk3": {
           "name": "Resistenza Magica",
@@ -12651,10 +12658,12 @@
           },
           "effects": {
             "lj4cHP3WVTg1ePKt": {
-              "name": "Veleno del Quasit"
+              "name": "Veleno del Quasit",
+              "description": "<p>Sei &amp;reference[poisoned apply=false].</p><p>Puoi ripetere il tiro salvezza alla fine di ciascuno dei tuoi turni e, se lo superi, l'effetto su di te termina.</p>"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio deve effettuare un tiro salvezza su Costituzione. Può ripetere il tiro salvezza alla fine di ciascun proprio turno e, se lo supera, l'effetto su di lui termina.</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio deve effettuare un tiro salvezza su Costituzione. Può ripetere il tiro salvezza alla fine di ciascun proprio turno e, se lo supera, l'effetto su di lui termina.</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il bersaglio deve superare un tiro salvezza [[/save activity=YYGdywRW1up1nXSJ]], altrimenti subisce [[/damage average activity=YYGdywRW1up1nXSJ]] danni e diventa &amp;Reference[poisoned] per [[lookup @labels.duration activity=YYGdywRW1up1nXSJ]]. Il bersaglio può ripetere il tiro salvezza alla fine di ciascuno dei propri turni e, se lo supera, l'effetto su di esso termina.</p>"
         }
       },
       "details": {

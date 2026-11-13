@@ -9,7 +9,7 @@
 | heroes | 12 | 12 | 0 | 0 | 0 | 0 | 0 |
 | items | 885 | 885 | 0 | 0 | 0 | 0 | 48 |
 | monsterfeatures | 252 | 252 | 0 | 0 | 0 | 0 | 0 |
-| monsters | 337 | 98 | 0 | 239 | 0 | 814 | 814 |
+| monsters | 337 | 99 | 0 | 238 | 0 | 805 | 805 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
 | rules | 20 | 1 | 3 | 16 | 0 | 738 | 695 |
 | spells | 320 | 320 | 0 | 0 | 0 | 0 | 0 |
@@ -17,7 +17,7 @@
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 1557
+Total blocking issues: 1548
 
 ## Issues
 
@@ -488,15 +488,6 @@ Total blocking issues: 1557
 - **missing-field** `monsters:xvh2UOKv1bh03Gih:items[tYZggJHgAbixP5rs].system.description.chat`
 - **missing-field** `monsters:5SgVGhQBswgWRwsF:items[ez0lp4uo2fLOc5Yf].effects[MNgx8MPcSucyc8VN].description`
 - **missing-field** `monsters:5SgVGhQBswgWRwsF:items[XtK73VCT1s8abvjs].system.description.value`
-- **missing-field** `monsters:bwtkdzavdNHISgp4:items[MLfZqvhaJjB78YiT].system.description.value`
-- **missing-field** `monsters:bwtkdzavdNHISgp4:items[MLfZqvhaJjB78YiT].effects[dJA0IOGziAr9Onj9].description`
-- **missing-field** `monsters:bwtkdzavdNHISgp4:items[ae0OI3obJqa4AS7U].system.description.value`
-- **missing-field** `monsters:bwtkdzavdNHISgp4:items[ae0OI3obJqa4AS7U].effects[lj4cHP3WVTg1ePKt].description`
-- **missing-field** `monsters:bwtkdzavdNHISgp4:items[e8rpvJJVWCN4HU7I].system.description.value`
-- **missing-field** `monsters:bwtkdzavdNHISgp4:items[e8rpvJJVWCN4HU7I].system.description.chat`
-- **missing-field** `monsters:bwtkdzavdNHISgp4:items[1YhP86rTuRIXKFi2].system.description.value`
-- **missing-field** `monsters:bwtkdzavdNHISgp4:items[1YhP86rTuRIXKFi2].system.description.chat`
-- **missing-field** `monsters:bwtkdzavdNHISgp4:items[1YhP86rTuRIXKFi2].effects[DiTStRlGa6CI65oe].description`
 - **missing-field** `monsters:qXzMsRTHEodqO8l2:items[ChSnKd7pSLoN1Jeu].system.description.value`
 - **missing-field** `monsters:qXzMsRTHEodqO8l2:items[NYUeQsYqRhROcVMQ].system.description.value`
 - **missing-field** `monsters:qXzMsRTHEodqO8l2:items[pHBLWUN5VKEjSBh6].system.description.value`
