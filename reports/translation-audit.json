@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2172,
+      "translated": 2173,
       "missing": 3,
-      "partial": 216,
+      "partial": 215,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14260,
-      "missing": 1400,
+      "translated": 14262,
+      "missing": 1398,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1405
+    "blockingIssues": 1403
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 137,
+          "translated": 138,
           "missing": 0,
-          "partial": 200,
+          "partial": 199,
           "review": 0
         },
         "folders": {
@@ -578,32 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6444,
-          "missing": 662,
+          "translated": 6446,
+          "missing": 660,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "y8sRU8Ks2lcrGsaf",
-          "name": "Goat",
-          "fieldPath": "items[fmILoB0arLdodNGB].system.description.value",
-          "sourcePath": "monsters/beast/goat.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "y8sRU8Ks2lcrGsaf",
-          "name": "Goat",
-          "fieldPath": "items[fmILoB0arLdodNGB].system.description.chat",
-          "sourcePath": "monsters/beast/goat.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
