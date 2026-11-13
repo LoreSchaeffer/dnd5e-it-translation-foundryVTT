@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2184,
+      "translated": 2185,
       "missing": 3,
-      "partial": 204,
+      "partial": 203,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14282,
-      "missing": 1378,
+      "translated": 14283,
+      "missing": 1377,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1383
+    "blockingIssues": 1382
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 149,
+          "translated": 150,
           "missing": 0,
-          "partial": 188,
+          "partial": 187,
           "review": 0
         },
         "folders": {
@@ -578,23 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6466,
-          "missing": 640,
+          "translated": 6467,
+          "missing": 639,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "Y0vxQVF7w2P38FK2",
-          "name": "Scorpion",
-          "fieldPath": "items[ltue5DUb1SZfphHE].system.description.value",
-          "sourcePath": "monsters/beast/scorpion.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
