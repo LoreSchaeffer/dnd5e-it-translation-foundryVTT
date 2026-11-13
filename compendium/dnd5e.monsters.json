@@ -12403,10 +12403,12 @@
       "name": "Planetar",
       "items": {
         "9hrSczyYfl4fSrpZ": {
-          "name": "Incantesimi Innati"
+          "name": "Incantesimi Innati",
+          "description": "<p>La caratteristica da incantatore del planetar è Carisma (CD del tiro salvezza degli incantesimi 20). Il planetar può lanciare innatamente gli incantesimi seguenti, senza richiedere componenti materiali:</p>\n<p>A volontà: [[/item .Mzh95utKDPIrjiH8]]{individuazione del bene e del male}, invisibilità (solo se stesso)</p>\n<p>3/giorno ciascuno: [[/item .dLJhxDfeyOsc3zsY]]{barriera di lame}, [[/item .TkJ8Wtg1L7TZtspm]]{dissolvi il bene e il male}, [[/item .5e1xTohkzqFqbYH4]]{colpo infuocato}, [[/item .AGFMPAmuzwWO6Dfz]]{rianimare morti}</p>\n<p>1/giorno ciascuno: [[/item .d54VDyFulD9xxY7J]]{comunione}, [[/item .ZPd73HtKF3At11jh]]{controllare tempo atmosferico}, [[/item .OVikYmSdHliAG2YD]]{piaga degli insetti}</p>"
         },
         "LyxrhwvzMW4YbiYE": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il planetar effettua due attacchi in mischia.</p>"
         },
         "BBLXs9hiUvtRaP16": {
           "name": "Spadone",
@@ -12419,14 +12421,17 @@
             "dhJZmoRNXDJ9z02Q": {
               "name": "Curare Creatura"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} tocca un'altra creatura. Il bersaglio recupera magicamente [[/healing average]] ed è liberato da ogni maledizione, malattia, veleno, &amp;reference[blinded apply=false]{Cecità} o &amp;reference[deafened apply=false]{Sordità}.</p>",
+          "chat": "<section class=\"secret\"><p></p></section><p>Il planetar tocca un'altra creatura. Il bersaglio recupera magicamente 30 (6d8 + 3) punti ferita ed è liberato da ogni maledizione, malattia, veleno, cecità o sordità.</p>"
         },
         "Mzh95utKDPIrjiH8": {
           "name": "Individuazione del Bene e del Male",
           "description": "<p>Per la durata dell'incantesimo , l'incantatore sa se è presente un'aberrazione, un celestiale, un elementale, un folletto, un immondo o un non-morto entro 9 metri da lui, nonché l'incantatore sa se entro 9 metri da lui c'è un luogo o un oggetto consacrato o dissacrato magicamente.</p>\n<p>L'incantesimo può oltrepassare la maggior parte delle barriere, ma è bloccato da 30 cm di pietra, 2,5 cm di metallo comune, una sottile lamina di piombo o 90cm di legno o terriccio</p>"
         },
         "dLJhxDfeyOsc3zsY": {
-          "name": "Barriera di Lame"
+          "name": "Barriera di Lame",
+          "description": "<p>L'incantatore crea una parete verticale di lame vorticanti e affilate come rasoi, composte di energia magica. La parete compare entro gittata e permane per la durata. L'incantatore può creare una parete diritta lunga fino a 30 metri, alta 6 metri e spessa 1,5 metri, oppure una parete circolare con un diametro massimo di 18 metri, alta 6 metri e spessa 1,5 metri. La parete fornisce tre quarti di copertura alle creature dietro di essa e il suo spazio è terreno difficile.</p><p>Quando una creatura entra nell'area della parete per la prima volta in un turno o inizia il proprio turno al suo interno, deve effettuare un tiro salvezza su Destrezza. Se lo fallisce, subisce 6d10 danni taglienti. Se lo supera, subisce la metà di quei danni.</p>"
         },
         "TkJ8Wtg1L7TZtspm": {
           "name": "Dissolvi il Bene e il Male",
@@ -12455,7 +12460,8 @@
         },
         "OVikYmSdHliAG2YD": {
           "name": "Piaga degli Insetti",
-          "materials": "alcuni granelli di zucchero, alcuni chicchi di grano e un pezzetto di grasso animale"
+          "materials": "alcuni granelli di zucchero, alcuni chicchi di grano e un pezzetto di grasso animale",
+          "description": "<p>Uno sciame di locuste mordaci riempie una sfera con raggio di 6 metri centrata su un punto scelto dall'incantatore entro gittata. La sfera si propaga oltre gli angoli. La sfera permane per la durata e la sua area è leggermente oscurata. L'area della sfera è terreno difficile.</p><p>Quando l'area compare, ogni creatura al suo interno deve effettuare un tiro salvezza su Costituzione. Se lo fallisce, subisce 4d10 danni perforanti, mentre se lo supera subisce la metà di quei danni. Una creatura deve effettuare questo tiro salvezza anche quando entra nell'area dell'incantesimo per la prima volta in un turno o termina il proprio turno al suo interno.</p><p><strong>Ai Livelli Superiori.</strong> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 6° livello o superiore, i danni aumentano di 1d10 per ogni livello dello slot superiore al 5°.</p>"
         },
         "XQnt0izxeEvDYmiH": {
           "name": "Resistenza Magica",
@@ -12463,7 +12469,8 @@
         },
         "sDvx0IybgYa8Q4WG": {
           "name": "Armi Angeliche",
-          "chat": "<p>Gli attacchi con arma del planetar sono magici. Quando il planetar colpisce con un'arma, essa infligge <em>danni radiosi</em> extra (inclusi nell'attacco).</p>"
+          "chat": "<p>Gli attacchi con arma del planetar sono magici. Quando il planetar colpisce con un'arma, essa infligge <em>danni radiosi</em> extra (inclusi nell'attacco).</p>",
+          "description": "<p>Gli attacchi con arma del [[lookup @name lowercase]]{mostro} sono magici. Quando il [[lookup @name lowercase]]{mostro} colpisce con un'arma, l'arma infligge 5d8 danni radiosi extra (inclusi nell'attacco).</p>"
         },
         "2kBUlTLMlwq3KoUB": {
           "name": "Consapevolezza Divina",

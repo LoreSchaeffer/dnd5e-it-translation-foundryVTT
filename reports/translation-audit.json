@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2199,
+      "translated": 2200,
       "missing": 3,
-      "partial": 189,
+      "partial": 188,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14319,
-      "missing": 1341,
+      "translated": 14326,
+      "missing": 1334,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1346
+    "blockingIssues": 1339
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 164,
+          "translated": 165,
           "missing": 0,
-          "partial": 173,
+          "partial": 172,
           "review": 0
         },
         "folders": {
@@ -578,77 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6503,
-          "missing": 603,
+          "translated": 6510,
+          "missing": 596,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "XEByBLeOkDgL3mrr",
-          "name": "Planetar",
-          "fieldPath": "items[sDvx0IybgYa8Q4WG].system.description.value",
-          "sourcePath": "monsters/celestial/planetar.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "XEByBLeOkDgL3mrr",
-          "name": "Planetar",
-          "fieldPath": "items[9hrSczyYfl4fSrpZ].system.description.value",
-          "sourcePath": "monsters/celestial/planetar.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "XEByBLeOkDgL3mrr",
-          "name": "Planetar",
-          "fieldPath": "items[LyxrhwvzMW4YbiYE].system.description.value",
-          "sourcePath": "monsters/celestial/planetar.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "XEByBLeOkDgL3mrr",
-          "name": "Planetar",
-          "fieldPath": "items[VJz6sW3vOJcEL4IS].system.description.value",
-          "sourcePath": "monsters/celestial/planetar.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "XEByBLeOkDgL3mrr",
-          "name": "Planetar",
-          "fieldPath": "items[VJz6sW3vOJcEL4IS].system.description.chat",
-          "sourcePath": "monsters/celestial/planetar.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "XEByBLeOkDgL3mrr",
-          "name": "Planetar",
-          "fieldPath": "items[dLJhxDfeyOsc3zsY].system.description.value",
-          "sourcePath": "monsters/celestial/planetar.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "XEByBLeOkDgL3mrr",
-          "name": "Planetar",
-          "fieldPath": "items[OVikYmSdHliAG2YD].system.description.value",
-          "sourcePath": "monsters/celestial/planetar.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
