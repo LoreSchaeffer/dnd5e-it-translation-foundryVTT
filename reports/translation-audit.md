@@ -9,7 +9,7 @@
 | heroes | 12 | 12 | 0 | 0 | 0 | 0 | 0 |
 | items | 885 | 885 | 0 | 0 | 0 | 0 | 48 |
 | monsterfeatures | 252 | 252 | 0 | 0 | 0 | 0 | 0 |
-| monsters | 337 | 106 | 0 | 231 | 0 | 746 | 746 |
+| monsters | 337 | 107 | 0 | 230 | 0 | 738 | 738 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
 | rules | 20 | 1 | 3 | 16 | 0 | 738 | 695 |
 | spells | 320 | 320 | 0 | 0 | 0 | 0 | 0 |
@@ -17,7 +17,7 @@
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 1489
+Total blocking issues: 1481
 
 ## Issues
 
@@ -614,14 +614,6 @@ Total blocking issues: 1489
 - **missing-field** `monsters:EpYl7qifM5pq6W6B:items[gpxvIs8yjQ4awt4s].system.activities.Q4A4M8mrHIRdX3JM.description.value`
 - **missing-field** `monsters:EpYl7qifM5pq6W6B:items[gpxvIs8yjQ4awt4s].effects[Z4mFj1zWP0EkqbNH].description`
 - **missing-field** `monsters:EpYl7qifM5pq6W6B:items[gpxvIs8yjQ4awt4s].effects[SkiwEOXDYspZ7NOt].description`
-- **missing-field** `monsters:g7FSu2oU4YHPgWNA:items[k24xxFfPtUCahddE].system.description.value`
-- **missing-field** `monsters:g7FSu2oU4YHPgWNA:items[DA34sS4nWGc4OTwm].system.description.value`
-- **missing-field** `monsters:g7FSu2oU4YHPgWNA:items[DA34sS4nWGc4OTwm].system.description.chat`
-- **missing-field** `monsters:g7FSu2oU4YHPgWNA:items[DA34sS4nWGc4OTwm].effects[HPUIkvf8o8N94Vdg].description`
-- **missing-field** `monsters:g7FSu2oU4YHPgWNA:items[DA34sS4nWGc4OTwm].effects[cIH8ZoWvqThECHNn].description`
-- **missing-field** `monsters:g7FSu2oU4YHPgWNA:items[qzSE2ZiVMLKsWF4F].system.description.value`
-- **missing-field** `monsters:g7FSu2oU4YHPgWNA:items[qzSE2ZiVMLKsWF4F].system.description.chat`
-- **missing-field** `monsters:g7FSu2oU4YHPgWNA:items[qzSE2ZiVMLKsWF4F].effects[K7defwMS9ndoqgVV].description`
 - **missing-field** `monsters:PH78NBdvoaszAb61:items[TKV9mS1lvqMAyCaB].system.description.value`
 - **missing-field** `monsters:PH78NBdvoaszAb61:items[TKV9mS1lvqMAyCaB].system.description.chat`
 - **missing-field** `monsters:PH78NBdvoaszAb61:items[TKV9mS1lvqMAyCaB].system.activities.7RkSJfzdID9Ccqmn.description.value`

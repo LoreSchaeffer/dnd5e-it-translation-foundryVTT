@@ -10508,20 +10508,24 @@
       },
       "items": {
         "k24xxFfPtUCahddE": {
-          "name": "Falso Aspetto"
+          "name": "Falso Aspetto",
+          "description": "<p>Finché il [[lookup @name lowercase]]{mostro} rimane immobile, è indistinguibile da una formazione di caverna come una stalattite o una stalagmite.</p>"
         },
         "qzSE2ZiVMLKsWF4F": {
           "name": "Aura di Oscurità",
           "effects": {
             "K7defwMS9ndoqgVV": {
-              "name": "Aura di Oscurità"
+              "name": "Aura di Oscurità",
+              "description": "<p>Un raggio di 4,5 metri di &amp;reference[darkness] magica si estende da te, si muove assieme a te e si propaga oltre gli angoli. L'oscurità permane finché mantieni la concentrazione, fino all'intera durata (come se ti stessi concentrando su un incantesimo).</p><p>La &amp;reference[Darkvision] non può penetrare questa oscurità e nessuna luce naturale può illuminarla. Se una parte dell'oscurità si sovrappone a un'area di luce creata da un incantesimo di 2° livello o inferiore, l'incantesimo che ha creato la luce viene dissolto.</p>"
             }
           },
           "activities": {
             "QwLySmRaYcAPebjO": {
               "name": "Emanare Oscurità"
             }
-          }
+          },
+          "description": "<p>Una [[lookup @labels.description.template activity=QwLySmRaYcAPebjO]] di &amp;reference[darkness] magica si estende dal [[lookup @name lowercase]]{mostro}, si muove assieme a esso e si propaga oltre gli angoli. L'oscurità permane finché il [[lookup @name lowercase]]{mostro} mantiene la concentrazione, fino a [[lookup @labels.duration activity=QwLySmRaYcAPebjO]] (come se si stesse concentrando su un incantesimo).</p><p>La &amp;reference[Darkvision] non può penetrare questa oscurità e nessuna luce naturale può illuminarla. Se una parte dell'oscurità si sovrappone a un'area di luce creata da un incantesimo di 2° livello o inferiore, l'incantesimo che ha creato la luce viene dissolto.</p>",
+          "chat": "<p>Una [[lookup @labels.description.template activity=QwLySmRaYcAPebjO]] di &amp;reference[darkness] magica si estende dal mantoscuro, si muove assieme a esso e si propaga oltre gli angoli. La &amp;reference[Darkvision] non può penetrare questa oscurità e nessuna luce naturale può illuminarla.</p>"
         },
         "gFd9Tb3nIqKyHGxm": {
           "name": "Senso Radar",
@@ -10542,12 +10546,16 @@
           },
           "effects": {
             "HPUIkvf8o8N94Vdg": {
-              "name": "Manto Oscuro Attaccato"
+              "name": "Manto Oscuro Attaccato",
+              "description": "<p>Hai un mantoscuro attaccato a te. Finché è attaccato, il mantoscuro non può attaccare alcuna creatura diversa da te, ma dispone di vantaggio ai propri tiri per colpire. La velocità del mantoscuro diventa 0, non può beneficiare di alcun bonus alla propria velocità e si muove assieme a te.</p><p>Una creatura può staccare il mantoscuro da te effettuando un'azione e superando una prova [[/check 13 str]].</p>"
             },
             "cIH8ZoWvqThECHNn": {
-              "name": "Manto Oscuro Attaccato alla Testa"
+              "name": "Manto Oscuro Attaccato alla Testa",
+              "description": "<p>Hai un mantoscuro attaccato alla testa, che la avvolge rendendoti &amp;reference[blinded apply=false] e impedendoti di &amp;reference[suffocating]{Respirare} finché il mantoscuro rimane attaccato in questo modo.</p><p>Finché è attaccato, il mantoscuro non può attaccare alcuna creatura diversa da te, ma dispone di vantaggio ai propri tiri per colpire. La velocità del mantoscuro diventa 0, non può beneficiare di alcun bonus alla propria velocità e si muove assieme a te.</p><p>Una creatura può staccare il mantoscuro da te effettuando un'azione e superando una prova [[/check 13 str]].</p>"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il [[lookup @name lowercase]]{mostro} si attacca al bersaglio. Se il bersaglio è di taglia Media o inferiore e il [[lookup @name lowercase]]{mostro} dispone di vantaggio al tiro per colpire, si attacca avvolgendo la testa del bersaglio; il bersaglio è inoltre &amp;reference[blinded] e non può &amp;reference[suffocating]{Respirare} finché il [[lookup @name lowercase]]{mostro} rimane attaccato in questo modo.</p><p>Finché è attaccato al bersaglio, il [[lookup @name lowercase]]{mostro} non può attaccare alcuna creatura diversa dal bersaglio, ma dispone di vantaggio ai propri tiri per colpire. Anche la velocità del [[lookup @name lowercase]]{mostro} diventa 0, non può beneficiare di alcun bonus alla propria velocità e si muove assieme al bersaglio.</p><p>Una creatura può staccare il [[lookup @name lowercase]]{mostro} effettuando un'azione e superando una prova [[/check activity=D6cM30tTL0VfB4x1]]. Nel proprio turno, il [[lookup @name lowercase]]{mostro} può staccarsi dal bersaglio usando 1,5 metri di movimento.</p>",
+          "chat": "<p>Il mantoscuro attacca con il proprio Schiacciare. Il mantoscuro si attacca al bersaglio. Finché è attaccato al bersaglio, il mantoscuro non può attaccare alcuna creatura diversa dal bersaglio, ma dispone di vantaggio ai propri tiri per colpire. Una creatura può staccare il mantoscuro effettuando un'azione e superando una prova di Forza.</p>"
         }
       },
       "details": {
