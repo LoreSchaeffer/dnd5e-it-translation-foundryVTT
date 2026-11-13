@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1779,
+      "translated": 1780,
       "missing": 69,
-      "partial": 543,
+      "partial": 542,
       "review": 69
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 10032,
-      "missing": 5628,
+      "translated": 10036,
+      "missing": 5624,
       "invariantFailures": 853,
       "englishResiduals": 71,
       "imperialResiduals": 0
     },
-    "blockingIssues": 6489
+    "blockingIssues": 6485
   },
   "packs": [
     {
@@ -143,9 +143,9 @@
       "summary": {
         "documents": {
           "total": 12,
-          "translated": 6,
+          "translated": 7,
           "missing": 0,
-          "partial": 6,
+          "partial": 5,
           "review": 0
         },
         "folders": {
@@ -157,50 +157,14 @@
         },
         "fields": {
           "total": 1165,
-          "translated": 1140,
-          "missing": 25,
+          "translated": 1144,
+          "missing": 21,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "125qFnXvT9z0iOic",
-          "name": "Perrin (Halfling Monk)",
-          "fieldPath": "items[q4tr1vTU8RxtU1UZ].system.description.value",
-          "sourcePath": "heroes/perrin-halfling-monk.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "125qFnXvT9z0iOic",
-          "name": "Perrin (Halfling Monk)",
-          "fieldPath": "items[O3ZjSw0GtAOPScHI].system.description.value",
-          "sourcePath": "heroes/perrin-halfling-monk.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "125qFnXvT9z0iOic",
-          "name": "Perrin (Halfling Monk)",
-          "fieldPath": "items[FtOM4QiOW5MwgcS3].system.description.value",
-          "sourcePath": "heroes/perrin-halfling-monk.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "125qFnXvT9z0iOic",
-          "name": "Perrin (Halfling Monk)",
-          "fieldPath": "items[AArhiOrSkaQUnCZS].system.description.value",
-          "sourcePath": "heroes/perrin-halfling-monk.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
