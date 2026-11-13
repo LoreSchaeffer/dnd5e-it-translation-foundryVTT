@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1921,
+      "translated": 1931,
       "missing": 8,
-      "partial": 462,
+      "partial": 452,
       "review": 70
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 10213,
       "missing": 5447,
-      "invariantFailures": 504,
+      "invariantFailures": 466,
       "englishResiduals": 72,
       "imperialResiduals": 0
     },
-    "blockingIssues": 6024
+    "blockingIssues": 5986
   },
   "packs": [
     {
@@ -536,9 +536,9 @@
       "summary": {
         "documents": {
           "total": 252,
-          "translated": 136,
+          "translated": 146,
           "missing": 0,
-          "partial": 116,
+          "partial": 106,
           "review": 2
         },
         "folders": {
@@ -552,392 +552,12 @@
           "total": 515,
           "translated": 515,
           "missing": 0,
-          "invariantFailures": 464,
+          "invariantFailures": 426,
           "englishResiduals": 2,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsterfeatures",
-          "id": "JsAys4RSGi4lN5Jy",
-          "fieldPath": "system.description.value",
-          "name": "Change Shape",
-          "sourcePath": "monsterfeatures/change-shape.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsterfeatures",
-          "id": "JsAys4RSGi4lN5Jy",
-          "fieldPath": "system.description.value",
-          "name": "Change Shape",
-          "sourcePath": "monsterfeatures/change-shape.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "monsterfeatures",
-          "id": "JsAys4RSGi4lN5Jy",
-          "fieldPath": "system.description.value",
-          "name": "Change Shape",
-          "sourcePath": "monsterfeatures/change-shape.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "monsterfeatures",
-          "id": "JsAys4RSGi4lN5Jy",
-          "fieldPath": "system.description.value",
-          "name": "Change Shape",
-          "sourcePath": "monsterfeatures/change-shape.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "monsterfeatures",
-          "id": "LO4nrudXAKJ4DbQI",
-          "fieldPath": "system.description.value",
-          "name": "Channel Negative Energy",
-          "sourcePath": "monsterfeatures/channel-negative-energy.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "monsterfeatures",
-          "id": "LO4nrudXAKJ4DbQI",
-          "fieldPath": "system.description.value",
-          "name": "Channel Negative Energy",
-          "sourcePath": "monsterfeatures/channel-negative-energy.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsterfeatures",
-          "id": "WqRzbokPG0am6AHb",
-          "fieldPath": "system.description.value",
-          "name": "Charge",
-          "sourcePath": "monsterfeatures/charge.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsterfeatures",
-          "id": "WqRzbokPG0am6AHb",
-          "fieldPath": "system.description.value",
-          "name": "Charge",
-          "sourcePath": "monsterfeatures/charge.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "monsterfeatures",
-          "id": "WqRzbokPG0am6AHb",
-          "fieldPath": "system.description.value",
-          "name": "Charge",
-          "sourcePath": "monsterfeatures/charge.yml"
-        },
-        {
-          "code": "foundry-formulas",
-          "severity": "blocking",
-          "message": "Foundry formulas differ from source",
-          "pack": "monsterfeatures",
-          "id": "WqRzbokPG0am6AHb",
-          "fieldPath": "system.description.value",
-          "name": "Charge",
-          "sourcePath": "monsterfeatures/charge.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "monsterfeatures",
-          "id": "WqRzbokPG0am6AHb",
-          "fieldPath": "system.description.value",
-          "name": "Charge",
-          "sourcePath": "monsterfeatures/charge.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsterfeatures",
-          "id": "iHOaiOqwUWIfCljJ",
-          "fieldPath": "system.description.value",
-          "name": "Cold Breath",
-          "sourcePath": "monsterfeatures/cold-breath.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsterfeatures",
-          "id": "iHOaiOqwUWIfCljJ",
-          "fieldPath": "system.description.value",
-          "name": "Cold Breath",
-          "sourcePath": "monsterfeatures/cold-breath.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "monsterfeatures",
-          "id": "iHOaiOqwUWIfCljJ",
-          "fieldPath": "system.description.value",
-          "name": "Cold Breath",
-          "sourcePath": "monsterfeatures/cold-breath.yml"
-        },
-        {
-          "code": "foundry-formulas",
-          "severity": "blocking",
-          "message": "Foundry formulas differ from source",
-          "pack": "monsterfeatures",
-          "id": "iHOaiOqwUWIfCljJ",
-          "fieldPath": "system.description.value",
-          "name": "Cold Breath",
-          "sourcePath": "monsterfeatures/cold-breath.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "monsterfeatures",
-          "id": "iHOaiOqwUWIfCljJ",
-          "fieldPath": "system.description.value",
-          "name": "Cold Breath",
-          "sourcePath": "monsterfeatures/cold-breath.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsterfeatures",
-          "id": "wzgGJyVFGIcj1XAb",
-          "fieldPath": "system.description.value",
-          "name": "Confer Fire Resistance",
-          "sourcePath": "monsterfeatures/confer-fire-resistance.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsterfeatures",
-          "id": "wzgGJyVFGIcj1XAb",
-          "fieldPath": "system.description.value",
-          "name": "Confer Fire Resistance",
-          "sourcePath": "monsterfeatures/confer-fire-resistance.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "monsterfeatures",
-          "id": "wzgGJyVFGIcj1XAb",
-          "fieldPath": "system.description.value",
-          "name": "Confer Fire Resistance",
-          "sourcePath": "monsterfeatures/confer-fire-resistance.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "monsterfeatures",
-          "id": "wzgGJyVFGIcj1XAb",
-          "fieldPath": "system.description.value",
-          "name": "Confer Fire Resistance",
-          "sourcePath": "monsterfeatures/confer-fire-resistance.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsterfeatures",
-          "id": "r2nM5I77LnSvkLvD",
-          "fieldPath": "system.description.value",
-          "name": "Consume Life",
-          "sourcePath": "monsterfeatures/consume-life.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsterfeatures",
-          "id": "r2nM5I77LnSvkLvD",
-          "fieldPath": "system.description.value",
-          "name": "Consume Life",
-          "sourcePath": "monsterfeatures/consume-life.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "monsterfeatures",
-          "id": "r2nM5I77LnSvkLvD",
-          "fieldPath": "system.description.value",
-          "name": "Consume Life",
-          "sourcePath": "monsterfeatures/consume-life.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "monsterfeatures",
-          "id": "r2nM5I77LnSvkLvD",
-          "fieldPath": "system.description.value",
-          "name": "Consume Life",
-          "sourcePath": "monsterfeatures/consume-life.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsterfeatures",
-          "id": "0z5v1BfMqQl5Z7UW",
-          "fieldPath": "system.description.value",
-          "name": "Corrode Metal",
-          "sourcePath": "monsterfeatures/corrode-metal.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsterfeatures",
-          "id": "0z5v1BfMqQl5Z7UW",
-          "fieldPath": "system.description.value",
-          "name": "Corrode Metal",
-          "sourcePath": "monsterfeatures/corrode-metal.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "monsterfeatures",
-          "id": "0z5v1BfMqQl5Z7UW",
-          "fieldPath": "system.description.value",
-          "name": "Corrode Metal",
-          "sourcePath": "monsterfeatures/corrode-metal.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "monsterfeatures",
-          "id": "0z5v1BfMqQl5Z7UW",
-          "fieldPath": "system.description.value",
-          "name": "Corrode Metal",
-          "sourcePath": "monsterfeatures/corrode-metal.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsterfeatures",
-          "id": "cZm13DxOe9lZyGFT",
-          "fieldPath": "system.description.value",
-          "name": "Corrosive Form",
-          "sourcePath": "monsterfeatures/corrosive-form.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsterfeatures",
-          "id": "cZm13DxOe9lZyGFT",
-          "fieldPath": "system.description.value",
-          "name": "Corrosive Form",
-          "sourcePath": "monsterfeatures/corrosive-form.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "monsterfeatures",
-          "id": "cZm13DxOe9lZyGFT",
-          "fieldPath": "system.description.value",
-          "name": "Corrosive Form",
-          "sourcePath": "monsterfeatures/corrosive-form.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "monsterfeatures",
-          "id": "cZm13DxOe9lZyGFT",
-          "fieldPath": "system.description.value",
-          "name": "Corrosive Form",
-          "sourcePath": "monsterfeatures/corrosive-form.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsterfeatures",
-          "id": "SlAF2AE4ZKoUvQql",
-          "fieldPath": "system.description.value",
-          "name": "Create Specter",
-          "sourcePath": "monsterfeatures/create-specter.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsterfeatures",
-          "id": "SlAF2AE4ZKoUvQql",
-          "fieldPath": "system.description.value",
-          "name": "Create Specter",
-          "sourcePath": "monsterfeatures/create-specter.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "monsterfeatures",
-          "id": "SlAF2AE4ZKoUvQql",
-          "fieldPath": "system.description.value",
-          "name": "Create Specter",
-          "sourcePath": "monsterfeatures/create-specter.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "monsterfeatures",
-          "id": "SlAF2AE4ZKoUvQql",
-          "fieldPath": "system.description.value",
-          "name": "Create Specter",
-          "sourcePath": "monsterfeatures/create-specter.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "monsterfeatures",
-          "id": "J36uxDWfbkflPV7k",
-          "fieldPath": "system.description.value",
-          "name": "Cunning Action",
-          "sourcePath": "monsterfeatures/cunning-action.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "monsterfeatures",
-          "id": "J36uxDWfbkflPV7k",
-          "fieldPath": "system.description.value",
-          "name": "Cunning Action",
-          "sourcePath": "monsterfeatures/cunning-action.yml"
-        },
         {
           "code": "foundry-inline-rolls",
           "severity": "blocking",

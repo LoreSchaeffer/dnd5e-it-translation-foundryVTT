@@ -124,15 +124,15 @@
     },
     "Change Shape": {
       "name": "Cambiare Forma",
-      "description": "<p>la Creatura si trasforma magicamente in una bestia o in un umanoide con grado di sfida pari o inferiore al proprio, o ritorna alla sua vera forma. Se muore, ritorna alla sua vera forma. Ogni oggetto che indossava o trasportava viene assorbito o trasportato dalla sua nuova forma (a scelta della Creatura). In una nuova forma, la Creatura conserva le sue statistiche di gioco e la capacità di parlare, ma CA, modalità di movimento, <strong>Forza, Destrezza</strong> e sensi speciali sono sostituiti da quelli della nuova forma. Inoltre, la Creatura ottiene le eventuali statistiche e capacità (eccetto i privilegi di classe, le azioni leggendarie e le azioni di tana) che la nuova forma possiede, ma di cui egli è privo. Se la nuova forma ha un attacco con morso, la Creatura può usare il morso in tale forma.</p>"
+      "description": "<p>Il [[lookup @details.type.config.label lowercase]]{mostro} si <strong>trasforma</strong> magicamente in un <strong>umanoide</strong> o in una <strong>bestia</strong> con un grado di sfida non superiore al proprio, oppure torna alla sua vera forma. Se muore, torna alla sua vera forma. Ogni oggetto che indossa o trasporta viene assorbito o indossato dalla nuova forma (a scelta del [[lookup @details.type.config.label lowercase]]{mostro}).</p><p>Nella nuova forma, il [[lookup @details.type.config.label lowercase]]{mostro} <strong>mantiene il proprio allineamento, i punti ferita, i Dadi Vita, la capacità di parlare, le competenze, la Resistenza Leggendaria, le azioni di tana, i punteggi di Intelligenza, Saggezza e Carisma, nonché questa azione. </strong>Le altre sue statistiche e capacità sono sostituite da quelle della nuova forma, <strong>eccetto gli eventuali privilegi di classe o le azioni leggendarie di tale forma.</strong></p>"
     },
     "Channel Negative Energy": {
       "name": "Incanalare Energia Negativa",
-      "description": "<p>La Creatura scatena magicamente un'ondata di energia negativa. Le creature entro 18 metri dalla Creatura, incluse quelle dietro una barriera o oltre un angolo, non possono recuperare punti ferita fino alla fine del turno successivo della Creatura.</p>"
+      "description": "<p>Il [[lookup @name lowercase]]{mostro} scatena magicamente energia negativa. Le creature entro 18 metri dal [[lookup @name lowercase]]{mostro}, incluse quelle dietro barriere e oltre gli angoli, non possono recuperare punti ferita fino alla fine del turno successivo del [[lookup @name lowercase]]{mostro}.</p>"
     },
     "Charge": {
       "name": "Carica",
-      "description": "<p>Se la Creatura si muove di almeno 6 metri in linea retta verso un bersaglio e poi lo colpisce con un attacco da incornata nello stesso turno, il bersaglio subisce 2 (1d4) danni perforanti extra. Se il bersaglio è una creatura, deve superare un tiro salvezza su Forza con CD 10, altrimenti è buttato a terra prono.</p>"
+      "description": "<section class=\"secret\">\n<p>Se il [[lookup @name lowercase]]{mostro} si muove di almeno 6 m in linea retta verso un bersaglio e poi lo colpisce con un attacco con zanna nello stesso turno, il bersaglio subisce <strong>3 (1d6) danni <em>taglienti</em></strong> extra.</p><p>Se il bersaglio è una creatura, deve superare un tiro salvezza su <strong>Forza con CD 11</strong>, altrimenti cade prono.</p>\n</section>\n<p>Se il [[lookup @name lowercase]]{mostro} si muove di almeno 6 m in linea retta verso un bersaglio e poi lo colpisce con un attacco con zanna nello stesso turno, il bersaglio subisce danni <em>taglienti</em> extra. Se il bersaglio è una creatura, deve effettuare un tiro salvezza su <strong>Forza</strong>, altrimenti cade prono.</p>"
     },
     "Claws": {
       "name": "Artigli",
@@ -140,11 +140,11 @@
     },
     "Cold Breath": {
       "name": "Soffio di Freddo",
-      "description": "<p>la Creatura esala una folata gelida in un cono di <strong>4,5 metri</strong>. Ogni creatura in quell'area deve effettuare un tiro salvezza su <strong>Costituzione con CD 13</strong>; se lo fallisce, subisce <strong>18&nbsp;([[/r 4d8]])</strong>&nbsp;danni da freddo, mentre se lo supera, subisce la metà di quei danni.</p>"
+      "description": "<section class=\"secret\">\n<p>**Soffio Gelido.** Il [[lookup @details.type.config.label lowercase]]{mostro} esala una folata gelida in un cono di 18 metri. Ogni creatura in quell'area deve effettuare un tiro salvezza su <strong>Costituzione con CD 20</strong>; se lo fallisce, subisce <strong>58 (13d8) danni <em>da freddo</em></strong>, mentre se lo supera subisce la metà di quei danni.</p>\n</section>\n<p>Il [[lookup @details.type.config.label lowercase]]{mostro} esala una folata gelida in un cono di 18 metri. Ogni creatura in quell'area deve effettuare un tiro salvezza su <strong>Costituzione</strong>.</p>"
     },
     "Confer Fire Resistance": {
       "name": "Conferire Resistenza al Fuoco",
-      "description": "<p>la Creatura può conferire resistenza ai danni da fuoco a chiunque lo cavalchi.</p>"
+      "description": "<p>Il [[lookup @name lowercase]]{mostro} può conferire resistenza ai <em>danni da fuoco</em> a chiunque lo cavalchi.</p>"
     },
     "Constrict": {
       "name": "Stritolare",
@@ -152,23 +152,23 @@
     },
     "Consume Life": {
       "name": "Assorbire Vita",
-      "description": "<p>Con un'azione bonus, la Creatura può bersagliare una creatura situata entro <strong>1,5 metri</strong> da lui e che esso sia in grado di vedere, che abbia 0 punti ferita e sia ancora viva. Il bersaglio deve superare un tiro salvezza su <strong>Costituzione con CD 10</strong> contro questa magia, altrimenti muore. Se il bersaglio muore, la Creatura recupera <strong>10 (3d6)</strong> punti ferita.</p>"
+      "description": "<section class=\"secret\"><p>Con un'azione bonus, il [[lookup @name lowercase]]{mostro} può bersagliare una creatura vivente che può vedere entro <strong>1,5 m</strong> da lui e che possiede <strong>0 punti ferita</strong>. </p><p>Il bersaglio deve superare un <strong>tiro salvezza su Costituzione con CD 10</strong> contro questa magia, altrimenti muore. Se il bersaglio muore, il [[lookup @name lowercase]]{mostro} recupera 10 (3d6)<strong> punti ferita</strong>.</p></section><p>Il [[lookup @name lowercase]]{mostro} può bersagliare una creatura che può vedere entro <strong>1,5 m</strong>. Il bersaglio deve superare un tiro salvezza su Costituzione.</p>"
     },
     "Corrode Metal": {
       "name": "Corrodere il Metallo",
-      "description": "<p>Qualsiasi arma non magica fatta di metallo che colpisca la Creatura si corrode. Dopo avere inflitto danni, l’arma subisce una penalità cumulativa e permanente di -1 ai tiri per i danni. Se la sua penalità scende a -5, l'arma è distrutta. Le munizioni non magiche fatte di metallo che colpiscono la Creatura vengono distrutte dopo avere inflitto danni. la Creatura può corrodere uno spessore di 5 centimetri di metallo non magico in 1 round.</p>"
+      "description": "<section class=\"secret\">\n<p>Ogni arma non magica di metallo che colpisce il [[lookup @details.type.config.label lowercase]]{mostro} si corrode. Dopo avere <strong>inflitto danni</strong>, l'arma subisce una penalità permanente e cumulativa di -1 ai tiri per i danni.</p><p>Se la penalità scende a -5, l'arma viene distrutta. Le munizioni non magiche di metallo che colpiscono il [[lookup @details.type.config.label lowercase]]{mostro} vengono distrutte dopo avere inflitto danni. Il [[lookup @details.type.config.label lowercase]]{mostro} può corrodere in 1 round uno spessore di 5 centimetri di metallo non magico.</p>\n</section>\n<p>Il [[lookup @details.type.config.label lowercase]]{mostro} corrode il metallo.</p>"
     },
     "Corrosive Form": {
       "name": "Forma Corrosiva",
-      "description": "<p>Una creatura che tocca la Creatura o lo colpisce con un attacco in mischia mentre si trova entro <strong>1,5 metri</strong> da esso subisce 4 (1d8) danni da acido. Qualsiasi arma non magica fatta di metallo o di legno che colpisce la Creatura si corrode. Dopo avere inflitto danni, l&rsquo;arma subisce una penalità cumulativa e permanente di -1 ai tiri per i danni. Se la sua penalità scende a -5 l&rsquo;arma è distrutta. Le munizioni non magiche fatte di metallo o di legno che colpiscono la Creatura sono distrutte dopo avere inflitto danni. la Creatura può corrodere uno spessore di 5 centimetri di legno o di metallo non magico in 1 round.</p>"
+      "description": "<section class=\"secret\">\n<p>Una creatura che tocca il [[lookup @name lowercase]]{mostro} o lo colpisce con un attacco in mischia mentre si trova entro 1,5 metri da lui subisce <strong>4 (1d8) danni <em>da acido</em></strong>. Ogni arma non magica di metallo o legno che colpisce il [[lookup @name lowercase]]{mostro} si corrode.</p><p>Dopo avere inflitto danni, l'arma subisce una penalità permanente e cumulativa di -1 ai tiri per i danni. Se la penalità scende a -5, l'arma viene distrutta. Le munizioni non magiche di metallo o legno che colpiscono il [[lookup @name lowercase]]{mostro} vengono distrutte dopo avere inflitto danni. Il [[lookup @name lowercase]]{mostro} può corrodere in 1 round uno spessore di 5 centimetri di legno o metallo non magico.</p>\n</section>\n<p>Una creatura che tocca il [[lookup @name lowercase]]{mostro} o lo colpisce con un attacco in mischia mentre si trova entro 1,5 metri da lui subisce <em>danni da acido</em>. Ogni arma non magica di metallo o legno che colpisce il budino si corrode.</p>"
     },
     "Create Specter": {
       "name": "Creare Spettro",
-      "description": "<p>la Creatura bersaglia un umanoide situato entro <strong>3 metri</strong> da lui, che non sia morto da più di 1 minuto e che sia morto di morte violenta. Lo spirito del bersaglio si anima come spettro nello spazio del suo cadavere o nello spazio libero più vicino. Lo spettro è sotto il controllo della Creatura. La Creatura non può controllare più di sette spettri simultaneamente.</p>"
+      "description": "<section class=\"secret\"><p>Il [[lookup @name lowercase]]{mostro} bersaglia un umanoide entro 3 metri da lui che sia morto violentemente da non più di 1 minuto. </p><p>Lo spirito del bersaglio si anima come spettro nello spazio del suo cadavere o nello spazio libero più vicino. Lo spettro è sotto il controllo del [[lookup @name lowercase]]{mostro}. Il [[lookup @name lowercase]]{mostro} non può avere più di sette spettri sotto il proprio controllo contemporaneamente.</p></section><p>Lo spirito del bersaglio si anima come spettro nello spazio del suo cadavere o nello spazio libero più vicino. </p>"
     },
     "Cunning Action": {
       "name": "Azione Scaltra",
-      "description": "<p>A ogni suo turno, la Creatura può usare un'azione bonus per effettuare l'azione di Scatto, Disimpegno o Nascondersi.</p>"
+      "description": "<p>In ogni proprio turno, il [[lookup @name lowercase]]{mostro} può usare un'azione bonus per effettuare l'azione Disimpegno, Nascondersi o Scatto.</p>"
     },
     "Damage Transfer": {
       "name": "Trasferire Danni",
