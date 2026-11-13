@@ -11139,7 +11139,10 @@
           "name": "Morso",
           "activities": {
             "RQqJ9wFgglGmzsYF": {
-              "name": "Tiro Salvezza contro il Veleno"
+              "name": "Tiro Salvezza contro il Veleno",
+              "description": {
+                "value": "<p>Il bersaglio deve superare un tiro salvezza [[/save]] o subire [[/damage average activity=RQqJ9wFgglGmzsYF]] danni. Se i danni da veleno riducono il bersaglio a 0 punti ferita, il bersaglio è stabile ma &amp;Reference[poisoned] per 1 ora, anche dopo avere recuperato punti ferita, ed è &amp;Reference[paralyzed] finché è avvelenato in questo modo.</p>"
+              }
             }
           },
           "effects": {
@@ -11147,7 +11150,9 @@
               "name": "Veleno Paralizzante Stabilizzante",
               "description": "<p>Sei &amp;reference[stable] ma &amp;reference[poisoned apply=false] per la durata, anche dopo avere recuperato punti ferita. Finché sei avvelenato in questo modo, sei anche &amp;reference[paralyzed apply=false].</p>"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage extended]] e il bersaglio deve superare un tiro salvezza [[/save]] o subire [[/damage average activity=RQqJ9wFgglGmzsYF]] danni. Se i danni da veleno riducono il bersaglio a 0 punti ferita, il bersaglio è stabile ma &amp;Reference[poisoned] per [[lookup @labels.duration activity=RQqJ9wFgglGmzsYF]], anche dopo avere recuperato punti ferita, ed è &amp;Reference[paralyzed] finché è avvelenato in questo modo.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio deve superare un tiro salvezza su Costituzione o subire danni da veleno. Se i danni da veleno riducono il bersaglio a 0 punti ferita, il bersaglio è stabile ma &amp;reference[poisoned] per [[lookup @labels.duration activity=RQqJ9wFgglGmzsYF]], anche dopo avere recuperato punti ferita, ed è &amp;reference[paralyzed] finché è avvelenato in questo modo.</p>"
         }
       },
       "details": {
