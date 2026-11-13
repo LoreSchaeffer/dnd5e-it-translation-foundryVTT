@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1773,
+      "translated": 1774,
       "missing": 69,
-      "partial": 549,
+      "partial": 548,
       "review": 69
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 9985,
-      "missing": 5675,
+      "translated": 9999,
+      "missing": 5661,
       "invariantFailures": 853,
       "englishResiduals": 71,
       "imperialResiduals": 0
     },
-    "blockingIssues": 6536
+    "blockingIssues": 6522
   },
   "packs": [
     {
@@ -143,9 +143,9 @@
       "summary": {
         "documents": {
           "total": 12,
-          "translated": 0,
+          "translated": 1,
           "missing": 0,
-          "partial": 12,
+          "partial": 11,
           "review": 0
         },
         "folders": {
@@ -157,140 +157,14 @@
         },
         "fields": {
           "total": 1165,
-          "translated": 1093,
-          "missing": 72,
+          "translated": 1107,
+          "missing": 58,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "kfzBL0q1Y7LgGs2x",
-          "name": "Akra (Dragonborn Cleric)",
-          "fieldPath": "items[Ra2Z1ujre76weR0i].system.description.value",
-          "sourcePath": "heroes/akra-dragonborn-cleric.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "kfzBL0q1Y7LgGs2x",
-          "name": "Akra (Dragonborn Cleric)",
-          "fieldPath": "items[UXJw0wVE7GCx6yzv].system.description.value",
-          "sourcePath": "heroes/akra-dragonborn-cleric.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "kfzBL0q1Y7LgGs2x",
-          "name": "Akra (Dragonborn Cleric)",
-          "fieldPath": "items[eRfgJRQJdRPFSbf5].system.description.value",
-          "sourcePath": "heroes/akra-dragonborn-cleric.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "kfzBL0q1Y7LgGs2x",
-          "name": "Akra (Dragonborn Cleric)",
-          "fieldPath": "items[vWo0CO4uYJ8XRnRi].system.description.value",
-          "sourcePath": "heroes/akra-dragonborn-cleric.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "kfzBL0q1Y7LgGs2x",
-          "name": "Akra (Dragonborn Cleric)",
-          "fieldPath": "items[pZMrJb3AXiRYO5E8].system.description.value",
-          "sourcePath": "heroes/akra-dragonborn-cleric.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "kfzBL0q1Y7LgGs2x",
-          "name": "Akra (Dragonborn Cleric)",
-          "fieldPath": "items[9FrgmKwWCYPhlZ5w].effects[potjmpJPeUA1U4oe].description",
-          "sourcePath": "heroes/akra-dragonborn-cleric.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "kfzBL0q1Y7LgGs2x",
-          "name": "Akra (Dragonborn Cleric)",
-          "fieldPath": "items[5yH69xkqge3u7to7].system.description.value",
-          "sourcePath": "heroes/akra-dragonborn-cleric.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "kfzBL0q1Y7LgGs2x",
-          "name": "Akra (Dragonborn Cleric)",
-          "fieldPath": "items[4eIHKWEqjM8bgjZy].system.description.value",
-          "sourcePath": "heroes/akra-dragonborn-cleric.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "kfzBL0q1Y7LgGs2x",
-          "name": "Akra (Dragonborn Cleric)",
-          "fieldPath": "items[IoHq7xEZpwhTKlDd].system.description.value",
-          "sourcePath": "heroes/akra-dragonborn-cleric.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "kfzBL0q1Y7LgGs2x",
-          "name": "Akra (Dragonborn Cleric)",
-          "fieldPath": "items[hQ1zxREvUlaNKQpz].system.description.value",
-          "sourcePath": "heroes/akra-dragonborn-cleric.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "kfzBL0q1Y7LgGs2x",
-          "name": "Akra (Dragonborn Cleric)",
-          "fieldPath": "items[d56v9vczAXEgMhCY].effects[FKDbXBUs6VJlf8ZY].description",
-          "sourcePath": "heroes/akra-dragonborn-cleric.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "kfzBL0q1Y7LgGs2x",
-          "name": "Akra (Dragonborn Cleric)",
-          "fieldPath": "items[P97npemu7j70IZAQ].system.description.value",
-          "sourcePath": "heroes/akra-dragonborn-cleric.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "kfzBL0q1Y7LgGs2x",
-          "name": "Akra (Dragonborn Cleric)",
-          "fieldPath": "items[HpjaVMLEU14tJG7y].system.description.value",
-          "sourcePath": "heroes/akra-dragonborn-cleric.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "heroes",
-          "id": "kfzBL0q1Y7LgGs2x",
-          "name": "Akra (Dragonborn Cleric)",
-          "fieldPath": "items[4u9a0tOYl5CJYyZI].system.description.value",
-          "sourcePath": "heroes/akra-dragonborn-cleric.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",

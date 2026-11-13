@@ -6,7 +6,7 @@
 | classes | 12 | 12 | 0 | 0 | 0 | 0 | 0 |
 | classfeatures | 235 | 235 | 0 | 0 | 0 | 0 | 0 |
 | effects | 214 | 214 | 0 | 0 | 0 | 0 | 0 |
-| heroes | 12 | 0 | 0 | 12 | 0 | 72 | 72 |
+| heroes | 12 | 1 | 0 | 11 | 0 | 58 | 58 |
 | items | 885 | 885 | 0 | 0 | 0 | 0 | 48 |
 | monsterfeatures | 252 | 0 | 61 | 191 | 0 | 132 | 753 |
 | monsters | 337 | 2 | 5 | 330 | 15 | 4733 | 4968 |
@@ -17,24 +17,10 @@
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 6536
+Total blocking issues: 6522
 
 ## Issues
 
-- **missing-field** `heroes:kfzBL0q1Y7LgGs2x:items[Ra2Z1ujre76weR0i].system.description.value`
-- **missing-field** `heroes:kfzBL0q1Y7LgGs2x:items[UXJw0wVE7GCx6yzv].system.description.value`
-- **missing-field** `heroes:kfzBL0q1Y7LgGs2x:items[eRfgJRQJdRPFSbf5].system.description.value`
-- **missing-field** `heroes:kfzBL0q1Y7LgGs2x:items[vWo0CO4uYJ8XRnRi].system.description.value`
-- **missing-field** `heroes:kfzBL0q1Y7LgGs2x:items[pZMrJb3AXiRYO5E8].system.description.value`
-- **missing-field** `heroes:kfzBL0q1Y7LgGs2x:items[9FrgmKwWCYPhlZ5w].effects[potjmpJPeUA1U4oe].description`
-- **missing-field** `heroes:kfzBL0q1Y7LgGs2x:items[5yH69xkqge3u7to7].system.description.value`
-- **missing-field** `heroes:kfzBL0q1Y7LgGs2x:items[4eIHKWEqjM8bgjZy].system.description.value`
-- **missing-field** `heroes:kfzBL0q1Y7LgGs2x:items[IoHq7xEZpwhTKlDd].system.description.value`
-- **missing-field** `heroes:kfzBL0q1Y7LgGs2x:items[hQ1zxREvUlaNKQpz].system.description.value`
-- **missing-field** `heroes:kfzBL0q1Y7LgGs2x:items[d56v9vczAXEgMhCY].effects[FKDbXBUs6VJlf8ZY].description`
-- **missing-field** `heroes:kfzBL0q1Y7LgGs2x:items[P97npemu7j70IZAQ].system.description.value`
-- **missing-field** `heroes:kfzBL0q1Y7LgGs2x:items[HpjaVMLEU14tJG7y].system.description.value`
-- **missing-field** `heroes:kfzBL0q1Y7LgGs2x:items[4u9a0tOYl5CJYyZI].system.description.value`
 - **missing-field** `heroes:ZGDys30OS76uYaIO:items[lMobFB5hSFEGtkrq].system.description.value`
 - **missing-field** `heroes:ZGDys30OS76uYaIO:items[6EvDsPPXqWANhUSU].system.description.value`
 - **missing-field** `heroes:ZGDys30OS76uYaIO:items[JYb389GcFpBYDUzE].system.description.value`
