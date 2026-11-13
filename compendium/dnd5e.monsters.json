@@ -11595,7 +11595,9 @@
             "m5HKomHXhWE8wMMT": {
               "name": "Nascondersi"
             }
-          }
+          },
+          "description": "<p>Finché si trova in condizioni di &amp;reference[dim light] o &amp;reference[darkness], il [[lookup @name lowercase]]{mostro} può effettuare l'azione &amp;reference[Hide] come azione bonus.</p>",
+          "chat": "<p>L'ombra può effettuare l'azione Nascondersi come azione bonus.</p>"
         },
         "x0kH7E7cx85DTWOh": {
           "name": "Sensibilità alla Luce Solare",
@@ -11605,24 +11607,37 @@
           "name": "Risucchio di Forza",
           "activities": {
             "YowdsiyoUgiflev7": {
-              "name": "Animare Ombra"
+              "name": "Animare Ombra",
+              "description": {
+                "value": "<p>Se un umanoide non malvagio muore a causa di questo attacco, una nuova @UUID[Compendium.dnd5e.monsters.Actor.QGcQYZbVl4bWzi4E]{Ombra} si anima dal cadavere 1d4 ([[1d4]]) ore dopo.</p>"
+              }
+            },
+            "dnd5eactivity000": {
+              "description": {
+                "value": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il punteggio di Forza del bersaglio è ridotto di [[/r 1d4]]. Il bersaglio muore se questa riduzione porta la sua Forza a 0. Altrimenti, la riduzione permane finché il bersaglio non completa un riposo breve o lungo. Se un umanoide non malvagio muore a causa di questo attacco, una nuova @UUID[Compendium.dnd5e.monsters.Actor.QGcQYZbVl4bWzi4E]{Ombra} si anima dal cadavere 1d4 ore dopo.</p><h4>Forza Risucchiata: [[1d4]]</h4>"
+              }
             }
           },
           "effects": {
             "2BPjsRkPlCjMCCI0": {
-              "name": "Risucchio di Forza: 1"
+              "name": "Risucchio di Forza: 1",
+              "description": "<p>Il tuo punteggio di Forza è ridotto di 1. Muori se questa riduzione porta la tua Forza a 0. Altrimenti, la riduzione permane finché non completi un riposo breve o lungo.</p>"
             },
             "prMenKNOqmzt0mYh": {
-              "name": "Risucchio di Forza: 2"
+              "name": "Risucchio di Forza: 2",
+              "description": "<p>Il tuo punteggio di Forza è ridotto di 2. Muori se questa riduzione porta la tua Forza a 0. Altrimenti, la riduzione permane finché non completi un riposo breve o lungo.</p>"
             },
             "osUtf5cU3lZ4WwvN": {
-              "name": "Risucchio di Forza: 3"
+              "name": "Risucchio di Forza: 3",
+              "description": "<p>Il tuo punteggio di Forza è ridotto di 3. Muori se questa riduzione porta la tua Forza a 0. Altrimenti, la riduzione permane finché non completi un riposo breve o lungo.</p>"
             },
             "hdtdpXtQxrwI3SdE": {
-              "name": "Risucchio di Forza: 4"
+              "name": "Risucchio di Forza: 4",
+              "description": "<p>Il tuo punteggio di Forza è ridotto di 4. Muori se questa riduzione porta la tua Forza a 0. Altrimenti, la riduzione permane finché non completi un riposo breve o lungo.</p>"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il punteggio di Forza del bersaglio è ridotto di [[/r 1d4]]. Il bersaglio muore se questa riduzione porta la sua Forza a 0. Altrimenti, la riduzione permane finché il bersaglio non completa un riposo breve o lungo. Se un umanoide non malvagio muore a causa di questo attacco, una nuova @UUID[Compendium.dnd5e.monsters.Actor.QGcQYZbVl4bWzi4E]{ombra} si anima dal cadavere 1d4 ore dopo.</p>"
         }
       },
       "details": {
