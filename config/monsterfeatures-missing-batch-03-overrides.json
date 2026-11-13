@@ -1,0 +1,45 @@
+{
+  "monsterfeatures": {
+    "T25IRJ66yUqi2F1m": {
+      "name": "Primo Ruggito",
+      "system.description.value": "<p>Ogni creatura che fallisce un tiro salvezza su <strong>Saggezza con CD 18</strong> è spaventata per 1 minuto. Una creatura spaventata può ripetere il tiro salvezza alla fine di ogni suo turno e, se lo supera, l'effetto su di lei termina.</p>"
+    },
+    "hxXzd3KCfnqnT89w": {
+      "name": "Scagliare",
+      "system.description.value": "<section class=\"secret\"><p>Un oggetto di taglia Grande o inferiore impugnato dal [[lookup @name lowercase]]{mostro}, oppure una creatura da lui afferrata, viene scagliato fino a 18 metri in una direzione casuale e cade prono. </p><p>Se un bersaglio scagliato colpisce una superficie solida, subisce <strong>3 (1d6) danni <em>contundenti</em></strong> per ogni 3 metri di cui è stato scagliato. Se il bersaglio viene scagliato contro un'altra creatura, quella creatura deve superare un tiro salvezza su <strong>Destrezza con CD 18</strong>, altrimenti subisce gli stessi danni e cade prona.</p></section><p>Un oggetto di taglia Grande o inferiore impugnato dal [[lookup @name lowercase]]{mostro}, oppure una creatura da lui afferrata, viene scagliato fino a 18 metri in una direzione casuale e cade prono. Se il bersaglio viene scagliato contro un'altra creatura, quella creatura deve effettuare un tiro salvezza su <strong>Destrezza</strong>, altrimenti subisce gli stessi danni e cade prona.</p>"
+    },
+    "nb6zOmwIIJBLz4iT": {
+      "name": "Presenza Terrificante",
+      "system.description.value": "<section class=\"secret\"><p>Ogni creatura a scelta del [[lookup @details.type.config.label lowercase]]{mostro} che si trovi <strong>entro 36 metri</strong> dal [[lookup @details.type.config.label lowercase]]{mostro} e sia consapevole della sua presenza deve superare un <strong>tiro salvezza su Saggezza con CD 16</strong>, altrimenti è spaventata per <strong>1 minuto</strong>. </p><p>Una creatura può ripetere il tiro salvezza alla fine di ogni suo turno e, se lo supera, l'effetto su di lei termina. Se una creatura supera il tiro salvezza o se l'effetto su di lei termina, la creatura è immune alla Presenza Terrificante del [[lookup @details.type.config.label lowercase]]{mostro} per le 24 ore successive.</p></section><p>Ogni creatura a scelta del [[lookup @details.type.config.label lowercase]]{mostro} che si trovi <strong>entro 36 metri</strong> dal [[lookup @details.type.config.label lowercase]]{mostro} e sia consapevole della sua presenza deve superare un tiro salvezza su Saggezza. Una creatura può ripetere il tiro salvezza alla fine di ogni suo turno.</p>"
+    },
+    "Z7U6z4HD1ORlkTIJ": {
+      "name": "Soffio Gelido",
+      "system.description.value": "<section class=\"secret\">\n<p>Il [[lookup @name lowercase]]{mostro} esala aria gelida in un cono di 4,5 metri. Ogni creatura in quell'area deve superare un tiro salvezza su <strong>Destrezza con CD 10</strong>; se lo fallisce, subisce <strong>5 (2d4) danni <em>da freddo</em></strong>, mentre se lo supera subisce la metà di quei danni.</p><p></p>\n</section>\n<p>Il [[lookup @name lowercase]]{mostro} esala aria gelida in un cono di 4,5 metri. Ogni creatura in quell'area deve effettuare un tiro salvezza su <strong>Destrezza</strong>.</p>"
+    },
+    "XmLuhZYd9WnCWBlU": {
+      "name": "Rigenerazione Infernale",
+      "system.description.value": "<section class=\"secret\">\n<p>Un [[lookup @name lowercase]]{mostro} che muore nei Nove Inferi a volte torna in vita con tutti i suoi<strong> punti ferita</strong> dopo 1d10 giorni, a meno che non sia stato ucciso da una creatura di allineamento buono su cui sia stato lanciato l'incantesimo benedizione o i suoi resti non siano stati cosparsi di acqua santa.</p>\n</section>\n<p>Un [[lookup @name lowercase]]{mostro} che muore nei Nove Inferi a volte torna in vita.</p>",
+      "system.requirements": "Lemure"
+    },
+    "uqoqQJ9NpMCPra6P": {
+      "name": "Armi Infernali",
+      "system.description.value": "<section class=\"secret\">\n<p>Gli attacchi con arma del [[lookup @name lowercase]]{mostro} sono magici e, quando colpiscono, infliggono <strong><strong>13 (3d8) danni <em>da veleno</em></strong></strong> extra (inclusi negli attacchi).</p>\n</section>\n<p>Gli attacchi con arma del [[lookup @name lowercase]]{mostro} sono magici e, quando colpiscono, infliggono danni <em>da veleno</em> extra (inclusi negli attacchi).</p>"
+    },
+    "re3oXQ3Xg4Z3Fr6O": {
+      "name": "Zoccoli",
+      "system.description.value": "<p>Il [[lookup @name lowercase]]{mostro} effettua un attacco con gli zoccoli.</p>"
+    },
+    "hu2pgYS1RD7hglvg": {
+      "name": "Nembo di Orrore",
+      "system.description.value": "<section class=\"secret\"><p>Il [[lookup @name lowercase]]{mostro} emette magicamente una luce scintillante e multicolore. Ogni creatura entro 4,5 metri dal [[lookup @name lowercase]]{mostro} che può vedere la luce deve superare un tiro salvezza su <strong>Saggezza con CD 15</strong>, altrimenti è spaventata per 1 minuto. </p><p>Una creatura può ripetere il tiro salvezza alla fine di ogni suo turno e, se lo supera, l'effetto su di lei termina. Se una creatura supera il tiro salvezza o se l'effetto su di lei termina, la creatura è immune al Nembo di Orrore del [[lookup @name lowercase]]{mostro} per le 24 ore successive.</p></section><p>Una creatura può ripetere il tiro salvezza alla fine di ogni suo turno e, se lo supera, l'effetto su di lei termina. Se una creatura supera il tiro salvezza o se l'effetto su di lei termina, la creatura è immune al Nembo di Orrore del [[lookup @name lowercase]]{mostro} per le 24 ore successive.</p>"
+    },
+    "FHrFOjEfkdRm4u43": {
+      "name": "Imperscrutabile",
+      "system.description.value": "<p>Il [[lookup @name lowercase]]{mostro} è immune a qualsiasi effetto che percepisca le sue emozioni o legga i suoi pensieri, nonché a qualsiasi incantesimo di divinazione che rifiuti. Le prove di Saggezza (Intuizione) effettuate per determinare le intenzioni o la sincerità del [[lookup @name lowercase]]{mostro} subiscono svantaggio.</p>"
+    },
+    "qfWKOH5AawhmNSwl": {
+      "name": "Tocco Inebriante",
+      "system.description.value": "<section class=\"secret\">\n<p><em>Attacco con Incantesimo in Mischia:</em><strong>+5 al tiro per colpire, portata</strong> <strong>1,5 m,</strong> una creatura. Colpito: Il bersaglio è magicamente maledetto per 1 ora. Finché la maledizione non termina, il bersaglio subisce svantaggio ai tiri salvezza su Saggezza e a tutte le prove di caratteristica.</p><p></p>\n</section>\n<p>Il bersaglio subisce svantaggio ai tiri salvezza su Saggezza e a tutte le prove di caratteristica.</p>"
+    }
+  }
+}

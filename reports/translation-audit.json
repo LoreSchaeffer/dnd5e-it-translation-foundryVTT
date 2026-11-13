@@ -3,8 +3,8 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1853,
-      "missing": 49,
+      "translated": 1863,
+      "missing": 39,
       "partial": 489,
       "review": 71
     },
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 10123,
-      "missing": 5537,
+      "translated": 10144,
+      "missing": 5516,
       "invariantFailures": 589,
       "englishResiduals": 73,
       "imperialResiduals": 0
     },
-    "blockingIssues": 6158
+    "blockingIssues": 6148
   },
   "packs": [
     {
@@ -536,8 +536,8 @@
       "summary": {
         "documents": {
           "total": 252,
-          "translated": 68,
-          "missing": 41,
+          "translated": 78,
+          "missing": 31,
           "partial": 143,
           "review": 3
         },
@@ -550,8 +550,8 @@
         },
         "fields": {
           "total": 515,
-          "translated": 425,
-          "missing": 90,
+          "translated": 446,
+          "missing": 69,
           "invariantFailures": 549,
           "englishResiduals": 3,
           "imperialResiduals": 0
@@ -2460,22 +2460,6 @@
           "sourcePath": "monsterfeatures/fire-form.yml"
         },
         {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "T25IRJ66yUqi2F1m",
-          "name": "First Roar",
-          "sourcePath": "monsterfeatures/first-roar.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "hxXzd3KCfnqnT89w",
-          "name": "Fling",
-          "sourcePath": "monsterfeatures/fling.yml"
-        },
-        {
           "code": "missing-field",
           "severity": "blocking",
           "pack": "monsterfeatures",
@@ -2605,22 +2589,6 @@
           "sourcePath": "monsterfeatures/frightening-gaze.yml"
         },
         {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "nb6zOmwIIJBLz4iT",
-          "name": "Frightful Presence",
-          "sourcePath": "monsterfeatures/frightful-presence.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "Z7U6z4HD1ORlkTIJ",
-          "name": "Frost Breath",
-          "sourcePath": "monsterfeatures/frost-breath.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -2991,22 +2959,6 @@
           "sourcePath": "monsterfeatures/heated-weapons.yml"
         },
         {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "XmLuhZYd9WnCWBlU",
-          "name": "Hellish Rejuvenation",
-          "sourcePath": "monsterfeatures/hellish-rejuvenation.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "uqoqQJ9NpMCPra6P",
-          "name": "Hellish Weapons",
-          "sourcePath": "monsterfeatures/hellish-weapons.yml"
-        },
-        {
           "code": "html-tag-sequence",
           "severity": "blocking",
           "message": "HTML tag sequence differs from source",
@@ -3045,14 +2997,6 @@
           "fieldPath": "system.description.value",
           "name": "Hold Breath",
           "sourcePath": "monsterfeatures/hold-breath.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "re3oXQ3Xg4Z3Fr6O",
-          "name": "Hooves",
-          "sourcePath": "monsterfeatures/hooves.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -3143,14 +3087,6 @@
           "fieldPath": "system.description.value",
           "name": "Horrifying Visage",
           "sourcePath": "monsterfeatures/horrifying-visage.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "hu2pgYS1RD7hglvg",
-          "name": "Horror Nimbus",
-          "sourcePath": "monsterfeatures/horror-nimbus.yml"
         },
         {
           "code": "html-tag-sequence",
@@ -3322,22 +3258,6 @@
           "name": "Innate Spellcasting",
           "fieldPath": "system.description.value",
           "sourcePath": "monsterfeatures/innate-spellcasting.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "FHrFOjEfkdRm4u43",
-          "name": "Inscrutable",
-          "sourcePath": "monsterfeatures/inscrutable.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "qfWKOH5AawhmNSwl",
-          "name": "Intoxicating Touch",
-          "sourcePath": "monsterfeatures/intoxicating-touch.yml"
         },
         {
           "code": "html-tag-sequence",
