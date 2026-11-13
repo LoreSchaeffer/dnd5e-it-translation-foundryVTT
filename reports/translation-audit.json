@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2171,
+      "translated": 2172,
       "missing": 3,
-      "partial": 217,
+      "partial": 216,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14258,
-      "missing": 1402,
+      "translated": 14260,
+      "missing": 1400,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1407
+    "blockingIssues": 1405
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 136,
+          "translated": 137,
           "missing": 0,
-          "partial": 201,
+          "partial": 200,
           "review": 0
         },
         "folders": {
@@ -578,32 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6442,
-          "missing": 664,
+          "translated": 6444,
+          "missing": 662,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "f9JbhBfWucrY2eDA",
-          "name": "Giant Wolf Spider",
-          "fieldPath": "items[Et0GP61ZnJkxxqvN].system.description.value",
-          "sourcePath": "monsters/beast/giant-wolf-spider.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "f9JbhBfWucrY2eDA",
-          "name": "Giant Wolf Spider",
-          "fieldPath": "items[Et0GP61ZnJkxxqvN].system.activities.RDbtJIrHQobdffi4.description.value",
-          "sourcePath": "monsters/beast/giant-wolf-spider.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
