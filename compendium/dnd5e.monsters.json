@@ -1859,7 +1859,9 @@
             "fQJO3rGN8hBWzvpN": {
               "name": "Tiro Salvezza contro la Carica"
             }
-          }
+          },
+          "description": "<p>Se il [[lookup @name lowercase]]{mostro} si muove di almeno 6 metri in linea retta verso un bersaglio e poi lo colpisce con un attacco di @UUID[Compendium.dnd5e.monsters.Actor.c9XDGsTJRy9HUaxQ.Item.tTZCmbeeSHXXFZGJ]{corna} nello stesso turno, il bersaglio subisce [[/damage average activity=fQJO3rGN8hBWzvpN]] danni extra.</p><p>Se il bersaglio è una creatura, deve superare un tiro salvezza [[/save activity=fQJO3rGN8hBWzvpN]] o cadere &amp;reference[prone].</p>",
+          "chat": "<p>Se il cavalluccio marino si muove di almeno 6 m in linea retta verso un bersaglio e poi lo colpisce con un attacco di corna nello stesso turno, il bersaglio subisce <em>danni contundenti extra</em>. Se il bersaglio è una creatura, deve effettuare un tiro salvezza su <strong>Forza</strong> o cadere prono.</p>"
         },
         "tTZCmbeeSHXXFZGJ": {
           "name": "Corna",

@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2166,
+      "translated": 2167,
       "missing": 3,
-      "partial": 222,
+      "partial": 221,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14245,
-      "missing": 1415,
+      "translated": 14247,
+      "missing": 1413,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1420
+    "blockingIssues": 1418
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 131,
+          "translated": 132,
           "missing": 0,
-          "partial": 206,
+          "partial": 205,
           "review": 0
         },
         "folders": {
@@ -578,32 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6429,
-          "missing": 677,
+          "translated": 6431,
+          "missing": 675,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "c9XDGsTJRy9HUaxQ",
-          "name": "Giant Sea Horse",
-          "fieldPath": "items[MB7KUNGnxz6mw1J5].system.description.value",
-          "sourcePath": "monsters/beast/giant-sea-horse.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "c9XDGsTJRy9HUaxQ",
-          "name": "Giant Sea Horse",
-          "fieldPath": "items[MB7KUNGnxz6mw1J5].system.description.chat",
-          "sourcePath": "monsters/beast/giant-sea-horse.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
