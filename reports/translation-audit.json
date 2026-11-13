@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1765,
+      "translated": 1766,
       "missing": 69,
-      "partial": 557,
+      "partial": 556,
       "review": 70
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 977,
+      "invariantFailures": 973,
       "englishResiduals": 72,
       "imperialResiduals": 0
     },
-    "blockingIssues": 7132
+    "blockingIssues": 7128
   },
   "packs": [
     {
@@ -5317,9 +5317,9 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 877,
+          "translated": 878,
           "missing": 0,
-          "partial": 8,
+          "partial": 7,
           "review": 0
         },
         "folders": {
@@ -5333,7 +5333,7 @@
           "total": 2227,
           "translated": 2227,
           "missing": 0,
-          "invariantFailures": 30,
+          "invariantFailures": 26,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
@@ -5568,46 +5568,6 @@
           "fieldPath": "system.description.value",
           "name": "Deck of Many Things",
           "sourcePath": "items/trinket/deck-of-many-things.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "46ikeR4RrSim6DsN",
-          "fieldPath": "system.description.value",
-          "name": "Talisman of the Sphere",
-          "sourcePath": "items/trinket/talisman-of-the-sphere.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "46ikeR4RrSim6DsN",
-          "fieldPath": "system.description.value",
-          "name": "Talisman of the Sphere",
-          "sourcePath": "items/trinket/talisman-of-the-sphere.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "items",
-          "id": "46ikeR4RrSim6DsN",
-          "fieldPath": "system.description.value",
-          "name": "Talisman of the Sphere",
-          "sourcePath": "items/trinket/talisman-of-the-sphere.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "items",
-          "id": "46ikeR4RrSim6DsN",
-          "fieldPath": "system.description.value",
-          "name": "Talisman of the Sphere",
-          "sourcePath": "items/trinket/talisman-of-the-sphere.yml"
         },
         {
           "code": "html-tag-sequence",

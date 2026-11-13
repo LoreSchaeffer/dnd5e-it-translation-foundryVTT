@@ -4647,6 +4647,14 @@
         },
         {
           "pack": "items",
+          "id": "46ikeR4RrSim6DsN",
+          "name": "Talisman of the Sphere",
+          "sourcePath": "items/trinket/talisman-of-the-sphere.yml",
+          "lookupKey": "Talisman of the Sphere",
+          "matchedLookupKey": "Talisman of the Sphere"
+        },
+        {
+          "pack": "items",
           "id": "PAXfmZ2ErDlCVy0N",
           "name": "Talisman of Ultimate Evil",
           "sourcePath": "items/trinket/talisman-of-ultimate-evil.yml",
@@ -7270,49 +7278,6 @@
               "message": "Foundry formulas differ from source",
               "pack": "items",
               "id": "oSarKEU8x1AupB6z",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "46ikeR4RrSim6DsN",
-          "name": "Talisman of the Sphere",
-          "sourcePath": "items/trinket/talisman-of-the-sphere.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Talisman of the Sphere",
-          "matchedLookupKey": "Talisman of the Sphere",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "46ikeR4RrSim6DsN",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "46ikeR4RrSim6DsN",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "46ikeR4RrSim6DsN",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-data-references",
-              "severity": "blocking",
-              "message": "Foundry data references differ from source",
-              "pack": "items",
-              "id": "46ikeR4RrSim6DsN",
               "fieldPath": "system.description.value"
             }
           ]
