@@ -1,4 +1,5 @@
 import { translationForField } from "./coverage.mjs";
+import { scanFoundryTokens } from "./foundry-tokens.mjs";
 import { compareInvariants } from "./invariants.mjs";
 import { walkVisibleFields } from "./visible-fields.mjs";
 
@@ -40,9 +41,39 @@ function normalizeKnownLegacyProse(value) {
     : value;
 }
 
+function defaultReferenceLabel(target) {
+  return target.split(/\s+/, 1)[0].split(".").at(-1);
+}
+
+function unwrapReferenceSyntax(value) {
+  return value
+    .replace(
+      /@(UUID|Compendium|Embed|Check|Save|Damage|Template|Condition)\[([^\]]*)\](?:\{([^{}]*)\})?/gi,
+      (_, _kind, target, label) => label ?? defaultReferenceLabel(target)
+    )
+    .replace(
+      /&(?:amp;)?reference\[([^\]]+)\](?:\{([^{}]*)\})?/gi,
+      (_, target, label) => label ?? defaultReferenceLabel(target)
+    );
+}
+
+function stripExplicitReferenceWrappers(value) {
+  return value
+    .replace(
+      /@(UUID|Compendium|Embed|Check|Save|Damage|Template|Condition)\[[^\]]*\]\{([^{}]*)\}/gi,
+      (_, _kind, label) => label
+    )
+    .replace(/&(?:amp;)?reference\[[^\]]+\]\{([^{}]*)\}/gi, (_, label) => label);
+}
+
+function normalizedVisibleProse(value) {
+  return normalizeKnownLegacyProse(unwrapReferenceSyntax(value));
+}
+
 function equivalentSourceValue(canonicalValue, embeddedValue) {
   return canonicalValue === embeddedValue
-    || normalizeKnownLegacyProse(canonicalValue) === normalizeKnownLegacyProse(embeddedValue);
+    || normalizeKnownLegacyProse(canonicalValue) === normalizeKnownLegacyProse(embeddedValue)
+    || normalizedVisibleProse(canonicalValue) === normalizedVisibleProse(embeddedValue);
 }
 
 function matchingFields(sourceFields, embeddedFields) {
@@ -94,8 +125,11 @@ export function buildCanonicalEmbeddedOverrides({ actorRecord, canonicalByUuid, 
         );
         if (typeof translatedValue !== "string" || !translatedValue) return [];
         if (compareInvariants(sourceField, translatedValue).length) return [];
-        if (compareInvariants(embeddedField, translatedValue).length) return [];
-        return [translatedValue];
+        if (!compareInvariants(embeddedField, translatedValue).length) return [translatedValue];
+        if (scanFoundryTokens(embeddedField.value).references.length) return [];
+        const projected = stripExplicitReferenceWrappers(translatedValue);
+        if (compareInvariants(embeddedField, projected).length) return [];
+        return [projected];
       });
       const uniqueValues = [...new Set(translatedValues)];
       if (uniqueValues.length !== 1) continue;

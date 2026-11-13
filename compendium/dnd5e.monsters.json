@@ -60,7 +60,7 @@
         },
         "n9pJzTDsAwQxJVRl": {
           "name": "Fiamma Sacra",
-          "description": "<p>Una luminosità simile a una fiamma scende su una creatura che puoi vedere entro gittata. Il bersaglio deve superare un tiro salvezza su Destrezza, altrimenti subisce 1d8 danni radiosi. Il bersaglio non ottiene alcun beneficio dalla copertura per questo tiro salvezza.</p><p>I danni dell'incantesimo aumentano di 1d8 quando raggiungi il 5° livello (2d8), l'11° livello (3d8) e il 17° livello (4d8).</p>"
+          "description": "<p>Un bagliore simile a una fiamma scende fino a una creatura entro gittata e che l'incantatore sia in grado di vedere. Il bersaglio deve superare un tiro salvezza su Destrezza, altrimenti subisce 1d8 danni radiosi. Il bersaglio non trae beneficio dalla copertura per questo tiro salvezza.</p><p>I danni di questo incantesimo aumentano di 1d8 quando l'incantatore arriva al 5° livello (2d8), 11° livello (3d8) e 17° livello (4d8).</p>"
         },
         "MUO1uYN7JR1hm4dR": {
           "name": "Taumaturgia",
@@ -79,7 +79,7 @@
         "gvdA9nPuWLck4tBl": {
           "name": "Santuario",
           "materials": "uno specchietto d'argento",
-          "description": "<p>Proteggi dagli attacchi una creatura entro gittata. Finché l'incantesimo non termina, ogni creatura che bersaglia la creatura protetta con un attacco o un incantesimo nocivo deve prima effettuare un tiro salvezza su Saggezza. Se lo fallisce, deve scegliere un nuovo bersaglio o perdere l'attacco o l'incantesimo. Questo incantesimo non protegge la creatura dagli effetti ad area, come l'esplosione di una Palla di Fuoco.</p><p>Se la creatura protetta effettua un attacco o lancia un incantesimo che influenza una creatura nemica, questo incantesimo termina.</p>"
+          "description": "<p>L'incantatore protegge una creatura situata entro gittata dagli attacchi. Finché l'incantesimo non termina, ogni creatura che bersaglia la creatura protetta con un attacco o un incantesimo che infligge danni deve prima effettuare un tiro salvezza su Saggezza. Se lo fallisce, deve scegliere un nuovo bersaglio o perdere l'attacco. Questo incantesimo non protegge la creatura bersaglio dagli effetti ad area come l'esplosione di una&nbsp;Palla di Fuoco.</p><p>Se la creatura protetta effettua un attacco o lancia un incantesimo che influenza una creatura nemica, questo incantesimo termina.</p>"
         },
         "uUWb1wZgtMou0TVP": {
           "name": "Cura Ferite",
@@ -314,7 +314,8 @@
           "description": "<p>Il [[lookup @name lowercase]]{mostro} può scalare le superfici difficili, inclusi i soffitti a testa in giù, senza dover effettuare una prova di caratteristica.</p>"
         },
         "KPLltVyVr3KqVNVD": {
-          "name": "Amorfo"
+          "name": "Amorfo",
+          "description": "<p>La [[lookup @name lowercase]]{monster} può muoversi attraverso uno spazio stretto fino a 2,5 centimetri senza doversi stringere.</p>"
         },
         "SYdqeemFOudCYb9E": {
           "name": "Pseudopodo",
@@ -342,17 +343,19 @@
         },
         "n9pJzTDsAwQxJVRl": {
           "name": "Fiamma Sacra",
-          "description": "<p>Una luminosità simile a una fiamma scende su una creatura che puoi vedere entro gittata. Il bersaglio deve superare un tiro salvezza su Destrezza, altrimenti subisce 1d8 danni radiosi. Il bersaglio non ottiene alcun beneficio dalla copertura per questo tiro salvezza.</p><p>I danni dell'incantesimo aumentano di 1d8 quando raggiungi il 5° livello (2d8), l'11° livello (3d8) e il 17° livello (4d8).</p>"
+          "description": "<p>Un bagliore simile a una fiamma scende fino a una creatura entro gittata e che l'incantatore sia in grado di vedere. Il bersaglio deve superare un tiro salvezza su Destrezza, altrimenti subisce 1d8 danni radiosi. Il bersaglio non trae beneficio dalla copertura per questo tiro salvezza.</p><p>I danni di questo incantesimo aumentano di 1d8 quando l'incantatore arriva al 5° livello (2d8), 11° livello (3d8) e 17° livello (4d8).</p>"
         },
         "8zT7njvqbpXs4Cel": {
-          "name": "Salvare i Morenti"
+          "name": "Salvare i Morenti",
+          "description": "<p>L'incantatore tocca una creatura vivente a 0 punti ferita. Quella creatura diventa stabile. Questo incantesimo non ha effetto sui costrutti o sui non morti.</p>"
         },
         "MUO1uYN7JR1hm4dR": {
           "name": "Taumaturgia",
           "description": "<p>L'incantatore genera una meraviglia minore, una manifestazione di potere soprannaturale. Può creare uno degli effetti magici seguenti entro gittata:</p>\n<ul>\n<li>La sua voce rimbomba con potenza tre volte superiore rispetto al normale per 1 minuto.</li>\n<li>L'incantatore fa in modo che una fiamma tremi, si intensifichi, si affievolisca o cambi colore per 1 minuto.</li>\n<li>L'incantatore genera un tremito innocuo sul terreno per 1 minuto.</li>\n<li>L'incantatore crea un suono istantaneo che abbia origine da un punto entro gittata a sua scelta, come un rombo di tuono, il verso di un corvo o un sinistro sussurro.</li>\n<li>L'incantatore fa in modo che una porta o una finestra non chiusa a chiave si spalanchi o si chiuda di colpo da sola.</li>\n<li>L'incantatore altera l'aspetto dei suoi occhi per 1 minuto.</li>\n</ul>\n\n<p>Se l'incantatore lancia questo incantesimo più volte, può mantenere attivi fino a tre dei suoi effetti da 1 minuto simultaneamente e può congedare uno di quegli effetti con un'azione.</p>"
         },
         "arzCrMRgcNiQuh43": {
-          "name": "Comando"
+          "name": "Comando",
+          "description": "<p>L'incantatore pronuncia un comando di una parola rivolto a una creatura che può vedere entro gittata. Il bersaglio deve superare un tiro salvezza su Saggezza, altrimenti esegue il comando nel proprio turno successivo. L'incantesimo non ha effetto se il bersaglio è non morto, se non comprende il linguaggio dell'incantatore o se il comando gli è direttamente nocivo.</p><p>Di seguito sono descritti alcuni comandi tipici e i loro effetti. L'incantatore può impartire un comando diverso da quelli descritti. In tal caso, il DM determina come si comporta il bersaglio. Se il bersaglio non può eseguire il comando, l'incantesimo termina.</p><p><strong>Avvicinati.</strong> Il bersaglio si muove verso l'incantatore seguendo il percorso più breve e diretto, terminando il proprio turno se giunge entro 1,5 metri da lui.</p><p><strong>Lascia.</strong> Il bersaglio lascia cadere ciò che sta impugnando e poi termina il proprio turno.</p><p><strong>Fuggi.</strong> Il bersaglio impiega il proprio turno per allontanarsi dall'incantatore con il mezzo più rapido disponibile.</p><p><strong>Supplica.</strong> Il bersaglio cade &amp;reference[prone] e poi termina il proprio turno.</p><p><strong>Fermo.</strong> Il bersaglio non si muove e non effettua azioni. Una creatura volante rimane in aria, purché sia in grado di farlo. Se deve muoversi per rimanere in aria, vola della distanza minima necessaria.</p><p><strong>Ai Livelli Superiori.</strong> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, può influenzare una creatura aggiuntiva per ogni livello dello slot superiore al 1°. Le creature devono trovarsi entro 9 metri l'una dall'altra quando vengono bersagliate.</p>"
         },
         "Mzh95utKDPIrjiH8": {
           "name": "Individuazione del Bene e del Male",
@@ -363,7 +366,8 @@
           "description": "<p>Per la durata dell'incantesimo, l'incantatore percepisce la presenza della magia entro 9 metri da lui. Se percepisce la magia in questo modo, può usare la sua azione per vedere una debole aura attorno a ogni creatura o oggetto visibile nell'area e che contenga magia, e apprende di che scuola di magia si tratta, se ne esiste una.</p><p>L'incantesimo può penetrare la maggior parte delle barriere, ma è bloccato da 30 cm di pietra, 2,5 cm di metallo comune, una sottile lamina di piombo o 90cm di legno o terriccio.</p>"
         },
         "F0GsG0SJzsIOacwV": {
-          "name": "Ristorare Inferiore"
+          "name": "Ristorare Inferiore",
+          "description": "<p>L'incantatore tocca una creatura e può porre termine a una malattia o una condizione che lo affligge tra accecato, assordato, avvelenato o paralizzato.</p>"
         },
         "CylBa7jR8DSbo8Z3": {
           "name": "Zona di Verità",
@@ -380,7 +384,8 @@
         },
         "pxpb2eOB6bv4phAf": {
           "name": "Esilio",
-          "materials": "un oggetto sgradito al bersaglio"
+          "materials": "un oggetto sgradito al bersaglio",
+          "description": "<p>L'incantatore tenta di inviare su un altro piano di esistenza una creatura che egli sia in grado di vedere e che si trovi entro gittata. Il bersaglio deve superare un tiro salvezza su Carisma o sar&agrave; esiliato.</p><p>Se il bersaglio &egrave; originario del piano di esistenza in cui si trova, l'incantatore lo esilia su un semipiano innocuo. Mentre si trova laggi&ugrave;, il bersaglio &egrave; incapacitato e rimane in quel luogo finch&eacute; l'incantesimo non termina, nel qual caso ricompare nello spazio che aveva lasciato o nello spazio libero pi&ugrave; vicino se quello spazio &egrave; occupato.</p><p>Se il bersaglio &egrave; originario di un piano di esistenza diverso da quello in cui si trova l'incantatore, esso viene esiliato con una piccola implosione a malapena udibile e fa ritorno al suo piano natio. Se l'incantesimo termina prima che sia trascorso 1 minuto, il bersaglio ricompare nello spazio che aveva lasciato o nello spazio libero pi&ugrave; vicino, se quello spazio &egrave; occupato. Altrimenti non far&agrave; ritorno.</p><p><strong>Ai Livelli Superiori.</strong>&nbsp;Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 5&deg; livello o superiore, pu&ograve; bersagliare una creatura aggiuntiva per ogni slot di livello superiore al 4&deg;.</p>"
         },
         "da0a1t2FqaTjRZGT": {
           "name": "Libertà di Movimento",
@@ -397,7 +402,8 @@
         },
         "mgFqi0ev8f7Ut19y": {
           "name": "Banchetto degli Eroi",
-          "materials": "una scodella tempestata di gemme del valore di almeno 1.000 mo, che l'incantatore consuma"
+          "materials": "una scodella tempestata di gemme del valore di almeno 1.000 mo, che l'incantatore consuma",
+          "description": "<p>L'incantatore evoca un grande banchetto, completo di sontuose pietanze e bevande. Pasteggiare al banchetto richiede 1 ora, al termine della quale il banchetto scompare; gli effetti benefici del banchetto non si applicano finché quell'ora non è trascorsa. Fino a un massimo di altre dodici creature possono partecipare al banchetto.</p><p>Una creatura che partecipa al banchetto ottiene vari benefici: viene curata da tutte le malattie e dai veleni, diventa immune ai veleni e alla condizione di spaventato, dispone di vantaggio a tutti i tiri salvezza su Saggezza, il suo massimo dei punti ferita aumenta di 2d10 e ottiene quello stesso numero di punti ferita. Questi benefici durano per 24 ore.</p>"
         },
         "FhfUU71G8WJDH4q4": {
           "name": "Armi Magiche",
@@ -639,7 +645,8 @@
         },
         "pxpb2eOB6bv4phAf": {
           "name": "Esilio",
-          "materials": "un oggetto sgradito al bersaglio"
+          "materials": "un oggetto sgradito al bersaglio",
+          "description": "<p>L'incantatore tenta di inviare su un altro piano di esistenza una creatura che egli sia in grado di vedere e che si trovi entro gittata. Il bersaglio deve superare un tiro salvezza su Carisma o sar&agrave; esiliato.</p><p>Se il bersaglio &egrave; originario del piano di esistenza in cui si trova, l'incantatore lo esilia su un semipiano innocuo. Mentre si trova laggi&ugrave;, il bersaglio &egrave; incapacitato e rimane in quel luogo finch&eacute; l'incantesimo non termina, nel qual caso ricompare nello spazio che aveva lasciato o nello spazio libero pi&ugrave; vicino se quello spazio &egrave; occupato.</p><p>Se il bersaglio &egrave; originario di un piano di esistenza diverso da quello in cui si trova l'incantatore, esso viene esiliato con una piccola implosione a malapena udibile e fa ritorno al suo piano natio. Se l'incantesimo termina prima che sia trascorso 1 minuto, il bersaglio ricompare nello spazio che aveva lasciato o nello spazio libero pi&ugrave; vicino, se quello spazio &egrave; occupato. Altrimenti non far&agrave; ritorno.</p><p><strong>Ai Livelli Superiori.</strong>&nbsp;Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 5&deg; livello o superiore, pu&ograve; bersagliare una creatura aggiuntiva per ogni slot di livello superiore al 4&deg;.</p>"
         },
         "avD5XUtkBPQQR97c": {
           "name": "Scudo di Fuoco",
@@ -674,7 +681,8 @@
         },
         "o9ZCvuD2B1OTcubb": {
           "name": "Muro di Forza",
-          "materials": "un pizzico di polvere ricavato dalla distruzione di una gemma trasparente"
+          "materials": "un pizzico di polvere ricavato dalla distruzione di una gemma trasparente",
+          "description": "<p>Un muro invisibile di forza si materializza in un punto a scelta dell'incantatore situato entro gittata. Il muro appare nell'orientamento che l'incantatore desidera, come barriera orizzontale, verticale o inclinata. Pu&ograve; fluttuare nell'aria o poggiare su una superficie solida. L'incantatore pu&ograve; modellarlo in una semisfera o in una sfera del raggio massimo di 3 metri, o come una superficie piatta composta di dieci pannelli quadrati con lato di 3 metri l'uno. Ogni pannello deve essere contiguo a un altro pannello. In qualsiasi forma, il muro ha uno spessore di 0,5 cm e permane per la durata dell'incantesimo.</p><p>Se il muro passa attraverso lo spazio di una creatura quando appare, la creatura viene spinta da un lato del muro a scelta dell'incantatore. Nulla pu&ograve; attraversare fisicamente il muro, che &egrave; immune a tutti i danni e non pu&ograve; essere dissolto tramite&nbsp;Dissolvi Magie. Un incantesimo&nbsp;Disintegrazione, tuttavia, distrugge il muro istantaneamente. Il muro si estende anche sul Piano Etereo, bloccando i viaggi eterei che lo attraversano.</p>"
         },
         "WmQpxfjZwF3MGUby": {
           "name": "Globo di Invulnerabilità",
@@ -686,7 +694,8 @@
           "description": "<p data-parsoid=\"{&quot;dsr&quot;:[0,28,0,0]}\"><em data-parsoid=\"{&quot;dsr&quot;:[0,28,2,2]}\">Evocazione di 7° livello</em></p>\n<ul data-parsoid=\"{&quot;dsr&quot;:[29,132,0,0]}\">\n<li data-parsoid=\"{&quot;dsr&quot;:[29,61,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[30,53,3,3]}\">Tempo di lancio:&nbsp;</strong>1 azione</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[62,85,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[63,78,3,3]}\">Gittata:&nbsp;</strong>3 metri</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[86,106,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[87,105,3,3]}\">Componenti:&nbsp;</strong>V</li>\n<li data-parsoid=\"{&quot;dsr&quot;:[107,132,1,0]}\"><strong data-parsoid=\"{&quot;dsr&quot;:[108,122,3,3]}\">Durata:&nbsp;</strong>Istantanea</li>\n</ul>\n<p data-parsoid=\"{&quot;dsr&quot;:[133,413,0,0]}\">Questo incantesimo trasporta immediatamente l'incantatore e un massimo di otto creature consenzienti a sua scelta, situate entro gittata e che egli sia in grado di vedere, oppure un singolo oggetto entro gittata e che egli sia in grado di vedere, in una destinazione a sua scelta.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[415,596,0,0]}\">Se bersaglia un oggetto, quell'oggetto deve essere interamente contenuto in un cubo con spigolo di 3 metri e non può essere impugnato o trasportato da una creatura non consenziente.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[598,704,0,0]}\">La destinazione scelta deve essere nota all'incantatore e deve trovarsi sul suo stesso piano di esistenza.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[706,820,0,0]}\">la familiarità dell'incantatore nei confronti della destinazione determina se l'incantatore riesce a raggiungerla.</p>\n<p data-parsoid=\"{&quot;dsr&quot;:[822,863,0,0]}\">Il DM tira un d100 e consulta la tabella.</p>\n<table class=\"article-table\">\n<tbody>\n<tr>\n<th>d100</th>\n<th>Errore</th>\n<th>Area Simile</th>\n<th>Fuori Bersaglio</th>\n<th>Sul Bersaglio</th>\n</tr>\n<tr>\n<td>Cerchio permanente</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>01-100</td>\n</tr>\n<tr>\n<td>Oggetto Associato</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>01-100</td>\n</tr>\n<tr>\n<td>Molto Familiare</td>\n<td>01-05</td>\n<td>06-13</td>\n<td>14-24</td>\n<td>25-100</td>\n</tr>\n<tr>\n<td>Visto per caso</td>\n<td>01-33</td>\n<td>34-43</td>\n<td>44-53</td>\n<td>54-100</td>\n</tr>\n<tr>\n<td>Visto una volta</td>\n<td>01-43</td>\n<td>44-53</td>\n<td>54-73</td>\n<td>74-100</td>\n</tr>\n<tr>\n<td>Descrizione</td>\n<td>01-43</td>\n<td>44-53</td>\n<td>54-73</td>\n<td>74-100</td>\n</tr>\n<tr>\n<td>Falsa Destinazione</td>\n<td>01-50</td>\n<td>51-100</td>\n<td>-</td>\n<td>-</td>\n</tr>\n</tbody>\n</table>\n<p data-parsoid=\"{&quot;dsr&quot;:[822,863,0,0]}\"><strong>Familiarità</strong>. \"Cerchio permanente\" indica un cerchio di teletrasporto permanente di cui l'incantatore conosce la sequenza di simboli. \"Oggetto associato\" significa che l'incantatore è in possesso di un oggetto prelevato della destinazione desiderata da non più di sei mesi, come un libro dalla biblioteca di un mago, lenzuola da un alloggio reale o un frammento di marmo della tomba segreta di un lich. \"Molto familiare\" è un luogo in cui l'incantatore ha visitato molto spesso, un luogo che ha studiato attentamente o un luogo che può vedere quando lancia l'incantesimo. \"Visto per caso\" è un luogo che l'incantatore ha visto più di una volta ma con cui non ha molta familiarità. \"Visto una volta\" è un posto che l'incantatore ha visto una volta, probabilmente usando la magia. \"Descrizione\" è un luogo di cui l'ubicazione e apparenza sono noti all'incantatore grazie la descrizione di qualcun altro o forse grazie ad una mappa. \"Falsa Destinazione\" è un luogo che non esiste. Forse l'incantatore ha cercato di scrutare il rifugio segreto di un nemico ma ha visto un illusione, oppure tenta di teletrasportarsi in un luogo familiare che non esiste più.</p>\n<p><strong>Sul Bersaglio.</strong> L'incantatore e il suo gruppo (o l'oggetto bersaglio) compaiono dove l'incantatore vuole.</p>\n<p><strong>Fuori dal Bersaglio.</strong> L'incantatore e il suo gruppo (o l'oggetto bersaglio) compaiono a una distanza casuale dalla destinazione in una direzione casuale. La distanza dal bersaglio è 1d10 x 1d10 percento della distanza da percorrere. Ad esempio, se un incantatore ha provato a percorrere 180 km, arriva fuori bersaglio e ottiene un 5 e 3 sui due d10, allora sarebbe fuori bersaglio del 15 percento o 27 km. Il DM determina la direzione fuori bersaglio in modo casuale tirando un d8, dove l'1 corrisponde al nord, 2 al nord-est, 3 all'est e così via ad indicare i punti cardinali. Se l'incantatore voleva teletrasportarsi in una città costiera e finisse per 27 km in mare, potrebbe essere nei guai.</p>\n<p><strong>Area simile</strong>. L'incantatore e il suo gruppo (o l'oggetto bersaglio) arrivano in un'area diversa che è visivamente o tematicamente simile all'area bersaglio. Per esempio: se è diretto al suo laboratorio personale, potrebbe finire nel laboratorio di un altro mago o in un negozio di sostanze alchemiche che contiene molti strumenti e materiali simili a quelli del suo laboratorio. In genere appare nel luogo simile più vicino, ma dal momento che l'incantesimo non ha limiti di gittata, in teoria potrebbe finire in un qualsiasi punto del piano.</p>\n<p>&nbsp;</p>\n<p><strong>Errore</strong>. La magia imprevedibile dell'incantesimo rende il viaggio più difficile. Ogni creatura si teletrasportata (o l'oggetto bersaglio) subisce danni da forza 3d10 e il DM ripete il tiro sulla tabella per determinare dove arriverà (potrebbe verificare più di un errore, nel qual caso i danni vengono applicati ogni volta).</p>"
         },
         "bllEWfm9xfEKynhv": {
-          "name": "Vuoto Mentale"
+          "name": "Vuoto Mentale",
+          "description": "<p>Finché l'incantesimo non termina, una creatura consenziente toccata dall'incantatore è immune ai danni psichici, a qualsiasi effetto che percepisca le sue emozioni o legga i suoi pensieri, agli incantesimi di Divinazione e alla condizione &amp;reference[Charmed apply=false]. L'incantesimo sventa perfino gli incantesimi Desiderio e gli incantesimi o effetti di potere analogo usati per influenzare la mente del bersaglio o ottenere informazioni su di esso.</p>"
         },
         "JYuRBwxpoFhXduvD": {
           "name": "Fermare il Tempo",
@@ -809,7 +818,8 @@
           "description": "<p>Realizzata in cuoio resistente ma flessibile, è rinforzata con rivetti ravvicinati o punte.</p>"
         },
         "Ld00NpZe8Zl4J4Pi": {
-          "name": "Assassinare"
+          "name": "Assassinare",
+          "description": "<p>Durante il suo primo turno, la [[lookup @name lowercase]]{monster} dispone di vantaggio ai tiri per colpire contro ogni creatura che non abbia ancora effettuato un turno. Ogni colpo che la [[lookup @name lowercase]]{monster} mette a segno contro una creatura sorpresa è considerato un colpo critico.&nbsp;</p>"
         },
         "EcECOhaJIpCtN2o7": {
           "name": "Attacco Furtivo",
@@ -2218,12 +2228,13 @@
           "description": "<p>Una creatura toccata dall'incantatore recupera un numero di punti ferita pari a 1d8 + il modificatore di caratteristica da incantatore. Questo incantesimo non ha effetto sui costrutti o sui non morti.</p>\n<p><strong>Ai Livelli Superiori.</strong>&nbsp;Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, la guarigione aumenta di 1d8 per ogni slot di livello superiore al 1°.</p>"
         },
         "F0GsG0SJzsIOacwV": {
-          "name": "Ristorare Inferiore"
+          "name": "Ristorare Inferiore",
+          "description": "<p>L'incantatore tocca una creatura e può porre termine a una malattia o una condizione che lo affligge tra accecato, assordato, avvelenato o paralizzato.</p>"
         },
         "gvdA9nPuWLck4tBl": {
           "name": "Santuario",
           "materials": "uno specchietto d'argento",
-          "description": "<p>Proteggi dagli attacchi una creatura entro gittata. Finché l'incantesimo non termina, ogni creatura che bersaglia la creatura protetta con un attacco o un incantesimo nocivo deve prima effettuare un tiro salvezza su Saggezza. Se lo fallisce, deve scegliere un nuovo bersaglio o perdere l'attacco o l'incantesimo. Questo incantesimo non protegge la creatura dagli effetti ad area, come l'esplosione di una Palla di Fuoco.</p><p>Se la creatura protetta effettua un attacco o lancia un incantesimo che influenza una creatura nemica, questo incantesimo termina.</p>"
+          "description": "<p>L'incantatore protegge una creatura situata entro gittata dagli attacchi. Finché l'incantesimo non termina, ogni creatura che bersaglia la creatura protetta con un attacco o un incantesimo che infligge danni deve prima effettuare un tiro salvezza su Saggezza. Se lo fallisce, deve scegliere un nuovo bersaglio o perdere l'attacco. Questo incantesimo non protegge la creatura bersaglio dagli effetti ad area come l'esplosione di una&nbsp;Palla di Fuoco.</p><p>Se la creatura protetta effettua un attacco o lancia un incantesimo che influenza una creatura nemica, questo incantesimo termina.</p>"
         },
         "z1mx84ONwkXKUZd7": {
           "name": "Scudo",
@@ -2247,7 +2258,8 @@
           "materials": "un focus del valore di almeno 1.000 mo, come una sfera di cristallo, uno specchio d'argento o un bacile pieno di acqua santa"
         },
         "MAxM77CDUu8dgIRQ": {
-          "name": "Protezione dai Veleni"
+          "name": "Protezione dai Veleni",
+          "description": "<p>L'incantatore tocca una creatura, se quella creatura è avvelenata il veleno è neutralizzato. Se il bersaglio è afflitto da più veleni, l'incantatore neutralizza un veleno di cui conosce la presenza, oppure ne neutralizza uno a caso.</p>\n\n<p>Per la durata dell'incantesimo, il bersaglio dispone di vantaggio ai tiri salvezza per non essere avvelenato e di resistenza ai danni da veleno.</p>"
         },
         "KtxEQuB9SXybD09z": {
           "name": "Armi Magiche",
@@ -2513,7 +2525,7 @@
         },
         "jfFJ5cnUOGIrUTY4": {
           "name": "Vista del Diavolo",
-          "description": "<p>L'&amp;reference[darkness] magica non ostacola la &amp;reference[Darkvision] del [[lookup @name lowercase]]{mostro}.</p>"
+          "description": "<p>L'oscurità magica non ostacola la Scurovisione del [[lookup @name lowercase]]{mostro}.</p>"
         },
         "ndwCjJFBLTujojCl": {
           "name": "Barba",
@@ -2548,7 +2560,7 @@
         },
         "IJGBvJg6lrJhY1mv": {
           "name": "Vista del Diavolo",
-          "description": "<p>L'&amp;reference[darkness] magica non ostacola la &amp;reference[Darkvision] del [[lookup @name lowercase]]{mostro}.</p>"
+          "description": "<p>L'oscurità magica non ostacola la Scurovisione del [[lookup @name lowercase]]{mostro}.</p>"
         },
         "g8r9DZeHyfNzerHP": {
           "name": "Forcone",
@@ -2594,7 +2606,7 @@
         },
         "XTbjimpPqg4YV2QD": {
           "name": "Vista del Diavolo",
-          "description": "<p>L'&amp;reference[darkness] magica non ostacola la &amp;reference[Darkvision] del [[lookup @name lowercase]]{mostro}.</p>"
+          "description": "<p>L'oscurità magica non ostacola la Scurovisione del [[lookup @name lowercase]]{mostro}.</p>"
         },
         "KjxsSFx9xv2HLtMX": {
           "name": "Artiglio",
@@ -2653,7 +2665,7 @@
         },
         "i6GFKFUS8gJQQ849": {
           "name": "Vista del Diavolo",
-          "description": "<p>L'&amp;reference[darkness] magica non ostacola la &amp;reference[Darkvision] del [[lookup @name lowercase]]{mostro}.</p>"
+          "description": "<p>L'oscurità magica non ostacola la Scurovisione del [[lookup @name lowercase]]{mostro}.</p>"
         },
         "AQ551xglVn90BdwU": {
           "name": "Coda",
@@ -2714,7 +2726,8 @@
         },
         "l9Ju5KE7bbn3WpTm": {
           "name": "Blocca Mostri",
-          "materials": "Una piccola sbarra di ferro"
+          "materials": "Una piccola sbarra di ferro",
+          "description": "<p>L'incantatore sceglie una creatura entro gittata e che egli sia in grado di vedere. li bersaglio deve superare un tiro salvezza su Saggezza, altrimenti sarà paralizzato per la durata dell'incantesimo. Questo incantesimo non ha effetto sui non morti. Alla fine di ogni suo turno, il bersaglio può effettuare un altro tiro salvezza su Saggezza. Se lo supera, l'incantesimo su di esso termina.</p><p><strong>Ai Livelli Superiori</strong>. Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 6° livello o superiore, può bersagliare una creatura aggiuntiva per ogni slot di livello superiore al 5°. Le creature devono trovarsi a non più di 9 metri l'una dall'altra quando l'incantatore le bersaglia.</p>"
         },
         "X3DrXgxjwI2dvkD6": {
           "name": "Muro di Fuoco",
@@ -2793,7 +2806,7 @@
         },
         "0dnRBTCLiRB6hXRE": {
           "name": "Vista del Diavolo",
-          "description": "<p>L'&amp;reference[darkness] magica non ostacola la &amp;reference[Darkvision] del [[lookup @name lowercase]]{mostro}.</p>"
+          "description": "<p>L'oscurità magica non ostacola la Scurovisione del [[lookup @name lowercase]]{mostro}.</p>"
         },
         "9SWi4zPVGsMD5l2Y": {
           "name": "Catena",
@@ -2836,7 +2849,7 @@
         },
         "Mr0XAAdAlLKQU5on": {
           "name": "Vista del Diavolo",
-          "description": "<p>L'&amp;reference[darkness] magica non ostacola la &amp;reference[Darkvision] del [[lookup @name lowercase]]{mostro}.</p>"
+          "description": "<p>L'oscurità magica non ostacola la Scurovisione del [[lookup @name lowercase]]{mostro}.</p>"
         },
         "pya9jchjLkwMedEr": {
           "name": "Artiglio",
@@ -2895,7 +2908,8 @@
         },
         "8PJAsHmbu6UgDHC0": {
           "name": "Camminare nel Vento",
-          "materials": "fuoco e acqua santa"
+          "materials": "fuoco e acqua santa",
+          "description": "<p>Per la durata, tu e fino ad altre dieci creature consenzienti a gittata, che puoi vedere, assumete forma gassosa, diventando nubi. Mentre &egrave; in forma di nube, una creatura ha velocit&agrave; di volo 90 metri e ha resistenza ai danni dalle armi non magiche. Ritornare alla forma normale richiede 1 minuto, durante il quale la creatura &egrave; inabile e non pu&ograve; muoversi. Fino al termine dell&rsquo;incantesimo, una creatura pu&ograve; tornare alla forma di nube, che richiede una trasformazione di un minuto.</p><p>Se una creatura &egrave; in forma di nube e sta volando quando l&rsquo;effetto ha termine, la creatura scende 18 metri per round al minuto finch&eacute; non atterra, al sicuro. Se non riesce ad atterrare dopo 1 minuto,la creatura cadr&agrave; per la distanza rimanente.</p>"
         },
         "lnaGnxMzpYnbw1uU": {
           "name": "Creazione",
@@ -2904,7 +2918,8 @@
         },
         "2IWiZAJtOGDoKjiz": {
           "name": "Forma Gassosa",
-          "materials": "un pezzetto di garza e un filo di fumo"
+          "materials": "un pezzetto di garza e un filo di fumo",
+          "description": "<p>L'incantatore trasforma una creatura consenziente da lui toccata (assieme a tutto ciò che essa indossa e trasporta) in una nube di foschia per la durata dell'incantesimo. L'incantesimo termina se la creatura scende a 0 punti ferita.</p><p>Una creatura incorporea non è influenzata dall'incantesimo. Finché il bersaglio si trova in questa forma, il suo unico metodo di movimento è una velocità di volare pari a 3 metri. Il bersaglio può entrare nello spazio di un'altra creatura e occuparlo, dispone di resistenza ai danni non magici e di vantaggio ai tiri salvezza su Forza, Destrezza e Costituzione. Il bersaglio può passare attraverso piccoli fori, aperture strette e perfino semplici crepe, ma considera i liquidi come se fossero superfici solide. Il bersaglio non può cadere e continua a fluttuare nell'arca anche quando è stordito o incapacitato in altri modi.</p><p>Finché è in forma gassosa, il bersaglio non può parlare o manipolare oggetti, e quelli che trasporta o impugna non possono essere usati, lasciati cadere o manipolati in alcun modo. Il bersaglio non può attaccare o lanciare incantesimi.</p>"
         },
         "1N8dDMMgZ1h1YJ3B": {
           "name": "Invisibilità",
@@ -2918,7 +2933,8 @@
         },
         "J6Jpw5XzB5aTeqnz": {
           "name": "Spostamento Planare",
-          "materials": "una bacchetta di metallo biforcuta armonizzata al piano di destinazione da 250 mo"
+          "materials": "una bacchetta di metallo biforcuta armonizzata al piano di destinazione da 250 mo",
+          "description": "<p>L'incantatore e un massimo di otto creature consenzienti che si tengono per mano formando un cerchio vengono trasportati su un piano di esistenza diverso. L'incantatore può indicare una destinazione in termini generali, come la Città d'Ottone sul Piano Elementale del Fuoco o il palazzo di Dispater sul secondo livello dei Nove Inferi, e appare in quel luogo o nelle sue vicinanze. Se, per esempio, tenta di raggiungere la Città d'Ottone, potrebbe arrivare nella sua Via dell'Acciaio, davanti alla sua Porta delle Ceneri o in un punto da cui osserva la città al di là del Mare di Fuoco, a discrezione del DM.</p><p>In alternativa, se l'incantatore conosce la sequenza dei simboli di un cerchio di teletrasporto su un altro piano di esistenza, questo incantesimo può condurlo a quel cerchio. Se il cerchio di teletrasporto è troppo piccolo per contenere tutte le creature trasportate, esse appaiono negli spazi liberi più vicini al cerchio.</p><p>L'incantatore può usare questo incantesimo per bandire una creatura non consenziente su un altro piano. Sceglie una creatura entro la propria portata ed effettua contro di essa un attacco con incantesimo in mischia. Se colpisce, la creatura deve effettuare un tiro salvezza su Carisma. Se lo fallisce, viene trasportata in un punto casuale del piano di esistenza specificato dall'incantatore. Una creatura trasportata in questo modo deve trovare autonomamente il modo di tornare sull'attuale piano di esistenza dell'incantatore.</p>"
         },
         "fL3AlIo9kQ591fz5": {
           "name": "Morte Elementale",
@@ -5995,7 +6011,8 @@
         },
         "S7VbUetIfVT7B6Eq": {
           "name": "Oscurità",
-          "materials": "pelo di pipistrello e una goccia di pece o un pezzo di carbone"
+          "materials": "pelo di pipistrello e una goccia di pece o un pezzo di carbone",
+          "description": "<p>L'incantatore sceglie un punto situato entro gittata da cui si diffonde un'oscurit&agrave; magica che riempie una sfera del raggio di 4,5 metri per la durata dell'incantesimo. L'oscurit&agrave; si diffonde oltre gli angoli. Una creatura dotata di scurovisione non &egrave; in grado di vedere attraverso questa oscurit&agrave; e le luci non magiche non possono illuminarla.</p><p>Se il punto scelto dall'incantatore si trova su un oggetto che egli sta impugnando o che non &egrave; indossato o trasportato da nessuno, l'oscurit&agrave; si diffonde dall'oggetto e si muove assieme a esso. Coprire completamente la fonte dell'oscurit&agrave; con un oggetto opaco, come una scodella o un elmo, blocca l'oscurit&agrave;.</p><p>Se una parte dell'area di questo incantesimo si sovrappone a un'area di luce creata da un incantesimo di 2&deg; livello o inferiore, l'incantesimo che ha creato la luce &egrave; dissolto.</p>"
         },
         "nqBDWkVOfcGZt4YU": {
           "name": "Luminescenza",
@@ -6058,7 +6075,8 @@
         },
         "S7VbUetIfVT7B6Eq": {
           "name": "Oscurità",
-          "materials": "pelo di pipistrello e una goccia di pece o un pezzo di carbone"
+          "materials": "pelo di pipistrello e una goccia di pece o un pezzo di carbone",
+          "description": "<p>L'incantatore sceglie un punto situato entro gittata da cui si diffonde un'oscurit&agrave; magica che riempie una sfera del raggio di 4,5 metri per la durata dell'incantesimo. L'oscurit&agrave; si diffonde oltre gli angoli. Una creatura dotata di scurovisione non &egrave; in grado di vedere attraverso questa oscurit&agrave; e le luci non magiche non possono illuminarla.</p><p>Se il punto scelto dall'incantatore si trova su un oggetto che egli sta impugnando o che non &egrave; indossato o trasportato da nessuno, l'oscurit&agrave; si diffonde dall'oggetto e si muove assieme a esso. Coprire completamente la fonte dell'oscurit&agrave; con un oggetto opaco, come una scodella o un elmo, blocca l'oscurit&agrave;.</p><p>Se una parte dell'area di questo incantesimo si sovrappone a un'area di luce creata da un incantesimo di 2&deg; livello o inferiore, l'incantesimo che ha creato la luce &egrave; dissolto.</p>"
         },
         "nqBDWkVOfcGZt4YU": {
           "name": "Luminescenza",
@@ -6262,7 +6280,8 @@
         },
         "2IWiZAJtOGDoKjiz": {
           "name": "Forma Gassosa",
-          "materials": "un pezzetto di garza e un filo di fumo"
+          "materials": "un pezzetto di garza e un filo di fumo",
+          "description": "<p>L'incantatore trasforma una creatura consenziente da lui toccata (assieme a tutto ciò che essa indossa e trasporta) in una nube di foschia per la durata dell'incantesimo. L'incantesimo termina se la creatura scende a 0 punti ferita.</p><p>Una creatura incorporea non è influenzata dall'incantesimo. Finché il bersaglio si trova in questa forma, il suo unico metodo di movimento è una velocità di volare pari a 3 metri. Il bersaglio può entrare nello spazio di un'altra creatura e occuparlo, dispone di resistenza ai danni non magici e di vantaggio ai tiri salvezza su Forza, Destrezza e Costituzione. Il bersaglio può passare attraverso piccoli fori, aperture strette e perfino semplici crepe, ma considera i liquidi come se fossero superfici solide. Il bersaglio non può cadere e continua a fluttuare nell'arca anche quando è stordito o incapacitato in altri modi.</p><p>Finché è in forma gassosa, il bersaglio non può parlare o manipolare oggetti, e quelli che trasporta o impugna non possono essere usati, lasciati cadere o manipolati in alcun modo. Il bersaglio non può attaccare o lanciare incantesimi.</p>"
         },
         "1N8dDMMgZ1h1YJ3B": {
           "name": "Invisibilità",
@@ -6276,7 +6295,8 @@
         },
         "J6Jpw5XzB5aTeqnz": {
           "name": "Spostamento Planare",
-          "materials": "una bacchetta di metallo biforcuta armonizzata al piano di destinazione da 250 mo"
+          "materials": "una bacchetta di metallo biforcuta armonizzata al piano di destinazione da 250 mo",
+          "description": "<p>L'incantatore e un massimo di otto creature consenzienti che si tengono per mano formando un cerchio vengono trasportati su un piano di esistenza diverso. L'incantatore può indicare una destinazione in termini generali, come la Città d'Ottone sul Piano Elementale del Fuoco o il palazzo di Dispater sul secondo livello dei Nove Inferi, e appare in quel luogo o nelle sue vicinanze. Se, per esempio, tenta di raggiungere la Città d'Ottone, potrebbe arrivare nella sua Via dell'Acciaio, davanti alla sua Porta delle Ceneri o in un punto da cui osserva la città al di là del Mare di Fuoco, a discrezione del DM.</p><p>In alternativa, se l'incantatore conosce la sequenza dei simboli di un cerchio di teletrasporto su un altro piano di esistenza, questo incantesimo può condurlo a quel cerchio. Se il cerchio di teletrasporto è troppo piccolo per contenere tutte le creature trasportate, esse appaiono negli spazi liberi più vicini al cerchio.</p><p>L'incantatore può usare questo incantesimo per bandire una creatura non consenziente su un altro piano. Sceglie una creatura entro la propria portata ed effettua contro di essa un attacco con incantesimo in mischia. Se colpisce, la creatura deve effettuare un tiro salvezza su Carisma. Se lo fallisce, viene trasportata in un punto casuale del piano di esistenza specificato dall'incantatore. Una creatura trasportata in questo modo deve trovare autonomamente il modo di tornare sull'attuale piano di esistenza dell'incantatore.</p>"
         },
         "X3DrXgxjwI2dvkD6": {
           "name": "Muro di Fuoco",
@@ -6756,14 +6776,15 @@
         },
         "n9pJzTDsAwQxJVRl": {
           "name": "Fiamma Sacra",
-          "description": "<p>Una luminosità simile a una fiamma scende su una creatura che puoi vedere entro gittata. Il bersaglio deve superare un tiro salvezza su Destrezza, altrimenti subisce 1d8 danni radiosi. Il bersaglio non ottiene alcun beneficio dalla copertura per questo tiro salvezza.</p><p>I danni dell'incantesimo aumentano di 1d8 quando raggiungi il 5° livello (2d8), l'11° livello (3d8) e il 17° livello (4d8).</p>"
+          "description": "<p>Un bagliore simile a una fiamma scende fino a una creatura entro gittata e che l'incantatore sia in grado di vedere. Il bersaglio deve superare un tiro salvezza su Destrezza, altrimenti subisce 1d8 danni radiosi. Il bersaglio non trae beneficio dalla copertura per questo tiro salvezza.</p><p>I danni di questo incantesimo aumentano di 1d8 quando l'incantatore arriva al 5° livello (2d8), 11° livello (3d8) e 17° livello (4d8).</p>"
         },
         "MUO1uYN7JR1hm4dR": {
           "name": "Taumaturgia",
           "description": "<p>L'incantatore genera una meraviglia minore, una manifestazione di potere soprannaturale. Può creare uno degli effetti magici seguenti entro gittata:</p>\n<ul>\n<li>La sua voce rimbomba con potenza tre volte superiore rispetto al normale per 1 minuto.</li>\n<li>L'incantatore fa in modo che una fiamma tremi, si intensifichi, si affievolisca o cambi colore per 1 minuto.</li>\n<li>L'incantatore genera un tremito innocuo sul terreno per 1 minuto.</li>\n<li>L'incantatore crea un suono istantaneo che abbia origine da un punto entro gittata a sua scelta, come un rombo di tuono, il verso di un corvo o un sinistro sussurro.</li>\n<li>L'incantatore fa in modo che una porta o una finestra non chiusa a chiave si spalanchi o si chiuda di colpo da sola.</li>\n<li>L'incantatore altera l'aspetto dei suoi occhi per 1 minuto.</li>\n</ul>\n\n<p>Se l'incantatore lancia questo incantesimo più volte, può mantenere attivi fino a tre dei suoi effetti da 1 minuto simultaneamente e può congedare uno di quegli effetti con un'azione.</p>"
         },
         "arzCrMRgcNiQuh43": {
-          "name": "Comando"
+          "name": "Comando",
+          "description": "<p>L'incantatore pronuncia un comando di una parola rivolto a una creatura che può vedere entro gittata. Il bersaglio deve superare un tiro salvezza su Saggezza, altrimenti esegue il comando nel proprio turno successivo. L'incantesimo non ha effetto se il bersaglio è non morto, se non comprende il linguaggio dell'incantatore o se il comando gli è direttamente nocivo.</p><p>Di seguito sono descritti alcuni comandi tipici e i loro effetti. L'incantatore può impartire un comando diverso da quelli descritti. In tal caso, il DM determina come si comporta il bersaglio. Se il bersaglio non può eseguire il comando, l'incantesimo termina.</p><p><strong>Avvicinati.</strong> Il bersaglio si muove verso l'incantatore seguendo il percorso più breve e diretto, terminando il proprio turno se giunge entro 1,5 metri da lui.</p><p><strong>Lascia.</strong> Il bersaglio lascia cadere ciò che sta impugnando e poi termina il proprio turno.</p><p><strong>Fuggi.</strong> Il bersaglio impiega il proprio turno per allontanarsi dall'incantatore con il mezzo più rapido disponibile.</p><p><strong>Supplica.</strong> Il bersaglio cade &amp;reference[prone] e poi termina il proprio turno.</p><p><strong>Fermo.</strong> Il bersaglio non si muove e non effettua azioni. Una creatura volante rimane in aria, purché sia in grado di farlo. Se deve muoversi per rimanere in aria, vola della distanza minima necessaria.</p><p><strong>Ai Livelli Superiori.</strong> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, può influenzare una creatura aggiuntiva per ogni livello dello slot superiore al 1°. Le creature devono trovarsi entro 9 metri l'una dall'altra quando vengono bersagliate.</p>"
         },
         "ksaaTxIbKx2sJfia": {
           "name": "Infliggi Ferite",
@@ -6776,7 +6797,8 @@
         },
         "3Lo9boi7P2ro6QV4": {
           "name": "Blocca Persone",
-          "materials": "Una piccola sbarra di ferro"
+          "materials": "Una piccola sbarra di ferro",
+          "description": "<p>L'incantatore sceglie un umanoide entro gittata e che egli sia in grado di vedere. li bersaglio deve superare un tiro salvezza su Saggezza, altrimenti sarà paralizzato per la durata dell'incantesimo. Alla fine di ogni suo turno, il bersaglio può effettuare un altro tiro salvezza su Saggezza. Se lo supera, l'incantesimo su di esso termina.</p><p><strong>Ai Livelli Superiori.</strong> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 3° livello o superiore, può bersagliare un umanoide aggiuntivo per ogni slot di livello superiore al 2°. Gli umanoidi devono trovarsi a non più di 9 metri l'uno dall'altro quando l'incantatore li bersaglia.</p>"
         },
         "JbxsYXxSOTZbf9I0": {
           "name": "Arma Spirituale",
@@ -7364,7 +7386,8 @@
         },
         "2IWiZAJtOGDoKjiz": {
           "name": "Forma Gassosa",
-          "materials": "un pezzetto di garza e un filo di fumo"
+          "materials": "un pezzetto di garza e un filo di fumo",
+          "description": "<p>L'incantatore trasforma una creatura consenziente da lui toccata (assieme a tutto ciò che essa indossa e trasporta) in una nube di foschia per la durata dell'incantesimo. L'incantesimo termina se la creatura scende a 0 punti ferita.</p><p>Una creatura incorporea non è influenzata dall'incantesimo. Finché il bersaglio si trova in questa forma, il suo unico metodo di movimento è una velocità di volare pari a 3 metri. Il bersaglio può entrare nello spazio di un'altra creatura e occuparlo, dispone di resistenza ai danni non magici e di vantaggio ai tiri salvezza su Forza, Destrezza e Costituzione. Il bersaglio può passare attraverso piccoli fori, aperture strette e perfino semplici crepe, ma considera i liquidi come se fossero superfici solide. Il bersaglio non può cadere e continua a fluttuare nell'arca anche quando è stordito o incapacitato in altri modi.</p><p>Finché è in forma gassosa, il bersaglio non può parlare o manipolare oggetti, e quelli che trasporta o impugna non possono essere usati, lasciati cadere o manipolati in alcun modo. Il bersaglio non può attaccare o lanciare incantesimi.</p>"
         },
         "Jr0CfxY8xuFT6hoa": {
           "name": "Morning Star",
@@ -7542,7 +7565,8 @@
         },
         "S7VbUetIfVT7B6Eq": {
           "name": "Oscurità",
-          "materials": "pelo di pipistrello e una goccia di pece o un pezzo di carbone"
+          "materials": "pelo di pipistrello e una goccia di pece o un pezzo di carbone",
+          "description": "<p>L'incantatore sceglie un punto situato entro gittata da cui si diffonde un'oscurit&agrave; magica che riempie una sfera del raggio di 4,5 metri per la durata dell'incantesimo. L'oscurit&agrave; si diffonde oltre gli angoli. Una creatura dotata di scurovisione non &egrave; in grado di vedere attraverso questa oscurit&agrave; e le luci non magiche non possono illuminarla.</p><p>Se il punto scelto dall'incantatore si trova su un oggetto che egli sta impugnando o che non &egrave; indossato o trasportato da nessuno, l'oscurit&agrave; si diffonde dall'oggetto e si muove assieme a esso. Coprire completamente la fonte dell'oscurit&agrave; con un oggetto opaco, come una scodella o un elmo, blocca l'oscurit&agrave;.</p><p>Se una parte dell'area di questo incantesimo si sovrappone a un'area di luce creata da un incantesimo di 2&deg; livello o inferiore, l'incantesimo che ha creato la luce &egrave; dissolto.</p>"
         },
         "SleYkHovQ8NagmeV": {
           "name": "Localizza Oggetto",
@@ -7551,7 +7575,8 @@
         },
         "zMAWdyc8UVb37BK4": {
           "name": "Suggestione",
-          "materials": "una lingua di serpente e un frammento di un alveare o una goccia di olio dolce"
+          "materials": "una lingua di serpente e un frammento di un alveare o una goccia di olio dolce",
+          "description": "<p>L'incantatore suggerisce un corso d'azione da intraprendere (limitandosi a una o due frasi) e influenza magicamente una creatura entro gittata e che egli sia in grado di vedere. La creatura deve essere in grado di sentire l'incantatore e di capirlo. Le creature che non possono essere affascinate sono immuni a questo effetto.</p><p>La suggestione deve essere formulata in modo che il corso d'azione appaia ragionevole. Chiedere a una creatura di pugnalarsi, gettarsi su una lancia, immolarsi o compiere altri atti palesemente autolesionistici pone termine all'incantesimo.</p><p>Il bersaglio deve effettuare un tiro salvezza su Saggezza. Se lo fallisce, deve perseguire il corso d'azione descritto dall'incantatore al meglio delle sue capacità. Tale corso d'azione può proseguire per l'intera durata dell'incantesimo. Se l'attività suggerita può essere completata in un periodo di tempo più breve, l'incantesimo termina quando il soggetto completa ciò che gli è stato chiesto di fare. L'incantatore può anche specificare quali condizioni innescheranno un'attività speciale nel corso della durata. Per esempio, potrebbe suggerire che un cavaliere ceda il suo cavallo da guerra al primo mendicante che incontra. Se questa condizione non viene soddisfatta prima che l'incantesimo termini, quell'attività non viene effettuata.</p><p>Se l'incantatore o uno dei suoi compagni infliggono danni al bersaglio, l'incantesimo termina.</p>"
         },
         "XZhdgVK3cLoxNCQl": {
           "name": "Rimuovi Maledizione",
@@ -7564,10 +7589,12 @@
         },
         "pxpb2eOB6bv4phAf": {
           "name": "Esilio",
-          "materials": "un oggetto sgradito al bersaglio"
+          "materials": "un oggetto sgradito al bersaglio",
+          "description": "<p>L'incantatore tenta di inviare su un altro piano di esistenza una creatura che egli sia in grado di vedere e che si trovi entro gittata. Il bersaglio deve superare un tiro salvezza su Carisma o sar&agrave; esiliato.</p><p>Se il bersaglio &egrave; originario del piano di esistenza in cui si trova, l'incantatore lo esilia su un semipiano innocuo. Mentre si trova laggi&ugrave;, il bersaglio &egrave; incapacitato e rimane in quel luogo finch&eacute; l'incantesimo non termina, nel qual caso ricompare nello spazio che aveva lasciato o nello spazio libero pi&ugrave; vicino se quello spazio &egrave; occupato.</p><p>Se il bersaglio &egrave; originario di un piano di esistenza diverso da quello in cui si trova l'incantatore, esso viene esiliato con una piccola implosione a malapena udibile e fa ritorno al suo piano natio. Se l'incantesimo termina prima che sia trascorso 1 minuto, il bersaglio ricompare nello spazio che aveva lasciato o nello spazio libero pi&ugrave; vicino, se quello spazio &egrave; occupato. Altrimenti non far&agrave; ritorno.</p><p><strong>Ai Livelli Superiori.</strong>&nbsp;Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 5&deg; livello o superiore, pu&ograve; bersagliare una creatura aggiuntiva per ogni slot di livello superiore al 4&deg;.</p>"
         },
         "tEpDmYZNGc9f5OhJ": {
-          "name": "Invisibilità Superiore"
+          "name": "Invisibilità Superiore",
+          "description": "<p>L'incantatore o la creatura da lui toccata diventa invisibile finché l'incantesimo non termina. Anche tutto ciò che il bersaglio indossa o trasporta diventa invisibile finché rimane sulla sua persona.</p>"
         },
         "W4Qx5z0id6da0vqg": {
           "name": "Conoscenza delle Leggende",
@@ -7640,7 +7667,8 @@
         },
         "S7VbUetIfVT7B6Eq": {
           "name": "Oscurità",
-          "materials": "pelo di pipistrello e una goccia di pece o un pezzo di carbone"
+          "materials": "pelo di pipistrello e una goccia di pece o un pezzo di carbone",
+          "description": "<p>L'incantatore sceglie un punto situato entro gittata da cui si diffonde un'oscurit&agrave; magica che riempie una sfera del raggio di 4,5 metri per la durata dell'incantesimo. L'oscurit&agrave; si diffonde oltre gli angoli. Una creatura dotata di scurovisione non &egrave; in grado di vedere attraverso questa oscurit&agrave; e le luci non magiche non possono illuminarla.</p><p>Se il punto scelto dall'incantatore si trova su un oggetto che egli sta impugnando o che non &egrave; indossato o trasportato da nessuno, l'oscurit&agrave; si diffonde dall'oggetto e si muove assieme a esso. Coprire completamente la fonte dell'oscurit&agrave; con un oggetto opaco, come una scodella o un elmo, blocca l'oscurit&agrave;.</p><p>Se una parte dell'area di questo incantesimo si sovrappone a un'area di luce creata da un incantesimo di 2&deg; livello o inferiore, l'incantesimo che ha creato la luce &egrave; dissolto.</p>"
         },
         "ghXTfe7sgCbgf1Q8": {
           "name": "Individuazione del Magico",
@@ -7660,7 +7688,8 @@
           "materials": "la piuma dell'ala di un qualsiasi uccello"
         },
         "35j2QIMmIk6aEdxj": {
-          "name": "Parola del Potere Stordire"
+          "name": "Parola del Potere Stordire",
+          "description": "<p>L'incantatore pronuncia una parola del potere che può&nbsp;sopraffare la mente di una creatura entro gittata e che&nbsp;egli sia in grado di vedere, lasciandola in uno stato&nbsp;confusionale. Se il bersaglio possiede 150 punti ferita o&nbsp;meno, è stordito. Altrimenti, l'incantesimo non ha effetto.</p>\n\n<p>Il bersaglio stordito deve effettuare un tiro salvezza su Costituzione alla fine di ogni suo turno. Se lo supera, l'effetto di stordimento termina.</p>"
         },
         "2DLTpJUuKFmG7yoL": {
           "name": "Resistenza Magica",
@@ -7816,13 +7845,16 @@
         },
         "aU62xVUBYkAQWIHv": {
           "name": "Anti-Individuazione",
-          "materials": "un pizzico di polvere di diamante da spruzzare sul bersaglio del valore di 25 mo, che l'incantatore consuma"
+          "materials": "un pizzico di polvere di diamante da spruzzare sul bersaglio del valore di 25 mo, che l'incantatore consuma",
+          "description": "<p>Per la durata, l'incantatore nasconde dalla magia di Divinazione un bersaglio che tocca. Il bersaglio può essere una creatura consenziente, oppure un luogo o un oggetto che non superi 3 metri in alcuna dimensione. Il bersaglio non può essere bersagliato da alcuna magia di divinazione né percepito attraverso sensori magici di Scrutare.</p>"
         },
         "zwGsAv6kmwzYGhh3": {
-          "name": "Cecità/Sordità"
+          "name": "Cecità/Sordità",
+          "description": "<p>L'incantatore può accecare o assordare un nemico, scegliendo una creatura entro gittata e che egli sia in grado di vedere. Quella creatura deve effettuare un tiro salvezza su Costituzione. Se lo fallisce, è accecata o assordata (a scelta dell'incantatore) per la durata dell'incantesimo. Alla fine di ogni suo turno può effettuare un nuovo tiro salvezza su Costituzione. Se lo supera, l'incantesimo termina.</p><p><strong>Al Livelli Superiori.</strong> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 3° livello o superiore, può bersagliare una creatura aggiuntiva per ogni slot superiore al 2°.</p>"
         },
         "UDUnlfPsOAbq2RSE": {
-          "name": "Sfocatura"
+          "name": "Sfocatura",
+          "description": "<p>Il corpo dell'incantatore diventa sfocato, instabile e ondeggiante agli occhi di tutti coloro che sono in grado di vederlo. Per la durata dell'incantesimo, tutte le creature subiscono svantaggio ai tiri per colpire contro di lui. Un attaccante &egrave; immune a questo effetto se non si affida alla vista, per esempio se &egrave; dotato di vista cieca o se &egrave; in grado di vedere attraverso le illusioni, per esempio tramite visione del vero.</p>"
         },
         "A3q2gTNqG6fvNGrv": {
           "name": "Camuffare se stesso",
@@ -7859,7 +7891,8 @@
             "Vgf3UERrWoMNgZ5s": {
               "name": "Disimpegno"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{monster} può effettuare l’azione di Disimpegno o Nascondersi come azione bonus a ogni suo turno.</p>"
         },
         "S6UTTLu0bEB32HNG": {
           "name": "Scimitarra",
@@ -8326,7 +8359,8 @@
       "name": "Grimlock",
       "items": {
         "MqBAJfU738aXBgBE": {
-          "name": "Percezione Cieca"
+          "name": "Percezione Cieca",
+          "description": "<p>La [[lookup @name lowercase]]{monster} non può usare la sua vista cieca finché è Assordato e non è in grado di fiutare.</p>"
         },
         "VxPre1G0W6fDh5VL": {
           "name": "Mimetismo nella Pietra"
@@ -8778,7 +8812,7 @@
         },
         "mE8GYyYeV3dIxYMF": {
           "name": "Vista del Diavolo",
-          "description": "<p>L'&amp;reference[darkness] magica non ostacola la &amp;reference[Darkvision] del [[lookup @name lowercase]]{mostro}.</p>"
+          "description": "<p>L'oscurità magica non ostacola la Scurovisione del [[lookup @name lowercase]]{mostro}.</p>"
         },
         "64Swhse7QnbiLAbi": {
           "name": "Pungiglione (Morso in Forma Bestiale)",
@@ -8947,7 +8981,8 @@
           "materials": "un pezzo di vello"
         },
         "eS7XnnApoxRxYXPs": {
-          "name": "Charme su Persone"
+          "name": "Charme su Persone",
+          "description": "<p>L'incantatore tenta di affascinare un umanoide che può vedere entro gittata. Il bersaglio deve effettuare un tiro salvezza su Saggezza e dispone di vantaggio se l'incantatore o i suoi compagni lo stanno combattendo. Se fallisce il tiro salvezza, è &amp;Reference[charmed] dall'incantatore finché l'incantesimo non termina o finché l'incantatore o i suoi compagni non gli fanno del male. La creatura affascinata considera l'incantatore una conoscenza amichevole. Quando l'incantesimo termina, la creatura sa di essere stata affascinata dall'incantatore.</p><p><strong>Ai Livelli Superiori.</strong> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, può bersagliare una creatura aggiuntiva per ogni livello dello slot superiore al 1°. Le creature devono trovarsi entro 9 metri l'una dall'altra quando vengono bersagliate.</p>"
         },
         "X4c8xCkmF8U9HUMz": {
           "name": "Immagine Speculare"
@@ -8958,10 +8993,12 @@
         },
         "zMAWdyc8UVb37BK4": {
           "name": "Suggestione",
-          "materials": "una lingua di serpente e un frammento di un alveare o una goccia di olio dolce"
+          "materials": "una lingua di serpente e un frammento di un alveare o una goccia di olio dolce",
+          "description": "<p>L'incantatore suggerisce un corso d'azione da intraprendere (limitandosi a una o due frasi) e influenza magicamente una creatura entro gittata e che egli sia in grado di vedere. La creatura deve essere in grado di sentire l'incantatore e di capirlo. Le creature che non possono essere affascinate sono immuni a questo effetto.</p><p>La suggestione deve essere formulata in modo che il corso d'azione appaia ragionevole. Chiedere a una creatura di pugnalarsi, gettarsi su una lancia, immolarsi o compiere altri atti palesemente autolesionistici pone termine all'incantesimo.</p><p>Il bersaglio deve effettuare un tiro salvezza su Saggezza. Se lo fallisce, deve perseguire il corso d'azione descritto dall'incantatore al meglio delle sue capacità. Tale corso d'azione può proseguire per l'intera durata dell'incantesimo. Se l'attività suggerita può essere completata in un periodo di tempo più breve, l'incantesimo termina quando il soggetto completa ciò che gli è stato chiesto di fare. L'incantatore può anche specificare quali condizioni innescheranno un'attività speciale nel corso della durata. Per esempio, potrebbe suggerire che un cavaliere ceda il suo cavallo da guerra al primo mendicante che incontra. Se questa condizione non viene soddisfatta prima che l'incantesimo termini, quell'attività non viene effettuata.</p><p>Se l'incantatore o uno dei suoi compagni infliggono danni al bersaglio, l'incantesimo termina.</p>"
         },
         "JQyigMNPiDnGI18b": {
-          "name": "Costrizione"
+          "name": "Costrizione",
+          "description": "<p>L'incantatore impone un comando magico a una creatura che può vedere entro gittata, costringendola a svolgere un servizio o ad astenersi da un'azione o da una condotta a sua scelta. Se la creatura può comprendere l'incantatore, deve superare un tiro salvezza su Saggezza, altrimenti è &amp;Reference[Charmed] da lui per la durata. Finché è affascinata dall'incantatore, la creatura subisce 5d10 danni psichici ogni volta che agisce in modo direttamente contrario alle sue istruzioni, ma non più di una volta al giorno. Una creatura che non può comprendere l'incantatore non è influenzata dall'incantesimo.</p><p>L'incantatore può impartire qualsiasi comando a sua scelta, purché non comporti un'attività che condurrebbe a morte certa. Se impartisce un comando suicida, l'incantesimo termina.</p><p>L'incantatore può terminare anticipatamente l'incantesimo usando un'azione per congedarlo. Anche un incantesimo Rimuovi Maledizione, Ristorare Superiore o Desiderio lo termina.</p><p><strong>Ai Livelli Superiori.</strong> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 7° o 8° livello, la durata è di 1 anno. Quando lo lancia usando uno slot incantesimo di 9° livello, l'incantesimo dura finché non viene terminato da uno degli incantesimi menzionati sopra.</p>"
         },
         "cd8MN5gJkmUn1RTE": {
           "name": "Tocco Inebriante",
@@ -8992,7 +9029,7 @@
         },
         "Di9DB6UXL4OOVV0b": {
           "name": "Vista del Diavolo",
-          "description": "<p>L'&amp;reference[darkness] magica non ostacola la &amp;reference[Darkvision] del [[lookup @name lowercase]]{mostro}.</p>"
+          "description": "<p>L'oscurità magica non ostacola la Scurovisione del [[lookup @name lowercase]]{mostro}.</p>"
         },
         "TypCj0S846TqsHzI": {
           "name": "Pugno",
@@ -9161,7 +9198,8 @@
         },
         "oyE5nVppa5mde5gT": {
           "name": "Animare Morti",
-          "materials": "una goccia di sangue, un brandello di carne, un pizzico di polvere d'osso"
+          "materials": "una goccia di sangue, un brandello di carne, un pizzico di polvere d'osso",
+          "description": "<p>Questo incantesimo crea un servitore non morto, scegliendo un cadavere di umanoide Medio o Piccolo entro gittata. Il suo incantesimo infonde nel bersaglio un'empia parvenza di vita, animandolo come creatura non morta. Il bersaglio diventa uno scheletro se l'incantatore ha scelto le ossa o uno zombi se ha scelto un cadavere.</p><p>(Il DM possiede le statistiche di gioco di queste creature.) A ogni suo turno l'incantatore può usare un'azione bonus per comandare mentalmente qualsiasi creatura da lui creata tramite questo incantesimo e situata entro 18 metri da lui (se controlla più creature, può comandarle tutte o nessuna allo stesso tempo, impartendo lo stesso comando a ogni creatura). L'incantatore decide quale azione effettuerà la creatura e dove si muoverà durante il suo turno successivo, oppure può impartire un comando generale, come per esempio vigilare su una camera o un corridoio in particolare. Se l'incantatore non impartisce alcun comando, la creatura si limita a difendersi dalle creature ostili. Una volta ricevuto un ordine, la creatura continua a seguirlo finché non ha portato a termine il compito. La creatura rimane sotto il controllo dell'incantatore per 24 ore, dopodiché smette di obbedire ai comandi che l'incantatore le ha impartito.</p><p>Per mantenere il controllo della creatura per altre 24 ore, l'incantatore deve lanciare di nuovo questo incantesimo su di essa prima che l'attuale periodo di 24 ore termini. Questo uso dell'incantesimo gli permette di ristabilire il controllo su un massimo di quattro creature da lui animate tramite questo incantesimo, anziché animarne una nuova.</p><p><strong>Ai Livelli Superiori.</strong> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 4° livello o superiore, anima o ristabilisce il controllo su due creature non morte aggiuntive per ogni slot di livello superiore al 3°. Ognuna di queste creature deve provenire da un cumulo di ossa o da un cadavere diverso.</p>"
         },
         "Ek45cBpVXvJdv1Qy": {
           "name": "Controincantesimo",
@@ -9193,24 +9231,29 @@
         },
         "HBHbOGKNVVprSlwn": {
           "name": "Disintegrazione",
-          "materials": "una calamita e un pizzico di polvere"
+          "materials": "una calamita e un pizzico di polvere",
+          "description": "<p>Un sottile raggio verde scaturisce dal dito puntato dell'incantatore verso un bersaglio entro gittata che egli sia in grado di vedere. Il bersaglio può essere una creatura, un oggetto o una creazione di forza magica, come il muro creato da muro di forza.</p><p>Una creatura bersagliata da questo incantesimo deve effettuare un tiro salvezza su Destrezza. Se lo fallisce, il bersaglio subisce 10d6 + 40 danni da forza. Il bersaglio viene disintegrato se questi danni lo riducono a 0 punti ferita.</p><p>Una creatura disintegrata e tutto ciò che indossa e trasporta, tranne gli oggetti magici, si riducono a un cumulo di sottile polvere grigia. La creatura può essere riportata in vita soltanto tramite un incantesimo resurrezione pura o desiderio.</p><p>Questo incantesimo disintegra automaticamente un oggetto non magico di taglia Grande o inferiore o una creazione di forza magica. Se il bersaglio è un oggetto o una creazione di forza di taglia Enorme o superiore, questo incantesimo ne disintegra una porzione a forma di cubo con spigolo di 3 metri. Un oggetto magico non è influenzato da questo incantesimo.</p><p><strong>Ai Livelli Superiori.</strong> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 7° livello o superiore, i danni aumentano di 3d6 per ogni livello dello slot superiore al 6°.</p>"
         },
         "HPvZm8YJO91k6Qdg": {
-          "name": "Dito della Morte"
+          "name": "Dito della Morte",
+          "description": "<p>L'incantatore trasmette un flusso di energia negativa attraverso una creatura entro gittata e che egli sia in grado di vedere, provocandole un dolore lancinante. Il bersaglio deve effettuare un tiro salvezza su Costituzione. Se lo fallisce, subisce 7d8 + 30 danni necrotici, mentre se lo supera, subisce soltanto la metà di quei danni.</p><p>&nbsp; Un umanoide ucciso da questo incantesimo si anima all'inizio del turno successivo dell'incantatore come zombi permanentemente al suo comando: obbedirà ai suoi ordini verbali al meglio delle sue capacità.</p>"
         },
         "J6Jpw5XzB5aTeqnz": {
           "name": "Spostamento Planare",
-          "materials": "una bacchetta di metallo biforcuta armonizzata al piano di destinazione da 250 mo"
+          "materials": "una bacchetta di metallo biforcuta armonizzata al piano di destinazione da 250 mo",
+          "description": "<p>L'incantatore e un massimo di otto creature consenzienti che si tengono per mano formando un cerchio vengono trasportati su un piano di esistenza diverso. L'incantatore può indicare una destinazione in termini generali, come la Città d'Ottone sul Piano Elementale del Fuoco o il palazzo di Dispater sul secondo livello dei Nove Inferi, e appare in quel luogo o nelle sue vicinanze. Se, per esempio, tenta di raggiungere la Città d'Ottone, potrebbe arrivare nella sua Via dell'Acciaio, davanti alla sua Porta delle Ceneri o in un punto da cui osserva la città al di là del Mare di Fuoco, a discrezione del DM.</p><p>In alternativa, se l'incantatore conosce la sequenza dei simboli di un cerchio di teletrasporto su un altro piano di esistenza, questo incantesimo può condurlo a quel cerchio. Se il cerchio di teletrasporto è troppo piccolo per contenere tutte le creature trasportate, esse appaiono negli spazi liberi più vicini al cerchio.</p><p>L'incantatore può usare questo incantesimo per bandire una creatura non consenziente su un altro piano. Sceglie una creatura entro la propria portata ed effettua contro di essa un attacco con incantesimo in mischia. Se colpisce, la creatura deve effettuare un tiro salvezza su Carisma. Se lo fallisce, viene trasportata in un punto casuale del piano di esistenza specificato dall'incantatore. Una creatura trasportata in questo modo deve trovare autonomamente il modo di tornare sull'attuale piano di esistenza dell'incantatore.</p>"
         },
         "eEpy1ONlXumKS1mp": {
-          "name": "Dominare Mostri"
+          "name": "Dominare Mostri",
+          "description": "<p>L'incantatore tenta di soggiogare una creatura entro gittata e che egli sia in grado di vedere. Quella creatura deve superare un tiro salvezza su Saggezza, altrimenti sarà affascinata dall'incantatore per la durata dell'incantesimo. Se l'incantatore o le creature a lui amichevoli stanno combattendo contro la creatura, quest'ultima dispone di vantaggio al tiro salvezza.</p><p>Mentre la creatura è affascinata, l'incantatore dispone di un legame telepatico con essa finché entrambi si trovano sullo stesso piano di esistenza. L'incantatore può usare questo legame telepatico per impartire comandi alla creatura finché è cosciente (nessuna azione richiesta), ed essa farà del suo meglio per obbedire. L'incantatore può specificare un corso d'azione semplice e generico come \"attaca quella creatura\", \"corri fin laggiù\" o \"portami quell'oggetto\". Se la creatura porta a termine l'ordine e non riceve ulteriori indicazioni da parte dell'incantatore, essa si difende e si protegge al meglio delle sue capacità.</p><p>L'incantatore può usare la sua azione per assumere il controllo totale e preciso del bersaglio. Fino alla fine del turno successivo dell'incantatore, la creatura effettua soltanto le azioni scelte dall'incantatore e non fa niente che l'incantatore non le consenta di fare. Durante questo periodo, l'incantatore può anche fare in modo che la creatura usi una reazione, ma per farlo dovrà usare la sua stessa reazione.</p><p>Ogni volta che il bersaglio subisce danni, effettua un nuovo tiro salvezza su Saggezza contro l'incantesimo. Se lo supera, l'incantesimo termina. &nbsp;</p><p><strong>Ai Livelli Superiori.&nbsp;</strong>Quando l'incantatore lancia questo incantesimo con uno slot incantesimo di 9° livello, la durata diventa concentrazione, fino a 8 ore.</p>"
         },
         "dmvaMLFWFtv0qx0S": {
           "name": "Parola del Potere Uccidere",
           "description": "\n<p>L'incantatore pronuncia una parola del potere che può uccidere istantaneamente una creatura entro gittata e che egli sia in grado di vedere. Se la creatura scelta possiede 100 punti ferita o meno, muore. Altrimenti, l'incantesimo non ha effetto.</p>"
         },
         "35j2QIMmIk6aEdxj": {
-          "name": "Parola del Potere Stordire"
+          "name": "Parola del Potere Stordire",
+          "description": "<p>L'incantatore pronuncia una parola del potere che può&nbsp;sopraffare la mente di una creatura entro gittata e che&nbsp;egli sia in grado di vedere, lasciandola in uno stato&nbsp;confusionale. Se il bersaglio possiede 150 punti ferita o&nbsp;meno, è stordito. Altrimenti, l'incantesimo non ha effetto.</p>\n\n<p>Il bersaglio stordito deve effettuare un tiro salvezza su Costituzione alla fine di ogni suo turno. Se lo supera, l'effetto di stordimento termina.</p>"
         },
         "WmQpxfjZwF3MGUby": {
           "name": "Globo di Invulnerabilità",
@@ -9640,7 +9683,8 @@
         },
         "zMAWdyc8UVb37BK4": {
           "name": "Suggestione",
-          "materials": "una lingua di serpente e un frammento di un alveare o una goccia di olio dolce"
+          "materials": "una lingua di serpente e un frammento di un alveare o una goccia di olio dolce",
+          "description": "<p>L'incantatore suggerisce un corso d'azione da intraprendere (limitandosi a una o due frasi) e influenza magicamente una creatura entro gittata e che egli sia in grado di vedere. La creatura deve essere in grado di sentire l'incantatore e di capirlo. Le creature che non possono essere affascinate sono immuni a questo effetto.</p><p>La suggestione deve essere formulata in modo che il corso d'azione appaia ragionevole. Chiedere a una creatura di pugnalarsi, gettarsi su una lancia, immolarsi o compiere altri atti palesemente autolesionistici pone termine all'incantesimo.</p><p>Il bersaglio deve effettuare un tiro salvezza su Saggezza. Se lo fallisce, deve perseguire il corso d'azione descritto dall'incantatore al meglio delle sue capacità. Tale corso d'azione può proseguire per l'intera durata dell'incantesimo. Se l'attività suggerita può essere completata in un periodo di tempo più breve, l'incantesimo termina quando il soggetto completa ciò che gli è stato chiesto di fare. L'incantatore può anche specificare quali condizioni innescheranno un'attività speciale nel corso della durata. Per esempio, potrebbe suggerire che un cavaliere ceda il suo cavallo da guerra al primo mendicante che incontra. Se questa condizione non viene soddisfatta prima che l'incantesimo termini, quell'attività non viene effettuata.</p><p>Se l'incantatore o uno dei suoi compagni infliggono danni al bersaglio, l'incantesimo termina.</p>"
         },
         "Ek45cBpVXvJdv1Qy": {
           "name": "Controincantesimo",
@@ -9657,7 +9701,8 @@
           "materials": "la piuma dell'ala di un qualsiasi uccello"
         },
         "tEpDmYZNGc9f5OhJ": {
-          "name": "Invisibilità Superiore"
+          "name": "Invisibilità Superiore",
+          "description": "<p>L'incantatore o la creatura da lui toccata diventa invisibile finché l'incantesimo non termina. Anche tutto ciò che il bersaglio indossa o trasporta diventa invisibile finché rimane sulla sua persona.</p>"
         },
         "WN2LWEljYU6QqnRH": {
           "name": "Tempesta di Ghiaccio",
@@ -9893,7 +9938,8 @@
               "name": "Senso Radar",
               "description": "<p>Non puoi usare la tua &amp;reference[blindsight] mentre sei &amp;reference[deafened apply=false].</p>"
             }
-          }
+          },
+          "description": "<p>L'[[lookup @name lowercase]]{monster} non può usare la sua vista cieca se è assordato.</p>"
         },
         "DA34sS4nWGc4OTwm": {
           "name": "Schiacciare",
@@ -10153,7 +10199,8 @@
         },
         "KhwiSi9fwVfUPtku": {
           "name": "Sonno",
-          "materials": "un pizzico di sabbia finissima, petali di rosa o un grillo"
+          "materials": "un pizzico di sabbia finissima, petali di rosa o un grillo",
+          "description": "<p>Questo incantesimo fa in modo che le creature siano vittime di un sonno magico. L'incantatore tira 5d8; il totale ottenuto è l'ammontare di creature in punti ferita che questo incantesimo può influenzare. Le creature entro 6 metri da un punto a scelta dell'incantatore situato entro gittata sono influenzate in ordine crescente dei loro punti ferita (ignorando le creature prive di sensi).</p><p>A partire dalla creatura che possiede meno punti ferita attuali, ogni creatura influenzata da questo incantesimo cade priva di sensi finché l'incantesimo non termina, il dormiente non subisce danni o qualcuno non usa un'azione per scuotere o schiaffeggiare il dormiente per svegliarlo. Si sottraggono i punti ferita di ogni creatura dal totale prima di passare alla creatura con l'ammontare immediatamente superiore di punti ferita. I punti ferita di una creatura devono essere pari o inferiori al totale rimanente affinché quella creatura possa essere influenzata.</p><p>Le creature non morte e quelle immuni all'essere affascinate non sono influenzate da questo incantesimo.</p><p><strong>Ai Livelli Superiori.&nbsp;</strong>Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, tira 2d8 aggiuntivi per ogni slot di livello superiore al 1°.</p>"
         },
         "F9SUUafNFPf0hmqr": {
           "name": "Resistenza Magica",
@@ -10258,7 +10305,8 @@
           "name": "Falso Aspetto"
         },
         "JVq3dfBRcON0kWKz": {
-          "name": "Amorfo"
+          "name": "Amorfo",
+          "description": "<p>La [[lookup @name lowercase]]{monster} può muoversi attraverso uno spazio stretto fino a 2,5 centimetri senza doversi stringere.</p>"
         },
         "KO4qRywgiEQ3F004": {
           "name": "Pseudopodo",
@@ -10304,7 +10352,8 @@
           }
         },
         "UDUnlfPsOAbq2RSE": {
-          "name": "Sfocatura"
+          "name": "Sfocatura",
+          "description": "<p>Il corpo dell'incantatore diventa sfocato, instabile e ondeggiante agli occhi di tutti coloro che sono in grado di vederlo. Per la durata dell'incantesimo, tutte le creature subiscono svantaggio ai tiri per colpire contro di lui. Un attaccante &egrave; immune a questo effetto se non si affida alla vista, per esempio se &egrave; dotato di vista cieca o se &egrave; in grado di vedere attraverso le illusioni, per esempio tramite visione del vero.</p>"
         },
         "QrN7UxINx4UCaPIC": {
           "name": "Artigli",
@@ -10353,7 +10402,8 @@
         },
         "KhwiSi9fwVfUPtku": {
           "name": "Sonno",
-          "materials": "un pizzico di sabbia finissima, petali di rosa o un grillo"
+          "materials": "un pizzico di sabbia finissima, petali di rosa o un grillo",
+          "description": "<p>Questo incantesimo fa in modo che le creature siano vittime di un sonno magico. L'incantatore tira 5d8; il totale ottenuto è l'ammontare di creature in punti ferita che questo incantesimo può influenzare. Le creature entro 6 metri da un punto a scelta dell'incantatore situato entro gittata sono influenzate in ordine crescente dei loro punti ferita (ignorando le creature prive di sensi).</p><p>A partire dalla creatura che possiede meno punti ferita attuali, ogni creatura influenzata da questo incantesimo cade priva di sensi finché l'incantesimo non termina, il dormiente non subisce danni o qualcuno non usa un'azione per scuotere o schiaffeggiare il dormiente per svegliarlo. Si sottraggono i punti ferita di ogni creatura dal totale prima di passare alla creatura con l'ammontare immediatamente superiore di punti ferita. I punti ferita di una creatura devono essere pari o inferiori al totale rimanente affinché quella creatura possa essere influenzata.</p><p>Le creature non morte e quelle immuni all'essere affascinate non sono influenzate da questo incantesimo.</p><p><strong>Ai Livelli Superiori.&nbsp;</strong>Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, tira 2d8 aggiuntivi per ogni slot di livello superiore al 1°.</p>"
         },
         "lazTMrXNUpGCrKdR": {
           "name": "Artigli",
@@ -10656,14 +10706,15 @@
         },
         "n9pJzTDsAwQxJVRl": {
           "name": "Fiamma Sacra",
-          "description": "<p>Una luminosità simile a una fiamma scende su una creatura che puoi vedere entro gittata. Il bersaglio deve superare un tiro salvezza su Destrezza, altrimenti subisce 1d8 danni radiosi. Il bersaglio non ottiene alcun beneficio dalla copertura per questo tiro salvezza.</p><p>I danni dell'incantesimo aumentano di 1d8 quando raggiungi il 5° livello (2d8), l'11° livello (3d8) e il 17° livello (4d8).</p>"
+          "description": "<p>Un bagliore simile a una fiamma scende fino a una creatura entro gittata e che l'incantatore sia in grado di vedere. Il bersaglio deve superare un tiro salvezza su Destrezza, altrimenti subisce 1d8 danni radiosi. Il bersaglio non trae beneficio dalla copertura per questo tiro salvezza.</p><p>I danni di questo incantesimo aumentano di 1d8 quando l'incantatore arriva al 5° livello (2d8), 11° livello (3d8) e 17° livello (4d8).</p>"
         },
         "MUO1uYN7JR1hm4dR": {
           "name": "Taumaturgia",
           "description": "<p>L'incantatore genera una meraviglia minore, una manifestazione di potere soprannaturale. Può creare uno degli effetti magici seguenti entro gittata:</p>\n<ul>\n<li>La sua voce rimbomba con potenza tre volte superiore rispetto al normale per 1 minuto.</li>\n<li>L'incantatore fa in modo che una fiamma tremi, si intensifichi, si affievolisca o cambi colore per 1 minuto.</li>\n<li>L'incantatore genera un tremito innocuo sul terreno per 1 minuto.</li>\n<li>L'incantatore crea un suono istantaneo che abbia origine da un punto entro gittata a sua scelta, come un rombo di tuono, il verso di un corvo o un sinistro sussurro.</li>\n<li>L'incantatore fa in modo che una porta o una finestra non chiusa a chiave si spalanchi o si chiuda di colpo da sola.</li>\n<li>L'incantatore altera l'aspetto dei suoi occhi per 1 minuto.</li>\n</ul>\n\n<p>Se l'incantatore lancia questo incantesimo più volte, può mantenere attivi fino a tre dei suoi effetti da 1 minuto simultaneamente e può congedare uno di quegli effetti con un'azione.</p>"
         },
         "arzCrMRgcNiQuh43": {
-          "name": "Comando"
+          "name": "Comando",
+          "description": "<p>L'incantatore pronuncia un comando di una parola rivolto a una creatura che può vedere entro gittata. Il bersaglio deve superare un tiro salvezza su Saggezza, altrimenti esegue il comando nel proprio turno successivo. L'incantesimo non ha effetto se il bersaglio è non morto, se non comprende il linguaggio dell'incantatore o se il comando gli è direttamente nocivo.</p><p>Di seguito sono descritti alcuni comandi tipici e i loro effetti. L'incantatore può impartire un comando diverso da quelli descritti. In tal caso, il DM determina come si comporta il bersaglio. Se il bersaglio non può eseguire il comando, l'incantesimo termina.</p><p><strong>Avvicinati.</strong> Il bersaglio si muove verso l'incantatore seguendo il percorso più breve e diretto, terminando il proprio turno se giunge entro 1,5 metri da lui.</p><p><strong>Lascia.</strong> Il bersaglio lascia cadere ciò che sta impugnando e poi termina il proprio turno.</p><p><strong>Fuggi.</strong> Il bersaglio impiega il proprio turno per allontanarsi dall'incantatore con il mezzo più rapido disponibile.</p><p><strong>Supplica.</strong> Il bersaglio cade &amp;reference[prone] e poi termina il proprio turno.</p><p><strong>Fermo.</strong> Il bersaglio non si muove e non effettua azioni. Una creatura volante rimane in aria, purché sia in grado di farlo. Se deve muoversi per rimanere in aria, vola della distanza minima necessaria.</p><p><strong>Ai Livelli Superiori.</strong> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, può influenzare una creatura aggiuntiva per ogni livello dello slot superiore al 1°. Le creature devono trovarsi entro 9 metri l'una dall'altra quando vengono bersagliate.</p>"
         },
         "uUWb1wZgtMou0TVP": {
           "name": "Cura Ferite",
@@ -10675,22 +10726,26 @@
           "materials": "una piccola pergamena su cui sia stato scritto un frammento di un testo sacro"
         },
         "3MYDjS6k9IYL0aTj": {
-          "name": "Calmare Emozioni"
+          "name": "Calmare Emozioni",
+          "description": "<p>L'incantatore tenta di sopprimere le emozioni più intense in un gruppo di persone. Ogni umanoide entro una sfera del raggio di 6 metri centrata su un punto scelto dall'incantatore entro gittata deve effettuare un tiro salvezza su Carisma; una creatura può scegliere di fallire questo tiro salvezza, se lo desidera. Se una creatura fallisce il suo tiro salvezza, l'incantatore sceglie uno dei due effetti seguenti. L'incantatore può sopprimere qualsiasi effetto che rende un bersaglio affascinato o spaventato. Quando questo incantesimo termina, ogni effetto soppresso torna a essere applicato, purché la sua durata non si sia esaurita nel frattempo.</p><p>In alternativa, l'incantatore può rendere un bersaglio indifferente ad alcune creature da lui scelte nei cui confronti il bersaglio risulterebbe ostile. Questa indifferenza termina se il bersaglio viene attaccato o danneggiato da un incantesimo, o se vede uno dei suoi amici subire danni. Quando l'incantesimo termina, la creatura torna a essere ostile, a meno che il DM non decida altrimenti.</p>"
         },
         "3Lo9boi7P2ro6QV4": {
           "name": "Blocca Persone",
-          "materials": "Una piccola sbarra di ferro"
+          "materials": "Una piccola sbarra di ferro",
+          "description": "<p>L'incantatore sceglie un umanoide entro gittata e che egli sia in grado di vedere. li bersaglio deve superare un tiro salvezza su Saggezza, altrimenti sarà paralizzato per la durata dell'incantesimo. Alla fine di ogni suo turno, il bersaglio può effettuare un altro tiro salvezza su Saggezza. Se lo supera, l'incantesimo su di esso termina.</p><p><strong>Ai Livelli Superiori.</strong> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 3° livello o superiore, può bersagliare un umanoide aggiuntivo per ogni slot di livello superiore al 2°. Gli umanoidi devono trovarsi a non più di 9 metri l'uno dall'altro quando l'incantatore li bersaglia.</p>"
         },
         "pO4zGe5LmFIYqJiL": {
           "name": "Scagliare Maledizione"
         },
         "cg50KpBkBdPK6vPL": {
           "name": "Chiaroveggenza",
-          "materials": "Un focus del valore di almeno 100 mo, a scelta tra un cornetto acustico ingioiellato per l'udito o un occhio di vetro per la vista"
+          "materials": "Un focus del valore di almeno 100 mo, a scelta tra un cornetto acustico ingioiellato per l'udito o un occhio di vetro per la vista",
+          "description": "<p>L'incantatore crea un sensore invisibile entro gittata in un luogo a lui familiare (vale a dire un luogo che abbia visitato o visto in precedenza), oppure in un luogo ovvio che non gli sia familiare (per esempio dietro una porta, oltre un angolo o in mezzo a un boschetto). Il sensore rimane al suo posto per la durata dell'incantesimo e non è possibile attaccarlo o interagire con esso in altri modi.</p><p>Quando l'incantatore lancia l'incantesimo sceglie tra vista e udito. Può usare il senso scelto tramite il sensore, come se si trovasse nel suo spazio.</p><p>Usando la sua azione, l'incantatore può passare da vista a udito o viceversa. Una creatura in grado di vedere il sensore (per esempio una creatura che beneficia di vedere invisibilità o vista pura) vede un globo luminoso e intangibile grande all'incirca quanto il pugno dell'incantatore.</p>"
         },
         "pxpb2eOB6bv4phAf": {
           "name": "Esilio",
-          "materials": "un oggetto sgradito al bersaglio"
+          "materials": "un oggetto sgradito al bersaglio",
+          "description": "<p>L'incantatore tenta di inviare su un altro piano di esistenza una creatura che egli sia in grado di vedere e che si trovi entro gittata. Il bersaglio deve superare un tiro salvezza su Carisma o sar&agrave; esiliato.</p><p>Se il bersaglio &egrave; originario del piano di esistenza in cui si trova, l'incantatore lo esilia su un semipiano innocuo. Mentre si trova laggi&ugrave;, il bersaglio &egrave; incapacitato e rimane in quel luogo finch&eacute; l'incantesimo non termina, nel qual caso ricompare nello spazio che aveva lasciato o nello spazio libero pi&ugrave; vicino se quello spazio &egrave; occupato.</p><p>Se il bersaglio &egrave; originario di un piano di esistenza diverso da quello in cui si trova l'incantatore, esso viene esiliato con una piccola implosione a malapena udibile e fa ritorno al suo piano natio. Se l'incantesimo termina prima che sia trascorso 1 minuto, il bersaglio ricompare nello spazio che aveva lasciato o nello spazio libero pi&ugrave; vicino, se quello spazio &egrave; occupato. Altrimenti non far&agrave; ritorno.</p><p><strong>Ai Livelli Superiori.</strong>&nbsp;Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 5&deg; livello o superiore, pu&ograve; bersagliare una creatura aggiuntiva per ogni slot di livello superiore al 4&deg;.</p>"
         },
         "da0a1t2FqaTjRZGT": {
           "name": "Libertà di Movimento",
@@ -10702,11 +10757,13 @@
           "materials": "Un pizzico di zolfo"
         },
         "JQyigMNPiDnGI18b": {
-          "name": "Costrizione"
+          "name": "Costrizione",
+          "description": "<p>L'incantatore impone un comando magico a una creatura che può vedere entro gittata, costringendola a svolgere un servizio o ad astenersi da un'azione o da una condotta a sua scelta. Se la creatura può comprendere l'incantatore, deve superare un tiro salvezza su Saggezza, altrimenti è &amp;Reference[Charmed] da lui per la durata. Finché è affascinata dall'incantatore, la creatura subisce 5d10 danni psichici ogni volta che agisce in modo direttamente contrario alle sue istruzioni, ma non più di una volta al giorno. Una creatura che non può comprendere l'incantatore non è influenzata dall'incantesimo.</p><p>L'incantatore può impartire qualsiasi comando a sua scelta, purché non comporti un'attività che condurrebbe a morte certa. Se impartisce un comando suicida, l'incantesimo termina.</p><p>L'incantatore può terminare anticipatamente l'incantesimo usando un'azione per congedarlo. Anche un incantesimo Rimuovi Maledizione, Ristorare Superiore o Desiderio lo termina.</p><p><strong>Ai Livelli Superiori.</strong> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 7° o 8° livello, la durata è di 1 anno. Quando lo lancia usando uno slot incantesimo di 9° livello, l'incantesimo dura finché non viene terminato da uno degli incantesimi menzionati sopra.</p>"
         },
         "XzkJpE6XpZfKjODD": {
           "name": "Visione del Vero",
-          "materials": "un unguento per gli occhi del costo di 25 mo, ricavato da polvere di funghi, zolfo e grasso, che l'incantesimo consuma"
+          "materials": "un unguento per gli occhi del costo di 25 mo, ricavato da polvere di funghi, zolfo e grasso, che l'incantesimo consuma",
+          "description": "<p>Questo incantesimo conferisce alla creatura toccata&nbsp;dall'incantatore la capacità di vedere le cose per ciò che&nbsp;effettivamente sono. Per la durata dell'incantesimo, la creatura è dotata di vista pura, nota le porte segrete nascoste dalla magia ed è in grado di vedere sul Piano Etereo, entro un raggio di 36 metri.</p>"
         },
         "GkVxLIsamEXICEeT": {
           "name": "Ringiovanimento",
@@ -10763,7 +10820,8 @@
           "description": "<p>Un raggio gelido di luce azzurra e biancastra sfreccia verso una creatura entro gittata. L'incantatore effettua un attacco a distanza con questo incantesimo contro il bersaglio. Se lo colpisce, il bersaglio subisce 1d8 danni da freddo e la sua velocità è ridotta di 3 metri fino all'inizio del turno successivo dell'incantatore.</p><p>I danni di questo incantesimo aumentano di 1d8 quando l'incantatore arriva al 5° livello (2d8), 11° livello (3d8) e 17° livello (4d8).</p>"
         },
         "eS7XnnApoxRxYXPs": {
-          "name": "Charme su Persone"
+          "name": "Charme su Persone",
+          "description": "<p>L'incantatore tenta di affascinare un umanoide che può vedere entro gittata. Il bersaglio deve effettuare un tiro salvezza su Saggezza e dispone di vantaggio se l'incantatore o i suoi compagni lo stanno combattendo. Se fallisce il tiro salvezza, è &amp;Reference[charmed] dall'incantatore finché l'incantesimo non termina o finché l'incantatore o i suoi compagni non gli fanno del male. La creatura affascinata considera l'incantatore una conoscenza amichevole. Quando l'incantesimo termina, la creatura sa di essere stata affascinata dall'incantatore.</p><p><strong>Ai Livelli Superiori.</strong> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, può bersagliare una creatura aggiuntiva per ogni livello dello slot superiore al 1°. Le creature devono trovarsi entro 9 metri l'una dall'altra quando vengono bersagliate.</p>"
         },
         "ghXTfe7sgCbgf1Q8": {
           "name": "Individuazione del Magico",
@@ -10771,7 +10829,8 @@
         },
         "KhwiSi9fwVfUPtku": {
           "name": "Sonno",
-          "materials": "un pizzico di sabbia finissima, petali di rosa o un grillo"
+          "materials": "un pizzico di sabbia finissima, petali di rosa o un grillo",
+          "description": "<p>Questo incantesimo fa in modo che le creature siano vittime di un sonno magico. L'incantatore tira 5d8; il totale ottenuto è l'ammontare di creature in punti ferita che questo incantesimo può influenzare. Le creature entro 6 metri da un punto a scelta dell'incantatore situato entro gittata sono influenzate in ordine crescente dei loro punti ferita (ignorando le creature prive di sensi).</p><p>A partire dalla creatura che possiede meno punti ferita attuali, ogni creatura influenzata da questo incantesimo cade priva di sensi finché l'incantesimo non termina, il dormiente non subisce danni o qualcuno non usa un'azione per scuotere o schiaffeggiare il dormiente per svegliarlo. Si sottraggono i punti ferita di ogni creatura dal totale prima di passare alla creatura con l'ammontare immediatamente superiore di punti ferita. I punti ferita di una creatura devono essere pari o inferiori al totale rimanente affinché quella creatura possa essere influenzata.</p><p>Le creature non morte e quelle immuni all'essere affascinate non sono influenzate da questo incantesimo.</p><p><strong>Ai Livelli Superiori.&nbsp;</strong>Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, tira 2d8 aggiuntivi per ogni slot di livello superiore al 1°.</p>"
         },
         "ppWAAEul0QHtm4er": {
           "name": "Individuazione dei Pensieri",
@@ -10780,7 +10839,8 @@
         },
         "3Lo9boi7P2ro6QV4": {
           "name": "Blocca Persone",
-          "materials": "Una piccola sbarra di ferro"
+          "materials": "Una piccola sbarra di ferro",
+          "description": "<p>L'incantatore sceglie un umanoide entro gittata e che egli sia in grado di vedere. li bersaglio deve superare un tiro salvezza su Saggezza, altrimenti sarà paralizzato per la durata dell'incantesimo. Alla fine di ogni suo turno, il bersaglio può effettuare un altro tiro salvezza su Saggezza. Se lo supera, l'incantesimo su di esso termina.</p><p><strong>Ai Livelli Superiori.</strong> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 3° livello o superiore, può bersagliare un umanoide aggiuntivo per ogni slot di livello superiore al 2°. Gli umanoidi devono trovarsi a non più di 9 metri l'uno dall'altro quando l'incantatore li bersaglia.</p>"
         },
         "IyikgTEOTv701jgQ": {
           "name": "Fulmine",
@@ -10801,7 +10861,8 @@
           "description": "<p>L'incantatore si teletrasporta dal suo luogo attuale a un qualsiasi altro punto entro gittata. Arriva esattamente nel punto desiderato, che può trattarsi di un luogo che è in grado di vedere o uno che è in grado di descrivere dichiarandone la distanza e la direzione, come per esempio \"60 metri in linea retta verso il basso\" o \"verso nordovest, a un'angolazione ascendente di 45 gradi per 90 metri\".</p><p>L'incantatore può portare con sé degli oggetti, purché il loro peso non superi quello che egli è in grado di trasportare. Può inoltre portare con sé una creatura consenziente di taglia pari o inferiore alla sua, che trasporti equipaggiamento che non superi la sua capacità di trasporto. La creatura deve trovarsi entro 1,5 metri dall'incantatore quando questi lancia l'incantesimo.</p><p>Se l'incantatore dovesse arrivare in un luogo già occupato da un oggetto o da una creatura, sia l'incantatore che ogni creatura che viaggia assieme a lui subiscono 4d6 danni da forza ciascuno e l'incantesimo di teletrasporto fallisce.</p>"
         },
         "91Sw6vOIaO7U8DvM": {
-          "name": "Dominare Persone"
+          "name": "Dominare Persone",
+          "description": "<p>L'incantatore tenta di soggiogare un umanoide entro gittata e che egli sia in grado di vedere. Quell'umanoide deve superare un tiro salvezza su Saggezza, altrimenti sarà affascinato dall'incantatore per la durata dell'incantesimo. Se l'incantatore o le creature a lui amichevoli stanno combattendo contro l'umanoide, quest'ultimo dispone di vantaggio al tiro salvezza.</p><p>Mentre il bersaglio è affascinato, l'incantatore dispone di un legame telepatico con lui finché entrambi si trovano sullo stesso piano di esistenza. L'incantatore può usare questo legame telepatico per impartire comandi alla creatura finché è cosciente (nessuna azione richiesta), ed essa farà del suo meglio per obbedire. L'incantatore può specificare un corso d'azione semplice e generico come \"attacca quella creatura\", \"corri fin laggiù\" o \"portami quell'oggetto\". Se la creatura porta a termine l'ordine e non riceve ulteriori indicazioni da parte dell'incantatore, essa si difende e si protegge al meglio delle sue capacità.</p><p>L'incantatore può usare la sua azione per assumere il controllo totale e preciso del bersaglio. Fino alla fine del turno successivo dell'incantatore, la creatura effettua soltanto le azioni scelte dall'incantatore e non fa niente che l'incantatore non le consenta di fare. Durante questo periodo, l'incantatore può anche fare in modo che la creatura usi una reazione, ma per farlo dovrà usare la sua stessa reazione.</p><p>Ogni volta che il bersaglio subisce danni, effettua un nuovo tiro salvezza su Saggezza contro l'incantesimo. Se lo suepra, l'incantesimo termina.</p><p><strong>Ai Livelli Superiori.&nbsp;</strong>Quando l'incantatore lancia questo incantesimo con uno slot incantesimo di 6° livello, la durata diventa concentrazione, fino a 10 minuti. Quando usa uno slot incantesimo di 7° livello, la durata diventa concentrazione, fino a 1 ora. &nbsp; Quando usa uno slot incantesimo di 8° livello o superiore, la durata diventa concentrazione, fino a 8 ore.</p>"
         },
         "1tcNxiXDdUbfOovR": {
           "name": "Ringiovanimento",
@@ -10941,7 +11002,8 @@
       },
       "items": {
         "fo1ZqyGz5iv51Rj1": {
-          "name": "Amorfo"
+          "name": "Amorfo",
+          "description": "<p>La [[lookup @name lowercase]]{monster} può muoversi attraverso uno spazio stretto fino a 2,5 centimetri senza doversi stringere.</p>"
         },
         "Xa0lRW8VhYHTAQT0": {
           "name": "Furtività d'Ombra",
@@ -11063,7 +11125,8 @@
         },
         "S7VbUetIfVT7B6Eq": {
           "name": "Oscurità",
-          "materials": "pelo di pipistrello e una goccia di pece o un pezzo di carbone"
+          "materials": "pelo di pipistrello e una goccia di pece o un pezzo di carbone",
+          "description": "<p>L'incantatore sceglie un punto situato entro gittata da cui si diffonde un'oscurit&agrave; magica che riempie una sfera del raggio di 4,5 metri per la durata dell'incantesimo. L'oscurit&agrave; si diffonde oltre gli angoli. Una creatura dotata di scurovisione non &egrave; in grado di vedere attraverso questa oscurit&agrave; e le luci non magiche non possono illuminarla.</p><p>Se il punto scelto dall'incantatore si trova su un oggetto che egli sta impugnando o che non &egrave; indossato o trasportato da nessuno, l'oscurit&agrave; si diffonde dall'oggetto e si muove assieme a esso. Coprire completamente la fonte dell'oscurit&agrave; con un oggetto opaco, come una scodella o un elmo, blocca l'oscurit&agrave;.</p><p>Se una parte dell'area di questo incantesimo si sovrappone a un'area di luce creata da un incantesimo di 2&deg; livello o inferiore, l'incantesimo che ha creato la luce &egrave; dissolto.</p>"
         },
         "1N8dDMMgZ1h1YJ3B": {
           "name": "Invisibilità",
@@ -11071,7 +11134,8 @@
           "description": "<p>Una creatura toccata dall'incantatore diventa invisibile finché l'incantesimo non termina. Tutto ciò che il bersaglio indossa o trasporta è invisibile finché rimane sulla sua persona. L'incantesimo termina per un bersaglio che attacca o lancia un incantesimo.</p><p><strong>Ai Livelli Superiori.</strong> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 3° livello o superiore, può bersagliare una creatura aggiuntiva per ogni livello dello slot oltre il 2°.</p>"
         },
         "eS7XnnApoxRxYXPs": {
-          "name": "Charme su Persone"
+          "name": "Charme su Persone",
+          "description": "<p>L'incantatore tenta di affascinare un umanoide che può vedere entro gittata. Il bersaglio deve effettuare un tiro salvezza su Saggezza e dispone di vantaggio se l'incantatore o i suoi compagni lo stanno combattendo. Se fallisce il tiro salvezza, è &amp;Reference[charmed] dall'incantatore finché l'incantesimo non termina o finché l'incantatore o i suoi compagni non gli fanno del male. La creatura affascinata considera l'incantatore una conoscenza amichevole. Quando l'incantesimo termina, la creatura sa di essere stata affascinata dall'incantatore.</p><p><strong>Ai Livelli Superiori.</strong> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, può bersagliare una creatura aggiuntiva per ogni livello dello slot superiore al 1°. Le creature devono trovarsi entro 9 metri l'una dall'altra quando vengono bersagliate.</p>"
         },
         "RpKjTlYASrfqUPVA": {
           "name": "Cono di Freddo",
@@ -11080,11 +11144,13 @@
         },
         "2IWiZAJtOGDoKjiz": {
           "name": "Forma Gassosa",
-          "materials": "un pezzetto di garza e un filo di fumo"
+          "materials": "un pezzetto di garza e un filo di fumo",
+          "description": "<p>L'incantatore trasforma una creatura consenziente da lui toccata (assieme a tutto ciò che essa indossa e trasporta) in una nube di foschia per la durata dell'incantesimo. L'incantesimo termina se la creatura scende a 0 punti ferita.</p><p>Una creatura incorporea non è influenzata dall'incantesimo. Finché il bersaglio si trova in questa forma, il suo unico metodo di movimento è una velocità di volare pari a 3 metri. Il bersaglio può entrare nello spazio di un'altra creatura e occuparlo, dispone di resistenza ai danni non magici e di vantaggio ai tiri salvezza su Forza, Destrezza e Costituzione. Il bersaglio può passare attraverso piccoli fori, aperture strette e perfino semplici crepe, ma considera i liquidi come se fossero superfici solide. Il bersaglio non può cadere e continua a fluttuare nell'arca anche quando è stordito o incapacitato in altri modi.</p><p>Finché è in forma gassosa, il bersaglio non può parlare o manipolare oggetti, e quelli che trasporta o impugna non possono essere usati, lasciati cadere o manipolati in alcun modo. Il bersaglio non può attaccare o lanciare incantesimi.</p>"
         },
         "KhwiSi9fwVfUPtku": {
           "name": "Sonno",
-          "materials": "un pizzico di sabbia finissima, petali di rosa o un grillo"
+          "materials": "un pizzico di sabbia finissima, petali di rosa o un grillo",
+          "description": "<p>Questo incantesimo fa in modo che le creature siano vittime di un sonno magico. L'incantatore tira 5d8; il totale ottenuto è l'ammontare di creature in punti ferita che questo incantesimo può influenzare. Le creature entro 6 metri da un punto a scelta dell'incantatore situato entro gittata sono influenzate in ordine crescente dei loro punti ferita (ignorando le creature prive di sensi).</p><p>A partire dalla creatura che possiede meno punti ferita attuali, ogni creatura influenzata da questo incantesimo cade priva di sensi finché l'incantesimo non termina, il dormiente non subisce danni o qualcuno non usa un'azione per scuotere o schiaffeggiare il dormiente per svegliarlo. Si sottraggono i punti ferita di ogni creatura dal totale prima di passare alla creatura con l'ammontare immediatamente superiore di punti ferita. I punti ferita di una creatura devono essere pari o inferiori al totale rimanente affinché quella creatura possa essere influenzata.</p><p>Le creature non morte e quelle immuni all'essere affascinate non sono influenzate da questo incantesimo.</p><p><strong>Ai Livelli Superiori.&nbsp;</strong>Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, tira 2d8 aggiuntivi per ogni slot di livello superiore al 1°.</p>"
         },
         "TCJLfMzkArxZePFY": {
           "name": "Armi Magiche",
@@ -11124,7 +11190,8 @@
               "name": "Senso Radar",
               "description": "<p>Non puoi usare la tua &amp;reference[blindsight] mentre sei &amp;reference[deafened apply=false].</p>"
             }
-          }
+          },
+          "description": "<p>L'[[lookup @name lowercase]]{monster} non può usare la sua vista cieca se è assordato.</p>"
         },
         "7CmK8Pk25sVdsBHV": {
           "name": "Udito Acuto"
@@ -11545,7 +11612,8 @@
               "name": "Senso Radar",
               "description": "<p>Non puoi usare la tua &amp;reference[blindsight] mentre sei &amp;reference[deafened apply=false].</p>"
             }
-          }
+          },
+          "description": "<p>L'[[lookup @name lowercase]]{monster} non può usare la sua vista cieca se è assordato.</p>"
         },
         "N05hdQhXPTOHipkJ": {
           "name": "Morso",
@@ -11578,7 +11646,8 @@
               "name": "Senso Radar",
               "description": "<p>Non puoi usare la tua &amp;reference[blindsight] mentre sei &amp;reference[deafened apply=false].</p>"
             }
-          }
+          },
+          "description": "<p>L'[[lookup @name lowercase]]{monster} non può usare la sua vista cieca se è assordato.</p>"
         },
         "BXK2Csiwc52nD9il": {
           "name": "Udito Acuto"
@@ -11619,7 +11688,8 @@
         },
         "TkJ8Wtg1L7TZtspm": {
           "name": "Dissolvi il Bene e il Male",
-          "materials": "acqua santa o polvere d'argento e di ferro"
+          "materials": "acqua santa o polvere d'argento e di ferro",
+          "description": "<p>L'incantatore è&nbsp;circondato da un alone di energia scintillante che lo protegge dai folletti, dai non morti e dalle creature originarie di un piano diverso dal Piano Materiale. Per la durata dell'incantesimo, i celestiali, gli elementali, i folletti, gli immondi e i non morti subiscono svantaggio ai tiri per colpire contro di lui.</p><p>L'incantatore può porre fine all'incantesimo usando una delle funzioni speciali seguenti.</p><p><strong>Congedo.</strong>&nbsp;Con la sua azione, l'incantatore effettua un attacco in mischia con questo incantesimo contro un celestiale, un elementale, un folletto, un immondo o un non morto entro la sua portata. Se lo colpisce, tenta di respingerlo sul suo piano di origine. La creatura deve superare un tiro salvezza su Carisma, altrimenti sarà ricacciata sul suo piano natio (se già non si trova laggiù). Se non si trovano sul loro piano di origine, i non morti sono inviati nella Coltre Oscura e i folletti nella Selva Fatata.</p><p>&nbsp; <strong>Spezzare Ammaliamento.</strong> Con la sua azione, l'incantatore tocca una creatura situata entro la sua portata che sia affascinata, spaventata o posseduta da un celestiale, un elementale, un folletto, un immondo o un non morto. La creatura toccata non è più affascinata, spaventata o posseduta da quella creatura.</p>"
         },
         "5e1xTohkzqFqbYH4": {
           "name": "Colpo Infuocato",
@@ -11793,7 +11863,8 @@
       },
       "items": {
         "Na7qo8robmcacNZI": {
-          "name": "Amorfo"
+          "name": "Amorfo",
+          "description": "<p>La [[lookup @name lowercase]]{monster} può muoversi attraverso uno spazio stretto fino a 2,5 centimetri senza doversi stringere.</p>"
         },
         "wvlDMuDDdk7peoPa": {
           "name": "Forma Corrosiva",
@@ -12177,7 +12248,8 @@
           "materials": "un ciuffo di lana"
         },
         "eS7XnnApoxRxYXPs": {
-          "name": "Charme su Persone"
+          "name": "Charme su Persone",
+          "description": "<p>L'incantatore tenta di affascinare un umanoide che può vedere entro gittata. Il bersaglio deve effettuare un tiro salvezza su Saggezza e dispone di vantaggio se l'incantatore o i suoi compagni lo stanno combattendo. Se fallisce il tiro salvezza, è &amp;Reference[charmed] dall'incantatore finché l'incantesimo non termina o finché l'incantatore o i suoi compagni non gli fanno del male. La creatura affascinata considera l'incantatore una conoscenza amichevole. Quando l'incantesimo termina, la creatura sa di essere stata affascinata dall'incantatore.</p><p><strong>Ai Livelli Superiori.</strong> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, può bersagliare una creatura aggiuntiva per ogni livello dello slot superiore al 1°. Le creature devono trovarsi entro 9 metri l'una dall'altra quando vengono bersagliate.</p>"
         },
         "ghXTfe7sgCbgf1Q8": {
           "name": "Individuazione del Magico",
@@ -12195,10 +12267,12 @@
         },
         "zMAWdyc8UVb37BK4": {
           "name": "Suggestione",
-          "materials": "una lingua di serpente e un frammento di un alveare o una goccia di olio dolce"
+          "materials": "una lingua di serpente e un frammento di un alveare o una goccia di olio dolce",
+          "description": "<p>L'incantatore suggerisce un corso d'azione da intraprendere (limitandosi a una o due frasi) e influenza magicamente una creatura entro gittata e che egli sia in grado di vedere. La creatura deve essere in grado di sentire l'incantatore e di capirlo. Le creature che non possono essere affascinate sono immuni a questo effetto.</p><p>La suggestione deve essere formulata in modo che il corso d'azione appaia ragionevole. Chiedere a una creatura di pugnalarsi, gettarsi su una lancia, immolarsi o compiere altri atti palesemente autolesionistici pone termine all'incantesimo.</p><p>Il bersaglio deve effettuare un tiro salvezza su Saggezza. Se lo fallisce, deve perseguire il corso d'azione descritto dall'incantatore al meglio delle sue capacità. Tale corso d'azione può proseguire per l'intera durata dell'incantesimo. Se l'attività suggerita può essere completata in un periodo di tempo più breve, l'incantesimo termina quando il soggetto completa ciò che gli è stato chiesto di fare. L'incantatore può anche specificare quali condizioni innescheranno un'attività speciale nel corso della durata. Per esempio, potrebbe suggerire che un cavaliere ceda il suo cavallo da guerra al primo mendicante che incontra. Se questa condizione non viene soddisfatta prima che l'incantesimo termini, quell'attività non viene effettuata.</p><p>Se l'incantatore o uno dei suoi compagni infliggono danni al bersaglio, l'incantesimo termina.</p>"
         },
         "91Sw6vOIaO7U8DvM": {
-          "name": "Dominare Persone"
+          "name": "Dominare Persone",
+          "description": "<p>L'incantatore tenta di soggiogare un umanoide entro gittata e che egli sia in grado di vedere. Quell'umanoide deve superare un tiro salvezza su Saggezza, altrimenti sarà affascinato dall'incantatore per la durata dell'incantesimo. Se l'incantatore o le creature a lui amichevoli stanno combattendo contro l'umanoide, quest'ultimo dispone di vantaggio al tiro salvezza.</p><p>Mentre il bersaglio è affascinato, l'incantatore dispone di un legame telepatico con lui finché entrambi si trovano sullo stesso piano di esistenza. L'incantatore può usare questo legame telepatico per impartire comandi alla creatura finché è cosciente (nessuna azione richiesta), ed essa farà del suo meglio per obbedire. L'incantatore può specificare un corso d'azione semplice e generico come \"attacca quella creatura\", \"corri fin laggiù\" o \"portami quell'oggetto\". Se la creatura porta a termine l'ordine e non riceve ulteriori indicazioni da parte dell'incantatore, essa si difende e si protegge al meglio delle sue capacità.</p><p>L'incantatore può usare la sua azione per assumere il controllo totale e preciso del bersaglio. Fino alla fine del turno successivo dell'incantatore, la creatura effettua soltanto le azioni scelte dall'incantatore e non fa niente che l'incantatore non le consenta di fare. Durante questo periodo, l'incantatore può anche fare in modo che la creatura usi una reazione, ma per farlo dovrà usare la sua stessa reazione.</p><p>Ogni volta che il bersaglio subisce danni, effettua un nuovo tiro salvezza su Saggezza contro l'incantesimo. Se lo suepra, l'incantesimo termina.</p><p><strong>Ai Livelli Superiori.&nbsp;</strong>Quando l'incantatore lancia questo incantesimo con uno slot incantesimo di 6° livello, la durata diventa concentrazione, fino a 10 minuti. Quando usa uno slot incantesimo di 7° livello, la durata diventa concentrazione, fino a 1 ora. &nbsp; Quando usa uno slot incantesimo di 8° livello o superiore, la durata diventa concentrazione, fino a 8 ore.</p>"
         },
         "yfbK8gZqESlaoY5t": {
           "name": "Volare",
@@ -12207,11 +12281,13 @@
         },
         "J6Jpw5XzB5aTeqnz": {
           "name": "Spostamento Planare",
-          "materials": "una bacchetta di metallo biforcuta armonizzata al piano di destinazione da 250 mo"
+          "materials": "una bacchetta di metallo biforcuta armonizzata al piano di destinazione da 250 mo",
+          "description": "<p>L'incantatore e un massimo di otto creature consenzienti che si tengono per mano formando un cerchio vengono trasportati su un piano di esistenza diverso. L'incantatore può indicare una destinazione in termini generali, come la Città d'Ottone sul Piano Elementale del Fuoco o il palazzo di Dispater sul secondo livello dei Nove Inferi, e appare in quel luogo o nelle sue vicinanze. Se, per esempio, tenta di raggiungere la Città d'Ottone, potrebbe arrivare nella sua Via dell'Acciaio, davanti alla sua Porta delle Ceneri o in un punto da cui osserva la città al di là del Mare di Fuoco, a discrezione del DM.</p><p>In alternativa, se l'incantatore conosce la sequenza dei simboli di un cerchio di teletrasporto su un altro piano di esistenza, questo incantesimo può condurlo a quel cerchio. Se il cerchio di teletrasporto è troppo piccolo per contenere tutte le creature trasportate, esse appaiono negli spazi liberi più vicini al cerchio.</p><p>L'incantatore può usare questo incantesimo per bandire una creatura non consenziente su un altro piano. Sceglie una creatura entro la propria portata ed effettua contro di essa un attacco con incantesimo in mischia. Se colpisce, la creatura deve effettuare un tiro salvezza su Carisma. Se lo fallisce, viene trasportata in un punto casuale del piano di esistenza specificato dall'incantatore. Una creatura trasportata in questo modo deve trovare autonomamente il modo di tornare sull'attuale piano di esistenza dell'incantatore.</p>"
         },
         "XzkJpE6XpZfKjODD": {
           "name": "Visione del Vero",
-          "materials": "un unguento per gli occhi del costo di 25 mo, ricavato da polvere di funghi, zolfo e grasso, che l'incantesimo consuma"
+          "materials": "un unguento per gli occhi del costo di 25 mo, ricavato da polvere di funghi, zolfo e grasso, che l'incantesimo consuma",
+          "description": "<p>Questo incantesimo conferisce alla creatura toccata&nbsp;dall'incantatore la capacità di vedere le cose per ciò che&nbsp;effettivamente sono. Per la durata dell'incantesimo, la creatura è dotata di vista pura, nota le porte segrete nascoste dalla magia ed è in grado di vedere sul Piano Etereo, entro un raggio di 36 metri.</p>"
         },
         "ChSnKd7pSLoN1Jeu": {
           "name": "Immunità Magica Limitata"
@@ -12514,7 +12590,7 @@
         },
         "n9pJzTDsAwQxJVRl": {
           "name": "Fiamma Sacra",
-          "description": "<p>Una luminosità simile a una fiamma scende su una creatura che puoi vedere entro gittata. Il bersaglio deve superare un tiro salvezza su Destrezza, altrimenti subisce 1d8 danni radiosi. Il bersaglio non ottiene alcun beneficio dalla copertura per questo tiro salvezza.</p><p>I danni dell'incantesimo aumentano di 1d8 quando raggiungi il 5° livello (2d8), l'11° livello (3d8) e il 17° livello (4d8).</p>"
+          "description": "<p>Un bagliore simile a una fiamma scende fino a una creatura entro gittata e che l'incantatore sia in grado di vedere. Il bersaglio deve superare un tiro salvezza su Destrezza, altrimenti subisce 1d8 danni radiosi. Il bersaglio non trae beneficio dalla copertura per questo tiro salvezza.</p><p>I danni di questo incantesimo aumentano di 1d8 quando l'incantatore arriva al 5° livello (2d8), 11° livello (3d8) e 17° livello (4d8).</p>"
         },
         "MUO1uYN7JR1hm4dR": {
           "name": "Taumaturgia",
@@ -12527,10 +12603,11 @@
         "gvdA9nPuWLck4tBl": {
           "name": "Santuario",
           "materials": "uno specchietto d'argento",
-          "description": "<p>Proteggi dagli attacchi una creatura entro gittata. Finché l'incantesimo non termina, ogni creatura che bersaglia la creatura protetta con un attacco o un incantesimo nocivo deve prima effettuare un tiro salvezza su Saggezza. Se lo fallisce, deve scegliere un nuovo bersaglio o perdere l'attacco o l'incantesimo. Questo incantesimo non protegge la creatura dagli effetti ad area, come l'esplosione di una Palla di Fuoco.</p><p>Se la creatura protetta effettua un attacco o lancia un incantesimo che influenza una creatura nemica, questo incantesimo termina.</p>"
+          "description": "<p>L'incantatore protegge una creatura situata entro gittata dagli attacchi. Finché l'incantesimo non termina, ogni creatura che bersaglia la creatura protetta con un attacco o un incantesimo che infligge danni deve prima effettuare un tiro salvezza su Saggezza. Se lo fallisce, deve scegliere un nuovo bersaglio o perdere l'attacco. Questo incantesimo non protegge la creatura bersaglio dagli effetti ad area come l'esplosione di una&nbsp;Palla di Fuoco.</p><p>Se la creatura protetta effettua un attacco o lancia un incantesimo che influenza una creatura nemica, questo incantesimo termina.</p>"
         },
         "F0GsG0SJzsIOacwV": {
-          "name": "Ristorare Inferiore"
+          "name": "Ristorare Inferiore",
+          "description": "<p>L'incantatore tocca una creatura e può porre termine a una malattia o una condizione che lo affligge tra accecato, assordato, avvelenato o paralizzato.</p>"
         },
         "JbxsYXxSOTZbf9I0": {
           "name": "Arma Spirituale",
@@ -13330,18 +13407,20 @@
             "0rDB745iaPlQXbbk": {
               "name": "Trasformarsi in Tempesta di Sabbia"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} si trasforma magicamente in un vortice di sabbia, si muove fino a 18 metri e torna alla propria forma normale. Mentre è in forma di vortice, il [[lookup @name lowercase]]{mostro} è immune a tutti i danni e non può essere afferrato, pietrificato, fatto cadere prono, trattenuto o stordito. L'equipaggiamento indossato o trasportato dal [[lookup @name lowercase]]{mostro} rimane in suo possesso.</p>"
         },
         "n9pJzTDsAwQxJVRl": {
           "name": "Fiamma Sacra",
-          "description": "<p>Una luminosità simile a una fiamma scende su una creatura che puoi vedere entro gittata. Il bersaglio deve superare un tiro salvezza su Destrezza, altrimenti subisce 1d8 danni radiosi. Il bersaglio non ottiene alcun beneficio dalla copertura per questo tiro salvezza.</p><p>I danni dell'incantesimo aumentano di 1d8 quando raggiungi il 5° livello (2d8), l'11° livello (3d8) e il 17° livello (4d8).</p>"
+          "description": "<p>Un bagliore simile a una fiamma scende fino a una creatura entro gittata e che l'incantatore sia in grado di vedere. Il bersaglio deve superare un tiro salvezza su Destrezza, altrimenti subisce 1d8 danni radiosi. Il bersaglio non trae beneficio dalla copertura per questo tiro salvezza.</p><p>I danni di questo incantesimo aumentano di 1d8 quando l'incantatore arriva al 5° livello (2d8), 11° livello (3d8) e 17° livello (4d8).</p>"
         },
         "MUO1uYN7JR1hm4dR": {
           "name": "Taumaturgia",
           "description": "<p>L'incantatore genera una meraviglia minore, una manifestazione di potere soprannaturale. Può creare uno degli effetti magici seguenti entro gittata:</p>\n<ul>\n<li>La sua voce rimbomba con potenza tre volte superiore rispetto al normale per 1 minuto.</li>\n<li>L'incantatore fa in modo che una fiamma tremi, si intensifichi, si affievolisca o cambi colore per 1 minuto.</li>\n<li>L'incantatore genera un tremito innocuo sul terreno per 1 minuto.</li>\n<li>L'incantatore crea un suono istantaneo che abbia origine da un punto entro gittata a sua scelta, come un rombo di tuono, il verso di un corvo o un sinistro sussurro.</li>\n<li>L'incantatore fa in modo che una porta o una finestra non chiusa a chiave si spalanchi o si chiuda di colpo da sola.</li>\n<li>L'incantatore altera l'aspetto dei suoi occhi per 1 minuto.</li>\n</ul>\n\n<p>Se l'incantatore lancia questo incantesimo più volte, può mantenere attivi fino a tre dei suoi effetti da 1 minuto simultaneamente e può congedare uno di quegli effetti con un'azione.</p>"
         },
         "arzCrMRgcNiQuh43": {
-          "name": "Comando"
+          "name": "Comando",
+          "description": "<p>L'incantatore pronuncia un comando di una parola rivolto a una creatura che può vedere entro gittata. Il bersaglio deve superare un tiro salvezza su Saggezza, altrimenti esegue il comando nel proprio turno successivo. L'incantesimo non ha effetto se il bersaglio è non morto, se non comprende il linguaggio dell'incantatore o se il comando gli è direttamente nocivo.</p><p>Di seguito sono descritti alcuni comandi tipici e i loro effetti. L'incantatore può impartire un comando diverso da quelli descritti. In tal caso, il DM determina come si comporta il bersaglio. Se il bersaglio non può eseguire il comando, l'incantesimo termina.</p><p><strong>Avvicinati.</strong> Il bersaglio si muove verso l'incantatore seguendo il percorso più breve e diretto, terminando il proprio turno se giunge entro 1,5 metri da lui.</p><p><strong>Lascia.</strong> Il bersaglio lascia cadere ciò che sta impugnando e poi termina il proprio turno.</p><p><strong>Fuggi.</strong> Il bersaglio impiega il proprio turno per allontanarsi dall'incantatore con il mezzo più rapido disponibile.</p><p><strong>Supplica.</strong> Il bersaglio cade &amp;reference[prone] e poi termina il proprio turno.</p><p><strong>Fermo.</strong> Il bersaglio non si muove e non effettua azioni. Una creatura volante rimane in aria, purché sia in grado di farlo. Se deve muoversi per rimanere in aria, vola della distanza minima necessaria.</p><p><strong>Ai Livelli Superiori.</strong> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, può influenzare una creatura aggiuntiva per ogni livello dello slot superiore al 1°. Le creature devono trovarsi entro 9 metri l'una dall'altra quando vengono bersagliate.</p>"
         },
         "7buEm5KhI5lP8m1z": {
           "name": "Dardo Tracciante",
@@ -13354,10 +13433,12 @@
         },
         "3Lo9boi7P2ro6QV4": {
           "name": "Blocca Persone",
-          "materials": "Una piccola sbarra di ferro"
+          "materials": "Una piccola sbarra di ferro",
+          "description": "<p>L'incantatore sceglie un umanoide entro gittata e che egli sia in grado di vedere. li bersaglio deve superare un tiro salvezza su Saggezza, altrimenti sarà paralizzato per la durata dell'incantesimo. Alla fine di ogni suo turno, il bersaglio può effettuare un altro tiro salvezza su Saggezza. Se lo supera, l'incantesimo su di esso termina.</p><p><strong>Ai Livelli Superiori.</strong> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 3° livello o superiore, può bersagliare un umanoide aggiuntivo per ogni slot di livello superiore al 2°. Gli umanoidi devono trovarsi a non più di 9 metri l'uno dall'altro quando l'incantatore li bersaglia.</p>"
         },
         "5VhqFROQYjr1P9lp": {
-          "name": "Silenzio"
+          "name": "Silenzio",
+          "description": "<p>L'incantatore genera una sfera del raggio di 6 metri centrata su un punto a sua scelta situato entro gittata. Per la durata dell'incantesimo, nessun suono può essere creato all'interno di quella sfera o attraversarla. Ogni creatura o oggetto interamente all'interno della sfera è immune ai danni da tuono e ogni creatura interamente all'interno della sfera è assordata. All'interno dell'area è impossibile lanciare un incantesimo che includa una componente verbale.</p>"
         },
         "JbxsYXxSOTZbf9I0": {
           "name": "Arma Spirituale",
@@ -13365,7 +13446,8 @@
         },
         "oyE5nVppa5mde5gT": {
           "name": "Animare Morti",
-          "materials": "una goccia di sangue, un brandello di carne, un pizzico di polvere d'osso"
+          "materials": "una goccia di sangue, un brandello di carne, un pizzico di polvere d'osso",
+          "description": "<p>Questo incantesimo crea un servitore non morto, scegliendo un cadavere di umanoide Medio o Piccolo entro gittata. Il suo incantesimo infonde nel bersaglio un'empia parvenza di vita, animandolo come creatura non morta. Il bersaglio diventa uno scheletro se l'incantatore ha scelto le ossa o uno zombi se ha scelto un cadavere.</p><p>(Il DM possiede le statistiche di gioco di queste creature.) A ogni suo turno l'incantatore può usare un'azione bonus per comandare mentalmente qualsiasi creatura da lui creata tramite questo incantesimo e situata entro 18 metri da lui (se controlla più creature, può comandarle tutte o nessuna allo stesso tempo, impartendo lo stesso comando a ogni creatura). L'incantatore decide quale azione effettuerà la creatura e dove si muoverà durante il suo turno successivo, oppure può impartire un comando generale, come per esempio vigilare su una camera o un corridoio in particolare. Se l'incantatore non impartisce alcun comando, la creatura si limita a difendersi dalle creature ostili. Una volta ricevuto un ordine, la creatura continua a seguirlo finché non ha portato a termine il compito. La creatura rimane sotto il controllo dell'incantatore per 24 ore, dopodiché smette di obbedire ai comandi che l'incantatore le ha impartito.</p><p>Per mantenere il controllo della creatura per altre 24 ore, l'incantatore deve lanciare di nuovo questo incantesimo su di essa prima che l'attuale periodo di 24 ore termini. Questo uso dell'incantesimo gli permette di ristabilire il controllo su un massimo di quattro creature da lui animate tramite questo incantesimo, anziché animarne una nuova.</p><p><strong>Ai Livelli Superiori.</strong> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 4° livello o superiore, anima o ristabilisce il controllo su due creature non morte aggiuntive per ogni slot di livello superiore al 3°. Ognuna di queste creature deve provenire da un cumulo di ossa o da un cadavere diverso.</p>"
         },
         "15Fa6q1nH27XfbR8": {
           "name": "Dissolvi Magie",
@@ -13381,7 +13463,8 @@
           "description": "<p>Un guardiano spettrale Grande compare e fluttua per la durata dell'incantesimo in uno spazio libero a scelta dell'incantatore situato entro gittata e che egli sia in grado di vedere. Il guardiano occupa quello spazio ed è sfocato, ad eccezione di una spada scintillante e uno scudo decorati con il simbolo della divinità dell'incantatore.</p><p>Ogni creatura ostile all'incantatore che si muova fino a uno spazio entro 3 metri dal guardiano per la prima volta in un turno deve superare un tiro salvezza su Destrezza. Se lo fallisce, subisce 20 danni radiosi, mentre se lo supera, subisce soltanto la metà di quei danni. &nbsp; Il guardiano svanisce quando ha inferto un totale di 60 danni.</p>"
         },
         "CjIq8Ed7bu3vVwT1": {
-          "name": "Contagio"
+          "name": "Contagio",
+          "description": "<p>Il tocco dell'incantatore trasmette una malattia. L'incantatore effettua un attacco in mischia con questo incantesimo contro una creatura entro la sua portata. Se colpisce, contamina la creatura con una malattia a sua scelta tra quelle descritte di seguito.</p><p>Alla fine di ogni suo turno, il bersaglio deve effettuare un tiro salvezza su Costituzione. Dopo avere fallito tre di questi tiri salvezza, gli effetti della malattia permangono per la durata dell'incantesimo e la creatura smette di effettuare questi tiri salvezza.</p><p>Dopo avere superato tre di questi tiri salvezza, la creatura si riprende dalla malattia e l'incantesimo termina. Dal momento che questo incantesimo induce una malattia naturale nel suo bersaglio, ogni effetto che rimuove una malattia o migliora gli effetti di una malattia è applicabile al bersaglio.</p><p><strong>Carne Putrefatta.</strong> La carne della creatura si decompone. La creatura subisce svantaggio alle prove di Carisma e vulnerabilità a tutti i danni.</p><p><strong>Devastazione Vischiosa.</strong> La creatura inizia a perdere sangue inesorabilmente e subisce svantaggio alle prove di Costituzione e ai tiri salvezza su Costituzione.</p><p>Inoltre, ogni volta che la creatura subisce danni, è stordita fino alla fine del suo turno successivo. <strong>Febbre Lurida.</strong>&nbsp;Il corpo della creatura brucia di febbre.</p><p>La creatura subisce svantaggio alle prove di Forza, ai tiri salvezza su Forza e ai tiri per colpire che utilizzano la Forza. <strong>Fuoco Mentale</strong>. La mente della creatura è febbricitante. La creatura subisce svantaggio alle prove di Intelligenza e ai tiri salvezza su Intelligenza, e si comporta come se fosse sotto gli effetti dell'incantesimo confusione durante il combattimento.</p><p><strong>lnfermità Accecante.</strong> La mente della creatura è scossa dal dolore e i suoi occhi diventano lattiginosi.</p><p>La creatura subisce svantaggio alle prove di Saggezza, ai tiri salvezza su Saggezza ed è accecata. <strong>Tremarella.</strong> La creatura è colta da violenti brividi, subisce svantaggio alle prove di Destrezza, ai tiri salvezza su Destrezza e ai tiri per colpire che utilizzano la Destrezza.</p>"
         },
         "OVikYmSdHliAG2YD": {
           "name": "Piaga degli Insetti",
@@ -13519,7 +13602,8 @@
         },
         "TkJ8Wtg1L7TZtspm": {
           "name": "Dissolvi il Bene e il Male",
-          "materials": "acqua santa o polvere d'argento e di ferro"
+          "materials": "acqua santa o polvere d'argento e di ferro",
+          "description": "<p>L'incantatore è&nbsp;circondato da un alone di energia scintillante che lo protegge dai folletti, dai non morti e dalle creature originarie di un piano diverso dal Piano Materiale. Per la durata dell'incantesimo, i celestiali, gli elementali, i folletti, gli immondi e i non morti subiscono svantaggio ai tiri per colpire contro di lui.</p><p>L'incantatore può porre fine all'incantesimo usando una delle funzioni speciali seguenti.</p><p><strong>Congedo.</strong>&nbsp;Con la sua azione, l'incantatore effettua un attacco in mischia con questo incantesimo contro un celestiale, un elementale, un folletto, un immondo o un non morto entro la sua portata. Se lo colpisce, tenta di respingerlo sul suo piano di origine. La creatura deve superare un tiro salvezza su Carisma, altrimenti sarà ricacciata sul suo piano natio (se già non si trova laggiù). Se non si trovano sul loro piano di origine, i non morti sono inviati nella Coltre Oscura e i folletti nella Selva Fatata.</p><p>&nbsp; <strong>Spezzare Ammaliamento.</strong> Con la sua azione, l'incantatore tocca una creatura situata entro la sua portata che sia affascinata, spaventata o posseduta da un celestiale, un elementale, un folletto, un immondo o un non morto. La creatura toccata non è più affascinata, spaventata o posseduta da quella creatura.</p>"
         },
         "jhhT9PsHy5A7EojO": {
           "name": "Resurrezione",
@@ -14661,11 +14745,13 @@
           "materials": "cenere di una foglia di vischio bruciata e un rametto di abete"
         },
         "3MYDjS6k9IYL0aTj": {
-          "name": "Calmare Emozioni"
+          "name": "Calmare Emozioni",
+          "description": "<p>L'incantatore tenta di sopprimere le emozioni più intense in un gruppo di persone. Ogni umanoide entro una sfera del raggio di 6 metri centrata su un punto scelto dall'incantatore entro gittata deve effettuare un tiro salvezza su Carisma; una creatura può scegliere di fallire questo tiro salvezza, se lo desidera. Se una creatura fallisce il suo tiro salvezza, l'incantatore sceglie uno dei due effetti seguenti. L'incantatore può sopprimere qualsiasi effetto che rende un bersaglio affascinato o spaventato. Quando questo incantesimo termina, ogni effetto soppresso torna a essere applicato, purché la sua durata non si sia esaurita nel frattempo.</p><p>In alternativa, l'incantatore può rendere un bersaglio indifferente ad alcune creature da lui scelte nei cui confronti il bersaglio risulterebbe ostile. Questa indifferenza termina se il bersaglio viene attaccato o danneggiato da un incantesimo, o se vede uno dei suoi amici subire danni. Quando l'incantesimo termina, la creatura torna a essere ostile, a meno che il DM non decida altrimenti.</p>"
         },
         "TkJ8Wtg1L7TZtspm": {
           "name": "Dissolvi il Bene e il Male",
-          "materials": "acqua santa o polvere d'argento e di ferro"
+          "materials": "acqua santa o polvere d'argento e di ferro",
+          "description": "<p>L'incantatore è&nbsp;circondato da un alone di energia scintillante che lo protegge dai folletti, dai non morti e dalle creature originarie di un piano diverso dal Piano Materiale. Per la durata dell'incantesimo, i celestiali, gli elementali, i folletti, gli immondi e i non morti subiscono svantaggio ai tiri per colpire contro di lui.</p><p>L'incantatore può porre fine all'incantesimo usando una delle funzioni speciali seguenti.</p><p><strong>Congedo.</strong>&nbsp;Con la sua azione, l'incantatore effettua un attacco in mischia con questo incantesimo contro un celestiale, un elementale, un folletto, un immondo o un non morto entro la sua portata. Se lo colpisce, tenta di respingerlo sul suo piano di origine. La creatura deve superare un tiro salvezza su Carisma, altrimenti sarà ricacciata sul suo piano natio (se già non si trova laggiù). Se non si trovano sul loro piano di origine, i non morti sono inviati nella Coltre Oscura e i folletti nella Selva Fatata.</p><p>&nbsp; <strong>Spezzare Ammaliamento.</strong> Con la sua azione, l'incantatore tocca una creatura situata entro la sua portata che sia affascinata, spaventata o posseduta da un celestiale, un elementale, un folletto, un immondo o un non morto. La creatura toccata non è più affascinata, spaventata o posseduta da quella creatura.</p>"
         },
         "gMrWeG8fMDPRFiVe": {
           "name": "Intralciare"

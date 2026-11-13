@@ -128,6 +128,41 @@ test("reuses a canonical translation across case and nonbreaking-space-only lega
   );
 });
 
+test("projects an explicitly labelled canonical reference onto equivalent legacy plain text", () => {
+  const sourceRecord = canonicalRecord();
+  sourceRecord.data.system.description.value =
+    "<p>Use a @UUID[Compendium.dnd5e.spells.Item.circle]{teleportation circle}.</p>";
+  const translationRecord = structuredClone(canonicalTranslation);
+  translationRecord.data.description =
+    "<p>Usa un @UUID[Compendium.dnd5e.spells.Item.circle]{cerchio di teletrasporto}.</p>";
+  const actor = actorRecord("<p>Use a teleportation circle.</p>");
+  const canonicalByUuid = new Map([
+    ["Compendium.dnd5e.items.Item.canonical1", { sourceRecord, translationRecord }]
+  ]);
+
+  const overrides = buildCanonicalEmbeddedOverrides({ actorRecord: actor, canonicalByUuid });
+
+  assert.equal(
+    overrides["items[embedded1].system.description.value"],
+    "<p>Usa un cerchio di teletrasporto.</p>"
+  );
+});
+
+test("does not project a near match whose mechanical number differs", () => {
+  const sourceRecord = canonicalRecord();
+  sourceRecord.data.system.description.value = "<p>Add 2 to AC.</p>";
+  const translationRecord = structuredClone(canonicalTranslation);
+  translationRecord.data.description = "<p>Aggiunge 2 alla CA.</p>";
+  const actor = actorRecord("<p>Add 4 to AC.</p>");
+  const canonicalByUuid = new Map([
+    ["Compendium.dnd5e.items.Item.canonical1", { sourceRecord, translationRecord }]
+  ]);
+
+  const overrides = buildCanonicalEmbeddedOverrides({ actorRecord: actor, canonicalByUuid });
+
+  assert.equal(overrides["items[embedded1].system.description.value"], undefined);
+});
+
 test("uses the dnd5e sourceId when compendiumSource is absent", () => {
   const canonicalByUuid = new Map([
     ["Compendium.dnd5e.items.Item.canonical1", {
