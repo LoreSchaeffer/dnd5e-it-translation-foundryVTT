@@ -8801,10 +8801,12 @@
           "name": "Artiglio",
           "effects": {
             "ha7mLJgRXVjMDnBj": {
-              "name": "Afferrato dall'Artiglio"
+              "name": "Afferrato dall'Artiglio",
+              "description": "<p>Sei &amp;reference[grappled apply=false] (CD 11 per sfuggire).</p>"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio è &amp;reference[grappled].</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio è &amp;reference[grappled].</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il bersaglio è &amp;Reference[grappled] (CD 11 per sfuggire). Il [[lookup @name lowercase]]{mostro} ha due [[lookup @item.name lowercase]]i, ognuno dei quali può afferrare un solo bersaglio.</p>"
         }
       },
       "details": {

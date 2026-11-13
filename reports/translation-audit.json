@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2160,
+      "translated": 2161,
       "missing": 3,
-      "partial": 228,
+      "partial": 227,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14226,
-      "missing": 1434,
+      "translated": 14228,
+      "missing": 1432,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1439
+    "blockingIssues": 1437
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 125,
+          "translated": 126,
           "missing": 0,
-          "partial": 212,
+          "partial": 211,
           "review": 0
         },
         "folders": {
@@ -578,32 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6410,
-          "missing": 696,
+          "translated": 6412,
+          "missing": 694,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "AOJvmk1IchxNxQzP",
-          "name": "Giant Crab",
-          "fieldPath": "items[7qDtYuaBNQ3zOnBC].system.description.value",
-          "sourcePath": "monsters/beast/giant-crab.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "AOJvmk1IchxNxQzP",
-          "name": "Giant Crab",
-          "fieldPath": "items[7qDtYuaBNQ3zOnBC].effects[ha7mLJgRXVjMDnBj].description",
-          "sourcePath": "monsters/beast/giant-crab.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
