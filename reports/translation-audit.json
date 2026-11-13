@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2139,
+      "translated": 2140,
       "missing": 3,
-      "partial": 249,
+      "partial": 248,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14160,
-      "missing": 1500,
+      "translated": 14168,
+      "missing": 1492,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1505
+    "blockingIssues": 1497
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 104,
+          "translated": 105,
           "missing": 0,
-          "partial": 233,
+          "partial": 232,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6344,
-          "missing": 762,
+          "translated": 6352,
+          "missing": 754,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -6624,78 +6624,6 @@
           "name": "Worg",
           "fieldPath": "items[UnONIXYgZcE3Jya0].system.description.chat",
           "sourcePath": "monsters/monstrosity/worg.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "NwQpeeaMxAC3fRft",
-          "name": "Black Pudding",
-          "fieldPath": "items[wvlDMuDDdk7peoPa].system.description.value",
-          "sourcePath": "monsters/ooze/black-pudding.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "NwQpeeaMxAC3fRft",
-          "name": "Black Pudding",
-          "fieldPath": "items[wvlDMuDDdk7peoPa].system.description.chat",
-          "sourcePath": "monsters/ooze/black-pudding.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "NwQpeeaMxAC3fRft",
-          "name": "Black Pudding",
-          "fieldPath": "items[wvlDMuDDdk7peoPa].system.activities.HmpHoKqKU8OyiT1J.description.value",
-          "sourcePath": "monsters/ooze/black-pudding.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "NwQpeeaMxAC3fRft",
-          "name": "Black Pudding",
-          "fieldPath": "items[v6ZspnPr8G5hApkL].system.description.value",
-          "sourcePath": "monsters/ooze/black-pudding.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "NwQpeeaMxAC3fRft",
-          "name": "Black Pudding",
-          "fieldPath": "items[v6ZspnPr8G5hApkL].system.description.chat",
-          "sourcePath": "monsters/ooze/black-pudding.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "NwQpeeaMxAC3fRft",
-          "name": "Black Pudding",
-          "fieldPath": "items[jF9rqlnLBWRoCnpK].system.description.value",
-          "sourcePath": "monsters/ooze/black-pudding.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "NwQpeeaMxAC3fRft",
-          "name": "Black Pudding",
-          "fieldPath": "items[jF9rqlnLBWRoCnpK].effects[WZn6kAQJRm0Cm6i9].description",
-          "sourcePath": "monsters/ooze/black-pudding.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "NwQpeeaMxAC3fRft",
-          "name": "Black Pudding",
-          "fieldPath": "items[jF9rqlnLBWRoCnpK].effects[QTexJH8jSdxaIXP2].description",
-          "sourcePath": "monsters/ooze/black-pudding.yml"
         },
         {
           "code": "missing-field",

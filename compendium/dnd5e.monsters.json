@@ -12534,7 +12534,10 @@
           "name": "Forma Corrosiva",
           "activities": {
             "HmpHoKqKU8OyiT1J": {
-              "name": "Danni da Contatto"
+              "name": "Danni da Contatto",
+              "description": {
+                "value": "<p>Una creatura che tocca il [[lookup @name lowercase]]{mostro} o lo colpisce con un attacco in mischia mentre si trova entro 1,5 metri da esso subisce [[/damage average]] danni. Ogni arma non magica di metallo o legno che colpisce il [[lookup @name lowercase]]{mostro} si corrode.</p><p>Dopo aver inflitto danni, l'arma subisce una penalità permanente e cumulativa di -1 ai tiri per i danni. Se la penalità scende a -5, l'arma è distrutta. Le munizioni non magiche di metallo o legno che colpiscono il protoplasma sono distrutte dopo aver inflitto danni. Il protoplasma può corrodere legno o metallo non magico spesso 5 cm in 1 round.</p><p>@UUID[Compendium.dnd5e.monsters.Actor.NwQpeeaMxAC3fRft.Item.wvlDMuDDdk7peoPa.ActiveEffect.dodLAz6LZ0KlsabM]{Arma Corrosa}</p>"
+              }
             }
           },
           "effects": {
@@ -12542,7 +12545,9 @@
               "name": "Arma Corrosa",
               "description": "<p>Quest'arma è stata corrosa e subisce una penalità permanente e cumulativa di -1 ai tiri per i danni. Se la penalità scende a -5, l'arma è distrutta.</p>"
             }
-          }
+          },
+          "description": "<p>Una creatura che tocca il [[lookup @name lowercase]]{mostro} o lo colpisce con un attacco in mischia mentre si trova entro 1,5 metri da esso subisce [[/damage average]] danni. Ogni arma non magica di metallo o legno che colpisce il [[lookup @name lowercase]]{mostro} si corrode.</p><p>Dopo aver inflitto danni, l'arma subisce una penalità permanente e cumulativa di -1 ai tiri per i danni. Se la penalità scende a -5, l'arma è distrutta. Le munizioni non magiche di metallo o legno che colpiscono il protoplasma sono distrutte dopo aver inflitto danni. Il protoplasma può corrodere legno o metallo non magico spesso 5 cm in 1 round.</p><section id=\"secret-JkTKDNe8rclkb2HO\" class=\"secret\"><p><strong>Nota di Foundry</strong></p><p>Puoi applicare l'incantamento @UUID[Compendium.dnd5e.monsters.Actor.NwQpeeaMxAC3fRft.Item.wvlDMuDDdk7peoPa.ActiveEffect.dodLAz6LZ0KlsabM]{Arma Corrosa} a un'arma, conferendole una penalità cumulativa di -1 ai tiri per i danni ogni volta che l'incantamento viene applicato.</p></section>",
+          "chat": "<p>Una creatura che tocca il [[lookup @name]]{mostro} o lo colpisce con un attacco in mischia mentre si trova entro 1,5 metri da esso subisce danni da acido. Ogni arma non magica di metallo o legno che colpisce il [[lookup @name]]{mostro} si corrode.</p>"
         },
         "i3tPruqWyXIVfdiK": {
           "name": "Movimenti del Ragno",
@@ -12560,13 +12565,16 @@
           },
           "effects": {
             "WZn6kAQJRm0Cm6i9": {
-              "name": "Budini Medi Divisi"
+              "name": "Budini Medi Divisi",
+              "description": "<p>Sei stato creato quando un @UUID[Compendium.dnd5e.monsters.Actor.NwQpeeaMxAC3fRft]{Protoplasma Nero} di taglia Grande si è diviso in due.</p>"
             },
             "QTexJH8jSdxaIXP2": {
-              "name": "Budini Piccoli Divisi"
+              "name": "Budini Piccoli Divisi",
+              "description": "<p>Sei stato creato quando un @UUID[Compendium.dnd5e.monsters.Actor.NwQpeeaMxAC3fRft]{Protoplasma Nero} di taglia Media si è diviso in due.</p>"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} si divide in due nuovi [[lookup @name]]{mostri}. I nuovi [[lookup @name]]{mostri} sono di una taglia inferiore rispetto al [[lookup @name]]{mostro} originale.</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} si divide in due nuovi [[lookup @name]]{mostri}. I nuovi [[lookup @name]]{mostri} sono di una taglia inferiore rispetto al [[lookup @name]]{mostro} originale.</p>",
+          "description": "<p>Quando un [[lookup @name lowercase]]{mostro} di taglia Media o superiore subisce danni da fulmine o <em>danni taglienti</em>, si divide in due nuovi [[lookup @name lowercase]]{mostri} se possiede almeno 10 punti ferita. Ogni nuovo protoplasma possiede un numero di punti ferita pari alla metà di quelli del [[lookup @name lowercase]]{mostro} originale, arrotondata per difetto. I nuovi [[lookup @name lowercase]]{mostri} sono di una taglia inferiore rispetto al [[lookup @name lowercase]]{mostro} originale.</p>"
         },
         "v6ZspnPr8G5hApkL": {
           "name": "Pseudopodo",
@@ -12575,7 +12583,9 @@
               "name": "Armatura Corrosa",
               "description": "<p>Questa armatura è stata corrosa e subisce una penalità permanente e cumulativa di -1 alla CA che fornisce. L'armatura è distrutta se la penalità riduce la sua CA a 10.</p>"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Inoltre, l'armatura non magica indossata dal bersaglio viene parzialmente dissolta e subisce una penalità permanente e cumulativa di -1 alla CA che fornisce. L'armatura è distrutta se la penalità riduce la sua CA a 10.</p><section id=\"secret-EuthiTlnSJwRrtDQ\" class=\"secret\"><p><strong>Nota di Foundry</strong></p><p>Puoi applicare l'incantamento @UUID[Compendium.dnd5e.monsters.Actor.NwQpeeaMxAC3fRft.Item.v6ZspnPr8G5hApkL.ActiveEffect.4U4SIb01ypbc6lzv]{Armatura Corrosa} a un'armatura, conferendole una penalità cumulativa di -1 alla CA che fornisce ogni volta che l'incantamento viene applicato.</p></section>",
+          "chat": "<p>Il [[lookup @name lowercase]]{mostro} attacca con il proprio [[lookup @item.name]]. Inoltre, l'armatura non magica indossata dal bersaglio viene parzialmente dissolta e subisce una penalità permanente e cumulativa di -1 alla CA che fornisce.</p>"
         }
       },
       "attributes": {
