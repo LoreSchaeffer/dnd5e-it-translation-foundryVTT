@@ -32,6 +32,17 @@
     "image": {
       "path": "img",
       "converter": "img"
+    },
+    "activities": {
+      "path": "system.activities",
+      "converter": "structured",
+      "cardinality": "many",
+      "container": "keyed",
+      "key": "_id",
+      "mapping": {
+        "name": "name",
+        "chatFlavor": "description.chatFlavor"
+      }
     }
   },
   "entries": {
@@ -9170,14 +9181,17 @@
       "name": "Kraken",
       "items": {
         "uxrpcslS4BkraMVB": {
-          "name": "Libertà di Movimento"
+          "name": "Libertà di Movimento",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} ignora il &amp;reference[difficult terrain] e gli effetti magici non possono ridurre la sua velocità o renderlo &amp;reference[restrained apply=false]. Può spendere 1,5 metri di movimento per sfuggire a impedimenti non magici o alla condizione &amp;reference[grappled apply=false].</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} ignora il &amp;reference[difficult terrain] e gli effetti magici non possono ridurre la sua velocità o renderlo &amp;reference[restrained apply=false].</p>"
         },
         "1oNtSpRA4XS3L6to": {
           "name": "Mostro da Assedio",
           "description": "<p>Il [[lookup @name lowercase]]{mostro} infligge danni doppi agli oggetti e alle strutture.</p>"
         },
         "j4xzhdYjtz2migUE": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua tre attacchi con [[/item .lfg28JvVAru30yJ4]]{Tentacolo}, ciascuno dei quali può essere sostituito con un uso di [[/item .bwwyMBn4QwiNd4SM]]{Scagliare}.</p>"
         },
         "r51OovswZTVF8Yna": {
           "name": "Morso",
@@ -9186,14 +9200,20 @@
               "name": "Danni da Digestione a Inizio Turno"
             },
             "taaOeSxgB6hWSvep": {
-              "name": "Tiro Salvezza per Rigurgitare Creatura"
+              "name": "Tiro Salvezza per Rigurgitare Creatura",
+              "description": {
+                "value": "<p>Se il [[lookup @name lowercase]]{mostro} subisce 50 o più danni in un singolo turno da una creatura al suo interno, il [[lookup @name lowercase]]{mostro} deve superare un tiro salvezza [[/save activity=taaOeSxgB6hWSvep]] alla fine di quel turno, altrimenti rigurgita tutte le creature inghiottite, che cadono &amp;reference[prone] in uno spazio entro 3 metri dal [[lookup @name lowercase]]{mostro}. Se il [[lookup @name lowercase]]{mostro} muore, una creatura inghiottita non è più trattenuta da esso e può sfuggire dal cadavere usando 6 metri di movimento, uscendone &amp;reference[prone].</p>"
+              }
             }
           },
           "effects": {
             "TfOGDuAj2ntBiYFa": {
-              "name": "Inghiottito"
+              "name": "Inghiottito",
+              "description": "<p>Sei stato inghiottito dal kraken. Sei &amp;reference[blinded apply=false] e &amp;reference[restrained apply=false] e benefici di &amp;reference[total cover] contro gli attacchi e gli altri effetti all'esterno del kraken.</p><p>Subisci inoltre [[/damage average 12d6 acid]] danni all'inizio di ciascun turno del kraken.</p><p>Se il kraken subisce da te 50 o più danni in un singolo turno, deve superare un tiro salvezza su Costituzione, altrimenti ti rigurgita, facendoti cadere &amp;reference[prone] in uno spazio entro 3 metri dal verme purpureo. Se il kraken muore, non sei più trattenuto da esso e puoi sfuggire dal cadavere usando 4,5 metri di movimento, uscendone &amp;reference[prone].</p>"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio è una creatura di taglia Grande o inferiore &amp;reference[grappled apply=false] dal [[lookup @name lowercase]]{mostro}, viene inghiottita e la lotta termina. Finché è inghiottita, la creatura è &amp;reference[blinded] e &amp;reference[restrained], beneficia di &amp;reference[total cover] contro gli attacchi e gli altri effetti all'esterno del [[lookup @name lowercase]]{mostro} e subisce [[/damage average activity=VTJvMyMKrJPYYlkL]] danni all'inizio di ciascun turno del [[lookup @name lowercase]]{mostro}.</p><p>Se il [[lookup @name lowercase]]{mostro} subisce 50 o più danni in un singolo turno da una creatura al suo interno, il [[lookup @name lowercase]]{mostro} deve superare un tiro salvezza [[/save activity=taaOeSxgB6hWSvep]] alla fine di quel turno, altrimenti rigurgita tutte le creature inghiottite, che cadono &amp;reference[prone] in uno spazio entro 3 metri dal [[lookup @name lowercase]]{mostro}. Se il [[lookup @name lowercase]]{mostro} muore, una creatura inghiottita non è più trattenuta da esso e può sfuggire dal cadavere usando 4,5 metri di movimento, uscendone &amp;reference[prone].</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Se il bersaglio è una creatura di taglia Grande o inferiore &amp;reference[grappled] dal [[lookup @name]]{mostro}, viene inghiottita e la lotta termina.</p>"
         },
         "OKGAJSxcW9xQiwyj": {
           "activities": {
@@ -9201,7 +9221,8 @@
               "name": "Invocare il Fulmine"
             }
           },
-          "name": "Tempesta di Fulmini"
+          "name": "Tempesta di Fulmini",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} usa [[/item .wVCkpBj5omvdfaMm]]{Tempesta di Fulmini}.</p>"
         },
         "K0T5NDyi2n8Yt8Ts": {
           "name": "Nube di Inchiostro",
@@ -9210,9 +9231,14 @@
               "name": "Espellere Nube d'Inchiostro"
             },
             "qfZqaaSpH5AIxvFM": {
-              "name": "Tiro Salvezza contro l'Inchiostro Velenoso a Inizio Turno"
+              "name": "Tiro Salvezza contro l'Inchiostro Velenoso a Inizio Turno",
+              "description": {
+                "value": "<p>Ogni creatura diversa dal [[lookup @name lowercase]]{mostro} che termina il proprio turno nell'inchiostro deve superare un tiro salvezza [[/save activity=qfZqaaSpH5AIxvFM]]; se lo fallisce subisce [[/damage average activity=qfZqaaSpH5AIxvFM]] danni, mentre se lo supera subisce la metà di quei danni.</p>"
+              }
             }
-          }
+          },
+          "description": "<p>Quando si trova sott'acqua, il [[lookup @name lowercase]]{mostro} espelle una nube d'inchiostro in un'area [[lookup @labels.description.template activity=hiENaqOgCBRB5rlo]]. La nube si propaga oltre gli angoli e quell'area è &amp;reference[heavily obscured] per le creature diverse dal [[lookup @name lowercase]]{mostro}. Ogni creatura diversa dal [[lookup @name lowercase]]{mostro} che termina il proprio turno nell'area deve superare un tiro salvezza [[/save activity=qfZqaaSpH5AIxvFM]]; se lo fallisce subisce [[/damage average activity=qfZqaaSpH5AIxvFM]] danni, mentre se lo supera subisce la metà di quei danni. Una forte corrente disperde la nube, che altrimenti scompare alla fine del turno successivo del [[lookup @name lowercase]]{mostro}.</p>",
+          "chat": "<p>Il Kraken espelle una nube d'inchiostro. La nube si propaga oltre gli angoli e quell'area è pesantemente oscurata per le creature diverse dal Kraken. Ogni creatura diversa dal Kraken che termina il proprio turno nell'area deve superare un tiro salvezza su Costituzione.</p>"
         },
         "RUz9ZKreZFNasH0I": {
           "name": "Anfibio",
@@ -9220,7 +9246,8 @@
         },
         "i2Ck12oznqdwTHzl": {
           "name": "Azioni Leggendarie",
-          "description": "<p>[[lookup @resources.legact.label]]</p>"
+          "description": "<p>[[lookup @resources.legact.label]]</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} può effettuare 3 azioni leggendarie.</p>"
         },
         "bwwyMBn4QwiNd4SM": {
           "name": "Scagliare",
@@ -9231,7 +9258,9 @@
             "POuIOxIPF4zYDksd": {
               "name": "Tiro Salvezza contro la Collisione con una Creatura"
             }
-          }
+          },
+          "description": "<p>Un oggetto impugnato o una creatura &amp;reference[grappled apply=false] dal [[lookup @name lowercase]], di taglia Grande o inferiore, viene scagliato fino a [[lookup @labels.description.range activity=sJvtsq6W2RMb5ekp]] in una direzione casuale e cade &amp;reference[prone].</p><p>Se un bersaglio scagliato colpisce una superficie solida, subisce [[/damage average activity=sJvtsq6W2RMb5ekp]] danni per ogni 3 metri per cui è stato scagliato. Se il bersaglio viene scagliato contro un'altra creatura, quella creatura deve superare un tiro salvezza [[/save activity=POuIOxIPF4zYDksd]], altrimenti subisce gli stessi danni e cade &amp;reference[prone].</p>",
+          "chat": "<p>Un oggetto impugnato o una creatura afferrata dal [[lookup @name]]{mostro}, di taglia Grande o inferiore, viene scagliato fino a [[lookup @labels.description.range activity=sJvtsq6W2RMb5ekp]] in una direzione casuale e cade &amp;reference[prone]. Se il bersaglio viene scagliato contro un'altra creatura, quella creatura deve effettuare un tiro salvezza su Destrezza, altrimenti subisce gli stessi danni e cade a terra prona.</p>"
         },
         "wVCkpBj5omvdfaMm": {
           "name": "Tempesta di Fulmini",
@@ -9239,7 +9268,9 @@
             "TwlWJt0B9uRQsZta": {
               "name": "Evocare Fulmini"
             }
-          }
+          },
+          "description": "<p>Il kraken crea magicamente tre fulmini, ciascuno dei quali può colpire un bersaglio che il kraken sia in grado di vedere entro [[lookup @labels.description.range activity=TwlWJt0B9uRQsZta]] da sé.</p><p>Un bersaglio deve effettuare un tiro salvezza [[/save activity=TwlWJt0B9uRQsZta]]; se lo fallisce subisce [[/damage average activity=TwlWJt0B9uRQsZta]] danni, mentre se lo supera subisce la metà di quei danni.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} crea magicamente tre fulmini, ciascuno dei quali può colpire un bersaglio che il kraken sia in grado di vedere entro [[lookup @labels.description.range activity=TwlWJt0B9uRQsZta]] da sé. Un bersaglio deve effettuare un tiro salvezza su Destrezza.</p>"
         },
         "e2EtrJsAPZ19WuE7": {
           "name": "Attacco con Tentacolo o Scagliare",
@@ -9247,15 +9278,19 @@
             "JjYCf59VYHAywvtN": {
               "name": "Colpire"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua un attacco con [[/item .lfg28JvVAru30yJ4]]{Tentacolo} o usa [[/item .bwwyMBn4QwiNd4SM]]{Scagliare}.</p>"
         },
         "lfg28JvVAru30yJ4": {
           "name": "Tentacolo",
           "effects": {
             "VoLmuqv703GF6cmn": {
-              "name": "Afferrato dal Tentacolo"
+              "name": "Afferrato dal Tentacolo",
+              "description": "<p>Sei &amp;reference[grappled apply=false] (CD 18 per sfuggire). Finché sei afferrato in questo modo, sei anche &amp;reference[restrained apply=false].</p>"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il bersaglio è &amp;reference[grappled] (CD 18 per sfuggire). Finché questa lotta non termina, il bersaglio è &amp;reference[restrained]. Il [[lookup @name lowercase]]{mostro} possiede dieci [[lookup @item.name lowercase]]{mostri}, ciascuno dei quali può afferrare un bersaglio.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio è &amp;reference[grappled]. Finché questa lotta non termina, il bersaglio è &amp;reference[restrained]. Il [[lookup @name]]{mostro} possiede dieci [[lookup @item.name lowercase]], ciascuno dei quali può afferrare un bersaglio.</p>"
         }
       },
       "details": {
