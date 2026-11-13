@@ -4095,6 +4095,14 @@
         },
         {
           "pack": "items",
+          "id": "Wk7EOYoY3b2tgGoS",
+          "name": "Deck of Illusions",
+          "sourcePath": "items/trinket/deck-of-illusions.yml",
+          "lookupKey": "Deck of Illusions",
+          "matchedLookupKey": "Deck of Illusions"
+        },
+        {
+          "pack": "items",
           "id": "wGKykLRS8UqChNXI",
           "name": "Dimensional Shackles",
           "sourcePath": "items/trinket/dimensional-shackles.yml",
@@ -7192,49 +7200,6 @@
               "message": "Foundry formulas differ from source",
               "pack": "items",
               "id": "F8QpasPjLrw2POzE",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
-        {
-          "pack": "items",
-          "id": "Wk7EOYoY3b2tgGoS",
-          "name": "Deck of Illusions",
-          "sourcePath": "items/trinket/deck-of-illusions.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Deck of Illusions",
-          "matchedLookupKey": "Deck of Illusions",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "Wk7EOYoY3b2tgGoS",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "Wk7EOYoY3b2tgGoS",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-references",
-              "severity": "blocking",
-              "message": "Foundry reference targets or order differ from source",
-              "pack": "items",
-              "id": "Wk7EOYoY3b2tgGoS",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-formulas",
-              "severity": "blocking",
-              "message": "Foundry formulas differ from source",
-              "pack": "items",
-              "id": "Wk7EOYoY3b2tgGoS",
               "fieldPath": "system.description.value"
             }
           ]

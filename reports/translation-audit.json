@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1766,
+      "translated": 1767,
       "missing": 69,
-      "partial": 556,
+      "partial": 555,
       "review": 70
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 973,
+      "invariantFailures": 969,
       "englishResiduals": 72,
       "imperialResiduals": 0
     },
-    "blockingIssues": 7128
+    "blockingIssues": 7124
   },
   "packs": [
     {
@@ -5317,9 +5317,9 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 878,
+          "translated": 879,
           "missing": 0,
-          "partial": 7,
+          "partial": 6,
           "review": 0
         },
         "folders": {
@@ -5333,7 +5333,7 @@
           "total": 2227,
           "translated": 2227,
           "missing": 0,
-          "invariantFailures": 26,
+          "invariantFailures": 22,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
@@ -5488,46 +5488,6 @@
           "fieldPath": "system.description.value",
           "name": "Bag of Beans",
           "sourcePath": "items/trinket/bag-of-beans.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "Wk7EOYoY3b2tgGoS",
-          "fieldPath": "system.description.value",
-          "name": "Deck of Illusions",
-          "sourcePath": "items/trinket/deck-of-illusions.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "Wk7EOYoY3b2tgGoS",
-          "fieldPath": "system.description.value",
-          "name": "Deck of Illusions",
-          "sourcePath": "items/trinket/deck-of-illusions.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "Wk7EOYoY3b2tgGoS",
-          "fieldPath": "system.description.value",
-          "name": "Deck of Illusions",
-          "sourcePath": "items/trinket/deck-of-illusions.yml"
-        },
-        {
-          "code": "foundry-formulas",
-          "severity": "blocking",
-          "message": "Foundry formulas differ from source",
-          "pack": "items",
-          "id": "Wk7EOYoY3b2tgGoS",
-          "fieldPath": "system.description.value",
-          "name": "Deck of Illusions",
-          "sourcePath": "items/trinket/deck-of-illusions.yml"
         },
         {
           "code": "html-tag-sequence",
