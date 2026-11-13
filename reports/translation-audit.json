@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1768,
+      "translated": 1769,
       "missing": 69,
-      "partial": 554,
+      "partial": 553,
       "review": 70
     },
     "folders": {
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 9514,
       "missing": 6146,
-      "invariantFailures": 966,
+      "invariantFailures": 961,
       "englishResiduals": 72,
       "imperialResiduals": 0
     },
-    "blockingIssues": 7121
+    "blockingIssues": 7116
   },
   "packs": [
     {
@@ -5317,9 +5317,9 @@
       "summary": {
         "documents": {
           "total": 885,
-          "translated": 880,
+          "translated": 881,
           "missing": 0,
-          "partial": 5,
+          "partial": 4,
           "review": 0
         },
         "folders": {
@@ -5333,62 +5333,12 @@
           "total": 2227,
           "translated": 2227,
           "missing": 0,
-          "invariantFailures": 19,
+          "invariantFailures": 14,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "items",
-          "id": "2ksm2KXCY3vBHTAx",
-          "fieldPath": "system.description.value",
-          "name": "Robe of Useful Items",
-          "sourcePath": "items/equipment/robe-of-useful-items.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "items",
-          "id": "2ksm2KXCY3vBHTAx",
-          "fieldPath": "system.description.value",
-          "name": "Robe of Useful Items",
-          "sourcePath": "items/equipment/robe-of-useful-items.yml"
-        },
-        {
-          "code": "foundry-references",
-          "severity": "blocking",
-          "message": "Foundry reference targets or order differ from source",
-          "pack": "items",
-          "id": "2ksm2KXCY3vBHTAx",
-          "fieldPath": "system.description.value",
-          "name": "Robe of Useful Items",
-          "sourcePath": "items/equipment/robe-of-useful-items.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "items",
-          "id": "2ksm2KXCY3vBHTAx",
-          "fieldPath": "system.description.value",
-          "name": "Robe of Useful Items",
-          "sourcePath": "items/equipment/robe-of-useful-items.yml"
-        },
-        {
-          "code": "foundry-formulas",
-          "severity": "blocking",
-          "message": "Foundry formulas differ from source",
-          "pack": "items",
-          "id": "2ksm2KXCY3vBHTAx",
-          "fieldPath": "system.description.value",
-          "name": "Robe of Useful Items",
-          "sourcePath": "items/equipment/robe-of-useful-items.yml"
-        },
         {
           "code": "html-tag-sequence",
           "severity": "blocking",

@@ -2183,6 +2183,14 @@
         },
         {
           "pack": "items",
+          "id": "2ksm2KXCY3vBHTAx",
+          "name": "Robe of Useful Items",
+          "sourcePath": "items/equipment/robe-of-useful-items.yml",
+          "lookupKey": "Robe of Useful Items",
+          "matchedLookupKey": "Robe of Useful Items"
+        },
+        {
+          "pack": "items",
           "id": "8GCEodUsTEEpBlO6",
           "name": "Robes",
           "sourcePath": "items/equipment/robes.yml",
@@ -7048,57 +7056,6 @@
       ],
       "needsTranslation": [],
       "manualReview": [
-        {
-          "pack": "items",
-          "id": "2ksm2KXCY3vBHTAx",
-          "name": "Robe of Useful Items",
-          "sourcePath": "items/equipment/robe-of-useful-items.yml",
-          "reason": "invariant-failure",
-          "lookupKey": "Robe of Useful Items",
-          "matchedLookupKey": "Robe of Useful Items",
-          "diagnostics": [
-            {
-              "code": "html-tag-sequence",
-              "severity": "blocking",
-              "message": "HTML tag sequence differs from source",
-              "pack": "items",
-              "id": "2ksm2KXCY3vBHTAx",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "html-attributes",
-              "severity": "blocking",
-              "message": "HTML attributes differ from source",
-              "pack": "items",
-              "id": "2ksm2KXCY3vBHTAx",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-references",
-              "severity": "blocking",
-              "message": "Foundry reference targets or order differ from source",
-              "pack": "items",
-              "id": "2ksm2KXCY3vBHTAx",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-inline-rolls",
-              "severity": "blocking",
-              "message": "Foundry inline rolls differ from source",
-              "pack": "items",
-              "id": "2ksm2KXCY3vBHTAx",
-              "fieldPath": "system.description.value"
-            },
-            {
-              "code": "foundry-formulas",
-              "severity": "blocking",
-              "message": "Foundry formulas differ from source",
-              "pack": "items",
-              "id": "2ksm2KXCY3vBHTAx",
-              "fieldPath": "system.description.value"
-            }
-          ]
-        },
         {
           "pack": "items",
           "id": "lSd5QHnIJbKvP1bh",
