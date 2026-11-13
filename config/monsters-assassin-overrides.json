@@ -1,0 +1,14 @@
+{
+  "monsters": {
+    "EMvcuOpu7ABCmBWi": {
+      "items[crRphULq6iIdlq88].system.description.value": "<p>Se il [[lookup @name lowercase]]{mostro} è soggetto a un effetto che gli consente di effettuare un tiro salvezza su Destrezza per dimezzare i danni, il [[lookup @name lowercase]]{mostro} non subisce invece alcun danno se supera il tiro salvezza e subisce soltanto la metà dei danni se lo fallisce.</p>",
+      "items[EcECOhaJIpCtN2o7].system.description.value": "<p>Una volta per turno, il [[lookup @name lowercase]]{mostro} infligge [[/damage average]] danni extra quando colpisce un bersaglio con un attacco con arma e dispone di vantaggio al tiro per colpire, oppure quando il bersaglio si trova entro 1,5 metri da un alleato del [[lookup @name lowercase]]{mostro} che non sia &amp;reference[incapacitated apply=false] e il [[lookup @name lowercase]]{mostro} non dispone di svantaggio al tiro per colpire.</p>",
+      "items[zaYTSI1nKtzBnQwf].system.description.value": "<p>L'assassino effettua due attacchi con la [[/item .Kbg12IJ0YW79vP06]]{spada corta}.</p>",
+      "items[Kbg12IJ0YW79vP06].system.description.value": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il bersaglio deve effettuare un tiro salvezza [[/save activity=K4WCmn76MTQNDMpO]]; se lo fallisce subisce [[/damage activity=K4WCmn76MTQNDMpO]] danni, mentre se lo supera subisce la metà di quei danni.</p>",
+      "items[Kbg12IJ0YW79vP06].system.activities.K4WCmn76MTQNDMpO.description.value": "<p>Il bersaglio deve effettuare un tiro salvezza [[/save]]; se lo fallisce subisce [[/damage activity=K4WCmn76MTQNDMpO]] danni, mentre se lo supera subisce la metà di quei danni.</p>",
+      "items[rNQK7okIBNZ2zDvD].system.description.value": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il bersaglio deve effettuare un tiro salvezza [[/save activity=1veeOGXOGCLeTwbO]]; se lo fallisce subisce [[/damage activity=1veeOGXOGCLeTwbO]] danni, mentre se lo supera subisce la metà di quei danni.</p>",
+      "items[rNQK7okIBNZ2zDvD].system.description.chat": "<p>L'Assassino attacca con la propria Balestra Leggera. Il bersaglio deve effettuare un tiro salvezza su <strong>Costituzione</strong>.</p>",
+      "items[rNQK7okIBNZ2zDvD].system.activities.1veeOGXOGCLeTwbO.description.value": "<p>Il bersaglio deve effettuare un tiro salvezza [[/save]]; se lo fallisce subisce [[/damage activity=1veeOGXOGCLeTwbO]] danni, mentre se lo supera subisce la metà di quei danni.</p>"
+    }
+  }
+}

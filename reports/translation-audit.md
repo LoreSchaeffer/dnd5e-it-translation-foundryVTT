@@ -9,7 +9,7 @@
 | heroes | 12 | 12 | 0 | 0 | 0 | 0 | 0 |
 | items | 885 | 885 | 0 | 0 | 0 | 0 | 48 |
 | monsterfeatures | 252 | 252 | 0 | 0 | 0 | 0 | 0 |
-| monsters | 337 | 102 | 0 | 235 | 0 | 778 | 778 |
+| monsters | 337 | 103 | 0 | 234 | 0 | 770 | 770 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
 | rules | 20 | 1 | 3 | 16 | 0 | 738 | 695 |
 | spells | 320 | 320 | 0 | 0 | 0 | 0 | 0 |
@@ -17,7 +17,7 @@
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 1521
+Total blocking issues: 1513
 
 ## Issues
 
@@ -522,14 +522,6 @@ Total blocking issues: 1521
 - **missing-field** `monsters:B7lBOr1AahNZs4a6:items[X4c8xCkmF8U9HUMz].system.description.value`
 - **missing-field** `monsters:B7lBOr1AahNZs4a6:items[avD5XUtkBPQQR97c].system.description.value`
 - **missing-field** `monsters:B7lBOr1AahNZs4a6:items[fVbCxFRaORalHB20].system.description.value`
-- **missing-field** `monsters:EMvcuOpu7ABCmBWi:items[crRphULq6iIdlq88].system.description.value`
-- **missing-field** `monsters:EMvcuOpu7ABCmBWi:items[EcECOhaJIpCtN2o7].system.description.value`
-- **missing-field** `monsters:EMvcuOpu7ABCmBWi:items[zaYTSI1nKtzBnQwf].system.description.value`
-- **missing-field** `monsters:EMvcuOpu7ABCmBWi:items[Kbg12IJ0YW79vP06].system.description.value`
-- **missing-field** `monsters:EMvcuOpu7ABCmBWi:items[Kbg12IJ0YW79vP06].system.activities.K4WCmn76MTQNDMpO.description.value`
-- **missing-field** `monsters:EMvcuOpu7ABCmBWi:items[rNQK7okIBNZ2zDvD].system.description.value`
-- **missing-field** `monsters:EMvcuOpu7ABCmBWi:items[rNQK7okIBNZ2zDvD].system.description.chat`
-- **missing-field** `monsters:EMvcuOpu7ABCmBWi:items[rNQK7okIBNZ2zDvD].system.activities.1veeOGXOGCLeTwbO.description.value`
 - **missing-field** `monsters:rb7OJt822wIO52qY:items[u3rhYD4gsxWEFbMc].system.description.value`
 - **missing-field** `monsters:rb7OJt822wIO52qY:items[VAwElWvqJg63fWL2].system.description.chat`
 - **missing-field** `monsters:kz1t6xeXVwODpYb2:items[Qzj9HKnvRGhYoggC].effects[mc0qfRRq1rZXrJbi].description`

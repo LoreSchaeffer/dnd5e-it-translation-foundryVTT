@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2137,
+      "translated": 2138,
       "missing": 3,
-      "partial": 251,
+      "partial": 250,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14144,
-      "missing": 1516,
+      "translated": 14152,
+      "missing": 1508,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1521
+    "blockingIssues": 1513
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 102,
+          "translated": 103,
           "missing": 0,
-          "partial": 235,
+          "partial": 234,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6328,
-          "missing": 778,
+          "translated": 6336,
+          "missing": 770,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -4662,78 +4662,6 @@
           "name": "Archmage",
           "fieldPath": "items[fVbCxFRaORalHB20].system.description.value",
           "sourcePath": "monsters/humanoid/archmage.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "EMvcuOpu7ABCmBWi",
-          "name": "Assassin",
-          "fieldPath": "items[crRphULq6iIdlq88].system.description.value",
-          "sourcePath": "monsters/humanoid/assassin.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "EMvcuOpu7ABCmBWi",
-          "name": "Assassin",
-          "fieldPath": "items[EcECOhaJIpCtN2o7].system.description.value",
-          "sourcePath": "monsters/humanoid/assassin.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "EMvcuOpu7ABCmBWi",
-          "name": "Assassin",
-          "fieldPath": "items[zaYTSI1nKtzBnQwf].system.description.value",
-          "sourcePath": "monsters/humanoid/assassin.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "EMvcuOpu7ABCmBWi",
-          "name": "Assassin",
-          "fieldPath": "items[Kbg12IJ0YW79vP06].system.description.value",
-          "sourcePath": "monsters/humanoid/assassin.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "EMvcuOpu7ABCmBWi",
-          "name": "Assassin",
-          "fieldPath": "items[Kbg12IJ0YW79vP06].system.activities.K4WCmn76MTQNDMpO.description.value",
-          "sourcePath": "monsters/humanoid/assassin.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "EMvcuOpu7ABCmBWi",
-          "name": "Assassin",
-          "fieldPath": "items[rNQK7okIBNZ2zDvD].system.description.value",
-          "sourcePath": "monsters/humanoid/assassin.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "EMvcuOpu7ABCmBWi",
-          "name": "Assassin",
-          "fieldPath": "items[rNQK7okIBNZ2zDvD].system.description.chat",
-          "sourcePath": "monsters/humanoid/assassin.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "EMvcuOpu7ABCmBWi",
-          "name": "Assassin",
-          "fieldPath": "items[rNQK7okIBNZ2zDvD].system.activities.1veeOGXOGCLeTwbO.description.value",
-          "sourcePath": "monsters/humanoid/assassin.yml"
         },
         {
           "code": "missing-field",

@@ -877,30 +877,42 @@
             "dnd5eactivity000": {
               "name": "Danni Bonus"
             }
-          }
+          },
+          "description": "<p>Una volta per turno, il [[lookup @name lowercase]]{mostro} infligge [[/damage average]] danni extra quando colpisce un bersaglio con un attacco con arma e dispone di vantaggio al tiro per colpire, oppure quando il bersaglio si trova entro 1,5 metri da un alleato del [[lookup @name lowercase]]{mostro} che non sia &amp;reference[incapacitated apply=false] e il [[lookup @name lowercase]]{mostro} non dispone di svantaggio al tiro per colpire.</p>"
         },
         "zaYTSI1nKtzBnQwf": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>L'assassino effettua due attacchi con la [[/item .Kbg12IJ0YW79vP06]]{spada corta}.</p>"
         },
         "Kbg12IJ0YW79vP06": {
           "name": "Spada Corta",
           "activities": {
             "K4WCmn76MTQNDMpO": {
-              "name": "Tiro Salvezza contro il Veleno"
+              "name": "Tiro Salvezza contro il Veleno",
+              "description": {
+                "value": "<p>Il bersaglio deve effettuare un tiro salvezza [[/save]]; se lo fallisce subisce [[/damage activity=K4WCmn76MTQNDMpO]] danni, mentre se lo supera subisce la metà di quei danni.</p>"
+              }
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il bersaglio deve effettuare un tiro salvezza [[/save activity=K4WCmn76MTQNDMpO]]; se lo fallisce subisce [[/damage activity=K4WCmn76MTQNDMpO]] danni, mentre se lo supera subisce la metà di quei danni.</p>"
         },
         "rNQK7okIBNZ2zDvD": {
           "name": "Balestra Leggera",
           "activities": {
             "1veeOGXOGCLeTwbO": {
-              "name": "Tiro Salvezza contro il Veleno"
+              "name": "Tiro Salvezza contro il Veleno",
+              "description": {
+                "value": "<p>Il bersaglio deve effettuare un tiro salvezza [[/save]]; se lo fallisce subisce [[/damage activity=1veeOGXOGCLeTwbO]] danni, mentre se lo supera subisce la metà di quei danni.</p>"
+              }
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il bersaglio deve effettuare un tiro salvezza [[/save activity=1veeOGXOGCLeTwbO]]; se lo fallisce subisce [[/damage activity=1veeOGXOGCLeTwbO]] danni, mentre se lo supera subisce la metà di quei danni.</p>",
+          "chat": "<p>L'Assassino attacca con la propria Balestra Leggera. Il bersaglio deve effettuare un tiro salvezza su <strong>Costituzione</strong>.</p>"
         },
         "crRphULq6iIdlq88": {
-          "name": "Elusione"
+          "name": "Elusione",
+          "description": "<p>Se il [[lookup @name lowercase]]{mostro} è soggetto a un effetto che gli consente di effettuare un tiro salvezza su Destrezza per dimezzare i danni, il [[lookup @name lowercase]]{mostro} non subisce invece alcun danno se supera il tiro salvezza e subisce soltanto la metà dei danni se lo fallisce.</p>"
         }
       },
       "details": {
