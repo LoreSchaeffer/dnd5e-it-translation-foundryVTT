@@ -12241,7 +12241,8 @@
       },
       "items": {
         "TKztZERtXehbxu2q": {
-          "name": "Trattenere il Respiro"
+          "name": "Trattenere il Respiro",
+          "description": "<p>Quando è fuori dall'acqua, il [[lookup @name lowercase]]{mostro} può trattenere il respiro per 30 minuti.</p>"
         },
         "ODM4yi5BKpC4Hohw": {
           "name": "Mimetismo Acquatico",
@@ -12257,16 +12258,19 @@
               "name": "Scatto"
             }
           },
-          "chat": "<p>Se il polpo si trova sott'acqua, una nube d'inchiostro [[lookup @labels.description.template activity=iuQ878Y9dLNBjNXU]] si diffonde tutt'attorno a esso.</p>"
+          "chat": "<p>Se il polpo si trova sott'acqua, una nube d'inchiostro [[lookup @labels.description.template activity=iuQ878Y9dLNBjNXU]] si diffonde tutt'attorno a esso.</p>",
+          "description": "<p>Una nube di inchiostro [[lookup @labels.description.template activity=iuQ878Y9dLNBjNXU]] si estende tutt'intorno al [[lookup @name lowercase]]{mostro}, se si trova sott'acqua. L'area è &amp;reference[heavily obscured] per 1 minuto, anche se una corrente significativa può disperdere l'inchiostro. Dopo avere rilasciato l'inchiostro, il [[lookup @name lowercase]]{mostro} può usare l'azione &amp;reference[Dash] come azione bonus.</p>"
         },
         "SLnyx0Ta2ksVM9QL": {
           "name": "Tentacoli",
           "effects": {
             "zKCI4XQ331POGNWl": {
-              "name": "Afferrato dai Tentacoli"
+              "name": "Afferrato dai Tentacoli",
+              "description": "<p>Sei &amp;reference[grappled apply=false] (CD 10 per sfuggire).</p>"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio è &amp;reference[grappled]. Finché questa lotta non termina, il [[lookup @name lowercase]]{mostro} non può usare [[lookup @item.name lowercase]] su un altro bersaglio.</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio è &amp;reference[grappled]. Finché questa lotta non termina, il [[lookup @name lowercase]]{mostro} non può usare [[lookup @item.name lowercase]] su un altro bersaglio.</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il bersaglio è &amp;Reference[grappled] (CD 10 per sfuggire). Finché questa lotta non termina, il [[lookup @name lowercase]]{mostro} non può usare i propri [[lookup @item.name lowercase]] contro un altro bersaglio.</p>"
         },
         "7h1ktenu53lHYCxr": {
           "name": "Respirare Sott'Acqua",

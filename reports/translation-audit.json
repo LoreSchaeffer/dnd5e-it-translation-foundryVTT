@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2176,
+      "translated": 2177,
       "missing": 3,
-      "partial": 212,
+      "partial": 211,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14269,
-      "missing": 1391,
+      "translated": 14273,
+      "missing": 1387,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1396
+    "blockingIssues": 1392
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 141,
+          "translated": 142,
           "missing": 0,
-          "partial": 196,
+          "partial": 195,
           "review": 0
         },
         "folders": {
@@ -578,50 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6453,
-          "missing": 653,
+          "translated": 6457,
+          "missing": 649,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "3UUNbGiG2Yf1ZPxM",
-          "name": "Octopus",
-          "fieldPath": "items[SLnyx0Ta2ksVM9QL].system.description.value",
-          "sourcePath": "monsters/beast/octopus.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "3UUNbGiG2Yf1ZPxM",
-          "name": "Octopus",
-          "fieldPath": "items[SLnyx0Ta2ksVM9QL].effects[zKCI4XQ331POGNWl].description",
-          "sourcePath": "monsters/beast/octopus.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "3UUNbGiG2Yf1ZPxM",
-          "name": "Octopus",
-          "fieldPath": "items[TKztZERtXehbxu2q].system.description.value",
-          "sourcePath": "monsters/beast/octopus.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "3UUNbGiG2Yf1ZPxM",
-          "name": "Octopus",
-          "fieldPath": "items[8qYBpaA8c3BuBujY].system.description.value",
-          "sourcePath": "monsters/beast/octopus.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
