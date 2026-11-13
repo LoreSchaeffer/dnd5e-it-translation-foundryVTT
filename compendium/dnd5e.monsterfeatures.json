@@ -358,15 +358,15 @@
     },
     "Hold Breath": {
       "name": "Trattenere il Respiro",
-      "description": "<p>Il &lt;creature&gt; può trattenere il respiro per 15 minuti.</p>"
+      "description": "<p>Il [[lookup @name lowercase]]{mostro} può trattenere il respiro per <strong>15 minuti</strong>.</p>"
     },
     "Horrific Appearance": {
       "name": "Aspetto Orripilante",
-      "description": "<p>Ogni umanoide che inizi il proprio turno entro 9 metri dalla megera e sia in grado di vedere la vera forma della &lt;creature&gt; deve effettuare un tiro salvezza su Saggezza con CD 11; se lo fallisce, è spaventato per 1 minuto. Una creatura può ripetere il tiro salvezza alla fine di ogni suo turno, subendo svantaggio se la &lt;creature&gt; è situata entro linea di vista, e se lo supera, l'effetto per lei termina. Se una creatura supera il tiro salvezza o se l’effetto per lei termina, è immune all'Aspetto Orripilante della &lt;creature&gt; per le 24 ore successive. A meno che il bersaglio non sia sorpreso o la rivelazione della vera forma della &lt;creature&gt; non sia improvvisa, il bersaglio può distogliere lo sguardo ed evitare di effettuare il tiro salvezza iniziale. Fino all’inizio del proprio turno successivo, una creatura che distoglie lo sguardo subisce svantaggio ai tiri per colpire contro la &lt;creature&gt;.</p>"
+      "description": "<section class=\"secret\">\n<p>Ogni umanoide che inizia il proprio turno <strong>entro 9 metri</strong> dal [[lookup @name lowercase]]{mostro} e può vedere la vera forma del [[lookup @name lowercase]]{mostro} deve effettuare un <strong>tiro salvezza su Saggezza con CD 11</strong>. Se lo fallisce, la creatura è spaventata per <strong>1 minuto</strong>. Una creatura può ripetere il tiro salvezza alla fine di ciascun proprio turno, con<strong> svantaggio </strong>se la megera si trova entro linea di vista, e, se lo supera, l'effetto su di lei termina.</p><p>Se una creatura supera il tiro salvezza o se l'effetto su di lei termina, la creatura è immune all'Aspetto Orripilante del [[lookup @name lowercase]]{mostro} per le 24 ore successive<strong>. </strong>A meno che il bersaglio non sia sorpreso o la rivelazione della vera forma della megera non sia improvvisa, il bersaglio può distogliere lo sguardo ed evitare di effettuare il tiro salvezza iniziale. Fino all'inizio del proprio turno successivo, una creatura che distoglie lo sguardo subisce<strong> svantaggio </strong>ai tiri per colpire contro il [[lookup @name lowercase]]{mostro}.</p>\n</section>\n<p>Ogni umanoide che inizia il proprio turno <strong>entro 9 metri</strong> dal [[lookup @name lowercase]]{mostro} e può vedere la vera forma del [[lookup @name lowercase]]{mostro} deve effettuare un tiro salvezza su <strong>Saggezza</strong>.</p>"
     },
     "Horrifying Visage": {
       "name": "Volto Terrificante",
-      "description": "<p>Ogni creatura che non sia un non morto situata entro 18 metri dalla &lt;creature&gt; e che sia in grado di vederla deve superare un tiro salvezza su Saggezza con CD 13, altrimenti è spaventata per 1 minuto. Un bersaglio spaventato può ripetere il tiro salvezza alla fine di ogni suo turno, subendo svantaggio se la &lt;creature&gt; si trova entro linea di vista; se supera il tiro, l’effetto per lui termina. Se un bersaglio supera il tiro salvezza o l’effetto per lui termina, quel bersaglio è immune al Volto Terrificante della &lt;creature&gt; per le 24 ore successive.</p>"
+      "description": "<section class=\"secret\"><p>Ogni creatura non-[[lookup @details.type.config.label lowercase]]{mostro} entro 18 m dal [[lookup @name lowercase]]{mostro} che può vederlo deve superare un tiro salvezza su <strong>Saggezza con CD 13</strong>, altrimenti è spaventata per 1 minuto. Se il tiro salvezza fallisce di 5 o più, il bersaglio invecchia anche di 1d4 x 10 anni. </p><p>Un bersaglio spaventato può ripetere il tiro salvezza alla fine di ciascun proprio turno e, se lo supera, la condizione di spaventato su di lui termina. Se un bersaglio supera il tiro salvezza o se l'effetto su di lui termina, è immune al Volto Terrificante di questo [[lookup @name lowercase]]{mostro} per le 24 ore successive. L'effetto di invecchiamento può essere invertito con un incantesimo ristorare superiore, ma soltanto entro 24 ore dal suo verificarsi.</p></section><p>Ogni creatura non-[[lookup @details.type.config.label lowercase]]{mostro} entro 18 m dal [[lookup @name lowercase]]{mostro} che può vederlo deve effettuare un tiro salvezza su <strong>Saggezza</strong>. Un bersaglio può ripetere il tiro salvezza alla fine di ciascun proprio turno e, se lo supera, la condizione su di lui termina.</p>"
     },
     "Ice Walk": {
       "name": "Camminare sul Ghiaccio",
@@ -374,7 +374,7 @@
     },
     "Ignited Illumination": {
       "name": "Illuminazione Fiammeggiante",
-      "description": "<p>Come azione bonus, il &lt;creature&gt; può infiammarsi o estinguere le proprie fiamme. Quando si infiamma, il &lt;creature&gt; proietta luce intensa in un raggio di 3 metri e luce fioca per altri 3 metri.</p>"
+      "description": "<p>Con un'azione bonus, il [[lookup @name lowercase]]{mostro} può darsi fuoco o spegnere le proprie fiamme. Mentre è in fiamme, il [[lookup @name lowercase]]{mostro} proietta luce intensa in un <strong>raggio di 3 metri</strong> e luce fioca per altri <strong>3 m</strong>.</p>"
     },
     "Illumination": {
       "name": "Illuminazione",
@@ -390,23 +390,23 @@
     },
     "Incorporeal Movement": {
       "name": "Movimento Incorporeo",
-      "description": "<p>Lo &lt;creature&gt; può muoversi attraverso altre creature e oggetti come se fossero terreno difficile. Subisce 5 (1d10) danni da forza se termina il suo turno all’interno di un oggetto.</p>"
+      "description": "<section class=\"secret\">\n<p>Il [[lookup @name lowercase]]{mostro} può muoversi attraverso altre creature e oggetti come se fossero terreno difficile.</p><p>Subisce <strong><strong>5 (1d10) danni <em>da forza</em></strong></strong> se termina il proprio turno all'interno di un oggetto.</p>\n</section>\n<p>Il [[lookup @name lowercase]]{mostro} può muoversi attraverso altre creature e oggetti come se fossero terreno difficile.</p>"
     },
     "Ink Cloud": {
       "name": "Nube di Inchiostro",
-      "description": "<p>Una nube di inchiostro del raggio di 1,5 metri si diffonde tutt'intorno alla &lt;creature&gt;, se essa si trova sott'acqua. L'area è pesantemente oscurata per 1 minuto, anche se una corrente di intensità significativa può disperdere l'inchiostro. Dopo avere emesso l'inchiostro, la &lt;creature&gt; può usare l’azione di Scatto come azione bonus.</p><p>&nbsp;</p>"
+      "description": "<section class=\"secret\">\n<p>Se si trova sott'acqua, una nube d'inchiostro del raggio di 6 metri si estende tutt'intorno al [[lookup @name lowercase]]{mostro}. L'area è pesantemente oscurata per 1 minuto, sebbene una corrente significativa possa disperdere l'inchiostro. Dopo avere rilasciato l'inchiostro, il [[lookup @name lowercase]]{mostro} può usare l'azione Scatto come azione bonus. Si ricarica dopo un Riposo Breve o Lungo.</p>\n</section>\n<p>Se si trova sott'acqua, una nube d'inchiostro del raggio di 6 metri si estende tutt'intorno al [[lookup @name lowercase]]{mostro}.</p>"
     },
     "Innate Spellcasting": {
       "name": "Incantesimi Innati",
-      "description": "<p>La caratteristica da incantatore del &lt;creature&gt; è &lt;ABILITY&gt; (tiro salvezza degli incantesimi CD &lt;DC&gt;). Il &lt;creature&gt; può lanciare i seguenti incantesimi innati, che richiedono solo componenti verbali:</p><p>&lt;Innate Spell List&gt;</p><p>&nbsp;</p>"
+      "description": "<p>La caratteristica da incantatore innato del [[lookup @details.type.config.label lowercase]]{mostro} è Carisma. Può lanciare i seguenti incantesimi innati, senza bisogno di componenti materiali:</p><p>A volontà: individuazione del magico, nube di nebbia, luce</p><p>3/giorno ciascuno: caduta morbida, volare, passo velato, telecinesi</p><p>1/giorno ciascuno: controllare tempo atmosferico, forma gassosa</p>"
     },
     "Invisibility": {
       "name": "Invisibilità",
-      "description": "<p>Il &lt;creature&gt; è invisibile.</p>"
+      "description": "<section class=\"secret\">\n<p>Il [[lookup @name lowercase]]{mostro} diventa magicamente invisibile finché non attacca, non lancia un incantesimo o non usa Ingrandire, oppure finché la sua concentrazione non viene interrotta, fino a 1 ora (come se si concentrasse su un incantesimo).</p>\n</section>\n<p>Il [[lookup @name lowercase]]{mostro} diventa magicamente invisibile. Ogni oggetto indossato o trasportato dal [[lookup @name lowercase]]{mostro} diventa invisibile con lui.</p>"
     },
     "Invisible Passage": {
       "name": "Passaggio Invisibile",
-      "description": "<p>La &lt;creature&gt; diventa invisibile magicamente finché non attacca o lancia un incantesimo, o finché la sua concentrazione non termina (come se si concentrasse su un incantesimo). Mentre è invisibile, non lascia alcuna traccia fisica del suo passaggio, quindi è possibile seguirne le tracce solo tramite la magia. Ogni oggetto che indossa o trasporta diventa invisibile assieme a lei.</p>"
+      "description": "<section class=\"secret\">\n<p>Il [[lookup @name lowercase]]{mostro} diventa magicamente invisibile finché non attacca o non lancia un incantesimo, oppure finché la sua concentrazione non termina (come se si concentrasse su un incantesimo). Mentre è invisibile, non lascia alcuna traccia fisica del proprio passaggio, quindi può essere rintracciata soltanto tramite la magia. Ogni oggetto che indossa o trasporta diventa invisibile con lei.</p>\n</section>\n<p>Il [[lookup @name lowercase]]{mostro} diventa magicamente invisibile. Ogni oggetto che indossa o trasporta diventa invisibile con lei.</p>"
     },
     "Iron Scent": {
       "name": "Fiutare il Ferro",
@@ -442,7 +442,7 @@
     },
     "Leadership": {
       "name": "Autorità",
-      "description": "<p>Per 1 minuto, il &lt;creature&gt; può pronunciare un comando o un avvertimento speciale ogni volta che una creatura non ostile situata entro 9 metri da lui e che egli sia in grado di vedere effettua un tiro per colpire o un tiro salvezza. La creatura può aggiungere un [[/r d4]] al suo tiro, purché possa udire e capire il &lt;creature&gt;. Una creatura può beneficiare di un solo dado di Autorità alla volta. Questo effetto termina se il &lt;creature&gt; è Incapacitato.</p>"
+      "description": "<p>Per 1 minuto, il [[lookup @name lowercase]]{mostro} può pronunciare un comando o un avvertimento speciale ogni volta che una creatura non ostile che può vedere entro 9 m da lui effettua un tiro per colpire o un tiro salvezza. La creatura può aggiungere un d4 al proprio tiro, purché possa udire e comprendere il [[lookup @name lowercase]]{mostro}. Una creatura può beneficiare di un solo dado di Autorità alla volta. Questo effetto termina se il [[lookup @name lowercase]]{mostro} è incapacitato.</p>"
     },
     "Legendary Actions": {
       "name": "Azioni Leggendarie",

@@ -3,10 +3,10 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 1961,
+      "translated": 1971,
       "missing": 8,
-      "partial": 422,
-      "review": 70
+      "partial": 412,
+      "review": 69
     },
     "folders": {
       "total": 120,
@@ -19,11 +19,11 @@
       "total": 15660,
       "translated": 10213,
       "missing": 5447,
-      "invariantFailures": 347,
-      "englishResiduals": 72,
+      "invariantFailures": 308,
+      "englishResiduals": 71,
       "imperialResiduals": 0
     },
-    "blockingIssues": 5867
+    "blockingIssues": 5827
   },
   "packs": [
     {
@@ -536,10 +536,10 @@
       "summary": {
         "documents": {
           "total": 252,
-          "translated": 176,
+          "translated": 186,
           "missing": 0,
-          "partial": 76,
-          "review": 2
+          "partial": 66,
+          "review": 1
         },
         "folders": {
           "total": 0,
@@ -552,413 +552,12 @@
           "total": 515,
           "translated": 515,
           "missing": 0,
-          "invariantFailures": 307,
-          "englishResiduals": 2,
+          "invariantFailures": 268,
+          "englishResiduals": 1,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsterfeatures",
-          "id": "lwC6jwy9bXberyWo",
-          "fieldPath": "system.description.value",
-          "name": "Hold Breath",
-          "sourcePath": "monsterfeatures/hold-breath.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsterfeatures",
-          "id": "lwC6jwy9bXberyWo",
-          "fieldPath": "system.description.value",
-          "name": "Hold Breath",
-          "sourcePath": "monsterfeatures/hold-breath.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "monsterfeatures",
-          "id": "lwC6jwy9bXberyWo",
-          "fieldPath": "system.description.value",
-          "name": "Hold Breath",
-          "sourcePath": "monsterfeatures/hold-breath.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "monsterfeatures",
-          "id": "lwC6jwy9bXberyWo",
-          "fieldPath": "system.description.value",
-          "name": "Hold Breath",
-          "sourcePath": "monsterfeatures/hold-breath.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsterfeatures",
-          "id": "YShGyidij4sLpyzF",
-          "fieldPath": "system.description.value",
-          "name": "Horrific Appearance",
-          "sourcePath": "monsterfeatures/horrific-appearance.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsterfeatures",
-          "id": "YShGyidij4sLpyzF",
-          "fieldPath": "system.description.value",
-          "name": "Horrific Appearance",
-          "sourcePath": "monsterfeatures/horrific-appearance.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "monsterfeatures",
-          "id": "YShGyidij4sLpyzF",
-          "fieldPath": "system.description.value",
-          "name": "Horrific Appearance",
-          "sourcePath": "monsterfeatures/horrific-appearance.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "monsterfeatures",
-          "id": "YShGyidij4sLpyzF",
-          "fieldPath": "system.description.value",
-          "name": "Horrific Appearance",
-          "sourcePath": "monsterfeatures/horrific-appearance.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsterfeatures",
-          "id": "lBN86BToCJgkakL3",
-          "fieldPath": "system.description.value",
-          "name": "Horrifying Visage",
-          "sourcePath": "monsterfeatures/horrifying-visage.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsterfeatures",
-          "id": "lBN86BToCJgkakL3",
-          "fieldPath": "system.description.value",
-          "name": "Horrifying Visage",
-          "sourcePath": "monsterfeatures/horrifying-visage.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "monsterfeatures",
-          "id": "lBN86BToCJgkakL3",
-          "fieldPath": "system.description.value",
-          "name": "Horrifying Visage",
-          "sourcePath": "monsterfeatures/horrifying-visage.yml"
-        },
-        {
-          "code": "foundry-formulas",
-          "severity": "blocking",
-          "message": "Foundry formulas differ from source",
-          "pack": "monsterfeatures",
-          "id": "lBN86BToCJgkakL3",
-          "fieldPath": "system.description.value",
-          "name": "Horrifying Visage",
-          "sourcePath": "monsterfeatures/horrifying-visage.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "monsterfeatures",
-          "id": "lBN86BToCJgkakL3",
-          "fieldPath": "system.description.value",
-          "name": "Horrifying Visage",
-          "sourcePath": "monsterfeatures/horrifying-visage.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsterfeatures",
-          "id": "Uvy7vla2EhYSfTl0",
-          "fieldPath": "system.description.value",
-          "name": "Ignited Illumination",
-          "sourcePath": "monsterfeatures/ignited-illumination.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsterfeatures",
-          "id": "Uvy7vla2EhYSfTl0",
-          "fieldPath": "system.description.value",
-          "name": "Ignited Illumination",
-          "sourcePath": "monsterfeatures/ignited-illumination.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "monsterfeatures",
-          "id": "Uvy7vla2EhYSfTl0",
-          "fieldPath": "system.description.value",
-          "name": "Ignited Illumination",
-          "sourcePath": "monsterfeatures/ignited-illumination.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "monsterfeatures",
-          "id": "Uvy7vla2EhYSfTl0",
-          "fieldPath": "system.description.value",
-          "name": "Ignited Illumination",
-          "sourcePath": "monsterfeatures/ignited-illumination.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsterfeatures",
-          "id": "LUHmtIDD1VTreFqI",
-          "fieldPath": "system.description.value",
-          "name": "Incorporeal Movement",
-          "sourcePath": "monsterfeatures/incorporeal-movement.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsterfeatures",
-          "id": "LUHmtIDD1VTreFqI",
-          "fieldPath": "system.description.value",
-          "name": "Incorporeal Movement",
-          "sourcePath": "monsterfeatures/incorporeal-movement.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "monsterfeatures",
-          "id": "LUHmtIDD1VTreFqI",
-          "fieldPath": "system.description.value",
-          "name": "Incorporeal Movement",
-          "sourcePath": "monsterfeatures/incorporeal-movement.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "monsterfeatures",
-          "id": "LUHmtIDD1VTreFqI",
-          "fieldPath": "system.description.value",
-          "name": "Incorporeal Movement",
-          "sourcePath": "monsterfeatures/incorporeal-movement.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsterfeatures",
-          "id": "bojUXmNOZ2rJVujD",
-          "fieldPath": "system.description.value",
-          "name": "Ink Cloud",
-          "sourcePath": "monsterfeatures/ink-cloud.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsterfeatures",
-          "id": "bojUXmNOZ2rJVujD",
-          "fieldPath": "system.description.value",
-          "name": "Ink Cloud",
-          "sourcePath": "monsterfeatures/ink-cloud.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "monsterfeatures",
-          "id": "bojUXmNOZ2rJVujD",
-          "fieldPath": "system.description.value",
-          "name": "Ink Cloud",
-          "sourcePath": "monsterfeatures/ink-cloud.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "monsterfeatures",
-          "id": "bojUXmNOZ2rJVujD",
-          "fieldPath": "system.description.value",
-          "name": "Ink Cloud",
-          "sourcePath": "monsterfeatures/ink-cloud.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsterfeatures",
-          "id": "hkmTEk6klT6QL4K4",
-          "fieldPath": "system.description.value",
-          "name": "Innate Spellcasting",
-          "sourcePath": "monsterfeatures/innate-spellcasting.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsterfeatures",
-          "id": "hkmTEk6klT6QL4K4",
-          "fieldPath": "system.description.value",
-          "name": "Innate Spellcasting",
-          "sourcePath": "monsterfeatures/innate-spellcasting.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "monsterfeatures",
-          "id": "hkmTEk6klT6QL4K4",
-          "fieldPath": "system.description.value",
-          "name": "Innate Spellcasting",
-          "sourcePath": "monsterfeatures/innate-spellcasting.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "monsterfeatures",
-          "id": "hkmTEk6klT6QL4K4",
-          "fieldPath": "system.description.value",
-          "name": "Innate Spellcasting",
-          "sourcePath": "monsterfeatures/innate-spellcasting.yml"
-        },
-        {
-          "code": "english-residual",
-          "value": "La caratteristica da incantatore del &lt;creature&gt; è &lt;ABILITY&gt; (tiro salvezza degli incantesimi CD &lt;DC&gt;). Il &lt;creature&gt; può lanciare i seguenti incantesimi innati, che richiedono solo componenti verbali: &lt;Innate Spell List&gt; &nbsp;",
-          "message": "High-confidence English wording remains visible",
-          "severity": "blocking",
-          "pack": "monsterfeatures",
-          "id": "hkmTEk6klT6QL4K4",
-          "name": "Innate Spellcasting",
-          "fieldPath": "system.description.value",
-          "sourcePath": "monsterfeatures/innate-spellcasting.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsterfeatures",
-          "id": "dA5X2eQuOtHywpQF",
-          "fieldPath": "system.description.value",
-          "name": "Invisibility",
-          "sourcePath": "monsterfeatures/invisibility.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsterfeatures",
-          "id": "dA5X2eQuOtHywpQF",
-          "fieldPath": "system.description.value",
-          "name": "Invisibility",
-          "sourcePath": "monsterfeatures/invisibility.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "monsterfeatures",
-          "id": "dA5X2eQuOtHywpQF",
-          "fieldPath": "system.description.value",
-          "name": "Invisibility",
-          "sourcePath": "monsterfeatures/invisibility.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "monsterfeatures",
-          "id": "dA5X2eQuOtHywpQF",
-          "fieldPath": "system.description.value",
-          "name": "Invisibility",
-          "sourcePath": "monsterfeatures/invisibility.yml"
-        },
-        {
-          "code": "html-tag-sequence",
-          "severity": "blocking",
-          "message": "HTML tag sequence differs from source",
-          "pack": "monsterfeatures",
-          "id": "FRIASnssihfMTZ7q",
-          "fieldPath": "system.description.value",
-          "name": "Invisible Passage",
-          "sourcePath": "monsterfeatures/invisible-passage.yml"
-        },
-        {
-          "code": "html-attributes",
-          "severity": "blocking",
-          "message": "HTML attributes differ from source",
-          "pack": "monsterfeatures",
-          "id": "FRIASnssihfMTZ7q",
-          "fieldPath": "system.description.value",
-          "name": "Invisible Passage",
-          "sourcePath": "monsterfeatures/invisible-passage.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "monsterfeatures",
-          "id": "FRIASnssihfMTZ7q",
-          "fieldPath": "system.description.value",
-          "name": "Invisible Passage",
-          "sourcePath": "monsterfeatures/invisible-passage.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "monsterfeatures",
-          "id": "FRIASnssihfMTZ7q",
-          "fieldPath": "system.description.value",
-          "name": "Invisible Passage",
-          "sourcePath": "monsterfeatures/invisible-passage.yml"
-        },
-        {
-          "code": "foundry-inline-rolls",
-          "severity": "blocking",
-          "message": "Foundry inline rolls differ from source",
-          "pack": "monsterfeatures",
-          "id": "cl5sUkAIeJoAG4gh",
-          "fieldPath": "system.description.value",
-          "name": "Leadership",
-          "sourcePath": "monsterfeatures/leadership.yml"
-        },
-        {
-          "code": "foundry-data-references",
-          "severity": "blocking",
-          "message": "Foundry data references differ from source",
-          "pack": "monsterfeatures",
-          "id": "cl5sUkAIeJoAG4gh",
-          "fieldPath": "system.description.value",
-          "name": "Leadership",
-          "sourcePath": "monsterfeatures/leadership.yml"
-        },
         {
           "code": "html-tag-sequence",
           "severity": "blocking",
