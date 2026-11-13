@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2193,
+      "translated": 2194,
       "missing": 3,
-      "partial": 195,
+      "partial": 194,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14302,
-      "missing": 1358,
+      "translated": 14305,
+      "missing": 1355,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1363
+    "blockingIssues": 1360
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 158,
+          "translated": 159,
           "missing": 0,
-          "partial": 179,
+          "partial": 178,
           "review": 0
         },
         "folders": {
@@ -578,41 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6486,
-          "missing": 620,
+          "translated": 6489,
+          "missing": 617,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "4udpeEneFSZK9NTB",
-          "name": "Swarm of Spiders",
-          "fieldPath": "items[lPUiiHxFoRxG5PpL].system.description.value",
-          "sourcePath": "monsters/beast/swarm-of-spiders.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "4udpeEneFSZK9NTB",
-          "name": "Swarm of Spiders",
-          "fieldPath": "items[m9behZnwlLgq9VzL].system.description.value",
-          "sourcePath": "monsters/beast/swarm-of-spiders.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "4udpeEneFSZK9NTB",
-          "name": "Swarm of Spiders",
-          "fieldPath": "items[48KjgWw0OHpQ1t99].system.description.value",
-          "sourcePath": "monsters/beast/swarm-of-spiders.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
