@@ -113,7 +113,8 @@
       "name": "Aboleth",
       "items": {
         "5zfFkWqOMddCmxiR": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>L'aboleth effettua tre attacchi con il [[/item .sgauK8Lyt8qxsxOH]]{Tentacolo}.</p>"
         },
         "SdlkEjYNERXh1yu3": {
           "name": "Anfibio",
@@ -133,9 +134,12 @@
           },
           "effects": {
             "T8WBBooYQiv2Xf0r": {
-              "name": "Fascino dell'Aboleth"
+              "name": "Fascino dell'Aboleth",
+              "description": "<p>Sei magicamente &amp;Reference[charmed] dall'aboleth finché l'aboleth non muore o non si trova su un piano di esistenza diverso dal tuo.</p><p>Finché sei affascinato, sei sotto il controllo dell'aboleth e non puoi effettuare reazioni; inoltre, tu e l'aboleth potete comunicare telepaticamente tra voi a qualsiasi distanza. Ogni volta che subisci danni, puoi ripetere il tiro salvezza. Se lo superi, l'effetto termina. Non più di una volta ogni 24 ore, puoi ripetere il tiro salvezza anche quando ti trovi ad almeno 1,5 km dall'aboleth.</p>"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} bersaglia una creatura che sia in grado di vedere entro [[lookup @labels.description.range activity=TgxTvzC6OmS8hIUb]] da sé. Il bersaglio deve superare un tiro salvezza [[/save]], altrimenti è magicamente &amp;Reference[charmed] dal [[lookup @name lowercase]]{mostro} finché il [[lookup @name lowercase]]{mostro} non muore o non si trova su un piano di esistenza diverso da quello del bersaglio.</p><p>Il bersaglio affascinato è sotto il controllo del [[lookup @name lowercase]]{mostro} e non può effettuare reazioni; inoltre, il [[lookup @name lowercase]]{mostro} e il bersaglio possono comunicare telepaticamente tra loro a qualsiasi distanza. Ogni volta che il bersaglio affascinato subisce danni, può ripetere il tiro salvezza. Se lo supera, l'effetto termina. Non più di una volta ogni 24 ore, il bersaglio può ripetere il tiro salvezza anche quando si trova ad almeno 1,5 km dal [[lookup @name lowercase]]{mostro}.</p>",
+          "chat": "<p>Il bersaglio deve effettuare un tiro salvezza su <strong>Saggezza</strong>. Ogni volta che subisce danni, può ripetere il tiro salvezza. Non più di una volta ogni 24 ore, il bersaglio può ripetere il tiro salvezza anche quando si trova ad almeno 1,5 km dall'aboleth.</p>"
         },
         "SCTJPlV2KrhVflgI": {
           "name": "Risucchio Psichico",
@@ -146,7 +150,8 @@
             "6kCJcloSM4Ed6Zxn": {
               "name": "Recuperare Punti Ferita"
             }
-          }
+          },
+          "description": "<p>Una creatura &amp;reference[charmed apply=false] dal [[lookup @name lowercase]]{mostro} subisce [[/damage average]] danni e il [[lookup @name lowercase]]{mostro} recupera un numero di punti ferita pari ai danni subiti dalla creatura.</p>"
         },
         "dZWUNgKiLNxVg983": {
           "name": "Nube di Muco",
@@ -157,9 +162,12 @@
           },
           "effects": {
             "8M8Xtnu0pWq92Ltp": {
-              "name": "Muco dell'Aboleth"
+              "name": "Muco dell'Aboleth",
+              "description": "<p>Hai contratto una malattia trasformativa. Per le prossime 1d4 ore, puoi respirare soltanto sott'acqua. </p>"
             }
-          }
+          },
+          "description": "<p>Quando è sott'acqua, il [[lookup @name lowercase]]{mostro} è circondato da un muco trasformativo. Una creatura che tocca il [[lookup @name lowercase]]{mostro} o che lo colpisce con un attacco in mischia mentre si trova entro 1,5 m da esso deve effettuare un tiro salvezza [[/save]]. Se lo fallisce, la creatura è malata per [[/r 1d4]] ore. La creatura malata può respirare soltanto sott'acqua.</p>",
+          "chat": "<p>Quando è sott'acqua, il [[lookup @name]]{mostro} è circondato da un muco trasformativo. Una creatura che tocca il [[lookup @name]]{mostro} o che lo colpisce con un attacco in mischia mentre si trova entro 1,5 metri da esso deve effettuare un tiro salvezza su Costituzione.</p>"
         },
         "R5sQYgehDyPiDyyE": {
           "name": "Telepatia Indagatrice",
@@ -174,10 +182,12 @@
           "name": "Tentacolo",
           "effects": {
             "cU3HiVs5J1jRVw1U": {
-              "name": "Malattia Abolethica"
+              "name": "Malattia Abolethica",
+              "description": "<p>Sei malato. La malattia non produce effetti per 1 minuto e può essere rimossa da qualsiasi magia in grado di curare le malattie. Dopo 1 minuto, la tua pelle diventa traslucida e viscida e non puoi recuperare punti ferita a meno che non ti trovi sott'acqua.</p><p>La malattia può essere rimossa soltanto da @UUID[Compendium.dnd5e.spells.Item.qcYitWoSMTnKkzM1]{Guarigione} o da un altro incantesimo di 6° livello o superiore in grado di curare le malattie. Quando ti trovi fuori da uno specchio d'acqua, subisci [[/damage 1d12 acid average]] danni ogni «danno» minuti, a meno che non venga applicata dell'acqua sulla tua pelle prima che siano trascorsi 10 minuti.</p>"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Se il bersaglio è una creatura, deve effettuare un tiro salvezza su Costituzione.</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Se il bersaglio è una creatura, deve effettuare un tiro salvezza su Costituzione.</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio è una creatura, deve superare un tiro salvezza [[/save]], altrimenti si ammala. La malattia non produce effetti per 1 minuto e può essere rimossa da qualsiasi magia in grado di curare le malattie. Dopo 1 minuto, la pelle della creatura malata diventa traslucida e viscida, la creatura non può recuperare punti ferita a meno che non si trovi sott'acqua e la malattia può essere rimossa soltanto da @UUID[Compendium.dnd5e.spells.Item.qcYitWoSMTnKkzM1]{Guarigione} o da un altro incantesimo di 6° livello o superiore in grado di curare le malattie. Quando la creatura si trova fuori da uno specchio d'acqua, subisce [[/damage average 1d12 acid]] danni ogni 10 minuti, a meno che non venga applicata dell'acqua sulla sua pelle prima che siano trascorsi 10 minuti.</p>"
         },
         "nb2rVHLawik6EjMJ": {
           "name": "Spazzata di Coda",
@@ -186,7 +196,8 @@
               "name": "Colpo di Coda"
             }
           },
-          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua un attacco con [[/item .FwOZEwx7MPDq8Igu]]{Coda}.</p>"
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua un attacco con [[/item .FwOZEwx7MPDq8Igu]]{Coda}.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} sferza la preda con la propria coda!</p>"
         },
         "FwOZEwx7MPDq8Igu": {
           "name": "Coda",

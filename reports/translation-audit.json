@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2123,
+      "translated": 2124,
       "missing": 3,
-      "partial": 265,
+      "partial": 264,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14009,
-      "missing": 1651,
+      "translated": 14020,
+      "missing": 1640,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1656
+    "blockingIssues": 1645
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 88,
+          "translated": 89,
           "missing": 0,
-          "partial": 249,
+          "partial": 248,
           "review": 0
         },
         "folders": {
@@ -578,113 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6193,
-          "missing": 913,
+          "translated": 6204,
+          "missing": 902,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "shhHtE7b92PefCWB",
-          "name": "Aboleth",
-          "fieldPath": "items[Wpa7li8EJJJ7W3kA].system.description.value",
-          "sourcePath": "monsters/aberration/aboleth.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "shhHtE7b92PefCWB",
-          "name": "Aboleth",
-          "fieldPath": "items[Wpa7li8EJJJ7W3kA].system.description.chat",
-          "sourcePath": "monsters/aberration/aboleth.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "shhHtE7b92PefCWB",
-          "name": "Aboleth",
-          "fieldPath": "items[Wpa7li8EJJJ7W3kA].effects[T8WBBooYQiv2Xf0r].description",
-          "sourcePath": "monsters/aberration/aboleth.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "shhHtE7b92PefCWB",
-          "name": "Aboleth",
-          "fieldPath": "items[nb2rVHLawik6EjMJ].system.description.chat",
-          "sourcePath": "monsters/aberration/aboleth.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "shhHtE7b92PefCWB",
-          "name": "Aboleth",
-          "fieldPath": "items[SCTJPlV2KrhVflgI].system.description.value",
-          "sourcePath": "monsters/aberration/aboleth.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "shhHtE7b92PefCWB",
-          "name": "Aboleth",
-          "fieldPath": "items[dZWUNgKiLNxVg983].system.description.value",
-          "sourcePath": "monsters/aberration/aboleth.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "shhHtE7b92PefCWB",
-          "name": "Aboleth",
-          "fieldPath": "items[dZWUNgKiLNxVg983].system.description.chat",
-          "sourcePath": "monsters/aberration/aboleth.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "shhHtE7b92PefCWB",
-          "name": "Aboleth",
-          "fieldPath": "items[dZWUNgKiLNxVg983].effects[8M8Xtnu0pWq92Ltp].description",
-          "sourcePath": "monsters/aberration/aboleth.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "shhHtE7b92PefCWB",
-          "name": "Aboleth",
-          "fieldPath": "items[sgauK8Lyt8qxsxOH].system.description.value",
-          "sourcePath": "monsters/aberration/aboleth.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "shhHtE7b92PefCWB",
-          "name": "Aboleth",
-          "fieldPath": "items[sgauK8Lyt8qxsxOH].effects[cU3HiVs5J1jRVw1U].description",
-          "sourcePath": "monsters/aberration/aboleth.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "shhHtE7b92PefCWB",
-          "name": "Aboleth",
-          "fieldPath": "items[5zfFkWqOMddCmxiR].system.description.value",
-          "sourcePath": "monsters/aberration/aboleth.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
