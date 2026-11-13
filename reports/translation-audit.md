@@ -9,7 +9,7 @@
 | heroes | 12 | 12 | 0 | 0 | 0 | 0 | 0 |
 | items | 885 | 885 | 0 | 0 | 0 | 0 | 48 |
 | monsterfeatures | 252 | 252 | 0 | 0 | 0 | 0 | 0 |
-| monsters | 337 | 96 | 0 | 241 | 0 | 832 | 832 |
+| monsters | 337 | 97 | 0 | 240 | 0 | 823 | 823 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
 | rules | 20 | 1 | 3 | 16 | 0 | 738 | 695 |
 | spells | 320 | 320 | 0 | 0 | 0 | 0 | 0 |
@@ -17,7 +17,7 @@
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 1575
+Total blocking issues: 1566
 
 ## Issues
 
@@ -362,15 +362,6 @@ Total blocking issues: 1575
 - **missing-field** `monsters:LTomFUTBrkRi0Pj5:items[gb5HcbKlmYUvLAsk].system.description.value`
 - **missing-field** `monsters:LTomFUTBrkRi0Pj5:items[gWEMjYhRVIEnKbZH].system.description.value`
 - **missing-field** `monsters:LTomFUTBrkRi0Pj5:items[2NzoIyouATBfPgdc].system.description.value`
-- **missing-field** `monsters:8SMQl75HLjhuSeau:items[yud1cnEVQ9KxbmWc].system.description.value`
-- **missing-field** `monsters:8SMQl75HLjhuSeau:items[yud1cnEVQ9KxbmWc].system.description.chat`
-- **missing-field** `monsters:8SMQl75HLjhuSeau:items[yud1cnEVQ9KxbmWc].effects[PoqGwdVp6MQTpIOh].description`
-- **missing-field** `monsters:8SMQl75HLjhuSeau:items[iQt3J3ZnHDoeaEIR].system.description.value`
-- **missing-field** `monsters:8SMQl75HLjhuSeau:items[AW3qP6nJk45lOHe3].system.description.value`
-- **missing-field** `monsters:8SMQl75HLjhuSeau:items[PRiFJLZbvIt2nkTk].system.description.value`
-- **missing-field** `monsters:8SMQl75HLjhuSeau:items[fdt2FIirmBRCpRBm].system.description.value`
-- **missing-field** `monsters:8SMQl75HLjhuSeau:items[fdt2FIirmBRCpRBm].system.description.chat`
-- **missing-field** `monsters:8SMQl75HLjhuSeau:items[fdt2FIirmBRCpRBm].system.activities.dFEUCLc4Cmb2DETC.description.value`
 - **missing-field** `monsters:0m8QyDN52qw9zzOM:items[sXPmgYwYgosoytUu].system.description.value`
 - **missing-field** `monsters:0m8QyDN52qw9zzOM:items[yczO5JpGxAk51Gp8].system.description.value`
 - **missing-field** `monsters:ESEm3fGUfSKjzVUc:items[D4cqlN9pDyQwRvWP].system.description.value`

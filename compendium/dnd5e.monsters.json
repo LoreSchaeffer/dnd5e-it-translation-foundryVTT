@@ -6707,7 +6707,8 @@
           "name": "Forma di Fuoco",
           "effects": {
             "PoqGwdVp6MQTpIOh": {
-              "name": "Forma di Fuoco"
+              "name": "Forma di Fuoco",
+              "description": "<p>Puoi attraversare uno spazio largo appena 2,5 cm senza &amp;reference[squeezing]{stringerti}.</p><p>Inoltre, puoi entrare nello spazio di una creatura ostile e fermarti al suo interno.</p>"
             },
             "JaPKJu7WX0QierHn": {
               "name": "Incendiato",
@@ -6721,10 +6722,13 @@
             "rFzeGndbzECvRuv8": {
               "name": "Incendiare Creatura"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} può attraversare uno spazio largo appena 2,5 cm senza &amp;reference[squeezing]{stringersi}. Una creatura che tocca il [[lookup @name lowercase]]{mostro} o lo colpisce con un attacco in mischia mentre si trova entro [[lookup @labels.description.range activity=3xh7g2u2KGcjZSe4]] da esso subisce [[/damage average]] danni.</p><p>Inoltre, il [[lookup @name lowercase]]{mostro} può entrare nello spazio di una creatura ostile e fermarsi al suo interno. La prima volta in un turno in cui entra nello spazio di una creatura, quella creatura subisce [[/damage average]] danni e prende fuoco; finché qualcuno non effettua un'azione per spegnere il fuoco, la creatura subisce [[/damage average]] danni all'inizio di ciascuno dei propri turni.</p>",
+          "chat": "<p>Una creatura che tocca il [[lookup @name]]{mostro} o lo colpisce con un attacco in mischia mentre si trova entro [[lookup @labels.description.range activity=3xh7g2u2KGcjZSe4]] da esso subisce danni da fuoco. Inoltre, il [[lookup @name]]{mostro} può entrare nello spazio di una creatura ostile e fermarsi al suo interno. La prima volta in un turno in cui entra nello spazio di una creatura, quella creatura subisce danni da fuoco e prende fuoco; finché qualcuno non effettua un'azione per spegnere il fuoco, la creatura subisce danni da fuoco all'inizio di ciascuno dei propri turni.</p>"
         },
         "iQt3J3ZnHDoeaEIR": {
-          "name": "Illuminazione"
+          "name": "Illuminazione",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} proietta &amp;reference[bright light] entro un raggio di 9 metri e &amp;reference[dim light] per ulteriori 9 metri.</p>"
         },
         "AW3qP6nJk45lOHe3": {
           "name": "Suscettibilità all'Acqua",
@@ -6732,16 +6736,21 @@
             "xWcWWthJeUTVe8o4": {
               "name": "Acqua per Spegnere"
             }
-          }
+          },
+          "description": "<p>Per ogni 1,5 metri di cui il [[lookup @name lowercase]]{mostro} si muove nell'acqua, o per ogni 4 litri d'acqua versati su di esso, subisce [[/damage]] danni.</p>"
         },
         "PRiFJLZbvIt2nkTk": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>L'elementale effettua due attacchi con [[/item .fdt2FIirmBRCpRBm]]{Tocco}.</p>"
         },
         "fdt2FIirmBRCpRBm": {
           "name": "Tocco",
           "activities": {
             "dFEUCLc4Cmb2DETC": {
-              "name": "Danni da Bruciatura a Inizio Turno"
+              "name": "Danni da Bruciatura a Inizio Turno",
+              "description": {
+                "value": "<p>Finché una creatura non effettua un'azione per spegnere il fuoco, il bersaglio subisce [[/damage activity=dFEUCLc4Cmb2DETC average]] danni all'inizio di ciascuno dei propri turni.</p>"
+              }
             }
           },
           "effects": {
@@ -6749,7 +6758,9 @@
               "name": "Incendiato",
               "description": "<p>Sei in fiamme. Finché qualcuno non usa un'azione per spegnere il fuoco, subisci [[/damage average 1d10 fire]] danni all'inizio di ciascun tuo turno.</p>"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio è una creatura o un oggetto infiammabile, prende fuoco. Finché una creatura non effettua un'azione per spegnere il fuoco, il bersaglio subisce [[/damage activity=dFEUCLc4Cmb2DETC average]] danni all'inizio di ciascuno dei propri turni.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Se il bersaglio è una creatura o un oggetto infiammabile, prende fuoco. Finché una creatura non effettua un'azione per spegnere il fuoco, il bersaglio subisce <em>danni da fuoco</em> all'inizio di ciascuno dei propri turni.</p>"
         }
       },
       "details": {
