@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2299,
+      "translated": 2300,
       "missing": 3,
-      "partial": 89,
+      "partial": 88,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14664,
-      "missing": 996,
+      "translated": 14667,
+      "missing": 993,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1001
+    "blockingIssues": 998
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 264,
+          "translated": 265,
           "missing": 0,
-          "partial": 73,
+          "partial": 72,
           "review": 0
         },
         "folders": {
@@ -578,41 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6848,
-          "missing": 258,
+          "translated": 6851,
+          "missing": 255,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "tYfQIxCJT0WaaKmc",
-          "name": "Cult Fanatic",
-          "fieldPath": "items[lSteE7vBmM70Jy3Z].system.description.value",
-          "sourcePath": "monsters/humanoid/cult-fanatic.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "tYfQIxCJT0WaaKmc",
-          "name": "Cult Fanatic",
-          "fieldPath": "items[KRbUbk5AkQOabBhO].system.description.value",
-          "sourcePath": "monsters/humanoid/cult-fanatic.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "tYfQIxCJT0WaaKmc",
-          "name": "Cult Fanatic",
-          "fieldPath": "items[KRbUbk5AkQOabBhO].system.description.chat",
-          "sourcePath": "monsters/humanoid/cult-fanatic.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
