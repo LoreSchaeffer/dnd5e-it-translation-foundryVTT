@@ -10846,7 +10846,8 @@
       "name": "Marilith",
       "items": {
         "nEKlIbUhhx9akBjK": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} può effettuare sette attacchi: sei con le sue [[/item .VzPNwzlwJ7knJ9MC]]{spade lunghe} e uno con la sua [[/item .BoIambnHLbZXr85T]]{coda}.</p>"
         },
         "VzPNwzlwJ7knJ9MC": {
           "name": "Spada Lunga",
@@ -10860,7 +10861,8 @@
               "name": "Teletrasporto"
             }
           },
-          "description": "<p>La [[lookup @name lowercase]]{monster} si teletrasporta magicamente, assieme a ogni oggetto che indossa o trasporta, in uno spazio libero situato entro 12 metri da lei e che essa sia in grado di vedere.</p>"
+          "description": "<p>La [[lookup @name lowercase]]{monster} si teletrasporta magicamente, assieme a ogni oggetto che indossa o trasporta, in uno spazio libero situato entro 12 metri da lei e che essa sia in grado di vedere.</p>",
+          "chat": "<section class=\"secret\"><p></p></section><p>La marilith si teletrasporta magicamente, assieme a qualsiasi equipaggiamento indossi o trasporti, fino a 36 metri in uno spazio libero che possa vedere.</p>"
         },
         "lS2o3QOZ2lxKyi0L": {
           "name": "Parata",
@@ -10869,7 +10871,8 @@
               "name": "Parare l'Attacco"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} aggiunge 5 alla propria CA contro un attacco in mischia che altrimenti lo colpirebbe.</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} aggiunge 5 alla propria CA contro un attacco in mischia che altrimenti lo colpirebbe.</p>",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} aggiunge 5 alla propria CA contro un attacco in mischia che lo colpirebbe. Per farlo, il [[lookup @name lowercase]]{mostro} deve vedere l'attaccante e impugnare un'arma da mischia.</p>"
         },
         "bbSTKf4I6P8WpLkz": {
           "name": "Armi Magiche",
@@ -10884,7 +10887,9 @@
           "description": "<p>Il [[lookup @name lowercase]]{mostro} può effettuare una reazione in ogni turno di combattimento.</p>"
         },
         "BoIambnHLbZXr85T": {
-          "name": "Coda"
+          "name": "Coda",
+          "description": "<p>[[/attack extended]]. [[/damage extended]]. </p><p>Se il bersaglio è di taglia Media o inferiore, è afferrato (CD 19 per sfuggire). Finché questa lotta non termina, il bersaglio è trattenuto, la marilith può colpire automaticamente il bersaglio con la coda e la marilith non può effettuare attacchi con la coda contro altri bersagli.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con la sua [[lookup @item.name]]. Se il bersaglio è di taglia Media o inferiore, viene &amp;referemce[grappled]. Finché questa lotta non termina, il bersaglio è &amp;reference[restrained], il [[lookup @name]]{mostro} può colpire automaticamente il bersaglio con la coda e il [[lookup @name]]{mostro} non può effettuare attacchi con la [[lookup @item.name lowercase]] contro altri bersagli.</p>"
         }
       },
       "details": {

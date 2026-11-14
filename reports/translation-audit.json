@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2279,
+      "translated": 2280,
       "missing": 3,
-      "partial": 109,
+      "partial": 108,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14588,
-      "missing": 1072,
+      "translated": 14593,
+      "missing": 1067,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1077
+    "blockingIssues": 1072
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 244,
+          "translated": 245,
           "missing": 0,
-          "partial": 93,
+          "partial": 92,
           "review": 0
         },
         "folders": {
@@ -578,59 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6772,
-          "missing": 334,
+          "translated": 6777,
+          "missing": 329,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "egsSDYbqoLCelb0J",
-          "name": "Marilith",
-          "fieldPath": "items[nEKlIbUhhx9akBjK].system.description.value",
-          "sourcePath": "monsters/fiend/marilith.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "egsSDYbqoLCelb0J",
-          "name": "Marilith",
-          "fieldPath": "items[BoIambnHLbZXr85T].system.description.value",
-          "sourcePath": "monsters/fiend/marilith.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "egsSDYbqoLCelb0J",
-          "name": "Marilith",
-          "fieldPath": "items[BoIambnHLbZXr85T].system.description.chat",
-          "sourcePath": "monsters/fiend/marilith.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "egsSDYbqoLCelb0J",
-          "name": "Marilith",
-          "fieldPath": "items[EMJe4NIzUdNIQj9S].system.description.chat",
-          "sourcePath": "monsters/fiend/marilith.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "egsSDYbqoLCelb0J",
-          "name": "Marilith",
-          "fieldPath": "items[lS2o3QOZ2lxKyi0L].system.description.value",
-          "sourcePath": "monsters/fiend/marilith.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
