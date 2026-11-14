@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2376,
+      "translated": 2377,
       "missing": 3,
-      "partial": 12,
+      "partial": 11,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14951,
-      "missing": 709,
+      "translated": 14954,
+      "missing": 706,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 714
+    "blockingIssues": 711
   },
   "packs": [
     {
@@ -620,9 +620,9 @@
       "summary": {
         "documents": {
           "total": 20,
-          "translated": 5,
+          "translated": 6,
           "missing": 3,
-          "partial": 12,
+          "partial": 11,
           "review": 1
         },
         "folders": {
@@ -634,41 +634,14 @@
         },
         "fields": {
           "total": 877,
-          "translated": 168,
-          "missing": 709,
+          "translated": 171,
+          "missing": 706,
           "invariantFailures": 0,
           "englishResiduals": 3,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "udVPA9JW5wy5t3G5",
-          "name": "Appendix B: Gods and the Multiverse",
-          "fieldPath": "pages[2lysbY50fgv1R3v7].name",
-          "sourcePath": "rules/appendix-b-gods-and-the-multiverse.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "udVPA9JW5wy5t3G5",
-          "name": "Appendix B: Gods and the Multiverse",
-          "fieldPath": "pages[2lysbY50fgv1R3v7].text.content",
-          "sourcePath": "rules/appendix-b-gods-and-the-multiverse.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "udVPA9JW5wy5t3G5",
-          "name": "Appendix B: Gods and the Multiverse",
-          "fieldPath": "pages[RZ8IAnSAPtfL2jvL].text.content",
-          "sourcePath": "rules/appendix-b-gods-and-the-multiverse.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
