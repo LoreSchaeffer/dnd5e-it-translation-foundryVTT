@@ -12355,16 +12355,20 @@
               "description": "<p>Ti sei trasformato nella tua vera forma, che è umanoide.</p>"
             },
             "pxfLK99CLDftSacp": {
-              "name": "Forma Ibrida"
+              "name": "Forma Ibrida",
+              "description": "<p>Ti sei trasformato nella tua forma ibrida, che è un ibrido orso-umanoide.</p>"
             },
             "eKaJxSA4EyQcGqsF": {
-              "name": "Forma di Orso"
+              "name": "Forma di Orso",
+              "description": "<p>Ti sei trasformato nella tua forma di orso.</p>"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} può usare la propria azione per trasformarsi o tornare alla sua vera forma.</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} può usare la propria azione per trasformarsi o tornare alla sua vera forma.</p>",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} può usare la propria azione per trasformarsi in un ibrido orso-umanoide di taglia Grande o in un orso di taglia Grande, oppure per tornare alla sua vera forma, che è umanoide.</p><p>Le sue statistiche, a eccezione della taglia e della CA, sono le stesse in ogni forma. Qualsiasi equipaggiamento che indossa o trasporta non viene trasformato. Se muore, torna alla sua vera forma.</p>"
         },
         "COcc6eoG6ScS4wGz": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>In forma di orso, il [[lookup @name lowercase]]{mostro} effettua due attacchi con gli [[/item .pEYcOjAF2fovrXRP]]{artigli}. In forma umanoide, effettua due attacchi con l'[[/item .UeXfHUO5RZp72PIs]]{ascia bipenne}. In forma ibrida, può attaccare come un orso o un umanoide.</p>"
         },
         "rzLcynHQQj04Ue4B": {
           "name": "Olfatto Acuto",
@@ -12382,7 +12386,8 @@
           },
           "effects": {
             "uzAKSq5gVCKvQgq9": {
-              "name": "Licantropia dell'Orso Mannaro"
+              "name": "Licantropia dell'Orso Mannaro",
+              "description": "<p>Sei stato maledetto dalla licantropia dell'orso mannaro.</p>"
             }
           },
           "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio Morso. Se il bersaglio è un umanoide, deve effettuare un tiro salvezza su Costituzione.</p>",
@@ -12395,7 +12400,8 @@
         },
         "UeXfHUO5RZp72PIs": {
           "name": "Ascia Bipenne (Solo in Forma Umanoide o Ibrida)",
-          "description": "<p>[[/attack extended]]. [[/damage extended]].</p>"
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con la sua ascia bipenne.</p>"
         }
       },
       "details": {

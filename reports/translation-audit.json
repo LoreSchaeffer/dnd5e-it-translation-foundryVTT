@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2317,
+      "translated": 2318,
       "missing": 3,
-      "partial": 71,
+      "partial": 70,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14719,
-      "missing": 941,
+      "translated": 14725,
+      "missing": 935,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 946
+    "blockingIssues": 940
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 282,
+          "translated": 283,
           "missing": 0,
-          "partial": 55,
+          "partial": 54,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6903,
-          "missing": 203,
+          "translated": 6909,
+          "missing": 197,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -594,60 +594,6 @@
           "name": "Lizardfolk",
           "fieldPath": "items[s88qLjZemkFRnB8Y].system.description.value",
           "sourcePath": "monsters/humanoid/lizardfolk.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "oRBnO5OHoOZzlCOr",
-          "name": "Werebear",
-          "fieldPath": "items[D8QWBbYLFAT7uIiz].system.description.value",
-          "sourcePath": "monsters/humanoid/werebear.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "oRBnO5OHoOZzlCOr",
-          "name": "Werebear",
-          "fieldPath": "items[D8QWBbYLFAT7uIiz].effects[pxfLK99CLDftSacp].description",
-          "sourcePath": "monsters/humanoid/werebear.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "oRBnO5OHoOZzlCOr",
-          "name": "Werebear",
-          "fieldPath": "items[D8QWBbYLFAT7uIiz].effects[eKaJxSA4EyQcGqsF].description",
-          "sourcePath": "monsters/humanoid/werebear.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "oRBnO5OHoOZzlCOr",
-          "name": "Werebear",
-          "fieldPath": "items[COcc6eoG6ScS4wGz].system.description.value",
-          "sourcePath": "monsters/humanoid/werebear.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "oRBnO5OHoOZzlCOr",
-          "name": "Werebear",
-          "fieldPath": "items[h9XO0f5Un3EhJqHm].effects[uzAKSq5gVCKvQgq9].description",
-          "sourcePath": "monsters/humanoid/werebear.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "oRBnO5OHoOZzlCOr",
-          "name": "Werebear",
-          "fieldPath": "items[UeXfHUO5RZp72PIs].system.description.chat",
-          "sourcePath": "monsters/humanoid/werebear.yml"
         },
         {
           "code": "missing-field",
