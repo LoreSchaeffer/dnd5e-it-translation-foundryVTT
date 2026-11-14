@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2309,
+      "translated": 2310,
       "missing": 3,
-      "partial": 79,
+      "partial": 78,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14698,
-      "missing": 962,
+      "translated": 14700,
+      "missing": 960,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 967
+    "blockingIssues": 965
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 274,
+          "translated": 275,
           "missing": 0,
-          "partial": 63,
+          "partial": 62,
           "review": 0
         },
         "folders": {
@@ -578,32 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6882,
-          "missing": 224,
+          "translated": 6884,
+          "missing": 222,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "6qnT52lZtZblgGw8",
-          "name": "Hobgoblin",
-          "fieldPath": "items[Y73kGtiKbGevpBCo].system.description.value",
-          "sourcePath": "monsters/humanoid/hobgoblin.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "6qnT52lZtZblgGw8",
-          "name": "Hobgoblin",
-          "fieldPath": "items[Y73kGtiKbGevpBCo].system.description.chat",
-          "sourcePath": "monsters/humanoid/hobgoblin.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
