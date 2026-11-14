@@ -1,0 +1,13 @@
+{
+  "monsters": {
+    "8KSVpQZyzius93ko": {
+      "items[RAnyTfj3CGaiGK3W].system.description.value": "<p>Come azione bonus, il [[lookup @name lowercase]]{mostro} può prendere di mira una creatura che vede entro 1,5 metri da sé, che ha 0 punti ferita ma è ancora viva.</p><p>Il bersaglio deve superare un [[/save]] tiro salvezza contro questa magia o morire. Se il bersaglio muore, il [[lookup @name lowercase]]{mostro} recupera [[/healing average]] punti ferita.</p>",
+      "items[RAnyTfj3CGaiGK3W].system.description.chat": "<p>Il fuoco fatuo può prendere di mira una creatura che vede entro <strong>1,5 m</strong>. Il bersaglio deve superare un tiro salvezza di Costituzione.</p>",
+      "items[3Sr6MrVgbTGw66Aa].system.description.value": "<p>Il [[lookup @name lowercase]]{mostro} emana &amp;reference[bright light] entro un raggio da 1,5 a 6 metri e &amp;reference[dim light] per un'ulteriore distanza pari al raggio scelto. Il [[lookup @name lowercase]]{mostro} può modificare il raggio con un'azione bonus.</p>",
+      "items[3Sr6MrVgbTGw66Aa].effects[IMQTnGRIwwkAwn6T].description": "<p>Emani una quantità variabile di &amp;reference[bright light] e &amp;reference[dim light].</p>",
+      "items[vJR81iEOZYNMuAdz].system.description.value": "<p>Il [[lookup @name lowercase]]{mostro} e la sua luce diventano magicamente &amp;reference[invisible] finché non attacca o usa @UUID[Compendium.dnd5e.monsters.Actor.8KSVpQZyzius93ko.Item.RAnyTfj3CGaiGK3W]{Consuma vita}, oppure finché la sua concentrazione non termina (come se si stesse concentrando su un incantesimo).</p>",
+      "items[vJR81iEOZYNMuAdz].system.description.chat": "<p>Il fuoco fatuo e la sua luce diventano magicamente invisibili.</p>",
+      "items[vJR81iEOZYNMuAdz].effects[oKYNXo2rUnsBE5cB].description": "<p>Tu e la tua luce diventate &amp;reference[invisible apply=false] finché non attacchi, usi @UUID[Compendium.dnd5e.monsters.Actor.8KSVpQZyzius93ko.Item.RAnyTfj3CGaiGK3W]{Consuma vita}, oppure finché la tua concentrazione non termina (come se ti stessi concentrando su un incantesimo).</p>"
+    }
+  }
+}

@@ -7748,7 +7748,9 @@
             "quvwx7Q5NsmXvFPL": {
               "name": "Risucchiare Vita"
             }
-          }
+          },
+          "description": "<p>Come azione bonus, il [[lookup @name lowercase]]{mostro} può prendere di mira una creatura che vede entro 1,5 metri da sé, che ha 0 punti ferita ma è ancora viva.</p><p>Il bersaglio deve superare un [[/save]] tiro salvezza contro questa magia o morire. Se il bersaglio muore, il [[lookup @name lowercase]]{mostro} recupera [[/healing average]] punti ferita.</p>",
+          "chat": "<p>Il fuoco fatuo può prendere di mira una creatura che vede entro <strong>1,5 m</strong>. Il bersaglio deve superare un tiro salvezza di Costituzione.</p>"
         },
         "4wbSkOyE4ZqKLPQ6": {
           "name": "Effimero",
@@ -7758,14 +7760,17 @@
           "name": "Invisibilità",
           "effects": {
             "oKYNXo2rUnsBE5cB": {
-              "name": "Invisibile"
+              "name": "Invisibile",
+              "description": "<p>Tu e la tua luce diventate &amp;reference[invisible apply=false] finché non attacchi, usi @UUID[Compendium.dnd5e.monsters.Actor.8KSVpQZyzius93ko.Item.RAnyTfj3CGaiGK3W]{Consuma vita}, oppure finché la tua concentrazione non termina (come se ti stessi concentrando su un incantesimo).</p>"
             }
           },
           "activities": {
             "dnd5eactivity000": {
               "name": "Diventa Invisibile"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} e la sua luce diventano magicamente &amp;reference[invisible] finché non attacca o usa @UUID[Compendium.dnd5e.monsters.Actor.8KSVpQZyzius93ko.Item.RAnyTfj3CGaiGK3W]{Consuma vita}, oppure finché la sua concentrazione non termina (come se si stesse concentrando su un incantesimo).</p>",
+          "chat": "<p>Il fuoco fatuo e la sua luce diventano magicamente invisibili.</p>"
         },
         "zgpJXJnt1PbGXf6u": {
           "name": "Movimento Incorporeo",
@@ -7787,7 +7792,8 @@
           "name": "Illuminazione Variabile",
           "effects": {
             "IMQTnGRIwwkAwn6T": {
-              "name": "Illuminazione Variabile"
+              "name": "Illuminazione Variabile",
+              "description": "<p>Emani una quantità variabile di &amp;reference[bright light] e &amp;reference[dim light].</p>"
             },
             "jJ8JBNbwQAA7NQTH": {
               "name": "Illuminazione: 1,5 Metri",
@@ -7826,7 +7832,8 @@
             "GOxCtC3OE9qlrlyn": {
               "name": "Alterare Illuminazione"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} emana &amp;reference[bright light] entro un raggio da 1,5 a 6 metri e &amp;reference[dim light] per un'ulteriore distanza pari al raggio scelto. Il [[lookup @name lowercase]]{mostro} può modificare il raggio con un'azione bonus.</p>"
         },
         "np6oHDOwHQFsSn5B": {
           "name": "Scarica",
