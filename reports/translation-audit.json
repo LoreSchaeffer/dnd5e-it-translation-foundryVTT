@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2368,
+      "translated": 2369,
       "missing": 3,
-      "partial": 20,
+      "partial": 19,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14906,
-      "missing": 754,
+      "translated": 14911,
+      "missing": 749,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 759
+    "blockingIssues": 754
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 333,
+          "translated": 334,
           "missing": 0,
-          "partial": 4,
+          "partial": 3,
           "review": 0
         },
         "folders": {
@@ -578,59 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 7090,
-          "missing": 16,
+          "translated": 7095,
+          "missing": 11,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "zpaZb7I8alY32vWV",
-          "name": "Vampire Spawn",
-          "fieldPath": "items[HebvJc2NqYvdR79s].system.description.value",
-          "sourcePath": "monsters/undead/vampire-spawn.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "zpaZb7I8alY32vWV",
-          "name": "Vampire Spawn",
-          "fieldPath": "items[DY9MW3aTF5T5zhpo].system.description.value",
-          "sourcePath": "monsters/undead/vampire-spawn.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "zpaZb7I8alY32vWV",
-          "name": "Vampire Spawn",
-          "fieldPath": "items[Q9tHfkUiN6f1sguc].system.description.value",
-          "sourcePath": "monsters/undead/vampire-spawn.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "zpaZb7I8alY32vWV",
-          "name": "Vampire Spawn",
-          "fieldPath": "items[wzRyhY2I1U0ytB7D].system.description.value",
-          "sourcePath": "monsters/undead/vampire-spawn.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "zpaZb7I8alY32vWV",
-          "name": "Vampire Spawn",
-          "fieldPath": "items[lLAigtCvoIuj0TM9].system.description.value",
-          "sourcePath": "monsters/undead/vampire-spawn.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
