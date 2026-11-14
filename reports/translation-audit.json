@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2203,
+      "translated": 2204,
       "missing": 3,
-      "partial": 185,
+      "partial": 184,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14337,
-      "missing": 1323,
+      "translated": 14340,
+      "missing": 1320,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1328
+    "blockingIssues": 1325
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 168,
+          "translated": 169,
           "missing": 0,
-          "partial": 169,
+          "partial": 168,
           "review": 0
         },
         "folders": {
@@ -578,41 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6521,
-          "missing": 585,
+          "translated": 6524,
+          "missing": 582,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ZQTCZfTV9ZoTjNCU",
-          "name": "Homunculus",
-          "fieldPath": "items[1uXv78I9YByiz6rV].system.description.value",
-          "sourcePath": "monsters/construct/homunculus.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ZQTCZfTV9ZoTjNCU",
-          "name": "Homunculus",
-          "fieldPath": "items[1uXv78I9YByiz6rV].effects[PIAt10vJQExkwFbD].description",
-          "sourcePath": "monsters/construct/homunculus.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ZQTCZfTV9ZoTjNCU",
-          "name": "Homunculus",
-          "fieldPath": "items[1uXv78I9YByiz6rV].effects[l635qlEf6ays6UwQ].description",
-          "sourcePath": "monsters/construct/homunculus.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",

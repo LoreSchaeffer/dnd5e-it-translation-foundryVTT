@@ -11760,10 +11760,12 @@
           "name": "Morso",
           "effects": {
             "PIAt10vJQExkwFbD": {
-              "name": "Avvelenato"
+              "name": "Avvelenato",
+              "description": "<p>Sei &amp;reference[poisoned apply=false] per 1 minuto.</p>"
             },
             "l635qlEf6ays6UwQ": {
-              "name": "Avvelenato e Privo di Sensi"
+              "name": "Avvelenato e Privo di Sensi",
+              "description": "<p>Sei &amp;reference[poisoned apply=false] per 1 minuto. Finché sei avvelenato in questo modo, sei &amp;reference[unconscious apply=false].</p>"
             }
           },
           "activities": {
@@ -11771,7 +11773,8 @@
               "name": "Tiro Salvezza contro il Veleno"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio deve effettuare un tiro salvezza su Costituzione.</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio deve effettuare un tiro salvezza su Costituzione.</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il bersaglio deve superare un tiro salvezza [[/save]] o essere &amp;Reference[poisoned] per [[lookup @labels.duration activity=aNFKGc5wFnOQijNd]]. Se il tiro salvezza fallisce di 5 o più, il bersaglio è invece avvelenato per 5 ([[/r 1d10]]) minuti ed è &amp;Reference[unconscious] finché è avvelenato in questo modo.</p>"
         },
         "5bFYYcQnfN1KtOwr": {
           "description": "<p>Finché l'[[lookup @name lowercase]]{monster} si trova sullo stesso piano di esistenza del suo padrone, può trasmettere magicamente ciò che percepisce al suo padrone e i due possono comunicare telepaticamente.</p>",
