@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2293,
+      "translated": 2294,
       "missing": 3,
-      "partial": 95,
+      "partial": 94,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14647,
-      "missing": 1013,
+      "translated": 14651,
+      "missing": 1009,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1018
+    "blockingIssues": 1014
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 258,
+          "translated": 259,
           "missing": 0,
-          "partial": 79,
+          "partial": 78,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6831,
-          "missing": 275,
+          "translated": 6835,
+          "missing": 271,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -1278,42 +1278,6 @@
           "name": "Werewolf",
           "fieldPath": "items[2kHNI1T4gg879fDv].effects[yUtUCn3TPecpu4SI].description",
           "sourcePath": "monsters/humanoid/werewolf.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "Wcsjbl25uiUsyQwn",
-          "name": "Ankheg",
-          "fieldPath": "items[mGamlcdui038L6gU].system.description.value",
-          "sourcePath": "monsters/monstrosity/ankheg.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "Wcsjbl25uiUsyQwn",
-          "name": "Ankheg",
-          "fieldPath": "items[mGamlcdui038L6gU].system.description.chat",
-          "sourcePath": "monsters/monstrosity/ankheg.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "Wcsjbl25uiUsyQwn",
-          "name": "Ankheg",
-          "fieldPath": "items[XZwZexkrBLOzLo1Q].system.description.value",
-          "sourcePath": "monsters/monstrosity/ankheg.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "Wcsjbl25uiUsyQwn",
-          "name": "Ankheg",
-          "fieldPath": "items[XZwZexkrBLOzLo1Q].system.description.chat",
-          "sourcePath": "monsters/monstrosity/ankheg.yml"
         },
         {
           "code": "missing-field",

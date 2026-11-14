@@ -546,7 +546,9 @@
               "name": "Afferrato dal Morso",
               "description": "<p>Sei &amp;reference[grappled apply=false] (CD 13 per sfuggire).</p>"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio è una creatura di taglia Grande o inferiore, viene &amp;reference[grappled] (CD 13 per sfuggire). Finché questa lotta non termina, il [[lookup @name lowercase]]{mostro} può usare il suo [[lookup @item.name lowercase]] soltanto contro la creatura afferrata e dispone di vantaggio ai tiri per colpire per farlo.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il suo [[lookup @item.name]]. Se l'attacco ha successo, il bersaglio viene &amp;reference[grappled].</p>"
         },
         "XZwZexkrBLOzLo1Q": {
           "name": "Spruzzo Acido",
@@ -554,7 +556,9 @@
             "A4waeKIjLnBIJs9i": {
               "name": "Sputare Acido"
             }
-          }
+          },
+          "description": "<p>L'ankheg sputa acido in una [[lookup @labels.description.template activity=A4waeKIjLnBIJs9i]], purché non abbia alcuna creatura &amp;reference[grappled apply=false].</p><p>Ogni creatura in quella linea deve effettuare un tiro salvezza [[/save activity=A4waeKIjLnBIJs9i]]; se lo fallisce, subisce [[/damage average activity=A4waeKIjLnBIJs9i]] danni, mentre se lo supera subisce la metà dei danni.</p>",
+          "chat": "<p>Il [[lookup @name lowercase]]{mostro} sputa acido in una linea lunga 9 m e larga 1,5 m. Ogni creatura in quella linea deve effettuare un tiro salvezza su <strong>Destrezza</strong>.</p>"
         }
       },
       "details": {
