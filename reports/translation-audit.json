@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2208,
+      "translated": 2209,
       "missing": 3,
-      "partial": 180,
+      "partial": 179,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14357,
-      "missing": 1303,
+      "translated": 14361,
+      "missing": 1299,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1308
+    "blockingIssues": 1304
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 173,
+          "translated": 174,
           "missing": 0,
-          "partial": 164,
+          "partial": 163,
           "review": 0
         },
         "folders": {
@@ -578,50 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6541,
-          "missing": 565,
+          "translated": 6545,
+          "missing": 561,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "M4eX4Mu5IHCr3TMf",
-          "name": "Adult Black Dragon",
-          "fieldPath": "items[P47jJ8bjQulsbdUg].system.description.value",
-          "sourcePath": "monsters/dragon/adult-black-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "M4eX4Mu5IHCr3TMf",
-          "name": "Adult Black Dragon",
-          "fieldPath": "items[6bromElr0abqNXJL].system.description.value",
-          "sourcePath": "monsters/dragon/adult-black-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "M4eX4Mu5IHCr3TMf",
-          "name": "Adult Black Dragon",
-          "fieldPath": "items[6bromElr0abqNXJL].system.description.chat",
-          "sourcePath": "monsters/dragon/adult-black-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "M4eX4Mu5IHCr3TMf",
-          "name": "Adult Black Dragon",
-          "fieldPath": "items[iXsGJD1VHeJYYSev].system.description.value",
-          "sourcePath": "monsters/dragon/adult-black-dragon.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
