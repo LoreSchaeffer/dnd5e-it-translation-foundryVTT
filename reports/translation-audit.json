@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2266,
+      "translated": 2267,
       "missing": 3,
-      "partial": 122,
+      "partial": 121,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14541,
-      "missing": 1119,
+      "translated": 14546,
+      "missing": 1114,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1124
+    "blockingIssues": 1119
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 231,
+          "translated": 232,
           "missing": 0,
-          "partial": 106,
+          "partial": 105,
           "review": 0
         },
         "folders": {
@@ -578,59 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6725,
-          "missing": 381,
+          "translated": 6730,
+          "missing": 376,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "kz2fW9xb5CcvXLX4",
-          "name": "Dretch",
-          "fieldPath": "items[Ex0UN9pj0w7p4D9F].system.description.value",
-          "sourcePath": "monsters/fiend/dretch.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "kz2fW9xb5CcvXLX4",
-          "name": "Dretch",
-          "fieldPath": "items[JVbj7KABKYi3Z8U3].system.description.value",
-          "sourcePath": "monsters/fiend/dretch.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "kz2fW9xb5CcvXLX4",
-          "name": "Dretch",
-          "fieldPath": "items[JVbj7KABKYi3Z8U3].system.description.chat",
-          "sourcePath": "monsters/fiend/dretch.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "kz2fW9xb5CcvXLX4",
-          "name": "Dretch",
-          "fieldPath": "items[JVbj7KABKYi3Z8U3].system.activities.ZwNb6VN8YJEZdHV1.description.value",
-          "sourcePath": "monsters/fiend/dretch.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "kz2fW9xb5CcvXLX4",
-          "name": "Dretch",
-          "fieldPath": "items[JVbj7KABKYi3Z8U3].effects[XzGwAeU1HCPp89tA].description",
-          "sourcePath": "monsters/fiend/dretch.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",

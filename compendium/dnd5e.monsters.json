@@ -6389,7 +6389,8 @@
       "name": "Dretch",
       "items": {
         "Ex0UN9pj0w7p4D9F": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il dretch effettua due attacchi: uno con il suo [[/item .2So9DIMKKgeGHVru]]{morso} e uno con i suoi [[/item .5fa9Rdzy2YYpkAgS]]{artigli}.</p>"
         },
         "2So9DIMKKgeGHVru": {
           "name": "Morso",
@@ -6400,7 +6401,10 @@
           "name": "Nube Fetida",
           "activities": {
             "ZwNb6VN8YJEZdHV1": {
-              "name": "Tiro Salvezza contro il Veleno"
+              "name": "Tiro Salvezza contro il Veleno",
+              "description": {
+                "value": "<p>Ogni creatura che inizia il proprio turno in quell'area deve superare un tiro salvezza [[/save]], altrimenti è &amp;Reference[poisoned]{avvelenata} fino all'inizio del proprio turno successivo. Finché è avvelenato in questo modo, il bersaglio può effettuare un'azione o un'azione bonus nel proprio turno, ma non entrambe, e non può effettuare reazioni.</p>"
+              }
             },
             "UmjK0kfobgLTjdOu": {
               "name": "Essudare Gas"
@@ -6408,9 +6412,12 @@
           },
           "effects": {
             "XzGwAeU1HCPp89tA": {
-              "name": "Avvelenamento da Gas Fetido"
+              "name": "Avvelenamento da Gas Fetido",
+              "description": "<p>Sei &amp;reference[poisoned apply=false]{avvelenato} fino all'inizio del tuo turno successivo. Finché sei avvelenato in questo modo, puoi effettuare un'azione o un'azione bonus nel tuo turno, ma non entrambe, e non puoi effettuare reazioni.</p>"
             }
-          }
+          },
+          "description": "<p>Un [[lookup @labels.description.template activity=UmjK0kfobgLTjdOu]] di disgustoso gas verde si propaga dal [[lookup @name lowercase]]{mostro}. Il gas si diffonde oltre gli angoli e la sua area è &amp;reference[lightly obscured]{leggermente oscurata}. Dura per [[lookup @labels.duration activity=UmjK0kfobgLTjdOu]] o finché un vento forte non lo disperde.</p><p>Ogni creatura che inizia il proprio turno in quell'area deve superare un tiro salvezza [[/save]], altrimenti è &amp;Reference[poisoned]{avvelenata} fino all'inizio del proprio turno successivo. Finché è avvelenato in questo modo, il bersaglio può effettuare un'azione o un'azione bonus nel proprio turno, ma non entrambe, e non può effettuare reazioni.</p>",
+          "chat": "<p>Un [[lookup @labels.description.template activity=UmjK0kfobgLTjdOu]] di disgustoso gas verde si propaga dal [[lookup @name]]{mostro}. Il gas si diffonde oltre gli angoli e la sua area è &amp;reference[lightly obscured]{leggermente oscurata}. Ogni creatura che inizia il proprio turno in quell'area deve effettuare un tiro salvezza su Costituzione.</p>"
         },
         "5fa9Rdzy2YYpkAgS": {
           "name": "Artigli",
