@@ -15101,7 +15101,8 @@
           "description": "<p>In ogni proprio turno, il [[lookup @name lowercase]]{mostro} può usare un'azione bonus per effettuare l'azione Disimpegno, Nascondersi o Scatto.</p>"
         },
         "NAmhPf8w89iV8CsY": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>La spia effettua due attacchi in mischia.</p>"
         },
         "BhYnUUBoU3ESkl1B": {
           "name": "Spada Corta",
@@ -15119,7 +15120,8 @@
             "dnd5eactivity000": {
               "name": "Danni Bonus"
             }
-          }
+          },
+          "description": "<p>Una volta per turno, il [[lookup @name lowercase]]{mostro} infligge [[/damage average]] danni extra quando colpisce un bersaglio con un attacco con un'arma e dispone di vantaggio al tiro per colpire, oppure quando il bersaglio si trova entro 1,5 metri da un alleato del [[lookup @name lowercase]]{mostro} che non sia &amp;reference[incapacitated apply=false] e il [[lookup @name lowercase]]{mostro} non dispone di svantaggio al tiro per colpire.</p>"
         }
       },
       "details": {
