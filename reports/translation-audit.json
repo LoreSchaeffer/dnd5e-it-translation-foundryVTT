@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2303,
+      "translated": 2304,
       "missing": 3,
-      "partial": 85,
+      "partial": 84,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14677,
-      "missing": 983,
+      "translated": 14682,
+      "missing": 978,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 988
+    "blockingIssues": 983
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 268,
+          "translated": 269,
           "missing": 0,
-          "partial": 69,
+          "partial": 68,
           "review": 0
         },
         "folders": {
@@ -578,59 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6861,
-          "missing": 245,
+          "translated": 6866,
+          "missing": 240,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "K15Yl8JmB5iPircc",
-          "name": "Druid",
-          "fieldPath": "items[07sdy4qaaW4MaB8W].system.description.value",
-          "sourcePath": "monsters/humanoid/druid.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "K15Yl8JmB5iPircc",
-          "name": "Druid",
-          "fieldPath": "items[07sdy4qaaW4MaB8W].system.description.chat",
-          "sourcePath": "monsters/humanoid/druid.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "K15Yl8JmB5iPircc",
-          "name": "Druid",
-          "fieldPath": "items[KUP8WEfLxlcY7K2x].system.description.value",
-          "sourcePath": "monsters/humanoid/druid.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "K15Yl8JmB5iPircc",
-          "name": "Druid",
-          "fieldPath": "items[eCPQuQkIabFKTl9u].system.description.value",
-          "sourcePath": "monsters/humanoid/druid.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "K15Yl8JmB5iPircc",
-          "name": "Druid",
-          "fieldPath": "items[gMrWeG8fMDPRFiVe].system.description.value",
-          "sourcePath": "monsters/humanoid/druid.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",

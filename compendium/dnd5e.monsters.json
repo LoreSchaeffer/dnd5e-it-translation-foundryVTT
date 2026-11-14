@@ -6733,17 +6733,20 @@
               "name": "Attacco con Incantesimo"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]] o [[/damage twoHanded]] se impugnato con due mani.</p><p>Con @UUID[.udSiVp4nSrGBSvG1]{Randello Incantato}, [[/attack extended activity=hQCHzLhxJpg6id19]]. [[/damage extended activity=hQCHzLhxJpg6id19]].</p>"
         },
         "SbSvZKkJASyk8jKo": {
           "name": "Artificio Druidico",
           "description": "<p>Sussurrando agli spiriti della natura, l'incantatore crea uno degli effetti seguenti entro gittata:</p>\n<ul>\n<li>• L'incantatore crea un minuscolo sensore innocuo che predice il tempo atmosferico nel suo luogo per le 24 ore successive. Il sensore potrebbe manifestarsi come un globo dorato in caso di cielo sereno, una nube in caso di pioggia, un ammasso di fiocchi di neve in caso di neve e cost via, L'effetto permane per 1 round.</li>\n<li>• L'incantatore fa sbocciare istantaneamente un fiore, aprire un baccello o schiudere un germoglio.</li>\n<li>• L'incantatore crea un effetto sensoriale istantaneo e innocuo come un cumulo di foglie volanti, uno sbuffo di vento, il rumore di un piccolo animale o il vago odore di una puzzola. L'effetto non deve essere più grande di un cubo con spigolo di 1,5 metri.</li>\n<li>• L'incantatore accende o spegne istantaneamente una candela, una torcia o un piccolo fuoco da campo.</li>\n</ul>"
         },
         "eCPQuQkIabFKTl9u": {
-          "name": "Produrre Fiamma"
+          "name": "Produrre Fiamma",
+          "description": "<p>Una fiamma tremolante compare nella tua mano. La fiamma permane per la durata dell'incantesimo e non infligge danni né a te né al tuo equipaggiamento. La fiamma proietta luce intensa entro un raggio di 3 metri e luce fioca per altri 3 metri. L'incantesimo termina se lo interrompi con un'azione o se lo lanci di nuovo.</p><p>Puoi anche attaccare con la fiamma, ponendo termine all'incantesimo. Quando lanci questo incantesimo, o usando un'azione in un turno successivo, puoi scagliare la fiamma contro una creatura situata entro 9 metri da te. Effettua un attacco a distanza con questo incantesimo. Se colpisci, il bersaglio subisce 1d8 danni da fuoco.</p><p>I danni di questo incantesimo aumentano di 1d8 quando arrivi al 5° livello (2d8), 11° livello (3d8) e 17° livello (4d8).</p>"
         },
         "gMrWeG8fMDPRFiVe": {
-          "name": "Intralciare"
+          "name": "Intralciare",
+          "description": "<p>Erbacce e rampicanti spuntano dal terreno in un quadrato con lato di 6 metri che parte da un punto situato entro gittata. Per la durata dell'incantesimo, questi vegetali trasformano il terreno nell'area in terreno difficile.</p><p>Una creatura situata nell'area quando lanci questo incantesimo deve superare un tiro salvezza su Forza, altrimenti è trattenuta dai vegetali intralcianti finché l'incantesimo non termina. Una creatura trattenuta dai vegetali può usare la propria azione per effettuare una prova di Forza contro la CD del tiro salvezza dell'incantesimo. Se ha successo, si libera.</p><p>Quando l'incantesimo termina, i vegetali evocati avvizziscono.</p>"
         },
         "B0pnIcc52O6G8hi8": {
           "name": "Passo Veloce",
@@ -6792,7 +6795,9 @@
           }
         },
         "07sdy4qaaW4MaB8W": {
-          "name": "Incantesimi"
+          "name": "Incantesimi",
+          "description": "<p>Il druido è un incantatore di 4° livello. La sua caratteristica da incantatore è Saggezza (CD del tiro salvezza degli incantesimi 12, +4 al tiro per colpire degli attacchi con incantesimo).</p><p>Ha preparato i seguenti incantesimi da druido:</p><p>Trucchetti (a volontà): [[/item .SbSvZKkJASyk8jKo]]{Artificio Druidico}, [[/item .eCPQuQkIabFKTl9u]]{Produrre Fiamma}, [[/item .VzgFzcmocr1X1cp4]]{Randello Incantato}</p><p>1° livello (4 slot): [[/item .gMrWeG8fMDPRFiVe]]{Intralciare}, [[/item .B0pnIcc52O6G8hi8]]{Passo Veloce}, [[/item .aL1F8fvYLtNzUbKu]]{Parlare con gli Animali}, [[/item .WTbOQBsarsL1LuXJ]]{Onda Tonante}</p><p>2° livello (3 slot): [[/item .X8w9EzYLGc4vQ1H2]]{Animale Messaggero}, [[/item .JPwIEfgUPVebr5AH]]{Pelle Coriacea}</p>",
+          "chat": "<p>Il druido è un incantatore. La sua caratteristica da incantatore è Saggezza.</p>"
         }
       },
       "details": {
