@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2327,
+      "translated": 2328,
       "missing": 3,
-      "partial": 61,
+      "partial": 60,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14763,
-      "missing": 897,
+      "translated": 14766,
+      "missing": 894,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 902
+    "blockingIssues": 899
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 292,
+          "translated": 293,
           "missing": 0,
-          "partial": 45,
+          "partial": 44,
           "review": 0
         },
         "folders": {
@@ -578,41 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6947,
-          "missing": 159,
+          "translated": 6950,
+          "missing": 156,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "6wbasdWWqtXeIAyD",
-          "name": "Gynosphinx",
-          "fieldPath": "items[kvyuqG5WztblcJXb].system.description.value",
-          "sourcePath": "monsters/monstrosity/gynosphinx.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "6wbasdWWqtXeIAyD",
-          "name": "Gynosphinx",
-          "fieldPath": "items[kvyuqG5WztblcJXb].system.description.chat",
-          "sourcePath": "monsters/monstrosity/gynosphinx.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "6wbasdWWqtXeIAyD",
-          "name": "Gynosphinx",
-          "fieldPath": "items[dZvwgTh5Bex9FM0C].system.description.value",
-          "sourcePath": "monsters/monstrosity/gynosphinx.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
