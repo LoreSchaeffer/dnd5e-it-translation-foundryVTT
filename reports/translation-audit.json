@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2306,
+      "translated": 2307,
       "missing": 3,
-      "partial": 82,
+      "partial": 81,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14694,
-      "missing": 966,
+      "translated": 14695,
+      "missing": 965,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 971
+    "blockingIssues": 970
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 271,
+          "translated": 272,
           "missing": 0,
-          "partial": 66,
+          "partial": 65,
           "review": 0
         },
         "folders": {
@@ -578,23 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6878,
-          "missing": 228,
+          "translated": 6879,
+          "missing": 227,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "R2GPY9BhRmmwZwkh",
-          "name": "Gnoll",
-          "fieldPath": "items[TGAlVMJcaZCRp7TI].system.description.value",
-          "sourcePath": "monsters/humanoid/gnoll.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
