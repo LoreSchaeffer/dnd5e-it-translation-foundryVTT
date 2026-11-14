@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2284,
+      "translated": 2285,
       "missing": 3,
-      "partial": 104,
+      "partial": 103,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14613,
-      "missing": 1047,
+      "translated": 14615,
+      "missing": 1045,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1052
+    "blockingIssues": 1050
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 249,
+          "translated": 250,
           "missing": 0,
-          "partial": 88,
+          "partial": 87,
           "review": 0
         },
         "folders": {
@@ -578,32 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6797,
-          "missing": 309,
+          "translated": 6799,
+          "missing": 307,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "SOin81NWijHRvXFK",
-          "name": "Stone Giant",
-          "fieldPath": "items[HxKKuoyc6AYGLsIX].system.description.value",
-          "sourcePath": "monsters/giant/stone-giant.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "SOin81NWijHRvXFK",
-          "name": "Stone Giant",
-          "fieldPath": "items[HxKKuoyc6AYGLsIX].system.description.chat",
-          "sourcePath": "monsters/giant/stone-giant.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
