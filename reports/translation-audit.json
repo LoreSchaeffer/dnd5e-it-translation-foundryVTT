@@ -3,8 +3,8 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2385,
-      "missing": 3,
+      "translated": 2386,
+      "missing": 2,
       "partial": 3,
       "review": 0
     },
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14985,
-      "missing": 675,
+      "translated": 14988,
+      "missing": 672,
       "invariantFailures": 0,
       "englishResiduals": 0,
       "imperialResiduals": 0
     },
-    "blockingIssues": 677
+    "blockingIssues": 676
   },
   "packs": [
     {
@@ -620,8 +620,8 @@
       "summary": {
         "documents": {
           "total": 20,
-          "translated": 14,
-          "missing": 3,
+          "translated": 15,
+          "missing": 2,
           "partial": 3,
           "review": 0
         },
@@ -634,8 +634,8 @@
         },
         "fields": {
           "total": 877,
-          "translated": 202,
-          "missing": 675,
+          "translated": 205,
+          "missing": 672,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -6275,14 +6275,6 @@
           "name": "Chapter 9: Combat",
           "fieldPath": "pages[gOIzjQ6o3HkzkEY8].text.content",
           "sourcePath": "rules/chapter-9-combat.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "4ANrmP15aBGam0QS",
-          "name": "Credits",
-          "sourcePath": "rules/credits.yml"
         },
         {
           "code": "missing-document",
