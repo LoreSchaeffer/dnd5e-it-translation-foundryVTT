@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2365,
+      "translated": 2366,
       "missing": 3,
-      "partial": 23,
+      "partial": 22,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14900,
-      "missing": 760,
+      "translated": 14903,
+      "missing": 757,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 765
+    "blockingIssues": 762
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 330,
+          "translated": 331,
           "missing": 0,
-          "partial": 7,
+          "partial": 6,
           "review": 0
         },
         "folders": {
@@ -578,41 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 7084,
-          "missing": 22,
+          "translated": 7087,
+          "missing": 19,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "OBujQLLPSmlJiZnL",
-          "name": "Ghoul",
-          "fieldPath": "items[ArxzPC3rsBztgUvI].system.description.value",
-          "sourcePath": "monsters/undead/ghoul.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "OBujQLLPSmlJiZnL",
-          "name": "Ghoul",
-          "fieldPath": "items[ArxzPC3rsBztgUvI].system.description.chat",
-          "sourcePath": "monsters/undead/ghoul.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "OBujQLLPSmlJiZnL",
-          "name": "Ghoul",
-          "fieldPath": "items[ArxzPC3rsBztgUvI].system.activities.eUhLoDYzWkXnIKKj.description.value",
-          "sourcePath": "monsters/undead/ghoul.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",

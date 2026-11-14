@@ -8024,9 +8024,14 @@
           "name": "Artigli",
           "activities": {
             "eUhLoDYzWkXnIKKj": {
-              "name": "Tiro Salvezza contro la Paralisi"
+              "name": "Tiro Salvezza contro la Paralisi",
+              "description": {
+                "value": "<p>Se il bersaglio è una creatura diversa da un elfo o da un non morto, deve superare un tiro salvezza [[/save activity=eUhLoDYzWkXnIKKj]], altrimenti è &amp;reference[paralyzed] per [[lookup @labels.duration activity=eUhLoDYzWkXnIKKj]]. Il bersaglio può ripetere il tiro salvezza alla fine di ciascun proprio turno, terminando l'effetto su di sé in caso di successo.</p>"
+              }
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio è una creatura diversa da un elfo o da un non morto, deve superare un tiro salvezza [[/save activity=eUhLoDYzWkXnIKKj]] o essere &amp;reference[paralyzed] per [[lookup @labels.duration activity=eUhLoDYzWkXnIKKj]]. Il bersaglio può ripetere il tiro salvezza alla fine di ciascun proprio turno, terminando l'effetto su di sé in caso di successo.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con i suoi [[lookup @item.name]]. Se il bersaglio è una creatura diversa da un elfo o da un non morto, deve effettuare un tiro salvezza su Costituzione. Il bersaglio può ripetere il tiro salvezza alla fine di ciascun proprio turno, terminando l'effetto su di sé in caso di successo.</p>"
         }
       },
       "details": {
