@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2228,
+      "translated": 2229,
       "missing": 3,
-      "partial": 160,
+      "partial": 159,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14411,
-      "missing": 1249,
+      "translated": 14413,
+      "missing": 1247,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1254
+    "blockingIssues": 1252
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 193,
+          "translated": 194,
           "missing": 0,
-          "partial": 144,
+          "partial": 143,
           "review": 0
         },
         "folders": {
@@ -578,32 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6595,
-          "missing": 511,
+          "translated": 6597,
+          "missing": 509,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "azCbLQt5LAYwTI7U",
-          "name": "Brass Dragon Wyrmling",
-          "fieldPath": "items[JmVLjWM4G6OOQxl4].system.description.value",
-          "sourcePath": "monsters/dragon/brass-dragon-wyrmling.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "azCbLQt5LAYwTI7U",
-          "name": "Brass Dragon Wyrmling",
-          "fieldPath": "items[JmVLjWM4G6OOQxl4].effects[P1rGrKiV7x2OMiN0].description",
-          "sourcePath": "monsters/dragon/brass-dragon-wyrmling.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
