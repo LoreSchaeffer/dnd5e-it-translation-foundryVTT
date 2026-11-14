@@ -7,7 +7,7 @@
 | classfeatures | 235 | 235 | 0 | 0 | 0 | 0 | 0 |
 | effects | 214 | 214 | 0 | 0 | 0 | 0 | 0 |
 | heroes | 12 | 12 | 0 | 0 | 0 | 0 | 0 |
-| items | 885 | 885 | 0 | 0 | 0 | 0 | 48 |
+| items | 885 | 885 | 0 | 0 | 0 | 0 | 0 |
 | monsterfeatures | 252 | 252 | 0 | 0 | 0 | 0 | 0 |
 | monsters | 337 | 337 | 0 | 0 | 0 | 0 | 0 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
@@ -17,58 +17,10 @@
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 666
+Total blocking issues: 618
 
 ## Issues
 
-- **extra-entry** `items:Amulet of Proof Against Detection and Location`
-- **extra-entry** `items:Arrows`
-- **extra-entry** `items:Boots of Springing and Striding`
-- **extra-entry** `items:Carpet of Flying`
-- **extra-entry** `items:Censor`
-- **extra-entry** `items:Censor of Controlling Air Elementals`
-- **extra-entry** `items:Double-Bladed Scimitar`
-- **extra-entry** `items:Eftreeti Bottle`
-- **extra-entry** `items:Figurine of Wondrous Power Bronze Griffon`
-- **extra-entry** `items:Figurine of Wondrous Power Ebony Fly`
-- **extra-entry** `items:Figurine of Wondrous Power Golden Lions`
-- **extra-entry** `items:Figurine of Wondrous Power Ivory Goat of Terror`
-- **extra-entry** `items:Figurine of Wondrous Power Ivory Goat of Travail`
-- **extra-entry** `items:Figurine of Wondrous Power Ivory Goat of Traveling`
-- **extra-entry** `items:Figurine of Wondrous Power Marble Elephant`
-- **extra-entry** `items:Figurine of Wondrous Power Obsidian Steed`
-- **extra-entry** `items:Figurine of Wondrous Power Onyx Dog`
-- **extra-entry** `items:Figurine of Wondrous Power Serpentine Owl`
-- **extra-entry** `items:Figurine of Wondrous Power Silver Raven`
-- **extra-entry** `items:Gaming Set`
-- **extra-entry** `items:Gaming Set of Dice`
-- **extra-entry** `items:Gaming Set of Dragonchess`
-- **extra-entry** `items:Gaming Set of Playing Cards`
-- **extra-entry** `items:Gaming Set of Three-Dragon Ante`
-- **extra-entry** `items:Hempen Rope (50ft)`
-- **extra-entry** `items:Horseshoes of the Zephyr`
-- **extra-entry** `items:Iron Spikes`
-- **extra-entry** `items:Musical Instrument`
-- **extra-entry** `items:Musical Instrument: Flute`
-- **extra-entry** `items:Musical Instrument: Lute`
-- **extra-entry** `items:Musical Instrument: Pan Flute`
-- **extra-entry** `items:Necklace of Adaption`
-- **extra-entry** `items:Periapt of Proof Against Poison`
-- **extra-entry** `items:Rain Catcher`
-- **extra-entry** `items:Silk Rope (50 feet)`
-- **extra-entry** `items:Spell Scroll Cantrip Level`
-- **extra-entry** `items:Spiked Armor`
-- **extra-entry** `items:Yklwa`
-- **extra-entry** `items:Musical Instrument: Shawm`
-- **extra-entry** `items:Musical Instrument: Bagpipes`
-- **extra-entry** `items:Musical Instrument: Horn`
-- **extra-entry** `items:Musical Instrument: Dulcimer`
-- **extra-entry** `items:Musical Instrument: Lyre`
-- **extra-entry** `items:Musical Instrument: Drum`
-- **extra-entry** `items:Musical Instrument: Viol`
-- **extra-entry** `items:Ferri dello Zefiro`
-- **extra-entry** `items:Unarmed Strike (Monk)`
-- **extra-entry** `items:Enterteiner's Pack`
 - **missing-field** `rules:NizgRXLNUqtdlC1s:name`
 - **missing-field** `rules:NizgRXLNUqtdlC1s:pages[nkEPI89CiQnOaLYh].text.content`
 - **missing-field** `rules:NizgRXLNUqtdlC1s:pages[nkEPI89CiQnOaLYh].system.tooltip`
