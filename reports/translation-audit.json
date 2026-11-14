@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2281,
+      "translated": 2282,
       "missing": 3,
-      "partial": 107,
+      "partial": 106,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14596,
-      "missing": 1064,
+      "translated": 14602,
+      "missing": 1058,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1069
+    "blockingIssues": 1063
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 246,
+          "translated": 247,
           "missing": 0,
-          "partial": 91,
+          "partial": 90,
           "review": 0
         },
         "folders": {
@@ -578,68 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6780,
-          "missing": 326,
+          "translated": 6786,
+          "missing": 320,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "xvh2UOKv1bh03Gih",
-          "name": "Night Hag",
-          "fieldPath": "items[bUkTkdnQ3XbRcXkD].system.description.value",
-          "sourcePath": "monsters/fiend/night-hag.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "xvh2UOKv1bh03Gih",
-          "name": "Night Hag",
-          "fieldPath": "items[ftmaVOSJXvHPhraJ].system.description.value",
-          "sourcePath": "monsters/fiend/night-hag.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "xvh2UOKv1bh03Gih",
-          "name": "Night Hag",
-          "fieldPath": "items[0blKOND2AnsMsZa6].system.description.value",
-          "sourcePath": "monsters/fiend/night-hag.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "xvh2UOKv1bh03Gih",
-          "name": "Night Hag",
-          "fieldPath": "items[0blKOND2AnsMsZa6].system.description.chat",
-          "sourcePath": "monsters/fiend/night-hag.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "xvh2UOKv1bh03Gih",
-          "name": "Night Hag",
-          "fieldPath": "items[tYZggJHgAbixP5rs].system.description.value",
-          "sourcePath": "monsters/fiend/night-hag.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "xvh2UOKv1bh03Gih",
-          "name": "Night Hag",
-          "fieldPath": "items[tYZggJHgAbixP5rs].system.description.chat",
-          "sourcePath": "monsters/fiend/night-hag.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",

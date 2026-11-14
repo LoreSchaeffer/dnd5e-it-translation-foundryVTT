@@ -11055,7 +11055,8 @@
       },
       "items": {
         "bUkTkdnQ3XbRcXkD": {
-          "name": "Incantesimi Innati"
+          "name": "Incantesimi Innati",
+          "description": "<p>La caratteristica da incantatore innato della megera è Carisma (CD del tiro salvezza degli incantesimi 14, +6 al tiro per colpire degli attacchi con incantesimo). Può lanciare innatamente i seguenti incantesimi, senza richiedere componenti materiali:</p>\n<p>A volontà: [[/item .ghXTfe7sgCbgf1Q8]]{Individuazione del Magico}, [[/item .41JIhpDyM9Anm7cs]]{Dardo Incantato}</p>\n<p>2/giorno ciascuno: spostamento planare (solo su se stessa), [[/item .ODhLKBxLnvvLOnw1]]{Raggio di Affaticamento}, [[/item .KhwiSi9fwVfUPtku]]{Sonno}</p>"
         },
         "ftmaVOSJXvHPhraJ": {
           "name": "Cambiare Forma",
@@ -11063,7 +11064,8 @@
             "CTYIMIlC30bYuq9I": {
               "name": "Trasformati"
             }
-          }
+          },
+          "description": "<p>La [[lookup @name lowercase]]{megera} si trasforma magicamente in un umanoide femmina di taglia Piccola o Media, oppure torna alla sua vera forma. Le sue statistiche rimangono le stesse in ogni forma. Qualsiasi equipaggiamento che indossa o trasporta non viene trasformato. Se muore, torna alla sua vera forma.</p>"
         },
         "0blKOND2AnsMsZa6": {
           "name": "Forma Eterea",
@@ -11071,7 +11073,9 @@
             "yFm9Vg5vVLjCxS7q": {
               "name": "Attraversare i Piani"
             }
-          }
+          },
+          "description": "<p>La [[lookup @name lowercase]]{megera} entra magicamente nel Piano Etereo dal Piano Materiale, o viceversa. Per farlo, la [[lookup @name lowercase]]{megera} deve avere con sé una <em>pietra del cuore</em>.</p>",
+          "chat": "<p>La [[lookup @name lowercase]]{megera} entra magicamente nel Piano Etereo dal Piano Materiale, o viceversa. Per farlo, la [[lookup @name lowercase]]{megera} deve avere con sé una pietra del cuore.</p>"
         },
         "tYZggJHgAbixP5rs": {
           "name": "Infestare Incubi",
@@ -11079,7 +11083,9 @@
             "sqyzSx2CwAVKAFE1": {
               "name": "Indurre Incubi"
             }
-          }
+          },
+          "description": "<p>Mentre si trova sul Piano Etereo, la [[lookup @name lowercase]]{megera} tocca magicamente un umanoide addormentato sul Piano Materiale. Un incantesimo @UUID[Compendium.dnd5e.spells.Item.xmDBqZhRVrtLP8h2]{Protezione dal Bene e dal Male} lanciato sul bersaglio impedisce questo contatto, così come un @UUID[Compendium.dnd5e.spells.Item.y8A4HfTwd93ypdEz]{Cerchio Magico}.</p><p>Finché il contatto persiste, il bersaglio è tormentato da visioni terribili. Se queste visioni durano almeno 1 ora, il bersaglio non ottiene alcun beneficio dal riposo e il suo massimo dei punti ferita è ridotto di 5 (1d10). Se questo effetto riduce a 0 il massimo dei punti ferita del bersaglio, il bersaglio muore e, se era malvagio, la sua anima rimane intrappolata nella sacca delle anime della megera. La riduzione del massimo dei punti ferita del bersaglio dura finché non viene rimossa dall'incantesimo @UUID[Compendium.dnd5e.spells.Item.WzvJ7G3cqvIubsLk]{Ristorare Superiore} o da una magia analoga.</p>",
+          "chat": "<p>Mentre si trova sul Piano Etereo, la megera tocca magicamente un umanoide addormentato sul Piano Materiale. Finché il contatto persiste, il bersaglio è tormentato da visioni terribili.</p>"
         },
         "ghXTfe7sgCbgf1Q8": {
           "name": "Individuazione del Magico",
