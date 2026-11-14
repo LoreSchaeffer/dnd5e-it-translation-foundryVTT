@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2267,
+      "translated": 2268,
       "missing": 3,
-      "partial": 121,
+      "partial": 120,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14546,
-      "missing": 1114,
+      "translated": 14553,
+      "missing": 1107,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1119
+    "blockingIssues": 1112
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 232,
+          "translated": 233,
           "missing": 0,
-          "partial": 105,
+          "partial": 104,
           "review": 0
         },
         "folders": {
@@ -578,77 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6730,
-          "missing": 376,
+          "translated": 6737,
+          "missing": 369,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "3o2rQBqpzjIHmrBW",
-          "name": "Erinyes",
-          "fieldPath": "items[BeB04w7ftFRDaMQ6].system.description.value",
-          "sourcePath": "monsters/fiend/erinyes.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "3o2rQBqpzjIHmrBW",
-          "name": "Erinyes",
-          "fieldPath": "items[BeB04w7ftFRDaMQ6].system.description.chat",
-          "sourcePath": "monsters/fiend/erinyes.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "3o2rQBqpzjIHmrBW",
-          "name": "Erinyes",
-          "fieldPath": "items[CElneYmOXIzyfv2a].system.description.value",
-          "sourcePath": "monsters/fiend/erinyes.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "3o2rQBqpzjIHmrBW",
-          "name": "Erinyes",
-          "fieldPath": "items[CElneYmOXIzyfv2a].system.activities.FSUW5qkqgkRvTUzE.description.value",
-          "sourcePath": "monsters/fiend/erinyes.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "3o2rQBqpzjIHmrBW",
-          "name": "Erinyes",
-          "fieldPath": "items[CElneYmOXIzyfv2a].effects[o8VWEdzRxZ9UjKls].description",
-          "sourcePath": "monsters/fiend/erinyes.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "3o2rQBqpzjIHmrBW",
-          "name": "Erinyes",
-          "fieldPath": "items[Fp0Jye7Qwk8KOvH7].system.description.value",
-          "sourcePath": "monsters/fiend/erinyes.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "3o2rQBqpzjIHmrBW",
-          "name": "Erinyes",
-          "fieldPath": "items[QPblx5JLbidICNT5].system.description.value",
-          "sourcePath": "monsters/fiend/erinyes.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",

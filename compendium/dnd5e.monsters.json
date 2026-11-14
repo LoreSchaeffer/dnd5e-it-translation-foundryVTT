@@ -7133,18 +7133,24 @@
           "name": "Arco Lungo",
           "activities": {
             "FSUW5qkqgkRvTUzE": {
-              "name": "Tiro Salvezza contro il Veleno"
+              "name": "Tiro Salvezza contro il Veleno",
+              "description": {
+                "value": "<p>Il bersaglio deve superare un tiro salvezza [[/save]], altrimenti è &amp;Reference[poisoned]{avvelenato}. Il veleno dura finché non viene rimosso dall'incantesimo @UUID[Compendium.dnd5e.spells.Item.F0GsG0SJzsIOacwV]{Ristorare Inferiore} o da una magia analoga.</p>"
+              }
             }
           },
           "effects": {
             "o8VWEdzRxZ9UjKls": {
-              "name": "Veleno dell'Erinni"
+              "name": "Veleno dell'Erinni",
+              "description": "<p>Sei &amp;reference[poisoned apply=false]{avvelenato}. Questo veleno dura finché non viene rimosso dall'incantesimo @UUID[Compendium.dnd5e.spells.Item.F0GsG0SJzsIOacwV]{Ristorare Inferiore} o da una magia analoga.</p>"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio deve effettuare un tiro salvezza su Costituzione.</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio deve effettuare un tiro salvezza su Costituzione.</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il bersaglio deve superare un tiro salvezza [[/save]], altrimenti è &amp;Reference[poisoned]{avvelenato}. Il veleno dura finché non viene rimosso dall'incantesimo @UUID[Compendium.dnd5e.spells.Item.F0GsG0SJzsIOacwV]{Ristorare Inferiore} o da una magia analoga.</p>"
         },
         "Fp0Jye7Qwk8KOvH7": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua tre attacchi.</p>"
         },
         "XJBhy8LGBs7BF6SR": {
           "name": "Resistenza Magica",
@@ -7157,10 +7163,13 @@
               "name": "Parare l'Attacco"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} aggiunge 5 alla propria CA contro un attacco in mischia che altrimenti lo colpirebbe.</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} aggiunge 5 alla propria CA contro un attacco in mischia che altrimenti lo colpirebbe.</p>",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} aggiunge 4 alla propria CA contro un attacco in mischia che altrimenti lo colpirebbe. Per farlo, il [[lookup @name lowercase]]{mostro} deve vedere l'attaccante e impugnare un'arma da mischia.</p>"
         },
         "BeB04w7ftFRDaMQ6": {
-          "name": "Armi Infernali"
+          "name": "Armi Infernali",
+          "description": "<p>Gli attacchi con arma del [[lookup @name lowercase]]{mostro} sono magici e infliggono 13 (3d8) danni da veleno extra quando colpiscono (inclusi negli attacchi).</p>",
+          "chat": "<p>Gli attacchi con arma dell'erinni sono magici e infliggono <em>danni da veleno</em> extra quando colpiscono (inclusi negli attacchi).</p>"
         }
       },
       "details": {
