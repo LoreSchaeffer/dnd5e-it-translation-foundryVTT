@@ -8308,10 +8308,12 @@
       "name": "Glabrezu",
       "items": {
         "9kqiKxbLXk7Ved3q": {
-          "name": "Incantesimi Innati"
+          "name": "Incantesimi Innati",
+          "description": "<p>La caratteristica da incantatore del glabrezu è Intelligenza (CD del tiro salvezza degli incantesimi 16). Il glabrezu può lanciare i seguenti incantesimi innati, senza richiedere componenti materiali:</p>\n<p>A volontà: [[/item .S7VbUetIfVT7B6Eq]]{oscurità}, [[/item .ghXTfe7sgCbgf1Q8]]{individuazione del magico}, [[/item .15Fa6q1nH27XfbR8]]{dissolvi magie}</p>\n<p>1/giorno ciascuno: [[/item .9hQXdMSmerkTsHDe]]{confusione}, [[/item .yfbK8gZqESlaoY5t]]{volare}, [[/item .35j2QIMmIk6aEdxj]]{parola del potere stordire}</p>"
         },
         "MCquBpEbQDXKRAju": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua quattro attacchi: due con le sue [[/item .pEUD99mri5iDNGH7]]{chele} e due con i suoi [[/item .VGFZM2Zvp0NT5Yb9]]{pugni}. In alternativa, effettua due attacchi con le chele e lancia un incantesimo.</p>"
         },
         "S7VbUetIfVT7B6Eq": {
           "name": "Oscurità",
@@ -8328,7 +8330,8 @@
         },
         "9hQXdMSmerkTsHDe": {
           "name": "Confusione",
-          "materials": "tre gusci di noce."
+          "materials": "tre gusci di noce.",
+          "description": "<p>Questo incantesimo aggredisce e distorce la mente delle creature, generando deliri e provocando azioni incontrollate. Ogni creatura in una sfera con raggio di 3 metri centrata su un punto a tua scelta entro gittata deve superare un tiro salvezza su Saggezza quando lanci questo incantesimo, altrimenti ne subisce gli effetti.</p>\n<p>Un bersaglio influenzato non può effettuare reazioni e deve tirare [[/r 1d10]] all'inizio di ciascun proprio turno per determinare il suo comportamento in quel turno.</p>\n<table style=\"height:80px;width:98.835%\">\n<thead>\n<tr style=\"height:16px;text-align:center\">\n<td style=\"width:10.1923%;height:16px\">d10</td>\n<td style=\"width:88.8254%;height:16px\">Comportamento</td>\n</tr>\n</thead>\n<tbody>\n<tr style=\"height:16px\">\n<td style=\"width:10.1923%;height:16px;text-align:center\">1</td>\n<td style=\"width:88.8254%;height:16px\">La creatura usa tutto il proprio movimento per muoversi in una direzione casuale. Per determinare la direzione, tira [[/r 1d8]] e assegna una direzione a ciascuna faccia del dado. La creatura non effettua alcuna azione in questo turno.</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:10.1923%;height:16px;text-align:center\">2-6</td>\n<td style=\"width:88.8254%;height:16px\">La creatura non si muove né effettua azioni in questo turno.</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:10.1923%;height:16px;text-align:center\">7-8</td>\n<td style=\"width:88.8254%;height:16px\">La creatura usa la propria azione per effettuare un attacco in mischia contro una creatura determinata casualmente entro la sua portata. Se non vi sono creature entro la sua portata, la creatura non fa nulla in questo turno.</td>\n</tr>\n<tr style=\"height:16px\">\n<td style=\"width:10.1923%;height:16px;text-align:center\">9-10</td>\n<td style=\"width:88.8254%;height:16px\">La creatura può agire e muoversi normalmente. </td>\n</tr>\n</tbody>\n</table>\n<p><em><strong>Ai Livelli Superiori.</strong></em> Quando lanci questo incantesimo usando uno slot incantesimo di 5° livello o superiore, il raggio della sfera aumenta di 1,5 metri per ogni livello dello slot superiore al 4°.</p>"
         },
         "yfbK8gZqESlaoY5t": {
           "name": "Volare",
@@ -8347,9 +8350,12 @@
           "name": "Chela",
           "effects": {
             "BxMI1bnTXP73pD8P": {
-              "name": "Afferrato dalla Chela"
+              "name": "Afferrato dalla Chela",
+              "description": "<p>Sei &amp;reference[grappled apply=false]{afferrato} (CD 15 per sfuggire).</p>"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio è una creatura di taglia Media o inferiore, è &amp;reference[grappled]{afferrato} (CD 15 per sfuggire). Il [[lookup @name lowercase]]{mostro} possiede due [[lookup @item.name lowercase]], ognuna delle quali può afferrare un solo bersaglio.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con la sua [[lookup @item.name]]. Se il bersaglio è una creatura di taglia Media o inferiore, è &amp;reference[grappled]{afferrato}.</p>"
         },
         "VGFZM2Zvp0NT5Yb9": {
           "name": "Pugno",

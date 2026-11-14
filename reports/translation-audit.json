@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2268,
+      "translated": 2269,
       "missing": 3,
-      "partial": 120,
+      "partial": 119,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14553,
-      "missing": 1107,
+      "translated": 14559,
+      "missing": 1101,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1112
+    "blockingIssues": 1106
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 233,
+          "translated": 234,
           "missing": 0,
-          "partial": 104,
+          "partial": 103,
           "review": 0
         },
         "folders": {
@@ -578,68 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6737,
-          "missing": 369,
+          "translated": 6743,
+          "missing": 363,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "OGPHF4sCVOAi87TU",
-          "name": "Glabrezu",
-          "fieldPath": "items[9kqiKxbLXk7Ved3q].system.description.value",
-          "sourcePath": "monsters/fiend/glabrezu.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "OGPHF4sCVOAi87TU",
-          "name": "Glabrezu",
-          "fieldPath": "items[MCquBpEbQDXKRAju].system.description.value",
-          "sourcePath": "monsters/fiend/glabrezu.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "OGPHF4sCVOAi87TU",
-          "name": "Glabrezu",
-          "fieldPath": "items[pEUD99mri5iDNGH7].system.description.value",
-          "sourcePath": "monsters/fiend/glabrezu.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "OGPHF4sCVOAi87TU",
-          "name": "Glabrezu",
-          "fieldPath": "items[pEUD99mri5iDNGH7].system.description.chat",
-          "sourcePath": "monsters/fiend/glabrezu.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "OGPHF4sCVOAi87TU",
-          "name": "Glabrezu",
-          "fieldPath": "items[pEUD99mri5iDNGH7].effects[BxMI1bnTXP73pD8P].description",
-          "sourcePath": "monsters/fiend/glabrezu.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "OGPHF4sCVOAi87TU",
-          "name": "Glabrezu",
-          "fieldPath": "items[9hQXdMSmerkTsHDe].system.description.value",
-          "sourcePath": "monsters/fiend/glabrezu.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
