@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2310,
+      "translated": 2311,
       "missing": 3,
-      "partial": 78,
+      "partial": 77,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14700,
-      "missing": 960,
+      "translated": 14702,
+      "missing": 958,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 965
+    "blockingIssues": 963
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 275,
+          "translated": 276,
           "missing": 0,
-          "partial": 62,
+          "partial": 61,
           "review": 0
         },
         "folders": {
@@ -578,32 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6884,
-          "missing": 222,
+          "translated": 6886,
+          "missing": 220,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "D5UqYD1EnTrJaMTO",
-          "name": "Knight",
-          "fieldPath": "items[FK0ZF8egty0u713z].system.description.value",
-          "sourcePath": "monsters/humanoid/knight.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "D5UqYD1EnTrJaMTO",
-          "name": "Knight",
-          "fieldPath": "items[FK0ZF8egty0u713z].effects[vd2lrybGb5P1arPD].description",
-          "sourcePath": "monsters/humanoid/knight.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
