@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2326,
+      "translated": 2327,
       "missing": 3,
-      "partial": 62,
+      "partial": 61,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14756,
-      "missing": 904,
+      "translated": 14763,
+      "missing": 897,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 909
+    "blockingIssues": 902
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 291,
+          "translated": 292,
           "missing": 0,
-          "partial": 46,
+          "partial": 45,
           "review": 0
         },
         "folders": {
@@ -578,77 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6940,
-          "missing": 166,
+          "translated": 6947,
+          "missing": 159,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "8ExSFCar5Lbhdo7u",
-          "name": "Guardian Naga",
-          "fieldPath": "items[wtPKdh22QAc93kgt].system.description.value",
-          "sourcePath": "monsters/monstrosity/guardian-naga.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "8ExSFCar5Lbhdo7u",
-          "name": "Guardian Naga",
-          "fieldPath": "items[wtPKdh22QAc93kgt].system.description.chat",
-          "sourcePath": "monsters/monstrosity/guardian-naga.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "8ExSFCar5Lbhdo7u",
-          "name": "Guardian Naga",
-          "fieldPath": "items[hQFQz2LiNGpxcRvw].system.description.value",
-          "sourcePath": "monsters/monstrosity/guardian-naga.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "8ExSFCar5Lbhdo7u",
-          "name": "Guardian Naga",
-          "fieldPath": "items[hQFQz2LiNGpxcRvw].system.activities.Z2wqSwuJDKaRy2TA.description.value",
-          "sourcePath": "monsters/monstrosity/guardian-naga.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "8ExSFCar5Lbhdo7u",
-          "name": "Guardian Naga",
-          "fieldPath": "items[PtPZ5aBQPEfbbvla].system.description.value",
-          "sourcePath": "monsters/monstrosity/guardian-naga.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "8ExSFCar5Lbhdo7u",
-          "name": "Guardian Naga",
-          "fieldPath": "items[pO4zGe5LmFIYqJiL].system.description.value",
-          "sourcePath": "monsters/monstrosity/guardian-naga.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "8ExSFCar5Lbhdo7u",
-          "name": "Guardian Naga",
-          "fieldPath": "items[da0a1t2FqaTjRZGT].system.description.value",
-          "sourcePath": "monsters/monstrosity/guardian-naga.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
