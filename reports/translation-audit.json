@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2312,
+      "translated": 2313,
       "missing": 3,
-      "partial": 76,
+      "partial": 75,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14705,
-      "missing": 955,
+      "translated": 14712,
+      "missing": 948,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 960
+    "blockingIssues": 953
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 277,
+          "translated": 278,
           "missing": 0,
-          "partial": 60,
+          "partial": 59,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6889,
-          "missing": 217,
+          "translated": 6896,
+          "missing": 210,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -594,69 +594,6 @@
           "name": "Lizardfolk",
           "fieldPath": "items[s88qLjZemkFRnB8Y].system.description.value",
           "sourcePath": "monsters/humanoid/lizardfolk.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "PVD5wRdyO7iCJPs1",
-          "name": "Priest",
-          "fieldPath": "items[J12x6xIwx1aCEm1e].system.description.value",
-          "sourcePath": "monsters/humanoid/priest.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "PVD5wRdyO7iCJPs1",
-          "name": "Priest",
-          "fieldPath": "items[9LzZrzdWIZpjFIGV].system.description.value",
-          "sourcePath": "monsters/humanoid/priest.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "PVD5wRdyO7iCJPs1",
-          "name": "Priest",
-          "fieldPath": "items[9LzZrzdWIZpjFIGV].system.description.chat",
-          "sourcePath": "monsters/humanoid/priest.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "PVD5wRdyO7iCJPs1",
-          "name": "Priest",
-          "fieldPath": "items[9LzZrzdWIZpjFIGV].system.activities.YlbwXUwUD6nJY83h.description.value",
-          "sourcePath": "monsters/humanoid/priest.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "PVD5wRdyO7iCJPs1",
-          "name": "Priest",
-          "fieldPath": "items[9LzZrzdWIZpjFIGV].effects[PaQtao21YjjGVqKB].description",
-          "sourcePath": "monsters/humanoid/priest.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "PVD5wRdyO7iCJPs1",
-          "name": "Priest",
-          "fieldPath": "items[9LzZrzdWIZpjFIGV].effects[tfpaZ6OFBFw27RbT].description",
-          "sourcePath": "monsters/humanoid/priest.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "PVD5wRdyO7iCJPs1",
-          "name": "Priest",
-          "fieldPath": "items[9LzZrzdWIZpjFIGV].effects[PgUQuuROJAyV6QEP].description",
-          "sourcePath": "monsters/humanoid/priest.yml"
         },
         {
           "code": "missing-field",

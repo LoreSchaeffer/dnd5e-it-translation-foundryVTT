@@ -9,7 +9,7 @@
 | heroes | 12 | 12 | 0 | 0 | 0 | 0 | 0 |
 | items | 885 | 885 | 0 | 0 | 0 | 0 | 48 |
 | monsterfeatures | 252 | 252 | 0 | 0 | 0 | 0 | 0 |
-| monsters | 337 | 277 | 0 | 60 | 0 | 217 | 217 |
+| monsters | 337 | 278 | 0 | 59 | 0 | 210 | 210 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
 | rules | 20 | 1 | 3 | 16 | 0 | 738 | 695 |
 | spells | 320 | 320 | 0 | 0 | 0 | 0 | 0 |
@@ -17,7 +17,7 @@
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 960
+Total blocking issues: 953
 
 ## Issues
 
@@ -70,13 +70,6 @@ Total blocking issues: 960
 - **extra-entry** `items:Unarmed Strike (Monk)`
 - **extra-entry** `items:Enterteiner's Pack`
 - **missing-field** `monsters:57DofLgRQx16ARoc:items[s88qLjZemkFRnB8Y].system.description.value`
-- **missing-field** `monsters:PVD5wRdyO7iCJPs1:items[J12x6xIwx1aCEm1e].system.description.value`
-- **missing-field** `monsters:PVD5wRdyO7iCJPs1:items[9LzZrzdWIZpjFIGV].system.description.value`
-- **missing-field** `monsters:PVD5wRdyO7iCJPs1:items[9LzZrzdWIZpjFIGV].system.description.chat`
-- **missing-field** `monsters:PVD5wRdyO7iCJPs1:items[9LzZrzdWIZpjFIGV].system.activities.YlbwXUwUD6nJY83h.description.value`
-- **missing-field** `monsters:PVD5wRdyO7iCJPs1:items[9LzZrzdWIZpjFIGV].effects[PaQtao21YjjGVqKB].description`
-- **missing-field** `monsters:PVD5wRdyO7iCJPs1:items[9LzZrzdWIZpjFIGV].effects[tfpaZ6OFBFw27RbT].description`
-- **missing-field** `monsters:PVD5wRdyO7iCJPs1:items[9LzZrzdWIZpjFIGV].effects[PgUQuuROJAyV6QEP].description`
 - **missing-field** `monsters:lyNBFmJdbh4NLRzz:items[1aEgtsYuxz12hFn3].system.description.value`
 - **missing-field** `monsters:lyNBFmJdbh4NLRzz:items[SQqFFwf2ADQmLaVO].system.description.value`
 - **missing-field** `monsters:lyNBFmJdbh4NLRzz:items[QJSOQXewtM4dM59t].system.description.value`
