@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2349,
+      "translated": 2350,
       "missing": 3,
-      "partial": 39,
+      "partial": 38,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14847,
-      "missing": 813,
+      "translated": 14851,
+      "missing": 809,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 818
+    "blockingIssues": 814
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 314,
+          "translated": 315,
           "missing": 0,
-          "partial": 23,
+          "partial": 22,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 7031,
-          "missing": 75,
+          "translated": 7035,
+          "missing": 71,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -792,42 +792,6 @@
           "name": "Worg",
           "fieldPath": "items[UnONIXYgZcE3Jya0].system.description.chat",
           "sourcePath": "monsters/monstrosity/worg.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "iHj5Tkm6HRgXuaWP",
-          "name": "Arcane Hand",
-          "fieldPath": "items[flSMgvK8J2USFtGo].system.description.value",
-          "sourcePath": "monsters/summons/arcane-hand.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "iHj5Tkm6HRgXuaWP",
-          "name": "Arcane Hand",
-          "fieldPath": "items[kKg1WU7qO2fLSB0e].system.description.value",
-          "sourcePath": "monsters/summons/arcane-hand.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "iHj5Tkm6HRgXuaWP",
-          "name": "Arcane Hand",
-          "fieldPath": "items[rne03sCadusyP3Yg].system.description.value",
-          "sourcePath": "monsters/summons/arcane-hand.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "iHj5Tkm6HRgXuaWP",
-          "name": "Arcane Hand",
-          "fieldPath": "items[vgK74YR1Lv2WrGCx].system.description.value",
-          "sourcePath": "monsters/summons/arcane-hand.yml"
         },
         {
           "code": "missing-field",
