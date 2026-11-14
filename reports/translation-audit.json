@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2325,
+      "translated": 2326,
       "missing": 3,
-      "partial": 63,
+      "partial": 62,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14755,
-      "missing": 905,
+      "translated": 14756,
+      "missing": 904,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 910
+    "blockingIssues": 909
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 290,
+          "translated": 291,
           "missing": 0,
-          "partial": 47,
+          "partial": 46,
           "review": 0
         },
         "folders": {
@@ -578,23 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6939,
-          "missing": 167,
+          "translated": 6940,
+          "missing": 166,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "h052EIIUmRwJum65",
-          "name": "Griffon",
-          "fieldPath": "items[wF7eGWgo8AZNTcyg].system.description.value",
-          "sourcePath": "monsters/monstrosity/griffon.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
