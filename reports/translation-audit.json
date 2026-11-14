@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2220,
+      "translated": 2221,
       "missing": 3,
-      "partial": 168,
+      "partial": 167,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14390,
-      "missing": 1270,
+      "translated": 14393,
+      "missing": 1267,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1275
+    "blockingIssues": 1272
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 185,
+          "translated": 186,
           "missing": 0,
-          "partial": 152,
+          "partial": 151,
           "review": 0
         },
         "folders": {
@@ -578,41 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6574,
-          "missing": 532,
+          "translated": 6577,
+          "missing": 529,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "pAuiNDr7nvpsW9nG",
-          "name": "Ancient Brass Dragon",
-          "fieldPath": "items[IiNKOgZ3djF0mBXR].system.description.value",
-          "sourcePath": "monsters/dragon/ancient-brass-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "pAuiNDr7nvpsW9nG",
-          "name": "Ancient Brass Dragon",
-          "fieldPath": "items[o8kI0IWURJx3MaqK].system.description.value",
-          "sourcePath": "monsters/dragon/ancient-brass-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "pAuiNDr7nvpsW9nG",
-          "name": "Ancient Brass Dragon",
-          "fieldPath": "items[0RHacNLUyJEOf5Bl].system.description.value",
-          "sourcePath": "monsters/dragon/ancient-brass-dragon.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
