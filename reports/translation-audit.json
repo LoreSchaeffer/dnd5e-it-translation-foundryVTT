@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2333,
+      "translated": 2334,
       "missing": 3,
-      "partial": 55,
+      "partial": 54,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14781,
-      "missing": 879,
+      "translated": 14785,
+      "missing": 875,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 884
+    "blockingIssues": 880
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 298,
+          "translated": 299,
           "missing": 0,
-          "partial": 39,
+          "partial": 38,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6965,
-          "missing": 141,
+          "translated": 6969,
+          "missing": 137,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -648,42 +648,6 @@
           "name": "Lamia",
           "fieldPath": "items[fVbCxFRaORalHB20].system.description.value",
           "sourcePath": "monsters/monstrosity/lamia.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "eiifqZwYGi71r2Yl",
-          "name": "Medusa",
-          "fieldPath": "items[KmzlUGMXUhY2HubE].system.description.value",
-          "sourcePath": "monsters/monstrosity/medusa.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "eiifqZwYGi71r2Yl",
-          "name": "Medusa",
-          "fieldPath": "items[KmzlUGMXUhY2HubE].system.description.chat",
-          "sourcePath": "monsters/monstrosity/medusa.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "eiifqZwYGi71r2Yl",
-          "name": "Medusa",
-          "fieldPath": "items[KmzlUGMXUhY2HubE].effects[X227DPzcMe3z6bic].description",
-          "sourcePath": "monsters/monstrosity/medusa.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "eiifqZwYGi71r2Yl",
-          "name": "Medusa",
-          "fieldPath": "items[udfhkp3BOEpgThbR].system.description.value",
-          "sourcePath": "monsters/monstrosity/medusa.yml"
         },
         {
           "code": "missing-field",
