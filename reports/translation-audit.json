@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2381,
+      "translated": 2382,
       "missing": 3,
-      "partial": 7,
+      "partial": 6,
       "review": 0
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14967,
-      "missing": 693,
+      "translated": 14971,
+      "missing": 689,
       "invariantFailures": 0,
       "englishResiduals": 0,
       "imperialResiduals": 0
     },
-    "blockingIssues": 695
+    "blockingIssues": 691
   },
   "packs": [
     {
@@ -620,9 +620,9 @@
       "summary": {
         "documents": {
           "total": 20,
-          "translated": 10,
+          "translated": 11,
           "missing": 3,
-          "partial": 7,
+          "partial": 6,
           "review": 0
         },
         "folders": {
@@ -634,8 +634,8 @@
         },
         "fields": {
           "total": 877,
-          "translated": 184,
-          "missing": 693,
+          "translated": 188,
+          "missing": 689,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -6113,42 +6113,6 @@
           "name": "Appendix E: Rules",
           "fieldPath": "pages[oNQWvyRZkTOJ8PBq].text.content",
           "sourcePath": "rules/appendix-e-rules.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "kWXplnmp5JXCo84x",
-          "name": "Chapter 4: Personality and Background",
-          "fieldPath": "pages[p1Jaf0GiuDnembBO].text.content",
-          "sourcePath": "rules/chapter-4-personality-and-background.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "kWXplnmp5JXCo84x",
-          "name": "Chapter 4: Personality and Background",
-          "fieldPath": "pages[jcpZgjk77lUW7OkM].text.content",
-          "sourcePath": "rules/chapter-4-personality-and-background.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "kWXplnmp5JXCo84x",
-          "name": "Chapter 4: Personality and Background",
-          "fieldPath": "pages[k7RmdfUGl7aQKU5I].text.content",
-          "sourcePath": "rules/chapter-4-personality-and-background.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "kWXplnmp5JXCo84x",
-          "name": "Chapter 4: Personality and Background",
-          "fieldPath": "pages[yVqTYrqULTs2JCV8].text.content",
-          "sourcePath": "rules/chapter-4-personality-and-background.yml"
         },
         {
           "code": "missing-field",
