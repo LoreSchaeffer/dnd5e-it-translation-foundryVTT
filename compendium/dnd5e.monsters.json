@@ -1796,7 +1796,8 @@
           },
           "effects": {
             "MNgx8MPcSucyc8VN": {
-              "name": "Resistenza al Fuoco Conferita"
+              "name": "Resistenza al Fuoco Conferita",
+              "description": "<p>L'incubo ti conferisce resistenza ai danni da fuoco mentre lo cavalchi.</p>"
             }
           },
           "description": "<p>Il [[lookup @name lowercase]]{mostro} può conferire resistenza ai <em>danni da fuoco</em> a chiunque lo cavalchi.</p>"
@@ -1811,7 +1812,8 @@
             "g0q1v5S5s6ZLTZcz": {
               "name": "Viaggiare tra i Piani"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} e fino a [[lookup @labels.description.affects activity=g0q1v5S5s6ZLTZcz]] entro [[lookup @labels.description.range activity=g0q1v5S5s6ZLTZcz]] da esso entrano magicamente nel Piano Etereo dal Piano Materiale, o viceversa.</p>"
         },
         "lzv29dS3tAUUuVlI": {
           "name": "Zoccoli",

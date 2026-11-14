@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2275,
+      "translated": 2276,
       "missing": 3,
-      "partial": 113,
+      "partial": 112,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14579,
-      "missing": 1081,
+      "translated": 14581,
+      "missing": 1079,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1086
+    "blockingIssues": 1084
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 240,
+          "translated": 241,
           "missing": 0,
-          "partial": 97,
+          "partial": 96,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6763,
-          "missing": 343,
+          "translated": 6765,
+          "missing": 341,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -711,24 +711,6 @@
           "name": "Night Hag",
           "fieldPath": "items[tYZggJHgAbixP5rs].system.description.chat",
           "sourcePath": "monsters/fiend/night-hag.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "5SgVGhQBswgWRwsF",
-          "name": "Nightmare",
-          "fieldPath": "items[ez0lp4uo2fLOc5Yf].effects[MNgx8MPcSucyc8VN].description",
-          "sourcePath": "monsters/fiend/nightmare.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "5SgVGhQBswgWRwsF",
-          "name": "Nightmare",
-          "fieldPath": "items[XtK73VCT1s8abvjs].system.description.value",
-          "sourcePath": "monsters/fiend/nightmare.yml"
         },
         {
           "code": "missing-field",
