@@ -15963,20 +15963,24 @@
               "description": "<p>Ti sei trasformato nella tua vera forma, che è umanoide.</p>"
             },
             "yc01pea2fc1DSSns": {
-              "name": "Forma Ibrida"
+              "name": "Forma Ibrida",
+              "description": "<p>Ti sei trasformato nella tua forma ibrida, un ibrido ratto-umanoide.</p>"
             },
             "EwReSrmzBnSylMHv": {
-              "name": "Forma di Ratto"
+              "name": "Forma di Ratto",
+              "description": "<p>Ti sei trasformato nella tua forma di ratto.</p>"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} può usare la propria azione per trasformarsi o tornare alla sua vera forma.</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} può usare la propria azione per trasformarsi o tornare alla sua vera forma.</p>",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} può usare la propria azione per trasformarsi in un ibrido ratto-umanoide o in un ratto gigante, oppure per tornare alla sua vera forma, che è umanoide.</p><p>Le sue statistiche, a eccezione della taglia, sono le stesse in ogni forma. Qualsiasi equipaggiamento che indossa o trasporta non viene trasformato. Se muore, torna alla sua vera forma.</p>"
         },
         "UwlU9Zhwf94gPX0n": {
           "name": "Olfatto Acuto",
           "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di vantaggio alle prove di Saggezza (Percezione) basate sull'olfatto.</p>"
         },
         "ykZaywAeuqtWHAqQ": {
-          "name": "Multiattacco (Solo in Forma Umanoide o Ibrida)"
+          "name": "Multiattacco (Solo in Forma Umanoide o Ibrida)",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua due attacchi, solo uno dei quali può essere un [[/item .ldz0yUpzhV9Xlhss]]{morso}.</p>"
         },
         "ldz0yUpzhV9Xlhss": {
           "name": "Morso (Solo in Forma di Ratto o Ibrida)",
@@ -15990,7 +15994,8 @@
           },
           "effects": {
             "mHBemQYUogbgs5yj": {
-              "name": "Licantropia del Ratto Mannaro"
+              "name": "Licantropia del Ratto Mannaro",
+              "description": "<p>Sei maledetto dalla licantropia del topo mannaro.</p>"
             }
           },
           "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio Morso. Se il bersaglio è un umanoide, deve effettuare un tiro salvezza su Costituzione.</p>",
@@ -15998,11 +16003,13 @@
         },
         "YJi7nfridP2LjdJs": {
           "name": "Balestra a Mano (Solo in Forma Umanoide o Ibrida)",
-          "description": "<p>[[/attack extended]]. [[/damage extended]].</p>"
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con la sua Balestra a Mano.</p>"
         },
         "wpyEts6pBAxoD0Gh": {
           "name": "Spada Corta (Solo in Forma Umanoide o Ibrida)",
-          "description": "<p>[[/attack extended]]. [[/damage extended]].</p>"
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con la sua Spada Corta.</p>"
         }
       },
       "details": {

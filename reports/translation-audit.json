@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2318,
+      "translated": 2319,
       "missing": 3,
-      "partial": 70,
+      "partial": 69,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14725,
-      "missing": 935,
+      "translated": 14732,
+      "missing": 928,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 940
+    "blockingIssues": 933
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 283,
+          "translated": 284,
           "missing": 0,
-          "partial": 54,
+          "partial": 53,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6909,
-          "missing": 197,
+          "translated": 6916,
+          "missing": 190,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -594,69 +594,6 @@
           "name": "Lizardfolk",
           "fieldPath": "items[s88qLjZemkFRnB8Y].system.description.value",
           "sourcePath": "monsters/humanoid/lizardfolk.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "CrnUJhTbkdZjCZsH",
-          "name": "Wererat",
-          "fieldPath": "items[PhdUmTsYUeWSSDNN].system.description.value",
-          "sourcePath": "monsters/humanoid/wererat.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "CrnUJhTbkdZjCZsH",
-          "name": "Wererat",
-          "fieldPath": "items[PhdUmTsYUeWSSDNN].effects[yc01pea2fc1DSSns].description",
-          "sourcePath": "monsters/humanoid/wererat.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "CrnUJhTbkdZjCZsH",
-          "name": "Wererat",
-          "fieldPath": "items[PhdUmTsYUeWSSDNN].effects[EwReSrmzBnSylMHv].description",
-          "sourcePath": "monsters/humanoid/wererat.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "CrnUJhTbkdZjCZsH",
-          "name": "Wererat",
-          "fieldPath": "items[ykZaywAeuqtWHAqQ].system.description.value",
-          "sourcePath": "monsters/humanoid/wererat.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "CrnUJhTbkdZjCZsH",
-          "name": "Wererat",
-          "fieldPath": "items[ldz0yUpzhV9Xlhss].effects[mHBemQYUogbgs5yj].description",
-          "sourcePath": "monsters/humanoid/wererat.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "CrnUJhTbkdZjCZsH",
-          "name": "Wererat",
-          "fieldPath": "items[YJi7nfridP2LjdJs].system.description.chat",
-          "sourcePath": "monsters/humanoid/wererat.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "CrnUJhTbkdZjCZsH",
-          "name": "Wererat",
-          "fieldPath": "items[wpyEts6pBAxoD0Gh].system.description.chat",
-          "sourcePath": "monsters/humanoid/wererat.yml"
         },
         {
           "code": "missing-field",
