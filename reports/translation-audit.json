@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2294,
+      "translated": 2295,
       "missing": 3,
-      "partial": 94,
+      "partial": 93,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14651,
-      "missing": 1009,
+      "translated": 14654,
+      "missing": 1006,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1014
+    "blockingIssues": 1011
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 259,
+          "translated": 260,
           "missing": 0,
-          "partial": 78,
+          "partial": 77,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6835,
-          "missing": 271,
+          "translated": 6838,
+          "missing": 268,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -1278,33 +1278,6 @@
           "name": "Werewolf",
           "fieldPath": "items[2kHNI1T4gg879fDv].effects[yUtUCn3TPecpu4SI].description",
           "sourcePath": "monsters/humanoid/werewolf.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "hqj2yXtgwt64v3Lj",
-          "name": "Basilisk",
-          "fieldPath": "items[bKBPawscKpixPeO0].system.description.value",
-          "sourcePath": "monsters/monstrosity/basilisk.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "hqj2yXtgwt64v3Lj",
-          "name": "Basilisk",
-          "fieldPath": "items[bKBPawscKpixPeO0].system.description.chat",
-          "sourcePath": "monsters/monstrosity/basilisk.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "hqj2yXtgwt64v3Lj",
-          "name": "Basilisk",
-          "fieldPath": "items[bKBPawscKpixPeO0].effects[dlT1Vtz6YqV7Qf5I].description",
-          "sourcePath": "monsters/monstrosity/basilisk.yml"
         },
         {
           "code": "missing-field",
