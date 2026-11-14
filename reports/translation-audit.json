@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2239,
+      "translated": 2240,
       "missing": 3,
-      "partial": 149,
+      "partial": 148,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14436,
-      "missing": 1224,
+      "translated": 14438,
+      "missing": 1222,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1229
+    "blockingIssues": 1227
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 204,
+          "translated": 205,
           "missing": 0,
-          "partial": 133,
+          "partial": 132,
           "review": 0
         },
         "folders": {
@@ -578,32 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6620,
-          "missing": 486,
+          "translated": 6622,
+          "missing": 484,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "NmQLj0zv4FmfuSan",
-          "name": "Young Bronze Dragon",
-          "fieldPath": "items[xDjzXK9dbD2EV8hi].system.description.value",
-          "sourcePath": "monsters/dragon/young-bronze-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "NmQLj0zv4FmfuSan",
-          "name": "Young Bronze Dragon",
-          "fieldPath": "items[nRygf5tL7Jm91beK].system.description.value",
-          "sourcePath": "monsters/dragon/young-bronze-dragon.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
