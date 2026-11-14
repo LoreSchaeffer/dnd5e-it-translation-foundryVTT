@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2232,
+      "translated": 2233,
       "missing": 3,
-      "partial": 156,
+      "partial": 155,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14416,
-      "missing": 1244,
+      "translated": 14417,
+      "missing": 1243,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1249
+    "blockingIssues": 1248
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 197,
+          "translated": 198,
           "missing": 0,
-          "partial": 140,
+          "partial": 139,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6600,
-          "missing": 506,
+          "translated": 6601,
+          "missing": 505,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -684,15 +684,6 @@
           "name": "Pseudodragon",
           "fieldPath": "items[MKFXRWP55I1bVlyD].effects[JDRYANXUoIBF9EQr].description",
           "sourcePath": "monsters/dragon/pseudodragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "J1QVPd8POvcPaqx4",
-          "name": "Silver Dragon Wyrmling",
-          "fieldPath": "items[ENcwNUKxDAqH6V9l].system.description.value",
-          "sourcePath": "monsters/dragon/silver-dragon-wyrmling.yml"
         },
         {
           "code": "missing-field",
