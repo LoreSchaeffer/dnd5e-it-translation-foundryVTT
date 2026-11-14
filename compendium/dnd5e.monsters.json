@@ -15314,7 +15314,8 @@
       },
       "items": {
         "2m2mkUSBJi2QOZje": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua tre attacchi: uno con il suo [[/item .7QJr0VCtVk2wtZ78]]{morso} e due con i suoi [[/item .P4joxK4BwyYsPfJv]]{artigli}. Può effettuare un attacco con la [[/item .zNDI1LvLKZ9Hi2Ew]]{coda} al posto dei suoi due attacchi con gli artigli.</p>"
         },
         "7QJr0VCtVk2wtZ78": {
           "name": "Morso",
@@ -15327,7 +15328,9 @@
             "4P1o1KZZ4sUzsAOu": {
               "name": "Esalare Vapore"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} esala vapore rovente in un [[lookup @labels.description.template activity=4P1o1KZZ4sUzsAOu]]. Ogni creatura in quell'area deve effettuare un tiro salvezza [[/save]], subendo [[/damage average]] danni se lo fallisce, oppure la metà di quei danni se lo supera.</p><p>Trovarsi sott'acqua non conferisce resistenza contro questi danni.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} esala vapore rovente in un [[lookup @labels.description.template activity=4P1o1KZZ4sUzsAOu]]. Ogni creatura in quell'area deve effettuare un tiro salvezza su Costituzione.</p>"
         },
         "kz0dD5J9FQTTryWp": {
           "name": "Anfibio",
@@ -15342,10 +15345,14 @@
           "name": "Coda",
           "activities": {
             "cW425UuJbXKMBAPa": {
-              "name": "Tiro Salvezza contro Prono"
+              "name": "Tiro Salvezza contro Prono",
+              "description": {
+                "value": "<p>Se il bersaglio è una creatura, deve superare un tiro salvezza [[/save]], altrimenti viene spinto fino a 3 metri lontano dalla tartaruga drago e buttato &amp;Reference[prone]{a terra}.</p>"
+              }
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Se il bersaglio è una creatura, deve effettuare un tiro salvezza su Forza.</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Se il bersaglio è una creatura, deve effettuare un tiro salvezza su Forza.</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio è una creatura, deve superare un tiro salvezza [[/save]], altrimenti viene spinto fino a 3 metri lontano dalla tartaruga drago e buttato &amp;Reference[prone]{a terra}.</p>"
         }
       },
       "details": {

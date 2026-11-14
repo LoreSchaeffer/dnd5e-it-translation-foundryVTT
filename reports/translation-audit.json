@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2233,
+      "translated": 2234,
       "missing": 3,
-      "partial": 155,
+      "partial": 154,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14417,
-      "missing": 1243,
+      "translated": 14422,
+      "missing": 1238,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1248
+    "blockingIssues": 1243
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 198,
+          "translated": 199,
           "missing": 0,
-          "partial": 139,
+          "partial": 138,
           "review": 0
         },
         "folders": {
@@ -578,59 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6601,
-          "missing": 505,
+          "translated": 6606,
+          "missing": 500,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ijsfYEDqSuwQXwNN",
-          "name": "Dragon Turtle",
-          "fieldPath": "items[2m2mkUSBJi2QOZje].system.description.value",
-          "sourcePath": "monsters/dragon/dragon-turtle.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ijsfYEDqSuwQXwNN",
-          "name": "Dragon Turtle",
-          "fieldPath": "items[zNDI1LvLKZ9Hi2Ew].system.description.value",
-          "sourcePath": "monsters/dragon/dragon-turtle.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ijsfYEDqSuwQXwNN",
-          "name": "Dragon Turtle",
-          "fieldPath": "items[zNDI1LvLKZ9Hi2Ew].system.activities.cW425UuJbXKMBAPa.description.value",
-          "sourcePath": "monsters/dragon/dragon-turtle.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ijsfYEDqSuwQXwNN",
-          "name": "Dragon Turtle",
-          "fieldPath": "items[UjT93YD55B87gMqZ].system.description.value",
-          "sourcePath": "monsters/dragon/dragon-turtle.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ijsfYEDqSuwQXwNN",
-          "name": "Dragon Turtle",
-          "fieldPath": "items[UjT93YD55B87gMqZ].system.description.chat",
-          "sourcePath": "monsters/dragon/dragon-turtle.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
