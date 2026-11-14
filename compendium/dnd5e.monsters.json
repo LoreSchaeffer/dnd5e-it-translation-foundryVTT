@@ -3579,7 +3579,8 @@
           "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
         },
         "kWquVg3QhBwODyz3": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} può usare la sua [[/item .xWSOEwthNmDecfQ8]]{Presenza Terrificante}. Poi effettua tre attacchi: uno con il suo [[/item .tz3vYeFf3GLouPGC]]{morso} e due con i suoi [[/item .kYySllKlNPBsT7Ho]]{artigli}.</p>"
         },
         "xX2G1oW5oG2hw4jE": {
           "name": "Resistenza Leggendaria",
@@ -3648,7 +3649,8 @@
               "name": "Colpo di Coda"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} schianta la propria lunga coda contro il nemico!</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} schianta la propria lunga coda contro il nemico!</p>",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua un attacco con la [[/item .tPZA3sUmzXN6euE9]]{coda}.</p>"
         },
         "BVm93fESzDI3ALm0": {
           "name": "Attacco d'Ala",

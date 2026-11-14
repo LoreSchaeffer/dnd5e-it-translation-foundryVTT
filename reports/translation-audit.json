@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2209,
+      "translated": 2210,
       "missing": 3,
-      "partial": 179,
+      "partial": 178,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14361,
-      "missing": 1299,
+      "translated": 14363,
+      "missing": 1297,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1304
+    "blockingIssues": 1302
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 174,
+          "translated": 175,
           "missing": 0,
-          "partial": 163,
+          "partial": 162,
           "review": 0
         },
         "folders": {
@@ -578,32 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6545,
-          "missing": 561,
+          "translated": 6547,
+          "missing": 559,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "cGM3iVYTtCsYXjzO",
-          "name": "Adult Blue Dragon",
-          "fieldPath": "items[kWquVg3QhBwODyz3].system.description.value",
-          "sourcePath": "monsters/dragon/adult-blue-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "cGM3iVYTtCsYXjzO",
-          "name": "Adult Blue Dragon",
-          "fieldPath": "items[Bt6Lf5wZJLxdShut].system.description.value",
-          "sourcePath": "monsters/dragon/adult-blue-dragon.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
