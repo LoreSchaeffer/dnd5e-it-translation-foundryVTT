@@ -3676,7 +3676,8 @@
       },
       "items": {
         "gbM7g0hyrF6MMYqR": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} può usare la sua [[/item .HDGLlSq9suLd9DIn]]{Presenza Terrificante}. Poi effettua tre attacchi: uno con il suo [[/item .F29wEcjTlpKWcfO3]]{morso} e due con i suoi [[/item .Hoc6KiovAZiBi5HV]]{artigli}.</p>"
         },
         "F29wEcjTlpKWcfO3": {
           "name": "Morso",
@@ -3750,7 +3751,8 @@
               "name": "Colpo di Coda"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} schianta la propria lunga coda contro il nemico!</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} schianta la propria lunga coda contro il nemico!</p>",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua un attacco con la [[/item .GV0gL8StP41vlgL9]]{coda}.</p>"
         },
         "bvpVmANGxNgRpcKU": {
           "name": "Attacco d'Ala",
