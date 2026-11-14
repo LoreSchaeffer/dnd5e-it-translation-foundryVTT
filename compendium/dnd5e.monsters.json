@@ -679,7 +679,8 @@
           "materials": "una moneta di rame"
         },
         "X4c8xCkmF8U9HUMz": {
-          "name": "Immagine Speculare"
+          "name": "Immagine Speculare",
+          "description": "<p>Tre duplicati illusori di te compaiono nel tuo spazio. Finché l'incantesimo non termina, i duplicati si muovono assieme a te e imitano le tue azioni, cambiando posizione in modo che sia impossibile individuare quale immagine sia reale. Puoi usare la tua azione per congedare i duplicati illusori.</p>\n<p>Ogni volta che una creatura ti bersaglia con un attacco durante la durata dell'incantesimo, tira [[/r 1d20 # Mirror Image Check]] per determinare se l'attacco bersaglia invece uno dei tuoi duplicati.</p>\n<p>Se possiedi tre duplicati, devi ottenere 6 o più per cambiare il bersaglio dell'attacco in un duplicato. Con due duplicati, devi ottenere 8 o più. Con un duplicato, devi ottenere 11 o più.</p>\n<p>La CA di un duplicato è pari a 10 + il tuo modificatore di Destrezza. Se un attacco colpisce un duplicato, il duplicato viene distrutto. Un duplicato può essere distrutto soltanto da un attacco che lo colpisce. Ignora tutti gli altri danni ed effetti. L'incantesimo termina quando tutti e tre i duplicati vengono distrutti.</p>\n<p>Una creatura non è influenzata da questo incantesimo se non può vedere, se si affida a sensi diversi dalla vista, come la vista cieca, o se può percepire le illusioni come false, come tramite la vista pura.</p>"
         },
         "wqfAVANuQonNBgnL": {
           "name": "Passo Velato",
@@ -714,7 +715,8 @@
             "UUXwEKSPX4nYfDzo": {
               "name": "Scudo Gelido"
             }
-          }
+          },
+          "description": "<p>Fiamme sottili e vaporose avvolgono il tuo corpo per la durata, proiettando luce intensa entro un raggio di 3 metri e luce fioca per altri 3 metri. Puoi terminare anticipatamente l'incantesimo usando un'azione per congedarlo.</p>\n<p>Le fiamme ti conferiscono uno scudo ardente o uno scudo gelido, a tua scelta. Lo scudo ardente ti conferisce resistenza ai danni da freddo, mentre lo scudo gelido ti conferisce resistenza ai danni da fuoco.</p>\n<p>Inoltre, ogni volta che una creatura entro 1,5 metri da te ti colpisce con un attacco in mischia, lo scudo erutta fiamme. L'attaccante subisce 2d8 danni da fuoco da uno scudo ardente, oppure 2d8 danni da freddo da uno scudo gelido.</p>"
         },
         "ReMbjfeOKoSj3O79": {
           "name": "Pelle di Pietra",
@@ -733,7 +735,8 @@
         },
         "fVbCxFRaORalHB20": {
           "name": "Scrutare",
-          "materials": "un focus del valore di almeno 1.000 mo, come una sfera di cristallo, uno specchio d'argento o un bacile pieno di acqua santa"
+          "materials": "un focus del valore di almeno 1.000 mo, come una sfera di cristallo, uno specchio d'argento o un bacile pieno di acqua santa",
+          "description": "<p>Puoi vedere e udire una particolare creatura a tua scelta situata sul tuo stesso piano di esistenza. Il bersaglio deve effettuare un tiro salvezza su Saggezza, modificato da quanto bene conosci il bersaglio e dal tipo di legame fisico che hai con esso. Se il bersaglio sa che stai lanciando questo incantesimo, può fallire il tiro salvezza volontariamente se desidera essere osservato.</p>\n<table border=\"1\">\n<tbody>\n<tr>\n<td><strong>Conoscenza</strong></td>\n<td><strong>Modificatore al Tiro Salvezza</strong></td>\n</tr>\n<tr>\n<td>Indiretta (hai sentito parlare del bersaglio)</td>\n<td>+5</td>\n</tr>\n<tr>\n<td>Diretta (hai incontrato il bersaglio)</td>\n<td>+0</td>\n</tr>\n<tr>\n<td>Familiarità (conosci bene il bersaglio)</td>\n<td>-5</td>\n</tr>\n</tbody>\n</table>\n\n<table border=\"1\">\n<tbody>\n<tr>\n<td><strong>Legame</strong></td>\n<td><strong>Modificatore al Tiro Salvezza</strong></td>\n</tr>\n<tr>\n<td>Somiglianza o ritratto</td>\n<td>-2</td>\n</tr>\n<tr>\n<td>Oggetto personale o indumento</td>\n<td>-4</td>\n</tr>\n<tr>\n<td>Parte del corpo, ciocca di capelli, frammento di unghia o simili</td>\n<td>-10</td>\n</tr>\n</tbody>\n</table>\n<p>Se supera il tiro salvezza, il bersaglio non è influenzato e non puoi usare di nuovo questo incantesimo contro di esso per 24 ore.</p><p>Se fallisce il tiro salvezza, l'incantesimo crea un sensore invisibile entro 3 metri dal bersaglio. Puoi vedere e udire attraverso il sensore come se fossi sul posto. Il sensore si muove assieme al bersaglio, rimanendo entro 3 metri da esso per la durata. Una creatura in grado di vedere gli oggetti invisibili vede il sensore come un globo luminoso delle dimensioni approssimative del tuo pugno.</p><p>Anziché bersagliare una creatura, puoi scegliere un luogo che hai già visto come bersaglio di questo incantesimo. Quando lo fai, il sensore appare in quel luogo e non si muove.</p>"
         },
         "o9ZCvuD2B1OTcubb": {
           "name": "Muro di Forza",
@@ -771,7 +774,9 @@
           "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di vantaggio ai tiri salvezza contro incantesimi e altri effetti magici.</p>"
         },
         "gSrKQbka5aLxlcJz": {
-          "name": "Incantesimi"
+          "name": "Incantesimi",
+          "description": "<p>L'arcimago è un incantatore di 18° livello. La sua caratteristica da incantatore è Intelligenza (CD del tiro salvezza degli incantesimi 17, +9 al tiro per colpire con gli attacchi con incantesimo). L'arcimago può lanciare [[/item .A3q2gTNqG6fvNGrv]]{Camuffare Se Stesso} e [[/item .1N8dDMMgZ1h1YJ3B]]{Invisibilità} a volontà e ha preparato i seguenti incantesimi da mago:</p><p>Trucchetti (a volontà): [[/item .EOmsUcFQJTfG2oio]]{Dardo di Fuoco}, [[/item .Bnn9Nzajixvow9xi]]{Luce}, [[/item .Utk1OQRwYkMkFRD3]]{Mano Magica}, [[/item .udsLtG0BugXHR2JQ]]{Prestidigitazione}, [[/item .XvbiNhNqXXIFisIy]]{Stretta Folgorante}</p><p>1° livello (4 slot): [[/item .ghXTfe7sgCbgf1Q8]]{Individuazione del Magico}, [[/item .3OZnNhunvRtPOQmH]]{Identificare}, [[/item .CKZTpZlxj7hjjo2H]]{Armatura Magica}*, [[/item .41JIhpDyM9Anm7cs]]{Dardo Incantato}</p><p>2° livello (3 slot): [[/item .ppWAAEul0QHtm4er]]{Individuazione dei Pensieri}, [[/item .X4c8xCkmF8U9HUMz]]{Immagine Speculare}, [[/item .wqfAVANuQonNBgnL]]{Passo Velato}</p><p>3° livello (3 slot): [[/item .Ek45cBpVXvJdv1Qy]]{Controincantesimo}, [[/item .yfbK8gZqESlaoY5t]]{Volare}, [[/item .IyikgTEOTv701jgQ]]{Fulmine}</p><p>4° livello (3 slot): [[/item .pxpb2eOB6bv4phAf]]{Esilio}, [[/item .avD5XUtkBPQQR97c]]{Scudo di Fuoco}, [[/item .ReMbjfeOKoSj3O79]]{Pelle di Pietra}*</p><p>5° livello (3 slot): [[/item .RpKjTlYASrfqUPVA]]{Cono di Freddo}, [[/item .fVbCxFRaORalHB20]]{Scrutare}, [[/item .o9ZCvuD2B1OTcubb]]{Muro di Forza}</p><p>6° livello (1 slot): [[/item .WmQpxfjZwF3MGUby]]{Globo di Invulnerabilità}</p><p>7° livello (1 slot): [[/item .L4J89JXqbKs6puEV]]{Teletrasporto}</p><p>8° livello (1 slot): [[/item .bllEWfm9xfEKynhv]]{Vuoto Mentale}*</p><p>9° livello (1 slot): [[/item .JYuRBwxpoFhXduvD]]{Fermare il Tempo}*</p><p>*-L'arcimago lancia questi incantesimi su se stesso prima del combattimento.</p>",
+          "chat": "<p>L'arcimago è un incantatore. La sua caratteristica da incantatore è Intelligenza.</p>"
         }
       },
       "traits": {

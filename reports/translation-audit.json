@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2288,
+      "translated": 2289,
       "missing": 3,
-      "partial": 100,
+      "partial": 99,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14624,
-      "missing": 1036,
+      "translated": 14629,
+      "missing": 1031,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1041
+    "blockingIssues": 1036
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 253,
+          "translated": 254,
           "missing": 0,
-          "partial": 84,
+          "partial": 83,
           "review": 0
         },
         "folders": {
@@ -578,59 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6808,
-          "missing": 298,
+          "translated": 6813,
+          "missing": 293,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "B7lBOr1AahNZs4a6",
-          "name": "Archmage",
-          "fieldPath": "items[gSrKQbka5aLxlcJz].system.description.value",
-          "sourcePath": "monsters/humanoid/archmage.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "B7lBOr1AahNZs4a6",
-          "name": "Archmage",
-          "fieldPath": "items[gSrKQbka5aLxlcJz].system.description.chat",
-          "sourcePath": "monsters/humanoid/archmage.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "B7lBOr1AahNZs4a6",
-          "name": "Archmage",
-          "fieldPath": "items[X4c8xCkmF8U9HUMz].system.description.value",
-          "sourcePath": "monsters/humanoid/archmage.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "B7lBOr1AahNZs4a6",
-          "name": "Archmage",
-          "fieldPath": "items[avD5XUtkBPQQR97c].system.description.value",
-          "sourcePath": "monsters/humanoid/archmage.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "B7lBOr1AahNZs4a6",
-          "name": "Archmage",
-          "fieldPath": "items[fVbCxFRaORalHB20].system.description.value",
-          "sourcePath": "monsters/humanoid/archmage.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
