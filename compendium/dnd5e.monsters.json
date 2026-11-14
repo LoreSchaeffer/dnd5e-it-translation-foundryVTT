@@ -10650,7 +10650,8 @@
         },
         "WN2LWEljYU6QqnRH": {
           "name": "Tempesta di Ghiaccio",
-          "materials": "Un pizzico di polvere e alcune gocce d'acqua"
+          "materials": "Un pizzico di polvere e alcune gocce d'acqua",
+          "description": "<p>Una grandinata di ghiaccio duro come roccia si abbatte al suolo in un Cilindro con raggio di 6 metri e alto 12 metri, centrato su un punto entro gittata. Ogni creatura nel cilindro deve effettuare un tiro salvezza su Destrezza. Se lo fallisce, subisce 2d8 danni contundenti e 4d6 danni da freddo, mentre se lo supera subisce la metà di quei danni.</p><p>I chicchi di grandine trasformano l'area d'effetto della tempesta in terreno difficile fino alla fine del tuo turno successivo.</p><p><strong>Ai Livelli Superiori.</strong> Quando lanci questo incantesimo usando uno slot incantesimo di 5° livello o superiore, i danni contundenti aumentano di 1d8 per ogni livello dello slot superiore al 4°.</p>"
         },
         "RpKjTlYASrfqUPVA": {
           "name": "Cono di Freddo",
@@ -10663,7 +10664,9 @@
           "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
         },
         "tbKbwgcprUBciliF": {
-          "name": "Incantesimi"
+          "name": "Incantesimi",
+          "description": "<p>Il mago è un incantatore di 9° livello. La sua caratteristica da incantatore è Intelligenza (CD del tiro salvezza degli incantesimi 14, +6 al tiro per colpire con gli attacchi con incantesimo). Il mago ha preparato i seguenti incantesimi da mago:</p><p>Trucchetti (a volontà): [[/item .EOmsUcFQJTfG2oio]]{Dardo di Fuoco}, [[/item .Bnn9Nzajixvow9xi]]{Luce}, [[/item .Utk1OQRwYkMkFRD3]]{Mano Magica}, [[/item .udsLtG0BugXHR2JQ]]{Prestidigitazione}</p><p>1° livello (4 slot): [[/item .ghXTfe7sgCbgf1Q8]]{Individuazione del Magico}, [[/item .CKZTpZlxj7hjjo2H]]{Armatura Magica}, [[/item .41JIhpDyM9Anm7cs]]{Dardo Incantato}, [[/item .z1mx84ONwkXKUZd7]]{Scudo}</p><p>2° livello (3 slot): [[/item .wqfAVANuQonNBgnL]]{Passo Velato}, [[/item .zMAWdyc8UVb37BK4]]{Suggestione}</p><p>3° livello (3 slot): [[/item .Ek45cBpVXvJdv1Qy]]{Controincantesimo}, [[/item .ztgcdrWPshKRpFd0]]{Palla di Fuoco}, [[/item .yfbK8gZqESlaoY5t]]{Volare}</p><p>4° livello (3 slot): [[/item .tEpDmYZNGc9f5OhJ]]{Invisibilità Superiore}, [[/item .WN2LWEljYU6QqnRH]]{Tempesta di Ghiaccio}</p><p>5° livello (1 slot): [[/item .RpKjTlYASrfqUPVA]]{Cono di Freddo}</p>",
+          "chat": "<p>Il mago è un incantatore. La sua caratteristica da incantatore è Intelligenza.</p>"
         }
       },
       "details": {

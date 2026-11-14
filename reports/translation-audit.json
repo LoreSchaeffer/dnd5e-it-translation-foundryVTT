@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2311,
+      "translated": 2312,
       "missing": 3,
-      "partial": 77,
+      "partial": 76,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14702,
-      "missing": 958,
+      "translated": 14705,
+      "missing": 955,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 963
+    "blockingIssues": 960
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 276,
+          "translated": 277,
           "missing": 0,
-          "partial": 61,
+          "partial": 60,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6886,
-          "missing": 220,
+          "translated": 6889,
+          "missing": 217,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -594,33 +594,6 @@
           "name": "Lizardfolk",
           "fieldPath": "items[s88qLjZemkFRnB8Y].system.description.value",
           "sourcePath": "monsters/humanoid/lizardfolk.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "mQnsXanewsPiV7QE",
-          "name": "Mage",
-          "fieldPath": "items[tbKbwgcprUBciliF].system.description.value",
-          "sourcePath": "monsters/humanoid/mage.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "mQnsXanewsPiV7QE",
-          "name": "Mage",
-          "fieldPath": "items[tbKbwgcprUBciliF].system.description.chat",
-          "sourcePath": "monsters/humanoid/mage.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "mQnsXanewsPiV7QE",
-          "name": "Mage",
-          "fieldPath": "items[WN2LWEljYU6QqnRH].system.description.value",
-          "sourcePath": "monsters/humanoid/mage.yml"
         },
         {
           "code": "missing-field",
