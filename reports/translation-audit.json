@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2343,
+      "translated": 2344,
       "missing": 3,
-      "partial": 45,
+      "partial": 44,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14830,
-      "missing": 830,
+      "translated": 14833,
+      "missing": 827,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 835
+    "blockingIssues": 832
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 308,
+          "translated": 309,
           "missing": 0,
-          "partial": 29,
+          "partial": 28,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 7014,
-          "missing": 92,
+          "translated": 7017,
+          "missing": 89,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -792,33 +792,6 @@
           "name": "Worg",
           "fieldPath": "items[UnONIXYgZcE3Jya0].system.description.chat",
           "sourcePath": "monsters/monstrosity/worg.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "xBhG7Dos3tkg9jWz",
-          "name": "Ochre Jelly",
-          "fieldPath": "items[iruCpiLtSuIAoEm6].system.description.value",
-          "sourcePath": "monsters/ooze/ochre-jelly.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "xBhG7Dos3tkg9jWz",
-          "name": "Ochre Jelly",
-          "fieldPath": "items[iruCpiLtSuIAoEm6].effects[WZn6kAQJRm0Cm6i9].description",
-          "sourcePath": "monsters/ooze/ochre-jelly.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "xBhG7Dos3tkg9jWz",
-          "name": "Ochre Jelly",
-          "fieldPath": "items[iruCpiLtSuIAoEm6].effects[QTexJH8jSdxaIXP2].description",
-          "sourcePath": "monsters/ooze/ochre-jelly.yml"
         },
         {
           "code": "missing-field",

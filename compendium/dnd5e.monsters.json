@@ -334,13 +334,16 @@
           },
           "effects": {
             "WZn6kAQJRm0Cm6i9": {
-              "name": "Gelatine Medie Divise"
+              "name": "Gelatine Medie Divise",
+              "description": "<p>Sei stato creato dalla divisione in due di una @UUID[Compendium.dnd5e.monsters.Actor.xBhG7Dos3tkg9jWz]{gelatina ocra} di taglia Grande.</p>"
             },
             "QTexJH8jSdxaIXP2": {
-              "name": "Gelatine Piccole Divise"
+              "name": "Gelatine Piccole Divise",
+              "description": "<p>Sei stato creato dalla divisione in due di una @UUID[Compendium.dnd5e.monsters.Actor.xBhG7Dos3tkg9jWz]{gelatina ocra} di taglia Media.</p>"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} si divide in due nuovi [[lookup @name]]{mostri}. I nuovi [[lookup @name]]{mostri} sono di una taglia inferiore rispetto al [[lookup @name]]{mostro} originale.</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} si divide in due nuovi [[lookup @name]]{mostri}. I nuovi [[lookup @name]]{mostri} sono di una taglia inferiore rispetto al [[lookup @name]]{mostro} originale.</p>",
+          "description": "<p>Quando un [[lookup @name lowercase]]{mostro} di taglia Media o superiore subisce danni da fulmine o taglienti, si divide in due nuovi [[lookup @name lowercase]]{mostri} se ha almeno 10 punti ferita. Ogni nuovo esemplare ha punti ferita pari alla metà di quelli del [[lookup @name lowercase]]{mostro} originario, arrotondata per difetto. I nuovi [[lookup @name lowercase]]{mostri} sono di una taglia più piccoli del [[lookup @name lowercase]]{mostro} originario.</p>"
         },
         "arNeEd7Vf8pEfQjh": {
           "name": "Movimenti del Ragno",
