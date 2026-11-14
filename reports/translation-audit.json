@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2231,
+      "translated": 2232,
       "missing": 3,
-      "partial": 157,
+      "partial": 156,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14415,
-      "missing": 1245,
+      "translated": 14416,
+      "missing": 1244,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1250
+    "blockingIssues": 1249
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 196,
+          "translated": 197,
           "missing": 0,
-          "partial": 141,
+          "partial": 140,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6599,
-          "missing": 507,
+          "translated": 6600,
+          "missing": 506,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -630,15 +630,6 @@
           "name": "Dragon Turtle",
           "fieldPath": "items[UjT93YD55B87gMqZ].system.description.chat",
           "sourcePath": "monsters/dragon/dragon-turtle.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "naSoHU9KbkgeNIwB",
-          "name": "Gold Dragon Wyrmling",
-          "fieldPath": "items[5vCVx0zwz1FKIvTX].system.description.value",
-          "sourcePath": "monsters/dragon/gold-dragon-wyrmling.yml"
         },
         {
           "code": "missing-field",
