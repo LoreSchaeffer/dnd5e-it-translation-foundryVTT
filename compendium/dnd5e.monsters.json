@@ -6821,41 +6821,49 @@
           "description": "<p>Uno scudo è realizzato in legno o metallo ed è portato in una mano. Il possesso di uno scudo aumenta la tua Classe di armatura di 2. Puoi beneficiare di un solo scudo alla volta.</p>"
         },
         "7ePnUuyCcRkB5GHo": {
-          "name": "Resilienza Duergar"
+          "name": "Resilienza Duergar",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di vantaggio ai tiri salvezza contro veleno, incantesimi e illusioni, nonché per resistere all'essere &amp;reference[charmed apply=false] o &amp;reference[paralyzed apply=false].</p>"
         },
         "gvmNtrdfZXCNiAY3": {
           "name": "Ingrandire",
           "effects": {
             "ZhMWg9KVNLnrlJdW": {
-              "name": "Ingrandito"
+              "name": "Ingrandito",
+              "description": "<p>Per la durata, aumenti magicamente di taglia, assieme a qualsiasi cosa indossi o trasporti. Finché sei ingrandito, sei di taglia Grande, raddoppi i tuoi dadi di danno negli attacchi con armi basati sulla Forza ed effettui con vantaggio le prove di Forza e i tiri salvezza su Forza. Se non disponi dello spazio necessario per diventare di taglia Grande, raggiungi la taglia massima possibile nello spazio disponibile.</p>"
             }
           },
           "activities": {
             "Zf6mfw7MGBJxkegq": {
               "name": "Crescere"
             }
-          }
+          },
+          "description": "<p>Per [[lookup @labels.duration activity=Zf6mfw7MGBJxkegq]], il [[lookup @name lowercase]]{mostro} aumenta magicamente di taglia, assieme a qualsiasi cosa indossi o trasporti. Finché è ingrandito, il [[lookup @name lowercase]]{mostro} è di taglia Grande, raddoppia i propri dadi di danno negli attacchi con armi basati sulla Forza (già inclusi negli attacchi) ed effettua con vantaggio le prove di Forza e i tiri salvezza su Forza. Se il [[lookup @name lowercase]]{mostro} non dispone dello spazio necessario per diventare di taglia Grande, raggiunge la taglia massima possibile nello spazio disponibile.</p>"
         },
         "lUm5wbaBhfO54dlB": {
           "name": "Invisibilità",
           "effects": {
             "oHsiep5z6p95NNJ7": {
-              "name": "Invisibile"
+              "name": "Invisibile",
+              "description": "<p>Sei &amp;reference[invisible] finché non attacchi, lanci un incantesimo o usi Ingrandire, oppure finché la tua concentrazione non si interrompe, fino a 1 ora (come se ti concentrassi su un incantesimo).</p>"
             }
           },
           "activities": {
             "1wj57M6m7yuqQhtN": {
               "name": "Diventa Invisibile"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} diventa magicamente &amp;reference[invisible] finché non attacca, lancia un incantesimo o usa Ingrandire, oppure finché la sua concentrazione non si interrompe, fino a [[lookup @labels.duration activity=1wj57M6m7yuqQhtN]] (come se si concentrasse su un incantesimo).</p>",
+          "chat": "<p>Il duergar diventa magicamente invisibile. Qualsiasi equipaggiamento indossato o trasportato dal duergar diventa invisibile assieme a esso.</p>"
         },
         "CPYK1Z2mSHqxQQWl": {
           "name": "Piccone da Guerra",
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>",
+          "description": "<p>[[/attack extended]]. [[/damage 1d8 + @abilities.str.mod piercing average extended]], oppure [[/damage 2d8 + @abilities.str.mod piercing average]] danni finché è ingrandito.</p>"
         },
         "BtZSR7u0sdDGP5LT": {
           "name": "Giavellotto",
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>",
+          "description": "<p>[[/attack extended]]. [[/damage 1d6 + @abilities.str.mod piercing average extended]], oppure [[/damage 2d6 + @abilities.str.mod piercing average]] danni finché è ingrandito.</p>"
         },
         "b3DMmZTTUvs2c2qK": {
           "name": "Sensibilità alla Luce Solare",

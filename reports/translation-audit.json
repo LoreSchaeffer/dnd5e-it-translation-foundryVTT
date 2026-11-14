@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2304,
+      "translated": 2305,
       "missing": 3,
-      "partial": 84,
+      "partial": 83,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14682,
-      "missing": 978,
+      "translated": 14690,
+      "missing": 970,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 983
+    "blockingIssues": 975
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 269,
+          "translated": 270,
           "missing": 0,
-          "partial": 68,
+          "partial": 67,
           "review": 0
         },
         "folders": {
@@ -578,86 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6866,
-          "missing": 240,
+          "translated": 6874,
+          "missing": 232,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "iGBdQA3IuKsurcUy",
-          "name": "Duergar",
-          "fieldPath": "items[7ePnUuyCcRkB5GHo].system.description.value",
-          "sourcePath": "monsters/humanoid/duergar.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "iGBdQA3IuKsurcUy",
-          "name": "Duergar",
-          "fieldPath": "items[gvmNtrdfZXCNiAY3].system.description.value",
-          "sourcePath": "monsters/humanoid/duergar.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "iGBdQA3IuKsurcUy",
-          "name": "Duergar",
-          "fieldPath": "items[gvmNtrdfZXCNiAY3].effects[ZhMWg9KVNLnrlJdW].description",
-          "sourcePath": "monsters/humanoid/duergar.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "iGBdQA3IuKsurcUy",
-          "name": "Duergar",
-          "fieldPath": "items[lUm5wbaBhfO54dlB].system.description.value",
-          "sourcePath": "monsters/humanoid/duergar.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "iGBdQA3IuKsurcUy",
-          "name": "Duergar",
-          "fieldPath": "items[lUm5wbaBhfO54dlB].system.description.chat",
-          "sourcePath": "monsters/humanoid/duergar.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "iGBdQA3IuKsurcUy",
-          "name": "Duergar",
-          "fieldPath": "items[lUm5wbaBhfO54dlB].effects[oHsiep5z6p95NNJ7].description",
-          "sourcePath": "monsters/humanoid/duergar.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "iGBdQA3IuKsurcUy",
-          "name": "Duergar",
-          "fieldPath": "items[CPYK1Z2mSHqxQQWl].system.description.value",
-          "sourcePath": "monsters/humanoid/duergar.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "iGBdQA3IuKsurcUy",
-          "name": "Duergar",
-          "fieldPath": "items[BtZSR7u0sdDGP5LT].system.description.value",
-          "sourcePath": "monsters/humanoid/duergar.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
