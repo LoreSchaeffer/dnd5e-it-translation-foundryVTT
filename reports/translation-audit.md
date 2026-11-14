@@ -11,13 +11,13 @@
 | monsterfeatures | 252 | 252 | 0 | 0 | 0 | 0 | 0 |
 | monsters | 337 | 337 | 0 | 0 | 0 | 0 | 0 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
-| rules | 20 | 7 | 3 | 10 | 0 | 703 | 660 |
+| rules | 20 | 8 | 3 | 9 | 0 | 696 | 653 |
 | spells | 320 | 320 | 0 | 0 | 0 | 0 | 0 |
 | subclasses | 12 | 12 | 0 | 0 | 0 | 0 | 0 |
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 708
+Total blocking issues: 701
 
 ## Issues
 
@@ -677,13 +677,6 @@ Total blocking issues: 708
 - **missing-field** `rules:NizgRXLNUqtdlC1s:pages[gi8IKhtOlBVhMJrN].text.content`
 - **missing-field** `rules:NizgRXLNUqtdlC1s:pages[oNQWvyRZkTOJ8PBq].system.tooltip`
 - **missing-field** `rules:NizgRXLNUqtdlC1s:pages[oNQWvyRZkTOJ8PBq].text.content`
-- **missing-field** `rules:t6scHTmpmHBTZGTX:pages[HB2L0RLLfmmzzPsJ].text.content`
-- **missing-field** `rules:t6scHTmpmHBTZGTX:pages[YJkaWnytz5zanzXE].text.content`
-- **missing-field** `rules:t6scHTmpmHBTZGTX:pages[eWXjNMjX1tZIFEuq].text.content`
-- **missing-field** `rules:t6scHTmpmHBTZGTX:pages[3RM2KPMlMrSXngN3].text.content`
-- **missing-field** `rules:t6scHTmpmHBTZGTX:pages[B8rYvLQ4jMY9GeJA].text.content`
-- **missing-field** `rules:t6scHTmpmHBTZGTX:pages[YHsuCV4IZZZoyDap].text.content`
-- **missing-field** `rules:t6scHTmpmHBTZGTX:pages[JKn9lp15q1zX2ZwX].text.content`
 - **missing-field** `rules:m2K2xsTy8w0WFuoJ:pages[qiH6zRDM96meMz8Y].name`
 - **missing-field** `rules:m2K2xsTy8w0WFuoJ:pages[qiH6zRDM96meMz8Y].text.content`
 - **missing-field** `rules:gqecphEUnz4ktrQ9:pages[8jxEuy0PV2HNySQC].text.content`
