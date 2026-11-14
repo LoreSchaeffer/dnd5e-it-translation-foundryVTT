@@ -291,6 +291,14 @@
       "values": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "O", "P", "R", "S", "T", "U", "V", "W"],
       "reason": "Le pagine dell'indice alfabetico usano singole lettere identiche in italiano e inglese.",
       "status": "verified"
+    },
+    {
+      "kind": "imperial-unit",
+      "pack": "rules",
+      "id": "NizgRXLNUqtdlC1s",
+      "fieldPath": "pages[cwkeZKDj6grWNq8m].text.content",
+      "reason": "Il rilevatore interpreta erroneamente la preposizione italiana «in» dopo un valore numerico come abbreviazione inglese di pollici; il testo non contiene unità imperiali.",
+      "status": "verified"
     }
   ]
 }
