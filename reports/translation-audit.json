@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2273,
+      "translated": 2274,
       "missing": 3,
-      "partial": 115,
+      "partial": 114,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14570,
-      "missing": 1090,
+      "translated": 14575,
+      "missing": 1085,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1095
+    "blockingIssues": 1090
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 238,
+          "translated": 239,
           "missing": 0,
-          "partial": 99,
+          "partial": 98,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6754,
-          "missing": 352,
+          "translated": 6759,
+          "missing": 347,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -621,51 +621,6 @@
           "name": "Ice Devil",
           "fieldPath": "items[vLQAjoewGE5MAHn2].system.description.value",
           "sourcePath": "monsters/fiend/ice-devil.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "dLQiESMsfsXijD5c",
-          "name": "Imp",
-          "fieldPath": "items[9ioH5ocevSRjYBaD].system.description.value",
-          "sourcePath": "monsters/fiend/imp.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "dLQiESMsfsXijD5c",
-          "name": "Imp",
-          "fieldPath": "items[64Swhse7QnbiLAbi].system.description.value",
-          "sourcePath": "monsters/fiend/imp.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "dLQiESMsfsXijD5c",
-          "name": "Imp",
-          "fieldPath": "items[64Swhse7QnbiLAbi].system.activities.hUmRNvmmpY5rJfVE.description.value",
-          "sourcePath": "monsters/fiend/imp.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "dLQiESMsfsXijD5c",
-          "name": "Imp",
-          "fieldPath": "items[ABjkKWIBbRYp2fy5].system.description.value",
-          "sourcePath": "monsters/fiend/imp.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "dLQiESMsfsXijD5c",
-          "name": "Imp",
-          "fieldPath": "items[ABjkKWIBbRYp2fy5].effects[dJA0IOGziAr9Onj9].description",
-          "sourcePath": "monsters/fiend/imp.yml"
         },
         {
           "code": "missing-field",
