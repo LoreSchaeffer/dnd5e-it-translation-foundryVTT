@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2230,
+      "translated": 2231,
       "missing": 3,
-      "partial": 158,
+      "partial": 157,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14414,
-      "missing": 1246,
+      "translated": 14415,
+      "missing": 1245,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1251
+    "blockingIssues": 1250
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 195,
+          "translated": 196,
           "missing": 0,
-          "partial": 142,
+          "partial": 141,
           "review": 0
         },
         "folders": {
@@ -578,23 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6598,
-          "missing": 508,
+          "translated": 6599,
+          "missing": 507,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "AyvniEKtyroOe83p",
-          "name": "Copper Dragon Wyrmling",
-          "fieldPath": "items[XuuhDCc4RQcZOXUL].system.description.value",
-          "sourcePath": "monsters/dragon/copper-dragon-wyrmling.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
