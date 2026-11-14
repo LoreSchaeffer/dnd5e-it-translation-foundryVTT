@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2225,
+      "translated": 2226,
       "missing": 3,
-      "partial": 163,
+      "partial": 162,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14404,
-      "missing": 1256,
+      "translated": 14406,
+      "missing": 1254,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1261
+    "blockingIssues": 1259
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 190,
+          "translated": 191,
           "missing": 0,
-          "partial": 147,
+          "partial": 146,
           "review": 0
         },
         "folders": {
@@ -578,32 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6588,
-          "missing": 518,
+          "translated": 6590,
+          "missing": 516,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "vFeFRlF2FOgf2HIL",
-          "name": "Ancient Red Dragon",
-          "fieldPath": "items[Whn4pPAB1YSnvocN].system.description.value",
-          "sourcePath": "monsters/dragon/ancient-red-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "vFeFRlF2FOgf2HIL",
-          "name": "Ancient Red Dragon",
-          "fieldPath": "items[F0esYcVWv0S1hxwl].system.description.value",
-          "sourcePath": "monsters/dragon/ancient-red-dragon.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
