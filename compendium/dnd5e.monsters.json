@@ -2809,7 +2809,8 @@
       },
       "items": {
         "sC1dqjfFZKnDmhec": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua tre attacchi: due con i suoi [[/item .KjxsSFx9xv2HLtMX]]{artigli} e uno con il suo [[/item .iFHGL8wlqBtZAdHr]]{pungiglione}.</p>"
         },
         "MAYv8xZJTlYFAK8s": {
           "name": "Resistenza Magica",
@@ -2828,14 +2829,20 @@
           "name": "Pungiglione",
           "activities": {
             "b7w4pKSTyul1TqDh": {
-              "name": "Tiro Salvezza contro il Veleno"
+              "name": "Tiro Salvezza contro il Veleno",
+              "description": {
+                "value": "<p>Il bersaglio deve superare un tiro salvezza [[/save]], altrimenti diventa &amp;Reference[poisoned]{avvelenato} per 1 minuto. Il bersaglio può ripetere il tiro salvezza alla fine di ciascun proprio turno, terminando l'effetto su di sé in caso di successo.</p>"
+              }
             }
           },
           "effects": {
             "lf9nh0D3xPK0k8b2": {
-              "name": "Veleno del Diavolo d'Ossa"
+              "name": "Veleno del Diavolo d'Ossa",
+              "description": "<p>Sei &amp;reference[poisoned apply=false]{avvelenato} per 1 minuto. Puoi ripetere il tiro salvezza alla fine di ciascun tuo turno, terminando l'effetto su di te in caso di successo.</p>"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il bersaglio deve superare un tiro salvezza [[/save]], altrimenti diventa &amp;Reference[poisoned]{avvelenato} per 1 minuto. Il bersaglio può ripetere il tiro salvezza alla fine di ciascun proprio turno, terminando l'effetto su di sé in caso di successo.</p>",
+          "chat": "<p>Il diavolo d'ossa attacca con il suo Pungiglione. Il bersaglio deve effettuare un tiro salvezza su Costituzione. Il bersaglio può ripetere il tiro salvezza alla fine di ciascun proprio turno, terminando l'effetto su di sé in caso di successo.</p>"
         }
       },
       "details": {

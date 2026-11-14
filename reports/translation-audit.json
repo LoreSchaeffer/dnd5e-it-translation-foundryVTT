@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2265,
+      "translated": 2266,
       "missing": 3,
-      "partial": 123,
+      "partial": 122,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14536,
-      "missing": 1124,
+      "translated": 14541,
+      "missing": 1119,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1129
+    "blockingIssues": 1124
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 230,
+          "translated": 231,
           "missing": 0,
-          "partial": 107,
+          "partial": 106,
           "review": 0
         },
         "folders": {
@@ -578,59 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6720,
-          "missing": 386,
+          "translated": 6725,
+          "missing": 381,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "AnseLn7HwuP97grf",
-          "name": "Bone Devil",
-          "fieldPath": "items[iFHGL8wlqBtZAdHr].system.description.value",
-          "sourcePath": "monsters/fiend/bone-devil.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "AnseLn7HwuP97grf",
-          "name": "Bone Devil",
-          "fieldPath": "items[iFHGL8wlqBtZAdHr].system.description.chat",
-          "sourcePath": "monsters/fiend/bone-devil.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "AnseLn7HwuP97grf",
-          "name": "Bone Devil",
-          "fieldPath": "items[iFHGL8wlqBtZAdHr].system.activities.b7w4pKSTyul1TqDh.description.value",
-          "sourcePath": "monsters/fiend/bone-devil.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "AnseLn7HwuP97grf",
-          "name": "Bone Devil",
-          "fieldPath": "items[iFHGL8wlqBtZAdHr].effects[lf9nh0D3xPK0k8b2].description",
-          "sourcePath": "monsters/fiend/bone-devil.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "AnseLn7HwuP97grf",
-          "name": "Bone Devil",
-          "fieldPath": "items[sC1dqjfFZKnDmhec].system.description.value",
-          "sourcePath": "monsters/fiend/bone-devil.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
