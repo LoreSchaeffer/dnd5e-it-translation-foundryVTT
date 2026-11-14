@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2347,
+      "translated": 2348,
       "missing": 3,
-      "partial": 41,
+      "partial": 40,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14839,
-      "missing": 821,
+      "translated": 14844,
+      "missing": 816,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 826
+    "blockingIssues": 821
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 312,
+          "translated": 313,
           "missing": 0,
-          "partial": 25,
+          "partial": 24,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 7023,
-          "missing": 83,
+          "translated": 7028,
+          "missing": 78,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -792,51 +792,6 @@
           "name": "Worg",
           "fieldPath": "items[UnONIXYgZcE3Jya0].system.description.chat",
           "sourcePath": "monsters/monstrosity/worg.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "gGeLeV411iQ5Yijs",
-          "name": "Shambling Mound",
-          "fieldPath": "items[2aGoBVVEF54VcC9d].system.description.value",
-          "sourcePath": "monsters/plant/shambling-mound.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "gGeLeV411iQ5Yijs",
-          "name": "Shambling Mound",
-          "fieldPath": "items[N42BQALoCmeYphD1].system.description.value",
-          "sourcePath": "monsters/plant/shambling-mound.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "gGeLeV411iQ5Yijs",
-          "name": "Shambling Mound",
-          "fieldPath": "items[N42BQALoCmeYphD1].system.description.chat",
-          "sourcePath": "monsters/plant/shambling-mound.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "gGeLeV411iQ5Yijs",
-          "name": "Shambling Mound",
-          "fieldPath": "items[N42BQALoCmeYphD1].system.activities.qxYtQIpEbpMrFvVe.description.value",
-          "sourcePath": "monsters/plant/shambling-mound.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "gGeLeV411iQ5Yijs",
-          "name": "Shambling Mound",
-          "fieldPath": "items[N42BQALoCmeYphD1].effects[qzOZ6CcMiEXnoSUj].description",
-          "sourcePath": "monsters/plant/shambling-mound.yml"
         },
         {
           "code": "missing-field",

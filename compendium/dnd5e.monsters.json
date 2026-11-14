@@ -2635,7 +2635,8 @@
               "name": "Afferrato dallo Schianto",
               "description": "<p>Sei &amp;reference[grappled apply=false] (CD 14 per sfuggire).</p>"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua due attacchi di [[/item .lOIA9YKQU8xSx7Lj]]{schianto}. Se entrambi gli attacchi colpiscono un bersaglio di taglia Media o inferiore, il bersaglio è &amp;reference[grappled] (CD 14 per liberarsi) e il [[lookup @name lowercase]]{mostro} lo inghiotte con [[/item .N42BQALoCmeYphD1]]{Inghiottire}.</p>"
         },
         "N42BQALoCmeYphD1": {
           "name": "Avviluppare",
@@ -2644,14 +2645,20 @@
               "name": "Avviluppare Creatura"
             },
             "qxYtQIpEbpMrFvVe": {
-              "name": "Danni da Avviluppare a Inizio Turno"
+              "name": "Danni da Avviluppare a Inizio Turno",
+              "description": {
+                "value": "<p>Una creatura inghiottita deve superare un tiro salvezza [[/save activity=qxYtQIpEbpMrFvVe]] all'inizio di ciascun turno del [[lookup @name lowercase]]{mostro}, altrimenti subisce [[/damage average activity=qxYtQIpEbpMrFvVe]] danni.</p>"
+              }
             }
           },
           "effects": {
             "qzOZ6CcMiEXnoSUj": {
-              "name": "Avviluppato"
+              "name": "Avviluppato",
+              "description": "<p>Sei stato inghiottito dal cumulo barcollante. Sei &amp;reference[blinded apply=false], &amp;reference[restrained apply=false] e incapace di respirare; inoltre, devi superare un tiro salvezza su Costituzione all'inizio di ciascun turno del cumulo barcollante, altrimenti subisci danni contundenti/</p><p>Se il cumulo barcollante si muove, ti muovi con esso.</p>"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} inghiotte una creatura di taglia Media o inferiore che ha &amp;reference[grappled apply=false] da esso. Il bersaglio inghiottito è &amp;reference[blinded], &amp;reference[restrained] e incapace di respirare; inoltre, deve superare un tiro salvezza [[/save activity=qxYtQIpEbpMrFvVe]] all'inizio di ciascun turno del [[lookup @name lowercase]]{mostro}, altrimenti subisce [[/damage average activity=qxYtQIpEbpMrFvVe]] danni.</p><p>Se il [[lookup @name lowercase]]{mostro} si muove, il bersaglio inghiottito si muove con esso. Il [[lookup @name lowercase]]{mostro} può avere una sola creatura inghiottita alla volta.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} inghiotte una creatura di taglia Media o inferiore che ha &amp;reference[grappled apply=false] da esso. Il bersaglio inghiottito è &amp;reference[blinded ], &amp;reference[restrained] e incapace di respirare; inoltre, deve effettuare un tiro salvezza su Costituzione all'inizio di ciascun turno del [[lookup @name]]{mostro}. Se il [[lookup @name]]{mostro} si muove, il bersaglio inghiottito si muove con esso.</p>"
         },
         "lOIA9YKQU8xSx7Lj": {
           "name": "Schianto",
