@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2204,
+      "translated": 2205,
       "missing": 3,
-      "partial": 184,
+      "partial": 183,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14340,
-      "missing": 1320,
+      "translated": 14343,
+      "missing": 1317,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1325
+    "blockingIssues": 1322
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 169,
+          "translated": 170,
           "missing": 0,
-          "partial": 168,
+          "partial": 167,
           "review": 0
         },
         "folders": {
@@ -578,41 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6524,
-          "missing": 582,
+          "translated": 6527,
+          "missing": 579,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "h98AuPfomEPcCibP",
-          "name": "Iron Golem",
-          "fieldPath": "items[y2j6GWf1Ur3GRtYI].system.description.value",
-          "sourcePath": "monsters/construct/iron-golem.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "h98AuPfomEPcCibP",
-          "name": "Iron Golem",
-          "fieldPath": "items[x44GisqrxHYC5fov].system.description.value",
-          "sourcePath": "monsters/construct/iron-golem.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "h98AuPfomEPcCibP",
-          "name": "Iron Golem",
-          "fieldPath": "items[x44GisqrxHYC5fov].system.description.chat",
-          "sourcePath": "monsters/construct/iron-golem.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",

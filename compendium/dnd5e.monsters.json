@@ -8601,7 +8601,9 @@
             "INgsCYDrlZSCUygg": {
               "name": "Tiro Salvezza contro il Gas Velenoso"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} esala gas velenoso in un [[lookup @labels.description.template activity=INgsCYDrlZSCUygg]]. Ogni creatura in quell'area deve effettuare un tiro salvezza [[/save]], subendo [[/damage average]] danni se lo fallisce, oppure la metà di quei danni se lo supera.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} esala gas velenoso in un [[lookup @labels.description.template activity=INgsCYDrlZSCUygg]]. Ogni creatura in quell'area deve effettuare un tiro salvezza su Costituzione.</p>"
         },
         "yjYIBPfeldB4GfPg": {
           "name": "Forma Immutabile",
@@ -8621,7 +8623,8 @@
             "LKRYRmwynsrsR4KJ": {
               "name": "Recuperare Punti Ferita"
             }
-          }
+          },
+          "description": "<p>Ogni volta che il golem è soggetto a danni da fuoco, non subisce danni e recupera invece un numero di punti ferita pari ai danni da fuoco inflitti.</p>"
         },
         "0z51jBlE4BoPaEQn": {
           "name": "Schianto",
