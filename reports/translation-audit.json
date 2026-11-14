@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2340,
+      "translated": 2341,
       "missing": 3,
-      "partial": 48,
+      "partial": 47,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14815,
-      "missing": 845,
+      "translated": 14816,
+      "missing": 844,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 850
+    "blockingIssues": 849
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 305,
+          "translated": 306,
           "missing": 0,
-          "partial": 32,
+          "partial": 31,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6999,
-          "missing": 107,
+          "translated": 7000,
+          "missing": 106,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -648,15 +648,6 @@
           "name": "Lamia",
           "fieldPath": "items[fVbCxFRaORalHB20].system.description.value",
           "sourcePath": "monsters/monstrosity/lamia.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "zY3W5MG7FjssENf6",
-          "name": "Owlbear",
-          "fieldPath": "items[R7Vx1RxO8OjXpzQd].system.description.value",
-          "sourcePath": "monsters/monstrosity/owlbear.yml"
         },
         {
           "code": "missing-field",
