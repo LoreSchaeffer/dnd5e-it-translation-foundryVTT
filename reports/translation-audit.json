@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2292,
+      "translated": 2293,
       "missing": 3,
-      "partial": 96,
+      "partial": 95,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14641,
-      "missing": 1019,
+      "translated": 14647,
+      "missing": 1013,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1024
+    "blockingIssues": 1018
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 257,
+          "translated": 258,
           "missing": 0,
-          "partial": 80,
+          "partial": 79,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6825,
-          "missing": 281,
+          "translated": 6831,
+          "missing": 275,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -1422,60 +1422,6 @@
           "name": "Chimera",
           "fieldPath": "items[sAkv9mnK6l5nXmcz].system.description.value",
           "sourcePath": "monsters/monstrosity/chimera.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "mWbrPhcKOz6oLXMV",
-          "name": "Doppelganger",
-          "fieldPath": "items[Cp2MgsVDDSRiF2aj].system.description.value",
-          "sourcePath": "monsters/monstrosity/doppelganger.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "mWbrPhcKOz6oLXMV",
-          "name": "Doppelganger",
-          "fieldPath": "items[YIoB9xCKEcrrPRt9].system.description.value",
-          "sourcePath": "monsters/monstrosity/doppelganger.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "mWbrPhcKOz6oLXMV",
-          "name": "Doppelganger",
-          "fieldPath": "items[YIoB9xCKEcrrPRt9].system.description.chat",
-          "sourcePath": "monsters/monstrosity/doppelganger.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "mWbrPhcKOz6oLXMV",
-          "name": "Doppelganger",
-          "fieldPath": "items[YIoB9xCKEcrrPRt9].effects[rYSIFsj2E3DFKsuN].description",
-          "sourcePath": "monsters/monstrosity/doppelganger.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "mWbrPhcKOz6oLXMV",
-          "name": "Doppelganger",
-          "fieldPath": "items[cG4WdhcrTZt6rxUi].system.description.value",
-          "sourcePath": "monsters/monstrosity/doppelganger.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "mWbrPhcKOz6oLXMV",
-          "name": "Doppelganger",
-          "fieldPath": "items[cG4WdhcrTZt6rxUi].system.description.chat",
-          "sourcePath": "monsters/monstrosity/doppelganger.yml"
         },
         {
           "code": "missing-field",
