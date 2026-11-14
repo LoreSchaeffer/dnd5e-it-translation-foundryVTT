@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2269,
+      "translated": 2270,
       "missing": 3,
-      "partial": 119,
+      "partial": 118,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14559,
-      "missing": 1101,
+      "translated": 14561,
+      "missing": 1099,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1106
+    "blockingIssues": 1104
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 234,
+          "translated": 235,
           "missing": 0,
-          "partial": 103,
+          "partial": 102,
           "review": 0
         },
         "folders": {
@@ -578,32 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6743,
-          "missing": 363,
+          "translated": 6745,
+          "missing": 361,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "iSCL4Q82ivnYelzc",
-          "name": "Hell Hound",
-          "fieldPath": "items[gijcyepmnWeRu4HV].system.description.value",
-          "sourcePath": "monsters/fiend/hell-hound.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "iSCL4Q82ivnYelzc",
-          "name": "Hell Hound",
-          "fieldPath": "items[gijcyepmnWeRu4HV].system.description.chat",
-          "sourcePath": "monsters/fiend/hell-hound.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
