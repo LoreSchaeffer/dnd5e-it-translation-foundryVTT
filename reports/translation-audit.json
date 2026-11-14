@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2244,
+      "translated": 2245,
       "missing": 3,
-      "partial": 144,
+      "partial": 143,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14445,
-      "missing": 1215,
+      "translated": 14447,
+      "missing": 1213,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1220
+    "blockingIssues": 1218
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 209,
+          "translated": 210,
           "missing": 0,
-          "partial": 128,
+          "partial": 127,
           "review": 0
         },
         "folders": {
@@ -578,32 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6629,
-          "missing": 477,
+          "translated": 6631,
+          "missing": 475,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "eykRfV85DQJoCkmc",
-          "name": "Young Silver Dragon",
-          "fieldPath": "items[dAoWnethMNHwPNDJ].system.description.value",
-          "sourcePath": "monsters/dragon/young-silver-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "eykRfV85DQJoCkmc",
-          "name": "Young Silver Dragon",
-          "fieldPath": "items[zwKc0TIAiEv0BNvl].system.description.value",
-          "sourcePath": "monsters/dragon/young-silver-dragon.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
