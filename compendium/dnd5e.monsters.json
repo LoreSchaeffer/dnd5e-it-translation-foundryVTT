@@ -11657,7 +11657,9 @@
             "HNvqNP2EcOLUUi4w": {
               "name": "Danni Bonus da Carica"
             }
-          }
+          },
+          "description": "<p>Se il [[lookup @name lowercase]]{mostro} si muove di almeno 3 metri in linea retta verso un bersaglio e poi lo colpisce con un attacco di @UUID[Compendium.dnd5e.monsters.Actor.pOPQU4UnR27zA0jf.Item.zTqVT0QztTuMOv0e]{Infilzata} nello stesso turno, il bersaglio subisce danni aggiuntivi [[/damage average]].</p><p>Se il bersaglio è una creatura, deve superare un [[/save]] tiro salvezza o essere spinto fino a 3 metri lontano e cadere &amp;reference[prone].</p>",
+          "chat": "<p>Se il minotauro si muove di almeno 3 metri in linea retta verso un bersaglio e poi lo colpisce con un attacco di incornata nello stesso turno, il bersaglio subisce <em>danni perforanti</em> aggiuntivi. Se il bersaglio è una creatura, deve effettuare un tiro salvezza di <strong>Forza</strong> o essere spinto fino a 3 metri lontano e cadere prono.</p>"
         },
         "Fybno0bT1qZO1sSj": {
           "name": "Ricordo Labirintico",
@@ -11673,7 +11675,8 @@
           "description": "<p>All’inizio del suo turno, il [[lookup @name lowercase]]{monster} può ottenere vantaggio a tutti i tiri per colpire con le armi da mischia che effettua in quel turno, ma i tiri per colpire contro di lui dispongono di vantaggio fino all'inizio del suo turno successivo.</p>",
           "effects": {
             "mc0qfRRq1rZXrJbi": {
-              "name": "Avventato"
+              "name": "Avventato",
+              "description": "<p>Hai vantaggio a tutti i tiri per colpire con armi da mischia durante il tuo turno, ma i tiri per colpire contro di te hanno vantaggio fino all'inizio del tuo turno successivo.</p>"
             }
           },
           "activities": {
