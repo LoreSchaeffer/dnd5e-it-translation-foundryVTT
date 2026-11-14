@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2330,
+      "translated": 2331,
       "missing": 3,
-      "partial": 58,
+      "partial": 57,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14771,
-      "missing": 889,
+      "translated": 14777,
+      "missing": 883,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 894
+    "blockingIssues": 888
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 295,
+          "translated": 296,
           "missing": 0,
-          "partial": 42,
+          "partial": 41,
           "review": 0
         },
         "folders": {
@@ -578,68 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6955,
-          "missing": 151,
+          "translated": 6961,
+          "missing": 145,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "K4vsSlHqbBAHUDHY",
-          "name": "Hydra",
-          "fieldPath": "items[fsAeJDaI0a6sBeFk].system.description.value",
-          "sourcePath": "monsters/monstrosity/hydra.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "K4vsSlHqbBAHUDHY",
-          "name": "Hydra",
-          "fieldPath": "items[fsAeJDaI0a6sBeFk].system.description.chat",
-          "sourcePath": "monsters/monstrosity/hydra.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "K4vsSlHqbBAHUDHY",
-          "name": "Hydra",
-          "fieldPath": "items[fsAeJDaI0a6sBeFk].system.activities.YGrfwEdzrY2p41LN.description.value",
-          "sourcePath": "monsters/monstrosity/hydra.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "K4vsSlHqbBAHUDHY",
-          "name": "Hydra",
-          "fieldPath": "items[bE965DuMt1ReAulm].system.description.value",
-          "sourcePath": "monsters/monstrosity/hydra.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "K4vsSlHqbBAHUDHY",
-          "name": "Hydra",
-          "fieldPath": "items[cLcVpNuZOHIxLfPP].system.description.value",
-          "sourcePath": "monsters/monstrosity/hydra.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "K4vsSlHqbBAHUDHY",
-          "name": "Hydra",
-          "fieldPath": "items[USl5HDilKxVI4BHh].system.description.value",
-          "sourcePath": "monsters/monstrosity/hydra.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",

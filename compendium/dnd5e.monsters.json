@@ -9550,18 +9550,26 @@
           },
           "activities": {
             "YGrfwEdzrY2p41LN": {
-              "name": "Far Ricrescere le Teste e Rigenerarsi"
+              "name": "Far Ricrescere le Teste e Rigenerarsi",
+              "description": {
+                "value": "<p>Alla fine del suo turno, gli crescono due teste per ciascuna testa morta dal suo turno precedente, a meno che non abbia subito danni da fuoco dal suo turno precedente. Il [[lookup @name lowercase]]{mostro} recupera [[/healing]] per ogni testa ricresciuta in questo modo.</p><p>@UUID[Compendium.dnd5e.monsters.Actor.K4vsSlHqbBAHUDHY.Item.fsAeJDaI0a6sBeFk.ActiveEffect.jALTzc0GXXaDjFNQ]{Testa di Idra}</p>"
+              }
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} ha cinque teste. Finché ha più di una testa, l'idra ha vantaggio ai tiri salvezza per evitare di essere &amp;reference[blinded apply=false], &amp;reference[charmed apply=false], &amp;reference[deafened apply=false], &amp;reference[frightened apply=false], &amp;reference[stunned apply=false] o resa &amp;reference[unconscious apply=false].</p><p>Ogni volta che il [[lookup @name lowercase]]{mostro} subisce 25 o più danni in un singolo turno, una delle sue teste muore. Se tutte le sue teste muoiono, il [[lookup @name lowercase]]{mostro} muore.</p><p>Alla fine del suo turno, gli crescono due teste per ciascuna testa morta dal suo turno precedente, a meno che non abbia subito danni da fuoco dal suo turno precedente. Il [[lookup @name lowercase]]{mostro} recupera [[/healing]] per ogni testa ricresciuta in questo modo.</p><section id=\"secret-fb7Nmscdc6QqsOXy\" class=\"secret\"><p><strong>Nota per Foundry</strong></p><p>È possibile tenere traccia delle teste del [[lookup @name lowercase]]{mostro} tramite gli effetti attivi @UUID[Compendium.dnd5e.monsters.Actor.K4vsSlHqbBAHUDHY.Item.fsAeJDaI0a6sBeFk.ActiveEffect.jALTzc0GXXaDjFNQ]{Testa di Idra}. Applica o rimuovi questo effetto ogni volta che al [[lookup @name lowercase]]{mostro} ricrescono o vengono recise delle teste.</p></section>",
+          "chat": "<p>L'idra ha cinque teste. Finché ha più di una testa, l'idra ha<strong> vantaggio </strong>ai tiri salvezza <strong>per evitare di essere accecata, affascinata, assordata, spaventata, stordita o resa priva di sensi</strong>.</p>"
         },
         "bE965DuMt1ReAulm": {
-          "name": "Teste Reattive"
+          "name": "Teste Reattive",
+          "description": "<p>Per ogni testa che il [[lookup @name lowercase]]{mostro} ha oltre la prima, ottiene una reazione aggiuntiva, utilizzabile solo per gli &amp;reference[opportunity attacks].</p>"
         },
         "cLcVpNuZOHIxLfPP": {
-          "name": "Sempre Sveglio"
+          "name": "Sempre Sveglio",
+          "description": "<p>Mentre il [[lookup @name lowercase]]{mostro} dorme, almeno una delle sue teste è sveglia.</p>"
         },
         "USl5HDilKxVI4BHh": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>L'idra effettua tanti attacchi di [[/item .fYE4f0Oa2I0MetId]]{morso} quante sono le sue teste ([[lookup @flags.world.hydra-head-count]]{1}).</p>"
         },
         "fYE4f0Oa2I0MetId": {
           "name": "Morso",
