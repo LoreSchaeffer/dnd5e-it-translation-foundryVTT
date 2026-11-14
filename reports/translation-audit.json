@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2366,
+      "translated": 2367,
       "missing": 3,
-      "partial": 22,
+      "partial": 21,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14903,
-      "missing": 757,
+      "translated": 14905,
+      "missing": 755,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 762
+    "blockingIssues": 760
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 331,
+          "translated": 332,
           "missing": 0,
-          "partial": 6,
+          "partial": 5,
           "review": 0
         },
         "folders": {
@@ -578,32 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 7087,
-          "missing": 19,
+          "translated": 7089,
+          "missing": 17,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "xple5bvGj42uGgdd",
-          "name": "Minotaur Skeleton",
-          "fieldPath": "items[p7R5kkqAVQFKClRm].system.description.value",
-          "sourcePath": "monsters/undead/minotaur-skeleton.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "xple5bvGj42uGgdd",
-          "name": "Minotaur Skeleton",
-          "fieldPath": "items[p7R5kkqAVQFKClRm].system.description.chat",
-          "sourcePath": "monsters/undead/minotaur-skeleton.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
