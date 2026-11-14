@@ -16473,7 +16473,8 @@
       "name": "Vrock",
       "items": {
         "oWzM562ozNrlfOZe": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua due attacchi: uno con il suo [[/item .JwAFMjU7vHDDL2Ib]]{becco} e uno con i suoi [[/item .H5JJE8uS39dTI3Vg]]{artigli}.</p>"
         },
         "eEVWpD5omMdUkWLu": {
           "name": "Spore",
@@ -16482,14 +16483,19 @@
               "name": "Diffondere Spore"
             },
             "cM4sk9IHslq0iS0v": {
-              "name": "Danni da Veleno a Inizio Turno"
+              "name": "Danni da Veleno a Inizio Turno",
+              "description": {
+                "value": "<p>Un bersaglio subisce [[/damage average]] danni all'inizio di ciascuno dei propri turni finché è &amp;reference[poisoned apply=false] da queste spore. Un bersaglio può ripetere il tiro salvezza alla fine di ciascuno dei propri turni, ponendo termine all'effetto su se stesso in caso di successo. Anche versare una fiala di @UUID[Compendium.dnd5e.equipment24.Item.nshr9PBVyB03T7wB]{Acqua Santa} sul bersaglio pone termine all'effetto su di esso.</p>"
+              }
             }
           },
           "effects": {
             "U7J7WV9lQsBGVdVA": {
               "name": "Diffondere Spore"
             }
-          }
+          },
+          "description": "<p>Una nube [[lookup @labels.description.template activity=6NlNH6h0uxCCjmPL]] di spore tossiche si propaga dal vrock. Le spore si diffondono aggirando gli angoli. Ogni creatura in quell'area deve superare un tiro salvezza [[/save]] oppure diventare &amp;Reference[poisoned].</p><p>Finché è avvelenato in questo modo, un bersaglio subisce [[/damage average]] danni all'inizio di ciascuno dei propri turni. Un bersaglio può ripetere il tiro salvezza alla fine di ciascuno dei propri turni, ponendo termine all'effetto su se stesso in caso di successo. Anche versare una fiala di @UUID[Compendium.dnd5e.equipment24.Item.nshr9PBVyB03T7wB]{Acqua Santa} sul bersaglio pone termine all'effetto su di esso.</p>",
+          "chat": "<p>Una nube [[lookup @labels.description.template activity=6NlNH6h0uxCCjmPL]] di spore tossiche si propaga dal [[lookup @name]]{mostro}. Le spore si diffondono aggirando gli angoli. Ogni creatura in quell'area deve effettuare un tiro salvezza su Costituzione. Un bersaglio può ripetere il tiro salvezza alla fine di ciascuno dei propri turni, ponendo termine all'effetto su se stesso in caso di successo.</p>"
         },
         "Ijd3GKLRlMzwoSe1": {
           "name": "Stridio Stordente",
@@ -16497,7 +16503,9 @@
             "OwngUc3uEBmyHoMl": {
               "name": "Stridere"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} emette uno stridio terrificante. Ogni creatura entro 6 metri da esso che possa udirlo e non sia un demone deve superare un tiro salvezza [[/save]] oppure essere &amp;reference[stunned] fino alla fine del turno successivo del [[lookup @name lowercase]]{mostro}.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} emette uno stridio terrificante. Ogni creatura entro 6 metri da esso che possa udirlo e non sia un demone deve effettuare un tiro salvezza su Costituzione.</p>"
         },
         "lFkc4XAUH21VJuuU": {
           "name": "Resistenza Magica",

@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2283,
+      "translated": 2284,
       "missing": 3,
-      "partial": 105,
+      "partial": 104,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14607,
-      "missing": 1053,
+      "translated": 14613,
+      "missing": 1047,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1058
+    "blockingIssues": 1052
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 248,
+          "translated": 249,
           "missing": 0,
-          "partial": 89,
+          "partial": 88,
           "review": 0
         },
         "folders": {
@@ -578,68 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6791,
-          "missing": 315,
+          "translated": 6797,
+          "missing": 309,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "6oc29m5uzzzb0pk3",
-          "name": "Vrock",
-          "fieldPath": "items[oWzM562ozNrlfOZe].system.description.value",
-          "sourcePath": "monsters/fiend/vrock.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "6oc29m5uzzzb0pk3",
-          "name": "Vrock",
-          "fieldPath": "items[eEVWpD5omMdUkWLu].system.description.value",
-          "sourcePath": "monsters/fiend/vrock.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "6oc29m5uzzzb0pk3",
-          "name": "Vrock",
-          "fieldPath": "items[eEVWpD5omMdUkWLu].system.description.chat",
-          "sourcePath": "monsters/fiend/vrock.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "6oc29m5uzzzb0pk3",
-          "name": "Vrock",
-          "fieldPath": "items[eEVWpD5omMdUkWLu].system.activities.cM4sk9IHslq0iS0v.description.value",
-          "sourcePath": "monsters/fiend/vrock.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "6oc29m5uzzzb0pk3",
-          "name": "Vrock",
-          "fieldPath": "items[Ijd3GKLRlMzwoSe1].system.description.value",
-          "sourcePath": "monsters/fiend/vrock.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "6oc29m5uzzzb0pk3",
-          "name": "Vrock",
-          "fieldPath": "items[Ijd3GKLRlMzwoSe1].system.description.chat",
-          "sourcePath": "monsters/fiend/vrock.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
