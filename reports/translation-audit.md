@@ -9,7 +9,7 @@
 | heroes | 12 | 12 | 0 | 0 | 0 | 0 | 0 |
 | items | 885 | 885 | 0 | 0 | 0 | 0 | 48 |
 | monsterfeatures | 252 | 252 | 0 | 0 | 0 | 0 | 0 |
-| monsters | 337 | 261 | 0 | 76 | 0 | 267 | 267 |
+| monsters | 337 | 262 | 0 | 75 | 0 | 264 | 264 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
 | rules | 20 | 1 | 3 | 16 | 0 | 738 | 695 |
 | spells | 320 | 320 | 0 | 0 | 0 | 0 | 0 |
@@ -17,7 +17,7 @@
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 1010
+Total blocking issues: 1007
 
 ## Issues
 
@@ -145,9 +145,6 @@ Total blocking issues: 1010
 - **missing-field** `monsters:7tRhrxuknTpHpYcA:items[2kHNI1T4gg879fDv].system.description.value`
 - **missing-field** `monsters:7tRhrxuknTpHpYcA:items[2kHNI1T4gg879fDv].effects[PM833qdHNhYXS4Q6].description`
 - **missing-field** `monsters:7tRhrxuknTpHpYcA:items[2kHNI1T4gg879fDv].effects[yUtUCn3TPecpu4SI].description`
-- **missing-field** `monsters:1ES45ODWg3pCrkzv:items[Keg9oouX6Vbl9tms].system.description.value`
-- **missing-field** `monsters:1ES45ODWg3pCrkzv:items[Keg9oouX6Vbl9tms].system.description.chat`
-- **missing-field** `monsters:1ES45ODWg3pCrkzv:items[xCDWUdpsC9XrGyHN].system.description.value`
 - **missing-field** `monsters:5kZNNWzZ6HrfKuWf:items[iYlIoEDfSCrggrca].system.description.value`
 - **missing-field** `monsters:5kZNNWzZ6HrfKuWf:items[4R48w4DH2CqCpmED].system.description.value`
 - **missing-field** `monsters:5kZNNWzZ6HrfKuWf:items[4R48w4DH2CqCpmED].system.description.chat`

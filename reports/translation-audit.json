@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2296,
+      "translated": 2297,
       "missing": 3,
-      "partial": 92,
+      "partial": 91,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14655,
-      "missing": 1005,
+      "translated": 14658,
+      "missing": 1002,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1010
+    "blockingIssues": 1007
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 261,
+          "translated": 262,
           "missing": 0,
-          "partial": 76,
+          "partial": 75,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6839,
-          "missing": 267,
+          "translated": 6842,
+          "missing": 264,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -1269,33 +1269,6 @@
           "name": "Werewolf",
           "fieldPath": "items[2kHNI1T4gg879fDv].effects[yUtUCn3TPecpu4SI].description",
           "sourcePath": "monsters/humanoid/werewolf.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "1ES45ODWg3pCrkzv",
-          "name": "Bulette",
-          "fieldPath": "items[Keg9oouX6Vbl9tms].system.description.value",
-          "sourcePath": "monsters/monstrosity/bulette.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "1ES45ODWg3pCrkzv",
-          "name": "Bulette",
-          "fieldPath": "items[Keg9oouX6Vbl9tms].system.description.chat",
-          "sourcePath": "monsters/monstrosity/bulette.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "1ES45ODWg3pCrkzv",
-          "name": "Bulette",
-          "fieldPath": "items[xCDWUdpsC9XrGyHN].system.description.value",
-          "sourcePath": "monsters/monstrosity/bulette.yml"
         },
         {
           "code": "missing-field",

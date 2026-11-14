@@ -1452,7 +1452,8 @@
           "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
         },
         "xCDWUdpsC9XrGyHN": {
-          "name": "Balzo da Fermo"
+          "name": "Balzo da Fermo",
+          "description": "<p>Il &amp;reference[long jump] del [[lookup @name lowercase]]{mostro} copre fino a 9 metri e il suo &amp;reference[high jump] raggiunge fino a 4,5 metri, con o senza rincorsa.</p>"
         },
         "Keg9oouX6Vbl9tms": {
           "name": "Balzo Letale",
@@ -1460,7 +1461,9 @@
             "1vGEpDSCHfEAoC4w": {
               "name": "Atterrare in Piedi"
             }
-          }
+          },
+          "description": "<p>Se il [[lookup @name lowercase]]{mostro} salta per almeno [[lookup @labels.description.range activity=1vGEpDSCHfEAoC4w]] come parte del proprio movimento, può poi usare questa azione per atterrare in piedi in uno spazio che contiene una o più altre creature.</p><p>Ognuna di quelle creature deve superare un tiro salvezza [[/save activity=1vGEpDSCHfEAoC4w]] (a scelta del bersaglio), altrimenti cade &amp;reference[prone] e subisce [[/damage average activity=1vGEpDSCHfEAoC4w]]. Se supera il tiro salvezza, la creatura subisce soltanto la metà dei danni, non cade a terra e viene spinta di 1,5 metri fuori dallo spazio del [[lookup @name lowercase]]{mostro}, in uno spazio libero a scelta della creatura. Se non ci sono spazi liberi entro gittata, la creatura cade invece &amp;reference[prone] nello spazio del [[lookup @name lowercase]]{mostro}.</p>",
+          "chat": "<p>Se il [[lookup @name]]{mostro} salta per almeno 4,5 metri come parte del proprio movimento, può poi usare questa azione per atterrare in piedi in uno spazio che contiene una o più altre creature. Ognuna di quelle creature deve effettuare un tiro salvezza su Forza o Destrezza (a scelta del bersaglio), altrimenti cade &amp;reference[prone].</p>"
         }
       },
       "details": {
