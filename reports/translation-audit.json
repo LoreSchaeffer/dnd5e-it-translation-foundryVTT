@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2227,
+      "translated": 2228,
       "missing": 3,
-      "partial": 161,
+      "partial": 160,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14409,
-      "missing": 1251,
+      "translated": 14411,
+      "missing": 1249,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1256
+    "blockingIssues": 1254
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 192,
+          "translated": 193,
           "missing": 0,
-          "partial": 145,
+          "partial": 144,
           "review": 0
         },
         "folders": {
@@ -578,32 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6593,
-          "missing": 513,
+          "translated": 6595,
+          "missing": 511,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "aTITHYYxthuZBPBn",
-          "name": "Ancient White Dragon",
-          "fieldPath": "items[UGfL5qnzzi2y2pNj].system.description.value",
-          "sourcePath": "monsters/dragon/ancient-white-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "aTITHYYxthuZBPBn",
-          "name": "Ancient White Dragon",
-          "fieldPath": "items[Fx66mIor2imnS9m9].system.description.value",
-          "sourcePath": "monsters/dragon/ancient-white-dragon.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
