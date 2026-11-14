@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2213,
+      "translated": 2214,
       "missing": 3,
-      "partial": 175,
+      "partial": 174,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14372,
-      "missing": 1288,
+      "translated": 14375,
+      "missing": 1285,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1293
+    "blockingIssues": 1290
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 178,
+          "translated": 179,
           "missing": 0,
-          "partial": 159,
+          "partial": 158,
           "review": 0
         },
         "folders": {
@@ -578,41 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6556,
-          "missing": 550,
+          "translated": 6559,
+          "missing": 547,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "MO382D2sxtAIuUC5",
-          "name": "Adult Gold Dragon",
-          "fieldPath": "items[TUvgGNvTgO6MlepM].system.description.value",
-          "sourcePath": "monsters/dragon/adult-gold-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "MO382D2sxtAIuUC5",
-          "name": "Adult Gold Dragon",
-          "fieldPath": "items[yAA3vcH0THsoKJfy].system.description.value",
-          "sourcePath": "monsters/dragon/adult-gold-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "MO382D2sxtAIuUC5",
-          "name": "Adult Gold Dragon",
-          "fieldPath": "items[jzJmvFRU5XvaTiSc].system.description.value",
-          "sourcePath": "monsters/dragon/adult-gold-dragon.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
