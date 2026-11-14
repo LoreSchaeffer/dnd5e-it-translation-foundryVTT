@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2377,
+      "translated": 2378,
       "missing": 3,
-      "partial": 11,
+      "partial": 10,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14954,
-      "missing": 706,
+      "translated": 14957,
+      "missing": 703,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 711
+    "blockingIssues": 708
   },
   "packs": [
     {
@@ -620,9 +620,9 @@
       "summary": {
         "documents": {
           "total": 20,
-          "translated": 6,
+          "translated": 7,
           "missing": 3,
-          "partial": 11,
+          "partial": 10,
           "review": 1
         },
         "folders": {
@@ -634,8 +634,8 @@
         },
         "fields": {
           "total": 877,
-          "translated": 171,
-          "missing": 706,
+          "translated": 174,
+          "missing": 703,
           "invariantFailures": 0,
           "englishResiduals": 3,
           "imperialResiduals": 0
@@ -6113,33 +6113,6 @@
           "name": "Appendix E: Rules",
           "fieldPath": "pages[oNQWvyRZkTOJ8PBq].text.content",
           "sourcePath": "rules/appendix-e-rules.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "QvPDSUsAiEn3hD8s",
-          "name": "Chapter 10: Spellcasting",
-          "fieldPath": "pages[FX9TS9vmt4dyOoqJ].text.content",
-          "sourcePath": "rules/chapter-10-spellcasting.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "QvPDSUsAiEn3hD8s",
-          "name": "Chapter 10: Spellcasting",
-          "fieldPath": "pages[evx9TWix4wYU51a5].text.content",
-          "sourcePath": "rules/chapter-10-spellcasting.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "QvPDSUsAiEn3hD8s",
-          "name": "Chapter 10: Spellcasting",
-          "fieldPath": "pages[wre9ECSVuEyJBYhr].text.content",
-          "sourcePath": "rules/chapter-10-spellcasting.yml"
         },
         {
           "code": "missing-field",
