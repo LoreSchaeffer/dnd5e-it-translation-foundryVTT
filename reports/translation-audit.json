@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2259,
+      "translated": 2260,
       "missing": 3,
-      "partial": 129,
+      "partial": 128,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14504,
-      "missing": 1156,
+      "translated": 14505,
+      "missing": 1155,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1161
+    "blockingIssues": 1160
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 224,
+          "translated": 225,
           "missing": 0,
-          "partial": 113,
+          "partial": 112,
           "review": 0
         },
         "folders": {
@@ -578,23 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6688,
-          "missing": 418,
+          "translated": 6689,
+          "missing": 417,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "jOANE6M0My6UJF4e",
-          "name": "Blink Dog",
-          "fieldPath": "items[1IE8rHcJIihDWCda].system.description.value",
-          "sourcePath": "monsters/fey/blink-dog.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
