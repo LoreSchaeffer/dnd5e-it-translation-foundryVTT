@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2324,
+      "translated": 2325,
       "missing": 3,
-      "partial": 64,
+      "partial": 63,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14754,
-      "missing": 906,
+      "translated": 14755,
+      "missing": 905,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 911
+    "blockingIssues": 910
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 289,
+          "translated": 290,
           "missing": 0,
-          "partial": 48,
+          "partial": 47,
           "review": 0
         },
         "folders": {
@@ -578,23 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6938,
-          "missing": 168,
+          "translated": 6939,
+          "missing": 167,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "tFJX45zj3QDc3Zli",
-          "name": "Grick",
-          "fieldPath": "items[dw5lQaT8ySNuOVd4].system.description.value",
-          "sourcePath": "monsters/monstrosity/grick.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
