@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2278,
+      "translated": 2279,
       "missing": 3,
-      "partial": 110,
+      "partial": 109,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14584,
-      "missing": 1076,
+      "translated": 14588,
+      "missing": 1072,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1081
+    "blockingIssues": 1077
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 243,
+          "translated": 244,
           "missing": 0,
-          "partial": 94,
+          "partial": 93,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6768,
-          "missing": 338,
+          "translated": 6772,
+          "missing": 334,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -810,42 +810,6 @@
           "name": "Vrock",
           "fieldPath": "items[Ijd3GKLRlMzwoSe1].system.description.chat",
           "sourcePath": "monsters/fiend/vrock.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "L1w8yBkInMscfJ3F",
-          "name": "Oni",
-          "fieldPath": "items[HiGvFK1bT8zkJA3r].system.description.value",
-          "sourcePath": "monsters/giant/oni.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "L1w8yBkInMscfJ3F",
-          "name": "Oni",
-          "fieldPath": "items[7YSwI62Budsr6HzO].system.description.value",
-          "sourcePath": "monsters/giant/oni.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "L1w8yBkInMscfJ3F",
-          "name": "Oni",
-          "fieldPath": "items[8liUuXPhjNLKYMMx].system.description.chat",
-          "sourcePath": "monsters/giant/oni.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "L1w8yBkInMscfJ3F",
-          "name": "Oni",
-          "fieldPath": "items[QGNzJqfTHnbhjzFN].system.description.value",
-          "sourcePath": "monsters/giant/oni.yml"
         },
         {
           "code": "missing-field",

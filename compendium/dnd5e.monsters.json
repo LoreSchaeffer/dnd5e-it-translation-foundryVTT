@@ -12055,10 +12055,12 @@
           "description": "<p>[[/attack extended]]. [[/damage extended]], oppure [[/damage average activity=Rev09LWfUvsYkKwA]] danni in forma Piccola o Media.</p>"
         },
         "HiGvFK1bT8zkJA3r": {
-          "name": "Incantesimi Innati"
+          "name": "Incantesimi Innati",
+          "description": "<p>La caratteristica da incantatore innato dell'oni è Carisma (CD del tiro salvezza degli incantesimi 13). L'oni può lanciare innatamente i seguenti incantesimi, senza richiedere componenti materiali:</p>\n<p>A volontà: [[/item .S7VbUetIfVT7B6Eq]]{Oscurità}, [[/item .1N8dDMMgZ1h1YJ3B]]{Invisibilità}</p>\n<p>1/giorno ciascuno: [[/item .eS7XnnApoxRxYXPs]]{Charme su Persone}, [[/item .RpKjTlYASrfqUPVA]]{Cono di Freddo}, [[/item .2IWiZAJtOGDoKjiz]]{Forma Gassosa}, [[/item .KhwiSi9fwVfUPtku]]{Sonno}</p>"
         },
         "7YSwI62Budsr6HzO": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>L'oni effettua due attacchi, con i suoi [[/item .q7J7PERrJb2vxtlt]]{artigli} o con il suo [[/item .FC0FNE8O4rnbth8s]]{falcione}.</p>"
         },
         "8liUuXPhjNLKYMMx": {
           "name": "Rigenerazione",
@@ -12067,7 +12069,8 @@
               "name": "Rigenerazione"
             }
           },
-          "description": "<p>Il [[lookup @name lowercase]]{mostro} recupera [[/healing]] all'inizio del proprio turno se possiede almeno 1 punto ferita.</p>"
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} recupera [[/healing]] all'inizio del proprio turno se possiede almeno 1 punto ferita.</p>",
+          "chat": "<p>L'oni recupera <strong>10 punti ferita</strong> all'inizio del proprio turno.</p>"
         },
         "QGNzJqfTHnbhjzFN": {
           "name": "Cambiare Forma",
@@ -12075,7 +12078,8 @@
             "GHwuUudZqOR9Jep5": {
               "name": "Trasformati"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} si trasforma magicamente in un umanoide di taglia Piccola o Media, in un gigante di taglia Grande, oppure torna alla sua vera forma. A eccezione della taglia, le sue statistiche sono le stesse in ogni forma. L'unico equipaggiamento che si trasforma è il suo falcione, che si rimpicciolisce in modo da poter essere impugnato in forma umanoide. Se il [[lookup @name lowercase]]{mostro} muore, torna alla sua vera forma e il suo falcione torna alle dimensioni normali.</p>"
         },
         "S7VbUetIfVT7B6Eq": {
           "name": "Oscurità",
