@@ -1,0 +1,12 @@
+{
+  "monsters": {
+    "aKt7vFAS1J0x3FQm": {
+      "items[6eqd5bKL0SgwqRnm].system.description.value": "<p>Il [[lookup @name lowercase]]{mostro} effettua due attacchi: uno con il suo [[/item .qpUx52QbFUCSPSln]]{morso} e uno con i suoi [[/item .T8XMTiCIOQP4dYEp]]{artigli}.</p>",
+      "items[qpUx52QbFUCSPSln].system.description.value": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il bersaglio deve superare un tiro salvezza [[/save activity=ujb7xiAX4hUtM8fe]] o essere &amp;reference[poisoned] per [[lookup @labels.duration activity=ujb7xiAX4hUtM8fe]]. La creatura può ripetere il tiro salvezza alla fine di ciascun proprio turno, terminando l'effetto su di sé in caso di successo.</p>",
+      "items[qpUx52QbFUCSPSln].system.description.chat": "<p>Il [[lookup @name]]{mostro} attacca con il suo [[lookup @item.name]]. Il bersaglio deve effettuare un tiro salvezza su Costituzione. La creatura può ripetere il tiro salvezza alla fine di ciascun proprio turno, terminando l'effetto su di sé in caso di successo.</p>",
+      "items[qpUx52QbFUCSPSln].system.activities.ujb7xiAX4hUtM8fe.description.value": "<p>Il bersaglio deve superare un tiro salvezza [[/save activity=ujb7xiAX4hUtM8fe]] o essere &amp;reference[poisoned] per [[lookup @labels.duration activity=ujb7xiAX4hUtM8fe]]. La creatura può ripetere il tiro salvezza alla fine di ciascun proprio turno, terminando l'effetto su di sé in caso di successo.</p>",
+      "items[W9YaQ2zrCYR6sjNk].system.description.value": "<p><em>Attacco con arma a distanza:</em> [[/attack]], gittata 9/18 m, una creatura Grande o più piccola. <em>Colpito:</em> la creatura è &amp;Reference[restrained] dalla ragnatela.</p><p>Come azione, il bersaglio trattenuto può effettuare una prova [[/check activity=aELnqvc37WaAm0IG]], liberandosi dalla ragnatela in caso di successo. L'effetto termina se la ragnatela viene distrutta. La ragnatela ha CA 10, 5 punti ferita, è vulnerabile ai danni da fuoco e immune ai danni contundenti.</p>",
+      "items[W9YaQ2zrCYR6sjNk].effects[otGAUswMpsAM0sho].description": "<p>Sei &amp;reference[restrained apply=false] dalla ragnatela. Come azione, puoi effettuare una prova [[/check 11 str]], liberandoti dalla ragnatela in caso di successo.</p><p>La ragnatela può anche essere attaccata e distrutta (CA 10; PF 5; vulnerabilità ai danni da fuoco; immunità ai danni contundenti).</p>"
+    }
+  }
+}

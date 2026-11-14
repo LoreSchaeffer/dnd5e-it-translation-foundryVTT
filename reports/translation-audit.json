@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2323,
+      "translated": 2324,
       "missing": 3,
-      "partial": 65,
+      "partial": 64,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14748,
-      "missing": 912,
+      "translated": 14754,
+      "missing": 906,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 917
+    "blockingIssues": 911
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 288,
+          "translated": 289,
           "missing": 0,
-          "partial": 49,
+          "partial": 48,
           "review": 0
         },
         "folders": {
@@ -578,68 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6932,
-          "missing": 174,
+          "translated": 6938,
+          "missing": 168,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "aKt7vFAS1J0x3FQm",
-          "name": "Ettercap",
-          "fieldPath": "items[6eqd5bKL0SgwqRnm].system.description.value",
-          "sourcePath": "monsters/monstrosity/ettercap.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "aKt7vFAS1J0x3FQm",
-          "name": "Ettercap",
-          "fieldPath": "items[qpUx52QbFUCSPSln].system.description.value",
-          "sourcePath": "monsters/monstrosity/ettercap.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "aKt7vFAS1J0x3FQm",
-          "name": "Ettercap",
-          "fieldPath": "items[qpUx52QbFUCSPSln].system.description.chat",
-          "sourcePath": "monsters/monstrosity/ettercap.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "aKt7vFAS1J0x3FQm",
-          "name": "Ettercap",
-          "fieldPath": "items[qpUx52QbFUCSPSln].system.activities.ujb7xiAX4hUtM8fe.description.value",
-          "sourcePath": "monsters/monstrosity/ettercap.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "aKt7vFAS1J0x3FQm",
-          "name": "Ettercap",
-          "fieldPath": "items[W9YaQ2zrCYR6sjNk].system.description.value",
-          "sourcePath": "monsters/monstrosity/ettercap.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "aKt7vFAS1J0x3FQm",
-          "name": "Ettercap",
-          "fieldPath": "items[W9YaQ2zrCYR6sjNk].effects[otGAUswMpsAM0sho].description",
-          "sourcePath": "monsters/monstrosity/ettercap.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
