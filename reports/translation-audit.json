@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2287,
+      "translated": 2288,
       "missing": 3,
-      "partial": 101,
+      "partial": 100,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14622,
-      "missing": 1038,
+      "translated": 14624,
+      "missing": 1036,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1043
+    "blockingIssues": 1041
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 252,
+          "translated": 253,
           "missing": 0,
-          "partial": 85,
+          "partial": 84,
           "review": 0
         },
         "folders": {
@@ -578,32 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6806,
-          "missing": 300,
+          "translated": 6808,
+          "missing": 298,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "CHEUjiYrVM9X0vIT",
-          "name": "Acolyte",
-          "fieldPath": "items[38I6bGoguRRefN6W].system.description.value",
-          "sourcePath": "monsters/humanoid/acolyte.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "CHEUjiYrVM9X0vIT",
-          "name": "Acolyte",
-          "fieldPath": "items[38I6bGoguRRefN6W].system.description.chat",
-          "sourcePath": "monsters/humanoid/acolyte.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
