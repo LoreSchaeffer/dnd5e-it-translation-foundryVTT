@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2346,
+      "translated": 2347,
       "missing": 3,
-      "partial": 42,
+      "partial": 41,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14837,
-      "missing": 823,
+      "translated": 14839,
+      "missing": 821,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 828
+    "blockingIssues": 826
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 311,
+          "translated": 312,
           "missing": 0,
-          "partial": 26,
+          "partial": 25,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 7021,
-          "missing": 85,
+          "translated": 7023,
+          "missing": 83,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -864,24 +864,6 @@
           "name": "Treant",
           "fieldPath": "items[8uUyRr6Ho7Yvx8pP].effects[8fL6lSFsN9qyGlUo].description",
           "sourcePath": "monsters/plant/treant.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "7EmUVycEASn7SFL0",
-          "name": "Violet Fungus",
-          "fieldPath": "items[OEx9iy4HDipiYsPt].system.description.chat",
-          "sourcePath": "monsters/plant/violet-fungus.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "7EmUVycEASn7SFL0",
-          "name": "Violet Fungus",
-          "fieldPath": "items[fZgfSlczUTtrCNEb].system.description.value",
-          "sourcePath": "monsters/plant/violet-fungus.yml"
         },
         {
           "code": "missing-field",

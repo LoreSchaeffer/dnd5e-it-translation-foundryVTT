@@ -7699,11 +7699,13 @@
           "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua 1d4 attacchi con [[/item .OEx9iy4HDipiYsPt]]{Tocco Putrescente}.</p>"
         },
         "fZgfSlczUTtrCNEb": {
-          "name": "Falso Aspetto"
+          "name": "Falso Aspetto",
+          "description": "<p>Finché il fungo violetto resta immobile, è indistinguibile da un fungo comune.</p>"
         },
         "OEx9iy4HDipiYsPt": {
           "name": "Tocco Putrescente",
-          "description": "<p>[[/attack extended]]. [[/damage extended]].</p>"
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il suo Contatto marcescente.</p>"
         }
       },
       "attributes": {
