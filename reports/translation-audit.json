@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2316,
+      "translated": 2317,
       "missing": 3,
-      "partial": 72,
+      "partial": 71,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14718,
-      "missing": 942,
+      "translated": 14719,
+      "missing": 941,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 947
+    "blockingIssues": 946
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 281,
+          "translated": 282,
           "missing": 0,
-          "partial": 56,
+          "partial": 55,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6902,
-          "missing": 204,
+          "translated": 6903,
+          "missing": 203,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -594,15 +594,6 @@
           "name": "Lizardfolk",
           "fieldPath": "items[s88qLjZemkFRnB8Y].system.description.value",
           "sourcePath": "monsters/humanoid/lizardfolk.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "J8xjoG4Dxb8WkHtV",
-          "name": "Veteran",
-          "fieldPath": "items[wziRdUn3HafZKJ8o].system.description.value",
-          "sourcePath": "monsters/humanoid/veteran.yml"
         },
         {
           "code": "missing-field",
