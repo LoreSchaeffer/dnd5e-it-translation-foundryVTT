@@ -14950,10 +14950,19 @@
               "description": "<p>Sei &amp;reference[poisoned apply=false] per la durata.</p>"
             },
             "pw6HjjLVGg9RII4U": {
-              "name": "Veleno Soporifero dello Sprite"
+              "name": "Veleno Soporifero dello Sprite",
+              "description": "<p>Sei &amp;reference[poisoned apply=false]{avvelenato} per la durata. Finché sei avvelenato in questo modo, cadi &amp;reference[unconscious apply=false]{privo di sensi} per la stessa durata, oppure finché non subisci danni o un'altra creatura non usa un'azione per scuoterti e svegliarti.</p>"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]] e il bersaglio deve superare un tiro salvezza [[/save]], altrimenti diventa &amp;Reference[poisoned]{avvelenato} per [[lookup @labels.duration activity=vMfBrhdjnxaKy0Wn]]. Se il risultato del suo tiro salvezza è pari o inferiore a 5, il bersaglio avvelenato cade &amp;Reference[unconscious]{privo di sensi} per la stessa durata, oppure finché non subisce danni o un'altra creatura non usa un'azione per scuoterlo e svegliarlo.</p>",
+          "activities": {
+            "vMfBrhdjnxaKy0Wn": {
+              "description": {
+                "value": "<p>Il bersaglio deve superare un tiro salvezza [[/save]], altrimenti diventa &amp;Reference[poisoned]{avvelenato} per 1 minuto. Se il risultato del suo tiro salvezza è pari o inferiore a 5, il bersaglio avvelenato cade &amp;Reference[unconscious]{privo di sensi} per la stessa durata, oppure finché non subisce danni o un'altra creatura non usa un'azione per scuoterlo e svegliarlo.</p>"
+              }
+            }
+          }
         },
         "mT8SL7VHsG6qY5G7": {
           "name": "Spada Lunga",
@@ -14964,14 +14973,17 @@
           "name": "Invisibilità",
           "effects": {
             "woi3Je0nZ2KaHaJq": {
-              "name": "Invisibilità"
+              "name": "Invisibilità",
+              "description": "<p>Sei &amp;reference[invisible]{invisibile} finché non attacchi, lanci un incantesimo o finché la tua concentrazione non termina (come se ti concentrassi su un incantesimo). Anche qualsiasi equipaggiamento che indossi o trasporti diventa invisibile.</p>"
             }
           },
           "activities": {
             "KoAbPzGOJ6vf7w7p": {
               "name": "Diventa Invisibile"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} diventa magicamente &amp;reference[invisible]{invisibile} finché non attacca o lancia un incantesimo, oppure finché la sua concentrazione non termina (come se si concentrasse su un incantesimo). Qualsiasi equipaggiamento che il [[lookup @name lowercase]]{mostro} indossa o trasporta diventa invisibile assieme a lui.</p>",
+          "chat": "<p>Il folletto diventa magicamente invisibile. Qualsiasi equipaggiamento che il folletto indossa o trasporta diventa invisibile assieme a lui.</p>"
         },
         "qJHrH8Q3q1JB5xe5": {
           "name": "Vista del Cuore",
@@ -14979,7 +14991,9 @@
             "WgvJpjzeNyJLFBHm": {
               "name": "Scrutare il Cuore"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} tocca una creatura e conosce magicamente il suo stato emotivo attuale.</p><p>Se il bersaglio fallisce un tiro salvezza [[/save]], il [[lookup @name lowercase]]{mostro} conosce anche l'allineamento della creatura. I celestiali, gli immondi e i non morti falliscono automaticamente il tiro salvezza.</p>",
+          "chat": "<p>Il folletto tocca una creatura. Il bersaglio deve effettuare un tiro salvezza su <strong>Carisma</strong>.</p>"
         }
       },
       "details": {

@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2263,
+      "translated": 2264,
       "missing": 3,
-      "partial": 125,
+      "partial": 124,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14526,
-      "missing": 1134,
+      "translated": 14534,
+      "missing": 1126,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1139
+    "blockingIssues": 1131
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 228,
+          "translated": 229,
           "missing": 0,
-          "partial": 109,
+          "partial": 108,
           "review": 0
         },
         "folders": {
@@ -578,86 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6710,
-          "missing": 396,
+          "translated": 6718,
+          "missing": 388,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "MUpBNDoJEr09bLaO",
-          "name": "Sprite",
-          "fieldPath": "items[YN8cO9SCNOIFJcmw].system.description.value",
-          "sourcePath": "monsters/fey/sprite.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "MUpBNDoJEr09bLaO",
-          "name": "Sprite",
-          "fieldPath": "items[YN8cO9SCNOIFJcmw].system.activities.vMfBrhdjnxaKy0Wn.description.value",
-          "sourcePath": "monsters/fey/sprite.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "MUpBNDoJEr09bLaO",
-          "name": "Sprite",
-          "fieldPath": "items[YN8cO9SCNOIFJcmw].effects[pw6HjjLVGg9RII4U].description",
-          "sourcePath": "monsters/fey/sprite.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "MUpBNDoJEr09bLaO",
-          "name": "Sprite",
-          "fieldPath": "items[qLd01BTjVwH6NUfH].system.description.value",
-          "sourcePath": "monsters/fey/sprite.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "MUpBNDoJEr09bLaO",
-          "name": "Sprite",
-          "fieldPath": "items[qLd01BTjVwH6NUfH].system.description.chat",
-          "sourcePath": "monsters/fey/sprite.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "MUpBNDoJEr09bLaO",
-          "name": "Sprite",
-          "fieldPath": "items[qLd01BTjVwH6NUfH].effects[woi3Je0nZ2KaHaJq].description",
-          "sourcePath": "monsters/fey/sprite.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "MUpBNDoJEr09bLaO",
-          "name": "Sprite",
-          "fieldPath": "items[qJHrH8Q3q1JB5xe5].system.description.value",
-          "sourcePath": "monsters/fey/sprite.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "MUpBNDoJEr09bLaO",
-          "name": "Sprite",
-          "fieldPath": "items[qJHrH8Q3q1JB5xe5].system.description.chat",
-          "sourcePath": "monsters/fey/sprite.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
