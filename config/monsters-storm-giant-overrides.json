@@ -1,0 +1,10 @@
+{
+  "monsters": {
+    "68bAMIpe4jvDeR9G": {
+      "items[2tzFjiAiXJLEpuCn].system.description.value": "<p>La caratteristica da incantatore innato del gigante è Carisma (CD del tiro salvezza degli incantesimi 17). Può lanciare innatamente i seguenti incantesimi, senza richiedere componenti materiali:</p>\n<p><strong>A volontà:</strong> [[/item .ghXTfe7sgCbgf1Q8]]{Individuazione del Magico}, [[/item .pub0OWVEB71XQx1n]]{Caduta Morbida}, [[/item .MRxldJd6C4bsBo3O]]{Levitazione}, [[/item .Bnn9Nzajixvow9xi]]{Luce}</p>\n<p><strong>3/giorno ciascuno</strong>: [[/item .ZPd73HtKF3At11jh]]{Controllare Tempo Atmosferico}, [[/item .13uVuBQP6VaiSPvC]]{Respirare Sott'Acqua}</p>",
+      "items[KUffpBEiNWnVK3W6].system.description.value": "<p>Il gigante effettua due attacchi con lo [[/item .iwN0z7f5LF9AAbRJ]]{spadone}.</p>",
+      "items[0JPMyUkBeRw3elVe].system.description.value": "<p>Il [[lookup @name lowercase]]{mostro} scaglia un fulmine magico verso un punto che può vedere entro [[lookup @labels.description.range activity=Y2GMAvtp4yB0QcvH]] da sé.</p><p>Ogni creatura entro [[lookup @target.template.size activity=Y2GMAvtp4yB0QcvH]] metri da quel punto deve effettuare un tiro salvezza [[/save]], subendo [[/damage average]] danni se lo fallisce, oppure la metà di quei danni se lo supera.</p>",
+      "items[0JPMyUkBeRw3elVe].system.description.chat": "<p>Il [[lookup @name]]{mostro} attacca con il suo [[lookup @item.name]]. Ogni creatura entro [[lookup @target.template.size activity=Y2GMAvtp4yB0QcvH]] metri da quel punto deve effettuare un tiro salvezza su Destrezza.</p>"
+    }
+  }
+}

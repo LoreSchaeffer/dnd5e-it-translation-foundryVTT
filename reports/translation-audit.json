@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2285,
+      "translated": 2286,
       "missing": 3,
-      "partial": 103,
+      "partial": 102,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14615,
-      "missing": 1045,
+      "translated": 14619,
+      "missing": 1041,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1050
+    "blockingIssues": 1046
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 250,
+          "translated": 251,
           "missing": 0,
-          "partial": 87,
+          "partial": 86,
           "review": 0
         },
         "folders": {
@@ -578,50 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6799,
-          "missing": 307,
+          "translated": 6803,
+          "missing": 303,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "68bAMIpe4jvDeR9G",
-          "name": "Storm Giant",
-          "fieldPath": "items[2tzFjiAiXJLEpuCn].system.description.value",
-          "sourcePath": "monsters/giant/storm-giant.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "68bAMIpe4jvDeR9G",
-          "name": "Storm Giant",
-          "fieldPath": "items[KUffpBEiNWnVK3W6].system.description.value",
-          "sourcePath": "monsters/giant/storm-giant.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "68bAMIpe4jvDeR9G",
-          "name": "Storm Giant",
-          "fieldPath": "items[0JPMyUkBeRw3elVe].system.description.value",
-          "sourcePath": "monsters/giant/storm-giant.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "68bAMIpe4jvDeR9G",
-          "name": "Storm Giant",
-          "fieldPath": "items[0JPMyUkBeRw3elVe].system.description.chat",
-          "sourcePath": "monsters/giant/storm-giant.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
