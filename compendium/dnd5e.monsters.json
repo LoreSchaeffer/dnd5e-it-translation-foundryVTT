@@ -11800,7 +11800,8 @@
       },
       "items": {
         "uGJpXeUbei6zXTd1": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} può usare il suo [[/item .8Jju4CVZaIDab6Ju]]{Sguardo terrificante} ed effettua un attacco con il suo [[/item .ik1IkSZi4fpiGbB3]]{pugno putrefatto}.</p>"
         },
         "8Jju4CVZaIDab6Ju": {
           "name": "Sguardo Funesto",
@@ -11819,21 +11820,27 @@
               "name": "Focalizza Sguardo"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} bersaglia [[lookup @labels.description.affects activity=vBP1Ivo8gjkv4DVp]] che sia in grado di vedere entro [[lookup @labels.description.range activity=vBP1Ivo8gjkv4DVp]] da sé. Se il bersaglio può vedere il [[lookup @name]]{mostro}, deve effettuare un tiro salvezza su Saggezza contro questa magia.</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} bersaglia [[lookup @labels.description.affects activity=vBP1Ivo8gjkv4DVp]] che sia in grado di vedere entro [[lookup @labels.description.range activity=vBP1Ivo8gjkv4DVp]] da sé. Se il bersaglio può vedere il [[lookup @name]]{mostro}, deve effettuare un tiro salvezza su Saggezza contro questa magia.</p>",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} sceglie come bersaglio [[lookup @labels.description.affects activity=vBP1Ivo8gjkv4DVp]] che può vedere entro [[lookup @labels.description.range activity=vBP1Ivo8gjkv4DVp]] da sé. Se il bersaglio può vedere il [[lookup @name lowercase]]{mostro}, deve superare un tiro salvezza [[/save]] contro questa magia o diventare &amp;reference[frightened] fino alla fine del turno successivo del [[lookup @name lowercase]]{mostro}.</p><p>Se il bersaglio fallisce il tiro salvezza di 5 o più, è anche &amp;reference[paralyzed] per la stessa durata. Un bersaglio che supera il tiro salvezza è immune allo [[lookup @item.name]] di tutte le mummie (ma non dei signori delle mummie) per le successive 24 ore.</p>"
         },
         "ik1IkSZi4fpiGbB3": {
           "name": "Pugno Putrescente",
           "activities": {
             "aKkGG9wpEFZSfhFO": {
-              "name": "Tiro Salvezza contro la Maledizione"
+              "name": "Tiro Salvezza contro la Maledizione",
+              "description": {
+                "value": "<p>Se il bersaglio è una creatura, deve superare un tiro salvezza [[/save]] o essere maledetto dal marciume della mummia. Il bersaglio maledetto non può recuperare punti ferita e il suo massimo di punti ferita diminuisce di 10 (3d6) ogni 24 ore trascorse. Se la maledizione riduce a 0 il massimo di punti ferita del bersaglio, il bersaglio muore e il suo corpo si riduce in polvere. La maledizione dura finché non viene rimossa dall'incantesimo @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{Rimuovi maledizione} o da un'altra magia.</p>"
+              }
             }
           },
           "effects": {
             "UMVpr1Reg58yXSa1": {
-              "name": "Putrefazione della Mummia"
+              "name": "Putrefazione della Mummia",
+              "description": "<p>Sei maledetto. Finché sei maledetto, non puoi recuperare punti ferita e il tuo massimo di punti ferita è ridotto di [[/damage maximum 3d6 average]]{10 (3d6)} ogni 24 ore trascorse.</p><p>Se la maledizione riduce a 0 il massimo di punti ferita del bersaglio, il bersaglio muore e il suo corpo si riduce in polvere. La maledizione dura finché non viene rimossa dall'incantesimo @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{Rimuovi maledizione} o da un'altra magia.</p>"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Se il bersaglio è una creatura, deve effettuare un tiro salvezza su Costituzione.</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Se il bersaglio è una creatura, deve effettuare un tiro salvezza su Costituzione.</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio è una creatura, deve superare un tiro salvezza [[/save]] o essere maledetto dal marciume della mummia. Il bersaglio maledetto non può recuperare punti ferita e il suo massimo di punti ferita diminuisce di 10 (3d6) ogni 24 ore trascorse. Se la maledizione riduce a 0 il massimo di punti ferita del bersaglio, il bersaglio muore e il suo corpo si riduce in polvere. La maledizione dura finché non viene rimossa dall'incantesimo @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{Rimuovi maledizione} o da un'altra magia.</p>"
         }
       },
       "details": {

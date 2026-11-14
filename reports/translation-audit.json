@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2364,
+      "translated": 2365,
       "missing": 3,
-      "partial": 24,
+      "partial": 23,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14895,
-      "missing": 765,
+      "translated": 14900,
+      "missing": 760,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 770
+    "blockingIssues": 765
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 329,
+          "translated": 330,
           "missing": 0,
-          "partial": 8,
+          "partial": 7,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 7079,
-          "missing": 27,
+          "translated": 7084,
+          "missing": 22,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -630,51 +630,6 @@
           "name": "Minotaur Skeleton",
           "fieldPath": "items[p7R5kkqAVQFKClRm].system.description.chat",
           "sourcePath": "monsters/undead/minotaur-skeleton.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "t8WYD7ak07X7xpx8",
-          "name": "Mummy",
-          "fieldPath": "items[uGJpXeUbei6zXTd1].system.description.value",
-          "sourcePath": "monsters/undead/mummy.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "t8WYD7ak07X7xpx8",
-          "name": "Mummy",
-          "fieldPath": "items[ik1IkSZi4fpiGbB3].system.description.value",
-          "sourcePath": "monsters/undead/mummy.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "t8WYD7ak07X7xpx8",
-          "name": "Mummy",
-          "fieldPath": "items[ik1IkSZi4fpiGbB3].system.activities.aKkGG9wpEFZSfhFO.description.value",
-          "sourcePath": "monsters/undead/mummy.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "t8WYD7ak07X7xpx8",
-          "name": "Mummy",
-          "fieldPath": "items[ik1IkSZi4fpiGbB3].effects[UMVpr1Reg58yXSa1].description",
-          "sourcePath": "monsters/undead/mummy.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "t8WYD7ak07X7xpx8",
-          "name": "Mummy",
-          "fieldPath": "items[8Jju4CVZaIDab6Ju].system.description.value",
-          "sourcePath": "monsters/undead/mummy.yml"
         },
         {
           "code": "missing-field",
