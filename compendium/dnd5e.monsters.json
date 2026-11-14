@@ -4300,7 +4300,8 @@
       },
       "items": {
         "GlvW2Ae0hvh1zCOV": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} può usare la sua [[/item .EIQHfjph1Viay95e]]{Presenza Terrificante}. Poi effettua tre attacchi: uno con il suo [[/item .BFbR0db4At8TQY91]]{morso} e due con i suoi [[/item .iqduxJQPzhHPTJp2]]{artigli}.</p>"
         },
         "BFbR0db4At8TQY91": {
           "name": "Morso",
@@ -4347,7 +4348,8 @@
               "description": "<p>Sei indebolito. Finché sei indebolito, subisci svantaggio ai tiri per colpire basati su Forza, alle prove di Forza e ai tiri salvezza su Forza per 1 minuto. Puoi ripetere il tiro salvezza alla fine di ciascun tuo turno e, se lo superi, l'effetto su di te termina.</p>"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} inspira!</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} inspira!</p>",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} usa una delle seguenti armi a soffio.</p><p><strong>Soffio di Fuoco.</strong> Il [[lookup @name lowercase]]{mostro} esala fuoco in un [[lookup @labels.description.template activity=o8fOmWWIqCYwGu3C]]. Ogni creatura in quell'area deve effettuare un tiro salvezza [[/save activity=o8fOmWWIqCYwGu3C]], subendo [[/damage average activity=o8fOmWWIqCYwGu3C]] danni se lo fallisce, oppure la metà di quei danni se lo supera.</p><p><strong>Soffio Indebolente.</strong> Il [[lookup @name lowercase]]{mostro} esala gas in un [[lookup @labels.description.template activity=J4QhEMZOdsyIy2D6]]. Ogni creatura in quell'area deve superare un tiro salvezza [[/save activity=J4QhEMZOdsyIy2D6]], altrimenti subisce svantaggio ai tiri per colpire basati sulla Forza, alle prove di Forza e ai tiri salvezza su Forza per [[lookup @labels.duration activity=J4QhEMZOdsyIy2D6]]. Una creatura può ripetere il tiro salvezza alla fine di ciascun proprio turno, terminando l'effetto su di sé in caso di successo.</p>"
         },
         "8Q24x67dK90knBLu": {
           "name": "Cambiare Forma",
@@ -4387,7 +4389,8 @@
               "name": "Colpo di Coda"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} schianta la propria lunga coda contro il nemico!</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} schianta la propria lunga coda contro il nemico!</p>",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua un attacco con la [[/item .Th6mPQnbWZHsARf4]]{coda}.</p>"
         },
         "I5ZsIqGdxTsJxGW4": {
           "name": "Attacco d'Ala",

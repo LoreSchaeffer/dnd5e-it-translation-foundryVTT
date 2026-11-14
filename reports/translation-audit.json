@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2223,
+      "translated": 2224,
       "missing": 3,
-      "partial": 165,
+      "partial": 164,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14399,
-      "missing": 1261,
+      "translated": 14402,
+      "missing": 1258,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1266
+    "blockingIssues": 1263
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 188,
+          "translated": 189,
           "missing": 0,
-          "partial": 149,
+          "partial": 148,
           "review": 0
         },
         "folders": {
@@ -578,41 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6583,
-          "missing": 523,
+          "translated": 6586,
+          "missing": 520,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ckOF3vQrnjFnZIDU",
-          "name": "Ancient Gold Dragon",
-          "fieldPath": "items[GlvW2Ae0hvh1zCOV].system.description.value",
-          "sourcePath": "monsters/dragon/ancient-gold-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ckOF3vQrnjFnZIDU",
-          "name": "Ancient Gold Dragon",
-          "fieldPath": "items[SlyHowiRkRtierXI].system.description.value",
-          "sourcePath": "monsters/dragon/ancient-gold-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ckOF3vQrnjFnZIDU",
-          "name": "Ancient Gold Dragon",
-          "fieldPath": "items[rkt5Li8O6ix5LCKf].system.description.value",
-          "sourcePath": "monsters/dragon/ancient-gold-dragon.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
