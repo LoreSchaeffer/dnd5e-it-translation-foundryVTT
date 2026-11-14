@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2272,
+      "translated": 2273,
       "missing": 3,
-      "partial": 116,
+      "partial": 115,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14569,
-      "missing": 1091,
+      "translated": 14570,
+      "missing": 1090,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1096
+    "blockingIssues": 1095
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 237,
+          "translated": 238,
           "missing": 0,
-          "partial": 100,
+          "partial": 99,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6753,
-          "missing": 353,
+          "translated": 6754,
+          "missing": 352,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -666,15 +666,6 @@
           "name": "Imp",
           "fieldPath": "items[ABjkKWIBbRYp2fy5].effects[dJA0IOGziAr9Onj9].description",
           "sourcePath": "monsters/fiend/imp.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "tubcO7kaQ4w0soxS",
-          "name": "Lemure",
-          "fieldPath": "items[7gfe5c1qGIvai12V].system.description.value",
-          "sourcePath": "monsters/fiend/lemure.yml"
         },
         {
           "code": "missing-field",
