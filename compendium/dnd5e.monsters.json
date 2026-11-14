@@ -16521,7 +16521,8 @@
       },
       "items": {
         "Uo4oxB1xZmJcWVsZ": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua due attacchi: uno con il suo [[/item .dlzFJ5UjbMAfJ6Sb]]{morso} e uno con il suo [[/item .yOjkK3f9jt2fYu3M]]{pungiglione caudale}.</p>"
         },
         "dlzFJ5UjbMAfJ6Sb": {
           "name": "Morso",
@@ -16533,14 +16534,20 @@
               "name": "Danni da Digestione a Inizio Turno"
             },
             "RtTQzkfIp3upqvoQ": {
-              "name": "Tiro Salvezza per Rigurgitare Creatura"
+              "name": "Tiro Salvezza per Rigurgitare Creatura",
+              "description": {
+                "value": "<p>Se il [[lookup @name lowercase]]{mostro} subisce almeno 30 danni in un singolo turno da una creatura al suo interno, alla fine di quel turno il [[lookup @name lowercase]]{mostro} deve superare un [[/save activity=RtTQzkfIp3upqvoQ]] tiro salvezza o rigurgitare tutte le creature inghiottite, che cadono &amp;reference[prone] in uno spazio entro 3 metri dal [[lookup @name lowercase]]{mostro}. Se il [[lookup @name lowercase]]{mostro} muore, una creatura inghiottita non è più trattenuta da esso e può uscire dal cadavere usando 6 metri di movimento, terminando &amp;reference[prone].</p>"
+              }
             }
           },
           "effects": {
             "vg1tK3NNahxO2QgV": {
-              "name": "Inghiottito"
+              "name": "Inghiottito",
+              "description": "<p>Sei stato inghiottito dal verme purpureo. Sei &amp;reference[blinded apply=false], &amp;reference[restrained apply=false] e hai &amp;reference[total cover] contro attacchi e altri effetti provenienti dall'esterno del verme purpureo.</p><p>Subisci inoltre [[/damage average 6d6 acid]] danni all'inizio di ciascun turno del verme purpureo.</p><p>Se il verme purpureo subisce almeno 30 danni in un singolo turno da te, deve superare un tiro salvezza di Costituzione o rigurgitarti, facendoti cadere &amp;reference[prone] in uno spazio entro 3 metri dal verme purpureo. Se il verme purpureo muore, non sei più trattenuto da esso e puoi uscire dal cadavere usando 6 metri di movimento, terminando &amp;reference[prone].</p>"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio è una creatura di taglia Grande o inferiore, deve superare un [[/save activity=dnd5eactivity100]] tiro salvezza o essere inghiottito dal [[lookup @name lowercase]]{mostro}. Una creatura inghiottita è &amp;reference[blinded] e &amp;reference[restrained], ha &amp;reference[total cover] contro attacchi e altri effetti provenienti dall'esterno del [[lookup @name lowercase]]{mostro} e subisce [[/damage average activity=5Ch92u8uWNihu5p1]] danni all'inizio di ciascun turno del [[lookup @name lowercase]]{mostro}.</p><p>Se il [[lookup @name lowercase]]{mostro} subisce almeno 30 danni in un singolo turno da una creatura al suo interno, alla fine di quel turno il [[lookup @name lowercase]]{mostro} deve superare un [[/save activity=RtTQzkfIp3upqvoQ]] tiro salvezza o rigurgitare tutte le creature inghiottite, che cadono &amp;reference[prone] in uno spazio entro 3 metri dal [[lookup @name lowercase]]{mostro}. Se il [[lookup @name lowercase]]{mostro} muore, una creatura inghiottita non è più trattenuta da esso e può uscire dal cadavere usando 6 metri di movimento, terminando &amp;reference[prone].</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il suo [[lookup @item.name]]. Se il bersaglio è una creatura di taglia Grande o inferiore, deve effettuare un tiro salvezza di Destrezza.</p>"
         },
         "ZgUj67GknsWFnbAR": {
           "name": "Scavatore",
@@ -16550,10 +16557,14 @@
           "name": "Pungiglione Caudale",
           "activities": {
             "IKUzECPGj8QbMFLo": {
-              "name": "Tiro Salvezza contro il Veleno"
+              "name": "Tiro Salvezza contro il Veleno",
+              "description": {
+                "value": "<p>Il bersaglio deve effettuare un [[/save activity=IKUzECPGj8QbMFLo]] tiro salvezza, subendo [[/damage average activity=IKUzECPGj8QbMFLo]] danni se lo fallisce, o la metà dei danni se lo supera.</p>"
+              }
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio deve effettuare un tiro salvezza su Costituzione.</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio deve effettuare un tiro salvezza su Costituzione.</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il bersaglio deve effettuare un [[/save activity=IKUzECPGj8QbMFLo]] tiro salvezza, subendo [[/damage average activity=IKUzECPGj8QbMFLo]] danni se lo fallisce, o la metà dei danni se lo supera.</p>"
         }
       },
       "details": {

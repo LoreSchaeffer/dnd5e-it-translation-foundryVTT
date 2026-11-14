@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2336,
+      "translated": 2337,
       "missing": 3,
-      "partial": 52,
+      "partial": 51,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14793,
-      "missing": 867,
+      "translated": 14800,
+      "missing": 860,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 872
+    "blockingIssues": 865
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 301,
+          "translated": 302,
           "missing": 0,
-          "partial": 36,
+          "partial": 35,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6977,
-          "missing": 129,
+          "translated": 6984,
+          "missing": 122,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -756,69 +756,6 @@
           "name": "Owlbear",
           "fieldPath": "items[R7Vx1RxO8OjXpzQd].system.description.value",
           "sourcePath": "monsters/monstrosity/owlbear.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "PtotS52HpHX596cZ",
-          "name": "Purple Worm",
-          "fieldPath": "items[Uo4oxB1xZmJcWVsZ].system.description.value",
-          "sourcePath": "monsters/monstrosity/purple-worm.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "PtotS52HpHX596cZ",
-          "name": "Purple Worm",
-          "fieldPath": "items[dlzFJ5UjbMAfJ6Sb].system.description.value",
-          "sourcePath": "monsters/monstrosity/purple-worm.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "PtotS52HpHX596cZ",
-          "name": "Purple Worm",
-          "fieldPath": "items[dlzFJ5UjbMAfJ6Sb].system.description.chat",
-          "sourcePath": "monsters/monstrosity/purple-worm.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "PtotS52HpHX596cZ",
-          "name": "Purple Worm",
-          "fieldPath": "items[dlzFJ5UjbMAfJ6Sb].system.activities.RtTQzkfIp3upqvoQ.description.value",
-          "sourcePath": "monsters/monstrosity/purple-worm.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "PtotS52HpHX596cZ",
-          "name": "Purple Worm",
-          "fieldPath": "items[dlzFJ5UjbMAfJ6Sb].effects[vg1tK3NNahxO2QgV].description",
-          "sourcePath": "monsters/monstrosity/purple-worm.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "PtotS52HpHX596cZ",
-          "name": "Purple Worm",
-          "fieldPath": "items[yOjkK3f9jt2fYu3M].system.description.value",
-          "sourcePath": "monsters/monstrosity/purple-worm.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "PtotS52HpHX596cZ",
-          "name": "Purple Worm",
-          "fieldPath": "items[yOjkK3f9jt2fYu3M].system.activities.IKUzECPGj8QbMFLo.description.value",
-          "sourcePath": "monsters/monstrosity/purple-worm.yml"
         },
         {
           "code": "missing-field",
