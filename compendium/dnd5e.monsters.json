@@ -11354,7 +11354,10 @@
           "name": "Corrodere il Metallo",
           "activities": {
             "Z1i5TNU9VGpSizu1": {
-              "name": "Corrodere Arma"
+              "name": "Corrodere Arma",
+              "description": {
+                "value": "<p>Qualsiasi arma non magica di metallo che colpisce il [[lookup @name lowercase]]{mostro} si corrode. Dopo aver inflitto danni, l'arma subisce una penalità permanente e cumulativa di -1 ai tiri per i danni.</p><p>Se la penalità scende a -5, l'arma viene distrutta. Le munizioni non magiche di metallo che colpiscono il [[lookup @name lowercase]]{mostro} vengono distrutte dopo aver inflitto danni. Il [[lookup @name lowercase]]{mostro} può consumare in 1 round metallo non magico spesso 5 cm.</p><p>@UUID[Compendium.dnd5e.monsters.Actor.fqbFYtbtkrL53FOC.Item.uSay5J2sf9zXsabi.ActiveEffect.Khdj386syEL9V9OA]{Arma corrosa}</p>"
+              }
             }
           },
           "effects": {
@@ -11362,10 +11365,13 @@
               "name": "Arma Corrosa",
               "description": "<p>Quest'arma è stata corrosa e subisce una penalità permanente e cumulativa di -1 ai tiri per i danni. Se la penalità scende a -5, l'arma è distrutta.</p>"
             }
-          }
+          },
+          "description": "<p>Qualsiasi arma non magica di metallo che colpisce il [[lookup @name lowercase]]{mostro} si corrode. Dopo aver inflitto danni, l'arma subisce una penalità permanente e cumulativa di -1 ai tiri per i danni.</p><p>Se la penalità scende a -5, l'arma viene distrutta. Le munizioni non magiche di metallo che colpiscono il [[lookup @name lowercase]]{mostro} vengono distrutte dopo aver inflitto danni. Il [[lookup @name lowercase]]{mostro} può consumare in 1 round metallo non magico spesso 5 cm.</p><section id=\"secret-3w7p9RfuLKPgT6FQ\" class=\"secret\"><p><strong>Nota di Foundry</strong></p><p>Puoi applicare a un'arma l'incantamento @UUID[Compendium.dnd5e.monsters.Actor.fqbFYtbtkrL53FOC.Item.uSay5J2sf9zXsabi.ActiveEffect.Khdj386syEL9V9OA]{Arma corrosa}, che le assegna una penalità cumulativa di -1 ai tiri per i danni ogni volta che l'incantamento viene applicato.</p></section>",
+          "chat": "<p>Il [[lookup @name]]{mostro} corrode il metallo.</p>"
         },
         "NDZ02JVZWMbzRGGJ": {
-          "name": "Falso Aspetto"
+          "name": "Falso Aspetto",
+          "description": "<p>Finché il [[lookup @name lowercase]]{mostro} rimane immobile, è indistinguibile da una pozza oleosa o da una roccia bagnata.</p>"
         },
         "JVq3dfBRcON0kWKz": {
           "name": "Amorfo",
@@ -11377,6 +11383,15 @@
             "SiRqKDm2qerReaj8": {
               "name": "Armatura Corrosa",
               "description": "<p>Questa armatura è stata corrosa e subisce una penalità permanente e cumulativa di -1 alla CA che fornisce. L'armatura è distrutta se la penalità riduce la sua CA a 10.</p>"
+            }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio indossa un'armatura non magica di metallo, questa si corrode parzialmente e subisce una penalità permanente e cumulativa di -1 alla CA che offre. L'armatura viene distrutta se la penalità riduce la sua CA a 10.</p><section id=\"secret-8JkOh4DLk4cb3dhN\" class=\"secret\"><p><strong>Nota di Foundry</strong></p><p>Puoi applicare a un'armatura l'incantamento @UUID[Compendium.dnd5e.monsters.Actor.fqbFYtbtkrL53FOC.Item.KO4qRywgiEQ3F004.ActiveEffect.SiRqKDm2qerReaj8]{Armatura corrosa}, che le assegna una penalità cumulativa di -1 alla CA che offre ogni volta che l'incantamento viene applicato.</p></section>",
+          "chat": "<p>Il [[lookup @name lowercase]]{mostro} attacca con il suo [[lookup @item.name]]. Se il bersaglio indossa un'armatura non magica di metallo, questa si corrode parzialmente e subisce una penalità permanente e cumulativa di -1 alla CA che offre.</p>",
+          "activities": {
+            "doxmMopUdGtorvDy": {
+              "description": {
+                "value": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio indossa un'armatura non magica di metallo, questa si corrode parzialmente e subisce una penalità permanente e cumulativa di -1 alla CA che offre. L'armatura viene distrutta se la penalità riduce la sua CA a 10.</p><p>@UUID[Compendium.dnd5e.monsters.Actor.fqbFYtbtkrL53FOC.Item.KO4qRywgiEQ3F004.ActiveEffect.SiRqKDm2qerReaj8]{Armatura corrosa}</p>"
+              }
             }
           }
         }

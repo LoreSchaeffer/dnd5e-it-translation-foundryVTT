@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2342,
+      "translated": 2343,
       "missing": 3,
-      "partial": 46,
+      "partial": 45,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14823,
-      "missing": 837,
+      "translated": 14830,
+      "missing": 830,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 842
+    "blockingIssues": 835
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 307,
+          "translated": 308,
           "missing": 0,
-          "partial": 30,
+          "partial": 29,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 7007,
-          "missing": 99,
+          "translated": 7014,
+          "missing": 92,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -792,69 +792,6 @@
           "name": "Worg",
           "fieldPath": "items[UnONIXYgZcE3Jya0].system.description.chat",
           "sourcePath": "monsters/monstrosity/worg.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "fqbFYtbtkrL53FOC",
-          "name": "Gray Ooze",
-          "fieldPath": "items[uSay5J2sf9zXsabi].system.description.value",
-          "sourcePath": "monsters/ooze/gray-ooze.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "fqbFYtbtkrL53FOC",
-          "name": "Gray Ooze",
-          "fieldPath": "items[uSay5J2sf9zXsabi].system.description.chat",
-          "sourcePath": "monsters/ooze/gray-ooze.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "fqbFYtbtkrL53FOC",
-          "name": "Gray Ooze",
-          "fieldPath": "items[uSay5J2sf9zXsabi].system.activities.Z1i5TNU9VGpSizu1.description.value",
-          "sourcePath": "monsters/ooze/gray-ooze.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "fqbFYtbtkrL53FOC",
-          "name": "Gray Ooze",
-          "fieldPath": "items[NDZ02JVZWMbzRGGJ].system.description.value",
-          "sourcePath": "monsters/ooze/gray-ooze.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "fqbFYtbtkrL53FOC",
-          "name": "Gray Ooze",
-          "fieldPath": "items[KO4qRywgiEQ3F004].system.description.value",
-          "sourcePath": "monsters/ooze/gray-ooze.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "fqbFYtbtkrL53FOC",
-          "name": "Gray Ooze",
-          "fieldPath": "items[KO4qRywgiEQ3F004].system.description.chat",
-          "sourcePath": "monsters/ooze/gray-ooze.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "fqbFYtbtkrL53FOC",
-          "name": "Gray Ooze",
-          "fieldPath": "items[KO4qRywgiEQ3F004].system.activities.doxmMopUdGtorvDy.description.value",
-          "sourcePath": "monsters/ooze/gray-ooze.yml"
         },
         {
           "code": "missing-field",
