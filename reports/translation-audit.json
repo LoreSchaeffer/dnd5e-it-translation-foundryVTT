@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2210,
+      "translated": 2211,
       "missing": 3,
-      "partial": 178,
+      "partial": 177,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14363,
-      "missing": 1297,
+      "translated": 14366,
+      "missing": 1294,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1302
+    "blockingIssues": 1299
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 175,
+          "translated": 176,
           "missing": 0,
-          "partial": 162,
+          "partial": 161,
           "review": 0
         },
         "folders": {
@@ -578,41 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6547,
-          "missing": 559,
+          "translated": 6550,
+          "missing": 556,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "7vswgicsiMfS4ZTS",
-          "name": "Adult Brass Dragon",
-          "fieldPath": "items[MUTDiPrzhDqLYlKU].system.description.value",
-          "sourcePath": "monsters/dragon/adult-brass-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "7vswgicsiMfS4ZTS",
-          "name": "Adult Brass Dragon",
-          "fieldPath": "items[bylvyjev8yh0oVj6].system.description.value",
-          "sourcePath": "monsters/dragon/adult-brass-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "7vswgicsiMfS4ZTS",
-          "name": "Adult Brass Dragon",
-          "fieldPath": "items[6HbC9df2Q4N6U2Ev].system.description.value",
-          "sourcePath": "monsters/dragon/adult-brass-dragon.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
