@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2362,
+      "translated": 2363,
       "missing": 3,
-      "partial": 26,
+      "partial": 25,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14882,
-      "missing": 778,
+      "translated": 14888,
+      "missing": 772,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 783
+    "blockingIssues": 777
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 327,
+          "translated": 328,
           "missing": 0,
-          "partial": 10,
+          "partial": 9,
           "review": 0
         },
         "folders": {
@@ -578,68 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 7066,
-          "missing": 40,
+          "translated": 7072,
+          "missing": 34,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "IyIybE5t2adMEVUM",
-          "name": "Ghast",
-          "fieldPath": "items[gBiHo206x7uGoySO].system.description.value",
-          "sourcePath": "monsters/undead/ghast.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "IyIybE5t2adMEVUM",
-          "name": "Ghast",
-          "fieldPath": "items[gBiHo206x7uGoySO].system.description.chat",
-          "sourcePath": "monsters/undead/ghast.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "IyIybE5t2adMEVUM",
-          "name": "Ghast",
-          "fieldPath": "items[WjqNhFTYP9w4gGHd].system.description.value",
-          "sourcePath": "monsters/undead/ghast.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "IyIybE5t2adMEVUM",
-          "name": "Ghast",
-          "fieldPath": "items[ricjyd1SKzeQ5gQE].system.description.value",
-          "sourcePath": "monsters/undead/ghast.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "IyIybE5t2adMEVUM",
-          "name": "Ghast",
-          "fieldPath": "items[ricjyd1SKzeQ5gQE].system.description.chat",
-          "sourcePath": "monsters/undead/ghast.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "IyIybE5t2adMEVUM",
-          "name": "Ghast",
-          "fieldPath": "items[ricjyd1SKzeQ5gQE].system.activities.GKEI5W17dgV81huq.description.value",
-          "sourcePath": "monsters/undead/ghast.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",

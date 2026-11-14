@@ -1,0 +1,12 @@
+{
+  "monsters": {
+    "IyIybE5t2adMEVUM": {
+      "items[gBiHo206x7uGoySO].system.description.value": "<p>Ogni creatura che inizia il proprio turno entro [[lookup @target.template.size activity=6e3MrenfD7Q2nBLE]] × 0,3 metri dal [[lookup @name lowercase]]{mostro} deve superare un tiro salvezza [[/save]] o essere &amp;reference[poisoned] fino all'inizio del suo prossimo turno. Se lo supera, la creatura è immune, per 24 ore, alla puzza del [[lookup @name lowercase]]{mostro}, cioè al tratto [[lookup @item.name]].</p>",
+      "items[gBiHo206x7uGoySO].system.description.chat": "<p>Ogni creatura che inizia il proprio turno entro <strong>1,5 metri</strong> dal ghast deve superare un tiro salvezza su Costituzione.</p>",
+      "items[WjqNhFTYP9w4gGHd].system.description.value": "<p>Il [[lookup @name lowercase]]{mostro} e tutti i @UUID[Compendium.dnd5e.monsters.Actor.OBujQLLPSmlJiZnL]{ghoul} entro 9 metri da esso hanno vantaggio ai tiri salvezza contro gli effetti che scacciano i non morti.</p>",
+      "items[ricjyd1SKzeQ5gQE].system.description.value": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio è una creatura diversa da un non morto, deve superare un tiro salvezza [[/save activity=GKEI5W17dgV81huq]] o essere &amp;reference[paralyzed] per [[lookup @labels.duration activity=GKEI5W17dgV81huq]]. Il bersaglio può ripetere il tiro salvezza alla fine di ciascun suo turno; se lo supera, l'effetto termina.</p>",
+      "items[ricjyd1SKzeQ5gQE].system.description.chat": "<p>Il [[lookup @name]]{mostro} attacca con i suoi [[lookup @item.name]]. Se il bersaglio è una creatura diversa da un non morto, deve effettuare un tiro salvezza su Costituzione. Il bersaglio può ripetere il tiro salvezza alla fine di ciascun suo turno; se lo supera, l'effetto termina.</p>",
+      "items[ricjyd1SKzeQ5gQE].system.activities.GKEI5W17dgV81huq.description.value": "<p>Se il bersaglio è una creatura diversa da un non morto, deve superare un tiro salvezza [[/save activity=GKEI5W17dgV81huq]] o essere &amp;reference[paralyzed] per [[lookup @labels.duration activity=GKEI5W17dgV81huq]]. Il bersaglio può ripetere il tiro salvezza alla fine di ciascun suo turno; se lo supera, l'effetto termina.</p>"
+    }
+  }
+}
