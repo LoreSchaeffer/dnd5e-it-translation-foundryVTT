@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2211,
+      "translated": 2212,
       "missing": 3,
-      "partial": 177,
+      "partial": 176,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14366,
-      "missing": 1294,
+      "translated": 14369,
+      "missing": 1291,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1299
+    "blockingIssues": 1296
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 176,
+          "translated": 177,
           "missing": 0,
-          "partial": 161,
+          "partial": 160,
           "review": 0
         },
         "folders": {
@@ -578,41 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6550,
-          "missing": 556,
+          "translated": 6553,
+          "missing": 553,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "VCuG0Z3MrO8kfDU0",
-          "name": "Adult Bronze Dragon",
-          "fieldPath": "items[Sn1RpgmvWb3DPz66].system.description.value",
-          "sourcePath": "monsters/dragon/adult-bronze-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "VCuG0Z3MrO8kfDU0",
-          "name": "Adult Bronze Dragon",
-          "fieldPath": "items[2a60l0GqXGN8lx4R].system.description.value",
-          "sourcePath": "monsters/dragon/adult-bronze-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "VCuG0Z3MrO8kfDU0",
-          "name": "Adult Bronze Dragon",
-          "fieldPath": "items[c6O0wQM6Ad7tDiKv].system.description.value",
-          "sourcePath": "monsters/dragon/adult-bronze-dragon.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
