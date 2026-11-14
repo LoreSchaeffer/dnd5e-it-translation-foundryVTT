@@ -11170,10 +11170,13 @@
               "name": "Accecato dalla Polvere",
               "description": "<p>Sei &amp;reference[blinded apply=false] per la durata.</p><p>Puoi ripetere il tiro salvezza alla fine di ciascun tuo turno e, se lo superi, l'effetto su di te termina.</p>"
             }
-          }
+          },
+          "description": "<p>Quando il [[lookup @name lowercase]]{mostro} muore, esplode in una nube di polvere. Ogni creatura entro [[lookup @target.template.size activity=xWXsJ4iFhpxEMroK]] da esso deve superare un tiro salvezza [[/save]], altrimenti rimane &amp;Reference[blinded]{accecata} per [[lookup @labels.duration activity=xWXsJ4iFhpxEMroK]]. Una creatura accecata può ripetere il tiro salvezza in ciascun proprio turno, terminando l'effetto su di sé in caso di successo.</p>",
+          "chat": "<p>Quando il mephit muore, esplode in una nube di polvere. Ogni creatura entro <strong>1,5 m</strong> da esso deve effettuare un tiro salvezza su <strong>Costituzione</strong>.</p>"
         },
         "muKb2wMq6khBe1yH": {
-          "name": "Incantesimi Innati"
+          "name": "Incantesimi Innati",
+          "description": "<p>Il mephit può lanciare [[/item .KhwiSi9fwVfUPtku]]{sonno} innatamente, senza richiedere componenti materiali. La sua caratteristica da incantatore innato è Carisma.</p>"
         },
         "RTpPc5fs27dBqDuj": {
           "name": "Soffio Accecante",
@@ -11187,7 +11190,9 @@
               "name": "Accecato dalla Polvere",
               "description": "<p>Sei &amp;reference[blinded apply=false] per la durata.</p><p>Puoi ripetere il tiro salvezza alla fine di ciascun tuo turno e, se lo superi, l'effetto su di te termina.</p>"
             }
-          }
+          },
+          "description": "<p>Il mephit esala un [[lookup @labels.description.template activity=DkJgrFw9xkTp7btO]] di polvere accecante. Ogni creatura in quell'area deve superare un tiro salvezza [[/save]], altrimenti rimane &amp;reference[blinded]{accecata} per [[lookup @labels.duration activity=DkJgrFw9xkTp7btO]]. Una creatura può ripetere il tiro salvezza alla fine di ciascun proprio turno, terminando l'effetto su di sé in caso di successo.</p>",
+          "chat": "<p>Il mephit esala un cono di 4,5 metri di polvere accecante. Ogni creatura in quell'area deve effettuare un tiro salvezza su <strong>Destrezza</strong>. Una creatura può ripetere il tiro salvezza alla fine di ciascun proprio turno.</p>"
         },
         "KhwiSi9fwVfUPtku": {
           "name": "Sonno",

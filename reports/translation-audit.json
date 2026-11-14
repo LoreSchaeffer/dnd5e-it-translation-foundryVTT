@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2248,
+      "translated": 2249,
       "missing": 3,
-      "partial": 140,
+      "partial": 139,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14459,
-      "missing": 1201,
+      "translated": 14464,
+      "missing": 1196,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1206
+    "blockingIssues": 1201
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 213,
+          "translated": 214,
           "missing": 0,
-          "partial": 124,
+          "partial": 123,
           "review": 0
         },
         "folders": {
@@ -578,59 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6643,
-          "missing": 463,
+          "translated": 6648,
+          "missing": 458,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "BUCfQ7ihaXX75Vai",
-          "name": "Dust Mephit",
-          "fieldPath": "items[v3i1DaUS4Bkc8Ser].system.description.value",
-          "sourcePath": "monsters/elemental/dust-mephit.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "BUCfQ7ihaXX75Vai",
-          "name": "Dust Mephit",
-          "fieldPath": "items[v3i1DaUS4Bkc8Ser].system.description.chat",
-          "sourcePath": "monsters/elemental/dust-mephit.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "BUCfQ7ihaXX75Vai",
-          "name": "Dust Mephit",
-          "fieldPath": "items[muKb2wMq6khBe1yH].system.description.value",
-          "sourcePath": "monsters/elemental/dust-mephit.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "BUCfQ7ihaXX75Vai",
-          "name": "Dust Mephit",
-          "fieldPath": "items[RTpPc5fs27dBqDuj].system.description.value",
-          "sourcePath": "monsters/elemental/dust-mephit.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "BUCfQ7ihaXX75Vai",
-          "name": "Dust Mephit",
-          "fieldPath": "items[RTpPc5fs27dBqDuj].system.description.chat",
-          "sourcePath": "monsters/elemental/dust-mephit.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
