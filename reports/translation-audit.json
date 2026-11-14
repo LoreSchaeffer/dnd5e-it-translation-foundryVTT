@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2216,
+      "translated": 2217,
       "missing": 3,
-      "partial": 172,
+      "partial": 171,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14379,
-      "missing": 1281,
+      "translated": 14382,
+      "missing": 1278,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1286
+    "blockingIssues": 1283
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 181,
+          "translated": 182,
           "missing": 0,
-          "partial": 156,
+          "partial": 155,
           "review": 0
         },
         "folders": {
@@ -578,41 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6563,
-          "missing": 543,
+          "translated": 6566,
+          "missing": 540,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "geM2F7HvVGhtk3h4",
-          "name": "Adult Silver Dragon",
-          "fieldPath": "items[ajPmtUy0amdphs7D].system.description.value",
-          "sourcePath": "monsters/dragon/adult-silver-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "geM2F7HvVGhtk3h4",
-          "name": "Adult Silver Dragon",
-          "fieldPath": "items[zyGeyMoiSCtULHw6].system.description.value",
-          "sourcePath": "monsters/dragon/adult-silver-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "geM2F7HvVGhtk3h4",
-          "name": "Adult Silver Dragon",
-          "fieldPath": "items[w953qJLkouOiob82].system.description.value",
-          "sourcePath": "monsters/dragon/adult-silver-dragon.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
