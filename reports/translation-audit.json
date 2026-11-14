@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2313,
+      "translated": 2314,
       "missing": 3,
-      "partial": 75,
+      "partial": 74,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14712,
-      "missing": 948,
+      "translated": 14715,
+      "missing": 945,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 953
+    "blockingIssues": 950
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 278,
+          "translated": 279,
           "missing": 0,
-          "partial": 59,
+          "partial": 58,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6896,
-          "missing": 210,
+          "translated": 6899,
+          "missing": 207,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -594,33 +594,6 @@
           "name": "Lizardfolk",
           "fieldPath": "items[s88qLjZemkFRnB8Y].system.description.value",
           "sourcePath": "monsters/humanoid/lizardfolk.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "lyNBFmJdbh4NLRzz",
-          "name": "Sahuagin",
-          "fieldPath": "items[1aEgtsYuxz12hFn3].system.description.value",
-          "sourcePath": "monsters/humanoid/sahuagin.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "lyNBFmJdbh4NLRzz",
-          "name": "Sahuagin",
-          "fieldPath": "items[SQqFFwf2ADQmLaVO].system.description.value",
-          "sourcePath": "monsters/humanoid/sahuagin.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "lyNBFmJdbh4NLRzz",
-          "name": "Sahuagin",
-          "fieldPath": "items[QJSOQXewtM4dM59t].system.description.value",
-          "sourcePath": "monsters/humanoid/sahuagin.yml"
         },
         {
           "code": "missing-field",
