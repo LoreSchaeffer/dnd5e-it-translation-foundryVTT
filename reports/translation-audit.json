@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2334,
+      "translated": 2335,
       "missing": 3,
-      "partial": 54,
+      "partial": 53,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14785,
-      "missing": 875,
+      "translated": 14790,
+      "missing": 870,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 880
+    "blockingIssues": 875
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 299,
+          "translated": 300,
           "missing": 0,
-          "partial": 38,
+          "partial": 37,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6969,
-          "missing": 137,
+          "translated": 6974,
+          "missing": 132,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -846,51 +846,6 @@
           "name": "Purple Worm",
           "fieldPath": "items[yOjkK3f9jt2fYu3M].system.activities.IKUzECPGj8QbMFLo.description.value",
           "sourcePath": "monsters/monstrosity/purple-worm.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "VBzqw2rOUvTuNOPI",
-          "name": "Remorhaz",
-          "fieldPath": "items[Qcgc4zckQ7c1Ky8t].system.description.value",
-          "sourcePath": "monsters/monstrosity/remorhaz.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "VBzqw2rOUvTuNOPI",
-          "name": "Remorhaz",
-          "fieldPath": "items[Qcgc4zckQ7c1Ky8t].system.description.chat",
-          "sourcePath": "monsters/monstrosity/remorhaz.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "VBzqw2rOUvTuNOPI",
-          "name": "Remorhaz",
-          "fieldPath": "items[NwgQC3ohxcI1L3GT].system.description.value",
-          "sourcePath": "monsters/monstrosity/remorhaz.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "VBzqw2rOUvTuNOPI",
-          "name": "Remorhaz",
-          "fieldPath": "items[NwgQC3ohxcI1L3GT].system.description.chat",
-          "sourcePath": "monsters/monstrosity/remorhaz.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "VBzqw2rOUvTuNOPI",
-          "name": "Remorhaz",
-          "fieldPath": "items[NwgQC3ohxcI1L3GT].effects[5YoZO3QgfMTcLhgh].description",
-          "sourcePath": "monsters/monstrosity/remorhaz.yml"
         },
         {
           "code": "missing-field",

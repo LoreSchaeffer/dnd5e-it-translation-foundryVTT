@@ -13640,7 +13640,9 @@
               "name": "Afferrato dal Morso",
               "description": "<p>Sei &amp;reference[grappled apply=false] (CD 17 per sfuggire). Finché sei afferrato in questo modo, sei anche &amp;reference[restrained apply=false].</p>"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio è una creatura, è &amp;reference[grappled] (CD 17 per liberarsi). Finché questa lotta non termina, il bersaglio è &amp;reference[restrained] e il [[lookup @name lowercase]]{mostro} non può [[lookup @item.name]] un altro bersaglio.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il suo [[lookup @item.name]]. Se il bersaglio è una creatura, è &amp;reference[grappled]. Finché questa lotta non termina, il bersaglio è &amp;reference[restrained] e il [[lookup @name]]{mostro} non può [[lookup @item.name lowercase]] un altro bersaglio.</p>"
         },
         "usmJdksgWhPnjq94": {
           "name": "Corpo Surriscaldato",
@@ -13664,9 +13666,12 @@
           },
           "effects": {
             "5YoZO3QgfMTcLhgh": {
-              "name": "Inghiottito"
+              "name": "Inghiottito",
+              "description": "<p>Sei stato inghiottito dal remorhaz. Sei &amp;reference[blinded apply=false], &amp;reference[restrained apply=false] e disponi di &amp;reference[total cover] contro gli attacchi e gli altri effetti provenienti dall'esterno del remorhaz.</p><p>Subisci inoltre [[/damage average 6d6 acid]] danni all'inizio di ciascun turno del remorhaz.</p>"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua un attacco di @UUID[Compendium.dnd5e.monsters.Actor.VBzqw2rOUvTuNOPI.Item.Qcgc4zckQ7c1Ky8t]{Morso} contro una creatura di taglia Media o inferiore che ha &amp;reference[grappling].</p><p>Se l'attacco colpisce, la creatura subisce i danni del morso e viene inghiottita, e la lotta termina. Quando è inghiottita, la creatura è &amp;reference[blinded] e &amp;reference[restrained], dispone di &amp;reference[total cover] contro gli attacchi e gli altri effetti provenienti dall'esterno del [[lookup @name lowercase]]{mostro} e subisce [[/damage activity=uTz7h3Og3Q3YACla average]] danni all'inizio di ciascun turno del remorhaz.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il suo [[lookup @item.name]]{mostro}.</p>"
         }
       },
       "details": {
