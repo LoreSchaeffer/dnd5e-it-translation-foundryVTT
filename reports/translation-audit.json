@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2302,
+      "translated": 2303,
       "missing": 3,
-      "partial": 86,
+      "partial": 85,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14672,
-      "missing": 988,
+      "translated": 14677,
+      "missing": 983,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 993
+    "blockingIssues": 988
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 267,
+          "translated": 268,
           "missing": 0,
-          "partial": 70,
+          "partial": 69,
           "review": 0
         },
         "folders": {
@@ -578,59 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6856,
-          "missing": 250,
+          "translated": 6861,
+          "missing": 245,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "1vaBSMUfOy6JPJ14",
-          "name": "Drow",
-          "fieldPath": "items[A4OySWt5j3QXyAPW].system.description.value",
-          "sourcePath": "monsters/humanoid/drow.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "1vaBSMUfOy6JPJ14",
-          "name": "Drow",
-          "fieldPath": "items[LqnhZjRtRqhLIFTm].system.description.value",
-          "sourcePath": "monsters/humanoid/drow.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "1vaBSMUfOy6JPJ14",
-          "name": "Drow",
-          "fieldPath": "items[LqnhZjRtRqhLIFTm].system.activities.k2VWbxuUXUpfkpoz.description.value",
-          "sourcePath": "monsters/humanoid/drow.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "1vaBSMUfOy6JPJ14",
-          "name": "Drow",
-          "fieldPath": "items[LqnhZjRtRqhLIFTm].effects[WhpwrXwRiHSvIXXZ].description",
-          "sourcePath": "monsters/humanoid/drow.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "1vaBSMUfOy6JPJ14",
-          "name": "Drow",
-          "fieldPath": "items[CAxSzHWizrafT033].system.description.value",
-          "sourcePath": "monsters/humanoid/drow.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
