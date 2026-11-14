@@ -2314,17 +2314,24 @@
           "name": "Morso",
           "activities": {
             "Q4A4M8mrHIRdX3JM": {
-              "name": "Tiro Salvezza contro Pietrificazione"
+              "name": "Tiro Salvezza contro Pietrificazione",
+              "description": {
+                "value": "<p>Il bersaglio deve superare un tiro salvezza [[/save]] per evitare di essere magicamente &amp;reference[petrified]. Se lo fallisce, la creatura inizia a trasformarsi in pietra ed è &amp;reference[restrained]. Deve ripetere il tiro salvezza alla fine del proprio turno successivo. Se lo supera, l'effetto termina. Se lo fallisce, la creatura è pietrificata per [[lookup @labels.duration activity=Q4A4M8mrHIRdX3JM]].</p>"
+              }
             }
           },
           "effects": {
             "Z4mFj1zWP0EkqbNH": {
-              "name": "Pietrificazione in Corso"
+              "name": "Pietrificazione in Corso",
+              "description": "<p>Sei &amp;reference[restrained apply=false] mentre inizi a trasformarti in pietra. Devi ripetere il tiro salvezza alla fine del tuo turno successivo.</p><p>Se lo superi, l'effetto termina. Se lo fallisci, sei @UUID[Compendium.dnd5e.monsters.Actor.EpYl7qifM5pq6W6B.Item.gpxvIs8yjQ4awt4s.ActiveEffect.SkiwEOXDYspZ7NOt]{Pietrificato} per 24 ore.</p>"
             },
             "SkiwEOXDYspZ7NOt": {
-              "name": "Pietrificazione Temporanea"
+              "name": "Pietrificazione Temporanea",
+              "description": "<p>Sei &amp;reference[petrified apply=false] per la durata.</p>"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il bersaglio deve superare un tiro salvezza [[/save]] per evitare di essere magicamente &amp;reference[petrified]. Se lo fallisce, la creatura inizia a trasformarsi in pietra ed è &amp;reference[restrained]. Deve ripetere il tiro salvezza alla fine del proprio turno successivo. Se lo supera, l'effetto termina. Se lo fallisce, la creatura è pietrificata per [[lookup @labels.duration activity=Q4A4M8mrHIRdX3JM]].</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il suo [[lookup @item.name]]. Il bersaglio deve effettuare un tiro salvezza su Costituzione. Se lo fallisce, deve ripetere il tiro salvezza alla fine del proprio turno successivo.</p>"
         }
       },
       "details": {

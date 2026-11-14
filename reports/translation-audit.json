@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2290,
+      "translated": 2291,
       "missing": 3,
-      "partial": 98,
+      "partial": 97,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14631,
-      "missing": 1029,
+      "translated": 14636,
+      "missing": 1024,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1034
+    "blockingIssues": 1029
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 255,
+          "translated": 256,
           "missing": 0,
-          "partial": 82,
+          "partial": 81,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6815,
-          "missing": 291,
+          "translated": 6820,
+          "missing": 286,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -1422,51 +1422,6 @@
           "name": "Chimera",
           "fieldPath": "items[sAkv9mnK6l5nXmcz].system.description.value",
           "sourcePath": "monsters/monstrosity/chimera.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "EpYl7qifM5pq6W6B",
-          "name": "Cockatrice",
-          "fieldPath": "items[gpxvIs8yjQ4awt4s].system.description.value",
-          "sourcePath": "monsters/monstrosity/cockatrice.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "EpYl7qifM5pq6W6B",
-          "name": "Cockatrice",
-          "fieldPath": "items[gpxvIs8yjQ4awt4s].system.description.chat",
-          "sourcePath": "monsters/monstrosity/cockatrice.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "EpYl7qifM5pq6W6B",
-          "name": "Cockatrice",
-          "fieldPath": "items[gpxvIs8yjQ4awt4s].system.activities.Q4A4M8mrHIRdX3JM.description.value",
-          "sourcePath": "monsters/monstrosity/cockatrice.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "EpYl7qifM5pq6W6B",
-          "name": "Cockatrice",
-          "fieldPath": "items[gpxvIs8yjQ4awt4s].effects[Z4mFj1zWP0EkqbNH].description",
-          "sourcePath": "monsters/monstrosity/cockatrice.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "EpYl7qifM5pq6W6B",
-          "name": "Cockatrice",
-          "fieldPath": "items[gpxvIs8yjQ4awt4s].effects[SkiwEOXDYspZ7NOt].description",
-          "sourcePath": "monsters/monstrosity/cockatrice.yml"
         },
         {
           "code": "missing-field",
