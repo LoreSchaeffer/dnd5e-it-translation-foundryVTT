@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2361,
+      "translated": 2362,
       "missing": 3,
-      "partial": 27,
+      "partial": 26,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14880,
-      "missing": 780,
+      "translated": 14882,
+      "missing": 778,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 785
+    "blockingIssues": 783
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 326,
+          "translated": 327,
           "missing": 0,
-          "partial": 11,
+          "partial": 10,
           "review": 0
         },
         "folders": {
@@ -578,32 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 7064,
-          "missing": 42,
+          "translated": 7066,
+          "missing": 40,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "XiSWKZzAUxdmFOLL",
-          "name": "Avatar of Death",
-          "fieldPath": "items[d7ERliHkrcvQAF1X].system.description.value",
-          "sourcePath": "monsters/undead/avatar-of-death.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "XiSWKZzAUxdmFOLL",
-          "name": "Avatar of Death",
-          "fieldPath": "items[d7ERliHkrcvQAF1X].system.description.chat",
-          "sourcePath": "monsters/undead/avatar-of-death.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
