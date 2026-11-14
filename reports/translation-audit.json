@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2243,
+      "translated": 2244,
       "missing": 3,
-      "partial": 145,
+      "partial": 144,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14443,
-      "missing": 1217,
+      "translated": 14445,
+      "missing": 1215,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1222
+    "blockingIssues": 1220
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 208,
+          "translated": 209,
           "missing": 0,
-          "partial": 129,
+          "partial": 128,
           "review": 0
         },
         "folders": {
@@ -578,32 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6627,
-          "missing": 479,
+          "translated": 6629,
+          "missing": 477,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "qrasJNDC7SGj7xzG",
-          "name": "Young Red Dragon",
-          "fieldPath": "items[KuuOPjJ1YeTtjGbN].system.activities.66qCN3IZ3JJ7OJxh.description.chatFlavor",
-          "sourcePath": "monsters/dragon/young-red-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "qrasJNDC7SGj7xzG",
-          "name": "Young Red Dragon",
-          "fieldPath": "items[uwDyoGhbCR8NoRmc].system.description.value",
-          "sourcePath": "monsters/dragon/young-red-dragon.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",

@@ -6035,10 +6035,18 @@
         "KuuOPjJ1YeTtjGbN": {
           "name": "Morso",
           "description": "<p>[[/attack extended]]. [[/damage extended]].</p>",
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>",
+          "activities": {
+            "66qCN3IZ3JJ7OJxh": {
+              "description": {
+                "chatFlavor": "Il drago serra le sue possenti fauci!"
+              }
+            }
+          }
         },
         "uwDyoGhbCR8NoRmc": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua tre attacchi: uno con il suo [[/item .KuuOPjJ1YeTtjGbN]]{morso} e due con i suoi [[/item .3UHmbpT3v3FTlplI]]{artigli}.</p>"
         },
         "zapwzE9ylLBsufXf": {
           "name": "Soffio di Fuoco",
