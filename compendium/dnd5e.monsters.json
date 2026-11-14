@@ -5298,7 +5298,8 @@
           "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
         },
         "8GXBUXkbu1e62ZDK": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} può usare la sua [[/item .YkCurZ53A7ciRit3]]{Presenza Terrificante}. Poi effettua tre attacchi: uno con il suo [[/item .eCpXCLFLV7W22orV]]{morso} e due con i suoi [[/item .lsey8RJZiuByt97z]]{artigli}.</p>"
         },
         "A9Cya4gGBfMB0WCr": {
           "activities": {
@@ -5322,7 +5323,8 @@
               "description": "<p>Sei rallentato. Finché sei rallentato, non puoi usare reazioni, la tua velocità è dimezzata e non puoi effettuare più di un attacco nel tuo turno. Inoltre, nel tuo turno puoi usare un'azione o un'azione bonus, ma non entrambe.</p><p>Questi effetti durano 1 minuto. Puoi ripetere il tiro salvezza alla fine di ciascun tuo turno e, se lo superi, l'effetto su di te termina.</p>"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} inspira!</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} inspira!</p>",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} usa una delle seguenti armi a soffio.</p><p><strong>Soffio Acido.</strong> Il [[lookup @name lowercase]]{mostro} esala acido in una [[lookup @labels.description.template activity=zTWpuajI6meBb52D]]. Ogni creatura su quella linea deve effettuare un tiro salvezza [[/save activity=zTWpuajI6meBb52D]], subendo [[/damage average activity=zTWpuajI6meBb52D]] danni se lo fallisce, oppure la metà di quei danni se lo supera.</p><p><strong>Soffio Rallentante.</strong> Il [[lookup @name lowercase]]{mostro} esala gas in un [[lookup @labels.description.template activity=zTWpuajI6meBb52D]]. Ogni creatura in quell'area deve superare un tiro salvezza [[/save activity=CkPMajPOZWWj3gl0]]. Se fallisce il tiro salvezza, la creatura non può usare reazioni, la sua velocità è dimezzata e non può effettuare più di un attacco nel proprio turno. Inoltre, durante il proprio turno la creatura può effettuare un'azione o un'azione bonus, ma non entrambe. Questi effetti durano per [[lookup @labels.duration activity=CkPMajPOZWWj3gl0]]. La creatura può ripetere il tiro salvezza alla fine di ciascun proprio turno, terminando l'effetto su di sé in caso di successo.</p>"
         },
         "d7cYSxr8w2VZkBrf": {
           "name": "Cambiare Forma",
@@ -5391,7 +5393,8 @@
               "name": "Colpo di Coda"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} schianta la propria lunga coda contro il nemico!</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} schianta la propria lunga coda contro il nemico!</p>",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua un attacco con la [[/item .o9fC6jOW8DlJCqT6]]{coda}.</p>"
         },
         "zSDxMl2fiuqd2N4r": {
           "name": "Attacco d'Ala",

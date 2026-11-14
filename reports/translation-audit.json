@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2222,
+      "translated": 2223,
       "missing": 3,
-      "partial": 166,
+      "partial": 165,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14396,
-      "missing": 1264,
+      "translated": 14399,
+      "missing": 1261,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1269
+    "blockingIssues": 1266
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 187,
+          "translated": 188,
           "missing": 0,
-          "partial": 150,
+          "partial": 149,
           "review": 0
         },
         "folders": {
@@ -578,41 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6580,
-          "missing": 526,
+          "translated": 6583,
+          "missing": 523,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "u0FWdplSOMTXGnN1",
-          "name": "Ancient Copper Dragon",
-          "fieldPath": "items[8GXBUXkbu1e62ZDK].system.description.value",
-          "sourcePath": "monsters/dragon/ancient-copper-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "u0FWdplSOMTXGnN1",
-          "name": "Ancient Copper Dragon",
-          "fieldPath": "items[A9Cya4gGBfMB0WCr].system.description.value",
-          "sourcePath": "monsters/dragon/ancient-copper-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "u0FWdplSOMTXGnN1",
-          "name": "Ancient Copper Dragon",
-          "fieldPath": "items[sUIbO0yWyrbrjmsL].system.description.value",
-          "sourcePath": "monsters/dragon/ancient-copper-dragon.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
