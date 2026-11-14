@@ -8562,7 +8562,8 @@
           "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
         },
         "pnfC0DIa1eqXGjku": {
-          "name": "Incantesimi Innati"
+          "name": "Incantesimi Innati",
+          "description": "<p>La caratteristica da incantatore innato dello gnomo è Intelligenza (CD del tiro salvezza degli incantesimi 11). Può lanciare innatamente i seguenti incantesimi, senza richiedere componenti materiali:</p>\n<p>A volontà: [[/item .aU62xVUBYkAQWIHv]]{Non Individuazione} (solo su se stesso)</p>\n<p>1/giorno ciascuno: [[/item .zwGsAv6kmwzYGhh3]]{Cecità/Sordità}, [[/item .UDUnlfPsOAbq2RSE]]{Sfocatura}, [[/item .A3q2gTNqG6fvNGrv]]{Camuffare Se Stesso}</p>"
         },
         "YuhirWYJsQfL6zo5": {
           "effects": {
@@ -8574,10 +8575,14 @@
           "name": "Dardo Avvelenato",
           "activities": {
             "yYJMmbs4vnoxnf8U": {
-              "name": "Tiro Salvezza contro il Veleno"
+              "name": "Tiro Salvezza contro il Veleno",
+              "description": {
+                "value": "<p>Il bersaglio deve superare un tiro salvezza [[/save activity=yYJMmbs4vnoxnf8U]], altrimenti è &amp;Reference[poisoned] per 1 minuto. Il bersaglio può ripetere il tiro salvezza alla fine di ciascuno dei propri turni, terminando l'effetto su di sé in caso di successo.</p>"
+              }
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio deve effettuare un tiro salvezza su Costituzione. Può ripetere il tiro salvezza alla fine di ciascun proprio turno e, se lo supera, l'effetto su di lui termina.</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio deve effettuare un tiro salvezza su Costituzione. Può ripetere il tiro salvezza alla fine di ciascun proprio turno e, se lo supera, l'effetto su di lui termina.</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il bersaglio deve superare un tiro salvezza [[/save activity=yYJMmbs4vnoxnf8U]], altrimenti è &amp;Reference[poisoned] per [[lookup @labels.duration activity=yYJMmbs4vnoxnf8U]]. Il bersaglio può ripetere il tiro salvezza alla fine di ciascuno dei propri turni, terminando l'effetto su di sé in caso di successo.</p>"
         },
         "aU62xVUBYkAQWIHv": {
           "name": "Anti-Individuazione",
@@ -8601,7 +8606,8 @@
           "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di vantaggio alle prove di Destrezza (Furtività) effettuate per &amp;reference[hide] su terreno roccioso.</p>"
         },
         "JCSej95QR8svWsYz": {
-          "name": "Astuzia Gnomesca"
+          "name": "Astuzia Gnomesca",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di vantaggio ai tiri salvezza su Intelligenza, Saggezza e Carisma contro la magia.</p>"
         }
       },
       "details": {

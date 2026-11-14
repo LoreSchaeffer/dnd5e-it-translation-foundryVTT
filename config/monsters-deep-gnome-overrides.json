@@ -1,0 +1,10 @@
+{
+  "monsters": {
+    "ZM1P6LoYSwMiIJN9": {
+      "items[JCSej95QR8svWsYz].system.description.value": "<p>Il [[lookup @name lowercase]]{mostro} dispone di vantaggio ai tiri salvezza su Intelligenza, Saggezza e Carisma contro la magia.</p>",
+      "items[pnfC0DIa1eqXGjku].system.description.value": "<p>La caratteristica da incantatore innato dello gnomo è Intelligenza (CD del tiro salvezza degli incantesimi 11). Può lanciare innatamente i seguenti incantesimi, senza richiedere componenti materiali:</p>\n<p>A volontà: [[/item .aU62xVUBYkAQWIHv]]{Non Individuazione} (solo su se stesso)</p>\n<p>1/giorno ciascuno: [[/item .zwGsAv6kmwzYGhh3]]{Cecità/Sordità}, [[/item .UDUnlfPsOAbq2RSE]]{Sfocatura}, [[/item .A3q2gTNqG6fvNGrv]]{Camuffare Se Stesso}</p>",
+      "items[YuhirWYJsQfL6zo5].system.description.value": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il bersaglio deve superare un tiro salvezza [[/save activity=yYJMmbs4vnoxnf8U]], altrimenti è &amp;Reference[poisoned] per [[lookup @labels.duration activity=yYJMmbs4vnoxnf8U]]. Il bersaglio può ripetere il tiro salvezza alla fine di ciascuno dei propri turni, terminando l'effetto su di sé in caso di successo.</p>",
+      "items[YuhirWYJsQfL6zo5].system.activities.yYJMmbs4vnoxnf8U.description.value": "<p>Il bersaglio deve superare un tiro salvezza [[/save activity=yYJMmbs4vnoxnf8U]], altrimenti è &amp;Reference[poisoned] per 1 minuto. Il bersaglio può ripetere il tiro salvezza alla fine di ciascuno dei propri turni, terminando l'effetto su di sé in caso di successo.</p>"
+    }
+  }
+}

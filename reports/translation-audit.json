@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2301,
+      "translated": 2302,
       "missing": 3,
-      "partial": 87,
+      "partial": 86,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14668,
-      "missing": 992,
+      "translated": 14672,
+      "missing": 988,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 997
+    "blockingIssues": 993
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 266,
+          "translated": 267,
           "missing": 0,
-          "partial": 71,
+          "partial": 70,
           "review": 0
         },
         "folders": {
@@ -578,50 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6852,
-          "missing": 254,
+          "translated": 6856,
+          "missing": 250,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ZM1P6LoYSwMiIJN9",
-          "name": "Deep Gnome",
-          "fieldPath": "items[JCSej95QR8svWsYz].system.description.value",
-          "sourcePath": "monsters/humanoid/deep-gnome.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ZM1P6LoYSwMiIJN9",
-          "name": "Deep Gnome",
-          "fieldPath": "items[pnfC0DIa1eqXGjku].system.description.value",
-          "sourcePath": "monsters/humanoid/deep-gnome.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ZM1P6LoYSwMiIJN9",
-          "name": "Deep Gnome",
-          "fieldPath": "items[YuhirWYJsQfL6zo5].system.description.value",
-          "sourcePath": "monsters/humanoid/deep-gnome.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ZM1P6LoYSwMiIJN9",
-          "name": "Deep Gnome",
-          "fieldPath": "items[YuhirWYJsQfL6zo5].system.activities.yYJMmbs4vnoxnf8U.description.value",
-          "sourcePath": "monsters/humanoid/deep-gnome.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
