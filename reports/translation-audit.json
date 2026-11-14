@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2374,
+      "translated": 2375,
       "missing": 3,
-      "partial": 14,
+      "partial": 13,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14941,
-      "missing": 719,
+      "translated": 14943,
+      "missing": 717,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 724
+    "blockingIssues": 722
   },
   "packs": [
     {
@@ -620,9 +620,9 @@
       "summary": {
         "documents": {
           "total": 20,
-          "translated": 3,
+          "translated": 4,
           "missing": 3,
-          "partial": 14,
+          "partial": 13,
           "review": 1
         },
         "folders": {
@@ -634,8 +634,8 @@
         },
         "fields": {
           "total": 877,
-          "translated": 158,
-          "missing": 719,
+          "translated": 160,
+          "missing": 717,
           "invariantFailures": 0,
           "englishResiduals": 3,
           "imperialResiduals": 0
@@ -6212,24 +6212,6 @@
           "name": "Appendix E: Rules",
           "fieldPath": "pages[oNQWvyRZkTOJ8PBq].text.content",
           "sourcePath": "rules/appendix-e-rules.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "5LoAJLkfIYBAgWTW",
-          "name": "Chapter 1: Beyond 1st Level",
-          "fieldPath": "pages[RiEi4ID9qFpZKrS7].name",
-          "sourcePath": "rules/chapter-1-beyond-1st-level.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "5LoAJLkfIYBAgWTW",
-          "name": "Chapter 1: Beyond 1st Level",
-          "fieldPath": "pages[RiEi4ID9qFpZKrS7].text.content",
-          "sourcePath": "rules/chapter-1-beyond-1st-level.yml"
         },
         {
           "code": "missing-field",
