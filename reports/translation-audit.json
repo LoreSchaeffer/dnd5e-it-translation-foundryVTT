@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2371,
+      "translated": 2372,
       "missing": 3,
-      "partial": 17,
+      "partial": 16,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14921,
-      "missing": 739,
+      "translated": 14922,
+      "missing": 738,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 744
+    "blockingIssues": 743
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 336,
+          "translated": 337,
           "missing": 0,
-          "partial": 1,
+          "partial": 0,
           "review": 0
         },
         "folders": {
@@ -578,24 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 7105,
-          "missing": 1,
+          "translated": 7106,
+          "missing": 0,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
-      "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ET4PEVEiNJLU4f7c",
-          "name": "Wraith",
-          "fieldPath": "items[RADMbiPme1Hrfu8E].system.description.value",
-          "sourcePath": "monsters/undead/wraith.yml"
-        }
-      ]
+      "issues": []
     },
     {
       "pack": "races",
