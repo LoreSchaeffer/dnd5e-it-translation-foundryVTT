@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2289,
+      "translated": 2290,
       "missing": 3,
-      "partial": 99,
+      "partial": 98,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14629,
-      "missing": 1031,
+      "translated": 14631,
+      "missing": 1029,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1036
+    "blockingIssues": 1034
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 254,
+          "translated": 255,
           "missing": 0,
-          "partial": 83,
+          "partial": 82,
           "review": 0
         },
         "folders": {
@@ -578,32 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6813,
-          "missing": 293,
+          "translated": 6815,
+          "missing": 291,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "rb7OJt822wIO52qY",
-          "name": "Bandit Captain",
-          "fieldPath": "items[u3rhYD4gsxWEFbMc].system.description.value",
-          "sourcePath": "monsters/humanoid/bandit-captain.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "rb7OJt822wIO52qY",
-          "name": "Bandit Captain",
-          "fieldPath": "items[VAwElWvqJg63fWL2].system.description.chat",
-          "sourcePath": "monsters/humanoid/bandit-captain.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",

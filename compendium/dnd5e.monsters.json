@@ -1594,7 +1594,8 @@
           "description": "<p>Realizzata in cuoio resistente ma flessibile, è rinforzata con rivetti ravvicinati o punte.</p>"
         },
         "u3rhYD4gsxWEFbMc": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua tre attacchi in mischia: due con la sua [[/item .tSPkVJScEndipsFU]]{scimitarra} e uno con il suo [[/item .mBUKIzY6aUW5Fnlm]]{pugnale}. In alternativa, il [[lookup @name lowercase]]{mostro} effettua due attacchi a distanza con i suoi pugnali.</p>"
         },
         "tSPkVJScEndipsFU": {
           "name": "Scimitarra",
@@ -1613,7 +1614,8 @@
               "name": "Parare l'Attacco"
             }
           },
-          "description": "<p>Il [[lookup @name lowercase]]{monster} aggiunge 2 alla sua CA contro un attacco in mischia che lo colpirebbe. Per farlo, il [[lookup @name lowercase]]{monster} deve vedere l’attaccante e deve impugnare un'arma da mischia.</p>"
+          "description": "<p>Il [[lookup @name lowercase]]{monster} aggiunge 2 alla sua CA contro un attacco in mischia che lo colpirebbe. Per farlo, il [[lookup @name lowercase]]{monster} deve vedere l’attaccante e deve impugnare un'arma da mischia.</p>",
+          "chat": "<p>Il [[lookup @name lowercase]]{mostro} aggiunge 2 alla propria CA contro un attacco in mischia che altrimenti lo colpirebbe.</p>"
         }
       },
       "details": {
