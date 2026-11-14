@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2212,
+      "translated": 2213,
       "missing": 3,
-      "partial": 176,
+      "partial": 175,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14369,
-      "missing": 1291,
+      "translated": 14372,
+      "missing": 1288,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1296
+    "blockingIssues": 1293
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 177,
+          "translated": 178,
           "missing": 0,
-          "partial": 160,
+          "partial": 159,
           "review": 0
         },
         "folders": {
@@ -578,41 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6553,
-          "missing": 553,
+          "translated": 6556,
+          "missing": 550,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "irz834sqAxRihtSG",
-          "name": "Adult Copper Dragon",
-          "fieldPath": "items[qfV8YlDhXHfI9Uin].system.description.value",
-          "sourcePath": "monsters/dragon/adult-copper-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "irz834sqAxRihtSG",
-          "name": "Adult Copper Dragon",
-          "fieldPath": "items[HsJrAS1hqUisyq9J].system.description.value",
-          "sourcePath": "monsters/dragon/adult-copper-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "irz834sqAxRihtSG",
-          "name": "Adult Copper Dragon",
-          "fieldPath": "items[hh4W4ZNwtCD90kGH].system.description.value",
-          "sourcePath": "monsters/dragon/adult-copper-dragon.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
