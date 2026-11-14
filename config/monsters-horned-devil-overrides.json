@@ -1,0 +1,11 @@
+{
+  "monsters": {
+    "MADGs8pWMVyyFOf1": {
+      "items[VpvOoT7mbR0XNZiL].system.description.value": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio è una creatura diversa da un non morto o un costrutto, deve superare un tiro salvezza [[/save]], altrimenti perde 10 (3d6) punti ferita all'inizio di ciascuno dei propri turni a causa di una ferita infernale. Ogni volta che il diavolo colpisce il bersaglio ferito con questo attacco, i danni inflitti dalla ferita aumentano di 10 (3d6). Qualsiasi creatura può effettuare un'azione per tamponare la ferita superando una prova [[/check 12 wis med]]. La ferita si chiude anche se il bersaglio riceve cure magiche.</p>",
+      "items[VpvOoT7mbR0XNZiL].system.description.chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Se il bersaglio è una creatura diversa da un non morto o un costrutto, deve effettuare un tiro salvezza su Costituzione.</p>",
+      "items[VpvOoT7mbR0XNZiL].system.activities.orktvwSaLbcUnXgH.description.value": "<p>Se il bersaglio è una creatura diversa da un non morto o un costrutto, deve superare un tiro salvezza [[/save]], altrimenti perde 5 (1d10) punti ferita all'inizio di ciascuno dei propri turni a causa di una @UUID[Compendium.dnd5e.monsters.Actor.MADGs8pWMVyyFOf1.Item.VpvOoT7mbR0XNZiL.ActiveEffect.rkqCY7JoNgMp3P7H]{Ferita Infernale Profonda}.</p>",
+      "items[VpvOoT7mbR0XNZiL].effects[rkqCY7JoNgMp3P7H].description": "<p>Ti sono state inflitte una o più ferite infernali profonde. All'inizio di ciascuno dei tuoi turni perdi [[/damage 3d6 average]] punti ferita per ogni ferita infernale profonda che possiedi.</p><p>Qualsiasi creatura può effettuare un'azione per tamponare la ferita superando una prova [[/check 12 wis med]]. La ferita si chiude anche se ricevi cure magiche.</p>",
+      "items[9FAl5YGUTmt1RnEF].system.description.value": "<p>Il [[lookup @name lowercase]]{mostro} effettua tre attacchi in mischia: due con il proprio [[/item .g8r9DZeHyfNzerHP]]{forcone} e uno con la propria [[/item .VpvOoT7mbR0XNZiL]]{coda}. Può usare [[/item .GFYzWSyeuW9O4a0I]]{Scagliare Fiamma} al posto di qualsiasi attacco in mischia.</p>"
+    }
+  }
+}

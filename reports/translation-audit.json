@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2271,
+      "translated": 2272,
       "missing": 3,
-      "partial": 117,
+      "partial": 116,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14564,
-      "missing": 1096,
+      "translated": 14569,
+      "missing": 1091,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1101
+    "blockingIssues": 1096
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 236,
+          "translated": 237,
           "missing": 0,
-          "partial": 101,
+          "partial": 100,
           "review": 0
         },
         "folders": {
@@ -578,59 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6748,
-          "missing": 358,
+          "translated": 6753,
+          "missing": 353,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "MADGs8pWMVyyFOf1",
-          "name": "Horned Devil",
-          "fieldPath": "items[VpvOoT7mbR0XNZiL].system.description.value",
-          "sourcePath": "monsters/fiend/horned-devil.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "MADGs8pWMVyyFOf1",
-          "name": "Horned Devil",
-          "fieldPath": "items[VpvOoT7mbR0XNZiL].system.description.chat",
-          "sourcePath": "monsters/fiend/horned-devil.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "MADGs8pWMVyyFOf1",
-          "name": "Horned Devil",
-          "fieldPath": "items[VpvOoT7mbR0XNZiL].system.activities.orktvwSaLbcUnXgH.description.value",
-          "sourcePath": "monsters/fiend/horned-devil.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "MADGs8pWMVyyFOf1",
-          "name": "Horned Devil",
-          "fieldPath": "items[VpvOoT7mbR0XNZiL].effects[rkqCY7JoNgMp3P7H].description",
-          "sourcePath": "monsters/fiend/horned-devil.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "MADGs8pWMVyyFOf1",
-          "name": "Horned Devil",
-          "fieldPath": "items[9FAl5YGUTmt1RnEF].system.description.value",
-          "sourcePath": "monsters/fiend/horned-devil.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
