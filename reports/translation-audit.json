@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2260,
+      "translated": 2261,
       "missing": 3,
-      "partial": 128,
+      "partial": 127,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14505,
-      "missing": 1155,
+      "translated": 14512,
+      "missing": 1148,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1160
+    "blockingIssues": 1153
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 225,
+          "translated": 226,
           "missing": 0,
-          "partial": 112,
+          "partial": 111,
           "review": 0
         },
         "folders": {
@@ -578,77 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6689,
-          "missing": 417,
+          "translated": 6696,
+          "missing": 410,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "KOHVWl5RU9XBR8Jb",
-          "name": "Dryad",
-          "fieldPath": "items[Wkv8laBNYgkdA7lL].system.description.value",
-          "sourcePath": "monsters/fey/dryad.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "KOHVWl5RU9XBR8Jb",
-          "name": "Dryad",
-          "fieldPath": "items[wwQTeXOmFLO2MW0Y].system.description.value",
-          "sourcePath": "monsters/fey/dryad.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "KOHVWl5RU9XBR8Jb",
-          "name": "Dryad",
-          "fieldPath": "items[DNPx6Myd5rHTGu4a].system.description.value",
-          "sourcePath": "monsters/fey/dryad.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "KOHVWl5RU9XBR8Jb",
-          "name": "Dryad",
-          "fieldPath": "items[OdzhvEDeD06BWsZS].system.description.value",
-          "sourcePath": "monsters/fey/dryad.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "KOHVWl5RU9XBR8Jb",
-          "name": "Dryad",
-          "fieldPath": "items[OdzhvEDeD06BWsZS].system.description.chat",
-          "sourcePath": "monsters/fey/dryad.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "KOHVWl5RU9XBR8Jb",
-          "name": "Dryad",
-          "fieldPath": "items[OdzhvEDeD06BWsZS].effects[j31eZQRAcnPXW1pQ].description",
-          "sourcePath": "monsters/fey/dryad.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "KOHVWl5RU9XBR8Jb",
-          "name": "Dryad",
-          "fieldPath": "items[gMrWeG8fMDPRFiVe].system.description.value",
-          "sourcePath": "monsters/fey/dryad.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",

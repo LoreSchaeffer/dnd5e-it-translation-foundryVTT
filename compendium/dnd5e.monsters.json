@@ -6428,7 +6428,8 @@
       },
       "items": {
         "Wkv8laBNYgkdA7lL": {
-          "name": "Incantesimi Innati"
+          "name": "Incantesimi Innati",
+          "description": "<p>La caratteristica da incantatore innato della driade è Carisma (CD del tiro salvezza degli incantesimi 14). La driade può lanciare i seguenti incantesimi innati, senza richiedere componenti materiali:</p>\n<p><strong>A volontà: </strong>[[/item .SbSvZKkJASyk8jKo]]{artificio druidico}</p>\n<p><strong>3/giorno ciascuno</strong>: [[/item .gMrWeG8fMDPRFiVe]]{intralciare}, [[/item .Qf6CAZkc7ms4ZY3e]]{bacche benefiche}</p>\n<p><strong>1/giorno ciascuno: </strong>[[/item .JPwIEfgUPVebr5AH]]{pelle coriacea}, [[/item .pRMvmknwLf2tdMTj]]{passare senza tracce}, [[/item .VzgFzcmocr1X1cp4]]{shillelagh}</p>"
         },
         "beL4bLUcyTb1Sxgz": {
           "name": "Parlare con le Bestie e i Vegetali",
@@ -6436,23 +6437,28 @@
         },
         "DNPx6Myd5rHTGu4a": {
           "name": "Randello",
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>",
+          "description": "<p><em>Attacco con Arma da Mischia:</em> [[/attack]] (o [[/attack +6]] con shillelagh), portata 1,5 m, un bersaglio. [[/damage extended]], oppure [[/damage 1d8 + 4 bludgeoning average]] con shillelagh.</p>"
         },
         "OdzhvEDeD06BWsZS": {
           "name": "Fascino Fatato",
           "effects": {
             "j31eZQRAcnPXW1pQ": {
-              "name": "Fascino Fatato"
+              "name": "Fascino Fatato",
+              "description": "<p>Sei &amp;reference[charmed apply=false]{affascinato} dalla driade.</p><p>Finché sei affascinato, consideri la driade un'amica fidata a cui dare ascolto e da proteggere. Sebbene tu non sia sotto il controllo della driade, interpreti le richieste o le azioni della driade nel modo più favorevole possibile.</p><p>Ogni volta che la driade o i suoi alleati compiono qualcosa di dannoso nei tuoi confronti, puoi ripetere il tiro salvezza, terminando l'effetto su di te in caso di successo. Altrimenti, l'effetto dura per la sua durata o finché la driade non muore, si trova su un piano di esistenza diverso dal tuo o termina l'effetto con un'azione bonus.</p>"
             }
           },
           "activities": {
             "dDlrfAXYYcXdTANa": {
               "name": "Affascinare Creatura"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} bersaglia un umanoide o una bestia che può vedere entro [[lookup @labels.description.range activity=dDlrfAXYYcXdTANa]] da sé. Se il bersaglio può vedere il [[lookup @name lowercase]]{mostro}, deve superare un tiro salvezza [[/save]], altrimenti è magicamente &amp;Reference[charmed]{affascinato}.</p><p>La creatura affascinata considera il [[lookup @name lowercase]]{mostro} un amico fidato a cui dare ascolto e da proteggere. Sebbene il bersaglio non sia sotto il controllo del [[lookup @name lowercase]]{mostro}, interpreta le richieste o le azioni del [[lookup @name lowercase]]{mostro} nel modo più favorevole possibile. Ogni volta che il [[lookup @name lowercase]]{mostro} o i suoi alleati compiono qualcosa di dannoso nei confronti del bersaglio, quest'ultimo può ripetere il tiro salvezza, terminando l'effetto su di sé in caso di successo. Altrimenti, l'effetto dura [[lookup @labels.duration activity=dDlrfAXYYcXdTANa]] o finché il [[lookup @name lowercase]]{mostro} non muore, si trova su un piano di esistenza diverso da quello del bersaglio o termina l'effetto con un'azione bonus. Se il bersaglio supera il tiro salvezza, per le 24 ore successive è immune a ciò che il [[lookup @name lowercase]]{mostro} compie con [[lookup @item.name]]. Il [[lookup @name lowercase]]{mostro} non può avere affascinati contemporaneamente più di un umanoide e fino a tre bestie.</p>",
+          "chat": "<p>La driade bersaglia un umanoide o una bestia che può vedere entro 9 metri da sé. Se il bersaglio può vedere la driade, deve effettuare un tiro salvezza su <strong>Saggezza</strong>. Ogni volta che la driade o i suoi alleati compiono qualcosa di dannoso nei confronti del bersaglio, quest'ultimo può ripetere il tiro salvezza.</p>"
         },
         "gMrWeG8fMDPRFiVe": {
-          "name": "Intralciare"
+          "name": "Intralciare",
+          "description": "<p>Erbacce e rampicanti avviluppanti spuntano dal terreno in un quadrato con lato di 6 metri a partire da un punto entro gittata. Per la durata, queste piante trasformano il terreno nell'area in terreno difficile.</p><p>Una creatura nell'area quando lanci l'incantesimo deve superare un tiro salvezza su Forza, altrimenti è trattenuta dalle piante avviluppanti finché l'incantesimo non termina. Una creatura trattenuta dalle piante può usare la propria azione per effettuare una prova di Forza contro la CD del tiro salvezza del tuo incantesimo. Se ha successo, si libera.</p><p>Quando l'incantesimo termina, le piante evocate avvizziscono.</p>"
         },
         "SbSvZKkJASyk8jKo": {
           "name": "Artificio Druidico",
@@ -6493,7 +6499,8 @@
             "KG74eACNUkh6t3ZJ": {
               "name": "Passare Attraverso l'Albero"
             }
-          }
+          },
+          "description": "<p>Una volta nel proprio turno, il [[lookup @name lowercase]]{mostro} può spendere 3 metri del proprio movimento per entrare magicamente in un albero vivente entro la propria portata ed emergere da un secondo albero vivente entro [[lookup @labels.description.range activity=KG74eACNUkh6t3ZJ]] dal primo, comparendo in uno spazio libero entro 1,5 metri dal secondo albero. Entrambi gli alberi devono essere di taglia Grande o superiore.</p>"
         }
       },
       "details": {
