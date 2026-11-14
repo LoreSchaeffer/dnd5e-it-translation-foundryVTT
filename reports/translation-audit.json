@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2252,
+      "translated": 2253,
       "missing": 3,
-      "partial": 136,
+      "partial": 135,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14471,
-      "missing": 1189,
+      "translated": 14477,
+      "missing": 1183,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1194
+    "blockingIssues": 1188
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 217,
+          "translated": 218,
           "missing": 0,
-          "partial": 120,
+          "partial": 119,
           "review": 0
         },
         "folders": {
@@ -578,68 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6655,
-          "missing": 451,
+          "translated": 6661,
+          "missing": 445,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ESEm3fGUfSKjzVUc",
-          "name": "Ice Mephit",
-          "fieldPath": "items[D4cqlN9pDyQwRvWP].system.description.value",
-          "sourcePath": "monsters/elemental/ice-mephit.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ESEm3fGUfSKjzVUc",
-          "name": "Ice Mephit",
-          "fieldPath": "items[D4cqlN9pDyQwRvWP].system.description.chat",
-          "sourcePath": "monsters/elemental/ice-mephit.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ESEm3fGUfSKjzVUc",
-          "name": "Ice Mephit",
-          "fieldPath": "items[CG9kMpmgbBE0ePpO].system.description.value",
-          "sourcePath": "monsters/elemental/ice-mephit.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ESEm3fGUfSKjzVUc",
-          "name": "Ice Mephit",
-          "fieldPath": "items[qSKvifcPZvWEyQwS].system.description.value",
-          "sourcePath": "monsters/elemental/ice-mephit.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ESEm3fGUfSKjzVUc",
-          "name": "Ice Mephit",
-          "fieldPath": "items[1mD9NcCf8ZMQtsrU].system.description.value",
-          "sourcePath": "monsters/elemental/ice-mephit.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ESEm3fGUfSKjzVUc",
-          "name": "Ice Mephit",
-          "fieldPath": "items[1mD9NcCf8ZMQtsrU].system.description.chat",
-          "sourcePath": "monsters/elemental/ice-mephit.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
