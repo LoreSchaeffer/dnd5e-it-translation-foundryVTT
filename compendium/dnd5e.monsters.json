@@ -12782,10 +12782,12 @@
       },
       "items": {
         "heZCHSZEeLLiweK7": {
-          "name": "Sensi Acuti"
+          "name": "Sensi Acuti",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} dispone di vantaggio alle prove di Saggezza (Percezione) basate sulla vista, sull'udito o sull'olfatto.</p>"
         },
         "aIqOpP93mUsy9yD1": {
-          "name": "Telepatia Limitata"
+          "name": "Telepatia Limitata",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} può comunicare magicamente per via telepatica idee semplici, emozioni e immagini con qualsiasi creatura entro 30 metri da sé che sia in grado di comprendere un linguaggio.</p>"
         },
         "GJgN3Qy49XCaKmTc": {
           "name": "Morso",
@@ -12800,18 +12802,24 @@
           "name": "Pungiglione",
           "activities": {
             "hcLz9GILmf8UvyVF": {
-              "name": "Tiro Salvezza contro il Veleno"
+              "name": "Tiro Salvezza contro il Veleno",
+              "description": {
+                "value": "<p>Il bersaglio deve superare un tiro salvezza [[/save]], altrimenti diventa avvelenato per 1 ora. Se fallisce il tiro salvezza di 5 o più, il bersaglio cade privo di sensi per la stessa durata, oppure finché non subisce danni o un'altra creatura non usa un'azione per scuoterlo e svegliarlo.</p>"
+              }
             }
           },
           "effects": {
             "6WbfnxuaqYYI3UDt": {
-              "name": "Veleno dello Pseudodrago"
+              "name": "Veleno dello Pseudodrago",
+              "description": "<p>Sei &amp;reference[poisoned apply=false]{avvelenato} per 1 ora.</p>"
             },
             "JDRYANXUoIBF9EQr": {
-              "name": "Veleno Potente dello Pseudodrago"
+              "name": "Veleno Potente dello Pseudodrago",
+              "description": "<p>Sei &amp;reference[poisoned apply=false]{avvelenato} per 1 ora. Sei anche &amp;reference[unconscious apply=false]{privo di sensi} per la stessa durata, oppure finché non subisci danni o un'altra creatura non usa un'azione per scuoterti e svegliarti.</p>"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio deve effettuare un tiro salvezza su Costituzione.</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio deve effettuare un tiro salvezza su Costituzione.</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il bersaglio deve superare un tiro salvezza [[/save]], altrimenti diventa &amp;reference[poisoned]{avvelenato} per [[lookup @labels.duration activity=hcLz9GILmf8UvyVF]]. Se fallisce il tiro salvezza di 5 o più, il bersaglio cade &amp;reference[unconscious]{privo di sensi} per la stessa durata, oppure finché non subisce danni o un'altra creatura non usa un'azione per scuoterlo e svegliarlo.</p>"
         }
       },
       "details": {

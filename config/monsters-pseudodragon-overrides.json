@@ -1,0 +1,12 @@
+{
+  "monsters": {
+    "fkCNtbvPOMd7mipF": {
+      "items[heZCHSZEeLLiweK7].system.description.value": "<p>Il [[lookup @name lowercase]]{mostro} dispone di vantaggio alle prove di Saggezza (Percezione) basate sulla vista, sull'udito o sull'olfatto.</p>",
+      "items[aIqOpP93mUsy9yD1].system.description.value": "<p>Il [[lookup @name lowercase]]{mostro} può comunicare magicamente per via telepatica idee semplici, emozioni e immagini con qualsiasi creatura entro 30 metri da sé che sia in grado di comprendere un linguaggio.</p>",
+      "items[MKFXRWP55I1bVlyD].system.description.value": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il bersaglio deve superare un tiro salvezza [[/save]], altrimenti diventa &amp;reference[poisoned]{avvelenato} per [[lookup @labels.duration activity=hcLz9GILmf8UvyVF]]. Se fallisce il tiro salvezza di 5 o più, il bersaglio cade &amp;reference[unconscious]{privo di sensi} per la stessa durata, oppure finché non subisce danni o un'altra creatura non usa un'azione per scuoterlo e svegliarlo.</p>",
+      "items[MKFXRWP55I1bVlyD].system.activities.hcLz9GILmf8UvyVF.description.value": "<p>Il bersaglio deve superare un tiro salvezza [[/save]], altrimenti diventa avvelenato per 1 ora. Se fallisce il tiro salvezza di 5 o più, il bersaglio cade privo di sensi per la stessa durata, oppure finché non subisce danni o un'altra creatura non usa un'azione per scuoterlo e svegliarlo.</p>",
+      "items[MKFXRWP55I1bVlyD].effects[6WbfnxuaqYYI3UDt].description": "<p>Sei &amp;reference[poisoned apply=false]{avvelenato} per 1 ora.</p>",
+      "items[MKFXRWP55I1bVlyD].effects[JDRYANXUoIBF9EQr].description": "<p>Sei &amp;reference[poisoned apply=false]{avvelenato} per 1 ora. Sei anche &amp;reference[unconscious apply=false]{privo di sensi} per la stessa durata, oppure finché non subisci danni o un'altra creatura non usa un'azione per scuoterti e svegliarti.</p>"
+    }
+  }
+}

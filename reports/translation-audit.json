@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2234,
+      "translated": 2235,
       "missing": 3,
-      "partial": 154,
+      "partial": 153,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14422,
-      "missing": 1238,
+      "translated": 14428,
+      "missing": 1232,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1243
+    "blockingIssues": 1237
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 199,
+          "translated": 200,
           "missing": 0,
-          "partial": 138,
+          "partial": 137,
           "review": 0
         },
         "folders": {
@@ -578,68 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6606,
-          "missing": 500,
+          "translated": 6612,
+          "missing": 494,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "fkCNtbvPOMd7mipF",
-          "name": "Pseudodragon",
-          "fieldPath": "items[heZCHSZEeLLiweK7].system.description.value",
-          "sourcePath": "monsters/dragon/pseudodragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "fkCNtbvPOMd7mipF",
-          "name": "Pseudodragon",
-          "fieldPath": "items[aIqOpP93mUsy9yD1].system.description.value",
-          "sourcePath": "monsters/dragon/pseudodragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "fkCNtbvPOMd7mipF",
-          "name": "Pseudodragon",
-          "fieldPath": "items[MKFXRWP55I1bVlyD].system.description.value",
-          "sourcePath": "monsters/dragon/pseudodragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "fkCNtbvPOMd7mipF",
-          "name": "Pseudodragon",
-          "fieldPath": "items[MKFXRWP55I1bVlyD].system.activities.hcLz9GILmf8UvyVF.description.value",
-          "sourcePath": "monsters/dragon/pseudodragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "fkCNtbvPOMd7mipF",
-          "name": "Pseudodragon",
-          "fieldPath": "items[MKFXRWP55I1bVlyD].effects[6WbfnxuaqYYI3UDt].description",
-          "sourcePath": "monsters/dragon/pseudodragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "fkCNtbvPOMd7mipF",
-          "name": "Pseudodragon",
-          "fieldPath": "items[MKFXRWP55I1bVlyD].effects[JDRYANXUoIBF9EQr].description",
-          "sourcePath": "monsters/dragon/pseudodragon.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
