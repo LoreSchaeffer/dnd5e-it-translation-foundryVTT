@@ -1393,10 +1393,13 @@
               },
               "name": "Emettere Stridio"
             }
-          }
+          },
+          "description": "<p>Quando &amp;reference[bright light] o una creatura si trova entro [[lookup @labels.description.range activity=jlIOy920hBT6hxVd]] (9 metri) dal [[lookup @name lowercase]]{mostro}, questo emette uno stridio udibile entro 90 metri. Il [[lookup @name lowercase]]{mostro} continua a stridere finché ciò che lo disturba non esce dalla gittata e per 1d4 turni del [[lookup @name lowercase]]{mostro} successivi.</p>",
+          "chat": "<p>Quando &amp;reference[bright light] o una creatura si trova entro [[lookup @labels.description.range activity=jlIOy920hBT6hxVd]] (9 metri) dal [[lookup @name]]{mostro}, questo emette uno stridio udibile entro 90 metri.</p>"
         },
         "NAyTy2HfzqvHtjRh": {
-          "name": "Falso Aspetto"
+          "name": "Falso Aspetto",
+          "description": "<p>Finché il [[lookup @name lowercase]]{mostro} rimane immobile, è indistinguibile da un fungo comune.</p>"
         }
       },
       "attributes": {

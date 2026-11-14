@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2345,
+      "translated": 2346,
       "missing": 3,
-      "partial": 43,
+      "partial": 42,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14834,
-      "missing": 826,
+      "translated": 14837,
+      "missing": 823,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 831
+    "blockingIssues": 828
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 310,
+          "translated": 311,
           "missing": 0,
-          "partial": 27,
+          "partial": 26,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 7018,
-          "missing": 88,
+          "translated": 7021,
+          "missing": 85,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -837,33 +837,6 @@
           "name": "Shambling Mound",
           "fieldPath": "items[N42BQALoCmeYphD1].effects[qzOZ6CcMiEXnoSUj].description",
           "sourcePath": "monsters/plant/shambling-mound.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "TaK6nQMGqZ0y8gt7",
-          "name": "Shrieker",
-          "fieldPath": "items[Cvw6LMtbxmSBvVoZ].system.description.value",
-          "sourcePath": "monsters/plant/shrieker.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "TaK6nQMGqZ0y8gt7",
-          "name": "Shrieker",
-          "fieldPath": "items[Cvw6LMtbxmSBvVoZ].system.description.chat",
-          "sourcePath": "monsters/plant/shrieker.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "TaK6nQMGqZ0y8gt7",
-          "name": "Shrieker",
-          "fieldPath": "items[NAyTy2HfzqvHtjRh].system.description.value",
-          "sourcePath": "monsters/plant/shrieker.yml"
         },
         {
           "code": "missing-field",
