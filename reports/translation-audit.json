@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2331,
+      "translated": 2332,
       "missing": 3,
-      "partial": 57,
+      "partial": 56,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14777,
-      "missing": 883,
+      "translated": 14778,
+      "missing": 882,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 888
+    "blockingIssues": 887
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 296,
+          "translated": 297,
           "missing": 0,
-          "partial": 41,
+          "partial": 40,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6961,
-          "missing": 145,
+          "translated": 6962,
+          "missing": 144,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -648,15 +648,6 @@
           "name": "Lamia",
           "fieldPath": "items[fVbCxFRaORalHB20].system.description.value",
           "sourcePath": "monsters/monstrosity/lamia.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "MAoCGF5VkQwhmgvI",
-          "name": "Manticore",
-          "fieldPath": "items[Wr6BSqrXAJZu28sp].system.description.value",
-          "sourcePath": "monsters/monstrosity/manticore.yml"
         },
         {
           "code": "missing-field",
