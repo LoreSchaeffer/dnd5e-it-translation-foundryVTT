@@ -11048,10 +11048,13 @@
       },
       "items": {
         "9HX1VdEInbRUnBVL": {
-          "name": "Incantesimi Innati"
+          "name": "Incantesimi Innati",
+          "description": "<p>La caratteristica da incantatore innato della megera è Carisma (CD del tiro salvezza degli incantesimi 12). Può lanciare i seguenti incantesimi innati, senza richiedere componenti materiali:</p>\n<p>A volontà: [[/item .CAxSzHWizrafT033]]{luci danzanti}, [[/item .oIzA2MEHwxhtQneU]]{illusione minore}, [[/item .cdrYKaFi98YWaBMw]]{beffa crudele}</p>"
         },
         "C2ZJ3Oe30dyU2o7E": {
-          "name": "Imitare"
+          "name": "Imitare",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} può imitare versi di animali e voci di umanoidi. Una creatura che sente i suoni può riconoscerli come imitazioni superando una prova [[/check]].</p>",
+          "chat": "<p>La megera può imitare versi di animali e voci di umanoidi. Una creatura che sente i suoni può riconoscerli come imitazioni superando una prova di Saggezza (Intuizione).</p>"
         },
         "cvdyEyn0s7hKwIcN": {
           "name": "Aspetto Illusorio",
@@ -11062,24 +11065,29 @@
             "kV9ZxzkLNTRogVW9": {
               "name": "Indagare"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} avvolge sé stesso e tutto ciò che indossa o trasporta in un'illusione magica che gli conferisce l'aspetto di un'altra creatura della sua taglia approssimativa e dalla forma umanoide. L'illusione termina se il [[lookup @name lowercase]]{mostro} usa un'azione bonus per terminarla o se muore.</p><p>I cambiamenti prodotti da questo effetto non resistono a un'ispezione fisica. Per esempio, il [[lookup @name lowercase]]{mostro} potrebbe sembrare dotato di pelle liscia, ma chi lo tocca percepirebbe la sua carne ruvida. Altrimenti, una creatura deve usare un'azione per ispezionare visivamente l'illusione e superare una prova [[/check activity=kV9ZxzkLNTRogVW9]] per riconoscere che il [[lookup @name lowercase]]{mostro} è camuffato.</p>"
         },
         "Cdis1lnjFvqfoScV": {
           "name": "Passaggio Invisibile",
           "effects": {
             "M15UoRAnmUX21B5N": {
-              "name": "Passaggio Invisibile"
+              "name": "Passaggio Invisibile",
+              "description": "<p>Sei &amp;reference[invisible apply=false]{invisibile} finché non attacchi, lanci un incantesimo o finché la tua concentrazione non termina (come se ti concentrassi su un incantesimo). Finché sei invisibile, non lasci alcuna traccia fisica del tuo passaggio, quindi puoi essere rintracciato soltanto tramite la magia. Qualsiasi equipaggiamento che indossi o trasporti diventa invisibile assieme a te.</p>"
             }
           },
           "activities": {
             "dnd5eactivity000": {
               "name": "Diventa Invisibile"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} diventa magicamente &amp;reference[invisible]{invisibile} finché non attacca o lancia un incantesimo, oppure finché la sua concentrazione non termina (come se si concentrasse su un incantesimo). Finché è invisibile, non lascia alcuna traccia fisica del proprio passaggio, quindi può essere rintracciato soltanto tramite la magia. Qualsiasi equipaggiamento che indossa o trasporta diventa invisibile assieme a lui.</p>",
+          "chat": "<p>La megera diventa magicamente invisibile. Qualsiasi equipaggiamento che indossa o trasporta diventa invisibile assieme a lei.</p>"
         },
         "CAxSzHWizrafT033": {
           "name": "Luci Danzanti",
-          "materials": "Un frammento di fosforo, di legno di faggio o una lucciola"
+          "materials": "Un frammento di fosforo, di legno di faggio o una lucciola",
+          "description": "<p>Crei fino a quattro luci delle dimensioni di una torcia entro gittata e fai in modo che appaiano come torce, lanterne o sfere luminose sospese nell'aria per la durata. Puoi anche unire le quattro luci in un'unica forma luminosa vagamente umanoide di taglia Media. Qualunque forma tu scelga, ogni luce proietta luce fioca entro un raggio di 3 metri.</p><p>Con un'azione bonus durante il tuo turno, puoi muovere le luci fino a 18 metri verso un nuovo punto entro gittata. Ogni luce deve trovarsi entro 6 metri da un'altra luce creata da questo incantesimo e si spegne se supera la gittata dell'incantesimo.</p>"
         },
         "oIzA2MEHwxhtQneU": {
           "name": "Illusione Minore",

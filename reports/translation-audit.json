@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2261,
+      "translated": 2262,
       "missing": 3,
-      "partial": 127,
+      "partial": 126,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14512,
-      "missing": 1148,
+      "translated": 14520,
+      "missing": 1140,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1153
+    "blockingIssues": 1145
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 226,
+          "translated": 227,
           "missing": 0,
-          "partial": 111,
+          "partial": 110,
           "review": 0
         },
         "folders": {
@@ -578,86 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6696,
-          "missing": 410,
+          "translated": 6704,
+          "missing": 402,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "saq6WM959pKHuaqP",
-          "name": "Green Hag",
-          "fieldPath": "items[9HX1VdEInbRUnBVL].system.description.value",
-          "sourcePath": "monsters/fey/green-hag.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "saq6WM959pKHuaqP",
-          "name": "Green Hag",
-          "fieldPath": "items[C2ZJ3Oe30dyU2o7E].system.description.value",
-          "sourcePath": "monsters/fey/green-hag.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "saq6WM959pKHuaqP",
-          "name": "Green Hag",
-          "fieldPath": "items[C2ZJ3Oe30dyU2o7E].system.description.chat",
-          "sourcePath": "monsters/fey/green-hag.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "saq6WM959pKHuaqP",
-          "name": "Green Hag",
-          "fieldPath": "items[cvdyEyn0s7hKwIcN].system.description.value",
-          "sourcePath": "monsters/fey/green-hag.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "saq6WM959pKHuaqP",
-          "name": "Green Hag",
-          "fieldPath": "items[Cdis1lnjFvqfoScV].system.description.value",
-          "sourcePath": "monsters/fey/green-hag.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "saq6WM959pKHuaqP",
-          "name": "Green Hag",
-          "fieldPath": "items[Cdis1lnjFvqfoScV].system.description.chat",
-          "sourcePath": "monsters/fey/green-hag.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "saq6WM959pKHuaqP",
-          "name": "Green Hag",
-          "fieldPath": "items[Cdis1lnjFvqfoScV].effects[M15UoRAnmUX21B5N].description",
-          "sourcePath": "monsters/fey/green-hag.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "saq6WM959pKHuaqP",
-          "name": "Green Hag",
-          "fieldPath": "items[CAxSzHWizrafT033].system.description.value",
-          "sourcePath": "monsters/fey/green-hag.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
