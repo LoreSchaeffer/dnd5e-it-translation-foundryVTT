@@ -3,10 +3,10 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2380,
+      "translated": 2381,
       "missing": 3,
-      "partial": 8,
-      "review": 1
+      "partial": 7,
+      "review": 0
     },
     "folders": {
       "total": 120,
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14966,
-      "missing": 694,
+      "translated": 14967,
+      "missing": 693,
       "invariantFailures": 0,
-      "englishResiduals": 3,
+      "englishResiduals": 0,
       "imperialResiduals": 0
     },
-    "blockingIssues": 699
+    "blockingIssues": 695
   },
   "packs": [
     {
@@ -620,10 +620,10 @@
       "summary": {
         "documents": {
           "total": 20,
-          "translated": 9,
+          "translated": 10,
           "missing": 3,
-          "partial": 8,
-          "review": 1
+          "partial": 7,
+          "review": 0
         },
         "folders": {
           "total": 0,
@@ -634,10 +634,10 @@
         },
         "fields": {
           "total": 877,
-          "translated": 183,
-          "missing": 694,
+          "translated": 184,
+          "missing": 693,
           "invariantFailures": 0,
-          "englishResiduals": 3,
+          "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
@@ -6113,48 +6113,6 @@
           "name": "Appendix E: Rules",
           "fieldPath": "pages[oNQWvyRZkTOJ8PBq].text.content",
           "sourcePath": "rules/appendix-e-rules.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "gqecphEUnz4ktrQ9",
-          "name": "Chapter 3: Classes",
-          "fieldPath": "pages[8jxEuy0PV2HNySQC].text.content",
-          "sourcePath": "rules/chapter-3-classes.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Paladin",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "gqecphEUnz4ktrQ9",
-          "name": "Chapter 3: Classes",
-          "fieldPath": "pages[doLlxoEonAEiIJM7].name",
-          "sourcePath": "rules/chapter-3-classes.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Ranger",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "gqecphEUnz4ktrQ9",
-          "name": "Chapter 3: Classes",
-          "fieldPath": "pages[nLK08pRtyaLLuB4w].name",
-          "sourcePath": "rules/chapter-3-classes.yml"
-        },
-        {
-          "code": "unchanged-english",
-          "value": "Warlock",
-          "message": "Visible translation is identical to the English source",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "gqecphEUnz4ktrQ9",
-          "name": "Chapter 3: Classes",
-          "fieldPath": "pages[nBRkCAhWQOChx5qN].name",
-          "sourcePath": "rules/chapter-3-classes.yml"
         },
         {
           "code": "missing-field",
