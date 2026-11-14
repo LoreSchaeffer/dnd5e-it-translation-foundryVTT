@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2235,
+      "translated": 2236,
       "missing": 3,
-      "partial": 153,
+      "partial": 152,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14428,
-      "missing": 1232,
+      "translated": 14431,
+      "missing": 1229,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1237
+    "blockingIssues": 1234
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 200,
+          "translated": 201,
           "missing": 0,
-          "partial": 137,
+          "partial": 136,
           "review": 0
         },
         "folders": {
@@ -578,41 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6612,
-          "missing": 494,
+          "translated": 6615,
+          "missing": 491,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "7198siHjPJf8g0cG",
-          "name": "Wyvern",
-          "fieldPath": "items[vnO8N4pro9PVOOQn].system.description.value",
-          "sourcePath": "monsters/dragon/wyvern.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "7198siHjPJf8g0cG",
-          "name": "Wyvern",
-          "fieldPath": "items[HzLuzqlmtBSeSS4Q].system.description.value",
-          "sourcePath": "monsters/dragon/wyvern.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "7198siHjPJf8g0cG",
-          "name": "Wyvern",
-          "fieldPath": "items[HzLuzqlmtBSeSS4Q].system.activities.5R4V2td9o9mrejmz.description.value",
-          "sourcePath": "monsters/dragon/wyvern.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",

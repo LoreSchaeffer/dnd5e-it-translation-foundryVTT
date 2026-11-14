@@ -16223,7 +16223,8 @@
       },
       "items": {
         "vnO8N4pro9PVOOQn": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua due attacchi: uno con il suo [[/item .j1LTHxGLXWdnEbwq]]{morso} e uno con il suo [[/item .HzLuzqlmtBSeSS4Q]]{pungiglione}. Mentre vola, può usare i suoi [[/item .Wa8BU72wRqyBCqkI]]{artigli} al posto di uno degli altri attacchi.</p>"
         },
         "j1LTHxGLXWdnEbwq": {
           "name": "Morso",
@@ -16239,10 +16240,14 @@
           "name": "Aculeo",
           "activities": {
             "5R4V2td9o9mrejmz": {
-              "name": "Tiro Salvezza contro il Veleno"
+              "name": "Tiro Salvezza contro il Veleno",
+              "description": {
+                "value": "<p>Il bersaglio deve effettuare un tiro salvezza [[/save]], subendo [[/damage average activity=5R4V2td9o9mrejmz]] danni se lo fallisce, oppure la metà di quei danni se lo supera.</p>"
+              }
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio deve effettuare un tiro salvezza su Costituzione.</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio deve effettuare un tiro salvezza su Costituzione.</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il bersaglio deve effettuare un tiro salvezza [[/save]], subendo [[/damage average activity=5R4V2td9o9mrejmz]] danni se lo fallisce, oppure la metà di quei danni se lo supera.</p>"
         }
       },
       "details": {
