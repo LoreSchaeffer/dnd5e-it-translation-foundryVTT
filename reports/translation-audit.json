@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2291,
+      "translated": 2292,
       "missing": 3,
-      "partial": 97,
+      "partial": 96,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14636,
-      "missing": 1024,
+      "translated": 14641,
+      "missing": 1019,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1029
+    "blockingIssues": 1024
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 256,
+          "translated": 257,
           "missing": 0,
-          "partial": 81,
+          "partial": 80,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6820,
-          "missing": 286,
+          "translated": 6825,
+          "missing": 281,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -1422,51 +1422,6 @@
           "name": "Chimera",
           "fieldPath": "items[sAkv9mnK6l5nXmcz].system.description.value",
           "sourcePath": "monsters/monstrosity/chimera.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "PH78NBdvoaszAb61",
-          "name": "Death Dog",
-          "fieldPath": "items[TKV9mS1lvqMAyCaB].system.description.value",
-          "sourcePath": "monsters/monstrosity/death-dog.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "PH78NBdvoaszAb61",
-          "name": "Death Dog",
-          "fieldPath": "items[TKV9mS1lvqMAyCaB].system.description.chat",
-          "sourcePath": "monsters/monstrosity/death-dog.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "PH78NBdvoaszAb61",
-          "name": "Death Dog",
-          "fieldPath": "items[TKV9mS1lvqMAyCaB].system.activities.7RkSJfzdID9Ccqmn.description.value",
-          "sourcePath": "monsters/monstrosity/death-dog.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "PH78NBdvoaszAb61",
-          "name": "Death Dog",
-          "fieldPath": "items[TKV9mS1lvqMAyCaB].effects[Q59hAAZFyKj5jfAB].description",
-          "sourcePath": "monsters/monstrosity/death-dog.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "PH78NBdvoaszAb61",
-          "name": "Death Dog",
-          "fieldPath": "items[3wf78Pnmh9mmlj8p].system.description.value",
-          "sourcePath": "monsters/monstrosity/death-dog.yml"
         },
         {
           "code": "missing-field",
