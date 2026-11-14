@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2250,
+      "translated": 2251,
       "missing": 3,
-      "partial": 138,
+      "partial": 137,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14465,
-      "missing": 1195,
+      "translated": 14469,
+      "missing": 1191,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1200
+    "blockingIssues": 1196
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 215,
+          "translated": 216,
           "missing": 0,
-          "partial": 122,
+          "partial": 121,
           "review": 0
         },
         "folders": {
@@ -578,50 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6649,
-          "missing": 457,
+          "translated": 6653,
+          "missing": 453,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "LTomFUTBrkRi0Pj5",
-          "name": "Efreeti",
-          "fieldPath": "items[Fr77Z90cITQsMV3N].system.description.value",
-          "sourcePath": "monsters/elemental/efreeti.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "LTomFUTBrkRi0Pj5",
-          "name": "Efreeti",
-          "fieldPath": "items[gb5HcbKlmYUvLAsk].system.description.value",
-          "sourcePath": "monsters/elemental/efreeti.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "LTomFUTBrkRi0Pj5",
-          "name": "Efreeti",
-          "fieldPath": "items[gWEMjYhRVIEnKbZH].system.description.value",
-          "sourcePath": "monsters/elemental/efreeti.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "LTomFUTBrkRi0Pj5",
-          "name": "Efreeti",
-          "fieldPath": "items[2NzoIyouATBfPgdc].system.description.value",
-          "sourcePath": "monsters/elemental/efreeti.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
