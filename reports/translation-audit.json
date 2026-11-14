@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2214,
+      "translated": 2215,
       "missing": 3,
-      "partial": 174,
+      "partial": 173,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14375,
-      "missing": 1285,
+      "translated": 14377,
+      "missing": 1283,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1290
+    "blockingIssues": 1288
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 179,
+          "translated": 180,
           "missing": 0,
-          "partial": 158,
+          "partial": 157,
           "review": 0
         },
         "folders": {
@@ -578,32 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6559,
-          "missing": 547,
+          "translated": 6561,
+          "missing": 545,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "GP8JMSDugRxuLOD2",
-          "name": "Adult Green Dragon",
-          "fieldPath": "items[dhanHpeimPZOKFTP].system.description.value",
-          "sourcePath": "monsters/dragon/adult-green-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "GP8JMSDugRxuLOD2",
-          "name": "Adult Green Dragon",
-          "fieldPath": "items[KaEnVBhnIhVarfHb].system.description.value",
-          "sourcePath": "monsters/dragon/adult-green-dragon.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
