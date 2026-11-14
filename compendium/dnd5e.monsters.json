@@ -9278,10 +9278,13 @@
               "name": "Avvelenamento da Fetore",
               "description": "<p>Sei &amp;reference[poisoned apply=false] fino all'inizio del tuo turno successivo.</p>"
             }
-          }
+          },
+          "description": "<p>Ogni creatura che inizia il proprio turno entro [[lookup @labels.description.range activity=6R3a5EK9mkBX3oNR]] dal [[lookup @name lowercase]]{mostro} deve superare un tiro salvezza [[/save]], altrimenti è &amp;Reference[poisoned]{avvelenata} fino all'inizio del proprio turno successivo. Se supera il tiro salvezza, il [[lookup @name lowercase]]{mostro} non può influenzare la creatura con il proprio [[lookup @item.name]] per 24 ore.</p>",
+          "chat": "<p>Ogni creatura che inizia il proprio turno entro [[lookup @labels.description.range activity=6R3a5EK9mkBX3oNR]] dal [[lookup @name]]{mostro} deve superare un tiro salvezza su Costituzione.</p>"
         },
         "xQ1RYlOxb6lMRhdI": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua tre attacchi: uno con il suo [[/item .UNNl5XqsXZuKOm69]]{morso} e due con i suoi [[/item .HEQqPUsmmNs178Mj]]{artigli}.</p>"
         },
         "UNNl5XqsXZuKOm69": {
           "name": "Morso",
