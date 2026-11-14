@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2320,
+      "translated": 2321,
       "missing": 3,
-      "partial": 68,
+      "partial": 67,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14739,
-      "missing": 921,
+      "translated": 14744,
+      "missing": 916,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 926
+    "blockingIssues": 921
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 285,
+          "translated": 286,
           "missing": 0,
-          "partial": 52,
+          "partial": 51,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6923,
-          "missing": 183,
+          "translated": 6928,
+          "missing": 178,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -675,51 +675,6 @@
           "name": "Ettercap",
           "fieldPath": "items[W9YaQ2zrCYR6sjNk].effects[otGAUswMpsAM0sho].description",
           "sourcePath": "monsters/monstrosity/ettercap.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "nZthq6WHLhcdu3te",
-          "name": "Gorgon",
-          "fieldPath": "items[zpzof99ziVJCU4hI].system.description.value",
-          "sourcePath": "monsters/monstrosity/gorgon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "nZthq6WHLhcdu3te",
-          "name": "Gorgon",
-          "fieldPath": "items[zpzof99ziVJCU4hI].system.description.chat",
-          "sourcePath": "monsters/monstrosity/gorgon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "nZthq6WHLhcdu3te",
-          "name": "Gorgon",
-          "fieldPath": "items[5tEnGK28Rd4nHnwM].system.description.value",
-          "sourcePath": "monsters/monstrosity/gorgon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "nZthq6WHLhcdu3te",
-          "name": "Gorgon",
-          "fieldPath": "items[5tEnGK28Rd4nHnwM].system.description.chat",
-          "sourcePath": "monsters/monstrosity/gorgon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "nZthq6WHLhcdu3te",
-          "name": "Gorgon",
-          "fieldPath": "items[5tEnGK28Rd4nHnwM].effects[tsQjwB2ka54p6YZ1].description",
-          "sourcePath": "monsters/monstrosity/gorgon.yml"
         },
         {
           "code": "missing-field",

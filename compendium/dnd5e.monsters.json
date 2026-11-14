@@ -8985,7 +8985,9 @@
             "L6R3PCYmTAFAkPMd": {
               "name": "Tiro Salvezza contro il Calpestamento"
             }
-          }
+          },
+          "description": "<p>Se il [[lookup @name lowercase]]{mostro} si muove di almeno 6 metri in linea retta verso una creatura e poi la colpisce nello stesso turno con un attacco con l'@UUID[Compendium.dnd5e.monsters.Actor.nZthq6WHLhcdu3te.Item.7DSbBzpS1e9lYxZx]{incornata}, quel bersaglio deve superare un tiro salvezza [[/save]], altrimenti cade &amp;reference[prone]. Se il bersaglio è prono, il [[lookup @name lowercase]]{mostro} può effettuare contro di esso un attacco con i suoi [[/item .O8oahxePfpHFYohz]]{zoccoli} come azione bonus.</p>",
+          "chat": "<p>Se la gorgone si muove di <strong>almeno 6 metri</strong> in linea retta verso una creatura e poi la colpisce nello stesso turno con un attacco con l'incornata, quel bersaglio deve superare un tiro salvezza su Forza.</p>"
         },
         "5tEnGK28Rd4nHnwM": {
           "name": "Soffio Pietrificante",
@@ -8996,13 +8998,16 @@
           },
           "effects": {
             "tsQjwB2ka54p6YZ1": {
-              "name": "Pietrificazione in Corso"
+              "name": "Pietrificazione in Corso",
+              "description": "<p>Sei &amp;reference[restrained apply=false] mentre cominci a trasformarti in pietra. Devi ripetere il tiro salvezza alla fine del tuo turno successivo.</p><p>Se lo superi, l'effetto termina. Se lo fallisci, sei @UUID[Compendium.dnd5e.monsters.Actor.nZthq6WHLhcdu3te.Item.5tEnGK28Rd4nHnwM.ActiveEffect.PtowAW8SWftie1x8]{Pietrificato} finché non vieni liberato dall'incantesimo @UUID[Compendium.dnd5e.spells.Item.WzvJ7G3cqvIubsLk]{Ristorare Superiore} o da un'altra magia.</p>"
             },
             "PtowAW8SWftie1x8": {
               "name": "Completamente Pietrificato",
               "description": "<p>Sei &amp;reference[petrified apply=false] finché non vieni liberato dall'incantesimo @UUID[Compendium.dnd5e.spells.Item.WzvJ7G3cqvIubsLk]{ristorare superiore} o da un'altra magia.</p>"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} esala gas pietrificante in un [[lookup @labels.description.template activity=I95hdnCSX03wF7Er]]. Ogni creatura in quell'area deve superare un tiro salvezza [[/save]].</p><p>Se fallisce il tiro salvezza, un bersaglio comincia a trasformarsi in pietra ed è &amp;reference[restrained]. Il bersaglio trattenuto deve ripetere il tiro salvezza alla fine del proprio turno successivo. Se lo supera, l'effetto termina sul bersaglio. Se lo fallisce, il bersaglio è &amp;reference[petrified] finché non viene liberato dall'incantesimo @UUID[Compendium.dnd5e.spells.Item.WzvJ7G3cqvIubsLk]{Ristorare Superiore} o da un'altra magia.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} esala gas pietrificante in un [[lookup @labels.description.template activity=I95hdnCSX03wF7Er]]. Ogni creatura in quell'area deve effettuare un tiro salvezza su Costituzione.</p>"
         },
         "O8oahxePfpHFYohz": {
           "name": "Zoccoli",
