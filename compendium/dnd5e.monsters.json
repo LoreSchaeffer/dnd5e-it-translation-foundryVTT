@@ -10299,7 +10299,8 @@
       },
       "items": {
         "lAwQmCYEd9CtDdTb": {
-          "name": "Incantesimi Innati"
+          "name": "Incantesimi Innati",
+          "description": "<p>Il mephit può lanciare [[/item .2yHXEcrRbadZDr5M]]{riscaldare il metallo} innatamente (CD del tiro salvezza dell'incantesimo 10), senza richiedere componenti materiali. La sua caratteristica da incantatore innato è Carisma.</p>"
         },
         "LpYrQPxHA10HPnkl": {
           "name": "Esplosione Mortale",
@@ -10307,10 +10308,13 @@
             "UQfpr7NYbryokaPS": {
               "name": "Esplodere"
             }
-          }
+          },
+          "description": "<p>Quando il [[lookup @name lowercase]]{mostro} muore, esplode in una raffica di lava. Ogni creatura entro [[lookup @target.template.size activity=UQfpr7NYbryokaPS]] da esso deve effettuare un tiro salvezza [[/save activity=UQfpr7NYbryokaPS]], subendo [[/damage average activity=UQfpr7NYbryokaPS]] danni se lo fallisce, oppure la metà di quei danni se lo supera.</p>",
+          "chat": "<p>Quando il [[lookup @name]]{mostro} muore, esplode in una raffica di lava. Ogni creatura entro [[lookup @target.template.size activity=UQfpr7NYbryokaPS]] da esso deve effettuare un tiro salvezza su Destrezza.</p>"
         },
         "FEdBqpqpIEyjdO2H": {
-          "name": "Falso Aspetto"
+          "name": "Falso Aspetto",
+          "description": "<p>Finché il [[lookup @name lowercase]]{mostro} rimane immobile, è indistinguibile da un normale cumulo di magma.</p>"
         },
         "iXhbFt7gCj3FBM2r": {
           "name": "Soffio di Fuoco",
@@ -10318,7 +10322,9 @@
             "9MCs28rlCi6lgvch": {
               "name": "Esala Fuoco"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} esala un [[lookup @labels.description.template activity=9MCs28rlCi6lgvch]] di fuoco. Ogni creatura in quell'area deve effettuare un tiro salvezza [[/save activity=9MCs28rlCi6lgvch]], subendo [[/damage average activity=9MCs28rlCi6lgvch]] danni se lo fallisce, oppure la metà di quei danni se lo supera.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} esala un [[lookup @labels.description.template activity=9MCs28rlCi6lgvch]] di fuoco. Ogni creatura in quell'area deve effettuare un tiro salvezza su Destrezza.</p>"
         },
         "2yHXEcrRbadZDr5M": {
           "name": "Riscaldare il Metallo",

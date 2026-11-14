@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2254,
+      "translated": 2255,
       "missing": 3,
-      "partial": 134,
+      "partial": 133,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14481,
-      "missing": 1179,
+      "translated": 14487,
+      "missing": 1173,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1184
+    "blockingIssues": 1178
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 219,
+          "translated": 220,
           "missing": 0,
-          "partial": 118,
+          "partial": 117,
           "review": 0
         },
         "folders": {
@@ -578,68 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6665,
-          "missing": 441,
+          "translated": 6671,
+          "missing": 435,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "oJCOB9X2BPsBkWW5",
-          "name": "Magma Mephit",
-          "fieldPath": "items[lAwQmCYEd9CtDdTb].system.description.value",
-          "sourcePath": "monsters/elemental/magma-mephit.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "oJCOB9X2BPsBkWW5",
-          "name": "Magma Mephit",
-          "fieldPath": "items[LpYrQPxHA10HPnkl].system.description.value",
-          "sourcePath": "monsters/elemental/magma-mephit.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "oJCOB9X2BPsBkWW5",
-          "name": "Magma Mephit",
-          "fieldPath": "items[LpYrQPxHA10HPnkl].system.description.chat",
-          "sourcePath": "monsters/elemental/magma-mephit.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "oJCOB9X2BPsBkWW5",
-          "name": "Magma Mephit",
-          "fieldPath": "items[FEdBqpqpIEyjdO2H].system.description.value",
-          "sourcePath": "monsters/elemental/magma-mephit.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "oJCOB9X2BPsBkWW5",
-          "name": "Magma Mephit",
-          "fieldPath": "items[iXhbFt7gCj3FBM2r].system.description.value",
-          "sourcePath": "monsters/elemental/magma-mephit.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "oJCOB9X2BPsBkWW5",
-          "name": "Magma Mephit",
-          "fieldPath": "items[iXhbFt7gCj3FBM2r].system.description.chat",
-          "sourcePath": "monsters/elemental/magma-mephit.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",

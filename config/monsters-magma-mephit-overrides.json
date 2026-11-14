@@ -1,0 +1,12 @@
+{
+  "monsters": {
+    "oJCOB9X2BPsBkWW5": {
+      "items[lAwQmCYEd9CtDdTb].system.description.value": "<p>Il mephit può lanciare [[/item .2yHXEcrRbadZDr5M]]{riscaldare il metallo} innatamente (CD del tiro salvezza dell'incantesimo 10), senza richiedere componenti materiali. La sua caratteristica da incantatore innato è Carisma.</p>",
+      "items[LpYrQPxHA10HPnkl].system.description.value": "<p>Quando il [[lookup @name lowercase]]{mostro} muore, esplode in una raffica di lava. Ogni creatura entro [[lookup @target.template.size activity=UQfpr7NYbryokaPS]] da esso deve effettuare un tiro salvezza [[/save activity=UQfpr7NYbryokaPS]], subendo [[/damage average activity=UQfpr7NYbryokaPS]] danni se lo fallisce, oppure la metà di quei danni se lo supera.</p>",
+      "items[LpYrQPxHA10HPnkl].system.description.chat": "<p>Quando il [[lookup @name]]{mostro} muore, esplode in una raffica di lava. Ogni creatura entro [[lookup @target.template.size activity=UQfpr7NYbryokaPS]] da esso deve effettuare un tiro salvezza su Destrezza.</p>",
+      "items[FEdBqpqpIEyjdO2H].system.description.value": "<p>Finché il [[lookup @name lowercase]]{mostro} rimane immobile, è indistinguibile da un normale cumulo di magma.</p>",
+      "items[iXhbFt7gCj3FBM2r].system.description.value": "<p>Il [[lookup @name lowercase]]{mostro} esala un [[lookup @labels.description.template activity=9MCs28rlCi6lgvch]] di fuoco. Ogni creatura in quell'area deve effettuare un tiro salvezza [[/save activity=9MCs28rlCi6lgvch]], subendo [[/damage average activity=9MCs28rlCi6lgvch]] danni se lo fallisce, oppure la metà di quei danni se lo supera.</p>",
+      "items[iXhbFt7gCj3FBM2r].system.description.chat": "<p>Il [[lookup @name]]{mostro} esala un [[lookup @labels.description.template activity=9MCs28rlCi6lgvch]] di fuoco. Ogni creatura in quell'area deve effettuare un tiro salvezza su Destrezza.</p>"
+    }
+  }
+}
