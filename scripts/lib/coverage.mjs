@@ -206,9 +206,12 @@ export function renderMarkdownReport(report) {
   for (const audit of report.packs) {
     lines.push(`| ${audit.pack} | ${audit.summary.documents.total} | ${audit.summary.documents.translated} | ${audit.summary.documents.missing} | ${audit.summary.documents.partial} | ${audit.summary.folders.missing} | ${audit.summary.fields.missing} | ${audit.issues.filter(item => item.severity === "blocking").length} |`);
   }
-  lines.push("", `Total blocking issues: ${report.totals.blockingIssues}`, "", "## Issues", "");
+  lines.push("", `Total blocking issues: ${report.totals.blockingIssues}`, "", "## Issues");
+  let hasRenderedIssue = false;
   for (const audit of report.packs) {
     for (const item of audit.issues) {
+      if (!hasRenderedIssue) lines.push("");
+      hasRenderedIssue = true;
       lines.push(`- **${item.code}** \`${audit.pack}:${item.id ?? item.name ?? "pack"}${item.fieldPath ? `:${item.fieldPath}` : ""}\``);
     }
   }

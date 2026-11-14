@@ -222,3 +222,11 @@ test("reports are deterministic and blocking failures control exit status", asyn
   assert.equal(renderMarkdownReport(report), markdown);
 });
 
+test("reports without issues do not end with a blank line", () => {
+  const report = buildReport([]);
+  const markdown = renderMarkdownReport(report);
+
+  assert.equal(markdown.endsWith("## Issues\n"), true);
+  assert.equal(markdown.endsWith("## Issues\n\n"), false);
+});
+
