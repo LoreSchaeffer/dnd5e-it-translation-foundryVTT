@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2379,
+      "translated": 2380,
       "missing": 3,
-      "partial": 9,
+      "partial": 8,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14964,
-      "missing": 696,
+      "translated": 14966,
+      "missing": 694,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 701
+    "blockingIssues": 699
   },
   "packs": [
     {
@@ -620,9 +620,9 @@
       "summary": {
         "documents": {
           "total": 20,
-          "translated": 8,
+          "translated": 9,
           "missing": 3,
-          "partial": 9,
+          "partial": 8,
           "review": 1
         },
         "folders": {
@@ -634,8 +634,8 @@
         },
         "fields": {
           "total": 877,
-          "translated": 181,
-          "missing": 696,
+          "translated": 183,
+          "missing": 694,
           "invariantFailures": 0,
           "englishResiduals": 3,
           "imperialResiduals": 0
@@ -6113,24 +6113,6 @@
           "name": "Appendix E: Rules",
           "fieldPath": "pages[oNQWvyRZkTOJ8PBq].text.content",
           "sourcePath": "rules/appendix-e-rules.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "m2K2xsTy8w0WFuoJ",
-          "name": "Chapter 2: Races",
-          "fieldPath": "pages[qiH6zRDM96meMz8Y].name",
-          "sourcePath": "rules/chapter-2-races.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "m2K2xsTy8w0WFuoJ",
-          "name": "Chapter 2: Races",
-          "fieldPath": "pages[qiH6zRDM96meMz8Y].text.content",
-          "sourcePath": "rules/chapter-2-races.yml"
         },
         {
           "code": "missing-field",
