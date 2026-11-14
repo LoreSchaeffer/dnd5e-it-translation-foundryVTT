@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2357,
+      "translated": 2358,
       "missing": 3,
-      "partial": 31,
+      "partial": 30,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14864,
-      "missing": 796,
+      "translated": 14872,
+      "missing": 788,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 801
+    "blockingIssues": 793
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 322,
+          "translated": 323,
           "missing": 0,
-          "partial": 15,
+          "partial": 14,
           "review": 0
         },
         "folders": {
@@ -578,86 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 7048,
-          "missing": 58,
+          "translated": 7056,
+          "missing": 50,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "WJsxqbHU28D64lWT",
-          "name": "Rust Monster",
-          "fieldPath": "items[IPdRnqMb4ZjhHAm4].system.description.value",
-          "sourcePath": "monsters/monstrosity/rust-monster.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "WJsxqbHU28D64lWT",
-          "name": "Rust Monster",
-          "fieldPath": "items[dobpPU4kb00zSkQt].system.description.value",
-          "sourcePath": "monsters/monstrosity/rust-monster.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "WJsxqbHU28D64lWT",
-          "name": "Rust Monster",
-          "fieldPath": "items[dobpPU4kb00zSkQt].system.description.chat",
-          "sourcePath": "monsters/monstrosity/rust-monster.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "WJsxqbHU28D64lWT",
-          "name": "Rust Monster",
-          "fieldPath": "items[dobpPU4kb00zSkQt].system.activities.PsM9SwftLALFBbUf.description.value",
-          "sourcePath": "monsters/monstrosity/rust-monster.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "WJsxqbHU28D64lWT",
-          "name": "Rust Monster",
-          "fieldPath": "items[yxwZ9AtLMKZ61sTz].system.description.value",
-          "sourcePath": "monsters/monstrosity/rust-monster.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "WJsxqbHU28D64lWT",
-          "name": "Rust Monster",
-          "fieldPath": "items[yxwZ9AtLMKZ61sTz].system.description.chat",
-          "sourcePath": "monsters/monstrosity/rust-monster.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "WJsxqbHU28D64lWT",
-          "name": "Rust Monster",
-          "fieldPath": "items[yxwZ9AtLMKZ61sTz].system.activities.4kalmKCyvd5GxuYh.description.value",
-          "sourcePath": "monsters/monstrosity/rust-monster.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "WJsxqbHU28D64lWT",
-          "name": "Rust Monster",
-          "fieldPath": "items[yxwZ9AtLMKZ61sTz].effects[pbQsiyOC531v0z64].description",
-          "sourcePath": "monsters/monstrosity/rust-monster.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",

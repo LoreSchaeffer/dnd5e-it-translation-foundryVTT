@@ -13860,13 +13860,17 @@
       },
       "items": {
         "IPdRnqMb4ZjhHAm4": {
-          "name": "Fiutare il Ferro"
+          "name": "Fiutare il Ferro",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} può localizzare con l'olfatto i metalli ferrosi entro 9 metri da sé.</p>"
         },
         "dobpPU4kb00zSkQt": {
           "name": "Arrugginire",
           "activities": {
             "PsM9SwftLALFBbUf": {
-              "name": "Arrugginire Arma"
+              "name": "Arrugginire Arma",
+              "description": {
+                "value": "<p>Qualsiasi arma non magica di metallo che colpisce il [[lookup @name lowercase]]{mostro} si corrode. Dopo aver inflitto i danni, l'arma subisce una penalità permanente e cumulativa di -1 ai tiri per i danni. Se la penalità scende a -5, l'arma viene distrutta. Le munizioni non magiche di metallo che colpiscono il [[lookup @name lowercase]]{mostro} vengono distrutte dopo aver inflitto i danni.</p><p>@UUID[Compendium.dnd5e.monsters.Actor.WJsxqbHU28D64lWT.Item.dobpPU4kb00zSkQt.ActiveEffect.iqyGcqOolg6tFCwC]{Arma arrugginita}</p>"
+              }
             }
           },
           "effects": {
@@ -13874,7 +13878,9 @@
               "name": "Arma Corrosa",
               "description": "<p>Quest'arma è stata corrosa e subisce una penalità permanente e cumulativa di -1 ai tiri per i danni. Se la penalità scende a -5, l'arma è distrutta.</p>"
             }
-          }
+          },
+          "description": "<p>Qualsiasi arma non magica di metallo che colpisce il [[lookup @name lowercase]]{mostro} si corrode. Dopo aver inflitto i danni, l'arma subisce una penalità permanente e cumulativa di -1 ai tiri per i danni. Se la penalità scende a -5, l'arma viene distrutta. Le munizioni non magiche di metallo che colpiscono il [[lookup @name lowercase]]{mostro} vengono distrutte dopo aver inflitto i danni.</p><section id=\"secret-kf8c02ZiwU9vjF3Q\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Puoi applicare l'incantamento @UUID[Compendium.dnd5e.monsters.Actor.WJsxqbHU28D64lWT.Item.dobpPU4kb00zSkQt.ActiveEffect.iqyGcqOolg6tFCwC]{Arma arrugginita} a un'arma, conferendole una penalità cumulativa di -1 ai tiri per i danni ogni volta che l'incantamento viene applicato.</p></section>",
+          "chat": "<p>Qualsiasi arma non magica di metallo che colpisce il [[lookup @name lowercase]]{mostro} si corrode. Dopo aver inflitto i danni, l'arma subisce una penalità permanente e cumulativa di -1 ai tiri per i danni.</p>"
         },
         "ZFTo8KoUDrqeFg7l": {
           "name": "Morso",
@@ -13885,14 +13891,20 @@
           "name": "Antenne",
           "activities": {
             "4kalmKCyvd5GxuYh": {
-              "name": "Tiro Salvezza per Evitare la Ruggine"
+              "name": "Tiro Salvezza per Evitare la Ruggine",
+              "description": {
+                "value": "<p>Il [[lookup @name lowercase]]{mostro} corrode un oggetto di metallo ferroso non magico che può vedere entro 1,5 m da sé. Se l'oggetto non è indossato né trasportato, il contatto ne distrugge un cubo con spigolo di 0,3 m. Se l'oggetto è indossato o trasportato da una creatura, questa può effettuare un tiro salvezza [[/save]] per evitare il contatto del [[lookup @name lowercase]]{mostro}.</p><p>Se l'oggetto toccato è un'armatura di metallo o uno scudo di metallo indossato o trasportato, subisce una penalità permanente e cumulativa di -1 alla CA che offre. L'armatura è distrutta se la sua CA scende a 10; lo scudo è distrutto se il suo bonus scende a +0. Se l'oggetto toccato è un'arma di metallo impugnata, arrugginisce come descritto nel tratto @UUID[Compendium.dnd5e.monsters.Actor.WJsxqbHU28D64lWT.Item.dobpPU4kb00zSkQt]{Metallo arrugginito}.</p><p>@UUID[Compendium.dnd5e.monsters.Actor.WJsxqbHU28D64lWT.Item.dobpPU4kb00zSkQt.ActiveEffect.iqyGcqOolg6tFCwC]{Arma arrugginita}</p><p>@UUID[Compendium.dnd5e.monsters.Actor.WJsxqbHU28D64lWT.Item.yxwZ9AtLMKZ61sTz.ActiveEffect.pbQsiyOC531v0z64]{Armatura arrugginita}</p>"
+              }
             }
           },
           "effects": {
             "pbQsiyOC531v0z64": {
-              "name": "Armatura Arrugginita"
+              "name": "Armatura Arrugginita",
+              "description": "<p>Questa armatura si è corrosa e subisce una penalità permanente e cumulativa di -1 alla CA che offre. Se la sua penalità riduce la CA di un'armatura a 10 o il bonus di uno scudo a +0, viene distrutta.</p>"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} corrode un oggetto di metallo ferroso non magico che può vedere entro [[lookup @labels.description.range activity=4kalmKCyvd5GxuYh]] da sé. Se l'oggetto non è indossato né trasportato, il contatto ne distrugge un cubo con spigolo di 0,3 m. Se l'oggetto è indossato o trasportato da una creatura, questa può effettuare un tiro salvezza [[/save]] per evitare il contatto del [[lookup @name lowercase]]{mostro}.</p><p>Se l'oggetto toccato è un'armatura di metallo o uno scudo di metallo indossato o trasportato, subisce una penalità permanente e cumulativa di -1 alla CA che offre. L'armatura è distrutta se la sua CA scende a 10; lo scudo è distrutto se il suo bonus scende a +0. Se l'oggetto toccato è un'arma di metallo impugnata, arrugginisce come descritto nel tratto @UUID[Compendium.dnd5e.monsters.Actor.WJsxqbHU28D64lWT.Item.dobpPU4kb00zSkQt]{Metallo arrugginito}.</p><section id=\"secret-Z9VSdcLCUA4hKtGq\" class=\"secret\"><p><strong>Nota Foundry</strong></p><p>Puoi applicare a un'arma o armatura l'incantamento @UUID[Compendium.dnd5e.monsters.Actor.WJsxqbHU28D64lWT.Item.dobpPU4kb00zSkQt.ActiveEffect.iqyGcqOolg6tFCwC]{Arma arrugginita} oppure @UUID[Compendium.dnd5e.monsters.Actor.WJsxqbHU28D64lWT.Item.yxwZ9AtLMKZ61sTz.ActiveEffect.pbQsiyOC531v0z64]{Armatura arrugginita}, conferendole una penalità cumulativa di -1 ai tiri per i danni oppure alla CA che offre ogni volta che l'incantamento viene applicato.</p></section>",
+          "chat": "<p>Il [[lookup @name]]{mostro} corrode un oggetto di metallo ferroso che può vedere entro [[lookup @labels.description.range activity=4kalmKCyvd5GxuYh]] da sé. Se l'oggetto non è indossato né trasportato, il contatto ne distrugge un cubo con spigolo di 0,3 m.</p>"
         }
       },
       "details": {
