@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2298,
+      "translated": 2299,
       "missing": 3,
-      "partial": 90,
+      "partial": 89,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14661,
-      "missing": 999,
+      "translated": 14664,
+      "missing": 996,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1004
+    "blockingIssues": 1001
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 263,
+          "translated": 264,
           "missing": 0,
-          "partial": 74,
+          "partial": 73,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6845,
-          "missing": 261,
+          "translated": 6848,
+          "missing": 258,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -1269,33 +1269,6 @@
           "name": "Werewolf",
           "fieldPath": "items[2kHNI1T4gg879fDv].effects[yUtUCn3TPecpu4SI].description",
           "sourcePath": "monsters/humanoid/werewolf.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "kr6r8bhSehACPfZ8",
-          "name": "Chimera",
-          "fieldPath": "items[c4fLDKOomwlaFcac].system.description.value",
-          "sourcePath": "monsters/monstrosity/chimera.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "kr6r8bhSehACPfZ8",
-          "name": "Chimera",
-          "fieldPath": "items[c4fLDKOomwlaFcac].system.description.chat",
-          "sourcePath": "monsters/monstrosity/chimera.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "kr6r8bhSehACPfZ8",
-          "name": "Chimera",
-          "fieldPath": "items[sAkv9mnK6l5nXmcz].system.description.value",
-          "sourcePath": "monsters/monstrosity/chimera.yml"
         },
         {
           "code": "missing-field",

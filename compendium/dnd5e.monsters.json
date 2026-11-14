@@ -1996,10 +1996,13 @@
             "hgZyMXNDniRUKwjz": {
               "name": "Esala Fuoco"
             }
-          }
+          },
+          "description": "<p>La testa di drago espira fuoco in un [[lookup @labels.description.template activity=hgZyMXNDniRUKwjz]]. Ogni creatura in quell'area deve effettuare un tiro salvezza [[/save activity=hgZyMXNDniRUKwjz]], subendo [[/damage average activity=hgZyMXNDniRUKwjz]] danni se lo fallisce, oppure la metà di quei danni se lo supera.</p>",
+          "chat": "<p>La testa di drago espira fuoco in un [[lookup @labels.description.template activity=hgZyMXNDniRUKwjz]]. Ogni creatura in quell'area deve effettuare un tiro salvezza su Destrezza.</p>"
         },
         "sAkv9mnK6l5nXmcz": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua tre attacchi: uno con il suo [[/item .dDrIfOa408VFGv4a]]{morso}, uno con le sue [[/item .m5xGw7RgVRGTklJT]]{corna} e uno con i suoi [[/item .J98n5dL3pMkWGu69]]{artigli}. Quando il suo [[/item .c4fLDKOomwlaFcac]]{Soffio di Fuoco} è disponibile, può usare il soffio al posto del morso o delle corna.</p>"
         },
         "J98n5dL3pMkWGu69": {
           "name": "Artigli",
