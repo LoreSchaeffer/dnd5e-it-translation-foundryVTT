@@ -13696,7 +13696,8 @@
           "chat": "<p>Una creatura che tocca il [[lookup @name]]{mostro} o lo colpisce con un attacco in mischia mentre si trova entro 1,5 metri da esso subisce danni da fuoco.</p>"
         },
         "H9TCRB3zfkFwk192": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua due attacchi: uno con la sua [[/item .SKwOsrThcwqMXCZv]]{lancia} e uno con la sua [[/item .rvRy41yt9zowrAr1]]{coda}.</p>"
         },
         "SKwOsrThcwqMXCZv": {
           "name": "Lancia",
@@ -13715,7 +13716,9 @@
               "name": "Afferrato dalla Coda",
               "description": "<p>Sei &amp;reference[grappled apply=false] (CD 14 per sfuggire). Finché sei afferrato in questo modo, sei anche &amp;reference[restrained apply=false].</p>"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il bersaglio è &amp;reference[grappled]{afferrato} (CD 14 per sfuggire). Finché questa lotta non termina, il bersaglio è &amp;reference[restrained]{trattenuto}, il [[lookup @name lowercase]]{mostro} può colpire automaticamente il bersaglio con il proprio [[lookup @item.name lowercase]] e il [[lookup @name lowercase]]{mostro} non può effettuare attacchi con il [[lookup @item.name lowercase]] contro altri bersagli.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio è &amp;reference[grappled]{afferrato}. Finché questa lotta non termina, il bersaglio è trattenuto, il [[lookup @name]]{mostro} può colpire automaticamente il bersaglio con il proprio [[lookup @item.name]] e il [[lookup @name]]{mostro} non può effettuare attacchi con il [[lookup @item.name]] contro altri bersagli.</p>"
         }
       },
       "details": {

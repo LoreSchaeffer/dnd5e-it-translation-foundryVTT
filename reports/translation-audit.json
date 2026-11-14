@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2255,
+      "translated": 2256,
       "missing": 3,
-      "partial": 133,
+      "partial": 132,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14487,
-      "missing": 1173,
+      "translated": 14490,
+      "missing": 1170,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1178
+    "blockingIssues": 1175
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 220,
+          "translated": 221,
           "missing": 0,
-          "partial": 117,
+          "partial": 116,
           "review": 0
         },
         "folders": {
@@ -578,41 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6671,
-          "missing": 435,
+          "translated": 6674,
+          "missing": 432,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "yVNPVJIBpQ2Mp3Xa",
-          "name": "Salamander",
-          "fieldPath": "items[H9TCRB3zfkFwk192].system.description.value",
-          "sourcePath": "monsters/elemental/salamander.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "yVNPVJIBpQ2Mp3Xa",
-          "name": "Salamander",
-          "fieldPath": "items[rvRy41yt9zowrAr1].system.description.value",
-          "sourcePath": "monsters/elemental/salamander.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "yVNPVJIBpQ2Mp3Xa",
-          "name": "Salamander",
-          "fieldPath": "items[rvRy41yt9zowrAr1].system.description.chat",
-          "sourcePath": "monsters/elemental/salamander.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
