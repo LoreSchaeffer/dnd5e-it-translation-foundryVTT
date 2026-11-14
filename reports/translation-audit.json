@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2295,
+      "translated": 2296,
       "missing": 3,
-      "partial": 93,
+      "partial": 92,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14654,
-      "missing": 1006,
+      "translated": 14655,
+      "missing": 1005,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1011
+    "blockingIssues": 1010
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 260,
+          "translated": 261,
           "missing": 0,
-          "partial": 77,
+          "partial": 76,
           "review": 0
         },
         "folders": {
@@ -578,23 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6838,
-          "missing": 268,
+          "translated": 6839,
+          "missing": 267,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "kz1t6xeXVwODpYb2",
-          "name": "Berserker",
-          "fieldPath": "items[Qzj9HKnvRGhYoggC].effects[mc0qfRRq1rZXrJbi].description",
-          "sourcePath": "monsters/humanoid/berserker.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
