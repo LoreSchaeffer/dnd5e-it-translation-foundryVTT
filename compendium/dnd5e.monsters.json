@@ -6963,10 +6963,12 @@
           },
           "effects": {
             "MLHae1WTyr78IIqI": {
-              "name": "Parzialmente Congelato"
+              "name": "Parzialmente Congelato",
+              "description": "<p>Sei stato parzialmente congelato. La tua velocità è ridotta di 6 metri fino alla fine del tuo turno successivo.</p>"
             }
           },
-          "chat": "<p>Se il [[lookup @name]]{mostro} subisce danni da freddo, si congela parzialmente.</p>"
+          "chat": "<p>Se il [[lookup @name]]{mostro} subisce danni da freddo, si congela parzialmente.</p>",
+          "description": "<p>Se il [[lookup @name lowercase]]{mostro} subisce danni da freddo, si congela parzialmente; la sua velocità è ridotta di 6 metri fino alla fine del suo turno successivo.</p>"
         },
         "6AQXZ1FlO8qhnPTR": {
           "name": "Forma d'Acqua",
@@ -6979,7 +6981,8 @@
           "description": "<p>Il [[lookup @name lowercase]]{mostro} può entrare nello spazio di una creatura ostile e fermarsi al suo interno. Può attraversare uno spazio largo appena 2,5 cm senza &amp;reference[squeezing]{stringersi}.</p>"
         },
         "9saHudPLoj6va2em": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>L'elementale effettua due attacchi con lo [[/item .7xDGPsWicxgP6feT]]{schianto}.</p>"
         },
         "5XUFTldfE6mtRUfd": {
           "name": "Sommergere",
@@ -6996,9 +6999,12 @@
           },
           "effects": {
             "2Z4OvQKGES6rtmRz": {
-              "name": "Sommerso"
+              "name": "Sommerso",
+              "description": "<p>Sei &amp;reference[grappled apply=false]{afferrato} (CD 14 per sfuggire). Finché sei afferrato in questo modo, sei &amp;reference[restrained apply=false]{trattenuto} e non puoi &amp;reference[suffocating]{Respirare}, a meno che tu non sia in grado di respirare sott'acqua.</p><p>All'inizio di ciascun turno dell'elementale dell'acqua, subisci [[/damage avearge 2d8 + 4 bludgoening]] danni. Una creatura entro 1,5 metri dall'elementale dell'acqua può estrarti da esso usando un'azione per effettuare e superare una prova [[/check 14 str]].</p>"
             }
-          }
+          },
+          "description": "<p>Ogni creatura nello spazio del [[lookup @name lowercase]]{mostro} deve effettuare un tiro salvezza [[/save activity=wNdhnTTQQLAgCSv9]]. Se lo fallisce, un bersaglio subisce [[/damage average activity=wNdhnTTQQLAgCSv9]] danni. Se è di taglia Grande o inferiore, è anche &amp;Reference[grappled]{afferrato} (CD 14 per sfuggire). Finché questa lotta non termina, il bersaglio è &amp;Reference[restrained]{trattenuto} e non può &amp;reference[suffocating]{Respirare}, a meno che non sia in grado di respirare sott'acqua.</p><p>Se il tiro salvezza riesce, il bersaglio viene spinto fuori dallo spazio del [[lookup @name lowercase]]{mostro}. Il [[lookup @name lowercase]]{mostro} può afferrare contemporaneamente una creatura Grande o fino a due creature Medie o di taglia inferiore. All'inizio di ciascun turno del [[lookup @name lowercase]]{mostro}, ogni bersaglio da esso afferrato subisce [[/damage average activity=3Ed1FjdlOVvPPqS8]] danni. Una creatura entro 1,5 metri dal [[lookup @name lowercase]]{mostro} può estrarre da esso una creatura o un oggetto usando un'azione per effettuare e superare una prova [[/check activity=QoSOLmJfjlxffpld]].</p>",
+          "chat": "<p>Ogni creatura nello spazio del [[lookup @name]]{mostro} deve effettuare un tiro salvezza su Forza. Se è di taglia Grande o inferiore, è anche &amp;reference[grappled]{afferrata}. Finché questa lotta non termina, il bersaglio è &amp;reference[restrained]{trattenuto} e non può &amp;reference[suffocating]{Respirare}, a meno che non sia in grado di respirare sott'acqua. Una creatura entro 1,5 metri dal [[lookup @name]]{mostro} può estrarre da esso una creatura o un oggetto usando un'azione per effettuare e superare una prova di Forza.</p>"
         },
         "7xDGPsWicxgP6feT": {
           "name": "Schianto",

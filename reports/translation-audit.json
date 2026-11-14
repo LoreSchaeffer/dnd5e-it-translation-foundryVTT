@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2257,
+      "translated": 2258,
       "missing": 3,
-      "partial": 131,
+      "partial": 130,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14495,
-      "missing": 1165,
+      "translated": 14501,
+      "missing": 1159,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1170
+    "blockingIssues": 1164
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 222,
+          "translated": 223,
           "missing": 0,
-          "partial": 115,
+          "partial": 114,
           "review": 0
         },
         "folders": {
@@ -578,68 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6679,
-          "missing": 427,
+          "translated": 6685,
+          "missing": 421,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "namJz755U1EhvEJa",
-          "name": "Water Elemental",
-          "fieldPath": "items[sZcc3bwnRjaDV9BZ].system.description.value",
-          "sourcePath": "monsters/elemental/water-elemental.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "namJz755U1EhvEJa",
-          "name": "Water Elemental",
-          "fieldPath": "items[sZcc3bwnRjaDV9BZ].effects[MLHae1WTyr78IIqI].description",
-          "sourcePath": "monsters/elemental/water-elemental.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "namJz755U1EhvEJa",
-          "name": "Water Elemental",
-          "fieldPath": "items[9saHudPLoj6va2em].system.description.value",
-          "sourcePath": "monsters/elemental/water-elemental.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "namJz755U1EhvEJa",
-          "name": "Water Elemental",
-          "fieldPath": "items[5XUFTldfE6mtRUfd].system.description.value",
-          "sourcePath": "monsters/elemental/water-elemental.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "namJz755U1EhvEJa",
-          "name": "Water Elemental",
-          "fieldPath": "items[5XUFTldfE6mtRUfd].system.description.chat",
-          "sourcePath": "monsters/elemental/water-elemental.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "namJz755U1EhvEJa",
-          "name": "Water Elemental",
-          "fieldPath": "items[5XUFTldfE6mtRUfd].effects[2Z4OvQKGES6rtmRz].description",
-          "sourcePath": "monsters/elemental/water-elemental.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
