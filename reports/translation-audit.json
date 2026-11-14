@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2253,
+      "translated": 2254,
       "missing": 3,
-      "partial": 135,
+      "partial": 134,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14477,
-      "missing": 1183,
+      "translated": 14481,
+      "missing": 1179,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1188
+    "blockingIssues": 1184
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 218,
+          "translated": 219,
           "missing": 0,
-          "partial": 119,
+          "partial": 118,
           "review": 0
         },
         "folders": {
@@ -578,50 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6661,
-          "missing": 445,
+          "translated": 6665,
+          "missing": 441,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "oDspGxRQFBhE74L2",
-          "name": "Invisible Stalker",
-          "fieldPath": "items[VdFnTF9MqUFF7KPQ].system.description.value",
-          "sourcePath": "monsters/elemental/invisible-stalker.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "oDspGxRQFBhE74L2",
-          "name": "Invisible Stalker",
-          "fieldPath": "items[VdFnTF9MqUFF7KPQ].system.description.chat",
-          "sourcePath": "monsters/elemental/invisible-stalker.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "oDspGxRQFBhE74L2",
-          "name": "Invisible Stalker",
-          "fieldPath": "items[UR2TYdvh0VZzLKyO].system.description.value",
-          "sourcePath": "monsters/elemental/invisible-stalker.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "oDspGxRQFBhE74L2",
-          "name": "Invisible Stalker",
-          "fieldPath": "items[UR2TYdvh0VZzLKyO].effects[7AfkQufSSsgkE4MS].description",
-          "sourcePath": "monsters/elemental/invisible-stalker.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",

@@ -1462,15 +1462,19 @@
       },
       "items": {
         "VdFnTF9MqUFF7KPQ": {
-          "name": "Segugio Infallibile"
+          "name": "Segugio Infallibile",
+          "description": "<p>L'evocatore assegna una preda al [[lookup @name lowercase]]{mostro}. Il [[lookup @name lowercase]]{mostro} conosce la direzione e la distanza della propria preda finché entrambi si trovano sullo stesso piano di esistenza. Il [[lookup @name lowercase]]{mostro} conosce anche l'ubicazione del proprio evocatore.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} conosce la direzione e la distanza della propria preda finché entrambi si trovano sullo stesso piano di esistenza.</p>"
         },
         "UR2TYdvh0VZzLKyO": {
           "name": "Invisibilità",
           "effects": {
             "7AfkQufSSsgkE4MS": {
-              "name": "Invisibilità"
+              "name": "Invisibilità",
+              "description": "<p>Sei &amp;reference[invisible apply=false]{invisibile}.</p>"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} è &amp;reference[invisible apply=false]{invisibile}.</p>"
         },
         "bl0mrJpx4dqL9Ub8": {
           "name": "Multiattacco",
