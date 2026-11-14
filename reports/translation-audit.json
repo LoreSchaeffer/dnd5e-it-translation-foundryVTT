@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2276,
+      "translated": 2277,
       "missing": 3,
-      "partial": 112,
+      "partial": 111,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14581,
-      "missing": 1079,
+      "translated": 14582,
+      "missing": 1078,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1084
+    "blockingIssues": 1083
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 241,
+          "translated": 242,
           "missing": 0,
-          "partial": 96,
+          "partial": 95,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6765,
-          "missing": 341,
+          "translated": 6766,
+          "missing": 340,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -810,15 +810,6 @@
           "name": "Vrock",
           "fieldPath": "items[Ijd3GKLRlMzwoSe1].system.description.chat",
           "sourcePath": "monsters/fiend/vrock.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "Aw2wmqGIatxe2ImI",
-          "name": "Cloud Giant",
-          "fieldPath": "items[WFfPQjdkfYdIIiZT].system.description.value",
-          "sourcePath": "monsters/giant/cloud-giant.yml"
         },
         {
           "code": "missing-field",
