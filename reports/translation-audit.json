@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2383,
+      "translated": 2384,
       "missing": 3,
-      "partial": 5,
+      "partial": 4,
       "review": 0
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14973,
-      "missing": 687,
+      "translated": 14980,
+      "missing": 680,
       "invariantFailures": 0,
       "englishResiduals": 0,
       "imperialResiduals": 0
     },
-    "blockingIssues": 689
+    "blockingIssues": 682
   },
   "packs": [
     {
@@ -620,9 +620,9 @@
       "summary": {
         "documents": {
           "total": 20,
-          "translated": 12,
+          "translated": 13,
           "missing": 3,
-          "partial": 5,
+          "partial": 4,
           "review": 0
         },
         "folders": {
@@ -634,8 +634,8 @@
         },
         "fields": {
           "total": 877,
-          "translated": 190,
-          "missing": 687,
+          "translated": 197,
+          "missing": 680,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -6194,69 +6194,6 @@
           "name": "Chapter 5: Equipment",
           "fieldPath": "pages[ixeXj7Eqq5zPDUYo].text.content",
           "sourcePath": "rules/chapter-5-equipment.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "0AGfrwZRzSG0vNKb",
-          "name": "Chapter 7: Using Ability Scores",
-          "fieldPath": "pages[LgFIjR9ASPVL0W8K].text.content",
-          "sourcePath": "rules/chapter-7-using-ability-scores.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "0AGfrwZRzSG0vNKb",
-          "name": "Chapter 7: Using Ability Scores",
-          "fieldPath": "pages[yuSwUFIjK31Mr3DI].text.content",
-          "sourcePath": "rules/chapter-7-using-ability-scores.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "0AGfrwZRzSG0vNKb",
-          "name": "Chapter 7: Using Ability Scores",
-          "fieldPath": "pages[d3eBZOe9PUvZ7dKQ].text.content",
-          "sourcePath": "rules/chapter-7-using-ability-scores.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "0AGfrwZRzSG0vNKb",
-          "name": "Chapter 7: Using Ability Scores",
-          "fieldPath": "pages[tthOsaZTr7AVKnsW].text.content",
-          "sourcePath": "rules/chapter-7-using-ability-scores.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "0AGfrwZRzSG0vNKb",
-          "name": "Chapter 7: Using Ability Scores",
-          "fieldPath": "pages[OcHhrKKzffcVi03Q].text.content",
-          "sourcePath": "rules/chapter-7-using-ability-scores.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "0AGfrwZRzSG0vNKb",
-          "name": "Chapter 7: Using Ability Scores",
-          "fieldPath": "pages[xt6tSGvU9e0vtXw6].text.content",
-          "sourcePath": "rules/chapter-7-using-ability-scores.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "0AGfrwZRzSG0vNKb",
-          "name": "Chapter 7: Using Ability Scores",
-          "fieldPath": "pages[9M9VztnDl81tTxgz].text.content",
-          "sourcePath": "rules/chapter-7-using-ability-scores.yml"
         },
         {
           "code": "missing-field",
