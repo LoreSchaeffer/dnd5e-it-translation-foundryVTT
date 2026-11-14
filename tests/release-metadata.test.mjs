@@ -16,6 +16,7 @@ test("manifest publishes version 3.0.5 from the LoreSchaeffer fork", async () =>
   assert.equal(manifest.url, REPOSITORY_URL);
   assert.equal(manifest.manifest, MANIFEST_URL);
   assert.equal(manifest.download, DOWNLOAD_URL);
+  assert.equal(manifest.relationships.systems[0].compatibility.verified, "6.0.6");
   assert.equal(manifest.authors[0].name, "LuckyFrico");
   assert.equal(manifest.authors[0].url, "https://github.com/LuckyFrico");
 });
