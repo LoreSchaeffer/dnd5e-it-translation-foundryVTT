@@ -8479,7 +8479,8 @@
           "description": "<p>Uno scudo è realizzato in legno o metallo ed è portato in una mano. Il possesso di uno scudo aumenta la tua Classe di armatura di 2. Puoi beneficiare di un solo scudo alla volta.</p>"
         },
         "QuVUb9i809rjJWcL": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua tre attacchi in mischia o due attacchi a distanza.</p>"
         },
         "eL15erXXE9EuXWSB": {
           "name": "Lancia",
@@ -8496,7 +8497,9 @@
             "5RUe1bRJr64laA0l": {
               "name": "Parare l'Attacco"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} aggiunge 3 alla propria CA contro un attacco in mischia che lo colpirebbe. Per farlo, il [[lookup @name lowercase]]{mostro} deve vedere l'attaccante e impugnare un'arma da mischia.</p>",
+          "chat": "<p>Il [[lookup @name lowercase]]{mostro} aggiunge 3 alla propria CA contro un attacco in mischia che lo colpirebbe.</p>"
         },
         "YbB6EsBwNaEzVlxU": {
           "name": "Impavido",
@@ -8512,7 +8515,8 @@
               }
             }
           },
-          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio è una creatura di taglia Media o inferiore, deve superare un tiro salvezza [[/save]], altrimenti cade &amp;Reference[prone].</p>"
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio è una creatura di taglia Media o inferiore, deve superare un tiro salvezza [[/save]], altrimenti cade &amp;Reference[prone].</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Se il bersaglio è una creatura di taglia Media o inferiore, deve effettuare un tiro salvezza su Forza, altrimenti cade &amp;reference[prone].</p>"
         }
       },
       "details": {

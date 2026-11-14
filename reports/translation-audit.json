@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2305,
+      "translated": 2306,
       "missing": 3,
-      "partial": 83,
+      "partial": 82,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14690,
-      "missing": 970,
+      "translated": 14694,
+      "missing": 966,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 975
+    "blockingIssues": 971
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 270,
+          "translated": 271,
           "missing": 0,
-          "partial": 67,
+          "partial": 66,
           "review": 0
         },
         "folders": {
@@ -578,50 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6874,
-          "missing": 232,
+          "translated": 6878,
+          "missing": 228,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "fsPruAIDOg4tVrgb",
-          "name": "Gladiator",
-          "fieldPath": "items[QuVUb9i809rjJWcL].system.description.value",
-          "sourcePath": "monsters/humanoid/gladiator.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "fsPruAIDOg4tVrgb",
-          "name": "Gladiator",
-          "fieldPath": "items[GrUneCbXCYngdpjf].system.description.chat",
-          "sourcePath": "monsters/humanoid/gladiator.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "fsPruAIDOg4tVrgb",
-          "name": "Gladiator",
-          "fieldPath": "items[8MsAKETlPQapB6zn].system.description.value",
-          "sourcePath": "monsters/humanoid/gladiator.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "fsPruAIDOg4tVrgb",
-          "name": "Gladiator",
-          "fieldPath": "items[8MsAKETlPQapB6zn].system.description.chat",
-          "sourcePath": "monsters/humanoid/gladiator.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
