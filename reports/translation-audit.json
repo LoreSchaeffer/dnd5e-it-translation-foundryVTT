@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2238,
+      "translated": 2239,
       "missing": 3,
-      "partial": 150,
+      "partial": 149,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14433,
-      "missing": 1227,
+      "translated": 14436,
+      "missing": 1224,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1232
+    "blockingIssues": 1229
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 203,
+          "translated": 204,
           "missing": 0,
-          "partial": 134,
+          "partial": 133,
           "review": 0
         },
         "folders": {
@@ -578,41 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6617,
-          "missing": 489,
+          "translated": 6620,
+          "missing": 486,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "FzvZ6xl3U9GoL9ju",
-          "name": "Young Brass Dragon",
-          "fieldPath": "items[oyNvUJRyGRVF22t8].system.description.value",
-          "sourcePath": "monsters/dragon/young-brass-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "FzvZ6xl3U9GoL9ju",
-          "name": "Young Brass Dragon",
-          "fieldPath": "items[K9vktdgJkPWfYjwa].system.description.value",
-          "sourcePath": "monsters/dragon/young-brass-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "FzvZ6xl3U9GoL9ju",
-          "name": "Young Brass Dragon",
-          "fieldPath": "items[K9vktdgJkPWfYjwa].effects[P1rGrKiV7x2OMiN0].description",
-          "sourcePath": "monsters/dragon/young-brass-dragon.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",

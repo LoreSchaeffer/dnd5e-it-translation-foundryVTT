@@ -4819,7 +4819,8 @@
           "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
         },
         "oyNvUJRyGRVF22t8": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua tre attacchi: uno con il suo [[/item .dYJy66Ftt58qpTUi]]{morso} e due con i suoi [[/item .YHom7FFObzrKEBLQ]]{artigli}.</p>"
         },
         "K9vktdgJkPWfYjwa": {
           "activities": {
@@ -4838,11 +4839,13 @@
           },
           "effects": {
             "P1rGrKiV7x2OMiN0": {
-              "name": "Soffio di Sonno"
+              "name": "Soffio di Sonno",
+              "description": "<p>Sei &amp;reference[unconcious apply=false]{privo di sensi} per 5 minuti. Questo effetto termina su di te quando subisci danni o quando qualcuno usa un'azione per svegliarti.</p>"
             }
           },
           "name": "Armi a Soffio",
-          "chat": "<p>Il [[lookup @name]]{mostro} inspira!</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} inspira!</p>",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} usa una delle seguenti armi a soffio.</p><p><strong>Soffio di Fuoco.</strong> Il [[lookup @name lowercase]]{mostro} esala fuoco in una [[lookup @labels.description.template activity=NBdXGRF1vahbq4p8]]. Ogni creatura su quella linea deve effettuare un tiro salvezza [[/save activity=NBdXGRF1vahbq4p8]], subendo [[/damage average activity=NBdXGRF1vahbq4p8]] danni se lo fallisce, oppure la metà di quei danni se lo supera.</p><p><strong>Soffio Soporifero.</strong> Il [[lookup @name lowercase]]{mostro} esala gas soporifero in un [[lookup @labels.description.template activity=O02zuaLvAqtmgutQ]]. Ogni creatura in quell'area deve superare un tiro salvezza [[/save activity=O02zuaLvAqtmgutQ]], altrimenti cade &amp;Reference[unconscious]{priva di sensi} per [[lookup @labels.duration activity=O02zuaLvAqtmgutQ]]. Questo effetto termina su una creatura se essa subisce danni o se qualcuno usa un'azione per svegliarla.</p>"
         },
         "YHom7FFObzrKEBLQ": {
           "name": "Artiglio",
