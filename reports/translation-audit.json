@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2353,
+      "translated": 2354,
       "missing": 3,
-      "partial": 35,
+      "partial": 34,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14854,
-      "missing": 806,
+      "translated": 14855,
+      "missing": 805,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 811
+    "blockingIssues": 810
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 318,
+          "translated": 319,
           "missing": 0,
-          "partial": 19,
+          "partial": 18,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 7038,
-          "missing": 68,
+          "translated": 7039,
+          "missing": 67,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -792,15 +792,6 @@
           "name": "Worg",
           "fieldPath": "items[UnONIXYgZcE3Jya0].system.description.chat",
           "sourcePath": "monsters/monstrosity/worg.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "BImoeCT97rI3nKmG",
-          "name": "Medium Animated Object",
-          "fieldPath": "name",
-          "sourcePath": "monsters/summons/medium-animated-object.yml"
         },
         {
           "code": "missing-field",
