@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2245,
+      "translated": 2246,
       "missing": 3,
-      "partial": 143,
+      "partial": 142,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14447,
-      "missing": 1213,
+      "translated": 14450,
+      "missing": 1210,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1218
+    "blockingIssues": 1215
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 210,
+          "translated": 211,
           "missing": 0,
-          "partial": 127,
+          "partial": 126,
           "review": 0
         },
         "folders": {
@@ -578,41 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6631,
-          "missing": 475,
+          "translated": 6634,
+          "missing": 472,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "u1UQfHutP5eEKkjM",
-          "name": "Young White Dragon",
-          "fieldPath": "items[qFfEF7lLt2kH3RbA].system.activities.s4JjRKyIFDyrVmAf.description.chatFlavor",
-          "sourcePath": "monsters/dragon/young-white-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "u1UQfHutP5eEKkjM",
-          "name": "Young White Dragon",
-          "fieldPath": "items[d9xXEIYNNQjIMGF8].system.activities.P91sIZ6siXFHfptW.description.chatFlavor",
-          "sourcePath": "monsters/dragon/young-white-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "u1UQfHutP5eEKkjM",
-          "name": "Young White Dragon",
-          "fieldPath": "items[lRFwKaRqhFY4xNhJ].system.description.value",
-          "sourcePath": "monsters/dragon/young-white-dragon.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",

@@ -3542,14 +3542,22 @@
         "qFfEF7lLt2kH3RbA": {
           "name": "Morso",
           "description": "<p>[[/attack extended]]. [[/damage extended]].</p>",
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>",
+          "activities": {
+            "s4JjRKyIFDyrVmAf": {
+              "description": {
+                "chatFlavor": "Il drago spalanca la bocca per mordere il suo nemico."
+              }
+            }
+          }
         },
         "g2nJbBJ06mRtxEy0": {
           "name": "Camminare sul Ghiaccio",
           "description": "<p>Il [[lookup @name lowercase]]{mostro} può muoversi e scalare superfici ghiacciate senza dover effettuare una prova di caratteristica. Inoltre, il &amp;reference[difficult terrain] composto da ghiaccio o neve non gli costa movimento extra.</p>"
         },
         "lRFwKaRqhFY4xNhJ": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua tre attacchi: uno con il suo [[/item .qFfEF7lLt2kH3RbA]]{morso} e due con i suoi [[/item .d9xXEIYNNQjIMGF8]]{artigli}.</p>"
         },
         "K38ku0AFxbQfZwXL": {
           "name": "Soffio di Freddo",
@@ -3564,7 +3572,14 @@
         "d9xXEIYNNQjIMGF8": {
           "name": "Artiglio",
           "description": "<p>[[/attack extended]]. [[/damage extended]].</p>",
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>",
+          "activities": {
+            "P91sIZ6siXFHfptW": {
+              "description": {
+                "chatFlavor": "Il drago colpisce con uno dei suoi artigli."
+              }
+            }
+          }
         }
       },
       "details": {
