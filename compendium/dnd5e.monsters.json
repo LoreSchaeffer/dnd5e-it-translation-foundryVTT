@@ -844,7 +844,8 @@
       },
       "items": {
         "9efeESJpU7Zmfcyo": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua due attacchi: uno con i suoi [[/item .WqD5jsrWCeNHoD9O]]{artigli} e uno con la sua [[/item .ywVQhULZvd4Jn51c]]{clava}.</p>"
         },
         "ywVQhULZvd4Jn51c": {
           "name": "Randello",
@@ -863,9 +864,12 @@
           },
           "effects": {
             "1uHL7hrfX61bYExn": {
-              "name": "Affascinato dal Canto"
+              "name": "Affascinato dal Canto",
+              "description": "<p>Sei &amp;reference[charmed apply=false]. Mentre sei affascinato, sei &amp;reference[incapacitated apply=false] e ignori i canti delle altre arpie.</p><p>Se ti trovi a più di 1,5 metri dall'arpia, nel tuo turno devi muoverti verso di lei seguendo il percorso più diretto e cercando di portarti entro 1,5 metri. Non eviti gli &amp;reference[opportunity attacks], ma puoi ripetere il tiro salvezza prima di entrare in un terreno pericoloso, come lava o una fossa, e ogni volta che subisci danni da una fonte diversa dall'arpia. Puoi anche ripetere il tiro salvezza alla fine di ciascun tuo turno. Se il tiro salvezza riesce, l'effetto termina per te.</p>"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} intona una melodia magica. Ogni umanoide e gigante entro [[lookup @target.template.size activity=SStRaAbx3AgLlBAU]] × 0,3 metri dal [[lookup @name lowercase]]{mostro} che può udire il canto deve superare un [[/save activity=SStRaAbx3AgLlBAU]] tiro salvezza o rimanere &amp;reference[charmed] finché il canto non termina. Il [[lookup @name lowercase]]{mostro} deve usare un'azione bonus nei suoi turni successivi per continuare a cantare. Può smettere di cantare in qualsiasi momento. Il canto termina se il [[lookup @name lowercase]]{mostro} è &amp;reference[incapacitated apply=false].</p><p>Mentre è affascinato dal [[lookup @name lowercase]]{mostro}, un bersaglio è &amp;reference[incapacitated] e ignora i canti delle altre arpie. Se il bersaglio affascinato si trova a più di 1,5 metri dal [[lookup @name lowercase]]{mostro}, nel suo turno deve muoversi verso il [[lookup @name lowercase]]{mostro} seguendo il percorso più diretto e cercando di portarsi entro 1,5 metri. Non evita gli &amp;reference[opportunity attacks], ma può ripetere il tiro salvezza prima di entrare in un terreno pericoloso, come lava o una fossa, e ogni volta che subisce danni da una fonte diversa dal [[lookup @name lowercase]]{mostro}. Un bersaglio affascinato può anche ripetere il tiro salvezza alla fine di ciascun suo turno. Se il tiro salvezza riesce, l'effetto termina per quel bersaglio.</p><p>Un bersaglio che supera il tiro salvezza è immune al canto di questo [[lookup @name lowercase]]{mostro} per le 24 ore successive.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} intona una melodia magica. Ogni umanoide e gigante entro [[lookup @target.template.size activity=SStRaAbx3AgLlBAU]] × 0,3 metri dal [[lookup @name]]{mostro} che può udire il canto deve effettuare un tiro salvezza di Saggezza. Una creatura può anche ripetere il tiro salvezza alla fine di ciascun suo turno.</p>"
         },
         "WqD5jsrWCeNHoD9O": {
           "name": "Artigli",

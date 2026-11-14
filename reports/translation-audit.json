@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2328,
+      "translated": 2329,
       "missing": 3,
-      "partial": 60,
+      "partial": 59,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14766,
-      "missing": 894,
+      "translated": 14770,
+      "missing": 890,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 899
+    "blockingIssues": 895
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 293,
+          "translated": 294,
           "missing": 0,
-          "partial": 44,
+          "partial": 43,
           "review": 0
         },
         "folders": {
@@ -578,50 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6950,
-          "missing": 156,
+          "translated": 6954,
+          "missing": 152,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "CqQ6pXQA5WXZNOm3",
-          "name": "Harpy",
-          "fieldPath": "items[9efeESJpU7Zmfcyo].system.description.value",
-          "sourcePath": "monsters/monstrosity/harpy.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "CqQ6pXQA5WXZNOm3",
-          "name": "Harpy",
-          "fieldPath": "items[QeobH0xuWk2yWmsb].system.description.value",
-          "sourcePath": "monsters/monstrosity/harpy.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "CqQ6pXQA5WXZNOm3",
-          "name": "Harpy",
-          "fieldPath": "items[QeobH0xuWk2yWmsb].system.description.chat",
-          "sourcePath": "monsters/monstrosity/harpy.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "CqQ6pXQA5WXZNOm3",
-          "name": "Harpy",
-          "fieldPath": "items[QeobH0xuWk2yWmsb].effects[1uHL7hrfX61bYExn].description",
-          "sourcePath": "monsters/monstrosity/harpy.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
