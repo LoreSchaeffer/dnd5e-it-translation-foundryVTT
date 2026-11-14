@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2251,
+      "translated": 2252,
       "missing": 3,
-      "partial": 137,
+      "partial": 136,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14469,
-      "missing": 1191,
+      "translated": 14471,
+      "missing": 1189,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1196
+    "blockingIssues": 1194
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 216,
+          "translated": 217,
           "missing": 0,
-          "partial": 121,
+          "partial": 120,
           "review": 0
         },
         "folders": {
@@ -578,32 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6653,
-          "missing": 453,
+          "translated": 6655,
+          "missing": 451,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "0m8QyDN52qw9zzOM",
-          "name": "Gargoyle",
-          "fieldPath": "items[sXPmgYwYgosoytUu].system.description.value",
-          "sourcePath": "monsters/elemental/gargoyle.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "0m8QyDN52qw9zzOM",
-          "name": "Gargoyle",
-          "fieldPath": "items[yczO5JpGxAk51Gp8].system.description.value",
-          "sourcePath": "monsters/elemental/gargoyle.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
