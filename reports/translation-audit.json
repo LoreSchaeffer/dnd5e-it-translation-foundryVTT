@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2337,
+      "translated": 2338,
       "missing": 3,
-      "partial": 51,
+      "partial": 50,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14800,
-      "missing": 860,
+      "translated": 14804,
+      "missing": 856,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 865
+    "blockingIssues": 861
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 302,
+          "translated": 303,
           "missing": 0,
-          "partial": 35,
+          "partial": 34,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6984,
-          "missing": 122,
+          "translated": 6988,
+          "missing": 118,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -756,42 +756,6 @@
           "name": "Owlbear",
           "fieldPath": "items[R7Vx1RxO8OjXpzQd].system.description.value",
           "sourcePath": "monsters/monstrosity/owlbear.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "p980augbCIdpK9ZX",
-          "name": "Roc",
-          "fieldPath": "items[s5X12Eygxcpzd9eM].system.description.value",
-          "sourcePath": "monsters/monstrosity/roc.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "p980augbCIdpK9ZX",
-          "name": "Roc",
-          "fieldPath": "items[XMiiDwLIMYWFqxyv].system.description.value",
-          "sourcePath": "monsters/monstrosity/roc.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "p980augbCIdpK9ZX",
-          "name": "Roc",
-          "fieldPath": "items[XMiiDwLIMYWFqxyv].system.description.chat",
-          "sourcePath": "monsters/monstrosity/roc.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "p980augbCIdpK9ZX",
-          "name": "Roc",
-          "fieldPath": "items[XMiiDwLIMYWFqxyv].effects[Od8t9xIH6JmByqGr].description",
-          "sourcePath": "monsters/monstrosity/roc.yml"
         },
         {
           "code": "missing-field",

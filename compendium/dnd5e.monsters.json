@@ -13716,7 +13716,8 @@
       "name": "Roc",
       "items": {
         "s5X12Eygxcpzd9eM": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua due attacchi: uno con il suo [[/item .PZWkwOa8C0Y2tSCR]]{becco} e uno con i suoi [[/item .XMiiDwLIMYWFqxyv]]{artigli}.</p>"
         },
         "PZWkwOa8C0Y2tSCR": {
           "name": "Becco",
@@ -13727,9 +13728,12 @@
           "name": "Artigli",
           "effects": {
             "Od8t9xIH6JmByqGr": {
-              "name": "Afferrato dagli Artigli"
+              "name": "Afferrato dagli Artigli",
+              "description": "<p>Sei &amp;reference[grappled apply=false] (CD 19 per liberarti). Mentre sei afferrato in questo modo, sei anche &amp;reference[restrained apply=false].</p>"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il bersaglio è &amp;reference[grappled] (CD 19 per liberarsi). Finché questa lotta non termina, il bersaglio è &amp;reference[restrained] e il [[lookup @name lowercase]]{mostro} non può usare i suoi [[lookup @item.name lowercase]] contro un altro bersaglio.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio è &amp;reference[grappled]. Finché questa lotta non termina, il bersaglio è &amp;reference[restrained] e il [[lookup @name]]{mostro} non può usare i suoi [[lookup @item.name lowercase]] contro un altro bersaglio.</p>"
         },
         "QUuAaelfunY7fGhp": {
           "name": "Vista Acuta",
