@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2314,
+      "translated": 2315,
       "missing": 3,
-      "partial": 74,
+      "partial": 73,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14715,
-      "missing": 945,
+      "translated": 14716,
+      "missing": 944,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 950
+    "blockingIssues": 949
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 279,
+          "translated": 280,
           "missing": 0,
-          "partial": 58,
+          "partial": 57,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6899,
-          "missing": 207,
+          "translated": 6900,
+          "missing": 206,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -594,15 +594,6 @@
           "name": "Lizardfolk",
           "fieldPath": "items[s88qLjZemkFRnB8Y].system.description.value",
           "sourcePath": "monsters/humanoid/lizardfolk.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "O3ABqI55Ir1du1Xa",
-          "name": "Scout",
-          "fieldPath": "items[YO57HtdvpuGxJANB].system.description.value",
-          "sourcePath": "monsters/humanoid/scout.yml"
         },
         {
           "code": "missing-field",
