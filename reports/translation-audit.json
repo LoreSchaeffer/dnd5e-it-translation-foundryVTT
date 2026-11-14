@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2256,
+      "translated": 2257,
       "missing": 3,
-      "partial": 132,
+      "partial": 131,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14490,
-      "missing": 1170,
+      "translated": 14495,
+      "missing": 1165,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1175
+    "blockingIssues": 1170
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 221,
+          "translated": 222,
           "missing": 0,
-          "partial": 116,
+          "partial": 115,
           "review": 0
         },
         "folders": {
@@ -578,59 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6674,
-          "missing": 432,
+          "translated": 6679,
+          "missing": 427,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "UthHOT7QfZfEIUue",
-          "name": "Steam Mephit",
-          "fieldPath": "items[QWi0q0cSzHEp8VqB].system.description.value",
-          "sourcePath": "monsters/elemental/steam-mephit.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "UthHOT7QfZfEIUue",
-          "name": "Steam Mephit",
-          "fieldPath": "items[QWi0q0cSzHEp8VqB].system.description.chat",
-          "sourcePath": "monsters/elemental/steam-mephit.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "UthHOT7QfZfEIUue",
-          "name": "Steam Mephit",
-          "fieldPath": "items[AVlovjg4AFAbd6rY].system.description.value",
-          "sourcePath": "monsters/elemental/steam-mephit.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "UthHOT7QfZfEIUue",
-          "name": "Steam Mephit",
-          "fieldPath": "items[RnLjEUZ0gBxcH2T3].system.description.value",
-          "sourcePath": "monsters/elemental/steam-mephit.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "UthHOT7QfZfEIUue",
-          "name": "Steam Mephit",
-          "fieldPath": "items[RnLjEUZ0gBxcH2T3].system.description.chat",
-          "sourcePath": "monsters/elemental/steam-mephit.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",

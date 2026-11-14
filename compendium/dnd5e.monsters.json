@@ -11148,10 +11148,13 @@
             "g2aCIKzYHFlz8nUz": {
               "name": "Esplodere"
             }
-          }
+          },
+          "description": "<p>Quando il [[lookup @name lowercase]]{mostro} muore, esplode in una nube di vapore. Ogni creatura entro [[lookup @target.template.size activity=g2aCIKzYHFlz8nUz]] dal [[lookup @name lowercase]]{mostro} deve superare un tiro salvezza [[/save activity=g2aCIKzYHFlz8nUz]], altrimenti subisce [[/damage average activity=g2aCIKzYHFlz8nUz]] danni.</p>",
+          "chat": "<p>Quando il [[lookup @name]]{mostro} muore, esplode in una nube di vapore. Ogni creatura entro [[lookup @target.template.size activity=g2aCIKzYHFlz8nUz]] dal [[lookup @name]]{mostro} deve effettuare un tiro salvezza su Destrezza.</p>"
         },
         "AVlovjg4AFAbd6rY": {
-          "name": "Incantesimi Innati"
+          "name": "Incantesimi Innati",
+          "description": "<p>Il mephit può lanciare [[/item .UDUnlfPsOAbq2RSE]]{sfocatura} innatamente, senza richiedere componenti materiali. La sua caratteristica da incantatore innato è Carisma.</p>"
         },
         "RnLjEUZ0gBxcH2T3": {
           "name": "Soffio di Vapore",
@@ -11159,7 +11162,9 @@
             "oytDXenaNlnZuF5f": {
               "name": "Esalare Vapore"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} esala un [[lookup @labels.description.template activity=oytDXenaNlnZuF5f]] di vapore rovente. Ogni creatura in quell'area deve superare un tiro salvezza [[/save activity=oytDXenaNlnZuF5f]], subendo [[/damage average activity=oytDXenaNlnZuF5f]] danni se lo fallisce, oppure la metà di quei danni se lo supera.</p>",
+          "chat": "<p>Il [[lookup @name lowercase]]{mostro} esala un [[lookup @labels.description.template activity=oytDXenaNlnZuF5f]] di vapore rovente. Ogni creatura in quell'area deve superare un tiro salvezza su Destrezza.</p>"
         },
         "UDUnlfPsOAbq2RSE": {
           "name": "Sfocatura",
