@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2236,
+      "translated": 2237,
       "missing": 3,
-      "partial": 152,
+      "partial": 151,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14431,
-      "missing": 1229,
+      "translated": 14432,
+      "missing": 1228,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1234
+    "blockingIssues": 1233
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 201,
+          "translated": 202,
           "missing": 0,
-          "partial": 136,
+          "partial": 135,
           "review": 0
         },
         "folders": {
@@ -578,23 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6615,
-          "missing": 491,
+          "translated": 6616,
+          "missing": 490,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "bcapsJdIhY5WktpT",
-          "name": "Young Black Dragon",
-          "fieldPath": "items[ApR7vtoU4ec7UulE].system.description.value",
-          "sourcePath": "monsters/dragon/young-black-dragon.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
