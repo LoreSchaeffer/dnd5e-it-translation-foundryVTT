@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2350,
+      "translated": 2351,
       "missing": 3,
-      "partial": 38,
+      "partial": 37,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14851,
-      "missing": 809,
+      "translated": 14852,
+      "missing": 808,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 814
+    "blockingIssues": 813
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 315,
+          "translated": 316,
           "missing": 0,
-          "partial": 22,
+          "partial": 21,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 7035,
-          "missing": 71,
+          "translated": 7036,
+          "missing": 70,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -792,15 +792,6 @@
           "name": "Worg",
           "fieldPath": "items[UnONIXYgZcE3Jya0].system.description.chat",
           "sourcePath": "monsters/monstrosity/worg.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "CoRG225xaZf4ewLF",
-          "name": "Guardian of Faith",
-          "fieldPath": "items[phbaoiLevel4Conj].system.description.value",
-          "sourcePath": "monsters/summons/guardian-of-faith.yml"
         },
         {
           "code": "missing-field",
