@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2373,
+      "translated": 2374,
       "missing": 3,
-      "partial": 15,
+      "partial": 14,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14939,
-      "missing": 721,
+      "translated": 14941,
+      "missing": 719,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 726
+    "blockingIssues": 724
   },
   "packs": [
     {
@@ -620,9 +620,9 @@
       "summary": {
         "documents": {
           "total": 20,
-          "translated": 2,
+          "translated": 3,
           "missing": 3,
-          "partial": 15,
+          "partial": 14,
           "review": 1
         },
         "folders": {
@@ -634,8 +634,8 @@
         },
         "fields": {
           "total": 877,
-          "translated": 156,
-          "missing": 721,
+          "translated": 158,
+          "missing": 719,
           "invariantFailures": 0,
           "englishResiduals": 3,
           "imperialResiduals": 0
@@ -668,24 +668,6 @@
           "name": "Appendix B: Gods and the Multiverse",
           "fieldPath": "pages[RZ8IAnSAPtfL2jvL].text.content",
           "sourcePath": "rules/appendix-b-gods-and-the-multiverse.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "H4rlIErtw6z98jYJ",
-          "name": "Appendix C: Creatures",
-          "fieldPath": "pages[JoLjmTDfWLAqNK7F].text.content",
-          "sourcePath": "rules/appendix-c-creatures.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "H4rlIErtw6z98jYJ",
-          "name": "Appendix C: Creatures",
-          "fieldPath": "pages[pxfO7ZR2AJhqaktD].text.content",
-          "sourcePath": "rules/appendix-c-creatures.yml"
         },
         {
           "code": "missing-field",

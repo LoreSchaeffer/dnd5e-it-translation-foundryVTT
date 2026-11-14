@@ -11,13 +11,13 @@
 | monsterfeatures | 252 | 252 | 0 | 0 | 0 | 0 | 0 |
 | monsters | 337 | 337 | 0 | 0 | 0 | 0 | 0 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
-| rules | 20 | 2 | 3 | 15 | 0 | 721 | 678 |
+| rules | 20 | 3 | 3 | 14 | 0 | 719 | 676 |
 | spells | 320 | 320 | 0 | 0 | 0 | 0 | 0 |
 | subclasses | 12 | 12 | 0 | 0 | 0 | 0 | 0 |
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 726
+Total blocking issues: 724
 
 ## Issues
 
@@ -72,8 +72,6 @@ Total blocking issues: 726
 - **missing-field** `rules:udVPA9JW5wy5t3G5:pages[2lysbY50fgv1R3v7].name`
 - **missing-field** `rules:udVPA9JW5wy5t3G5:pages[2lysbY50fgv1R3v7].text.content`
 - **missing-field** `rules:udVPA9JW5wy5t3G5:pages[RZ8IAnSAPtfL2jvL].text.content`
-- **missing-field** `rules:H4rlIErtw6z98jYJ:pages[JoLjmTDfWLAqNK7F].text.content`
-- **missing-field** `rules:H4rlIErtw6z98jYJ:pages[pxfO7ZR2AJhqaktD].text.content`
 - **missing-field** `rules:eVtpEGXjA2tamEIJ:pages[I6ABWHBYwGl55dLY].text.content`
 - **missing-field** `rules:eVtpEGXjA2tamEIJ:pages[0RBamBThjzeAdMSt].text.content`
 - **missing-field** `rules:eVtpEGXjA2tamEIJ:pages[8AIlZ95v54mL531X].text.content`
