@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2207,
+      "translated": 2208,
       "missing": 3,
-      "partial": 181,
+      "partial": 180,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14353,
-      "missing": 1307,
+      "translated": 14357,
+      "missing": 1303,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1312
+    "blockingIssues": 1308
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 172,
+          "translated": 173,
           "missing": 0,
-          "partial": 165,
+          "partial": 164,
           "review": 0
         },
         "folders": {
@@ -578,50 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6537,
-          "missing": 569,
+          "translated": 6541,
+          "missing": 565,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "z3gSIXHHWYaHjfBT",
-          "name": "Stone Golem",
-          "fieldPath": "items[DelAxHnRbNHC6OoV].system.description.chat",
-          "sourcePath": "monsters/construct/stone-golem.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "z3gSIXHHWYaHjfBT",
-          "name": "Stone Golem",
-          "fieldPath": "items[9aTwUWuZQLhMxjcD].system.description.value",
-          "sourcePath": "monsters/construct/stone-golem.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "z3gSIXHHWYaHjfBT",
-          "name": "Stone Golem",
-          "fieldPath": "items[9aTwUWuZQLhMxjcD].system.description.chat",
-          "sourcePath": "monsters/construct/stone-golem.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "z3gSIXHHWYaHjfBT",
-          "name": "Stone Golem",
-          "fieldPath": "items[9aTwUWuZQLhMxjcD].effects[E14ZO6j7HbYWlbEf].description",
-          "sourcePath": "monsters/construct/stone-golem.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
