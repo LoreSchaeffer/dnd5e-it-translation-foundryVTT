@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2308,
+      "translated": 2309,
       "missing": 3,
-      "partial": 80,
+      "partial": 79,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14697,
-      "missing": 963,
+      "translated": 14698,
+      "missing": 962,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 968
+    "blockingIssues": 967
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 273,
+          "translated": 274,
           "missing": 0,
-          "partial": 64,
+          "partial": 63,
           "review": 0
         },
         "folders": {
@@ -578,23 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6881,
-          "missing": 225,
+          "translated": 6882,
+          "missing": 224,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "5TmstVMURpVtmNR3",
-          "name": "Half-Red Dragon Veteran",
-          "fieldPath": "items[MTqXmkJOXkp4bFMQ].system.description.value",
-          "sourcePath": "monsters/humanoid/half-red-dragon-veteran.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
