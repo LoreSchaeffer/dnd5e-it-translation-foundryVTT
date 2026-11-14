@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2341,
+      "translated": 2342,
       "missing": 3,
-      "partial": 47,
+      "partial": 46,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14816,
-      "missing": 844,
+      "translated": 14823,
+      "missing": 837,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 849
+    "blockingIssues": 842
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 306,
+          "translated": 307,
           "missing": 0,
-          "partial": 31,
+          "partial": 30,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 7000,
-          "missing": 106,
+          "translated": 7007,
+          "missing": 99,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -792,69 +792,6 @@
           "name": "Worg",
           "fieldPath": "items[UnONIXYgZcE3Jya0].system.description.chat",
           "sourcePath": "monsters/monstrosity/worg.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "3fzQVYQhXxCXRa2o",
-          "name": "Gelatinous Cube",
-          "fieldPath": "items[m8prrQUwqGwX6Jyk].system.description.value",
-          "sourcePath": "monsters/ooze/gelatinous-cube.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "3fzQVYQhXxCXRa2o",
-          "name": "Gelatinous Cube",
-          "fieldPath": "items[m8prrQUwqGwX6Jyk].system.description.chat",
-          "sourcePath": "monsters/ooze/gelatinous-cube.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "3fzQVYQhXxCXRa2o",
-          "name": "Gelatinous Cube",
-          "fieldPath": "items[ISZmp6ev081hhUxT].system.description.value",
-          "sourcePath": "monsters/ooze/gelatinous-cube.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "3fzQVYQhXxCXRa2o",
-          "name": "Gelatinous Cube",
-          "fieldPath": "items[ISZmp6ev081hhUxT].system.description.chat",
-          "sourcePath": "monsters/ooze/gelatinous-cube.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "3fzQVYQhXxCXRa2o",
-          "name": "Gelatinous Cube",
-          "fieldPath": "items[6PuULfBzy5vpBSFI].system.description.value",
-          "sourcePath": "monsters/ooze/gelatinous-cube.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "3fzQVYQhXxCXRa2o",
-          "name": "Gelatinous Cube",
-          "fieldPath": "items[6PuULfBzy5vpBSFI].system.description.chat",
-          "sourcePath": "monsters/ooze/gelatinous-cube.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "3fzQVYQhXxCXRa2o",
-          "name": "Gelatinous Cube",
-          "fieldPath": "items[6PuULfBzy5vpBSFI].effects[OFLnjIEHg08Bl6X8].description",
-          "sourcePath": "monsters/ooze/gelatinous-cube.yml"
         },
         {
           "code": "missing-field",
