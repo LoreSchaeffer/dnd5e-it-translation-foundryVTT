@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2258,
+      "translated": 2259,
       "missing": 3,
-      "partial": 130,
+      "partial": 129,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14501,
-      "missing": 1159,
+      "translated": 14504,
+      "missing": 1156,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1164
+    "blockingIssues": 1161
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 223,
+          "translated": 224,
           "missing": 0,
-          "partial": 114,
+          "partial": 113,
           "review": 0
         },
         "folders": {
@@ -578,41 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6685,
-          "missing": 421,
+          "translated": 6688,
+          "missing": 418,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "2MZNHeOZweXAYbv1",
-          "name": "Xorn",
-          "fieldPath": "items[a5CLV8aL4SowIich].system.description.value",
-          "sourcePath": "monsters/elemental/xorn.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "2MZNHeOZweXAYbv1",
-          "name": "Xorn",
-          "fieldPath": "items[kRGZU8eMwOBt3kVd].system.description.value",
-          "sourcePath": "monsters/elemental/xorn.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "2MZNHeOZweXAYbv1",
-          "name": "Xorn",
-          "fieldPath": "items[x6Hd2pSXy7TDwgjR].system.description.value",
-          "sourcePath": "monsters/elemental/xorn.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
