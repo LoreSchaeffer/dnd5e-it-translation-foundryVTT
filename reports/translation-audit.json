@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2384,
+      "translated": 2385,
       "missing": 3,
-      "partial": 4,
+      "partial": 3,
       "review": 0
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14980,
-      "missing": 680,
+      "translated": 14985,
+      "missing": 675,
       "invariantFailures": 0,
       "englishResiduals": 0,
       "imperialResiduals": 0
     },
-    "blockingIssues": 682
+    "blockingIssues": 677
   },
   "packs": [
     {
@@ -620,9 +620,9 @@
       "summary": {
         "documents": {
           "total": 20,
-          "translated": 13,
+          "translated": 14,
           "missing": 3,
-          "partial": 4,
+          "partial": 3,
           "review": 0
         },
         "folders": {
@@ -634,8 +634,8 @@
         },
         "fields": {
           "total": 877,
-          "translated": 197,
-          "missing": 680,
+          "translated": 202,
+          "missing": 675,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -6194,51 +6194,6 @@
           "name": "Chapter 5: Equipment",
           "fieldPath": "pages[ixeXj7Eqq5zPDUYo].text.content",
           "sourcePath": "rules/chapter-5-equipment.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "aYmUMcQfSIqYWpKk",
-          "name": "Chapter 8: Adventuring",
-          "fieldPath": "pages[nqt4mR004wWbljhw].text.content",
-          "sourcePath": "rules/chapter-8-adventuring.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "aYmUMcQfSIqYWpKk",
-          "name": "Chapter 8: Adventuring",
-          "fieldPath": "pages[vR9rCM0UXPM9zl43].text.content",
-          "sourcePath": "rules/chapter-8-adventuring.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "aYmUMcQfSIqYWpKk",
-          "name": "Chapter 8: Adventuring",
-          "fieldPath": "pages[9jyye7TeGlY4FRf3].text.content",
-          "sourcePath": "rules/chapter-8-adventuring.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "aYmUMcQfSIqYWpKk",
-          "name": "Chapter 8: Adventuring",
-          "fieldPath": "pages[n0gCL50RM2QjHw6F].text.content",
-          "sourcePath": "rules/chapter-8-adventuring.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "aYmUMcQfSIqYWpKk",
-          "name": "Chapter 8: Adventuring",
-          "fieldPath": "pages[WTgThIDXBP3BhTJK].text.content",
-          "sourcePath": "rules/chapter-8-adventuring.yml"
         },
         {
           "code": "missing-field",
