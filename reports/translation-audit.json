@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2300,
+      "translated": 2301,
       "missing": 3,
-      "partial": 88,
+      "partial": 87,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14667,
-      "missing": 993,
+      "translated": 14668,
+      "missing": 992,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 998
+    "blockingIssues": 997
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 265,
+          "translated": 266,
           "missing": 0,
-          "partial": 72,
+          "partial": 71,
           "review": 0
         },
         "folders": {
@@ -578,23 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6851,
-          "missing": 255,
+          "translated": 6852,
+          "missing": 254,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "qkLNA1lKMMJpxuWg",
-          "name": "Cultist",
-          "fieldPath": "items[FQU02Jwlmdhzp34R].system.description.value",
-          "sourcePath": "monsters/humanoid/cultist.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
