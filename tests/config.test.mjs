@@ -41,6 +41,17 @@ async function createSourceFixture(t, { version = "6.0.6", initializeGit = false
   return { root, head };
 }
 
+async function createModuleFixture(t) {
+  const root = await mkdtemp(path.join(tmpdir(), "dnd5e-module-"));
+  t.after(() => rm(root, { recursive: true, force: true }));
+  const compendiumRoot = path.join(root, "compendium");
+  await mkdir(compendiumRoot, { recursive: true });
+  for (const pack of EXCLUDED_PACKS) {
+    await writeFile(path.join(compendiumRoot, `dnd5e.${pack}.json`), `${JSON.stringify({ pack })}\n`);
+  }
+  return { root };
+}
+
 test("scope excludes modern packs while retaining every legacy pack and shared effects", () => {
   assert.deepEqual(LEGACY_PACKS, [
     "backgrounds",
@@ -95,7 +106,8 @@ test("resolvePaths rejects a dnd5e source with the wrong version", async t => {
 
 test("createBaseline records fixture Git state and exact hashes for every protected translation", async t => {
   const source = await createSourceFixture(t, { initializeGit: true });
-  const baseline = await createBaseline({ moduleRoot: MODULE_ROOT, sourceRoot: source.root });
+  const module = await createModuleFixture(t);
+  const baseline = await createBaseline({ moduleRoot: module.root, sourceRoot: source.root });
 
   assert.equal(baseline.schemaVersion, 1);
   assert.equal(baseline.source.branch, "6.1.x");
@@ -107,6 +119,6 @@ test("createBaseline records fixture Git state and exact hashes for every protec
   assert.equal(Object.keys(baseline.protectedTranslations).length, EXCLUDED_PACKS.length);
   assert.equal(
     baseline.protectedTranslations["compendium/dnd5e.actors24.json"],
-    "13875102c77fa71481908c7039cc4c7dbc9c329b2d030e7b94228ab7ec48c6ae"
+    "3c9e901cb22d5f56cec955b163a07797cccd4d6d939e8892b23de824adba4ce2"
   );
 });
