@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2358,
+      "translated": 2359,
       "missing": 3,
-      "partial": 30,
+      "partial": 29,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14872,
-      "missing": 788,
+      "translated": 14873,
+      "missing": 787,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 793
+    "blockingIssues": 792
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 323,
+          "translated": 324,
           "missing": 0,
-          "partial": 14,
+          "partial": 13,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 7056,
-          "missing": 50,
+          "translated": 7057,
+          "missing": 49,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -648,15 +648,6 @@
           "name": "Winter Wolf",
           "fieldPath": "items[Rj3oSInoQMIfHrPc].system.description.chat",
           "sourcePath": "monsters/monstrosity/winter-wolf.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "VBkp2rGQKvMcCOus",
-          "name": "Worg",
-          "fieldPath": "items[UnONIXYgZcE3Jya0].system.description.chat",
-          "sourcePath": "monsters/monstrosity/worg.yml"
         },
         {
           "code": "missing-field",
