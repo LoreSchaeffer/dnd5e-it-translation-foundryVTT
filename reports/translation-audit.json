@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2241,
+      "translated": 2242,
       "missing": 3,
-      "partial": 147,
+      "partial": 146,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14440,
-      "missing": 1220,
+      "translated": 14442,
+      "missing": 1218,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1225
+    "blockingIssues": 1223
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 206,
+          "translated": 207,
           "missing": 0,
-          "partial": 131,
+          "partial": 130,
           "review": 0
         },
         "folders": {
@@ -578,32 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6624,
-          "missing": 482,
+          "translated": 6626,
+          "missing": 480,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "QSytPah5WKoFJ1zt",
-          "name": "Young Gold Dragon",
-          "fieldPath": "items[VmQbXjALjJwKhT91].system.description.value",
-          "sourcePath": "monsters/dragon/young-gold-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "QSytPah5WKoFJ1zt",
-          "name": "Young Gold Dragon",
-          "fieldPath": "items[VnIBkSFvqaQrq10M].system.description.value",
-          "sourcePath": "monsters/dragon/young-gold-dragon.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
