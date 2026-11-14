@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2356,
+      "translated": 2357,
       "missing": 3,
-      "partial": 32,
+      "partial": 31,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14857,
-      "missing": 803,
+      "translated": 14864,
+      "missing": 796,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 808
+    "blockingIssues": 801
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 321,
+          "translated": 322,
           "missing": 0,
-          "partial": 16,
+          "partial": 15,
           "review": 0
         },
         "folders": {
@@ -578,77 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 7041,
-          "missing": 65,
+          "translated": 7048,
+          "missing": 58,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "MnoL59nOOfYatAkQ",
-          "name": "Lamia",
-          "fieldPath": "items[mSRxk4sD2tHfYAUo].system.description.value",
-          "sourcePath": "monsters/monstrosity/lamia.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "MnoL59nOOfYatAkQ",
-          "name": "Lamia",
-          "fieldPath": "items[LjPDX0VIEJRv0boG].system.description.value",
-          "sourcePath": "monsters/monstrosity/lamia.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "MnoL59nOOfYatAkQ",
-          "name": "Lamia",
-          "fieldPath": "items[cd8MN5gJkmUn1RTE].system.description.value",
-          "sourcePath": "monsters/monstrosity/lamia.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "MnoL59nOOfYatAkQ",
-          "name": "Lamia",
-          "fieldPath": "items[cd8MN5gJkmUn1RTE].system.description.chat",
-          "sourcePath": "monsters/monstrosity/lamia.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "MnoL59nOOfYatAkQ",
-          "name": "Lamia",
-          "fieldPath": "items[cd8MN5gJkmUn1RTE].effects[cVjGDRB3KuQQb9Tw].description",
-          "sourcePath": "monsters/monstrosity/lamia.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "MnoL59nOOfYatAkQ",
-          "name": "Lamia",
-          "fieldPath": "items[X4c8xCkmF8U9HUMz].system.description.value",
-          "sourcePath": "monsters/monstrosity/lamia.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "MnoL59nOOfYatAkQ",
-          "name": "Lamia",
-          "fieldPath": "items[fVbCxFRaORalHB20].system.description.value",
-          "sourcePath": "monsters/monstrosity/lamia.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",

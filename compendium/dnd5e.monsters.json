@@ -9903,10 +9903,12 @@
           "description": "<p>L'incantatore assume un aspetto diverso (che include i suoi abiti, armatura, armi e altri oggetti personali presenti sulla sua persona) per la durata dell'incantesimo o finché egli non usa la sua azione per terminarlo. Può apparire 30 cm più alto o più basso e apparire magro, grasso o di corporatura normale. Non può cambiare il suo tipo di corpo, quindi deve adottare una forma che usi la stessa disposizione basilare degli arti. Entro questi limiti, la natura dell'illusione dipende da lui.</p><p>I cambiamenti apportati da questo incantesimo non passano il vaglio di un'ispezione fisica. Per esempio, se l'incantatore usa questo incantesimo per aggiungere un cappello in testa, gli oggetti passerebbero attraverso il cappello e chiunque tocchi l'incantatore non sentirebbe nulla o toccherebbe la testa e i capelli dell'incantatore. Se l'incantatore usa questo incantesimo per apparire più magro rispetto alla realtà, quando qualcuno protende la mano per toccarlo, urta l'incantatore quando la sua mano è apparentemente ancora a mezz'aria.</p><p>Per capire che l'incantatore è camuffato, una creatura può usare la sua azione per ispezionare il suo aspetto e deve superare una prova di Intelligenza (Indagare) contro la CD del tiro salvezza dell'incantesimo.</p>"
         },
         "mSRxk4sD2tHfYAUo": {
-          "name": "Incantesimi Innati"
+          "name": "Incantesimi Innati",
+          "description": "<p>La caratteristica da incantatore innato della lamia è Carisma (CD del tiro salvezza degli incantesimi 13). Può lanciare innatamente i seguenti incantesimi, senza componenti materiali:</p><p>A volontà: [[/item .72qxug7ywesnINin]]{Camuffare Se Stesso} (qualsiasi forma umanoide), [[/item .nslx2nT3p4lNkmdp]]{Immagine Maggiore}</p><p>3/giorno ciascuno: [[/item .eS7XnnApoxRxYXPs]]{Charme su Persone}, [[/item .X4c8xCkmF8U9HUMz]]{Immagine Speculare}, [[/item .fVbCxFRaORalHB20]]{Scrutare}, [[/item .zMAWdyc8UVb37BK4]]{Suggestione}</p><p>1/giorno: [[/item .JQyigMNPiDnGI18b]]{Costrizione}</p>"
         },
         "LjPDX0VIEJRv0boG": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua due attacchi: uno con i suoi [[/item .lqr5NeudKmKQfSpZ]]{artigli} e uno con il suo [[/item .jMTZfqYRB58CwXyw]]{pugnale} oppure con [[/item .cd8MN5gJkmUn1RTE]]{Tocco inebriante}.</p>"
         },
         "jMTZfqYRB58CwXyw": {
           "name": "Pugnale",
@@ -9923,11 +9925,13 @@
           "description": "<p>L'incantatore tenta di affascinare un umanoide che può vedere entro gittata. Il bersaglio deve effettuare un tiro salvezza su Saggezza e dispone di vantaggio se l'incantatore o i suoi compagni lo stanno combattendo. Se fallisce il tiro salvezza, è &amp;Reference[charmed] dall'incantatore finché l'incantesimo non termina o finché l'incantatore o i suoi compagni non gli fanno del male. La creatura affascinata considera l'incantatore una conoscenza amichevole. Quando l'incantesimo termina, la creatura sa di essere stata affascinata dall'incantatore.</p><p><strong>Ai Livelli Superiori.</strong> Quando l'incantatore lancia questo incantesimo usando uno slot incantesimo di 2° livello o superiore, può bersagliare una creatura aggiuntiva per ogni livello dello slot superiore al 1°. Le creature devono trovarsi entro 9 metri l'una dall'altra quando vengono bersagliate.</p>"
         },
         "X4c8xCkmF8U9HUMz": {
-          "name": "Immagine Speculare"
+          "name": "Immagine Speculare",
+          "description": "<p>Tre duplicati illusori di te stesso appaiono nel tuo spazio. Finché l'incantesimo non termina, i duplicati si muovono con te e imitano le tue azioni, cambiando posizione così da rendere impossibile capire quale immagine sia reale. Puoi usare la tua azione per congedare i duplicati illusori.</p>\n<p>Ogni volta che una creatura ti prende di mira con un attacco durante la durata dell'incantesimo, tira un [[/r 1d20 # Mirror Image Check]] per determinare se l'attacco prende invece di mira uno dei tuoi duplicati.</p>\n<p>Se hai tre duplicati, devi ottenere 6 o più perché l'attacco venga diretto contro un duplicato. Con due duplicati, devi ottenere 8 o più. Con un duplicato, devi ottenere 11 o più.</p>\n<p>La CA di un duplicato è pari a 10 + il tuo modificatore di Destrezza. Se un attacco colpisce un duplicato, questo viene distrutto. Un duplicato può essere distrutto solo da un attacco che lo colpisce. Ignora tutti gli altri danni ed effetti. L'incantesimo termina quando tutti e tre i duplicati sono distrutti.</p>\n<p>Una creatura non è influenzata da questo incantesimo se non può vedere, se si affida a sensi diversi dalla vista, come la vista cieca, o se può percepire le illusioni come false, come con la vista pura.</p>"
         },
         "fVbCxFRaORalHB20": {
           "name": "Scrutare",
-          "materials": "un focus del valore di almeno 1.000 mo, come una sfera di cristallo, uno specchio d'argento o un bacile pieno di acqua santa"
+          "materials": "un focus del valore di almeno 1.000 mo, come una sfera di cristallo, uno specchio d'argento o un bacile pieno di acqua santa",
+          "description": "<p>Puoi vedere e udire una creatura specifica a tua scelta che si trova sul tuo stesso piano di esistenza. Il bersaglio deve effettuare un tiro salvezza di Saggezza, modificato in base a quanto conosci il bersaglio e al tipo di legame fisico che hai con esso. Se il bersaglio sa che stai lanciando questo incantesimo, può fallire volontariamente il tiro salvezza se desidera essere osservato.</p>\n<table border=\"1\">\n<tbody>\n<tr>\n<td><strong>Conoscenza</strong></td>\n<td><strong>Modificatore al tiro salvezza</strong></td>\n</tr>\n<tr>\n<td>Indiretta (hai sentito parlare del bersaglio)</td>\n<td>+5</td>\n</tr>\n<tr>\n<td>Diretta (hai incontrato il bersaglio)</td>\n<td>+0</td>\n</tr>\n<tr>\n<td>Familiare (conosci bene il bersaglio)</td>\n<td>-5</td>\n</tr>\n</tbody>\n</table>\n\n<table border=\"1\">\n<tbody>\n<tr>\n<td><strong>Legame</strong></td>\n<td><strong>Modificatore al tiro salvezza</strong></td>\n</tr>\n<tr>\n<td>Somiglianza o immagine</td>\n<td>-2</td>\n</tr>\n<tr>\n<td>Oggetto posseduto o indumento</td>\n<td>-4</td>\n</tr>\n<tr>\n<td>Parte del corpo, ciocca di capelli, frammento di unghia o simili</td>\n<td>-10</td>\n</tr>\n</tbody>\n</table>\n<p>Se il tiro salvezza riesce, il bersaglio non è influenzato e non puoi lanciare di nuovo questo incantesimo contro di esso per 24 ore.</p><p>Se il tiro salvezza fallisce, l'incantesimo crea un sensore invisibile entro 3 metri dal bersaglio. Puoi vedere e udire attraverso il sensore come se fossi lì. Il sensore si muove con il bersaglio, rimanendo entro 3 metri da esso per la durata dell'incantesimo. Una creatura che può vedere gli oggetti invisibili vede il sensore come un globo luminoso grande all'incirca quanto il suo pugno.</p><p>Invece di prendere di mira una creatura, puoi scegliere come bersaglio un luogo che hai già visto. In tal caso, il sensore appare in quel luogo e non si muove.</p>"
         },
         "zMAWdyc8UVb37BK4": {
           "name": "Suggestione",
@@ -9942,9 +9946,12 @@
           "name": "Tocco Inebriante",
           "effects": {
             "cVjGDRB3KuQQb9Tw": {
-              "name": "Tocco Inebriante"
+              "name": "Tocco Inebriante",
+              "description": "<p>Sei maledetto. Finché sei maledetto, hai svantaggio ai tiri salvezza di Saggezza e a tutte le prove di caratteristica.</p>"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. <em>Colpito:</em> il bersaglio è maledetto magicamente per 1 ora. Finché la maledizione non termina, il bersaglio ha svantaggio ai tiri salvezza di Saggezza e a tutte le prove di caratteristica.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il suo [[lookup @item.name]]. Il bersaglio ha svantaggio ai tiri salvezza di Saggezza e a tutte le prove di caratteristica.</p>"
         },
         "lqr5NeudKmKQfSpZ": {
           "name": "Artigli",
