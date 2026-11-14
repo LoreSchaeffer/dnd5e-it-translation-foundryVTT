@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2367,
+      "translated": 2368,
       "missing": 3,
-      "partial": 21,
+      "partial": 20,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14905,
-      "missing": 755,
+      "translated": 14906,
+      "missing": 754,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 760
+    "blockingIssues": 759
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 332,
+          "translated": 333,
           "missing": 0,
-          "partial": 5,
+          "partial": 4,
           "review": 0
         },
         "folders": {
@@ -578,23 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 7089,
-          "missing": 17,
+          "translated": 7090,
+          "missing": 16,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "RenLfmDT2XlbCF4x",
-          "name": "Ogre Zombie",
-          "fieldPath": "items[Gj35Y1i6Ph90Wn3R].system.description.chat",
-          "sourcePath": "monsters/undead/ogre-zombie.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
