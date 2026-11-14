@@ -11822,7 +11822,8 @@
       "name": "Nalfeshnee",
       "items": {
         "swlYyGYwkdNzuRkG": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} usa [[/item .RFPDYIhkmBW2B47S]]{Nembo di Orrore}, se può. Poi effettua tre attacchi: uno con il suo [[/item .524dkWbpWUJKFaj2]]{morso} e due con i suoi [[/item .xhKo80CbyA57Kl1l]]{artigli}.</p>"
         },
         "524dkWbpWUJKFaj2": {
           "name": "Morso",
@@ -11854,7 +11855,9 @@
             "dnd5eactivity000": {
               "name": "Spaventare"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} emette magicamente una luce scintillante e multicolore. Ogni creatura entro 4,5 metri dal [[lookup @name lowercase]]{mostro} che può vedere la luce deve superare un tiro salvezza [[/save]] oppure essere &amp;Reference[frightened] per 1 minuto.</p><p>Una creatura può ripetere il tiro salvezza alla fine di ciascuno dei propri turni, ponendo termine all'effetto su se stessa in caso di successo. Se il tiro salvezza di una creatura ha successo o se l'effetto termina per essa, la creatura è immune per le 24 ore successive al [[lookup @name lowercase]]{mostro} quando questi usa [[lookup @item.name]].</p>",
+          "chat": "<p>Una creatura può ripetere il tiro salvezza alla fine di ciascuno dei propri turni, ponendo termine all'effetto su se stessa in caso di successo. Se il tiro salvezza di una creatura ha successo o se l'effetto termina per essa, la creatura è immune al Nembo di Orrore del nalfeshnee per le 24 ore successive.</p>"
         },
         "xhKo80CbyA57Kl1l": {
           "name": "Artiglio",
