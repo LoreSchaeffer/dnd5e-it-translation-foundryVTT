@@ -11,13 +11,13 @@
 | monsterfeatures | 252 | 252 | 0 | 0 | 0 | 0 | 0 |
 | monsters | 337 | 337 | 0 | 0 | 0 | 0 | 0 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
-| rules | 20 | 1 | 3 | 16 | 0 | 738 | 695 |
+| rules | 20 | 2 | 3 | 15 | 0 | 721 | 678 |
 | spells | 320 | 320 | 0 | 0 | 0 | 0 | 0 |
 | subclasses | 12 | 12 | 0 | 0 | 0 | 0 | 0 |
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 743
+Total blocking issues: 726
 
 ## Issues
 
@@ -69,23 +69,6 @@ Total blocking issues: 743
 - **extra-entry** `items:Ferri dello Zefiro`
 - **extra-entry** `items:Unarmed Strike (Monk)`
 - **extra-entry** `items:Enterteiner's Pack`
-- **missing-field** `rules:w7eitkpD7QQTB6j0:pages[ZOCWbO9IYvBf9WyR].name`
-- **missing-field** `rules:w7eitkpD7QQTB6j0:pages[ZOCWbO9IYvBf9WyR].text.content`
-- **missing-field** `rules:w7eitkpD7QQTB6j0:pages[0b8N4FymGGfbZGpJ].text.content`
-- **missing-field** `rules:w7eitkpD7QQTB6j0:pages[zZaEBrKkr66OWJvD].text.content`
-- **missing-field** `rules:w7eitkpD7QQTB6j0:pages[6G8JSjhn701cBITY].text.content`
-- **missing-field** `rules:w7eitkpD7QQTB6j0:pages[oreoyaFKnvZCrgij].text.content`
-- **missing-field** `rules:w7eitkpD7QQTB6j0:pages[gYDAhd02ryUmtwZn].text.content`
-- **missing-field** `rules:w7eitkpD7QQTB6j0:pages[TpkZgLfxCmSndmpb].text.content`
-- **missing-field** `rules:w7eitkpD7QQTB6j0:pages[3UU5GCTVeRDbZy9u].text.content`
-- **missing-field** `rules:w7eitkpD7QQTB6j0:pages[xnSV5hLJIMaTABXP].text.content`
-- **missing-field** `rules:w7eitkpD7QQTB6j0:pages[xaNDaW6NwQTgHSmi].text.content`
-- **missing-field** `rules:w7eitkpD7QQTB6j0:pages[lq3TRI6ZlED8ABMx].text.content`
-- **missing-field** `rules:w7eitkpD7QQTB6j0:pages[y0TkcdyoZlOTmAFT].text.content`
-- **missing-field** `rules:w7eitkpD7QQTB6j0:pages[cSVcyZyNe2iG1fIc].text.content`
-- **missing-field** `rules:w7eitkpD7QQTB6j0:pages[ZyZMUwA2rboh4ObS].text.content`
-- **missing-field** `rules:w7eitkpD7QQTB6j0:pages[UWw13ISmMxDzmwbd].text.content`
-- **missing-field** `rules:w7eitkpD7QQTB6j0:pages[cspWveykstnu3Zcv].text.content`
 - **missing-field** `rules:udVPA9JW5wy5t3G5:pages[2lysbY50fgv1R3v7].name`
 - **missing-field** `rules:udVPA9JW5wy5t3G5:pages[2lysbY50fgv1R3v7].text.content`
 - **missing-field** `rules:udVPA9JW5wy5t3G5:pages[RZ8IAnSAPtfL2jvL].text.content`

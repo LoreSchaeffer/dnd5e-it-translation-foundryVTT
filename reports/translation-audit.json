@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2372,
+      "translated": 2373,
       "missing": 3,
-      "partial": 16,
+      "partial": 15,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14922,
-      "missing": 738,
+      "translated": 14939,
+      "missing": 721,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 743
+    "blockingIssues": 726
   },
   "packs": [
     {
@@ -620,9 +620,9 @@
       "summary": {
         "documents": {
           "total": 20,
-          "translated": 1,
+          "translated": 2,
           "missing": 3,
-          "partial": 16,
+          "partial": 15,
           "review": 1
         },
         "folders": {
@@ -634,167 +634,14 @@
         },
         "fields": {
           "total": 877,
-          "translated": 139,
-          "missing": 738,
+          "translated": 156,
+          "missing": 721,
           "invariantFailures": 0,
           "englishResiduals": 3,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "w7eitkpD7QQTB6j0",
-          "name": "Appendix A: Conditions",
-          "fieldPath": "pages[ZOCWbO9IYvBf9WyR].name",
-          "sourcePath": "rules/appendix-a-conditions.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "w7eitkpD7QQTB6j0",
-          "name": "Appendix A: Conditions",
-          "fieldPath": "pages[ZOCWbO9IYvBf9WyR].text.content",
-          "sourcePath": "rules/appendix-a-conditions.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "w7eitkpD7QQTB6j0",
-          "name": "Appendix A: Conditions",
-          "fieldPath": "pages[0b8N4FymGGfbZGpJ].text.content",
-          "sourcePath": "rules/appendix-a-conditions.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "w7eitkpD7QQTB6j0",
-          "name": "Appendix A: Conditions",
-          "fieldPath": "pages[zZaEBrKkr66OWJvD].text.content",
-          "sourcePath": "rules/appendix-a-conditions.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "w7eitkpD7QQTB6j0",
-          "name": "Appendix A: Conditions",
-          "fieldPath": "pages[6G8JSjhn701cBITY].text.content",
-          "sourcePath": "rules/appendix-a-conditions.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "w7eitkpD7QQTB6j0",
-          "name": "Appendix A: Conditions",
-          "fieldPath": "pages[oreoyaFKnvZCrgij].text.content",
-          "sourcePath": "rules/appendix-a-conditions.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "w7eitkpD7QQTB6j0",
-          "name": "Appendix A: Conditions",
-          "fieldPath": "pages[gYDAhd02ryUmtwZn].text.content",
-          "sourcePath": "rules/appendix-a-conditions.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "w7eitkpD7QQTB6j0",
-          "name": "Appendix A: Conditions",
-          "fieldPath": "pages[TpkZgLfxCmSndmpb].text.content",
-          "sourcePath": "rules/appendix-a-conditions.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "w7eitkpD7QQTB6j0",
-          "name": "Appendix A: Conditions",
-          "fieldPath": "pages[3UU5GCTVeRDbZy9u].text.content",
-          "sourcePath": "rules/appendix-a-conditions.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "w7eitkpD7QQTB6j0",
-          "name": "Appendix A: Conditions",
-          "fieldPath": "pages[xnSV5hLJIMaTABXP].text.content",
-          "sourcePath": "rules/appendix-a-conditions.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "w7eitkpD7QQTB6j0",
-          "name": "Appendix A: Conditions",
-          "fieldPath": "pages[xaNDaW6NwQTgHSmi].text.content",
-          "sourcePath": "rules/appendix-a-conditions.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "w7eitkpD7QQTB6j0",
-          "name": "Appendix A: Conditions",
-          "fieldPath": "pages[lq3TRI6ZlED8ABMx].text.content",
-          "sourcePath": "rules/appendix-a-conditions.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "w7eitkpD7QQTB6j0",
-          "name": "Appendix A: Conditions",
-          "fieldPath": "pages[y0TkcdyoZlOTmAFT].text.content",
-          "sourcePath": "rules/appendix-a-conditions.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "w7eitkpD7QQTB6j0",
-          "name": "Appendix A: Conditions",
-          "fieldPath": "pages[cSVcyZyNe2iG1fIc].text.content",
-          "sourcePath": "rules/appendix-a-conditions.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "w7eitkpD7QQTB6j0",
-          "name": "Appendix A: Conditions",
-          "fieldPath": "pages[ZyZMUwA2rboh4ObS].text.content",
-          "sourcePath": "rules/appendix-a-conditions.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "w7eitkpD7QQTB6j0",
-          "name": "Appendix A: Conditions",
-          "fieldPath": "pages[UWw13ISmMxDzmwbd].text.content",
-          "sourcePath": "rules/appendix-a-conditions.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "w7eitkpD7QQTB6j0",
-          "name": "Appendix A: Conditions",
-          "fieldPath": "pages[cspWveykstnu3Zcv].text.content",
-          "sourcePath": "rules/appendix-a-conditions.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
