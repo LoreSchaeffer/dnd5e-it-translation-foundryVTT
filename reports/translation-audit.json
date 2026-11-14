@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2348,
+      "translated": 2349,
       "missing": 3,
-      "partial": 40,
+      "partial": 39,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14844,
-      "missing": 816,
+      "translated": 14847,
+      "missing": 813,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 821
+    "blockingIssues": 818
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 313,
+          "translated": 314,
           "missing": 0,
-          "partial": 24,
+          "partial": 23,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 7028,
-          "missing": 78,
+          "translated": 7031,
+          "missing": 75,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -792,33 +792,6 @@
           "name": "Worg",
           "fieldPath": "items[UnONIXYgZcE3Jya0].system.description.chat",
           "sourcePath": "monsters/monstrosity/worg.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "NB6wUgVqeOQtsQKu",
-          "name": "Treant",
-          "fieldPath": "items[8uUyRr6Ho7Yvx8pP].system.description.value",
-          "sourcePath": "monsters/plant/treant.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "NB6wUgVqeOQtsQKu",
-          "name": "Treant",
-          "fieldPath": "items[8uUyRr6Ho7Yvx8pP].system.description.chat",
-          "sourcePath": "monsters/plant/treant.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "NB6wUgVqeOQtsQKu",
-          "name": "Treant",
-          "fieldPath": "items[8uUyRr6Ho7Yvx8pP].effects[8fL6lSFsN9qyGlUo].description",
-          "sourcePath": "monsters/plant/treant.yml"
         },
         {
           "code": "missing-field",

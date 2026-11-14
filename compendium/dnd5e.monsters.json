@@ -16156,9 +16156,12 @@
           },
           "effects": {
             "8fL6lSFsN9qyGlUo": {
-              "name": "Albero Animato"
+              "name": "Albero Animato",
+              "description": "<p>Hai le stesse statistiche di un treant, tranne per i punteggi di Intelligenza e Carisma, che sono pari a 1; non puoi parlare e hai solo l'opzione d'azione Schianto.</p><p>Agisci come alleato del treant. Rimani animato per 1 giorno o finché non muori; finché il treant non muore o si allontana più di 36 metri da te; oppure finché il treant non usa un'azione bonus per ritrasformarti in un albero inanimato. Metti quindi radici, se possibile.</p>"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} anima magicamente uno o due alberi che può vedere entro [[lookup @labels.description.range activity=1SrLlYGeLgzdmSwc]] da sé. Questi alberi hanno le stesse statistiche di un [[lookup @name lowercase]]{mostro}, tranne per i punteggi di Intelligenza e Carisma, che sono pari a 1; non possono parlare e hanno solo l'opzione d'azione @UUID[Compendium.dnd5e.monsters.Actor.NB6wUgVqeOQtsQKu.Item.lisZZTaupqInGEi1]{Schianto}.</p><p>Un albero animato agisce come alleato del [[lookup @name lowercase]]{mostro}. Rimane animato per [[lookup @labels.duration activity=1SrLlYGeLgzdmSwc]] o finché non muore; finché il [[lookup @name lowercase]]{mostro} non muore o si allontana più di 36 metri dall'albero; oppure finché il [[lookup @name lowercase]]{mostro} non usa un'azione bonus per ritrasformarlo in un albero inanimato. L'albero mette quindi radici, se possibile.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} anima magicamente uno o due alberi che può vedere entro [[lookup @labels.description.range activity=1SrLlYGeLgzdmSwc]] da sé.</p>"
         },
         "skQsBSPby8pLZSLI": {
           "name": "Falso Aspetto",
