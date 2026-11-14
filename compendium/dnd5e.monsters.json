@@ -11484,7 +11484,8 @@
       "name": "Merrow",
       "items": {
         "1CXV3h3U6qnpZ7cU": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name]]{mostro} effettua due attacchi: uno con il suo [[/item .doFYltsiw2Fgp5gn]]{morso} e uno con i suoi [[/item .bbB0SMNW3l2SHEz5]]{artigli} oppure con il suo [[/item .7XgQY1kwKPuoWX7t]]{arpione}.</p>"
         },
         "doFYltsiw2Fgp5gn": {
           "name": "Morso",
@@ -11501,7 +11502,9 @@
           "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
         },
         "7XgQY1kwKPuoWX7t": {
-          "name": "Arpione"
+          "name": "Arpione",
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio è una creatura di taglia Enorme o inferiore, deve superare una prova contrapposta di Forza contro il merrow o essere trascinato fino a 6 metri verso il merrow.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il suo [[lookup @item.name]]. Se il bersaglio è una creatura di taglia Enorme o inferiore, deve effettuare una prova contrapposta di Forza contro il [[lookup @name]]{mostro} o essere trascinato fino a 6 metri verso il [[lookup @name]]{mostro}.</p>"
         }
       },
       "details": {

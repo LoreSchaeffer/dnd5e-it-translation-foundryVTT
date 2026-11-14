@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2332,
+      "translated": 2333,
       "missing": 3,
-      "partial": 56,
+      "partial": 55,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14778,
-      "missing": 882,
+      "translated": 14781,
+      "missing": 879,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 887
+    "blockingIssues": 884
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 297,
+          "translated": 298,
           "missing": 0,
-          "partial": 40,
+          "partial": 39,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6962,
-          "missing": 144,
+          "translated": 6965,
+          "missing": 141,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -684,33 +684,6 @@
           "name": "Medusa",
           "fieldPath": "items[udfhkp3BOEpgThbR].system.description.value",
           "sourcePath": "monsters/monstrosity/medusa.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "1cwfYaACm5F0l4y3",
-          "name": "Merrow",
-          "fieldPath": "items[1CXV3h3U6qnpZ7cU].system.description.value",
-          "sourcePath": "monsters/monstrosity/merrow.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "1cwfYaACm5F0l4y3",
-          "name": "Merrow",
-          "fieldPath": "items[7XgQY1kwKPuoWX7t].system.description.value",
-          "sourcePath": "monsters/monstrosity/merrow.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "1cwfYaACm5F0l4y3",
-          "name": "Merrow",
-          "fieldPath": "items[7XgQY1kwKPuoWX7t].system.description.chat",
-          "sourcePath": "monsters/monstrosity/merrow.yml"
         },
         {
           "code": "missing-field",
