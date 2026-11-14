@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2282,
+      "translated": 2283,
       "missing": 3,
-      "partial": 106,
+      "partial": 105,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14602,
-      "missing": 1058,
+      "translated": 14607,
+      "missing": 1053,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1063
+    "blockingIssues": 1058
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 247,
+          "translated": 248,
           "missing": 0,
-          "partial": 90,
+          "partial": 89,
           "review": 0
         },
         "folders": {
@@ -578,59 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6786,
-          "missing": 320,
+          "translated": 6791,
+          "missing": 315,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "qXzMsRTHEodqO8l2",
-          "name": "Rakshasa",
-          "fieldPath": "items[ChSnKd7pSLoN1Jeu].system.description.value",
-          "sourcePath": "monsters/fiend/rakshasa.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "qXzMsRTHEodqO8l2",
-          "name": "Rakshasa",
-          "fieldPath": "items[NYUeQsYqRhROcVMQ].system.description.value",
-          "sourcePath": "monsters/fiend/rakshasa.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "qXzMsRTHEodqO8l2",
-          "name": "Rakshasa",
-          "fieldPath": "items[pHBLWUN5VKEjSBh6].system.description.value",
-          "sourcePath": "monsters/fiend/rakshasa.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "qXzMsRTHEodqO8l2",
-          "name": "Rakshasa",
-          "fieldPath": "items[pHBLWUN5VKEjSBh6].system.description.chat",
-          "sourcePath": "monsters/fiend/rakshasa.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "qXzMsRTHEodqO8l2",
-          "name": "Rakshasa",
-          "fieldPath": "items[pHBLWUN5VKEjSBh6].effects[YiUixfCTC5JZGAZm].description",
-          "sourcePath": "monsters/fiend/rakshasa.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",

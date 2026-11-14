@@ -13304,7 +13304,8 @@
       "name": "Rakshasa",
       "items": {
         "NYUeQsYqRhROcVMQ": {
-          "name": "Incantesimi Innati"
+          "name": "Incantesimi Innati",
+          "description": "<p>La caratteristica da incantatore innato del rakshasa è Carisma (CD del tiro salvezza degli incantesimi 18, +10 al tiro per colpire con gli attacchi con incantesimo). Il rakshasa può lanciare innatamente i seguenti incantesimi, senza richiedere componenti materiali:</p>\n<p>A volontà: [[/item .ppWAAEul0QHtm4er]]{Individuazione dei Pensieri}, [[/item .A3q2gTNqG6fvNGrv]]{Camuffare Se Stesso}, [[/item .Utk1OQRwYkMkFRD3]]{Mano Magica}, [[/item .oIzA2MEHwxhtQneU]]{Illusione Minore}</p>\n<p>3/giorno ciascuno: [[/item .eS7XnnApoxRxYXPs]]{Charme su Persone}, [[/item .ghXTfe7sgCbgf1Q8]]{Individuazione del Magico}, [[/item .1N8dDMMgZ1h1YJ3B]]{Invisibilità}, [[/item .nslx2nT3p4lNkmdp]]{Immagine Maggiore}, [[/item .zMAWdyc8UVb37BK4]]{Suggestione}</p>\n<p>1/giorno ciascuno: [[/item .91Sw6vOIaO7U8DvM]]{Dominare Persone}, [[/item .yfbK8gZqESlaoY5t]]{Volare}, [[/item .J6Jpw5XzB5aTeqnz]]{Spostamento Planare}, [[/item .XzkJpE6XpZfKjODD]]{Visione del Vero}</p>"
         },
         "18NEVoD84KHDcWoG": {
           "name": "Multiattacco",
@@ -13371,15 +13372,19 @@
           "description": "<p>Questo incantesimo conferisce alla creatura toccata&nbsp;dall'incantatore la capacità di vedere le cose per ciò che&nbsp;effettivamente sono. Per la durata dell'incantesimo, la creatura è dotata di vista pura, nota le porte segrete nascoste dalla magia ed è in grado di vedere sul Piano Etereo, entro un raggio di 36 metri.</p>"
         },
         "ChSnKd7pSLoN1Jeu": {
-          "name": "Immunità Magica Limitata"
+          "name": "Immunità Magica Limitata",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} non può essere influenzato o individuato da incantesimi di 6° livello o inferiore, a meno che non desideri esserlo. Dispone di vantaggio ai tiri salvezza contro tutti gli altri incantesimi ed effetti magici.</p>"
         },
         "pHBLWUN5VKEjSBh6": {
           "name": "Artiglio",
           "effects": {
             "YiUixfCTC5JZGAZm": {
-              "name": "Maledizione del Rakshasa"
+              "name": "Maledizione del Rakshasa",
+              "description": "<p>Sei maledetto. Mentre sei maledetto, ogni volta che completi un riposo breve o lungo, i tuoi pensieri si riempiono di immagini e sogni orribili. Non ottieni alcun beneficio dal completamento dei riposi brevi o lunghi.</p><p>La maledizione dura finché non viene rimossa da un incantesimo @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{Rimuovi Maledizione} o da una magia analoga.</p>"
             }
-          }
+          },
+          "description": "<p>[[/attack extended]]. [[/damage extended]], e il bersaglio è maledetto se è una creatura.</p><p>La maledizione magica ha effetto ogni volta che il bersaglio completa un riposo breve o lungo, riempiendone i pensieri di immagini e sogni orribili. Il bersaglio maledetto non ottiene alcun beneficio dal completamento di un riposo breve o lungo. La maledizione dura finché non viene rimossa da un incantesimo @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{Rimuovi Maledizione} o da una magia analoga.</p>",
+          "chat": "<p>Il rakshasa attacca con il suo artiglio.</p>"
         }
       },
       "details": {
