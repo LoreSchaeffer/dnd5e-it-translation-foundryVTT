@@ -10413,13 +10413,16 @@
               "description": "<p>Ti sei trasformato nella tua vera forma, che è umanoide.</p>"
             },
             "PM833qdHNhYXS4Q6": {
-              "name": "Forma Ibrida"
+              "name": "Forma Ibrida",
+              "description": "<p>Ti sei trasformato nella tua forma ibrida, che è un ibrido lupo-umanoide.</p>"
             },
             "yUtUCn3TPecpu4SI": {
-              "name": "Forma di Lupo"
+              "name": "Forma di Lupo",
+              "description": "<p>Ti sei trasformato nella tua forma di lupo.</p>"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} può usare la propria azione per trasformarsi o tornare alla sua vera forma.</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} può usare la propria azione per trasformarsi o tornare alla sua vera forma.</p>",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} può usare la propria azione per trasformarsi in un ibrido lupo-umanoide o in un lupo, oppure per tornare alla sua vera forma, che è umanoide.</p><p>Le sue statistiche, a eccezione della CA, sono le stesse in ogni forma. Qualsiasi equipaggiamento che indossa o trasporta non viene trasformato. Se muore, torna alla sua vera forma.</p>"
         },
         "tWfR8uJNnQxpXgDw": {
           "name": "Morso (Solo in Forma di Lupo o Ibrida)",
@@ -10433,22 +10436,26 @@
           },
           "effects": {
             "ALVeCJ1zSZMmfq3w": {
-              "name": "Licantropia del Lupo Mannaro"
+              "name": "Licantropia del Lupo Mannaro",
+              "description": "<p>Sei stato maledetto dalla licantropia del lupo mannaro.</p>"
             }
           },
           "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio Morso. Se il bersaglio è un umanoide, deve effettuare un tiro salvezza su Costituzione.</p>",
           "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Se il bersaglio è un umanoide, deve superare un tiro salvezza [[/save]], altrimenti viene maledetto dalla licantropia del lupo mannaro.</p>"
         },
         "abhGXKzA0XGprXED": {
-          "name": "Multiattacco (Solo in Forma Umanoide o Ibrida)"
+          "name": "Multiattacco (Solo in Forma Umanoide o Ibrida)",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua due attacchi: uno con il suo [[/item .tWfR8uJNnQxpXgDw]]{morso} e uno con i suoi [[/item .36H4LGNMMEYS1Irm]]{artigli} o con la sua [[/item .TiKtAuqd6urQ45Ds]]{lancia}.</p>"
         },
         "TiKtAuqd6urQ45Ds": {
           "name": "Lancia (Solo in Forma Umanoide)",
-          "description": "<p>[[/attack extended]]. [[/damage extended]], oppure [[/damage average attackMode=twoHanded]] se usata a due mani per effettuare un attacco in mischia.</p>"
+          "description": "<p>[[/attack extended]]. [[/damage extended]], oppure [[/damage average attackMode=twoHanded]] se usata a due mani per effettuare un attacco in mischia.</p>",
+          "chat": "<p>Il Lupo Mannaro attacca con la sua Lancia.</p>"
         },
         "36H4LGNMMEYS1Irm": {
           "name": "Artigli (Solo in Forma Ibrida)",
-          "description": "<p>[[/attack extended]]. [[/damage extended]].</p>"
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con i suoi Artigli.</p>"
         },
         "9v8vBxcPazXyBUmo": {
           "name": "Udito e Olfatto Acuti",

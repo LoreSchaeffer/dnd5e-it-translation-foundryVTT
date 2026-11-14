@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2319,
+      "translated": 2320,
       "missing": 3,
-      "partial": 69,
+      "partial": 68,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14732,
-      "missing": 928,
+      "translated": 14739,
+      "missing": 921,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 933
+    "blockingIssues": 926
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 284,
+          "translated": 285,
           "missing": 0,
-          "partial": 53,
+          "partial": 52,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6916,
-          "missing": 190,
+          "translated": 6923,
+          "missing": 183,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -594,69 +594,6 @@
           "name": "Lizardfolk",
           "fieldPath": "items[s88qLjZemkFRnB8Y].system.description.value",
           "sourcePath": "monsters/humanoid/lizardfolk.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "7tRhrxuknTpHpYcA",
-          "name": "Werewolf",
-          "fieldPath": "items[tWfR8uJNnQxpXgDw].effects[ALVeCJ1zSZMmfq3w].description",
-          "sourcePath": "monsters/humanoid/werewolf.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "7tRhrxuknTpHpYcA",
-          "name": "Werewolf",
-          "fieldPath": "items[abhGXKzA0XGprXED].system.description.value",
-          "sourcePath": "monsters/humanoid/werewolf.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "7tRhrxuknTpHpYcA",
-          "name": "Werewolf",
-          "fieldPath": "items[TiKtAuqd6urQ45Ds].system.description.chat",
-          "sourcePath": "monsters/humanoid/werewolf.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "7tRhrxuknTpHpYcA",
-          "name": "Werewolf",
-          "fieldPath": "items[36H4LGNMMEYS1Irm].system.description.chat",
-          "sourcePath": "monsters/humanoid/werewolf.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "7tRhrxuknTpHpYcA",
-          "name": "Werewolf",
-          "fieldPath": "items[2kHNI1T4gg879fDv].system.description.value",
-          "sourcePath": "monsters/humanoid/werewolf.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "7tRhrxuknTpHpYcA",
-          "name": "Werewolf",
-          "fieldPath": "items[2kHNI1T4gg879fDv].effects[PM833qdHNhYXS4Q6].description",
-          "sourcePath": "monsters/humanoid/werewolf.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "7tRhrxuknTpHpYcA",
-          "name": "Werewolf",
-          "fieldPath": "items[2kHNI1T4gg879fDv].effects[yUtUCn3TPecpu4SI].description",
-          "sourcePath": "monsters/humanoid/werewolf.yml"
         },
         {
           "code": "missing-field",
