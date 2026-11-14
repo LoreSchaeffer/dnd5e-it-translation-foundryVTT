@@ -11954,10 +11954,14 @@
           "name": "Morso",
           "activities": {
             "q1kzQBmcMwK6GGVz": {
-              "name": "Tiro Salvezza contro il Veleno"
+              "name": "Tiro Salvezza contro il Veleno",
+              "description": {
+                "value": "<p>Il bersaglio deve effettuare un [[/save activity=q1kzQBmcMwK6GGVz]] tiro salvezza, subendo [[/damage average activity=q1kzQBmcMwK6GGVz]] danni se lo fallisce, o la metà dei danni se lo supera.</p>"
+              }
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio deve effettuare un tiro salvezza su Costituzione.</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio deve effettuare un tiro salvezza su Costituzione.</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il bersaglio deve effettuare un [[/save activity=q1kzQBmcMwK6GGVz]] tiro salvezza, subendo [[/damage average activity=q1kzQBmcMwK6GGVz]] danni se lo fallisce, o la metà dei danni se lo supera.</p>"
         },
         "Utk1OQRwYkMkFRD3": {
           "name": "Mano Magica",
@@ -12030,7 +12034,9 @@
           "description": "<p>Se muore, il [[lookup @name lowercase]]{mostro} torna in vita dopo 1d6 giorni e recupera tutti i suoi punti ferita.</p><p>Soltanto un incantesimo @UUID[Compendium.dnd5e.spells.Item.3okM6Gn63zzEULkz]{Desiderio} può impedire il funzionamento di questo tratto.</p>"
         },
         "Fla0ZsaY2HvXWqbR": {
-          "name": "Incantesimi"
+          "name": "Incantesimi",
+          "description": "<p>La naga è un'incantatrice di 10° livello. La sua caratteristica da incantatore è Intelligenza (CD del tiro salvezza degli incantesimi 14, +6 ai tiri per colpire con incantesimi) e richiede soltanto componenti verbali per lanciare i suoi incantesimi. Ha preparato i seguenti incantesimi da mago:</p><p>Trucchetti (a volontà): [[/item .Utk1OQRwYkMkFRD3]]{Mano Magica}, [[/item .oIzA2MEHwxhtQneU]]{Illusione Minore}, [[/item .ctW81uiX56xZR2c5]]{Raggio di Gelo}</p><p>1° livello (4 slot): [[/item .eS7XnnApoxRxYXPs]]{Charme su Persone}, [[/item .ghXTfe7sgCbgf1Q8]]{Individuazione del Magico}, [[/item .KhwiSi9fwVfUPtku]]{Sonno}</p><p>2° livello (3 slot): [[/item .ppWAAEul0QHtm4er]]{Individuazione dei Pensieri}, [[/item .3Lo9boi7P2ro6QV4]]{Blocca Persone}</p><p>3° livello (3 slot): [[/item .IyikgTEOTv701jgQ]]{Fulmine}, [[/item .13uVuBQP6VaiSPvC]]{Respirare sott'Acqua}</p><p>4° livello (3 slot): [[/item .pybg5MNc3lkerH4Y]]{Inaridire}, [[/item .A4RsPuSvB9wFtz1j]]{Porta Dimensionale}</p><p>5° livello (2 slot): [[/item .91Sw6vOIaO7U8DvM]]{Dominare Persone}</p>",
+          "chat": "<p>La naga è un'incantatrice. La sua caratteristica da incantatore è Intelligenza e per lanciare i suoi incantesimi ha bisogno solo di componenti verbali.</p>"
         }
       },
       "details": {

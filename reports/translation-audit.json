@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2359,
+      "translated": 2360,
       "missing": 3,
-      "partial": 29,
+      "partial": 28,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14873,
-      "missing": 787,
+      "translated": 14877,
+      "missing": 783,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 792
+    "blockingIssues": 788
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 324,
+          "translated": 325,
           "missing": 0,
-          "partial": 13,
+          "partial": 12,
           "review": 0
         },
         "folders": {
@@ -578,50 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 7057,
-          "missing": 49,
+          "translated": 7061,
+          "missing": 45,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "BAT6ld8qJZetpycL",
-          "name": "Spirit Naga",
-          "fieldPath": "items[aap2fFb4b7uX3XAO].system.description.value",
-          "sourcePath": "monsters/monstrosity/spirit-naga.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "BAT6ld8qJZetpycL",
-          "name": "Spirit Naga",
-          "fieldPath": "items[aap2fFb4b7uX3XAO].system.activities.q1kzQBmcMwK6GGVz.description.value",
-          "sourcePath": "monsters/monstrosity/spirit-naga.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "BAT6ld8qJZetpycL",
-          "name": "Spirit Naga",
-          "fieldPath": "items[Fla0ZsaY2HvXWqbR].system.description.value",
-          "sourcePath": "monsters/monstrosity/spirit-naga.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "BAT6ld8qJZetpycL",
-          "name": "Spirit Naga",
-          "fieldPath": "items[Fla0ZsaY2HvXWqbR].system.description.chat",
-          "sourcePath": "monsters/monstrosity/spirit-naga.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
