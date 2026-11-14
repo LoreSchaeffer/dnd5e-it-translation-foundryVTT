@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2297,
+      "translated": 2298,
       "missing": 3,
-      "partial": 91,
+      "partial": 90,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14658,
-      "missing": 1002,
+      "translated": 14661,
+      "missing": 999,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1007
+    "blockingIssues": 1004
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 262,
+          "translated": 263,
           "missing": 0,
-          "partial": 75,
+          "partial": 74,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6842,
-          "missing": 264,
+          "translated": 6845,
+          "missing": 261,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -1269,33 +1269,6 @@
           "name": "Werewolf",
           "fieldPath": "items[2kHNI1T4gg879fDv].effects[yUtUCn3TPecpu4SI].description",
           "sourcePath": "monsters/humanoid/werewolf.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "5kZNNWzZ6HrfKuWf",
-          "name": "Centaur",
-          "fieldPath": "items[iYlIoEDfSCrggrca].system.description.value",
-          "sourcePath": "monsters/monstrosity/centaur.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "5kZNNWzZ6HrfKuWf",
-          "name": "Centaur",
-          "fieldPath": "items[4R48w4DH2CqCpmED].system.description.value",
-          "sourcePath": "monsters/monstrosity/centaur.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "5kZNNWzZ6HrfKuWf",
-          "name": "Centaur",
-          "fieldPath": "items[4R48w4DH2CqCpmED].system.description.chat",
-          "sourcePath": "monsters/monstrosity/centaur.yml"
         },
         {
           "code": "missing-field",
