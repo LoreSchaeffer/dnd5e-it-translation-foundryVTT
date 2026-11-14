@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2274,
+      "translated": 2275,
       "missing": 3,
-      "partial": 114,
+      "partial": 113,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14575,
-      "missing": 1085,
+      "translated": 14579,
+      "missing": 1081,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1090
+    "blockingIssues": 1086
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 239,
+          "translated": 240,
           "missing": 0,
-          "partial": 98,
+          "partial": 97,
           "review": 0
         },
         "folders": {
@@ -578,50 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6759,
-          "missing": 347,
+          "translated": 6763,
+          "missing": 343,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "1zzRQps9jZdLZGqI",
-          "name": "Ice Devil",
-          "fieldPath": "items[nCTze3rZpWcTeuYQ].system.description.value",
-          "sourcePath": "monsters/fiend/ice-devil.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "1zzRQps9jZdLZGqI",
-          "name": "Ice Devil",
-          "fieldPath": "items[nCTze3rZpWcTeuYQ].system.description.chat",
-          "sourcePath": "monsters/fiend/ice-devil.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "1zzRQps9jZdLZGqI",
-          "name": "Ice Devil",
-          "fieldPath": "items[nCTze3rZpWcTeuYQ].system.activities.qJljbNLNFhF1xbDV.description.value",
-          "sourcePath": "monsters/fiend/ice-devil.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "1zzRQps9jZdLZGqI",
-          "name": "Ice Devil",
-          "fieldPath": "items[vLQAjoewGE5MAHn2].system.description.value",
-          "sourcePath": "monsters/fiend/ice-devil.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
