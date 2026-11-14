@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2262,
+      "translated": 2263,
       "missing": 3,
-      "partial": 126,
+      "partial": 125,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14520,
-      "missing": 1140,
+      "translated": 14526,
+      "missing": 1134,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1145
+    "blockingIssues": 1139
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 227,
+          "translated": 228,
           "missing": 0,
-          "partial": 110,
+          "partial": 109,
           "review": 0
         },
         "folders": {
@@ -578,68 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6704,
-          "missing": 402,
+          "translated": 6710,
+          "missing": 396,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "OQqybZoMeDFn5AFD",
-          "name": "Sea Hag",
-          "fieldPath": "items[XeAyeJsNjKZKPWEN].system.description.value",
-          "sourcePath": "monsters/fey/sea-hag.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "OQqybZoMeDFn5AFD",
-          "name": "Sea Hag",
-          "fieldPath": "items[XeAyeJsNjKZKPWEN].system.description.chat",
-          "sourcePath": "monsters/fey/sea-hag.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "OQqybZoMeDFn5AFD",
-          "name": "Sea Hag",
-          "fieldPath": "items[XeAyeJsNjKZKPWEN].effects[fmzFys2MSAKRtUIS].description",
-          "sourcePath": "monsters/fey/sea-hag.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "OQqybZoMeDFn5AFD",
-          "name": "Sea Hag",
-          "fieldPath": "items[7AGmP2dRLYmORUX7].system.description.value",
-          "sourcePath": "monsters/fey/sea-hag.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "OQqybZoMeDFn5AFD",
-          "name": "Sea Hag",
-          "fieldPath": "items[7AGmP2dRLYmORUX7].system.description.chat",
-          "sourcePath": "monsters/fey/sea-hag.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "OQqybZoMeDFn5AFD",
-          "name": "Sea Hag",
-          "fieldPath": "items[8s0lGEYZGFEpwt12].system.description.value",
-          "sourcePath": "monsters/fey/sea-hag.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",

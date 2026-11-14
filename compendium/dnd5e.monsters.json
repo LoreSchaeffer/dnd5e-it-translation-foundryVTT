@@ -10936,9 +10936,12 @@
           },
           "effects": {
             "fmzFys2MSAKRtUIS": {
-              "name": "Terrorizzato"
+              "name": "Terrorizzato",
+              "description": "<p>Sei &amp;reference[frightened apply=false]{spaventato} per la durata. Puoi ripetere il tiro salvezza alla fine di ciascun tuo turno, con svantaggio se la megera marina è nella tua linea di vista, terminando l'effetto su di te in caso di successo.</p>"
             }
-          }
+          },
+          "description": "<p>Ogni umanoide che inizia il proprio turno entro [[lookup @target.template.size activity=krnijW9ix8K2d3wp]] dal [[lookup @name lowercase]]{mostro} e può vedere il vero aspetto del [[lookup @name lowercase]]{mostro} deve effettuare un tiro salvezza [[/save]]. Se lo fallisce, la creatura è &amp;Reference[frightened]{spaventata} per [[lookup @labels.duration activity=krnijW9ix8K2d3wp]]. Una creatura può ripetere il tiro salvezza alla fine di ciascun proprio turno, con svantaggio se il [[lookup @name lowercase]]{mostro} è nella sua linea di vista, terminando l'effetto su di sé in caso di successo.</p><p>Se una creatura supera il tiro salvezza o l'effetto su di essa termina, per le 24 ore successive è immune a ciò che il [[lookup @name lowercase]]{mostro} compie con [[lookup @item.name]]. A meno che il bersaglio non sia &amp;reference[surprise]{Sorpreso} o che il vero aspetto del [[lookup @name lowercase]]{mostro} non venga rivelato all'improvviso, il bersaglio può distogliere lo sguardo ed evitare il tiro salvezza iniziale. Fino all'inizio del proprio turno successivo, una creatura che distoglie lo sguardo subisce svantaggio ai tiri per colpire contro il [[lookup @name lowercase]]{mostro}.</p>",
+          "chat": "<p>Ogni umanoide che inizia il proprio turno <strong>entro 9 metri</strong> dalla megera e può vedere il vero aspetto della megera deve effettuare un tiro salvezza su <strong>Saggezza</strong>.</p>"
         },
         "7AGmP2dRLYmORUX7": {
           "name": "Sguardo Mortale",
@@ -10946,7 +10949,9 @@
             "bkCJcO9MdO88ON0n": {
               "name": "Focalizza Sguardo"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} bersaglia una creatura &amp;reference[frightened apply=false]{spaventata} che può vedere entro [[lookup @labels.description.range activity=bkCJcO9MdO88ON0n]] da sé. Se il bersaglio può vedere il [[lookup @name lowercase]]{mostro}, deve superare un tiro salvezza [[/save]] contro questa magia, altrimenti scende a 0 punti ferita.</p>",
+          "chat": "<p>La megera bersaglia una creatura spaventata che può vedere entro 9 m da sé. Se il bersaglio può vedere la megera, deve effettuare un tiro salvezza su <strong>Saggezza</strong> contro questa magia.</p>"
         },
         "8s0lGEYZGFEpwt12": {
           "name": "Aspetto Illusorio",
@@ -10957,7 +10962,8 @@
             "AnnOjQ8xoMu57URu": {
               "name": "Assumere Aspetto Illusorio"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} avvolge sé stesso e tutto ciò che indossa o trasporta in un'illusione magica che gli conferisce l'aspetto di una creatura orrenda della sua taglia approssimativa e dalla forma umanoide. L'effetto termina se il [[lookup @name lowercase]]{mostro} usa un'azione bonus per terminarlo o se muore.</p><p>I cambiamenti prodotti da questo effetto non resistono a un'ispezione fisica. Per esempio, il [[lookup @name lowercase]]{mostro} potrebbe sembrare privo di artigli, ma chi gli tocca la mano potrebbe percepirli. Altrimenti, una creatura deve usare un'azione per ispezionare visivamente l'illusione e superare una prova [[/check activity=qwatGWOoJRpKLNtR]] per riconoscere che il [[lookup @name lowercase]]{mostro} è camuffato.</p>"
         },
         "mu6H0PnN6ZcY0JMl": {
           "name": "Anfibio",

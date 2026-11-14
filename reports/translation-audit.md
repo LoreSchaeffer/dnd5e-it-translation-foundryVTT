@@ -9,7 +9,7 @@
 | heroes | 12 | 12 | 0 | 0 | 0 | 0 | 0 |
 | items | 885 | 885 | 0 | 0 | 0 | 0 | 48 |
 | monsterfeatures | 252 | 252 | 0 | 0 | 0 | 0 | 0 |
-| monsters | 337 | 227 | 0 | 110 | 0 | 402 | 402 |
+| monsters | 337 | 228 | 0 | 109 | 0 | 396 | 396 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
 | rules | 20 | 1 | 3 | 16 | 0 | 738 | 695 |
 | spells | 320 | 320 | 0 | 0 | 0 | 0 | 0 |
@@ -17,7 +17,7 @@
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 1145
+Total blocking issues: 1139
 
 ## Issues
 
@@ -69,12 +69,6 @@ Total blocking issues: 1145
 - **extra-entry** `items:Ferri dello Zefiro`
 - **extra-entry** `items:Unarmed Strike (Monk)`
 - **extra-entry** `items:Enterteiner's Pack`
-- **missing-field** `monsters:OQqybZoMeDFn5AFD:items[XeAyeJsNjKZKPWEN].system.description.value`
-- **missing-field** `monsters:OQqybZoMeDFn5AFD:items[XeAyeJsNjKZKPWEN].system.description.chat`
-- **missing-field** `monsters:OQqybZoMeDFn5AFD:items[XeAyeJsNjKZKPWEN].effects[fmzFys2MSAKRtUIS].description`
-- **missing-field** `monsters:OQqybZoMeDFn5AFD:items[7AGmP2dRLYmORUX7].system.description.value`
-- **missing-field** `monsters:OQqybZoMeDFn5AFD:items[7AGmP2dRLYmORUX7].system.description.chat`
-- **missing-field** `monsters:OQqybZoMeDFn5AFD:items[8s0lGEYZGFEpwt12].system.description.value`
 - **missing-field** `monsters:MUpBNDoJEr09bLaO:items[YN8cO9SCNOIFJcmw].system.description.value`
 - **missing-field** `monsters:MUpBNDoJEr09bLaO:items[YN8cO9SCNOIFJcmw].system.activities.vMfBrhdjnxaKy0Wn.description.value`
 - **missing-field** `monsters:MUpBNDoJEr09bLaO:items[YN8cO9SCNOIFJcmw].effects[pw6HjjLVGg9RII4U].description`
