@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2321,
+      "translated": 2322,
       "missing": 3,
-      "partial": 67,
+      "partial": 66,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14744,
-      "missing": 916,
+      "translated": 14745,
+      "missing": 915,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 921
+    "blockingIssues": 920
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 286,
+          "translated": 287,
           "missing": 0,
-          "partial": 51,
+          "partial": 50,
           "review": 0
         },
         "folders": {
@@ -578,23 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6928,
-          "missing": 178,
+          "translated": 6929,
+          "missing": 177,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "57DofLgRQx16ARoc",
-          "name": "Lizardfolk",
-          "fieldPath": "items[s88qLjZemkFRnB8Y].system.description.value",
-          "sourcePath": "monsters/humanoid/lizardfolk.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
