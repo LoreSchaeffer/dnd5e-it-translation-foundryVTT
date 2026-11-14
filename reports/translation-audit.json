@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2221,
+      "translated": 2222,
       "missing": 3,
-      "partial": 167,
+      "partial": 166,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14393,
-      "missing": 1267,
+      "translated": 14396,
+      "missing": 1264,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1272
+    "blockingIssues": 1269
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 186,
+          "translated": 187,
           "missing": 0,
-          "partial": 151,
+          "partial": 150,
           "review": 0
         },
         "folders": {
@@ -578,41 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6577,
-          "missing": 529,
+          "translated": 6580,
+          "missing": 526,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "35Y64PEFFdvQS0ra",
-          "name": "Ancient Bronze Dragon",
-          "fieldPath": "items[J1T00n4aCL5ybwJS].system.description.value",
-          "sourcePath": "monsters/dragon/ancient-bronze-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "35Y64PEFFdvQS0ra",
-          "name": "Ancient Bronze Dragon",
-          "fieldPath": "items[fquJJiKubd6XKMXP].system.description.value",
-          "sourcePath": "monsters/dragon/ancient-bronze-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "35Y64PEFFdvQS0ra",
-          "name": "Ancient Bronze Dragon",
-          "fieldPath": "items[hRzHiaEGCGpfC1cj].system.description.value",
-          "sourcePath": "monsters/dragon/ancient-bronze-dragon.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
