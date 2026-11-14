@@ -5124,7 +5124,8 @@
             }
           },
           "name": "Armi a Soffio",
-          "chat": "<p>Il [[lookup @name]]{mostro} inspira!</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} inspira!</p>",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} usa una delle seguenti armi a soffio.</p><p><strong>Soffio di Fulmine.</strong> Il [[lookup @name lowercase]]{mostro} esala un fulmine in una [[lookup @labels.description.template activity=w2CftR6CLr5PZ7zY]]. Ogni creatura su quella linea deve effettuare un tiro salvezza [[/save activity=w2CftR6CLr5PZ7zY]], subendo [[/damage average activity=w2CftR6CLr5PZ7zY]] danni se lo fallisce, oppure la metà di quei danni se lo supera.</p><p><strong>Soffio Repulsivo.</strong> Il [[lookup @name lowercase]]{mostro} esala energia repulsiva in un [[lookup @labels.description.template activity=YElWYv6C5UfhAu48]]. Ogni creatura in quell'area deve superare un tiro salvezza [[/save activity=YElWYv6C5UfhAu48]]. Se fallisce il tiro salvezza, la creatura viene spinta di 18 metri lontano dal [[lookup @name lowercase]]{mostro}.</p>"
         },
         "HhVw9jFpoaxhcvrn": {
           "name": "Anfibio",
