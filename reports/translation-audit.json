@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2335,
+      "translated": 2336,
       "missing": 3,
-      "partial": 53,
+      "partial": 52,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14790,
-      "missing": 870,
+      "translated": 14793,
+      "missing": 867,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 875
+    "blockingIssues": 872
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 300,
+          "translated": 301,
           "missing": 0,
-          "partial": 37,
+          "partial": 36,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6974,
-          "missing": 132,
+          "translated": 6977,
+          "missing": 129,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -756,33 +756,6 @@
           "name": "Owlbear",
           "fieldPath": "items[R7Vx1RxO8OjXpzQd].system.description.value",
           "sourcePath": "monsters/monstrosity/owlbear.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "llSG0Hi4eGlRlQ4o",
-          "name": "Phase Spider",
-          "fieldPath": "items[2HPk5TdUTeEhD2eG].system.description.value",
-          "sourcePath": "monsters/monstrosity/phase-spider.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "llSG0Hi4eGlRlQ4o",
-          "name": "Phase Spider",
-          "fieldPath": "items[2HPk5TdUTeEhD2eG].system.activities.8tRw363NqNSEX3gA.description.value",
-          "sourcePath": "monsters/monstrosity/phase-spider.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "llSG0Hi4eGlRlQ4o",
-          "name": "Phase Spider",
-          "fieldPath": "items[2HPk5TdUTeEhD2eG].effects[Op1NQWF02iahIfVF].description",
-          "sourcePath": "monsters/monstrosity/phase-spider.yml"
         },
         {
           "code": "missing-field",

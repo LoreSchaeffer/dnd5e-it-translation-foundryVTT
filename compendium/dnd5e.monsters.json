@@ -13440,15 +13440,20 @@
           "name": "Morso",
           "activities": {
             "8tRw363NqNSEX3gA": {
-              "name": "Tiro Salvezza contro il Veleno"
+              "name": "Tiro Salvezza contro il Veleno",
+              "description": {
+                "value": "<p>Il bersaglio deve effettuare un tiro salvezza [[/save]]; se lo fallisce, subisce [[/damage average activity=8tRw363NqNSEX3gA]] danni, o la metà se lo supera. Se i danni da veleno riducono il bersaglio a 0 punti ferita, il bersaglio è stabile ma &amp;Reference[poisoned] per [[lookup @labels.duration activity=8tRw363NqNSEX3gA]], anche dopo aver recuperato punti ferita, e mentre è avvelenato in questo modo è &amp;Reference[paralyzed].</p>"
+              }
             }
           },
           "effects": {
             "Op1NQWF02iahIfVF": {
-              "name": "Veleno Paralizzante Stabilizzante"
+              "name": "Veleno Paralizzante Stabilizzante",
+              "description": "<p>Sei stabile ma &amp;reference[poisoned apply=false] per la durata dell'effetto, anche dopo aver recuperato punti ferita. Mentre sei avvelenato in questo modo, sei anche &amp;reference[paralyzed apply=false].</p>"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio deve effettuare un tiro salvezza su Costituzione.</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio deve effettuare un tiro salvezza su Costituzione.</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il bersaglio deve effettuare un tiro salvezza [[/save]]; se lo fallisce, subisce [[/damage average activity=8tRw363NqNSEX3gA]] danni, o la metà se lo supera. Se i danni da veleno riducono il bersaglio a 0 punti ferita, il bersaglio è stabile ma &amp;Reference[poisoned] per [[lookup @labels.duration activity=8tRw363NqNSEX3gA]], anche dopo aver recuperato punti ferita, e mentre è avvelenato in questo modo è &amp;Reference[paralyzed].</p>"
         },
         "QXhq8wIdZrFuW2ev": {
           "name": "Movimenti del Ragno",
