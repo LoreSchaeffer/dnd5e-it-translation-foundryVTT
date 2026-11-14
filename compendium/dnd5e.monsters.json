@@ -16867,7 +16867,8 @@
           "description": "<p>Realizzata in cuoio resistente ma flessibile, è rinforzata con rivetti ravvicinati o punte.</p>"
         },
         "fKIUImfcNk0pU2HN": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua due attacchi con la [[/item .WZ3XGh48UoyAvBhS]]{spada lunga} oppure due attacchi con l'[[/item .PUYwkzEiKopyM6YL]]{arco lungo}. Può usare il suo [[/item .NX8cqG6aZMns8wvY]]{Risucchio vitale} al posto di un attacco con la spada lunga.</p>"
         },
         "PUYwkzEiKopyM6YL": {
           "name": "Arco Lungo",
@@ -16886,14 +16887,18 @@
         "NX8cqG6aZMns8wvY": {
           "activities": {
             "oIaGncKFmwOakdyM": {
-              "name": "Rianima Zombie"
+              "name": "Rianima Zombie",
+              "description": {
+                "value": "<p>Un umanoide ucciso da questo attacco si rialza 24 ore dopo come @UUID[Compendium.dnd5e.monsters.Actor.NAISFPoNNgUCsEyW]{Zombi} sotto il controllo del [[lookup @name lowercase]]{mostro}, a meno che l'umanoide non venga riportato in vita o il suo corpo non venga distrutto. Il [[lookup @name lowercase]]{mostro} può controllare al massimo dodici zombi alla volta.</p>"
+              }
             },
             "92VUfAsPBGzKcjQw": {
               "name": "Tiro Salvezza contro il Risucchio del Massimo dei Punti Ferita"
             }
           },
           "name": "Risucchio di Vita",
-          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio deve effettuare un tiro salvezza su Costituzione.</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]]. Il bersaglio deve effettuare un tiro salvezza su Costituzione.</p>",
+          "description": "<p>[[/attack extended]]. [[/damage extended]].</p><p>Il bersaglio deve superare un tiro salvezza [[/save]], altrimenti il suo massimo di punti ferita si riduce di un ammontare pari ai danni subiti. Questa riduzione dura finché il bersaglio non completa un riposo lungo. Il bersaglio muore se questo effetto riduce a 0 il suo massimo di punti ferita.</p><p>Un umanoide ucciso da questo attacco si rialza 24 ore dopo come @UUID[Compendium.dnd5e.monsters.Actor.NAISFPoNNgUCsEyW]{zombi} sotto il controllo del [[lookup @name lowercase]]{mostro}, a meno che l'umanoide non venga riportato in vita o il suo corpo non venga distrutto. Il [[lookup @name lowercase]]{mostro} può controllare al massimo dodici zombi alla volta.</p>"
         }
       },
       "details": {

@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2369,
+      "translated": 2370,
       "missing": 3,
-      "partial": 19,
+      "partial": 18,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14911,
-      "missing": 749,
+      "translated": 14914,
+      "missing": 746,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 754
+    "blockingIssues": 751
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 334,
+          "translated": 335,
           "missing": 0,
-          "partial": 3,
+          "partial": 2,
           "review": 0
         },
         "folders": {
@@ -578,41 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 7095,
-          "missing": 11,
+          "translated": 7098,
+          "missing": 8,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "rbyp54px2D0ql4QK",
-          "name": "Wight",
-          "fieldPath": "items[fKIUImfcNk0pU2HN].system.description.value",
-          "sourcePath": "monsters/undead/wight.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "rbyp54px2D0ql4QK",
-          "name": "Wight",
-          "fieldPath": "items[NX8cqG6aZMns8wvY].system.description.value",
-          "sourcePath": "monsters/undead/wight.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "rbyp54px2D0ql4QK",
-          "name": "Wight",
-          "fieldPath": "items[NX8cqG6aZMns8wvY].system.activities.oIaGncKFmwOakdyM.description.value",
-          "sourcePath": "monsters/undead/wight.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
