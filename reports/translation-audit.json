@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2386,
+      "translated": 2387,
       "missing": 2,
-      "partial": 3,
+      "partial": 2,
       "review": 0
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14988,
-      "missing": 672,
+      "translated": 14997,
+      "missing": 663,
       "invariantFailures": 0,
       "englishResiduals": 0,
       "imperialResiduals": 0
     },
-    "blockingIssues": 676
+    "blockingIssues": 667
   },
   "packs": [
     {
@@ -620,9 +620,9 @@
       "summary": {
         "documents": {
           "total": 20,
-          "translated": 15,
+          "translated": 16,
           "missing": 2,
-          "partial": 3,
+          "partial": 2,
           "review": 0
         },
         "folders": {
@@ -634,8 +634,8 @@
         },
         "fields": {
           "total": 877,
-          "translated": 205,
-          "missing": 672,
+          "translated": 214,
+          "missing": 663,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -6194,87 +6194,6 @@
           "name": "Chapter 5: Equipment",
           "fieldPath": "pages[ixeXj7Eqq5zPDUYo].text.content",
           "sourcePath": "rules/chapter-5-equipment.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "6PfYpwxkdQkyS6b7",
-          "name": "Chapter 9: Combat",
-          "fieldPath": "pages[njF9PueE9rmnn8N8].text.content",
-          "sourcePath": "rules/chapter-9-combat.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "6PfYpwxkdQkyS6b7",
-          "name": "Chapter 9: Combat",
-          "fieldPath": "pages[SfmusW5B5jOaR0vd].text.content",
-          "sourcePath": "rules/chapter-9-combat.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "6PfYpwxkdQkyS6b7",
-          "name": "Chapter 9: Combat",
-          "fieldPath": "pages[t0XXMmv014K4vV3p].text.content",
-          "sourcePath": "rules/chapter-9-combat.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "6PfYpwxkdQkyS6b7",
-          "name": "Chapter 9: Combat",
-          "fieldPath": "pages[twd4zj7m1n9sBaVG].text.content",
-          "sourcePath": "rules/chapter-9-combat.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "6PfYpwxkdQkyS6b7",
-          "name": "Chapter 9: Combat",
-          "fieldPath": "pages[kYIupxHL0v6kzLMq].text.content",
-          "sourcePath": "rules/chapter-9-combat.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "6PfYpwxkdQkyS6b7",
-          "name": "Chapter 9: Combat",
-          "fieldPath": "pages[ckTc3L0Byh2WMHsp].name",
-          "sourcePath": "rules/chapter-9-combat.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "6PfYpwxkdQkyS6b7",
-          "name": "Chapter 9: Combat",
-          "fieldPath": "pages[ckTc3L0Byh2WMHsp].text.content",
-          "sourcePath": "rules/chapter-9-combat.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "6PfYpwxkdQkyS6b7",
-          "name": "Chapter 9: Combat",
-          "fieldPath": "pages[4H88x7iJuzshQpgr].text.content",
-          "sourcePath": "rules/chapter-9-combat.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "6PfYpwxkdQkyS6b7",
-          "name": "Chapter 9: Combat",
-          "fieldPath": "pages[gOIzjQ6o3HkzkEY8].text.content",
-          "sourcePath": "rules/chapter-9-combat.yml"
         },
         {
           "code": "missing-document",
