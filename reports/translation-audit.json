@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2242,
+      "translated": 2243,
       "missing": 3,
-      "partial": 146,
+      "partial": 145,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14442,
-      "missing": 1218,
+      "translated": 14443,
+      "missing": 1217,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1223
+    "blockingIssues": 1222
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 207,
+          "translated": 208,
           "missing": 0,
-          "partial": 130,
+          "partial": 129,
           "review": 0
         },
         "folders": {
@@ -578,23 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6626,
-          "missing": 480,
+          "translated": 6627,
+          "missing": 479,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "85ahD1jEo9B3POaQ",
-          "name": "Young Green Dragon",
-          "fieldPath": "items[Ux1Gv0S29JzRaD27].system.description.value",
-          "sourcePath": "monsters/dragon/young-green-dragon.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
