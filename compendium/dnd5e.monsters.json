@@ -3961,7 +3961,8 @@
       },
       "items": {
         "shoHSForHM2cwBtd": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro] può usare la sua [[/item .mkEH0cxZiY4KL8Hq]]{Presenza Terrificante}. Poi effettua tre attacchi: uno con il suo [[/item .YCbR7M5CKKCFWLvk]]{morso} e due con i suoi [[/item .YHoeJdvSJaT3qblq]]{artigli}.</p>"
         },
         "YCbR7M5CKKCFWLvk": {
           "name": "Morso",
@@ -4014,7 +4015,8 @@
             }
           },
           "name": "Armi a Soffio",
-          "chat": "<p>Il [[lookup @name]]{mostro} inspira!</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} inspira!</p>",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} usa una delle seguenti armi a soffio.</p><p><strong>Soffio di Freddo.</strong> Il [[lookup @name lowercase]]{mostro} esala una raffica gelida in un [[lookup @labels.description.template activity=9gMvqjbgKK42uyzr]]. Ogni creatura in quell'area deve effettuare un tiro salvezza [[/save activity=U5F5qe2Hu0r0yHmk]], subendo [[/damage average activity=U5F5qe2Hu0r0yHmk]] danni se lo fallisce, oppure la metà di quei danni se lo supera.</p><p><strong>Soffio Paralizzante.</strong> Il [[lookup @name lowercase]]{mostro} esala gas paralizzante in un [[lookup @labels.description.template activity=9gMvqjbgKK42uyzr]]. Ogni creatura in quell'area deve superare un tiro salvezza [[/save activity=9gMvqjbgKK42uyzr]], altrimenti rimane paralizzata per [[lookup @labels.duration activity=9gMvqjbgKK42uyzr]]. Una creatura può ripetere il tiro salvezza alla fine di ciascun proprio turno, terminando l'effetto su di sé in caso di successo.</p>"
         },
         "mkEH0cxZiY4KL8Hq": {
           "name": "Presenza Terrificante",
@@ -4059,7 +4061,8 @@
               "name": "Colpo di Coda"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} schianta la propria lunga coda contro il nemico!</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} schianta la propria lunga coda contro il nemico!</p>",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua un attacco con la [[/item .xYyW1XeR1TcbHh8p]]{coda}.</p>"
         },
         "sNdseIDCIfYFVjrX": {
           "name": "Attacco d'Ala",
