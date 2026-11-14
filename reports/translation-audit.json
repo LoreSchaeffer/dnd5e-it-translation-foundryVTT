@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2363,
+      "translated": 2364,
       "missing": 3,
-      "partial": 25,
+      "partial": 24,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14888,
-      "missing": 772,
+      "translated": 14895,
+      "missing": 765,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 777
+    "blockingIssues": 770
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 328,
+          "translated": 329,
           "missing": 0,
-          "partial": 9,
+          "partial": 8,
           "review": 0
         },
         "folders": {
@@ -578,77 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 7072,
-          "missing": 34,
+          "translated": 7079,
+          "missing": 27,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "qoFEjfrANBdrCP6m",
-          "name": "Ghost",
-          "fieldPath": "items[tjrDz1IWVcjF7PMl].system.description.value",
-          "sourcePath": "monsters/undead/ghost.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "qoFEjfrANBdrCP6m",
-          "name": "Ghost",
-          "fieldPath": "items[lOzkFHeXCdO2FB9X].system.description.value",
-          "sourcePath": "monsters/undead/ghost.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "qoFEjfrANBdrCP6m",
-          "name": "Ghost",
-          "fieldPath": "items[lOzkFHeXCdO2FB9X].system.description.chat",
-          "sourcePath": "monsters/undead/ghost.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "qoFEjfrANBdrCP6m",
-          "name": "Ghost",
-          "fieldPath": "items[lOzkFHeXCdO2FB9X].effects[YpGPsEF1EFARwjc1].description",
-          "sourcePath": "monsters/undead/ghost.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "qoFEjfrANBdrCP6m",
-          "name": "Ghost",
-          "fieldPath": "items[UF0mfYsgI4ay6mzv].system.description.value",
-          "sourcePath": "monsters/undead/ghost.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "qoFEjfrANBdrCP6m",
-          "name": "Ghost",
-          "fieldPath": "items[UF0mfYsgI4ay6mzv].system.description.chat",
-          "sourcePath": "monsters/undead/ghost.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "qoFEjfrANBdrCP6m",
-          "name": "Ghost",
-          "fieldPath": "items[UF0mfYsgI4ay6mzv].effects[aOay2ytam3lTBVj4].description",
-          "sourcePath": "monsters/undead/ghost.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
