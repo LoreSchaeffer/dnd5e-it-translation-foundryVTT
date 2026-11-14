@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2322,
+      "translated": 2323,
       "missing": 3,
-      "partial": 66,
+      "partial": 65,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14745,
-      "missing": 915,
+      "translated": 14748,
+      "missing": 912,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 920
+    "blockingIssues": 917
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 287,
+          "translated": 288,
           "missing": 0,
-          "partial": 50,
+          "partial": 49,
           "review": 0
         },
         "folders": {
@@ -578,41 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6929,
-          "missing": 177,
+          "translated": 6932,
+          "missing": 174,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "1OQbxoZI5BtlB2ME",
-          "name": "Drider",
-          "fieldPath": "items[uRaC62ut3Hk63e7m].system.description.value",
-          "sourcePath": "monsters/monstrosity/drider.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "1OQbxoZI5BtlB2ME",
-          "name": "Drider",
-          "fieldPath": "items[ThVO3VFsGgg3GLc5].system.description.value",
-          "sourcePath": "monsters/monstrosity/drider.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "1OQbxoZI5BtlB2ME",
-          "name": "Drider",
-          "fieldPath": "items[CAxSzHWizrafT033].system.description.value",
-          "sourcePath": "monsters/monstrosity/drider.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",

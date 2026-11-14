@@ -6591,10 +6591,12 @@
       "name": "Drider",
       "items": {
         "uRaC62ut3Hk63e7m": {
-          "name": "Incantesimi Innati"
+          "name": "Incantesimi Innati",
+          "description": "<p>La caratteristica da incantatore innato del drider è Saggezza (CD del tiro salvezza degli incantesimi 13). Il drider può lanciare innatamente i seguenti incantesimi, senza componenti materiali:</p>\n<p>A volontà: [[/item .CAxSzHWizrafT033]]{Luci Danzanti}</p>\n<p>1/giorno ciascuno: [[/item .S7VbUetIfVT7B6Eq]]{Oscurità}, [[/item .nqBDWkVOfcGZt4YU]]{Luminescenza}</p>"
         },
         "ThVO3VFsGgg3GLc5": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua tre attacchi, con la sua [[/item .xqwxVn28J0zx8Y7H]]{spada lunga} oppure il suo [[/item .3XAtYmmaED1rxaaE]]{arco lungo}. Può sostituire uno di questi attacchi con un attacco di [[/item .rUvv8Vnh7XbqbCLd]]{morso}.</p>"
         },
         "rUvv8Vnh7XbqbCLd": {
           "name": "Morso",
@@ -6613,7 +6615,8 @@
         },
         "CAxSzHWizrafT033": {
           "name": "Luci Danzanti",
-          "materials": "Un frammento di fosforo, di legno di faggio o una lucciola"
+          "materials": "Un frammento di fosforo, di legno di faggio o una lucciola",
+          "description": "<p>Crei fino a quattro luci delle dimensioni di una torcia entro gittata, facendole apparire come torce, lanterne o sfere luminose che fluttuano nell'aria per la durata. Puoi anche combinare le quattro luci in un'unica forma luminosa vagamente umanoide di taglia Media. Qualunque forma tu scelga, ogni luce proietta luce fioca entro un raggio di 3 metri.</p><p>Come azione bonus durante il tuo turno, puoi spostare le luci fino a 18 metri in un nuovo punto entro gittata. Una luce deve trovarsi entro 6 metri da un'altra luce creata da questo incantesimo e si spegne se oltrepassa la gittata dell'incantesimo.</p>"
         },
         "S7VbUetIfVT7B6Eq": {
           "name": "Oscurità",
