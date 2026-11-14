@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2247,
+      "translated": 2248,
       "missing": 3,
-      "partial": 141,
+      "partial": 140,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14452,
-      "missing": 1208,
+      "translated": 14459,
+      "missing": 1201,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1213
+    "blockingIssues": 1206
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 212,
+          "translated": 213,
           "missing": 0,
-          "partial": 125,
+          "partial": 124,
           "review": 0
         },
         "folders": {
@@ -578,77 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6636,
-          "missing": 470,
+          "translated": 6643,
+          "missing": 463,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "5P1VGAZQwOilwZQf",
-          "name": "Djinni",
-          "fieldPath": "items[PvddSEYCJ3fSHEOr].system.description.value",
-          "sourcePath": "monsters/elemental/djinni.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "5P1VGAZQwOilwZQf",
-          "name": "Djinni",
-          "fieldPath": "items[DGP7lnAJT1cv8SA4].system.description.chat",
-          "sourcePath": "monsters/elemental/djinni.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "5P1VGAZQwOilwZQf",
-          "name": "Djinni",
-          "fieldPath": "items[nE7YNnVM7srBcdfl].system.description.value",
-          "sourcePath": "monsters/elemental/djinni.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "5P1VGAZQwOilwZQf",
-          "name": "Djinni",
-          "fieldPath": "items[nE7YNnVM7srBcdfl].system.description.chat",
-          "sourcePath": "monsters/elemental/djinni.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "5P1VGAZQwOilwZQf",
-          "name": "Djinni",
-          "fieldPath": "items[nE7YNnVM7srBcdfl].system.activities.gtStP2vVpkp7MMw5.description.value",
-          "sourcePath": "monsters/elemental/djinni.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "5P1VGAZQwOilwZQf",
-          "name": "Djinni",
-          "fieldPath": "items[nE7YNnVM7srBcdfl].effects[4oc8HfRHypael6Rq].description",
-          "sourcePath": "monsters/elemental/djinni.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "5P1VGAZQwOilwZQf",
-          "name": "Djinni",
-          "fieldPath": "items[gr4aC1723KRzCJ5z].system.description.value",
-          "sourcePath": "monsters/elemental/djinni.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",

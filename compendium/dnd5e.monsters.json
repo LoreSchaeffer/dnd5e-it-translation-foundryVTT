@@ -3107,7 +3107,8 @@
       "name": "Djinni",
       "items": {
         "PvddSEYCJ3fSHEOr": {
-          "name": "Incantesimi Innati"
+          "name": "Incantesimi Innati",
+          "description": "<p>La caratteristica da incantatore innato del djinni è Carisma (CD del tiro salvezza degli incantesimi 17, +9 al tiro per colpire degli attacchi con incantesimo). Può lanciare i seguenti incantesimi innati, senza richiedere componenti materiali:</p>\n<p>A volontà: [[/item .Mzh95utKDPIrjiH8]]{individuazione del bene e del male}, [[/item .ghXTfe7sgCbgf1Q8]]{individuazione del magico}, [[/item .WTbOQBsarsL1LuXJ]]{onda tonante}</p>\n<p>3/giorno ciascuno: [[/item .BV0mpbHh29IbbIj5]]{creare cibo e acqua} (può creare vino anziché acqua), [[/item .gopnZvS0c2jD5FP8]]{linguaggi}, [[/item .8PJAsHmbu6UgDHC0]]{camminare nel vento}</p>\n<p>1/giorno ciascuno: evoca elementale (solo elementale dell'aria), [[/item .lnaGnxMzpYnbw1uU]]{creazione}, [[/item .2IWiZAJtOGDoKjiz]]{forma gassosa}, [[/item .1N8dDMMgZ1h1YJ3B]]{invisibilità}, [[/item .nslx2nT3p4lNkmdp]]{immagine maggiore}, [[/item .J6Jpw5XzB5aTeqnz]]{spostamento planare}</p>"
         },
         "Q7JcaZkLaYQq4CE5": {
           "name": "Multiattacco",
@@ -3115,11 +3116,13 @@
         },
         "DGP7lnAJT1cv8SA4": {
           "name": "Scimitarra",
-          "description": "<p>[[/attack extended]]. [[/damage extended]] (a scelta del djinni).</p>"
+          "description": "<p>[[/attack extended]]. [[/damage extended]] (a scelta del djinni).</p>",
+          "chat": "<p>Il djinni attacca con la sua scimitarra.</p>"
         },
         "gr4aC1723KRzCJ5z": {
           "materials": "acqua e sabbia per l'acqua, incenso bruciato per l'aria, zolfo e fosforo per il fuoco, argilla duttile per la terra",
-          "name": "Evocare Elementale dell'Aria"
+          "name": "Evocare Elementale dell'Aria",
+          "description": "<p>Evochi un servitore elementale dell'aria. Scegli un'area d'aria che riempia un cubo con spigolo di 3 metri entro gittata. Un elementale con grado di sfida pari o inferiore a 5, appropriato all'area scelta, compare in uno spazio libero entro 3 metri da essa. Per esempio, un elementale del fuoco emerge da un falò e un elementale della terra sorge dal terreno. L'elementale scompare quando scende a 0 punti ferita o quando l'incantesimo termina.</p>\n<p>L'elementale è amichevole nei tuoi confronti e in quelli dei tuoi compagni per la durata. Tira l'iniziativa per l'elementale, che svolge i propri turni. Obbedisce a qualsiasi comando verbale che gli impartisci (nessuna azione richiesta da parte tua). Se non impartisci alcun comando all'elementale, esso si difende dalle creature ostili, ma per il resto non effettua azioni.</p>\n<p>Se la tua concentrazione viene interrotta, l'elementale non scompare. Perdi invece il controllo dell'elementale, che diventa ostile nei tuoi confronti e in quelli dei tuoi compagni e potrebbe attaccare. Non puoi congedare un elementale fuori controllo, che scompare 1 ora dopo che lo hai evocato.</p>\n<p><strong>Ai Livelli Superiori. </strong>Quando lanci questo incantesimo usando uno slot incantesimo di 6° livello o superiore, il grado di sfida aumenta di 1 per ogni livello dello slot superiore al 5°.</p>"
         },
         "Mzh95utKDPIrjiH8": {
           "name": "Individuazione del Bene e del Male",
@@ -3189,14 +3192,20 @@
               "name": "Evocare Turbine"
             },
             "gtStP2vVpkp7MMw5": {
-              "name": "Muovere Turbine"
+              "name": "Muovere Turbine",
+              "description": {
+                "value": "<p>Con un'azione, il djinni può muovere il turbine fino a 18 metri e le creature trattenute dal turbine si muovono con esso. Il turbine termina se il djinni lo perde di vista.</p>"
+              }
             }
           },
           "effects": {
             "4oc8HfRHypael6Rq": {
-              "name": "Trattenuto dal Turbine"
+              "name": "Trattenuto dal Turbine",
+              "description": "<p>Sei &amp;reference[restrained apply=false]{trattenuto} dal turbine e ti muovi con esso.</p><p>Tu o un'altra creatura potete usare un'azione per liberarti dal turbine superando una prova [[/check 18 str]]. Se la prova riesce, non sei più trattenuto e ti sposti nello spazio più vicino al di fuori del turbine.</p>"
             }
-          }
+          },
+          "description": "<p>Un [[lookup @labels.description.template activity=5QSOnuuVfbhaFcH4]] di aria vorticante si forma magicamente in un punto che il djinni può vedere entro [[lookup @labels.description.range activity=5QSOnuuVfbhaFcH4]] da sé. Il turbine dura finché il djinni mantiene la concentrazione (come se si concentrasse su un incantesimo).</p><p>Qualsiasi creatura diversa dal djinni che entra nel turbine deve superare un tiro salvezza [[/save]], altrimenti viene trattenuta dal turbine. Con un'azione, il djinni può muovere il turbine fino a [[lookup @labels.description.range activity=gtStP2vVpkp7MMw5]] e le creature trattenute dal turbine si muovono con esso. Il turbine termina se il djinni lo perde di vista.</p><p>Una creatura può usare la propria azione per liberare una creatura trattenuta dal turbine, inclusa sé stessa, superando una prova [[/check activity=LlBHDTeLFiSXeSPL]]. Se supera la prova, la creatura non è più trattenuta e si sposta nello spazio più vicino al di fuori del turbine.</p>",
+          "chat": "<p>Un [[lookup @labels.description.template activity=5QSOnuuVfbhaFcH4]] di aria vorticante si forma magicamente in un punto che il [[lookup @name]]{mostro} può vedere entro [[lookup @labels.description.range activity=5QSOnuuVfbhaFcH4]] da sé. Qualsiasi creatura diversa dal [[lookup @name]]{mostro} che entra nel turbine deve effettuare un tiro salvezza su Forza, altrimenti viene &amp;reference[restrained]{trattenuta} dal turbine. Con un'azione, il [[lookup @name]]{mostro} può muovere il turbine fino a [[lookup @labels.description.range activity=gtStP2vVpkp7MMw5]] e le creature trattenute dal turbine si muovono con esso.</p><p>Una creatura può usare la propria azione per liberare una creatura trattenuta dal turbine, inclusa sé stessa, superando una prova di Forza. Se supera la prova, la creatura non è più trattenuta e si sposta nello spazio più vicino al di fuori del turbine.</p>"
         }
       },
       "details": {
