@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2360,
+      "translated": 2361,
       "missing": 3,
-      "partial": 28,
+      "partial": 27,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14877,
-      "missing": 783,
+      "translated": 14880,
+      "missing": 780,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 788
+    "blockingIssues": 785
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 325,
+          "translated": 326,
           "missing": 0,
-          "partial": 12,
+          "partial": 11,
           "review": 0
         },
         "folders": {
@@ -578,41 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 7061,
-          "missing": 45,
+          "translated": 7064,
+          "missing": 42,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "yGTh874etxUckmAf",
-          "name": "Winter Wolf",
-          "fieldPath": "items[pu8fxDuua6ObNqtg].system.description.value",
-          "sourcePath": "monsters/monstrosity/winter-wolf.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "yGTh874etxUckmAf",
-          "name": "Winter Wolf",
-          "fieldPath": "items[Rj3oSInoQMIfHrPc].system.description.value",
-          "sourcePath": "monsters/monstrosity/winter-wolf.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "yGTh874etxUckmAf",
-          "name": "Winter Wolf",
-          "fieldPath": "items[Rj3oSInoQMIfHrPc].system.description.chat",
-          "sourcePath": "monsters/monstrosity/winter-wolf.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",

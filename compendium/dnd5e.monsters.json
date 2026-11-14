@@ -10423,7 +10423,8 @@
       },
       "items": {
         "pu8fxDuua6ObNqtg": {
-          "name": "Mimetismo sulla Neve"
+          "name": "Mimetismo sulla Neve",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} ha vantaggio alle prove di Destrezza (Furtività) effettuate per &amp;reference[hide] su terreno innevato.</p>"
         },
         "5PmQuifZGbPWxAYz": {
           "name": "Morso",
@@ -10444,7 +10445,9 @@
             "4YgvBZjoO2Qd5OY3": {
               "name": "Esalare Vento Gelido"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} soffia una raffica di vento gelido in un [[lookup @labels.description.template activity=4YgvBZjoO2Qd5OY3]]. Ogni creatura in quell'area deve effettuare un tiro salvezza [[/save]]; se lo fallisce, subisce [[/damage average]] danni, o la metà se lo supera.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} soffia una raffica di vento gelido in un [[lookup @labels.description.template activity=4YgvBZjoO2Qd5OY3]]. Ogni creatura in quell'area deve effettuare un tiro salvezza su Destrezza.</p>"
         },
         "v0aOv6xT8QnYWpdW": {
           "name": "Tattiche del Branco",
