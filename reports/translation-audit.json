@@ -3,8 +3,8 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2388,
-      "missing": 1,
+      "translated": 2389,
+      "missing": 0,
       "partial": 2,
       "review": 0
     },
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 15000,
-      "missing": 660,
+      "translated": 15043,
+      "missing": 617,
       "invariantFailures": 0,
       "englishResiduals": 0,
       "imperialResiduals": 0
     },
-    "blockingIssues": 618
+    "blockingIssues": 617
   },
   "packs": [
     {
@@ -283,8 +283,8 @@
       "summary": {
         "documents": {
           "total": 20,
-          "translated": 17,
-          "missing": 1,
+          "translated": 18,
+          "missing": 0,
           "partial": 2,
           "review": 0
         },
@@ -297,8 +297,8 @@
         },
         "fields": {
           "total": 877,
-          "translated": 217,
-          "missing": 660,
+          "translated": 260,
+          "missing": 617,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -5857,14 +5857,6 @@
           "name": "Chapter 5: Equipment",
           "fieldPath": "pages[ixeXj7Eqq5zPDUYo].text.content",
           "sourcePath": "rules/chapter-5-equipment.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "sfJtvPjEs50Ruzi4",
-          "name": "Magic Items A-Z",
-          "sourcePath": "rules/magic-items-a-z.yml"
         }
       ]
     },
