@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2205,
+      "translated": 2206,
       "missing": 3,
-      "partial": 183,
+      "partial": 182,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14343,
-      "missing": 1317,
+      "translated": 14349,
+      "missing": 1311,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1322
+    "blockingIssues": 1316
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 170,
+          "translated": 171,
           "missing": 0,
-          "partial": 167,
+          "partial": 166,
           "review": 0
         },
         "folders": {
@@ -578,68 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6527,
-          "missing": 579,
+          "translated": 6533,
+          "missing": 573,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "f6HaKROPIcBRmSd1",
-          "name": "Rug of Smothering",
-          "fieldPath": "items[Jwm0r4Us1rwS6XfV].system.description.value",
-          "sourcePath": "monsters/construct/rug-of-smothering.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "f6HaKROPIcBRmSd1",
-          "name": "Rug of Smothering",
-          "fieldPath": "items[N30l3HXqmQ6H6Xo5].system.description.value",
-          "sourcePath": "monsters/construct/rug-of-smothering.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "f6HaKROPIcBRmSd1",
-          "name": "Rug of Smothering",
-          "fieldPath": "items[7p94WH1WPMhF1ZP9].system.description.value",
-          "sourcePath": "monsters/construct/rug-of-smothering.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "f6HaKROPIcBRmSd1",
-          "name": "Rug of Smothering",
-          "fieldPath": "items[7p94WH1WPMhF1ZP9].system.description.chat",
-          "sourcePath": "monsters/construct/rug-of-smothering.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "f6HaKROPIcBRmSd1",
-          "name": "Rug of Smothering",
-          "fieldPath": "items[7p94WH1WPMhF1ZP9].effects[P1jrqFcV4WHLptEG].description",
-          "sourcePath": "monsters/construct/rug-of-smothering.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "f6HaKROPIcBRmSd1",
-          "name": "Rug of Smothering",
-          "fieldPath": "items[gjJgPoevkUlW7qZ9].system.description.value",
-          "sourcePath": "monsters/construct/rug-of-smothering.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",

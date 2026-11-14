@@ -14982,10 +14982,12 @@
             "zCjol5maXdc3qylg": {
               "name": "Trasferire Danni"
             }
-          }
+          },
+          "description": "<p>Mentre è &amp;reference[grappling]{in Lotta con} una creatura, il [[lookup @name lowercase]]{mostro} subisce soltanto la metà dei danni che gli vengono inflitti e la creatura &amp;reference[grappled apply=false]{afferrata} dal [[lookup @name lowercase]]{mostro} subisce l'altra metà.</p>"
         },
         "N30l3HXqmQ6H6Xo5": {
-          "name": "Falso Aspetto"
+          "name": "Falso Aspetto",
+          "description": "<p>Finché il [[lookup @name lowercase]]{mostro} rimane immobile, è indistinguibile da un normale tappeto.</p>"
         },
         "gjJgPoevkUlW7qZ9": {
           "name": "Suscettibilità all'Anti-magia",
@@ -15000,7 +15002,8 @@
               "description": "<p>Sei stato reso &amp;reference[unconscious apply=false] dall'incantesimo @UUID[Compendium.dnd5e.spells.Item.15Fa6q1nH27XfbR8]{Dissolvi Magie} per 1 minuto.</p>"
             }
           },
-          "chat": "<p>L'armatura è incapacitata finché si trova nell'area di un campo antimagia.</p>"
+          "chat": "<p>L'armatura è incapacitata finché si trova nell'area di un campo antimagia.</p>",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} è &amp;reference[incapacitated apply=false]{incapacitato} mentre si trova nell'area di un @UUID[Compendium.dnd5e.spells.Item.Eon0jzGzQRNluTPQ]{Campo Anti-Magia}. Se viene bersagliato da @UUID[Compendium.dnd5e.spells.Item.15Fa6q1nH27XfbR8]{Dissolvi Magie}, il [[lookup @name lowercase]]{mostro} deve superare un tiro salvezza su Costituzione contro la CD del tiro salvezza dell'incantesimo dell'incantatore, altrimenti cade &amp;reference[unconscious]{privo di sensi} per 1 minuto.</p>"
         },
         "7p94WH1WPMhF1ZP9": {
           "name": "Soffocare",
@@ -15011,9 +15014,12 @@
           },
           "effects": {
             "P1jrqFcV4WHLptEG": {
-              "name": "Afferrare Soffocante"
+              "name": "Afferrare Soffocante",
+              "description": "<p>Sei &amp;reference[grappled apply=false]{afferrato} (CD 13 per sfuggire). Finché questa lotta non termina, sei &amp;reference[restrained apply=false]{trattenuto}, &amp;reference[blinded apply=false]{accecato} e rischi il &amp;reference[suffocation apply=false]{Soffocamento}.</p><p>In aggiunta, all'inizio di ciascun turno del bersaglio, quest'ultimo subisce [[/damage 2d6 + 3 bludgeoning average]] danni.</p>"
             }
-          }
+          },
+          "description": "<p><em>Attacco con Arma da Mischia:</em> [[/attack]], portata 1,5 m, una creatura di taglia Media o inferiore.</p><p><em>Colpito: </em>La creatura è &amp;Reference[grappled]{afferrata} (CD 13 per sfuggire). Finché questa lotta non termina, il bersaglio è &amp;reference[restrained apply=false]{trattenuto}, &amp;reference[blinded apply=false]{accecato} e rischia il &amp;reference[suffocation apply=false]{Soffocamento}; inoltre, il [[lookup @name lowercase]]{mostro} non può soffocare un altro bersaglio. In aggiunta, all'inizio di ciascun turno del bersaglio, quest'ultimo subisce [[/damage average]] danni.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} effettua un attacco soffocante! La creatura è &amp;reference[grappled]{afferrata}. Finché questa lotta non termina, il bersaglio è &amp;reference[restrained]{trattenuto}, &amp;reference[blinded]{accecato} e rischia il &amp;reference[suffocation apply=false]{Soffocamento}; inoltre, il [[lookup @name]]{mostro} non può [[lookup @item.name lowercase]] un altro bersaglio.</p>"
         }
       },
       "attributes": {
