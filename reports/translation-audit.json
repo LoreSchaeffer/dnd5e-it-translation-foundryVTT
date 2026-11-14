@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2382,
+      "translated": 2383,
       "missing": 3,
-      "partial": 6,
+      "partial": 5,
       "review": 0
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14971,
-      "missing": 689,
+      "translated": 14973,
+      "missing": 687,
       "invariantFailures": 0,
       "englishResiduals": 0,
       "imperialResiduals": 0
     },
-    "blockingIssues": 691
+    "blockingIssues": 689
   },
   "packs": [
     {
@@ -620,9 +620,9 @@
       "summary": {
         "documents": {
           "total": 20,
-          "translated": 11,
+          "translated": 12,
           "missing": 3,
-          "partial": 6,
+          "partial": 5,
           "review": 0
         },
         "folders": {
@@ -634,8 +634,8 @@
         },
         "fields": {
           "total": 877,
-          "translated": 188,
-          "missing": 689,
+          "translated": 190,
+          "missing": 687,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -6194,24 +6194,6 @@
           "name": "Chapter 5: Equipment",
           "fieldPath": "pages[ixeXj7Eqq5zPDUYo].text.content",
           "sourcePath": "rules/chapter-5-equipment.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "hgHJdp8lTiJ5TpN9",
-          "name": "Chapter 6: Customization Options",
-          "fieldPath": "pages[icbKYJ9K1sUzmL5W].text.content",
-          "sourcePath": "rules/chapter-6-customization-options.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "hgHJdp8lTiJ5TpN9",
-          "name": "Chapter 6: Customization Options",
-          "fieldPath": "pages[8V1QMgTrcYbGWppo].text.content",
-          "sourcePath": "rules/chapter-6-customization-options.yml"
         },
         {
           "code": "missing-field",
