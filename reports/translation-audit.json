@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2307,
+      "translated": 2308,
       "missing": 3,
-      "partial": 81,
+      "partial": 80,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14695,
-      "missing": 965,
+      "translated": 14697,
+      "missing": 963,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 970
+    "blockingIssues": 968
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 272,
+          "translated": 273,
           "missing": 0,
-          "partial": 65,
+          "partial": 64,
           "review": 0
         },
         "folders": {
@@ -578,32 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6879,
-          "missing": 227,
+          "translated": 6881,
+          "missing": 225,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "TjWQOgI3A4UAl7lC",
-          "name": "Goblin",
-          "fieldPath": "items[S6UTTLu0bEB32HNG].system.description.chat",
-          "sourcePath": "monsters/humanoid/goblin.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "TjWQOgI3A4UAl7lC",
-          "name": "Goblin",
-          "fieldPath": "items[YqS3dsIlpWb2Q2UI].system.description.chat",
-          "sourcePath": "monsters/humanoid/goblin.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
