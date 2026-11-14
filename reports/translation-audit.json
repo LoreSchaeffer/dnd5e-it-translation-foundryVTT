@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2218,
+      "translated": 2219,
       "missing": 3,
-      "partial": 170,
+      "partial": 169,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14384,
-      "missing": 1276,
+      "translated": 14388,
+      "missing": 1272,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1281
+    "blockingIssues": 1277
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 183,
+          "translated": 184,
           "missing": 0,
-          "partial": 154,
+          "partial": 153,
           "review": 0
         },
         "folders": {
@@ -578,50 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6568,
-          "missing": 538,
+          "translated": 6572,
+          "missing": 534,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "qNdFhY3JOkCfhG3d",
-          "name": "Ancient Black Dragon",
-          "fieldPath": "items[RKsS1lZwBekMMGMt].system.description.value",
-          "sourcePath": "monsters/dragon/ancient-black-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "qNdFhY3JOkCfhG3d",
-          "name": "Ancient Black Dragon",
-          "fieldPath": "items[zDlCrWQVJgZFMfxY].system.description.value",
-          "sourcePath": "monsters/dragon/ancient-black-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "qNdFhY3JOkCfhG3d",
-          "name": "Ancient Black Dragon",
-          "fieldPath": "items[zDlCrWQVJgZFMfxY].system.description.chat",
-          "sourcePath": "monsters/dragon/ancient-black-dragon.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "qNdFhY3JOkCfhG3d",
-          "name": "Ancient Black Dragon",
-          "fieldPath": "items[GsOwOLsXgIjnSFSG].system.description.value",
-          "sourcePath": "monsters/dragon/ancient-black-dragon.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",

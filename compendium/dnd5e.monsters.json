@@ -5599,7 +5599,8 @@
       },
       "items": {
         "RKsS1lZwBekMMGMt": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} può usare la sua [[/item .M3VJyuM63OKH7JH0]]{Presenza Terrificante}. Poi effettua tre attacchi: uno con il suo [[/item .YauNxZeIeT4uDcTf]]{morso} e due con i suoi [[/item .GQLQiLBrkoOiNc8q]]{artigli}.</p>"
         },
         "YauNxZeIeT4uDcTf": {
           "name": "Morso",
@@ -5612,7 +5613,9 @@
             "veyLlk1HbQ6RZxvv": {
               "name": "Esala Acido"
             }
-          }
+          },
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} esala acido in una [[lookup @labels.description.template activity=veyLlk1HbQ6RZxvv]]. Ogni creatura su quella linea deve effettuare un tiro salvezza [[/save]], subendo [[/damage average]] danni se lo fallisce, oppure la metà di quei danni se lo supera.</p>",
+          "chat": "<p>Il [[lookup @name]]{mostro} esala acido in una [[lookup @labels.description.template activity=veyLlk1HbQ6RZxvv]]. Ogni creatura su quella linea deve effettuare un tiro salvezza su Destrezza.</p>"
         },
         "CBwTwMTYrbNXCdPG": {
           "name": "Anfibio",
@@ -5675,7 +5678,8 @@
               "name": "Colpo di Coda"
             }
           },
-          "chat": "<p>Il [[lookup @name]]{mostro} schianta la propria lunga coda contro il nemico!</p>"
+          "chat": "<p>Il [[lookup @name]]{mostro} schianta la propria lunga coda contro il nemico!</p>",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua un attacco con la [[/item .A5cRQsDF3Qih94rC]]{coda}.</p>"
         },
         "r1ngkxvY1jbVMhd6": {
           "name": "Attacco d'Ala",
