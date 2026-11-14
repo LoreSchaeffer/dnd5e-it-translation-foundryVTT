@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2286,
+      "translated": 2287,
       "missing": 3,
-      "partial": 102,
+      "partial": 101,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14619,
-      "missing": 1041,
+      "translated": 14622,
+      "missing": 1038,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1046
+    "blockingIssues": 1043
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 251,
+          "translated": 252,
           "missing": 0,
-          "partial": 86,
+          "partial": 85,
           "review": 0
         },
         "folders": {
@@ -578,41 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6803,
-          "missing": 303,
+          "translated": 6806,
+          "missing": 300,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ZHAFrnCwCz17dmLc",
-          "name": "Troll",
-          "fieldPath": "items[BA9WmovILanbvacP].system.description.value",
-          "sourcePath": "monsters/giant/troll.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ZHAFrnCwCz17dmLc",
-          "name": "Troll",
-          "fieldPath": "items[yWYB2iyRA61AjcVJ].system.description.value",
-          "sourcePath": "monsters/giant/troll.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "ZHAFrnCwCz17dmLc",
-          "name": "Troll",
-          "fieldPath": "items[yWYB2iyRA61AjcVJ].system.description.chat",
-          "sourcePath": "monsters/giant/troll.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
