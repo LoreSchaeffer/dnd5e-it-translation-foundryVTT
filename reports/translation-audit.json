@@ -3,8 +3,8 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2387,
-      "missing": 2,
+      "translated": 2388,
+      "missing": 1,
       "partial": 2,
       "review": 0
     },
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14997,
-      "missing": 663,
+      "translated": 15000,
+      "missing": 660,
       "invariantFailures": 0,
       "englishResiduals": 0,
       "imperialResiduals": 0
     },
-    "blockingIssues": 667
+    "blockingIssues": 666
   },
   "packs": [
     {
@@ -620,8 +620,8 @@
       "summary": {
         "documents": {
           "total": 20,
-          "translated": 16,
-          "missing": 2,
+          "translated": 17,
+          "missing": 1,
           "partial": 2,
           "review": 0
         },
@@ -634,8 +634,8 @@
         },
         "fields": {
           "total": 877,
-          "translated": 214,
-          "missing": 663,
+          "translated": 217,
+          "missing": 660,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -6194,14 +6194,6 @@
           "name": "Chapter 5: Equipment",
           "fieldPath": "pages[ixeXj7Eqq5zPDUYo].text.content",
           "sourcePath": "rules/chapter-5-equipment.yml"
-        },
-        {
-          "code": "missing-document",
-          "severity": "blocking",
-          "pack": "rules",
-          "id": "xxt7YT2t76JxNTel",
-          "name": "Disclaimer",
-          "sourcePath": "rules/disclaimer.yml"
         },
         {
           "code": "missing-document",

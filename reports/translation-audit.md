@@ -11,13 +11,13 @@
 | monsterfeatures | 252 | 252 | 0 | 0 | 0 | 0 | 0 |
 | monsters | 337 | 337 | 0 | 0 | 0 | 0 | 0 |
 | races | 35 | 35 | 0 | 0 | 0 | 0 | 0 |
-| rules | 20 | 16 | 2 | 2 | 0 | 663 | 619 |
+| rules | 20 | 17 | 1 | 2 | 0 | 660 | 618 |
 | spells | 320 | 320 | 0 | 0 | 0 | 0 | 0 |
 | subclasses | 12 | 12 | 0 | 0 | 0 | 0 | 0 |
 | tables | 31 | 31 | 0 | 0 | 0 | 0 | 0 |
 | tradegoods | 23 | 23 | 0 | 0 | 0 | 0 | 0 |
 
-Total blocking issues: 667
+Total blocking issues: 666
 
 ## Issues
 
@@ -686,5 +686,4 @@ Total blocking issues: 667
 - **missing-field** `rules:BYFd9hiJGo9L5aOM:pages[FayGZfFQU5llJ0LQ].text.content`
 - **missing-field** `rules:BYFd9hiJGo9L5aOM:pages[qUyioT438hkwApBG].text.content`
 - **missing-field** `rules:BYFd9hiJGo9L5aOM:pages[ixeXj7Eqq5zPDUYo].text.content`
-- **missing-document** `rules:xxt7YT2t76JxNTel`
 - **missing-document** `rules:sfJtvPjEs50Ruzi4`
