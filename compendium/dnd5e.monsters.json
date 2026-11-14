@@ -7290,7 +7290,8 @@
           "description": "<p>Quando una delle due teste dell’[[lookup @name lowercase]]{monster} dorme, l'altra testa è sveglia.</p>"
         },
         "FcbmWHMk3H4MGdxy": {
-          "name": "Multiattacco"
+          "name": "Multiattacco",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} effettua due attacchi: uno con la sua [[/item .T1QQrbvnvnM73eIe]]{ascia da battaglia} e uno con la sua [[/item .5ri5zr7IJKsaZNF7]]{stella del mattino}.</p>"
         },
         "T1QQrbvnvnM73eIe": {
           "name": "Ascia da Battaglia",
@@ -7303,7 +7304,8 @@
           "chat": "<p>Il [[lookup @name]]{mostro} attacca con il proprio [[lookup @item.name]].</p>"
         },
         "hon1LZGigQRl2jBn": {
-          "name": "Due Teste"
+          "name": "Due Teste",
+          "description": "<p>Il [[lookup @name lowercase]]{mostro} ha vantaggio alle prove di Saggezza (Percezione) e ai tiri salvezza contro l'essere &amp;reference[blinded apply=false], &amp;reference[charmed apply=false], &amp;reference[deafened apply=false], &amp;reference[frightened apply=false], &amp;reference[stunned apply=false] e reso &amp;reference[unconscious apply=false].</p>"
         }
       },
       "details": {

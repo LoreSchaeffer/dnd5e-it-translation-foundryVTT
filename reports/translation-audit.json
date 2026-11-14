@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2277,
+      "translated": 2278,
       "missing": 3,
-      "partial": 111,
+      "partial": 110,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14582,
-      "missing": 1078,
+      "translated": 14584,
+      "missing": 1076,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1083
+    "blockingIssues": 1081
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 242,
+          "translated": 243,
           "missing": 0,
-          "partial": 95,
+          "partial": 94,
           "review": 0
         },
         "folders": {
@@ -578,8 +578,8 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6766,
-          "missing": 340,
+          "translated": 6768,
+          "missing": 338,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
@@ -810,24 +810,6 @@
           "name": "Vrock",
           "fieldPath": "items[Ijd3GKLRlMzwoSe1].system.description.chat",
           "sourcePath": "monsters/fiend/vrock.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "KLCkHep28HBfdsky",
-          "name": "Ettin",
-          "fieldPath": "items[hon1LZGigQRl2jBn].system.description.value",
-          "sourcePath": "monsters/giant/ettin.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "KLCkHep28HBfdsky",
-          "name": "Ettin",
-          "fieldPath": "items[FcbmWHMk3H4MGdxy].system.description.value",
-          "sourcePath": "monsters/giant/ettin.yml"
         },
         {
           "code": "missing-field",
