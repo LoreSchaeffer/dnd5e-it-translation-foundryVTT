@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2246,
+      "translated": 2247,
       "missing": 3,
-      "partial": 142,
+      "partial": 141,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14450,
-      "missing": 1210,
+      "translated": 14452,
+      "missing": 1208,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 1215
+    "blockingIssues": 1213
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 211,
+          "translated": 212,
           "missing": 0,
-          "partial": 126,
+          "partial": 125,
           "review": 0
         },
         "folders": {
@@ -578,32 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6634,
-          "missing": 472,
+          "translated": 6636,
+          "missing": 470,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "banHjKDMCegbUwYE",
-          "name": "Air Elemental",
-          "fieldPath": "items[PVdWTEQBuiAglD7l].system.description.value",
-          "sourcePath": "monsters/elemental/air-elemental.yml"
-        },
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "banHjKDMCegbUwYE",
-          "name": "Air Elemental",
-          "fieldPath": "items[PVdWTEQBuiAglD7l].system.description.chat",
-          "sourcePath": "monsters/elemental/air-elemental.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",

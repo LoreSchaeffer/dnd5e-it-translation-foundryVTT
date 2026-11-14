@@ -1,0 +1,8 @@
+{
+  "monsters": {
+    "banHjKDMCegbUwYE": {
+      "items[PVdWTEQBuiAglD7l].system.description.value": "<p>Ogni creatura nello spazio del [[lookup @name lowercase]]{mostro} deve effettuare un tiro salvezza [[/save activity=O0oP6dlhQ4kdTAGU]]. Se lo fallisce, un bersaglio subisce [[/damage average activity=O0oP6dlhQ4kdTAGU]] danni, viene scagliato fino a 6 metri lontano dal [[lookup @name lowercase]]{mostro} in una direzione casuale e buttato &amp;reference[prone]{a terra}.</p><p>Se un bersaglio scagliato colpisce un oggetto, come una parete o il pavimento, subisce [[/damage activity=dnd5eactivity000 average]] danni per ogni 3 metri di cui è stato scagliato. Se il bersaglio viene scagliato contro un'altra creatura, quest'ultima deve superare un tiro salvezza [[/save activity=k9fqQYuxbnT3pwT3]], altrimenti subisce gli stessi danni e viene buttata &amp;reference[prone]{a terra}. Se il tiro salvezza riesce, il bersaglio subisce la metà dei danni contundenti e non viene scagliato via né buttato a terra.</p>",
+      "items[PVdWTEQBuiAglD7l].system.description.chat": "<p>Ogni creatura nello spazio del [[lookup @name]]{mostro} deve effettuare un tiro salvezza su Forza. Se lo fallisce, un bersaglio viene scagliato fino a 6 metri lontano dal [[lookup @name]]{mostro} in una direzione casuale e buttato &amp;reference[prone]{a terra}. Se il bersaglio viene scagliato contro un'altra creatura, quest'ultima deve effettuare un tiro salvezza su Destrezza, altrimenti subisce gli stessi danni e viene buttata &amp;reference[prone]{a terra}.</p>"
+    }
+  }
+}
