@@ -3,9 +3,9 @@
   "totals": {
     "documents": {
       "total": 2391,
-      "translated": 2329,
+      "translated": 2330,
       "missing": 3,
-      "partial": 59,
+      "partial": 58,
       "review": 1
     },
     "folders": {
@@ -17,13 +17,13 @@
     },
     "fields": {
       "total": 15660,
-      "translated": 14770,
-      "missing": 890,
+      "translated": 14771,
+      "missing": 889,
       "invariantFailures": 0,
       "englishResiduals": 3,
       "imperialResiduals": 0
     },
-    "blockingIssues": 895
+    "blockingIssues": 894
   },
   "packs": [
     {
@@ -564,9 +564,9 @@
       "summary": {
         "documents": {
           "total": 337,
-          "translated": 294,
+          "translated": 295,
           "missing": 0,
-          "partial": 43,
+          "partial": 42,
           "review": 0
         },
         "folders": {
@@ -578,23 +578,14 @@
         },
         "fields": {
           "total": 7106,
-          "translated": 6954,
-          "missing": 152,
+          "translated": 6955,
+          "missing": 151,
           "invariantFailures": 0,
           "englishResiduals": 0,
           "imperialResiduals": 0
         }
       },
       "issues": [
-        {
-          "code": "missing-field",
-          "severity": "blocking",
-          "pack": "monsters",
-          "id": "T2PExQE84ZcIbAXz",
-          "name": "Hippogriff",
-          "fieldPath": "items[bUWbRbY7TpLSL1kO].system.description.value",
-          "sourcePath": "monsters/monstrosity/hippogriff.yml"
-        },
         {
           "code": "missing-field",
           "severity": "blocking",
